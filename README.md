@@ -67,7 +67,8 @@ Tout l'audio de l'addon a été généré : 10 632 fichiers, 3,1 Go.
 - **Elise** : sa voix ElevenLabs, pour 365 débuts et 209 fins de quête, 50 présentations de zone, 59 répliques de
   niveau, 950 pages de livres et 70 répliques sur les compagnons.
 
-**L'audio n'est pas dans ce dépôt** : il est distribué à part, avec l'addon prêt à installer.
+**L'audio n'est pas dans ce dépôt** : il est distribué à part, dans une archive des voix (3,2 Go) partagée par lien.
+L'addon publié marche sans elle : la synthèse vocale du jeu lit alors les textes.
 
 **Le dépôt contient tout le code pour le refaire** : l'import des données, les fiches de personnalité des PNJ, les
 textes, la création des voix, les lectures, le juge automatique qui garde ou rejette chaque essai (Whisper, ECAPA)
@@ -84,11 +85,18 @@ et l'index de l'addon. La chaîne complète, étape par étape : [docs/pipeline.
 ## Installer
 
 1. Fermer le jeu.
-2. Copier le dossier `ForeverSpeech` de l'archive dans `World of Warcraft/_forever_/Interface/AddOns/`.
-3. Lancer le jeu ; à la sélection du personnage, dans « AddOns », cocher Alliance Épique.
-4. En jeu : `/fs` ouvre la fenêtre, `/fs options` les options.
+2. Copier le dossier `ForeverSpeech` de l'archive de l'addon (`AllianceEpique-<version>.zip`, 18 Mo) dans
+   `World of Warcraft/_forever_/Interface/AddOns/`.
+3. Les voix, facultatives : décompresser l'archive des voix (`AllianceEpique-audio-<version>.zip`, partagée à part) dans
+   le même dossier `AddOns` ; elle complète le dossier `ForeverSpeech`. Sans elle, les textes sont lus par la synthèse
+   vocale du jeu. Elle sert aussi aux versions suivantes de l'addon.
+4. Lancer le jeu ; à la sélection du personnage, dans « AddOns », cocher Alliance Épique.
+5. En jeu : `/fs` ouvre la fenêtre, `/fs options` les options.
 
-Une copie du dépôt ne suffit pas : l'audio et l'index de l'addon (`data/index.lua`, généré) n'y sont pas.
+FlareUI est une dépendance facultative : conseillé pour le setup complet (Alliance Épique en prend l'apparence quand il
+est là), l'addon garde l'apparence du jeu sans lui.
+
+Une copie du dépôt ne suffit pas : l'index de l'addon (`data/index.lua`) est généré ; il est dans l'archive de l'addon.
 
 ## Pour aller plus loin
 

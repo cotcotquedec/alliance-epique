@@ -4,7 +4,11 @@
 > disposition, voir README), affiché dans le jeu (`H.TITLE` : titre du TOC, fenêtres, options, raccourcis, chat ;
 > vérifié en jeu le 2026-11-05, T65). Le dossier, les globales, les SavedVariables et la commande gardent
 > **ForeverSpeech** et `/fs`.
-> L'audio n'est pas dans le dépôt ; sa fabrication : [docs/pipeline.md](docs/pipeline.md).
+> L'audio n'est pas dans le dépôt ; sa fabrication : [docs/pipeline.md](docs/pipeline.md). **Releases** (2026-11-05) : deux
+> archives (`tools/package_addon.ts`) : l'addon sans l'audio (18 Mo), à publier (GitHub, CurseForge ou Wago), et ses voix
+> (3,2 Go), partagées à part par le joueur (Drive), refaites seulement quand des voix changent (`--no-audio` sinon) ;
+> FlareUI en dépendance optionnelle (`## OptionalDeps`, à déclarer aussi sur CurseForge). Le dépôt public
+> [alliance-epique](https://github.com/cotcotquedec/alliance-epique) est un instantané sans historique de celui-ci.
 
 ## 1. Objectif
 

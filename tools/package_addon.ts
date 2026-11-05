@@ -1,16 +1,22 @@
-// Builds a shareable archive of the addon (2026-10-20): only what the game loads and plays, nothing of the pipeline.
-// Kept: the files the TOC loads (minus dev\, the API dump tool), media\ (textures), and of audio\ only the files the
-// index plays (data/index.lua: every `file`/`fileF`) and the test sound (core/player.lua, fallback "test"). Left out:
-// the voice models and FLAC masters (data/, never in the addon), any audio the index does not name (the NPC dialogues
-// are in since the index names them, v9, 2026-10-21: D14). In the archive's index, the `voice` fields are dropped (the pipeline's record of
-// the voice a file was made with, §8; the addon never reads them). A LISEZMOI.txt (install, credits) goes next to the folder.
-// Out: dist/ForeverSpeech-<version>-<date>.zip (dist/ is not versioned), its staging folder dist/ForeverSpeech.
+// Builds the release archives of the addon (2026-10-20; two archives since 2026-11-05): only what the game loads and
+// plays, nothing of the pipeline. The audio changes little and is heavy, the addon changes often (decided 2026-11-05):
+// - the addon: the files the TOC loads (minus dev\, the API dump tool), media\ (textures), the index and the test sounds
+//   (core/player.lua, fallback "test"); to publish (GitHub, CurseForge, Wago). Without the audio, every line plays with
+//   the client's speech synthesis (the index names files the client does not find: the fallback);
+// - the audio: of audio\ only the files the index plays (data/index.lua: every `file`/`fileF`), under
+//   ForeverSpeech/audio/, to unzip into the AddOns folder (it completes the addon's folder); shared apart (a Drive link).
+// Left out: the voice models and FLAC masters (data/, never in the addon), any audio the index does not name. In the
+// addon's index, the `voice` fields are dropped (the pipeline's record of the voice a file was made with, §8; the addon
+// never reads them). A LISEZMOI.txt (install, credits) goes in each archive, next to the folder.
+// Out (dist/ is not versioned): dist/AllianceEpique-<version>-<date>.zip, staged in dist/addon/, and
+// dist/AllianceEpique-audio-<version>-<date>.zip, zipped straight from the addon's folder (nothing copied).
 // Needs the generated data/index.lua and data/game_voices.lua (pipeline/build_index.py, pipeline/game_voices.py).
-// --tag: an annotated git tag archive-<version>-<date>[-n] on HEAD, once the zip is built (not pushed); refused while
-// the addon's tracked files have uncommitted changes (the tag names the code; audio and index are not in git). The
+// --no-audio: the addon's archive only (a release whose voices did not change).
+// --tag: an annotated git tag archive-<version>-<date>[-n] on HEAD, once the archives are built (not pushed); refused
+// while the addon's tracked files have uncommitted changes (the tag names the code; audio and index are not in git). The
 // commit and the tag are written in LISEZMOI.txt either way: the archive tag, else a release tag on HEAD (v<version>,
 // 2026-10-21: the GitHub releases).
-//   node tools/package_addon.ts [--dry-run] [--tag]
+//   node tools/package_addon.ts [--dry-run] [--no-audio] [--tag]
 import { execFileSync } from "node:child_process";
 import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { dirname, join, relative } from "node:path";
@@ -19,10 +25,10 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const ADDON = join(ROOT, "addon/ForeverSpeech");
 const DIST = join(ROOT, "dist");
-const STAGE = join(DIST, "ForeverSpeech");
 const TEST_SOUNDS = ["audio/test/test_1.ogg", "audio/test/test_2.ogg"];
 const DRY = process.argv.includes("--dry-run");
 const TAG = process.argv.includes("--tag");
+const NO_AUDIO = process.argv.includes("--no-audio");
 
 const git = (...args: string[]) => execFileSync("git", args, { cwd: ROOT, encoding: "utf8" }).trim();
 
@@ -59,6 +65,9 @@ const leftOut = allAudio.filter((f) => !files.has(relative(ADDON, f)));
 const leftOutSize = leftOut.reduce((sum, f) => sum + statSync(f).size, 0);
 
 console.log(`addon v${version}: ${kept.length} files, ${mb(size)} (audio played by the index: ${played.size})`);
+const audioSize = kept.filter((f) => f.startsWith("audio/") && !TEST_SOUNDS.includes(f))
+  .reduce((sum, f) => sum + statSync(join(ADDON, f)).size, 0);
+console.log(`archives: the addon ${mb(size - audioSize)}, its audio ${mb(audioSize)}${NO_AUDIO ? " (not built: --no-audio)" : ""}`);
 console.log(`left out: ${leftOut.length} audio files the index does not play (${mb(leftOutSize)}), dev/`);
 if (missing.length) {
   console.log(`missing (named but absent): ${missing.length}, e.g. ${missing.slice(0, 5).join(", ")}`);
@@ -79,18 +88,32 @@ if (TAG) {
 }
 if (DRY) process.exit(0);
 
-rmSync(STAGE, { recursive: true, force: true });
-for (const f of kept) {
-  mkdirSync(dirname(join(STAGE, f)), { recursive: true });
-  copyFileSync(join(ADDON, f), join(STAGE, f));
+const name = tag ? tag.replace(/^archive-/, "AllianceEpique-") : `AllianceEpique-${version}-${date}`;
+const audioName = name.replace(/^AllianceEpique-/, "AllianceEpique-audio-");
+const credits = `Pour le client français, quêtes de l'Alliance. Projet de fan, sans garantie et sans lien avec Blizzard.
+
+Crédits
+  Données des quêtes et des PNJ : Forever Database (github.com/Stein-N/WoW-Quest-Database, GPL-3.0),
+  d'après QuestieDB (GPL-3.0), VMaNGOS (GPL-2.0) et AzerothCore.
+  Voix : Qwen3-TTS (génération locale) ; Elise : ElevenLabs.
+  Textes des quêtes : Blizzard Entertainment. World of Warcraft est une marque de Blizzard Entertainment.
+`;
+
+// The addon: staged in dist/addon/ (a few Mo), then zipped.
+const addonFiles = kept.filter((f) => !f.startsWith("audio/") || TEST_SOUNDS.includes(f));
+const audioFiles = kept.filter((f) => f.startsWith("audio/") && !TEST_SOUNDS.includes(f));
+const ADDON_STAGE = join(DIST, "addon");
+rmSync(ADDON_STAGE, { recursive: true, force: true });
+for (const f of addonFiles) {
+  mkdirSync(dirname(join(ADDON_STAGE, "ForeverSpeech", f)), { recursive: true });
+  copyFileSync(join(ADDON, f), join(ADDON_STAGE, "ForeverSpeech", f));
 }
-writeFileSync(join(STAGE, "ForeverSpeech.toc"), tocLines.join("\n"));
+writeFileSync(join(ADDON_STAGE, "ForeverSpeech", "ForeverSpeech.toc"), tocLines.join("\n"));
 const stripped = index.replace(/voice = "[^"]*",[ \t]*/g, "");
 if (/voice = "/.test(stripped)) throw new Error("index.lua: a voice field left (its shape changed)");
-writeFileSync(join(STAGE, "data/index.lua"), stripped);
-
+writeFileSync(join(ADDON_STAGE, "ForeverSpeech", "data/index.lua"), stripped);
 writeFileSync(
-  join(DIST, "LISEZMOI.txt"),
+  join(ADDON_STAGE, "LISEZMOI.txt"),
   `Alliance Épique ${version} (${date}) — ton compagnon pour l'Alliance sur WoW Forever : les quêtes lues à voix haute,
 en français, une voix par PNJ ; Elise la narratrice ; du confort sans changer le jeu.
 Version : ${tag || release || "sans tag"}, commit ${commit}.
@@ -99,29 +122,55 @@ Installation
   1. Fermer le jeu.
   2. Copier le dossier « ForeverSpeech » dans le dossier des addons :
        World of Warcraft/_forever_/Interface/AddOns/
-  3. Lancer le jeu ; à la sélection du personnage, « AddOns » : Alliance Épique coché.
+  3. Les voix (facultatif, environ 3 Go) : l'archive « ${audioName}.zip », partagée à part. La décompresser dans le
+     même dossier AddOns : elle complète le dossier « ForeverSpeech ». Sans elle, les textes sont lus par la synthèse
+     vocale du jeu.
+  4. Lancer le jeu ; à la sélection du personnage, « AddOns » : Alliance Épique coché.
+
+Conseillé (facultatif) : FlareUI, pour l'interface qui va avec (Alliance Épique en prend l'apparence quand il est là).
 
 Utilisation
   /fs          ouvre la fenêtre de lecture
   /fs options  les options
   /fs help     toutes les commandes
 
-Pour le client français, quêtes de l'Alliance. Projet de fan, sans garantie et sans lien avec Blizzard.
-
-Crédits
-  Données des quêtes et des PNJ : Forever Database (github.com/Stein-N/WoW-Quest-Database, GPL-3.0),
-  d'après QuestieDB (GPL-3.0), VMaNGOS (GPL-2.0) et AzerothCore.
-  Voix : Qwen3-TTS (génération locale) ; Elise : ElevenLabs.
-  Textes des quêtes : Blizzard Entertainment. World of Warcraft est une marque de Blizzard Entertainment.
-`,
+${credits}`,
 );
-
-const zip = join(DIST, `${tag ? tag.replace(/^archive-/, "ForeverSpeech-") : `ForeverSpeech-${version}-${date}`}.zip`);
+const zip = join(DIST, `${name}.zip`);
 rmSync(zip, { force: true });
 // .ogg and .tga already compact or small: stored as they are (-n), the Lua compressed
-execFileSync("zip", ["-q", "-r", "-X", "-n", ".ogg", zip, "ForeverSpeech", "LISEZMOI.txt"], { cwd: DIST });
-console.log(`archive: ${relative(ROOT, zip)} (${mb(statSync(zip).size)})`);
+execFileSync("zip", ["-q", "-r", "-X", "-n", ".ogg", zip, "ForeverSpeech", "LISEZMOI.txt"], { cwd: ADDON_STAGE });
+console.log(`addon: ${relative(ROOT, zip)} (${addonFiles.length} files, ${mb(statSync(zip).size)})`);
+
+// The audio: zipped straight from the addon's folder (no copy of 3 Go), with its own LISEZMOI.
+let audioZip = "";
+if (!NO_AUDIO) {
+  audioZip = join(DIST, `${audioName}.zip`);
+  rmSync(audioZip, { force: true });
+  const notes = join(DIST, "LISEZMOI-voix.txt");
+  writeFileSync(
+    notes,
+    `Alliance Épique — les voix (${audioFiles.length} fichiers), version ${version} (${date}), commit ${commit}.
+
+Installation
+  1. Fermer le jeu (de nouveaux fichiers ne sont vus qu'au lancement du jeu).
+  2. Décompresser cette archive dans le dossier des addons :
+       World of Warcraft/_forever_/Interface/AddOns/
+     Elle complète le dossier « ForeverSpeech » de l'addon (installé à part) : ForeverSpeech/audio/.
+  3. Lancer le jeu.
+
+Les voix servent aussi aux versions suivantes de l'addon ; une quête sans sa voix est lue par la synthèse vocale du jeu.
+
+${credits}`,
+  );
+  const names = audioFiles.map((f) => `ForeverSpeech/${f}`).join("\n");
+  execFileSync("zip", ["-q", "-X", "-n", ".ogg", audioZip, "-@"], { cwd: dirname(ADDON), input: names });
+  execFileSync("zip", ["-q", "-j", "-X", audioZip, notes]);
+  rmSync(notes, { force: true });
+  console.log(`audio: ${relative(ROOT, audioZip)} (${audioFiles.length} files, ${mb(statSync(audioZip).size)})`);
+}
 if (tag) {
-  git("tag", "-a", tag, "-m", `Shared archive ${tag}: ${kept.length} files, ${mb(statSync(zip).size)}, ${played.size} audio files`);
+  const what = audioZip ? `, audio ${mb(statSync(audioZip).size)}` : "";
+  git("tag", "-a", tag, "-m", `Release archives ${tag}: addon ${mb(statSync(zip).size)}${what}, ${played.size} audio files`);
   console.log(`tagged ${tag} (local; to share it: git push origin ${tag})`);
 }
