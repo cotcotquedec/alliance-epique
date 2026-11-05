@@ -1671,3 +1671,19 @@ combat ou un `/reload`, toute erreur Lua (la trace dirait `fade: stopped after a
 **Premier essai (2026-11-05)** : l'effacement marche (« Ça marche bien »). Demandé : 20 % au lieu de 10 % pour
 l'interface, la mini-carte arrêtée à 40 % pour rester un peu visible. Deuxième essai : la mini-carte « saute » ; elle ne s'efface plus
 du tout, l'addon ne touche plus à son opacité (fait le même jour ; à revoir en jeu).
+
+## T69 — Les voix dans leur propre dossier (2026-11-05)
+
+**Livré** (branche `session/2026-11-05-profession-tabs`, PR #35, H43). Les voix sont livrées à part, dans le dossier
+`AllianceEpique_Voix`, à côté de `ForeverSpeech` : une mise à jour de l'addon (CurseForge remplace son dossier) ne les
+efface plus. L'addon les y lit quand ce dossier est installé, sinon dans le sien. **Prérequis** : environ 3,2 Go libres
+sur le disque du jeu.
+
+| # | Action | Attendu |
+|---|---|---|
+| 1 | Jeu fermé, décompresser `dist/AllianceEpique-audio-0.2.0-2026-11-05.zip` dans `_forever_/Interface/AddOns/`, puis lancer le jeu | Dans la liste des addons : « Alliance Épique — Voix », à côté d'« Alliance Épique ». |
+| 2 | Accepter une quête qui a sa voix (ou `/fs play <id>`) | Elle est lue avec sa voix, pas la synthèse vocale. |
+| 3 | Jeu fermé, retirer le dossier `AllianceEpique_Voix`, relancer, rejouer la quête | Toujours sa voix : celle du dossier de l'addon (ton installation de développement). |
+| 4 | `/reload` | Rien à coller : je lis la trace (`index: voices folder installed` puis `absent`). |
+
+**À relever** : une quête lue par la synthèse vocale alors que sa voix existe, toute erreur Lua.

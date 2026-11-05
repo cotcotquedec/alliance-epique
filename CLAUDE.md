@@ -6,7 +6,8 @@
 > **ForeverSpeech** et `/fs`.
 > L'audio n'est pas dans le dépôt ; sa fabrication : [docs/pipeline.md](docs/pipeline.md). **Releases** (2026-11-05) : deux
 > archives (`tools/package_addon.ts`) : l'addon sans l'audio (18 Mo), à publier (GitHub, CurseForge ou Wago), et ses voix
-> (3,2 Go), partagées à part par le joueur (Drive), refaites seulement quand des voix changent (`--no-audio` sinon) ;
+> (3,2 Go), partagées à part par le joueur (Drive), refaites seulement quand des voix changent (`--no-audio` sinon), dans
+> leur propre dossier `AllianceEpique_Voix` à côté de l'addon (une mise à jour remplace le dossier de l'addon, pas celui-là) ;
 > FlareUI en dépendance optionnelle (`## OptionalDeps`, à déclarer aussi sur CurseForge). Le dépôt public
 > [alliance-epique](https://github.com/cotcotquedec/alliance-epique) est un instantané sans historique de celui-ci.
 
@@ -236,7 +237,9 @@ Le lecteur prend le donneur de la capture, sinon `giver` ; puis `npcs[id].displa
 si la capture n'a pas de nom. Pour une fin de quête : le PNJ de la capture de rendu, sinon `ender`. Sans PNJ (v4) :
 le nom de la capture (un objet), sinon celui de l'orateur de l'audio, `npcs[detail.npc].name` (« Elise »).
 
-Sélection de fichier : `fileF` si `UnitSex("player") == 3` et `fileF ~= nil`, sinon `file`.
+Sélection de fichier : `fileF` si `UnitSex("player") == 3` et `fileF ~= nil`, sinon `file`. Depuis le 2026-11-05, un
+chemin de `ForeverSpeech\audio\` est lu dans `AllianceEpique_Voix\audio\` quand ce dossier (les voix, livrées à part)
+est installé (`Index.FileFor`, `C_AddOns.DoesAddOnExist` ; non vérifié : T69, H43).
 Entrée absente → fallback **et** capture enregistrée pour génération ultérieure. Fallback par défaut depuis le 2026-10-05 : **TTS du client** (`C_VoiceChat.SpeakText`, voix fr-FR, disponible sur Forever, S5) sur le texte capturé, sinon le texte du journal. Autres réglages : `test` (son de test) ou `none` (`/fs fallback`).
 
 ## 9. Spécification fonctionnelle — Phase 1 (audio de test)

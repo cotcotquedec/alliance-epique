@@ -3,13 +3,15 @@
 // - the addon: the files the TOC loads (minus dev\, the API dump tool), media\ (textures), the index and the test sounds
 //   (core/player.lua, fallback "test"); to publish (GitHub, CurseForge, Wago). Without the audio, every line plays with
 //   the client's speech synthesis (the index names files the client does not find: the fallback);
-// - the audio: of audio\ only the files the index plays (data/index.lua: every `file`/`fileF`), under
-//   ForeverSpeech/audio/, to unzip into the AddOns folder (it completes the addon's folder); shared apart (a Drive link).
+// - the voices: of audio\ only the files the index plays (data/index.lua: every `file`/`fileF`), in their own folder
+//   AllianceEpique_Voix (a TOC and audio; the addon reads them there, core/index.lua), to unzip into the AddOns folder
+//   next to the addon's: an update of the addon replaces its folder, not this one; shared apart (a Drive link).
 // Left out: the voice models and FLAC masters (data/, never in the addon), any audio the index does not name. In the
 // addon's index, the `voice` fields are dropped (the pipeline's record of the voice a file was made with, §8; the addon
 // never reads them). A LISEZMOI.txt (install, credits) goes in each archive, next to the folder.
 // Out (dist/ is not versioned): dist/AllianceEpique-<version>-<date>.zip, staged in dist/addon/, and
-// dist/AllianceEpique-audio-<version>-<date>.zip, zipped straight from the addon's folder (nothing copied).
+// dist/AllianceEpique-audio-<version>-<date>.zip, staged in dist/voices/ (its TOC, and audio\ a link to the addon's:
+// nothing copied).
 // Needs the generated data/index.lua and data/game_voices.lua (pipeline/build_index.py, pipeline/game_voices.py).
 // --no-audio: the addon's archive only (a release whose voices did not change).
 // --tag: an annotated git tag archive-<version>-<date>[-n] on HEAD, once the archives are built (not pushed); refused
@@ -18,7 +20,9 @@
 // 2026-10-21: the GitHub releases).
 //   node tools/package_addon.ts [--dry-run] [--no-audio] [--tag]
 import { execFileSync } from "node:child_process";
-import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
+import {
+  copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, symlinkSync, writeFileSync,
+} from "node:fs";
 import { dirname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -123,8 +127,8 @@ Installation
   2. Copier le dossier « ForeverSpeech » dans le dossier des addons :
        World of Warcraft/_forever_/Interface/AddOns/
   3. Les voix (facultatif, environ 3 Go) : l'archive « ${audioName}.zip », partagée à part. La décompresser dans le
-     même dossier AddOns : elle complète le dossier « ForeverSpeech ». Sans elle, les textes sont lus par la synthèse
-     vocale du jeu.
+     même dossier AddOns : elle y ajoute le dossier « AllianceEpique_Voix », à côté de « ForeverSpeech » (une mise à
+     jour de l'addon n'y touche pas). Sans elle, les textes sont lus par la synthèse vocale du jeu.
   4. Lancer le jeu ; à la sélection du personnage, « AddOns » : Alliance Épique coché.
 
 Conseillé (facultatif) : FlareUI, pour l'interface qui va avec (Alliance Épique en prend l'apparence quand il est là).
@@ -142,11 +146,29 @@ rmSync(zip, { force: true });
 execFileSync("zip", ["-q", "-r", "-X", "-n", ".ogg", zip, "ForeverSpeech", "LISEZMOI.txt"], { cwd: ADDON_STAGE });
 console.log(`addon: ${relative(ROOT, zip)} (${addonFiles.length} files, ${mb(statSync(zip).size)})`);
 
-// The audio: zipped straight from the addon's folder (no copy of 3 Go), with its own LISEZMOI.
+// The voices: their folder AllianceEpique_Voix staged in dist/voices/ (its TOC; audio\ a link to the addon's, followed
+// by zip: no copy of 3 Go), with its own LISEZMOI.
+const VOICES = "AllianceEpique_Voix";
 let audioZip = "";
 if (!NO_AUDIO) {
   audioZip = join(DIST, `${audioName}.zip`);
   rmSync(audioZip, { force: true });
+  const VOICES_STAGE = join(DIST, "voices");
+  rmSync(VOICES_STAGE, { recursive: true, force: true });
+  mkdirSync(join(VOICES_STAGE, VOICES), { recursive: true });
+  symlinkSync(join(ADDON, "audio"), join(VOICES_STAGE, VOICES, "audio"));
+  writeFileSync(
+    join(VOICES_STAGE, VOICES, `${VOICES}.toc`),
+    [
+      `## Interface: ${(toc.match(/^## Interface:\s*(\S+)/m) ?? [])[1] ?? "16001"}`,
+      "## Title: Alliance Épique — Voix",
+      "## Notes: The voices of Alliance Épique: the addon (ForeverSpeech) plays them from this folder.",
+      "## Notes-frFR: Les voix d'Alliance Épique : l'addon (ForeverSpeech) les lit dans ce dossier.",
+      "## Author: cotcotquedec",
+      `## Version: ${version}`,
+      "",
+    ].join("\n"),
+  );
   const notes = join(DIST, "LISEZMOI-voix.txt");
   writeFileSync(
     notes,
@@ -156,15 +178,16 @@ Installation
   1. Fermer le jeu (de nouveaux fichiers ne sont vus qu'au lancement du jeu).
   2. Décompresser cette archive dans le dossier des addons :
        World of Warcraft/_forever_/Interface/AddOns/
-     Elle complète le dossier « ForeverSpeech » de l'addon (installé à part) : ForeverSpeech/audio/.
+     Elle y ajoute le dossier « AllianceEpique_Voix », à côté de « ForeverSpeech » (l'addon, installé à part) ; une mise
+     à jour de l'addon, par CurseForge ou à la main, n'y touche pas.
   3. Lancer le jeu.
 
 Les voix servent aussi aux versions suivantes de l'addon ; une quête sans sa voix est lue par la synthèse vocale du jeu.
 
 ${credits}`,
   );
-  const names = audioFiles.map((f) => `ForeverSpeech/${f}`).join("\n");
-  execFileSync("zip", ["-q", "-X", "-n", ".ogg", audioZip, "-@"], { cwd: dirname(ADDON), input: names });
+  const names = [`${VOICES}/${VOICES}.toc`, ...audioFiles.map((f) => `${VOICES}/${f}`)].join("\n");
+  execFileSync("zip", ["-q", "-X", "-n", ".ogg", audioZip, "-@"], { cwd: VOICES_STAGE, input: names });
   execFileSync("zip", ["-q", "-j", "-X", audioZip, notes]);
   rmSync(notes, { force: true });
   console.log(`audio: ${relative(ROOT, audioZip)} (${audioFiles.length} files, ${mb(statSync(audioZip).size)})`);

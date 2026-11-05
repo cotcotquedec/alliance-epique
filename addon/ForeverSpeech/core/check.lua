@@ -39,6 +39,7 @@ Check.GLOBALS = {
   "C_Sound.IsPlaying", "C_Timer.After", "C_Texture.GetAtlasInfo", "GetTime", "GetBuildInfo", "GetLocale",
   "GetCursorPosition", { "GetMouseFoci", "GetMouseFocus" }, "ReloadUI", "Screenshot", "InCombatLockdown", "InCinematic",
   { "C_AddOns.LoadAddOn", "LoadAddOn" }, { "C_CVar.GetCVar", "GetCVar" }, { "C_CVar.SetCVar", "SetCVar" },
+  { "C_AddOns.DoesAddOnExist", "C_AddOns.GetAddOnInfo", "GetAddOnInfo" }, -- the voices' folder (H43)
   "issecretvalue",
   -- speech (client TTS fallback)
   "C_VoiceChat.SpeakText", "C_VoiceChat.StopSpeakingText", "C_VoiceChat.GetTtsVoices",

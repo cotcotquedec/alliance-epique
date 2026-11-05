@@ -88,8 +88,9 @@ et l'index de l'addon. La chaîne complète, étape par étape : [docs/pipeline.
 2. Copier le dossier `ForeverSpeech` de l'archive de l'addon (`AllianceEpique-<version>.zip`, 18 Mo) dans
    `World of Warcraft/_forever_/Interface/AddOns/`.
 3. Les voix, facultatives : décompresser l'archive des voix (`AllianceEpique-audio-<version>.zip`, partagée à part) dans
-   le même dossier `AddOns` ; elle complète le dossier `ForeverSpeech`. Sans elle, les textes sont lus par la synthèse
-   vocale du jeu. Elle sert aussi aux versions suivantes de l'addon.
+   le même dossier `AddOns`. Elle y ajoute le dossier `AllianceEpique_Voix`, à côté de `ForeverSpeech` : une mise à jour
+   de l'addon (par CurseForge ou à la main) n'y touche pas. Sans elle, les textes sont lus par la synthèse vocale du jeu.
+   Elle sert aussi aux versions suivantes de l'addon.
 4. Lancer le jeu ; à la sélection du personnage, dans « AddOns », cocher Alliance Épique.
 5. En jeu : `/fs` ouvre la fenêtre, `/fs options` les options.
 
