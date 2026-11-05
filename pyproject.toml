@@ -1,0 +1,13 @@
+[project]
+name = "foreverspeech-pipeline"
+version = "0.2.0"
+description = "Local data/audio pipeline for the ForeverSpeech WoW Forever addon (personal use)."
+requires-python = ">=3.11"
+dependencies = []  # stdlib only for now; ask before adding one
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests/pipeline", "tests/loop"]
+pythonpath = ["."]

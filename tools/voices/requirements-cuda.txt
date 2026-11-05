@@ -1,0 +1,17 @@
+# Voice environment on Linux with an NVIDIA GPU, e.g. WSL2 on Windows (.venv-voices, tools/voices/setup.sh):
+# Qwen3-TTS through the official PyTorch package (qwen-tts, which pins transformers 4.57.3: not in the same
+# environment as MLX-Audio), Whisper large-v3 (faster-whisper) and ECAPA (speechbrain), all on the GPU.
+# torch is the CUDA 12.6 build: CTranslate2 4.8 (faster-whisper) is linked against CUDA 12 (libcublas.so.12), and
+# the default PyPI build of torch 2.14 is CUDA 13.
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.14.1+cu126
+torchaudio==2.11.0+cu126
+qwen-tts==0.1.1
+faster-whisper==1.2.1
+ctranslate2==4.8.2
+jiwer==4.0.0
+numpy==2.5.3
+pyloudnorm==0.2.0
+soundfile==0.14.0
+soxr==1.1.0
+speechbrain==1.1.1

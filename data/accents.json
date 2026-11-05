@@ -1,0 +1,193 @@
+{
+  "schema": 1,
+  "about": "Accent of each race in French, for the voice descriptions (Qwen3-TTS VoiceDesign and others). Built on 2026-10-07 from the French dub of WoW (VF) when known, otherwise from the original English voices (VO) and the lore, transposed to French. Key = race as in voices.json (game voice sets). 'evidence': vf = attested in the French dub; vo = transposed from the English original; lore = our choice from the lore. 'adj' = race adjective [masculine, feminine] (the feminine one agrees with « race »). 'instruct_fr' is the clause appended to the NPC's French voice description; it replaces the generic 'accent français standard'.",
+  "default": "Human",
+  "races": {
+    "Human": {
+      "name_fr": "Humain",
+      "adj": [
+        "humain",
+        "humaine"
+      ],
+      "lore": "Royaume de Stormwind et anciens royaumes humains : la référence du monde « civilisé ».",
+      "vo": "Anglais américain neutre.",
+      "vf": "Français standard, sans accent marqué.",
+      "accent_fr": "Français standard de France.",
+      "voice_traits": "Aucun trait de race ; tout vient de la fiche du PNJ (âge, métier, caractère).",
+      "instruct_fr": "Parle un français natif de France, accent standard, sans aucun accent anglais ni étranger.",
+      "evidence": "vf",
+      "confidence": "haute"
+    },
+    "Dwarf": {
+      "name_fr": "Nain",
+      "adj": [
+        "nain",
+        "naine"
+      ],
+      "lore": "Nains de Forgefer et de Dun Morogh : montagnards, mineurs, forgerons, bons vivants et bourrus.",
+      "vo": "Accent écossais marqué.",
+      "vf": "Les nains roulent les r ; voix rocailleuse de « barbare ». Un joueur parle d'accent berrichon (non confirmé).",
+      "accent_fr": "Accent rural et montagnard de France, rocailleux, qui roule fortement les r.",
+      "voice_traits": "Voix grave, râpeuse, chaleureuse et bourrue, rires francs.",
+      "instruct_fr": "Parle un français natif de France avec un accent rural et montagnard prononcé : roule fortement les r, voix rocailleuse et bourrue, sans aucun accent anglais.",
+      "evidence": "vf",
+      "confidence": "haute pour les r roulés, moyenne pour la région"
+    },
+    "DarkIronDwarf": {
+      "name_fr": "Nain Sombrefer",
+      "adj": [
+        "nain Sombrefer",
+        "naine Sombrefer"
+      ],
+      "lore": "Nains du clan Sombrefer, longtemps asservis à Ragnaros : plus durs et plus sombres que ceux de Forgefer.",
+      "vo": "Accent écossais, plus dur.",
+      "vf": "Non documenté.",
+      "accent_fr": "Le même accent que les nains (r roulés), en plus sombre et plus dur.",
+      "voice_traits": "Voix grave, sèche, menaçante.",
+      "instruct_fr": "Parle un français natif de France avec un accent rural et montagnard : roule fortement les r, voix dure, sèche et menaçante, sans aucun accent anglais.",
+      "evidence": "vo",
+      "confidence": "moyenne"
+    },
+    "Gnome": {
+      "name_fr": "Gnome",
+      "adj": [
+        "gnome",
+        "gnome"
+      ],
+      "lore": "Gnomes de Gnomeregan : ingénieurs et inventeurs, vifs, enthousiastes, bavards.",
+      "vo": "Pas d'accent régional ; voix aiguë et rapide.",
+      "vf": "« La petite voix des gnomes » : aiguë, pas d'accent régional.",
+      "accent_fr": "Français standard, sans accent régional.",
+      "voice_traits": "Voix aiguë et légère, un peu nasillarde, débit rapide et précis d'ingénieur.",
+      "instruct_fr": "Parle un français natif de France, accent standard ; petite voix aiguë et un peu nasillarde, débit rapide et précis, sans aucun accent anglais.",
+      "evidence": "vf",
+      "confidence": "haute"
+    },
+    "LeperGnome": {
+      "name_fr": "Gnome lépreux",
+      "adj": [
+        "gnome lépreux",
+        "gnome lépreuse"
+      ],
+      "lore": "Gnomes irradiés restés à Gnomeregan, devenus hostiles et à demi fous.",
+      "vo": "Voix de gnome éraillée.",
+      "vf": "Non documenté.",
+      "accent_fr": "Français standard, sans accent régional.",
+      "voice_traits": "Voix aiguë, éraillée, maladive, un peu dérangée.",
+      "instruct_fr": "Parle un français natif de France, accent standard ; voix aiguë, éraillée et maladive, un peu dérangée, sans aucun accent anglais.",
+      "evidence": "lore",
+      "confidence": "moyenne"
+    },
+    "NightElf": {
+      "name_fr": "Elfe de la nuit",
+      "adj": [
+        "elfe de la nuit",
+        "elfe de la nuit"
+      ],
+      "lore": "Kaldorei de Teldrassil et Darnassus : peuple millénaire, druides et sentinelles, proche de la nature et d'Élune.",
+      "vo": "Pas d'accent régional ; ton posé, parfois légèrement exotique.",
+      "vf": "« La voix sage des elfes de la nuit » : français standard, soutenu.",
+      "accent_fr": "Français standard, diction soutenue.",
+      "voice_traits": "Voix claire, posée, mélodieuse ; solennité d'un peuple très ancien.",
+      "instruct_fr": "Parle un français natif de France, accent standard, diction soutenue et posée, voix claire et mélodieuse, sans aucun accent anglais ni étranger.",
+      "evidence": "vf",
+      "confidence": "haute"
+    },
+    "HighElf": {
+      "name_fr": "Haut-elfe",
+      "adj": [
+        "haut-elfe",
+        "haute-elfe"
+      ],
+      "lore": "Quel'dorei de Quel'Thalas : peuple raffiné et fier, magiciens.",
+      "vo": "Pas d'accent régional ; ton élégant.",
+      "vf": "Non documenté.",
+      "accent_fr": "Français standard, diction soutenue, un peu hautaine.",
+      "voice_traits": "Voix élégante, précise, légèrement condescendante.",
+      "instruct_fr": "Parle un français natif de France, accent standard, diction soutenue et raffinée, un peu hautaine, sans aucun accent anglais ni étranger.",
+      "evidence": "lore",
+      "confidence": "moyenne"
+    },
+    "Orc": {
+      "name_fr": "Orc",
+      "adj": [
+        "orc",
+        "orque"
+      ],
+      "lore": "Orcs de la Horde, venus de Draenor : guerriers, chamans, peuple d'honneur.",
+      "vo": "Pas d'accent régional ; voix grave et gutturale.",
+      "vf": "Français standard, voix grave et gutturale.",
+      "accent_fr": "Français standard.",
+      "voice_traits": "Voix très grave, gutturale et rauque, phrases courtes et franches.",
+      "instruct_fr": "Parle un français natif de France, accent standard ; voix très grave, gutturale et rauque, sans aucun accent anglais.",
+      "evidence": "vo",
+      "confidence": "moyenne"
+    },
+    "Troll": {
+      "name_fr": "Troll",
+      "adj": [
+        "troll",
+        "troll"
+      ],
+      "lore": "Trolls Sombrelances et autres tribus des îles et des jungles (Strangleronce, îles de l'Écho).",
+      "vo": "Accent jamaïcain (« mon »).",
+      "vf": "Accent créole antillais, « accent des îles » ; « man » en fin de phrase.",
+      "accent_fr": "Accent créole antillais.",
+      "voice_traits": "Débit chantant et détendu, voyelles ouvertes, r adoucis ou effacés.",
+      "instruct_fr": "Parle français avec un fort accent créole antillais : débit chantant et nonchalant, r adoucis ou effacés, voyelles ouvertes, sans aucun accent anglais.",
+      "evidence": "vf",
+      "confidence": "haute"
+    },
+    "Tauren": {
+      "name_fr": "Tauren",
+      "adj": [
+        "tauren",
+        "taurène"
+      ],
+      "lore": "Taurens de Mulgore : peuple nomade et spirituel, chamans et druides, sagesse de la Terre-Mère.",
+      "vo": "Pas d'accent régional ; voix très grave et lente.",
+      "vf": "Non documenté ; voix très graves.",
+      "accent_fr": "Français standard.",
+      "voice_traits": "Voix très grave, profonde et lente, calme et bienveillante.",
+      "instruct_fr": "Parle un français natif de France, accent standard ; voix très grave et profonde, débit lent et calme, sans aucun accent anglais.",
+      "evidence": "vo",
+      "confidence": "moyenne"
+    },
+    "Undead": {
+      "name_fr": "Mort-vivant",
+      "adj": [
+        "mort-vivant",
+        "morte-vivante"
+      ],
+      "lore": "Réprouvés de Sylvanas, à Fossoyeuse : anciens humains de Lordaeron, cyniques et amers.",
+      "vo": "Accent anglais neutre ou britannique, voix sépulcrale.",
+      "vf": "Français standard, voix rauque et sépulcrale.",
+      "accent_fr": "Français standard.",
+      "voice_traits": "Voix rauque, creuse et sifflante, ironie froide.",
+      "instruct_fr": "Parle un français natif de France, accent standard ; voix rauque, creuse et légèrement sifflante, sans aucun accent anglais.",
+      "evidence": "vo",
+      "confidence": "moyenne"
+    },
+    "Goblin": {
+      "name_fr": "Gobelin",
+      "adj": [
+        "gobelin",
+        "gobeline"
+      ],
+      "lore": "Gobelins du cartel Gentepression (Baie-du-Butin, Gadgetzan, Cabestan) : marchands rusés, tout s'achète.",
+      "vo": "Accent new-yorkais ou du New Jersey, débit de vendeur.",
+      "vf": "Voix criardes ; débit rapide de marchand.",
+      "accent_fr": "Accent populaire gouailleur, façon titi parisien, débit de bonimenteur.",
+      "voice_traits": "Voix nasillarde et criarde, débit très rapide, ton de vendeur à la sauvette.",
+      "instruct_fr": "Parle un français natif de France avec un accent populaire gouailleur de titi parisien ; voix nasillarde et criarde, débit très rapide de bonimenteur, sans aucun accent anglais.",
+      "evidence": "lore",
+      "confidence": "moyenne : le débit et les voix criardes sont attestés en VF, l'accent parisien est notre choix"
+    }
+  },
+  "sources": [
+    "https://www.curseforge.com/wow/addons/wowtts-forever-voix-fr-des-quetes (nains : r roulés ; trolls : accent des îles ; gobelins : débit de marchands)",
+    "https://www.jeuxvideo.com/forums/42-51-68632295-2-0-1-0-world-of-warcraft-accent-des-trolls.htm (trolls : VO jamaïcain, VF antillais ; nains : berrichon selon un joueur)",
+    "https://wow.jeuxonline.info/actualite/7170/voix-personnages (petite voix des gnomes, voix sage des elfes de la nuit, voix de barbare des nains)",
+    "https://bloodstorm.forum2jeux.com/t185-les-voix-des-personnages-dans-wow (voix criardes des gobelins)"
+  ]
+}

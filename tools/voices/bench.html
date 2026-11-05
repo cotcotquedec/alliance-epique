@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Banc des voix</title>
+<style>
+:root{--bg:#f5f1e8;--panel:#fffdf8;--ink:#221d16;--muted:#776e60;--line:#e4dccb;--soft:#efe8d9;--accent:#b8325a;
+--ref:#5856d6;--ok:#2e8b57;--warn:#b7791f;--bad:#c0392b;--idle:#8a8275}
+@media (prefers-color-scheme:dark){:root{--bg:#13110e;--panel:#1c1915;--ink:#efe7d8;--muted:#a3998a;--line:#332e26;
+--soft:#26221c;--accent:#f06a8f;--ref:#8f8cff;--ok:#5cc98c;--warn:#e0a84a;--bad:#ef7a6b;--idle:#a39b8c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,system-ui,sans-serif}
+.app{display:grid;grid-template-columns:280px minmax(0,1fr);min-height:100vh}
+aside{position:sticky;top:0;align-self:start;height:100vh;overflow-y:auto;background:var(--panel);
+border-right:1px solid var(--line);padding:16px;display:flex;flex-direction:column;gap:16px}
+aside section{display:flex;flex-direction:column;gap:8px}
+aside select,aside input[type=search],aside button{width:100%}
+.side-title{font:600 11px system-ui;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0}
+main{padding:16px 24px 60px;max-width:1100px;width:100%}
+.summary{position:sticky;top:0;z-index:2;background:var(--bg);padding:8px 0;margin:0}
+h1,h2{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-weight:600;margin:0}
+h1{font-size:28px}h2{font-size:20px}h2 small{color:var(--muted);font:12px system-ui;margin-left:6px}
+
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
+select,input[type=search],button{font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);
+border-radius:10px;padding:6px 10px}
+
+button{cursor:pointer}button:hover{border-color:var(--muted)}
+.views{display:flex;flex-direction:column;gap:4px}
+.views button{text-align:left;border:1px solid transparent;background:transparent;border-radius:8px;padding:8px 10px}
+.views button:hover{background:var(--soft)}
+.views button[aria-pressed=true]{background:var(--accent);color:#fff}
+.voicebox{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--ref);border-radius:16px;
+padding:16px;margin-top:6px}.voicebox audio{width:100%;margin-top:8px}
+label.toggle{display:flex;gap:6px;align-items:center;color:var(--muted);font-size:14px;cursor:pointer}
+.summary{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;font-size:13px}
+.pill{border-radius:999px;padding:2px 10px;background:var(--soft);color:var(--muted);font-variant-numeric:tabular-nums;
+border:1px solid transparent;cursor:pointer;font-size:13px}
+.pill[aria-pressed=true]{border-color:currentColor}
+.ok,.validated{color:var(--ok)}.pending,.todo,.new,.in_progress{color:var(--warn)}.not_found,.refused{color:var(--bad)}.waiting_voice{color:var(--idle)}
+.status span{text-transform:none;font-family:ui-monospace,Menlo,monospace}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px;margin-top:14px}
+.card.playing{border-color:var(--accent);box-shadow:0 0 0 2px color-mix(in srgb,var(--accent) 25%,transparent)}
+.who{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px;color:var(--muted);margin-bottom:4px}
+.status{font-weight:600;text-transform:uppercase;letter-spacing:.04em;font-size:12px}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px}
+.tile{border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:12px;padding:10px;
+background:var(--bg);display:flex;flex-direction:column;gap:5px;min-width:0}
+.tile.voice{border-left-color:var(--ok)}.tile.ref{border-left-color:var(--ref)}.tile.best{border-left-color:var(--warn)}
+.tile b{font-size:14px}.tile small{color:var(--muted);font-size:12px}.tile audio{width:100%}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{font-size:12px;border-radius:6px;padding:1px 7px;background:var(--soft);color:var(--muted);
+font-variant-numeric:tabular-nums}.chip.bad{color:var(--bad);font-weight:600}
+.line{font-style:italic;margin:10px 0 0}
+details{margin-top:8px;color:var(--muted);font-size:13px}summary{cursor:pointer}details p{margin:6px 0 0;white-space:pre-line}
+.empty{color:var(--muted);text-align:center;padding:40px 0}
+.note{color:var(--muted);font-size:13px;margin:6px 0 0}
+[hidden]{display:none!important}
+table.verdict{border-collapse:collapse;font-size:12px;width:100%;font-variant-numeric:tabular-nums;margin-top:2px}
+table.verdict caption{text-align:left;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.04em;padding-bottom:2px}
+table.verdict td{padding:2px 4px;border-top:1px solid var(--line)}table.verdict td:first-child{width:14px;font-weight:700}
+table.verdict tr.ok td:first-child{color:var(--ok)}table.verdict tr.ko{color:var(--bad);font-weight:600}
+.pager{display:flex;flex-wrap:wrap;gap:6px;align-items:center;justify-content:center;margin-top:14px;font-size:14px}
+.pager button[disabled]{opacity:.4;cursor:default}
+.actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
+button.accept{background:var(--ok);border-color:var(--ok);color:#fff;font-weight:600}
+.approved-tag{color:var(--ok);font-weight:600;font-size:13px}
+.card.approved{border-color:var(--ok)}
+table.verdict td:last-child{color:var(--muted);text-align:right;white-space:nowrap}
+@media (max-width:820px){.tiles{grid-template-columns:1fr 1fr}
+.app{grid-template-columns:1fr}aside{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line)}
+main{padding:12px 16px 60px}}
+@media (max-width:520px){.tiles{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="app">
+<aside id="side">
+  <h1>Banc des voix</h1>
+  <nav class="views" role="group" aria-label="Vue">
+    <button type="button" data-view="readings" aria-pressed="true">Lectures de quêtes</button>
+    <button type="button" data-view="voices" aria-pressed="false">Voix modèles des PNJ</button>
+    <button type="button" data-view="refused" aria-pressed="false">Refusées (tout le jeu)</button>
+    <button type="button" data-view="dialogues" aria-pressed="false">Dialogues des PNJ</button>
+    <button type="button" data-view="elise" aria-pressed="false">Elise, la narratrice</button>
+  </nav>
+  <section>
+    <h2 class="side-title">Catégorie</h2>
+    <select id="zone" aria-label="Catégorie" required></select>
+    <select id="rzone" aria-label="Catégorie (tout le jeu)" hidden></select>
+  </section>
+  <section>
+    <h2 class="side-title">Filtres</h2>
+    <input id="search" type="search" placeholder="Quête ou PNJ…" aria-label="Recherche">
+    <select id="npc" aria-label="PNJ"><option value="">Tous les PNJ</option></select>
+    <select id="kind" aria-label="Type"><option value="">Débuts et fins</option><option value="detail">Débuts</option>
+      <option value="complete">Fins</option><option value="quest" class="elise-only">Elise : quêtes</option>
+      <option value="zone" class="elise-only">Elise : présentations de zone</option>
+      <option value="level" class="elise-only">Elise : niveaux</option>
+      <option value="companion" class="elise-only">Elise : compagnons</option></select>
+    <select id="race" aria-label="Race" hidden><option value="">Toutes les races</option></select>
+    <select id="reason" aria-label="Critère raté" hidden></select>
+    <select id="sort" aria-label="Ordre" hidden><option value="near">Les plus proches du seuil d'abord</option>
+      <option value="zone">Par catégorie (ordre de niveau)</option></select>
+  </section>
+  <section>
+    <h2 class="side-title">Écoute</h2>
+    <label class="toggle"><input id="chain" type="checkbox"> Écoute enchaînée</label>
+    <label class="toggle"><input id="auto" type="checkbox"> Rafraîchir toutes les 30 s</label>
+    <button id="refresh" type="button">Rafraîchir</button>
+  </section>
+</aside>
+<main>
+  <div class="summary" id="summary"></div>
+  <div id="intro"></div>
+  <div id="list"></div>
+  <div class="pager" id="pager"></div>
+</main>
+</div>
+<script>
+const $ = s => document.querySelector(s);
+// "À vérifier": tried but not in place (pending or not found), what needs a human look; the default filter
+const CHECK = new Set(["pending", "not_found"]);
+// one life cycle for every audio (pipeline/review.py): the loops' words -> todo, in_progress, refused, validated
+const S = s => ({ok: "validated", pending: "in_progress", not_found: "refused", new: "todo"}[s] || s);
+const HINT = {validated: "validé (juge ou à la main)", in_progress: "refusé par le juge, essais en cours",
+  refused: "refusé : refait à la prochaine passe", todo: "pas encore essayé", waiting_voice: "attend la voix modèle du PNJ"};
+const label = s => `<span title="${esc(HINT[S(s)] || "")}">${esc(S(s))}</span>`;
+const READING = {ok: "validated", not_found: "refused", pending: "in_progress", todo: "todo", waiting_voice: "waiting_voice"};
+const READING_ONE = READING;
+const VOICE = {ok: "validated", not_found: "refused", pending: "in_progress", new: "todo"};
+const VOICE_ONE = VOICE;
+const ACTION = {validate: "validation", refuse: "refus", delete: "suppression"};
+const ORDER = {not_found: 0, pending: 1, todo: 2, new: 2, waiting_voice: 3, ok: 4};
+const SEX = {male: "homme", female: "femme"};
+const GROUPS = {"eastern-kingdoms": "Royaumes de l'Est", kalimdor: "Kalimdor", classes: "Classes", professions: "Métiers",
+  dungeons: "Donjons", raids: "Raids", battlegrounds: "Champs de bataille", "world-events": "Événements mondiaux",
+  miscellaneous: "Divers", uncategorized: "Non classées"};
+const REASONS = {en: "anglais", wer: "mots mal lus", cps: "durée", sim: "autre voix"};
+let zones = [], defaultZone = "", data = null, view = "readings", status = "", timer = null;
+// refused view: filtered and paged by the server (/api/rejected), over every category
+let rstatus = "check", page = 1;
+// Elise view: her lines over every category (/api/elise), filtered and paged by the server
+let estatus = "";
+const ELISE = {validated: "validated", in_progress: "in_progress", refused: "refused", todo: "todo", waiting_voice: "waiting_voice"};
+const ELISE_ONE = ELISE;
+let dstatus = "";
+const paged = () => view === "refused" || view === "elise" || view === "dialogues";
+
+// The decisions of the control page (pipeline/review.py): on any audio, whatever loop made it.
+function actions(r) {
+  const at = `data-kind="${esc(r.rkind)}" data-zone="${esc(r.zone || "")}" data-unit="${esc(r.unit)}"`;
+  const d = r.decision;
+  if (d) return `<div class="actions"><span class="approved-tag">⏳ ${esc(ACTION[d.action])} en attente — ${esc(d.note || "")}</span>` +
+    `<button type="button" data-cancel ${at}>Annuler</button></div>`;
+  const s = S(r.status), voice = r.rkind === "voice", out = [];
+  if (s === "validated")
+    out.push(voice ? `<button type="button" data-decide="delete" data-confirm="1" ${at}>Refuser (refait la voix et toutes ses lectures)</button>`
+      : `<button type="button" data-decide="refuse" ${at}>Refuser</button>`);
+  if ((s === "refused" || s === "in_progress") && r.best)
+    out.push(`<button type="button" class="accept" data-decide="validate" ${at}>Valider à la main</button>`);
+  if (!voice && (r.reading || r.best || r.in_game))
+    out.push(`<button type="button" data-decide="delete" data-confirm="1" ${at}>Supprimer</button>`);
+  const note = r.in_game ? `<span class="note">joué en jeu en attendant un essai validé</span>` : "";
+  return out.length || note ? `<div class="actions">${out.join("")}${note}</div>` : "";
+}
+const REFUSED = {check: "Toutes les refusées", pending: "in_progress", not_found: "refused", decided: "décision en attente"};
+
+const store = {
+  get(k) { try { return localStorage.getItem("bench." + k); } catch { return null; } },
+  set(k, v) { try { localStorage.setItem("bench." + k, v); } catch {} },
+};
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const num = (x, d) => Number(x).toFixed(d).replace(".", ",");
+const pct = (x, d) => num(x * 100, d) + " %";
+
+// The judge's verdict, criterion by criterion: value, threshold, passed or not (same rules as tools/*/judge.py).
+function verdict(s, failed = []) {
+  if (!s) return "";
+  const t = data.thresholds;
+  const rows = [
+    ["en", "Anglais", pct(s.en, 2), `≤ ${pct(t.en, 2)}`],
+    ["wer", "Mots mal lus", pct(s.wer, 0), `≤ ${pct(t.wer, 0)}`],
+    ["cps", "Débit", `${num(s.cps, 1)} car./s`, `${t.cps[0]} à ${t.cps[1]}`],
+  ];
+  if (t.sim) rows.push(["sim", "Ressemblance à la voix modèle", num(s.sim ?? 0, 2), `≥ ${num(t.sim, 2)}`]);
+  return `<table class="verdict"><caption>Verdict du juge${s.secs ? ` · ${num(s.secs, 1)} s` : ""}</caption>` +
+    rows.map(([k, label, value, limit]) => `<tr class="${failed.includes(k) ? "ko" : "ok"}"><td>${failed.includes(k) ? "✗" : "✓"}</td>` +
+      `<td>${label}</td><td>${value}</td><td>${limit}</td></tr>`).join("") + `</table>`;
+}
+
+function tile(kind, title, note, src, scores, failed, chain) {
+  if (!src) return "";
+  return `<div class="tile ${kind}"><b>${esc(title)}</b><small>${esc(note)}</small>` +
+    `<audio controls preload="none" src="${esc(src)}"${chain ? ' data-chain="1"' : ""}></audio>${verdict(scores, failed)}</div>`;
+}
+
+function readingCard(r) {
+  const kind = (r.kind === "detail" ? "Début" : "Fin") + (r.sex === "f" ? " · variante féminine" : "");
+  const tries = ["pending", "not_found"].includes(r.status)
+    ? ` · ${r.campaign_tries} essai(s) sur ${data.thresholds.max_tries} dans cette exécution` : "";
+  const reasons = r.best ? r.best.failed.map(f => REASONS[f]).join(", ") : "";
+  const tiles = [
+    r.voice ? tile("ref", "Voix modèle du PNJ", "la référence : comparer le timbre", r.voice)
+      : `<div class="tile ref"><b>Voix modèle du PNJ</b><small>pas encore de voix modèle (boucle voix)</small></div>`,
+    r.reading && tile("voice", "Lecture en place", `graine ${r.reading.seed}`, r.reading.src, r.reading.scores, [], true),
+    r.best && tile("best", "Meilleur essai refusé", `refusé pour : ${reasons}`, r.best.src, r.best.scores, r.best.failed, true),
+    !r.reading && !r.best ? `<div class="tile"><b>Aucun essai</b><small>${r.status === "waiting_voice" ? "attend la voix modèle" : "pas encore essayée"}</small></div>` : "",
+  ].filter(Boolean).join("");
+  const zone = r.zone ? `<span>· ${esc(zoneName(r.zone))}</span>` : "";
+
+  return `<article class="card${r.decision ? " approved" : ""}" data-id="${esc(r.id)}">
+    <div class="who"><span class="status ${r.status}">${label(r.status)}${tries}</span><span>${esc(kind)}</span>
+      <span>· ${esc(r.npc_name)} (PNJ ${r.npc})</span>${zone}</div>
+    <h2>${esc(r.name)}<small>quête ${r.quest}</small></h2>
+    <div class="tiles">${tiles}</div>${actions(r)}
+    <details><summary>Texte lu</summary><p>${esc(r.text)}</p></details></article>`;
+}
+
+function voiceCard(n) {
+  const v = n.voice, b = n.best;
+  const tiles = [
+    v && tile("voice", "Voix Qwen3 validée", `graine ${v.seed} · ${n.tries} essai(s)`, v.src, v.scores, [], true),
+    b && tile("best", "Meilleur essai refusé", `graine ${b.seed} · ${n.tries} essai(s)`, b.src, b.scores, b.failed, true),
+  ].filter(Boolean).join("");
+  const who = [n.race_fr, SEX[n.sex] || "", n.age || ""].filter(Boolean).join(" · ");
+  const tries = n.status === "pending" ? ` · ${n.campaign_tries}/${data.thresholds.max_tries} essais` : "";
+  return `<article class="card" data-id="${n.id}">
+    <div class="who"><span class="status ${n.status}">${label(n.status)}${tries}</span><span>${esc(who)}</span></div>
+    <h2>${esc(n.name)}${n.title ? ` <small>${esc(n.title)}</small>` : ""}<small>PNJ ${n.id}</small></h2>
+    ${tiles ? `<div class="tiles">${tiles}</div>` : `<p class="note">Aucun enregistrement pour l'instant.</p>`}
+    ${actions({...n, reading: n.voice})}
+    <p class="line">« ${esc(n.text)} »</p>
+    ${n.text_source !== "persona.sample_line" ? `<p class="note">Texte choisi à la main : ${esc(n.text_source)}</p>` : ""}
+    <details><summary>Fiche et description envoyée à Qwen3</summary>
+      ${n.summary ? `<p>${esc(n.summary)}</p>` : ""}${n.instruct ? `<p><b>Description :</b> ${esc(n.instruct)}</p>` : ""}
+    </details></article>`;
+}
+
+function eliseCard(r) {
+  const kind = (r.kind === "zone" ? "Présentation de zone" : r.kind === "level" ? "Niveau gagné"
+    : r.kind === "companion" ? "Palier de compagnon" : r.kind === "detail" ? "Début" : "Fin")
+    + (r.sex === "f" ? " · variante féminine" : "");
+  const tries = ["in_progress", "refused"].includes(r.status)
+    ? ` · ${r.campaign_tries} essai(s) sur ${data.thresholds.max_tries} dans cette exécution` : "";
+  const reasons = r.best ? r.best.failed.map(f => REASONS[f]).join(", ") : "";
+  const tiles = [
+    r.reading && tile("voice", "Lecture en place", `graine ${r.reading.seed}`, r.reading.src, r.reading.scores, [], true),
+    r.best && tile("best", "Meilleur essai refusé", `refusé pour : ${reasons}`, r.best.src, r.best.scores, r.best.failed, true),
+    !r.reading && !r.best ? `<div class="tile"><b>Aucun essai</b><small>pas encore lue</small></div>` : "",
+  ].filter(Boolean).join("");
+  return `<article class="card" data-id="${esc(r.id)}">
+    <div class="who"><span class="status ${r.status}">${label(r.status)}${tries}</span><span>${esc(kind)}</span>
+      <span>· ${esc(zoneName(r.zone))}</span></div>
+    <h2>${esc(r.name)}<small>quête ${r.quest}</small></h2>
+    <div class="tiles">${tiles}</div>${actions(r)}
+    <details><summary>Texte lu</summary><p>${esc(r.text)}</p></details></article>`;
+}
+
+function dialogueCard(r) {
+  const tries = ["in_progress", "refused"].includes(r.status)
+    ? ` · ${r.campaign_tries} essai(s) sur ${data.thresholds.max_tries} dans cette exécution` : "";
+  const reasons = r.best ? r.best.failed.map(f => REASONS[f]).join(", ") : "";
+  const tiles = [
+    r.voice ? tile("ref", "Voix modèle du PNJ", "la référence : comparer le timbre", r.voice)
+      : `<div class="tile ref"><b>Voix modèle du PNJ</b><small>pas encore de voix modèle (boucle voix)</small></div>`,
+    r.reading && tile("voice", "Lecture en place", `graine ${r.reading.seed}`, r.reading.src, r.reading.scores, [], true),
+    r.best && tile("best", "Meilleur essai refusé", `refusé pour : ${reasons}`, r.best.src, r.best.scores, r.best.failed, true),
+    !r.reading && !r.best ? `<div class="tile"><b>Aucun essai</b><small>${esc(HINT[r.status] || "")}</small></div>` : "",
+  ].filter(Boolean).join("");
+  const page = (r.first ? "Première page" : "Sous-page") + (r.sex === "f" ? " · variante féminine" : "") +
+    (r.quests.length ? ` · quête${r.quests.length > 1 ? "s" : ""} ${r.quests.join(", ")}` : "");
+  return `<article class="card${r.decision ? " approved" : ""}" data-id="${esc(r.id)}">
+    <div class="who"><span class="status ${r.status}">${label(r.status)}${tries}</span><span>${esc(page)}</span>
+      <span>· ${esc(zoneName(r.zone))}</span></div>
+    <h2>${esc(r.npc_name)}<small>PNJ ${r.npc} · page ${esc(r.page)}</small></h2>
+    <div class="tiles">${tiles}</div>${actions(r)}
+    <details><summary>Texte lu</summary><p>${esc(r.text)}</p></details></article>`;
+}
+
+function renderDialogues() {
+  $("#intro").innerHTML = "";
+  $("#list").innerHTML = data.items.map(dialogueCard).join("") || `<p class="empty">Rien pour ces filtres.</p>`;
+  $("#summary").innerHTML = `<button type="button" class="pill" data-dstatus="" aria-pressed="${!dstatus}">Toutes : ` +
+    `${Object.values(data.counts).reduce((a, b) => a + b, 0)} pages</button>` +
+    Object.keys(ELISE).filter(s => data.counts[s]).map(s =>
+      `<button type="button" class="pill ${s}" data-dstatus="${s}" aria-pressed="${dstatus === s}">${data.counts[s]} ${label(s)}</button>`).join("") +
+    `<span class="pill" style="cursor:default">${data.total} pour ces filtres</span>`;
+  $("#pager").innerHTML = pagerHTML();
+}
+
+function pagerHTML() {
+  return data.pages > 1 ? `<button type="button" data-page="1" ${data.page === 1 ? "disabled" : ""}>«</button>` +
+    `<button type="button" data-page="${data.page - 1}" ${data.page === 1 ? "disabled" : ""}>‹ Précédente</button>` +
+    `<span>Page ${data.page} / ${data.pages}</span>` +
+    `<button type="button" data-page="${data.page + 1}" ${data.page === data.pages ? "disabled" : ""}>Suivante ›</button>` +
+    `<button type="button" data-page="${data.pages}" ${data.page === data.pages ? "disabled" : ""}>»</button>` : "";
+}
+
+function renderElise() {
+  const v = data.voice;
+  $("#intro").innerHTML = `<div class="voicebox"><b>${esc(v.name || "Elise")}</b> <small class="note">voix ElevenLabs
+    « ${esc(v.account_name || "?")} », modèle ${esc(v.model || "?")}, définitive</small>` +
+    (v.src ? `<audio controls preload="none" src="${esc(v.src)}"></audio>` : `<p class="note">Pas encore de voix.</p>`) +
+    (v.text ? `<p class="line">« ${esc(v.text)} »</p>` : "") + `</div>`;
+  $("#list").innerHTML = data.items.map(eliseCard).join("") || `<p class="empty">Rien pour ces filtres.</p>`;
+  $("#summary").innerHTML = `<button type="button" class="pill" data-estatus="" aria-pressed="${!estatus}">Toutes : ` +
+    `${Object.values(data.counts).reduce((a, b) => a + b, 0)} répliques</button>` +
+    Object.keys(ELISE).filter(s => data.counts[s]).map(s =>
+      `<button type="button" class="pill ${s}" data-estatus="${s}" aria-pressed="${estatus === s}">${data.counts[s]} ${label(s)}</button>`).join("") +
+    `<span class="pill" style="cursor:default">${data.total} pour ces filtres</span>`;
+  $("#pager").innerHTML = pagerHTML();
+}
+
+const zoneName = key => zones.find(z => z.key === key)?.name || key;
+
+function renderRefused() {
+  $("#list").innerHTML = data.items.map(readingCard).join("") || `<p class="empty">Rien pour ces filtres.</p>`;
+  $("#summary").innerHTML = Object.entries(REFUSED).map(([s, label]) =>
+    `<button type="button" class="pill ${s === "decided" ? "ok" : "not_found"}" data-rstatus="${s}" aria-pressed="${rstatus === s}">` +
+    `${label}${s === "check" ? ` : ${data.all}` : s === "decided" ? ` : ${data.decided}` : ""}</button>`).join("") +
+    `<span class="pill" style="cursor:default">${data.total} pour ces filtres</span>`;
+  $("#pager").innerHTML = pagerHTML();
+}
+
+const items = () => view === "readings" ? data.readings : data.npcs;
+
+function render() {
+  if (!data) return;
+  if (view === "elise") return renderElise();
+  if (view === "dialogues") return renderDialogues();
+  $("#intro").innerHTML = "";
+  if (view === "refused") return renderRefused();
+  $("#pager").innerHTML = "";
+  const npc = $("#npc").value, kind = $("#kind").value, race = $("#race").value;
+  const q = $("#search").value.trim().toLowerCase();
+  const all = items();
+  const shown = all.filter(x => (!status || (status === "check" ? CHECK.has(x.status) : x.status === status)) &&
+      (view === "readings" ? (!npc || String(x.npc) === npc) && (!kind || x.kind === kind) &&
+        (!q || x.name.toLowerCase().includes(q) || x.npc_name.toLowerCase().includes(q))
+      : (!race || x.race === race) && (!q || x.name.toLowerCase().includes(q))))
+    .sort((a, b) => ORDER[a.status] - ORDER[b.status] ||
+      (view === "readings" ? a.npc_name.localeCompare(b.npc_name, "fr") || a.quest - b.quest || a.id.localeCompare(b.id)
+        : a.name.localeCompare(b.name, "fr")));
+  $("#list").innerHTML = shown.map(view === "readings" ? readingCard : voiceCard).join("") ||
+    `<p class="empty">Rien pour ces filtres.</p>`;
+  const labels = view === "readings" ? READING : VOICE;
+  const counts = {};
+  all.forEach(x => counts[x.status] = (counts[x.status] || 0) + 1);
+  $("#summary").innerHTML = `<button type="button" class="pill" data-status="" aria-pressed="${!status}">` +
+    `Tout : ${all.length} ${view === "readings" ? "lectures" : "PNJ"}</button>` +
+    (all.some(x => CHECK.has(x.status)) ? `<button type="button" class="pill not_found" data-status="check" ` +
+      `aria-pressed="${status === "check"}"><b>À vérifier : ${all.filter(x => CHECK.has(x.status)).length}</b></button>` : "") +
+    Object.keys(labels).filter(s => counts[s]).map(s =>
+      `<button type="button" class="pill ${s}" data-status="${s}" aria-pressed="${status === s}">${counts[s]} ${labels[s]}</button>`).join("") +
+    (shown.length !== all.length ? `<span class="pill" style="cursor:default">${shown.length} affichées</span>` : "");
+}
+
+function fillFilters() {
+  const keep = (sel, opts, first) => {
+    const current = sel.value;
+    sel.innerHTML = `<option value="">${first}</option>` + opts.map(([k, v]) => `<option value="${esc(k)}">${esc(v)}</option>`).join("");
+    sel.value = opts.some(([k]) => k === current) ? current : "";
+  };
+  const isReadings = view === "readings", isRefused = view === "refused", isElise = view === "elise" || view === "dialogues";
+  $("#zone").hidden = paged(); $("#rzone").hidden = !paged();
+  $("#npc").hidden = !isReadings; $("#kind").hidden = view === "voices" || view === "dialogues";
+  document.querySelectorAll("#kind .elise-only").forEach(o => { o.hidden = view !== "elise"; }); if (view !== "elise" && ["quest", "zone", "level", "companion"].includes($("#kind").value)) $("#kind").value = ""; $("#race").hidden = view !== "voices";
+  ["#reason", "#sort"].forEach(id => $(id).hidden = !isRefused);
+  $("#search").placeholder = view === "dialogues" ? "PNJ ou texte…" : isElise ? "Quête ou texte…" : "Quête ou PNJ…";
+  if (isElise) {
+    keep($("#rzone"), data.facets.zones.map(z => [z.key, `${z.name} (${z.count})`]), "Toutes les catégories");
+    return;
+  }
+  if (isRefused) {
+    keep($("#rzone"), data.facets.zones.map(z => [z.key, `${z.name} (${z.count})`]), "Toutes les catégories");
+    keep($("#reason"), Object.entries(REASONS).filter(([k]) => data.facets.reasons[k])
+      .map(([k, v]) => [k, `Raté : ${v} (${data.facets.reasons[k]})`]), "Tous les critères ratés");
+    return;
+  }
+  if (isReadings) {
+    const npcs = [...new Map(data.readings.map(r => [String(r.npc), r.npc_name])).entries()]
+      .sort((a, b) => a[1].localeCompare(b[1], "fr"));
+    keep($("#npc"), npcs.map(([k, v]) => [k, `${v} (${data.readings.filter(r => String(r.npc) === k).length})`]), "Tous les PNJ");
+  } else {
+    const races = [...new Map(data.npcs.map(n => [n.race, n.race_fr])).entries()].sort((a, b) => a[1].localeCompare(b[1], "fr"));
+    keep($("#race"), races.map(([k, v]) => [k, `${v} (${data.npcs.filter(n => n.race === k).length})`]), "Toutes les races");
+  }
+}
+
+async function loadZones() {
+  const answer = await (await fetch("/api/zones")).json();
+  zones = answer.zones; defaultZone = answer.default;
+  const sel = $("#zone");
+  const wanted = sel.value || decodeURIComponent(location.hash.slice(1)) || store.get("zone") || defaultZone;
+  // categories grouped by their group (continent or theme), in level order within each group
+  const option = z => `<option value="${esc(z.key)}">${esc(z.name)} — lectures ${z.readings_ok}/${z.readings}` +
+    `${z.readings_not_found ? ` (${z.readings_not_found} pas trouvées)` : ""} · voix ${z.ok}/${z.speakers}</option>`;
+  const byGroup = new Map();
+  zones.forEach(z => { const g = z.key.split("/")[0]; byGroup.set(g, [...(byGroup.get(g) || []), z]); });
+  sel.innerHTML = [...byGroup].map(([g, list]) =>
+    `<optgroup label="${esc(GROUPS[g] || g)}">${list.map(option).join("")}</optgroup>`).join("");
+  sel.value = zones.some(z => z.key === wanted) ? wanted : (zones.some(z => z.key === defaultZone) ? defaultZone : zones[0]?.key);
+}
+
+async function load(keepScroll = false) {
+  const key = $("#zone").value;  // a zone is always chosen: the whole game is never loaded
+  if (!key) return;
+  if (keepScroll && [...document.querySelectorAll("audio")].some(a => !a.paused)) return;  // never cut a voice
+  const y = window.scrollY;
+  if (view === "dialogues") {
+    const params = new URLSearchParams({status: dstatus, page, zone: $("#rzone").value, q: $("#search").value.trim()});
+    data = await (await fetch("/api/dialogues?" + params)).json();
+    page = data.page;
+    store.set("view", view);
+    fillFilters(); render();
+    if (keepScroll) window.scrollTo(0, y);
+    return;
+  }
+  if (view === "elise") {
+    const params = new URLSearchParams({status: estatus, page, zone: $("#rzone").value, kind: $("#kind").value,
+      q: $("#search").value.trim()});
+    data = await (await fetch("/api/elise?" + params)).json();
+    page = data.page;
+    store.set("view", view);
+    fillFilters(); render();
+    if (keepScroll) window.scrollTo(0, y);
+    return;
+  }
+  if (view === "refused") {
+    const params = new URLSearchParams({status: rstatus, page, zone: $("#rzone").value, reason: $("#reason").value,
+      kind: $("#kind").value, sort: $("#sort").value, q: $("#search").value.trim()});
+    data = await (await fetch("/api/rejected?" + params)).json();
+    page = data.page;
+    store.set("view", view);
+    fillFilters(); render();
+    if (keepScroll) window.scrollTo(0, y);
+    return;
+  }
+  const url = (view === "readings" ? "/api/readings?key=" : "/api/zone?key=") + encodeURIComponent(key);
+  data = await (await fetch(url)).json();
+  store.set("zone", key); store.set("view", view);
+  history.replaceState(null, "", "#" + key);
+  fillFilters();
+  render();
+  if (keepScroll) window.scrollTo(0, y);
+}
+
+async function refresh() { await loadZones(); await load(true); }
+
+function setView(v) {
+  view = v; status = ""; page = 1;
+  document.querySelectorAll(".views button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.view === v)));
+  load();
+}
+
+// one audio at a time; chained listening goes on with the next card
+document.addEventListener("play", e => {
+  document.querySelectorAll("audio").forEach(a => a !== e.target && a.pause());
+  document.querySelectorAll(".card.playing").forEach(c => c.classList.remove("playing"));
+  e.target.closest(".card")?.classList.add("playing");
+}, true);
+document.addEventListener("ended", e => {
+  e.target.closest(".card")?.classList.remove("playing");
+  if (!$("#chain").checked) return;
+  let next = e.target.closest(".card")?.nextElementSibling;
+  while (next) {
+    const audio = next.querySelector('audio[data-chain="1"]');
+    if (audio) { next.scrollIntoView({behavior: "smooth", block: "center"}); audio.play(); return; }
+    next = next.nextElementSibling;
+  }
+}, true);
+
+$("#zone").addEventListener("change", () => { status = ""; load(); });
+document.querySelectorAll(".views button").forEach(b => b.addEventListener("click", () => setView(b.dataset.view)));
+// refused view: every filter goes to the server, back to page 1
+let typing = null;
+const reload = () => { page = 1; load(); };
+["#rzone", "#reason", "#sort"].forEach(s => $(s).addEventListener("change", reload));
+$("#pager").addEventListener("click", e => {
+  const b = e.target.closest("button[data-page]");
+  if (b && !b.disabled) { page = Number(b.dataset.page); load().then(() => window.scrollTo(0, 0)); }
+});
+$("#list").addEventListener("click", async e => {
+  const b = e.target.closest("button[data-decide],button[data-cancel]");
+  if (!b) return;
+  const cancel = "cancel" in b.dataset;
+  if (b.dataset.confirm && !confirm(b.textContent + " : sûr ?")) return;
+  b.disabled = true;
+  document.querySelectorAll("audio").forEach(a => a.pause());  // else the refresh waits for the end of the voice
+  const body = {kind: b.dataset.kind, zone: b.dataset.zone || null, unit: b.dataset.unit, action: b.dataset.decide};
+  const answer = await fetch(cancel ? "/api/cancel" : "/api/decide", {method: "POST",
+    headers: {"Content-Type": "application/json"}, body: JSON.stringify(body)});
+  if (!answer.ok) alert(await answer.text());
+  await load(true);
+});
+$("#summary").addEventListener("click", e => {
+  const dl = e.target.closest("button[data-dstatus]");
+  if (dl) { dstatus = dl.dataset.dstatus; reload(); return; }
+  const el = e.target.closest("button[data-estatus]");
+  if (el) { estatus = el.dataset.estatus; reload(); return; }
+  const r = e.target.closest("button[data-rstatus]");
+  if (r) { rstatus = r.dataset.rstatus; reload(); return; }
+  const pill = e.target.closest("button[data-status]");
+  if (pill) { status = pill.dataset.status; render(); }
+});
+["#npc", "#kind", "#race"].forEach(s => $(s).addEventListener("change", () => paged() ? reload() : render()));
+$("#search").addEventListener("input", () => {
+  if (!paged()) return render();
+  clearTimeout(typing); typing = setTimeout(reload, 300);
+});
+$("#refresh").addEventListener("click", refresh);
+$("#auto").addEventListener("change", e => {
+  clearInterval(timer);
+  store.set("auto", e.target.checked ? "1" : "");
+  if (e.target.checked) timer = setInterval(refresh, 30000);
+});
+$("#chain").addEventListener("change", e => store.set("chain", e.target.checked ? "1" : ""));
+
+(async () => {
+  $("#chain").checked = store.get("chain") === "1";
+  if (store.get("auto") === "1") { $("#auto").checked = true; timer = setInterval(refresh, 30000); }
+  view = ["voices", "refused", "elise", "dialogues"].includes(store.get("view")) ? store.get("view") : "readings";
+  document.querySelectorAll(".views button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.view === view)));
+  await loadZones();
+  await load();
+})();
+</script>
+</body>
+</html>

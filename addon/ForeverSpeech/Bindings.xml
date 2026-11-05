@@ -1,0 +1,16 @@
+<Bindings>
+  <!-- Key bindings of ForeverSpeech (2026-10-21); names and header: core/bindings.lua (BINDING_* globals). -->
+  <Binding name="FOREVERSPEECH_PLAY" header="FOREVERSPEECH" category="ADDONS">
+    ForeverSpeech.Bindings.TogglePlay()
+  </Binding>
+  <Binding name="FOREVERSPEECH_NEXT" category="ADDONS">
+    ForeverSpeech.Bindings.Next()
+  </Binding>
+  <Binding name="FOREVERSPEECH_STOP" category="ADDONS">
+    ForeverSpeech.Bindings.Stop()
+  </Binding>
+  <!-- held: down opens the emote wheel, up plays the emote aimed (ui/emote_wheel.lua, 2026-10-21) -->
+  <Binding name="FOREVERSPEECH_EMOTEWHEEL" category="ADDONS" runOnUp="true">
+    ForeverSpeech.EmoteWheel.OnKey(keystate == "down")
+  </Binding>
+</Bindings>

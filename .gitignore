@@ -1,0 +1,46 @@
+# local toolchains (made per machine: tools/setup.sh)
+.luarocks/
+.venv/
+.venv-voices/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+.DS_Store
+
+# data and audio: registries, voices, masters and game audio (personal use, never redistributed; the folder is
+# copied between machines, not committed). data/accents.json is hand-written and sealed: it is committed.
+data/*
+!data/accents.json
+# Elise's companion lines (D18) are hand-written too: committed, the rest of data/zones/ is not
+!data/zones/
+data/zones/*
+!data/zones/@elise/
+data/zones/@elise/*
+!data/zones/@elise/companions/
+data/zones/@elise/companions/*
+!data/zones/@elise/companions/scripts.json
+addon/ForeverSpeech/audio/*
+!addon/ForeverSpeech/audio/test/
+# the zone pictures (tools/zone_pictures.ts): 50 x 384 KB, made again from their masters in data/icons/zones/
+addon/ForeverSpeech/media/zones/
+addon/ForeverSpeech/data/index.lua
+addon/ForeverSpeech/data/game_voices.lua
+
+# third-party data sources, cloned and built locally (never committed): tools/prepare_db.sh
+.data/
+
+# local backups (tar.gz of the whole repo)
+.backups/
+
+# Wowhead raw pages (personal use only, never redistributed)
+tests/pipeline/fixtures/wowhead/
+
+# API keys (never committed)
+config/secrets.env
+
+# shareable archives of the addon (tools/package_addon.ts)
+dist/
+
+# Claude Code worktrees (never on the Mac: CLAUDE.md §2); .claude/launch.json is committed
+.claude/worktrees/
