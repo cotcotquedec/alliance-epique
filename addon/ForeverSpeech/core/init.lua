@@ -9,7 +9,7 @@ local H = ForeverSpeech
 H.name = ADDON_NAME or "ForeverSpeech"
 -- The name the player sees (2026-11-05, the public name); the folder, the globals and /fs keep ForeverSpeech.
 H.TITLE = "Alliance Épique"
-H.version = "0.2.0"
+H.version = "0.3.0"
 
 local PREFIX = "|cff4fa3e0" .. H.TITLE .. "|r: "
 

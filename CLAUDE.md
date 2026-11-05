@@ -8,7 +8,7 @@
 > archives (`tools/package_addon.ts`) : l'addon sans l'audio (18 Mo), à publier (GitHub, CurseForge ou Wago), et ses voix
 > (3,2 Go), partagées à part par le joueur (Drive), refaites seulement quand des voix changent (`--no-audio` sinon), dans
 > leur propre dossier `AllianceEpique_Voix` à côté de l'addon (une mise à jour remplace le dossier de l'addon, pas celui-là) ;
-> FlareUI en dépendance optionnelle (`## OptionalDeps`, à déclarer aussi sur CurseForge). Le dépôt public
+> FlareUI en dépendance optionnelle (`## OptionalDeps`, à déclarer aussi sur CurseForge ; le kit : [docs/curseforge.md](docs/curseforge.md)). Le dépôt public
 > [alliance-epique](https://github.com/cotcotquedec/alliance-epique) est un instantané sans historique de celui-ci.
 
 ## 1. Objectif
