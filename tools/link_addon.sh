@@ -22,6 +22,11 @@ fi
 ADDONS="$GAME/Interface/AddOns"
 TARGET="$ADDONS/ForeverSpeech"
 mkdir -p "$ADDONS"
+# A link left by a moved or renamed project folder (2026-11-06) points at the old place: redo it.
+if [[ $WSL -eq 0 ]] && [ -L "$TARGET" ] && [ "$(readlink "$TARGET")" != "$PWD/addon/ForeverSpeech" ]; then
+  echo "relinking: $TARGET pointed at $(readlink "$TARGET")"
+  rm "$TARGET"
+fi
 if [ -L "$TARGET" ] || { [[ $WSL -eq 1 ]] && [ -e "$TARGET" ] && [ -f "$TARGET/ForeverSpeech.toc" ] \
     && cmd.exe /c dir /AL "$(wslpath -w "$ADDONS")" 2>/dev/null | grep -q ForeverSpeech; }; then
   echo "already linked: $TARGET"

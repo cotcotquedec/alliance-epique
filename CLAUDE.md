@@ -112,6 +112,9 @@ Usage cible :
   externe **Games** (Lexar ES3 512 Go en APFS, depuis le 2026-10-16), à brancher pour jouer. Sur le même disque :
   `_classic_beta_` (la bêta, finie ; réglages et captures de la bêta dans son `WTF/`) et `_retail_`.
 - Dev : lien symbolique de `addon/ForeverSpeech` vers le dossier AddOns (`tools/link_addon.sh`). `/reload` suffit pour le Lua ; redémarrage complet pour tout nouveau fichier.
+  Dossier du projet sur le Mac : `~/Documents/projects/cotcotquedec/alliance-epique` (renommé de `foreverspeech` le
+  2026-11-06). Après tout déplacement du dossier : `node tools/relocate.ts <ancien chemin>` (environnements Python,
+  luarocks, journaux des boucles, liens, worktrees), puis `tools/link_addon.sh` (refait un lien qui pointe ailleurs).
 - Outils conseillés en jeu : BugGrabber + BugSack (erreurs Lua), `/fstack` (noms des frames), `/etrace` (événements).
 - Outils locaux : LuaJIT + luacheck + busted dans `.luarocks/` (arbre local Lua 5.1), Python 3.12 dans `.venv/`. `tools/check.sh` lance tout.
   Voix (D11) : `.venv-voices/` (Qwen3-TTS, faster-whisper, speechbrain ; `tools/voices/setup.sh`), `ffmpeg` et
@@ -160,7 +163,7 @@ data/          (pas dans git, sauf accents.json) zones.json (catalogue), zones/<
 docs/spikes/   un fichier par spike : question, procédure, résultat, décision
 docs/reference/ connaissances de référence sur le jeu (ex. npc-voices.md)
 tests/         busted (Lua, avec stubs d'API WoW), pytest (pipeline)
-tools/         scripts de dev (setup.sh, lien AddOns, sons de test, check.sh, zone.sh, prepare_db.sh, report.sh)
+tools/         scripts de dev (setup.sh, lien AddOns, relocate.ts, sons de test, check.sh, zone.sh, prepare_db.sh, report.sh)
 tools/loop/    le moteur des boucles (arbitre, cliquet, sceau, périmètre --all/--group/--category) ;
                tools/base/, tools/text/, tools/voices/, tools/readings/, tools/dialogues/ (D14), tools/elise/ (D9),
                tools/books/ (D19) :

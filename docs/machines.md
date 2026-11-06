@@ -29,6 +29,12 @@ git fetch origin
 git branch -m main archive-main && git switch -c main --track origin/main
 ```
 
+Le nom du dossier n'a pas d'importance (sur le Mac, `foreverspeech` est devenu `alliance-epique` le 2026-11-06 ; celui
+du PC peut garder le sien). Pour le renommer : `mv`, puis `node tools/relocate.ts <ancien chemin>` (Node 22.6 ou plus)
+dans le nouveau dossier, qui remet les environnements Python, luarocks et les liens ; puis le lien du jeu : sous
+Windows, supprimer le lien `ForeverSpeech` du dossier AddOns (`rmdir` sur un lien ne touche pas au dossier pointé),
+puis `tools/link_addon.sh`.
+
 ## Ce qui diffère entre les deux, et où
 
 Tout le code est le même. Ne changent que l'endroit où tournent les modèles et l'installation :
@@ -57,13 +63,13 @@ Ce qui ne change pas d'une machine à l'autre :
 
 1. Windows : pilote NVIDIA récent (il fournit CUDA à WSL2 ; ne pas installer CUDA dans Ubuntu), puis dans PowerShell
    `wsl --install -d Ubuntu-24.04`.
-2. Copier le dossier du projet **dans le disque Linux**, par exemple `~/foreverspeech`, jamais sous `/mnt/c/…` (dix
-   fois plus lent). Depuis le disque externe, dans Ubuntu : `rsync -a /mnt/d/foreverspeech/ ~/foreverspeech/` (adapter
+2. Copier le dossier du projet **dans le disque Linux**, par exemple `~/alliance-epique`, jamais sous `/mnt/c/…` (dix
+   fois plus lent). Depuis le disque externe, dans Ubuntu : `rsync -a /mnt/d/alliance-epique/ ~/alliance-epique/` (adapter
    la lettre). Inutile de copier `.backups/`, `.venv/`, `.venv-voices/` et `.luarocks/` : ils sont refaits.
 3. Dans Ubuntu :
    ```bash
    sudo apt update && sudo apt install -y python3.12 python3.12-venv build-essential curl git ffmpeg vorbis-tools sox luajit luarocks liblua5.1-0-dev
-   cd ~/foreverspeech && bash tools/setup.sh
+   cd ~/alliance-epique && bash tools/setup.sh
    ```
    `bash tools/setup.sh` et non `tools/setup.sh` : la copie a pu perdre les droits d'exécution (le script les remet).
 4. Vérifier :
