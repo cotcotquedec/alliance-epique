@@ -8,7 +8,8 @@
 //   next to the addon's: an update of the addon replaces its folder, not this one; shared apart (a Drive link).
 // Left out: the voice models and FLAC masters (data/, never in the addon), any audio the index does not name. In the
 // addon's index, the `voice` fields are dropped (the pipeline's record of the voice a file was made with, §8; the addon
-// never reads them). A LISEZMOI.txt (install, credits) goes in each archive, next to the folder.
+// never reads them). A LISEZMOI.txt (install, credits) goes in each archive, inside its folder: nothing at the top of a
+// zip (CurseForge refuses an addon archive with a file next to its folder, 2026-11-05).
 // Out (dist/ is not versioned): dist/AllianceEpique-<version>-<date>.zip, staged in dist/addon/, and
 // dist/AllianceEpique-audio-<version>-<date>.zip, staged in dist/voices/ (its TOC, and audio\ a link to the addon's:
 // nothing copied).
@@ -117,7 +118,7 @@ const stripped = index.replace(/voice = "[^"]*",[ \t]*/g, "");
 if (/voice = "/.test(stripped)) throw new Error("index.lua: a voice field left (its shape changed)");
 writeFileSync(join(ADDON_STAGE, "ForeverSpeech", "data/index.lua"), stripped);
 writeFileSync(
-  join(ADDON_STAGE, "LISEZMOI.txt"),
+  join(ADDON_STAGE, "ForeverSpeech", "LISEZMOI.txt"),
   `Alliance Épique ${version} (${date}) — ton compagnon pour l'Alliance sur WoW Forever : les quêtes lues à voix haute,
 en français, une voix par PNJ ; Elise la narratrice ; du confort sans changer le jeu.
 Version : ${tag || release || "sans tag"}, commit ${commit}.
@@ -143,7 +144,7 @@ ${credits}`,
 const zip = join(DIST, `${name}.zip`);
 rmSync(zip, { force: true });
 // .ogg and .tga already compact or small: stored as they are (-n), the Lua compressed
-execFileSync("zip", ["-q", "-r", "-X", "-n", ".ogg", zip, "ForeverSpeech", "LISEZMOI.txt"], { cwd: ADDON_STAGE });
+execFileSync("zip", ["-q", "-r", "-X", "-n", ".ogg", zip, "ForeverSpeech"], { cwd: ADDON_STAGE });
 console.log(`addon: ${relative(ROOT, zip)} (${addonFiles.length} files, ${mb(statSync(zip).size)})`);
 
 // The voices: their folder AllianceEpique_Voix staged in dist/voices/ (its TOC; audio\ a link to the addon's, followed
@@ -169,7 +170,7 @@ if (!NO_AUDIO) {
       "",
     ].join("\n"),
   );
-  const notes = join(DIST, "LISEZMOI-voix.txt");
+  const notes = join(VOICES_STAGE, VOICES, "LISEZMOI.txt");
   writeFileSync(
     notes,
     `Alliance Épique — les voix (${audioFiles.length} fichiers), version ${version} (${date}), commit ${commit}.
@@ -187,9 +188,8 @@ Les voix servent aussi aux versions suivantes de l'addon ; une quête sans sa vo
 ${credits}`,
   );
   const names = [`${VOICES}/${VOICES}.toc`, ...audioFiles.map((f) => `${VOICES}/${f}`)].join("\n");
-  execFileSync("zip", ["-q", "-X", "-n", ".ogg", audioZip, "-@"], { cwd: VOICES_STAGE, input: names });
-  execFileSync("zip", ["-q", "-j", "-X", audioZip, notes]);
-  rmSync(notes, { force: true });
+  const list = `${names}\n${VOICES}/LISEZMOI.txt`;
+  execFileSync("zip", ["-q", "-X", "-n", ".ogg", audioZip, "-@"], { cwd: VOICES_STAGE, input: list });
   console.log(`audio: ${relative(ROOT, audioZip)} (${audioFiles.length} files, ${mb(statSync(audioZip).size)})`);
 }
 if (tag) {

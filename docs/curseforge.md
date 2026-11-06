@@ -1,6 +1,7 @@
 # Alliance Épique sur CurseForge
 
-Le kit pour créer le projet et y déposer l'addon (préparé le 2026-11-05). La création du projet et l'envoi des fichiers
+Le kit pour créer le projet et y déposer l'addon (préparé le 2026-11-05). **Le projet existe** : n° 1785582, créé le
+2026-11-05 avec le compte du joueur (https://authors.curseforge.com/#/projects/1785582/files). La création du projet et l'envoi des fichiers
 se font avec le compte CurseForge du joueur, dans l'espace auteur du site. Les archives se construisent avec
 `node tools/package_addon.ts` (README, « Installer » ; CLAUDE.md, « Releases »).
 
@@ -11,9 +12,9 @@ se font avec le compte CurseForge du joueur, dans l'espace auteur du site. Les a
 | Jeu | World of Warcraft |
 | Nom | Alliance Épique |
 | Adresse (slug) | `alliance-epique` |
-| Résumé | Ton compagnon pour l'Alliance sur WoW Forever : les quêtes lues par leurs PNJ, Elise la narratrice, du confort sans changer le jeu. |
+| Résumé (**en anglais**, exigé) | Your companion for the Alliance on WoW Forever: quests read aloud in French by their own NPCs, Elise the narrator, and comfort that keeps the game's look. |
 | Catégorie principale | Quests & Leveling (à choisir dans la liste du site) |
-| Autres catégories | Audio & Video, Roleplay (si la liste les propose) |
+| Autres catégories | Audio & Video, Roleplay |
 | Licence | MIT |
 | Code source | https://github.com/cotcotquedec/alliance-epique |
 | Logo | `dist/curseforge/logo.png` (400 × 400, l'icône de l'addon) |
@@ -22,11 +23,19 @@ se font avec le compte CurseForge du joueur, dans l'espace auteur du site. Les a
 **Les relations** (dans les réglages du projet, ou à l'envoi de chaque fichier) : FlareUI, **dépendance optionnelle**
 (pas « Required » : l'addon garde l'apparence du jeu sans lui). Le TOC le dit aussi (`## OptionalDeps: FlareUI`).
 
-**La version de jeu** (à l'envoi de chaque fichier) : celle de WoW Forever dans la liste du site (le client est en
-1.60.1, interface `16001`). Non vérifié : le nom exact que CurseForge lui donne.
+**La version de jeu** (à l'envoi de chaque fichier) : le groupe « WoW Forever », version **1.60.1** (le client, interface
+`16001`). **La distribution** aux applications tierces : autorisée.
 
 **Le fichier à envoyer** : `dist/AllianceEpique-<version>-<date>.zip` (l'addon seul, sans les voix). Jamais l'archive
 des voix (3,2 Go) : elle se partage à part.
+
+**Ce que CurseForge exige** (appris le 2026-11-05) :
+
+- le résumé en anglais ; la description commence donc par un paragraphe anglais, puis le texte français ;
+- **tout le contenu du zip dans un seul dossier** : un fichier posé à côté du dossier `ForeverSpeech` (le premier
+  `LISEZMOI.txt`) a fait refuser la première 0.3.0 (« This ZIP contains files at the top level ») ; le LISEZMOI est
+  maintenant dans le dossier ;
+- le fichier se choisit à la main (« Choose File ») : l'outil de navigateur de Claude ne joint pas plus de 10 Mo.
 
 ## La description
 
