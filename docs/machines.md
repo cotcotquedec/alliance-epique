@@ -17,6 +17,18 @@
 Deux machines qui produisent en même temps donneraient deux `data/voices.json` différents, impossibles à fusionner.
 Le code, lui, passe par git.
 
+**Le dépôt a changé le 2026-11-06** : c'est [alliance-epique](https://github.com/cotcotquedec/alliance-epique)
+(public) ; l'ancien dépôt privé ForeverSpeech est archivé, en lecture seule. Sur le PC, une seule fois, dans le dossier
+du projet, après avoir commité ce qui est en cours (les données, l'audio et le lien du jeu ne bougent pas) :
+
+```bash
+git remote rename origin archive && git config remote.archive.tagOpt --no-tags
+git remote add origin git@github.com:cotcotquedec/alliance-epique.git
+git tag -l | xargs -r git tag -d    # les anciens tags restent sur le dépôt archivé
+git fetch origin
+git branch -m main archive-main && git switch -c main --track origin/main
+```
+
 ## Ce qui diffère entre les deux, et où
 
 Tout le code est le même. Ne changent que l'endroit où tournent les modèles et l'installation :
