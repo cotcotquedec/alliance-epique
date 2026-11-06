@@ -83,7 +83,7 @@ def main(argv: list[str] | None = None) -> int:
 
     def clone():
         cloner = Cloner()
-        secs = cloner.write(OUT / "clone.wav", record["qwen"]["ref"], TEXT, 1)
+        secs = cloner.write_many([(OUT / "clone.wav", record["qwen"]["ref"], TEXT)], 1)[0]
         return f"{record['name']} ({npc}), {secs:.1f}s of audio -> {OUT / 'clone.wav'}"
 
     def judge():

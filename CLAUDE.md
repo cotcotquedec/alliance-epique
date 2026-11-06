@@ -8,8 +8,11 @@
 > archives (`tools/package_addon.ts`) : l'addon sans l'audio (18 Mo), à publier (GitHub, CurseForge ou Wago), et ses voix
 > (3,2 Go), partagées à part par le joueur (Drive), refaites seulement quand des voix changent (`--no-audio` sinon), dans
 > leur propre dossier `AllianceEpique_Voix` à côté de l'addon (une mise à jour remplace le dossier de l'addon, pas celui-là) ;
-> FlareUI en dépendance optionnelle (`## OptionalDeps`, à déclarer aussi sur CurseForge ; le kit : [docs/curseforge.md](docs/curseforge.md)). Le dépôt public
-> [alliance-epique](https://github.com/cotcotquedec/alliance-epique) est un instantané sans historique de celui-ci.
+> FlareUI en dépendance optionnelle (`## OptionalDeps`, à déclarer aussi sur CurseForge ; le kit : [docs/curseforge.md](docs/curseforge.md)).
+> **Le dépôt** (2026-11-06) : [alliance-epique](https://github.com/cotcotquedec/alliance-epique), public, le seul où l'on
+> travaille (remote `origin`). Son historique part du 2026-11-05 ; avant, l'ancien dépôt privé ForeverSpeech, archivé en
+> lecture seule sur GitHub (remote `archive`, 167 commits, PR #1 à #36 : le « `git log` » cité plus bas). Les données et
+> l'audio, hors de git, restent dans le dossier du projet, que le jeu lit par son lien (`tools/link_addon.sh`).
 
 ## 1. Objectif
 
@@ -109,6 +112,9 @@ Usage cible :
   externe **Games** (Lexar ES3 512 Go en APFS, depuis le 2026-10-16), à brancher pour jouer. Sur le même disque :
   `_classic_beta_` (la bêta, finie ; réglages et captures de la bêta dans son `WTF/`) et `_retail_`.
 - Dev : lien symbolique de `addon/ForeverSpeech` vers le dossier AddOns (`tools/link_addon.sh`). `/reload` suffit pour le Lua ; redémarrage complet pour tout nouveau fichier.
+  Dossier du projet sur le Mac : `~/Documents/projects/cotcotquedec/alliance-epique` (renommé de `foreverspeech` le
+  2026-11-06). Après tout déplacement du dossier : `node tools/relocate.ts <ancien chemin>` (environnements Python,
+  luarocks, journaux des boucles, liens, worktrees), puis `tools/link_addon.sh` (refait un lien qui pointe ailleurs).
 - Outils conseillés en jeu : BugGrabber + BugSack (erreurs Lua), `/fstack` (noms des frames), `/etrace` (événements).
 - Outils locaux : LuaJIT + luacheck + busted dans `.luarocks/` (arbre local Lua 5.1), Python 3.12 dans `.venv/`. `tools/check.sh` lance tout.
   Voix (D11) : `.venv-voices/` (Qwen3-TTS, faster-whisper, speechbrain ; `tools/voices/setup.sh`), `ffmpeg` et
@@ -157,7 +163,7 @@ data/          (pas dans git, sauf accents.json) zones.json (catalogue), zones/<
 docs/spikes/   un fichier par spike : question, procédure, résultat, décision
 docs/reference/ connaissances de référence sur le jeu (ex. npc-voices.md)
 tests/         busted (Lua, avec stubs d'API WoW), pytest (pipeline)
-tools/         scripts de dev (setup.sh, lien AddOns, sons de test, check.sh, zone.sh, prepare_db.sh, report.sh)
+tools/         scripts de dev (setup.sh, lien AddOns, relocate.ts, sons de test, check.sh, zone.sh, prepare_db.sh, report.sh)
 tools/loop/    le moteur des boucles (arbitre, cliquet, sceau, périmètre --all/--group/--category) ;
                tools/base/, tools/text/, tools/voices/, tools/readings/, tools/dialogues/ (D14), tools/elise/ (D9),
                tools/books/ (D19) :

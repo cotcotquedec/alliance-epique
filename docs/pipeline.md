@@ -94,7 +94,7 @@ bash tools/setup.sh
 .venv-voices/bin/python -m tools.qwen_voices.doctor
 ```
 
-Le projet doit être dans le disque Linux de WSL (`~/foreverspeech`, pas `/mnt/c`). Désactiver la veille de Windows
+Le projet doit être dans le disque Linux de WSL (`~/alliance-epique`, pas `/mnt/c`). Désactiver la veille de Windows
 pour la nuit.
 
 ### À la main, sur Mac
