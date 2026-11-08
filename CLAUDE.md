@@ -38,12 +38,12 @@ Usage cible :
   Mac a le jeu. Toute hypothèse sur le client devient une demande de [docs/ingame/queue.md](docs/ingame/queue.md),
   vérifiée en jeu par l'agent du Mac (cycle : [docs/ingame/README.md](docs/ingame/README.md)). **Agent du Mac : au
   début de chaque session, lire la file et proposer les demandes ouvertes.**
-- **Jamais de commit sur `main`** (protégée, 2026-10-10) : une branche par session (`session/<date>-<sujet>`), une
-  pull request à la fin.
-- **Sur le Mac, jamais de worktree** (2026-10-15) : une seule session active à la fois, qui travaille dans le
-  dossier du projet lu par le jeu (`tools/link_addon.sh`), sur sa branche de session : un `/reload` en jeu montre
-  aussitôt les changements (redémarrage complet pour un nouveau fichier). Les PR ouvertes sont fusionnées avant
-  d'en commencer une autre.
+- **Directement sur `main`, sans worktree ni branche de session** (2026-11-08, remplace les règles du 2026-10-10 et du
+  2026-10-15) : un seul développeur, donc pas de branche `session/…` ni de pull request ; on commite sur `main`.
+  **Jamais de worktree** : le travail se fait dans le dossier du projet lu par le jeu (`tools/link_addon.sh`), où un
+  `/reload` en jeu montre aussitôt les changements (redémarrage complet pour un nouveau fichier). Une session
+  ouverte dans un worktree passe d'abord dans ce dossier.
+  Ce dépôt n'est pas un dépôt Mūcho : la skill `product` (ticket Linear, session, PR) ne s'y applique pas.
 
 ## 3. Licences et code tiers — strict
 
