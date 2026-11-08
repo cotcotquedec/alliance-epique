@@ -49,7 +49,7 @@ Pro) : B1 ne bloque plus rien.
 
 ## Étapes
 
-Chaque étape = un petit incrément testable, une session et une PR (`session/<date>-<sujet>`).
+Chaque étape = un petit incrément testable, commité sur `main`.
 
 ### 1. Faction comme paramètre du pipeline (sans rien générer)
 

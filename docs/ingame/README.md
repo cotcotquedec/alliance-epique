@@ -12,7 +12,8 @@ joueur voit ou entend) passe donc par **la file** : [queue.md](queue.md).
 
 ## Le canal : git
 
-- Le code et la file passent par GitHub, en pull requests (une branche par session, `main` protégée).
+- Le code et la file passent par GitHub, directement sur `main` (2026-11-08 : un seul développeur, ni branche de
+  session ni pull request). Chaque agent fait `git pull` avant de commencer et pousse ses commits à la fin.
 - Les données (audio, `data/`, captures) passent par le disque externe : pas dans git.
 - Les captures contiennent le nom du joueur : ne jamais les commiter telles quelles. Un résultat cite l'extrait utile
   (le texte d'un dialogue, une valeur de `/dump`), sans le nom du personnage.
@@ -22,15 +23,14 @@ joueur voit ou entend) passe donc par **la file** : [queue.md](queue.md).
 1. **L'agent du PC ouvre une demande** : une ligne dans `queue.md` (statut `ouverte`), avec l'hypothèse à
    vérifier, ce qu'elle débloque, et un lien vers la procédure : une fiche de spike (`docs/spikes/Sxx-….md`) ou une
    section de test (`docs/ingame-tests.md`, `Txx`). La procédure dit les commandes, le résultat attendu, et ce que
-   l'agent du Mac doit relever. Le code nécessaire (capture, commande de diagnostic) est livré sur la même branche.
-2. **L'agent du Mac, au début de chaque session**, récupère `main` (`git fetch`, puis sa branche de session), lit
+   l'agent du Mac doit relever. Le code nécessaire (capture, commande de diagnostic) est poussé sur `main` avec la demande.
+2. **L'agent du Mac, au début de chaque session**, récupère `main` (`git pull`), lit
    `queue.md` et propose à l'utilisateur les demandes `ouvertes`, les plus utiles d'abord (colonne « débloque »).
-   Si la demande demande une branche pas encore fusionnée, il la récupère pour le test.
 3. **Il fait faire le test**, lit lui-même les SavedVariables
    (`WTF/Account/<compte>/SavedVariables/ForeverSpeech.lua`), et demande seulement à l'utilisateur ce qu'il voit et
    entend.
 4. **Il consigne le résultat** dans la fiche (section « Résultat », avec la date et la version du client), passe la
-   ligne de la file à `répondue` avec un résumé d'une ligne, et ouvre sa pull request.
+   ligne de la file à `répondue` avec un résumé d'une ligne, commite et pousse sur `main`.
 5. **L'agent du PC, au début de sa session**, lit les demandes `répondues`, en tire la décision (ou la propose à
    l'utilisateur quand elle lui revient), l'écrit dans la fiche et passe la ligne à `close`.
 
