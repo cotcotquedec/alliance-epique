@@ -1690,17 +1690,19 @@ sur le disque du jeu.
 
 ## T70 — Le PNJ parle dans le médaillon (2026-11-08)
 
-**Livré** sur `main`. Pendant qu'une quête ou un dialogue est lu, le portrait 2D du PNJ dans le médaillon laisse place à
-son modèle 3D, cadré sur la tête, qui joue les animations de parole du jeu (60, 64, 65 : parler, s'exclamer, demander).
-À la fin de la lecture ou sur Stop, le modèle se fige puis le portrait revient. Elise (son portrait peint) ne bouge pas.
-Réglage : Options > Fenêtre de quête, « Animer le PNJ qui parle dans le médaillon » (activé).
+**Premier essai** (2026-11-08) : le modèle 3D du PNJ qui parle, à la place du portrait. Refusé à l'œil : un modèle ne se
+découpe pas en rond, son carré se voyait dans l'anneau (même agrandi sous un anneau évidé).
+
+**Livré** sur `main` ensuite : pendant qu'une quête, un dialogue ou une réplique d'Elise est lu, l'anneau du médaillon
+brille et pulse doucement ; le portrait reste fixe. À la fin ou sur Stop, la lueur s'éteint en un tiers de seconde.
+Réglage : Options > Fenêtre de quête, « Faire briller le médaillon de celui qui parle » (activé).
 
 | # | Action | Attendu |
 |---|---|---|
-| 1 | `/reload`, puis `/fs play <id>` d'une quête dont le donneur est un PNJ (ou accepter une quête) | Pendant la lecture, le PNJ bouge et parle dans le médaillon. |
-| 2 | Laisser la lecture finir, puis relancer et appuyer sur Stop | Les deux fois, le portrait fixe revient. |
-| 3 | Lire une réplique d'Elise (`/fs level 12`) | Son portrait peint reste fixe. |
-| 4 | Décocher le réglage, relancer une quête | Le portrait reste fixe pendant la lecture. |
+| 1 | Redémarrage complet (nouvelle image), puis `/fs play <id>` | Pendant la lecture, l'anneau brille et pulse ; le portrait est net et rond. |
+| 2 | Laisser la lecture finir, puis relancer et appuyer sur Stop | Les deux fois, la lueur s'éteint. |
+| 3 | Lire une réplique d'Elise (`/fs level 12`) | L'anneau brille aussi. |
+| 4 | Décocher le réglage, relancer une quête | L'anneau reste éteint. |
 
-**À relever** : un PNJ qui ne bouge pas (lequel), une animation qui s'arrête au bout de quelques secondes, un modèle mal
-cadré ou trop petit dans l'anneau, toute erreur Lua (la trace dit `frame: talking=true display=…`).
+**À relever** : une lueur trop forte, trop faible ou trop rapide, un décalage entre la lueur et l'anneau, toute erreur
+Lua (la trace dit `frame: talking=true`).

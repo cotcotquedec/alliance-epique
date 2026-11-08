@@ -430,8 +430,10 @@ Entrée absente → fallback **et** capture enregistrée pour génération ulté
      infobulles en trois niveaux ; dans le suivi et le journal, le pictogramme sur la case fine du jeu ;
    - **en-tête « médaillon »** (choisi parmi quatre maquettes) : le PNJ dans un médaillon rond (son portrait 2D du jeu,
      `SetPortraitTextureFromCreatureDisplayID`, masqué rond ; sinon son modèle 3D cadré sur la tête dans l'anneau ;
-     Elise : son portrait peint recadré sur son visage ; **pendant la lecture, le PNJ parle** : son modèle 3D remplace
-     le portrait et joue les animations de parole du jeu, réglage `talkAnim`, 2026-11-08, cadré sur le visage, 48 px sous l'anneau évidé `media/ui/ring_band.tga` (`tools/ring_band.ts`), non vérifié : T70), à côté le titre de la quête (deux lignes au plus, le seul
+     Elise : son portrait peint recadré sur son visage ; **pendant la lecture, l'anneau brille** et pulse doucement
+     (l'anneau évidé `media/ui/ring_band.tga`, `tools/ring_band.ts`, en lumière ajoutée), le portrait reste fixe ; réglage
+     `talkAnim`, 2026-11-08 ; essayé puis retiré le même jour : le modèle 3D qui parle à la place du portrait, son carré se
+     voyait dans l'anneau ; non vérifié : T70), à côté le titre de la quête (deux lignes au plus, le seul
      point fort), « PNJ · état », les contrôles de 20 px et le bouton de la liste de lecture ; le blason de difficulté
      (52 px) en haut à droite, son chiffre centré sur la plaque (`BADGE_NUDGE`) ;
    - **dessous, en pleine largeur** : la description de la quête (le seul bloc optionnel : « Afficher le texte de la
