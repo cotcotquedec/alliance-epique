@@ -101,6 +101,7 @@ local PAGES = {
     { kind = "check", label = L.OPT_SHOW_TEXT, db = { "showText", function() PlayerFrame.RefreshQuestText() end } },
     { kind = "check", label = L.OPT_SHOW_QUEST_LEVEL,
       on = { "showQuestLevel", function() PlayerFrame.UpdateQuestLevel() end } },
+    { kind = "check", label = L.OPT_TALK_ANIM, db = { "talkAnim", function() PlayerFrame.Refresh() end } },
     { kind = "check", label = L.OPT_DOCK_FLARE, db = { "dockFlare", function() PlayerFrame.Redock() end } },
     { kind = "cycle", label = L.OPT_ZOOM, db = { "modelZoom", function() PlayerFrame.ApplyZoom() end },
       values = { { 0, L.ZOOM_BODY }, { 0.3, L.ZOOM_BUST }, { 0.6, L.ZOOM_HEAD }, { 1, L.ZOOM_FACE } } },

@@ -323,6 +323,23 @@ local function applyZoom(model)
   return ok
 end
 
+-- The NPC talks in the medallion while its line plays (2026-11-08, setting talkAnim, on by default): its 3D model,
+-- framed like the model fallback, plays the game's talk animations in place of its 2D portrait; when the line ends
+-- or stops, the model stands and the portrait comes back. Elise's painted portrait never moves. Animation IDs of the
+-- client's models (unverified on Forever: T70): 60 talk, 64 talk with an exclamation, 65 talk with a question; 0
+-- stand. A talk animation is a few seconds long: OnAnimFinished starts the next one, mostly plain talk.
+local TALK_ANIMS = { 60, 60, 64, 60, 65 }
+local ANIM_STAND = 0
+
+local function animate(model)
+  if rawget(frame, "talking") then
+    frame.talkStep = (rawget(frame, "talkStep") or 0) % #TALK_ANIMS + 1
+    pcall(model.SetAnimation, model, TALK_ANIMS[frame.talkStep])
+  else
+    pcall(model.SetAnimation, model, ANIM_STAND)
+  end
+end
+
 -- Quest tab: model, title, giver, status, Play / Next / Stop, quest text, objectives, rewards.
 -- A section title (2026-10-21): small, muted gold, the game's quest title face. No divider after it (asked after a look
 -- in game: the friezes beside the titles were one ornament too many).
@@ -372,7 +389,17 @@ local function buildQuestPanel(f, qp)
   f.model = CreateFrame("PlayerModel", nil, med)
   f.model:SetSize(MODEL_IN, MODEL_IN)
   f.model:SetPoint("CENTER")
-  pcall(f.model.SetScript, f.model, "OnModelLoaded", applyZoom)
+  pcall(f.model.SetScript, f.model, "OnModelLoaded", function(model)
+    applyZoom(model)
+    if rawget(frame, "talking") then -- the talk animation set before the model was loaded
+      animate(model)
+    end
+  end)
+  pcall(f.model.SetScript, f.model, "OnAnimFinished", function(model)
+    if rawget(frame, "talking") then
+      animate(model)
+    end
+  end)
   f.model:Hide()
   f.icon = med:CreateTexture(nil, "ARTWORK")
   f.icon:SetSize(f.faceRound and FACE or MODEL_IN, f.faceRound and FACE or MODEL_IN)
@@ -1417,6 +1444,7 @@ end
 
 local function setVisual(data)
   local model, icon = frame.model, frame.icon
+  frame.talking, frame.talkSwapped, frame.talkDisplay = false, false, false
   icon:Hide()
   model:Hide()
   frame.portrait:Hide()
@@ -1427,6 +1455,7 @@ local function setVisual(data)
     icon:Show()
     return
   end
+  frame.talkDisplay = data.displayID or false -- the model that talks in place of the 2D portrait
   if showFace(data.displayID) then
     return
   end
@@ -1451,6 +1480,46 @@ local function setVisual(data)
       icon:Show()
     end
   end)
+end
+
+-- The speaker talks (on) or stands (off) in the medallion, while the shown quest or line plays (talkAnim above).
+local function setTalking(on)
+  local model = frame.model
+  local display = rawget(frame, "talkDisplay")
+  on = on and ForeverSpeechDB.talkAnim ~= false and (display or model:IsShown()) and true or false
+  if on == (rawget(frame, "talking") or false) then
+    return
+  end
+  frame.talking = on
+  H.Trace("frame: talking=%s display=%s", on, display)
+  if on and display and frame.portrait:IsShown() and rawget(frame, "faceKind") == "face" then
+    frame.talkSwapped = true -- the 2D portrait gives way to the model
+    frame.portrait:Hide()
+    model:Show()
+    pcall(model.ClearModel, model)
+    pcall(model.SetDisplayInfo, model, display)
+    applyZoom(model)
+    C_Timer.After(1.5, function() -- no model loaded (S8): the portrait again, still
+      if not (rawget(frame, "talkSwapped") and rawget(frame, "talkDisplay") == display) then
+        return
+      end
+      local ok, fileID = pcall(model.GetModelFileID, model)
+      if not ok or not fileID then
+        frame.talkSwapped = false
+        model:Hide()
+        frame.portrait:Show()
+      end
+    end)
+  elseif not on and rawget(frame, "talkSwapped") then
+    frame.talkSwapped = false
+    animate(model)
+    model:Hide()
+    frame.portrait:Show()
+    return
+  end
+  if model:IsShown() then
+    animate(model)
+  end
 end
 
 local function setRewards(rewards)
@@ -1524,6 +1593,7 @@ function PlayerFrame.Refresh()
   frame.status:SetText(status)
   frame.stopButton:SetActive(Player.IsBusy())
   frame.nextButton:SetActive(queued > 0)
+  setTalking(playing)
 end
 
 -- Height of the shown quest text: the client's measure, else an estimate (about 70 characters a line).
@@ -1825,6 +1895,7 @@ local function fillLine(kind, id)
   frame.objHeader:SetText(L[HEADER[kind]])
   frame.objectiveSummary = L[SUMMARY[kind]]
   setObjectives(frame.objectiveSummary, nil)
+  frame.talking, frame.talkSwapped, frame.talkDisplay = false, false, false
   frame.model:Hide()
   frame.icon:Hide()
   frame.portrait:Hide()

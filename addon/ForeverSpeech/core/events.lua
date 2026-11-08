@@ -20,6 +20,7 @@ local DB_DEFAULTS = {
   gap = 2, -- seconds of silence between two quests of the play list
   showList = true, -- play list panel next to the main window
   showText = true, -- quest text on the quest tab (in-game text only: capture or quest log)
+  talkAnim = true, -- the NPC talks in the medallion while its line plays (ui/player_frame.lua, 2026-11-08)
   dockFlare = true, -- the window docked to FlareUI's quest tracker while it runs (ui/player_frame.lua, 2026-11-05)
   windowShown = false, -- the window was open at the last logout or /reload: opened again (2026-10-21)
   minimapHide = false,

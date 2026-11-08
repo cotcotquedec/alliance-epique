@@ -1687,3 +1687,20 @@ sur le disque du jeu.
 | 4 | `/reload` | Rien à coller : je lis la trace (`index: voices folder installed` puis `absent`). |
 
 **À relever** : une quête lue par la synthèse vocale alors que sa voix existe, toute erreur Lua.
+
+## T70 — Le PNJ parle dans le médaillon (2026-11-08)
+
+**Livré** sur `main`. Pendant qu'une quête ou un dialogue est lu, le portrait 2D du PNJ dans le médaillon laisse place à
+son modèle 3D, cadré sur la tête, qui joue les animations de parole du jeu (60, 64, 65 : parler, s'exclamer, demander).
+À la fin de la lecture ou sur Stop, le modèle se fige puis le portrait revient. Elise (son portrait peint) ne bouge pas.
+Réglage : Options > Fenêtre de quête, « Animer le PNJ qui parle dans le médaillon » (activé).
+
+| # | Action | Attendu |
+|---|---|---|
+| 1 | `/reload`, puis `/fs play <id>` d'une quête dont le donneur est un PNJ (ou accepter une quête) | Pendant la lecture, le PNJ bouge et parle dans le médaillon. |
+| 2 | Laisser la lecture finir, puis relancer et appuyer sur Stop | Les deux fois, le portrait fixe revient. |
+| 3 | Lire une réplique d'Elise (`/fs level 12`) | Son portrait peint reste fixe. |
+| 4 | Décocher le réglage, relancer une quête | Le portrait reste fixe pendant la lecture. |
+
+**À relever** : un PNJ qui ne bouge pas (lequel), une animation qui s'arrête au bout de quelques secondes, un modèle mal
+cadré ou trop petit dans l'anneau, toute erreur Lua (la trace dit `frame: talking=true display=…`).

@@ -286,6 +286,43 @@ describe("player window", function()
     assert.equals("face", (PlayerFrame.Visual()))
   end)
 
+  it("makes the NPC talk in the medallion while its quest plays, then shows its portrait again", function()
+    local PlayerFrame, Player = ForeverSpeech.PlayerFrame, ForeverSpeech.Player
+    _G.SetPortraitTextureFromCreatureDisplayID = function() end
+    questDetail(18)
+    _G.ForeverSpeechIndex = { version = 9, quests = { [18] = { giver = 823 } },
+      npcs = { [823] = { display = 2072, name = "Adjoint Willem" } } }
+    PlayerFrame.ShowQuest(18)
+    local model = PlayerFrame.ListPanel():GetParent().model
+    local anims, display = {}, nil
+    model.SetAnimation = function(_, id) anims[#anims + 1] = id end
+    model.SetDisplayInfo = function(_, id) display = id end
+    assert.equals("face", (PlayerFrame.Visual()))
+    Player.PlayQuest(18)
+    assert.equals("model", (PlayerFrame.Visual()))
+    assert.equals(2072, display)
+    assert.equals(60, anims[#anims])
+    model:GetScript("OnAnimFinished")(model) -- the next talk animation
+    assert.equals(2, #anims)
+    Player.Stop()
+    _G.SetPortraitTextureFromCreatureDisplayID = nil
+    assert.equals("face", (PlayerFrame.Visual()))
+    assert.equals(0, anims[#anims]) -- stands
+  end)
+
+  it("keeps the NPC's portrait still while it plays when the talk animation is off", function()
+    local PlayerFrame, Player = ForeverSpeech.PlayerFrame, ForeverSpeech.Player
+    _G.SetPortraitTextureFromCreatureDisplayID = function() end
+    ForeverSpeechDB.talkAnim = false
+    questDetail(18)
+    _G.ForeverSpeechIndex = { version = 9, quests = { [18] = { giver = 823 } },
+      npcs = { [823] = { display = 2072, name = "Adjoint Willem" } } }
+    PlayerFrame.ShowQuest(18)
+    Player.PlayQuest(18)
+    _G.SetPortraitTextureFromCreatureDisplayID = nil
+    assert.equals("face", (PlayerFrame.Visual()))
+  end)
+
   it("remembers that it was open, and opens again when the world is entered after a reload", function()
     local PlayerFrame = ForeverSpeech.PlayerFrame
     questDetail(18)
