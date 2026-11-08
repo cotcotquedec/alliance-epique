@@ -294,14 +294,16 @@ describe("player window", function()
       npcs = { [823] = { display = 2072, name = "Adjoint Willem" } } }
     PlayerFrame.ShowQuest(18)
     local model = PlayerFrame.ListPanel():GetParent().model
-    local anims, display = {}, nil
+    local anims, display, zoom = {}, nil, nil
     model.SetAnimation = function(_, id) anims[#anims + 1] = id end
     model.SetDisplayInfo = function(_, id) display = id end
+    model.SetPortraitZoom = function(_, z) zoom = z end
     assert.equals("face", (PlayerFrame.Visual()))
     Player.PlayQuest(18)
     assert.equals("model", (PlayerFrame.Visual()))
     assert.equals(2072, display)
     assert.equals(60, anims[#anims])
+    assert.equals(1, zoom) -- framed on the face while it talks
     model:GetScript("OnAnimFinished")(model) -- the next talk animation
     assert.equals(2, #anims)
     Player.Stop()

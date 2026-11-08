@@ -69,7 +69,11 @@ local OPTIONS_ATLAS, OPTIONS_ICON = "questlog-icon-setting", "Interface\\Buttons
 -- (SetPortraitTextureFromCreatureDisplayID), else its 3D model framed on the head in the medallion's inner square,
 -- else the quest icon. The header is the medallion's height, taller when the title takes two lines.
 local MEDALLION, FACE = 72, 58 -- the ring, the face inside it
-local MODEL_IN = 42 -- the 3D model's square inside the ring (a model cannot be masked round)
+local MODEL_IN = 42 -- a square face inside the ring, when the client cannot mask a texture round
+-- The 3D model's square (a model cannot be masked round), larger than the ring's hole: the ring hides its corners,
+-- drawn above it (2026-11-08, asked after T70: the 42 px square showed a small bust).
+local MODEL_SIZE = 50
+local TALK_ZOOM = 1 -- the talking model framed on the face, whatever the setting (the setting frames the still model)
 local HEAD_H, HEAD_H_2 = 72, 82 -- the header: one title line, two
 local FACE_MASK = "Interface\\CharacterFrame\\TempPortraitAlphaMask"
 local MAX_REWARD_ICONS, REWARD_SIZE, REWARD_STEP = 8, 24, 28
@@ -319,7 +323,8 @@ end
 -- without it the model stays full body. Applied again once the model is loaded, since loading a
 -- model can reset the camera.
 local function applyZoom(model)
-  local ok = pcall(model.SetPortraitZoom, model, tonumber(ForeverSpeechDB.modelZoom) or 0)
+  local zoom = frame and rawget(frame, "talking") and TALK_ZOOM or tonumber(ForeverSpeechDB.modelZoom) or 0
+  local ok = pcall(model.SetPortraitZoom, model, zoom)
   return ok
 end
 
@@ -370,14 +375,10 @@ local function buildQuestPanel(f, qp)
   head:SetHeight(HEAD_H)
   f.head, f.headHeight = head, HEAD_H
 
-  -- the medallion: ring, then the face (or the model, or the icon) inside it
+  -- the medallion: the face (or the model, or the icon), the ring above it
   local med = CreateFrame("Frame", nil, head)
   med:SetSize(MEDALLION, MEDALLION)
   med:SetPoint("TOPLEFT", head, "TOPLEFT", 0, 0)
-  local ring = med:CreateTexture(nil, "BACKGROUND")
-  ring:SetAllPoints()
-  ring:SetTexture(H.Style.RING)
-  H.Style.FlareTint(ring) -- FlareUI's bronze while it runs
   f.portrait = med:CreateTexture(nil, "ARTWORK")
   f.portrait:SetSize(FACE, FACE)
   f.portrait:SetPoint("CENTER")
@@ -387,8 +388,15 @@ local function buildQuestPanel(f, qp)
   end
   f.portrait:Hide()
   f.model = CreateFrame("PlayerModel", nil, med)
-  f.model:SetSize(MODEL_IN, MODEL_IN)
+  f.model:SetSize(MODEL_SIZE, MODEL_SIZE)
   f.model:SetPoint("CENTER")
+  local ringTop = CreateFrame("Frame", nil, med) -- the ring, above the model, hides its corners
+  ringTop:SetAllPoints()
+  ringTop:SetFrameLevel((f.model:GetFrameLevel() or 1) + 1)
+  local ring = ringTop:CreateTexture(nil, "OVERLAY")
+  ring:SetAllPoints()
+  ring:SetTexture(H.Style.RING)
+  H.Style.FlareTint(ring) -- FlareUI's bronze while it runs
   pcall(f.model.SetScript, f.model, "OnModelLoaded", function(model)
     applyZoom(model)
     if rawget(frame, "talking") then -- the talk animation set before the model was loaded
@@ -1518,6 +1526,7 @@ local function setTalking(on)
     return
   end
   if model:IsShown() then
+    applyZoom(model) -- the face while talking, the setting's framing again once it stands
     animate(model)
   end
 end
