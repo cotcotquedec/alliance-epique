@@ -17,6 +17,7 @@ H.Style = Style
 
 local UI = H.MEDIA .. "ui\\"
 Style.RING = UI .. "ring"
+Style.RING_BAND = UI .. "ring_band" -- the ring without its dark centre (tools/ring_band.ts, 2026-11-08)
 Style.PARCHMENT = UI .. "parchment" -- 256 x 256, an aged page (the zone story panel)
 Style.DIVIDER = UI .. "divider" -- 512 x 32, a thin ink line with a flourish (under a title on parchment)
 local SECTION_GOLD = { 0.88, 0.72, 0.29 } -- muted: a section title is a landmark, not a focal point (third pass)

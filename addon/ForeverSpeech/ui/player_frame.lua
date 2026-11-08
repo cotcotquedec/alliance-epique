@@ -69,10 +69,11 @@ local OPTIONS_ATLAS, OPTIONS_ICON = "questlog-icon-setting", "Interface\\Buttons
 -- (SetPortraitTextureFromCreatureDisplayID), else its 3D model framed on the head in the medallion's inner square,
 -- else the quest icon. The header is the medallion's height, taller when the title takes two lines.
 local MEDALLION, FACE = 72, 58 -- the ring, the face inside it
--- The 3D model's square inside the ring (a model cannot be masked round), also a square face if the client cannot mask
--- a texture. Not larger: the ring's art has an opaque dark centre, so it stays under the face and cannot hide the
--- corners of a larger model (tried 2026-11-08: drawn above, it hid the face).
-local MODEL_IN = 42
+local MODEL_IN = 42 -- a square face inside the ring, when the client cannot mask a texture round
+-- The 3D model's square (a model cannot be masked round), larger than the ring's hole (2026-11-08, asked after T70):
+-- the ring's band, without its dark centre (Style.RING_BAND), is drawn above the model and hides its corners. 48: the
+-- corners stay under the band (hole 31.5 px, ring 36 px in radius).
+local MODEL_SIZE = 48
 local TALK_ZOOM = 1 -- the talking model framed on the face, whatever the setting (the setting frames the still model)
 local HEAD_H, HEAD_H_2 = 72, 82 -- the header: one title line, two
 local FACE_MASK = "Interface\\CharacterFrame\\TempPortraitAlphaMask"
@@ -392,8 +393,15 @@ local function buildQuestPanel(f, qp)
   end
   f.portrait:Hide()
   f.model = CreateFrame("PlayerModel", nil, med)
-  f.model:SetSize(MODEL_IN, MODEL_IN)
+  f.model:SetSize(MODEL_SIZE, MODEL_SIZE)
   f.model:SetPoint("CENTER")
+  local bandTop = CreateFrame("Frame", nil, med) -- the band again, above the model, hides its corners
+  bandTop:SetAllPoints()
+  bandTop:SetFrameLevel((f.model:GetFrameLevel() or 1) + 1)
+  local band = bandTop:CreateTexture(nil, "OVERLAY")
+  band:SetAllPoints()
+  band:SetTexture(H.Style.RING_BAND)
+  H.Style.FlareTint(band)
   pcall(f.model.SetScript, f.model, "OnModelLoaded", function(model)
     applyZoom(model)
     if rawget(frame, "talking") then -- the talk animation set before the model was loaded
