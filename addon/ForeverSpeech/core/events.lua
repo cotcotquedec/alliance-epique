@@ -35,6 +35,7 @@ local DB_DEFAULTS = {
   disenchantTab = true, -- the backpack's disenchant side tab (shown anyway while disenchant mode is on)
   professionTabs = true, -- the backpack's Cooking and Tailoring side tabs (ui/bag_tabs.lua)
   bagRows = true, -- the combined bag laid out one bag per row (ui/bag_frame.lua)
+  reagentBag = true, -- the reagent bag opened with all bags, tinted green (ui/bag_frame.lua)
   mapButton = true, -- the world map's button replaying Elise's zone introduction
   mapPanel = true, -- the zone story panel beside the world map (ui/map_panel.lua, 2026-10-21)
   announceComplete = true, -- in a group, a chat line when a quest's objectives are all done (core/announce.lua)

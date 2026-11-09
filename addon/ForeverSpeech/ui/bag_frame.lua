@@ -453,6 +453,146 @@ end, install)
 
 H.OnInit(BagFrame.Apply) -- the saved place is known once the SavedVariables are loaded
 
+-- The reagent bag (2026-11-09, asked by the player; setting reagentBag): Forever's "open all bags" key
+-- (ToggleAllBags) leaves it closed, the player had to click it too. After the game's toggle, the reagent bag follows
+-- the backpack: opened with it, closed with it. Its own frame (the game shows it apart from the combined bag) is
+-- tinted green, border and background, so it stands out; the tint leaves a pooled frame reused for another bag.
+-- Opened by the addon, the frame's fields are tainted: an item used from it in combat may be blocked (reagents are
+-- not used). Unverified on Forever: the bag's ID (5, Enum.BagIndex.ReagentBag in Retail), its frame (T71, H44).
+local TINT = { 0.35, 0.85, 0.5 }
+local FILL_ALPHA = 0.2
+local painted = setmetatable({}, { __mode = "k" }) -- frame → { fill, saved = { [region] = color }, on }
+
+local function reagentOn()
+  return not ForeverSpeechDB or ForeverSpeechDB.reagentBag ~= false
+end
+
+function BagFrame.ReagentID()
+  local index = Enum and Enum.BagIndex
+  return index and index.ReagentBag or 5
+end
+
+local function numSlots(id)
+  local get = C_Container and C_Container.GetContainerNumSlots or GetContainerNumSlots
+  if not get then
+    return 0
+  end
+  local ok, n = pcall(get, id)
+  return ok and tonumber(n) or 0
+end
+
+-- The frame showing a bag apart from the combined bag, or nil.
+local function frameOf(id)
+  if type(ContainerFrameUtil_GetShownFrameForID) == "function" then
+    local ok, f = pcall(ContainerFrameUtil_GetShownFrameForID, id)
+    if ok and f then
+      return f
+    end
+  end
+  for i = 1, 13 do
+    local f = _G["ContainerFrame" .. i]
+    if f and f:IsShown() and f:GetID() == id then
+      return f
+    end
+  end
+  return nil
+end
+
+-- The frame's border pieces and background, the ones a tint shows on.
+local function tintables(f)
+  local out = {}
+  local ns = f.NineSlice
+  if type(ns) == "table" and type(ns.GetRegions) == "function" then
+    for _, r in ipairs({ ns:GetRegions() }) do
+      if type(r) == "table" and type(r.SetVertexColor) == "function" then
+        out[#out + 1] = r
+      end
+    end
+  end
+  local bg = f.Bg
+  if type(bg) == "table" and type(bg.SetVertexColor) == "function" then
+    out[#out + 1] = bg
+  end
+  return out
+end
+
+local function paint(f, on)
+  local state = painted[f]
+  if on then
+    if not state then
+      local fill = f:CreateTexture(nil, "BACKGROUND", nil, 7)
+      fill:SetPoint("TOPLEFT", f, "TOPLEFT", 6, -6)
+      fill:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -6, 6)
+      fill:SetColorTexture(TINT[1], TINT[2], TINT[3], FILL_ALPHA)
+      state = { fill = fill, saved = {} }
+      painted[f] = state
+    end
+    for _, r in ipairs(tintables(f)) do
+      if not state.saved[r] then
+        state.saved[r] = { r:GetVertexColor() }
+      end
+      r:SetVertexColor(TINT[1], TINT[2], TINT[3])
+    end
+    state.fill:Show()
+    state.on = true
+  elseif state and state.on then
+    for r, c in pairs(state.saved) do
+      r:SetVertexColor(c[1] or 1, c[2] or 1, c[3] or 1, c[4] or 1)
+    end
+    state.saved = {}
+    state.fill:Hide()
+    state.on = false
+  end
+end
+
+-- True when the frame wears the reagent bag's tint (tests, /fs bag slots).
+function BagFrame.Tinted(f)
+  local state = painted[f]
+  return state and state.on or false
+end
+
+local function paintShown()
+  local f = frameOf(BagFrame.ReagentID())
+  if f then
+    paint(f, reagentOn())
+  end
+end
+
+-- After the game's "open all bags": the reagent bag opened or closed with the backpack.
+local function followBackpack()
+  local id = BagFrame.ReagentID()
+  if not reagentOn() or numSlots(id) <= 0 or type(IsBagOpen) ~= "function" then
+    return
+  end
+  local backpack, reagent = IsBagOpen(0) and true or false, IsBagOpen(id) and true or false
+  if backpack and not reagent and type(OpenBag) == "function" then
+    OpenBag(id)
+    H.Trace("bag: reagent bag %d opened with the others", id)
+  elseif reagent and not backpack and type(CloseBag) == "function" then
+    CloseBag(id)
+    H.Trace("bag: reagent bag %d closed with the others", id)
+  end
+  paintShown()
+end
+
+function BagFrame.SetReagent(on)
+  ForeverSpeechDB.reagentBag = on and true or false
+  paintShown()
+end
+
+H.WhenAvailable(function()
+  return type(ToggleAllBags) == "function"
+end, function()
+  hooksecurefunc("ToggleAllBags", followBackpack)
+  if type(ContainerFrame_GenerateFrame) == "function" then
+    hooksecurefunc("ContainerFrame_GenerateFrame", function(f, _, id)
+      if type(f) == "table" and f ~= ContainerFrameCombinedBags then
+        paint(f, id == BagFrame.ReagentID() and reagentOn())
+      end
+    end)
+  end
+end)
+
 -- What the game says of each bag (its slots, C_Container) and what the frame's slot buttons say (their bag), so a
 -- layout can be checked against both; kept in ForeverSpeechDB.bagSlots for the next /reload.
 local function dumpSlots()
@@ -474,6 +614,12 @@ local function dumpSlots()
   for _, id in ipairs(order) do
     out[#out + 1] = string.format("buttons of bag %s: %d (last slot %d)", tostring(id), seen[id].n, seen[id].max)
   end
+  local rid = BagFrame.ReagentID()
+  local rframe = frameOf(rid)
+  out[#out + 1] = string.format("reagent bag %d: %d slots, Enum %s, frame %s, tinted %s, total frames %s", rid,
+    numSlots(rid), tostring(Enum and Enum.BagIndex and Enum.BagIndex.ReagentBag),
+    tostring(rframe and rframe.GetName and rframe:GetName()), tostring(rframe and BagFrame.Tinted(rframe)),
+    tostring(NUM_TOTAL_BAG_FRAMES))
   out[#out + 1] = string.format("columns: %s, rows on: %s", grid and tostring(grid.cols) or "?", tostring(rowsOn()))
   out[#out + 1] = string.format("height: %s (game %s, added %s)", tostring(bag and bag:GetHeight()),
     tostring(gameHeight), tostring(extra))

@@ -131,6 +131,8 @@ local PAGES = {
     { kind = "check", label = L.OPT_FADE_MOVE, on = { "fadeOnMove", function(value) H.Fade.SetEnabled(value) end } },
     { kind = "check", label = L.OPT_DISENCHANT_TAB, on = { "disenchantTab", sideTabs } },
     { kind = "check", label = L.OPT_BAG_ROWS, on = { "bagRows", function(value) H.BagFrame.SetRows(value) end } },
+    { kind = "check", label = L.OPT_REAGENT_BAG,
+      on = { "reagentBag", function(value) H.BagFrame.SetReagent(value) end } },
     { kind = "action", label = L.OPT_BAG_RESET, run = function()
       H.BagFrame.Reset()
       return L.BAG_RESET_DONE

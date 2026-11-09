@@ -83,7 +83,7 @@ function frameMethods:GetTexture() return self._texture end
 function frameMethods:SetDesaturated(on) self._desaturated = on and true or false end
 function frameMethods:IsDesaturated() return self._desaturated == true end
 function frameMethods:SetVertexColor(r, g, b, a) self._vertex = { r, g, b, a } end
-function frameMethods:GetVertexColor() return unpack(self._vertex or { 1, 1, 1, 1 }) end
+function frameMethods:GetVertexColor() return unpack(rawget(self, "_vertex") or { 1, 1, 1, 1 }) end
 function frameMethods.CreateFontString() return M.newRegion("FontString") end
 function frameMethods:SetValue(v) self._value = v end
 function frameMethods:GetValue() return self._value end
@@ -119,6 +119,8 @@ function M.reset(opts)
   -- disenchant mode and the backpack's side tabs (disenchant_spec sets them)
   _G.ContainerFrameCombinedBags, _G.ContainerFrame1, _G.ContainerFrame_Update = nil, nil, nil
   _G.UpdateContainerFrameAnchors = nil -- bag_frame_spec sets it
+  _G.ToggleAllBags, _G.OpenBag, _G.CloseBag, _G.IsBagOpen = nil, nil, nil, nil -- the reagent bag (bag_frame_spec)
+  _G.ContainerFrame_GenerateFrame, _G.ContainerFrameUtil_GetShownFrameForID = nil, nil
   _G.SpellIsTargeting, _G.C_TooltipInfo = nil, nil
   _G.C_TradeSkillUI, _G.Enum = nil, nil -- the professions' places (disenchant_spec sets them)
   _G.ITEM_DISENCHANT_ANY_SKILL, _G.ITEM_DISENCHANT_MIN_SKILL, _G.ITEM_DISENCHANT_NOT_DISENCHANTABLE = nil, nil, nil

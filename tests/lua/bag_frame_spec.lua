@@ -3,11 +3,15 @@ local wow = require("tests.lua.helpers.wow")
 -- The combined bag: its anchor as the client keeps it, the game laying it out at the bottom right.
 local bag, anchored, combat
 local slots
+local beforeLoad -- sets the game's functions a test needs, after wow.reset()
 
 local function setup(db)
   wow.reset()
   combat = false
   _G.InCombatLockdown = function() return combat end
+  if beforeLoad then
+    beforeLoad()
+  end
   bag = wow.newRegion("Frame")
   bag.EnumerateValidItems = function() return ipairs({}) end
   bag.SetPoint = function(self, point, rel, relPoint, x, y)
@@ -196,5 +200,81 @@ describe("bag frame", function()
     assert.same({}, ForeverSpeech.BagFrame.HeaderTexts())
     ForeverSpeech.BagFrame.SetRows(true)
     assert.same({ 12, -369 }, rowsOf(bag)[2][1])
+  end)
+end)
+
+-- The reagent bag: Forever's toggle opens and closes the backpack only; the reagent bag (5) has its own frame.
+describe("reagent bag", function()
+  local open, frame, border, bg
+
+  local function game()
+    open = {}
+    frame = wow.newRegion("Frame")
+    border = { wow.newRegion("Texture"), wow.newRegion("Texture") }
+    frame.NineSlice = wow.newRegion("Frame")
+    frame.NineSlice.GetRegions = function() return border[1], border[2] end
+    bg = wow.newRegion("Texture")
+    bg:SetVertexColor(0.4, 0.4, 0.4, 1)
+    frame.Bg = bg
+    _G.C_Container = { GetContainerNumSlots = function(id) return id == 5 and 12 or 16 end }
+    _G.IsBagOpen = function(id) return open[id] or false end
+    _G.ToggleAllBags = function() open[0] = not open[0] or nil end
+    _G.ContainerFrame_GenerateFrame = function(f, _, id)
+      f._bag = id
+      f:Show()
+    end
+    _G.OpenBag = function(id)
+      open[id] = true
+      ContainerFrame_GenerateFrame(frame, 12, id)
+    end
+    _G.CloseBag = function(id)
+      open[id] = nil
+      frame:Hide()
+    end
+    _G.ContainerFrameUtil_GetShownFrameForID = function(id)
+      return open[id] and frame._bag == id and frame or nil
+    end
+  end
+
+  before_each(function()
+    beforeLoad = game
+  end)
+  after_each(function()
+    beforeLoad = nil
+  end)
+
+  it("opens with all bags, tinted green, and closes with them", function()
+    setup()
+    ToggleAllBags()
+    assert.is_true(open[5])
+    assert.is_true(ForeverSpeech.BagFrame.Tinted(frame))
+    local r, g = border[1]:GetVertexColor()
+    assert.is_true(g > r)
+    r, g = bg:GetVertexColor()
+    assert.is_true(g > r)
+    ToggleAllBags()
+    assert.is_nil(open[0])
+    assert.is_nil(open[5])
+  end)
+
+  it("takes its tint off a frame the game reuses for another bag", function()
+    setup()
+    ToggleAllBags()
+    ContainerFrame_GenerateFrame(frame, 20, 2)
+    assert.is_false(ForeverSpeech.BagFrame.Tinted(frame))
+    assert.same({ 0.4, 0.4, 0.4, 1 }, { bg:GetVertexColor() })
+    assert.same({ 1, 1, 1, 1 }, { border[1]:GetVertexColor() })
+  end)
+
+  it("is left to the player when the setting is off, its tint taken off", function()
+    setup()
+    ToggleAllBags()
+    ForeverSpeech.BagFrame.SetReagent(false)
+    assert.is_false(ForeverSpeech.BagFrame.Tinted(frame))
+    ToggleAllBags()
+    assert.is_true(open[5]) -- the backpack closed, the reagent bag left open
+    open[5] = nil
+    ToggleAllBags()
+    assert.is_nil(open[5])
   end)
 end)

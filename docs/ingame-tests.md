@@ -1706,3 +1706,20 @@ Réglage : Options > Fenêtre de quête, « Faire briller le médaillon de celui
 
 **À relever** : une lueur trop forte, trop faible ou trop rapide, un décalage entre la lueur et l'anneau, toute erreur
 Lua (la trace dit `frame: talking=true`).
+
+## T71 — Le sac de composants avec tous les sacs (2026-11-09)
+
+**Livré** sur `main` : le raccourci « Ouvrir tous les sacs » ouvre aussi le sac de composants, et le ferme avec les
+autres ; son cadre est teinté de vert (bordure et fond). Réglage : Options > Confort, « Ouvrir le sac de composants avec
+tous les sacs, teinté en vert » (activé). Le bouton du sac à dos seul n'ouvre que le sac à dos, comme avant (H44).
+
+| # | Action | Attendu |
+|---|---|---|
+| 1 | `/reload`, sacs fermés, appuyer sur le raccourci « Ouvrir tous les sacs » | Le sac à dos et le sac de composants s'ouvrent ; le cadre du sac de composants est vert. |
+| 2 | Rappuyer sur le raccourci | Les deux se ferment. |
+| 3 | Ouvrir un sac de banque, ou cliquer le sac de composants seul | Le sac de banque n'est pas vert ; le sac de composants l'est. |
+| 4 | `/fs bag slots` | Une ligne `reagent bag 5: <cases> slots, Enum 5, frame ContainerFrame<N>, tinted true…` (sacs ouverts). |
+| 5 | Décocher le réglage, rouvrir tous les sacs | Le sac de composants reste fermé et sans teinte. |
+
+**À relever** : la ligne `reagent bag` de l'étape 4, un vert trop fort ou trop faible, toute erreur Lua, un message
+« action bloquée » en combat.

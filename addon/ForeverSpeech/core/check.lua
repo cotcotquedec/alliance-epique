@@ -76,6 +76,9 @@ Check.GLOBALS = {
   { "C_Container.GetContainerItemLink", "GetContainerItemLink" },
   { "C_Container.GetContainerItemID", "GetContainerItemID" }, "C_Container.GetContainerItemInfo",
   "C_Container.GetContainerNumFreeSlots", "C_Container.GetBagName",
+  -- the reagent bag opened with all bags, tinted (H44)
+  "ToggleAllBags", "OpenBag", "CloseBag", "IsBagOpen", "ContainerFrame_GenerateFrame",
+  "ContainerFrameUtil_GetShownFrameForID", "NUM_TOTAL_BAG_FRAMES",
   -- the professions' places (the backpack's tabs, H37)
   "C_TradeSkillUI.IsNearProfessionSpellFocus", "Enum.Profession",
   -- the group's progress on a quest (the window's objectives, H40)
