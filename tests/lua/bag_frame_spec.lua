@@ -218,7 +218,17 @@ describe("reagent bag", function()
     frame.Bg = bg
     _G.C_Container = { GetContainerNumSlots = function(id) return id == 5 and 12 or 16 end }
     _G.IsBagOpen = function(id) return open[id] or false end
-    _G.ToggleAllBags = function() open[0] = not open[0] or nil end
+    _G.ToggleAllBags = function() -- the backpack only, as Forever's key does; a frame later for the addon
+      open[0] = not open[0] or nil
+      if open[0] then
+        bag:Show()
+        bag:GetScript("OnShow")(bag)
+      else
+        bag:Hide()
+        bag:GetScript("OnHide")(bag)
+      end
+      wow.advance(0)
+    end
     _G.ContainerFrame_GenerateFrame = function(f, _, id)
       f._bag = id
       f:Show()
@@ -245,14 +255,14 @@ describe("reagent bag", function()
 
   it("opens with all bags, tinted green, and closes with them", function()
     setup()
-    ToggleAllBags()
+    _G.ToggleAllBags()
     assert.is_true(open[5])
     assert.is_true(ForeverSpeech.BagFrame.Tinted(frame))
     local r, g = border[1]:GetVertexColor()
     assert.is_true(g > r)
     r, g = bg:GetVertexColor()
     assert.is_true(g > r)
-    ToggleAllBags()
+    _G.ToggleAllBags()
     assert.is_nil(open[0])
     assert.is_nil(open[5])
   end)
@@ -264,7 +274,7 @@ describe("reagent bag", function()
       open[id] = true
       ContainerFrame_GenerateFrame(frame, 12, id)
     end
-    ToggleAllBags()
+    _G.ToggleAllBags()
     assert.is_true(open[5])
     assert.is_true(ForeverSpeech.BagFrame.Tinted(frame))
     assert.matches("did OpenBag%+ToggleBag", ForeverSpeech.BagFrame.lastFollow)
@@ -272,7 +282,7 @@ describe("reagent bag", function()
 
   it("takes its tint off a frame the game reuses for another bag", function()
     setup()
-    ToggleAllBags()
+    _G.ToggleAllBags()
     ContainerFrame_GenerateFrame(frame, 20, 2)
     assert.is_false(ForeverSpeech.BagFrame.Tinted(frame))
     assert.same({ 0.4, 0.4, 0.4, 1 }, { bg:GetVertexColor() })
@@ -281,13 +291,13 @@ describe("reagent bag", function()
 
   it("is left to the player when the setting is off, its tint taken off", function()
     setup()
-    ToggleAllBags()
+    _G.ToggleAllBags()
     ForeverSpeech.BagFrame.SetReagent(false)
     assert.is_false(ForeverSpeech.BagFrame.Tinted(frame))
-    ToggleAllBags()
+    _G.ToggleAllBags()
     assert.is_true(open[5]) -- the backpack closed, the reagent bag left open
     open[5] = nil
-    ToggleAllBags()
+    _G.ToggleAllBags()
     assert.is_nil(open[5])
   end)
 end)

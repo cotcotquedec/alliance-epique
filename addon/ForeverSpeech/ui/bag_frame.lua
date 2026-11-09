@@ -421,6 +421,8 @@ local function install()
   bag:HookScript("OnDragStart", onDragStart)
   bag:HookScript("OnDragStop", onDragStop)
   bag:HookScript("OnHide", onDragStop) -- closed while moving
+  bag:HookScript("OnShow", function() BagFrame.FollowSoon() end) -- the reagent bag with it (defined below)
+  bag:HookScript("OnHide", function() BagFrame.FollowSoon() end)
   bag:HookScript("OnShow", BagFrame.Apply)
   bag:HookScript("OnShow", function()
     BagFrame.Layout()
@@ -453,9 +455,10 @@ end, install)
 
 H.OnInit(BagFrame.Apply) -- the saved place is known once the SavedVariables are loaded
 
--- The reagent bag (2026-11-09, asked by the player; setting reagentBag): Forever's "open all bags" key
--- (ToggleAllBags) leaves it closed, the player had to click it too. After the game's toggle, the reagent bag follows
--- the backpack: opened with it, closed with it. Its own frame (the game shows it apart from the combined bag) is
+-- The reagent bag (2026-11-09, asked by the player; setting reagentBag): Forever's "open all bags" key leaves it
+-- closed, the player had to click it too. The reagent bag follows the backpack's frame: opened when it shows, closed
+-- when it hides, a frame later, whatever opened it (a hook on ToggleAllBags never ran in game: the player's key calls
+-- something else). Its own frame (the game shows it apart from the combined bag) is
 -- tinted green, border and background, so it stands out; the tint leaves a pooled frame reused for another bag.
 -- Opened by the addon, the frame's fields are tainted: an item used from it in combat may be blocked (reagents are
 -- not used). Unverified on Forever: the bag's ID (5, Enum.BagIndex.ReagentBag in Retail), its frame (T71, H44).
@@ -565,7 +568,7 @@ local function backpackOpen()
   return type(IsBagOpen) == "function" and IsBagOpen(0) and true or false
 end
 
--- After the game's "open all bags": the reagent bag opened or closed with the backpack. Open means its frame shown
+-- After the backpack shows or hides: the reagent bag opened or closed with it. Open means its frame shown
 -- (first test, 2026-11-09: bags open, no frame for bag 5). OpenBag first, else ToggleBag, the bag button's own call.
 -- What it saw and did is kept for /fs bag slots (BagFrame.lastFollow).
 local function followBackpack()
@@ -609,17 +612,19 @@ function BagFrame.SetReagent(on)
   paintShown()
 end
 
+-- A frame later: the game ends opening or closing its bags first.
+function BagFrame.FollowSoon()
+  C_Timer.After(0, followBackpack)
+end
+
 H.WhenAvailable(function()
-  return type(ToggleAllBags) == "function"
+  return type(ContainerFrame_GenerateFrame) == "function"
 end, function()
-  hooksecurefunc("ToggleAllBags", followBackpack)
-  if type(ContainerFrame_GenerateFrame) == "function" then
-    hooksecurefunc("ContainerFrame_GenerateFrame", function(f, _, id)
-      if type(f) == "table" and f ~= ContainerFrameCombinedBags then
-        paint(f, id == BagFrame.ReagentID() and reagentOn())
-      end
-    end)
-  end
+  hooksecurefunc("ContainerFrame_GenerateFrame", function(f, _, id)
+    if type(f) == "table" and f ~= ContainerFrameCombinedBags then
+      paint(f, id == BagFrame.ReagentID() and reagentOn())
+    end
+  end)
 end)
 
 -- What the game says of each bag (its slots, C_Container) and what the frame's slot buttons say (their bag), so a
@@ -649,7 +654,7 @@ local function dumpSlots()
     numSlots(rid), tostring(Enum and Enum.BagIndex and Enum.BagIndex.ReagentBag),
     tostring(rframe and rframe.GetName and rframe:GetName()), tostring(rframe and BagFrame.Tinted(rframe)),
     tostring(NUM_TOTAL_BAG_FRAMES))
-  out[#out + 1] = "reagent bag, last open all bags: " .. (BagFrame.lastFollow or "never seen")
+  out[#out + 1] = "reagent bag, backpack last shown or hidden: " .. (BagFrame.lastFollow or "never seen")
   out[#out + 1] = string.format("columns: %s, rows on: %s", grid and tostring(grid.cols) or "?", tostring(rowsOn()))
   out[#out + 1] = string.format("height: %s (game %s, added %s)", tostring(bag and bag:GetHeight()),
     tostring(gameHeight), tostring(extra))
