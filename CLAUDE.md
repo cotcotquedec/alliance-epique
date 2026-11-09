@@ -398,11 +398,15 @@ Entrée absente → fallback **et** capture enregistrée pour génération ulté
    demandé deux fois par seconde sac ouvert ; sans réponse du jeu, jamais grisé ; l'infobulle dit ce qui manque). Puis
    Désenchanter. Vérifié en jeu le 2026-11-05 (T62, H37) ; non vérifié : T38. Les onglets sécurisés suivent le sac quel
    que soit celui qui le déplace (2026-11-05, §9.22).
-   **Le sac de composants avec tous les sacs** (2026-11-09, demande du joueur ; réglage `reagentBag`, Options > Confort,
-   activé) : Forever le laisse fermé au raccourci « Ouvrir tous les sacs » ; après le `ToggleAllBags` du jeu, il suit
-   le sac à dos (ouvert avec lui, fermé avec lui ; `OpenBag` / `CloseBag`) ; son propre cadre est teinté de vert
-   (bordure `NineSlice` et fond `Bg`, plus un voile vert ; ôté si le jeu reprend ce cadre pour un autre sac,
-   crochet sur `ContainerFrame_GenerateFrame`). `/fs bag slots` dit son ID, ses cases et son cadre. Non vérifié : T71
+   **Le sac de composants dans la fenêtre du sac à dos** (2026-11-09, demande du joueur : une seule fenêtre ; réglage
+   `reagentBag`, Options > Confort, activé) : Forever le laisse fermé au raccourci « Ouvrir tous les sacs » (un crochet
+   sur `ToggleAllBags` ne s'est jamais déclenché en jeu). Il suit la fenêtre du sac à dos : ouvert une image après
+   qu'elle s'affiche, fermé quand elle se cache (`OpenBag`, sinon `ToggleBag`, l'appel du bouton du sac ; `CloseBag`).
+   Avec une ligne par sac (`bagRows`), **son cadre est replié dans le sac à dos** : il reste ouvert (le jeu met ses
+   cases à jour), mais son décor et ses autres boutons sont cachés, il ne prend pas la souris, et ses cases deviennent
+   le dernier sac de la fenêtre, sous un titre vert, sur un fond vert. Rendu au jeu à sa fermeture, réglage éteint ou
+   cadre repris pour un autre sac (crochet sur `ContainerFrame_GenerateFrame`). Sans une ligne par sac : sa propre
+   fenêtre, teintée de vert. `/fs bag slots` dit son ID, ses cases, son cadre et s'il est replié. Non vérifié : T71
    (H44).
 14. **Le son du jeu baisse pendant une lecture** (2026-10-21, `core/ducking.lua`, idée de Spoken, MIT) : pendant toute
    lecture de l'addon, la musique, l'ambiance et les effets descendent en 0,8 s à 30 %, 40 % et 60 % du réglage du

@@ -1709,17 +1709,22 @@ Lua (la trace dit `frame: talking=true`).
 
 ## T71 — Le sac de composants avec tous les sacs (2026-11-09)
 
-**Livré** sur `main` : le raccourci « Ouvrir tous les sacs » ouvre aussi le sac de composants, et le ferme avec les
-autres ; son cadre est teinté de vert (bordure et fond). Réglage : Options > Confort, « Ouvrir le sac de composants avec
-tous les sacs, teinté en vert » (activé). Le bouton du sac à dos seul n'ouvre que le sac à dos, comme avant (H44).
+**Premier essai** (2026-11-09) : un crochet sur `ToggleAllBags` ; le sac 5 existe (6 cases, `Enum.BagIndex.ReagentBag`
+= 5, `NUM_TOTAL_BAG_FRAMES` = 5), mais le crochet ne s'est jamais déclenché ; le sac cliqué à la main était bien vert.
+
+**Livré** sur `main` ensuite : le sac de composants suit la fenêtre du sac à dos (ouvert et fermé avec elle, quelle
+que soit la façon de l'ouvrir), et ses cases sont **dans cette fenêtre**, dernier sac, sous un titre vert sur un fond
+vert ; sa propre fenêtre n'apparaît plus. Réglage : Options > Confort, « Sac de composants dans la fenêtre du sac à dos,
+en vert » (activé). Sans « une ligne par sac » : sa propre fenêtre, teintée de vert (H44).
 
 | # | Action | Attendu |
 |---|---|---|
-| 1 | `/reload`, sacs fermés, appuyer sur le raccourci « Ouvrir tous les sacs » | Le sac à dos et le sac de composants s'ouvrent ; le cadre du sac de composants est vert. |
-| 2 | Rappuyer sur le raccourci | Les deux se ferment. |
-| 3 | Ouvrir un sac de banque, ou cliquer le sac de composants seul | Le sac de banque n'est pas vert ; le sac de composants l'est. |
-| 4 | `/fs bag slots` | Une ligne `reagent bag 5: <cases> slots, Enum 5, frame ContainerFrame<N>, tinted true…` (sacs ouverts). |
-| 5 | Décocher le réglage, rouvrir tous les sacs | Le sac de composants reste fermé et sans teinte. |
+| 1 | `/reload`, sacs fermés, raccourci « Ouvrir tous les sacs » | Une seule fenêtre : en bas, « <nom du sac> · 6 cases » en vert, ses cases sur un fond vert. |
+| 2 | Survoler, déplacer, utiliser un objet du sac de composants ; en ranger un dedans | Infobulle, glisser-déposer et clic droit marchent ; la case se met à jour. |
+| 3 | Rappuyer sur le raccourci, puis rouvrir par le bouton du sac à dos | Tout se ferme ; le bouton rouvre aussi le sac de composants dans la fenêtre. |
+| 4 | Ouvrir la banque et un sac de banque | Le sac de banque garde sa fenêtre, sans vert. |
+| 5 | `/fs bag slots` (sacs ouverts) | `reagent bag 5: 6 slots, …, tinted true` et `…, did OpenBag…, frame now ContainerFrame<N>, folded true`. |
+| 6 | Décocher le réglage, rouvrir les sacs | Le sac de composants reste fermé ; cliqué, sa fenêtre normale. |
 
-**À relever** : la ligne `reagent bag` de l'étape 4, un vert trop fort ou trop faible, toute erreur Lua, un message
-« action bloquée » en combat.
+**À relever** : les deux lignes `reagent bag` de l'étape 5, un morceau de son ancienne fenêtre encore visible, une case
+qui ne répond pas, toute erreur Lua, un message « action bloquée » en combat.

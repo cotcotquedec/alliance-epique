@@ -40,6 +40,10 @@ local sizing = false -- the addon is setting the frame's height
 local placed = setmetatable({}, { __mode = "k" }) -- slot button → where the addon put it, { x, y }
 local grid -- the game's grid, measured before the addon moved its slots
 local gridTop -- the grid's top below the frame's top, measured at the game's height
+local folded -- the reagent bag's own frame, folded into the combined bag (below, 2026-11-09)
+local band -- the reagent bag's green background in the combined bag
+local TINT = { 0.35, 0.85, 0.5 } -- the reagent bag's color
+local GOLD = { 1, 0.82, 0 } -- GameFontNormalSmall's
 
 local function blocked(f)
   return InCombatLockdown and InCombatLockdown() and f.IsProtected and f:IsProtected()
@@ -264,16 +268,27 @@ function BagFrame.Layout()
   if not (f and rowsOn() and f:IsShown()) or blocked(f) then
     return
   end
-  local buttons = items(f)
-  if #buttons == 0 then
+  local own = items(f)
+  if #own == 0 then
     return
   end
   local base = baseHeight(f)
-  local m = ours(f, buttons) and grid or measure(f, buttons)
+  local m = ours(f, own) and grid or measure(f, own) -- the game's grid: from its own slots only
   if not m then
     return
   end
   grid = m
+  local buttons = {}
+  for _, b in ipairs(own) do
+    buttons[#buttons + 1] = b
+  end
+  if folded then
+    for _, b in ipairs(items(folded)) do
+      buttons[#buttons + 1] = b
+    end
+  end
+  local reagentID = BagFrame.ReagentID()
+  local bandTop -- the reagent bag's header, its top
   table.sort(buttons, function(a, b)
     local ab, as = slotOf(a)
     local bb, bs = slotOf(b)
@@ -307,7 +322,12 @@ function BagFrame.Layout()
       fs:SetPoint("TOPLEFT", f, "TOPLEFT", m.x, m.y + rowY)
       fs:SetWidth(width)
       fs:SetText(headerText(bagID, counts[bagID]))
+      local color = (folded and bagID == reagentID) and TINT or GOLD
+      fs:SetTextColor(color[1], color[2], color[3])
       fs:Show()
+      if folded and bagID == reagentID then
+        bandTop = rowY
+      end
       rowY = rowY - HEADER
       col = 0
     elseif col == m.cols then
@@ -321,7 +341,19 @@ function BagFrame.Layout()
     last = bagID
   end
   hideLines(used)
-  local gameRows = math.ceil(#buttons / m.cols)
+  if bandTop then
+    if not band then
+      band = f:CreateTexture(nil, "BACKGROUND", nil, 7)
+      band:SetColorTexture(TINT[1], TINT[2], TINT[3], 0.18)
+    end
+    band:ClearAllPoints()
+    band:SetPoint("TOPLEFT", f, "TOPLEFT", m.x - 4, m.y + bandTop + 2)
+    band:SetSize(width + 8, bandTop - rowY + m.h + 6)
+    band:Show()
+  elseif band then
+    band:Hide()
+  end
+  local gameRows = math.ceil(#own / m.cols)
   extra = (-rowY) - (gameRows - 1) * m.stepY + PAD
   ownHeight = base + extra
   setHeight(f, ownHeight)
@@ -330,6 +362,9 @@ end
 -- The setting turned off: the game's layout back.
 local function restore()
   hideLines(0)
+  if band then
+    band:Hide()
+  end
   ownHeight, grid, gridTop, extra = nil, nil, nil, 0
   if not bag or blocked(bag) then
     return
@@ -351,6 +386,7 @@ function BagFrame.SetRows(on)
   else
     restore()
   end
+  BagFrame.FollowSoon() -- the reagent bag folded in or given back
 end
 
 local pending = false
@@ -462,8 +498,15 @@ H.OnInit(BagFrame.Apply) -- the saved place is known once the SavedVariables are
 -- tinted green, border and background, so it stands out; the tint leaves a pooled frame reused for another bag.
 -- Opened by the addon, the frame's fields are tainted: an item used from it in combat may be blocked (reagents are
 -- not used). Unverified on Forever: the bag's ID (5, Enum.BagIndex.ReagentBag in Retail), its frame (T71, H44).
-local TINT = { 0.35, 0.85, 0.5 }
+-- One window (2026-11-09, asked by the player): with one row per bag (bagRows), the reagent bag's frame is folded
+-- into the combined bag. It stays open, so the game keeps updating its slots, but its art and its other buttons are
+-- hidden, it takes no mouse, and its slots are laid out as the combined bag's last bag, under a green header on a
+-- green background. Given back to the game when it closes, when a setting is off or when the game reuses it for
+-- another bag.
 local FILL_ALPHA = 0.2
+local hidden = {} -- the folded frame's art: region or child → { alpha } or { shown = true }
+local saved -- the folded frame's own state: { mouse, strata, level }
+local hooked = setmetatable({}, { __mode = "k" }) -- frames whose updates lay the combined bag out again
 local painted = setmetatable({}, { __mode = "k" }) -- frame → { fill, saved = { [region] = color }, on }
 
 local function reagentOn()
@@ -554,11 +597,97 @@ function BagFrame.Tinted(f)
   return state and state.on or false
 end
 
+local function unfold()
+  local rf = folded
+  if not rf then
+    return
+  end
+  folded = nil
+  for obj, was in pairs(hidden) do
+    if was.shown then
+      obj:Show()
+    else
+      obj:SetAlpha(was.alpha or 1)
+    end
+  end
+  hidden = {}
+  if saved then
+    rf:EnableMouse(saved.mouse ~= false)
+    if saved.strata then
+      rf:SetFrameStrata(saved.strata)
+    end
+    if saved.level then
+      rf:SetFrameLevel(saved.level)
+    end
+    saved = nil
+  end
+  H.Trace("bag: reagent bag given back to its own frame")
+end
+
+-- Hides the frame's art and other buttons; its slots are laid out by BagFrame.Layout.
+local function fold(rf)
+  if blocked(rf) or blocked(bag) then
+    return
+  end
+  if folded ~= rf then
+    unfold()
+    folded = rf
+    saved = { mouse = rf:IsMouseEnabled(), strata = rf:GetFrameStrata(), level = rf:GetFrameLevel() }
+    H.Trace("bag: reagent bag folded into the backpack")
+  end
+  local slot = {}
+  for _, b in ipairs(items(rf)) do
+    slot[b] = true
+  end
+  for _, child in ipairs({ rf:GetChildren() }) do
+    if not slot[child] and child:IsShown() then
+      hidden[child] = { shown = true }
+      child:Hide()
+    end
+  end
+  for _, region in ipairs({ rf:GetRegions() }) do
+    if not hidden[region] then
+      hidden[region] = { alpha = region:GetAlpha() }
+    end
+    region:SetAlpha(0)
+  end
+  rf:EnableMouse(false)
+  rf:SetFrameStrata(bag:GetFrameStrata())
+  rf:SetFrameLevel((bag:GetFrameLevel() or 0) + 10)
+  if not hooked[rf] then
+    hooked[rf] = true
+    for _, name in ipairs({ "UpdateItemLayout", "UpdateFrameSize", "UpdateItems" }) do
+      if type(rf[name]) == "function" then
+        hooksecurefunc(rf, name, function(self)
+          if folded == self then
+            layoutSoon()
+          end
+        end)
+      end
+    end
+  end
+  BagFrame.Layout()
+end
+
+-- The reagent bag's frame, shown: tinted, and folded into the combined bag when it is laid out one bag per row.
 local function paintShown()
   local f = frameOf(BagFrame.ReagentID())
   if f then
     paint(f, reagentOn())
+    if reagentOn() and rowsOn() and bag and bag:IsShown() then
+      fold(f)
+      return
+    end
   end
+  if folded then
+    unfold()
+    BagFrame.Layout()
+  end
+end
+
+-- True when the reagent bag's slots are in the combined bag (tests, /fs bag slots).
+function BagFrame.Folded()
+  return folded ~= nil
 end
 
 local function backpackOpen()
@@ -622,7 +751,14 @@ H.WhenAvailable(function()
 end, function()
   hooksecurefunc("ContainerFrame_GenerateFrame", function(f, _, id)
     if type(f) == "table" and f ~= ContainerFrameCombinedBags then
-      paint(f, id == BagFrame.ReagentID() and reagentOn())
+      local reagent = id == BagFrame.ReagentID() and reagentOn()
+      if f == folded and not reagent then
+        unfold() -- reused for another bag
+      end
+      paint(f, reagent)
+      if reagent then
+        paintShown()
+      end
     end
   end)
 end)
@@ -655,6 +791,7 @@ local function dumpSlots()
     tostring(rframe and rframe.GetName and rframe:GetName()), tostring(rframe and BagFrame.Tinted(rframe)),
     tostring(NUM_TOTAL_BAG_FRAMES))
   out[#out + 1] = "reagent bag, backpack last shown or hidden: " .. (BagFrame.lastFollow or "never seen")
+    .. ", folded " .. tostring(folded ~= nil)
   out[#out + 1] = string.format("columns: %s, rows on: %s", grid and tostring(grid.cols) or "?", tostring(rowsOn()))
   out[#out + 1] = string.format("height: %s (game %s, added %s)", tostring(bag and bag:GetHeight()),
     tostring(gameHeight), tostring(extra))

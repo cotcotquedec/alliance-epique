@@ -280,6 +280,47 @@ describe("reagent bag", function()
     assert.matches("did OpenBag%+ToggleBag", ForeverSpeech.BagFrame.lastFollow)
   end)
 
+  it("is folded into the backpack as its last bag, its own frame hidden, and given back when closed", function()
+    setup({ slots = true })
+    local close, art = wow.newRegion("Button"), wow.newRegion("Texture")
+    close:Show()
+    for _, obj in ipairs({ art, frame }) do
+      obj.SetAlpha = function(self, a) self._alpha = a end
+      obj.GetAlpha = function(self) return rawget(self, "_alpha") or 1 end
+    end
+    local reagent = {}
+    for slot = 1, 6 do
+      local b = wow.newRegion("Button")
+      b.GetBagID = function() return 5 end
+      b.GetID = function() return slot end
+      b.GetWidth, b.GetHeight = function() return 37 end, function() return 37 end
+      b.SetPoint = function(self, point, rel, relPoint, x, y)
+        self._at, self._anchor = { x, y }, { point, rel, relPoint, x, y }
+      end
+      b.GetPoint = function(self) return unpack(self._anchor or {}) end
+      b.GetLeft = function(self) return self._at and 100 + self._at[1] end
+      b.GetTop = function(self) return self._at and 500 + self._at[2] end
+      reagent[slot] = b
+    end
+    frame.EnumerateValidItems = function() return ipairs(reagent) end
+    frame.GetChildren = function() return close, unpack(reagent) end
+    frame.GetRegions = function() return art end
+    bag:UpdateItemLayout()
+    _G.ToggleAllBags()
+    assert.is_true(ForeverSpeech.BagFrame.Folded())
+    assert.same({ 12, -479 }, reagent[1]._at) -- under the last bag: its line, its header
+    assert.equal(bag, reagent[1]._anchor[2])
+    assert.same({ 54, -521 }, reagent[6]._at)
+    assert.is_false(close:IsShown())
+    assert.equal(0, art._alpha)
+    local texts = ForeverSpeech.BagFrame.HeaderTexts()
+    assert.matches("6 cases", texts[#texts])
+    _G.ToggleAllBags()
+    assert.is_false(ForeverSpeech.BagFrame.Folded())
+    assert.is_true(close:IsShown())
+    assert.equal(1, art._alpha)
+  end)
+
   it("takes its tint off a frame the game reuses for another bag", function()
     setup()
     _G.ToggleAllBags()
