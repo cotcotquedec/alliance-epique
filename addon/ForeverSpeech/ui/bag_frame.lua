@@ -558,20 +558,49 @@ local function paintShown()
   end
 end
 
--- After the game's "open all bags": the reagent bag opened or closed with the backpack.
+local function backpackOpen()
+  if ContainerFrameCombinedBags and ContainerFrameCombinedBags:IsShown() then
+    return true
+  end
+  return type(IsBagOpen) == "function" and IsBagOpen(0) and true or false
+end
+
+-- After the game's "open all bags": the reagent bag opened or closed with the backpack. Open means its frame shown
+-- (first test, 2026-11-09: bags open, no frame for bag 5). OpenBag first, else ToggleBag, the bag button's own call.
+-- What it saw and did is kept for /fs bag slots (BagFrame.lastFollow).
 local function followBackpack()
   local id = BagFrame.ReagentID()
-  if not reagentOn() or numSlots(id) <= 0 or type(IsBagOpen) ~= "function" then
+  local slots = numSlots(id)
+  if not reagentOn() or slots <= 0 then
+    BagFrame.lastFollow = string.format("skipped (setting %s, %d slots)", tostring(reagentOn()), slots)
     return
   end
-  local backpack, reagent = IsBagOpen(0) and true or false, IsBagOpen(id) and true or false
-  if backpack and not reagent and type(OpenBag) == "function" then
-    OpenBag(id)
-    H.Trace("bag: reagent bag %d opened with the others", id)
-  elseif reagent and not backpack and type(CloseBag) == "function" then
-    CloseBag(id)
-    H.Trace("bag: reagent bag %d closed with the others", id)
+  local backpack, shown = backpackOpen(), frameOf(id)
+  local did = "nothing"
+  if backpack and not shown then
+    if type(OpenBag) == "function" then
+      OpenBag(id)
+      did = "OpenBag"
+    end
+    if not frameOf(id) and type(ToggleBag) == "function" then
+      ToggleBag(id)
+      did = did .. "+ToggleBag"
+    end
+  elseif shown and not backpack then
+    if type(CloseBag) == "function" then
+      CloseBag(id)
+      did = "CloseBag"
+    end
+    if shown:IsShown() then
+      shown:Hide()
+      did = did .. "+Hide"
+    end
   end
+  local after = frameOf(id)
+  BagFrame.lastFollow = string.format("backpack %s, was shown %s, IsBagOpen %s, did %s, frame now %s",
+    tostring(backpack), tostring(shown ~= nil), tostring(type(IsBagOpen) == "function" and IsBagOpen(id)), did,
+    tostring(after and after.GetName and after:GetName()))
+  H.Trace("bag: reagent bag %d: %s", id, BagFrame.lastFollow)
   paintShown()
 end
 
@@ -620,6 +649,7 @@ local function dumpSlots()
     numSlots(rid), tostring(Enum and Enum.BagIndex and Enum.BagIndex.ReagentBag),
     tostring(rframe and rframe.GetName and rframe:GetName()), tostring(rframe and BagFrame.Tinted(rframe)),
     tostring(NUM_TOTAL_BAG_FRAMES))
+  out[#out + 1] = "reagent bag, last open all bags: " .. (BagFrame.lastFollow or "never seen")
   out[#out + 1] = string.format("columns: %s, rows on: %s", grid and tostring(grid.cols) or "?", tostring(rowsOn()))
   out[#out + 1] = string.format("height: %s (game %s, added %s)", tostring(bag and bag:GetHeight()),
     tostring(gameHeight), tostring(extra))

@@ -120,7 +120,7 @@ function M.reset(opts)
   _G.ContainerFrameCombinedBags, _G.ContainerFrame1, _G.ContainerFrame_Update = nil, nil, nil
   _G.UpdateContainerFrameAnchors = nil -- bag_frame_spec sets it
   _G.ToggleAllBags, _G.OpenBag, _G.CloseBag, _G.IsBagOpen = nil, nil, nil, nil -- the reagent bag (bag_frame_spec)
-  _G.ContainerFrame_GenerateFrame, _G.ContainerFrameUtil_GetShownFrameForID = nil, nil
+  _G.ContainerFrame_GenerateFrame, _G.ContainerFrameUtil_GetShownFrameForID, _G.ToggleBag = nil, nil, nil
   _G.SpellIsTargeting, _G.C_TooltipInfo = nil, nil
   _G.C_TradeSkillUI, _G.Enum = nil, nil -- the professions' places (disenchant_spec sets them)
   _G.ITEM_DISENCHANT_ANY_SKILL, _G.ITEM_DISENCHANT_MIN_SKILL, _G.ITEM_DISENCHANT_NOT_DISENCHANTABLE = nil, nil, nil

@@ -257,6 +257,19 @@ describe("reagent bag", function()
     assert.is_nil(open[5])
   end)
 
+  it("is opened by the bag button's call when OpenBag opens nothing", function()
+    setup()
+    _G.OpenBag = function() end
+    _G.ToggleBag = function(id)
+      open[id] = true
+      ContainerFrame_GenerateFrame(frame, 12, id)
+    end
+    ToggleAllBags()
+    assert.is_true(open[5])
+    assert.is_true(ForeverSpeech.BagFrame.Tinted(frame))
+    assert.matches("did OpenBag%+ToggleBag", ForeverSpeech.BagFrame.lastFollow)
+  end)
+
   it("takes its tint off a frame the game reuses for another bag", function()
     setup()
     ToggleAllBags()
