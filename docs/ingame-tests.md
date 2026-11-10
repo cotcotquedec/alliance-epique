@@ -1709,6 +1709,8 @@ Lua (la trace dit `frame: talking=true`).
 
 ## T71 — Le sac de composants avec tous les sacs (2026-11-09)
 
+**Retiré le 2026-11-10** avec tout le sac à dos de l'addon (`ui/bag_frame.lua`), avant d'être vérifié : à ne pas faire.
+
 **Premier essai** (2026-11-09) : un crochet sur `ToggleAllBags` ; le sac 5 existe (6 cases, `Enum.BagIndex.ReagentBag`
 = 5, `NUM_TOTAL_BAG_FRAMES` = 5), mais le crochet ne s'est jamais déclenché ; le sac cliqué à la main était bien vert.
 

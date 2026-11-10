@@ -46,9 +46,6 @@ read_globals = {
   "EventRegistry", "SpellIsTargeting", "C_TooltipInfo", "ITEM_DISENCHANT_ANY_SKILL",
   "ITEM_DISENCHANT_MIN_SKILL", "ITEM_DISENCHANT_NOT_DISENCHANTABLE", "SpellCanTargetItem", "SpellCanTargetItemID", "ItemLocation",
   "ContainerFrameCombinedBags", "ContainerFrame1", "ContainerFrame_Update", "GetContainerItemID", "UpdateContainerFrameAnchors",
-  -- the reagent bag opened with all bags, tinted (2026-11-09, unverified on Forever: H44)
-  "OpenBag", "CloseBag", "IsBagOpen", "ContainerFrame_GenerateFrame", "ToggleBag",
-  "ContainerFrameUtil_GetShownFrameForID", "NUM_TOTAL_BAG_FRAMES", "GetContainerNumSlots",
   -- the professions' places (2026-11-05, unverified on Forever: H37)
   "C_TradeSkillUI",
   "GetQuestDifficultyColor",

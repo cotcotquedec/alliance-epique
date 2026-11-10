@@ -143,7 +143,7 @@ addon/ForeverSpeech/
                chargé en dernier) ; Bindings.xml à la racine
   ui/          tracker_buttons.lua, questlog_buttons.lua, player_frame.lua, side_tabs.lua et
                fishing_tab.lua (onglets sur le côté, §9.10), emote_wheel.lua (roue d'émotes, §9.21), bag_tabs.lua (onglets du sac à dos, §9.13),
-               bag_frame.lua (sac à dos déplaçable, §9.13), quest_sort.lua (quêtes triées par niveau, §9.20), style.lua (apparence commune, §9.19), map_panel.lua
+               quest_sort.lua (quêtes triées par niveau, §9.20), style.lua (apparence commune, §9.19), map_panel.lua
                (récit du lieu, D16)
   data/        index.lua, game_voices.lua (GÉNÉRÉS — ne pas éditer à la main ; pipeline/build_index.py, pipeline/game_voices.py)
   audio/       test/*.ogg (phase 1), puis <npc>/<quest>_<kind>[_m|_f].ogg
@@ -319,7 +319,7 @@ Entrée absente → fallback **et** capture enregistrée pour génération ulté
    `npcvoices on|off`, `zone [mapID|where|reset|on|off]` (D16), `level [n|on|off]` (D17),
    `fish` (mode pêche, §9.10), `options [thème]` (fenêtre d'options), `friends [on|off|say <palier>]` (journal des compagnons, D18),
    `announce [questID|on|off|party|say]` (annonce au groupe, §9.11), `area` (quêtes dont je suis dans la zone, §9.12),
-   `disenchant` (objets à désenchanter, §9.13), `bag [reset]` (place du sac à dos, §9.13), `duck on|off` (baisse du
+   `disenchant` (objets à désenchanter, §9.13), `duck on|off` (baisse du
    son du jeu, §9.14), `books [on|off]` (livres lus par Elise, §9.17), `gossip [on|off]` (dialogues des PNJ, §9.18), `sort [on|off|probe]` (quêtes triées par niveau, §9.20), `check` (vérification du jeu, §2).
 7. Canal audio : « Dialog » par défaut, configurable.
 8. **Fin de quête** (2026-10-06) : capture du texte de rendu à `QUEST_COMPLETE` (`GetRewardText`, PNJ de rendu,
@@ -383,31 +383,19 @@ Entrée absente → fallback **et** capture enregistrée pour génération ulté
    visée, `ForeverSpeechDB.disenchantCheck` garde ce que dit chaque objet. `/fs disenchant` dit combien d'objets se
    désenchantent. H18 vérifié (sac combiné de Retail, `GetBagID`, `UpdateItems`, le sort 13262 lancé par l'onglet) ;
    non vérifié : T36.
-   **Le sac combiné se déplace** (2026-10-20, `ui/bag_frame.lua`) : glissé par son bord ou son titre, sa place est
-   retenue (`ForeverSpeechDB.bagPos`) et remise après chaque rangement des sacs par le jeu
-   (`UpdateContainerFrameAnchors`) ; `/fs bag [reset]`, Options > Confort. **Une ligne par sac** (réglage `bagRows`, activé par défaut) : après la grille du
-   jeu, ses cases reprises sac par sac, le sac à dos en haut, chaque sac à la ligne sous son nom, ses cases et ses cases
-   libres, un trait entre deux sacs, le cadre grandi d'autant, même quand le jeu le redimensionne (colonnes, pas et coin
-   de la grille du jeu ; le premier titre remonté de 11 pixels sous la recherche, 6 de plus sous le dernier sac) ; `/fs bag slots` dit la taille de
-   chaque sac. Sacs séparés : laissés au jeu. **Règle (2026-10-20) : les onglets des métiers vont sur la barre du sac** (à droite de la minimap depuis le 2026-11-10, demande du joueur : toujours à portée, sacs fermés ; à sa gauche si l'écran s'arrête là ; `SideTabs.AttachRight`, l'art du grimoire de son côté ; non vérifié : T72) : la
+   **Le sac à dos de l'addon retiré le 2026-11-10** (demande du joueur : le sac marchait mal, FlareUI ou le jeu ont
+   changé ; voir d'abord ce que fait le jeu seul) : `ui/bag_frame.lua` (sac déplaçable, une ligne par sac, sac de
+   composants replié dans le sac à dos, T38, T71), ses réglages `bagRows` et `reagentBag` et `/fs bag`. À remettre au
+   besoin depuis le commit qui le retire (`git log -- addon/ForeverSpeech/ui/bag_frame.lua`). Restent : les onglets
+   à droite de la minimap et la bordure dorée du désenchantement sur les cases (`ui/bag_tabs.lua`).
+   **Règle (2026-10-20) : les onglets des métiers vont sur la barre du sac** (à droite de la minimap depuis le 2026-11-10, demande du joueur : toujours à portée, sacs fermés ; à sa gauche si l'écran s'arrête là ; `SideTabs.AttachRight`, l'art du grimoire de son côté ; non vérifié : T72) : la
    pêche, puis **un onglet par métier appris qui a une fenêtre** (2026-11-05 ; la cuisine et la couture depuis le
    2026-10-20) : alchimie, forge, enchantement, ingénierie, travail du cuir, couture, fonte (le minage), cuisine,
    secourisme ; onglets sécurisés qui lancent le sort du métier par son nom, donc le rang connu, et ouvrent sa fenêtre ;
    réglage `professionTabs`. **Grisé, toujours cliquable**, quand le jeu dit que le lieu du métier n'est pas à
    proximité (cuisine : un feu ; fonte : une forge ; forge : une enclume ; `C_TradeSkillUI.IsNearProfessionSpellFocus`,
    demandé deux fois par seconde sac ouvert ; sans réponse du jeu, jamais grisé ; l'infobulle dit ce qui manque). Puis
-   Désenchanter. Vérifié en jeu le 2026-11-05 (T62, H37) ; non vérifié : T38. Les onglets sécurisés suivent le sac quel
-   que soit celui qui le déplace (2026-11-05, §9.22).
-   **Le sac de composants dans la fenêtre du sac à dos** (2026-11-09, demande du joueur : une seule fenêtre ; réglage
-   `reagentBag`, Options > Confort, activé) : Forever le laisse fermé au raccourci « Ouvrir tous les sacs » (un crochet
-   sur `ToggleAllBags` ne s'est jamais déclenché en jeu). Il suit la fenêtre du sac à dos : ouvert une image après
-   qu'elle s'affiche, fermé quand elle se cache (`OpenBag`, sinon `ToggleBag`, l'appel du bouton du sac ; `CloseBag`).
-   Avec une ligne par sac (`bagRows`), **son cadre est replié dans le sac à dos** : il reste ouvert (le jeu met ses
-   cases à jour), mais son décor et ses autres boutons sont cachés, il ne prend pas la souris, et ses cases deviennent
-   le dernier sac de la fenêtre, sous un titre vert, sur un fond vert. Rendu au jeu à sa fermeture, réglage éteint ou
-   cadre repris pour un autre sac (crochet sur `ContainerFrame_GenerateFrame`). Sans une ligne par sac : sa propre
-   fenêtre, teintée de vert. `/fs bag slots` dit son ID, ses cases, son cadre et s'il est replié. Non vérifié : T71
-   (H44).
+   Désenchanter. Vérifié en jeu le 2026-11-05 (T62, H37) ; non vérifié : T38.
 14. **Le son du jeu baisse pendant une lecture** (2026-10-21, `core/ducking.lua`, idée de Spoken, MIT) : pendant toute
    lecture de l'addon, la musique, l'ambiance et les effets descendent en 0,8 s à 30 %, 40 % et 60 % du réglage du
    joueur (jamais le canal de l'addon, `channel`) et remontent 1,2 s après la fin de la liste (pas entre deux quêtes).
