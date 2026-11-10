@@ -1728,3 +1728,21 @@ en vert » (activé). Sans « une ligne par sac » : sa propre fenêtre, teinté
 
 **À relever** : les deux lignes `reagent bag` de l'étape 5, un morceau de son ancienne fenêtre encore visible, une case
 qui ne répond pas, toute erreur Lua, un message « action bloquée » en combat.
+
+## T72 — Les onglets du sac à droite de la minimap (2026-11-10)
+
+**Livré** sur `main` : la barre d'onglets du sac (pêche, un onglet par métier, désenchantement) n'est plus collée au
+sac à dos ; elle est à droite de la minimap, en colonne depuis son haut, toujours affichée (sacs fermés aussi). Si la
+minimap touche le bord droit de l'écran, la barre passe à sa gauche. Les onglets sécurisés (métiers, désenchantement)
+disparaissent toujours en combat.
+
+| # | Action | Attendu |
+|---|---|---|
+| 1 | `/reload`, sacs fermés | Les onglets en colonne à droite de la minimap, à 6 pixels, l'art du grimoire de leur côté. |
+| 2 | Clic sur un métier, puis sur Désenchanter | La fenêtre du métier s'ouvre ; le curseur attend l'objet. |
+| 3 | Près d'un feu, puis loin | L'onglet Cuisine en couleur, puis grisé. |
+| 4 | Entrer en combat, en sortir | Métiers et Désenchanter disparaissent, puis reviennent à leur place. |
+| 5 | Ouvrir le sac à dos | Plus d'onglets sur son bord. |
+
+**À relever** : une capture de la minimap et des onglets, un onglet coupé par le bord de l'écran ou caché par un autre
+élément, une infobulle du mauvais côté, toute erreur Lua.

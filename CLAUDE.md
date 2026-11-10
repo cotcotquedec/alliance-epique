@@ -389,7 +389,7 @@ Entrée absente → fallback **et** capture enregistrée pour génération ulté
    jeu, ses cases reprises sac par sac, le sac à dos en haut, chaque sac à la ligne sous son nom, ses cases et ses cases
    libres, un trait entre deux sacs, le cadre grandi d'autant, même quand le jeu le redimensionne (colonnes, pas et coin
    de la grille du jeu ; le premier titre remonté de 11 pixels sous la recherche, 6 de plus sous le dernier sac) ; `/fs bag slots` dit la taille de
-   chaque sac. Sacs séparés : laissés au jeu. **Règle (2026-10-20) : les onglets des métiers vont sur le sac** : la
+   chaque sac. Sacs séparés : laissés au jeu. **Règle (2026-10-20) : les onglets des métiers vont sur la barre du sac** (à droite de la minimap depuis le 2026-11-10, demande du joueur : toujours à portée, sacs fermés ; à sa gauche si l'écran s'arrête là ; `SideTabs.AttachRight`, l'art du grimoire de son côté ; non vérifié : T72) : la
    pêche, puis **un onglet par métier appris qui a une fenêtre** (2026-11-05 ; la cuisine et la couture depuis le
    2026-10-20) : alchimie, forge, enchantement, ingénierie, travail du cuir, couture, fonte (le minage), cuisine,
    secourisme ; onglets sécurisés qui lancent le sort du métier par son nom, donc le rang connu, et ouvrent sa fenêtre ;

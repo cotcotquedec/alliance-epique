@@ -1,6 +1,6 @@
--- ForeverSpeech: the backpack's side tabs (2026-10-18), a bar of side tabs (ui/side_tabs.lua, bar "bag") on the left
--- edge of the frame showing the backpack: the combined bag (ContainerFrameCombinedBags) or the separate backpack
--- frame (ContainerFrameN holding bag 0). The rule (2026-10-20): the professions' tabs go on the backpack. Fishing
+-- ForeverSpeech: the backpack's side tabs (2026-10-18), a bar of side tabs (ui/side_tabs.lua, bar "bag"), on the left
+-- edge of the backpack's frame until 2026-11-10, beside the minimap's right edge since (asked by the player: always
+-- at hand, the bags closed; on its left edge when the right one would leave the screen). Fishing
 -- (ui/fishing_tab.lua) on top, then one tab per crafting profession (Cooking and Tailoring on 2026-10-20, every one
 -- with a window on 2026-11-05: Mining's is Smelting): secure tabs casting the profession's spell by its name (the
 -- rank the character knows), which opens its window as the spellbook would; shown only to a character who knows it
@@ -17,7 +17,7 @@ local Disenchant = H.Disenchant
 
 local ICON = "Interface\\Icons\\INV_Enchant_Disenchant"
 local FRAMES, MAX_SLOTS = 13, 36 -- NUM_CONTAINER_FRAMES, the most slots of a Classic container frame
-local BAR_TOP, BAR_BOTTOM = 30, 8 -- the bar's margins on the bag frame's edge
+local BAR_GAP = 6 -- between the minimap's edge and the bar
 local GLOW = { 1, 0.82, 0, 0.9 }
 
 local BagTabs = {}
@@ -144,15 +144,18 @@ local function refreshSoon()
   end)
 end
 
-local function onShow(f)
-  local bar = H.SideTabs.Bar("bag")
-  if BagTabs.IsBackpackFrame(f) then
-    H.SideTabs.Attach(f, "bag", BAR_TOP, BAR_BOTTOM)
-  elseif bar and H.SideTabs.Owner("bag") == f then -- Classic reuses its frames: this one now shows another bag
-    bar:Hide()
-  end
+local function onShow()
   refreshSoon()
 end
+
+-- The bar beside the minimap; measured again on entering the world (the minimap's place and the screen's size known).
+local function attach()
+  if Minimap then
+    H.SideTabs.AttachRight(Minimap, "bag", BAR_GAP)
+  end
+end
+H.OnInit(attach)
+H.TryRegisterEvent("PLAYER_ENTERING_WORLD", attach)
 
 local function install()
   for _, f in ipairs(frames()) do
