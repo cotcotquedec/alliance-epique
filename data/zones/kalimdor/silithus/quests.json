@@ -1418,7 +1418,7 @@
    "id": 8316,
    "name": "Armes de guerre",
    "objectives": null,
-   "description": null,
+   "description": "La guerre arrive, <nom>, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.\n\nSi jamais cette… cette prophétie devait se réaliser…\n\nAlors, notre avenir à tous s’arrêtera là.\n\nCes armements vous seront extrêmement utiles pour votre campagne dans ce désert.",
    "progress": null,
    "completion": "La guerre arrive, <nom>, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.\n\nSi jamais cette… cette prophétie devait se réaliser…\n\nAlors, notre avenir à tous s’arrêtera là.\n\nCes armements vous seront extrêmement utiles pour votre campagne dans ce désert.",
    "starters": [
@@ -1445,7 +1445,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -1453,16 +1455,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1527,7 +1531,7 @@
    "id": 8319,
    "name": "Les textes du crépuscule cryptés",
    "objectives": null,
-   "description": null,
+   "description": "Continuez à me fournir des textes. Nous ne tarderons pas à chasser le Marteau du crépuscule de Silithus.",
    "progress": "Continuez à me fournir des textes. Nous ne tarderons pas à chasser le Marteau du crépuscule de Silithus.",
    "completion": "Très bon travail ! Je glisserai un mot en votre faveur.",
    "starters": [
@@ -1563,17 +1567,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1748,7 +1754,7 @@
    "id": 8324,
    "name": "Je crois encore…",
    "objectives": null,
-   "description": null,
+   "description": "Vous avez trouvé d'autres textes cryptés ? Apportez m'en une bonne pile, car le travail de décodage prend du temps.",
    "progress": "Vous avez trouvé d'autres textes cryptés ? Apportez m'en une bonne pile, car le travail de décodage prend du temps.",
    "completion": "Excellent ! Je suis très impatient de les lire. Je vous en prie, continuez à m'apporter ici tous les textes cryptés que vous trouverez.",
    "starters": [
@@ -1784,17 +1790,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1912,7 +1920,7 @@
    "id": 8333,
    "name": "Le médaillon de statut",
    "objectives": null,
-   "description": null,
+   "description": "Si vous avez besoin d'un nouveau médaillon de statut de sectateur du crépuscule, je serai heureux de vous le fournir. Cependant, j’aurai besoin d’un autre éclat brillant et de quelques blasons abyssaux…",
    "progress": "Si vous avez besoin d'un nouveau médaillon de statut de sectateur du crépuscule, je serai heureux de vous le fournir. Cependant, j’aurai besoin d’un autre éclat brillant et de quelques blasons abyssaux…",
    "completion": "Voilà, <nom>. Un nouveau médaillon de statut du crépuscule. Utilisez-le sagement… Bonne chance contre le Conseil abyssal !",
    "starters": [
@@ -1948,17 +1956,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2021,7 +2031,7 @@
    "id": 8342,
    "name": "L'anneau d'autorité du crépuscule",
    "objectives": null,
-   "description": null,
+   "description": "<nom>, si vous avez l'intention de vous attaquer au Haut conseil abyssal une nouvelle fois, il vous faudra un autre anneau d'autorité du crépuscule. Apportez-moi plus d'éclats et de chevalières et je vous en fabriquerai un.",
    "progress": "<nom>, si vous avez l'intention de vous attaquer à nouveau au Haut Conseil des Abysses, vous aurez besoin d'un autre anneau de seigneur Twilight.Apportez-moi plus de tessons et de sceaux et je vous en ferai un.",
    "completion": "Ah, je vois que vos convictions sont fortes. Peu nombreux sont ceux qui défient ce conseil de démons !\n\nVoici votre anneau, <nom>. Que votre volonté ne faiblisse pas, et que la chance soit avec vous.",
    "starters": [
@@ -2048,7 +2058,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -2057,17 +2069,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2406,7 +2420,7 @@
    "id": 8362,
    "name": "Les blasons abyssaux",
    "objectives": null,
-   "description": null,
+   "description": "Vous avez prouvé que vous savez tenir votre place dans un combat, <nom>. Continuons à harceler le Marteau du crépuscule. Allez combattre d’autres Templiers abyssaux. Je vous récompenserai avec quelques objets que Huum et moi avons trouvés sur nos adversaires vaincus.",
    "progress": "Vous avez prouvé que vous savez tenir votre place dans un combat, <nom>. Continuons à harceler le Marteau du crépuscule. Allez combattre d’autres Templiers abyssaux. Je vous récompenserai avec quelques objets que Huum et moi avons trouvés sur nos adversaires vaincus.",
    "completion": "Vous vous êtes bien débrouillé ! Cela fera toujours quelques templiers en moins dont je devrais me soucier.\n\nVoilà, <nom>. Espérons que nous trouverons là-dedans quelque chose qui vous sera utile.",
    "starters": [
@@ -2433,7 +2447,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -2442,17 +2458,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2460,7 +2478,7 @@
    "id": 8363,
    "name": "Les chevalières abyssales",
    "objectives": null,
-   "description": null,
+   "description": "Vous avez démontré que vous êtes largement capable de vous attaquer à un duc abyssal, <nom>. Je suis toujours prêt à encourager de bonnes habitudes comme celle-ci. Apportez-moi d’autres chevalières, et je vous récompenserai.",
    "progress": "Vous avez démontré que vous êtes largement capable de vous attaquer à un duc abyssal, <nom>. Je suis toujours prêt à encourager de bonnes habitudes comme celle-ci. Apportez-moi d’autres chevalières, et je vous récompenserai.",
    "completion": "Excellent, <nom> ! Avoir vaincu ces ducs va désarçonner le Marteau du crépuscule pour un temps. Comme promis, voici votre récompense. C’est la crème de ce que Huum et moi avons trouvé.",
    "starters": [
@@ -2487,7 +2505,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -2496,17 +2516,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2514,7 +2536,7 @@
    "id": 8364,
    "name": "Les sceptres abyssaux",
    "objectives": null,
-   "description": null,
+   "description": "Vous recevrez :",
    "progress": "Tu as vraiment dépassé toutes mes attentes, <nom>. Vous avez affronté des adversaires que Huum et moi aurions longuement réfléchi avant de les affronter.\n\nPour l'instant, le mieux que je puisse faire est de continuer à récompenser vos efforts dans la lutte contre le Marteau du crépuscule et ses suzerains.\n\nApportez-moi d'autres sceptres abyssaux et je ferai de mon mieux pour vous récompenser.",
    "completion": "Je savais que tu t'en sortirais, <nom> ! Voici ta récompense.",
    "starters": [
@@ -2550,17 +2572,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2568,7 +2592,7 @@
    "id": 8376,
    "name": "Armes de guerre",
    "objectives": null,
-   "description": null,
+   "description": "La guerre arrive, <nom>, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensée.\n\nSi jamais cette… cette prophétie devait se réaliser…\n\nAlors, notre avenir à tous s’arrêtera là.\n\nCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
    "progress": null,
    "completion": "La guerre arrive, <nom>, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensée.\n\nSi jamais cette… cette prophétie devait se réaliser…\n\nAlors, notre avenir à tous s’arrêtera là.\n\nCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
    "starters": [
@@ -2595,7 +2619,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -2603,16 +2629,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2620,7 +2648,7 @@
    "id": 8377,
    "name": "Armes de guerre",
    "objectives": null,
-   "description": null,
+   "description": "La guerre arrive, <nom>, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.\n\nSi jamais cette… cette prophétie devait se réaliser…\n\nAlors, notre avenir à tous s’arrêtera là.\n\nCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
    "progress": null,
    "completion": "La guerre arrive, <nom>, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.\n\nSi jamais cette… cette prophétie devait se réaliser…\n\nAlors, notre avenir à tous s’arrêtera là.\n\nCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
    "starters": [
@@ -2647,7 +2675,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -2655,16 +2685,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2672,7 +2704,7 @@
    "id": 8378,
    "name": "Armes de guerre",
    "objectives": null,
-   "description": null,
+   "description": "La guerre arrive, <nom>, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.\n\nSi jamais cette… cette prophétie devait se réaliser…\n\nAlors, notre avenir à tous s’arrêtera là.\n\nCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
    "progress": null,
    "completion": "La guerre arrive, <nom>, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.\n\nSi jamais cette… cette prophétie devait se réaliser…\n\nAlors, notre avenir à tous s’arrêtera là.\n\nCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
    "starters": [
@@ -2699,7 +2731,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -2707,16 +2741,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2724,7 +2760,7 @@
    "id": 8379,
    "name": "Armes de guerre",
    "objectives": null,
-   "description": null,
+   "description": "La guerre arrive, <nom>, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.\n\nSi jamais cette… cette prophétie devait se réaliser…\n\nAlors, notre avenir à tous s’arrêtera là.\n\nCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
    "progress": null,
    "completion": "La guerre arrive, <nom>, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.\n\nSi jamais cette… cette prophétie devait se réaliser…\n\nAlors, notre avenir à tous s’arrêtera là.\n\nCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
    "starters": [
@@ -2751,7 +2787,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -2759,16 +2797,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2828,7 +2868,7 @@
    "id": 8381,
    "name": "Armes de guerre",
    "objectives": null,
-   "description": null,
+   "description": "La guerre arrive, <nom>, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.\n\nSi jamais cette… cette prophétie devait se réaliser…\n\nAlors, notre avenir à tous s’arrêtera là.\n\nCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
    "progress": null,
    "completion": "La guerre arrive, <nom>, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.\n\nSi jamais cette… cette prophétie devait se réaliser…\n\nAlors, notre avenir à tous s’arrêtera là.\n\nCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
    "starters": [
@@ -2855,7 +2895,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -2863,16 +2905,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2880,7 +2924,7 @@
    "id": 8382,
    "name": "Armes de guerre",
    "objectives": null,
-   "description": null,
+   "description": "La guerre arrive, <nom>, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.\n\nSi jamais cette… cette prophétie devait se réaliser…\n\nAlors, notre avenir à tous s’arrêtera là.\n\nCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
    "progress": null,
    "completion": "La guerre arrive, <nom>, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.\n\nSi jamais cette… cette prophétie devait se réaliser…\n\nAlors, notre avenir à tous s’arrêtera là.\n\nCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
    "starters": [
@@ -2907,7 +2951,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -2915,16 +2961,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3268,7 +3316,7 @@
    "id": 8508,
    "name": "La liste des affectations",
    "objectives": null,
-   "description": null,
+   "description": "Je suppose que vous voulez que ces papiers soient signés, jeune homme ?\n\nObjet fourni :",
    "progress": "Je suppose que vous voulez que ces papiers soient signés, jeune homme ?\n\nObjet fourni :",
    "completion": "Oui, je suppose que de nos jours, cette petite escarmouche peut passer pour une véritable opération de guerre. Rapportez ces papiers au Fort cénarien. Je suis certain qu’ils auront une mission pépère à vous confier.\n\nAllez, au boulot !",
    "starters": [
@@ -3304,17 +3352,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -4440,7 +4490,7 @@
    "id": 8743,
    "name": "Faites résonner le gong !",
    "objectives": null,
-   "description": null,
+   "description": "Vous recevrez :",
    "progress": "Le gong du Scarabée se profile devant vous. Tiens bon, <nom>, car une fois que le Gong du Scarabée sera sonné, les portes de l'Ahn'Qiraj s'ouvriront.\n\nDe la gueule détendue de la bête ne peuvent sortir que chaos et destruction. Défendez votre peuple !",
    "completion": "Un cristal spécial jaillit du sol près du gong. Peut-être une faveur du Brood.",
    "starters": [
@@ -4476,17 +4526,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -4494,7 +4546,7 @@
    "id": 8745,
    "name": "Le trésor de l'Intemporel",
    "objectives": null,
-   "description": null,
+   "description": "Vous pourrez choisir une de ces récompenses :\n\nVous recevrez également :",
    "progress": null,
    "completion": "Salutations, champion. Je suis Jonathan, gardien du gong sacré et veilleur éternel du vol de bronze.\n\nL'Intemporel lui-même m'a donné le pouvoir de t'accorder un objet de ton choix, tiré de son trésor éternel. Puisse-t-il t'aider dans tes combats contre C'Thun.",
    "starters": [
@@ -4529,16 +4581,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -6316,7 +6370,7 @@
    "id": 9338,
    "name": "Allégeance au Cercle cénarien",
    "objectives": null,
-   "description": null,
+   "description": "Même si vous n'avez pas besoin des récompenses matérielles que nous proposons, ces badges sont la marque de notre amitié et de notre confiance mutuelle.\n\nApportez-les-moi. Je ne manquerai pas de prendre note des services que vous nous rendrez s'ils allaient au-delà de l'appel du devoir.",
    "progress": "Même si vous n'avez pas besoin des récompenses matérielles que nous proposons, ces badges sont la marque de notre amitié et de notre confiance mutuelle.\n\nApportez-les-moi. Je ne manquerai pas de prendre note des services que vous nous rendrez s'ils allaient au-delà de l'appel du devoir.",
    "completion": "Vous nous faites honneur, <nom>. Grâce à vos efforts, nous viendrons à bout de tous les obstacles.",
    "starters": [
@@ -6352,17 +6406,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },

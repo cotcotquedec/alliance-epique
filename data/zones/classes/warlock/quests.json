@@ -3340,7 +3340,7 @@
    "id": 4785,
    "name": "Fil d'or fin",
    "objectives": null,
-   "description": null,
+   "description": "Voilà, <nom>. Et s'il vous plaît, dites à Menara que nous la saluons.\n\nNous espérons beaucoup de vous. Peut-être que, lorsque la Légion sera à genoux, votre nom et votre puissance seront loués haut et fort. Je suis impatient !",
    "progress": null,
    "completion": "Voilà, <nom>. Et s'il vous plaît, dites à Menara que nous la saluons.\n\nNous espérons beaucoup de vous. Peut-être que, lorsque la Légion sera à genoux, votre nom et votre puissance seront loués haut et fort. Je suis impatient !",
    "starters": [
@@ -3367,7 +3367,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -3375,16 +3377,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -5392,9 +5396,9 @@
    "id": 65602,
    "name": "Qu’est-ce que l’amour ?",
    "objectives": "Récupérez la Figurine en bois et rapportez-la à Gakin le Tisse-noir, au Quartier des mages de Stormwind.",
-   "description": null,
+   "description": "Seul un composant puissant vous permettra d’attirer un incube. Il vous faut un objet incarnant tout à la fois l’amour et la dévotion.\n\nEn scrutant les brumes du temps, j’ai repéré une figurine adaptée à votre rituel.\n\nElle appartenait à un jeune couple ayant vécu il y a plusieurs millénaires. S’ils sont morts depuis longtemps, ce souvenir de leur histoire a survécu jusqu’à aujourd’hui.\n\nSuivez la route du nord jusqu’en Ashenvale, puis partez vers l’ouest. Passé le poste de Maestra, vous trouverez une maison nichée au milieu des arbres où vous attend l’artéfact dont vous avez besoin.",
    "progress": null,
-   "completion": null,
+   "completion": "<Gakin fait tourner la figurine en bois entre ses doigts.>\n\nJe sens d’ici l’énergie émotionnelle qui imprègne cet artéfact. Malgré les années, sa force demeure intacte. L’incube ne pourra pas résister à la tentation.\n\nDécidément, Takar a toujours réponse à tout.",
    "starters": [
     {
      "type": "npc",
@@ -5427,17 +5431,20 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "objectives": "foreverdb"
+     "objectives": "foreverdb",
+     "description": "wowdata",
+     "completion": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "objectives": "foreverdb:questie"
-    }
+     "objectives": "foreverdb:questie",
+     "description": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
-   "missing": [
-    "description"
-   ],
-   "status": "incomplete"
+   "missing": [],
+   "status": "complete"
   },
   "65603": {
    "id": 65603,
@@ -5445,7 +5452,7 @@
    "objectives": "Utilisez la Figurine en bois pour invoquer et asservir un incube, puis rapportez l’objet à Gakin le Tisse-noir à l’Agneau assassiné.",
    "description": null,
    "progress": null,
-   "completion": null,
+   "completion": "Beau travail, <nom>. Vous avez vaincu le démon, et votre volonté demeure intacte.\n\nBon nombre de démonistes avant vous se sont crus assez forts pour lier un Sayaad et ont fini dans l’estomac de la créature. Ravi de constater que vous n’êtes pas tombé dans le piège à votre tour.\n\nJe vais à présent vous apprendre à invoquer votre incube nouvellement lié. Observez attentivement.",
    "starters": [
     {
      "type": "npc",
@@ -5478,12 +5485,15 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "objectives": "foreverdb"
+     "objectives": "foreverdb",
+     "completion": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "objectives": "foreverdb:questie"
-    }
+     "objectives": "foreverdb:questie",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "description"

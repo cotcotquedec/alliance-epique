@@ -148,7 +148,22 @@ def main(argv: list[str] | None = None) -> int:
     c.add_argument("--zones", type=Path, default=None, help="registries folder (default data/zones)")
     c.add_argument("--dry-run", action="store_true", help="report only, write nothing")
     c.add_argument("--json", action="store_true")
+    w = sub.add_parser("wowdata", help="French quest texts of salty-max/wow-data (forever.db) into the registries")
+    w.add_argument("db", type=Path)
+    w.add_argument("--zones", type=Path, default=None, help="registries folder (default data/zones)")
+    w.add_argument("--dry-run", action="store_true", help="report only, write nothing")
+    w.add_argument("--json", action="store_true")
     args = ap.parse_args(argv)
+    if args.command == "wowdata":
+        from pipeline import client_cache, wowdata
+        tag, texts = wowdata.read(args.db)
+        report = client_cache.import_cache(texts, tag, args.zones, dry_run=args.dry_run, channel="wowdata",
+                                           exclude_side="horde")
+        if args.json:
+            print(json.dumps(report, ensure_ascii=False, indent=1))
+        else:
+            print("\n".join(client_cache.summary(report)) + ("\n(dry run: nothing written)" if args.dry_run else ""))
+        return 0
     if args.command == "cache":
         from pipeline import client_cache
         _, build, texts = client_cache.read(args.wdb)

@@ -814,7 +814,7 @@
    "id": 1941,
    "name": "La robe de tisse-mana",
    "objectives": null,
-   "description": null,
+   "description": "Voici votre robe. C'est l’une des plus belles que j'ai confectionnées ! Portez-la avec fierté. Et si les gens vous interrogent, dites-leur qu'elle sort de l’atelier des couturiers Larson !",
    "progress": null,
    "completion": "Voici votre robe. C'est l’une des plus belles que j'ai confectionnées ! Portez-la avec fierté. Et si les gens vous interrogent, dites-leur qu'elle sort de l’atelier des couturiers Larson !",
    "starters": [
@@ -849,16 +849,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -866,7 +868,7 @@
    "id": 1942,
    "name": "L'Habit du noeud astral",
    "objectives": null,
-   "description": null,
+   "description": "Votre habit est prêt. Cette soie que vous avez apportée était si belle... Ça ne vous fait rien si je l'ai cousu un peu court pour pouvoir en conserver un morceau ?\n\nMais non, je plaisante ! Il vous ira comme un gant, au plus fort de l'aventure comme dans les occasions plus mondaines ! Profitez-en bien !",
    "progress": null,
    "completion": "Votre habit est prêt. Cette soie que vous avez apportée était si belle... Ça ne vous fait rien si je l'ai cousu un peu court pour pouvoir en conserver un morceau ?\n\nMais non, je plaisante ! Il vous ira comme un gant, au plus fort de l'aventure comme dans les occasions plus mondaines ! Profitez-en bien !",
    "starters": [
@@ -901,16 +903,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1778,7 +1782,7 @@
    "id": 1958,
    "name": "L'Energie céleste",
    "objectives": null,
-   "description": null,
+   "description": "Vous pouvez ressentir de la fierté, <nom>. Bien des mages auraient échoué face aux créatures que vous avez affrontées !\n\nL'Orbe céleste est prêt. Je peux aussi le fixer sur un bâton, c'est à vous de choisir. Moi, je choisirais l'Orbe, mais qui suis-je pour avoir un avis ?",
    "progress": null,
    "completion": "Vous pouvez ressentir de la fierté, <nom>. Bien des mages auraient échoué face aux créatures que vous avez affrontées !\n\nL'Orbe céleste est prêt. Je peux aussi le fixer sur un bâton, c'est à vous de choisir. Moi, je choisirais l'Orbe, mais qui suis-je pour avoir un avis ?",
    "starters": [
@@ -1805,7 +1809,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -1813,16 +1819,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2659,10 +2667,10 @@
   "92481": {
    "id": 92481,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Examinez le cristal de rappel luminescent, puis parlez à Dorii Murméclat dans le bosquet de Thendal.",
+   "description": "Pendant que vous vous occupiez de notre problème de vuldrènes, notre maîtresse des mages locale, Dorii Murméclat, a laissé ce cristal de rappel, qui contient une sorte de message pour vous. Après l’avoir consulté, vous pourrez la trouver dans le bâtiment juste derrière moi.",
    "progress": null,
-   "completion": null,
+   "completion": "Laissez-moi vous observer. Oui, je pense que vous deviendrez un excellent jeune <classe>. Le pouvoir des arcanes se fait de plus en plus rare chez notre peuple, mais il existe encore des gens qui cherchent à redécouvrir ce que nous avons perdu lors des millénaires passés parmi les nuages. Je suis sûre que vous mènerez à bien cette quête sans fin pour le savoir arcanique, et que vous finirez par faire notre fierté.\n\nRevenez me parler si vous souhaitez passer à la prochaine étape.",
    "starters": [
     {
      "type": "npc",
@@ -2693,23 +2701,30 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "93791": {
    "id": 93791,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Parlez à Belann Vif-Bois à Valanaar.",
+   "description": "<nom>, vos compétences en magie évoluent à vue d’œil. Je pense qu’il est temps pour vous de prendre part à l’une des plus anciennes traditions de l’Ordre suprême pour les jeunes mages en devenir. Vous allez façonner votre propre focalisateur de sorts.\n\nTrouvez Belann Vif-Bois à Valanaar. Voilà plus d’un siècle qu’il crée des bâtons et des baguettes pour l’Ordre suprême ; vous serez entre de bonnes mains avec lui.",
    "progress": null,
-   "completion": null,
+   "completion": "Ah, vous devez être Aelana, je présume ? Quel bonheur de voir de jeunes mages s’intéresser à nos coutumes et à notre histoire. Approchez, je vais vous expliquer les étapes de la fabrication d’un focalisateur de sorts.",
    "starters": [
     {
      "type": "npc",
@@ -2739,27 +2754,36 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "93797": {
    "id": 93797,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Apportez un rameau imprégné de vent à Belann Vif-Bois, à Valanaar.",
+   "description": "Une vieille tradition veut que les jeunes mages créent leur propre focalisateur de sort, une fois qu’ils ont atteint un certain degré de maîtrise de la magie. Pour cela, les initiés ramassent généralement une branche tombée d’un de nos arbres les plus anciens, car ces derniers portent encore des traces de vent élémentaire.\n\nJ’ai pu remarquer que les meilleurs se situent généralement près du sanctuaire du vent, au sud de Falaath. Allez-y et rapportez-moi un rameau de belle taille. Nous parlerons de nos traditions tout en fabriquant votre focalisateur de sort.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -2792,20 +2816,25 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "97286": {
    "id": 97286,
    "name": null,
-   "objectives": null,
+   "objectives": "Vérifiez si vous l'avez déjà terminé en tapant :",
    "description": null,
    "progress": null,
    "completion": null,
@@ -2849,12 +2878,16 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
     "description"
    ],
    "status": "incomplete"

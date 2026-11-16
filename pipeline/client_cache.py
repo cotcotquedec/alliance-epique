@@ -59,7 +59,10 @@ def _title_conflicts(registry: str | None, cache: str | None) -> bool:
     return bool(registry and cache) and capture_quests.similarity(registry, cache) < 1.0
 
 
-def import_cache(texts: dict[int, dict], build: int, zones_dir: Path | None = None, dry_run: bool = False) -> dict:
+def import_cache(texts: dict[int, dict], build, zones_dir: Path | None = None, dry_run: bool = False,
+                 channel: str = "client_cache", exclude_side: str | None = None) -> dict:
+    """Fill the registries from {quest id: {our field: text, "confirmed"?: bool}}; `build` is the source's stamp,
+    kept as source[channel]. Shared with the wow-data import (pipeline/wowdata.py)."""
     zones_dir = zones_dir or storage.ZONES_DIR
     report: dict = {"quests": len(texts), "build": build, "matched": 0, "unknown": [], "skipped": [], "filled": [], "differs": [],
                     "zones": collections.Counter()}
@@ -73,6 +76,8 @@ def import_cache(texts: dict[int, dict], build: int, zones_dir: Path | None = No
             if qid not in texts:
                 continue
             seen.add(qid)
+            if exclude_side and record.get("side") == exclude_side:
+                continue
             report["matched"] += 1
             entry = dict(texts[qid])
             if not entry.pop("confirmed", True) and _title_conflicts(record.get("name"), entry.get("name")):
@@ -80,12 +85,12 @@ def import_cache(texts: dict[int, dict], build: int, zones_dir: Path | None = No
                                           "cache_title": entry.get("name")})
                 continue
             result: dict = {"filled": [], "differs": []}
-            capture_quests.fill(record, entry, "client_cache", result)
+            capture_quests.fill(record, entry, channel, result)
             row = {"quest": qid, "kind": "detail", "zone": key, "title": record.get("name")}
             for field, score in result["differs"]:
                 report["differs"].append({**row, "field": field, "score": score})
             if result["filled"]:
-                record["source"]["client_cache"] = build
+                record["source"][channel] = build
                 capture_quests.refresh(record)
                 report["filled"].append({**row, "fields": result["filled"]})
                 report["zones"][key] += 1
@@ -99,7 +104,7 @@ def import_cache(texts: dict[int, dict], build: int, zones_dir: Path | None = No
 
 def summary(report: dict) -> list[str]:
     fields = collections.Counter(f for r in report["filled"] for f in r["fields"])
-    lines = [f"{report['quests']} quests in the client cache (build {report['build']}), {report['matched']} in the "
+    lines = [f"{report['quests']} quests in the source ({report['build']}), {report['matched']} in the "
              f"registries, {len(report['unknown'])} no registry holds",
              f"filled: {len(report['filled'])} quests ({', '.join(f'{f} {n}' for f, n in sorted(fields.items()))})"]
     lines += [f"  {zone}: {n}" for zone, n in sorted(report["zones"].items(), key=lambda kv: -kv[1])]

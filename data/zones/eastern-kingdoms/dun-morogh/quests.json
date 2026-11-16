@@ -939,7 +939,7 @@
    "id": 308,
    "name": "Distraire Jarven",
    "objectives": null,
-   "description": null,
+   "description": "Hum ! Toute cette boisson stockée là, et dire que j'ai l'interdiction formelle d'y toucher ! Si seulement je pouvais goûter un peu de notre Thunder Ale... Ça me donnerait un esprit plus vif, sans mentir !",
    "progress": "Hum ! Toute cette boisson stockée là, et dire que j'ai l'interdiction formelle d'y toucher ! Si seulement je pouvais goûter un peu de notre Thunder Ale... Ça me donnerait un esprit plus vif, sans mentir !",
    "completion": "Pour moi ? Vous êtes le symbole de l'héroïsme, <nom> !",
    "starters": [
@@ -978,17 +978,19 @@
     "texts": {
      "name": "wowhead",
      "progress": "foreverdb",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
      "progress": "foreverdb:vmangos",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1933,7 +1935,7 @@
    "id": 403,
    "name": "La garde du tonneau de Thunderbrew",
    "objectives": null,
-   "description": null,
+   "description": "Ce tonneau de bière est gardé par Jarven Thunderbrew. Tant qu'il est dans les sous-sols, aucun tonneau ne peut être bougé.\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "Le tonneau de bière est gardé par JArve Tonnebière. Tant qu'il est dans le sous sol, aucun tonneau ne peut être approché.",
    "starters": [
@@ -1971,16 +1973,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },

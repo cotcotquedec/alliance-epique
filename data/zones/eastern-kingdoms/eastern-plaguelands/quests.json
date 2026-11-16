@@ -1024,7 +1024,7 @@
    "id": 5503,
    "name": "Brevet de l'Aube d'argent",
    "objectives": null,
-   "description": null,
+   "description": "Tous ceux qui combattent le mal au nom de l'Aube d'argent doivent recevoir un brevet et arborer notre insigne. Cela leur donne le droit de demander à nos intendants les récompenses dont ils ont la garde.\n\nLorsque vous aurez votre brevet, vous pourrez récupérer des pierres du Fléau sur les membres du Fléau abattus ; ce sont des insignes qu'ils ont, parfois. Procurez-vous ces insignes et apportez-les-moi. Pour chaque insigne rapporté, vous recevrez notre marque d'héroïsme - la marque de valeur de l'Aube d'argent.\n\nAccomplissez votre destin, <classe> - rejoignez le combat dès aujourd'hui !",
    "progress": null,
    "completion": "Tous ceux qui combattent le mal au nom de l'Aube d'argent doivent recevoir un brevet et arborer notre insigne. Cela leur donne le droit de demander à nos intendants les récompenses dont ils ont la garde.\n\nLorsque vous aurez votre brevet, vous pourrez récupérer des pierres du Fléau sur les membres du Fléau abattus ; ce sont des insignes qu'ils ont, parfois. Procurez-vous ces insignes et apportez-les-moi. Pour chaque insigne rapporté, vous recevrez notre marque d'héroïsme - la marque de valeur de l'Aube d'argent.\n\nAccomplissez votre destin, <classe> - rejoignez le combat dès aujourd'hui !",
    "starters": [
@@ -1051,7 +1051,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "classe"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -1059,16 +1061,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1076,7 +1080,7 @@
    "id": 5508,
    "name": "Pierres du Fléau des corrupteurs",
    "objectives": null,
-   "description": null,
+   "description": "Une Pierre du Fléau des Corrupteurs est l'insigne des Seigneurs du Fléau. Tout être puissant occupant une position d'autorité au sein du Fléau en possède une. Détruire l'une de ces créatures malfaisantes ferait sans doute avancer la cause de l'Aube d'argent, et toutes les bonnes causes !\n\nAu nom de l'Aube d'argent, je vous remettrai une marque de valeur en échange de l'un de ces insignes. Soyez prudent dans votre quête, <nom> - on ne plaisante pas avec des êtres d'une telle puissance.",
    "progress": "Une Pierre du Fléau des Corrupteurs est l'insigne des Seigneurs du Fléau. Tout être puissant occupant une position d'autorité au sein du Fléau en possède une. Détruire l'une de ces créatures malfaisantes ferait sans doute avancer la cause de l'Aube d'argent, et toutes les bonnes causes !\n\nAu nom de l'Aube d'argent, je vous remettrai une marque de valeur en échange de l'un de ces insignes. Soyez prudent dans votre quête, <nom> - on ne plaisante pas avec des êtres d'une telle puissance.",
    "completion": "Félicitations, <nom>. Je suis heureux de vous attribuer une marque de valeur de l'Aube d'argent !\n\nRecevoir une marque de valeur de telle manière prouve que vous êtes un véritable héros au service du bien. Nous apprécions tous les efforts fournis dans la lutte contre le Fléau, mais abattre l'un de ses chefs est vraiment leur infliger une terrible défaite !\n\nPour l'Aube d'argent, mon frère !",
    "starters": [
@@ -1103,7 +1107,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -1112,17 +1118,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1130,7 +1138,7 @@
    "id": 5509,
    "name": "Pierres du Fléau des envahisseurs",
    "objectives": null,
-   "description": null,
+   "description": "Une pierre de Fléau des envahisseurs est l'insigne des troupes d'élite du Fléau. On les trouve parfois sur les soldats les plus aguerris stationnés dans les Maleterres. Abattre une telle créature est sans conteste un défi, mais un défi bien agréable pour ceux qui ont accepté notre brevet pour combattre le mal.\n\nL'Aube d'argent offre actuellement une marque de valeur en échange de dix de ces insignes. Apportez-les-moi, et je ferai en sorte que vous receviez votre juste récompense.",
    "progress": "Une pierre de Fléau des envahisseurs est l'insigne des troupes d'élite du Fléau. On les trouve parfois sur les soldats les plus aguerris stationnés dans les Maleterres. Abattre une telle créature est sans conteste un défi, mais un défi bien agréable pour ceux qui ont accepté notre brevet pour combattre le mal.\n\nL'Aube d'argent offre actuellement une marque de valeur en échange de dix de ces insignes. Apportez-les-moi, et je ferai en sorte que vous receviez votre juste récompense.",
    "completion": "Félicitations, <nom> - je suis heureux de vous donner une marque de valeur de l'Aube d'argent !\n\nChaque marque de valeur attribuée à un bénéficiaire méritant est un signe que le vent tourne contre le Fléau. Avec un nombre de plus en plus grand de héros combattant le Fléau sur ses propres terres, l'Aube d'argent sera assurément en bonne position quand le temps sera venu de porter l'attaque ultime contre le Fléau. J'espère que la valeur dont vous avez fait preuve pour gagner votre marque fera merveille à nouveau ce jour-là.",
    "starters": [
@@ -1166,17 +1174,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1184,7 +1194,7 @@
    "id": 5510,
    "name": "Pierres du Fléau des serviteurs",
    "objectives": null,
-   "description": null,
+   "description": "Une Pierre du Fléau des serviteurs est l'insigne du rang et de la classe du Fléau. Elles se trouvent parfois sur le plus faible de leurs troupes positionnées dans les Maleterres, bien que le terme \"faible\" mérite d'être replacé dans son contexte.Les membres du Fléau, où qu'ils soient, ne devraient jamais être sous-estimés.\n\nL'Aube d'argent offre à présent une marque de valeur pour 20 de ces insignes - un échange que je serai heureux d'effectuer si vous avez amassé suffisamment de pierres du Fléau.",
    "progress": "Une Pierre du Fléau des serviteurs est l'insigne du rang et de la classe du Fléau. Elles se trouvent parfois sur le plus faible de leurs troupes positionnées dans les Maleterres, bien que le terme \"faible\" mérite d'être replacé dans son contexte.Les membres du Fléau, où qu'ils soient, ne devraient jamais être sous-estimés.\n\nL'Aube d'argent offre à présent une marque de valeur pour 20 de ces insignes - un échange que je serai heureux d'effectuer si vous avez amassé suffisamment de pierres du Fléau.",
    "completion": "Félicitations, <nom> - Je suis heureux de vous remettre cette marque de valeur de l'Aube d'argent !\n\nCes marques ont deux usages. Un - elles peuvent être utilisées pour augmenter votre statut au sein de l'Aube d'argent ; elles vous octroient des choix et des récompenses réservés à nos alliés honorés et révérés. Deux - elles peuvent être échangées auprès de nos intendants, avec des pièces, pour obtenir des articles de l'Aube d'argent de grande valeur.\n\nQuoi que vous décidiez, sachez que votre brevet est bien mérité. Bravo !",
    "starters": [
@@ -1220,17 +1230,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3378,7 +3390,7 @@
    "id": 9125,
    "name": "Des morceaux de démon des cryptes",
    "objectives": null,
-   "description": null,
+   "description": "Votre travail pour le premier lot a été exemplaire, <nom>. Si vous en avez plus, je peux les prendre maintenant. Pour chaque lot que vous rapporterez, je vous récompenserai avec un insigne.",
    "progress": "Votre travail pour le premier lot a été exemplaire, <nom>. Si vous en avez plus, je peux les prendre maintenant. Pour chaque lot que vous rapporterez, je vous récompenserai avec un insigne.",
    "completion": "Excellent, <nom> ! Soyez assuré que nous en ferons bon usage.",
    "starters": [
@@ -3405,7 +3417,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -3414,17 +3428,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3487,7 +3503,7 @@
    "id": 9127,
    "name": "Des fragments d'os",
    "objectives": null,
-   "description": null,
+   "description": "Dans mon métier, un homme ne peut jamais avoir trop de fragments d'os, <nom>.Chaque fois que vous aurez un surplus de fragments, apportez-les-moi, je vous récompenserai avec un autre insigne.",
    "progress": "Dans mon métier, un homme ne peut jamais avoir trop de fragments d'os, <nom>.Chaque fois que vous aurez un surplus de fragments, apportez-les-moi, je vous récompenserai avec un autre insigne.",
    "completion": "Mon rêve de devenir danseur à plein temps à la discothèque de Gadgetzan va bientôt devenir réalité ! Continuez à faire du bon travail, <nom>.",
    "starters": [
@@ -3514,7 +3530,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -3523,17 +3541,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3598,7 +3618,7 @@
    "id": 9129,
    "name": "Le noyau des éléments",
    "objectives": null,
-   "description": null,
+   "description": "À vrai dire, j’utilise les noyaux pour créer des armures de givrefeu. C’est l’armure que portent les mages qui se battent dans Naxxramas. Sans vous et quelques autres, nous serions incontestablement en train de perdre cette guerre.\n\nCeci dit, vous pouvez m’apporter encore des noyaux et je vous octroierai d’autres insignes.",
    "progress": "À vrai dire, j’utilise les noyaux pour créer des armures de givrefeu. C’est l’armure que portent les mages qui se battent dans Naxxramas. Sans vous et quelques autres, nous serions incontestablement en train de perdre cette guerre.\n\nCeci dit, vous pouvez m’apporter encore des noyaux et je vous octroierai d’autres insignes.",
    "completion": "Vous nous rendez un grand service, <nom>. Bien joué !",
    "starters": [
@@ -3634,17 +3654,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3711,7 +3733,7 @@
    "id": 9132,
    "name": "Des morceaux de sombrefer",
    "objectives": null,
-   "description": null,
+   "description": "Pour chaque brassée de ces morceaux que vous m'apporterez, je vous donnerai un insigne - le plus sera le mieux. Hors de ma vue maintenant, avant que je vous tranche en deux !",
    "progress": "Pour chaque brassée de ces morceaux que vous m'apporterez, je vous donnerai un insigne - le plus sera le mieux. Hors de ma vue maintenant, avant que je vous tranche en deux !",
    "completion": "C'est tout ce que vous m'apportez ? On dirait que vous ne m'avez pas entendu la première fois. Il m'en faut PLUS !",
    "starters": [
@@ -3747,17 +3769,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3820,7 +3844,7 @@
    "id": 9137,
    "name": "Des palmes sauvages",
    "objectives": null,
-   "description": null,
+   "description": "Pour chaque fagot de palmes que vous me livrerez, je vous payerai avec un insigne de votre choix, de l’Aube ou de la Croisade.\n\nLes insignes peuvent être échangés auprès des intendants contre toutes sortes de récompenses.",
    "progress": "Pour chaque fagot de palmes que vous me livrerez, je vous payerai avec un insigne de votre choix, de l’Aube ou de la Croisade.\n\nLes insignes peuvent être échangés auprès des intendants contre toutes sortes de récompenses.",
    "completion": "Merci, <nom>. Votre travail est d'une importance vitale pour le succès de notre campagne contre le Fléau.",
    "starters": [
@@ -3856,17 +3880,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },

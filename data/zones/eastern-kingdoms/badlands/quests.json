@@ -1807,7 +1807,7 @@
    "id": 779,
    "name": "Sceau de la Terre",
    "objectives": null,
-   "description": null,
+   "description": "Le Sceau de la Terre est ici, avec trois alcôves pour la Pierre runique d'améthyste, la Pierre runique d'opale et la Pierre runique de diamant.",
    "progress": "Le Sceau de la Terre est ici, avec trois alcôves pour la Pierre runique d'améthyste, la Pierre runique d'opale et la Pierre runique de diamant.",
    "completion": "Vous placez les Pierres runiques dans leur alcôves respectives et soudain un violent grondement fait trembler la terre tandis que le Sceau se brise.",
    "starters": [
@@ -1843,17 +1843,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2366,7 +2368,7 @@
    "objectives": null,
    "description": null,
    "progress": null,
-   "completion": null,
+   "completion": "Eh bien. C’est intéressant, oui…",
    "starters": [],
    "enders": [],
    "zone_id": 3,
@@ -2385,8 +2387,13 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "completion": "wowdata"
+    },
+    "origins": {
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",

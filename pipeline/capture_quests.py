@@ -33,6 +33,7 @@ from pipeline.quests import registry as quest_registry
 from pipeline.text import looks_english
 from pipeline.wowhead.parse import placeholders
 
+FILLED_BY_US = ("capture", "client_cache", "wowdata")  # texts filled from the game side: no difference listed
 SAME = 0.85  # word similarity at or above which a captured text is the registry's (punctuation, spacing, names)
 FILLS = {"detail": {"description": "text", "objectives": "objectives"}, "complete": {"completion": "text"}}
 SPEAKERS = {"detail": ("starters", "giverID", "giverName", "giverType"),
@@ -111,7 +112,7 @@ def fill(record: dict, texts: dict[str, str | None], channel: str, result: dict)
             continue
         current = record.get(field)
         if current:
-            if channels.get(field) not in ("capture", "client_cache") and field != "name":
+            if channels.get(field) not in FILLED_BY_US and field != "name":
                 score = similarity(current, value)
                 if score < SAME:
                     result["differs"].append((field, round(score, 2)))

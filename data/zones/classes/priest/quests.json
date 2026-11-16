@@ -735,7 +735,7 @@
    "id": 5627,
    "name": "Etoiles d'Elune",
    "objectives": null,
-   "description": null,
+   "description": "Vous apprendrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "Vous avez prouvé que vous étiez digne de l'attention d'Elune, <nom>. Si vous vous sentez prêt, j'aimerais beaucoup vous enseigner l'un de ses sorts propres à notre peuple.",
    "starters": [
@@ -770,16 +770,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1535,7 +1537,7 @@
    "id": 5641,
    "name": "Un manque de peur",
    "objectives": null,
-   "description": null,
+   "description": "Vous avez tout ce qui fait un grand <classe>, <nom>. Continuez à faire du bon travail !\n\nVous avez montré que vous pouviez partir au combat. Peut-être est-t-il temps de vous apprendre un petit quelque chose de plus.",
    "progress": null,
    "completion": "Vous avez tout ce qui fait un grand <classe>, <nom>. Continuez à faire du bon travail !\n\nVous avez montré que vous pouviez partir au combat. Peut-être est-t-il temps de vous apprendre un petit quelque chose de plus.",
    "starters": [
@@ -1562,7 +1564,10 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "classe",
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -1570,16 +1575,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2677,7 +2684,7 @@
    "id": 5672,
    "name": "Grâce d'Elune",
    "objectives": null,
-   "description": null,
+   "description": "Vous apprendrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "En vous consacrant à Elune et à notre peuple, vous avez atteint un état que nous ne pouvons pas tous atteindre. La tradition veut que l'on vous enseigne des capacités encore plus grandes pour votre dévouement. Acceptez-vous ?",
    "starters": [
@@ -2712,16 +2719,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2896,7 +2905,7 @@
    "id": 5676,
    "name": "Retour d'information de l'Arcane",
    "objectives": null,
-   "description": null,
+   "description": "Nous avons été obligés d'apprendre un peu de magie pour nous protéger de ce que nous appelons communément notre plus grand ennemi : l'Arcane.\n\nJe vous enseignerai un sort qui vous aidera à vous protéger, vous et vos compagnons, contre ceux qui détiennent ce genre de pouvoir.",
    "progress": null,
    "completion": "Nous avons été obligés d'apprendre un peu de magie pour nous protéger de ce que nous appelons communément notre plus grand ennemi : l'Arcane.\n\nJe vous enseignerai un sort qui vous aidera à vous protéger, vous et vos compagnons, contre ceux qui détiennent ce genre de pouvoir.",
    "starters": [
@@ -2931,16 +2940,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3398,7 +3409,7 @@
    "id": 7621,
    "name": "Un avertissement",
    "objectives": null,
-   "description": null,
+   "description": "<classe> vous allez subir une série d’épreuves au cours desquelles tous vos talents seront poussés à leurs limites.\n\nÉcoutez attentivement mon histoire.\n\nAttention, vous devrez achever cette tâche seul. Je conseille à vos alliés de rester à distance. Toute intervention extérieure entraînera un châtiment sévère.\n\nLe Destin vous a conduit ici, vous et vous seul. Battez-vous avec honneur. Que la Lumière vous protège !\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "<classe>, vous êtes sur le point de subir une série d'événements rigoureux qui mettront toutes vos capacités à l'épreuve.\n\nI vous suggère d'écouter l'histoire que je dois raconter.\n\nBe vous a averti, vous devez remplir cette tâche seul . Il est recommandé que vos alliés restent à distance.Toute ingérence de la part d'agents extérieurs entraînera une punition des plus sévères.\n\nDestiny vous a conduit seul, ici. Bataille avec honneur. Exploitez la lumière.",
    "starters": [
@@ -3425,7 +3436,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "classe"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -3433,16 +3446,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3738,7 +3753,7 @@
    "id": 94773,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Vous apprendrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": null,
    "starters": [
@@ -3771,21 +3786,25 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
   "94774": {
    "id": 94774,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Parlez à la grande prêtresse Laurena à Hurlevent.",
+   "description": "Vous avez attiré l’attention de nos supérieurs, <nom>. Ils ont demandé à ce que vous vous rendiez dès que possible la cathédrale de la Lumière à Hurlevent. Apparemment ils pensent que vous avez fait vos preuves et vont vous proposer un entraînement. Lorsque vous serez là-bas, trouvez la grande prêtresse Laurena. Elle vous guidera plus avant. Bonne chance et que la Lumière soit avec vous.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -3812,19 +3831,26 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
@@ -4012,7 +4038,7 @@
    "id": 94817,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Vous apprendrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": null,
    "starters": [
@@ -4045,13 +4071,17 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -4059,7 +4089,7 @@
    "id": 94818,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Vous apprendrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": null,
    "starters": [],
@@ -4080,13 +4110,17 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
     "objectives",
-    "description",
     "giver"
    ],
    "status": "incomplete"
@@ -4094,8 +4128,8 @@
   "94819": {
    "id": 94819,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Parlez à la grande prêtresse Mims à Forgefer.",
+   "description": "<nom>, votre grande prêtresse Mims souhaite s’entretenir avec vous à Forgefer. Faites vite, <mon astucieux ami/mon astucieuse amie>, car votre prochaine mise à l’épreuve approche. Bien que j’aimerais être témoin des rites de votre race, ma place est ici. Mais que la Lumière vous accompagne dans vos voyages. Mims sera à la Garde mystique une fois que vous aurez atteint la ville. Elle vous attendra.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -4122,19 +4156,27 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "mon astucieux ami/mon astucieuse amie",
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
@@ -4415,8 +4457,8 @@
   "98574": {
    "id": 98574,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Lisez la note sanctifiée, et parlez à Branstock Khalder, à Courbenclume.",
+   "description": "Pendant que vous m’aidiez, on m’a donné cette note pour vous. Prenez le temps de la lire. Je pense qu’elle provient du maître des prêtres, Branstock. Jetez-y un coup d’œil et, quand vous en aurez le temps, allez le retrouver à l’intérieur de Courbenclume.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -4449,13 +4491,18 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   }

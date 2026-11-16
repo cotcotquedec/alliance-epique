@@ -77,7 +77,7 @@
    "id": 1185,
    "name": "Sous la chitine...",
    "objectives": null,
-   "description": null,
+   "description": "Hé, vous revoilà ! Je veux dire, bonjour <nom> ! Oui, salut à vous et à personne d’autre !\n\nLaissez-moi vous expliquer !\n\nL’objet que vous avez trouvé à Silithus se trouvait être un livre. C’est un journal écrit dans un très ancien dialecte que nous appelons le darnassien. Cela prendra un bon moment, mais je suis sur le bon chemin pour finir le travail. Je pense que vous savez déjà que ce que vous avez découvert est extrêmement précieux pour le Cercle.\n\nLa Mère de la tanière est très heureuse de cette trouvaille !",
    "progress": null,
    "completion": "Hé, vous revoilà ! Je veux dire, bonjour <nom> ! Oui, salut à vous et à personne d’autre !\n\nLaissez-moi vous expliquer !\n\nL’objet que vous avez trouvé à Silithus se trouvait être un livre. C’est un journal écrit dans un très ancien dialecte que nous appelons le darnassien. Cela prendra un bon moment, mais je suis sur le bon chemin pour finir le travail. Je pense que vous savez déjà que ce que vous avez découvert est extrêmement précieux pour le Cercle.\n\nLa Mère de la tanière est très heureuse de cette trouvaille !",
    "starters": [
@@ -104,7 +104,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -112,16 +114,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },

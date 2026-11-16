@@ -22,7 +22,7 @@
    "id": 5122,
    "name": "Le médaillon de foi",
    "objectives": null,
-   "description": null,
+   "description": "Le pouvoir de cette chapelle me donne la force de résister à la corruption qui envahit mon coeur. Si je la quitte, je deviendrai un Chevalier de la mort. Mais il existe un médaillon de la foi qui me donnera la force dont j'ai besoin pour partir.\n\nS'il vous plaît, <nom>, trouvez le médaillon. Il est gardé par Malor le Zélé, un membre fou de la Croisade écarlate qui réside aux tréfonds du Bastion écarlate à l'ouest de Stratholme.",
    "progress": "Le pouvoir de cette chapelle me donne la force de résister à la corruption qui envahit mon coeur. Si je la quitte, je deviendrai un Chevalier de la mort. Mais il existe un médaillon de la foi qui me donnera la force dont j'ai besoin pour partir.\n\nS'il vous plaît, <nom>, trouvez le médaillon. Il est gardé par Malor le Zélé, un membre fou de la Croisade écarlate qui réside aux tréfonds du Bastion écarlate à l'ouest de Stratholme.",
    "completion": "Vous avez retrouvé le médaillon ! Je vais enfin pouvoir quitter la chapelle et faire mon devoir.\n\nMon devoir est de tuer la bête qui a participé à ma corruption, moi et tant d'autres de mes frères et sœurs, le baron Rivendare !",
    "starters": [
@@ -49,7 +49,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -58,17 +60,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -76,7 +80,7 @@
    "id": 5125,
    "name": "L'estimation d'Aurius",
    "objectives": null,
-   "description": null,
+   "description": "<nom>, je me meurs… mais mon âme est sauve, et pour cela je vous dois plus que les mots peuvent exprimer. Je vous en prie, prenez ceci… et continuez le combat, brave <classe> !",
    "progress": null,
    "completion": "<nom>, je meurs ... mais mon âme est sauvée. Pour cela, je vous dois plus que ce que les mots peuvent dire. S'il vous plaît, prenez ceci ... et continuez, brave <classe>!",
    "starters": [
@@ -103,7 +107,10 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "classe",
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -111,16 +118,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
