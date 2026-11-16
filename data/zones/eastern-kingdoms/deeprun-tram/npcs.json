@@ -1,0 +1,143 @@
+{
+ "schema": 1,
+ "zone": "eastern-kingdoms/deeprun-tram",
+ "zone_id": 2257,
+ "zone_name": "Tram des profondeurs",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 2,
+  "with_display_id": 2,
+  "with_title": 1,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 1,
+   "unique": 1
+  }
+ },
+ "npcs": {
+  "12997": {
+   "id": 12997,
+   "name": "Monty",
+   "title": "Spécialiste de l'extermination de la vermine",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Ironforge",
+   "zones": [
+    "Deeprun Tram"
+   ],
+   "coords": {},
+   "levels": [
+    12,
+    12
+   ],
+   "display_id": 5485,
+   "quests_started": [
+    6661,
+    6662
+   ],
+   "quests_ended": [
+    6661
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "unique",
+    "set": "GnomeMaleZany",
+    "race": "Gnome",
+    "sex": "male",
+    "personality": null,
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5925,
+     "farewell": 5926,
+     "pissed": 5927
+    },
+    "combat_set": "GnomeMale"
+   },
+   "model": {
+    "race": "Gnome",
+    "race_id": 7,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GnomeMaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "13018": {
+   "id": 13018,
+   "name": "Nipsy",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Ironforge",
+   "zones": [
+    "Deeprun Tram"
+   ],
+   "coords": {},
+   "levels": [
+    12,
+    12
+   ],
+   "display_id": 12965,
+   "quests_started": [],
+   "quests_ended": [
+    6662
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GnomeMaleYoung",
+    "race": "Gnome",
+    "sex": "male",
+    "personality": "Young",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5928,
+     "farewell": 5929,
+     "pissed": 5930
+    },
+    "combat_set": "GnomeMale"
+   },
+   "model": {
+    "race": "Gnome",
+    "race_id": 7,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GnomeMaleYoung"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  }
+ }
+}

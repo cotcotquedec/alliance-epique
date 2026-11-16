@@ -1,0 +1,695 @@
+{
+ "schema": 1,
+ "zone": "dungeons/scholomance",
+ "zone_id": 2057,
+ "zone_name": "Scholomance",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 12,
+  "complete": 12,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 1
+ },
+ "quests": {
+  "4771": {
+   "id": 4771,
+   "name": "Le gambit de l'aube",
+   "objectives": "Placer le Gambit de l'aube dans la Chambre des visions de Scholomance. Vaincre Vectus, puis retourner auprès de Betina Bigglezink.",
+   "description": "J’ai placé le Gambit de l’aube dans le conteneur que vous nous avez apporté, celui qui contenait les œufs de dragon. Vous êtes <chargé/chargée> de l’apporter loin à l’intérieur des terres de Scholomance.\n\nLe mage mort-vivant Vectus y dirige une équipe de Sages du Fléau... Placez le Gambit de l’aube dans leur salle, appelée la \"Chambre des visions\". Il rentrera alors en contact avec les morts-vivants de l’endroit et, avec un peu de chance, les détruira !\n\nAprès ça, vaincre Vectus ne devrait pas poser de problème. Pas vrai ?",
+   "progress": "N'oubliez pas, <nom>, que nous devons être tolérants tout en restant fidèles à nos convictions !",
+   "completion": "Vous avez réussi ! Vectus est défait ! Et le Gambit de l'aube… a-t-il fonctionné ?\n\nHm… Peut-être que ma machine n'a pas été à la hauteur de mes espoirs, mais vous avez réussi tout de même. Bien joué, <nom> !\n\nL'Aube d'argent et le bon peuple d'Azeroth vous sont redevables.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11035,
+     "name": "Betina Bigglezink"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11035,
+     "name": "Betina Bigglezink"
+    }
+   ],
+   "zone_id": 2057,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "both",
+   "xp": 9950,
+   "money": 27000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "chargé/chargée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5341": {
+   "id": 5341,
+   "name": "Fortune de la famille Barov",
+   "objectives": "S’aventurer jusqu’à Scholomance et récupérer la fortune de la famille Barov. Cette fortune se compose de quatre titres de propriété : le titre de propriété de Caer Darrow ; le titre de propriété de Brill ; le titre de propriété de Moulin-de-Tarren ; et le titre de propriété de Southshore. Revenir auprès d’Alexi Barov quand la tâche est accomplie.",
+   "description": "À l'intérieur de Scholomance réside la fortune de la famille Barov. Moi, Alexi Barov, suis l'un des deux derniers héritiers de la maison Barov. Mon frère, Weldon, est l'autre héritier.\n\nWeldon, ce misérable lâche, s'est enfui durant la guerre et est ainsi parvenu à maintenir son existence totalement inutile en tant qu'humain.\n\nIl recherche à présent les titres de propriété afin de récupérer la fortune pour lui tout seul. Retrouvez ces documents avant que mon frère n'y parvienne et je vous rendrai plus riche que vous n'avez jamais osé en rêver.",
+   "progress": "Inclinez-vous en ma présence, <nom>. Je suis noble, après tout, et vous n'êtes qu'un paysan impécunieux.",
+   "completion": "Excellent travail, <nom>. Maintenant, pour assurer ma succession…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11022,
+     "name": "Alexi Barov"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11022,
+     "name": "Alexi Barov"
+    }
+   ],
+   "zone_id": 2057,
+   "level": 60,
+   "reqlevel": 52,
+   "side": "horde",
+   "xp": 6600,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5343": {
+   "id": 5343,
+   "name": "Fortune de la famille Barov",
+   "objectives": "S’aventurer jusqu’à la Scholomance et récupérer la fortune de la famille Barov. Cette fortune se compose de quatre titres de propriété : le titre de propriété de Caer Darrow ; le titre de propriété de Brill ; le titre de propriété de Moulin-de-Tarren ; et le titre de propriété de Southshore. Revenir auprès de Weldon Barov quand la tâche est accomplie.",
+   "description": "Mon cher frère Alexi. Quel idiot j'ai été de lui laisser la vie. J'ai vu le visage de l'ennemi, un mort-vivant, et je l'ai laissé vivre.\n\n<Weldon crache.>\n\nIl veut maintenant MON héritage. Cela ne se peut.\n\nTrouvez les titres de propriété de ma famille avant que cette ordure ne mette ses mains squelettiques dessus. Je vous récompenserai largement. Vous les trouverez dans les ruines de Scholomance. Faites vite !",
+   "progress": "Assurez mon avenir et j'assurerai le vôtre.",
+   "completion": "J'aurais encore une tâche à vous confier, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11023,
+     "name": "Weldon Barov"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11023,
+     "name": "Weldon Barov"
+    }
+   ],
+   "zone_id": 2057,
+   "level": 60,
+   "reqlevel": 52,
+   "side": "alliance",
+   "xp": 6600,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Weldon crache."
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5382": {
+   "id": 5382,
+   "name": "Docteur Theolen Krastinov, le boucher",
+   "objectives": "Trouver le docteur Theolen Krastinov à l’intérieur de la Scholomance. Le tuer, puis brûler le Cadavre d’Eva Sarkhoff et le Cadavre de Lucien Sarkhoff. Retourner auprès d’Eva Sarkhoff quand la tâche est accomplie.",
+   "description": "Krastinov est responsable de la mort de milliers d'innocents. Il doit être puni, justice doit être faite.\n\nTrouvez-le et faites-lui subir toutes les souffrances qu'il a lui-même infligées à ces innocents. Lorsque vous l'aurez détruit, brûlez nos restes. Qu'il n'en reste que des cendres, <nom>.",
+   "progress": "Le Boucher doit être arrêté !",
+   "completion": "Je sens mon esprit se régénérer, <nom>. Vous nous avez rendu un fier service à mon mari et à moi, mais je suis certaine qu'il y a plus à faire.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11216,
+     "name": "Eva Sarkhoff"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11216,
+     "name": "Eva Sarkhoff"
+    }
+   ],
+   "zone_id": 2057,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5384": {
+   "id": 5384,
+   "name": "Kirtonos le héraut",
+   "objectives": "Revenir à Scholomance avec le Sang des innocents. Trouver le porche et placer le Sang des innocents dans le brasero. Kirtonos viendra dévorer votre âme.\n\nCombattre vaillamment, sans perdre un pouce de terrain ! Détruire Kirtonos et revenir auprès d’Eva Sarkhoff.",
+   "description": "Et voilà, <nom>.\n\n<Eva montre la fiole dans le sac.>\n\nLe sang d'innocents. Le sang le plus pur, utilisé pour apaiser le maître de Krastinov.\n\nC'est avec ce sang que Kirtonos peut être invoqué. C'est donc avec ce sang que Kirtonos doit être détruit.\n\nAllez sous le porche et placez le sang sur le brasero. Kirtonos viendra ; il ne peut résister. Lorsqu'il apparaîtra, déchaînez la furie et la colère de milliers d'innocents, morts à cause de lui.\n\nSi vous réussissez, vous gagnerez plus que notre simple gratitude.",
+   "progress": "Soyez prudent, Kirtonos est un combattant aguerri.",
+   "completion": "Avec la mort de Kirtonos, un chapitre de la macabre histoire de Scholomance arrive à son terme. Il y a cependant encore beaucoup à accomplir. D'autres ont eu vent de vos actes héroïques. Prenez ceci, <nom>. C'est une parcelle de notre propre essence. Elle vous permettra de communiquer avec les autres âmes égarées de Caer Darrow.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11216,
+     "name": "Eva Sarkhoff"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11216,
+     "name": "Eva Sarkhoff"
+    }
+   ],
+   "zone_id": 2057,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Eva montre la fiole dans le sac.",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5466": {
+   "id": 5466,
+   "name": "La Liche, Ras Murmegivre",
+   "objectives": "Trouver Ras Murmegivre dans Scholomance. Après l’avoir trouvé, utiliser le Souvenir lié sur son visage mort-vivant. Si sa transformation en mortel réussit, l’abattre et prendre la Tête humaine de Ras Murmegivre. Apporter la tête au Magistrat Marduke.",
+   "description": "Il ne reste qu'une tâche à accomplir, <nom>. Affrontez la Liche, Ras Murmegivre, dans son antre.\n\nServez-vous du pouvoir du souvenir contre la bête. Soyez implacable dans vos actes ! Quels que soient les coups que la bête ne manquera pas de vous porter. Ne vous laissez pas arrêter par la douleur !\n\nUne fois le rituel achevé, Ras sera de nouveau mortel. Et c'est à ce moment qu'il devra être tué. Frappez-le et emparez-vous de sa tête humaine.",
+   "progress": "Vous portez le poids de dix mille âmes torturées, <nom>.",
+   "completion": "Dix mille âmes hurlent à l'unisson, <nom> ! Vous avez porté un coup fatal au Fléau et à ses maîtres.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11286,
+     "name": "Magistrat Marduke"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11286,
+     "name": "Magistrat Marduke"
+    }
+   ],
+   "zone_id": 2057,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5515": {
+   "id": 5515,
+   "name": "Sac des horreurs de Krastinov",
+   "objectives": "Trouver Jandice Barov dans Scholomance et la tuer. Sur son cadavre, récupérer le Sac des horreurs de Krastinov. Rapporter le sac à Eva Sarkhoff.",
+   "description": "Un grand poids a été ôté de nos coeurs, <nom>, mais votre travail n'est pas encore terminé. Le maître de Krastinov, Kirtonos, est toujours en vie.\n\nAvant que vous ne puissiez l'affronter, cependant, vous devez trouver une méthode pour l'invoquer.\n\nOn raconte que Jandice Barov apporte le sang d'innocents de Krastinov à Kirtonos.\n\nTrouvez-la dans les catacombes englouties de Scholomance et tuez-la. Rapportez tous les indices que vous pourriez trouver.",
+   "progress": "<Eva devient nette, puis floue. >",
+   "completion": "Le sac d'horreurs !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11216,
+     "name": "Eva Sarkhoff"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11216,
+     "name": "Eva Sarkhoff"
+    }
+   ],
+   "zone_id": 2057,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5529": {
+   "id": 5529,
+   "name": "Portée contaminée",
+   "objectives": "Tuer 20 Jeunes pestiférés, puis retourner auprès de Betina Bigglezink à la Chapelle de l’Espoir de Lumière.",
+   "description": "L'Aube d'argent a récemment appris que le Fléau est en train de concevoir sa propre unité de dragons ! Nous devons les arrêter. Si le Fléau parvient à maîtriser la force des dragons, Azeroth se verra submergée sans que rien ne puisse les retenir !\n\nLeurs nécromanciens en font l'élevage à la Scholomance, au milieu du lac Darrowmere.\n\nAllez-y et réduisez autant que possible la couvée, avant qu'ils ne grandissent !",
+   "progress": "Allez à la Scholomance, <nom>. Éliminez ces enfants malades avant qu'ils ne grandissent !",
+   "completion": "Beau travail, <nom> ! Ils mettront du temps avant de produire une nouvelle couvée de dragons.\n\n… Du moins je l'espère !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11035,
+     "name": "Betina Bigglezink"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11035,
+     "name": "Betina Bigglezink"
+    }
+   ],
+   "zone_id": 2057,
+   "level": 58,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 6200,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5531": {
+   "id": 5531,
+   "name": "Betina Bigglezink",
+   "objectives": "Apporter les Oeufs congelés à Betina Bigglezink.",
+   "description": "Les oeufs que vous avez apportés devaient faire l'objet de recherches par le Fléau pour créer des dragons pestiférés. Ces oeufs gelés de dragons noirs auraient été d'une grande valeur pour leurs études et leur auraient fait gagner du temps.\n\nIl est temps de mettre fin à leurs recherches.\n\nPrenez les oeufs gelés à Betina Bigglezink. C'est une spécialiste en sciences et alchimie. Elle a fabriqué une arme que nous pouvons utiliser contre le Fléau. Grâce à votre aide, nous pouvons leur porter un coup sévère.",
+   "progress": "Salut, <nom> ! J'ai appris que vous aviez des oeufs de dragon ? Eh bien, voyons cela !",
+   "completion": "Les voici ! Et dans une si belle enveloppe. La taille parfaite !\n\nNous garderons ces oeufs dans un endroit sûr en attendant de pouvoir les étudier, mais nous avons dans l'immédiat besoin de cette chose dans laquelle vous les avez portés.\n\nJ'ai créé un appareil dont l'usage est très spécifique : détruire les sages morts-vivants de Scholomance. Ils étudient les dragons afin de créer un escadron contaminé, et nous devons les en empêcher.\n\nJ'ai nommé l'objet le Gambit de l'Aube car. . . je ne sais pas s'il fonctionne !\n\nLe découvrirez-vous pour nous ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11036,
+     "name": "Leonid Barthalomew le Révéré"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11035,
+     "name": "Betina Bigglezink"
+    }
+   ],
+   "zone_id": 2057,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "both",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5582": {
+   "id": 5582,
+   "name": "L'écaille de dragon luisante",
+   "objectives": "Apporter l’Ecaille de dragon luisante à Betina Bigglezink à la chapelle de l’Espoir de Lumière dans les Maleterres de l’est.",
+   "description": "Il s'agit d'une écaille perdue par un jeune dragon pestiféré. Mais à l'encontre des autres écailles crevassées et purulentes du monstrueux nourrisson, cette écaille est rare car saine et intacte.\n\nBetina Bigglezink désirera sûrement en avoir un échantillon à étudier.",
+   "progress": "<nom>, vous avez quelque chose à me montrer ?",
+   "completion": "Excellent ! Cela sera inestimable pour l'avancement de mes recherches sur les machinations du Fléau. Merci, <nom>, et si vous trouvez plus de ces écailles, ramenez-les-moi s'il vous plaît !",
+   "starters": [
+    {
+     "type": "item",
+     "id": 13920,
+     "name": "Healthy Dragon Scale"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11035,
+     "name": "Betina Bigglezink"
+    }
+   ],
+   "zone_id": 2057,
+   "level": 58,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8969": {
+   "id": 8969,
+   "name": "Le morceau gauche de l'amulette du seigneur Valthalak",
+   "objectives": "Utilisez le Brasero de signal pour invoquer l’esprit de Kormok, puis tuez-le. Retournez voir Bodley, à l'intérieur du mont Rochenoire, avec le Morceau gauche de l'amulette du seigneur Valthalak et le Brasero de signal.",
+   "description": "Maintenant que nous avons tout ce qu'il nous faut, il est temps que nous parlions de notre prochaine invocation.\n\nPour un ogre, Kormok n'était pas désagréable, jusqu'à ce qu'il se mette à la nécromancie. Après… après, il donnait la chair de poule à tous les membres de la compagnie. Personne n'a été étonné qu'il emmène son morceau d'amulette dans son nouveau foyer, la Scholomance. Même là, ou peut-être « surtout là », il n'était pas à l'abri des assassins spectraux. Ils l'ont tué devant son maître, Ras Murmegivre.",
+   "progress": "Je vous félicite, <nom>, si vous êtes revenu avec le morceau gauche de l'amulette. Si ce n'est pas le cas, je vous invite à vous en occuper car il n'y a pas de temps à perdre, je vous l'assure !",
+   "completion": "Bon travail, <nom> ! Kormok n'était pas si mal pour un ogre, du moins de son vivant, alors j'espère qu'il aura le repos qu'il mérite. Mais il y a encore du pain sur la planche.\n\nMalheureusement, je ne sais pas où se trouve celui qui est mort avec le bon morceau de l'amulette en sa possession. J'ai donc une autre tâche à vous confier, qui nous permettra de trouver le dernier morceau.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 2057,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8992": {
+   "id": 8992,
+   "name": "Le morceau droit de l'amulette du seigneur Valthalak",
+   "objectives": "Utilisez le Brasero de signal pour invoquer l’esprit de Kormok, puis tuez-le. Retournez voir Bodley, à l'intérieur du mont Rochenoire, avec l’Amulette du seigneur Valthalak reconstituée et le Brasero de signal.",
+   "description": "Maintenant que nous avons tout ce qu'il nous faut, il est temps que nous parlions de notre prochaine invocation.\n\nPour un ogre, Kormok n'était pas désagréable, jusqu'à ce qu'il se mette à la nécromancie. Après… après, il donnait la chair de poule à tous les membres de la compagnie. Personne n'a été étonné qu'il emmène son morceau d'amulette dans son nouveau foyer, la Scholomance. Même là, ou peut-être « surtout là », il n'était pas à l'abri des assassins spectraux. Ils l'ont tué devant son maître, Ras Murmegivre.",
+   "progress": "Si vous êtes déjà de retour avec l’amulette entière, je vous félicite, <nom>. Si vous n’êtes pas encore parti, hâtez-vous ! Je vous assure que nous n’avons pas de temps à perdre !",
+   "completion": "Bien joué, <nom> ! De son vivant, Kormok n’était pas un mauvais bougre. J’espère qu’il jouira du repos qu’il mérite. Nous avons enfin l’amulette complète ! Mais le plus dur reste à faire.\n\nPour que le brasero soit capable d’invoquer le seigneur Valthalak, il reste quelques objets à rassembler et à me ramener.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 2057,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

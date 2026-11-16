@@ -1,0 +1,737 @@
+{
+ "schema": 1,
+ "zone": "eastern-kingdoms/alterac-mountains",
+ "zone_id": 36,
+ "zone_name": "Montagnes d'Alterac",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 13,
+  "with_display_id": 9,
+  "with_title": 4,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 6,
+   "unknown": 7
+  }
+ },
+ "npcs": {
+  "1356": {
+   "id": 1356,
+   "name": "Prospecteur Stormpike",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Ironforge",
+   "zones": [
+    "Ironforge"
+   ],
+   "coords": {},
+   "levels": [
+    30,
+    30
+   ],
+   "display_id": 3594,
+   "quests_started": [
+    302,
+    525,
+    707,
+    2398
+   ],
+   "quests_ended": [
+    301,
+    514,
+    554,
+    2240
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleGuard",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Guard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5910,
+     "farewell": 5911,
+     "pissed": 5912
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleGuard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "2263": {
+   "id": 2263,
+   "name": "Maréchal Redpath",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Stormwind",
+   "zones": [
+    "Hillsbrad Foothills"
+   ],
+   "coords": {},
+   "levels": [
+    41,
+    41
+   ],
+   "display_id": 1861,
+   "quests_started": [
+    500,
+    504,
+    561
+   ],
+   "quests_ended": [
+    500,
+    504,
+    560
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleWarrior",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5977,
+     "farewell": 5978,
+     "pissed": 5979
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "2276": {
+   "id": 2276,
+   "name": "Magistrat Henry Maleb",
+   "title": null,
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "HIllsbrad, Southshore Mayor",
+   "zones": [
+    "Hillsbrad Foothills"
+   ],
+   "coords": {},
+   "levels": [
+    30,
+    30
+   ],
+   "display_id": 3665,
+   "quests_started": [
+    505,
+    512,
+    523,
+    537
+   ],
+   "quests_ended": [
+    505,
+    510,
+    512,
+    522,
+    523,
+    525,
+    537
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleOfficial",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5971,
+     "farewell": 5972,
+     "pissed": 5973
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "2277": {
+   "id": 2277,
+   "name": "Maître des traditions Dibbs",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Stormwind",
+   "zones": [
+    "Hillsbrad Foothills"
+   ],
+   "coords": {},
+   "levels": [
+    30,
+    30
+   ],
+   "display_id": 3702,
+   "quests_started": [
+    514,
+    540,
+    542,
+    554
+   ],
+   "quests_ended": [
+    511,
+    538,
+    540,
+    551
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleOfficial",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5971,
+     "farewell": 5972,
+     "pissed": 5973
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "2333": {
+   "id": 2333,
+   "name": "Valik le malfrat",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Horde Generic",
+   "zones": [
+    "Alterac Mountains"
+   ],
+   "coords": {},
+   "levels": [
+    30,
+    30
+   ],
+   "display_id": 3636,
+   "quests_started": [
+    535
+   ],
+   "quests_ended": [
+    535
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "2402": {
+   "id": 2402,
+   "name": "Shara Blazen",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Undercity",
+   "zones": [
+    "Hillsbrad Foothills"
+   ],
+   "coords": {},
+   "levels": [
+    32,
+    32
+   ],
+   "display_id": 3657,
+   "quests_started": [],
+   "quests_ended": [
+    95534
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "2410": {
+   "id": 2410,
+   "name": "Magus Wordeen Voidglare",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Undercity",
+   "zones": [
+    "Hillsbrad Foothills"
+   ],
+   "coords": {},
+   "levels": [
+    42,
+    42
+   ],
+   "display_id": 3682,
+   "quests_started": [
+    544,
+    545,
+    92434,
+    93680,
+    97287
+   ],
+   "quests_ended": [
+    544,
+    545,
+    93680,
+    96984
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "6771": {
+   "id": 6771,
+   "name": "Assassin de Ravenholdt",
+   "title": "Ligue des assassins",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Ravenholdt",
+   "zones": [
+    "Alterac Mountains"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 5907,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleWarrior",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5977,
+     "farewell": 5978,
+     "pissed": 5979
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleWarrior"
+   }
+  },
+  "13085": {
+   "id": 13085,
+   "name": "Myrokos Silentform",
+   "title": null,
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Ravenholdt",
+   "zones": [
+    "Alterac Mountains"
+   ],
+   "coords": {},
+   "levels": [
+    57,
+    57
+   ],
+   "display_id": 13150,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfMaleStandard",
+    "race": "NightElf",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 7019,
+     "farewell": 7020,
+     "pissed": 7021
+    },
+    "combat_set": "NightElfMale"
+   },
+   "model": {
+    "race": "HighElf",
+    "race_id": 10,
+    "sex": "male"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "NightElfMaleStandard"
+   }
+  },
+  "247264": {
+   "id": 247264,
+   "name": "Emissary Jacques",
+   "title": "Kirin Tor",
+   "type": null,
+   "classification": "Normal",
+   "react": null,
+   "faction": null,
+   "zones": [
+    "Hillsbrad Foothills"
+   ],
+   "coords": {},
+   "levels": [
+    null,
+    null
+   ],
+   "display_id": null,
+   "quests_started": [
+    92432
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "display_id",
+    "voice"
+   ]
+  },
+  "252085": {
+   "id": 252085,
+   "name": "Archmage Celindra",
+   "title": "Kirin Tor",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": null,
+   "zones": [
+    "Alterac Mountains"
+   ],
+   "coords": {},
+   "levels": [
+    40,
+    40
+   ],
+   "display_id": null,
+   "quests_started": [],
+   "quests_ended": [
+    92459,
+    97287
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "display_id",
+    "voice"
+   ]
+  },
+  "269127": {
+   "id": 269127,
+   "name": "Image of Archmage Modera",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": null,
+   "zones": [
+    "Alterac Mountains"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": null,
+   "quests_started": [
+    92457,
+    92458,
+    92459,
+    96984
+   ],
+   "quests_ended": [
+    92432,
+    92434,
+    92457,
+    92458
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "display_id",
+    "voice"
+   ]
+  },
+  "276170": {
+   "id": 276170,
+   "name": "Belanaa Windveil",
+   "title": "High Order Cloth Quartermaster",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": null,
+   "zones": [
+    "Alterac Mountains"
+   ],
+   "coords": {},
+   "levels": [
+    10,
+    10
+   ],
+   "display_id": null,
+   "quests_started": [
+    99191,
+    99192
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "display_id",
+    "voice"
+   ]
+  }
+ }
+}

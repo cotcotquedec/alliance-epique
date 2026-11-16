@@ -1,0 +1,2309 @@
+{
+ "schema": 1,
+ "zone": "dungeons/blackrock-depths",
+ "zone_id": 1584,
+ "zone_name": "Profondeurs de Blackrock",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 41,
+  "complete": 39,
+  "incomplete": 2,
+  "unavailable": 0,
+  "missing_description": 2,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 10
+ },
+ "quests": {
+  "3801": {
+   "id": 3801,
+   "name": "Héritage Sombrefer",
+   "objectives": "Parler à Franclorn Forgewright si obtenir une clé de la Cité majeure vous intéresse.",
+   "description": "Salutations, <nom>. Je me nomme Franclorn Forgewright. Oui, le Franclorn Forgewright inventeur des méthodes d'approche architectonique de la roche. Vous êtes sans aucun doute déjà <passé/passée> près de l'une de mes créations lors de vos aventures dans notre monde ravagé par la guerre. Vous y êtes peut-être même <entré/entrée>.\n\nVous vous demandez probablement ce que je fais ici et ce que j'attends de vous. Deux excellentes questions.\n\nJ'ai besoin de votre aide, bien sûr. En échange, je vous remettrai la clé des profondeurs de ma cité maudite.",
+   "progress": null,
+   "completion": "Que ce soit l'appât du gain ou un acte de dévotion désintéressé qui vous ait conduit ici, ce que vous êtes sur le point d'accomplir profitera à tous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8888,
+     "name": "Franclorn Forgewright"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8888,
+     "name": "Franclorn Forgewright"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 52,
+   "reqlevel": 48,
+   "side": "both",
+   "xp": 510,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "entré/entrée",
+    "nom",
+    "passé/passée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3802": {
+   "id": 3802,
+   "name": "Héritage Sombrefer",
+   "objectives": "Tuer Fineous Darkvire et récupérer le grand marteau, Souillefer. Apporter Souillefer au sanctuaire de Thaurissan et le placer sur la statue de Franclorn Forgewright.",
+   "description": "Vous trouverez Fineous Darkvire au-delà du Cercle de Loi, dans la Chambre de l'artisanat. Tuez ce misérable chien et récupérez Souillefer.\n\nApportez Souillefer au sanctuaire de Thaurissan et placez le marteau à la place qui est la sienne : dans les mains de la statue érigée en mon honneur.\n\nAlors le compartiment dans lequel j'ai placé la Clé maîtresse s'ouvrira. Plus important encore, Souillefer restera entre mes mains pour l'éternité. S'ils tentent de l'enlever, la statue et le marteau se briseront, à jamais perdus.",
+   "progress": "La statue se dresse, sinistre, au-dessus de vous.",
+   "completion": "Le marteau glisse fermement en place entre les mains du gigantesque monument Sombrefer. Un minuscule compartiment s'ouvre à la base de la statue. À l'intérieur, vous découvrez…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8888,
+     "name": "Franclorn Forgewright"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 164689,
+     "name": "Monument of Franclorn Forgewright"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 52,
+   "reqlevel": 48,
+   "side": "both",
+   "xp": 5100,
+   "money": 23000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3907": {
+   "id": 3907,
+   "name": "Discordance des flammes",
+   "objectives": "Pénétrer dans les Profondeurs de Blackrock et traquer le Seigneur Incendius. Le tuer puis donner tous les renseignements que vous pouvez trouver à Thunderheart.",
+   "description": "Je peux goûter au vice de l'air qui vous entoure, <nom>. Il y en a un autre, caché dans les Profondeurs de Blackrock. C'est lui qui contrôle ce vice.\n\nLe vent et la terre pleurent son nom : Seigneur Incendius… mais quelqu'un… quelque chose… commande cet être. Il n'est qu'un émissaire.\n\nTrouvez-le et découvrez où se cache son maître. Revenez me voir lorsque vous aurez obtenu cette information.",
+   "progress": "Les flammes vont bientôt ravager ces terres. Hâtez-vous, <nom> !",
+   "completion": "<Thunderheart s'empare de la Tablette de Kurniya. >\n\nRagnaros. . . là. . .\n\nLes anciens avaient raison de craindre la corruption émanant du mont Blackrock. Un général des Dieux très anciens ! DANS NOTRE MONDE ! Nous devons réexaminer notre position ici à Kargath. Nous devons décider si nous restons pour nous battre ou si nous fuyons de crainte d’une nouvelle Fracture.\n\nSoyez particulièrement prudent si vous explorez à nouveau le mont Blackrock, <nom>. Un mal plus puissant que tout ce qui réside en ce monde demeure en ses profondeurs ardentes.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9084,
+     "name": "Thunderheart"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9084,
+     "name": "Thunderheart"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 56,
+   "reqlevel": 48,
+   "side": "horde",
+   "xp": 7300,
+   "money": 25500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3981": {
+   "id": 3981,
+   "name": "Le commandant Gor'shak",
+   "objectives": "Trouver le commandant Gor'shak dans les Profondeurs de Blackrock.\n\nLe dessin grossier représentait également des barreaux. Peut-être devriez-vous rechercher un genre de prison.",
+   "description": "Pauvre Gargal… il ne l'a même pas vue venir. SCHLACK ! La flèche est entrée exactement au centre du sommet de sa tête. Déjà que ce n'était pas une lumière avant alors maintenant…\n\n<Galamav grimace.>\n\nLorsque nous avons délogé la flèche, nous avons trouvé un message qui y était enroulé.\n\nOn y voyait vulgairement dessiné un orc derrière des barreaux et la signature du commandant Gor'shak.\n\nS'il est toujours en vie dans les Profondeurs, vous allez devoir le retrouver.\n\nIl s'agit d'un piège, vous croyez ? Peut-être... c'est pourquoi c'est VOUS qui y allez.",
+   "progress": null,
+   "completion": "Nous n'avons pas beaucoup de temps. Écoutez-moi bien, <nom>. Ce que j'ai à vous dire est secret et doit rester entre nous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9081,
+     "name": "Galamav le Tireur d'élite"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9020,
+     "name": "Commandant Gor'shak"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 52,
+   "reqlevel": 48,
+   "side": "horde",
+   "xp": 5100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Galamav grimace."
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3982": {
+   "id": 3982,
+   "name": "Que se passe-t-il ?",
+   "objectives": "Défendre Gor'shak.",
+   "description": "Je suis venu sous les auspices de Thrall. Pensiez-vous réellement que ces bouffons auraient pu me capturer ? Je me suis arrangé pour être fait prisonnier et pour pouvoir trouver des informations.\n\n<Gor'shak chuchote.>\n\nLa princesse d'Ironforge a été enlevée par l'Empereur Thaurissan. La Princesse Bronzebeard est dans cette cité même ! Je parie que le cœur du vieux Magni s'est presque arrêté de battre lorsqu'il a appris la nouvelle.\n\n<Gor'shak rit.>\n\nChuuut ! Vous entendez ? Des gardes arrivent ! DEFENDEZ-VOUS !",
+   "progress": "Défendez-vous, imbécile !",
+   "completion": "Il s'en est fallu de peu. Il savent que vous êtes ici… D'autres vont sûrement surgir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9020,
+     "name": "Commandant Gor'shak"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9020,
+     "name": "Commandant Gor'shak"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 54,
+   "reqlevel": 48,
+   "side": "horde",
+   "xp": 4100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Gor'shak chuchote.",
+    "Gor'shak rit."
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4001": {
+   "id": 4001,
+   "name": "Que se passe-t-il ?",
+   "objectives": "Parler à Kharan Mighthammer et obtenir autant de renseignements que possible sur l'enlèvement de la princesse Moira Bronzebeard. Apporter ces renseignements à Thrall à Orgrimmar.\n\nGor'shak a dit que Kharan était détenu dans une cellule proche.",
+   "description": "Jusqu'à présent, mes entretiens avec le nain, Kharan, dans la cellule de l'autre côté du mur, ont été plus que limités. J'ai tout de même réussi à le convaincre que je (ou plutôt que nous) ne lui voulions aucun mal.\n\nAllez lui parler et obtenez autant d'informations que possible sur la princesse et sur ses ravisseurs. Puis allez raconter au Chef de guerre ce que vous avez appris.\n\nThrall ne veut pas qu'il soit fait le moindre mal à la princesse. Bien au contraire, il a prévu un plan pour qu'elle retourne en toute sécurité à Ironforge. Kharan sait déjà tout cela... Allez-y !",
+   "progress": "Qu'est-ce qui vous amène sur ces terres sacrées ?",
+   "completion": "Il s'agit d'une opportunité pour la Horde de changer le climat politique de notre monde en sempiternelle guerre. Écoutez attentivement, <nom>.\n\nDans cette mission, l'échec n'est pas une option.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9020,
+     "name": "Commandant Gor'shak"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4949,
+     "name": "Thrall"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 54,
+   "reqlevel": 48,
+   "side": "horde",
+   "xp": 540,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4002": {
+   "id": 4002,
+   "name": "Les Royaumes de l'est",
+   "objectives": "Parler à Thrall si vous êtes <prêt/prête> à vous charger de la mission qu'il a prévue.",
+   "description": "Vous apportez d'excellents renseignements, <nom>.\n\nEn tant que Chef de guerre, il est de mon devoir d'accomplir ce qu'il y a de mieux pour la Horde. De m'assurer que les générations qui nous suivent ne soient pas astreintes à une existence sans espoir.\n\nLa possibilité de construire nos alliances futures nous échoit à tous. Un geste d'aide envers les nains pourrait fortement renforcer nos liens avec les Royaumes de l'est. Voici la raison pour laquelle vous ne devez pas échouer !\n\nÊtes-vous <prêt/prête> ?",
+   "progress": null,
+   "completion": "Vous ne pouvez à présent plus vous rétracter, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4949,
+     "name": "Thrall"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4949,
+     "name": "Thrall"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 54,
+   "reqlevel": 48,
+   "side": "horde",
+   "xp": 540,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4003": {
+   "id": 4003,
+   "name": "Un sauvetage royal",
+   "objectives": "Tuer l'Empereur Thaurissan et libérer la princesse Moira Bronzebeard de son sort maléfique.",
+   "description": "Ce coup porté aux nains Sombrefer pourrait créer une onde de choc perceptible dans tout leur royaume.\n\nLa princesse Bronzebeard est sous le contrôle de l'Empereur Thaurissan. Vous devez tuer l'Empereur afin de la libérer. Mais attention, votre quête est dangereuse à plus d'un titre, car la princesse elle-même vous attaquera sans retenue tant qu'elle sera sous le contrôle de l'Empereur. NE LUI FAITES PAS DE MAL !",
+   "progress": "<La princesse Moira se réfugie dans la peur.",
+   "completion": "Qu'avez-vous fait !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4949,
+     "name": "Thrall"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8929,
+     "name": "Princesse Moira Bronzebeard"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 59,
+   "reqlevel": 48,
+   "side": "horde",
+   "xp": 8050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4004": {
+   "id": 4004,
+   "name": "La Princesse sauvée ?",
+   "objectives": "Retourner voir Thrall !",
+   "description": "Vous avez assassiné mon mari, <nom> ! Mon enfant naîtra et grandira dans ce monde sans avoir de père.\n\n<Princesse Moira vous montre du doigt.>\n\nJe vous jure pourtant que cet enfant sera le prochain souverain du royaume d’Ironforge. Vous et ceux de votre espèce seront chassés et abattus comme des chiens, sans répit et sans merci.\n\n<Vous pensez que la Princesse Moira souffre peut-être des effets résiduels du sort de Thaurissan.>\n\nLaissez-moi, <nom>. Je pense que votre Chef de guerre est avide de connaître le résultat de son ingérence.",
+   "progress": null,
+   "completion": "<Thrall est interloqué par les informations que vous venez de lui apporter. >\n\nUne nouvelle menace se profile à l'horizon. Avec la fin du règne de Magni, rien ne s'opposera à ce que ce nouveau Sombrefer devienne le maître d'Ironforge.\n\nVous avez accompli ce que je vous avais demandé et je vais vous récompenser.\n\nMaintenant laissez-moi, <nom> ! Je dois m'entretenir avec Sylvanas et Cairne.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8929,
+     "name": "Princesse Moira Bronzebeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4949,
+     "name": "Thrall"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 60,
+   "reqlevel": 48,
+   "side": "horde",
+   "xp": 9950,
+   "money": 27000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Princesse Moira vous montre du doigt.",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4024": {
+   "id": 4024,
+   "name": "Un goût de flammes",
+   "objectives": "Partir pour les Profondeurs de Blackrock et tuer Bael'Gar.\n\nVous savez seulement que le géant demeure à l'intérieur des Profondeurs de Blackrock. Se souvenir d'utiliser l'Ecaille des dragons noirs altérée pour capturer l'Essence ardente.\n\nApporter l'Essence ardente recouverte à Cyrus Therepentous.",
+   "description": "Je souhaite goûter aux flammes ardentes de la montagne de feu. Laisser la lave fondue cascader tout le long de mon être. Cette essence, cette chaleur fulgurante, c'est cela dont j'ai soif.\n\nBael'Gar demeure dans les Profondeurs de Blackrock : un être fait de flammes pures, né des feux de Ragnaros. Tuez Bael'Gar et extrayez de ses restes brûlants son feu intérieur.\n\nServez-vous de l'écaille pour arracher sans danger le feu intérieur à sa dépouille.\n\nSi vous réussissez à me le rapporter, vous serez <récompensé/récompensée>.",
+   "progress": "Le géant a-t-il été abattu ?",
+   "completion": "<Cyrus vous arrache l'Essence ardente des mains. >\n\nOUI !\n\nPrenez votre prix et partez. Sortez de ma vue immédiatement.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9459,
+     "name": "Cyrus Therepentous"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9459,
+     "name": "Cyrus Therepentous"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 58,
+   "reqlevel": 52,
+   "side": "both",
+   "xp": 6200,
+   "money": 26500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "récompensé/récompensée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4063": {
+   "id": 4063,
+   "name": "La révolte des machines",
+   "objectives": "Trouver et tuer le seigneur des golems Argelmach. Rapporter sa tête à Lotwil. Collecter également 10 Noyaux d'élémentaire intacts sur les Golems ravarage et les Assemblages porteguerre qui protègent Argelmach. Vous savez cela car vous êtes médium.",
+   "description": "Argelmach ? Impossible ! Argelmach a été tué il y a dix ans. Je le sais, c'est moi qui l'ai tué.\n\nIl s'agissait d'un nain abject, obsédé par l'idée de ruiner le travail de ma vie afin d'atteindre ses diaboliques desseins. Il semble qu'il soit toujours parvenu à échapper à la justice.\n\nS'il s'agit de l'oeuvre d'Argelmach, et ça l'est assurément, alors il doit être détruit. Je vais avoir besoin de spécimens de ses dernières créations. Si l'on me donne les bons, il se peut que je parvienne à mettre un terme à ce soulèvement. Les créations gardent Argelmach, dans les Profondeurs de Blackrock.",
+   "progress": "Etait-ce bien lui ? Etait-il vraiment en vie ?",
+   "completion": "Qu'est-ce que c'est ?! Cette tête n'est pas faite de chair. C'est un genre de création Sombrefer. Une ombre d'Argelmach. UNE AUTRE machine ! Je suspecte que votre exploit soit de courte durée, car un autre Argelmach va bientôt se lever et prendre 'sa' place.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2921,
+     "name": "Lotwil Veriatus"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2921,
+     "name": "Lotwil Veriatus"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 58,
+   "reqlevel": 52,
+   "side": "horde",
+   "xp": 6200,
+   "money": 26500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4081": {
+   "id": 4081,
+   "name": "TUER A VUE : nains Sombrefer",
+   "objectives": "Pénétrer dans les Profondeurs de Blackrock et tuer les vils agresseurs !\n\nLe chef de guerre Goretooth veut que vous tuiez 15 Gardes Ragenclumes, 10 Gardiens Ragenclumes et 5 Fantassins Ragenclumes. Retourner le voir une fois votre mission accomplie.",
+   "description": "Par ordre du chef de guerre Goretooth, commandant du corps expéditionnaire de Kargath :\n\nTous les membres des forces du général Forgehargne présents dans les Profondeurs de Blackrock doivent être annihilés.\n\nLes hommes de Forgehargne sont des tueurs de sang-froid, responsables du massacre de masse de la 109e division du corps expéditionnaire de Kargath. Les héros doivent exercer avec une prudence extrême lorsqu'ils combattent ces brutes.\n\nQuiconque détruira la première ligne des forces du général Forgehargne dans les Profondeurs de Blackrock recevra un tribut.",
+   "progress": "Qu'est-ce qu'il y a, <race> ? Tu ne vois pas que j'ai un peloton à commander ?",
+   "completion": "Ce premier coup devrait agacer Forgehargne. À présent, circulez, soldat. J'ai du travail à accomplir, des batailles à planifier, et des ennemis à écraser !\n\nAllez voir les avis de recherche si vous cherchez du travail supplémentaire.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 164867,
+     "name": "WANTED"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9077,
+     "name": "Chef de guerre Goretooth"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 52,
+   "reqlevel": 48,
+   "side": "horde",
+   "xp": 5100,
+   "money": 15500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4082": {
+   "id": 4082,
+   "name": "TUER A VUE : Officiers de haut rang Sombrefer",
+   "objectives": "Pénétrer dans les Profondeurs de Blackrock et tuer les vils agresseurs !\n\nLe Chef de guerre Goretooth veut que vous tuiez 10 Médecins Ragenclumes, 10 Soldats Ragenclumes et 10 Officiers Ragenclumes. Retourner le voir une fois votre mission accomplie.",
+   "description": "Par ordre du chef de guerre Goretooth, commandant du Corps expéditionnaire de Kargath :\n\nLe chef du service de renseignement du C.E.F., le Grand maître Lexlort, et revenu avec des informations concernant l'endroit approximatif où se trouveraient les officiels de haut rang Sombrefer. Derrière une porte verrouillée et près du cœur de la cité, ils entraînent leurs forces pour faire périr nos hommes. Partez pour les Profondeurs de Blackrock et tuez-les !\n\nLa réussite de cette mission vous vaudra un tribut.",
+   "progress": "Encore vous ? Je dois vous reconnaître, <nom>, que vous êtes tenace.",
+   "completion": "Forgehargne doit être à présent… en colère. Revenez me voir lorsque vous recevrez un troisième tribut et nous commencerons l'Opération Mort à Forgehargne. Je ne peux pas encore vous en dévoiler les détails, mais dormez tranquille : Il contient une partie sanglante.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 164868,
+     "name": "KILL ON SIGHT"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9077,
+     "name": "Chef de guerre Goretooth"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 54,
+   "reqlevel": 50,
+   "side": "horde",
+   "xp": 5450,
+   "money": 16500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4083": {
+   "id": 4083,
+   "name": "Le Calice spectral",
+   "objectives": null,
+   "description": null,
+   "progress": "Le Calice spectral flotte dans les airs, descendant et remontant tout doucement… au rythme d'un cœur agonisant.",
+   "completion": "Les gemmes ne font aucun bruit tandis qu'elles plongent dans les profondeurs du Calice. . .",
+   "starters": [
+    {
+     "type": "object",
+     "id": 164869,
+     "name": "Spectral Chalice"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 164869,
+     "name": "Spectral Chalice"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 55,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 560,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "4121": {
+   "id": 4121,
+   "name": "Situation précaire",
+   "objectives": "Escortez votre prisonnier, Grark Lorkrub, au-delà des Steppes ardentes et du mont Blackrock, jusqu'à la gorge des Vents brûlants.\n\nRappelez-vous que Lexlort a précisé que ses hommes attendraient de l'autre côté pour arrêter Grark.\n\nOn vous demandera également de remettre vos chaînes en thorium à Lexlort.",
+   "description": "Croyez-vous réellement que vous parviendrez à rejoindre le point de rendez-vous alors que vous me retenez captif ? Vous pensiez pouvoir pénétrer la Forteresse de Blackrock et y capturer quelqu'un qui a une grande valeur à leurs yeux sans que rien ni personne ne le sache ?\n\nVous allez être <tué/tuée>.",
+   "progress": "Je vais m'occuper de ce traître véreux, <nom>.",
+   "completion": "Vos actes héroïques ne seront pas oubliés, <nom>. Vous avez gagné ce tribut. Le Chef de guerre va vous parler à présent de la dernière mission.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9520,
+     "name": "Grark Lorkrub"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9080,
+     "name": "Lexlort"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 58,
+   "reqlevel": 52,
+   "side": "horde",
+   "xp": 7750,
+   "money": 26500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "tué/tuée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4122": {
+   "id": 4122,
+   "name": "Grark Lorkrub",
+   "objectives": "Partez pour les Steppes ardentes et trouvez Grark Lorkrub. Lexlort a mentionné le fait que la dernière fois où on l'a vu, il se trouvait dans une imposante forteresse des Blackrock.\n\nUne fois Grark Lorkrub découvert, l'enchaîner avec les chaînes en thorium, puis le ramener par le mont Blackrock jusque dans la gorge des Vents brûlants. Des hommes de Lexlort attendront de l'autre côté de la gorge et le mettront sous bonne garde.",
+   "description": "Je l'ai traqué à travers la gorge des Vents brûlants jusqu'aux Steppes ardentes. Ce traître a été pris la main dans le sac tandis qu'il donnait des informations vitales sur nos opérations au jour le jour. Je parle de Grark Lorkrub.\n\nIl réside à présent dans les Steppes ardentes et vit en toute tranquillité sous leur protection. Ou c'est en tous les cas ce qu'il croit.\n\nPrenez ces chaînes, <nom>. Trouvez Grark, enchaînez-le et ramenez-le par le mont Blackrock. Accomplissez cet exploit et un tribut vous sera remis.",
+   "progress": null,
+   "completion": "Ne pouvez-vous pas comprendre le pouvoir que l'on gagne à rejoindre la légion de Blackrock ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9080,
+     "name": "Lexlort"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9520,
+     "name": "Grark Lorkrub"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 58,
+   "reqlevel": 52,
+   "side": "horde",
+   "xp": 6200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4123": {
+   "id": 4123,
+   "name": "Le Coeur de la montagne",
+   "objectives": "Apporter le Cœur de la montagne à Maxwort Uberglint dans les Steppes ardentes.",
+   "description": "Je recherche depuis des années une certaine gemme. Elle est appelée le Coeur de la montagne, et elle fait la taille de votre poing. Les nains Sombrefer l'ont enfermée dans leur coffre et j'ai tenté à maintes reprises, sans succès, de la leur acheter.\n\nAussi dois-je recourir à la force.\n\nBattez-vous jusqu'à parvenir à la salle des coffres inférieure des Profondeurs de Blackrock, forcez le coffre secret et emparez-vous du Coeur. Pour ce faire, vous devez tuer la Sentinelle Doomgrip qui n'apparaîtra que lorsque vous aurez ouvert chaque coffret de relique, dans la salle des coffres !\n\nBonne chance.",
+   "progress": "Avez-vous le Cœur de la montagne ? Il n'a pas de prix pour moi !",
+   "completion": "Vous avez le Cœur ! Incroyable ! Il est encore plus beau que je ne l'imaginais !\n\nJe vous en prie, <nom>, prenez ceci comme paiement.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9536,
+     "name": "Maxwort Uberglint"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9536,
+     "name": "Maxwort Uberglint"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 55,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 5650,
+   "money": 8500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4126": {
+   "id": 4126,
+   "name": "Hurley Blackbreath",
+   "objectives": "Apporter la Recette perdue de la Thunderbrew à Ragnar Thunderbrew à Kharanos.",
+   "description": "Les nains Sombrefer, dirigés par l'infâme Hurley Blackbreath, ont volé l'une des meilleures compositions des Thunderbrew, la bière Thunderbrew. Les monstres ! Ils ne méritent pas de savourer une telle bière !\n\n<nom>, la tâche que je vais vous confier est ardue. Partez pour les Profondeurs de Blackrock dans les Steppes ardentes et éventrez tous les tonneaux de Thunderbrew que vous trouverez, puis rapportez-moi notre recette !\n\nJe vous en prie, ramenez-la-moi, même si pour cela vous devez mettre à sac les Profondeurs de Blackrock !",
+   "progress": "Avez-vous la recette, <nom> ? Je ne peux pas supporter l'idée de savoir les nains Sombrefer sirotant la boisson de ma famille !",
+   "completion": "Vous l'avez retrouvée ! Beau travail ! Et j'espère que vous avez mis une bonne trempe à ces nains Sombrefer et à ce Hurley Blackbreath !\n\nLes Thunderbrew sont à votre service, <nom>. Vous êtes le héros des héros.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1267,
+     "name": "Ragnar Thunderbrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1267,
+     "name": "Ragnar Thunderbrew"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 55,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 5650,
+   "money": 16500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4128": {
+   "id": 4128,
+   "name": "Ragnar Thunderbrew",
+   "objectives": "Parler à Ragnar Thunderbrew.",
+   "description": "Hé, <nom>. J'ai entendu dire que Ragnar Thunderbrew était fou furieux parce que quelqu'un lui avait volé sa bière. Il recherche des aventuriers vigoureux, et il est prêt à débourser beaucoup d'argent.\n\nAllez parler à Ragnar si cela vous intéresse. Il se trouve dans la Distillerie Thunderbrew, à Kharanos, dans Dun Morogh.",
+   "progress": null,
+   "completion": "Vous pensez que je deviens fou ! On m'a volé ! De l'une des recettes de ma famille ! Comment osent-ils ! Comme si je n'avais pas suffisamment de raisons de détester les nains Sombrefer ! Maintenant, oh… maintenant c'en est assez !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9540,
+     "name": "Enohar Thunderbrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1267,
+     "name": "Ragnar Thunderbrew"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 55,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 560,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4132": {
+   "id": 4132,
+   "name": "Opération : Mort à Forgehargne",
+   "objectives": "Voyagez jusqu'aux Profondeurs de Blackrock et tuez le général Forgehargne ! Une fois votre mission accomplie, retournez voir le seigneur de guerre Goretooth.",
+   "description": "Vous avez accompli un travail exemplaire, <nom>. Il est à présent temps de vous envoyer vers votre dernière mission.\n\nLe général Forgehargne, le responsable Sombrefer qui a coordonné les attaques de la 109e division du C.E.K. et le massacre de masse de nos forces, doit être amené devant la justice.\n\nIl va sans aucun doute s'agir de la mission la plus éprouvante que vous aurez à accomplir, mais si vous la menez à bien, vous serez richement <récompensé/récompensée>.",
+   "progress": "Le boucher de Blackrock a-t-il été éliminé ?",
+   "completion": "Enfin ! Justice a été rendue ! Vous êtes quelqu'un de remarquable, <nom>. Portez ce médaillon comme symbole de votre dévouement inconditionnel envers la Horde et le C. E. K.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9077,
+     "name": "Chef de guerre Goretooth"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9077,
+     "name": "Chef de guerre Goretooth"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 58,
+   "reqlevel": 52,
+   "side": "horde",
+   "xp": 7750,
+   "money": 26500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "récompensé/récompensée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4133": {
+   "id": 4133,
+   "name": "Vivian Lagrave",
+   "objectives": "Parler à la maîtresse des ombres Vivian Lagrave à Kargath.",
+   "description": "La maîtresse des ombres Vivian Lagrave a besoin de vos services. Elle se trouve dans les Terres ingrates, à l'avant-poste orc de Kargath, et collecte les rumeurs courant sur une bière faite par les nains Sombrefer des Profondeurs de Blackrock.\n\nAllez lui parler. Elle vous attend.",
+   "progress": null,
+   "completion": "Je vous remercie d'être venu, <nom>. L'austérité de cet endroit dégage un certain charme, mais les aménagements de l'Apothicarium lui font toutefois défaut.\n\nMais assez de politesses. Parlons devoir, d'accord ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5204,
+     "name": "Apothicaire Zinge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9078,
+     "name": "Ombremage Vivian Lagrave"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 55,
+   "reqlevel": 50,
+   "side": "horde",
+   "xp": 560,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4134": {
+   "id": 4134,
+   "name": "La recette perdue de Thunderbrew",
+   "objectives": "Apporter la Recette perdue de la Thunderbrew à Vivian Lagrave à Kargath.",
+   "description": "On raconte que le nain Hurley Blackbreath des Sombrefer a dérobé une recette de bière. Cette bière, la Thunderbrew, insufflerait un grand courage et une grande force à celui qui la boit. Nous souhaitons étudier cette boisson. Nous trouverons peut-être d'autres usages à ses vertus... Des usages plus en phase avec les objectifs des Réprouvés.\n\nAllez fouiller dans les Profondeurs de Blackrock, trouvez Hurley, arrachez-lui la recette de la bière Thunderbrew et rapportez-la moi.\n\nPour le retrouver, il vous faudra sans doute aller jusqu’à menacer sa précieuse bière.",
+   "progress": "Avez-vous la recette de la Thunderbrew, <nom> ?",
+   "completion": "Très bien. Je vais envoyer cette recette chez l'Apothicaire afin qu'elle y soit étudiée. Et nous percerons ses mystères un jour. Il se peut que dans le futur, les nains de l'Alliance voient les vertus de cette boisson se retourner contre eux !\n\nJe trouve cela terriblement amusant. Peut-être que la mort influence le sens de l'humour de chacun. . . Qu'en pensez-vous ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9078,
+     "name": "Ombremage Vivian Lagrave"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9078,
+     "name": "Ombremage Vivian Lagrave"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 55,
+   "reqlevel": 50,
+   "side": "horde",
+   "xp": 5650,
+   "money": 8500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4136": {
+   "id": 4136,
+   "name": "Ribbly Screwspigot",
+   "objectives": "Apporter la Tête de Ribbly à Yuka Screwspigot dans les Steppes ardentes.",
+   "description": "Mon frère Ribbly a toujours été une sangsue pour ma famille, en prenant son argent et en le gâchant dans des projets tous plus stériles les uns que les autres.\n\nEn tous les cas, je pense que son dernier projet est le pire d'entre eux, car le baron Revilgaz de Baie-du-Butin a mis à prix la tête de notre pauvre Ribbly. Il m'est impossible de vous dire à quel point cela ravit les Screwspigot ! Notre petit Ribbly vaut finalement quelque chose !\n\nMais maintenant il se cache, quelque part dans les Profondeurs de Blackrock. Je vous en prie, trouvez-le et apportez-le-moi.\n\nOu, s'il n'est pas enclin à vous suivre, ce n'est pas bien grave. Je saurai me contenter de sa tête.",
+   "progress": "Avez-vous Ribbly ? Ou du moins l'un de ses morceaux ?",
+   "completion": "Ha ! Vous l'avez trouvé ! Et… il semblerait que mon petit frère n'ait pas voulu vous suivre gentiment. Quel dommage ! J'aurais aimé voir son regard lorsque je lui aurais dit que nous comptions le remettre à Revilgaz.\n\nMerci, <nom>. Vous faites la joie de ma famille. Et Ribbly n'a jamais eu l'air aussi serein.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9544,
+     "name": "Yuka Screwspigot"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9544,
+     "name": "Yuka Screwspigot"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 53,
+   "reqlevel": 48,
+   "side": "both",
+   "xp": 2650,
+   "money": 6000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4201": {
+   "id": 4201,
+   "name": "Le philtre d'amour",
+   "objectives": "Apporter 4 Gromsang, 10 Veines d'argent de géant et la Fiole de Nagmara remplie à la gouvernante Nagmara dans les Profondeurs de Blackrock.",
+   "description": "Ah, les affres de l'amour ! Le soldat Rocknot, insensible à mes charmes, m'a éconduite ! J'en suis folle !\n\nVous devez m'aider ! Nous autres succubes en savons beaucoup sur l'amour, et je peux concocter une potion qui abattra les murs de fer autour du cœur de Rocknot. Pour cela, j'ai besoin des ingrédients suivants : de la gromsang, des veines d'argent de géant des falaises et de l'eau provenant des sources de Golakka dans le cratère d'Un'Goro. Ce flacon vous servira à recueillir l'eau.\n\nJe vous en prie, <nom>, venez en aide à une pauvre âme dans sa quête de félicité !",
+   "progress": "Avez-vous les ingrédients ? La brèche de mon cœur menace de m'engloutir tout entière !",
+   "completion": "Oh, vous avez réussi ! À présent je peux préparer ma potion et m'en servir sur Rocknot. Il va enfin succomber à mes charmes !\n\nMerci, <nom>. Vous êtes un champion de l'amour !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9500,
+     "name": "Gouvernante Nagmara"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9500,
+     "name": "Gouvernante Nagmara"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 54,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 5450,
+   "money": 8000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4241": {
+   "id": 4241,
+   "name": "Maréchal Windsor",
+   "objectives": "Partir pour le mont Blackrock au nord-ouest et pénétrer dans les Profondeurs de Blackrock. Découvrir ce qu'il est advenu du Maréchal Windsor.\n\nVous vous souvenez que John le Loqueteux a dit que Windsor avait été traîné en prison.",
+   "description": "Ainsi ce bon à rien de lâche dit que Windsor est vivant, hein ?\n\nPréparez-vous, <Adjoint/Adjointe>, vous allez le chercher. Si Windsor est en vie, vous devez me l'amener. S'il est mort, j'en veux la preuve.\n\n<Maxwell se met à rire.>\n\nJe suppose que vous commencez à en avoir assez d'entendre cela, n'est-ce pas ?",
+   "progress": null,
+   "completion": "Où est-il ? Je vais le massacrer !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9560,
+     "name": "Maréchal Maxwell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9023,
+     "name": "Maréchal Windsor"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 54,
+   "reqlevel": 48,
+   "side": "alliance",
+   "xp": 5450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Adjoint/Adjointe",
+    "Maxwell se met à rire."
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4242": {
+   "id": 4242,
+   "name": "Espoir abandonné",
+   "objectives": "Donner les mauvaises nouvelles au maréchal Maxwell.",
+   "description": "Bolvar est un imbécile. J'étais en train de collecter la \"preuve\" à laquelle il tenait tant, pour pouvoir lui fourrer au fin fond de la gorge.\n\nCe n'est qu'un bouffon aveugle. La preuve est sous ses propres yeux et il ne la voit pas.\n\nQuant à mes renseignements, ils sont perdus. Partis. Impossible de les récupérer.\n\nSi j’arrive à trouver Hostefer et si je parviens à sortir de son labyrinthe, mon premier geste sera de planter mon marteau entre les yeux de ce reptile.\n\nLaissez-moi à présent, <nom> !",
+   "progress": null,
+   "completion": "Apparemment, il est devenu fou.\n\n<Maxwell baisse la tête en signe de chagrin. >\n\nIl est malheureux qu'un guerrier autrefois noble et fier soit devenu un tel crétin. Je SUPPOSE que nous sommes à présent dans l'impasse…\n\nJe dois vous récompenser pour vos efforts, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9023,
+     "name": "Maréchal Windsor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9560,
+     "name": "Maréchal Maxwell"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 54,
+   "reqlevel": 48,
+   "side": "alliance",
+   "xp": 5450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4263": {
+   "id": 4263,
+   "name": "Incendius !",
+   "objectives": "Trouver le Seigneur Incendius dans les Profondeurs de Blackrock et le détruire !",
+   "description": "Êtes-vous <certain/certaine> que Pyron a prononcé “Incendius“ avant de mourir ?\n\n<La gorge de Jalinda se serre.>\n\nLe Seigneur Incendius est un envoyé de Ragnaros ! Oh non, non ! Qu'allons-nous faire ?\n\nPensez-vous pouvoir mener à bien une autre mission ? Je n'ai personne d'autre à envoyer, <nom> !\n\nNous ne parviendrons jamais à y placer une équipe si Incendius continue à faire renaître Pyron de ses cendres.\n\nVous devez trouver le Seigneur Incendius et le détruire !",
+   "progress": "Le démon est-il mort ?",
+   "completion": "Non ! Êtes-vous sûr qu'Incendius a dit “Ragnaros“ ?\n\n<Jalinda vous remet quelque chose et flatte votre poignet de la main tandis qu'elle plonge profondément dans ses pensées. >",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9561,
+     "name": "Jalinda Sprig"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9561,
+     "name": "Jalinda Sprig"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 56,
+   "reqlevel": 48,
+   "side": "alliance",
+   "xp": 5800,
+   "money": 8500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "La gorge de Jalinda se serre.",
+    "certain/certaine",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4264": {
+   "id": 4264,
+   "name": "Une Note chiffonnée",
+   "objectives": "Il se peut que vous ayez simplement buté sur quelque chose qui pourrait intéresser le maréchal Windsor au plus haut point. Il reste peut-être encore un peu d'espoir, après tout…",
+   "description": "Toute la note est couverte de taches. Le texte est difficile à lire, mais vous parvenez à en déchiffrer certaines parties :\n\n… douce ironie…\n\n… la chute de l'Alliance brisée…\n\n… sans l'aide assidue du général Forgehargne, nous n’aurions peut-être jamais découvert la structure du code…\n\n… Argelmach en a presque terminé avec le décodage des notes de Windsor.\n\nNotre Seigneur s'élèvera des profondeurs et écrasera quiconque subsistera…\n\nEmpereur Dagran Thaurissan.",
+   "progress": "<Le maréchal Windsor regarde la note que vous tenez à la main. >\n\nMais qu'avez-vous donc là, <nom> ?",
+   "completion": "<Le maréchal Windsor attrape la note et commence à la lire. >",
+   "starters": [
+    {
+     "type": "item",
+     "id": 11446,
+     "name": "A Crumpled Up Note"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9023,
+     "name": "Maréchal Windsor"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 58,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 6200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4282": {
+   "id": 4282,
+   "name": "Un espoir en lambeaux",
+   "objectives": "Rapporter les Renseignements perdus du maréchal Windsor.\n\nLe maréchal Windsor pense qu'ils sont détenus par le seigneur golem Argelmach et par le général Forgehargne.",
+   "description": "<Le maréchal Windsor agite la note avec enthousiasme.>\n\nEst-ce que vous réalisez ce que cela veut dire, <nom> ?\n\nPeut-être que tout n'est pas perdu ! D'après ce que je peux comprendre, les renseignements sont en ce moment même détenus par deux nains Sombrefer : le général Forgehargne et le Seigneur des golem Argelmach. Je ne crois pas qu'ils nous les donneront même si on leur demande poliment.\n\nJ'espère que vous êtes <prêt/prête> à combattre.\n\nAllez-y, trouvez ces deux scélérats et rapportez-moi ces renseignements.",
+   "progress": "Ce grand subterfuge sera bientôt terminé.",
+   "completion": "<Le maréchal Windsor vous arrache les deux tablettes des mains. >\n\nNous devons partir d'ici !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9023,
+     "name": "Maréchal Windsor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9023,
+     "name": "Maréchal Windsor"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 58,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 6200,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4286": {
+   "id": 4286,
+   "name": "Du beau matériel",
+   "objectives": "Se rendre dans les Profondeurs de Blackrock et trouver 20 Sacoches Sombrefer. Retourner voir Oralius lorsque vous aurez accompli cette tâche. Logiquement, ces sacoches devraient être sur les nains Sombrefer des Profondeurs de Blackrock.",
+   "description": "Le capitaine Winky me dit que les Sombrefer ont pris tout ce qu'il y avait d’intéressant dans les Profondeurs. Pas vrai, Winky ?\n\n<Oralius imite un pirate.>\n\nAARRRR MAT'LOT, TOUT JUSTE !\n\nVous voyez ? Vous devez y entrer et me rapporter tout ce que vous trouverez d’intéressant.\n\nAllez-y et magnez-vous le train !",
+   "progress": "Veuillez ne pas me déranger, <nom>. Moi et Winky devons aller à une réunion.",
+   "completion": "<Oralius commence à farfouiller dans les immenses piles de sacoches. >\n\nOH ! MERVEILLEUX !\n\n<Oralius plonge le nez dans la pile et inspire profondément. >\n\nDELICIEUX ! Regardez-moi tout ça !\n\nPrenez-en une pour vous, <nom>. Il y en a plein ici.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9177,
+     "name": "Oralius"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9177,
+     "name": "Oralius"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 56,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 5800,
+   "money": 8500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Oralius imite un pirate."
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4295": {
+   "id": 4295,
+   "name": "La bière de Rocknot",
+   "objectives": null,
+   "description": null,
+   "progress": "Oh, de la bière ! Je tuerais pour une bonne bière de Sombrefer, <nom> ! Vite, je deviens sobre ! Je le sais car la sobriété trouble ma vision… et cela vous fait ressembler à celui que j'ai massacré la semaine dernière !",
+   "completion": "Qu'est-ce que c'est ? Ah ! Ça sent comme de la bière de Sombrefer ! La boisson a troublé ma vision, mais je peux dire que vous, monsieur, êtes un véritable ami.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9503,
+     "name": "Soldat Rocknot"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9503,
+     "name": "Soldat Rocknot"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 1,
+   "reqlevel": 42,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "4322": {
+   "id": 4322,
+   "name": "Evasion !",
+   "objectives": "Aider le maréchal Windsor à récupérer son équipement et à libérer ses amis. Ensuite, retourner voir le maréchal Maxwell.",
+   "description": "Nous devons sortir d'ici, <nom>. Aidez-moi à récupérer mon équipement dans la zone d'approvisionnement et à libérer mes amis. Si nous nous en sortons, vous devrez vous rendre à la Veille de Morgan et parler au maréchal Maxwell. Il vous donnera d'autres instructions.",
+   "progress": "Vous avez l'air épuisé, <nom>. Vous devriez peut-être vous asseoir près du feu et vous détendre.",
+   "completion": "Incroyable, <nom> ! Simplement incroyable ! Windsor a débarqué ici il n'y a pas 5 minutes. Il lance des accusations et prétend avoir des preuves. Il est maintenant en route pour Stormwind, pour affronter Bolvar et. . . Dame Prestor.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9023,
+     "name": "Maréchal Windsor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9560,
+     "name": "Maréchal Maxwell"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 58,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 7750,
+   "money": 17500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4324": {
+   "id": 4324,
+   "name": "Yuka Screwspigot",
+   "objectives": "Parler à Yuka Screwspigot dans les Steppes ardentes.",
+   "description": "Bien que mon petit frère, Ribbly, soit un bon à rien, je crois qu'il ne s'est pas montré complètement incompétent cette fois ! Mais… il se peut que nous ayons besoin de votre aide pour exploiter sa récente découverte.\n\nMa soeur, Yuka, l'a cherché durant des semaines, et ses recherches l'ont conduite jusqu'aux Steppes ardentes. Elle m'a envoyé un message, demandant de l’aide afin de poursuivre ses recherches.\n\nAlors, qu'en dites-vous ? Voulez-vous nous aider ? Si oui, allez parler à ma soeur. Vous la trouverez cachée dans la corniche des flammes, une caverne au nord-ouest du rocher des Cognepeurs.",
+   "progress": null,
+   "completion": "Oui, je recherche mon frère. Nous devons le trouver et le récupérer, ce pauvre innocent.\n\nMais si nous ne pouvons le rapporter en entier… alors sa tête suffira.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9706,
+     "name": "Yorba Screwspigot"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9544,
+     "name": "Yuka Screwspigot"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 53,
+   "reqlevel": 48,
+   "side": "both",
+   "xp": 2650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4341": {
+   "id": 4341,
+   "name": "Kharan Mighthammer",
+   "objectives": "Aller dans les Profondeurs de Blackrock et trouver Kharan Mighthammer.\n\nLe roi a mentionné que Kharan était retenu prisonnier là-bas ; cherchez une prison.",
+   "description": "Avez-vous été dans les ruines fumantes de Thaurissan ? Avez-vous rencontré un pitoyable voyou nommé Kharan Mighthammer ? Ce nain qui était censé veiller sur ma petite fille !\n\n<Le roi sanglote.>\n\nEt maintenant elle est partie, <nom> !\n\nMes hommes ont fouillé les Steppes buisson par buisson. Le seul indice qu’ils ont trouvé semble révéler que ma fille se trouve quelque part dans les Profondeurs. Elle pourrait tout aussi bien être morte !\n\nKharan serait prisonnier là-bas... Trouvez-le, je veux des réponses !",
+   "progress": null,
+   "completion": "S'il vous plaît, laissez-moi expliquer.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2784,
+     "name": "Roi Magni Bronzebeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9021,
+     "name": "Kharan Mighthammer"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 59,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 6400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Le roi sanglote.",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4342": {
+   "id": 4342,
+   "name": "Légende de Kharan",
+   "objectives": "Écouter Kharan Mighthammer raconter son histoire.",
+   "description": "Écoutez-moi attentivement avant d'émettre un jugement !",
+   "progress": "Permettez-moi de terminer mon histoire.",
+   "completion": "Comme vous pouvez le voir, je ne pouvais rien faire.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9021,
+     "name": "Kharan Mighthammer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9021,
+     "name": "Kharan Mighthammer"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 59,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 1600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4361": {
+   "id": 4361,
+   "name": "Le porteur des mauvaises nouvelles",
+   "objectives": "Retourner à Ironforge et apporter la mauvaise nouvelle au Roi Magni Bronzebeard.",
+   "description": "Vous devez délivrer cette information au Roi Magni, <nom>. Il saura quoi faire !",
+   "progress": null,
+   "completion": "<Le roi Magni abat son poing avec colère. >",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9021,
+     "name": "Kharan Mighthammer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2784,
+     "name": "Roi Magni Bronzebeard"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 59,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 6400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4362": {
+   "id": 4362,
+   "name": "Le destin du Royaume",
+   "objectives": "Retourner dans les Profondeurs de Blackrock et secourir la Princesse Moira Bronzebeard, prisonnière de l'Empereur Dagran Thaurissan.",
+   "description": "On dirait que mon vieil adversaire, Dagran Thaurissan, me tient, moi et le royaume d’Ironforge, à sa merci.\n\nVous pourriez bien être ma dernière chance, <nom>. Vous devez secourir ma chère enfant, Moira !\n\nIl n’y a qu’une seule manière de s’assurer que le sort que Thaurissan a jeté sur Moira soit rompu : le tuer !\n\nEt surtout, <nom>, ne la blessez pas ! N’oubliez pas qu’elle est contrôlée par Thaurissan ! Tout ce qu’elle peut dire ou faire est sous l’emprise du sort maléfique de Thaurissan.",
+   "progress": null,
+   "completion": "<La Princesse Bronzebeard pleure la perte de l'Empereur Dagran Thaurissan. >\n\nPourquoi ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2784,
+     "name": "Roi Magni Bronzebeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8929,
+     "name": "Princesse Moira Bronzebeard"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 59,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 8050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4363": {
+   "id": 4363,
+   "name": "La surprise de la Princesse",
+   "objectives": "Retourner à Ironforge et parler au roi Magni Bronzebeard.",
+   "description": "Thaurissan était un nain valeureux et honorable. Vous avez détruit ma vie et celle de l’enfant que je porte !\n\n<Vous estimez que la princesse Bronzebeard souffre toujours des effets résiduels du sort de l’Empereur.>\n\nRetournez à Ironforge et dites à mon père que l’héritier du trône d’Ironforge sera un nain Sombrefer.\n\nQue cela lui plaise ou pas, il en sera ainsi.",
+   "progress": null,
+   "completion": "<Le roi Magni Bronzebeard est visiblement contrarié. >\n\nIl semble que même mort, Thaurissan ait gagné.\n\nVous pouvez disposer, <nom>. Avant que vous partiez, vous pouvez choisir une récompense dans le trésor royal.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8929,
+     "name": "Princesse Moira Bronzebeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2784,
+     "name": "Roi Magni Bronzebeard"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 59,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 9650,
+   "money": 26500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7201": {
+   "id": 7201,
+   "name": "Le dernier élément",
+   "objectives": "Partir pour les Profondeurs de Blackrock et trouver 10 Essences des éléments. Commencer vos recherches par les golems et par les créateurs de golems. Vivian Lagrave a aussi marmonné quelque chose à propos d'élémentaires.",
+   "description": "Il y a du travail pour ceux qui s'aventurent dans les Profondeurs, <nom>.\n\nLes Sombrefer peuvent créer des golems extrêmement puissants.\n\nLes premiers rapports de nos espions indiquent que les nains se servent d'une source d'énergie unique pour fournir à leurs créations une capacité de tuerie incomparable.\n\nImaginez simplement ce que nous pourrions faire de nos abominations si nous mettions la main sur cette Essence des éléments ! Fouillez les moindres recoins de cette cité si cela est nécessaire, mais ne revenez pas tant que vous n'avez pas découvert cette essence ! Votre récompense sera à la mesure du risque encouru.",
+   "progress": "<Elle se frotte les mains. >\n\nMontrez-les-moi !",
+   "completion": "Merveilleux ! Je vais immédiatement ordonner à un messager de les envoyer à Undercity !\n\nQuant à vous, voici votre récompense, comme promis. Gardez la monnaie, ignoble bête !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9078,
+     "name": "Ombremage Vivian Lagrave"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9078,
+     "name": "Ombremage Vivian Lagrave"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 54,
+   "reqlevel": 48,
+   "side": "horde",
+   "xp": 5450,
+   "money": 24500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7604": {
+   "id": 7604,
+   "name": "Un contrat contraignant",
+   "objectives": "Apportez le Contrat de la Confrérie du Thorium à Lokhtos Darkbargainer, si vous voulez recevoir les plans du marteau de sulfuron.",
+   "description": "Le soussigné déclare par la présente que le lingot de sulfuron qu'il livre à la Confrérie du Thorium (CT SARL) est authentique et n'est pas une imitation. Le soussigné reconnaît de même que tous les dommages qu'<il/elle> pourrait subir en tentant de modeler, forger, trouver, créer, vendre ou manger du sulfuras n'est pas de la responsabilité ou une faute de CT SARL.\n\nEn signant ce contrat, vous en acceptez tous les termes.\n\n_________________\n\nSignature",
+   "progress": "Avons-nous un accord ?",
+   "completion": "Ce fut un plaisir de faire affaire avec vous, <nom> !\n\nAu nom de TB Ltd, je vous souhaite bonne chance dans votre recherche de Sulfuras !",
+   "starters": [
+    {
+     "type": "item",
+     "id": 18628,
+     "name": "Thorium Brotherhood Contract"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12944,
+     "name": "Lokhtos Darkbargainer"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "il/elle"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9015": {
+   "id": 9015,
+   "name": "Le défi",
+   "objectives": "Rendez-vous dans le Cercle de la loi, dans les profondeurs de Rochenoire, et placez la Bannière de provocation en son centre lorsque vous serez <condamné/condamnée> par le Juge supérieur Mornepierre. Tuez Theldren et ses gladiateurs, puis retournez voir Anthion Harmon dans les Maleterres de l’Est avec le premier morceau de l’amulette du seigneur Valthalak.",
+   "description": "Écoutez-moi bien, <nom>. Si vous voulez que la bannière fonctionne comme vous le désirez, vous devez pénétrer dans le Cercle de la loi, dans les profondeurs de Rochenoire. Laissez-vous condamner par le Juge supérieur Mornepierre et plantez la bannière dans le sol de l’arène, en signe de défi.\n\nVotre victime sera incapable de se maîtriser, elle sera consumée par le désir de vous affronter. Lorsque vous aurez ce que vous voulez, retournez voir Anthion.",
+   "progress": "Vous êtes de retour, <nom> !",
+   "completion": "Avez-vous retrouvé un morceau du médaillon, <nom> ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16032,
+     "name": "Falrin Treeshaper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16016,
+     "name": "Anthion Harmon"
+    }
+   ],
+   "zone_id": 1584,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "condamné/condamnée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

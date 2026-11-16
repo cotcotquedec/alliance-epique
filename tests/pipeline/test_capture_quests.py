@@ -4,9 +4,9 @@ from pipeline import capture_quests
 
 
 def _cap(**over):
-    cap = {"questID": 7, "title": "Une quête", "text": "Merci, Cotcot. Repos, guerrier.\n\nUn guerrier sans égal.",
+    cap = {"questID": 7, "title": "Une quête", "text": "Merci, Lira. Repos, guerrier.\n\nUn guerrier sans égal.",
            "objectives": "Tuer 5 loups.", "giverID": 42, "giverName": "Bob", "giverType": "Creature",
-           "playerName": "Cotcot", "playerClass": "Guerrier", "playerRace": "Humain", "playerSex": 2,
+           "playerName": "Lira", "playerClass": "Guerrier", "playerRace": "Humain", "playerSex": 2,
            "lastSeen": 10, "client": "1.60.1.70862"}
     cap.update(over)
     return cap
@@ -25,7 +25,7 @@ def test_impersonal_name_and_addressed_class_only():
 
 
 def test_impersonal_name_is_a_whole_word():
-    assert capture_quests.impersonal("Merci, Cotcotquedec.", _cap()) == "Merci, Cotcotquedec."
+    assert capture_quests.impersonal("Merci, Lirabelle.", _cap()) == "Merci, Lirabelle."
 
 
 def test_fills_missing_texts_and_speaker():
@@ -36,7 +36,7 @@ def test_fills_missing_texts_and_speaker():
     assert record["source"]["origins"]["description"] == "capture"
     assert record["starters"] == [{"type": "npc", "id": 42, "name": "Bob"}]
     assert record["missing"] == [] and record["status"] == "complete"
-    assert "Cotcot" not in json.dumps(record["capture"])
+    assert "Lira" not in json.dumps(record["capture"])
 
 
 def test_never_replaces_an_existing_text_but_lists_it():
@@ -48,6 +48,13 @@ def test_never_replaces_an_existing_text_but_lists_it():
     assert [f for f, _ in result["differs"]] == ["description"]
     assert record["description"] == "Un tout autre texte, rien à voir."
     assert record["starters"][0]["id"] == 1
+
+
+def test_player_giver_name_is_never_kept():
+    record = _record()
+    capture_quests.apply(record, "detail", _cap(giverType="Player", giverName="Lira", giverID=None))
+    assert "Lira" not in json.dumps(record, ensure_ascii=False)
+    assert record["starters"] == []
 
 
 def test_object_giver_is_not_taken():

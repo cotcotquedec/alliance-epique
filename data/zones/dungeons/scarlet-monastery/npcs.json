@@ -1,0 +1,504 @@
+{
+ "schema": 1,
+ "zone": "dungeons/scarlet-monastery",
+ "zone_id": 796,
+ "zone_name": "Monastère écarlate",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 9,
+  "with_display_id": 8,
+  "with_title": 2,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 2,
+   "unknown": 7
+  }
+ },
+ "npcs": {
+  "2055": {
+   "id": 2055,
+   "name": "Maître apothicaire Faranell",
+   "title": "Société royale des apothicaires",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Undercity",
+   "zones": [
+    "Undercity"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 1680,
+   "quests_started": [
+    450,
+    515,
+    1109,
+    1113,
+    97289,
+    97291,
+    97292
+   ],
+   "quests_ended": [
+    447,
+    451,
+    513,
+    1109,
+    1113,
+    2938,
+    97288,
+    97290,
+    97291,
+    97292
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "2425": {
+   "id": 2425,
+   "name": "Varimathras",
+   "title": null,
+   "type": null,
+   "classification": "Boss",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Undercity",
+   "zones": [
+    "Undercity"
+   ],
+   "coords": {},
+   "levels": [
+    62,
+    62
+   ],
+   "display_id": 11658,
+   "quests_started": [
+    1048,
+    5725,
+    6145,
+    6521
+   ],
+   "quests_ended": [
+    550,
+    1048,
+    1978,
+    5725,
+    6144,
+    6521,
+    6522
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "3978": {
+   "id": 3978,
+   "name": "Sage Truthseeker",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Thunder Bluff",
+   "zones": [
+    "Thunder Bluff"
+   ],
+   "coords": {},
+   "levels": [
+    30,
+    30
+   ],
+   "display_id": 4518,
+   "quests_started": [
+    1049,
+    2440,
+    2965
+   ],
+   "quests_ended": [
+    1049,
+    2280,
+    2968
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "3979": {
+   "id": 3979,
+   "name": "Bibliothécaire Mae Paledust",
+   "title": "Ligue des explorateurs",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Ironforge",
+   "zones": [
+    "Ironforge"
+   ],
+   "coords": {},
+   "levels": [
+    30,
+    30
+   ],
+   "display_id": 2049,
+   "quests_started": [
+    1050
+   ],
+   "quests_ended": [
+    1050
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfFemaleMaternal",
+    "race": "Dwarf",
+    "sex": "female",
+    "personality": "Maternal",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5913,
+     "farewell": 5914,
+     "pissed": 5915
+    },
+    "combat_set": "DwarfFemale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "DwarfFemaleMaternal"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "3980": {
+   "id": 3980,
+   "name": "Raleigh le Dévot",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Stormwind",
+   "zones": [
+    "Hillsbrad Foothills"
+   ],
+   "coords": {},
+   "levels": [
+    30,
+    30
+   ],
+   "display_id": 2048,
+   "quests_started": [
+    1053
+   ],
+   "quests_ended": [
+    1052,
+    1053
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleWarrior",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5977,
+     "farewell": 5978,
+     "pissed": 5979
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "3981": {
+   "id": 3981,
+   "name": "Vorrel Sengutz",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Undercity",
+   "zones": [
+    "Scarlet Monastery"
+   ],
+   "coords": {},
+   "levels": [
+    8,
+    8
+   ],
+   "display_id": 2046,
+   "quests_started": [
+    1051
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "3982": {
+   "id": 3982,
+   "name": "Monika Sengutz",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Undercity",
+   "zones": [
+    "Hillsbrad Foothills"
+   ],
+   "coords": {},
+   "levels": [
+    7,
+    7
+   ],
+   "display_id": 2050,
+   "quests_started": [],
+   "quests_ended": [
+    1051
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "female",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "4488": {
+   "id": 4488,
+   "name": "Parqual Fintallas",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Undercity",
+   "zones": [
+    "Undercity"
+   ],
+   "coords": {},
+   "levels": [
+    35,
+    35
+   ],
+   "display_id": 10197,
+   "quests_started": [
+    1160,
+    1394,
+    6628
+   ],
+   "quests_ended": [
+    1159,
+    1160,
+    6628
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "264265": {
+   "id": 264265,
+   "name": "Magus Olvek",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": null,
+   "faction": null,
+   "zones": [
+    "Alterac Mountains"
+   ],
+   "coords": {},
+   "levels": [
+    null,
+    null
+   ],
+   "display_id": null,
+   "quests_started": [
+    96800
+   ],
+   "quests_ended": [
+    96800
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "display_id",
+    "voice"
+   ]
+  }
+ }
+}

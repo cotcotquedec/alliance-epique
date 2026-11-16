@@ -1,0 +1,3158 @@
+{
+ "schema": 1,
+ "zone": "kalimdor/mulgore",
+ "zone_id": 215,
+ "zone_name": "Mulgore",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 60,
+  "complete": 37,
+  "incomplete": 23,
+  "unavailable": 0,
+  "missing_description": 23,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 5
+ },
+ "quests": {
+  "743": {
+   "id": 743,
+   "name": "Le danger des Furies-des-vents",
+   "objectives": "Apporter 8 Serres de Furie-des-vents à Ruul Eagletalon, au village Bloodhoof.",
+   "description": "Merci de prendre le temps de me parler, <nom>. Je suis Ruul, guerrier et professeur.\n\nVous avez atteint l'âge où il vous faut vous préparer à de dures épreuves si vous comptez vous aventurer hors de Mulgore.\n\nSi vous voulez éprouver votre force, commencez par aller chasser les harpies Furie-des-vents au sud-est. Elles nichent le long des crêtes des montagnes, loin de la route.\n\nElles sont l'un de nos ennemis naturels, ici à Mulgore. Les affronter éprouvera vos compétences.",
+   "progress": "Les harpies Furie-des-vents sont de redoutables adversaires. Leur force au combat n'a d'égal que leur désir de viande fraîche.",
+   "completion": "Bravo, <nom>. Vous semblez fin prêt pour voyager et aller de l'avant. Puissiez-vous cheminer sous des vents favorables.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2985,
+     "name": "Ruul Eagletalon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2985,
+     "name": "Ruul Eagletalon"
+    }
+   ],
+   "zone_id": 215,
+   "level": 8,
+   "reqlevel": 5,
+   "side": "horde",
+   "xp": 700,
+   "money": 225,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "745": {
+   "id": 745,
+   "name": "Partager la terre",
+   "objectives": "Tuer 10 Tanneurs crins-pâles, 8 Ecorcheurs crins-pâles et 5 Braconniers crins-pâles, puis retourner voir Baine Bloodhoof, au village Bloodhoof.",
+   "description": "<nom>, il y a beaucoup de conflits qui ont dévasté cette terre. J'espère seulement que vous n'aurez pas à être le témoin du même nombre de batailles que je le fus, moi-même. Il y a pourtant une chose que je voudrais que vous fassiez ; cela vous montrera comment une menace, même minime, peut blesser ce pays, si elle n'est pas endiguée à temps.\n\nDes crins-pâles gnolls ont colonisé le sud de Bloodhoof et une grotte à l'ouest. Ils ne répondent pas à nos tentatives de communication et massacrent les animaux sauvages de Mulgore.\n\nAvec cette engeance, la diplomatie n'est, hélas, plus une solution satisfaisante.",
+   "progress": "Si les Palemanes avaient davantage respecté la terre et ses habitants, ce conflit n'aurait jamais eu lieu.",
+   "completion": "<nom>, il est bon que vous ayez pris cette mission avec sérieux. Le respect du pays et de ses créatures est essentiel. La vie et la mort participent d'un cercle… d'une nécessité. L'une ne peut exister sans l'autre. Prenez le temps de méditer cela et ne l'oubliez jamais.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2993,
+     "name": "Baine Bloodhoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2993,
+     "name": "Baine Bloodhoof"
+    }
+   ],
+   "zone_id": 215,
+   "level": 8,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 540,
+   "money": 125,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "746": {
+   "id": 746,
+   "name": "Les fouilles des nains",
+   "objectives": "Collecter 5 Piolets de prospecteur.\n\nÀ la forge, brisez les Piolets du prospecteur pour obtenir des Outils cassés.\n\nRapporter 5 Outils cassés à Baine Bloodhoof, au village Bloodhoof.",
+   "description": "Il y a des nains qui préparent des fouilles au nord-ouest. Ils pensent que la terre abrite des secrets et ils ont raison. Mais creuser et souiller le pays n'est pas un bon chemin vers la sagesse.\n\nCollectez les outils de forage des nains, fracassez-les et revenez avec les outils brisés.\n\nVous ne pourrez détruire les outils que dans une forge. Vous en trouverez une à Thunder Bluff, bien que n'importe quelle forge (même une forge dans le camp des nains) suffise à la tâche.",
+   "progress": "Bonjour, <nom>. Avez-vous les Outils cassés ? Les fouilles des nains vont mettre les kodos de Mulgore en furie. Cette profanation doit cesser !",
+   "completion": "Merci, <nom>. Cela calmera les bêtes de Mulgore. Peut-être, avec de la chance, les nains auront-ils compris que creuser des galeries dans la terre n'est pas le bon chemin vers la sagesse.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2993,
+     "name": "Baine Bloodhoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2993,
+     "name": "Baine Bloodhoof"
+    }
+   ],
+   "zone_id": 215,
+   "level": 8,
+   "reqlevel": 6,
+   "side": "horde",
+   "xp": 700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "747": {
+   "id": 747,
+   "name": "La chasse commence",
+   "objectives": "Grull Hawkwind, à Camp Narache voudrait que vous lui apportiez 7 Plumes de trotteurs des plaines et 7 morceaux de Viande de trotteur des plaines.",
+   "description": "Vous avez un air prometteur, et vous allez avoir l'occasion de prouver votre valeur au sein de la tribu. Peut-être le jour est-il proche où l'on vous accueillera dans la grande ville de Thunder Bluff. Mais avant, vous devrez démontrer votre valeur à mon père, le Chef Hawkwind.\n\nIci, à la Mesa de Nuage rouge, nous sommes fiers de nos talents de chasseurs. Les taurens chassent par nécessité et par goût du sport. Notre stock de viande a diminué et nous avons besoin de plumes pour nos vêtements. Chassez les trotteurs des plaines du voisinage et faites vos preuves en réapprovisionnant le village.",
+   "progress": "Fournir de la viande et des plumes à la tribu est un premier pas pour convaincre le Chef de vos talents de chasseur.",
+   "completion": "Les taurens de Narache vous remercient, <nom>. Vous avez un avenir prometteur.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2980,
+     "name": "Grull Hawkwind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2980,
+     "name": "Grull Hawkwind"
+    }
+   ],
+   "zone_id": 215,
+   "level": 2,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 170,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "748": {
+   "id": 748,
+   "name": "Eau empoisonnée",
+   "objectives": "Apporter 6 Pattes de loup des prairies et 4 Serres de trotteur des plaines à Mull Thunderhorn à Bloodhoof.",
+   "description": "Des gobelins et leurs serviteurs ont pollué nos puits sacrés ! Nous ne pouvons tolérer cela.\n\nPour assainir les puits, je dois créer un totem de purification que vous devrez porter au puits, afin de pratiquer le rituel de purification.\n\nD'abord nous allons fabriquer le totem de purification pour le puits Winterhoof. Pour ce faire, le pays doit offrir son aide. Chassez des loups des prairies pour leurs pattes et des trotteurs des plaines adultes pour leurs serres. Vous les trouverez au sud-ouest.\n\nRevenez avec les pattes et les serres, <nom>.",
+   "progress": "Avez-vous les pattes et les serres, <nom> ?",
+   "completion": "Beau travail, <nom>. Je vais les utiliser pour confectionner le Totem de purification.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2948,
+     "name": "Mull Thunderhorn"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2948,
+     "name": "Mull Thunderhorn"
+    }
+   ],
+   "zone_id": 215,
+   "level": 5,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": 450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "749": {
+   "id": 749,
+   "name": "La Caravane dévastée",
+   "objectives": "Examiner le contenu d'une caisse de provisions à la caravane dévastée, pour Morin Cloudstalker.",
+   "description": "Il y a quelques jours, nous avons intercepté une caravane de la KapitalRisk qui se déplaçait sous escorte sur les rives du lac Taureau-de-pierre. Nous avions déjà perdu deux des nôtres dans une bataille antérieure ; aussi avons-nous attaqué sans hésiter. La caravane fut dévastée.\n\nNous avons laissé leurs caisses de provisions sur place, pensant que nos torches détruiraient toute chose de valeur. Mais comme des sauveteurs de la KapitalRisk ont été repérés à côté des caisses brûlées, il se peut que nous nous soyons trompés.\n\nPeut-être pourriez-vous aller sur place et examiner le contenu de ces caisses.",
+   "progress": null,
+   "completion": "Toutes les faces de la caisse sont flanquées du blason de la Division minière de la KapitalRisk. D'après une estampille imprimée sur l'une des faces, le contenu des caisses était déstiné à l'une de leurs fabriques centrales.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2988,
+     "name": "Morin Cloudstalker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 2908,
+     "name": "Sealed Supply Crate"
+    }
+   ],
+   "zone_id": 215,
+   "level": 8,
+   "reqlevel": 5,
+   "side": "horde",
+   "xp": 530,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "750": {
+   "id": 750,
+   "name": "La chasse continue",
+   "objectives": "Grull Hawkwind, à Camp Narache, voudrait que vous lui apportiez 10 Peaux de puma des montagnes.",
+   "description": "Un tauren compétent dans l'art de la chasse sait que ses proies ne sont pas de simples trophées. Les animaux des plaines nous fournissent ce dont nous avons besoin pour survivre. Vous ferez grosse impression sur les plus âgés si vous réussissez à revenir avec quelques-unes de ces précieuses Peaux de puma des montagnes. Vous pourrez trouver ces bêtes dans les collines plus au sud.\n\nNos enfants ont besoin de vêtements et nos tentes d'être raccommodées.",
+   "progress": "Si vous pouvez fournir les peaux à la tribu, je ferai connaître à mon père, le Chef Hawkwind, l'abnégation et le concours que vous nous avez portés.",
+   "completion": "Les taurens de Narache vous remercient pour toutes ces provisions, <nom>. Vos compétences pour la chasse sont exceptionnelles et vous vaudront la célébrité, un jour, à Thunder Bluff.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2980,
+     "name": "Grull Hawkwind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2980,
+     "name": "Grull Hawkwind"
+    }
+   ],
+   "zone_id": 215,
+   "level": 3,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "751": {
+   "id": 751,
+   "name": "La Caravane dévastée",
+   "objectives": "Rapporter les Documents de la KapitalRisk à Morin Cloudstalker, à côté du village Bloodhoof.",
+   "description": "L'ouverture de la caisse révèle un assortiment de minerais divers, soigneusement empaquetés. Ceci est une preuve supplémentaire de l'activité minière de la KapitalRisk dans Mulgore. Sur les minerais, vous récupérez des rouleaux de papier, étroitement ficelés.\n\nLa-haut, dans les collines, vous pouvez presque entendre les bruits des outils de forage qui fendent les roches et voir la fumée des gigantesques feux d'alimentation.",
+   "progress": "Salut, <nom>. Avez-vous appris quelque chose de nouveau sur les plans et opérations de la KapitalRisk dans notre patrie ?\n\nS'ils pensent pouvoir exploiter la terre, ici, comme ils l'ont fait ailleurs… les estafettes y mettront rapidement un terme.",
+   "completion": "Il semble que la KapitalRisk essaie de nous dépouiller de nos ressources naturelles. Sachant cela, nous n'avons pas le droit de les laisser faire.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 2908,
+     "name": "Sealed Supply Crate"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2988,
+     "name": "Morin Cloudstalker"
+    }
+   ],
+   "zone_id": 215,
+   "level": 8,
+   "reqlevel": 5,
+   "side": "horde",
+   "xp": 530,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "752": {
+   "id": 752,
+   "name": "Une humble contribution",
+   "objectives": "Partir chercher la mère du Chef Hawkwind, près du puits, au sud-est de Camp Narache.",
+   "description": "Tous les membres de la tribu prennent part à l'harmonie naturelle de la vie. Nous vivons et travaillons tous ensemble.\n\nNotre engagement les uns pour les autres implique une grande responsabilité envers autrui. Je voudrais vous demander une humble contribution.\n\nMa mère est partie ce matin pour tirer et rapporter de l'eau d'un puits qui est au sud-est de Narache. Le temps passe et elle n'est toujours pas rentrée. Peut-être pourriez-vous aller à sa rencontre ? Je suis, hélas, retenu ici par les affaires de la tribu.",
+   "progress": null,
+   "completion": "Vous venez de si loin, juste pour aider une vieille dame ? Eh, ne seriez-vous pas un gardien ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2981,
+     "name": "Chef Hawkwind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2991,
+     "name": "Grand-mère Hawkwind"
+    }
+   ],
+   "zone_id": 215,
+   "level": 2,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 85,
+   "money": 17,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "753": {
+   "id": 753,
+   "name": "Une humble contribution",
+   "objectives": "Prendre une Cruche d'eau du puits.\n\nApporter la cruche au Chef Hawkwind, à Camp Narache, au nord-ouest du puits.",
+   "description": "J'en ai vu et parcouru du pays, dans ma vie. Ces jambes fatiguées n'ont plus la vigueur d'antan, mais je peux encore servir la tribu... en prenant le temps qu'il faut.\n\nVous avez l'air d'un de ces <classe>s enthousiastes. Voici de quoi tester votre jeunesse et votre vitalité : prenez une cruche d'eau et apportez-la à mon fils, le Chef, à Camp Narache.\n\nRappelez-vous que même la tâche la plus humble peut parfois vous attirer la reconnaissance des aînés.",
+   "progress": "Vous avez l'air de revenir des plaines. Avez-vous des nouvelles de Grand-mère Hawkwind ?",
+   "completion": "Vous avez rapporté cette cruche, comme vous l'avait demandé Grand-mère.\n\nVotre motivation à aider les autres et à servir les taurens de Camp Narache m'incite à penser que vous allez faire bientôt la fierté de la tribu, à Thunder Bluff.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2991,
+     "name": "Grand-mère Hawkwind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2981,
+     "name": "Chef Hawkwind"
+    }
+   ],
+   "zone_id": 215,
+   "level": 3,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 250,
+   "money": 40,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "754": {
+   "id": 754,
+   "name": "Purification de Winterhoof",
+   "objectives": "Utiliser le Totem de purification de Winterhoof au puits Winterhoof, puis retourner voir Mull Thunderhorn.",
+   "description": "J'ai réalisé le totem pour purifier le puits Winterhoof. Il vous faut maintenant l'apporter au puits et y pratiquer le Rituel de purification. Vous trouverez le puits dans le sud-est, gardé par d'infects gobelins !\n\nCe sera tout sauf une mission facile mais vous devez réussir, si nous voulons un jour pouvoir boire de nouveau l'eau précieuse de ce puits.\n\nBonne chance à vous, <nom>.",
+   "progress": "Ne tardez pas, <nom>. La souillure du Puits de Winterhoof doit être enlevée !",
+   "completion": "Les rumeurs de vos exploits vous précède. Déjà, les animaux des environs du puits s'y désaltèrent de nouveau.\n\nVotre contribution pour le pays a été énorme, <nom>. Vous avez grandement aidé le peuple <race>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2948,
+     "name": "Mull Thunderhorn"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2948,
+     "name": "Mull Thunderhorn"
+    }
+   ],
+   "zone_id": 215,
+   "level": 6,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": 540,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "755": {
+   "id": 755,
+   "name": "Les Rites de la Terre-mère",
+   "objectives": "Aller voir le Prophète Graytongue qui vit dans les collines au sud de Camp Narache.",
+   "description": "La volonté dont vous avez fait preuve en acceptant cet humble travail pour les taurens de Narache, ainsi que votre goût pour l'apprentissage révèlent la noblesse de votre caractère, <nom>. Je suis sûr qu'un jour vous serez <connu/connue> à Thunder Bluff comme l'un des <classe>s les plus valeureux.\n\nAvant cela, vous serez mis à l'épreuve des trois Rites de la Terre-mère.\n\nLa première épreuve est le Rite de force. Allez voir le Prophète Graytongue et dites-lui que le Chef Hawkwind vous envoie.\n\nVous trouverez la demeure du Prophète directement au sud de Camp Narache.",
+   "progress": null,
+   "completion": "C'est le Chef Hawkwind qui vous envoie ? Passer l'épreuve des Rites de la Terre-mère n'est pas une partie de plaisir, croyez-moi. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2981,
+     "name": "Chef Hawkwind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2982,
+     "name": "Prophète Graytongue"
+    }
+   ],
+   "zone_id": 215,
+   "level": 3,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "connu/connue",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "756": {
+   "id": 756,
+   "name": "Le Totem de Thunderhorn",
+   "objectives": "Rapporter 6 Griffes de Traqueur et 6 Griffes de puma à Mull Thunderhorn.",
+   "description": "Pour créer le Totem de purification de Thunderhorn, vous devez collecter les griffes des prédateurs qui hantent les plaines de Mugore. Chassez les traqueurs des prairies et les pumas des basses plaines pour leurs griffes, puis revenez me voir.\n\nVous trouverez les traqueurs des prairies et les pumas des basses plaines à l'est et à l'ouest.",
+   "progress": "<nom>, avez-vous les griffes que je vous avais demandées ? Chaque heure qui passe voit gagner l'infection du puits Thunderhorn !",
+   "completion": "Merci, <nom>. La pureté d'intention avec laquelle ces animaux chassent est essentielle pour la création du prochain totem de Purification.\n\nLes gobelins n'apprendront jamais la différence qu'il y a entre dévaster une terre et y vivre harmonieusement.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2948,
+     "name": "Mull Thunderhorn"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2948,
+     "name": "Mull Thunderhorn"
+    }
+   ],
+   "zone_id": 215,
+   "level": 7,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": 630,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "757": {
+   "id": 757,
+   "name": "Le Rite de force",
+   "objectives": "Tuer des Dos-hirsute dans le Ravin de Roncelame et apporter 12 Ceintures de Dos-hirsute au chef Hawkwind au camp Narache.",
+   "description": "Les rites de la Terre-mère sont un passage obligé pour tout jeune tauren qui se respecte, à Thunder Bluff.\n\nLa première épreuve est le rite de Force. Vous devrez y démontrer votre bravoure en tuant des ennemis de la tribu.\n\nLes Dos-hirsute du ravin de Roncelame à l'est, empiètent sur nos terres tribales. Ils nous tendent des embuscades lors de nos parties de chasse et volent dans les villages, à la nuit tombée.\n\nProuvez votre valeur en massacrant ces vauriens et retournez voir le Chef, à Camp Narache, avec leurs ceintures pour prouver que vous les avez tués.",
+   "progress": "Avez-vous achevé le rite de Force, <nom> ? Je demande à voir la preuve de votre action contre les ennemis de notre tribu, les Dos-hirsute.",
+   "completion": "Vous avez réussi la première des épreuves des Rites de la Terre-mère. La tribu sera fière de vous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2982,
+     "name": "Prophète Graytongue"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2981,
+     "name": "Chef Hawkwind"
+    }
+   ],
+   "zone_id": 215,
+   "level": 4,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 445,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "758": {
+   "id": 758,
+   "name": "Purification de Thunderhorn",
+   "objectives": "Utilisez le Totem de purification de Thunderhorn au puits Thunderhorn, puis retournez voir Mull.",
+   "description": "Le totem est prêt, <nom>. Il vous faut encore pratiquer le Rituel de purification.\n\nAllez au puits Thunderhorn, au nord du village et utilisez le Totem de purification de Thunderhorn pour le rituel. Revenez me voir quand cela sera fait.\n\nQue les esprits soient avec vous.",
+   "progress": "Le puits de Thunderhorn est toujours contaminé, <nom>. S'il vous plaît, vous devez accomplir le rituel !",
+   "completion": "Les ancêtres du clan Thunderhorn me sont apparus en rêve ; ils ont loué ce que vous avez fait près de leur puits.\n\nEn guise de remerciement, ils souhaitent vous donner ceci. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2948,
+     "name": "Mull Thunderhorn"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2948,
+     "name": "Mull Thunderhorn"
+    }
+   ],
+   "zone_id": 215,
+   "level": 8,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": 700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "759": {
+   "id": 759,
+   "name": "Le Totem de Wildmane",
+   "objectives": "Apporter 8 Dents de loup alpha des prairies à Mull Thunderhorn, au village Bloodhoof.",
+   "description": "Il ne reste qu'un puits à purifier, appelé puits Wildmane, d'après le clan du même nom. Pour nettoyer ce puits, nous aurons besoin des dents d'un redoutable prédateur : le loup alpha des prairies. Allez chasser ces loups au nord, puis revenez me voir lorsque vous en aurez fini.\n\nLes alphas rôdent souvent autour de notre majestueuse cité de Thunder Bluff.",
+   "progress": "<nom>. Avez-vous les dents dont j'ai besoin ?",
+   "completion": "Très bien, <nom>. La nature nous a gratifiés d'une importante offrande ; je peux sentir le poids de son sacrifice et mon coeur en est comme gonflé de mélancolie et de fierté.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2948,
+     "name": "Mull Thunderhorn"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2948,
+     "name": "Mull Thunderhorn"
+    }
+   ],
+   "zone_id": 215,
+   "level": 10,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": 840,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "760": {
+   "id": 760,
+   "name": "Purification de Wildmane",
+   "objectives": "Utiliser le Totem de purification de Wildmane au puits Wildmane, puis retournez voir Mull Thunderhorn.",
+   "description": "Votre purification des puits Winterhoof et Thunderhorn est objet de discussion et de fierté parmi les esprits, jeune <nom>. Le totem de Wildmane est construit et le devoir vous appelle, encore une fois.\n\nLe puits Wildmane se trouve au nord de Thunder Bluff. Pratiquez-y le rituel ! Débarrassez le pays du poison des gobelins. Que l'eau claire coule de nouveau !",
+   "progress": "Le dernier puits d'eau reste fétide et empoisonné, <nom>. Il ne faut pas tarder !",
+   "completion": "Vous avez réussi. Les puits sont purifiés et nos terres, guéries. Le village Bloodhoof vous en est reconnaissant, <nom>.\n\nQue les vents murmurent la geste de vos exploits pendant des siècles et que les eaux de Mulgore restent claires pour toujours.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2948,
+     "name": "Mull Thunderhorn"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2948,
+     "name": "Mull Thunderhorn"
+    }
+   ],
+   "zone_id": 215,
+   "level": 10,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": 1050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "761": {
+   "id": 761,
+   "name": "Chasse aux Rapaces",
+   "objectives": "Apporter 8 Trophées de plumes de Rapace à Harken Windtotem, au village Bloodhoof.",
+   "description": "Le rapace est un oiseau rusé, difficile à trouver et à chasser, qui plus est. Une collection de plumes de rapace est signe d'intelligence et de détermination pour un chasseur.\n\nSi vous êtes <prêt/prête> à entreprendre ce travail, pénétrez les plaines et chassez les rapaces.\n\nRapportez-moi leurs plumes et faites honneur à votre clan.\n\nVous trouverez les rapaces partout dans Mulgore, mais vos yeux doivent être affûtés pour les localiser et vos jambes, agiles pour les attraper.",
+   "progress": "Avez-vous chassé ces Rapaces, <nom> ? Me rapportez-vous leurs plumes ?",
+   "completion": "Je sais que collecter ces plumes n'était pas une tâche facile, <nom>. Vous venez de prouver que vous étiez l'un des chamans les plus méritants. Nous sommes heureux, au village Bloodhoof, de vous compter parmi nous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2947,
+     "name": "Harken Windtotem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2947,
+     "name": "Harken Windtotem"
+    }
+   ],
+   "zone_id": 215,
+   "level": 6,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": 680,
+   "money": 250,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "763": {
+   "id": 763,
+   "name": "Les Rites de la Terre-mère",
+   "objectives": "Apporter le Totem de Hawkwind à Baine Bloodhoof au village Bloodhoof. Suivre la route hors du camp Narache.",
+   "description": "Il vous faut encore subir deux épreuves pour achever les Rites de la Terre-mère. Il est temps pour vous d'élargir votre expérience, <nom>.\n\nVoyagez jusqu'au Village Bloodhoof et trouvez le Chef, Baine Bloodhoof, fils de Cairne. Là, vous devrez continuer votre périple et gagner l'approbation des aînés de Thunder Bluff.\n\nPortez ce totem à Baine ; il reconnaîtra mes gravures et vous aidera dans votre quête.\n\nSuivez la route hors de Camp Narache et hâtez vous. Ne vagabondez pas de-ci de-là, vous vous perdriez.",
+   "progress": "Quels vents vous poussent jusqu'à moi, <classe> ?",
+   "completion": "Enfin, des nouvelles de mon bon ami, le Chef Hawkwind ! Ah, je vois que vous êtes quelqu'un de spécial. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2981,
+     "name": "Chef Hawkwind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2993,
+     "name": "Baine Bloodhoof"
+    }
+   ],
+   "zone_id": 215,
+   "level": 5,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 335,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "764": {
+   "id": 764,
+   "name": "La KapitalRisk",
+   "objectives": "Tuer 14 Travailleurs de la KapitalRisk et 6 Superviseurs de la KapitalRisk pour Morin Cloudstalker du village Bloodhoof.",
+   "description": "Ceci explique l'accroissement des effectifs et des équipements de la KapitalRisk à Mulgore. Ces gobelins... leur nombre augmente bien trop vite. Comme on dit : quand on montre quelque chose à un gobelin, les bruits de la monnaie et du profit ne tardent pas à retentir.\n\nLes avides petites créatures... malheureusement pour eux, nous, les taurens, ne permettrons pas à leur entreprise de se développer sur nos terres. Allez à leur mine, au nord de la caravane dévastée, et portez leur un message.",
+   "progress": "La Venture Co. s'est vu refuser les droits d'exploitation minière ici à Mulgore, mais il semblerait qu'ils ne se contentent pas d'un refus. Nous, les taurens, ne sommes pas du genre à mâcher nos mots, et nous avons d'autres moyens de faire passer notre message.",
+   "completion": "Je ne pense pas qu'on puisse mal interpréter ou ignorer ce signal, hum ? La KapitalRisk va comprendre qu'on ne prend pas les taurens à la légère. Quelle formidable arrogance a pu leur faire croire qu'ils allaient ainsi piller nos ressources naturelles sans que nous ne réagissions ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2988,
+     "name": "Morin Cloudstalker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2988,
+     "name": "Morin Cloudstalker"
+    }
+   ],
+   "zone_id": 215,
+   "level": 10,
+   "reqlevel": 5,
+   "side": "horde",
+   "xp": 630,
+   "money": 250,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "765": {
+   "id": 765,
+   "name": "Superviseur Fizsprocket",
+   "objectives": "Tuer le Superviseur Fizsprocket et rapporter son Ecritoire à Morin Cloudstalker, au village Bloodhoof.",
+   "description": "A en croire les documents que vous avez sauvés de la Caravane, la KapitalRisk a conçu plusieurs projets pour nous chasser de nos terres afin de pouvoir les piller et les exploiter en toute liberté.\n\nJe suis épouvanté de voir à quelles extrémités ces odieuses créatures sont prêtes à en venir pour accomplir leurs desseins. Le cerveau qui est à l'origine de leurs plans doit être tué. Son nom est Superviseur Fizsprocket et vous le trouverez à la mine de la KapitalRisk, à l'est de la Caravane dévastée. Rapportez-moi son écritoire ; peut-être nous apprendra-t-il quelque chose.",
+   "progress": "Je bous de fureur en imaginant quelles atrocités la KapitalRisk est prête à commettre contre nous, au seul nom du profit.",
+   "completion": "Ma colère est presque apaisée de savoir que l'infâme Fizsprocket est mort. Je vais fouiller ses effets personnels pour voir si je peux apprendre quelque chose sur les projets de la KapitalRisk. Merci de votre aide, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2988,
+     "name": "Morin Cloudstalker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2988,
+     "name": "Morin Cloudstalker"
+    }
+   ],
+   "zone_id": 215,
+   "level": 12,
+   "reqlevel": 5,
+   "side": "horde",
+   "xp": 910,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "766": {
+   "id": 766,
+   "name": "Mazzranache",
+   "objectives": "Apporter un Coeur de loup des plaines, un Fémur de puma des basses plaines, une Ecaille de trotteur des plaines et un Gésier de rapace à Maur Raincaller, au village Bloodhoof.",
+   "description": "Mon grand-père m'a conté sa bataille avec la créature nommée Mazzranache. Il m'a parlé de ses yeux rouges, démoniaques, de ses serres aiguisées comme des rasoirs et de sa morsure venimeuse.\n\nJ'ai eu la malchance de rencontrer la bête tandis que je cheminais à travers les plaines. Elle était exactement comme mon grand-père me l'avait décrite ; elle m'a attaqué et m'a profondément mordu à l'épaule. Son poison coule à présent dans mes veines et j'aurais besoin d'ingrédients rares pour réaliser un antidote : un coeur de loup, un fémur de puma, une écaille de trotteur des plaines et un gésier de rapace.\n\nHâtez-vous, le temps m'est compté.",
+   "progress": "La fièvre me consume et je sens mon esprit sombrer dans d'abominables cauchemars. . . j'aurais dû savoir que je ne pourrais pas résister à la créature qui avait vaincu mon grand-père.\n\nAvez-vous les ingrédients que je vous avais demandé de collecter pour le remède ? Si je tarde encore à nettoyer mon sang de cette infection, je mourrai bientôt.",
+   "completion": "Ah, mille mercis, <nom>. Avec les ingrédients que vous venez de m'apporter, je vais pouvoir réaliser l'antidote qui débarrassera mon corps du venin et me guérira. Je vous dois la vie.\n\nJe n'oublierai jamais le hurlement strident que poussa Mazzranache en fondant sur moi, ni sa couleur de feu tandis que son bec frappait. . .\n\nSoyez vigilant en marchant sur les chemins.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3055,
+     "name": "Maur Raincaller"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3055,
+     "name": "Maur Raincaller"
+    }
+   ],
+   "zone_id": 215,
+   "level": 8,
+   "reqlevel": 5,
+   "side": "horde",
+   "xp": 700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "767": {
+   "id": 767,
+   "name": "Le Rite de vision",
+   "objectives": "Parler à Zarlman Deux-Lunes, au village Bloodhoof.",
+   "description": "Réussir le Rite de vision, un des rites de la Terre-mère, vous attirera le respect des aînés de Thunder Bluff.\n\nNotre peuple a compris que la terre était pourvoyeuse de ressources. Pour faire l'expérience de la vision rituelle, vous devez parler au chef spirituel du village, Zarlman Deux-Lunes.",
+   "progress": null,
+   "completion": "J'ai pressenti que vous viendriez à moi, <classe>. Je reconnais toujours un candidat aux Rites de la Terre-mère.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2993,
+     "name": "Baine Bloodhoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3054,
+     "name": "Zarlman Deux-Lunes"
+    }
+   ],
+   "zone_id": 215,
+   "level": 6,
+   "reqlevel": 3,
+   "side": "horde",
+   "xp": 55,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "770": {
+   "id": 770,
+   "name": "La Cape de démon balafrée",
+   "objectives": "Trouver quelqu'un qui puisse vous en apprendre davantage au sujet du Hurleur fantomatique.",
+   "description": "Cette peau déchiquetée de Hurleur fantomatique porte toujours la terrible blessure reçue lors de la bataille des loups contre la Légion ardente.\n\nPeut-être quelqu'un au village Bloodhoof sait-il quelque chose au sujet de la malédiction du Hurleur fantomatique...",
+   "progress": null,
+   "completion": "Je ne peux pas en croire mes yeux ! Vous avez vaincu le terrible Hurleur fantomatique ? Je vous considère avec un respect tout neuf, jeune <classe>. Vous êtes un chasseur extrêmement doué !\n\nLaissez-moi vous offrir quelque chose. Je ne chasse plus, mais je serais honoré si vous acceptiez l'une de mes armes, pour vos chasses.\n\nPuisse-t-elle guider votre bras et vous attirer le renom que vous méritez.\n\nEspérons aussi que ce Hurleur fantomatique a finalement trouvé la paix.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 4854,
+     "name": "Demon Scarred Cloak"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3052,
+     "name": "Skorn Whitecloud"
+    }
+   ],
+   "zone_id": 215,
+   "level": 12,
+   "reqlevel": 6,
+   "side": "horde",
+   "xp": 910,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "771": {
+   "id": 771,
+   "name": "Le Rite de vision",
+   "objectives": "Collecter 2 Pierres de puits et 2 Pommes de pin et les rapporter à Zarlman Deux-Lunes, au village Bloodhoof.",
+   "description": "Pour passer le Rite de vision, vous devez collecter les ingrédients nécessaires à la réalisation de l'Eau des Prophètes.\n\nJ'aurai besoin de Pierres de puits, qui se trouvent autour des puits, à Mulgore. Je les combinerai aux pommes de pin, qui tombent des arbres majestueux de notre pays.\n\nCes ingrédients sont porteurs de grands principes magiques ; quand vous en consommerez les décoctions devant le feu tribal, leurs essences vous donneront une vision. Suivez-la et vous accéderez à l'étape suivante de votre quête sacrée.",
+   "progress": "Une fois que vous aurez collecté suffisamment de Pierres de puits, autour des puits, et de Pommes de pin, au pied des arbres, je ferai l'Eau des Prophètes pour vous.",
+   "completion": "Je vois que vous avez appris à tirer parti de notre terre sacrée, <nom>. Faire l'Eau des Prophètes ne me prendra qu'un moment.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3054,
+     "name": "Zarlman Deux-Lunes"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3054,
+     "name": "Zarlman Deux-Lunes"
+    }
+   ],
+   "zone_id": 215,
+   "level": 7,
+   "reqlevel": 3,
+   "side": "horde",
+   "xp": 630,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "772": {
+   "id": 772,
+   "name": "Le Rite de vision",
+   "objectives": "Consommer l'Eau des Prophètes devant le feu tribal, au village Bloodhoof et suivre la vision quand elle apparaîtra.",
+   "description": "Vous allez maintenant être <confronté/confrontée> à l'Eau des Prophètes.\n\nQuand vous vous sentirez <prêt/prête>, consommez-la en face du feu tribal. Une fois bue l'eau sacrée, la vision se matérialisera rapidement devant le feu.\n\nA ce moment-là, vous serez <seul/seule> avec votre destin...",
+   "progress": null,
+   "completion": "Ne soyez pas effrayé, <nom>. Vous avez réussi le passage du Rite de vision.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3054,
+     "name": "Zarlman Deux-Lunes"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2984,
+     "name": "Prophète Wiserunner"
+    }
+   ],
+   "zone_id": 215,
+   "level": 7,
+   "reqlevel": 3,
+   "side": "horde",
+   "xp": 475,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "confronté/confrontée",
+    "prêt/prête",
+    "seul/seule"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "773": {
+   "id": 773,
+   "name": "Le Rite de sagesse",
+   "objectives": "Voyager aux Rochers rouges, à l'est de Thunder Bluff et parler à Esprit ancestral.",
+   "description": "Pour gagner l'approbation des aînés de Thunder Bluff, vous devez désormais réussir le Rite de sagesse.\n\nMaintenant que vous avez achevé le Rite de vision, les esprits ancestraux des Rochers rouges vous donneront la bénédiction des ancêtres. Seuls ceux qui ont bu l'Eau des Prophètes accèdent à cette bénediction.\n\nVoyagez à l'est de Thunder Bluff, jusqu'aux Rochers rouges et cherchez l'Esprit ancestral, <nom>.",
+   "progress": null,
+   "completion": "Vous avez fait preuve de beaucoup d'assiduité et de courage dans votre passage des Rites de la Terre-mère, <nom>.\n\nNous, les Esprits ancestraux, sommes les taurens qui donnèrent leur vie en fondant et en défendant notre majestueuse ville de Thunder Bluff. Je vous transmets, à présent, ce devoir de protection.\n\nVous avez réussi le Rite de sagesse, jeune <classe>. Entrez dans Thunder Bluff avec gloire.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2984,
+     "name": "Prophète Wiserunner"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2994,
+     "name": "Esprit ancestral"
+    }
+   ],
+   "zone_id": 215,
+   "level": 10,
+   "reqlevel": 3,
+   "side": "horde",
+   "xp": 840,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "775": {
+   "id": 775,
+   "name": "Voyage à Thunder Bluff",
+   "objectives": "Parler à Cairne Bloodhoof à Thunder Bluff.",
+   "description": "Vous allez maintenant être <révéré/révérée> dans notre grande ville. Chaque <race> qui passe avec succès les Rites de la Terre-mère a droit à cet honneur.\n\nPour votre quête finale, trouvez notre noble chef, Cairne Bloodhoof, qui demeure au sommet de la plus haute mesa de Thunder Bluff.",
+   "progress": null,
+   "completion": "Salut, jeune <classe>. Je vois que vous avez trouvé le chemin jusqu'au seuil de ma porte.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2994,
+     "name": "Esprit ancestral"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3057,
+     "name": "Cairne Bloodhoof"
+    }
+   ],
+   "zone_id": 215,
+   "level": 10,
+   "reqlevel": 3,
+   "side": "horde",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "race",
+    "révéré/révérée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "776": {
+   "id": 776,
+   "name": "Les Rites de la Terre-mère",
+   "objectives": "Apporter la Corne d'Arra'chea à Cairne Bloodhoof, à Thunder Bluff",
+   "description": "Vous avez passé les rites de la Terre-mère et avez désormais votre place parmi nous, à Thunder Bluff.\n\nMais pour maintenir un prestige si durement gagné, vous devez continuer à prouver votre valeur auprès de votre peuple.\n\nNous sommes des chasseurs, <nom>. Plus bas, à Mulgore, vit une formidable bête kodo nommée Arra'chea. Prouvez votre habileté à la chasse ; traquez la bête et rapportez-moi la Corne d'Arra'chea.",
+   "progress": "Avez-vous battu Arra'chea ?",
+   "completion": "Bravo, quelle estocade magistrale !\n\nJe vais envoyer un groupe pour dépecer et hisser la carcasse du monstre afin de profiter de la peau et de la viande.\n\nCe que vous avez fait pour votre peuple est grand, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3057,
+     "name": "Cairne Bloodhoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3057,
+     "name": "Cairne Bloodhoof"
+    }
+   ],
+   "zone_id": 215,
+   "level": 14,
+   "reqlevel": 3,
+   "side": "horde",
+   "xp": 1250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "780": {
+   "id": 780,
+   "name": "Les sangliers de guerre apprivoisés",
+   "objectives": "Grull Hawkwind, à Camp Narache, voudrait que vous tuiez des sangliers de guerre, et que vous rapportiez 8 Groins de sanglier de guerre et 8 Flancs de sanglier de guerre.",
+   "description": "Les sangliers de guerre apprivoisés du ravin de Roncelame se répandent sur nos terrains de chasse. Ils sont entraînés au combat et rendus agressifs par les hurans Dos-hirsute contre lesquels nous sommes en guerre.\n\nPartez ; massacrez ces infâmes créatures et revenez avec leurs groins et leurs flancs, que nous puissions en faire un bon ragoût pour les jeunes.",
+   "progress": "La fréquence des attaques des sangliers de guerre apprivoisés augmente. Leur avez-vous délivré un message assez clair et avez-vous tranché et rapporté quelques-uns de leurs groins et flancs ?",
+   "completion": "Parfait. Ces ingrédients feront un ragoût bien épicé. Espérons que la perte de ces sangliers donnera une bonne leçon à ces vils Dos-hirsute.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2980,
+     "name": "Grull Hawkwind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2980,
+     "name": "Grull Hawkwind"
+    }
+   ],
+   "zone_id": 215,
+   "level": 4,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 445,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "781": {
+   "id": 781,
+   "name": "L'attaque du Camp Narache",
+   "objectives": "Apporter les Plans d'attaque Dos-hirsute au chef Hawkwind, au camp Narache.",
+   "description": "Après une analyse attentive de la carte, vous comprenez que vous avez découvert les plans du chef de guerre Dos-hirsute pour assiéger le camp Narache.\n\nLe chef Hawkwind pourrait certainement tirer profit de ces informations !",
+   "progress": "Vous avez l'air inquiet, <nom>. Quelles nouvelles nous apportez-vous ?",
+   "completion": "C'est en effet bien inquiétant ! Mais grâce à cette information, nous pouvons appeler à l'aide nos frères du village Bloodhoof et contrecarrer ce projet d'attaque. Vous venez de sauver la vie de nombreux taurens, <nom>.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 4851,
+     "name": "Dirt-stained Map"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2981,
+     "name": "Chef Hawkwind"
+    }
+   ],
+   "zone_id": 215,
+   "level": 4,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 355,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "833": {
+   "id": 833,
+   "name": "Cimetière sacré",
+   "objectives": "Le Gardien du savoir Raintotem veut que vous tuiez 8 Intrus Dos-hirsute aux Rochers rouges.",
+   "description": "Seuls les plus vaillants taurens sont enterrés aux Rochers rouges, notre terre funéraire sacrée. C'est un honneur accordé aux grands guerriers qui ont aidé à construire et à défendre Thunder Bluff et à ceux qui ont donné leur vie pour le bien de leur tribu et de leurs chefs.\n\nMais il apparaît qu'un infâme danger menace notre terre sacrée. Un groupe d'Intrus Dos-hirsute ravage le cimetière et je suis trop vieux et trop faible pour les repousser.\n\nIls doivent pourtant être chassés sans pitié, <nom>.",
+   "progress": "Les intrus à dos de chardon doivent être chassés de notre cimetière sacré, <nom>.",
+   "completion": "Bon travail. Vous avez envoyé à ces abjects Dos-hirsute un message clair. Ils y penseront à deux fois avant de profaner à nouveau ce lieu saint.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3233,
+     "name": "Gardien du savoir Raintotem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3233,
+     "name": "Gardien du savoir Raintotem"
+    }
+   ],
+   "zone_id": 215,
+   "level": 10,
+   "reqlevel": 7,
+   "side": "horde",
+   "xp": 630,
+   "money": 250,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "854": {
+   "id": 854,
+   "name": "Un voyage à la Croisée",
+   "objectives": "Parler à Thork, à la Croisée des Tarides.",
+   "description": "J'avais prédit votre arrivée, jeune <classe>. Bien que peut-être vous ne soyez plus si jeune.\n\nJe crois qu'il est temps de vous aventurer plus profondément dans ces terres. Je sens que vous êtes <destiné/destinée> à de grandes choses.\n\nC'est la Croisée que vous devez chercher à présent, dans la mesure où nos vies se sont mêlées à celles des orcs et qu'ils ont besoin de notre aide. Descendez cette route vers l'est et suivez-la vers le nord en direction de la Croisée. Trouvez Thork dans ses murs, il est béni par la Terre-mère.",
+   "progress": null,
+   "completion": "Il est bon de voir que la plupart de nos alliés sont venus nous aider, d'aussi loin que Thunder Bluff. Une fois encore, je vous remercie, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3418,
+     "name": "Kirge Sternhorn"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3429,
+     "name": "Thork"
+    }
+   ],
+   "zone_id": 215,
+   "level": 12,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": 225,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "destiné/destinée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "861": {
+   "id": 861,
+   "name": "La voie du chasseur",
+   "objectives": "Apporter 4 Griffes de Rôdeurs des basses plaines à Melor Stonehoof à Thunder Bluff.",
+   "description": "Vous êtes avide d'explorations, ça se voit. J’avais aussi le désir d'explorer, autrefois…\n\nD'explorer, et de chasser. Car chasser est le plus grand honneur d'un tauren.\n\nSi vous désirez suivre cette voie, Melor Stonehoof peut vous y aider. Il est à Thunder Bluff, sur la Cime des chasseurs.\n\nPour lui prouver vos compétences et votre résolution, apportez-lui les griffes de Rôdeurs des basses plaines de Mulgore. Ils sont robustes et astucieux, une proie parfaite pour de jeunes <classe>s qui suivent la voie du chasseur.",
+   "progress": "Salutations. Vous avez une allure qui en dit long. Avons-nous des affaires en cours, vous et moi ?",
+   "completion": "Skorn Whitecloud est un <race> sage. Il a chassé pendant des années, et bien que son corps soit à présent vieux, son esprit brûle toujours avec force. Nous sommes honorés de l'avoir avec nous.\n\nSi Skorn vous a envoyé, alors vous devez posséder l'esprit du chasseur. Et les griffes que vous avez récupérées montrent de bonnes aptitudes.\n\nPeut-être êtes-vous prêt à parcourir le chemin.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3052,
+     "name": "Skorn Whitecloud"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3441,
+     "name": "Melor Stonehoof"
+    }
+   ],
+   "zone_id": 215,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 840,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1656": {
+   "id": 1656,
+   "name": "Une tâche inachevée",
+   "objectives": "Livrer le Ballot de fourrures à l'aubergiste Kauth au village Bloodhoof.",
+   "description": "<nom>, s'il vous plaît, je vous en supplie, pouvez-vous m'aider ? Je n'ai pas fini ce que j'ai à faire ici sur le Plateau – je suis au milieu de mon rite de force – et mon père veut que je livre ces fourrures à l'auberge de Bloodhoof.\n\nJe ne suis pas suffisamment reposée pour finir mon rite et faire ce que mon père m'a demandé. Cela vous embêterait-il d'y aller pour moi ?\n\nL'auberge est agréable et c'est l'endroit parfait pour se reposer après un long voyage. Vous en conviendrez lorsque vous l'aurez vue.",
+   "progress": "Oui ? Qu'est-ce que Kauth peut faire pour vous ?\n\nLe voyage depuis le Plateau peut être épouvantable pour certains, et réchauffer le cœur des autres. Ce qui est votre cas j'espère ?",
+   "completion": "Ah ! Les fourrures que j'attendais. Merci.\n\nElles sont arrivées plus tôt que prévu. Cela va faire de bonnes couvertures pour tous ceux qui voudront dormir ici.\n\nRestez autant que vous le voulez. Mon auberge est toujours ouverte, et tout le monde y est bienvenu. Ne sous-estimez pas une bonne nuit de sommeil, elle peut faire la différence quand vous devez voyager.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6775,
+     "name": "Antur Fallow"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6747,
+     "name": "Kauth l'aubergiste"
+    }
+   ],
+   "zone_id": 215,
+   "level": 5,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 110,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3376": {
+   "id": 3376,
+   "name": "La fin de Brochaigu !",
+   "objectives": "Apporter la Tête du chef Brochaigu Mantépine à Brave Windfeather à la mesa de Nuage rouge.",
+   "description": "<nom>, j'ai entendu parler de vous. Peut-être saurez-vous nous venir en aide là où d'autres ont échoué.\n\nNous, taurens, avons fait de cette terre notre foyer. Mais cela n'a pas été sans pertes. Les hurans Dos-hirsute, du ravin de Roncelame, menés par leur chef Brochaigu Mantépine, nous accablent sans cesse. Je vous demande de me rapporter la tête de leur chef !\n\nVous pourrez le trouver dans le ravin, à l'est, dans leur village de fortune.",
+   "progress": "Brochaigu ne nous posera plus de problèmes une fois que vous m'aurez apporté la preuve de sa mort. Je veux sa tête, <nom>.\n\nLes taurens vivent pour la chasse et il n'y a pas de plus grand honneur que de chasser un autre prédateur. Si vous venez à bout de cette mission, vous comprendrez de quoi je parle.",
+   "completion": "La justice s'est exprimée en ce jour par vos actes efficaces, <nom>. Que ceci serve d'avertissement à tous ceux qui menaceraient notre foyer.\n\nVous avez gagné avec mérite cette récompense. Puisse t-elle vous aider durant votre séjour, jeune <classe>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3209,
+     "name": "Brave Windfeather"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3209,
+     "name": "Brave Windfeather"
+    }
+   ],
+   "zone_id": 215,
+   "level": 5,
+   "reqlevel": 3,
+   "side": "horde",
+   "xp": 670,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5844": {
+   "id": 5844,
+   "name": "Bienvenue !",
+   "objectives": "Apporter le Bon-cadeau (Camp Narache) à Vorn Skyseer.",
+   "description": "Bienvenue dans World of Warcraft !\n\nEn gage de remerciement spécial pour avoir acheté World of Warcraft Collector's Edition, apportez ce bon à Vorn Skyseer au Camp Narache. On vous remettra alors un cadeau : un petit compagnon pour se joindre à vous dans votre quête d’aventure et de gloire.\n\nMerci encore, et bon séjour dans World of Warcraft !",
+   "progress": "Je vous salue ! C'est un plaisir de vous rencontrer !\n\nJe vois que vous avez un bon spécial. Donnez-le moi et je vous offrirai quelque chose en échange.",
+   "completion": "Vous êtes un héros hors du commun, <nom>. Nous vous souhaitons la bienvenue dans le monde d'Azeroth et vous offrons l'un de ces cadeaux uniques !",
+   "starters": [
+    {
+     "type": "item",
+     "id": 14650,
+     "name": "Camp Narache Gift Voucher"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11944,
+     "name": "Vorn Skyseer"
+    }
+   ],
+   "zone_id": 215,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "76156": {
+   "id": 76156,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 205729,
+     "name": "Boarton Shadetotem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 205729,
+     "name": "Boarton Shadetotem"
+    }
+   ],
+   "zone_id": 215,
+   "level": 10,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "76160": {
+   "id": 76160,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 205729,
+     "name": "Boarton Shadetotem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 205729,
+     "name": "Boarton Shadetotem"
+    }
+   ],
+   "zone_id": 215,
+   "level": 11,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "76240": {
+   "id": 76240,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 205729,
+     "name": "Boarton Shadetotem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 205729,
+     "name": "Boarton Shadetotem"
+    }
+   ],
+   "zone_id": 215,
+   "level": 11,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "95805": {
+   "id": 95805,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2982,
+     "name": "Prophète Graytongue"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 660739,
+     "name": "Ritual Fire"
+    }
+   ],
+   "zone_id": 215,
+   "level": 4,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "96130": {
+   "id": 96130,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3065,
+     "name": "Yaw Sharpmane"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3065,
+     "name": "Yaw Sharpmane"
+    }
+   ],
+   "zone_id": 215,
+   "level": 5,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "96241": {
+   "id": 96241,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 264074,
+     "name": "Mazu'kon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 264074,
+     "name": "Mazu'kon"
+    }
+   ],
+   "zone_id": 215,
+   "level": 30,
+   "reqlevel": 23,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "96259": {
+   "id": 96259,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 259118,
+     "name": "Muln Earthfury"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 259118,
+     "name": "Muln Earthfury"
+    }
+   ],
+   "zone_id": 215,
+   "level": 30,
+   "reqlevel": 23,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "96260": {
+   "id": 96260,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 264072,
+     "name": "Yorn Grimtotem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 264072,
+     "name": "Yorn Grimtotem"
+    }
+   ],
+   "zone_id": 215,
+   "level": 30,
+   "reqlevel": 23,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "96261": {
+   "id": 96261,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 259118,
+     "name": "Muln Earthfury"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 259118,
+     "name": "Muln Earthfury"
+    }
+   ],
+   "zone_id": 215,
+   "level": 31,
+   "reqlevel": 23,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "96294": {
+   "id": 96294,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "item",
+     "id": 273658,
+     "name": "Bloody Parchment"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 259118,
+     "name": "Muln Earthfury"
+    }
+   ],
+   "zone_id": 215,
+   "level": 30,
+   "reqlevel": 23,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "98424": {
+   "id": 98424,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "item",
+     "id": 281031,
+     "name": "Mulgore Expansion Plans"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2988,
+     "name": "Morin Cloudstalker"
+    }
+   ],
+   "zone_id": 215,
+   "level": 10,
+   "reqlevel": 5,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "98427": {
+   "id": 98427,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2988,
+     "name": "Morin Cloudstalker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2988,
+     "name": "Morin Cloudstalker"
+    }
+   ],
+   "zone_id": 215,
+   "level": 12,
+   "reqlevel": 5,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "98430": {
+   "id": 98430,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 272203,
+     "name": "Perith Stormhoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3057,
+     "name": "Cairne Bloodhoof"
+    }
+   ],
+   "zone_id": 215,
+   "level": 8,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "98435": {
+   "id": 98435,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2948,
+     "name": "Mull Thunderhorn"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5769,
+     "name": "Archidruide Hamuul Runetotem"
+    }
+   ],
+   "zone_id": 215,
+   "level": 10,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "99079": {
+   "id": 99079,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3222,
+     "name": "Brave Wildrunner"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 275789,
+     "name": "Malah Longwind"
+    }
+   ],
+   "zone_id": 215,
+   "level": 9,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "99080": {
+   "id": 99080,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2993,
+     "name": "Baine Bloodhoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2993,
+     "name": "Baine Bloodhoof"
+    }
+   ],
+   "zone_id": 215,
+   "level": 9,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "99081": {
+   "id": 99081,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 275789,
+     "name": "Malah Longwind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3222,
+     "name": "Brave Wildrunner"
+    }
+   ],
+   "zone_id": 215,
+   "level": 9,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "99082": {
+   "id": 99082,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2993,
+     "name": "Baine Bloodhoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3057,
+     "name": "Cairne Bloodhoof"
+    }
+   ],
+   "zone_id": 215,
+   "level": 9,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "99101": {
+   "id": 99101,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3222,
+     "name": "Brave Wildrunner"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2993,
+     "name": "Baine Bloodhoof"
+    }
+   ],
+   "zone_id": 215,
+   "level": 9,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "99108": {
+   "id": 99108,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3063,
+     "name": "Krang Stonehoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3063,
+     "name": "Krang Stonehoof"
+    }
+   ],
+   "zone_id": 215,
+   "level": 6,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "99196": {
+   "id": 99196,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 276171,
+     "name": "Oura Stormspinner"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 276171,
+     "name": "Oura Stormspinner"
+    }
+   ],
+   "zone_id": 215,
+   "level": 60,
+   "reqlevel": 12,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "99197": {
+   "id": 99197,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 276171,
+     "name": "Oura Stormspinner"
+    }
+   ],
+   "enders": [],
+   "zone_id": 215,
+   "level": 60,
+   "reqlevel": 26,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "99411": {
+   "id": 99411,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 277182,
+     "name": "Ahab Wheathoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 277182,
+     "name": "Ahab Wheathoof"
+    }
+   ],
+   "zone_id": 215,
+   "level": 7,
+   "reqlevel": 5,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

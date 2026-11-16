@@ -1,0 +1,134 @@
+{
+ "schema": 1,
+ "zone": "raids/blackwing-lair",
+ "zone_id": 2677,
+ "zone_name": "Repaire de l'Aile noire",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 2,
+  "complete": 2,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "8288": {
+   "id": 8288,
+   "name": "Il ne peut y en avoir qu'un",
+   "objectives": "Rapportez la Tête du seigneur des couvées Lanistaire à Baristolth des Sables changeants, au Fort cénarien en Silithus.",
+   "description": "Nous n’avons pas de temps à perdre. Nous devons trouver un héros ! La tâche que je vais vous confier nécessite une armée, mais de la foule des aspirants, un seul se lèvera pour endosser le fardeau et la responsabilité qui pèsent sur les alliés de la Progéniture.\n\nUne bête cruelle vit dans le repaire du Seigneur de Rochenoire. Le seigneur des couvées Lanistaire garde les Halls des conflits, bloquant le passage vers le sanctuaire de Nefarian. Tuez cette vile aberration et ramenez-moi sa tête. Si vous y parvenez, vous pourrez progresser vers l’étape suivante de votre voyage.",
+   "progress": "Vous devez mériter la faveur de la Progéniture de Nozdormu.",
+   "completion": "Serez-vous le premier depuis mille ans à obtenir la faveur du Vol de bronze ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15180,
+     "name": "Baristolth des Sables changeants"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15180,
+     "name": "Baristolth des Sables changeants"
+    }
+   ],
+   "zone_id": 2677,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8730": {
+   "id": 8730,
+   "name": "La corruption de Nefarius",
+   "objectives": "Tuez Nefarian pour récupérer le Fragment de sceptre rouge. Rapportez le Fragment de sceptre rouge à Anachronos aux Grottes du temps en Tanaris. Vous avez 5 heures pour accomplir cette tâche.",
+   "description": "Champion, est-ce bien vous ? Un millier d’années se sont écoulées depuis que le fragment m’a été confié, et c’est à mon heure la plus sombre que quelqu’un se présente pour me le réclamer… Mais que serait une tragédie sans cruauté ?\n\n< Vaelastrasz tousse faiblement.>\n\nNe… Nefarius détient aujourd’hui le fragment du sceptre.\n\nLe temps presse. Nefarius a l’intention de détruire le fragment. Vous devez vous hâter !",
+   "progress": "Un autre de nos héros succombe sous les griffes du rejeton de l'Aile de mort. Cette douleur nous affligera-t-elle à jamais… ?",
+   "completion": "L’âme de Vaelastrasz repose en paix, champion. Tous les Aspects observent vos progrès avec un grand intérêt. Sachez que vous avez de puissants alliés.\n\nJ’ai reçu l’ordre de vous offrir quelque chose pour vous aider dans votre lutte. Faites-en bon usage…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13020,
+     "name": "Vaelastrasz le Corrompu"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15192,
+     "name": "Anachronos"
+    }
+   ],
+   "zone_id": 2677,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    " Vaelastrasz tousse faiblement."
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

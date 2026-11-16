@@ -1,0 +1,1041 @@
+{
+ "schema": 1,
+ "zone": "eastern-kingdoms/searing-gorge",
+ "zone_id": 51,
+ "zone_name": "Gorge des Vents brûlants",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 17,
+  "with_display_id": 17,
+  "with_title": 9,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 14,
+   "unknown": 3
+  }
+ },
+ "npcs": {
+  "2941": {
+   "id": 2941,
+   "name": "Lanie Reed",
+   "title": "Maître des gryphons",
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Ironforge",
+   "zones": [
+    "Searing Gorge"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 5091,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfFemaleYoung",
+    "race": "Dwarf",
+    "sex": "female",
+    "personality": "Young",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5919,
+     "farewell": 5920,
+     "pissed": 5921
+    },
+    "combat_set": "DwarfFemale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "female"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "DwarfFemaleYoung"
+   }
+  },
+  "3836": {
+   "id": 3836,
+   "name": "Montagnarde Pebblebitty",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Ironforge",
+   "zones": [
+    "Loch Modan"
+   ],
+   "coords": {},
+   "levels": [
+    44,
+    44
+   ],
+   "display_id": 1927,
+   "quests_started": [
+    3182
+   ],
+   "quests_ended": [
+    3181,
+    3201
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfFemaleGuard",
+    "race": "Dwarf",
+    "sex": "female",
+    "personality": "Guard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5916,
+     "farewell": 5917,
+     "pissed": 5918
+    },
+    "combat_set": "DwarfFemale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "DwarfFemaleGuard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "4090": {
+   "id": 4090,
+   "name": "Astarii Starseeker",
+   "title": "Maître des prêtres",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Darnassus",
+   "zones": [
+    "Darnassus"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 2200,
+   "quests_started": [],
+   "quests_ended": [
+    3378
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfFemalePriestess",
+    "race": "NightElf",
+    "sex": "female",
+    "personality": "Priestess",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6001,
+     "farewell": 6002,
+     "pissed": 6003
+    },
+    "combat_set": "NightElfFemale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "NightElfFemalePriestess"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "5411": {
+   "id": 5411,
+   "name": "Krinkle Goodsteel",
+   "title": "Fournitures de forgeron",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    40,
+    40
+   ],
+   "display_id": 7217,
+   "quests_started": [
+    5801,
+    5802
+   ],
+   "quests_ended": [
+    4450,
+    5514,
+    5538
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleZany",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Zany",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6632,
+     "farewell": 5965,
+     "pissed": 5966
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "8256": {
+   "id": 8256,
+   "name": "Conservateur en chef Thorius",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Ironforge",
+   "zones": [
+    "Ironforge"
+   ],
+   "coords": {},
+   "levels": [
+    45,
+    45
+   ],
+   "display_id": 7769,
+   "quests_started": [
+    3201,
+    3371
+   ],
+   "quests_ended": [
+    3182,
+    3368,
+    3566
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleStandard",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5904,
+     "farewell": 5905,
+     "pissed": 5906
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "8284": {
+   "id": 8284,
+   "name": "Dorius Stonetender",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Escortee",
+   "zones": [
+    "Searing Gorge"
+   ],
+   "coords": {},
+   "levels": [
+    45,
+    45
+   ],
+   "display_id": 7760,
+   "quests_started": [
+    3367
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleGuard",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Guard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5910,
+     "farewell": 5911,
+     "pissed": 5912
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleGuard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "8417": {
+   "id": 8417,
+   "name": "Archéologue mourant",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Booty Bay",
+   "zones": [
+    "Searing Gorge"
+   ],
+   "coords": {},
+   "levels": [
+    46,
+    46
+   ],
+   "display_id": 7758,
+   "quests_started": [
+    3372,
+    3566
+   ],
+   "quests_ended": [
+    3371
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMale"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "8436": {
+   "id": 8436,
+   "name": "Zamael Lunthistle",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Alliance Generic",
+   "zones": [
+    "Searing Gorge"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 7749,
+   "quests_started": [
+    3377,
+    3378
+   ],
+   "quests_ended": [
+    3377
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfMaleOfficial",
+    "race": "NightElf",
+    "sex": "male",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5992,
+     "farewell": 5993,
+     "pissed": 5994
+    },
+    "combat_set": "NightElfMale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "NightElfMaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "8441": {
+   "id": 8441,
+   "name": "Raze",
+   "title": "Gardien de Nilith",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Searing Gorge"
+   ],
+   "coords": {},
+   "levels": [
+    48,
+    48
+   ],
+   "display_id": 10905,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true
+  },
+  "8479": {
+   "id": 8479,
+   "name": "Kalaran Windblade",
+   "title": null,
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Searing Gorge"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 7820,
+   "quests_started": [
+    3441,
+    3442,
+    3443,
+    3452,
+    3453,
+    3454,
+    3462
+   ],
+   "quests_ended": [
+    3441,
+    3442,
+    3443,
+    3452,
+    3453
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleWarrior",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6638,
+     "farewell": 5978,
+     "pissed": 5979
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "8509": {
+   "id": 8509,
+   "name": "Ecuyer Maltrake",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Searing Gorge"
+   ],
+   "coords": {},
+   "levels": [
+    52,
+    52
+   ],
+   "display_id": 7842,
+   "quests_started": [
+    3463
+   ],
+   "quests_ended": [
+    3462,
+    3463
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleWarrior",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5977,
+     "farewell": 5978,
+     "pissed": 5979
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14624": {
+   "id": 14624,
+   "name": "Maître forgeron Burninate",
+   "title": "La Confrérie du thorium",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Thorium Brotherhood",
+   "zones": [
+    "Searing Gorge"
+   ],
+   "coords": {},
+   "levels": [
+    52,
+    52
+   ],
+   "display_id": 14652,
+   "quests_started": [
+    7722,
+    7736,
+    7737,
+    8241,
+    8242
+   ],
+   "quests_ended": [
+    7722,
+    7736,
+    7737,
+    8241,
+    8242
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleGrim",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Grim",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 7060,
+     "farewell": 7062,
+     "pissed": 7063
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleGrim"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14626": {
+   "id": 14626,
+   "name": "Sous-chef Scrange",
+   "title": "La Confrérie du thorium",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Thorium Brotherhood",
+   "zones": [
+    "Searing Gorge"
+   ],
+   "coords": {},
+   "levels": [
+    54,
+    54
+   ],
+   "display_id": 14654,
+   "quests_started": [],
+   "quests_ended": [
+    7728,
+    7729
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleGrim",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Grim",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 7060,
+     "farewell": 7062,
+     "pissed": 7063
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleGrim"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14627": {
+   "id": 14627,
+   "name": "Hansel Heavyhands",
+   "title": "La Confrérie du thorium",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Thorium Brotherhood",
+   "zones": [
+    "Searing Gorge"
+   ],
+   "coords": {},
+   "levels": [
+    53,
+    53
+   ],
+   "display_id": 14655,
+   "quests_started": [
+    7723,
+    7724,
+    7727
+   ],
+   "quests_ended": [
+    7723,
+    7724,
+    7727
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleGrim",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Grim",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 7060,
+     "farewell": 7062,
+     "pissed": 7063
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleGrim"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14628": {
+   "id": 14628,
+   "name": "Evonice Sootsmoker",
+   "title": "La Confrérie du thorium",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Thorium Brotherhood",
+   "zones": [
+    "Searing Gorge"
+   ],
+   "coords": {},
+   "levels": [
+    51,
+    51
+   ],
+   "display_id": 14656,
+   "quests_started": [],
+   "quests_ended": [
+    7704
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfFemaleGuard",
+    "race": "Dwarf",
+    "sex": "female",
+    "personality": "Guard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 7064,
+     "farewell": 7066,
+     "pissed": 7067
+    },
+    "combat_set": "DwarfFemale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "DwarfFemaleGuard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14634": {
+   "id": 14634,
+   "name": "Capitaine de guet Lolo Longstriker",
+   "title": "La Confrérie du thorium",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Thorium Brotherhood",
+   "zones": [
+    "Searing Gorge"
+   ],
+   "coords": {},
+   "levels": [
+    59,
+    59
+   ],
+   "display_id": 14662,
+   "quests_started": [],
+   "quests_ended": [
+    7701
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleGrim",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Grim",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 7060,
+     "farewell": 7062,
+     "pissed": 7063
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleGrim"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "15664": {
+   "id": 15664,
+   "name": "Metzen le Renne",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Searing Gorge"
+   ],
+   "coords": {},
+   "levels": [
+    5,
+    5
+   ],
+   "display_id": 15903,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   }
+  }
+ }
+}

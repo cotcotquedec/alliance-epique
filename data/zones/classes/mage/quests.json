@@ -1,0 +1,2910 @@
+{
+ "schema": 1,
+ "zone": "classes/mage",
+ "zone_id": -161,
+ "zone_name": "Mage",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 51,
+  "complete": 41,
+  "incomplete": 10,
+  "unavailable": 0,
+  "missing_description": 10,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 1
+ },
+ "quests": {
+  "1860": {
+   "id": 1860,
+   "name": "Parler à Jennea",
+   "objectives": "Parler à Jennea Cannon à Stormwind.",
+   "description": "Nous, les mages, avons une tâche à accomplir. Une tâche essentielle pour la sécurité de Stormwind et de la forêt.\n\nJennea Cannon vous donnera plus de détails. Elle étudie dans le Sanctuaire du Sorcier, dans le quartier des mages de Stormwind. Hâtez-vous d'aller la voir.",
+   "progress": null,
+   "completion": "On vous envoie pour m'aider dans ma tâche, <nom> ? Bon. C'est encourageant de voir de jeunes mages s'investir dans la cause. . .\n\nQuelle cause, demandez-vous ? En temps voulu, jeune <classe>. Vous saurez… En temps voulu.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 328,
+     "name": "Zaldimar Wefhellt"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5497,
+     "name": "Jennea Cannon"
+    }
+   ],
+   "zone_id": -161,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1861": {
+   "id": 1861,
+   "name": "Le lac Miroir",
+   "objectives": "Apporter un Echantillon d'Eau du lac Miroir à Jennea Cannon à Stormwind.",
+   "description": "Les importantes luttes mystiques que le monde a vécues ont fait déborder les courants magiques de leurs canaux autrefois stables. Nous essayons de déterminer quels effets ces changements ont provoqué et certains d'entre nous craignent le pire !\n\nMais je vous en dirai davantage plus tard. Pour l'instant, nous avons besoin de vous pour recueillir des informations.\n\nTenez, prenez cette fiole. Allez au bas de la chute d'eau du lac Miroir, au sud-ouest des portes de Stormwind, et prélevez un échantillon de cette eau. Apportez-le-moi pour que je puisse vérifier si l'eau est contaminée par la magie.",
+   "progress": "Avez-vous l'échantillon, <nom> ? Le flux de magie dans Stormwind et Elwynn a été modifié et je dois savoir s'il suinte dans l'eau.",
+   "completion": "Merci, <nom>. Je vais rechercher des traces de magie dans cette eau, en espérant qu'elle n'en révèle pas. . . Ou alors cela voudrait dire que ceux qui boivent depuis longtemps l'eau du lac Miroir ne pourront être guéris.\n\nVoici pour vous, <nom>. Prenez cet orbe ou ce bâton en récompense. Puisse-t-il bien vous servir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5497,
+     "name": "Jennea Cannon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5497,
+     "name": "Jennea Cannon"
+    }
+   ],
+   "zone_id": -161,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 840,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1879": {
+   "id": 1879,
+   "name": "Parler à Bink",
+   "objectives": "Parler à Bink à Ironforge.",
+   "description": "<nom> ! Bink, ma collègue d'Ironforge, vous salue. Elle a une mission qu'elle ne veut confier qu'à un mage ! Avez-vous cette qualification, <nom> ?\n\nDans ce cas, adressez-vous à elle. Elle passe son temps dans le Hall des Mystères de la Garde mystique d'Ironforge.",
+   "progress": null,
+   "completion": "Oh, je vois que vous tenez vos promesses ! Mais il faut plus que des promesses tenues pour faire un bon <classe>. Et si vous n'êtes pas un bon <classe>, alors vous êtes un mauvais <classe>. Et les mauvais mages compliquent le problème, eh oui !\n\nOups, je prends de l'avance sur les événements. Commençons par le début !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1228,
+     "name": "Magis Sparkmantle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5144,
+     "name": "Bink"
+    }
+   ],
+   "zone_id": -161,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 85,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1880": {
+   "id": 1880,
+   "name": "Le Bidulotron de youplala",
+   "objectives": "Rapporter à Bink son Bidulotron de Youplala.",
+   "description": "Nous, les mages, nous faisons plus qu'agiter les doigts et faire quelques jolies étincelles ! Nous contrôlons la magie, le tissu de base de notre monde ! Et cela nécessite beaucoup de soin et de résolution. Et de connaissances... tant de connaissances !\n\nL'une de mes inventions, le Bidulotron de Youplala, permet de rassembler et de stocker d'énormes quantités d'informations. Mais je l'ai perdu ! Quand nous nous sommes enfuis de notre maison de Gnomeregan, je l'ai oublié dans un coffre d'une de nos huttes, à l'extérieur de la ville, et maintenant, la place est envahie par des gnomes lépreux !\n\nJe vous en prie, <nom>, récupérez mon Bidulotron !",
+   "progress": "Avez-vous trouvé mon Bidulotron ? Je dois le récupérer avant que sa provision d'énergie ne soit déchargée !",
+   "completion": "Quelle belle journée ! Lorsque j'ai fabriqué le Bidulotron, je ne me doutais pas que j'en deviendrais dépendante ! Et maintenant je peux reprendre mes études. . .\n\nMerci, <nom>. Tenez, ce sont mes premiers outils de <classe>. Ils sont un peu abîmés, mais ils fonctionnent parfaitement. Prenez-en un. Je suis sûr que n'importe lequel d'entre eux vous sera utile !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5144,
+     "name": "Bink"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5144,
+     "name": "Bink"
+    }
+   ],
+   "zone_id": -161,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 840,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1881": {
+   "id": 1881,
+   "name": "Parler à Anastasia",
+   "objectives": "Aller voir Anastasia Hartwell.",
+   "description": "<nom>, Anastasia Hartwell a une tâche à proposer à quelqu'un de votre valeur. Allez la voir dans le Quartier de la magie d'Undercity et préparez-vous à accomplir votre première tâche pour les mages des Réprouvés.",
+   "progress": null,
+   "completion": "Je vous salue, <nom>. Vous avez été sage de répondre à mon appel et vous seriez plus sage encore de tenir compte de ce que je vais vous dire…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2128,
+     "name": "Cain Firesong"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4568,
+     "name": "Anastasia Hartwell"
+    }
+   ],
+   "zone_id": -161,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 85,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1882": {
+   "id": 1882,
+   "name": "La ferme des Balnir",
+   "objectives": "Apporter des Gueules-de-loup du jardin des Balnir à Anastasia Hartwell dans le Quartier de la magie d'Undercity.",
+   "description": "Les Maleterres de l'est sont une aberration. Engendrées par le roi-liche, elles étendent leur magie dans le sol, corrompant et tuant tout ce qui vit. Bien que les forces destructrices de la corruption aient un certain charme, nous, les mages des Réprouvés, pensons que cette façon de faire est chaotique et doit être arrêtée.\n\nMais d'abord, nous devons mesurer leur étendue dans Tirisfal. Allez à la ferme des Balnir, à l'est de Tirisfal. Il y a des fleurs qui poussent dans le jardin, des gueules-de-loup. Cueillez-les et revenez me voir.",
+   "progress": "Avez-vous les gueules-de-loup ? Cette variété de fleurs est très sensible aux énergies magiques. L'étude des gueules-de-loup poussant près des Maleterres pourra nous indiquer si la peste est entrée dans les Clairières de Tirisfal.",
+   "completion": "Ah ! Quel beau spécimen ! Je vais l'envoyer à nos apothicaires pour étudier l'étendue de la contamination des Maleterres.\n\nEn remerciement, <nom>, vous pouvez choisir un orbe ou un bâton. L'un ou l'autre vous sera utile.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4568,
+     "name": "Anastasia Hartwell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4568,
+     "name": "Anastasia Hartwell"
+    }
+   ],
+   "zone_id": -161,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 840,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1883": {
+   "id": 1883,
+   "name": "Parler à Un'thuwa",
+   "objectives": "Aller voir Un'thuwa.",
+   "description": "Un'thuwa, le mage tribal du village de Sen'jin, a détecté une perturbation dans les courants magiques de Durotar et demande de l'aide. Allez voir Un'thuwa et faites ce que vous pouvez pour l'aider.\n\nEn retour, de nouveaux secrets vous seront révélés.",
+   "progress": null,
+   "completion": "Salut, <nom>. Louange à vous, car mon appel à l'aide a été entendu. Espérons que vous serez à la hauteur de la tâche...",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3049,
+     "name": "Thurston Xane"
+    },
+    {
+     "type": "npc",
+     "id": 7311,
+     "name": "Uthel'nay"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5880,
+     "name": "Un'Thuwa"
+    }
+   ],
+   "zone_id": -161,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 85,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1884": {
+   "id": 1884,
+   "name": "Les Tas de Ju-Ju",
+   "objectives": "Détruire 4 Tas de Ju-Ju, puis retourner voir Un'thuwa au village de Sen'jin.",
+   "description": "Le démoniste Zalazane des îles de l'Écho a perturbé le flux magique en Durotar. Il l'a fait par l’intermédiaire de fétiches infectés, des tas de Ju-ju, qu'il a placés dans ses huttes sur l'île principale d'Écho.\n\nCes tas perturbent la faune et la flore et accroissent le pouvoir des sorciers et des créatures infernales qui se cachent dans les coins sombres du pays.\n\nVous devez détruire les tas de Ju-ju, <nom>, avant que le flux de magie ne soit altéré pour toujours.",
+   "progress": "Tu dois te dépêcher, <nom>. Détruisez les tas de juju !",
+   "completion": "Je sens que les tas de Ju-ju de Zalazane ont été détruits. Avec du temps et de la chance, le flux de magie reprendra son cours normal en Durotar.\n\nC'est une grande chose que vous avez accomplie pour notre peuple, <nom>. Et vous nous avez montré votre valeur, à nous mages de la Horde.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5880,
+     "name": "Un'Thuwa"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5880,
+     "name": "Un'Thuwa"
+    }
+   ],
+   "zone_id": -161,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 840,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1919": {
+   "id": 1919,
+   "name": "Rendre compte à Jennea",
+   "objectives": "Parler à Jennea Cannon à Stormwind.",
+   "description": "Vous connaissez de mieux en mieux le métier, jeune <nom>. Vous vous sentez d'attaque pour commencer vos vraies leçons maintenant ? Pour prendre part à la guerre secrète que nous menons ?\n\nSi oui, allez voir Jennea Cannon au Sanctuaire du Sorcier, dans le quartier des mages de Stormwind. Elle vous confiera une tâche qui sera votre première fenêtre sur le monde invisible.",
+   "progress": null,
+   "completion": "<nom>, j'ai une mission pour vous, dans le quartier des mages. Écoutez attentivement parce qu'il n'y a pas de temps à perdre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 328,
+     "name": "Zaldimar Wefhellt"
+    },
+    {
+     "type": "npc",
+     "id": 1228,
+     "name": "Magis Sparkmantle"
+    },
+    {
+     "type": "npc",
+     "id": 7312,
+     "name": "Dink"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5497,
+     "name": "Jennea Cannon"
+    }
+   ],
+   "zone_id": -161,
+   "level": 15,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": 105,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1920": {
+   "id": 1920,
+   "name": "Trouver le Solitaire bleu",
+   "objectives": "Obtenir une Incantation de manifestation et une Caisse de coffres de retenue placée derrière Jennea Cannon. Apporter 3 Coffres de retenue remplis à Jennea Cannon au Sanctuaire du sorcier.",
+   "description": "On nous a rapporté un incident qui est survenu à la taverne du « Solitaire bleu » dans le quartier des mages. Des créatures étranges et invisibles rôdent dans la taverne et je crains qu'une faille de mana ne se soit formée là-bas.\n\nIl faut que vous y alliez pour neutraliser ces créatures. Sur place, utilisez l'incantation de manifestation pour les rendre visibles, puis capturez-les avec un coffre de retenue. Quand vous en aurez suffisamment, revenez me voir avec les coffres remplis, les coffres vides et l'incantation.",
+   "progress": "Avez-vous capturé les créatures, <nom> ? Elles doivent être étudiées pour déterminer la cause de leur présence.",
+   "completion": "Excellent ! Je vais étudier ces créatures avec application et, avec de la chance, je saurai comment elles se sont glissées dans notre monde.\n\nVotre valeur grandit aux yeux de la société de mages, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5497,
+     "name": "Jennea Cannon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5497,
+     "name": "Jennea Cannon"
+    }
+   ],
+   "zone_id": -161,
+   "level": 16,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": 1150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1921": {
+   "id": 1921,
+   "name": "Rassembler les matériaux",
+   "objectives": "Apporter 10 unités de Lin et 6 Gemmes chargées de la faille à Wynne Larson à Stormwind.",
+   "description": "Vous avez bien servi les mages, et il est temps de vous attribuer votre robe de sorcier. Wynne Larson peut la réaliser pour vous, mais il faudra lui fournir les matériaux nécessaires.\n\nLa robe sera faite de lin, ce qui ne sera pas difficile à trouver, mais vous devrez aussi fournir des gemmes chargées de la faille. On ne peut les trouver que dans la mine du Ru d'argent à Loch Modan, dans les caisses laissés par la Ligue des mineurs nains.\n\nRassemblez le lin et les gemmes et apportez-les à Wynne Larson, chez les couturiers Larson, dans le quartier des mages.",
+   "progress": "Bonjour, <nom>. Jennea m'a dit que vous viendriez. Avez-vous quelque chose pour moi ?",
+   "completion": "Oui, ce sont de belles pièces de lin. Je peux en faire une robe superbe. Lorsque j'aurai ajouté les gemmes de la faille, cela fera un habit parfait pour un <classe> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5497,
+     "name": "Jennea Cannon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1309,
+     "name": "Wynne Larson"
+    }
+   ],
+   "zone_id": -161,
+   "level": 15,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": 800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1938": {
+   "id": 1938,
+   "name": "Traité d'Ur sur la Magie des Ombres",
+   "objectives": "Apporter le « Traité d'Ur sur la magie de l'Ombre » au Grand Sorcier Andromath à Stormwind.",
+   "description": "Autrefois, trois mages étudiaient dans cette tour, jusqu'à ce que l'un d'entre eux tombe dans les travers de la magie noire. On l'a pressé de se détacher de ses travaux maléfiques, mais il n'a pas pu résister. Il fut alors banni.\n\nLe mage renégat a élu domicile dans la tour d'Ilgalar, dans les Carmines, et il a emporté avec lui un livre très puissant : le \"Traité d'Ur sur la Magie de l'Ombre\".\n\nNous, mages de Stormwind, voulons récupérer ce livre. Volez-le dans la tour d'Ilgalar et rapportez-le.",
+   "progress": "Avez-vous le livre, <nom> ? Ses secrets ne sont pas à la portée des non-initiés et tenter d'en sonder les profondeurs peut mener à la perte et à la ruine.",
+   "completion": "J'ai eu peur que Morganth n'ait caché le livre ailleurs, ou qu'il n’ait trouvé un moyen de l'ouvrir et de le lire.\n\nC'est rassurant de constater qu'il ne l'a pas fait et que les scellés que nous avions posés sur l’ouvrage ne sont pas brisés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5694,
+     "name": "Grand sorcier Andromath"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5694,
+     "name": "Grand sorcier Andromath"
+    }
+   ],
+   "zone_id": -161,
+   "level": 28,
+   "reqlevel": 26,
+   "side": "alliance",
+   "xp": 2300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1939": {
+   "id": 1939,
+   "name": "Grand sorcier Andromath",
+   "objectives": "Aller voir le Grand Sorcier Andromath.",
+   "description": "Le Grand Sorcier Andromath souhaite vous parler, <nom>. Il est en haut du Sanctuaire du Sorcier, dans le quartier des mages de Stormwind.\n\nIl serait sage d'aller le voir, car Andromath est l'un des mages les plus puissants de Dalaran. Avec lui, le Conseil est en effet un Haut Conseil.",
+   "progress": null,
+   "completion": "Je vous salue, <nom>. Je suis heureux de vous voir et j'espère que vous aurez le temps d'écouter la parole d'un vieil homme. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5144,
+     "name": "Bink"
+    },
+    {
+     "type": "npc",
+     "id": 5497,
+     "name": "Jennea Cannon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5694,
+     "name": "Grand sorcier Andromath"
+    }
+   ],
+   "zone_id": -161,
+   "level": 26,
+   "reqlevel": 26,
+   "side": "alliance",
+   "xp": 1050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1940": {
+   "id": 1940,
+   "name": "Soie d'araignée en parfait état",
+   "objectives": "Apporter 8 Soies d'araignée en parfait état à Wynne Larson à Stormwind.",
+   "description": "Vous avez servi sans faille, <nom>. Je pense qu'il est temps pour vous de revêtir un vêtement plus adapté à votre statut. Si vous allez chercher les matériaux nécessaires, nous ferons faire la robe qui convient.\n\nVous devez entrer dans le bois de la Pénombre et chasser les araignées qui s'y cachent. Prélevez leur soie, mais uniquement la plus fine et la plus pure. Quand vous en aurez suffisamment, apportez-la à Wynne Larson, des Couturiers Larson, dans le quartier des mages. Elle fera votre robe.",
+   "progress": "Ah ! Oui ! Les mages du Sanctuaire du Sorcier m'ont dit que vous viendriez. Avez-vous apporté la soie ?",
+   "completion": "Belle qualité ! Je vais me mettre au travail tout de suite !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5694,
+     "name": "Grand sorcier Andromath"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1309,
+     "name": "Wynne Larson"
+    }
+   ],
+   "zone_id": -161,
+   "level": 26,
+   "reqlevel": 26,
+   "side": "alliance",
+   "xp": 1600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1941": {
+   "id": 1941,
+   "name": "La robe de tisse-mana",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Voici votre robe. C'est l’une des plus belles que j'ai confectionnées ! Portez-la avec fierté. Et si les gens vous interrogent, dites-leur qu'elle sort de l’atelier des couturiers Larson !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1309,
+     "name": "Wynne Larson"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1309,
+     "name": "Wynne Larson"
+    }
+   ],
+   "zone_id": -161,
+   "level": 15,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": 1050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1942": {
+   "id": 1942,
+   "name": "L'Habit du noeud astral",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Votre habit est prêt. Cette soie que vous avez apportée était si belle... Ça ne vous fait rien si je l'ai cousu un peu court pour pouvoir en conserver un morceau ?\n\nMais non, je plaisante ! Il vous ira comme un gant, au plus fort de l'aventure comme dans les occasions plus mondaines ! Profitez-en bien !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1309,
+     "name": "Wynne Larson"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1309,
+     "name": "Wynne Larson"
+    }
+   ],
+   "zone_id": -161,
+   "level": 26,
+   "reqlevel": 26,
+   "side": "alliance",
+   "xp": 2100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1943": {
+   "id": 1943,
+   "name": "Parler à Deino",
+   "objectives": "Aller voir Deino.",
+   "description": "La mage troll Deino a besoin de votre aide, <nom>. Elle réside à Orgrimmar, au pavillon de Buissombre.",
+   "progress": null,
+   "completion": "Bon, vous êtes là ! Ma tâche n'est pas facile, mais elle est essentielle à la société des mages. Si vous m'aidez, je suis sûre que vous comprendrez son importance.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4568,
+     "name": "Anastasia Hartwell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5885,
+     "name": "Deino"
+    }
+   ],
+   "zone_id": -161,
+   "level": 26,
+   "reqlevel": 26,
+   "side": "horde",
+   "xp": 210,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1944": {
+   "id": 1944,
+   "name": "Les Eaux de Xavian",
+   "objectives": "Apporter l'Echantillon d'Eau de Xavian à Deino à Orgrimmar.",
+   "description": "La ville légendaire de Xavian est enfouie au plus profond des terres orientales d'Ashenvale et les initiés connaissent bien son histoire. Il est dit que les eaux de Xavian ont des pouvoirs magiques énormes.\n\nJe voudrais un échantillon de ces eaux, pris à la source.\n\nPrenez cette fiole et allez à Xavian. Recueillez de l'eau en bas de la chute la plus haute et rapportez-la-moi. Et prenez garde en vous déplaçant dans la cité ancienne : les satyres se sont installés dans les ruines et ils n'aiment pas que les mages viennent fourrer leur nez dans leurs affaires.",
+   "progress": "Quel plaisir de vous voir de retour en bonne santé, <nom> ! Vous avez mon échantillon d'eau ? J'ai hâte d'étudier ses propriétés.",
+   "completion": "Ah très bien ! Je crois que les satyres de Xavian vous ont causé quelques soucis ?\n\nMerci, <nom>. Je vais immédiatement étudier cet échantillon d'eau de Xavian.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5885,
+     "name": "Deino"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5885,
+     "name": "Deino"
+    }
+   ],
+   "zone_id": -161,
+   "level": 26,
+   "reqlevel": 26,
+   "side": "horde",
+   "xp": 2100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1945": {
+   "id": 1945,
+   "name": "Les sœurs rieuses",
+   "objectives": "Apporter 12 Cheveux de sœurs rieuses à Kil'hala à la Croisée.",
+   "description": "En remerciement de vos services, j'ai pris des dispositions pour vous faire confectionner de nouvelles robes, à condition que vous alliez chercher les matériaux nécessaires...\n\nPour ces robes, vous devez vous rendre à Ashenvale et prélever des boucles de cheveux sur les sœurs rieuses, les dryades qui se réunissent près de la retraite de Raynewood.\n\nUne fois en possession de leurs cheveux, apportez-les à Kil'hala, un tailleur troll qui se trouve à la Croisée, dans les Tarides. Il vous attend et coudra vos robes.",
+   "progress": "Bonjour, <nom>. Deino m'a dit que vous viendriez et que vous m'apporteriez des cheveux des sœurs rieuses. Les avez-vous ?",
+   "completion": "Ah ! Ces cheveux vont donner une robe superbe, <nom>. C'est dommage qu'il faille tuer les dryades pour obtenir cette superbe matière première, mais je ne crois pas qu'elles l’auraient donnée de bon cœur.\n\nJ'ai pitié, mais juste un peu…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5885,
+     "name": "Deino"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3484,
+     "name": "Kil'hala"
+    }
+   ],
+   "zone_id": -161,
+   "level": 26,
+   "reqlevel": 26,
+   "side": "horde",
+   "xp": 1600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1946": {
+   "id": 1946,
+   "name": "L'Habit du néant",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Voici votre robe du Néant, <nom>. À la fois confortable et solide, elle contient la magie des cheveux des sœurs rieuses.\n\nSi elle vous plaît, parlez-en à Deino. C'est un <classe> d'une telle puissance que je préfère être de son côté !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3484,
+     "name": "Kil'hala"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3484,
+     "name": "Kil'hala"
+    }
+   ],
+   "zone_id": -161,
+   "level": 26,
+   "reqlevel": 26,
+   "side": "horde",
+   "xp": 2100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1947": {
+   "id": 1947,
+   "name": "Voyager vers le Marais",
+   "objectives": "Aller voir Tabetha.",
+   "description": "Maintenant est venu le temps d'obtenir votre Baguette de mage. Tout d'abord, allez voir Tabetha, l'ermite humaine du marécage d'Âprefange. Sa cabane se trouve au fin fond du marais, à l'ouest de Theramore.\n\nAdressez-vous à elle, car son savoir est immense. Vous trouverez sa cabane à l'ouest de Theramore, et juste au nord des ruines Cognepierres.",
+   "progress": null,
+   "completion": "Doucement ! L'instant est délicat et il ne faut pas me déranger !\n\nUn instant. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3048,
+     "name": "Ursyn Ghull"
+    },
+    {
+     "type": "npc",
+     "id": 4568,
+     "name": "Anastasia Hartwell"
+    },
+    {
+     "type": "npc",
+     "id": 5885,
+     "name": "Deino"
+    },
+    {
+     "type": "npc",
+     "id": 5144,
+     "name": "Bink"
+    },
+    {
+     "type": "npc",
+     "id": 5497,
+     "name": "Jennea Cannon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "zone_id": -161,
+   "level": 38,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 285,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1948": {
+   "id": 1948,
+   "name": "Les Objets de Puissance",
+   "objectives": "Apporter un Jade et le Roncier de foudre à Tabetha, dans le marécage d'Âprefange.",
+   "description": "La fabrication d'une Baguette de mage n'est pas aisée. Il faut des substances rares et il faut fabriquer un récipient pour recueillir de grandes quantités d'énergie magique. Vous devez me rapporter tout ça.\n\nJ'ai écrit sur ce parchemin ce dont vous aurez besoin et des instructions sur la façon de les obtenir. Apportez-moi exactement ce qui est sur cette liste et suivez mes instructions à la lettre, sinon ça pourrait mal tourner au moment de la fabrication de votre Baguette magique.",
+   "progress": "Bonjour, <nom>. Avez-vous les articles dont j'ai besoin ?",
+   "completion": "Aha ! Vous avez obtenu le jade et fait la ronce ! Bravo !\n\nEst-ce de la fumée qui s'échappe de tes oreilles ? Tu t'es peut-être approché trop près lorsque la foudre a frappé les totems, mais ne t'inquiète pas. Être frappé par la foudre porte chance !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "zone_id": -161,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1949": {
+   "id": 1949,
+   "name": "Des secrets cachés",
+   "objectives": "Parler au magus Tirth dans les Salines.",
+   "description": "Pour faire votre baguette magique, je dois lire des passages d'un certain livre. Ce livre, intitulé « les Rituels du pouvoir », a été écrit par le magus Tirth.\n\nJe n'ai pas d’exemplaire de ce livre et aucune des grandes bibliothèques de ce monde n'en possède un. Vous devez donc aller voir Tirth et l’obtenir de lui.\n\nBonne chance ! Tirth était un grand mage et un grand savant, mais maintenant il passe tout son temps aux courses des gnomes et des gobelins des Salines, à boire et à parier.",
+   "progress": null,
+   "completion": "Quoi ? Parlez plus fort ! Ces vieilles oreilles ne marchent plus aussi bien qu'avant.\n\nBon, j'espère que vous êtes ici avec une chope de bière fraîche ou quelques tuyaux sur la prochaine course ! Sinon vous feriez mieux de passer votre chemin. . . Parce que j'ai une baguette magique de métamorphose avec votre nom écrit dessus !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6548,
+     "name": "Magus Tirth"
+    }
+   ],
+   "zone_id": -161,
+   "level": 38,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 1450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1950": {
+   "id": 1950,
+   "name": "Trouver le Scoop",
+   "objectives": "Trouver l'Incantation pour ouvrir le coffre-fort de Tirth puis retourner voir Tirth.",
+   "description": "Je peux vous aider pour le livre, mais d'abord vous devez m'aider !\n\nL’ouvrage que vous cherchez est dans mon coffre-fort, fermé magiquement. Pour l'ouvrir, il faut prononcer une incantation spéciale et je ne me souviens plus de l'incantation ! D’habitude mon assistant m'aide à me rappeler de ces choses, mais je ne le trouve nulle part.\n\nSi vous voulez mon livre, trouvez d'abord mon apprenti ! Demandez aux gens le long de la piste. Avec un peu de chance, quelqu'un l'aura vu. Ramenez-le ici, ou au moins qu'il vous donne l'incantation pour ouvrir le coffre !",
+   "progress": "Qu'attendez-vous ? J'ai besoin de ma phrase magique !",
+   "completion": "Oh ! Maintenant je me souviens. . .\n\nJ'avais oublié que j'avais jeté cette petite malédiction à Johnson. Je ne me souviens pas pourquoi j'ai fait ça, mais il est certain qu'il le méritait, ce petit ingrat !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6548,
+     "name": "Magus Tirth"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6548,
+     "name": "Magus Tirth"
+    }
+   ],
+   "zone_id": -161,
+   "level": 30,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 1850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1951": {
+   "id": 1951,
+   "name": "Rituels du Pouvoir",
+   "objectives": "Apporter le livre des « Rituels du pouvoir » à Tabetha dans le marécage d'Âprefange.",
+   "description": "Hum... Maintenant que j'y pense, je n'ai plus ce livre ! Vous voyez, j'avais quelques dettes de jeu et pour les régler, j'ai vendu ma dernière copie des « Rituels du pouvoir » à un membre du clergé...\n\nUn membre de la Croisade écarlate. Il a dû le mettre dans la bibliothèque du Monastère écarlate dans les Clairières de Tirisfal !\n\nSi vous voulez ce livre, il va falloir que vous alliez le chercher au monastère. Et désolé pour tout ce tracas. Je ne suis plus moi-même ces derniers temps...",
+   "progress": "Je vous salue, <nom>. Avez-vous trouvé le livre « Les Rituels du pouvoir » ?",
+   "completion": "Voilà ! C'est exactement ce dont j'avais besoin pour préparer le rituel de création de votre baguette magique ! J'espère que vous n'avez pas eu trop de mal à le trouver…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6548,
+     "name": "Magus Tirth"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "zone_id": -161,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1952": {
+   "id": 1952,
+   "name": "La baguette du mage",
+   "objectives": "Aller voir Tabetha après son rituel.",
+   "description": "Je vais aller fabriquer les Baguettes magiques maintenant.",
+   "progress": null,
+   "completion": "Voici les baguettes que j'ai fabriquées. Choisissez !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "zone_id": -161,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1953": {
+   "id": 1953,
+   "name": "Retourner dans le Marais",
+   "objectives": "Aller voir Tabetha.",
+   "description": "Il est temps pour vous de parler à l'ermite Tabetha, <nom>. Elle vous donnera des indications sur la fabrication de l'un des objets les plus importants pour les mages.\n\nLa cabane de Tabetha est loin dans le marécage d'Âprefange à l'ouest de Theramore.",
+   "progress": null,
+   "completion": "Ah, oui. Vous voulez un orbe ou un bâton, <nom> ? Très bien. Je vous aiderai.\n\nMais je dois d'abord vous prévenir : le processus est dangereux et pourrait provoquer votre mort !\n\nOu la mienne. La mort de quelqu'un en tout cas. . .\n\nEspérons que ce soit celle de quelqu'un d'autre, vous ne croyez pas ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3048,
+     "name": "Ursyn Ghull"
+    },
+    {
+     "type": "npc",
+     "id": 4568,
+     "name": "Anastasia Hartwell"
+    },
+    {
+     "type": "npc",
+     "id": 5885,
+     "name": "Deino"
+    },
+    {
+     "type": "npc",
+     "id": 5144,
+     "name": "Bink"
+    },
+    {
+     "type": "npc",
+     "id": 5497,
+     "name": "Jennea Cannon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "zone_id": -161,
+   "level": 40,
+   "reqlevel": 35,
+   "side": "both",
+   "xp": 315,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1954": {
+   "id": 1954,
+   "name": "L'orbe infernal",
+   "objectives": "Apporter un Orbe infernal à Tabetha dans le marécage d'Âprefange.",
+   "description": "D'abord, il faut acquérir un orbe puissant. Les démonistes de la Lame ardente ont des orbes splendides, de qualité... Dommage qu'ils soient liés à des démons ! Mais ça peut s'arranger.\n\nRendez-vous en Désolace et prenez un orbe infernal à un Invocateur démoniste. Ils se retrouvent au convent de Mannoroc.\n\nLorsque vous aurez cet orbe, rapportez-le.",
+   "progress": "Avez-vous trouvé un orbe infernal, <nom> ?",
+   "completion": "Oh ! Il est chouette ! Non, enfin, pas \"chouette\" comme un bon verre de quelque chose de frais un jour de canicule !\n\nEn fait, il n'est pas CHOUETTE du tout, maintenant que j'y repense ! Pas le bon verre, l'orbe !\n\nEssayez de suivre, <nom> ! Concentrez-vous, si vous voulez terminer cette tâche un jour !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "zone_id": -161,
+   "level": 40,
+   "reqlevel": 35,
+   "side": "both",
+   "xp": 2350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1955": {
+   "id": 1955,
+   "name": "L'Exorcisme",
+   "objectives": "Tuer le démon de l'Orbe puis parler à Tabetha.",
+   "description": "Maintenant que nous avons l'Orbe de l'Invocateur, nous devons exorciser le démon qu'elle contient. Je peux y arriver. C'est même la partie facile.\n\nVous, vous allez avoir à faire le plus dur : tuer le démon quand il va sortir.\n\nEt il va falloir faire vite, sans ça il se réfugiera dans l'Orbe et il faudra tout recommencer !\n\nPréparez-vous. Apportez vos sorts les plus puissants et gardez vos potions à portée de la main. Et amenez un ami, si vous en avez un. Parce que ça ne va pas être joli...",
+   "progress": "Vous devrez tuer ce démon pour enlever sa souillure de l'orbe, <nom>.",
+   "completion": "Bien joué, <nom> ! Vous avez donné à ce démon une leçon qu'il n'oubliera pas de sitôt.\n\nIl réfléchira à deux fois avant de repasser sa sale tête dans ce monde, pour chercher le stupide mortel qui l'a battu. Probablement avec des amis cette fois. De grands amis écailleux qui ne demanderaient pas mieux que de vous déchirer en tout petits morceaux |2 mort-vivant.\n\nJe ne vous ai pas fait peur, n'est-ce pas. . . <nom> ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "zone_id": -161,
+   "level": 40,
+   "reqlevel": 35,
+   "side": "both",
+   "xp": 2350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1956": {
+   "id": 1956,
+   "name": "L'Energie d'Uldaman",
+   "objectives": "Récupérer une Source d'énergie en obsidienne et la rapporter à Tabetha dans le marécage d'Âprefange.",
+   "description": "Le démon a été enlevé, et maintenant il nous faut une source d'énergie. Malheureusement, les plus puissantes sont les plus anciennes et les plus difficiles à acquérir ! Le destin n'est pas tendre avec nous, hein ?\n\nIl va falloir que vous alliez à Uldaman pour y vaincre la sentinelle d'obsidienne. Il est grand, il est fort, et sa source d'énergie est pleine... d'énergie !\n\nJe vous souhaite beaucoup de chance, <nom>. Et si vous n'avez pas cette chance, et bien... C'était un plaisir d'avoir pu faire votre connaissance.",
+   "progress": "Vous revenez d'Uldaman, <nom> ? Vous avez vaincu la Sentinelle d'obsidienne ?",
+   "completion": "Vous avez réussi ? Bien joué !\n\nJe bavardais avec des collègues à moi et lorsque j'ai mentionné votre nom, ils ont dit : \"C'est sûr, <nom> travaille remarquablement sous la pression !\"\n\nMais quand j'ai mentionné que je vous avais dit d'aller combattre la Sentinelle d'obsidienne, ils m'ont traitée de folle ! Ils ont dit : \"Tabetha, tu es folle ! Comment veux-tu que <nom> vienne à bout de cette Sentinelle ?\"\n\nEt j'ai dit : \"On verra !\" Et ils ont répondu : \"C'est ça, on verra. . . \"\n\nEh ben ils vont voir, pas vrai ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "zone_id": -161,
+   "level": 40,
+   "reqlevel": 35,
+   "side": "both",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1957": {
+   "id": 1957,
+   "name": "Les éruptions de mana",
+   "objectives": "Tuer 12 Eruptions de mana dans la limite de temps imposée.",
+   "description": "Nous avons presque fini, mais la dernière étape est la plus périlleuse, <nom>.\n\nJ'ai l'orbe d'invocateur vide, prêt à être ensorcelé. Nous le ferons en canalisant l'énergie d'une faille de mana. Je jetterai un sort qui va en ouvrir une pour un court moment. Des créatures issues du mana en surgiront. Vous devrez combattre ces éruptions de mana pour extraire leur puissance, dont je m’emparerai.\n\nTuez suffisamment d'éruptions de mana avant que la faille ne se referme et je canaliserai toute leur énergie dans votre orbe.",
+   "progress": "Vous n'avez pas tué le nombre requis de surtensions de mana, <nom>.",
+   "completion": "Vous l'avez fait ! Je n'ai pas douté de vous une seconde ! D'accord, peut-être juste une seconde, ou deux. . . Mais globalement je n'ai pas beaucoup douté.\n\nFranchement.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "zone_id": -161,
+   "level": 40,
+   "reqlevel": 35,
+   "side": "both",
+   "xp": 2350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1958": {
+   "id": 1958,
+   "name": "L'Energie céleste",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Vous pouvez ressentir de la fierté, <nom>. Bien des mages auraient échoué face aux créatures que vous avez affrontées !\n\nL'Orbe céleste est prêt. Je peux aussi le fixer sur un bâton, c'est à vous de choisir. Moi, je choisirais l'Orbe, mais qui suis-je pour avoir un avis ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "zone_id": -161,
+   "level": 40,
+   "reqlevel": 35,
+   "side": "both",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1959": {
+   "id": 1959,
+   "name": "Rendre compte à Anastasia",
+   "objectives": "Aller voir Anastasia Hartwell.",
+   "description": "Les mages d'Undercity ont noté une perturbation magique dans la ville et ont demandé à tous les mages de la Horde d’enquêter.\n\nAnastasia Hartwell vous en dira plus. Allez la voir dans le quartier des mages de Undercity.",
+   "progress": null,
+   "completion": "C'est vrai. Nous avons détecté une perturbation magique dans notre ville. Nous ne sommes pas encore sûrs de son origine, et nous ne savons pas si elle est bénigne ou maligne. Nous devons d'abord recueillir plus d'informations. . .\n\nEt ce sera votre tâche, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2128,
+     "name": "Cain Firesong"
+    },
+    {
+     "type": "npc",
+     "id": 3049,
+     "name": "Thurston Xane"
+    },
+    {
+     "type": "npc",
+     "id": 5880,
+     "name": "Un'Thuwa"
+    },
+    {
+     "type": "npc",
+     "id": 7311,
+     "name": "Uthel'nay"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4568,
+     "name": "Anastasia Hartwell"
+    }
+   ],
+   "zone_id": -161,
+   "level": 15,
+   "reqlevel": 15,
+   "side": "horde",
+   "xp": 105,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1960": {
+   "id": 1960,
+   "name": "Enquêter dans le magasin de l'Alchimiste",
+   "objectives": "Obtenir une Incantation de Manifestation et une Caisse de Coffres de retenue placée derrière Anastasia Hartwell. Apporter 3 Coffres de retenue remplis, la Caisse de Coffres de retenue et l'Incantation de Manifestation à Anastasia Hartwell à Undercity.",
+   "description": "L'échoppe d'alchimiste d'Algernon, à l'Apothicarium, est l'objet de curieux troubles. Des créatures magiques, faites seulement de magie, la parcourent. Il doit bien y avoir une raison, et nous devons la découvrir !\n\nEnquêtez à ce propos et capturez ces créatures. Prenez des coffres de stockage et un parchemin, derrière moi. Utilisez-le à l'échoppe pour rendre les créatures visibles, assujettissez-les à l'aide de vos sorts, puis capturez-les dans les coffres. Rapportez les coffres pleins, ceux qui sont vides et l'incantation.",
+   "progress": "Avez-vous fait votre enquête sur la perturbation, <nom> ? Avez-vous capturé les créatures ?",
+   "completion": "Très bien, <nom>. Les créatures qui sont dans ces Coffres de retenue seront étudiées par les meilleurs d'entre nous et nous déterminerons la raison de leur présence à Undercity.\n\nSi leur apparition est due à une faille dans le flux naturel de magie, alors nous devons déterminer si son origine est fortuite. Si le hasard n’est pas en cause, nous devons nous attendre à des perturbations futures beaucoup plus sérieuses.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4568,
+     "name": "Anastasia Hartwell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4568,
+     "name": "Anastasia Hartwell"
+    }
+   ],
+   "zone_id": -161,
+   "level": 16,
+   "reqlevel": 15,
+   "side": "horde",
+   "xp": 1150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1961": {
+   "id": 1961,
+   "name": "Rassembler les matériaux",
+   "objectives": "Apporter 10 pièces de lin et 6 Gemmes de mana de Dalaran à Josef Gregorian.",
+   "description": "Il est temps pour vous de porter vos premières robes de mage, <nom>. Elles sont le signe de votre statut et un témoignage de votre valeur.\n\nPour gagner ces robes, il vous faudra aller dans la forêt des Pins argentés et prendre des gemmes de mana aux mages de Dalaran. Leurs croyances sont semblables aux nôtres, il est donc assez désagréable de les assassiner, mais s'ils ne sont pas assez forts pour résister, alors ils ne méritent pas de vivre.\n\nApportez les gemmes et une longueur de lin à Josef Gregorian, à sa boutique de tailleur, dans le Quartier de la magie.",
+   "progress": "Anastasia m'avait dit que vous viendriez me voir et je suis prêt à confectionner vos robes. Avez-vous les gemmes et le lin ?",
+   "completion": "C'est du très bon matériel, et bien que je sois incapable de mesurer la qualité de ces gemmes de mana, nous saurons bientôt si elles possèdent le pouvoir nécessaire pour créer des robes du feu-sorcier. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4568,
+     "name": "Anastasia Hartwell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4576,
+     "name": "Josef Gregorian"
+    }
+   ],
+   "zone_id": -161,
+   "level": 15,
+   "reqlevel": 15,
+   "side": "horde",
+   "xp": 800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1962": {
+   "id": 1962,
+   "name": "Robe du feu-sorcier",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Voici votre robe, <nom>. Portez-la bien.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4576,
+     "name": "Josef Gregorian"
+    },
+    {
+     "type": "npc",
+     "id": 11048,
+     "name": "Victor Ward"
+    },
+    {
+     "type": "npc",
+     "id": 11049,
+     "name": "Rhiannon Davis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4576,
+     "name": "Josef Gregorian"
+    },
+    {
+     "type": "npc",
+     "id": 11048,
+     "name": "Victor Ward"
+    },
+    {
+     "type": "npc",
+     "id": 11049,
+     "name": "Rhiannon Davis"
+    }
+   ],
+   "zone_id": -161,
+   "level": 15,
+   "reqlevel": 15,
+   "side": "horde",
+   "xp": 1050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "3086": {
+   "id": 3086,
+   "name": "Tablette glyphée",
+   "objectives": "Lire la Tablette glyphée, et parler à Mai'ah, près de l’entrée de l’Antre, dans la Vallée des épreuves.",
+   "description": "Ah, pendant votre absence, on a apporté une tablette pour vous, <nom>.\n\nLisez-la, dès que vous aurez un moment. Si je ne me trompe pas, elle provient du Maître des mages, Mai'ah. Elle souhaiterait s'entretenir avec vous, quand vous jugerez le moment venu.",
+   "progress": "On veut déjà faire plaisir à Mai'ah, <nom>. C'est bien. Si vous respectez Mai'ah, Mai'ah vous le rendra. Mais parlons peu, parlons bien, vous êtes là pour apprendre la magie, pas pour m'entendre radoter.\n\nY a qu'un truc que Mai'ah peut pas vous apprendre sur la magie, <nom>, c'est comment stopper la corruption.",
+   "completion": "Z'êtes parmi les êtres les plus puissants sur cette planète, <nom>. . . Pas de doute. Et tout le monde le sait. . . Faut que vous le sachiez !\n\nMais ça doit être lassant ! Car y a pas un orc, un elfe ou un nain qui vous fait peur. . . Mais gaffe aux trucs que vous pouvez pas voir. La magie est puissante, elle peut vous jouer des tours. . . Vous faire croire plus puissant que vous l'êtes. Un peu de patience et de réflexion ne sont pas du luxe.\n\nQuand vous le sentirez, revenez voir Mai'ah pour l'entraînement. Elle vous apprendra les trucs que vous devrez savoir, pas de problème.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3143,
+     "name": "Gornek"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5884,
+     "name": "Mai'ah"
+    }
+   ],
+   "zone_id": -161,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3098": {
+   "id": 3098,
+   "name": "Parchemin glyphé",
+   "objectives": "Lire le Parchemin glyphé, et parler à Isabella, dans l’église du Glas.",
+   "description": "Ah, pendant que vous vous occupiez du Fléau, ce parchemin est arrivé pour vous. Je suppose qu'il est de quelque importance, car il porte le sceau du Maître des mages, Isabella. À votre place, je prendrais le temps de le lire avant de repartir.",
+   "progress": "Je savais que vous viendriez à moi, <nom>. Non parce que vous manquez de volonté pour suivre votre propre chemin, mais parce que nous sommes des esprits semblables. Nous avons tous deux ressenti la douleur. Nous avons souffert. Et désormais nous réclamons ce qui nous revient de droit : cette terre, nos vies, nos destinées. Mais il vous reste encore beaucoup à apprendre.",
+   "completion": "Revenez souvent me voir si vous souhaitez avoir la puissance suffisante pour écraser nos opposants. Les règles de la magie s'appliquent aussi à vous, <nom>. Vous sentirez toujours la corruption vous suivre comme une meute de loups affamés dans la nuit. Sa caresse ne sera pas sans créer une certaine dépendance, un vieux compagnon qui voudrait toujours être à vos côtés. Mais il y a moyen de contrer ces effets. Ces choses ne vous contrôlent que si vous les laissez faire.\n\nPartez maintenant, revenez vers moi quand vous aurez gagné en puissance.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1569,
+     "name": "Prêtre des ombres Sarvis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2124,
+     "name": "Isabella"
+    }
+   ],
+   "zone_id": -161,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3104": {
+   "id": 3104,
+   "name": "Lettre glyphée",
+   "objectives": "Lire la Lettre glyphée, et parler à Kheldon Bremen, à l’intérieur de l’Abbaye de Northshire.",
+   "description": "On m'a demandé de vous remettre cela dès que vous seriez de retour des camps des kobolds, <nom>. Il s'agit d'une lettre portant le sceau de Kheldon, notre Maître des mages local. À votre place, je n'hésiterais pas à la lire avant de faire quoi que ce soit d'autre, ici, dans l'Abbaye.",
+   "progress": "Bonjour, <nom>. Je suis Kheldon. Que puis-je faire pour vous ?",
+   "completion": "Ha ha, je savais bien que mes mises en garde ne seraient d'aucun effet. Donc vous n'avez pas peur ? Pas peur d'accepter votre destin ? Pas peur de défier les dieux et toutes les autres forces qui se dresseront entre vous et la poursuite du savoir et du pouvoir ?\n\nJe ne vous mens pas, <nom>, vous inspirerez autant de crainte que de respect. Mais sachez aussi que je serai là si vous avez besoin d'entraînement. Venez me trouver pour gagner en puissance.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 197,
+     "name": "Maréchal McBride"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 198,
+     "name": "Khelden Bremen"
+    }
+   ],
+   "zone_id": -161,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3114": {
+   "id": 3114,
+   "name": "Note de service glyphée",
+   "objectives": "Lire la Note de service glyphée, et parler à Marryk Nurribit, dans Anvilmar, au-dessus de la Vallée des Frigères.",
+   "description": "Pendant que vous m'aidiez, on m'a donné cette note de service pour vous. Prenez le temps de la lire. Je pense qu'elle provient du Maître des mages, Marryk. Jetez-y un coup d'oeil et allez le retrouver, à l'intérieur d'Anvilmar, quand vous en aurez le temps.",
+   "progress": "Ouais, qu'est-ce qui y a ? Plus fort, si ça vous gêne pas, <nom>. J'entends plus très bien après quelques bières.",
+   "completion": "Oh, oui ! Les arts des arcanes… bien sûr.\n\nVoici ce qu'il vous faut savoir, <nom> : pas la peine de trop en faire. Gardez quelques pièces pour me payer une bière… ou un sort quelconque dont vous auriez envie. Et n'approchez pas de Gnomeregan. À part ça, bonne journée ! Je serai là si vous avez besoin de moi ou d'une leçon. . . ou de quoi que ce soit.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 658,
+     "name": "Sten Stoutarm"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 944,
+     "name": "Marryk Nurribit"
+    }
+   ],
+   "zone_id": -161,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8250": {
+   "id": 8250,
+   "name": "L'art du mage",
+   "objectives": "Trouvez Sanath Lim-Yo et obtenez d'être <mené/menée> à l'archimage Xylem.",
+   "description": "L'archimage Xylem est à la recherche de quelqu'un ayant votre expérience ces derniers temps...\n\nSi vous souhaitez le rencontrer, vous pourrez le trouver en Azshara. Sa tour se trouve tout en haut des falaises, et le seul moyen d'y monter est un sort de téléportation lancé par son arrogant serviteur, Sanath Lim-yo.\n\nSanath est en bas de la tour de son maître. Pour le trouver, voyagez jusqu'à l'embranchement de la route principale d'Azshara à l'entrée des ruines d'Eldarath. Depuis ce point, allez droit vers le nord jusqu'à ce que vous atteigniez les falaises.",
+   "progress": null,
+   "completion": "<Sanath ricane. >\n\nL'archimage Xylem attend votre arrivée.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 331,
+     "name": "Maginor Dumas"
+    },
+    {
+     "type": "npc",
+     "id": 3047,
+     "name": "Archimage Shymm"
+    },
+    {
+     "type": "npc",
+     "id": 4567,
+     "name": "Pierce Shackleton"
+    },
+    {
+     "type": "npc",
+     "id": 7311,
+     "name": "Uthel'nay"
+    },
+    {
+     "type": "npc",
+     "id": 7312,
+     "name": "Dink"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8395,
+     "name": "Sanath Lim-yo"
+    }
+   ],
+   "zone_id": -161,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 510,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mené/menée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8251": {
+   "id": 8251,
+   "name": "La poussière magique",
+   "objectives": "Procurer 10 doses de Poussière lumineuse à l’archimage Xylem.",
+   "description": "Les elfes de sang d’Azshara ont développé une méthode pour pulvériser les objets magiques qu’ils se procurent. La poussière lumineuse qu’ils produisent diffère des composants obtenus par les sorts de désenchantement normaux.\n\nLorsque j’ai envoyé mon apprenti pour qu’il négocie un peu de leur poussière, ils l’ont tué sans hésitation. Ils doivent payer pour cela.\n\nLe temps des discussions est révolu, <nom>. Trouvez les elfes de sang le long des falaises d’Azshara, et procurez-vous leur poussière lumineuse par des moyens plus « persuasifs ».",
+   "progress": "Avez-vous la poussière ?",
+   "completion": "Bien joué, <nom> ! Je suis toujours émerveillé par le pouvoir de persuasion d’une salve de projectiles des arcanes.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8379,
+     "name": "Archimage Xylem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8379,
+     "name": "Archimage Xylem"
+    }
+   ],
+   "zone_id": -161,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 5100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8252": {
+   "id": 8252,
+   "name": "Le corail des sirènes",
+   "objectives": "Récupérer 6 Coraux enchantés et les apporter à l’archimage Xylem.",
+   "description": "Regardez autour de vous. Les ruines et les plages sont littéralement couvertes de Fouette-bile. Récemment, ces misérables créatures ont appris à reconnaître les composants indigènes rares d’Azshara.\n\nJe veux parler du corail enchanté : il les attire pour des raisons qui m'échappent. Il ne reste plus guère de corail dans la baie, or j’en ai grand besoin pour mes recherches. Je veux que vous sépariez quelques coraux enchantés des sirènes Fouette-bile et que vous me les rameniez.",
+   "progress": "C’est étonnant, mais les sirènes Fouette-bile sont douées pour la magie. Pas aussi douées que vous, j'espère ?",
+   "completion": "C’est un superbe spécimen de corail, <nom>. Vous êtes, sans l’ombre d’un doute, à la fois précis et meurtrier.\n\nRassurez-vous, vos efforts ne sont pas passés inaperçus. Peut-être êtes-vous digne d’une épreuve plus difficile…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8379,
+     "name": "Archimage Xylem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8379,
+     "name": "Archimage Xylem"
+    }
+   ],
+   "zone_id": -161,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 5100,
+   "money": 7500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8253": {
+   "id": 8253,
+   "name": "Détruire Morphaz",
+   "objectives": "Récupérer le Fragment d’arcane sur Morphaz et le rendre à l’archimage Xylem.",
+   "description": "Le temple englouti d’Atal'Hakkar abrite un drake vert nommé Morphaz.\n\nIl y a des années de cela, il m’a tendu une embuscade et a dévoré mon apprenti avant que j’aie le temps de mettre mes défenses en place. Perdre un apprenti n’a rien de bien dramatique, mais celui-là portait un fragment d’arcane d’une taille et d’une qualité inhabituelles.\n\nRassemblez des alliés puissants et pénétrez dans le temple. Détruisez Morphaz et récupérez le Fragment d’arcane dans son estomac.",
+   "progress": "Alors, avez-vous tué mon vieil ennemi ?",
+   "completion": "Incroyable. Au cours de toutes ces années, le fragment a grandi en absorbant les énergies du grand drake.\n\nJe n’ai plus rien à vous demander pour l’instant. La récupération de ce fragment me rend enfin pleinement la capacité de forger les arcanes. Ma première création sera pour vous, <nom>. Vous n’avez qu’à choisir…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8379,
+     "name": "Archimage Xylem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8379,
+     "name": "Archimage Xylem"
+    }
+   ],
+   "zone_id": -161,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 6350,
+   "money": 15500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9362": {
+   "id": 9362,
+   "name": "Le seigneur de guerre Krellian",
+   "objectives": "Récupérez la Coquille prismatique pour l'archimage Xylem. L'archimage réside dans une tour au sommet des falaises d'Azshara.",
+   "description": "Nous n'avons pas beaucoup de temps, <nom> ! Mes sorts de divination m'ont révélé une puissante source de magie. Je ne peux pas quitter la tour, et je souhaiterais vous demander de tuer la vile créature en possession de cet artefact.\n\nCe minable petit imbécile est connu sous le nom de seigneur de guerre Krellian, il se cache derrière ses gardes dans le temple de Zin-Malor. Réduisez-le en cendres et prenez cette coquille prismatique à laquelle il tient tant.",
+   "progress": "Nous n'avons pas de temps à perdre ! Vous avez la coquille ?",
+   "completion": "Je dois dire que cette coquille est entourée d'une aura étrange. Il me semble tout à fait naturel qu'une partie de votre récompense pour l'avoir récupérée soit de tester ses capacités magiques. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8379,
+     "name": "Archimage Xylem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8379,
+     "name": "Archimage Xylem"
+    }
+   ],
+   "zone_id": -161,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9364": {
+   "id": 9364,
+   "name": "Magie morcelée",
+   "objectives": "Métamorphosez les Fouette-bile d’Azshara, puis tuez les clones qui apparaissent quelques instants plus tard. Quand vous aurez tué 50 clones de métamorphose, retournez voir l’archimage Xylem en Azshara.",
+   "description": "Mes recherches m'ont révélé une propriété unique de la coquille prismatique.\n\nEmportez-la et lancez votre sort de métamorphose sur les Fouette-bile en Azshara. Si vous attendez un peu, l'aura chaotique de la coquille les fera se scinder en plusieurs clones plus petits pendant quelques instants. Tuez ces clones aussi vite que possible, et la coquille absorbera leur essence.\n\nUne fois la coquille pleine, revenez me trouver.",
+   "progress": "Avez-vous collecté la magie ?",
+   "completion": "Splendide ! Merveilleux !\n\nNous allons maintenant pouvoir reconstituer ces fragments de magie dans un nouveau sort. Regardez bien !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8379,
+     "name": "Archimage Xylem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8379,
+     "name": "Archimage Xylem"
+    }
+   ],
+   "zone_id": -161,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "92481": {
+   "id": 92481,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 251361,
+     "name": "Rorian the Dayseeker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 251379,
+     "name": "Dorii Brightwhisper"
+    }
+   ],
+   "zone_id": -161,
+   "level": 2,
+   "reqlevel": 2,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "93791": {
+   "id": 93791,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 252373,
+     "name": "Anathamaas Aetherwind"
+    },
+    {
+     "type": "npc",
+     "id": 256507,
+     "name": "Belann Windwood"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 256507,
+     "name": "Belann Windwood"
+    }
+   ],
+   "zone_id": -161,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "93797": {
+   "id": 93797,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 256507,
+     "name": "Belann Windwood"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 256507,
+     "name": "Belann Windwood"
+    }
+   ],
+   "zone_id": -161,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "97286": {
+   "id": 97286,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 211022,
+     "name": "Owen Thadd"
+    },
+    {
+     "type": "npc",
+     "id": 211033,
+     "name": "Garion Wendell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 211022,
+     "name": "Owen Thadd"
+    },
+    {
+     "type": "npc",
+     "id": 211033,
+     "name": "Garion Wendell"
+    }
+   ],
+   "zone_id": -161,
+   "level": 20,
+   "reqlevel": 1,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "98576": {
+   "id": 98576,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3143,
+     "name": "Gornek"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5884,
+     "name": "Mai'ah"
+    }
+   ],
+   "zone_id": -161,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

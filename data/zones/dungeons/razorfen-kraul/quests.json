@@ -1,0 +1,357 @@
+{
+ "schema": 1,
+ "zone": "dungeons/razorfen-kraul",
+ "zone_id": 491,
+ "zone_name": "Kraal de Tranchebauge",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 6,
+  "complete": 6,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "1101": {
+   "id": 1101,
+   "name": "La mégère du Kraal",
+   "objectives": "Apporter le Médaillon de Trancheflanc à Falfindel Waywarder à Thalanaar.",
+   "description": "Pauvre Heralath ! Et ce nain... Lonebrow. Quel esprit courageux il avait.\n\nNous ne devons pas laisser leur vaillance périr pour rien. Cette mégère… Charlga Trancheflanc… doit être arrêtée.\n\nIl ne fait pas de doute qu'infiltrer le Kraal sera périlleux. Nous n'avons pas le temps d'envoyer un mot à Darnassus. <nom>, rassemblez un groupe et tuez la mégère.\n\nApportez-moi le médaillon de Trancheflanc comme preuve de son décès.",
+   "progress": "Tant que Trancheflanc rassemble des forces au Kraal de Tranchebauge, ces régions courent un grand danger.",
+   "completion": "La mégère a été enterrée. Voilà des nouvelles fantastiques, <nom>.\n\nEn ces temps de danger, il est rafraîchissant de voir quelqu'un d'aussi brave que vous.\n\nPuisque les laquais de Trancheflanc ont été éliminés, nos études dans ce secteur vont pouvoir se poursuivre. Peut-être que nous pouvons à présent approfondir notre connaissance du mal qui a corrompu le lieu où Agammagan s'est éteint.\n\nJ'ai bien peur cependant que la réponse à cette question ne repose également dans la trahison. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4048,
+     "name": "Falfindel Waywarder"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4048,
+     "name": "Falfindel Waywarder"
+    }
+   ],
+   "zone_id": 491,
+   "level": 34,
+   "reqlevel": 29,
+   "side": "alliance",
+   "xp": 3350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1102": {
+   "id": 1102,
+   "name": "Un destin funeste",
+   "objectives": "Apporter le Cœur de Trancheflanc à Stonespire le Vieil, à Thunder Bluff.",
+   "description": "Cairne est un noble chef qui a unifié notre peuple, ici, à Thunder Bluff.\n\nMais je ne peux pas pardonner aussi facilement à ceux qui nous ont éloignés de nos terres ancestrales. Mon peuple a habité les Tarides du sud pendant des décennies. Cette terre est sacrée pour nous. Mais nous en avons été chassés par de nombreux ennemis.\n\nUn destin funeste attend la sinistre mégère, Charlga Trancheflanc, qui rameute une ignoble armée depuis le Kraal de Tranchebauge.\n\nApportez-moi le coeur de Trancheflanc et je pourrai mourir en paix, <nom>.",
+   "progress": "Une fois que je saurai que les abjectes bêtes du Kraal de Tranchebauge ont été chassées de cet immonde repaire, je pourrai reposer en paix, sachant que l'heure de la revanche a sonné. Avez-vous chassé les hurans hors du Kraal ? M'apportez-vous de grandes nouvelles sous la forme du coeur de Trancheflanc ?",
+   "completion": "Je vois que l'horrible tribu du Kraal de Tranchebauge connaît à présent la douleur de mon peuple. Que cela serve de leçon à ces ignobles bêtes.\n\nChasser quelqu'un d'une terre sacrée est un péché qui appelle la vengeance la plus impitoyable.\n\nMerci, <nom>, de m'avoir aidé dans mon engagement.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4451,
+     "name": "Stonespire le Vieil"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4451,
+     "name": "Stonespire le Vieil"
+    }
+   ],
+   "zone_id": 491,
+   "level": 34,
+   "reqlevel": 29,
+   "side": "horde",
+   "xp": 4050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1109": {
+   "id": 1109,
+   "name": "Corvée de guano",
+   "objectives": "Apporter 1 tas de Guano du kraal au Maître Apothicaire Faranell à Undercity.",
+   "description": "Comme vous pouvez le constater, <nom>, nous préparons de très… intéressantes expérimentations à la Société royale des apothicaires.\n\nEn tant que Maître, mon travail est de superviser les plus ambitieuses de nos tentatives alchimiques. Tellement de travail et si peu de temps !\n\nVous avez l'air d'avoir beaucoup voyagé, <classe>. Peut-être pourriez-vous m'aider.\n\nJ'ai besoin d'une substance rare. C'est un matériau infect, qui provient d'une espèce rare de chauves-souris que l'on trouve dans la fosse connue sous le nom de Kraal de Tranchebauge. Apportez-moi du guano de chauve-souris du kraal afin que nous puissions nous mettre au travail...",
+   "progress": "Ah ! Je vois que vous êtes revenu. Avez-vous pu vous procurer du Guano du Kraal ?",
+   "completion": "Splendide ! C'est juste ce qu'il nous fallait pour commencer, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2055,
+     "name": "Maître apothicaire Faranell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2055,
+     "name": "Maître apothicaire Faranell"
+    }
+   ],
+   "zone_id": 491,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1142": {
+   "id": 1142,
+   "name": "Le déclin et la mort",
+   "objectives": "Trouver et rapporter le Pendentif de Treshala à Treshala Fallowbrook à Darnassus.",
+   "description": "Il ne me reste plus beaucoup de temps... Tellement... Tellement faible...\n\nLe brave Lonebrow a été envoyé pour avertir Falfindel...\n\nMais avant que je ne m-m-meure...\n\n... Ma femme, Treshala... Son pendentif de mariage avec moi... V-v-volé... par un de ces sauv-v-vages agresseurs...\n\nTrouvez-le, j-j-je vous en prie... Et rapportez-le à Treshala, à Darnassus...\n\n... Et racontez-lui ma mort... solitaire.",
+   "progress": "Qu'est-ce qui vous amène dans ma maison, <race> ?",
+   "completion": "Non !\n\nCe n'est pas juste ! Monde cruel et intolérable !\n\nJe devrai à présent porter ce fardeau de douleur ; mais je ne laisserai pas le travail de Heralath partir avec lui.\n\nVous avez montré du courage lors de votre voyage par ces contrées si dangereuses, <nom>. Maintenant, laissez-moi, je vous en prie.\n\nC'est dans la solitude que je veux pleurer son départ.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4510,
+     "name": "Heralath Fallowbrook"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4521,
+     "name": "Treshala Fallowbrook"
+    }
+   ],
+   "zone_id": 491,
+   "level": 30,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 3050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1144": {
+   "id": 1144,
+   "name": "Willix l’Importateur",
+   "objectives": "Escorter Willix l'Importateur hors du Kraal de Tranchebauge.",
+   "description": "Enfin de l'aide !\n\nVous n'avez pas idée du temps que j'ai passé prisonnier ici ! Je n'arrive plus à me rappeler quand j'ai vu le monde extérieur pour la dernière fois.\n\nVous voyez, je suis un entrepreneur. Prêt à tout en échange d'un sou, si vous voyez ce que je veux dire. J'avais entendu dire que Mizzyrix payait bien pour les Racines de Feuillerouge locales, de ce trou à rats ! Je pensais que ce serait de l'argent facile. Je me trompais et pas qu'un peu !\n\nEnfin... Merci de m'avoir sorti de là, je vous le revaudrai...",
+   "progress": null,
+   "completion": "Merci encore, camarade ! Je vous l'avais dit que je vous le revaudrais. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4508,
+     "name": "Willix l’Importateur"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4508,
+     "name": "Willix l’Importateur"
+    }
+   ],
+   "zone_id": 491,
+   "level": 30,
+   "reqlevel": 23,
+   "side": "both",
+   "xp": 3050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1221": {
+   "id": 1221,
+   "name": "Racines de Feuillebleue",
+   "objectives": "Prendre une Caisse percée.\nPrendre un Bâton de commandement de Sniffetarin.\nLire le Manuel d'utilisateur de Sniffetarin.\n\nAu Kraal de Tranchebauge, utiliser la Caisse pour invoquer un Ecureuil Sniffetarin et utiliser le Bâton de commandement pour ordonner à l'Ecureuil de chercher les racines.\n\nRamener 6 Racines de Feuillebleue, le Bâton de commandement de Sniffetarin et la Caisse percée à Mebok Mizzyrix, à Ratchet.",
+   "description": "Les racines de feuillebleue sont une friandise universellement appréciée ! Mais elles sont rares, très rares. On ne peut les trouver qu'ici, dans les Tarides, profondément enterrées au kraal de Tranchebauge.\n\nEt même ici, vous ne pourriez pas les trouver à moins de savoir comment les chercher ! C'est pourquoi j'ai entraîné ces Ecureuils Sniffetarin à les trouver. Ils ont un grand nez et peuvent sentir une racine à cinquante pas.\n\nCela ne sera pas facile, mais si vous me ramenez quelques racines, je vous paierai grassement.",
+   "progress": "Avez-vous les racines, <nom> ?",
+   "completion": "Excellent, vous les avez ! Je peux les vendre un bon prix à mes clients !\n\nMerci pour la livraison, <nom> ! Vous êtes quelqu'un de précieux.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3446,
+     "name": "Mebok Mizzyrix"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3446,
+     "name": "Mebok Mizzyrix"
+    }
+   ],
+   "zone_id": 491,
+   "level": 26,
+   "reqlevel": 20,
+   "side": "both",
+   "xp": 2100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

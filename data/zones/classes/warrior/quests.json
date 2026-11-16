@@ -1,0 +1,4530 @@
+{
+ "schema": 1,
+ "zone": "classes/warrior",
+ "zone_id": -81,
+ "zone_name": "Guerrier",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 74,
+  "complete": 59,
+  "incomplete": 15,
+  "unavailable": 0,
+  "missing_description": 15,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 15
+ },
+ "quests": {
+  "1498": {
+   "id": 1498,
+   "name": "La voie de la défense",
+   "objectives": "Apporter 5 Ecailles roussies à Uzzek au Poste de garde extérieur dans les Tarides.",
+   "description": "En tant que guerrier, l'une de nos tâches les plus cruciales est… la protection. Nous sommes le bouclier de la Horde, et nous gardons nos semblables les plus faibles à l'arrière. Si vous voulez rejoindre nos rangs, alors vous devez me prouver votre ardeur.\n\nPartez pour les falaises du Tonnerre en Durotar, où vivent les foudroyants et les lézards-tonnerre. Chassez ces bêtes ! Montrez-moi que vous êtes plus <fort/forte> qu'eux ! Affrontez leurs assauts et apportez-moi un tas d'écailles roussies comme preuve.\n\nFaites cela, et alors je deviendrai votre maître.",
+   "progress": "Avez-vous ces écailles, <nom> ? Si vous ne pouvez pas supporter les attaques des lézards-tonnerre, vous ne bénéficierez pas de mon instruction.",
+   "completion": "Ah ! Je vois que vous avez battu les lézards-tonnerre, ce qui prouve que vous êtes robuste. À présent je vais vous montrer comment une peau résistante et d'habiles mouvements peuvent se combiner pour former un mur de défense impénétrable.\n\nApprenez bien votre leçon, <nom>, et tenez-vous prêt pour d'autres.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5810,
+     "name": "Uzzek"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5810,
+     "name": "Uzzek"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 630,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "fort/forte"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1502": {
+   "id": 1502,
+   "name": "Thun'grim Firegaze",
+   "objectives": "Parler à Thun'grim Firegaze dans les Tarides.",
+   "description": "Il est vital que l'arme d'un guerrier soit de qualité. Et s'il y a bien un orc capable de concevoir des armes de qualité, c’est Thun'grim Firegaze. C'est un ermite qui vit au sommet des collines à l'est de la Croisée.\n\nSi vous cherchez une arme, <guerrier/guerrière>, alors cherchez Thun'grim. Pour le trouver, voyagez d'abord vers la Croisée, vers l'ouest. Puis tirez droit à l'est, dans les collines. Son camp est au sommet d'une d'entre elles.",
+   "progress": null,
+   "completion": "Mes yeux se sont depuis longtemps desséchés à force de fixer les flammes de la forge, mais il y a certaines choses que je peux encore voir.\n\nEt si vous avez trouvé votre chemin jusqu'ici, je peux deviner la nature de votre demande.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5810,
+     "name": "Uzzek"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5878,
+     "name": "Thun'grim Firegaze"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 210,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "guerrier/guerrière"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1503": {
+   "id": 1503,
+   "name": "Acier forgé",
+   "objectives": "Apporter les Barres d'Acier forgé à Thun'grim Firegaze dans les Tarides.",
+   "description": "Je vais vous donner une arme, <nom>, mais d'abord vous devez me venir en aide. Les Tranchecrins du nord-ouest sont venus dans mon camp il y a plusieurs nuits. Ils ne venaient pas m’affronter, mais ils savaient que ma vue est mauvaise. Quelques-uns m'ont distrait, en grognant, tandis que les autres me dévalisaient ! Les lâches !\n\nIls ont emporté un coffre de fer contenant des barres d'acier forgé. Si vous pouvez les récupérer, alors je vous donnerai l'arme idéale.\n\nTrouvez le coffre en fer dans le camp des hurans et rapportez-moi les barres d'acier forgé.",
+   "progress": "Avez-vous mes barres d'acier ?",
+   "completion": "Vous les avez trouvées ! Et elles sont toutes là, ce qui ne me surprend pas. Je pensais bien que les Tranchecrins ne sauraient pas quoi en faire.\n\nMerci, <nom>. Voici votre récompense. Puisse-t-elle bien vous servir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5878,
+     "name": "Thun'grim Firegaze"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5878,
+     "name": "Thun'grim Firegaze"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 840,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1505": {
+   "id": 1505,
+   "name": "Le vétéran Uzzek",
+   "objectives": "Parler à Uzzek au Poste de garde extérieur.",
+   "description": "La Horde honore ses guerriers, car leur force n'est pas remise en question. Mais les grands guerriers sont également de grands étudiants.\n\nCherchez Uzzek. C'est le vétéran de maintes batailles et il enseigne à présent l'art du combat à de jeunes guerriers. Vous le trouverez au sud du Poste de garde extérieur, la garnison orc à la frontière entre les Tarides et Durotar à l'est.",
+   "progress": null,
+   "completion": "Salutations, jeune homme. Vous êtes ici pour quelques cours, c'est ça ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3041,
+     "name": "Torm Ragetotem"
+    },
+    {
+     "type": "npc",
+     "id": 3063,
+     "name": "Krang Stonehoof"
+    },
+    {
+     "type": "npc",
+     "id": 3169,
+     "name": "Tarshaw Jaggedscar"
+    },
+    {
+     "type": "npc",
+     "id": 3354,
+     "name": "Sorek"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5810,
+     "name": "Uzzek"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 85,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1638": {
+   "id": 1638,
+   "name": "L'entraînement du guerrier",
+   "objectives": "Parler à Harry Burlguard.",
+   "description": "Vous avez montré que vous êtes <un guerrier/une guerrière> capable, <nom>. Mais vous êtes encore jeune et avez beaucoup à apprendre.\n\nParlez à Harry Burlguard, il est généralement à la taverne du « Cochon siffleur », dans la vieille ville de Stormwind. Harry est un vétéran et un excellent Maître. Il pourrait vous montrer quelques passes d’armes qui vous aideraient à vivre plus vieux.",
+   "progress": null,
+   "completion": "Ho ho ! Prenez un verre avec moi, mon pote. Vous avez l'air robuste de l'extérieur, mais voyons si vos tripes peuvent supporter quelques chopes de ce que le « Cochon siffleur » a de plus fort !\n\nOu… veniez-vous pour une leçon ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 913,
+     "name": "Lyria Du Lac"
+    },
+    {
+     "type": "npc",
+     "id": 5480,
+     "name": "Ilsa Corbin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6089,
+     "name": "Harry Burlguard"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 85,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "un guerrier/une guerrière"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ho ho ! Prenez un verre avec moi, mon pote. Vous avez l'air robuste de l'extérieur, mais voyons si vos tripes peuvent supporter quelques chopes de ce que le « Cochon siffleur » a de plus fort !\n\nOu… veniez-vous pour une leçon ?"
+     },
+     "npc": 6089,
+     "npc_name": "Harry Burlguard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793864680,
+     "last_seen": 1793864680
+    },
+    "detail": {
+     "texts": {
+      "description": "Vous avez montré que vous êtes un guerrier capable, <nom>. Mais vous êtes encore jeune et avez beaucoup à apprendre.\n\nParlez à Harry Burlguard, il est généralement à la taverne du « Cochon siffleur », dans la vieille ville de Hurlevent. Harry est un vétéran et un excellent Maître. Il pourrait vous montrer quelques passes d’armes qui vous aideraient à vivre plus vieux.",
+      "objectives": "Parler à Harry Burlguard.",
+      "name": "L'entraînement du guerrier"
+     },
+     "npc": 913,
+     "npc_name": "Lyria Du Lac",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Forêt d'Elwynn",
+     "map_id": 1429,
+     "client": "1.60.1.70790",
+     "first_seen": 1793857728,
+     "last_seen": 1793857728
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1639": {
+   "id": 1639,
+   "name": "Bartleby le poivrot",
+   "objectives": "Parler à Bartleby.",
+   "description": "Ouais, je peux vous enseigner ! Mais d'abord je veux voir ce que vous savez déjà.\n\nVous voyez ce poivrot là-bas au bout du bar ? Bartleby ? Je veux que vous lui preniez sa chope.\n\nHa ! Et si vous connaissez Bartleby, alors vous savez qu'il ne vous la donnera pas gentiment.",
+   "progress": null,
+   "completion": "Salut, beau gosse ! Qu'est-ce qu'un mignon comme vous fait au « Cochon siffleur » ? Faites attention, vous pourriez vous casser un ongle. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6089,
+     "name": "Harry Burlguard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6090,
+     "name": "Bartleby"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 85,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Salut, beau gosse ! Qu'est-ce qu'un mignon comme vous fait au « Cochon siffleur » ? Faites attention, vous pourriez vous casser un ongle..."
+     },
+     "npc": 6090,
+     "npc_name": "Bartleby",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793864685,
+     "last_seen": 1793864685
+    },
+    "detail": {
+     "texts": {
+      "description": "Ouais, je peux vous enseigner ! Mais d'abord je veux voir ce que vous savez déjà.\n\nVous voyez ce poivrot là-bas au bout du bar ? Bartleby ? Je veux que vous lui preniez sa chope.\n\nHa ! Et si vous connaissez Bartleby, alors vous savez qu'il ne vous la donnera pas gentiment.",
+      "objectives": "Parler à Bartleby.",
+      "name": "Bartleby le poivrot"
+     },
+     "npc": 6089,
+     "npc_name": "Harry Burlguard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": 1453,
+     "client": "1.60.1.70790",
+     "first_seen": 1793864681,
+     "last_seen": 1793864681
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1640": {
+   "id": 1640,
+   "name": "Battre Bartleby",
+   "objectives": "Battre Bartleby, puis lui parler.",
+   "description": "Vous voulez quoi ? Vous êtes <fou/folle> !\n\nLa seule façon pour vous d'obtenir cette chope serait de la prendre entre mes doigts froids et morts…",
+   "progress": "La seule façon pour vous d'obtenir cette chope serait de la prendre entre mes doigts froids et morts…",
+   "completion": "Vous êtes beaucoup plus costaud que vous n'en avez l'air !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6090,
+     "name": "Bartleby"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6090,
+     "name": "Bartleby"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 210,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "fou/folle"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vous êtes beaucoup plus costaud que vous n'en avez l'air !"
+     },
+     "npc": 6090,
+     "npc_name": "Bartleby",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793864714,
+     "last_seen": 1793864714
+    },
+    "detail": {
+     "texts": {
+      "description": "Vous voulez quoi ? Vous êtes fou !\n\nLa seule façon pour vous d'obtenir cette chope serait de la prendre entre mes doigts froids et morts…",
+      "objectives": "Battre Bartleby, puis lui parler.",
+      "name": "Battre Bartleby"
+     },
+     "npc": 6090,
+     "npc_name": "Bartleby",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": 1453,
+     "client": "1.60.1.70790",
+     "first_seen": 1793864687,
+     "last_seen": 1793864687
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1665": {
+   "id": 1665,
+   "name": "Tasse de Bartleby",
+   "objectives": "Apporter la Tasse de Bartleby à Burlguard.",
+   "description": "Ok, voilà ma tasse. Attendez ! Laissez-moi finir avant... Ok, allez-y !",
+   "progress": "J'ai vu votre combat contre Bartleby. Bien joué ! Avez-vous eu sa tasse ?",
+   "completion": "Et voilà ! Je suis sûr qu'il ne voulait pas s'en séparer, mais vous avez été persuasif. Bien joué.\n\nMaintenant pour votre leçon. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6090,
+     "name": "Bartleby"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6089,
+     "name": "Harry Burlguard"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Et voilà ! Je suis sûr qu'il ne voulait pas s'en séparer, mais vous avez été persuasif. Bien joué.\n\nMaintenant pour votre leçon..."
+     },
+     "npc": 6089,
+     "npc_name": "Harry Burlguard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793864719,
+     "last_seen": 1793864719
+    },
+    "detail": {
+     "texts": {
+      "description": "Ok, voilà ma tasse. Attendez ! Laissez-moi finir avant... Ok, allez-y !",
+      "objectives": "Apporter la Tasse de Bartleby à Burlguard.",
+      "name": "Tasse de Bartleby"
+     },
+     "npc": 6090,
+     "npc_name": "Bartleby",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": 1453,
+     "client": "1.60.1.70790",
+     "first_seen": 1793864715,
+     "last_seen": 1793864715
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1666": {
+   "id": 1666,
+   "name": "Le maréchal Haggard",
+   "objectives": "Parler au maréchal Haggard.",
+   "description": "Vous avez appris quelques passes d'armes, mais il faudrait utiliser une arme décente. Je parie que si vous parliez au maréchal Haggard il pourrait vous aider.\n\nLe maréchal Haggard habite dans un manoir dans la forêt d'Elwynn, au Camp de bûcherons du Val d'est. Il est à la retraite, mais il a accumulé beaucoup d'équipements quand il était en activité.\n\nDites-lui que vous venez de ma part, et avec un peu de chance il aura une arme en trop à vous offrir.",
+   "progress": null,
+   "completion": "Qui est là ? Burlguard, c'est vous ? Rapprochez-vous un peu. Mes yeux ne sont plus aussi bons qu'avant. A marcher comme ça, je vous avais pris pour un gnoll !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6089,
+     "name": "Harry Burlguard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 294,
+     "name": "Maréchal Haggard"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Qui est là ? Burlguard, c'est vous ? Rapprochez-vous un peu. Mes yeux ne sont plus aussi bons qu'avant. A marcher comme ça, je vous avais pris pour un gnoll !"
+     },
+     "npc": 294,
+     "npc_name": "Maréchal Haggard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forêt d'Elwynn",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793888500,
+     "last_seen": 1793888500
+    },
+    "detail": {
+     "texts": {
+      "description": "Vous avez appris quelques passes d'armes, mais il faudrait utiliser une arme décente. Je parie que si vous parliez au maréchal Haggard il pourrait vous aider.\n\nLe maréchal Haggard habite dans un manoir dans la forêt d'Elwynn, au Camp de bûcherons du Val d'est. Il est à la retraite, mais il a accumulé beaucoup d'équipements quand il était en activité.\n\nDites-lui que vous venez de ma part, et avec un peu de chance il aura une arme en trop à vous offrir.",
+      "objectives": "Parler au maréchal Haggard.",
+      "name": "Le maréchal Haggard"
+     },
+     "npc": 6089,
+     "npc_name": "Harry Burlguard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": 1453,
+     "client": "1.60.1.70790",
+     "first_seen": 1793864720,
+     "last_seen": 1793864720
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1667": {
+   "id": 1667,
+   "name": "Jack Dent-Morte",
+   "objectives": "Retrouver la Plaque du maréchal Haggard au Camp de Jack Dent-Morte, et la rapporter au maréchal Haggard.",
+   "description": "Burlguard vous a dit de passer ? Oui, j'ai des armes en trop ici, mais avant vous devez faire quelque chose pour moi...\n\nIl y a quelque temps un scélérat défias appelé Jack Dent-Morte m'a escroqué. Il faisait sombre et il portait un tabard de Stormwind, j'ai cru que c'était le maréchal Dughan. Il m'a dit qu'il avait besoin de mon ancienne plaque de Maréchal de Stormwind et je lui ai donnée... Alors il a éclaté de rire et s'est enfui avant que je puisse l'attraper !\n\nRapportez-moi ma plaque ! Jack Dent-Morte a probablement un camp secret dans le sud.",
+   "progress": "Avez-vous ma plaque ? Je ne veux pas penser aux mauvais coups que Jack Dent-Morte pourrait faire avec.",
+   "completion": "Bien, vous l'avez trouvée ! J'avais peur de ne jamais la revoir, et qu’un Défias l’utilise pour se faire passer pour un officiel de Stormwind. Enfin cela ne se produira pas, merci à vous.\n\nVoici quelques armes que j'ai utilisées quand j'étais maréchal. Je les ai gardées en bon état. Servez-vous !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 294,
+     "name": "Maréchal Haggard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 294,
+     "name": "Maréchal Haggard"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 840,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Bien, vous l'avez trouvée ! J'avais peur de ne jamais la revoir, et qu’un Défias l’utilise pour se faire passer pour un officiel de Hurlevent. Enfin cela ne se produira pas, merci à vous.\n\nVoici quelques armes que j'ai utilisées quand j'étais maréchal. Je les ai gardées en bon état. Servez-vous !"
+     },
+     "npc": 294,
+     "npc_name": "Maréchal Haggard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forêt d'Elwynn",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793888697,
+     "last_seen": 1793888697
+    },
+    "detail": {
+     "texts": {
+      "description": "Burlguard vous a dit de passer ? Oui, j'ai des armes en trop ici, mais avant vous devez faire quelque chose pour moi...\n\nIl y a quelque temps un scélérat défias appelé Jack Dent-Morte m'a escroqué. Il faisait sombre et il portait un tabard de Hurlevent, j'ai cru que c'était le maréchal Dughan. Il m'a dit qu'il avait besoin de mon ancienne plaque de Maréchal de Hurlevent et je lui ai donnée... Alors il a éclaté de rire et s'est enfui avant que je puisse l'attraper !\n\nRapportez-moi ma plaque ! Jack Dent-Morte a probablement un camp secret dans le sud.",
+      "objectives": "Retrouver la Plaque du maréchal Haggard au Camp de Jack Dent-Morte, et la rapporter au maréchal Haggard.",
+      "name": "Jack Dent-Morte"
+     },
+     "npc": 294,
+     "npc_name": "Maréchal Haggard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forêt d'Elwynn",
+     "map_id": 1429,
+     "client": "1.60.1.70790",
+     "first_seen": 1793888501,
+     "last_seen": 1793888501
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1678": {
+   "id": 1678,
+   "name": "Vejrek",
+   "objectives": "Apporter la Tête de Vejrek à Muren Stormpike à Ironforge.",
+   "description": "Si vous voulez rejoindre les rangs des guerriers, vous avez intérêt à être robuste. Je peux vous apprendre de nouvelles passes d'armes, mais avant prouvez-moi que vous pouvez vous débrouiller contre des adversaires réels.\n\nVejrek est le plus coriace des trolls du coin ; c'est lui que vous devez affronter. Il a une hutte dans les collines au sud du repaire des Frostmane\n\nRapportez-moi sa tête et je saurai que vous avez du courage.",
+   "progress": "Vous avez trouvé la hutte de Vejrek, <nom> ? Est-ce que c'est cette puanteur de troll que je sens ?",
+   "completion": "Vejrek était vraiment laid, hein ? Beau travail, <nom> ! Vous avez ce qu'il faut, maintenant commençons la leçon. . .\n\nVous ne le savez peut-être pas, mais il est très important pour un <classe> d'avoir une bonne défense. Cela lui permet de résister contre les ennemis quand les autres sont tombés, c'est ce dont un allié a besoin.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6114,
+     "name": "Muren Stormpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6114,
+     "name": "Muren Stormpike"
+    }
+   ],
+   "zone_id": -81,
+   "level": 11,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1679": {
+   "id": 1679,
+   "name": "Muren Stormpike",
+   "objectives": "Parler à Muren Stormpike.",
+   "description": "Bonjour guerrier ! Vous êtes <voué/vouée> à un grand avenir, mais il vous reste quelques petits trucs à apprendre et Muren Stormpike est le nain qu'il vous faut pour vous les enseigner.\n\nVous trouverez Muren dans le Hall des Armes à la Garde militaire d'Ironforge. Parlez-lui quand vous serez <prêt/prête> à apprendre ce qu'est un vrai guerrier.",
+   "progress": null,
+   "completion": "Ah, <nom>. J'ai entendu les guerriers de Dun Morogh prononcer votre nom. J'espère que vous n'avez pas passé tout votre temps dans les brasseries !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1229,
+     "name": "Granis Swiftaxe"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6114,
+     "name": "Muren Stormpike"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 85,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "prêt/prête",
+    "voué/vouée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1680": {
+   "id": 1680,
+   "name": "Tormus Deepforge",
+   "objectives": "Parler à Tormus Deepforge.",
+   "description": "Maintenant que vous avez appris de nouvelles passes, il est temps pour vous d'avoir une arme digne de ce nom. Parlez à Tormus Deepforge. Il peut vous fabriquer une arme dont vous me donnerez des nouvelles.\n\nVous trouverez Tormus ici, à Ironforge, à la Grande Forge.",
+   "progress": null,
+   "completion": "Muren vous a dit de passer n'est-ce pas ? Oui, je fabrique de bonnes armes. . . Mais avant cela, j'ai une faveur à vous demander.\n\nNe vous inquiétez pas. C'est dangereux et ça peut vous coûter la vie : exactement le genre de boulot qu'un <classe> attend.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6114,
+     "name": "Muren Stormpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6031,
+     "name": "Tormus Deepforge"
+    }
+   ],
+   "zone_id": -81,
+   "level": 11,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 90,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1681": {
+   "id": 1681,
+   "name": "Base d'Ironband",
+   "objectives": "Rapporter du Minerai d'Umbral à Tormus Deepforge à Ironforge.",
+   "description": "Mon mentor, Sturgy Ironband, a une base au sud du lac du Lit d'Helm, à l'est de Dun Morogh. Il est maître forgeron, et c'est le meilleur.\n\nMais un jour, un de ses apprentis lui a apporté un étrange minerai. Le maître Ironband l'a baptisé \"minerai d'Umbral\" et s'est empressé de le travailler. Mais au moment où il était sur le point d’aboutir, une bande de nains Sombrefer a attaqué sa base. Ils ont tué tout le monde !\n\nAllez à la Base d’Ironband, <nom>, vengez la mort du maître, et rapportez-moi une cargaison de Minerai d'Umbral.",
+   "progress": "Avez-vous trouvé la Base d'Ironband ? Avez-vous le Minerai d'Umbral ?",
+   "completion": "Vous l'avez trouvé ! Bien joué !\n\nJ'espère que vous avez tué des tas de nains Sombrefer. Il y en a sûrement ailleurs qu’à la Base d'Ironband. . .\n\nMais merci pour le minerai, <nom>. Je vais étudier ses propriétés et essayer de le travailler.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6031,
+     "name": "Tormus Deepforge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6031,
+     "name": "Tormus Deepforge"
+    }
+   ],
+   "zone_id": -81,
+   "level": 11,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Mon mentor, Sturgy Ironband, a une base au sud du lac du Lit d'Helm, à l'est de Dun Morogh. Il est maître forgeron, et c'est le meilleur.\n\nMais un jour, un de ses apprentis lui a apporté un étrange minerai. Le maître Ironband l'a baptisé \"minerai d'Umbral\" et s'est empressé de le travailler. Mais au moment où il était sur le point d’aboutir, une bande de nains Sombrefer a attaqué sa base. Ils ont tué tout le monde !\n\nAllez à la Base d’Ironband, <nom>, vengez la mort du maître, et rapportez-moi une cargaison de Minerai d'Umbral.",
+      "objectives": "Rapporter du Minerai d'Umbral à Tormus Deepforge à Forgefer.",
+      "name": "Base d'Ironband"
+     },
+     "npc": 6031,
+     "npc_name": "Tormus Deepforge",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forgefer",
+     "map_id": 1455,
+     "client": "1.60.1.70862",
+     "first_seen": 1794080739,
+     "last_seen": 1794080739
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1682": {
+   "id": 1682,
+   "name": "Armes en fer gris",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Voici quelques armes, tout juste sorties de la forge. Elles sont faites avec le Minerai d'Umbral que vous m'avez apporté !\n\nS'il vous plaît, <nom>, servez-vous !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6031,
+     "name": "Tormus Deepforge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6031,
+     "name": "Tormus Deepforge"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 630,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1683": {
+   "id": 1683,
+   "name": "Vorlus Vilehoof",
+   "objectives": "Rapporter la Corne de Vorlus Vilehoof à Elanaria à Darnassus.",
+   "description": "Avant de vous apprendre quoi que ce soit, vous devez me prouver votre résolution.\n\nLe satyre Vorlus Vilehoof a découvert un de nos lointains Puits de lune, au sud-est du Refuge des saisons de Ban'ethil. Il est en train d’y barboter, souillant l'eau pure avec sa crasse.\n\nTrouvez Vorlus au Puits de lune et détruisez-le. Ramenez-moi sa corne comme preuve, et je vous entraînerais.\n\nLe chemin vers le Puits de lune est bien caché, <nom>, restez <concentré/concentrée> et alerte, et vous le trouverez.",
+   "progress": "Avez-vous la corne, <nom> ? Est-ce que notre Puits de lune est débarrassé de Vorlus ?",
+   "completion": "Beau travail, <nom>. Il est bon de savoir que Vorlus est mort et que notre Puits de lune a retrouvé sa quiétude ; il est bon de savoir que les jeunes guerriers s'empressent de garder notre cher Teldrassil à l’abri de la corruption.\n\nMaintenant commençons votre entraînement. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4088,
+     "name": "Elanaria"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4088,
+     "name": "Elanaria"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 840,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "concentré/concentrée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1684": {
+   "id": 1684,
+   "name": "Elanaria",
+   "objectives": "Parler à Elanaria.",
+   "description": "Bonjour, <guerrier/guerrière> ! Vos compétences progressent, mais il y a plus à savoir sur votre métier que vous ne le pensez. Pour continuer à progresser il vous faudra bientôt trouver un Maître.\n\nLa guerrière Elanaria réside à Darnassus, à la Terrasse des guerriers. Elle peut vous former.",
+   "progress": null,
+   "completion": "Bonjour, <nom>. Votre nom est connu à Darnassus en tant qu'élément prometteur. Mais nous allons bientôt savoir si vous avez la volonté de suivre le chemin du <classe>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2151,
+     "name": "Prêtresse de la lune Amara"
+    },
+    {
+     "type": "npc",
+     "id": 3598,
+     "name": "Kyra Windblade"
+    },
+    {
+     "type": "npc",
+     "id": 3657,
+     "name": "Sentinelle Elissa Starbreeze"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4088,
+     "name": "Elanaria"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 85,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "guerrier/guerrière"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1686": {
+   "id": 1686,
+   "name": "L'Ombre d'Elura",
+   "objectives": "Apporter 8 Caisses de Minerai d'Elunite et le Médaillon d'Elura à Elanaria à Darnassus.",
+   "description": "Vous avez appris beaucoup, <nom>. Maintenant nous allons vous fabriquer une arme. Une arme de <guerrier/guerrière>.\n\nPour cela, vous devez aller à Sombrivage.\n\nIl y a bien longtemps, un bateau s'est brisé sur les rochers près du phare d'Auberdine, éparpillant ses caisses de minerai d'Elunite au fond de l'océan.\n\nTout d'abord, vous devez vaincre la gardienne de l'Elunite : l'Ombre d'Elura. C'était le capitaine du bateau, elle s'est condamnée elle-même à errer au fond de l'océan pour protéger la cargaison à jamais. Combattez-la, récupérez son médaillon, et remonter toutes les caisses de minerai.",
+   "progress": "Avez-vous vaincu l'Ombre d'Elura, <nom> ? Et avez-vous le minerai d'élunite perdu ?",
+   "completion": "Bravo, <nom>.\n\nVous avez apporté à l'Ombre d'Elura une paix bien méritée, et nous utiliserons l'elunite recueillie pour vous fabriquer une arme de qualité.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4088,
+     "name": "Elanaria"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4088,
+     "name": "Elanaria"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 840,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "guerrier/guerrière",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1692": {
+   "id": 1692,
+   "name": "Forgeron Mathiel",
+   "objectives": "Apporter la Caisse d'Elunite au Forgeron Mathiel.",
+   "description": "J'ai mis l'Elunite que vous avez récupérée dans une caisse. Portez-la au Forgeron Mathiel, il fabriquera votre arme avec.\n\nMathiel est au sud, de l'autre côté de ce bâtiment.",
+   "progress": "Bonjour, <classe>. Comment puis-je vous servir ?",
+   "completion": "Ah ! Du minerai d'Elunite. C'est un métal délicat à travailler, il est béni par la déesse Elune elle-même. Cela va être un honneur d'en faire des armes.\n\nAttendez le temps que je travaille. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4088,
+     "name": "Elanaria"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6142,
+     "name": "Mathiel"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1693": {
+   "id": 1693,
+   "name": "Armes en Elunite",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "<nom>, j'ai fabriqué ces armes avec l'élunite que vous m'avez apportée. S'il vous plaît, prenez ce qui vous convient le mieux.\n\nAnd Je dois vous remercier. Travailler avec elunite est à la fois un honneur et un plaisir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6142,
+     "name": "Mathiel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6142,
+     "name": "Mathiel"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 630,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1698": {
+   "id": 1698,
+   "name": "Yorus Barleybrew",
+   "objectives": "Parler à Yorus Barleybrew.",
+   "description": "Yorus Barleybrew a lancé un défi à tous les guerriers de l'Alliance. Il attend à l'Auberge de Lakeshire, dans les Carmines, et promet une grande récompense à celui qui passera l'épreuve.",
+   "progress": null,
+   "completion": "Ah ! Vous avez entendu parler de mon défi, n'est-ce pas ?\n\nBien. Asseyez-vous, prenez un verre et savourez-le. . . Car c'est peut-être le dernier.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5113,
+     "name": "Kelv Sternhammer"
+    },
+    {
+     "type": "npc",
+     "id": 5479,
+     "name": "Wu Shen"
+    },
+    {
+     "type": "npc",
+     "id": 7315,
+     "name": "Darnath Bladesinger"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6166,
+     "name": "Yorus Barleybrew"
+    }
+   ],
+   "zone_id": -81,
+   "level": 20,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 155,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah ! Vous avez entendu parler de mon défi, n'est-ce pas ?\n\nBien. Asseyez-vous, prenez un verre et savourez-le... Car c'est peut-être le dernier."
+     },
+     "npc": 6166,
+     "npc_name": "Yorus Barleybrew",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Auberge de Comté-du-Lac",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794342315,
+     "last_seen": 1794342315
+    },
+    "detail": {
+     "texts": {
+      "description": "Yorus Barleybrew a lancé un défi à tous les guerriers de l'Alliance. Il attend à l'Auberge de Comté-du-Lac, dans les Carmines, et promet une grande récompense à celui qui passera l'épreuve.",
+      "objectives": "Parler à Yorus Barleybrew.",
+      "name": "Yorus Barleybrew"
+     },
+     "npc": 5113,
+     "npc_name": "Kelv Sternhammer",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forgefer",
+     "map_id": 1455,
+     "client": "1.60.1.70862",
+     "first_seen": 1794338547,
+     "last_seen": 1794338547
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1699": {
+   "id": 1699,
+   "name": "Le défi de Rethban",
+   "objectives": "Entrer dans les Cavernes de Rethban jusqu'à la première fourche, et revenir voir Barleybrew dans le temps imparti.\n\nVous ne devez pas mourir.",
+   "description": "J'ai appelé cette épreuve le \"défi de Rethban\". Pour passer l'épreuve, tout ce que vous avez à faire c'est d'entrer dans les Cavernes de Rethban, jusqu'à la première fourche. Facile ! Sauf qu'il y a certaines conditions...\n\nVous devez être de retour dans moins d'une heure.\n\nEt il y a un tas de gnolls des Carmines sur le chemin.\n\nAvant de commencer, il faut que vous preniez une lampée de ma boisson personnelle : du Barleybrew Scalder !\n\nAlors qu'en dites-vous ? Les Cavernes de Rethban sont dans les collines, au nord de Lakeshire. Êtes-vous <prêt/prête> à relever le défi de Rethban ?",
+   "progress": "L'heure tourne, <nom>. Si j'étais vous, je partirais. . .",
+   "completion": "Vous l'avez fait ! Bien joué ! Hourra pour <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6166,
+     "name": "Yorus Barleybrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6166,
+     "name": "Yorus Barleybrew"
+    }
+   ],
+   "zone_id": -81,
+   "level": 22,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 1300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vous l'avez fait ! Bien joué ! Hourra pour <nom> !"
+     },
+     "npc": 6166,
+     "npc_name": "Yorus Barleybrew",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Auberge de Comté-du-Lac",
+     "map_id": null,
+     "client": "1.60.1.70888",
+     "first_seen": 1794383036,
+     "last_seen": 1794383036
+    },
+    "detail": {
+     "texts": {
+      "description": "J'ai appelé cette épreuve le \"défi de Rethban\". Pour passer l'épreuve, tout ce que vous avez à faire c'est d'entrer dans les Cavernes de Rethban, jusqu'à la première fourche. Facile ! Sauf qu'il y a certaines conditions...\n\nVous devez être de retour dans moins d'une heure.\n\nEt il y a un tas de gnolls des Carmines sur le chemin.\n\nAvant de commencer, il faut que vous preniez une lampée de ma boisson personnelle : du Barleybrew Scalder !\n\nAlors qu'en dites-vous ? Les Cavernes de Rethban sont dans les collines, au nord de Comté-du-Lac. Êtes-vous prêt à relever le défi de Rethban ?",
+      "objectives": "Entrer dans les Cavernes de Rethban jusqu'à la première fourche, et revenir voir Barleybrew dans le temps imparti.\n\nVous ne devez pas mourir.",
+      "name": "Le défi de Rethban"
+     },
+     "npc": 6166,
+     "npc_name": "Yorus Barleybrew",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Auberge de Comté-du-Lac",
+     "map_id": 1433,
+     "client": "1.60.1.70862",
+     "first_seen": 1794170423,
+     "last_seen": 1794382707
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1700": {
+   "id": 1700,
+   "name": "Grimand Elmore",
+   "objectives": "Porter les Notes de Furen à Grimand Elmore.",
+   "description": "J'ai pris des notes sur les techniques que j'ai mises au point en faisant votre armure, et je dois en faire parvenir une copie à Grimand Elmore. Il est ici dans le quartier des nains, au Magasin d'armes.\n\nEt attention quand vous lui donnerez mes notes. Il est extrêmement fier de ses compétences, et il n'aimera pas l'idée que je puisse lui apprendre quelque chose...",
+   "progress": "Bonjour et bienvenue. Que puis-je faire pour vous ?",
+   "completion": "Furen a écrit ça ? Comment ose-t-il ? C’est moi qui lui ai tout appris ! Penser qu'il puisse m'apprendre quelque chose est scandaleux ! Scandaleux !\n\nHum. . . Mais il y a quelque chose dans ses notes que j'aimerais tenter. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5413,
+     "name": "Furen Longbeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1416,
+     "name": "Grimand Elmore"
+    }
+   ],
+   "zone_id": -81,
+   "level": 28,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 570,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1701": {
+   "id": 1701,
+   "name": "Une cotte de mailles en acier trempé",
+   "objectives": "Réunir les matériaux dont Furen Longbeard a besoin et lui apporter à Stormwind.",
+   "description": "Alors je vous ai donné un bon bouclier, mais on ne va pas s'arrêter là. Je connais le secret pour fabriquer une Cotte de mailles extrêmement résistante. C'est difficile à faire et demande des matériaux très rares, mais si vous voulez faire le travail sur le terrain, alors je vous en fabriquerais une.\n\nQu’en dites-vous, <nom> ? Vous relevez le défi ? Je vais donc vous donner la liste des éléments dont j'ai besoin et où les trouver.",
+   "progress": "Comment se passe la chasse aux charognards, <nom> ? Avez-vous les matériaux dont j'ai besoin ?",
+   "completion": "Vous avez tout ? Incroyable ! J'avais peur que ces chimères ne vous mangent !\n\nTrès bien, commençons cette armure. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5413,
+     "name": "Furen Longbeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5413,
+     "name": "Furen Longbeard"
+    }
+   ],
+   "zone_id": -81,
+   "level": 28,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 2300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Alors je vous ai donné un bon bouclier, mais on ne va pas s'arrêter là. Je connais le secret pour fabriquer une Cotte de mailles extrêmement résistante. C'est difficile à faire et demande des matériaux très rares, mais si vous voulez faire le travail sur le terrain, alors je vous en fabriquerais une.\n\nQu’en dites-vous, <nom> ? Vous relevez le défi ? Je vais donc vous donner la liste des éléments dont j'ai besoin et où les trouver.",
+      "objectives": "Réunir les matériaux dont Furen Longbeard a besoin et lui apporter à Hurlevent.",
+      "name": "Une cotte de mailles en acier trempé"
+     },
+     "npc": 5413,
+     "npc_name": "Furen Longbeard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": 1453,
+     "client": "1.60.1.70888",
+     "first_seen": 1794391247,
+     "last_seen": 1794391247
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1702": {
+   "id": 1702,
+   "name": "Fabricant de bouclier",
+   "objectives": "Apporter le Tonneau de Scalder à Furen Longbeard.",
+   "description": "Vous avez montré vos talents en relevant le défi de Rethban, <nom>. Et je respecterai ma parole. Je vais vous donner votre récompense...\n\nSauf qu'elle est à Stormwind.\n\nParlez à mon ami, Furen Longbeard, dans le quartier des nains de Stormwind. C'est le meilleur fabriquant de boucliers que vous rencontrerez, et il me doit une faveur.\n\nTenez, apportez-lui ce tonneau de Barleybrew Scalder et demandez-lui un bouclier. Il vous en donnera un bon.",
+   "progress": "Bonjour ! Temps sec, ne trouvez-vous pas ?",
+   "completion": "Ah ! De la Barleybrew Scalder. Quelle aubaine ! C'est que vous avez vu Yorus, hein ?\n\nJe peux vous avoir un bouclier, ouaip m’sieur ! Vous ne pourrez pas en trouver de mieux, sans blague !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6166,
+     "name": "Yorus Barleybrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5413,
+     "name": "Furen Longbeard"
+    }
+   ],
+   "zone_id": -81,
+   "level": 22,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 435,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah ! De la Barleybrew Scalder. Quelle aubaine ! C'est que vous avez vu Yorus, hein ?\n\nJe peux vous avoir un bouclier, ouaip m’sieur ! Vous ne pourrez pas en trouver de mieux, sans blague !"
+     },
+     "npc": 5413,
+     "npc_name": "Furen Longbeard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": null,
+     "client": "1.60.1.70888",
+     "first_seen": 1794391246,
+     "last_seen": 1794391246
+    },
+    "detail": {
+     "texts": {
+      "description": "Vous avez montré vos talents en relevant le défi de Rethban, <nom>. Et je respecterai ma parole. Je vais vous donner votre récompense...\n\nSauf qu'elle est à Hurlevent.\n\nParlez à mon ami, Furen Longbeard, dans le quartier des nains de Hurlevent. C'est le meilleur fabriquant de boucliers que vous rencontrerez, et il me doit une faveur.\n\nTenez, apportez-lui ce tonneau de Barleybrew Scalder et demandez-lui un bouclier. Il vous en donnera un bon.",
+      "objectives": "Apporter le Tonneau de Scalder à Furen Longbeard.",
+      "name": "Fabricant de bouclier"
+     },
+     "npc": 6166,
+     "npc_name": "Yorus Barleybrew",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Auberge de Comté-du-Lac",
+     "map_id": 1433,
+     "client": "1.60.1.70888",
+     "first_seen": 1794383888,
+     "last_seen": 1794383888
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1703": {
+   "id": 1703,
+   "name": "Mathiel",
+   "objectives": "Apporter les Notes de Furen à Mathiel.",
+   "description": "J'ai pris des notes sur les techniques que j'ai mises au point en faisant votre armure, et je dois en faire parvenir une copie au Forgeron Mathiel. Il vit à Darnassus, assez loin d'ici, mais je suis sûr qu'il sera reconnaissant de pouvoir apprendre ce que j'ai appris.",
+   "progress": "Je vous salue, <classe>.",
+   "completion": "C'est intéressant, très intéressant. Mon collègue nain Furen a fait une grande découverte !\n\nMerci, <nom>. J'aurai l'honneur d'appliquer ses nouvelles techniques à mes propres créations.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5413,
+     "name": "Furen Longbeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6142,
+     "name": "Mathiel"
+    }
+   ],
+   "zone_id": -81,
+   "level": 28,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 1150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1704": {
+   "id": 1704,
+   "name": "Klockmort Spannerspan",
+   "objectives": "Apporter les Notes de Furen à Klockmort Spannerspan.",
+   "description": "J'ai pris des notes sur les techniques que j'ai mises au point en faisant votre armure, et je dois en faire parvenir une copie à Klockmort Spannerspan. C'est un Forgeron gnome d’Ironforge et quand il lira mes découvertes, je parie qu'il s'arrachera la barbe.",
+   "progress": "Bonjour, ou bonsoir. Je ne sais même plus qu'elle heure il est. Vous avez quelque chose pour moi ?",
+   "completion": "Oh D. . . ! Ces notes sont étonnantes ! Et même plus. . . elles sont incroyables, stupéfiantes, mes jambes en tremblent !\n\nFuren a fait une découverte ! Une réelle découverte ! Je ne peux pas attendre pour l'essayer !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5413,
+     "name": "Furen Longbeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6169,
+     "name": "Klockmort Spannerspan"
+    }
+   ],
+   "zone_id": -81,
+   "level": 28,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 570,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1705": {
+   "id": 1705,
+   "name": "Le sang ardent",
+   "objectives": "Rapporter 20 Fioles de sang ardent et 1 Roc ardent à Grimand Elmore à Stormwind.",
+   "description": "Je déteste l'admettre, mais Furen a fait une découverte impressionnante. Mais pour être sûr je dois l'essayer moi-même sur une armure. Si vous me procurez le matériel, <nom>, alors vous pourrez en avoir une.\n\nPour faire cette armure, il me faut des échantillons de sang ardent et du roc ardent.\n\nLe seul endroit où je sais en trouver est le bois de la Pénombre. Les worgens Plaie-de-nuit basés dans la mine du Destin de Roland ont du sang ardent, et leur chef, Videssac, devrait avoir le Roc.\n\nQue la chance soit avec vous, <nom> !",
+   "progress": "<nom>, avez-vous le Sang et le Roc ardents ? J'en ai besoin pour terminer l'armure.",
+   "completion": "Beau travail ! Maintenant veuillez m'excuser, je dois aller travailler. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1416,
+     "name": "Grimand Elmore"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1416,
+     "name": "Grimand Elmore"
+    }
+   ],
+   "zone_id": -81,
+   "level": 28,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 2300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1706": {
+   "id": 1706,
+   "name": "L'armure de Grimand",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "J'ai peine à y croire ! La technique de Furen a été un succès, et cette armure devrait résister à des niveaux de stress énormes.\n\nVoilà, <nom>. Et merci. Je n'aurais pas cru à la découverte de Furen si vous n'aviez pas rassemblé les matériaux dont j'avais besoin pour la tester moi-même.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1416,
+     "name": "Grimand Elmore"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1416,
+     "name": "Grimand Elmore"
+    }
+   ],
+   "zone_id": -81,
+   "level": 30,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 3050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1708": {
+   "id": 1708,
+   "name": "Le corail de fer",
+   "objectives": "Apporter 20 Coraux torrides à Klockmort Spannerspan à Ironforge.",
+   "description": "Je veux essayer la nouvelle technique de Furen Longbeard sur une de mes pièces d'armure. Et parce que vous avez aidé Furen et qu'il m'a aidé, je vous offrirai l'armure que j’aurai fabriquée !\n\nPour faire la pièce, j'ai besoin d'un corail spécial, du corail torride. Il pousse à un seul endroit : le long des côtes au sud du port de Menethil dans les Paluns.\n\nApportez-moi suffisamment de corail torride et je pourrai fabriquer l'armure. Et dépêchez-vous, <nom>. Je suis impatient de commencer !",
+   "progress": "Bonjour, bonjour, <nom> ! Avez-vous le corail torride ? Je n'en peux plus d'attendre !",
+   "completion": "Voilà c'est ça ! Bien joué ! Maintenant, laissez-moi travailler et appliquer les méthodes de Furen et nous verrons le résultat !\n\nOh ! Ça alors ! Par exemple ! Je sais juste que l'armure sera très très très, TRÈS résistante !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6169,
+     "name": "Klockmort Spannerspan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6169,
+     "name": "Klockmort Spannerspan"
+    }
+   ],
+   "zone_id": -81,
+   "level": 29,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 1750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1709": {
+   "id": 1709,
+   "name": "La création de Klockmort",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Voilà votre armure, <nom>. Le procédé de Furen fonctionne à la perfection ! À la perfection ! Merveilleux, vraiment !\n\nVous pourriez rouler sur cette armure avec un engin de siège, elle reprendrait sa forme en un instant !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6169,
+     "name": "Klockmort Spannerspan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6169,
+     "name": "Klockmort Spannerspan"
+    }
+   ],
+   "zone_id": -81,
+   "level": 30,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 3050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1710": {
+   "id": 1710,
+   "name": "Coquilles desséchées au soleil",
+   "objectives": "Apporter 20 Coquilles desséchées au soleil à Mathiel à Darnassus.",
+   "description": "Mon collègue, Furen Longbeard, a fait une découverte que je suis impatient d'essayer. Je veux la tester sur une de mes nouvelles armures, car je pense que les techniques de Furen me permettraient d’améliorer la qualité de mes produits.\n\nVoulez-vous m'aider ? Si vous me ramenez de quoi fabriquer l'armure, alors j'en ferai une pour vous.\n\nJ'ai besoin de coquilles d'œuf desséchées au soleil des wyvernes Aile-fière qui résident au Haut-perchoir, dans les Mille pointes. Cherchez les coquilles au pied de leurs nids, et revenez quand vous en aurez assez.",
+   "progress": "Avez-vous les coquilles, <nom> ? Elles sont très résistantes et peuvent être transformées en laque que j'appliquerai sur les mailles de ma nouvelle cotte.",
+   "completion": "Ah merci ! Cela fonctionne parfaitement !\n\nJe vais faire l'armure immédiatement. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6142,
+     "name": "Mathiel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6142,
+     "name": "Mathiel"
+    }
+   ],
+   "zone_id": -81,
+   "level": 30,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 1850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1711": {
+   "id": 1711,
+   "name": "L'armure de Mathiel",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "J'ai fini votre armure, et j'en suis satisfait. Les techniques de Furen cadrent parfaitement avec les miennes et je suis sûr que cette armure est extrêmement résistante.\n\nMerci, <nom>. Et qu'elle vous serve pour vos combats futurs !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6142,
+     "name": "Mathiel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6142,
+     "name": "Mathiel"
+    }
+   ],
+   "zone_id": -81,
+   "level": 30,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 3050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1712": {
+   "id": 1712,
+   "name": "Cyclonien",
+   "objectives": "Apporter les objets du Parchemin de Bath'rah à Bath'rah la Vigie des vents à Alterac.",
+   "description": "J'ai passé un temps considérable à observer ce site. J'observe… Je verrai peut-être tomber le Grand Cyclonien ! Mais je n'ai toujours pas trouvé un champion pour combattre le Seigneur des vents.\n\nPeut-être est-ce vous ?\n\nProuvez-le moi. Rassemblez les éléments dont j'ai besoin pour invoquer un Cyclonien, et je saurai que vous êtes <un grand guerrier/une grande guerrière>. Peut-être pouvez-vous le battre et récupérer son cœur de tourbillon.\n\nSi c'est le cas, alors je transmettrai le pouvoir du cœur dans une arme que je vous donnerai.\n\nVoilà le parchemin qui liste les objets dont j'ai besoin.",
+   "progress": "Avez-vous les objets, <nom> ? Les apporter prouvera que vous avez la force de combattre un Cyclonien.",
+   "completion": "Vous avez rassemblé les composants pour mon sort, et vous avez montré votre force et votre adresse. Mais la prochaine partie de notre quête est bien plus périlleuse.\n\nEspérons que votre force ne faiblira pas.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6176,
+     "name": "Bath'rah la Vigie des vents"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6176,
+     "name": "Bath'rah la Vigie des vents"
+    }
+   ],
+   "zone_id": -81,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 2350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "un grand guerrier/une grande guerrière"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1713": {
+   "id": 1713,
+   "name": "L'invocation",
+   "objectives": "Rapporter le Cœur de tourbillon à Bath'rah la Vigie des vents.",
+   "description": "Je suis prêt à faire mon rituel pour invoquer un Cyclonien. Quand il apparaîtra, vous devez l'abattre et lui prendre son Cœur de tourbillon. Je l'utiliserai pour faire une arme qui possédera les pouvoirs du Cyclonien.\n\n<nom>, êtes-vous <prêt/prête> à affronter le Maître des vents ?",
+   "progress": "<nom>, je dois avoir le Cœur de tourbillon !",
+   "completion": "Vous avez réussi ! Vous avez vaincu le Cyclonien et récupéré son Cœur de tourbillon !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6176,
+     "name": "Bath'rah la Vigie des vents"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6176,
+     "name": "Bath'rah la Vigie des vents"
+    }
+   ],
+   "zone_id": -81,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 2350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1714": {
+   "id": 1714,
+   "name": "Essence d'exil",
+   "objectives": null,
+   "description": null,
+   "progress": "Le chaudron bouillonne. Ces vapeurs attirent...",
+   "completion": "Le charme s'enfonce lentement dans le chaudron. . .\n\nUne grosse bulle se forme à la surface du liquide et éclate. . .\n\n. . . Et un morceau de roche en fusion apparaît.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 89931,
+     "name": "Bath'rah's Cauldron"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 89931,
+     "name": "Bath'rah's Cauldron"
+    }
+   ],
+   "zone_id": -81,
+   "level": 37,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1718": {
+   "id": 1718,
+   "name": "L'île mortelle",
+   "objectives": "Parler à Klannoc Macleod.",
+   "description": "Votre renommée en tant que <guerrier/guerrière> s'accroît, <nom>. Il est temps de vous mesurer à l'un de vos pairs.\n\nIl existe une île près des côtes des Tarides, au sud de Ratchet : l'île de la Dispute. Les guerriers s’y retrouvent.\n\nS’y retrouvent et s’affrontent.\n\nParlez au chef des guerriers de l'île, Klannoc Macleod. S’il pense que vous le méritez, alors il vous guidera plus avant sur la voie du guerrier.\n\nPour atteindre l'île de la Dispute, cherchez des bancs de sable à faible profondeur le long de la Côte des marchands.",
+   "progress": null,
+   "completion": "Bonjour, guerrier. Je suis heureux de voir que tu es arrivé sur l'île Fray. J'espère que tu y trouveras ton compte...",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3041,
+     "name": "Torm Ragetotem"
+    },
+    {
+     "type": "npc",
+     "id": 3354,
+     "name": "Sorek"
+    },
+    {
+     "type": "npc",
+     "id": 4595,
+     "name": "Baltus Fowler"
+    },
+    {
+     "type": "npc",
+     "id": 5113,
+     "name": "Kelv Sternhammer"
+    },
+    {
+     "type": "npc",
+     "id": 5479,
+     "name": "Wu Shen"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6236,
+     "name": "Klannoc Macleod"
+    }
+   ],
+   "zone_id": -81,
+   "level": 30,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 610,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "guerrier/guerrière",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1719": {
+   "id": 1719,
+   "name": "La Dispute",
+   "objectives": "Tuer le Grand Will et parler à Klannoc Macleod sur l'île de la Dispute.",
+   "description": "Si vous voulez que je sois votre Maître, vous devez d'abord passer la Dispute. C'est une épreuve que nous, sur l'île de la Dispute, aimons faire passer aux guerriers qui pensent être forts, et si vous réussissez ce test alors nous saurons que vous l'êtes.\n\nPour commencer, marchez à travers cette foule là-bas, et allez jusqu'à l'âtre. Dites à Twiggy Flathead que vous êtes <prêt/prête>, il vous enverra des partenaires de combat.\n\nBattez-les tous, et il appellera le Grand Will. Tuez le Grand Will, et revenez me voir.",
+   "progress": "Avez-vous réussi l’épreuve ?",
+   "completion": "Bien joué, <nom>. Vous avez passé la Dispute !\n\nVous êtes un vaillant <classe>, et c'est un honneur d'être votre Maître. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6236,
+     "name": "Klannoc Macleod"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6236,
+     "name": "Klannoc Macleod"
+    }
+   ],
+   "zone_id": -81,
+   "level": 30,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 2450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1791": {
+   "id": 1791,
+   "name": "La Vigie des vents",
+   "objectives": "Parler à Bath'rah la Vigie des vents.",
+   "description": "À présent que vous avez appris la posture berserker, vous aurez besoin d'une belle arme avec laquelle l'utiliser.\n\nAllez parler à Bath'rah la Vigie des vents, un troll ermite qui vit entre les montagnes d'Alterac et les Maleterres de l'est. C'est un fabricant d'armes très versé dans son métier et un puissant chaman.\n\nPour le trouver, allez à la rivière qui coule le long du côté est de Moulin-de-Tarren. Remontez-la vers le nord. Bath'rah campe près des ruines jonchant la rive est de la rivière.",
+   "progress": null,
+   "completion": "Vous avez voyagé bien loin, jeune <classe>. Je lis la fougue dans vos yeux. Vous cherchez une arme puissante, non ?\n\nJe peux vous aider dans votre quête. Et vous, pouvez-vous m'aider dans la mienne.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6236,
+     "name": "Klannoc Macleod"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6176,
+     "name": "Bath'rah la Vigie des vents"
+    }
+   ],
+   "zone_id": -81,
+   "level": 30,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 245,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1792": {
+   "id": 1792,
+   "name": "Arme Tourbillon",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "J'ai le Cœur de tourbillon, et je suis prêt à le placer dans le réceptacle de votre choix.\n\nChoisissez l'arme, <nom>, et sachez que ce pouvoir est le pouvoir du Cyclonien.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6176,
+     "name": "Bath'rah la Vigie des vents"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6176,
+     "name": "Bath'rah la Vigie des vents"
+    }
+   ],
+   "zone_id": -81,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1818": {
+   "id": 1818,
+   "name": "Parler à Dillinger",
+   "objectives": "Parler au Garde noir Dillinger à Brill.",
+   "description": "J'ai entendu dire que Dillinger le Garde noir avait un travail pour quelqu'un comme vous. Si vous voulez prouver votre valeur aux forces de la Dame noire, alors présentez-vous devant Dillinger immédiatement.\n\nLe poste de Dillinger le Garde noir est à la frontière ouest de Brill, près du cimetière.",
+   "progress": null,
+   "completion": "Vous êtes ici pour une mission ? Bien. J'en ai une importante, une qui testera votre habileté au combat. . . Et votre résolution à défendre les Réprouvés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2131,
+     "name": "Austil de Mon"
+    },
+    {
+     "type": "npc",
+     "id": 4595,
+     "name": "Baltus Fowler"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1496,
+     "name": "Garde noir Dillinger"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 85,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1819": {
+   "id": 1819,
+   "name": "Ulag le Fendeur",
+   "objectives": "Tuer Ulag le Fendeur, puis parler au Garde noire Dillinger.",
+   "description": "Lorsque le Fléau s'est abattu sur les Clairières de Tirisfal, nous avons capturé l'un de ses serviteurs pour l'étudier. C'était un esprit libre, qui se nommait Ulag le Fendeur. Pourtant, malgré sa libre conscience, le roi-liche avait gardé son emprise sur lui.\n\nNous espérions trouver un moyen de le délivrer de cette influence, mais nous avons échoué. Il est temps de le libérer, maintenant...\n\nLibérez-le et tuez-le.\n\nEn actionnant le déclencheur de la Pierre du Crâne devant le Mausolée qui se trouve au nord, vous briserez le sceau magique qui le lie.\n\nAprès... Il faudra frapper vite et fort, <nom> !",
+   "progress": "Votre tâche n'est pas encore accomplie, <nom>. Il n'est pas sage pour un guerrier de montrer de la peur...",
+   "completion": "Bien joué, <nom>. Ulag n'était pas une piétaille du Fléau. Vous avez montré aux Gardes noirs, et donc à la Dame noire, que vous êtes un <classe> compétent et résolu, et digne de remplir d'autres missions.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1496,
+     "name": "Garde noir Dillinger"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1496,
+     "name": "Garde noir Dillinger"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 840,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1820": {
+   "id": 1820,
+   "name": "Parler à Coleman",
+   "objectives": "Parler à Coleman Farthing.",
+   "description": "Vous avez prouvé votre valeur à la Dame noire, à présent vous pourrez peut-être la prouver à l'un de ses sujets.\n\nColeman Farthing cherche un guerrier pour être son bras vengeur contre les ennemis des Réprouvés.\n\nVous le trouverez à « la Taverne des Pendus » dans l'est de Brill.",
+   "progress": null,
+   "completion": "Oui, c'est vrai ! J'ai besoin des talents d’un <classe>. J'ai des moyens modestes, mais la tâche à accomplir m'aidera autant qu'elle aidera la cause des Réprouvés. Faites-le, et votre récompense sera double.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1496,
+     "name": "Garde noir Dillinger"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1500,
+     "name": "Coleman Farthing"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 210,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1821": {
+   "id": 1821,
+   "name": "L'héritage des Agamand",
+   "objectives": "Rapporter à Coleman Farthing la Hache de la famille Agamand, l'Epée de la famille Agamand, la Masse de la famille Agamand et la Dague de la famille Agamand.",
+   "description": "J'ai servi la famille Agamand tout le long de ma vie et ils ont été la cause de ma mort ! S'ils sont maintenant les esclaves du roi-liche, ce n'est que justice !\n\nÀ présent, je dois m'approprier les derniers vestiges de leur honneur perdu. Dans leur crypte, je veux que vous voliez leur héritage familial : une épée, une hache, une dague et une masse, et que vous me les apportiez.\n\nLa Crypte de la famille Agamand se trouve à la lisière nord des Moulins d'Agamand, sous la protection d'un Fléau errant et des Agamands morts.",
+   "progress": "Vous avez les héritages, <nom> ?",
+   "completion": "Ah ! Vous les avez récupérés ! Maintenant, le dernier semblant d'honneur et de mémoire est dépouillé des terres maudites d'Agamand. La famille n'existe plus !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1500,
+     "name": "Coleman Farthing"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1500,
+     "name": "Coleman Farthing"
+    }
+   ],
+   "zone_id": -81,
+   "level": 11,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 660,
+   "money": 300,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1822": {
+   "id": 1822,
+   "name": "Une arme en héritage",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Je garderai trois des armes que vous m'avez rendues, en souvenir de ma douleur et de ma perte. Mais s'il vous plaît, <nom>, choisissez votre arme préférée et gardez-la pour vous.\n\nQu'il vous serve plus qu'il n'a servi à ses maudits anciens propriétaires.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1500,
+     "name": "Coleman Farthing"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1500,
+     "name": "Coleman Farthing"
+    }
+   ],
+   "zone_id": -81,
+   "level": 11,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 880,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1823": {
+   "id": 1823,
+   "name": "Parler à Ruga",
+   "objectives": "Parler à Ruga Ragetotem.",
+   "description": "Vous êtes un guerrier compétant à la renommée croissante. Peut-être êtes-vous <prêt/prête> pour l'épreuve de Ruga Ragetotem ? Si c'est le cas, alors allez trouver Ruga au Camp Taurajo dans les Tarides.\n\nIl cherche des guerriers qui accepteraient de passer son épreuve.",
+   "progress": null,
+   "completion": "Êtes-vous ici pour mon épreuve, <nom> ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3041,
+     "name": "Torm Ragetotem"
+    },
+    {
+     "type": "npc",
+     "id": 3354,
+     "name": "Sorek"
+    },
+    {
+     "type": "npc",
+     "id": 4595,
+     "name": "Baltus Fowler"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6394,
+     "name": "Ruga Ragetotem"
+    }
+   ],
+   "zone_id": -81,
+   "level": 20,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 155,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1824": {
+   "id": 1824,
+   "name": "L'épreuve du Champ des géants",
+   "objectives": "Apporter 5 Antennes mobiles à Ruga Ragetotem au Camp Taurajo.",
+   "description": "Pour passer l'épreuve, vous devez voyager vers le sud jusqu'au Champ des géants. Là-bas, vous trouverez un grand nombre d'insectes rampants. Ils sont récemment arrivés dans les Tarides et je pense que cela ne présage rien de bon.\n\nApportez-moi leurs antennes mobiles, et ne perdez pas de temps, <nom>. Ces antennes ne remuent pas longtemps. Apportez-les-moi dans le temps alloué, et vous aurez passé l'épreuve.",
+   "progress": "Vous avez les antennes ? Si oui, donnez-les-moi vite, parce que les antennes mobiles ne le restent pas éternellement…",
+   "completion": "Bien joué, <nom> ! En passant l'épreuve du Champ des géants, vous avez fait un pas de plus sur le chemin des guerriers.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6394,
+     "name": "Ruga Ragetotem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6394,
+     "name": "Ruga Ragetotem"
+    }
+   ],
+   "zone_id": -81,
+   "level": 20,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 1550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1825": {
+   "id": 1825,
+   "name": "Parler à Thun'grim",
+   "objectives": "Parler à Thun'grim Firegaze dans les Tarides.",
+   "description": "Thun'grim Firegaze, un forgeron orc de grande renommée, a entendu parler de vos exploits au service de la Horde. Il voudrait vous confectionner un équipement d'armure et vous propose d'aller en discuter immédiatement avec lui.\n\nThun'grim campe à l'est de la Croisée dans les Tarides.",
+   "progress": null,
+   "completion": "Oui, vous êtes là ! C'est bien, nous avons beaucoup à nous dire, vous et moi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6394,
+     "name": "Ruga Ragetotem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5878,
+     "name": "Thun'grim Firegaze"
+    }
+   ],
+   "zone_id": -81,
+   "level": 20,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 780,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1838": {
+   "id": 1838,
+   "name": "Armure de brutalité",
+   "objectives": "Apporter à Thun'grim Firegaze 15 Lingots de Fer cendré, 10 Azurites en poudre, 10 Barres de Fer et une Fiole de Phlogiston.",
+   "description": "J'ai entendu parler de votre force et de votre courage, et je voudrais faire pour vous une armure complète qui vous aidera à mesure que vos exploits passeront à la postérité.\n\nMais faire une armure est une véritable quête en soi <nom>, et je vais avoir besoin de votre aide et de celle d'autres forgerons de la Horde.\n\nTenez, prenez ce parchemin. J'ai passé de nombreuses nuits à lutter avec mes yeux presque aveugles pour écrire tout ce dont j'ai besoin pour l'armure. Apportez-moi ce qui est noté sur ce parchemin et je créerai pour vous la première pièce de l’ensemble.",
+   "progress": "Avez-vous les articles notés sur mon rouleau, <nom> ?",
+   "completion": "Vous avez apporté tout ce que j'avais demandé. Maintenant, à moi de jouer…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5878,
+     "name": "Thun'grim Firegaze"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5878,
+     "name": "Thun'grim Firegaze"
+    }
+   ],
+   "zone_id": -81,
+   "level": 30,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 3650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1839": {
+   "id": 1839,
+   "name": "Ula'elek et les Gantelets de brutalité",
+   "objectives": "Parler à Ula'elek en Durotar.",
+   "description": "Ula'elek, le forgeron troll, va façonner pour vous les gantelets de brutalité. Il demeure en Durotar, au Village de Sen'jin, avec ses frères Darkspear, et il attend votre arrivée.",
+   "progress": null,
+   "completion": "Salutations, <nom>. Le vieux Thun'grim m'a prévenu de votre venue, mais s'il avait gardé le silence, votre présence ici ne m'aurait pas surpris.\n\nLes esprits suivent ta progression, jeune <classe>, et ils me disent que de nombreux ennemis sont tombés devant toi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5878,
+     "name": "Thun'grim Firegaze"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6408,
+     "name": "Ula'elek"
+    }
+   ],
+   "zone_id": -81,
+   "level": 30,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 1200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1840": {
+   "id": 1840,
+   "name": "Orm Stonehoof et le Camail de brutalité",
+   "objectives": "Parler à Orm Stonehoof à Thunder Bluff.",
+   "description": "Orm Stonehoof est très respecté pour son habileté. Il va fabriquer pour vous le Camail de brutalité.\n\nCherchez-le à Thunder Bluff, près du bassin du grand totem central de la cité.",
+   "progress": null,
+   "completion": "Salut à vous ! Je suis Orm et Thun'grim m'a dit que vous souhaitiez avoir un casque ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5878,
+     "name": "Thun'grim Firegaze"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6410,
+     "name": "Orm Stonehoof"
+    }
+   ],
+   "zone_id": -81,
+   "level": 30,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 1200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1841": {
+   "id": 1841,
+   "name": "Velora Nitely et les Jambières de brutalité",
+   "objectives": "Parler à Velora Nitely à Undercity.",
+   "description": "On dit qu'avant de mourir, Velora Nitely était l'un des plus grands forgerons d'armures de Lordaeron. La mort, semble-t-il, n'a pas affecté ses talents. Allez voir Velora : elle fabriquera vos Jambières de brutalité.\n\nVelora officie à Undercity de Lordaeron, dans le quartier des Marchands.",
+   "progress": null,
+   "completion": "Vous venez pour les jambières de l'armure ? Parfait !\n\nHum. . . Vais-je faire cette armure pour vous, ou allez-vous la faire pour moi ?\n\nC'était une plaisanterie ! Est-ce qu'elle était drôle ? Je ne peux pas le dire. . . J'ai perdu mon sens de l'humour en même temps que mon odorat. Et en même temps que j'ai arrêté de respirer…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5878,
+     "name": "Thun'grim Firegaze"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6411,
+     "name": "Velora Nitely"
+    }
+   ],
+   "zone_id": -81,
+   "level": 30,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 1200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1842": {
+   "id": 1842,
+   "name": "Les sabots de satyre",
+   "objectives": "Rapporter 7 Sabots fendus de satyre à Ula'elek au village de Sen'jin en Durotar.",
+   "description": "Je peux vous faire une paire de gantelets de brutalité, et ils seront porteurs d'une grande magie, mais pour cela, vous devez d'abord m'apporter cette magie.\n\nLes satyres parcourent le nord-est d'Ashenvale à cause du pouvoir de la forêt. Ils se nourrissent de sa pureté, ils aspirent son innocence comme des sangsues et la corrompent. Ceux d'entre eux ont des sabots fendus et abîmés. Ils ont volé plus de magie à la forêt que les autres.\n\nCes sabots détiennent un grand pouvoir. J'en aurai besoin pour façonner vos gantelets.",
+   "progress": "Avez-vous les sabots, <nom> ? Leur magie est forte.",
+   "completion": "Ah, vous les avez ! Maintenant, de la même façon que les satyres sucent la force d'Ashenvale, je vais sucer le pouvoir de ces sabots et l'utiliser pour mon ouvrage…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6408,
+     "name": "Ula'elek"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6408,
+     "name": "Ula'elek"
+    }
+   ],
+   "zone_id": -81,
+   "level": 30,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 1200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1843": {
+   "id": 1843,
+   "name": "Gantelets de brutalité",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Merci, <nom>. Ces Gantelets sont ma plus belle réussite. Prenez-les. En les portant, vous nous honorerez, moi et mes ancêtres.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6408,
+     "name": "Ula'elek"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6408,
+     "name": "Ula'elek"
+    }
+   ],
+   "zone_id": -81,
+   "level": 30,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 1850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1844": {
+   "id": 1844,
+   "name": "La corne de chimère",
+   "objectives": "Apporter une Corne galvanisée à Orm Stonehoof à Thunder Bluff.",
+   "description": "Je veux bien vous faire un casque, mais vous devez d'abord me montrer que vous en êtes digne.\n\nBlottie sur les flancs nord-ouest des Serres-Rocheuses se trouve le Val calciné. C'était autrefois un endroit verdoyant, mais il est désormais souillé et étouffé sous la cendre. Les créatures qui y vivent encore en sont folles de douleur et de désespoir.\n\nC'est là que je vous envoie, <nom>.\n\nVous devez aller au Val calciné et trouver une matriarche chimère. Tuez-la, libérez-la de sa misère. Apportez-moi sa corne galvanisée comme preuve et je vous ferai votre casque.",
+   "progress": "Avez-vous la corne ? La matriarche est-elle libérée de sa peine ?",
+   "completion": "Vous avez achevé votre tâche, <nom>, et vous m'avez montré votre valeur et votre résolution. Vous aurez votre casque. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6410,
+     "name": "Orm Stonehoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6410,
+     "name": "Orm Stonehoof"
+    }
+   ],
+   "zone_id": -81,
+   "level": 30,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 1200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1845": {
+   "id": 1845,
+   "name": "Camail de brutalité",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Je vous donne ce casque.\n\nCe sont vos actes héroïques qui vous ont conduit jusqu'à moi, <nom>, et la volonté de notre Mère la Terre... Des actes encore plus héroïques vous attendent.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6410,
+     "name": "Orm Stonehoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6410,
+     "name": "Orm Stonehoof"
+    }
+   ],
+   "zone_id": -81,
+   "level": 30,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 1850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1846": {
+   "id": 1846,
+   "name": "Les tibias de Dragonmaw",
+   "objectives": "Apporter 8 Solides tibias de Dragonmaw à Velora Nitely, dans Undercity.",
+   "description": "Pour faire les Jambières de brutalité, j'ai besoin de quelques solides tibias. Les orcs Dragonmaw des Paluns ont de jolis tibias bien épais. Je vais en avoir besoin.\n\nMais ils doivent être vraiment solides. Prenez soin de tester les tibias que vous ramasserez. Si vous pouvez les casser à mains nues, c'est qu'ils ne sont pas assez solides pour que je puisse travailler avec.",
+   "progress": "J'attends ces tibias, <nom>. Cela fera une belle structure pour vos jambières.",
+   "completion": "Bravo ! Ils ont l'air costauds. Je pense qu'ils feront tout à fait l'affaire. Comment ces orcs ont-ils pris le fait que vous leur empruntiez leurs tibias, <nom> ? Ils ont beaucoup protesté ?\n\nC'était une autre plaisanterie. Vous ne riez pas ?\n\nJe ne suis pas très drôle ces jours-ci. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6411,
+     "name": "Velora Nitely"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6411,
+     "name": "Velora Nitely"
+    }
+   ],
+   "zone_id": -81,
+   "level": 30,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 1200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1847": {
+   "id": 1847,
+   "name": "Jambières de brutalité",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Voici vos jambières, <nom>. Dites-moi si cela vous convient ou si vous avez besoin de modifications. J'essaie toujours de satisfaire mon client ! Du moins j'essayais.\n\nEn ce moment, je ne me soucie pas beaucoup de mon métier. Mais ça met hors jeu d'être un stupide pion du Fléau !\n\nJe suppose…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6411,
+     "name": "Velora Nitely"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6411,
+     "name": "Velora Nitely"
+    }
+   ],
+   "zone_id": -81,
+   "level": 30,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 1850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1848": {
+   "id": 1848,
+   "name": "Le haubert de brutalité",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Je sais que vous avez enduré beaucoup de privations et versé beaucoup de sang à mon service, <nom>. Voici le fruit de votre dur labeur.\n\nPuissiez-vous bien le porter et revenir ici un jour pour me conter les services qu'il vous aura rendus.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5878,
+     "name": "Thun'grim Firegaze"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5878,
+     "name": "Thun'grim Firegaze"
+    }
+   ],
+   "zone_id": -81,
+   "level": 30,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 3050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "2383": {
+   "id": 2383,
+   "name": "Parchemin simple",
+   "objectives": "Lire le Simple parchemin, et parler à Frang, dans la Vallée des épreuves.",
+   "description": "Ah, pendant que vous n’étiez pas là un parchemin est arrivé pour vous, <nom>.\n\nLisez-le quand vous en aurez le temps. Si je ne me trompe pas, il provient du Maître des guerriers Frang. Il souhaiterait s’entretenir avec vous, quand vous jugerez le moment venu. Vous le trouverez à l’extérieur de l’Antre, dissimulé dans l’ombre.",
+   "progress": "Qu'est-ce que vous avez là ? Un parchemin ? Vous n'êtes pas un savant, j'espère ?",
+   "completion": "Oh ! C'est mon parchemin… On m'avait dit que vous viendriez à la vallée, <nom>. Je suis heureux de voir que vous l'avez fait. Espérons que vous survivrez à vos prochains défis. Comme je disais, venez me voir au cours de votre progression, je ferai mon possible pour vous enseigner la voie du <classe>.\n\nBonne chance, <nom> et revenez me voir quand vous vous sentirez prêt.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3143,
+     "name": "Gornek"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3153,
+     "name": "Frang"
+    }
+   ],
+   "zone_id": -81,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3065": {
+   "id": 3065,
+   "name": "Tablette simple",
+   "objectives": "Lire la Tablette simple, et parler à Frang, dans la Vallée des épreuves.",
+   "description": "Ah, pendant que vous n’étiez pas là un parchemin est arrivé pour vous, <nom>.\n\nLisez-le quand vous en aurez le temps. Si je ne me trompe pas, il provient du Maître des guerriers Frang. Il souhaiterait s’entretenir avec vous, quand vous jugerez le moment venu. Vous le trouverez à l’extérieur de l’Antre, dissimulé dans l’ombre.",
+   "progress": "Encore du renfort ! Cela me convient.\n\nVous aurez sûrement du mal à soulever une bonne arme comme une hache, mais une lance c'est déjà mieux que rien.\n\nBienvenue dans la Vallée des épreuves, <nom>.",
+   "completion": "Vous vous plairez ici, à mesure que vous vous y entraînerez. Si vous avez des questions, demandez conseil autour de vous et lorsque vous vous sentirez prêt, revenez me voir. J'ai été le maître d'armes de chaque <classe> de la vallée et je peux vous former. . . Cependant, mes leçons ont un prix.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3143,
+     "name": "Gornek"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3153,
+     "name": "Frang"
+    }
+   ],
+   "zone_id": -81,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3091": {
+   "id": 3091,
+   "name": "Note simple",
+   "objectives": "Lire la Note simple, et parler à Harutt Thunderhorn, à Camp Narache.",
+   "description": "Il y a quelques instants, une messagère était à votre recherche, <nom>. Je crois qu'elle était envoyée par le Maître des guerriers, Harutt. Si ce message est bien de Harutt, je ne tarderais pas à le lire, à votre place.",
+   "progress": "Vous voici enfin, <classe>. Je n'ai pas menti dans ma lettre, <nom>. Nous sommes une race à part, un peu comme les druides ou les chamans de notre tribu. Votre importance est tout aussi grande. Nous sommes ceux sur qui l'on compte pour défendre nos frontières, chasser le centaure et partir à la guerre.",
+   "completion": "Chacun son rôle dans notre tribu. Chacun doit aussi passer par les mêmes rites. Ne laissez jamais votre orgueil vous dire le contraire.\n\nJe reste ici pour former de nouveaux guerriers qui recherchent la gloire des combats et qui suivent la voie de nos plus vénérables ancêtres. Revenez me voir après un peu d'entraînement et je ferai ce que je peux pour parfaire votre formation. Allez avec la bénédiction de la tribu, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2980,
+     "name": "Grull Hawkwind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3059,
+     "name": "Harutt Thunderhorn"
+    }
+   ],
+   "zone_id": -81,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3095": {
+   "id": 3095,
+   "name": "Parchemin simple",
+   "objectives": "Lire le Parchemin simple, et parler à Dannal Stern, au Glas.",
+   "description": "Ah, pendant que vous vous occupiez du Fléau, ce parchemin est arrivé pour vous. Je suppose qu'il est de quelque importance, car il porte le sceau du Maître des guerriers, Dannal. À votre place, je prendrais le temps de le lire avant de repartir.",
+   "progress": "Ah, vous voici. Bien. On m'a informé que quelques autres étaient parvenus à échapper à la \"mort\" et devaient arriver en ville. Peut-être que tant de résistance servira à l'avenir.\n\nVous pouvez remercier Dame Sylvanas pour votre liberté. . . Liberté de corps et d'esprit. La Peste et ses effets vous torturent encore, mais vous pouvez aller et venir librement, selon vos désirs.",
+   "completion": "Je serai là pour vous aider à mesure que vous gagnerez de l'expérience. . . Venez me trouver aussi souvent que vous le souhaitez. Mes honoraires sont peut-être bas, mais tout ce que je vous apprendrai vous sera de la plus grande utilité.\n\nPartez, mettez à l'épreuve votre technique. Vous connaîtrez bien d'autres choses avec l'expérience, même certaines choses dont je ne peux vous parler ici. Sachez juste que Sylvanas aura besoin de guerriers dans votre genre dans le futur. Vous serez le fondement de notre salut. Ne l'oubliez pas.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1569,
+     "name": "Prêtre des ombres Sarvis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2119,
+     "name": "Dannal Stern"
+    }
+   ],
+   "zone_id": -81,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3100": {
+   "id": 3100,
+   "name": "Lettre simple",
+   "objectives": "Lire la Lettre simple et parler à Llane Beshere, à l’Abbaye de Northshire.",
+   "description": "On m'a demandé de vous remettre cela dès que vous seriez de retour des camps des kobolds, <nom>. Il s'agit d'une lettre portant le sceau de Llane, notre Maître des guerriers local. À votre place, je n'hésiterais pas à la lire avant de faire quoi que ce soit d'autre, ici, dans l'Abbaye.",
+   "progress": "Ah, vous avez eu ma lettre, <nom>. . . Bien.\n\nIl y a une grande affluence de guerriers à Elwynn ces temps-ci : ce qui est bon pour Stormwind, mais mauvais pour les kobolds et les Défias de la région",
+   "completion": "Renseignez-vous, repérez la topographie du terrain et revenez me voir quand vous aurez besoin d'entraînement. Je serai là de jour comme de nuit.\n\nLes chevaliers de la Main d'Argent ont rendu cet endroit très sûr, mais à mesure que vous rencontrerez d'autres citoyens, vous verrez qu'ils ont de petits problèmes qui ne sauraient être résolus sans l'aide d'un <classe>. Bonne chance.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 197,
+     "name": "Maréchal McBride"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 911,
+     "name": "Llane Beshere"
+    }
+   ],
+   "zone_id": -81,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Renseignez-vous, repérez la topographie du terrain et revenez me voir quand vous aurez besoin d'entraînement. Je serai là de jour comme de nuit.\n\nLes chevaliers de la Main d'Argent ont rendu cet endroit très sûr, mais à mesure que vous rencontrerez d'autres citoyens, vous verrez qu'ils ont de petits problèmes qui ne sauraient être résolus sans l'aide d'un guerrier. Bonne chance."
+     },
+     "npc": 911,
+     "npc_name": "Llane Beshere",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forêt d'Elwynn",
+     "map_id": null,
+     "client": "1.60.1.70532",
+     "first_seen": 1792611685,
+     "last_seen": 1793847420
+    },
+    "detail": {
+     "texts": {
+      "description": "On m'a demandé de vous remettre cela dès que vous seriez de retour des camps des kobolds, <nom>. Il s'agit d'une lettre portant le sceau de Llane, notre Maître des guerriers local. À votre place, je n'hésiterais pas à la lire avant de faire quoi que ce soit d'autre, ici, dans l'Abbaye.",
+      "objectives": "Lire la Lettre simple et parler à Llane Beshere, à l’abbaye de Comté-du-Nord.",
+      "name": "Lettre simple"
+     },
+     "npc": 197,
+     "npc_name": "Maréchal McBride",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forêt d'Elwynn",
+     "map_id": 1429,
+     "client": "1.60.1.70790",
+     "first_seen": 1793847380,
+     "last_seen": 1793847380
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3106": {
+   "id": 3106,
+   "name": "Rune simple",
+   "objectives": "Lire la Rune simple, et parler à Thran Khorman, dans la Vallée des Frigères.",
+   "description": "Pendant que vous m'aidiez, on m'a donné cette rune pour vous. Prenez le temps de la lire. Je pense qu'elle provient du Maître des guerriers, Thran. Jetez-y un coup d'oeil et allez le retrouver, à l'intérieur d'Anvilmar, quand vous en aurez le temps.",
+   "progress": "Fait sacrément froid, pas vrai ? C'est comme si la neige elle partait jamais, <nom>.\n\nZ'avez déjà remarqué, mais y a plus de gnomes chez nous. C'est parce qu'il sont partis et ont fait sauter leurs maisons. Ne le dites pas à tout le monde, mais on ne peut pas trop leur en vouloir : je pense que moi aussi j'en serais venu aux explosifs si Ironforge était infestée de Sombrefer ou autres.",
+   "completion": "Deux ou trois autres chose que vous verrez aussi, juste pour vous prévenir : des nains qui s'battent avec de la magie au lieu d'un fusil. Ou encore certains d'entre nous qui vénèrent le Feu Sacré comme le font certains humains et enfin, des troggs. Vous en saurez un peu plus sur eux plus tard, mais sachez que je suis là pour vous aider.\n\nJe vous apprendrai comment devenir un vrai <classe>. Si vous pensez avoir besoin d'entraînement, passez me voir et je verrai ce que je peux faire.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 658,
+     "name": "Sten Stoutarm"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 912,
+     "name": "Thran Khorman"
+    }
+   ],
+   "zone_id": -81,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3112": {
+   "id": 3112,
+   "name": "Note de service simple",
+   "objectives": "Lire la Note de service simple, et parler à Thran Khorman, dans la Vallée des Frigères.",
+   "description": "Pendant que vous m'aidiez, on m'a donné cette note de service pour vous. Prenez le temps de la lire. Je pense qu'elle provient du Maître des guerriers, Thran. Jetez-y un coup d'oeil et allez le retrouver, à l'intérieur d'Anvilmar, quand vous en aurez le temps.",
+   "progress": "Ah, tiens, un autre mémorandum de la part d'un <race> en mission. . . Comme c'est singulier.\n\nNon, non, je ne suis pas en train de vous taquiner. Je respecte votre ténacité, vous pouvez en être sûr. Je serais certainement aussi en rogne si Ironforge était assailli par des nains Sombrefer, donc n'allez pas penser que je ne partage pas vos préoccupations. . .",
+   "completion": "Bon, comme c'est votre premier ordre de mission, j'ai reçu l'ordre de tout faire pour vous préparer à reprendre votre terre. . . Et c'est ce que je m'apprête à faire.\n\nC'est quand vous voulez. Revenez voir le bon vieux Thran et je serai ravi de vous faire partager mon savoir. Ce ne sera pas gratuit, mais ce ne sera pas cher non plus. Bonne chance.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 658,
+     "name": "Sten Stoutarm"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 912,
+     "name": "Thran Khorman"
+    }
+   ],
+   "zone_id": -81,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3116": {
+   "id": 3116,
+   "name": "Sceau simple",
+   "objectives": "Lire le Sceau simple, et parler à Alyissia, à Sombrevallon.",
+   "description": "Ce sceau m'a été donné par un messager de notre Maître des guerriers, Alyissia. Elle souhaiterait vous parler, dès que vous aurez un moment à lui accorder. Lisez-le et rapportez-le-lui.",
+   "progress": "Vous êtes ici. Bravo.\n\nBeaucoup de choses se sont passées au cours de ses dernières années, <nom> : la création de Teldrassil, la corruption de nombreuse créatures de la forêt ici et ailleurs, la découverte de terres que nous pensions perdues comme Feralas. . . Tellement de choses, en si peu de temps. Mais ce ne sont qu'une partie des raisons qui nous amènent ici, la raison principale étant de protéger notre espèce contre les périls à venir.",
+   "completion": "Bientôt vous verrez d'autres gens, de races différentes, dans les branches de notre maison. Que cela ne vous chagrine pas : ils sont les bienvenus. Ils nous aideront quand ils pourront. Ils ne seront pas tous aussi altruistes, mais ils méritent tout de même notre confiance.\n\nMais cela n'a pas vraiment d'importance. Maintenant parlons de vous et de la façon dont vous aiderez notre peuple. C'est pour ça que je suis ici. Je vous apprendrai la voie du <classe> à mesure que vous gagnerez en force. Revenez me voir quand vous le souhaiterez et je ferai ce que je peux pour vous aider.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2079,
+     "name": "Conservateur Ilthalaine"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3593,
+     "name": "Alyissia"
+    }
+   ],
+   "zone_id": -81,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8417": {
+   "id": 8417,
+   "name": "Un esprit troublé",
+   "objectives": "Parlez au Héros de la Horde tombé au combat, à l'entrée des Terres Foudroyées.",
+   "description": "Dans les Terres foudroyées se trouve un esprit troublé qui fut autrefois un grand héros de la Horde. L'honneur d'un guerrier ne meurt pas avec son corps. Vous feriez bien d'aller lui parler.",
+   "progress": "Stoley a-t-il craché mon alcool ?",
+   "completion": "Ainsi vous êtes venu pour soulager ma douleur. J'aimerais qu'il vous suffise de m'abattre, mais ce n'est hélas pas si simple. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3041,
+     "name": "Torm Ragetotem"
+    },
+    {
+     "type": "npc",
+     "id": 3354,
+     "name": "Sorek"
+    },
+    {
+     "type": "npc",
+     "id": 4593,
+     "name": "Christoph Walker"
+    },
+    {
+     "type": "npc",
+     "id": 5113,
+     "name": "Kelv Sternhammer"
+    },
+    {
+     "type": "npc",
+     "id": 5479,
+     "name": "Wu Shen"
+    },
+    {
+     "type": "npc",
+     "id": 7315,
+     "name": "Darnath Bladesinger"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7572,
+     "name": "Héros déchu de la Horde"
+    }
+   ],
+   "zone_id": -81,
+   "level": 50,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 470,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8423": {
+   "id": 8423,
+   "name": "Fraternité entre guerriers",
+   "objectives": "Tuez 7 Sangliers infernaux dans les Terres Foudroyées, et revenez voir le Héros de la Horde tombé au combat.",
+   "description": "<Le Héros vous examine.>\n\nVous êtes <un/une:c> <classe>, cela ne fait pas de doute. J'aimerais vous confier une tâche honorable, mais je dois d'abord éprouver votre force.\n\nOn dit que Rexxar mesurait le tranchant de ses lames en tuant un sanglier infernal d'un seul coup rapide. Je vais à présent mesurer votre force en vous demandant d'en tuer.",
+   "progress": "Les épines brûlantes des helboars laissent d'horribles cicatrices. Ne crains pas la douleur et la défiguration, guerrier, elles ne sont rien comparées à la prison à laquelle je suis attaché.",
+   "completion": "Je n'ai pas besoin de preuve pour savoir ce que vous avez accompli, <classe>. Je vois la détermination gravée sur votre visage.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7572,
+     "name": "Héros déchu de la Horde"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7572,
+     "name": "Héros déchu de la Horde"
+    }
+   ],
+   "zone_id": -81,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 5100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Le Héros vous examine.",
+    "classe",
+    "un/une:c"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8424": {
+   "id": 8424,
+   "name": "La guerre contre les liges d'ombre",
+   "objectives": "Tuez les Liges d'ombre dans les Terres Foudroyées et revenez voir le Héros de la Horde tombé au combat.",
+   "description": "La présence continuelle des liges d’ombre dans les Terres foudroyées est pour moi une terrible source de souffrance. Leurs rituels et leurs sorts m'infligent des tourments pires que tout ce que j'ai pu connaître de mon vivant.\n\nÀ travers vous, je peux envoyer un message de douleur. Allez et faites-leur sentir mon courroux.",
+   "progress": "Les ombres ne sont pas faciles à vaincre, n'est-ce pas ? Mais vous êtes un guerrier, et vous triompherez ou périrez en essayant.",
+   "completion": "Vous avez déjà calmé ma douleur et vous m'avez honoré. Je vous remercie, <classe>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7572,
+     "name": "Héros déchu de la Horde"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7572,
+     "name": "Héros déchu de la Horde"
+    }
+   ],
+   "zone_id": -81,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 5100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8425": {
+   "id": 8425,
+   "name": "Plumes vaudou",
+   "objectives": "Apportez les Plumes vaudou des trolls du Temple englouti au Héros de la Horde tombé au combat.",
+   "description": "Votre honneur m’a apporté un peu de paix. Il est juste que je vous offre quelque chose en échange.\n\nMes armes et mon armure étaient splendides quand j’étais en vie, mais elles ne me sont d’aucune utilité aujourd’hui. Elles seraient bien mieux placées entre vos mains.\n\nRendez-vous au temple englouti et détruisez les trolls gardiens Balafreur, Mijan, Zolo, Hukku, Zul'lor, et Loro. Ils possèdent des plumes magiques qui peuvent rematérialiser mon corps physique suffisamment longtemps pour que je vous accorde votre récompense.",
+   "progress": "Vous êtes déjà de retour ? Je ne ressens plus le temps de la même façon, peut-être qu'en fait ce fut un long voyage pour vous. . .",
+   "completion": "Enfin je sens à nouveau le froid de l'acier, même si ce n'est que pour un instant.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7572,
+     "name": "Héros déchu de la Horde"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7572,
+     "name": "Héros déchu de la Horde"
+    }
+   ],
+   "zone_id": -81,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 6350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "92479": {
+   "id": 92479,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 197,
+     "name": "Maréchal McBride"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 248415,
+     "name": "Tordrin Sternblade"
+    }
+   ],
+   "zone_id": -81,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "92532": {
+   "id": 92532,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 251361,
+     "name": "Rorian the Dayseeker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 251964,
+     "name": "Blademaster Ren"
+    }
+   ],
+   "zone_id": -81,
+   "level": 2,
+   "reqlevel": 2,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "94003": {
+   "id": 94003,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 252377,
+     "name": "Seena Skybreaker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 252377,
+     "name": "Seena Skybreaker"
+    }
+   ],
+   "zone_id": -81,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

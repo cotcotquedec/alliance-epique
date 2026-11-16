@@ -1,0 +1,698 @@
+{
+ "schema": 1,
+ "zone": "dungeons/ruins-of-lordaeron",
+ "zone_id": 16611,
+ "zone_name": "Ruines de Lordaeron",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 12,
+  "complete": 0,
+  "incomplete": 12,
+  "unavailable": 0,
+  "missing_description": 12,
+  "missing_giver": 1,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "92415": {
+   "id": 92415,
+   "name": "N’oublie pas que je t’aime",
+   "objectives": "Apportez la lettre tachée de sang à la directrice de l’orphelinat Rossignol, à Hurlevent.",
+   "description": "<Une liasse de parchemins, déchirée et maculée, a de justesse survécu aux terres du cimetière foulées par les morts-vivants. Il y est fait mention d’un enfant disparu de la famille Tissecœur. La directrice de l’orphelinat, à Hurlevent, en saura peut-être davantage.>",
+   "progress": null,
+   "completion": "Tissecœur ? Tissecœur…\r\n\r\nOh, le petit Jérémy Tissecœur. On nous l’a amené voilà des années, après l’attaque de Lordaeron. Il a perdu ses deux parents dans l’assaut, le pauvre.\r\n\r\nÀ vrai dire, il a été adopté il n’y a pas si longtemps par une femme charmante, du côté du bois de la Pénombre.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 251270,
+     "name": "Blood-Stained Parchment"
+    },
+    {
+     "type": "item",
+     "id": 251520,
+     "name": "Last Scrawlings of Edward Heartweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14450,
+     "name": "Directrice de l'orphelinat Nightingale"
+    }
+   ],
+   "zone_id": 16611,
+   "level": 22,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Tissecœur ? Tissecœur…\r\n\r\nOh, le petit Jérémy Tissecœur. On nous l’a amené voilà des années, après l’attaque de Lordaeron. Il a perdu ses deux parents dans l’assaut, le pauvre.\r\n\r\nÀ vrai dire, il a été adopté il n’y a pas si longtemps par une femme charmante, du côté du bois de la Pénombre."
+     },
+     "npc": 14450,
+     "npc_name": "Directrice de l'orphelinat Nightingale",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794608222,
+     "last_seen": 1794608222
+    },
+    "detail": {
+     "texts": {
+      "description": "<Une liasse de parchemins, déchirée et maculée, a de justesse survécu aux terres du cimetière foulées par les morts-vivants. Il y est fait mention d’un enfant disparu de la famille Tissecœur. La directrice de l’orphelinat, à Hurlevent, en saura peut-être davantage.>",
+      "objectives": "Apportez la lettre tachée de sang à la directrice de l’orphelinat Rossignol, à Hurlevent.",
+      "name": "N’oublie pas que je t’aime"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": null,
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Ruines de Lordaeron",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794606719,
+     "last_seen": 1794606719
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "92421": {
+   "id": 92421,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 266484,
+     "name": "Morbin Lightbane"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 266484,
+     "name": "Morbin Lightbane"
+    }
+   ],
+   "zone_id": 16611,
+   "level": 22,
+   "reqlevel": 15,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "92422": {
+   "id": 92422,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 251001,
+     "name": "Deathguard Kristof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 251001,
+     "name": "Deathguard Kristof"
+    }
+   ],
+   "zone_id": 16611,
+   "level": 22,
+   "reqlevel": 15,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "95189": {
+   "id": 95189,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "item",
+     "id": 268579,
+     "name": "Crest of Lordaeron"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15991,
+     "name": "Dame Dena Kennedy"
+    }
+   ],
+   "zone_id": 16611,
+   "level": 22,
+   "reqlevel": 16,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "95195": {
+   "id": 95195,
+   "name": "Insigne ensanglanté",
+   "objectives": "Récupérez 10 insignes ensanglantés et remettez-les au général Marcus Jonathan, à Hurlevent.",
+   "description": "<Cet ancien insigne de l’Alliance semble avoir appartenu à un soldat de Lordaeron. Ces ruines regorgent probablement de médailles semblables que des proches encore en vie seraient reconnaissants de récupérer.>",
+   "progress": null,
+   "completion": "Vous avez eu bien raison de me les rapporter. Lorsque Lordaeron est tombé face au Fléau, bien des gens ont fui pour trouver refuge ici, à Hurlevent. Bien peu, sans doute, sont encore là pour réclamer ces insignes en personne.\r\n\r\nVotre dévouement envers Hurlevent est tout à votre honneur, <nom>. Je vais de ce pas remettre ces insignes aux proches des disparus.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 268535,
+     "name": "Bloodied Insignia"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 466,
+     "name": "Général Marcus Jonathan"
+    }
+   ],
+   "zone_id": 16611,
+   "level": 22,
+   "reqlevel": 16,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vous avez eu bien raison de me les rapporter. Lorsque Lordaeron est tombé face au Fléau, bien des gens ont fui pour trouver refuge ici, à Hurlevent. Bien peu, sans doute, sont encore là pour réclamer ces insignes en personne.\r\n\r\nVotre dévouement envers Hurlevent est tout à votre honneur, <nom>. Je vais de ce pas remettre ces insignes aux proches des disparus."
+     },
+     "npc": 466,
+     "npc_name": "Général Marcus Jonathan",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794608315,
+     "last_seen": 1794608315
+    },
+    "detail": {
+     "texts": {
+      "description": "<Cet ancien insigne de l’Alliance semble avoir appartenu à un soldat de Lordaeron. Ces ruines regorgent probablement de médailles semblables que des proches encore en vie seraient reconnaissants de récupérer.>",
+      "objectives": "Récupérez 10 insignes ensanglantés et remettez-les au général Marcus Jonathan, à Hurlevent.",
+      "name": "Insigne ensanglanté"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": null,
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Ruines de Lordaeron",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794604969,
+     "last_seen": 1794604969
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "95204": {
+   "id": 95204,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "item",
+     "id": 275521,
+     "name": "Crest of Lordaeron"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7825,
+     "name": "Oran Snakewrithe"
+    }
+   ],
+   "zone_id": 16611,
+   "level": 22,
+   "reqlevel": 16,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "95216": {
+   "id": 95216,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11835,
+     "name": "Theodore Griffs"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11835,
+     "name": "Theodore Griffs"
+    }
+   ],
+   "zone_id": 16611,
+   "level": 22,
+   "reqlevel": 16,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "95250": {
+   "id": 95250,
+   "name": "Abominables créatures",
+   "objectives": "Récupérez la tête du baron dans les ruines de Lordaeron et rapportez-la au capitaine Truman.",
+   "description": "Ah, un autre humain. Il était temps que Lordaeron envoie des renforts.\r\n\r\nMon maître a déjà chargé dans la mêlée et m’a ordonné de tenir mon poste. Ça commence à faire un bout de temps, ceci dit.\r\n\r\nJe ne confierai pas cette tâche à ces fichus hybrides, mais si je peux vous demander une faveur, je vous prie de bien vouloir retrouver le connétable. C’est le héros le plus imposant et le plus sculptural sur lequel vous ayez pu poser les yeux. Vous le reconnaître sans peine lorsque vous le verrez.",
+   "progress": null,
+   "completion": "<Truman fixe la tête de son ancien seigneur avec horreur et dégoût.>\r\n\r\nEst-ce que… c’est une mauvaise plaisanterie ? Pourquoi m’apportez-vous la tête de cette monstruosité ?\r\n\r\nHors de ma vue ! J’aurais dû me douter qu’on ne pouvait pas faire confiance à quelqu’un qui s’allie à la vermine de votre espèce. Les véritables fils de Lordaeron reprendront notre patrie. Et lorsque ce jour viendra, nous en éliminerons enfin ces bêtes et tous ceux qui, comme vous, pactisent avec elles !",
+   "starters": [],
+   "enders": [],
+   "zone_id": 16611,
+   "level": 21,
+   "reqlevel": 16,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "<Truman fixe la tête de son ancien seigneur avec horreur et dégoût.>\r\n\r\nEst-ce que… c’est une mauvaise plaisanterie ? Pourquoi m’apportez-vous la tête de cette monstruosité ?\r\n\r\nHors de ma vue ! J’aurais dû me douter qu’on ne pouvait pas faire confiance à quelqu’un qui s’allie à la vermine de votre espèce. Les véritables fils de Lordaeron reprendront notre patrie. Et lorsque ce jour viendra, nous en éliminerons enfin ces bêtes et tous ceux qui, comme vous, pactisent avec elles !"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": null,
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Ruines de Lordaeron",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794607792,
+     "last_seen": 1794607792
+    },
+    "detail": {
+     "texts": {
+      "description": "Ah, un autre humain. Il était temps que Lordaeron envoie des renforts.\r\n\r\nMon maître a déjà chargé dans la mêlée et m’a ordonné de tenir mon poste. Ça commence à faire un bout de temps, ceci dit.\r\n\r\nJe ne confierai pas cette tâche à ces fichus hybrides, mais si je peux vous demander une faveur, je vous prie de bien vouloir retrouver le connétable. C’est le héros le plus imposant et le plus sculptural sur lequel vous ayez pu poser les yeux. Vous le reconnaître sans peine lorsque vous le verrez.",
+      "objectives": "Récupérez la tête du baron dans les ruines de Lordaeron et rapportez-la au capitaine Truman.",
+      "name": "Abominables créatures"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": null,
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Ruines de Lordaeron",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794604224,
+     "last_seen": 1794604224
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "97288": {
+   "id": 97288,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "item",
+     "id": 280438,
+     "name": "Abominable Head"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2055,
+     "name": "Maître apothicaire Faranell"
+    }
+   ],
+   "zone_id": 16611,
+   "level": 21,
+   "reqlevel": 16,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "97289": {
+   "id": 97289,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2055,
+     "name": "Maître apothicaire Faranell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 271613,
+     "name": "Unfinished Abomination"
+    }
+   ],
+   "zone_id": 16611,
+   "level": 21,
+   "reqlevel": 16,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "97291": {
+   "id": 97291,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2055,
+     "name": "Maître apothicaire Faranell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2055,
+     "name": "Maître apothicaire Faranell"
+    }
+   ],
+   "zone_id": 16611,
+   "level": 21,
+   "reqlevel": 16,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "97292": {
+   "id": 97292,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2055,
+     "name": "Maître apothicaire Faranell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2055,
+     "name": "Maître apothicaire Faranell"
+    }
+   ],
+   "zone_id": 16611,
+   "level": 21,
+   "reqlevel": 16,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

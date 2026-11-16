@@ -1,0 +1,4964 @@
+{
+ "schema": 1,
+ "zone": "kalimdor/teldrassil",
+ "zone_id": 141,
+ "zone_name": "Teldrassil",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 62,
+  "complete": 60,
+  "incomplete": 2,
+  "unavailable": 0,
+  "missing_description": 1,
+  "missing_giver": 1,
+  "new_in_forever": 13,
+  "gendered": 7
+ },
+ "quests": {
+  "456": {
+   "id": 456,
+   "name": "L'Equilibre de la nature",
+   "objectives": "Tuer 7 Jeunes sabres-de-nuit et 4 Jeunes sangliers des chardons, puis retournez voir le Conservateur Ilthalaine.",
+   "description": "Salutations, <nom>. Je suis le Conservateur Ilthalaine. Mon rôle à Sombrevallon est de m'assurer que l'équilibre naturel est maintenu.\n\nLes pluies printanières furent particulièrement abondantes cette année, et certains animaux de la forêt en ont profité pour prospérer quand d'autres ont dépéri.\n\nMalheureusement la population des sabres-de-nuit et des sangliers des chardons s'est trop accrue. Sombrevallon ne peut produire plus d'une quantité donnée de nourriture pour les animaux. En route, jeune <classe>, réduisez la population des sabres-de-nuit et des sangliers des chardons afin de garantir l'harmonie de la nature.",
+   "progress": "Il y a encore du travail à faire, <nom>. Revenez me voir une fois que vous aurez réduit les populations d'arpenteuses et de sangliers.",
+   "completion": "Vous avez fait du bon travail, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2079,
+     "name": "Conservateur Ilthalaine"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2079,
+     "name": "Conservateur Ilthalaine"
+    }
+   ],
+   "zone_id": 141,
+   "level": 2,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 170,
+   "money": 35,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "classe",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:02:44"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vous avez fait du bon travail, <nom>."
+     },
+     "npc": 2079,
+     "npc_name": "Conservateur Ilthalaine",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793984796,
+     "last_seen": 1793984796
+    },
+    "detail": {
+     "texts": {
+      "description": "Salutations, <nom>. Je suis le Conservateur Ilthalaine. Mon rôle à Sombrevallon est de m'assurer que l'équilibre naturel est maintenu.\n\nLes pluies printanières furent particulièrement abondantes cette année, et certains animaux de la forêt en ont profité pour prospérer quand d'autres ont dépéri.\n\nMalheureusement la population des sabres-de-nuit et des sangliers des chardons s'est trop accrue. Sombrevallon ne peut produire plus d'une quantité donnée de nourriture pour les animaux. En route, jeune <classe>, réduisez la population des sabres-de-nuit et des sangliers des chardons afin de garantir l'harmonie de la nature.",
+      "objectives": "Tuer 7 Jeunes sabres-de-nuit et 4 Jeunes sangliers des chardons, puis retournez voir le Conservateur Ilthalaine.",
+      "name": "L'Equilibre de la nature"
+     },
+     "npc": 2079,
+     "npc_name": "Conservateur Ilthalaine",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793983547,
+     "last_seen": 1793983547
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "foreverdb",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "foreverdb:vmangos",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "457": {
+   "id": 457,
+   "name": "L'Equilibre de la nature",
+   "objectives": "Le Conservateur Ilthalaine voudrait que vous tuiez 7 Sabres-de-nuit galeux et 7 Sangliers des chardons.",
+   "description": "Réguler les populations d'animaux à Sombrevallon est un bon début <nom>, mais il y a encore beaucoup à faire.\n\nLes ressources forestières seront bientôt épuisées si nous ne réglons pas rapidement le problème. Tuer les créatures de la nature est parfois un mal nécessaire pour le bien de tous ceux qui partagent cette terre. Aventurez-vous dans la forêt et éliminez les sabres-de-nuit et les sangliers des chardons malades, au nom de l'équilibre naturel.",
+   "progress": "Votre tâche n'est pas encore terminée, <nom>. Revenez me voir une fois que 8 sabres de nuit galeux et 8 sangliers chardons auront été tués.",
+   "completion": "Vous avez prouvé votre allégeance à la Nature de belle façon, <nom>. Les jeunes druides comme vous ont un avenir prometteur.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2079,
+     "name": "Conservateur Ilthalaine"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2079,
+     "name": "Conservateur Ilthalaine"
+    }
+   ],
+   "zone_id": 141,
+   "level": 3,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 250,
+   "money": 50,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:02:46"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vous avez prouvé votre allégeance à la Nature de belle façon, <nom>. Les jeunes voleurs comme vous ont un avenir prometteur."
+     },
+     "npc": 2079,
+     "npc_name": "Conservateur Ilthalaine",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793988347,
+     "last_seen": 1793988347
+    },
+    "detail": {
+     "texts": {
+      "description": "Réguler les populations d'animaux à Sombrevallon est un bon début <nom>, mais il y a encore beaucoup à faire.\n\nLes ressources forestières seront bientôt épuisées si nous ne réglons pas rapidement le problème. Tuer les créatures de la nature est parfois un mal nécessaire pour le bien de tous ceux qui partagent cette terre. Aventurez-vous dans la forêt et éliminez les sabres-de-nuit et les sangliers des chardons malades, au nom de l'équilibre naturel.",
+      "objectives": "Le Conservateur Ilthalaine voudrait que vous tuiez 7 Sabres-de-nuit galeux et 7 Sangliers des chardons.",
+      "name": "L'Equilibre de la nature"
+     },
+     "npc": 2079,
+     "npc_name": "Conservateur Ilthalaine",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793984805,
+     "last_seen": 1793984805
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "foreverdb",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "foreverdb:vmangos",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "458": {
+   "id": 458,
+   "name": "La Protectrice sylvestre",
+   "objectives": "Chercher la dryade connue sous le nom de Tarindrella.",
+   "description": "Louée soit la Nature, vous êtes là, <classe> ! D'étranges rumeurs sont parvenues jusqu'à moi par l'entremise des esprits de la forêt.\n\nLa mystérieuse Protectrice sylvestre, Tarindrella, est rentrée à Sombrevallon. Cette dryade n’est pas venue dans les forêts de Kalimdor depuis des années. Il y a sûrement quelque chose qui cloche pour motiver son retour.\n\nCherchez Tarindrella et voyez ce qui l'occupe en ce moment. Une des Sentinelles dit l'avoir vue au sud-ouest d'Aldrassil.",
+   "progress": null,
+   "completion": "Je vois que vous m'avez trouvée, jeune <nom>. Melithar est un <classe> avisé pour vous avoir envoyé.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2077,
+     "name": "Melithar Staghelm"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1992,
+     "name": "Tarindrella"
+    }
+   ],
+   "zone_id": 141,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": "updated",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:02:49"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Je vois que vous m’avez trouvée, jeune <race>. Melithar est un druide avisé de vous avoir envoyé ici. Mais vous avez encore beaucoup à apprendre. Il paraît que les vôtres apprécient les livres. Prenez donc l’un de ceux-ci pour parfaire votre éducation."
+     },
+     "npc": 1992,
+     "npc_name": "Tarindrella",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793984523,
+     "last_seen": 1793984523
+    },
+    "detail": {
+     "texts": {
+      "description": "Louée soit la Nature, vous êtes là, <classe> ! D'étranges rumeurs sont parvenues jusqu'à moi par l'entremise des esprits de la forêt.\n\nLa mystérieuse Protectrice sylvestre, Tarindrella, est rentrée à Sombrevallon. Cette dryade n’est pas venue dans les forêts de Kalimdor depuis des années. Il y a sûrement quelque chose qui cloche pour motiver son retour.\n\nCherchez Tarindrella et voyez ce qui l'occupe en ce moment. Une des Sentinelles dit l'avoir vue au sud-ouest d'Aldrassil.",
+      "objectives": "Chercher la dryade connue sous le nom de Tarindrella.",
+      "name": "La Protectrice sylvestre"
+     },
+     "npc": 2077,
+     "npc_name": "Melithar Staghelm",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793984114,
+     "last_seen": 1793984114
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "459": {
+   "id": 459,
+   "name": "La Protectrice sylvestre",
+   "objectives": "Collecter 8 Gangremousses et les rapporter à Tarindrella.",
+   "description": "Quelque chose de malfaisant se développe dans les forêts de Teldrassil. Allez dans les collines où les paisibles furbolgs avaient habitude de vivre. Ils ont quitté leurs foyers et se regroupent maintenant, sous le nom de tribu des Pins-tordus.\n\nSeule la contamination par les pernicieuses gangremousses a pu provoquer ce changement. Les grells et les grellides ont infesté la zone et menacent les habitants de Sombrevallon.\n\nAttaquez ces grells et ces grellides, <nom>, et voyez s'ils sont tombés sous l’influence des Mousses corrompues.",
+   "progress": "Confirmez mes soupçons, <nom>. Rapportez-moi 8 Gangremousses.",
+   "completion": "Votre aide aux créatures de Sombrevallon mérite une récompense, <nom>.\n\nMes craintes sont néanmoins confirmées. Si les grells ont été infestés par la gangremousse, je n'ose imaginer le sort des furbolgs Pins-tordus.\n\nSi jamais vous voyagez jusqu'à Dolanaar, digne <classe>, n'oubliez pas d'y chercher le sage druide Athridas Bearmantle. Il partage notre souci du bien-être des forêts.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1992,
+     "name": "Tarindrella"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1992,
+     "name": "Tarindrella"
+    }
+   ],
+   "zone_id": 141,
+   "level": 3,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 250,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:02:52"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Votre aide aux créatures de Sombrevallon mérite une récompense, <nom>.\n\nMes craintes sont néanmoins confirmées. Si les grells ont été infestés par la gangremousse, je n'ose imaginer le sort des furbolgs Pins-tordus.\n\nSi jamais vous voyagez jusqu'à Dolanaar, digne <classe>, n'oubliez pas d'y chercher le sage druide Athridas Bearmantle. Il partage notre souci du bien-être des forêts."
+     },
+     "npc": 1992,
+     "npc_name": "Tarindrella",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793985627,
+     "last_seen": 1793985627
+    },
+    "detail": {
+     "texts": {
+      "description": "Quelque chose de malfaisant se développe dans les forêts de Teldrassil. Allez dans les collines où les paisibles furbolgs avaient habitude de vivre. Ils ont quitté leurs foyers et se regroupent maintenant, sous le nom de tribu des Pins-tordus.\n\nSeule la contamination par les pernicieuses gangremousses a pu provoquer ce changement. Les grells et les grellides ont infesté la zone et menacent les habitants de Sombrevallon.\n\nAttaquez ces grells et ces grellides, <nom>, et voyez s'ils sont tombés sous l’influence des Mousses corrompues.",
+      "objectives": "Collecter 8 Gangremousses et les rapporter à Tarindrella.",
+      "name": "La Protectrice sylvestre"
+     },
+     "npc": 1992,
+     "npc_name": "Tarindrella",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793984534,
+     "last_seen": 1793984534
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "475": {
+   "id": 475,
+   "name": "Une brise étrange",
+   "objectives": "Chercher Gaerolas Talvethren au village de Brise-stellaire.",
+   "description": "Une brise étrange souffle à travers la forêt.\n\nGaerolas Talvethren est le Grand gardien des druides de la Serre qui hibernent dans le Refuge des saisons de Ban'ethil. Son devoir en tant que protecteur des Dormants est de veiller à leur sécurité, afin que le pacte avec Ysera ne soit pas rompu.\n\nMais je n'ai toujours pas de nouvelles de Gaerolas. Allez à l'est, au village de Brise-stellaire et revenez avec des nouvelles de Gaerolas, que je puisse calmer mes craintes en apprenant que mon vieux camarade est sain et sauf.",
+   "progress": null,
+   "completion": "Par les Esprits de la forêt, vous êtes là ! Je savais qu'Athridas sentirait qu'il y a un problème et qu'il enverrait de l'aide.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2078,
+     "name": "Athridas Bearmantle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2107,
+     "name": "Gaerolas Talvethren"
+    }
+   ],
+   "zone_id": 141,
+   "level": 6,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 270,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:02:54"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Par les Esprits de la forêt, vous êtes là ! Je savais qu'Athridas sentirait qu'il y a un problème et qu'il enverrait de l'aide."
+     },
+     "npc": 2107,
+     "npc_name": "Gaerolas Talvethren",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793991094,
+     "last_seen": 1793991094
+    },
+    "detail": {
+     "texts": {
+      "description": "Une brise étrange souffle à travers la forêt.\n\nGaerolas Talvethren est le Grand gardien des druides de la Serre qui hibernent dans le Refuge des saisons de Ban'ethil. Son devoir en tant que protecteur des Dormants est de veiller à leur sécurité, afin que le pacte avec Ysera ne soit pas rompu.\n\nMais je n'ai toujours pas de nouvelles de Gaerolas. Allez à l'est, au village de Brise-stellaire et revenez avec des nouvelles de Gaerolas, que je puisse calmer mes craintes en apprenant que mon vieux camarade est sain et sauf.",
+      "objectives": "Chercher Gaerolas Talvethren au village de Brise-stellaire.",
+      "name": "Une brise étrange"
+     },
+     "npc": 2078,
+     "npc_name": "Athridas Bearmantle",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793990653,
+     "last_seen": 1793990653
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "476": {
+   "id": 476,
+   "name": "La corruption des Pins-tordus",
+   "objectives": "Retourner auprès d'Athridas Bearmantle à Dolanaar.",
+   "description": "La tribu des Pins-tordus a été corrompue !\n\nLes furbolgs, jadis paisibles, se sont retournés contre les protecteurs de la forêt. Ils m'ont tendu une embuscade tandis que je partais pour le Refuge des saisons de Ban'ethil, puis ils ont pillé le village de Brise-stellaire. Ursal le Mutileur, leur chef, utilise les pouvoirs malfaisants des gangremousses pour les rendre fous.\n\nJe suis trop gravement blessé pour aller voir Athridas et lui communiquer ces graves nouvelles. Cette tâche vous incombe à présent, jeune <classe>. Nous n'avons plus qu'à espérer que les Pins-tordus ne sont pas encore arrivés jusqu'à Ban'ethil !",
+   "progress": null,
+   "completion": "Par les étoiles ! C’est vraiment troublant !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2107,
+     "name": "Gaerolas Talvethren"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2078,
+     "name": "Athridas Bearmantle"
+    }
+   ],
+   "zone_id": 141,
+   "level": 6,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 540,
+   "money": 125,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:02:56"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Par les étoiles ! C’est vraiment troublant !"
+     },
+     "npc": 2078,
+     "npc_name": "Athridas Bearmantle",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793991515,
+     "last_seen": 1793991515
+    },
+    "detail": {
+     "texts": {
+      "description": "La tribu des Pins-tordus a été corrompue !\n\nLes furbolgs, jadis paisibles, se sont retournés contre les protecteurs de la forêt. Ils m'ont tendu une embuscade tandis que je partais pour le Refuge des saisons de Ban'ethil, puis ils ont pillé le village de Brise-stellaire. Ursal le Mutileur, leur chef, utilise les pouvoirs malfaisants des gangremousses pour les rendre fous.\n\nJe suis trop gravement blessé pour aller voir Athridas et lui communiquer ces graves nouvelles. Cette tâche vous incombe à présent, jeune <classe>. Nous n'avons plus qu'à espérer que les Pins-tordus ne sont pas encore arrivés jusqu'à Ban'ethil !",
+      "objectives": "Retourner auprès d'Athridas Bearmantle à Dolanaar.",
+      "name": "La corruption des Pins-tordus"
+     },
+     "npc": 2107,
+     "npc_name": "Gaerolas Talvethren",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793991095,
+     "last_seen": 1793991095
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "483": {
+   "id": 483,
+   "name": "Les Reliques d'éveil",
+   "objectives": "Récupérer les Reliques d'éveil et les rapporter à Athridas Bearmantle à Dolanaar.",
+   "description": "Les Pins-tordus ont été vus ravageant le Refuge des saisons de Ban'ethil, à l'ouest.\n\nLes druides dormants vont être pris dans le Rêve d'émeraude pour l'éternité, à moins que nous n'intervenions. Leur très délicate hibernation ne peut pas être interrompue sans les quatre Reliques d'éveil.\n\nRendez-vous au Refuge et récupérez le Talisman Ravenclaw, la Plume noire, le Saphir des cieux et la Rune de nidification. Les druides les gardent dans des coffres sacrés. Apportez-les-moi afin que je prépare le rituel d'éveil.",
+   "progress": "<nom>, les druides de la Serre agressés seront à jamais prisonniers du Rêve d'émeraude si nous ne pouvons rassembler les Reliques d'éveil du Refuge des saisons de Ban'ethil, à l'ouest.\n\nChaque minute qui passe scelle un peu plus le funeste destin des druides.",
+   "completion": "Vous avez réussi, jeune <classe> ! Bravo ! Il était plus que temps.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2078,
+     "name": "Athridas Bearmantle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2078,
+     "name": "Athridas Bearmantle"
+    }
+   ],
+   "zone_id": 141,
+   "level": 9,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 780,
+   "money": 300,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:00"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vous avez réussi, jeune <classe> ! Bravo ! Il était plus que temps."
+     },
+     "npc": 2078,
+     "npc_name": "Athridas Bearmantle",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793997273,
+     "last_seen": 1793997273
+    },
+    "detail": {
+     "texts": {
+      "description": "Les Pins-tordus ont été vus ravageant le Refuge des saisons de Ban'ethil, à l'ouest.\n\nLes druides dormants vont être pris dans le Rêve d'émeraude pour l'éternité, à moins que nous n'intervenions. Leur très délicate hibernation ne peut pas être interrompue sans les quatre Reliques d'éveil.\n\nRendez-vous au Refuge et récupérez le Talisman Ravenclaw, la Plume noire, le Saphir des cieux et la Rune de nidification. Les druides les gardent dans des coffres sacrés. Apportez-les-moi afin que je prépare le rituel d'éveil.",
+      "objectives": "Récupérer les Reliques d'éveil et les rapporter à Athridas Bearmantle à Dolanaar.",
+      "name": "Les Reliques d'éveil"
+     },
+     "npc": 2078,
+     "npc_name": "Athridas Bearmantle",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793991515,
+     "last_seen": 1793991515
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "486": {
+   "id": 486,
+   "name": "Ursal le Mutileur",
+   "objectives": "Tuer Ursal le Mutileur et retourner voir Athridas Bearmantle à Dolanaar.",
+   "description": "Le temps est venu de sauver les druides de la Serre. Si nous échouons maintenant, <nom>, ils resteront à jamais captifs de leur sommeil.\n\nJe pourrais préparer les reliques d’éveil et pratiquer le rituel, mais mon travail ne peut prendre effet tant que le responsable de cette horrible situation est en vie. Le rituel ne sera achevé que lorsqu’il aura été terrassé.\n\nC’est Ursal le Mutileur qui a perturbé notre cycle, c’est Ursal le Mutileur qui doit payer pour qu’ils puissent être libérés. Voyagez jusqu’au camp des Pins-tordus, au sud-ouest, et exécutez-le.",
+   "progress": "Nos frères ne peuvent pas être réveillés tant qu'Ursal l'assassin n'a pas été tué, <nom>.",
+   "completion": "<nom>, Vous avez prouvé que vous comptiez parmi les plus valeureux druides. Un <race> qui suit le chemin de l'honneur comme vous le faites est assuré de rencontrer la gloire dans ce monde.\n\nPuissent les Esprits des forêts vous protéger où que vous portent vos pas.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2078,
+     "name": "Athridas Bearmantle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2078,
+     "name": "Athridas Bearmantle"
+    }
+   ],
+   "zone_id": 141,
+   "level": 12,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 1150,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:02"
+   },
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Le temps est venu de sauver les druides de la Serre. Si nous échouons maintenant, <nom>, ils resteront à jamais captifs de leur sommeil.\n\nJe pourrais préparer les reliques d’éveil et pratiquer le rituel, mais mon travail ne peut prendre effet tant que le responsable de cette horrible situation est en vie. Le rituel ne sera achevé que lorsqu’il aura été terrassé.\n\nC’est Ursal le Mutileur qui a perturbé notre cycle, c’est Ursal le Mutileur qui doit payer pour qu’ils puissent être libérés. Voyagez jusqu’au camp des Pins-tordus, au sud-ouest, et exécutez-le.",
+      "objectives": "Tuer Ursal le Mutileur et retourner voir Athridas Bearmantle à Dolanaar.",
+      "name": "Ursal le Mutileur"
+     },
+     "npc": 2078,
+     "npc_name": "Athridas Bearmantle",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793997278,
+     "last_seen": 1793997278
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "foreverdb",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "foreverdb:vmangos",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "487": {
+   "id": 487,
+   "name": "La route de Darnassus",
+   "objectives": "Tuer 6 Embusqués Pins-tordus et retourner voir la Sentinelle Amara Nightwalker à l'extérieur de Dolanaar.",
+   "description": "La route de Darnassus doit être sécurisée. Des voyageurs qui cheminaient entre Dolanaar et Darnassus y ont été témoins d'attaques de furbolgs de la tribu Pins-tordus.\n\nD'importantes informations et des convois commerciaux en provenance de Darnassus empruntent cette voie quotidiennement. Nous ne pouvons tolérer qu'une bande de brigands y terrorise les gens.\n\nAu nom de la Forêt sacrée, prenez les armes, <classe>. Leur repaire est quelque part au-delà de ce point. Tuez 6 de ces Embusqués Pins-tordus et revenez faire votre rapport.",
+   "progress": "La route n'est toujours pas sûre, <classe>. Partez en voyage et tuez 6 Ambushers de Gnarlpine et revenez me voir.",
+   "completion": "Vous avez bien servi le bon peuple de Dolanaar et de Darnassus, brave <classe>. En tant que membre des Sentinelles de Teldrassil, je salue vos efforts.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2151,
+     "name": "Prêtresse de la lune Amara"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2151,
+     "name": "Prêtresse de la lune Amara"
+    }
+   ],
+   "zone_id": 141,
+   "level": 8,
+   "reqlevel": 5,
+   "side": "alliance",
+   "xp": 700,
+   "money": 225,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:04"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vous avez bien servi le bon peuple de Dolanaar et de Darnassus, brave <classe>. En tant que membre des Sentinelles de Teldrassil, je salue vos efforts."
+     },
+     "npc": 2151,
+     "npc_name": "Prêtresse de la lune Amara",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793998424,
+     "last_seen": 1793998424
+    },
+    "detail": {
+     "texts": {
+      "description": "La route de Darnassus doit être sécurisée. Des voyageurs qui cheminaient entre Dolanaar et Darnassus y ont été témoins d'attaques de furbolgs de la tribu Pins-tordus.\n\nD'importantes informations et des convois commerciaux en provenance de Darnassus empruntent cette voie quotidiennement. Nous ne pouvons tolérer qu'une bande de brigands y terrorise les gens.\n\nAu nom de la Forêt sacrée, prenez les armes, <classe>. Leur repaire est quelque part au-delà de ce point. Tuez 6 de ces Embusqués Pins-tordus et revenez faire votre rapport.",
+      "objectives": "Tuer 6 Embusqués Pins-tordus et retourner voir la Sentinelle Amara Nightwalker à l'extérieur de Dolanaar.",
+      "name": "La route de Darnassus"
+     },
+     "npc": 2151,
+     "npc_name": "Prêtresse de la lune Amara",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793990660,
+     "last_seen": 1793990749
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "foreverdb",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "foreverdb:vmangos",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "488": {
+   "id": 488,
+   "name": "Les commandements de Zenn",
+   "objectives": "Rapporter 3 Crocs de sabre-de-nuit, 3 Plumes de Hibou Strigid et 3 Echantillons de Soie d'araignée Tissebois à Zenn Foulhoof à l'extérieur de Dolanaar.",
+   "description": "Volontaire pour des missions, à ce que je vois. Heureusement, il n'y a pas un jour sans que je n'aie besoin d'un courageux <classe> prêt et armé pour répondre à mes demandes.\n\nVoyez-vous, <nom>, je puis vous rendre riche et vous offrir ce dont vous n'osez rêver. Mais en échange vous devez me rapporter certains objets.\n\nMon travail dans la forêt requiert souvent certains... réactifs. Rapportez-moi 3 Crocs de sabre-de-nuit, 3 Plumes de hibou Strigid et 3 échantillons de Soie d'araignée Tissebois.\n\nEt que tout cela reste entre nous, <nom>.",
+   "progress": "Avez-vous bien travaillé, <nom> ? J'attendais que vous m'apportiez ce que je vous avais demandé.",
+   "completion": "Ha ha ! Très bien, très bien.\n\nQui croira que moi, Zenn Foulhoof, ai eu quelqu'un de votre race à mon service ? Certainement pas moi ! Mais c'est ainsi : notre cher monde est plein de surprises, <nom>.\n\nLongue vie aux naïfs et aux crédules !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2150,
+     "name": "Zenn Foulhoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2150,
+     "name": "Zenn Foulhoof"
+    }
+   ],
+   "zone_id": 141,
+   "level": 5,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 450,
+   "money": 100,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "classe",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:06"
+   },
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Volontaire pour des missions, à ce que je vois. Heureusement, il n'y a pas un jour sans que je n'aie besoin d'un courageux voleur prêt et armé pour répondre à mes demandes.\n\nVoyez-vous, <nom>, je puis vous rendre riche et vous offrir ce dont vous n'osez rêver. Mais en échange vous devez me rapporter certains objets.\n\nMon travail dans la forêt requiert souvent certains... réactifs. Rapportez-moi 3 Crocs de sabre-de-nuit, 3 Plumes de hibou Strigid et 3 échantillons de Soie d'araignée Tissebois.\n\nEt que tout cela reste entre nous, <nom>.",
+      "objectives": "Rapporter 3 Crocs de sabre-de-nuit, 3 Plumes de Hibou Strigid et 3 Echantillons de Soie d'araignée Tissebois à Zenn Foulhoof à l'extérieur de Dolanaar.",
+      "name": "Les commandements de Zenn"
+     },
+     "npc": 2150,
+     "npc_name": "Zenn Foulhoof",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793990095,
+     "last_seen": 1793990095
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "489": {
+   "id": 489,
+   "name": "En quête de rédemption !",
+   "objectives": "Collecter 3 Gangrenoix et les offrir à Zenn Foulhoof à l'extérieur de Dolanaar.",
+   "description": "Le Conseil de la forêt a eu vent que vous aviez aidé Zenn Foulhoof. Ce satyre est un ennemi de la forêt. Un <race> devrait avoir mieux à faire que de la fragiliser en tuant ses créatures.\n\nVous devez vous racheter aux yeux du Conseil si vous désirez rester <un ami/une amie> de Teldrassil.\n\nDonnez une bonne leçon à Foulhoof et vous serez <racheté/rachetée>. Les gangrenoix sont des graines malades qui tombent des arbres. De la fumée verte en sort.\n\nApportez-en à Foulhoof. Il croira qu’il s’agit d’un inoffensif casse-croûte.",
+   "progress": "Qu'est-ce que vous avez là pour moi, <nom> ?  Quelque délicieux en-cas je présume ?",
+   "completion": "Ah ! Que c'est mignon, <race>. Je savais que vous arriveriez à point !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2081,
+     "name": "Sentinelle Kyra Starsong"
+    },
+    {
+     "type": "npc",
+     "id": 2083,
+     "name": "Syral Bladeleaf"
+    },
+    {
+     "type": "npc",
+     "id": 2151,
+     "name": "Prêtresse de la lune Amara"
+    },
+    {
+     "type": "npc",
+     "id": 2155,
+     "name": "Sentinelle Shayla Nightbreeze"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2150,
+     "name": "Zenn Foulhoof"
+    }
+   ],
+   "zone_id": 141,
+   "level": 7,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 630,
+   "money": 175,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "race",
+    "racheté/rachetée",
+    "un ami/une amie"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:09"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "490": {
+   "id": 490,
+   "name": "Prime : Furbolgs pins-tordus",
+   "objectives": "Rapporter 15 crocs de Pins-tordus à Shayla Noctebrise, sur la route à l’extérieur de Darnassus.",
+   "description": "Sur ordre formel des Sentinelles, je mets une prime sur les Pins-tordus. Ils ne sont plus des amis de la forêt. Leur corruption a fait d’eux des menaces insensées pour notre peuple et les créatures de la clairière.\n\nComme décrété, vous serez <récompensé/récompensée> si vous éliminez les menaces furbolgs de Teldrassil. Apportez-moi leurs crocs comme preuve de vos actes.\n\nLes Furbolgs se rassemblent au creux de Ban’ethil, à l’ouest de Dolanaar et au sud de la route, et à Brise-Stellaire, à l’est.",
+   "progress": "Teldrassil ne peut prospérer si la corruption entache la terre. Chassez les Pins-tordus de cette forêt, une fois pour toutes.",
+   "completion": "Vous avez été bien utile, Lumylinss. Vous serez récompensé pour votre contribution.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2155,
+     "name": "Sentinelle Shayla Nightbreeze"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2155,
+     "name": "Sentinelle Shayla Nightbreeze"
+    }
+   ],
+   "zone_id": 141,
+   "level": 8,
+   "reqlevel": 5,
+   "side": "alliance",
+   "xp": 630,
+   "money": null,
+   "forever": {
+    "status": "updated",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "récompensé/récompensée"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:12"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "916": {
+   "id": 916,
+   "name": "Le venin des Tissebois",
+   "objectives": "Apporter 10 Glandes à venin Tissebois à Gilshalan Windwalker, à Aldrassil.",
+   "description": "Je suis venu à Sombrevallon pour observer les araignées Tissebois qui vivent dans la grotte de Sombrefil. Elles sont cousines d'une variété bien plus petite. Je pense que l'arbre-monde a eu un profond effet sur elles, et j'aimerais des spécimens à étudier pour confirmer cette hypothèse.\n\nD'abord, j'aimerais un peu de leur venin. Prélevez des glandes à venin de Tissebois sur les araignées à l'intérieur et autour de la grotte de Sombrefil, au nord. Je pourrai alors étudier les similitudes avec le venin de leurs cousines plus petites.",
+   "progress": "Avez-vous trouvé les glandes à venin, <nom> ?",
+   "completion": "Merci, <nom>. Lorsque je retournerai à Darnassus je comparerai le venin de ces glandes avec celui d'autres araignées. Je crois qu'il a des propriétés liées à la croissance récente de notre nouvel arbre-monde.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2082,
+     "name": "Gilshalan Windwalker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2082,
+     "name": "Gilshalan Windwalker"
+    }
+   ],
+   "zone_id": 141,
+   "level": 4,
+   "reqlevel": 3,
+   "side": "alliance",
+   "xp": 355,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:14"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Merci, <nom>. Lorsque je retournerai à Darnassus je comparerai le venin de ces glandes avec celui d'autres araignées. Je crois qu'il a des propriétés liées à la croissance récente de notre nouvel arbre-monde."
+     },
+     "npc": 2082,
+     "npc_name": "Gilshalan Windwalker",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793988443,
+     "last_seen": 1793988443
+    },
+    "detail": {
+     "texts": {
+      "description": "Je suis venu à Sombrevallon pour observer les araignées Tissebois qui vivent dans la grotte de Sombrefil. Elles sont cousines d'une variété bien plus petite. Je pense que l'arbre-monde a eu un profond effet sur elles, et j'aimerais des spécimens à étudier pour confirmer cette hypothèse.\n\nD'abord, j'aimerais un peu de leur venin. Prélevez des glandes à venin de Tissebois sur les araignées à l'intérieur et autour de la grotte de Sombrefil, au nord. Je pourrai alors étudier les similitudes avec le venin de leurs cousines plus petites.",
+      "objectives": "Apporter 10 Glandes à venin Tissebois à Gilshalan Windwalker, à Aldrassil.",
+      "name": "Le venin des Tissebois"
+     },
+     "npc": 2082,
+     "npc_name": "Gilshalan Windwalker",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793985754,
+     "last_seen": 1793985754
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "917": {
+   "id": 917,
+   "name": "L'œuf d'araignée Tissebois",
+   "objectives": "Apporter un Œuf d'araignée Tissebois à Gilshalan à Aldrassil.",
+   "description": "À présent que j'ai le venin de ces araignées, j'aimerais étudier des spécimens vivants. Malheureusement, capturer une araignée géante est plus que je ne peux vous demander, jeune <classe>. Et je ne pourrais pas moi non plus maîtriser une araignée géante.\n\nSi vous pouvez trouver un œuf non encore éclos, alors il sera plus facile de posséder des spécimens, et je peux organiser les choses pour les enfermer avant que les araignées ne sortent.\n\nIl doit y avoir un nid, au plus profond de la grotte de Sombrefil. S'il vous plaît, partez chercher un œuf dans ce nid et rapportez-le-moi.",
+   "progress": "Êtes-vous allé à l'intérieur de la grotte de Sombrefil, <nom> ? Avez-vous trouvé un œuf d'araignée ?",
+   "completion": "Ah, très bien ! Je ferai en sorte que cet œuf et le venin soient transportés à Darnassus, puis j’y retournerai lorsque j'aurai achevé mes recherches. Je m'attends à découvrir beaucoup en étudiant ces spécimens, <nom>. Vous m'avez été d'un grand secours.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2082,
+     "name": "Gilshalan Windwalker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2082,
+     "name": "Gilshalan Windwalker"
+    }
+   ],
+   "zone_id": 141,
+   "level": 5,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 560,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:17"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah, très bien ! Je ferai en sorte que cet œuf et le venin soient transportés à Darnassus, puis j’y retournerai lorsque j'aurai achevé mes recherches. Je m'attends à découvrir beaucoup en étudiant ces spécimens, <nom>. Vous m'avez été d'un grand secours."
+     },
+     "npc": 2082,
+     "npc_name": "Gilshalan Windwalker",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793988986,
+     "last_seen": 1793988986
+    },
+    "detail": {
+     "texts": {
+      "description": "À présent que j'ai le venin de ces araignées, j'aimerais étudier des spécimens vivants. Malheureusement, capturer une araignée géante est plus que je ne peux vous demander, jeune <classe>. Et je ne pourrais pas moi non plus maîtriser une araignée géante.\n\nSi vous pouvez trouver un œuf non encore éclos, alors il sera plus facile de posséder des spécimens, et je peux organiser les choses pour les enfermer avant que les araignées ne sortent.\n\nIl doit y avoir un nid, au plus profond de la grotte de Sombrefil. S'il vous plaît, partez chercher un œuf dans ce nid et rapportez-le-moi.",
+      "objectives": "Apporter un Œuf d'araignée Tissebois à Gilshalan à Aldrassil.",
+      "name": "L'œuf d'araignée Tissebois"
+     },
+     "npc": 2082,
+     "npc_name": "Gilshalan Windwalker",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793988445,
+     "last_seen": 1793988445
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "918": {
+   "id": 918,
+   "name": "Les graines de sylvain",
+   "objectives": "Apporter 8 Graines de sylvain à Denalan au lac Al'Ameth.",
+   "description": "Les sylvains de Teldrassil sont des élémentaires de la Nature. D'une certaine manière, ils reflètent l'ordre naturel des plantes et des animaux sur notre Grand Arbre.\n\nAussi est-ce inquiétant de voir les sylvains devenir furieux.\n\nJe pense que cela a quelque chose à voir avec la terre. J'ai travaillé à différentes méthodes pour alimenter les plantes et aimerais les essayer sur des graines de sylvains. S'il vous plaît, pouvez-vous collecter des graines de sylvain autour du lac Al'Ameth et me les apporter ?",
+   "progress": "Avez-vous les graines ? J'ai hâte de les planter.",
+   "completion": "Vous les avez. C'est bien !\n\nJe vais planter ces graines dans un terreau spécial que j'ai préparé à cet effet. Je pense que les graines vont produire des sylvains beaucoup plus dociles. Peut-être que vous pourrez voir les résultats plus tard !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2080,
+     "name": "Denalan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2080,
+     "name": "Denalan"
+    }
+   ],
+   "zone_id": 141,
+   "level": 7,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 630,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:19"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vous les avez. C'est bien !\n\nJe vais planter ces graines dans un terreau spécial que j'ai préparé à cet effet. Je pense que les graines vont produire des sylvains beaucoup plus dociles. Peut-être que vous pourrez voir les résultats plus tard !"
+     },
+     "npc": 2080,
+     "npc_name": "Denalan",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793993155,
+     "last_seen": 1793993155
+    },
+    "detail": {
+     "texts": {
+      "description": "Les sylvains de Teldrassil sont des élémentaires de la Nature. D'une certaine manière, ils reflètent l'ordre naturel des plantes et des animaux sur notre Grand Arbre.\n\nAussi est-ce inquiétant de voir les sylvains devenir furieux.\n\nJe pense que cela a quelque chose à voir avec la terre. J'ai travaillé à différentes méthodes pour alimenter les plantes et aimerais les essayer sur des graines de sylvains. S'il vous plaît, pouvez-vous collecter des graines de sylvain autour du lac Al'Ameth et me les apporter ?",
+      "objectives": "Apporter 8 Graines de sylvain à Denalan au lac Al'Ameth.",
+      "name": "Les graines de sylvain"
+     },
+     "npc": 2080,
+     "npc_name": "Denalan",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793991966,
+     "last_seen": 1793991966
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "919": {
+   "id": 919,
+   "name": "Les pousses de sylvain",
+   "objectives": "Apporter 12 Pousses de sylvain à Denalan au lac Al'Ameth.",
+   "description": "De petits sylvains poussent près des eaux du lac Al'Ameth. J'ai bien peur que nous ne puissions plus rien faire pour ces jeunes sujets. Nous devons les arracher avant qu'ils ne grandissent trop et causent des problèmes.\n\nLorsque vous serez près du lac, arrachez les pousses de sylvains que vous verrez. Aidez-nous à garder une terre propre !",
+   "progress": "Salutations, <nom>. Avez-vous trouvé des pousses près des lacs ?",
+   "completion": "C'est beaucoup ! J'ai peur qu'ils ne se répandent à un rythme dangereux. J'espère pouvoir résoudre l'énigme de ce qui les infecte.\n\nMerci pour votre aide, <nom>. La terre est plus saine grâce à vos efforts.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2080,
+     "name": "Denalan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2080,
+     "name": "Denalan"
+    }
+   ],
+   "zone_id": 141,
+   "level": 7,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 790,
+   "money": 350,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:21"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "C'est beaucoup ! J'ai peur qu'ils ne se répandent à un rythme dangereux. J'espère pouvoir résoudre l'énigme de ce qui les infecte.\n\nMerci pour votre aide, <nom>. La terre est plus saine grâce à vos efforts."
+     },
+     "npc": 2080,
+     "npc_name": "Denalan",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793993015,
+     "last_seen": 1793993028
+    },
+    "detail": {
+     "texts": {
+      "description": "De petits sylvains poussent près des eaux du lac Al'Ameth. J'ai bien peur que nous ne puissions plus rien faire pour ces jeunes sujets. Nous devons les arracher avant qu'ils ne grandissent trop et causent des problèmes.\n\nLorsque vous serez près du lac, arrachez les pousses de sylvains que vous verrez. Aidez-nous à garder une terre propre !",
+      "objectives": "Apporter 12 Pousses de sylvain à Denalan au lac Al'Ameth.",
+      "name": "Les pousses de sylvain"
+     },
+     "npc": 2080,
+     "npc_name": "Denalan",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793991982,
+     "last_seen": 1793991982
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "920": {
+   "id": 920,
+   "name": "Les appels de Tenaron",
+   "objectives": "Parler à Tenaron Stormgrip au sommet d'Aldrassil à Sombrevallon.",
+   "description": "<nom>, n'est-ce pas ? J'ai entendu dire que Tenaron vous cherchait. Vous le trouverez à l'endroit le plus haut d'Aldrassil.\n\nIl se peut que nous vivions longtemps encore, mais ce serait mieux de ne pas le faire attendre trop longtemps.",
+   "progress": null,
+   "completion": "Ah <nom> ! J'espérais bien que vous seriez prompt à répondre à mes appels. J'aimerais vous confier une importante tâche.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2082,
+     "name": "Gilshalan Windwalker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3514,
+     "name": "Tenaron Stormgrip"
+    }
+   ],
+   "zone_id": 141,
+   "level": 5,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 45,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:24"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah <nom> ! J'espérais bien que vous seriez prompt à répondre à mes appels. J'aimerais vous confier une importante tâche."
+     },
+     "npc": 3514,
+     "npc_name": "Tenaron Stormgrip",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793989069,
+     "last_seen": 1793989069
+    },
+    "detail": {
+     "texts": {
+      "description": "<nom>, n'est-ce pas ? J'ai entendu dire que Tenaron vous cherchait. Vous le trouverez à l'endroit le plus haut d'Aldrassil.\n\nIl se peut que nous vivions longtemps encore, mais ce serait mieux de ne pas le faire attendre trop longtemps.",
+      "objectives": "Parler à Tenaron Stormgrip au sommet d'Aldrassil à Sombrevallon.",
+      "name": "Les appels de Tenaron"
+     },
+     "npc": 2082,
+     "npc_name": "Gilshalan Windwalker",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793988991,
+     "last_seen": 1793988991
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "921": {
+   "id": 921,
+   "name": "La couronne de la Terre",
+   "objectives": "Remplir la Fiole de cristal et la rapporter à Tenaron Stormgrip au sommet d'Aldrassil.",
+   "description": "Il est temps pour vous de partir en quête de votre destinée, <nom>. Mais avant que vous ne soyez <prêt/prête> à vous aventurer au-delà de nos forêts enchantées, il y a beaucoup à apprendre de notre histoire récente.\n\nNotre peuple a beaucoup changé depuis la Bataille du mont Hyjal. Nordrassil n'est plus que l'ombre pâle de ce qu'il était autrefois... Son pouvoir avait battu Archimonde et repoussé la Légion ardente...\n\nIl y a une tâche que vous devez accomplir. Partez pour le Puits de lune au nord d'Aldrassil et apportez-moi une fiole de son eau.",
+   "progress": "Les Puits de lune gardent les eaux du Puits d'Eternité, l'ancienne source de magie qui a provoqué tellement d'horreurs dans notre monde.\n\nLes druides profitent de ses propriétés et les Sentinelles vénèrent les puits comme des autels à Elune, mais la sorcellerie leur est interdite à tous.",
+   "completion": "Ainsi vous avez entendu la première partie des conséquences de la Bataille du mont Hyjal. Beaucoup reste à raconter et la tâche que vous avez commencée maintenant va se prolonger durant tout votre voyage à travers Teldrassil et à Darnassus.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3514,
+     "name": "Tenaron Stormgrip"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3514,
+     "name": "Tenaron Stormgrip"
+    }
+   ],
+   "zone_id": 141,
+   "level": 5,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 335,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom",
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:27"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ainsi vous avez entendu la première partie des conséquences de la Bataille du mont Hyjal. Beaucoup reste à raconter et la tâche que vous avez commencée maintenant va se prolonger durant tout votre voyage à travers Teldrassil et à Darnassus."
+     },
+     "npc": 3514,
+     "npc_name": "Tenaron Stormgrip",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793989382,
+     "last_seen": 1793989382
+    },
+    "detail": {
+     "texts": {
+      "description": "Il est temps pour vous de partir en quête de votre destinée, <nom>. Mais avant que vous ne soyez prêt à vous aventurer au-delà de nos forêts enchantées, il y a beaucoup à apprendre de notre histoire récente.\n\nNotre peuple a beaucoup changé depuis la Bataille du mont Hyjal. Nordrassil n'est plus que l'ombre pâle de ce qu'il était autrefois... Son pouvoir avait battu Archimonde et repoussé la Légion ardente...\n\nIl y a une tâche que vous devez accomplir. Partez pour le Puits de lune au nord d'Aldrassil et apportez-moi une fiole de son eau.",
+      "objectives": "Remplir la Fiole de cristal et la rapporter à Tenaron Stormgrip au sommet d'Aldrassil.",
+      "name": "La couronne de la Terre"
+     },
+     "npc": 3514,
+     "npc_name": "Tenaron Stormgrip",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793989070,
+     "last_seen": 1793989070
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "922": {
+   "id": 922,
+   "name": "Rellian Greenspyre",
+   "objectives": "Apporter une Graine de sylvain à Rellian Greenspyre à Darnassus.",
+   "description": "<nom>, pouvez-vous apporter l'une des graines que vous avez trouvées à mon ami, Rellian Greenspyre ? Il est druide à Darnassus, et la dernière fois que nous avons parlé il m'a révélé son intérêt concernant mes travaux sur les sylvains. Il avait quelques idées de son côté et il appréciera d'avoir une graine comme spécimen à étudier.\n\nMerci, <nom>. Vous m'avez été d'un grand secours. J'espère qu'un jour, vous verrez les fruits de mon labeur.\n\nRellian parcourt souvent les chemins de l'Enclave cénarienne à Darnassus.",
+   "progress": "Salutations…\n\nEt comment puis-je vous aider ?",
+   "completion": "Ah ! Une graine de sylvain ! Je voulais en faire pousser pour aider Denalan dans ses études.\n\nMais j'ai bien peur d'avoir découvert qu'une maladie contamine beaucoup de sylvains, et les graines de pieds malades portent à leur tour le problème. Mes talents ne suffisent pas à y remédier.\n\nDenalan est très compétent avec les choses qui poussent. Il pourrait trouver un remède pour les futurs sylvains. Il est sans doute leur dernier espoir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2080,
+     "name": "Denalan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3517,
+     "name": "Rellian Greenspyre"
+    }
+   ],
+   "zone_id": 141,
+   "level": 7,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 315,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:29"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah ! Une graine de sylvain ! Je voulais en faire pousser pour aider Denalan dans ses études.\n\nMais j'ai bien peur d'avoir découvert qu'une maladie contamine beaucoup de sylvains, et les graines de pieds malades portent à leur tour le problème. Mes talents ne suffisent pas à y remédier.\n\nDenalan est très compétent avec les choses qui poussent. Il pourrait trouver un remède pour les futurs sylvains. Il est sans doute leur dernier espoir."
+     },
+     "npc": 3517,
+     "npc_name": "Rellian Greenspyre",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Darnassus",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1794000982,
+     "last_seen": 1794000982
+    },
+    "detail": {
+     "texts": {
+      "description": "<nom>, pouvez-vous apporter l’une des graines que vous avez trouvées à mon ami, Rellian Vertecime ? Il est druide à Darnassus, et la dernière fois que nous avons parlé, il m’a révélé son intérêt pour mes travaux sur les sylvains. Il avait quelques idées de son côté et il sera heureux d’avoir une graine comme spécimen à étudier.\n\nMerci, <nom>. Vous m’avez été d’un grand secours. J’espère qu’un jour, vous verrez les fruits de mon labeur.\n\nRellian parcourt souvent les chemins de l’Enclave cénarienne à Darnassus.",
+      "objectives": "Apporter une Graine de sylvain à Rellian Greenspyre à Darnassus.",
+      "name": "Rellian Greenspyre"
+     },
+     "npc": 2080,
+     "npc_name": "Denalan",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793993156,
+     "last_seen": 1793993156
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "923": {
+   "id": 923,
+   "name": "Tumeurs",
+   "objectives": "Apporter 5 Tumeurs moussues à Rellian Greenspyre à Darnassus.",
+   "description": "Une maladie décime les sylvains. Nous essayons d'en trouver la cause, mais tant que nous n’y parvenons pas nous devons arracher les sylvains contaminés, pour la sécurité de Teldrassil. Ceux qui poussent près du lac d'Aigue-vive, au nord de Teldrassil, sont les plus atteints. Nous devons les arracher !\n\nDétruisez les sylvains que vous trouvez, et prélevez la Tumeur moussue qui se développe sur eux. Apportez-moi les tumeurs afin qu'elles soient brûlées.",
+   "progress": "Êtes-vous allé au lac d'Aigue-vive, <nom> ? Avez-vous détruit des sylvains là-bas ?",
+   "completion": "Beau travail ! Ces tumeurs sont la cause de la maladie des sylvains. Elles sont pleines de poison que nous devons éliminer de notre nouvelle terre.\n\nJe vais détruire ces tumeurs.\n\nmerci, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3517,
+     "name": "Rellian Greenspyre"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3517,
+     "name": "Rellian Greenspyre"
+    }
+   ],
+   "zone_id": 141,
+   "level": 9,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 980,
+   "money": 600,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:31"
+   },
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Une maladie décime les sylvains. Nous essayons d'en trouver la cause, mais tant que nous n’y parvenons pas nous devons arracher les sylvains contaminés, pour la sécurité de Teldrassil. Ceux qui poussent près du lac d'Aigue-vive, au nord de Teldrassil, sont les plus atteints. Nous devons les arracher !\n\nDétruisez les sylvains que vous trouvez, et prélevez la Tumeur moussue qui se développe sur eux. Apportez-moi les tumeurs afin qu'elles soient brûlées.",
+      "objectives": "Apporter 5 Tumeurs moussues à Rellian Greenspyre à Darnassus.",
+      "name": "Tumeurs"
+     },
+     "npc": 3517,
+     "npc_name": "Rellian Greenspyre",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Darnassus",
+     "map_id": 1457,
+     "client": "1.60.1.70790",
+     "first_seen": 1794000983,
+     "last_seen": 1794000983
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "927": {
+   "id": 927,
+   "name": "Le cœur moussu",
+   "objectives": "Apporter le Cœur moussu à Denalan au lac Al'Ameth.",
+   "description": "Le cœur de Noiremousse le Fétide est couvert d'une mousse sombre et huileuse. En fait, ce qui permet d’identifier ce cœur, c’est sa pulsation, lente et rythmée.\n\nPeut-être que Denalan voudra voir ce cœur ?",
+   "progress": "<nom> ! Avez-vous quelque chose pour moi ?",
+   "completion": "Qu'est-ce donc ? Un cœur de sylvain ? Il est couvert d'une mousse infecte !\n\nMerci de m'apporter cela, <nom>. Je vais l’examiner, et si la fortune me sourit je vais déterminer la nature de cette mousse.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 5179,
+     "name": "Moss-twined Heart"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2080,
+     "name": "Denalan"
+    }
+   ],
+   "zone_id": 141,
+   "level": 12,
+   "reqlevel": 5,
+   "side": "alliance",
+   "xp": 455,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:34"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "928": {
+   "id": 928,
+   "name": "La couronne de la Terre",
+   "objectives": "Apporter le Récipient à moitié plein à Corithras Moonrage à Dolanaar.",
+   "description": "Bien que je puisse vous entretenir encore longtemps des Puits de lune et de Teldrassil, je dois vous faire partir. Corithras Moonrage va vous attendre. J'ai versé l'eau de la fiole que vous m'avez apportée dans ce récipient que vous devez lui remettre.\n\nCherchez Corithras. Vous le trouverez au Puits de lune à Dolanaar. Suivez la route vers le sud à partir d'Aldrassil et vers Sombrevallon, et continuez à suivre les pavés ronds lorsque la route se dirige vers l'ouest.\n\nAttention, restez toujours sur la route, <nom>. Il y a de dangereuses bêtes, le soir, dans les forêts.",
+   "progress": "Salutations, <classe>. A quelle occasion dois-je le plaisir de vous rencontrer ?",
+   "completion": "Ah je vois ! Vous avez été envoyé par Tenaron. Très bien alors, il semblerait que nous ayons beaucoup à discuter, beaucoup à faire, et peu de temps pour tout cela.\n\nAlors commençons...",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3514,
+     "name": "Tenaron Stormgrip"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3515,
+     "name": "Corithras Moonrage"
+    }
+   ],
+   "zone_id": 141,
+   "level": 5,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 225,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:37"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah je vois ! Vous avez été envoyé par Tenaron. Très bien alors, il semblerait que nous ayons beaucoup à discuter, beaucoup à faire, et peu de temps pour tout cela.\n\nAlors commençons..."
+     },
+     "npc": 3515,
+     "npc_name": "Corithras Moonrage",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793990713,
+     "last_seen": 1793990713
+    },
+    "detail": {
+     "texts": {
+      "description": "Bien que je puisse vous entretenir encore longtemps des Puits de lune et de Teldrassil, je dois vous faire partir. Corithras Moonrage va vous attendre. J'ai versé l'eau de la fiole que vous m'avez apportée dans ce récipient que vous devez lui remettre.\n\nCherchez Corithras. Vous le trouverez au Puits de lune à Dolanaar. Suivez la route vers le sud à partir d'Aldrassil et vers Sombrevallon, et continuez à suivre les pavés ronds lorsque la route se dirige vers l'ouest.\n\nAttention, restez toujours sur la route, <nom>. Il y a de dangereuses bêtes, le soir, dans les forêts.",
+      "objectives": "Apporter le Récipient à moitié plein à Corithras Moonrage à Dolanaar.",
+      "name": "La couronne de la Terre"
+     },
+     "npc": 3514,
+     "npc_name": "Tenaron Stormgrip",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793989383,
+     "last_seen": 1793989383
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "929": {
+   "id": 929,
+   "name": "La couronne de la Terre",
+   "objectives": "Remplir la Fiole de jade et la rapporter à Corithras Moonrage à Dolanaar.",
+   "description": "Tout d'abord, laissez-moi vous en dire plus à propos de la quête que vous devez accomplir. Les druides de Darnassus utilisent l'eau des Puits de lune de Teldrassil, et leurs Puits de lune doivent être remplis de temps en temps. En utilisant ces fioles spécialement conçues, vous pouvez collecter l'eau des Puits de lune.\n\nApportez ce récipient jusqu'au Puits de lune à l’extérieur du village de Brise-stellaire à l'est, et remplissez-le d'un peu de ses eaux. Puis revenez me voir. Lorsque vous aurez accompli votre tâche, je reprendrai l'histoire là où Tenaron s’est arrêté.",
+   "progress": "Salutations à nouveau, <nom>. Avez-vous accompli votre tâche ?",
+   "completion": "Après la Bataille du mont Hyjal, nous n'avions plus de commandement. Nordrassil fumait du feu qu'il avait déclenché, et notre immortalité – l'essence même de nos êtres – était perdue.\n\nC'est en ces temps d'épreuves que le Traître fut libéré de sa prison, et que Shan'do Stormrage disparut. Des temps sombres pour chacun.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3515,
+     "name": "Corithras Moonrage"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3515,
+     "name": "Corithras Moonrage"
+    }
+   ],
+   "zone_id": 141,
+   "level": 5,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 335,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:39"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Après la Bataille du mont Hyjal, nous n'avions plus de commandement. Nordrassil fumait du feu qu'il avait déclenché, et notre immortalité – l'essence même de nos êtres – était perdue.\n\nC'est en ces temps d'épreuves que le Traître fut libéré de sa prison, et que Shan'do Stormrage disparut. Des temps sombres pour chacun."
+     },
+     "npc": 3515,
+     "npc_name": "Corithras Moonrage",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793991620,
+     "last_seen": 1793991620
+    },
+    "detail": {
+     "texts": {
+      "description": "Tout d'abord, laissez-moi vous en dire plus à propos de la quête que vous devez accomplir. Les druides de Darnassus utilisent l'eau des Puits de lune de Teldrassil, et leurs Puits de lune doivent être remplis de temps en temps. En utilisant ces fioles spécialement conçues, vous pouvez collecter l'eau des Puits de lune.\n\nApportez ce récipient jusqu'au Puits de lune à l’extérieur du village de Brise-stellaire à l'est, et remplissez-le d'un peu de ses eaux. Puis revenez me voir. Lorsque vous aurez accompli votre tâche, je reprendrai l'histoire là où Tenaron s’est arrêté.",
+      "objectives": "Remplir la Fiole de jade et la rapporter à Corithras Moonrage à Dolanaar.",
+      "name": "La couronne de la Terre"
+     },
+     "npc": 3515,
+     "npc_name": "Corithras Moonrage",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793990714,
+     "last_seen": 1793990714
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "930": {
+   "id": 930,
+   "name": "Le fruit luminescent",
+   "objectives": "Apporter le Fruit luminescent à Denalan au lac Al'Ameth.",
+   "description": "Pendu à cette plante, sous ses feuilles, se trouve un grand fruit rond.\n\nDenalan voudra étudier ce fruit, c'est certain.",
+   "progress": "<nom>, on dirait que vous voulez me dire quelque chose ? Avez-vous des nouvelles à propos des sylvains ?",
+   "completion": "Vous avez trouvé ceci sur Teldrassil ? Étrange… Ce fruit est assurément exotique. Peut-être que sa graine est venue de très loin. Peut-être même d'aussi loin qu'Azeroth ! Et il y a quelque chose à propos de ce fruit… Il semble avoir réagi très bizarrement à la terre de Teldrassil.\n\nMerci, <nom>. À présent si vous voulez bien m'excuser, je dois faire une étude plus poussée...",
+   "starters": [
+    {
+     "type": "object",
+     "id": 6751,
+     "name": "Strange Fruited Plant"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2080,
+     "name": "Denalan"
+    }
+   ],
+   "zone_id": 141,
+   "level": 10,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 840,
+   "money": 350,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:42"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "931": {
+   "id": 931,
+   "name": "Les racines flamboyantes",
+   "objectives": "Apporter les Racines flamboyantes à Denalan au lac Al'Ameth.",
+   "description": "Les feuilles de la plante flamboient dans la lumière de la forêt, lui donnant une aura pulsante et sinueuse.\n\nVous pensez que Denalan en souhaiterait un spécimen.",
+   "progress": "Vous avez quelque chose pour moi ?",
+   "completion": "Où avez-vous trouvé cela ? Je n'ai pas revu une plante pareille depuis un séjour que j'ai effectué dans les marais des Chagrins… il y a des décennies de cela ! C'est stupéfiant qu'un tel spécimen soit parvenu jusqu'en Teldrassil. Et sa taille est inhabituelle !\n\nMerci, <nom>. Pardonnez mon manque de loquacité, mais j'aimerais effectuer un test sur cette plante...",
+   "starters": [
+    {
+     "type": "object",
+     "id": 6752,
+     "name": "Strange Fronded Plant"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2080,
+     "name": "Denalan"
+    }
+   ],
+   "zone_id": 141,
+   "level": 10,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 840,
+   "money": 350,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:44"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Où avez-vous trouvé cela ? Je n'ai pas revu une plante pareille depuis un séjour que j'ai effectué dans le marais des Chagrins... il y a des décennies de cela ! C'est stupéfiant qu'un tel spécimen soit parvenu jusqu'à Teldrassil. Et sa taille est inhabituelle !\n\nMerci, <nom>. Pardonnez mon manque de loquacité, mais j'aimerais effectuer un test sur cette plante..."
+     },
+     "npc": 2080,
+     "npc_name": "Denalan",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1794001575,
+     "last_seen": 1794001575
+    },
+    "detail": {
+     "texts": {
+      "description": "Les feuilles de la plante flamboient dans la lumière de la forêt, lui donnant une aura pulsante et sinueuse.\n\nVous pensez que Denalan en souhaiterait un spécimen.",
+      "objectives": "Apporter les Racines flamboyantes à Denalan au lac Al'Ameth.",
+      "name": "Les racines flamboyantes"
+     },
+     "npc": 6752,
+     "npc_name": "Plantes aux feuilles étranges",
+     "npc_type": "GameObject",
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1794000453,
+     "last_seen": 1794000564
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "932": {
+   "id": 932,
+   "name": "Haine folle",
+   "objectives": "Tuer le seigneur Melenas et apporter sa tête à Tallonkai Swiftroot à Dolanaar.",
+   "description": "Je vous avertis, <nom>, cette affaire doit rester entre nous. Les satyres nous embarrassent déjà suffisamment, et celui-ci est beaucoup trop proche.\n\nIl s'appelle le seigneur Melenas. Il réside dans la caverne proche de Gangreroche où il a rassemblé de nombreux guerriers grells. Son cœur est aussi noir que la nuit, et il prépare quelque chose d'abominable.\n\nVous devez le trouver à l'intérieur de sa caverne proche juste au nord d'ici, et m'apporter sa tête.",
+   "progress": "Avez-vous déjà tué le Seigneur Melenas ? Il est vital que l'on s'occupe rapidement et discrètement de lui, <nom>. Son existence est un danger pour chacun d'entre nous.",
+   "completion": "Maintenant que le Seigneur Melenas repose enfin, je peux m'occuper des autres problèmes. Merci, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3567,
+     "name": "Tallonkai Swiftroot"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3567,
+     "name": "Tallonkai Swiftroot"
+    }
+   ],
+   "zone_id": 141,
+   "level": 8,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 630,
+   "money": null,
+   "forever": {
+    "status": "updated",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:47"
+   },
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Je vous avertis, <nom>, cette affaire doit rester entre nous. Les satyres nous embarrassent déjà suffisamment, et celui-ci est beaucoup trop proche.\n\nIl s'appelle le seigneur Melenas. Il réside dans la caverne proche de Gangreroche où il a rassemblé de nombreux guerriers grells. Son cœur est aussi noir que la nuit, et il prépare quelque chose d'abominable.\n\nVous devez le trouver à l'intérieur de sa caverne proche juste au nord d'ici, et m'apporter sa tête.",
+      "objectives": "Tuer le seigneur Melenas et apporter sa tête à Tallonkai Swiftroot à Dolanaar.",
+      "name": "Haine folle"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": "Player",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793990675,
+     "last_seen": 1793990675
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "933": {
+   "id": 933,
+   "name": "La couronne de la Terre",
+   "objectives": "Remplir la Fiole de tourmaline et la rapporter à Corithras Moonrage à Dolanaar.",
+   "description": "Il y a un autre Puits de lune au sud-est de l'entrée vers Darnassus, sur les rives des bassins d'Arlithrien. Les Sentinelles ont des problèmes lors de leurs patrouilles dans ce secteur. Ils sont attaqués par les furbolgs du clan Pin-tordu, de plus en plus sauvages.\n\nSoyez <prudent/prudente> quand vous chercherez le Puits, et gardez la main près de vos armes.",
+   "progress": "Au début, les rapports parlant d’attaques de furbolgs enragés ne furent pas pris au sérieux. Qui aurait pu penser que ces nounours pacifiques deviendraient de folles machines à tuer ? C'est pourtant un autre des problèmes qui nous assaillent ici à notre nouveau domicile.",
+   "completion": "Shan'do Stormrage ne revint jamais, et les druides étaient en plein désarroi. À ce jour, nous ne savons toujours pas ce qu'il est advenu de lui. Malfurion n'étant plus là, l'archidruide Fandral Staghelm prit la direction des druides, convainquant ainsi le Cercle des Anciens de Sombrivage qu'il était temps pour notre peuple de reconstruire, et temps également de retrouver l'immortalité.\n\nAvec l'approbation du Cercle, Staghelm et les plus puissants druides firent grandir Teldrassil, le nouvel Arbre Monde.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3515,
+     "name": "Corithras Moonrage"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3515,
+     "name": "Corithras Moonrage"
+    }
+   ],
+   "zone_id": 141,
+   "level": 9,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 780,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "prudent/prudente"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:49"
+   },
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Il y a un autre Puits de lune au sud-est de l'entrée vers Darnassus, sur les rives des bassins d'Arlithrien. Les Sentinelles ont des problèmes lors de leurs patrouilles dans ce secteur. Ils sont attaqués par les furbolgs du clan Pin-tordu, de plus en plus sauvages.\n\nSoyez prudent quand vous chercherez le Puits, et gardez la main près de vos armes.",
+      "objectives": "Remplir la Fiole de tourmaline et la rapporter à Corithras Moonrage à Dolanaar.",
+      "name": "La couronne de la Terre"
+     },
+     "npc": 3515,
+     "npc_name": "Corithras Moonrage",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793991620,
+     "last_seen": 1793991620
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "934": {
+   "id": 934,
+   "name": "La couronne de la Terre",
+   "objectives": "Remplir la Fiole d'améthyste et la rapporter à Corithras Moonrage à Dolanaar.",
+   "description": "Cependant, tout n'était pas parfait sur Teldrassil. Les plans soigneusement conçus de Staghelm pour le nouvel Arbre Monde s'étaient déroulés comme il l'avait espéré. Mais il y eut un petit problème, un problème sans doute à l'origine des nombreuses difficultés rencontrées sur Teldrassil.\n\n. Mais je ne vais pas m'étendre maintenant sur ce sujet. Vous devez vous rendre au dernier puits de lune, au nord-ouest, dans la clairière de l'Oracle. Sous les branches de l'arbre-oracle se trouve le premier et le plus puissant de nos puits. Remplissez un flacon de son eau et revenez me voir.",
+   "progress": "Avec les druides, l'arbre-oracle et l'archidruide ont surveillé attentivement la croissance de Teldrassil. Mais bien que nous ayons un nouveau foyer, nos vies immortelles n'ont pas été restaurées.",
+   "completion": "Être en présence de l'arbre de l'Oracle... c'est presque sentir la sagesse prendre forme. Permettez-moi de poursuivre le récit...\n\nTeldrassil ayant grandi, l'archidruide demanda aux dragons de lui accorder leur bénédiction, comme ils l'avaient fait pour Nordrassil dans les temps anciens. Mais Nozdormu, le Seigneur du Temps, refusa de donner sa bénédiction, reprochant au druide son arrogance. En accord avec Nozdormu, Alexstrasza a également refusé Staghelm, et sans sa bénédiction, la croissance de Teldrassil a été imparfaite et imprévisible...",
+   "starters": [],
+   "enders": [],
+   "zone_id": 141,
+   "level": 11,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.31650"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:52"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "935": {
+   "id": 935,
+   "name": "La couronne de la Terre",
+   "objectives": "Apporter le Récipient plein à l'archidruide Fandral Staghelm à Darnassus.",
+   "description": "Sans la bénédiction d'Alexstrasza la Lieuse de vie et celle de Nozdormu l'Éternel, la croissance de Teldrassil ne fut pas parfaite. On rapporte que des bêtes étranges sortaient de ses racines et que des furbolgs enragés attaquaient des voyageurs.\n\nJe ne peux qu'espérer que l'archidruide trouvera rapidement la solution. Je vais verser le contenu de toutes les fioles que vous m'avez amenées dans ce récipient, pour que vous l'apportiez à Darnassus.\n\nApportez-le à Fandral Staghelm, vous le trouverez dans le bosquet des druides.",
+   "progress": "Je sais que je ne vous ai pas appelé, aussi ne puis-je m'empêcher de me demander pourquoi vous êtes venu me parler.\n\nQuel que soit le sujet, faites vite, je vous prie.",
+   "completion": "Ah oui ! L'eau que j'ai demandée. Tenaron et Corithras ont mis tout ce temps pour me la faire parvenir… Je n'ai peut-être pas choisi les messagers les plus sûrs… Hmmm !\n\nMais bon, je peux enfin retourner à mon travail. Le poids des soucis de Teldrassil repose sur mes épaules. Un fardeau dont j'aimerais être débarrassé au plus tôt.\n\nPrenez cela, peut-être y trouverez-vous une quelconque utilité.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3515,
+     "name": "Corithras Moonrage"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3516,
+     "name": "Archidruide Fandral Staghelm"
+    }
+   ],
+   "zone_id": 141,
+   "level": 11,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 1100,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:54"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "937": {
+   "id": 937,
+   "name": "La clairière enchantée",
+   "objectives": "Acquérir 6 Ceintures plumesang et les apporter à la Sentinelle Arynia Cloudsbreak à la clairière de l'Oracle.",
+   "description": "On m'a envoyée ici avec un petit groupe de Sentinelles pour protéger l'arbre-oracle des harpies qui ont construit leurs nids tout autour de la clairière. Nous essayons de les repousser petit à petit.\n\nLorsque l'arbre-oracle a tenté d'envoyer un messager avec un rapport, il a été attaqué par un groupe de harpies et tué.\n\nSi vous vous sentez suffisamment <préparé/préparée> pour cette tâche, allez à leurs nids, tuez-les et rapportez-moi leurs ceintures en guise de preuves de vos exploits.",
+   "progress": "Leurs serres coupantes et leurs becs perçants peuvent présenter des difficultés, <nom>, mais j'ai foi en votre capacité à accomplir cette tâche.",
+   "completion": "Je suis impressionnée par ce que vous venez d'accomplir en un temps aussi court, <nom>. J'aimerais vous demander de rester ici et de m’épauler… Mais je sais dans mon cœur que de plus grandes quêtes vous attendent.\n\nJ'ai remarqué que l'arbre-oracle a laissé tomber un morceau de son écorce. Il ne fait pas de doute qu'il a une tâche qu'il aimerait vous voir accomplir. Vous devriez aller lui parler.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3519,
+     "name": "Sentinelle Arynia Cloudsbreak"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3519,
+     "name": "Sentinelle Arynia Cloudsbreak"
+    }
+   ],
+   "zone_id": 141,
+   "level": 11,
+   "reqlevel": 6,
+   "side": "alliance",
+   "xp": 440,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "préparé/préparée"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:57"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Merci infiniment, votre aide nous est très précieuse. Je vais examiner ces ceintures en quête d’indices sur l’attaque de Harpies."
+     },
+     "npc": 3519,
+     "npc_name": "Sentinelle Arynia Cloudsbreak",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793999874,
+     "last_seen": 1793999874
+    },
+    "detail": {
+     "texts": {
+      "description": "On m'a envoyée ici avec un petit groupe de Sentinelles pour protéger l'arbre-oracle des harpies qui ont construit leurs nids tout autour de la clairière. Nous essayons de les repousser petit à petit.\n\nLorsque l'arbre-oracle a tenté d'envoyer un messager avec un rapport, il a été attaqué par un groupe de harpies et tué.\n\nSi vous vous sentez suffisamment préparé pour cette tâche, allez à leurs nids, tuez-les et rapportez-moi leurs ceintures en guise de preuves de vos exploits.",
+      "objectives": "Acquérir 6 Ceintures plumesang et les apporter à la Sentinelle Arynia Cloudsbreak à la clairière de l'Oracle.",
+      "name": "La clairière enchantée"
+     },
+     "npc": 3519,
+     "npc_name": "Sentinelle Arynia Cloudsbreak",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793999080,
+     "last_seen": 1793999080
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "938": {
+   "id": 938,
+   "name": "Brume",
+   "objectives": "Escorter Brume vers la Sentinelle Arynia Cloudsbreak au puits de lune, près de l'arbre-oracle.",
+   "description": "La fourrure du tigre à dents de sabre est d'un gris particulier, tranchant avec les couleurs de la forêt environnante. Tandis qu'elle repose là, vous remarquez qu'elle est gravement blessée, de profondes lacérations déchirent son dos et son ventre.\n\nElle lève la tête et vous regarde, ses yeux bleus brillant d'intelligence. Elle a l'air de souhaiter vous suivre.",
+   "progress": "Brume… C'était ma faute ! Les sorcières m'ont surprise la garde baissée… Je n'aurais pas dû les laisser te prendre…",
+   "completion": "Oh merci <nom> ! J'ai eu tellement peur de ne plus jamais revoir Brume. J’ignorais quel sort était réservé à ma fidèle camarade. Je vous dois plus que vous ne pourriez imaginer, et vous avez ma reconnaissance éternelle.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3568,
+     "name": "Brume"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3519,
+     "name": "Sentinelle Arynia Cloudsbreak"
+    }
+   ],
+   "zone_id": 141,
+   "level": 12,
+   "reqlevel": 7,
+   "side": "alliance",
+   "xp": 910,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:03:59"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "940": {
+   "id": 940,
+   "name": "Teldrassil",
+   "objectives": "Apportez l’écorce gravée à l’archidruide Fandral Forteramure à Darnassus.",
+   "description": "On entend murmurer la forêt qui loue vos grandes prouesses, <nom>. Les harpies une fois délogées de leurs nids, un grand calme s'est répandu sur la forêt, ses créatures se sentant à nouveau en sécurité. J'ai eu peur d'envoyer un autre messager à l'archidruide, mais je sais que vous, vous parviendrez à lui remettre un message.\n\nApportez-lui ceci et sachez que la forêt veillera à votre sécurité le long du chemin menant à la Forêt de pierre.",
+   "progress": "Hmm… Je vois que l’esprit de la forêt vous accompagne, <classe>. Qu'est-ce qui vous amène jusqu’à l'archidruide des Kaldorei ?",
+   "completion": "Je me demandais pourquoi l'arbre-oracle ne communiquait plus avec moi depuis si longtemps… Il semble que quelques problèmes aient été résolus, alors que d'autres nous apportent des inquiétudes croissantes.\n\nJ'ai peur que mon travail sur Teldrassil ne soit jamais achevé, et que notre immortalité ne soit jamais retrouvée.\n\nCependant, vous avez accompli à merveille la tâche que vous avait confiée l'arbre-oracle, et devez être récompensé pour votre diligence.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 673378,
+     "name": "Oracle Tree Bark"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3516,
+     "name": "Archidruide Fandral Staghelm"
+    }
+   ],
+   "zone_id": 141,
+   "level": 11,
+   "reqlevel": 6,
+   "side": "alliance",
+   "xp": 220,
+   "money": null,
+   "forever": {
+    "status": "updated",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:01"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Je me demandais pourquoi l'arbre-oracle ne communiquait plus avec moi depuis si longtemps… Il semble que quelques problèmes aient été résolus, alors que d'autres nous apportent des inquiétudes croissantes.\n\nJ'ai peur que mon travail sur Teldrassil ne soit jamais achevé, et que notre immortalité ne soit jamais retrouvée.\n\nCependant, vous avez accompli à merveille la tâche que vous avait confiée l'arbre-oracle, et devez être récompensé pour votre diligence."
+     },
+     "npc": 3516,
+     "npc_name": "Archidruide Fandral Staghelm",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Darnassus",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1794000951,
+     "last_seen": 1794000951
+    },
+    "detail": {
+     "texts": {
+      "description": "On entend murmurer la forêt qui loue vos grandes prouesses, <nom>. Les harpies une fois délogées de leurs nids, un grand calme s'est répandu sur la forêt, ses créatures se sentant à nouveau en sécurité. J'ai eu peur d'envoyer un autre messager à l'archidruide, mais je sais que vous, vous parviendrez à lui remettre un message.\n\nApportez-lui ceci et sachez que la forêt veillera à votre sécurité le long du chemin menant à la Forêt de pierre.",
+      "objectives": "Apportez l’écorce gravée à l’archidruide Fandral Forteramure à Darnassus.",
+      "name": "Teldrassil"
+     },
+     "npc": 673378,
+     "npc_name": "Écorce d’arbre oracle",
+     "npc_type": "GameObject",
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1794000642,
+     "last_seen": 1794000642
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "941": {
+   "id": 941,
+   "name": "Une belle plante",
+   "objectives": "Planter le Cœur corrompu dans le Pot de Denalan.",
+   "description": "J'ai débarrassé le cœur de cette ignoble mousse, mais il reste contaminé…\n\nEssayez de placer le cœur dans ce pot. Il est rempli d’un terreau spécial qui pourrait le nettoyer et le guérir.",
+   "progress": "Le pot est rempli d'un terreau spécialement préparé par Denalan.",
+   "completion": "Vous placez le cœur à l'intérieur du pot, et il s'enfonce rapidement de lui-même.\n\nQuelques secondes plus tard, il ressurgit, propre. Il bat doucement… vous enjoignant de le prendre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2080,
+     "name": "Denalan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 7923,
+     "name": "Denalan's Planter"
+    }
+   ],
+   "zone_id": 141,
+   "level": 12,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": 910,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:04"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "997": {
+   "id": 997,
+   "name": "La terre de Denalan",
+   "objectives": "Rapporter le paquet de Terre rare à Denalan au lac Al'Ameth.",
+   "description": "Vous allez vers le sud ? Au lac Al'Ameth ? Si c'est le cas, j'ai une tâche à vous confier...\n\nMon collègue Denalan campe le long du rivage oriental du lac, où il étudie la flore de Teldrassil. Il a demandé qu'on lui envoie un paquet de Terre rare de Darnassus, mais il y a eu du retard et le paquet vient seulement d'arriver à Dolanaar.\n\nPouvez-vous le lui apporter ?",
+   "progress": "Vous avez quelque chose pour moi ?",
+   "completion": "Ah, elle est là ! J'attends cette terre rare depuis longtemps. J'espère qu'elle est encore fraîche…\n\nMerci de me l'avoir apportée, <nom>. Vous donnez votre temps sans compter, <race>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2083,
+     "name": "Syral Bladeleaf"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2080,
+     "name": "Denalan"
+    }
+   ],
+   "zone_id": 141,
+   "level": 5,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 225,
+   "money": 50,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:06"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah, elle est là ! J'attends cette terre rare depuis longtemps. J'espère qu'elle est encore fraîche…\n\nMerci de me l'avoir apportée, <nom>. Vous donnez votre temps sans compter, <race>."
+     },
+     "npc": 2080,
+     "npc_name": "Denalan",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793991936,
+     "last_seen": 1793991936
+    },
+    "detail": {
+     "texts": {
+      "description": "Vous allez vers le sud ? Au lac Al'Ameth ? Si c'est le cas, j'ai une tâche à vous confier...\n\nMon collègue Denalan campe le long du rivage oriental du lac, où il étudie la flore de Teldrassil. Il a demandé qu'on lui envoie un paquet de Terre rare de Darnassus, mais il y a eu du retard et le paquet vient seulement d'arriver à Dolanaar.\n\nPouvez-vous le lui apporter ?",
+      "objectives": "Rapporter le paquet de Terre rare à Denalan au lac Al'Ameth.",
+      "name": "La terre de Denalan"
+     },
+     "npc": 2083,
+     "npc_name": "Syral Bladeleaf",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793990648,
+     "last_seen": 1793990648
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2159": {
+   "id": 2159,
+   "name": "Livraison à Dolanaar",
+   "objectives": "Apporter la Livraison de Dolanaar à l'aubergiste Keldamyr.",
+   "description": "Salutations, jeune <classe>. Pouvez-vous m'aider ? Je dois livrer ce paquet d'herbes dans la ville de Dolanaar, mais ne puis partir d'ici car j'ai une tâche à terminer avec les druides de Sombrevallon.\n\nPouvez-vous livrer ce paquet pour moi ? Il doit être remis à l'aubergiste Keldamyr, à l'auberge de Dolanaar. Elle se trouve sur cette route, au sud.",
+   "progress": "En quoi puis-je vous être utile ? Voulez-vous prendre du repos à l'auberge ? Désirez-vous une place près du foyer ?",
+   "completion": "Ah oui ! La livraison d'herbes de Sombrevallon. Il est regrettable que Porthannius ne l'ait pas apportée lui-même, car nous avons beaucoup à nous dire, lui et moi. Mais je suis cependant heureux d'avoir ces herbes et de vous voir ici.\n\nPuisque vous êtes là, je vous en prie, reposez-vous. Les héros doivent garder leur force et leur esprit en forme, et pour cela, ils doivent profiter du moindre moment de repos et de consolation. Négliger la paix du corps et de l'âme conduit de façon certaine à l'échec.\n\nAlors... repos.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6780,
+     "name": "Porthannius"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6736,
+     "name": "Keldamyr l'aubergiste"
+    }
+   ],
+   "zone_id": 141,
+   "level": 5,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 110,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:09"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah oui ! La livraison d'herbes de Sombrevallon. Il est regrettable que Porthannius ne l'ait pas apportée lui-même, car nous avons beaucoup à nous dire, lui et moi. Mais je suis cependant heureux d'avoir ces herbes et de vous voir ici.\n\nPuisque vous êtes là, je vous en prie, reposez-vous. Les héros doivent garder leur force et leur esprit en forme, et pour cela, ils doivent profiter du moindre moment de repos et de consolation. Négliger la paix du corps et de l'âme conduit de façon certaine à l'échec.\n\nAlors... repos."
+     },
+     "npc": 6736,
+     "npc_name": "Keldamyr l'aubergiste",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793990685,
+     "last_seen": 1793990685
+    },
+    "detail": {
+     "texts": {
+      "description": "Salutations, jeune <classe>. Pouvez-vous m'aider ? Je dois livrer ce paquet d'herbes dans la ville de Dolanaar, mais ne puis partir d'ici car j'ai une tâche à terminer avec les druides de Sombrevallon.\n\nPouvez-vous livrer ce paquet pour moi ? Il doit être remis à l'aubergiste Keldamyr, à l'auberge de Dolanaar. Elle se trouve sur cette route, au sud.",
+      "objectives": "Apporter la Livraison de Dolanaar à l'aubergiste Keldamyr.",
+      "name": "Livraison à Dolanaar"
+     },
+     "npc": 6780,
+     "npc_name": "Porthannius",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793989714,
+     "last_seen": 1793989714
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2399": {
+   "id": 2399,
+   "name": "Les racines ont poussé",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Les racines que Denalan a plantées dans son jardin ont poussé et grandi. Elles tremblent, désireuses d'être choisies...",
+   "starters": [
+    {
+     "type": "object",
+     "id": 7510,
+     "name": "Sprouted Frond"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 7510,
+     "name": "Sprouted Frond"
+    }
+   ],
+   "zone_id": 141,
+   "level": 10,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 85,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:11"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "wowhead",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "2438": {
+   "id": 2438,
+   "name": "Le Capturêve d'émeraude",
+   "objectives": "Apporter le Capturêve d'émeraude à Tallonkai Swiftroot à Dolanaar.",
+   "description": "Un jour, Gaerolas Talvethren, le Gardien des druides du Refuge des saisons de Ban'ethil, m'a donné un Capturêve d’émeraude. Cette puissante amulette est capable d'aspirer l'énergie du Rêve d'émeraude pour donner de la chance à ceux qui la portent.\n\nHélas, je n'ai pas pu la récupérer dans ma commode au village de Brise-stellaire... Autrefois, Brise-stellaire était un endroit tranquille, mais il a succombé à la corruption des furbolgs qui y résident.\n\nVoudriez-vous récupérer mon Capturêve, <classe> ?",
+   "progress": "Faites vite, je vous en prie ! Je ne peux qu'espérer que mon Capturêve d'émeraude n'a pas été abîmé par les furbolgs.\n\nL'avez-vous retrouvé, <nom> ?",
+   "completion": "Mon Capturêve d'émeraude compte beaucoup pour moi. C'est un cadeau offert à peu de personnes. Merci de me le rapporter, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3567,
+     "name": "Tallonkai Swiftroot"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3567,
+     "name": "Tallonkai Swiftroot"
+    }
+   ],
+   "zone_id": 141,
+   "level": 6,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 405,
+   "money": 100,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:14"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Mon capturêve d'émeraude compte beaucoup pour moi. C'est un cadeau offert à peu de personnes. Merci de me le rapporter, <nom>."
+     },
+     "npc": 3567,
+     "npc_name": "Tallonkai Swiftroot",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793991548,
+     "last_seen": 1793991548
+    },
+    "detail": {
+     "texts": {
+      "description": "Un jour, Gaerolas Talvethren, le Gardien des druides du Refuge des saisons de Ban'ethil, m'a donné un Capturêve d’émeraude. Cette puissante amulette est capable d'aspirer l'énergie du Rêve d'émeraude pour donner de la chance à ceux qui la portent.\n\nHélas, je n'ai pas pu la récupérer dans ma commode au village de Brise-stellaire... Autrefois, Brise-stellaire était un endroit tranquille, mais il a succombé à la corruption des furbolgs qui y résident.\n\nVoudriez-vous récupérer mon Capturêve, <classe> ?",
+      "objectives": "Apporter le Capturêve d'émeraude à Tallonkai Swiftroot à Dolanaar.",
+      "name": "Le Capturêve d'émeraude"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": "Player",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793990679,
+     "last_seen": 1793990679
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2459": {
+   "id": 2459,
+   "name": "Ferocitas le Mangeur de rêves",
+   "objectives": "Sur ordre de Tallonkai Swiftroot de Dolanaar, tuer 7 Mystiques Pins-tordus et retrouver le Bijou disparu.",
+   "description": "L'émeraude... Elle a disparu ! Mon capturêve a été endommagé !\n\nUne bande de Mystiques Pins-tordus rôde au nord de Brise-stellaire. J'ai entendu dire que leur chef, Ferocitas le Mangeur de rêves, porte un collier qui émet des lueurs vertes pendant la nuit. Vu l'état de mon capturêve, il est certain qu'il a volé mon émeraude... Il ne comprendra jamais que sa puissance lui est inutile.\n\nTrouvez mon bijou disparu, <nom>. Et tant que vous y êtes, profitez-en pour nous débarrasser de quelques Mystiques corrompus.",
+   "progress": "Ferocitas et les Mystiques Pins-tordus doivent me rendre ce qui m'appartient. Je vous en prie, retrouvez l'émeraude pour que je puisse réparer mon capturêve d'émeraude.",
+   "completion": "Maintenant je peux réparer mon capturêve. Merci, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3567,
+     "name": "Tallonkai Swiftroot"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3567,
+     "name": "Tallonkai Swiftroot"
+    }
+   ],
+   "zone_id": 141,
+   "level": 8,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 880,
+   "money": 450,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:17"
+   },
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "L'émeraude... Elle a disparu ! Mon capturêve a été endommagé !\n\nUne bande de Mystiques Pins-tordus rôde au nord de Brise-stellaire. J'ai entendu dire que leur chef, Ferocitas le Mangeur de rêves, porte un collier qui émet des lueurs vertes pendant la nuit. Vu l'état de mon capturêve, il est certain qu'il a volé mon émeraude... Il ne comprendra jamais que sa puissance lui est inutile.\n\nTrouvez mon bijou disparu, <nom>. Et tant que vous y êtes, profitez-en pour nous débarrasser de quelques Mystiques corrompus.",
+      "objectives": "Sur ordre de Tallonkai Swiftroot de Dolanaar, tuer 7 Mystiques Pins-tordus et retrouver le Bijou disparu.",
+      "name": "Ferocitas le Mangeur de rêves"
+     },
+     "npc": 3567,
+     "npc_name": "Tallonkai Swiftroot",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793991549,
+     "last_seen": 1793991549
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2498": {
+   "id": 2498,
+   "name": "Retour vers Denalan",
+   "objectives": "Sur ordre de Rellian Greenspyre, aller voir Denalan au lac Al'Ameth.",
+   "description": "Je viens de recevoir un mot de Denalan au lac Al'Ameth, disant qu'il a peut-être découvert la cause les tumeurs chez les sylvains. Allez le voir et dites-lui que je vous envoie.\n\nFaites vite, <nom>, il a besoin de nous.",
+   "progress": null,
+   "completion": "Ainsi, Rellian vous envoie pour m'aider ! Je suis heureux que vous soyez déjà là.\n\nJ'ai découvert quelque chose de tout à fait inquiétant !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3517,
+     "name": "Rellian Greenspyre"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2080,
+     "name": "Denalan"
+    }
+   ],
+   "zone_id": 141,
+   "level": 9,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 80,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:19"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2499": {
+   "id": 2499,
+   "name": "Froncechêne",
+   "objectives": "Sur ordre de Denalan du lac Al'Ameth, ôter la Tumeur gargantuesque de Froncechêne.",
+   "description": "Dans une caverne le long de la rive sud du lac, un sylvain nommé Froncechêne propage la corruption parmi les créatures qui vivent au lac Al'Ameth.\n\nJe n'ai pas osé m'approcher, mais c’est visible à distance : il est parasité par la plus grande tumeur que j'ai jamais vue... On pourrait même dire gargantuesque.\n\n<nom>, vous m’avez déjà été d'un grand secours, mais je vous demande encore cela : pourchassez-le et débarrassez-le de sa tumeur, éliminez cette source de contamination de chez moi.",
+   "progress": "Avez-vous déjà localisé Froncechêne, <race> ?",
+   "completion": "Je savais que vous étiez capable de débarrasser le lac de cette horrible chose.\n\nC'est un choix difficile : Froncechêne était autrefois un grand chef parmi les siens... Mais la corruption ne fait pas de distinction entre l’humble et le noble.\n\nLa taille de cette tumeur est tout à fait inquiétante, mais je dois l'étudier pour en apprendre plus sur cette maladie.\n\nMerci, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2080,
+     "name": "Denalan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2080,
+     "name": "Denalan"
+    }
+   ],
+   "zone_id": 141,
+   "level": 9,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 980,
+   "money": 600,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:22"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2541": {
+   "id": 2541,
+   "name": "Le druide dormant",
+   "objectives": "Rapporter un Charme vaudou de chaman à Oben Grifferage dans le Refuge des saisons de Ban'ethil.",
+   "description": "Les chamans Pins-tordus qui habitent cet endroit ont découvert comment séparer l'esprit d'un druide dormant de son corps physique. Les furbolgs ont ranimé ma forme physique et l'utilisent pour attaquer ceux qui essaient d'explorer le refuge des saisons de Ban'ethil. Je suis impuissant, pris au piège dans le Rêve d'émeraude.\n\nVous devez m'aider. Les chamans Pins-tordus portent un charme étrange qu'ils utilisent pour exécuter ce rituel et je voudrais l'examiner. Je vous en prie, <nom>, il m’en faut un.",
+   "progress": "Si je peux examiner le charme, je pourrais peut-être comprendre comment briser l'enchantement. En avez-vous trouvé un ?",
+   "completion": "Merci, <nom>.\n\nQuel drôle d'objet... Je peux sentir la vile aura qui en émane. C'est un enchantement très puissant.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7317,
+     "name": "Oben Grifferage"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7317,
+     "name": "Oben Grifferage"
+    }
+   ],
+   "zone_id": 141,
+   "level": 8,
+   "reqlevel": 3,
+   "side": "alliance",
+   "xp": 700,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:24"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Merci, <nom>.\n\nQuel drôle d'objet... Je peux sentir la vile aura qui en émane. C'est un enchantement très puissant."
+     },
+     "npc": 7317,
+     "npc_name": "Oben Grifferage",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793995459,
+     "last_seen": 1793995459
+    },
+    "detail": {
+     "texts": {
+      "description": "Les chamans Pins-tordus qui habitent cet endroit ont découvert comment séparer l'esprit d'un druide dormant de son corps physique. Les furbolgs ont ranimé ma forme physique et l'utilisent pour attaquer ceux qui essaient d'explorer le refuge des saisons de Ban'ethil. Je suis impuissant, pris au piège dans le Rêve d'émeraude.\n\nVous devez m'aider. Les chamans Pins-tordus portent un charme étrange qu'ils utilisent pour exécuter ce rituel et je voudrais l'examiner. Je vous en prie, <nom>, il m’en faut un.",
+      "objectives": "Rapporter un Charme vaudou de chaman à Oben Grifferage dans le Refuge des saisons de Ban'ethil.",
+      "name": "Le druide dormant"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": "Player",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793990661,
+     "last_seen": 1793990661
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2561": {
+   "id": 2561,
+   "name": "Le druide de la Griffe",
+   "objectives": "Sur ordre d'Oben Grifferage, tuer son Corps privé d'âme et utiliser ensuite le Charme vaudou.",
+   "description": "J'ai examiné ce charme, <nom>, et je vois maintenant ce qu'il faut faire. Prenez-le et suivez mes instructions.\n\nVous devez explorer les zones les plus reculées du Refuge des saisons de Ban'ethil pour trouver mon corps sans âme... Je regrette de devoir en arriver à cette extrémité, mais je ne vois pas d'autre moyen de me libérer du contrôle des Pins-tordus.\n\nVous devez tuer ma forme physique. Ensuite, utilisez le Charme vaudou sur mon corps. Lorsque vous aurez accompli cette tâche,revenez me voir.",
+   "progress": "<nom>, faites preuve de prudence en vous approchant de ma forme physique : l'enchantement qui la contrôle est très puissant.",
+   "completion": "Je suis enfin libéré du contrôle des Pins-tordus. Merci, <nom>.\n\nMon esprit peut maintenant reposer paisiblement et pour toujours dans le Rêve d'émeraude.\n\nUn jour peut-être, nous nous reverrons, jeune <classe>. Mais pour le moment, acceptez cette récompense en signe de ma gratitude.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7317,
+     "name": "Oben Grifferage"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7317,
+     "name": "Oben Grifferage"
+    }
+   ],
+   "zone_id": 141,
+   "level": 10,
+   "reqlevel": 3,
+   "side": "alliance",
+   "xp": 1050,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:27"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Je suis enfin libéré du contrôle des Pins-tordus. Merci, <nom>.\n\nMon esprit peut maintenant reposer paisiblement et pour toujours dans le Rêve d'émeraude.\n\nUn jour peut-être, nous nous reverrons, jeune <classe>. Mais pour le moment, acceptez cette récompense en signe de ma gratitude."
+     },
+     "npc": 7317,
+     "npc_name": "Oben Grifferage",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793996385,
+     "last_seen": 1793996385
+    },
+    "detail": {
+     "texts": {
+      "description": "J'ai examiné ce charme, <nom>, et je vois maintenant ce qu'il faut faire. Prenez-le et suivez mes instructions.\n\nVous devez explorer les zones les plus reculées du Refuge des saisons de Ban'ethil pour trouver mon corps sans âme... Je regrette de devoir en arriver à cette extrémité, mais je ne vois pas d'autre moyen de me libérer du contrôle des Pins-tordus.\n\nVous devez tuer ma forme physique. Ensuite, utilisez le Charme vaudou sur mon corps. Lorsque vous aurez accompli cette tâche,revenez me voir.",
+      "objectives": "Sur ordre d'Oben Grifferage, tuer son Corps privé d'âme et utiliser ensuite le Charme vaudou.",
+      "name": "Le druide de la Griffe"
+     },
+     "npc": 7317,
+     "npc_name": "Oben Grifferage",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793995462,
+     "last_seen": 1793995462
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3519": {
+   "id": 3519,
+   "name": "Un ami dans le besoin",
+   "objectives": "Parler à Dirania Silvershine, à Sombrevallon.",
+   "description": "Ahhh... J'ai été mordu par une araignée nommée Githyiss la Vile en explorant sa caverne, tout près d'ici. Une grande quantité de poison m'a été injectée ; vous devez m'aider.\n\nPrévenez Dirania Silvershine. Elle sera capable de me secourir.\n\nVite... J'ai des vertiges de plus en plus alarmants...",
+   "progress": null,
+   "completion": "Oh par les dieux ; je me demandais pourquoi je n'avais pas encore vu Iverron aujourd'hui. Et moi qui le mettais toujours en garde contre ces araignées...",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8584,
+     "name": "Iverron"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8583,
+     "name": "Dirania Silvershine"
+    }
+   ],
+   "zone_id": 141,
+   "level": 4,
+   "reqlevel": 2,
+   "side": "alliance",
+   "xp": 90,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:29"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Oh par les dieux ; je me demandais pourquoi je n'avais pas encore vu Iverron aujourd'hui. Et moi qui le mettais toujours en garde contre ces araignées..."
+     },
+     "npc": 8583,
+     "npc_name": "Dirania Silvershine",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793988325,
+     "last_seen": 1793988325
+    },
+    "detail": {
+     "texts": {
+      "description": "Ahhh... J'ai été mordu par une araignée nommée Githyiss la Vile en explorant sa caverne, tout près d'ici. Une grande quantité de poison m'a été injectée ; vous devez m'aider.\n\nPrévenez Dirania Silvershine. Elle sera capable de me secourir.\n\nVite... J'ai des vertiges de plus en plus alarmants...",
+      "objectives": "Parler à Dirania Silvershine, à Sombrevallon.",
+      "name": "Un ami dans le besoin"
+     },
+     "npc": 8584,
+     "npc_name": "Iverron",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793986103,
+     "last_seen": 1793986103
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3521": {
+   "id": 3521,
+   "name": "Antidote d'Iverron",
+   "objectives": "Trouver 7 Champignons jacinthe, 4 Lys pétales de lune et 1 Ichor d'araignée Tissebois pour Dirania Silveshine dans Sombrevallon.",
+   "description": "Nous allons pouvoir aider Iverron, je connais un antidote qui devrait combattre le poison. Il me faut cependant quelques ingrédients.\n\nJe vais avoir besoin de Champignons jacinthe. Vous pouvez en trouver sous les arbres, ou chez les grells au sud ; ils ont l'air de les aimer. J'aurai aussi besoin de Lys pétales de lune, qui ne poussent qu'autour des points d'eau.\n\nLe dernier ingrédient sera plus difficile à trouver. Il me faut de l'ichor de ces mêmes araignées sylvestres qui ont empoisonné Iverron.",
+   "progress": "Je vous en prie, rassemblez les ingrédients, <nom>. Iverron a besoin de notre aide.",
+   "completion": "Remerciez Elune d'avoir trouvé ces ingrédients si vite !\n\nDans un petit moment, j'aurai préparé l'antidote.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8583,
+     "name": "Dirania Silvershine"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8583,
+     "name": "Dirania Silvershine"
+    }
+   ],
+   "zone_id": 141,
+   "level": 4,
+   "reqlevel": 2,
+   "side": "alliance",
+   "xp": 355,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:32"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Remerciez Elune d'avoir trouvé ces ingrédients si vite !\n\nDans un petit moment, j'aurai préparé l'antidote."
+     },
+     "npc": 8583,
+     "npc_name": "Dirania Silvershine",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793988958,
+     "last_seen": 1793988958
+    },
+    "detail": {
+     "texts": {
+      "description": "Nous allons pouvoir aider Iverron, je connais un antidote qui devrait combattre le poison. Il me faut cependant quelques ingrédients.\n\nJe vais avoir besoin de Champignons jacinthe. Vous pouvez en trouver sous les arbres, ou chez les grells au sud ; ils ont l'air de les aimer. J'aurai aussi besoin de Lys pétales de lune, qui ne poussent qu'autour des points d'eau.\n\nLe dernier ingrédient sera plus difficile à trouver. Il me faut de l'ichor de ces mêmes araignées sylvestres qui ont empoisonné Iverron.",
+      "objectives": "Trouver 7 Champignons jacinthe, 4 Lys pétales de lune et 1 Ichor d'araignée Tissebois pour Dirania Silveshine dans Sombrevallon.",
+      "name": "Antidote d'Iverron"
+     },
+     "npc": 8583,
+     "npc_name": "Dirania Silvershine",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793988326,
+     "last_seen": 1793988326
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3522": {
+   "id": 3522,
+   "name": "Antidote d'Iverron",
+   "objectives": "Apporter l’Antidote d'Iverron à Iverron avant que la limite de temps ne soit atteinte. Iverron se trouve près de la grotte, au nord.",
+   "description": "L'antidote est prêt, <nom>. Faites en sorte qu'Iverron le boive.\n\nVous devez savoir une chose : l'antidote ne reste efficace que pendant 5 minutes. Vous devez le lui apporter à temps.\n\nQue la vitesse soit avec vous, <nom>.",
+   "progress": "Oh... <nom>, je suis si heureux que vous soyez de retour.",
+   "completion": "Qu'est-ce que c'est, <nom> ?\n\nOh, je savais que Dirania pourrait m'aider !\n\nJe m'attire toujours des ennuis et Dirania réussit toujours à m'en sortir.\n\nJe me sens beaucoup mieux mais je pense que je vais rester assis ici un peu plus longtemps, jusqu'à ce que je me sente vraiment rétabli. Et aussi le temps que vous... comment dire, j'espérais que vous pourriez me frayer un passage au milieu de ces vicieuses araignées Tissebois...",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8583,
+     "name": "Dirania Silvershine"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8584,
+     "name": "Iverron"
+    }
+   ],
+   "zone_id": 141,
+   "level": 4,
+   "reqlevel": 2,
+   "side": "alliance",
+   "xp": 445,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:34"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Qu'est-ce que c'est, <nom> ?\n\nOh, je savais que Dirania pourrait m'aider !\n\n<Iverron boit l'antidote>\n\nJe m'attire toujours des ennuis et Dirania réussit toujours à m'en sortir.\n\nJe me sens beaucoup mieux mais je pense que je vais rester assis ici un peu plus longtemps, jusqu'à ce que je me sente vraiment rétabli. Et aussi le temps que vous... comment dire, j'espérais que vous pourriez me frayer un passage au milieu de ces vicieuses araignées Tissebois..."
+     },
+     "npc": 8584,
+     "npc_name": "Iverron",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793989169,
+     "last_seen": 1793989169
+    },
+    "detail": {
+     "texts": {
+      "description": "L'antidote est prêt, <nom>. Faites en sorte qu'Iverron le boive.\n\nVous devez savoir une chose : l'antidote ne reste efficace que pendant 5 minutes. Vous devez le lui apporter à temps.\n\nQue la vitesse soit avec vous, <nom>.",
+      "objectives": "Apporter l’Antidote d'Iverron à Iverron avant que la limite de temps ne soit atteinte. Iverron se trouve près de la grotte, au nord.",
+      "name": "Antidote d'Iverron"
+     },
+     "npc": 8583,
+     "npc_name": "Dirania Silvershine",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793988958,
+     "last_seen": 1793988958
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4495": {
+   "id": 4495,
+   "name": "Un bon ami",
+   "objectives": "Trouver Iverron près de la grotte au nord.",
+   "description": "L'un de mes amis, nommé Iverron, me rend visite tous les jours à la même heure. Mais, chose étrange, il n'est pas encore venu aujourd'hui. En fait, il a plusieurs heures de retard.\n\nJe dois admettre que cela m'inquiète, <nom>. Iverron passe beaucoup de temps du côté de la grotte qui se trouve au nord. Vous savez certainement que c'est dangereux là-bas...des araignées, partout !\n\nSi jamais vous alliez dans cette direction, pourriez-vous jetez un oeil ?",
+   "progress": null,
+   "completion": "Je suis si content que vous m'ayez trouvé, <nom>. Comment avez-vous su que j'étais ici ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8583,
+     "name": "Dirania Silvershine"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8584,
+     "name": "Iverron"
+    }
+   ],
+   "zone_id": 141,
+   "level": 4,
+   "reqlevel": 2,
+   "side": "alliance",
+   "xp": 270,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:37"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Je suis si content que vous m'ayez trouvé, <nom>. Comment avez-vous su que j'étais ici ?"
+     },
+     "npc": 8584,
+     "npc_name": "Iverron",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793986101,
+     "last_seen": 1793986101
+    },
+    "detail": {
+     "texts": {
+      "description": "L'un de mes amis, nommé Iverron, me rend visite tous les jours à la même heure. Mais, chose étrange, il n'est pas encore venu aujourd'hui. En fait, il a plusieurs heures de retard.\n\nJe dois admettre que cela m'inquiète, <nom>. Iverron passe beaucoup de temps du côté de la grotte qui se trouve au nord. Vous savez certainement que c'est dangereux là-bas...des araignées, partout !\n\nSi jamais vous alliez dans cette direction, pourriez-vous jetez un oeil ?",
+      "objectives": "Trouver Iverron près de la grotte au nord.",
+      "name": "Un bon ami"
+     },
+     "npc": 8583,
+     "npc_name": "Dirania Silvershine",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793984989,
+     "last_seen": 1793984989
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5842": {
+   "id": 5842,
+   "name": "Bienvenue !",
+   "objectives": "Apporter le Bon-cadeau (Sombrevallon) à Orenthil Whisperwind.",
+   "description": "Bienvenue dans World of Warcraft !\n\nEn gage de remerciement spécial pour avoir acheté World of Warcraft Collector's Edition, apportez ce bon à Orenthil Whisperwind dans Sombrevallon. On vous remettra alors un cadeau : un petit compagnon pour se joindre à vous dans votre quête d’aventure et de gloire.\n\nMerci encore, et bon séjour dans World of Warcraft !",
+   "progress": "Je vous salue ! C'est un plaisir de vous rencontrer !\n\nJe vois que vous avez un bon spécial. Donnez-le moi et je vous offrirai quelque chose en échange.",
+   "completion": "Vous êtes un héros hors du commun, <nom>. Nous vous souhaitons la bienvenue dans le monde d'Azeroth et vous offrons l'un de ces cadeaux uniques !",
+   "starters": [
+    {
+     "type": "item",
+     "id": 14648,
+     "name": "Shadowglen Gift Voucher"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11942,
+     "name": "Orenthil Whisperwind"
+    }
+   ],
+   "zone_id": 141,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:39"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7383": {
+   "id": 7383,
+   "name": "La couronne de la Terre",
+   "objectives": "Remplir la Fiole d'améthyste et la rapporter à Corithras Moonrage à Dolanaar.",
+   "description": "Cependant, tout ne se passait pas parfaitement avec Teldrassil. Au début, les plans soigneusement conçus par Staghelm se déroulèrent comme il l'avait espéré, mais il y eut un petit problème, un problème auquel beaucoup des difficultés avec Teldrassil pouvaient être attribuées.\n\nJe ne vais pas m'engager dans ce propos maintenant, cependant. Vous devez aller au dernier puits de lune, au nord-ouest, dans la clairière de l'Oracle. Sous les branches de l'arbre-oracle se trouve le premier et le plus puissant de nos puits. Remplissez un flacon de son eau et revenez me voir.",
+   "progress": "En plus des druides, l'arbre-oracle et l'archidruide ont surveillé avec attention la croissance de Teldrassil. Mais bien que nous possédions une nouvelle demeure, nos vies immortelles n'étaient pas restaurées.",
+   "completion": "Être en présence de l'arbre-oracle… c'est presque voir la sagesse prendre forme. Laissez-moi continuer mon histoire…\n\nTeldrassil grandissant, l'archidruide approcha les dragons pour recevoir leur bénédiction, de la même façon que les dragons avaient béni Nordrassil dans les temps anciens. Mais Nozdormu, le Seigneur du Temps, refusa de lui donner sa bénédiction. En accord avec Nozdormu, Alexstrasza la lui refusa également, et sans leurs bénédictions, la croissance de Teldrassil fut imparfaite et imprévisible.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3515,
+     "name": "Corithras Moonrage"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3515,
+     "name": "Corithras Moonrage"
+    }
+   ],
+   "zone_id": 141,
+   "level": 11,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:42"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8734": {
+   "id": 8734,
+   "name": "Tyrande et Remulos",
+   "objectives": "Rendez-vous à Reflet-de-Lune et parlez au gardien Remulos.",
+   "description": "Tyrande sera avertie, <mortel/mortelle>. Shan'do Stormrage m’a préparé pour cette éventualité.\n\nVous devez maintenant vous aventurer à Reflet-de-Lune et parler à Remulos. Il vous donnera de nouvelles instructions pour l’invocation d’Eranikus.\n\nNous vous souhaitons tous bonne chance.",
+   "progress": null,
+   "completion": "Il serait impossible d’attirer Eranikus hors du Rêve s’il refusait de le quitter. Ses desseins, cependant, l’obligent à entrer dans notre monde. Il cherche à détruire la manifestation vivante de Malfurion. S’il y parvenait, cela signifierait la fin de l’un des plus puissants alliés du Rêve. Le Cauchemar consumerait tout ce qui resterait si Malfurion tombait…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15624,
+     "name": "Feu follet forestier"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11832,
+     "name": "Gardien Remulos"
+    }
+   ],
+   "zone_id": 141,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.5.35186"
+   },
+   "placeholders": [
+    "mortel/mortelle"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:44"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "87288": {
+   "id": 87288,
+   "name": "Fourrures soyeuses de sabre-de-nuit",
+   "objectives": "Rapportez 6 $fourrures soyeuses de sabre-de-nuit à Aldia.",
+   "description": "Bonjour, <voyageur/voyageuse> ! J’espère que votre séjour dans notre village vous plaît. J’aime Dolanaar parce que c’est un endroit modeste et paisible, où tout le monde est accueillant.\n\nJe suis marchande, et je vends toutes sortes d’outils et de babioles qui pourraient vous être utiles au cours de vos voyages. Justement, si un marché vous intéresse, j’aurais besoin de quelques fourrures de sabre-de-nuit. Ces créatures majestueuses sont magnifiques, mais celles qui vivent dans les environs sont plutôt agressives. Ne vous sentez donc pas trop coupable si vous devez vous défendre.",
+   "progress": "Quel plaisir de vous revoir ! Vous êtes ici pour affaires ?",
+   "completion": "Oh, elles sont magnifiques. C’est bien dommage d’en venir à la violence avec des créatures aussi majestueuses, mais il est important de veiller à la sécurité des routes, et ces fourrures feront de superbes couvertures et châles.\n\nTenez, laissez-moi vous offrir quelque chose en souvenir d’elles. C’est à la fois doux et résistant.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3608,
+     "name": "Aldia"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3608,
+     "name": "Aldia"
+    }
+   ],
+   "zone_id": 141,
+   "level": 7,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [
+    "voyageur/voyageuse"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:47"
+   },
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Bonjour, voyageur ! J’espère que votre séjour dans notre village vous plaît. J’aime Dolanaar parce que c’est un endroit modeste et paisible, où tout le monde est accueillant.\r\n\r\nJe suis marchande, et je vends toutes sortes d’outils et de babioles qui pourraient vous être utiles au cours de vos voyages. Justement, si un marché vous intéresse, j’aurais besoin de quelques fourrures de sabre-de-nuit. Ces créatures majestueuses sont magnifiques, mais celles qui vivent dans les environs sont plutôt agressives. Ne vous sentez donc pas trop coupable si vous devez vous défendre.",
+      "objectives": "Rapportez 6 $fourrures soyeuses de sabre-de-nuit à Aldia.",
+      "name": "Fourrures soyeuses de sabre-de-nuit"
+     },
+     "npc": 3608,
+     "npc_name": "Aldia",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793990794,
+     "last_seen": 1793990794
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "97236": {
+   "id": 97236,
+   "name": "Crochet de Githyiss",
+   "objectives": "Apportez le crochet de Githyiss à quelqu’un d’Aldrassil qui s’intéresse tout particulièrement à l’étude des araignées.",
+   "description": "Un spécimen en si bon état d’une bête de cette taille représente une sacrée trouvaille. Son crochet intéressera sans doute quelqu’un d’Aldrassil qui se passionne pour l’étude des araignées.",
+   "progress": null,
+   "completion": "Oh là là ! J’adore les surprises, Nukstorme.\n\nCe spécimen me sera très précieux pour approfondir mes recherches.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 277190,
+     "name": "Fang of Githyiss"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2082,
+     "name": "Gilshalan Windwalker"
+    }
+   ],
+   "zone_id": 141,
+   "level": 5,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69913"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:49"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Oh là là ! J’adore les surprises, <nom>.\r\n\r\nCe spécimen me sera très précieux pour approfondir mes recherches."
+     },
+     "npc": 2082,
+     "npc_name": "Gilshalan Windwalker",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793988448,
+     "last_seen": 1793988448
+    },
+    "detail": {
+     "texts": {
+      "description": "Un spécimen en si bon état d’une bête de cette taille représente une sacrée trouvaille. Son crochet intéressera sans doute quelqu’un d’Aldrassil qui se passionne pour l’étude des araignées.",
+      "objectives": "Apportez le crochet de Githyiss à quelqu’un d’Aldrassil qui s’intéresse tout particulièrement à l’étude des araignées.",
+      "name": "Crochet de Githyiss"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": null,
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793986379,
+     "last_seen": 1793986379
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "97977": {
+   "id": 97977,
+   "name": "L’appel de la nature",
+   "objectives": "Récupérez 4 totems pins-tordus et apportez-les à Tarindrella.",
+   "description": "Les furbolgs pins-tordus ne se retourneraient pas si facilement contre leurs camarades d’antan. Nous devons découvrir les causes de leur misère.\n\nFouillez les demeures abandonnées à la recherche de totems. Si certains ont survécu au chaos entourant ce départ, les gravures qu’ils portent nous en apprendront davantage sur les évènements survenus ici.\n\nVous trouverez les camps pins-tordus le long de la lisière ouest du vallon, mais les grells et grellides ont peut-être dispersé des totems au-delà de leurs limites.",
+   "progress": "Vous pouvez ignorer les totems de grande taille. Même si vous trouviez un moyen de les transporter, je ne saurais pas quoi en faire !",
+   "completion": "Oh, c’est bien pire que je ne l’avais imaginé.\n\nCes gravures racontent que les Pins-tordus ont commencé à être hantés par des cauchemars dans lesquels une grande ombre les éradiquait. En peu de temps, la peur a fait place à la rage… et leurs camarades elfes d’antan ont été victimes de l’ombre. Avoir conscience que vous perdez la raison…\n\nIl faut espérer que cela nous aidera à comprendre ce qui se passe sur Teldrassil. Votre aide a été précieuse, Nukstorme.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1992,
+     "name": "Tarindrella"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1992,
+     "name": "Tarindrella"
+    }
+   ],
+   "zone_id": 141,
+   "level": 3,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:51"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Oh, c’est bien pire que je ne l’avais imaginé.\r\n\r\nCes gravures racontent que les Pins-tordus ont commencé à être hantés par des cauchemars dans lesquels une grande ombre les éradiquait. En peu de temps, la peur a fait place à la rage… et leurs camarades elfes d’antan ont été victimes de l’ombre. Avoir conscience que vous perdez la raison…\r\n\r\nIl faut espérer que cela nous aidera à comprendre ce qui se passe sur Teldrassil. Votre aide a été précieuse, <nom>."
+     },
+     "npc": 1992,
+     "npc_name": "Tarindrella",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793988424,
+     "last_seen": 1793988424
+    },
+    "detail": {
+     "texts": {
+      "description": "Les furbolgs pins-tordus ne se retourneraient pas si facilement contre leurs camarades d’antan. Nous devons découvrir les causes de leur misère.\r\n\r\nFouillez les demeures abandonnées à la recherche de totems. Si certains ont survécu au chaos entourant ce départ, les gravures qu’ils portent nous en apprendront davantage sur les évènements survenus ici.\r\n\r\nVous trouverez les camps pins-tordus le long de la lisière ouest du vallon, mais les grells et grellides ont peut-être dispersé des totems au-delà de leurs limites.",
+      "objectives": "Récupérez 4 totems pins-tordus et apportez-les à Tarindrella.",
+      "name": "L’appel de la nature"
+     },
+     "npc": 1992,
+     "npc_name": "Tarindrella",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793984541,
+     "last_seen": 1793984541
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98046": {
+   "id": 98046,
+   "name": "La couronne de la Terre",
+   "objectives": "Rapportez le réceptacle asséché à Lariia, au temple de la Lune, à Darnassus.",
+   "description": "<Le regard de l’archidruide Fandral Forteramure se durcit.>\n\nVous êtes encore là ?\n\nPrenez ce flacon et disparaissez de ma vue, <classe>. Il est désormais évident que les réponses que je cherche ne se trouvent pas dans ces eaux, pas plus qu’elles ne s’y trouvaient autrefois.\n\nPeut-être que l’une des prêtresses du temple de la Lune, au sud, voudra bien vous en débarrasser.\n\n<Fandral détourne le regard et ne vous adresse plus la parole.>\n\nJe vais devoir chercher ailleurs si je veux que cela fonctionne…",
+   "progress": "Comment puis-je vous aider ?",
+   "completion": "Ne prêtez pas attention à l’archidruide, <nom>. Depuis la disparition de Malfurion, un lourd fardeau repose sur ses épaules.\n\nAttendez ! Il reste encore quelques gouttes dans le flacon ! Serait-ce pour cette raison que son incantation a échoué ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3516,
+     "name": "Archidruide Fandral Staghelm"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4092,
+     "name": "Lariia"
+    }
+   ],
+   "zone_id": 141,
+   "level": 11,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:54"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98065": {
+   "id": 98065,
+   "name": "La couronne de la Terre",
+   "objectives": "Rapportez les restes de puits de lune à Tyrande Murmevent, au temple de la Lune, à Darnassus.",
+   "description": "Vous devez apporter ceci à Tyrande sans tarder ! Je vais vous le transvaser dans un récipient plus cérémoniel.\n\nN’ayez aucune crainte. La grande prêtresse d’Élune est aussi ferme que bienveillante. Elle protège tous ceux qui franchissent les portes de Darnassus et porte la lumière de notre déesse à tous les siens.\n\nElle sera heureuse de recevoir cette eau sacrée. Vous la trouverez juste au-dessus de nous.",
+   "progress": "Veuillez énoncez la raison de votre venue. J’ai une cité à gouverner et un peuple à guider.",
+   "completion": "Forteramure a beaucoup fait en l’absence de celui qui m’est cher, mais il n’est pas Malfurion. Et ce n’est pas lui qui gouverne Darnassus : ce fardeau m’incombe à moi seule.\n\n<Le visage de Tyrande se radoucit.>\n\nJe vous prie de m’excuser. Vous l’avez sans doute déjà constaté, les épreuves auxquelles nous devons faire face sont nombreuses.\n\nFandral est, pour l’heure, l’archidruide, et je vous demande de respecter la fonction qui est la sienne. Mais ses responsabilités relèvent du druidisme ; les miennes vont au-delà du culte d’Élune. Il m’appartient également de guider notre peuple selon sa volonté.\n\nChaque goutte de cette eau a reçu la bénédiction de notre déesse. Je vous remercie de l’avoir préservée.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4092,
+     "name": "Lariia"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7999,
+     "name": "Tyrande Whisperwind"
+    }
+   ],
+   "zone_id": 141,
+   "level": 11,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:57"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98392": {
+   "id": 98392,
+   "name": "Les ténèbres dans la clairière",
+   "objectives": "Récupérez l’amulette de Hurlehaine, l’amulette de la maîtresse des vents Gaedress et l’amulette de la mère sorcière Arysa, puis rapportez-les à la sentinelle Arynia Éclairciel dans la clairière de l’Oracle.",
+   "description": "Ces ceintures… regardez le cuir de plus près, <nom>. Voyez-vous la corruption qui imprègne ses fibres ?\n\nJe crois savoir d’où elle provient, mais il nous faudra davantage de preuves pour en avoir la certitude.\n\nRetournez dans les nids des harpies, à l’ouest, et éliminez leurs chefs. Si leurs colliers portent la même souillure que ces ceintures, nous aurons notre réponse.",
+   "progress": "Avez-vous récupéré les amulettes sur les chefs des harpies ?",
+   "completion": "<Arynia examine les amulettes.>\n\nVoyez-vous ces volutes verdâtres qui tourbillonnent dans les gemmes ? Il s’agit bien de la corruption de la gangremousse.\n\nJ’ai entendu des récits semblables venant de Sombrevallon et d’ailleurs, sous les frondaisons, au sujet de cette substance qui retourne notre propre monde contre nous.\n\nJe vais informer mes supérieurs sur-le-champ.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3519,
+     "name": "Sentinelle Arynia Cloudsbreak"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3519,
+     "name": "Sentinelle Arynia Cloudsbreak"
+    }
+   ],
+   "zone_id": 141,
+   "level": 12,
+   "reqlevel": 6,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:04:59"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "<Arynia examine les amulettes.>\r\n\r\nVoyez-vous ces volutes verdâtres qui tourbillonnent dans les gemmes ? Il s’agit bien de la corruption de la gangremousse.\r\n\r\nJ’ai entendu des récits semblables venant de Sombrevallon et d’ailleurs, sous les frondaisons, au sujet de cette substance qui retourne notre propre monde contre nous.\r\n\r\nJe vais informer mes supérieurs sur-le-champ."
+     },
+     "npc": 3519,
+     "npc_name": "Sentinelle Arynia Cloudsbreak",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1794000621,
+     "last_seen": 1794000621
+    },
+    "detail": {
+     "texts": {
+      "description": "Ces ceintures… regardez le cuir de plus près, <nom>. Voyez-vous la corruption qui imprègne ses fibres ?\r\n\r\nJe crois savoir d’où elle provient, mais il nous faudra davantage de preuves pour en avoir la certitude.\r\n\r\nRetournez dans les nids des harpies, à l’ouest, et éliminez leurs chefs. Si leurs colliers portent la même souillure que ces ceintures, nous aurons notre réponse.",
+      "objectives": "Récupérez l’amulette de Hurlehaine, l’amulette de la maîtresse des vents Gaedress et l’amulette de la mère sorcière Arysa, puis rapportez-les à la sentinelle Arynia Éclairciel dans la clairière de l’Oracle.",
+      "name": "Les ténèbres dans la clairière"
+     },
+     "npc": 3519,
+     "npc_name": "Sentinelle Arynia Cloudsbreak",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793999879,
+     "last_seen": 1793999879
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98398": {
+   "id": 98398,
+   "name": "L’arbre de l’Oracle",
+   "objectives": "Trouvez l’écorce de l’arbre de l’Oracle dans les environs afin de recevoir son message.",
+   "description": "Je suis impressionnée par ce que vous venez d’accomplir en un temps aussi court, <nom>. J’aimerais vous demander de rester ici et de m’épauler… Mais je sais dans mon cœur que de plus grandes quêtes vous attendent.\n\nJ’ai remarqué que l’arbre-oracle a laissé tomber un morceau de son écorce. Il ne fait pas de doute qu’il a une tâche qu’il aimerait vous voir accomplir. Vous devriez aller lui parler.",
+   "progress": null,
+   "completion": "Alors que vous examinez l’écorce tombée au sol, une voix s’élève dans votre esprit. Calme et apaisante, elle vous enveloppe comme une douce brise qui caresse les feuilles.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3519,
+     "name": "Sentinelle Arynia Cloudsbreak"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 673378,
+     "name": "Oracle Tree Bark"
+    }
+   ],
+   "zone_id": 141,
+   "level": 12,
+   "reqlevel": 6,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69913"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:05:01"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Alors que vous examinez l’écorce tombée au sol, une voix s’élève dans votre esprit. Calme et apaisante, elle vous enveloppe comme une douce brise qui caresse les feuilles."
+     },
+     "npc": 673378,
+     "npc_name": "Écorce d’arbre oracle",
+     "npc_type": "GameObject",
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1794000640,
+     "last_seen": 1794000640
+    },
+    "detail": {
+     "texts": {
+      "description": "Je suis impressionnée par ce que vous venez d’accomplir en un temps aussi court, <nom>. J’aimerais vous demander de rester ici et de m’épauler… Mais je sais dans mon cœur que de plus grandes quêtes vous attendent.\n\nJ’ai remarqué que l’arbre-oracle a laissé tomber un morceau de son écorce. Il ne fait pas de doute qu’il a une tâche qu’il aimerait vous voir accomplir. Vous devriez aller lui parler.",
+      "objectives": "Trouvez l’écorce de l’arbre de l’Oracle dans les environs afin de recevoir son message.",
+      "name": "L’arbre de l’Oracle"
+     },
+     "npc": 3519,
+     "npc_name": "Sentinelle Arynia Cloudsbreak",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1794000622,
+     "last_seen": 1794000622
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98403": {
+   "id": 98403,
+   "name": "Haine folle",
+   "objectives": "Tuez 8 tissebois souillées et rapportez la gangremousse mûre de Xethorr le Malfaisant à Tallonkai Viveracine, à Dolanaar.",
+   "description": "Le seigneur Melenas n’a pas agi seul ; il obéissait aux ordres d’un autre. Celui que vous recherchez se nomme Xethorr le Malfaisant. Il semble avoir corrompu les araignées qui ont fait de Teldrassil leur demeure, afin d’utiliser leur venin pour un sinistre dessein.\n\nIl s’est établi au cœur de la forêt, dans la région située au nord-ouest d’ici que l’on appelle la Faille. Soyez prudent et ne partez pas seul : Xethorr est un adversaire qu’il ne faut pas sous-estimer.\n\nExterminez sa couvée et rapportez-moi tout ce qui pourrait nous en apprendre davantage sur ses agissements en ces lieux.",
+   "progress": "<Tallonkai baisse la voix.>\n\nXethorr court-il toujours ?",
+   "completion": "J’aurais dû me douter que cette substance servait à corrompre les araignées de cette région.\n\nJ’ai entendu dire qu’elle serait à l’origine d’une grande partie de la corruption qui nous accable. Ce n’est pas l’échantillon d’origine, mais il est plus ancien et pourrait nous en apprendre davantage que tout ce que nous avons pu obtenir jusqu’à présent.\n\nEn temps normal, je vous demanderais de l’envoyer à Darnassus pour qu’il y soit étudié. Mais il vaut mieux garder cette affaire secrète pour le moment, sans quoi Dolanaar ne se remettra jamais de sa mauvaise réputation.\n\nJe compte sur votre discrétion.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3567,
+     "name": "Tallonkai Swiftroot"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3567,
+     "name": "Tallonkai Swiftroot"
+    }
+   ],
+   "zone_id": 141,
+   "level": 12,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:05:04"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "99046": {
+   "id": 99046,
+   "name": "La messagère égarée",
+   "objectives": "Partez à la recherche de la sentinelle Eralya Feuillombre sur la route menant à la clairière de l’Oracle.",
+   "description": "Il y a quelque temps, le Conseil de la forêt a dépêché un petit groupe de sentinelles auprès de l’arbre-oracle. Ce dernier adresse des messages à nos anciens, et il nous incombe de les porter à Darnassus sans encombre.\n\nApparemment, notre dernière messagère n’est pas encore arrivée. L’oracle ne communique pas toujours à intervalles réguliers, mais il s’est écoulé assez de temps pour que l’on commence à s’inquiéter.\n\nPourriez-vous prendre la route vers l’ouest en direction de la clairière de l’Oracle, et vérifier si elle va bien ? Il doit s’agir d’Eralya Feuillombre, une apprentie. Qu’Élune guide vos pas.",
+   "progress": null,
+   "completion": "Bénie soit Élune… Je ne mourrai pas… seule…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2081,
+     "name": "Sentinelle Kyra Starsong"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 275683,
+     "name": "Sentinel Eralya Leafshadow"
+    }
+   ],
+   "zone_id": 141,
+   "level": 9,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69913"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:05:07"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Bénie soit Élune… Je ne mourrai pas… seule…"
+     },
+     "npc": 275683,
+     "npc_name": "Sentinelle Eralya Feuillombre",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793999051,
+     "last_seen": 1793999051
+    },
+    "detail": {
+     "texts": {
+      "description": "Il y a quelque temps, le Conseil de la forêt a dépêché un petit groupe de sentinelles auprès de l’arbre-oracle. Ce dernier adresse des messages à nos anciens, et il nous incombe de les porter à Darnassus sans encombre.\r\n\r\nApparemment, notre dernière messagère n’est pas encore arrivée. L’oracle ne communique pas toujours à intervalles réguliers, mais il s’est écoulé assez de temps pour que l’on commence à s’inquiéter.\r\n\r\nPourriez-vous prendre la route vers l’ouest en direction de la clairière de l’Oracle, et vérifier si elle va bien ? Il doit s’agir d’Eralya Feuillombre, une apprentie. Qu’Élune guide vos pas.",
+      "objectives": "Partez à la recherche de la sentinelle Eralya Feuillombre sur la route menant à la clairière de l’Oracle.",
+      "name": "La messagère égarée"
+     },
+     "npc": 2081,
+     "npc_name": "Sentinelle Kyra Starsong",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793990668,
+     "last_seen": 1793990668
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "99047": {
+   "id": 99047,
+   "name": "Toujours en vie",
+   "objectives": "Allez chercher l’aide de Byancie à Dolanaar pour la sentinelle Eralya Feuillombre.",
+   "description": "Mes sœurs et moi avons été… envoyées… à l’arbre-oracle…\n\nL’arbre… le message. Je… des harpies… partout…\n\n<Eralya crache du sang, le visage tordu par la douleur.>\n\nJe ne tiendrai pas longtemps… personne ne viendra. Pitié… Byancie… à Dolanaar…",
+   "progress": null,
+   "completion": "Les harpies souffrent du même mal qui se répand partout dans la forêt. Je suis sûre que c’est également le cas d’Eralya.\n\nNous devons nous presser avant qu’elle ne succombe à ses blessures.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 275683,
+     "name": "Sentinel Eralya Leafshadow"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6094,
+     "name": "Byancie"
+    }
+   ],
+   "zone_id": 141,
+   "level": 9,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69913"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:05:09"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Les harpies souffrent du même mal qui se répand partout dans la forêt. Je suis sûre que c’est également le cas d’Eralya.\r\n\r\nNous devons nous presser avant qu’elle ne succombe à ses blessures."
+     },
+     "npc": 6094,
+     "npc_name": "Byancie",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1794001344,
+     "last_seen": 1794001344
+    },
+    "detail": {
+     "texts": {
+      "description": "Mes sœurs et moi avons été… envoyées… à l’arbre-oracle…\r\n\r\nL’arbre… le message. Je… des harpies… partout…\r\n\r\n<Eralya crache du sang, le visage tordu par la douleur.>\r\n\r\nJe ne tiendrai pas longtemps… personne ne viendra. Pitié… Byancie… à Dolanaar…",
+      "objectives": "Allez chercher l’aide de Byancie à Dolanaar pour la sentinelle Eralya Feuillombre.",
+      "name": "Toujours en vie"
+     },
+     "npc": 275683,
+     "npc_name": "Sentinelle Eralya Feuillombre",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793999052,
+     "last_seen": 1793999052
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "99050": {
+   "id": 99050,
+   "name": "La bonté du Grand arbre",
+   "objectives": "Récupérez 6 frondes de flagellant humide, une fiole vide et de l’eau de source pour Byancie à Dolanaar.",
+   "description": "J’ai besoin de votre aide pour réunir les ingrédients nécessaires à endiguer la maladie et permettre à Eralya d’arriver jusqu’ici pour continuer son traitement.\n\nHeureusement, notre foyer nous procure tout ce dont nous avons besoin.\n\nLes frondes de flagellant humide sont l’ingrédient principal. Vous en trouverez autour du lac Al’Ameth, au sud, ou près du lac d’Aigue-vive et de sa rivière, au nord-ouest.\n\nIl me faut également une fiole vide et de l’eau de source. Les deux peuvent être achetées ou échangées ici, en ville.",
+   "progress": "Avez-vous les ingrédients ? Je crains qu’Eralya n’en ait plus pour longtemps.",
+   "completion": "Merci pour votre aide. Veuillez accepter ceci comme contribution pour le prix de la fiole et de l’eau.\n\nJe m’occupe de préparer le baume. Ce sera rapide.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6094,
+     "name": "Byancie"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6094,
+     "name": "Byancie"
+    }
+   ],
+   "zone_id": 141,
+   "level": 10,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:05:12"
+   },
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "J’ai besoin de votre aide pour réunir les ingrédients nécessaires à endiguer la maladie et permettre à Eralya d’arriver jusqu’ici pour continuer son traitement.\r\n\r\nHeureusement, notre foyer nous procure tout ce dont nous avons besoin.\r\n\r\nLes frondes de flagellant humide sont l’ingrédient principal. Vous en trouverez autour du lac Al’Ameth, au sud, ou près du lac d’Aigue-vive et de sa rivière, au nord-ouest.\r\n\r\nIl me faut également une fiole vide et de l’eau de source. Les deux peuvent être achetées ou échangées ici, en ville.",
+      "objectives": "Récupérez 6 frondes de flagellant humide, une fiole vide et de l’eau de source pour Byancie à Dolanaar.",
+      "name": "La bonté du Grand arbre"
+     },
+     "npc": 6094,
+     "npc_name": "Byancie",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1794001345,
+     "last_seen": 1794001345
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "99053": {
+   "id": 99053,
+   "name": "Évasion de Ban’ethil",
+   "objectives": "Aidez la sentinelle Lynessa Floraisombre à s’échapper du Refuge des saisons de Ban’ethil et escortez-la jusqu’à la sentinelle Kyra Chantétoile à Dolanaar.",
+   "description": "Mes prières ont été entendues ! Merci d’avoir combattu pour arriver jusqu’à moi.\n\nJ’ai été envoyée ici par l’arbre-oracle pour livrer un message aux druides endormis, mais les Furbolgs ont complètement envahi les lieux ! Je n’ai pas pu rebrousser chemin, ils m’ont tendu une embuscade et m’ont amenée jusqu’ici… probablement pour leur servir de repas.\n\nJe ne sais pas vous, mais à titre personnel, je hais cet endroit. Les Kaldorei n’ont pas leur place sous terre.",
+   "progress": null,
+   "completion": "Grâce à Élune, vous êtes intervenu pour sauver Lynessa des Pins-tordus. Elle fait partie de nos meilleurs éléments, et je la considère comme une amie.\n\nVeuillez accepter ceci en gage de ma reconnaissance. J’espère que cela vous sera utile pour veiller à la sécurité des Kaldorei.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 275744,
+     "name": "Sentinel Lynessa Duskblossom"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2081,
+     "name": "Sentinelle Kyra Starsong"
+    }
+   ],
+   "zone_id": 141,
+   "level": 9,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69913"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:05:14"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "99073": {
+   "id": 99073,
+   "name": "Soulager le mal",
+   "objectives": "Apportez le baume luxuriant à la sentinelle Eralya Feuillombre sur la route vers l’arbre-oracle.",
+   "description": "Le baume est prêt. Portez-le à Eralya sans tarder.\n\nJ’ignore s’il suffira à la guérir. La pourriture se propage rapidement et empire à mesure qu’elle gagne du terrain.\n\nNous pouvons au moins soulager sa douleur, et c’est là une raison suffisante pour vous hâter.",
+   "progress": "<Eralya n’est plus capable de s’exprimer et n’émet que de faibles râles étouffés comme seuls signes de vie.>",
+   "completion": "<Le souffle d’Eralya se stabilise rapidement tandis que vous l’aidez à ingérer le baume. Sa survie n’est pas garantie, mais elle semble au moins apaisée.>",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6094,
+     "name": "Byancie"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 275683,
+     "name": "Sentinel Eralya Leafshadow"
+    }
+   ],
+   "zone_id": 141,
+   "level": 10,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:05:17"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

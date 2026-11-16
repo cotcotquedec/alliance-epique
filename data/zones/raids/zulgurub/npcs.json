@@ -1,0 +1,908 @@
+{
+ "schema": 1,
+ "zone": "raids/zulgurub",
+ "zone_id": 1977,
+ "zone_name": "Zul'Gurub",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 12,
+  "with_display_id": 12,
+  "with_title": 4,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 11,
+   "unknown": 1
+  }
+ },
+ "npcs": {
+  "8579": {
+   "id": 8579,
+   "name": "Yeh'kinya",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    41,
+    41
+   ],
+   "display_id": 7902,
+   "quests_started": [
+    3520,
+    3527,
+    3528,
+    4787
+   ],
+   "quests_ended": [
+    3520,
+    3527,
+    3528,
+    4787,
+    8181
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TrollMaleShaman",
+    "race": "Troll",
+    "sex": "male",
+    "personality": "Shaman",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5946,
+     "farewell": 5947,
+     "pissed": 5948
+    },
+    "combat_set": "TrollMale"
+   },
+   "model": {
+    "race": "Troll",
+    "race_id": 8,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "TrollMaleShaman"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "10460": {
+   "id": 10460,
+   "name": "Prospecteur Ironboot",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    48,
+    48
+   ],
+   "display_id": 10195,
+   "quests_started": [
+    4788,
+    5065,
+    8181,
+    8182
+   ],
+   "quests_ended": [
+    4788,
+    5065
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleGrim",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Grim",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5907,
+     "farewell": 5908,
+     "pissed": 5909
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleGrim"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "12919": {
+   "id": 12919,
+   "name": "Nat Pagle",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Dustwallow Marsh"
+   ],
+   "coords": {},
+   "levels": [
+    45,
+    45
+   ],
+   "display_id": 13099,
+   "quests_started": [
+    6607
+   ],
+   "quests_ended": [
+    6607,
+    6608,
+    6609,
+    8227
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleStandard",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5974,
+     "farewell": 5975,
+     "pissed": 5976
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14875": {
+   "id": 14875,
+   "name": "Molthor",
+   "title": "Main de Rastakhan",
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Zandalar Tribe",
+   "zones": [
+    "Stranglethorn Vale"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 14993,
+   "quests_started": [],
+   "quests_ended": [
+    8182,
+    8183
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TrollMaleShaman",
+    "race": "Troll",
+    "sex": "male",
+    "personality": "Shaman",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5946,
+     "farewell": 5947,
+     "pissed": 5948
+    },
+    "combat_set": "TrollMale"
+   },
+   "model": {
+    "race": "Troll",
+    "race_id": 8,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "TrollMaleShaman"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14902": {
+   "id": 14902,
+   "name": "Jin'rokh le Briseur",
+   "title": null,
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Zandalar Tribe",
+   "zones": [
+    "Stranglethorn Vale"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 14994,
+   "quests_started": [
+    8041,
+    8042,
+    8043,
+    8044,
+    8045,
+    8046,
+    8047,
+    8048,
+    8053,
+    8054,
+    8055,
+    8058,
+    8078,
+    8079
+   ],
+   "quests_ended": [
+    8041,
+    8042,
+    8043,
+    8044,
+    8045,
+    8046,
+    8047,
+    8048,
+    8053,
+    8054,
+    8055,
+    8058,
+    8078,
+    8079
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "14903": {
+   "id": 14903,
+   "name": "Al'tabim Qui-voit-tout",
+   "title": null,
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Zandalar Tribe",
+   "zones": [
+    "Stranglethorn Vale"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 14995,
+   "quests_started": [
+    8049,
+    8050,
+    8051,
+    8052,
+    8059,
+    8060,
+    8061,
+    8068,
+    8069,
+    8070,
+    8071,
+    8076,
+    8077,
+    8101,
+    8102,
+    8103,
+    8104,
+    8106,
+    8107,
+    8108,
+    8109
+   ],
+   "quests_ended": [
+    8049,
+    8050,
+    8051,
+    8052,
+    8059,
+    8060,
+    8061,
+    8068,
+    8069,
+    8070,
+    8071,
+    8076,
+    8077,
+    8101,
+    8102,
+    8103,
+    8104,
+    8106,
+    8107,
+    8108,
+    8109
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TrollMaleDark",
+    "race": "Troll",
+    "sex": "male",
+    "personality": "Dark",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5943,
+     "farewell": 5944,
+     "pissed": 5945
+    },
+    "combat_set": "TrollMale"
+   },
+   "model": {
+    "race": "Troll",
+    "race_id": 8,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "TrollMaleDark"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14904": {
+   "id": 14904,
+   "name": "Maywiki de Zuldazar",
+   "title": null,
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Zandalar Tribe",
+   "zones": [
+    "Stranglethorn Vale"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 14996,
+   "quests_started": [
+    8056,
+    8057,
+    8064,
+    8065,
+    8074,
+    8075,
+    8110,
+    8111,
+    8112,
+    8113,
+    8116,
+    8117,
+    8118,
+    8119
+   ],
+   "quests_ended": [
+    8056,
+    8057,
+    8064,
+    8065,
+    8074,
+    8075,
+    8110,
+    8111,
+    8112,
+    8113,
+    8116,
+    8117,
+    8118,
+    8119
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TrollFemaleStandard",
+    "race": "Troll",
+    "sex": "female",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5955,
+     "farewell": 5956,
+     "pissed": 5957
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Troll",
+    "race_id": 8,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "TrollFemaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14905": {
+   "id": 14905,
+   "name": "Falthir le Sans-vue",
+   "title": null,
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Zandalar Tribe",
+   "zones": [
+    "Stranglethorn Vale"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 14997,
+   "quests_started": [
+    8062,
+    8063,
+    8066,
+    8067,
+    8072,
+    8073,
+    8141,
+    8142,
+    8143,
+    8144,
+    8145,
+    8146,
+    8147,
+    8148
+   ],
+   "quests_ended": [
+    8062,
+    8063,
+    8066,
+    8067,
+    8072,
+    8073,
+    8141,
+    8142,
+    8143,
+    8144,
+    8145,
+    8146,
+    8147,
+    8148
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TrollMaleStandard",
+    "race": "Troll",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5940,
+     "farewell": 5941,
+     "pissed": 5942
+    },
+    "combat_set": "TrollMale"
+   },
+   "model": {
+    "race": "Troll",
+    "race_id": 8,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "TrollMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14910": {
+   "id": 14910,
+   "name": "Exzhal",
+   "title": "Serviteur de Rastakhan",
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Zandalar Tribe",
+   "zones": [
+    "Stranglethorn Vale"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 15003,
+   "quests_started": [
+    8201
+   ],
+   "quests_ended": [
+    8201
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TrollMaleShaman",
+    "race": "Troll",
+    "sex": "male",
+    "personality": "Shaman",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5946,
+     "farewell": 5947,
+     "pissed": 5948
+    },
+    "combat_set": "TrollMale"
+   },
+   "model": {
+    "race": "Troll",
+    "race_id": 8,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "TrollMaleShaman"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14921": {
+   "id": 14921,
+   "name": "Rin'wosho le marchand",
+   "title": "Fournitures et réparations zandalariennes",
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Zandalar Tribe",
+   "zones": [
+    "Stranglethorn Vale"
+   ],
+   "coords": {},
+   "levels": [
+    63,
+    63
+   ],
+   "display_id": 15012,
+   "quests_started": [
+    8196,
+    8243,
+    8246
+   ],
+   "quests_ended": [
+    8196,
+    8243,
+    8246
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TrollMaleStandard",
+    "race": "Troll",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6662,
+     "farewell": 5941,
+     "pissed": 5942
+    },
+    "combat_set": "TrollMale"
+   },
+   "model": {
+    "race": "Troll",
+    "race_id": 8,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "TrollMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "15042": {
+   "id": 15042,
+   "name": "Zanza le Sans-Repos",
+   "title": null,
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Zandalar Tribe",
+   "zones": [
+    "Zul'Gurub"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 15144,
+   "quests_started": [
+    8184,
+    8185,
+    8186,
+    8187,
+    8188,
+    8189,
+    8190,
+    8191,
+    8192,
+    9208,
+    9209,
+    9210
+   ],
+   "quests_ended": [
+    8184,
+    8185,
+    8186,
+    8187,
+    8188,
+    8189,
+    8190,
+    8191,
+    8192,
+    9208,
+    9209,
+    9210
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TrollMaleStandard",
+    "race": "Troll",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5940,
+     "farewell": 5941,
+     "pissed": 5942
+    },
+    "combat_set": "TrollMale"
+   },
+   "model": {
+    "race": "Troll",
+    "race_id": 8,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "TrollMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "15070": {
+   "id": 15070,
+   "name": "Vinchaxa",
+   "title": "Serviteur de Zanza",
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Zandalar Tribe",
+   "zones": [
+    "Stranglethorn Vale"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 15205,
+   "quests_started": [
+    8195,
+    8238,
+    8239,
+    8240
+   ],
+   "quests_ended": [
+    8195,
+    8238,
+    8239,
+    8240
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TrollMaleShaman",
+    "race": "Troll",
+    "sex": "male",
+    "personality": "Shaman",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5946,
+     "farewell": 5947,
+     "pissed": 5948
+    },
+    "combat_set": "TrollMale"
+   },
+   "model": {
+    "race": "Troll",
+    "race_id": 8,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "TrollMaleShaman"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  }
+ }
+}

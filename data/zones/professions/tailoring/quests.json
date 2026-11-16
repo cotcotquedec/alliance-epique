@@ -1,0 +1,187 @@
+{
+ "schema": 1,
+ "zone": "professions/tailoring",
+ "zone_id": -264,
+ "zone_name": "Tailleur",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 3,
+  "complete": 3,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "3379": {
+   "id": 3379,
+   "name": "Les tisseuses d'ombre",
+   "objectives": "Tuer le groupe de braconniers Ombresoie qui rôde dans la gorge des Vents brûlants. Nilith a de bonnes raisons de croire qu'ils doivent être exterminés tous les cinq. Retourner voir Nilith dans la gorge des Vents brûlants lorsque vous aurez terminé.",
+   "description": "Les araignées de la gorge des Vents brûlants sont une source inestimable de Soie des ténèbres. Comme vous le savez, la Soie des ténèbres est très recherchée par les artisans de notre métier.\n\nMalheureusement, un groupe de braconniers a récemment empiété sur ces terres, et massacre en masse les araignées sans se soucier des effets à long terme de leurs actions. Aussi, la première chose que je vous demanderai sera assez simple : trouvez-les, et... tuez-les.\n\nCommencez vos recherches au nord.\n\nSi vous avez besoin d'assistance, parlez avec Raze.",
+   "progress": "Quelles sont les informations dont vous disposez ?",
+   "completion": "Excellent travail, <nom>.\n\nJe crois ne pas me tromper en disant que ceci est une pièce de tisse-ombre que vous n'avez encore jamais vue.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8439,
+     "name": "Nilith Lokrav"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8439,
+     "name": "Nilith Lokrav"
+    }
+   ],
+   "zone_id": -264,
+   "level": 50,
+   "reqlevel": 46,
+   "side": "both",
+   "xp": 7100,
+   "money": 14500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3385": {
+   "id": 3385,
+   "name": "Le Sous-marché",
+   "objectives": "Tuer le Maître d'artisanat Kovic et son agent Clonk. Récupérer sur son corps la Sacoche du marchand et l'apporter à Nilith.",
+   "description": "Ils se sont donnés le nom de Sous-marché : des commerçants sans vergogne qui vendront, intimideront, commerceront, ou feront à peu près n'importe quoi contre la bonne somme d'argent.\n\nMais les choses empirent, <nom>. Ils ont établi une base d'opérations ici dans la gorge des Vents brûlants. Kovic dirige les opérations et entretient des liens étroits avec les nains Sombrefer dans la région.\n\nNous devons frapper fort et envoyer un message clair à leurs dirigeants. Tuez Kovic, ainsi que son agent Clonk. Apportez-moi sa Sacoche du marchand lorsque vous en aurez terminé.\n\nPartez pour le Chaudron à présent !",
+   "progress": "Le Maître d'artisanat est toujours en vie ?",
+   "completion": "Vous avez porté un coup décisif au Sous-marché. Leurs chefs y réfléchiront à deux fois avant d'envoyer de nouveaux hommes dans le gouffre.\n\nOh, et je n'ai également rien trouvé qui m'intéresse dans la sacoche du marchand. Vous pouvez garder tout ce que vous y trouverez.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8439,
+     "name": "Nilith Lokrav"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8439,
+     "name": "Nilith Lokrav"
+    }
+   ],
+   "zone_id": -264,
+   "level": 50,
+   "reqlevel": 46,
+   "side": "both",
+   "xp": 7100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3402": {
+   "id": 3402,
+   "name": "Le Sous-marché",
+   "objectives": "Parler à Vizzklick à Gadgetzan.",
+   "description": "Je veux que vous informiez personnellement Vizzklick à Gadgetzan de la défaite de Kovic. Il sera si heureux d'apprendre sa mort qu'il vous remettra sûrement une récompense.",
+   "progress": null,
+   "completion": "Kovic est mort ??! C'est un grand jour, <nom> ! Durant des années, cette crapule a organisé des commerces louches et véreux, à vendre moins cher que les honnêtes commerçants.\n\nVous méritez une belle récompense pour cette réussite ! Et vous l'aurez !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8439,
+     "name": "Nilith Lokrav"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6568,
+     "name": "Vizzklick"
+    }
+   ],
+   "zone_id": -264,
+   "level": 50,
+   "reqlevel": 43,
+   "side": "both",
+   "xp": 7100,
+   "money": 7500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

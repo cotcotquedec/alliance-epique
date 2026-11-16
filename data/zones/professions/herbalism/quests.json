@@ -1,0 +1,77 @@
+{
+ "schema": 1,
+ "zone": "professions/herbalism",
+ "zone_id": -24,
+ "zone_name": "Herboristerie",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 1,
+  "complete": 1,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "866": {
+   "id": 866,
+   "name": "Les échantillons de racines",
+   "objectives": "Apporter 8 Echantillons de Racines à Mebok Mizzyrix, à Ratchet.",
+   "description": "Les herbes qui poussent dans les Tarides ne sont pas tout à fait pareilles à celles des autres contrées. Leurs propriétés sont à peu près semblables, mais l'eau des oasis les transforme légèrement. Elles sont juste un peu différentes.\n\nJ'aimerais étudier ces différences... pour voir si nous pouvons les exploiter !\n\nSi vous êtes <un herboriste compétent/une herboriste compétente>, cueillez les herbes que vous trouvez dans les Tarides. Apportez-moi ces échantillons que je puisse les comparer aux herbes des autres régions.",
+   "progress": "Salutations, <nom>. Avez-vous ces échantillons de racines ?",
+   "completion": "Oui, oui, elles sont très bien ! Je ferai pousser des herbes à partir de ces racines, puis je les étudierai. J'espère y trouver de nouvelles propriétés. Des propriétés cachées, de grande valeur…\n\nEt ne vous inquiétez pas, si j'en découvre vous serez le premier à le savoir. Car j'aurai besoin de quelqu'un pour en trouver plus.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3446,
+     "name": "Mebok Mizzyrix"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3446,
+     "name": "Mebok Mizzyrix"
+    }
+   ],
+   "zone_id": -24,
+   "level": 16,
+   "reqlevel": 9,
+   "side": "both",
+   "xp": 1150,
+   "money": 800,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

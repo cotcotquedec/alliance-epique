@@ -1,0 +1,968 @@
+{
+ "schema": 1,
+ "zone": "eastern-kingdoms/burning-steppes",
+ "zone_id": 46,
+ "zone_name": "Steppes ardentes",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 15,
+  "with_display_id": 15,
+  "with_title": 4,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 11,
+   "unknown": 4
+  }
+ },
+ "npcs": {
+  "344": {
+   "id": 344,
+   "name": "Magistrat Solomon",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Stormwind",
+   "zones": [
+    "Redridge Mountains"
+   ],
+   "coords": {},
+   "levels": [
+    36,
+    36
+   ],
+   "display_id": 1753,
+   "quests_started": [
+    120,
+    143,
+    145,
+    4184,
+    4223
+   ],
+   "quests_ended": [
+    121,
+    144,
+    146,
+    169,
+    180,
+    4183,
+    4186,
+    95999
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleOfficial",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5971,
+     "farewell": 5972,
+     "pissed": 5973
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "1748": {
+   "id": 1748,
+   "name": "Généralissime Bolvar Fordragon",
+   "title": null,
+   "type": null,
+   "classification": "Boss",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Stormwind",
+   "zones": [
+    "Stormwind City"
+   ],
+   "coords": {},
+   "levels": [
+    63,
+    63
+   ],
+   "display_id": 5566,
+   "quests_started": [
+    4185,
+    4186,
+    6182,
+    6187,
+    6501,
+    7496,
+    7782,
+    93963,
+    98021,
+    98191
+   ],
+   "quests_ended": [
+    4184,
+    4185,
+    6186,
+    6187,
+    6403,
+    7495,
+    7781,
+    93963,
+    94947,
+    98190
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleOfficial",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5971,
+     "farewell": 5972,
+     "pissed": 5973
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "2299": {
+   "id": 2299,
+   "name": "Borgus Stoutarm",
+   "title": "Maître des gryphons",
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Ironforge",
+   "zones": [
+    "Burning Steppes"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 1626,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleStandard",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5904,
+     "farewell": 5905,
+     "pissed": 5906
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleStandard"
+   }
+  },
+  "9079": {
+   "id": 9079,
+   "name": "Hiérophante Theodora Mulvadania",
+   "title": "Corps expéditionnaire de Kargath",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Undercity",
+   "zones": [
+    "Badlands"
+   ],
+   "coords": {},
+   "levels": [
+    58,
+    58
+   ],
+   "display_id": 8332,
+   "quests_started": [
+    4061,
+    4062
+   ],
+   "quests_ended": [
+    4061
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "female",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "9082": {
+   "id": 9082,
+   "name": "Thal'trak Proudtusk",
+   "title": "Corps expéditionnaire de Kargath",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Badlands"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 8335,
+   "quests_started": [
+    3821
+   ],
+   "quests_ended": [
+    3822
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "9136": {
+   "id": 9136,
+   "name": "Sha'ni Proudtusk",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Burning Steppes"
+   ],
+   "coords": {},
+   "levels": [
+    56,
+    56
+   ],
+   "display_id": 8429,
+   "quests_started": [
+    3822
+   ],
+   "quests_ended": [
+    3821
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "female",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "9177": {
+   "id": 9177,
+   "name": "Oralius",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Ironforge",
+   "zones": [
+    "Burning Steppes"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 8872,
+   "quests_started": [
+    3823,
+    3824,
+    3825,
+    4283,
+    4286
+   ],
+   "quests_ended": [
+    3823,
+    3824,
+    3825,
+    4283,
+    4286
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleGuard",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Guard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5910,
+     "farewell": 5911,
+     "pissed": 5912
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleGuard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "9459": {
+   "id": 9459,
+   "name": "Cyrus Therepentous",
+   "title": null,
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Burning Steppes"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 2552,
+   "quests_started": [
+    4022,
+    4023,
+    4024
+   ],
+   "quests_ended": [
+    4022,
+    4023,
+    4024
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "9536": {
+   "id": 9536,
+   "name": "Maxwort Uberglint",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Booty Bay",
+   "zones": [
+    "Burning Steppes"
+   ],
+   "coords": {},
+   "levels": [
+    42,
+    42
+   ],
+   "display_id": 8656,
+   "quests_started": [
+    4123,
+    4296
+   ],
+   "quests_ended": [
+    4123,
+    4296
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleZany",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Zany",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5964,
+     "farewell": 5965,
+     "pissed": 5966
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "9560": {
+   "id": 9560,
+   "name": "Maréchal Maxwell",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Stormwind",
+   "zones": [
+    "Burning Steppes"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 8685,
+   "quests_started": [
+    4224,
+    4241,
+    5081,
+    5102,
+    6402
+   ],
+   "quests_ended": [
+    4223,
+    4224,
+    4242,
+    4322,
+    5002,
+    5081,
+    5089,
+    5102
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleOfficial",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5971,
+     "farewell": 5972,
+     "pissed": 5973
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "9562": {
+   "id": 9562,
+   "name": "Helendis Riverhorn",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Darnassus",
+   "zones": [
+    "Burning Steppes"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 8694,
+   "quests_started": [
+    4182,
+    4183,
+    4701
+   ],
+   "quests_ended": [
+    4182,
+    4701
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfMaleOfficial",
+    "race": "NightElf",
+    "sex": "male",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5992,
+     "farewell": 5993,
+     "pissed": 5994
+    },
+    "combat_set": "NightElfMale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "NightElfMaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "9836": {
+   "id": 9836,
+   "name": "Mathredis Firestar",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Burning Steppes"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 9149,
+   "quests_started": [
+    4463,
+    4481,
+    4482,
+    4483,
+    4484
+   ],
+   "quests_ended": [
+    4463,
+    4481,
+    4482,
+    4483,
+    4484
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfMaleStandard",
+    "race": "NightElf",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 7019,
+     "farewell": 7020,
+     "pissed": 7021
+    },
+    "combat_set": "NightElfMale"
+   },
+   "model": {
+    "race": "HighElf",
+    "race_id": 10,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "NightElfMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "10267": {
+   "id": 10267,
+   "name": "Tinkee Steamboil",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Booty Bay",
+   "zones": [
+    "Burning Steppes"
+   ],
+   "coords": {},
+   "levels": [
+    53,
+    53
+   ],
+   "display_id": 9791,
+   "quests_started": [
+    4726,
+    4734,
+    4735,
+    4808,
+    5522
+   ],
+   "quests_ended": [
+    4726,
+    4734,
+    4735,
+    4810,
+    4907
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinFemaleZany",
+    "race": "Goblin",
+    "sex": "female",
+    "personality": "Zany",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5967,
+     "farewell": 5969,
+     "pissed": 5970
+    },
+    "combat_set": "GnomeMale"
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "GoblinFemaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "10468": {
+   "id": 10468,
+   "name": "Felnok Steelspring",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Everlook",
+   "zones": [
+    "Winterspring"
+   ],
+   "coords": {},
+   "levels": [
+    54,
+    54
+   ],
+   "display_id": 10655,
+   "quests_started": [
+    4809,
+    4810,
+    4907
+   ],
+   "quests_ended": [
+    4808,
+    4809
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleZany",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Zany",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5964,
+     "farewell": 5965,
+     "pissed": 5966
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11036": {
+   "id": 11036,
+   "name": "Leonid Barthalomew le Révéré",
+   "title": "L'Aube d'argent",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Argent Dawn",
+   "zones": [
+    "Eastern Plaguelands"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 10474,
+   "quests_started": [
+    5243,
+    5463,
+    5465,
+    5531
+   ],
+   "quests_ended": [
+    5243,
+    5462,
+    5464,
+    5522
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "UndeadMaleWarrior",
+    "race": "Undead",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6039,
+     "farewell": 6040,
+     "pissed": 6041
+    },
+    "combat_set": "UndeadMale"
+   },
+   "model": {
+    "race": "Undead",
+    "race_id": 5,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "UndeadMaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  }
+ }
+}

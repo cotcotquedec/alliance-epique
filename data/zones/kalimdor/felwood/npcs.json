@@ -1,0 +1,1455 @@
+{
+ "schema": 1,
+ "zone": "kalimdor/felwood",
+ "zone_id": 361,
+ "zone_name": "Gangrebois Felwood",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 24,
+  "with_display_id": 24,
+  "with_title": 10,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 13,
+   "unique": 1,
+   "unknown": 10
+  }
+ },
+ "npcs": {
+  "543": {
+   "id": 543,
+   "name": "Nalesette Wildbringer",
+   "title": "Maître des familiers",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Darnassus",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    40,
+    40
+   ],
+   "display_id": 12749,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfFemaleStandard",
+    "race": "NightElf",
+    "sex": "female",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5998,
+     "farewell": 5999,
+     "pissed": 6000
+    },
+    "combat_set": "NightElfFemale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "female"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "NightElfFemaleStandard"
+   }
+  },
+  "3848": {
+   "id": 3848,
+   "name": "Kayneth Stillwind",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Darnassus",
+   "zones": [
+    "Ashenvale"
+   ],
+   "coords": {},
+   "levels": [
+    31,
+    31
+   ],
+   "display_id": 4170,
+   "quests_started": [
+    1011,
+    1012
+   ],
+   "quests_ended": [
+    1011,
+    1012,
+    4261,
+    4581
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfMaleOfficial",
+    "race": "NightElf",
+    "sex": "male",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5992,
+     "farewell": 5993,
+     "pissed": 5994
+    },
+    "combat_set": "NightElfMale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "NightElfMaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "5501": {
+   "id": 5501,
+   "name": "Kaerbrus",
+   "title": "Maître des chasseurs",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Darnassus",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    57,
+    57
+   ],
+   "display_id": 3299,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfMaleWarrior",
+    "race": "NightElf",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5995,
+     "farewell": 5996,
+     "pissed": 5997
+    },
+    "combat_set": "NightElfMale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "male"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "NightElfMaleWarrior"
+   }
+  },
+  "5901": {
+   "id": 5901,
+   "name": "Islen Waterseer",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "The Barrens"
+   ],
+   "coords": {},
+   "levels": [
+    37,
+    37
+   ],
+   "display_id": 4538,
+   "quests_started": [
+    63,
+    972,
+    1530,
+    5159
+   ],
+   "quests_ended": [
+    96,
+    220,
+    972,
+    1528,
+    1529,
+    2985,
+    2986,
+    5158
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TaurenFemaleShaman",
+    "race": "Tauren",
+    "sex": "female",
+    "personality": "Shaman",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6058,
+     "farewell": 6059,
+     "pissed": 6060
+    },
+    "combat_set": "TaurenFemale"
+   },
+   "model": {
+    "race": "Tauren",
+    "race_id": 6,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "TaurenFemaleShaman"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "9116": {
+   "id": 9116,
+   "name": "Eridan Bluewind",
+   "title": "Cercle d'émeraude",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    57,
+    57
+   ],
+   "display_id": 9136,
+   "quests_started": [
+    4005,
+    4084,
+    4421,
+    4441,
+    4442,
+    4906
+   ],
+   "quests_ended": [
+    939,
+    3942,
+    4084,
+    4421,
+    4441,
+    4442,
+    4906
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfFemalePriestess",
+    "race": "NightElf",
+    "sex": "female",
+    "personality": "Priestess",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6001,
+     "farewell": 6002,
+     "pissed": 6003
+    },
+    "combat_set": "NightElfFemale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "NightElfFemalePriestess"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "9465": {
+   "id": 9465,
+   "name": "Golhine l'Encapuchonné",
+   "title": "Maître des druides",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Darnassus",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 10738,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfMaleOfficial",
+    "race": "NightElf",
+    "sex": "male",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5992,
+     "farewell": 5993,
+     "pissed": 5994
+    },
+    "combat_set": "NightElfMale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "male"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "NightElfMaleOfficial"
+   }
+  },
+  "9528": {
+   "id": 9528,
+   "name": "Arathandris Silversky",
+   "title": "Cercle d'émeraude",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 8657,
+   "quests_started": [
+    4101,
+    4103,
+    4104,
+    4105,
+    4106,
+    4107,
+    5882,
+    5883,
+    5884,
+    5885,
+    5886
+   ],
+   "quests_ended": [
+    4101,
+    4103,
+    4104,
+    4105,
+    4106,
+    4107,
+    5882,
+    5883,
+    5884,
+    5885,
+    5886
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "NightElfFemale"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "9529": {
+   "id": 9529,
+   "name": "Maybess Riverbreeze",
+   "title": "Cercle d'émeraude",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 8660,
+   "quests_started": [
+    4102,
+    4108,
+    4109,
+    4110,
+    4111,
+    4112,
+    5887,
+    5888,
+    5889,
+    5890,
+    5891
+   ],
+   "quests_ended": [
+    4102,
+    4108,
+    4109,
+    4110,
+    4111,
+    4112,
+    5887,
+    5888,
+    5889,
+    5890,
+    5891
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": "Tauren",
+    "race_id": 6,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "TaurenFemale"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "9598": {
+   "id": 9598,
+   "name": "Arei",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Darnassus",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    56,
+    56
+   ],
+   "display_id": 11362,
+   "quests_started": [
+    4261
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "unique",
+    "set": "mAncientStandFidget",
+    "race": null,
+    "sex": null,
+    "personality": null,
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6530
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "9620": {
+   "id": 9620,
+   "name": "Dreka'Sur",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 8890,
+   "quests_started": [
+    6162
+   ],
+   "quests_ended": [
+    6162
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "female",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "9996": {
+   "id": 9996,
+   "name": "Winna Hazzard",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Undercity",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    57,
+    57
+   ],
+   "display_id": 9343,
+   "quests_started": [
+    4505,
+    4506
+   ],
+   "quests_ended": [
+    4505,
+    4506,
+    6605
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "female",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "10306": {
+   "id": 10306,
+   "name": "Trull Failbane",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 9779,
+   "quests_started": [
+    4521,
+    4721,
+    4741,
+    4883
+   ],
+   "quests_ended": [
+    4521,
+    4721,
+    4741,
+    4882
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "10921": {
+   "id": 10921,
+   "name": "Taronn Redfeather",
+   "title": "Cercle d'émeraude",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 10254,
+   "quests_started": [
+    5156
+   ],
+   "quests_ended": [
+    5156
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TaurenMaleShaman",
+    "race": "Tauren",
+    "sex": "male",
+    "personality": "Shaman",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6011,
+     "farewell": 6012,
+     "pissed": 6013
+    },
+    "combat_set": "TaurenMale"
+   },
+   "model": {
+    "race": "Tauren",
+    "race_id": 6,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "TaurenMaleShaman"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "10922": {
+   "id": 10922,
+   "name": "Greta Mosshoof",
+   "title": "Cercle d'émeraude",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    59,
+    59
+   ],
+   "display_id": 10253,
+   "quests_started": [
+    5155,
+    5157,
+    5158,
+    5165,
+    5242
+   ],
+   "quests_ended": [
+    5155,
+    5157,
+    5159,
+    5165,
+    5242,
+    8257
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TaurenFemaleShaman",
+    "race": "Tauren",
+    "sex": "female",
+    "personality": "Shaman",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6058,
+     "farewell": 6059,
+     "pissed": 6060
+    },
+    "combat_set": "TaurenFemale"
+   },
+   "model": {
+    "race": "Tauren",
+    "race_id": 6,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "TaurenFemaleShaman"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "10924": {
+   "id": 10924,
+   "name": "Ivy Leafrunner",
+   "title": "Cercle d'émeraude",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    63,
+    63
+   ],
+   "display_id": 10646,
+   "quests_started": [
+    5249
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfFemaleStandard",
+    "race": "NightElf",
+    "sex": "female",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5998,
+     "farewell": 5999,
+     "pissed": 6000
+    },
+    "combat_set": "NightElfFemale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "NightElfFemaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11016": {
+   "id": 11016,
+   "name": "Arko'narin capturée",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Escortee",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    48,
+    48
+   ],
+   "display_id": 10407,
+   "quests_started": [
+    5203
+   ],
+   "quests_ended": [
+    5202
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfFemaleSentinel",
+    "race": "NightElf",
+    "sex": "female",
+    "personality": "Sentinel",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6005,
+     "farewell": 6006,
+     "pissed": 6007
+    },
+    "combat_set": "NightElfFemale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "NightElfFemaleSentinel"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11019": {
+   "id": 11019,
+   "name": "Jessir Moonbow",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 10412,
+   "quests_started": [
+    5204
+   ],
+   "quests_ended": [
+    5203,
+    5385
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfFemaleSentinel",
+    "race": "NightElf",
+    "sex": "female",
+    "personality": "Sentinel",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6005,
+     "farewell": 6006,
+     "pissed": 6007
+    },
+    "combat_set": "NightElfFemale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "NightElfFemaleSentinel"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11020": {
+   "id": 11020,
+   "name": "Cadavre de Trey Lightforge",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 10425,
+   "quests_started": [
+    5385
+   ],
+   "quests_ended": [
+    5204
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMale"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "11079": {
+   "id": 11079,
+   "name": "Wynd Nightchaser",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Darnassus",
+   "zones": [
+    "Winterspring"
+   ],
+   "coords": {},
+   "levels": [
+    62,
+    62
+   ],
+   "display_id": 10645,
+   "quests_started": [
+    5244,
+    5253
+   ],
+   "quests_ended": [
+    5249,
+    5250,
+    5252
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfMaleOfficial",
+    "race": "NightElf",
+    "sex": "male",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5992,
+     "farewell": 5993,
+     "pissed": 5994
+    },
+    "combat_set": "NightElfMale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "NightElfMaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11554": {
+   "id": 11554,
+   "name": "Grifleur",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 5851,
+   "quests_started": [
+    8460,
+    8462,
+    8466
+   ],
+   "quests_ended": [
+    8460,
+    8466
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "11556": {
+   "id": 11556,
+   "name": "Salfa",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Winterspring"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 6829,
+   "quests_started": [
+    8464,
+    8469
+   ],
+   "quests_ended": [
+    8464,
+    8465,
+    8469
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "11558": {
+   "id": 11558,
+   "name": "Kernda",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": null,
+   "faction": "Timbermaw Hold",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 1997,
+   "quests_started": [],
+   "quests_ended": [
+    8470,
+    8471
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "12578": {
+   "id": 12578,
+   "name": "Mishellena",
+   "title": "Maître des hippogryphes",
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Darnassus",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 12927,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfFemaleStandard",
+    "race": "NightElf",
+    "sex": "female",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5998,
+     "farewell": 5999,
+     "pissed": 6000
+    },
+    "combat_set": "NightElfFemale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "female"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "NightElfFemaleStandard"
+   }
+  },
+  "15395": {
+   "id": 15395,
+   "name": "Nafien",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 5851,
+   "quests_started": [
+    8461,
+    8465,
+    8467
+   ],
+   "quests_ended": [
+    8461,
+    8462,
+    8467
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  }
+ }
+}

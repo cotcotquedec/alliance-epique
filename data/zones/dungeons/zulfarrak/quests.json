@@ -1,0 +1,588 @@
+{
+ "schema": 1,
+ "zone": "dungeons/zulfarrak",
+ "zone_id": 1176,
+ "zone_name": "Zul'Farrak",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 10,
+  "complete": 10,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 2
+ },
+ "quests": {
+  "2768": {
+   "id": 2768,
+   "name": "Le bâtonnet divino-matic",
+   "objectives": "Rapporter le Bâtonnet divino-matic à l'Ingénieur en chef Bilgewhizzle, à Gadgetzan.",
+   "description": "Le sergent Bly m'a volé ! Il a dit qu'il ne faisait que l'emprunter, mais il a volé mon bâtonnet divino-matic ! Sans lui, comment savoir où creuser de nouveaux puits ?\n\nTrouvez Bly et reprenez mon bâtonnet ! J'ai entendu qu'il emmenait une bande d'aventuriers mal famés chasser les trésors à l'ouest, à Zul'Farrak. Je parie que vous le trouverez là-bas.\n\nEspérons que les trolls se seront déjà occupés de lui, car si vous devez l’affronter pour reprendre le bâtonnet, le combat sera difficile.",
+   "progress": "Avez-vous trouvé le sergent Bly ? Avez-vous récupéré mon bâtonnet divino-matic ?",
+   "completion": "Vous l'avez trouvée ! Bien joué, <nom> ! Avez-vous eu besoin de vous battre avec Bly pour l'avoir ? J'espère que vous l'avez battu une bonne fois pour toutes, lui et sa bande !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7407,
+     "name": "Ingénieur en chef Bilgewhizzle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7407,
+     "name": "Ingénieur en chef Bilgewhizzle"
+    }
+   ],
+   "zone_id": 1176,
+   "level": 47,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 6300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2770": {
+   "id": 2770,
+   "name": "Gahz'rilla",
+   "objectives": "Rapporter les Ecailles électrifiées de Gahz'rilla à Wizzle Brassbolts dans les Salines.",
+   "description": "Au coeur de Zul'Farrak, la cité des trolls des sables à Tanaris, il y a un bassin sacré. De ce bassin, les trolls invoquent une bête énorme ! Gahz'rilla ! Elle est tellement puissante que même ses écailles crépitent d'énergie. C'est cette énergie que je convoite pour ma voiture !\n\nRapportez-moi les écailles électrifiées de Gahz'rilla !\n\nMais l'invocation de Gahz'rilla est l’un des secrets les mieux gardés des trolls. Avant d’affronter le monstre, vous devez apprendre le secret des trolls.",
+   "progress": "Avez-vous les écailles ? Je suis impatient d'essayer de trouver des moyens de mettre cette énergie à profit.",
+   "completion": "Bon sang, vous avez les écailles ! Merci, <nom>. J'étais impatient de travailler dessus !\n\nAlors, vous avez vu Gahz'rilla ? Cette créature était-elle vraiment aussi grande que le disait la rumeur.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4453,
+     "name": "Wizzle Brassbolts"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4453,
+     "name": "Wizzle Brassbolts"
+    }
+   ],
+   "zone_id": 1176,
+   "level": 50,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 7100,
+   "money": 7500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2846": {
+   "id": 2846,
+   "name": "La tiare des abysses",
+   "objectives": "Rapporter la Tiare des abysses à Tabetha au marécage d'Âprefange.",
+   "description": "Il y a longtemps, je possédais une splendide pièce de joaillerie, la tiare des abysses. Elle n'était pas seulement belle, elle détenait un grand pouvoir, pour ceux qui savaient l'utiliser.\n\nQuand l'hydromancienne Velratha apprit son existence, elle l’a convoitée. Elle a envoyé des agents chez moi pour la voler pendant mon absence. Voleurs !\n\nJe veux ma tiare ! Allez à Zul'Farrak, la cité des trolls à Tanaris, trouvez Velratha et reprenez-lui la tiare. Rapportez-la et vous gagnerez mes faveurs.",
+   "progress": "Avez-vous la tiare, <nom> ? Est-ce que Velratha a compris ce qu'il en coûtait de s'en prendre à moi ?",
+   "completion": "Merveilleux ! Vous l'avez trouvée ! Et plus important encore, Velratha ne l'a plus ! Merci, <nom>. Je suis à jamais votre débitrice !\n\nEt si je vous ai semblé un peu… agressive au début, n'y prêtez pas attention. Je suis plus plaisante avec ceux qui ne me volent pas.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "zone_id": 1176,
+   "level": 46,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 6050,
+   "money": 6500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2861": {
+   "id": 2861,
+   "name": "La mission de Tabetha",
+   "objectives": "Parler à Tabetha dans le marécage d'Âprefange.",
+   "description": "La rumeur dit que Tabetha, une collègue mage qui vit loin dans le marécage d'Âprefange, a un compte à régler avec un certain troll des sables à Zul'Farrak. Si vous parlez à Tabetha, elle pourra vous en dire davantage.\n\nEt invitez quelques amis, <nom>. Si Tabetha vous envoie à Zul'Farrak, il ne faut pas y aller <tout seul/toute seule>.\n\nVous trouverez le cottage de Tabetha à l'ouest de Theramore, juste au nord des ruines Cognepierres.",
+   "progress": null,
+   "completion": "C'est vrai, j'ai un problème avec un troll. Et j’aimerais éliminer le problème et le troll avec.\n\nPourriez-vous m'aider ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4568,
+     "name": "Anastasia Hartwell"
+    },
+    {
+     "type": "npc",
+     "id": 5144,
+     "name": "Bink"
+    },
+    {
+     "type": "npc",
+     "id": 5497,
+     "name": "Jennea Cannon"
+    },
+    {
+     "type": "npc",
+     "id": 5885,
+     "name": "Deino"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6546,
+     "name": "Tabetha"
+    }
+   ],
+   "zone_id": 1176,
+   "level": 46,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 405,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "tout seul/toute seule"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2864": {
+   "id": 2864,
+   "name": "Tran'rek",
+   "objectives": "Parler à Tran'rek à Gadgetzan.",
+   "description": "Mon cousin Tran'rek me pose un problème. Il m'a promis une cargaison de carapaces de Scarabées il y a quelques semaines, et je n'ai toujours rien reçu. C’est mon cousin, je n'aimerais donc pas le rappeler méchamment à l’ordre.\n\nPouvez-vous lui parler avant que je ne commette un acte regrettable ? Dites-lui que j'ai vraiment besoin de cette cargaison.\n\nGadgetzan est dans le nord de Tanaris, en Kalimdor.",
+   "progress": null,
+   "completion": "Bonjour ! Avez-vous parlé avec mon cousin Krazek ? Comment va-t-il ? J'espère qu'il se plaît à Baie-du-Butin…\n\nDes carapaces de Scarabées, vous dites ? Bien… Permettez-moi de vous raconter quelque chose…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 773,
+     "name": "Krazek"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7876,
+     "name": "Tran'rek"
+    }
+   ],
+   "zone_id": 1176,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 390,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2865": {
+   "id": 2865,
+   "name": "Les carapaces de Scarabées",
+   "objectives": "Rapporter 5 Carapaces de scarabée intactes à Tran'rek à Gadgetzan.",
+   "description": "Les scarabées de Tanaris ont une carapace très dure ! Si dure qu’elle est utilisée dans de nombreux domaines.\n\nEn fait ces carapaces sont si utiles que les scarabées ont presque disparu !\n\nJe sais où trouver des scarabées, mais vous devez me promettre de ramener leurs carapaces. Promis ?\n\nOK, les scarabées ont une colonie à Zul'Farrak. Je pense que les trolls ne les chassent pas pour leurs carapaces.\n\nMais vous si ! Allez à Zul'Farrak et trouvez-moi ces carapaces intactes !",
+   "progress": "Vous avez les carapaces ? Mon cousin de Baie-du-Butin les attend et il s'impatiente !",
+   "completion": "Fabuleux ! Vous les avez !\n\nMerci, <nom>. Vous me sauvez la vie !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7876,
+     "name": "Tran'rek"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7876,
+     "name": "Tran'rek"
+    }
+   ],
+   "zone_id": 1176,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 3900,
+   "money": 6500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2936": {
+   "id": 2936,
+   "name": "Le dieu-araignée",
+   "objectives": "Lire la Tablette de Theka pour connaître le véritable nom du dieu-araignée des Witherbark, puis retourner voir Maître Gadrin.",
+   "description": "Les Witherbark adorent un dieu-araignée dont ils obtiennent ce venin extrêmement toxique. Ainsi, si vous voulez en collecter un peu, il vous faudra invoquer leur dieu !\n\nPour réussir l'invocation, vous devez connaître le vrai nom de cette divinité. Il est écrit sur une tablette, enterrée à Tanaris, dans la cité troll de Zul'Farrak. Dans une tombe gardée par Theka le Martyr, pour être plus exact.\n\nTuez Theka, trouvez et lisez la tablette pour connaître le véritable nom du dieu-araignée, puis revenez me voir.",
+   "progress": "Connaissez-vous le nom du dieu araignée ?",
+   "completion": "Ah, Elortha no Shadra. . . Ne murmurez ce nom qu'avec crainte et défiance ; même dans le monde des esprits, il impose le respect.\n\nJe vais l'incorporer à un sort d'invocation que je laisserai sur parchemin. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3188,
+     "name": "Maître Gadrin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3188,
+     "name": "Maître Gadrin"
+    }
+   ],
+   "zone_id": 1176,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 4850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2991": {
+   "id": 2991,
+   "name": "Médaillon de Nekrum",
+   "objectives": "Apporter le Médaillon de Nekrum à Thadius Grimshade, dans les Terres foudroyées.",
+   "description": "Si vous voulez que je localise votre gryphon, vous devrez faire quelque chose pour moi. Il y a un troll dans Zul'Farrak, Nekrum Mâchetripes, qui possède un médaillon que j'aimerais beaucoup étudier. Apportez-le-moi et j'utiliserai mes pouvoirs pour retrouver Bec-tranchant.\n\nZul'Farrak est de l'autre côté de l'océan, à l'est, dans le désert de Tanaris.",
+   "progress": "Avez-vous le Médaillon de Nekrum, <nom> ? Il contient des pouvoirs que je suis avide de mettre à l'épreuve.",
+   "completion": "Ah, le Médaillon de Nekrum. On dit qu'il a donné aux trolls une vie inhabituellement longue, mais à un prix élevé. Je souhaite découvrir un moyen de profiter de la puissance du Médaillon tout en évitant ses effets les plus déplaisants.\n\nVous m'avez rendu service, <nom>. Je vais remplir ma part du marché.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8022,
+     "name": "Thadius Grimshade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8022,
+     "name": "Thadius Grimshade"
+    }
+   ],
+   "zone_id": 1176,
+   "level": 47,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 5250,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3042": {
+   "id": 3042,
+   "name": "Agent durcissant troll",
+   "objectives": "Apporter 20 Fioles d'agent durcissant troll à Trenton Lighthammer, dans Gadgetzan.",
+   "description": "Les trolls Sandfury de Zul'Farrak fabriquent un agent durcissant à partir du grès, que j'utilise aussi pour tremper mes créations. Cette matière est très prisée, et si vous m'en rapportez une bonne quantité, vous serez largement <rétribué/rétribuée>.\n\nZul'Farrak est au nord-ouest de Gadgetzan. Bonne chance.",
+   "progress": "Avez-vous l'agent, <nom> ?",
+   "completion": "Ah, c'est parfait ! Et en grande quantité, qui plus est ; de quoi travailler pour plusieurs jours !\n\nMerci, <nom>. Acceptez ceci en guise de récompense.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7804,
+     "name": "Trenton Lighthammer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7804,
+     "name": "Trenton Lighthammer"
+    }
+   ],
+   "zone_id": 1176,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 3900,
+   "money": 19500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "rétribué/rétribuée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3527": {
+   "id": 3527,
+   "name": "La prophétie de Mosh'aru",
+   "objectives": "Apporter les Première et Deuxième tablettes Mosh'Aru à Yeh'kinya, à Tanaris.",
+   "description": "La prophétie ancienne de Mosh'aru explique comment contenir l'essence du dieu Hakkar. Elle a été écrite sur deux tablettes, apportées à la cité troll de Zul'Farrak, à l'ouest de Gadgetzan.\n\nApportez-moi les Tablettes Mosh'aru !\n\nLa première tablette est détenue par le troll Theka le Martyr, mort depuis longtemps. On raconte que ses bourreaux ont été changés en scarabées et qu'ils parcourent à présent son autel.\n\nLa seconde tablette est détenue par l'Hydromancienne Velratha, près du bassin sacré de Gahz'rilla.\n\nUne fois que vous aurez les tablettes, apportez-les-moi.",
+   "progress": "Avez-vous les tablettes de la Prophétie de Mosh'aru, <nom> ?\n\nQuand j'aurai ces tablettes, je pourrai les étudier et apprendre comment retenir l'Essence d'Hakkar !",
+   "completion": "Ah, c'est bon. Je peux assembler ces tablettes anciennes pour étudier les secrets qu'elles contiennent.\n\nMa dette envers vous ne cesse de croître, <nom>. Et ce n'est pas terminé.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8579,
+     "name": "Yeh'kinya"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8579,
+     "name": "Yeh'kinya"
+    }
+   ],
+   "zone_id": 1176,
+   "level": 47,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 5250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

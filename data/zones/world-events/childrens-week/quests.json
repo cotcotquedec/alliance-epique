@@ -1,0 +1,810 @@
+{
+ "schema": 1,
+ "zone": "world-events/childrens-week",
+ "zone_id": -1002,
+ "zone_name": "Semaine des enfants",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 14,
+  "complete": 14,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 6
+ },
+ "quests": {
+  "171": {
+   "id": 171,
+   "name": "Un surveillant de l'Alliance",
+   "objectives": "Ramenez votre protégé à l'orphelinat de Stormwind, en rendant le sifflet d'orphelin humain à la gouvernante de l'orphelinat, Nightingale, sur la place de la Cathédrale.",
+   "description": "Vous avez été très <gentil/gentille> avec moi, <nom>. Je n'aurais jamais pensé que je m'amuserai autant pendant la Semaine des enfants. Merci. Je ne veux pas être triste, avec tout ce qui m'est arrivé... Mes parents me disaient toujours qu'il fallait surmonter les mauvaises choses qui nous arrivent. Vous savez, quand je serai grand, je veux être un héros... comme vous.\n\nC'est triste de devoir revenir à l'orphelinat. Rentrons à la maison, et je dirai à la gouvernante que vous êtes une personne géniale !",
+   "progress": "C'est un plaisir de vous revoir, <nom>. Avez-vous pu accomplir les tâches pour lesquelles vous vous êtes portée volontaire pendant la Semaine des Enfants ?",
+   "completion": "Que les cieux vous bénissent, <nom>. Vous avez plus fait pour Randis que la plupart des gens. Merci. . . Vous êtes une étoile au firmament de l'Alliance.\n\nJe vous en prie, si vous en avez le temps, revenez nous voir de temps en temps. Je sais que Randis en serait très heureux, et moi aussi.\n\nRandis s'est si bien amusé avec vous, <nom>. Il voudrait vous donner l'un de ses familiers préférés pour que vous vous souveniez de lui.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14305,
+     "name": "Orphelin humain"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14450,
+     "name": "Directrice de l'orphelinat Nightingale"
+    }
+   ],
+   "zone_id": -1002,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "gentil/gentille",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "172": {
+   "id": 172,
+   "name": "La Semaine des enfants",
+   "objectives": "Utiliser le sifflet d'orphelin orc pour parler à l'enfant que vous protégez durant la Semaine des enfants.",
+   "description": "Vous voulez aider l'orphelinat ? Vous faites honneur à la Horde, mon <ami/amie>. Votre aide durant la Semaine des enfants nous sera précieuse.\n\nPrenez ce sifflet. Vous ne pourrez vous en servir que durant sept jours, en fait, pendant toute la Semaine des enfants Quand vous l'utiliserez, vous pourrez bavarder avec l'enfant que vous avez accepté de surveiller. Si vous l'utilisez une seconde fois, il renverra l'enfant.\n\nJe vous en prie, <nom>, utilisez le sifflet pour faire la connaissance de votre protégé ! Je suis sûre que l'enfant est très impatient de vous rencontrer.",
+   "progress": null,
+   "completion": "Zog zog ! Je m'appelle Grunth. C'est vous qui vous occupez de moi ? Vous êtes une aventurière, comme l'étaient mon papa et ma maman. La gouvernante m'a dit qu'ils étaient morts dans l'honneur, au combat. C'est chouette de vous rencontrer.\n\nJ'espère qu'on va bien s'amuser tous les deux. Y'a plein de choses que j'aimerais faire, et la gouvernante m'a dit que vous seriez comme ma grande sœur cette semaine. Ça va être génial.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14451,
+     "name": "Directrice de l'orphelinat Battlewail"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14444,
+     "name": "Orphelin orc"
+    }
+   ],
+   "zone_id": -1002,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "ami/amie",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "558": {
+   "id": 558,
+   "name": "L'autographe de Jaina",
+   "objectives": "Allez à Theramore pour tenter d'obtenir un autographe de dame Jaina Portvaillant pour votre protégé.",
+   "description": "On dit que dame Jaina Portvaillant, à Theramore, est l'une des plus grands héroïnes de l'Alliance de tous les temps. Quand je serai grand, je veux aussi être un héros de l'Alliance !\n\nVous connaissez Jaina, <nom> ? Vous pouvez me faire une faveur, s'il vous plaît ? Vous pouvez m'avoir un autographe de dame Jaina ? Je sais pas comment lui demander, et c'est sans doute une personne bien trop occupée pour s'occuper de quelqu'un comme moi... Mais pas vous ! Vous êtes <un aventurier/une aventurière>, comme elle ! Je parie qu'elle vous donnerait facilement un autographe !\n\nS'il vous plaît ?",
+   "progress": "Un jour, je serai un héros comme Jaina. . . Enfin, elle, c'est une héroïne, moi, je serai un héros.",
+   "completion": "OUAH ! Vous avez l'autographe de dame Jaina pour moi ! Merci beaucoup ! Et. . . Ouah. . . elle m'a même écrit un message personnel. . . Rien que pour moi ! Je savais qu'elle était géniale, et peut-être qu'un jour je la remercierai moi-même. . . Quand je serai devenu un héros de l'Alliance !\n\nVous êtes la meilleure, <nom>. Merci d'avoir été aussi gentille avec moi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14305,
+     "name": "Orphelin humain"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14305,
+     "name": "Orphelin humain"
+    }
+   ],
+   "zone_id": -1002,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "un aventurier/une aventurière"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "910": {
+   "id": 910,
+   "name": "Un tour sur les quais",
+   "objectives": "Emmenez votre protégé sur les quais de Cabestan, dans les Tarides.",
+   "description": "J'ai entendu parler des grands bateaux qui naviguent entre Cabestan et Baie-du-Butin ! C'est génial de voyager sur l'océan et de faire de grandes batailles navales. Peut-être que je serai un puissant marin de la Horde quand je serai grand ! Ouais !\n\nVous voulez bien m'emmener voir les quais de Cabestan, s'il vous plaît ? Je vous promets que je sauterai pas dans l'eau et que je ne ferai pas de bêtise. Je veux juste voir les grands bateaux et sentir l'eau salée de la mer ! Ouais !",
+   "progress": "On est arrivés ?",
+   "completion": "Ouah, l'océan est IMMENSE ! Il y avait beaucoup de mouettes et des tas de trucs. . . C'était aussi bruyant et animé que je le pensais. Et avec aussi des pirates pas loin. . . Trop délire !\n\nMerci de m'avoir emmené à Ratchet, <nom>. C'était génial !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14444,
+     "name": "Orphelin orc"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14444,
+     "name": "Orphelin orc"
+    }
+   ],
+   "zone_id": -1002,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "911": {
+   "id": 911,
+   "name": "L'accès vers la frontière",
+   "objectives": "Emmenez votre protégé au Rempart de Mor'shan dans la région nord des Tarides, juste à l'entrée d'Ashenvale.",
+   "description": "Ils disent qu'Orneval est la nouvelle frontière, et que le Rempart de Mor'shan dans les Tarides est à sa porte. Ça doit être génial d'être un pionnier, de trouver tout ce dont on a besoin dans la nature sauvage ! Ils disent que c'est là que la Horde et l'Alliance se battront le plus dans l'avenir, et je veux y être, <nom> !\n\nVous voulez bien m'emmener au Rempart de Mor'shan pour que je puisse voir à quoi ressemble la frontière, s'il vous plaît ? Je veux voir l'endroit où la Horde chasse ces sales elfes de la nuit puants !",
+   "progress": "Sommes-nous arrivés à ce stade ?",
+   "completion": "Ouah, Ashenvale, c'est là où commence la grande aventure ! Vous vous êtes déjà battue en Ashenvale, <nom> ? Quand je serai devenu un héros, quand je serai grand, je veux venir en Ashenvale pour me battre pour la gloire de la Horde!\n\nMerci de m'avoir emmené à la frontière, <nom>. Vous êtes la meilleure !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14444,
+     "name": "Orphelin orc"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14444,
+     "name": "Orphelin orc"
+    }
+   ],
+   "zone_id": -1002,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "915": {
+   "id": 915,
+   "name": "Je veux une glaaaaace !",
+   "objectives": "Aller chercher de la glace à la fraise pour votre protégé. Le gamin semble préférer la marque de glace Aguilor.",
+   "description": "DE LA GLACE ! Oh, s'il vous plaaaaîîîîîît, je peux avoir de la glace ?! La glace à la fraise est ma glace préférée, et la meilleure glace à la fraise du monde, c'est celle d'Aguilor & Dagharn ! C'est ma glace préférée dans le monde entier !\n\nJ'en ai mangé il y a longtemps aux courses des Salines, mais il paraît qu'ils en vendent en ville ! S'il vous plaît ? S'il vous plaaaaîîîîîît ? Avec une deuxième boule sur le dessus ??!?!",
+   "progress": "J'aimerais bien qu'ils fassent d'autres parfums de glace que la fraise. Mais j'ai de la chance, la glace à la fraise est ma préférée !",
+   "completion": "Mmmmmmmmm ! J'adore leur glace à la fraise ! S'il y a bien une chose qu'Aguilor & Dagharn savent faire, c'est la crème glacée !\n\nMerci beaucoup <nom>, je n 'ai jamais rien mangé d'aussi bon !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14444,
+     "name": "Orphelin orc"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14444,
+     "name": "Orphelin orc"
+    }
+   ],
+   "zone_id": -1002,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "925": {
+   "id": 925,
+   "name": "L'empreinte de Cairne",
+   "objectives": "Allez aux Pitons-du-Tonnerre pour tenter d'obtenir l'empreinte de sabot de Cairne pour votre protégé.",
+   "description": "On dit que Cairne Sabot-de-sang est l'un des plus grands héros de la Horde de tous les temps. Quand je serai grand, je veux être un héros de la Horde, moi aussi !\n\nVous connaissez Cairne, <nom> ? Vous pouvez me faire une faveur, s'il vous plaît ? Vous pouvez avoir son empreinte de sabot pour moi ? Je sais pas comment lui demander, et c'est sans doute une personne bien trop occupée pour s'occuper de quelqu'un comme moi... Mais pas vous ! Vous êtes <un aventurier/une aventurière>, comme lui ! Je parie qu'il vous donnerait facilement son empreinte de sabot !\n\nS'il vous plaît ?",
+   "progress": "Quand les orcs étaient seuls et sans alliés, les taurens les ont accueillis sur cette terre qui leur était étrangère, sans rien leur demander en échange. C'est un honneur, <nom>.",
+   "completion": "OUAH ! Vous avez l'empreinte de sabot de Cairne pour moi ! Merci beaucoup ! Et. . . Ouah. . . il m'a même écrit un message personnel. . . Rien que pour moi ! Je savais qu'il était génial, j'en étais sûr ! Peut-être qu'un jour je le remercierai moi-même. . . Quand je serai devenu un héros de la Horde !\n\nVous êtes la meilleure, <nom>. Merci d'avoir été aussi gentille avec moi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14444,
+     "name": "Orphelin orc"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14444,
+     "name": "Orphelin orc"
+    }
+   ],
+   "zone_id": -1002,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "un aventurier/une aventurière"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1468": {
+   "id": 1468,
+   "name": "La Semaine des enfants",
+   "objectives": "Utilisez le Sifflet d'orphelin humain pour parler à l'enfant que vous protégerez pendant la Semaine des enfants.",
+   "description": "Vous voulez aider l'orphelinat ? Soyez <béni, mon ami/bénie> mon amie;. Votre aide durant la Semaine des enfants sera inestimable.\n\nPrenez ce sifflet. Vous ne pourrez vous en servir que durant sept jours, en fait, pendant toute la Semaine des enfants. Quand vous l'utiliserez, vous pourrez bavarder avec l'enfant que vous avez accepté de surveiller. Si vous l'utilisez une seconde fois, il renverra l'enfant.\n\nJe vous en prie, <nom>, utilisez le sifflet pour faire la connaissance de votre protégé ! Je suis sûre que l'enfant est très impatient de vous rencontrer.",
+   "progress": null,
+   "completion": "Euh. . . salut. Je m'appelle Randis. C'est vous qui vous occupez de moi ? Vous êtes une aventurière, comme l'étaient mon papa et ma maman. C'est chouette de vous rencontrer.\n\nJ'espère qu'on va bien s'amuser tous les deux. Y'a plein de choses que j'aimerais faire, et la gouvernante m'a dit que vous seriez comme ma grande soeur cette semaine. C'est super, m'dame.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14450,
+     "name": "Directrice de l'orphelinat Nightingale"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14305,
+     "name": "Orphelin humain"
+    }
+   ],
+   "zone_id": -1002,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "béni, mon ami/bénie",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1479": {
+   "id": 1479,
+   "name": "Le Rameau des Éternels",
+   "objectives": "Conduire l'orphelin à la banque de Darnassus. La banque est creusée dans le tronc d'un arbre connu sous le nom du Rameau des Éternels.",
+   "description": "J'ai entendu parler d'histoire sur les elfes de la nuit, qui ont leur banque dans un arbre, mais qui ressemble à un ours ! C'est génial ! C'est chouette, il paraît que les elfes de la nuit aiment la nature et ce genre de choses. Et les ours, c'est trop terrible !\n\nVous voulez bien m'emmener voir l'arbre-ours à Darnassus, s'il-vous-plaît ? Y'a un bateau qui peut nous amener juste à côté, ça ne devrait pas prendre trop de temps. S'il vous plaaaaaaaaaaaît !",
+   "progress": "On est arrivés ?",
+   "completion": "Ouah, c'était encore plus terrible que je l'avais imaginé, le Rameau des Éternels ! Je ne pensais pas qu'il était si gros que ça ! Vous avez vu l'oiseau tout en haut ? Je me demande comment ils font pour que les branches soient aussi jolies !\n\nMerci de m'avoir emmené à Darnassus, <nom>. Vous êtes géniale !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14305,
+     "name": "Orphelin humain"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14305,
+     "name": "Orphelin humain"
+    }
+   ],
+   "zone_id": -1002,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1558": {
+   "id": 1558,
+   "name": "Le barrage de Formepierre",
+   "objectives": "Conduire l'orphelin au barrage de Formepierre au Loch Modan. Vous devez le conduire au milieu du barrage pour qu'il puisse voir par-dessus l'immense chute d'eau.",
+   "description": "Forgefer, c'est là où vivent tous les nains et les gnomes. Pas loin, il y a un endroit qui s'appelle le Loch Modan. Les nains y ont construit un ÉNORME barrage. Ils disent que c'est l'une des choses les plus grandes jamais construites. Ouah !\n\nVous pouvez m'emmener au Loch Modan pour voir le barrage, s'il vous plaît ? Je crois que c'est le barrage de Forme... de Formepierre. Il est énorme, c'est sûr. J'aimerais bien regarder par-dessus la grande chute d'eau. Je promets que je ne me pencherai pas trop au-dessus de la rambarde !",
+   "progress": "Sommes-nous arrivés à ce stade ?",
+   "completion": "Ouah, le barrage était encore plus GRAND que je l'imaginais ! Je m'entendais presque pas parler à cause du bruit de toute l'eau qui tombait ! Hé, vous croyez qu'un jour il tombera en panne d'eau ? Et qu'est-ce qui se passerait si un jour le barrage cassait ? OUAH, ce serait terrible !\n\nMerci de m'avoir emmené voir le barrage. C'était très gentil. Je vous avais bien dit que je ne me pencherais pas trop sur la rambarde !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14305,
+     "name": "Orphelin humain"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14305,
+     "name": "Orphelin humain"
+    }
+   ],
+   "zone_id": -1002,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1687": {
+   "id": 1687,
+   "name": "Le phare hanté",
+   "objectives": "Emmenez l'orphelin voir le phare sur la côte de la marche de l'Ouest.",
+   "description": "Des fois, tard le soir, les gouvernantes de l'orphelinat nous racontent des histoires qui font peur. C'est GÉNIAL ! Il y en a une à propos d'un fantôme qui hante un phare dans la marche de l'Ouest. C'était un pirate à qui d'autres pirates ont pris son bateau. Waou !\n\nVous pourriez m'emmener au phare de la marche de l'Ouest ? Je veux voir le fantôme du capitaine ! Je resterai près de vous, c'est promis, je ne m'enfuirai pas ni rien...",
+   "progress": "Sommes-nous arrivés à ce stade ?",
+   "completion": "OUAH, c'était un fantôme pour de vrai ! C'était terrible ! Vivement qu'on rentre à l'orphelinat pour que je l'raconte à tout le monde. Le capitaine Grayson. . . Même qu'il ressemblait à un vrai pirate ! Quand je serai grand, moi aussi je veux devenir un pirate fantôme !\n\nMerci de m'avoir emmené à la marche de l'Ouest, <nom>. Je sais qu'il y a des trucs effrayants dans ce coin, et j'espère que je ne vous ai pas trop embêtée. Vous êtes géniale !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14305,
+     "name": "Orphelin humain"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14305,
+     "name": "Orphelin humain"
+    }
+   ],
+   "zone_id": -1002,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1800": {
+   "id": 1800,
+   "name": "La salle du trône de Lordaeron",
+   "objectives": "Emmenez votre protégé à la vieille salle du trône de Lordaeron, qui se trouve juste avant l'endroit où il faut descendre pour aller à Fossoyeuse.",
+   "description": "La gouvernante de l'orphelinat, à la maison, nous raconte de grandes histoires de bataille et de sagesse, si nous sommes gentils et que nous avons fait nos corvées. Une histoire raconte la chute de Lordaeron, et comment le maléfique Arthas a assassiné son père pour devenir le chef.\n\nIl n'avait pas d'honneur, <nom> ! Quand je serai grand, je serai un puissant guerrier de la Horde, et ma lame sera guidée par l'honneur - jamais par le mal !\n\nVous voulez bien m'emmener voir la salle du trône, s'il vous plaît ? C'est juste avant l'endroit où il faut descendre pour aller à Fossoyeuse.",
+   "progress": "On est arrivés ?",
+   "completion": "La salle du trône était terrible, <nom> ! Même si je savais qu'elle était vide, j'avais l'impression qu'un grand malheur avait eu lieu, là-bas. Je me suis senti fou de rage. . . mais triste, aussi. Je comprends pourquoi la gouvernante nous raconte toutes ces histoires. Je ne trahirai jamais mon peuple comme ça !\n\nMerci de m'avoir emmené à la salle du trône, <nom>. J'ai beaucoup appris.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14444,
+     "name": "Orphelin orc"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14444,
+     "name": "Orphelin orc"
+    }
+   ],
+   "zone_id": -1002,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4822": {
+   "id": 4822,
+   "name": "Je veux une glaaaaace !",
+   "objectives": "Aller chercher de la glace à la fraise pour votre protégé. Le gamin semble préférer la marque de glace Aguilor.",
+   "description": "DE LA GLACE ! Oh, s'il vous plaaaaîîîîîît, je peux avoir de la glace ?! La glace à la fraise est ma glace préférée, et la meilleure glace à la fraise du monde, c'est celle d'Aguilor & Dagharn ! C'est ma glace préférée dans le monde entier !\n\nJ'en ai mangé il y a longtemps aux courses des Salines, mais il paraît qu'ils en vendent en ville ! S'il vous plaît ? S'il vous plaaaaîîîîîît ? Avec une deuxième boule sur le dessus ??!?!",
+   "progress": "J'aimerais bien qu'ils fassent d'autres parfums de glace que la fraise. Mais j'ai de la chance, la glace à la fraise est ma préférée !",
+   "completion": "Mmmmmmmmm ! J'adore leur glace à la fraise ! S'il y a bien une chose qu'Aguilor & Dagharn savent faire, c'est la crème glacée !\n\nMerci beaucoup <nom>, je n'ai jamais rien mangé d'aussi bon !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14305,
+     "name": "Orphelin humain"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14305,
+     "name": "Orphelin humain"
+    }
+   ],
+   "zone_id": -1002,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5502": {
+   "id": 5502,
+   "name": "Un surveillant de la Horde",
+   "objectives": "Ramenez votre protégé à l'orphelinat d'Orgrimmar, en rendant le sifflet d'orphelin orc à la gouvernante de l'orphelinat, Battlewail, dans la Vallée de l'Honneur.",
+   "description": "Vous avez été très <gentil/gentille> avec moi, <nom>. Je n'aurais jamais pensé que je m'amuserais autant pendant la Semaine des enfants. Merci. Je veux pas être triste, avec tout ce qui m'est arrivé... Mes parents me disaient toujours qu'il fallait surmonter les mauvaises choses qui nous arrivent. Je serai un héros, plus tard... comme vous.\n\nC'est triste de devoir revenir à l'orphelinat. Rentrons à la maison, et je dirai à la gouvernante que vous êtes une personne géniale !",
+   "progress": "C'est un plaisir de vous revoir, <nom>. Avez-vous pu accomplir les tâches pour lesquelles vous vous êtes porté volontaire pendant la Semaine des Enfants ?",
+   "completion": "Que les esprits vous bénissent, <nom>. Vous avez plus fait pour Grunth que la plupart des gens. Merci. . . Vous êtes le héros de la Horde par excellence.\n\nJe vous en prie, si vous en avez le temps, revenez nous voir de temps en temps. Je sais que Grunth en serait très heureux, et moi aussi.\n\nGrunth s'est si bien amusé avec vous, <nom>. Il voudrait vous donner l'un de ses familiers préférés pour que vous vous souveniez de lui.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14444,
+     "name": "Orphelin orc"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14451,
+     "name": "Directrice de l'orphelinat Battlewail"
+    }
+   ],
+   "zone_id": -1002,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "gentil/gentille",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

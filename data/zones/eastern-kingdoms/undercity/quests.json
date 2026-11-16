@@ -1,0 +1,1691 @@
+{
+ "schema": 1,
+ "zone": "eastern-kingdoms/undercity",
+ "zone_id": 1497,
+ "zone_name": "Undercity",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 31,
+  "complete": 19,
+  "incomplete": 12,
+  "unavailable": 0,
+  "missing_description": 12,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 1
+ },
+ "quests": {
+  "232": {
+   "id": 232,
+   "name": "Course pour l'Apothicaire Zinge",
+   "objectives": "Apporter le bon de commande à Alessandro Luca dans Undercity.",
+   "description": "La Société royale des apothicaires a besoin de vous. Écoutez attentivement et cela sera bénéfique pour nous deux.\n\nL'apothicaire Keever dans l'autre salle risque d'être... vexé. Mais ses recherches porteraient leurs fruits si elles étaient faites par un chercheur plus intelligent. Heureusement, je suis cette chercheuse. Je veux que vous apportiez ce bon de commande à Alessandro Luca, le propriétaire du bazar de la Lune bleue. Il vous donnera une trousse d'analyse. Quand vous l'aurez, rapportez-la moi et je vous expliquerai alors le détail de la quête.",
+   "progress": "Oui, que puis-je faire pour vous ? Êtes-vous là de la part de la Société royale des apothicaires, ou vous avez simplement vu de la lumière ?",
+   "completion": "Ah, Zinge a besoin d'une trousse, n'est-ce pas ? Je suis triste qu'elle ne soit pas venue en personne.\n\nTrès bien, laissez-moi vous donner la trousse.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5204,
+     "name": "Apothicaire Zinge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7683,
+     "name": "Alessandro Luca"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 45,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 390,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "238": {
+   "id": 238,
+   "name": "Course pour l'Apothicaire Zinge",
+   "objectives": "Apportez une Trousse d'analyse de terrain à l'Apothicaire Zinge à Undercity.",
+   "description": "La trousse est prête, <nom>. L'apothicaire Zinge souhaite sûrement l'avoir le plus vite possible. Apportez-la-lui sans tarder et dites-lui que j'ai mis cela sur le compte de la Société. Passez-lui également mes plus sincères salutations.\n\nEh bien, ne restez pas là. C'est pourtant simple d'être coursier, non ?",
+   "progress": "Oui, je trouve que Luca est inquiétant tout autant que vous. Qu'importe - donnez-moi la trousse d'analyse de terrain. Je vais faire les modifications nécessaires pour qu'elle soit adaptée aux bons matériaux.\n\nVous avez bien la trousse, non ?",
+   "completion": "Bien. Je suis heureuse de travailler avec quelqu'un qui ne perd pas de temps.\n\nAprès avoir fait les modifications sur la trousse, tout sera prêt pour que vous alliez sur le terrain. Vous irez collecter des données vitales pour la tâche en cours.\n\nCela va prendre juste un moment pour achever les modifications. Pendant que vous attendez, vous devriez commencer à penser à ce dont vous aurez besoin dans le désert.\n\nOui, j'ai bien dit le désert.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7683,
+     "name": "Alessandro Luca"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5204,
+     "name": "Apothicaire Zinge"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 45,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 390,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "357": {
+   "id": 357,
+   "name": "Le Nom de la Liche",
+   "objectives": "Rapporter le livre de sorts de la Liche et le donner à Bethor Iceshard à Undercity.",
+   "description": "Une liche réside dans l'île au nord du lac Etincelant. Bien qu'elle soit une Réprouvée sauvage, elle croit que tous les autres morts-vivants sont des esclaves du Fléau et envoie ses serviteurs attaquer quiconque s'approche d'elle.\n\nMais parce que c'est une Réprouvée, la Reine la veut. Et si elle est douée dans les arts de la nécromancie, son savoir serait réellement utile à notre cause.\n\nPour connaître son identité et ses capacités, j'ai besoin d'étudier son livre de sorts. Infiltrez-vous dans son camp, prenez-le livre et ramenez le moi.",
+   "progress": "<nom>, avez-vous retrouvé le livre ?",
+   "completion": "Très bien, <nom>. Je vais étudier ce livre et déterminer l'identité de cette liche. Vous avez bien servi la Reine.\n\nEtonnant ! Le livre que vous avez ramené appartient à nul autre que Gunther Arcanus !\n\nGunther était un nécromancien doué durant sa vie, nous étions amis et frères d'armes, avant la Peste. Et si j'en juge d'après son livre de sort, il est devenu encore plus puissant dans la mort.\n\nSes talents seraient une bénédiction pour notre cause.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1498,
+     "name": "Bethor Iceshard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1498,
+     "name": "Bethor Iceshard"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 8,
+   "reqlevel": 5,
+   "side": "horde",
+   "xp": 530,
+   "money": 175,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "495": {
+   "id": 495,
+   "name": "La Couronne de Volonté",
+   "objectives": "Faire un rapport à Melisara à Moulin-de-Tarren dans les Contreforts d'Hillsbrad.",
+   "description": "Mug'Thol et sa troupe de guerre ogre ont été envoyés à Alterac afin de récupérer la Couronne de Volonté pour dame Sylvanas. Malheureusement, au lieu de la rapporter, cet idiot a décidé de l'essayer... Je suppose que les ogres ne peuvent résister à ce qui brille.\n\nSes actes irresponsables sont de toute façon devenus un problème. La Couronne de Volonté lui a permis de résister à l'enchantement qui le liait au service de dame Sylvanas.\n\nLa Dame noire veut faire un exemple, allez à Moulin-de-Tarren à Hillsbrad et faites un rapport à Melisara, mon lieutenant.",
+   "progress": null,
+   "completion": "Vous avez été envoyé par Sharlindra ? Très bien. Vous verrez que je n'aime pas parler pour ne rien dire.\n\nMug'Thol est une vraie source d'irritation, et nous allons nous en occuper, proprement et sans coup férir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2227,
+     "name": "Sharlindra"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2278,
+     "name": "Melisara"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 39,
+   "reqlevel": 34,
+   "side": "horde",
+   "xp": 300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "736": {
+   "id": 736,
+   "name": "L'étoile, la main et le cœur",
+   "objectives": "Apporter les objets de la liste de Bel'dugur au Gardien Bel'dugur à Undercity.",
+   "description": "Vous avez besoin du « Sommaire de Yagyin » ? Vous projetez donc de réunir une nouvelle cellule ? Bien sûr que c'est le cas... et bien sûr que je vais vous aider, <frère/sœur>.\n\nMais vous devez m'aider aussi.\n\nJ'ai besoin de trois objets de puissance. Apportez-les-moi et je vous donnerai le livre.\n\nJe ne peux pas prononcer leurs noms, mais je peux vous les écrire.\n\nApportez-moi les objets de la liste. Si vous pouvez me les obtenir, alors vous méritez de créer une nouvelle branche de notre ordre.",
+   "progress": "Comment cela s'est-il passé, <classe> ?",
+   "completion": "Je suis impressionné ! Vous avez d'admirables qualités, ou énormément de chance, pour avoir récupéré ces reliques. Dans les deux cas vous êtes un atout pour nous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2934,
+     "name": "Gardien Bel'dugur"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2934,
+     "name": "Gardien Bel'dugur"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 44,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 5600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "frère/sœur"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "864": {
+   "id": 864,
+   "name": "De retour vers l'Apothicaire Zinge",
+   "objectives": "Apporter la Trousse d'analyse de terrain verrouillée à l'apothicaire Zinge à Undercity.",
+   "description": "\"Et voilà, la source d'énergie est enlevée et les données sont préservées. Bien, faites attention sur la route et tout ça. J'espère que cette horrible expérience s'est bien déroulée pour vous, blablabla…\"\n\nLe gobelin se détourne pour s'occuper des demandes de la Compagnie des eaux de Gadgetzan. Vous mettez la trousse d'analyse verrouillée à l'abri en vue du voyage de retour vers Undercity. Là-bas, l'apothicaire Zinge vous attend, vous et la trousse d'analyse de terrain verrouillée.",
+   "progress": "Soyez à nouveau le bienvenu. Ou du moins, je vous souhaite la bienvenue si vous revenez avec la Trousse d'analyse de terrain verrouillée. Dans le cas contraire, je prétendrai ne pas avoir remarqué votre totale incompétence et vous épargnerai ma rage jusqu'à ce que vous fassiez ce que vous avez à faire et que vous accomplissiez la quête que je vous ai confiée.",
+   "completion": "Je vais immédiatement analyser ces données. Peut-être que la folie de Keever s'avérera être mon génie après tout.\n\nQuant à vous… vous m'êtes utile, et je récompense très bien ceux qui restent utiles. Prenez cet objet, cette pièce, et plus important encore, mes remerciements qui les accompagnent.\n\nRevenez me voir de temps en temps - je mise sur le fait que notre collaboration sur ce projet n'est pas terminée.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7407,
+     "name": "Ingénieur en chef Bilgewhizzle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5204,
+     "name": "Apothicaire Zinge"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 46,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 5050,
+   "money": 13000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1004": {
+   "id": 1004,
+   "name": "La nouvelle frontière",
+   "objectives": "Parler à l’archidruide Hamuul Runetotem, sur la Cime des Anciens de Thunder Bluff. Evoquer l’appel du Cercle cénarien concernant l’exploration des frontières de Kalimdor.",
+   "description": "Votre attention !\n\nLe Cercle cénarien cherche à recruter ceux qui se sentent capables pour une mission d'exploration sur les nouveaux territoires de Kalimdor ! Des terres désolées, interdites, regorgeant de dangers, se trouvent à l'ouest de Tanaris et de Gadgetzan, et le Cercle a besoin d'honorables représentants pour agir en son nom.\n\nTous ceux et celles qui seraient intéressés devraient solliciter une audience auprès du Cercle cénarien. Parlez avec l'archidruide Hamuul Runetotem, sur la Cime des Anciens de Thunder Bluff, pour plus d'informations !",
+   "progress": null,
+   "completion": "Salutations, <classe>.\n\nJe me réjouis de voir que des personnes telles que vous prennent de l'intérêt au bien-être de la nature. Vos faits d'armes sont parvenus jusqu'à mes oreilles, et je vous souhaite la bienvenue. De vous voir ainsi devant moi ne me laisse plus aucun doute : le Cercle cénarien vient de recevoir l'aide dont il avait besoin.\n\nNotre intelligence avec le Cercle cénarien de Reflet-de-Lune transcende tout conflit racial ou politique. Rappelez-vous que vous travaillez au nom du Cercle, et je ne crois pas me tromper en pensant que vous le ferez bien.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10879,
+     "name": "Messager Balthazad"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5769,
+     "name": "Archidruide Hamuul Runetotem"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 55,
+   "reqlevel": 54,
+   "side": "horde",
+   "xp": 560,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1164": {
+   "id": 1164,
+   "name": "Le voleur volé",
+   "objectives": "Apporter la Tête de Kenata, Fardel et Marcel Dabyrie à Genavie Callow à Undercity.",
+   "description": "La traînée ! La truie ! Kenata vit toujours ; sa famille est riche et prospère tandis que je souffre, comme une Réprouvée que je suis !\n\nMa famille a disparu, emportée par la peste. Notre domaine a disparu, lui aussi, détruit et brûlé pendant la guerre. Et malgré cela, aidée de ses misérables enfants, elle a l'audace de voler le seul bien qui me reste.\n\nJe n'attache plus d'importance aux choses qui m'ont été volées. Ce que je veux à présent c'est leurs têtes !\n\nTuez-les pour moi ! Rendez-vous à la ferme des Dabyrie en Arathi, au nord-est du Refuge de l'Ornière.",
+   "progress": "Tuez-les et apportez-moi leurs têtes.",
+   "completion": "Vous vous tenez devant moi comme la personnification de la vengeance et je m'incline devant vous avec gratitude.\n\nAvec la mort de cette traînée, et en sachant que sa descendance ne souillera plus la terre d'Azeroth, je vais pouvoir consacrer mon énergie à une activité plus lucrative. J'espère que vous avez détruit leur ferme après les avoir tués.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4486,
+     "name": "Genavie Callow"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4486,
+     "name": "Genavie Callow"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 36,
+   "reqlevel": 27,
+   "side": "horde",
+   "xp": 2800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1358": {
+   "id": 1358,
+   "name": "Un échantillon pour Helbrim",
+   "objectives": "Apporter l'échantillon de coeur de loup à l'Apothicaire Helbrim dans les Tarides.",
+   "description": "Un collègue de Kalimdor, l'apothicaire Helbrim, étudie les effets des toxines de Lordaeron sur les animaux de Kalimdor. Il serait très intéressé par un échantillon de coeurs de loups que Renferrel m'a envoyés.\n\nHelbrim se trouve dans les Tarides, dans un village connu sous le nom de la Croisée. Pour le rejoindre, vous voyagerez par zeppelin jusqu'à Orgrimmar, la capitale des orcs, puis à pied vers le sud en Durotar. Allez à l'ouest, dans les Tarides, et vous trouverez rapidement la Croisée.",
+   "progress": "Avez-vous un paquet pour moi ?",
+   "completion": "Ah, très bien. Si les rapports initiaux sont corrects, la toxicité de ces coeurs pourrait faire avancer notre connaissance des poisons.\n\nC'est une livraison qui tombe bien, <nom>. Vous avez mérité une récompense.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5204,
+     "name": "Apothicaire Zinge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3390,
+     "name": "Apothicaire Helbrim"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 15,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 1050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1359": {
+   "id": 1359,
+   "name": "Une livraison pour Zinge",
+   "objectives": "Apporter les Echantillons de coeurs de loups à l'apothicaire Zinge à Undercity.",
+   "description": "Les Coeurs de loups que vous avez là possèdent une qualité inouïe pour ces spécimens. Ils possèdent une toxicité telle qu'elle tuerait net les loups vivants !\n\nC'est fascinant, il faut approfondir l'étude. J'ai gardé quelques échantillons de ces coeurs. Apportez-les à ma collègue, l'Apothicaire Zinge. Vous la trouverez dans notre quartier général à Undercity.",
+   "progress": "Vous avez quelque chose pour moi ?",
+   "completion": "Ah oui, les échantillons de coeurs dont Renferrel m'a parlé. J'ai hâte de les étudier…La Société royale des apothicaires est toujours intéressée par de nouvelles formes de toxines.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1937,
+     "name": "Apothicaire Renferrel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5204,
+     "name": "Apothicaire Zinge"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 15,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 105,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2995": {
+   "id": 2995,
+   "name": "Lignes de communication",
+   "objectives": "Voyager dans les Hinterlands et brûler les Registres du Haut-val, le Rapport du Haut-val et les Notes du Haut-val, pour Oran Snakewrithe, à Undercity",
+   "description": "Le gîte de Quel'Danil est un centre de communication pour les elfes des Hinterlands. Leurs ambassadeurs essaient d'entrer en contact avec les races partageant leur connaissance des trolls Witherbark, qui habitent dans le sud des Hinterlands. Tous les documents concernant les communications sont gardés dans le gîte.\n\nNous ne voulons pas que les gens du Haut-val tissent des alliances, <nom>.\n\nDétruisez les documents du Haut-val. Nous devons brûler leurs lignes de communication... au sens propre comme au sens figuré.",
+   "progress": "La clé est de garder les elfes de Highvale isolés. Avez-vous trouvé le pavillon ?",
+   "completion": "Parfait, <nom>. Pendant que les elfes du Haut-val tentent de recouvrer les informations perdues, nous pourrons condamner leurs lignes de communication, voire plus. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7825,
+     "name": "Oran Snakewrithe"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7825,
+     "name": "Oran Snakewrithe"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 47,
+   "reqlevel": 42,
+   "side": "horde",
+   "xp": 3150,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3568": {
+   "id": 3568,
+   "name": "Corruption Suintante",
+   "objectives": "Avant de retourner voir le Chimiste Cuely, remplir les 4 Fioles vides aux étangs des marées, le long de la côte des Ruines d'Eldarath, à Azshara.",
+   "description": "Regardez cette taurène derrière moi, celle qui a l'air de se trouver mal. Elle était dans Azshara récemment. Elle prétend avoir été blessée par des nagas en traversant les ruines d'Eldarath.\n\nAprès les avoir repoussés, elle s'est reposée sur la plage et a bu dans l'un des étangs de marée. Maintenant elle est malade.\n\nJe veux découvrir ce qu'elle a bu. Prenez cette boîte, avec quelques fioles vides que j'ai étiquetées. Remplissez chacune d'elle dans un étang différent et revenez me voir.",
+   "progress": "Vous savez où cela va nous mener, n'est-ce pas, <nom> ? Elle ne peut pas survivre. . . Regardez-la. Le mieux pour elle maintenant, c'est de nous aider à trouver un remède pour combattre la peste. Cette eau qu'elle a bue pourrait nous donner des indices. Elle va mourir de toute façon : autant que sa mort serve noblement ceux de notre peuple. Vous n'êtes pas d'accord ?",
+   "completion": "Merveilleux. Vous êtes de retour avant qu'elle ne soit morte. Bon, bon.\n\nCommençons, alors.\n\nIl y a un moment que j'étudie ses symptômes maintenant et c'est vraiment laid. Je suis étonné qu'elle soit toujours debout. Elle a vomi partout trois ou quatre fois. . . une odeur vraiment plaisante.\n\nDonnez-moi juste une minute pour préparer un remède à tester sur notre. . . amie.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8390,
+     "name": "Chimiste Cuely"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8390,
+     "name": "Chimiste Cuely"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "horde",
+   "xp": 2550,
+   "money": 4000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3569": {
+   "id": 3569,
+   "name": "Corruption Suintante",
+   "objectives": "Donner l’élixir de Cuely à Thersa Windsong, à Undercity.",
+   "description": "Donnez-le à Thersa. Peut-être que ça va guérir sa... Ou peut-être pas. Nous ne le saurons que lorsqu'elle aura bu.",
+   "progress": "Je suis venu à Undercity parce que j'ai entendu dire que leurs alchimistes avaient étudié longtemps la façon de trouver un remède à leur propre maladie. On m'a dit qu'ils pourraient peut-être m'aider moi aussi.\n\nBien que cet endroit ne soit pas vraiment accueillant, je n'avais pas le choix : la maladie que j'ai attrapée me détruit de l'intérieur et j'ai besoin de leur aide tout de suite.",
+   "completion": "Le chimiste Cuely a été très conciliant. . . C'est un peu inquiétant d'ailleurs. Mais s'il affirme que cela m'aidera, je n'ai pas d'autre choix. Je n'ai pas le temps de trouver une autre solution. J'ai déjà parlé avec les prêtres et les chamans, et ils ne peuvent rien pour moi.\n\nEspérons que la Terre-mère veille sur mon esprit.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8390,
+     "name": "Chimiste Cuely"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8393,
+     "name": "Thersa Windsong"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "horde",
+   "xp": 510,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3570": {
+   "id": 3570,
+   "name": "Corruption Suintante",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Je n'aurais jamais rêvé que l'élixir puisse prendre forme aussi rapidement. Merci, <nom>. Je vais travailler sur le reste de ces échantillons tout de suite. Je suis sûr qu'ils seront bientôt utilisables par Dame Sylvanas et les Réprouvés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8390,
+     "name": "Chimiste Cuely"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8390,
+     "name": "Chimiste Cuely"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "horde",
+   "xp": 5100,
+   "money": 7500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "3784": {
+   "id": 3784,
+   "name": "L'aide à l'archidruide Runetotem",
+   "objectives": "Parler à l'archidruide Hamuul Runetotem à Thunder Bluff.",
+   "description": "Pardonnez-moi, <classe>, mais j'aimerais prendre quelques instants de votre temps, si cela est possible.\n\nLe Cercle cénarien de Thunder Bluff est très intéressé par des <aventuriers aguerris tels/aventurières aguerries telles> que vous pour lui prêter main-forte dans un projet crucial. Bien que je n’en connaisse pas les détails, je peux vous dire que Hamuul Runetotem lui-même mène ce projet.\n\nJe vous en prie, si cela vous intéresse, allez lui parler en personne à la Cime des Anciens dans Thunder Bluff.",
+   "progress": null,
+   "completion": "Salutations, <classe>. Je suis heureux de voir que vous souhaitez nous prêter main-forte. Il y a beaucoup à faire, et ce ne serait pas vous rendre service que de vous dire que ce travail ne comporte aucun danger. J'espère que cela ne va pas vous effrayer. . . Mais en vous regardant, il me semble comprendre que vous avez déjà eu à faire au danger.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6741,
+     "name": "Norman l'aubergiste"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5769,
+     "name": "Archidruide Hamuul Runetotem"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 50,
+   "reqlevel": 47,
+   "side": "horde",
+   "xp": 470,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4293": {
+   "id": 4293,
+   "name": "Un échantillon de Limon...",
+   "objectives": "Ramasser des Echantillons de Gelée de Gangrebois sur les gelées de Gangrebois. Puis, en utilisant le Matériel d'expérience qui se trouve à côté du Chimiste Fuely à Undercity, déceler l'échantillon le plus corrompu. Apporter 5 Echantillons corrompus de Gangrebois au Chimiste Fuely.",
+   "description": "Gangrebois est une forêt, loin au nord des Tarides, au-delà d’Ashenvale. Des Gelées s’y regroupent autour des mares touchées par la Corruption. Le Fléau a décimé la zone avec des attaques d’Infernaux et de la magie démoniaque. Les Gelées ont, semble-t-il, profité de ces attaques pour remonter à la surface.\n\nCollectez des échantillons de Gelée de Gangrebois et nous utiliserons l'équipement d'analyse, à côté de moi, pour les confronter aux autres échantillons que vous avez prélevés.",
+   "progress": "J'aurai besoin d'au moins cinq échantillons corrompus pour notre groupe de surveillance, <nom>. Continuez à rassembler des échantillons de gelée de Gangrebois jusqu'à ce que vous en ayez suffisamment. C'est Dame Sylvanas qui l'a décrété. . .",
+   "completion": "Ah, excellent. Ces échantillons feront l'affaire. Je vous remercie pour votre aide.\n\nUne fois que nous aurons rassemblé tous les échantillons de limons, nous serons à même d'en savoir plus. Je commence à me dire que l'intuition de Dame Sylvanas n'était pas simplement correcte, mais bien plus perspicace qu'elle ne l'aurait pensé. Ces échantillons sont très intéressants. A voir comment ils ont réagi à mes composés. . . Hm, oui, nous devons en savoir plus.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10136,
+     "name": "Chimiste Fuely"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10136,
+     "name": "Chimiste Fuely"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 52,
+   "reqlevel": 48,
+   "side": "horde",
+   "xp": 5100,
+   "money": 6000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4294": {
+   "id": 4294,
+   "name": "... et un échantillon de Limon",
+   "objectives": "Ramasser des Echantillons de Gelée d'Un'Goro sur les gelées du Cratère d'Un'Goro. Puis, en utilisant le Matériel d'expérience qui se trouve à côté du Chimiste Fuely à Undercity, déceler l'échantillon le plus pur. Apporter 5 Echantillons purs d'Un'Goro au Chimiste Fuely.",
+   "description": "Avez-vous entendu parler du Cratère d'Un'Goro, <nom> ? Il n’est pas loin du désert de Tanaris et c’est un endroit magnifique : luxuriant, animé,avec une faune et une flore exceptionnelles.\n\nC’est là que vous devez aller. J’ai entendu dire que ce lieu avait conservé toute son intégrité et sa pureté ; les explorateurs n'en découvrent les secrets que depuis peu.\n\nJ’aimerais examiner les Gelées et les Limons qui y vivent et comprendre comment ils sont parvenus à se garder de la corruption. Je voudrais voir comment ces créatures ont évolué.",
+   "progress": "Oui, <nom> ? Comment se déroule votre quête ?",
+   "completion": "Vraiment ahurissant, <nom>. Ce cratère d'Un'Goro renferme bien plus de secrets que je ne l'espérais. Je me demande ce que nous allons découvrir en nous enfonçant plus avant.\n\nC'est vraiment incroyable. . . Regardez comme ces échantillons sont purs. Hm, Je me demande ce que ça signifie. Ils semblent être de nature élémentaire, mais. . . ce n'est pas tout. Ils me rappellent. . . les Dieux très anciens. Nous avons trouvé des preuves de leur existence un peu partout dans Azeroth, et je me demande si ces créatures n'ont pas quelque chose à voir avec eux.\n\nNous verrons ça plus tard.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10136,
+     "name": "Chimiste Fuely"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10136,
+     "name": "Chimiste Fuely"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 56,
+   "reqlevel": 48,
+   "side": "horde",
+   "xp": 5800,
+   "money": 6500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4561": {
+   "id": 4561,
+   "name": "Test pour impuretés, le Cratère d'Un'Goro",
+   "objectives": null,
+   "description": null,
+   "progress": "Vous prenez un échantillon de gelée du Cratère d'Un'Goro et le placez dans les différents tubes et vases à bec qui sont sur la table. La gelée se met à bouillir et change de couleur. Lorsque la réaction prend fin, vous apercevez dans la petite boîte de Pétri, vos échantillons de Gelée d'Un'Goro purifiés et d'autres restes.",
+   "completion": "Vous ramassez la boîte de pétri qui contient l'échantillon de Limon. Le seul moyen de s'assurer de la pureté de l'échantillon est de l'ouvrir et de l'examiner vous-même. Idéalement, vous trouverez un échantillon qui remplit les critères énoncés par le Chimiste Fuely.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175265,
+     "name": "Testing Equipment"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 175265,
+     "name": "Testing Equipment"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 52,
+   "reqlevel": 48,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "4642": {
+   "id": 4642,
+   "name": "Trafic d'influences",
+   "objectives": "Apporter un Echantillon de Limon mélangé au chimiste Fuely à Undercity.",
+   "description": "Voici un peu de Limon créé à partir des échantillons récupérés à Gangrebois. Portez cette caisse au Cratère d'Un'Goro et trouvez du Limon pur... la variété primitive fera parfaitement l’affaire. Quand vous serez assez près, libérez le Limon qui est dans la caisse, et voyez comment les deux variétés interagissent.\n\nQuand l’expérimentation sera terminée, rapportez-moi un échantillon de ce qui reste, quoi que cela soit. Je vous attendrai chez l'Apothicaire.",
+   "progress": "Comment se passe l'expérience, <nom> ? Je vais continuer à étudier les échantillons que vous m'avez rapportés ; je commence à comprendre pourquoi ces créatures intéressent Dame Sylvanas. Si elles sont issues des Dieux très anciens, qui sait quels bénéfices on pourrait en retirer.",
+   "completion": "Oh, parfait, <nom>. C'est merveilleux.\n\nQuelle histoire. Qui aurait cru que ces deux-là interagiraient de cette manière. . . Il faut que je passe plus de temps à observer les retombées environnementales qui ont provoqué les mutations de ces créatures.\n\nJe vais continuer mes recherches. Peut-être en reparlerons-nous bientôt. Jusque là je vous souhaite bonne chance.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10136,
+     "name": "Chimiste Fuely"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10136,
+     "name": "Chimiste Fuely"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 55,
+   "reqlevel": 48,
+   "side": "horde",
+   "xp": 7050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4661": {
+   "id": 4661,
+   "name": "Test de corruption, Gangrebois",
+   "objectives": null,
+   "description": null,
+   "progress": "Vous prenez un échantillon de gelée de Gangrebois et le placez dans les différents tubes et vases à bec qui sont sur la table. La gelée se met à bouillir et change de couleur. Lorsque la réaction prend fin, vous apercevez dans la petite boîte de pétri, vos échantillons de Gelée de Gangrebois altérés et d'autres restes.",
+   "completion": "Vous ramassez la boîte de pétri qui contient l'échantillon de Limon. Le seul moyen de s'assurer de la pureté de l'échantillon est de l'ouvrir et de l'examiner vous-même. Idéalement, vous trouverez un échantillon qui remplit les critères énoncés par le Chimiste Fuely.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 174848,
+     "name": "Testing Equipment"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 174848,
+     "name": "Testing Equipment"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 52,
+   "reqlevel": 48,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "5049": {
+   "id": 5049,
+   "name": "Le blues de Jeremiah",
+   "objectives": "Trouver Jeremiah Payson dans Undercity et découvrir s’il est en fait Jeremiah Felstone. Si c’est le cas, il appréciera peut-être le colis que Janice Felstone lui a préparé.",
+   "description": "Au vu des preuves que j'ai pu rassembler, la personne que vous cherchez, à savoir le bénéficiaire du terrain, est Jeremiah Payson, le Vendeur de cafards d'Undercity.\n\nJ'ai toujours pensé qu'il fallait avoir une vocation pour vendre...des cafards. Nul doute que votre quête est des plus épiques, puissant <classe>. Je vais vous laisser à vos prouesses de sauveur du monde. Permettez-moi cependant, de jouer un rôle dans votre magnus opus en vous disant qu'il est situé près de la rive, certainement en train de farfouiller sous les trottoirs.",
+   "progress": "Chaque fois qu'on écrase un cafard, je pleure. S'il vous plaît, ne me faites pas pleurer.",
+   "completion": "Je ne porte plus ce nom depuis des années. . . mais oui, autrefois -avant cette vie misérable- c'était bien mon nom.\n\nVous affirmez avoir connu ma soeur… ou plutôt lui avoir parlé récemment.\n\nMais elle est morte.\n\nDepuis quatre ans.\n\nVous savez, si mes os n'étaient pas déjà si fragiles, je serais tenté de me briser le pied sur votre postérieur. . . Vous êtes un vrai vautour, n'est-ce pas ?\n\nQuoi. . . Vous avez un paquet pour moi venant de ma soeur ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10781,
+     "name": "Surveillant royal Bauhaus"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8403,
+     "name": "Jeremiah Payson"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "horde",
+   "xp": 5100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5961": {
+   "id": 5961,
+   "name": "Le champion de la reine banshee",
+   "objectives": "Parler à Nathanos le Flétrisseur, dans les Maleterres de l’est. Il se trouve actuellement à la ferme des Marris.",
+   "description": "Ça me fait plaisir de voir les plus valeureux se joindre à nous. Nos effectifs enflent et se renforcent de jour en jour. Peut-être êtes-vous en mesure de tester votre courage et votre force, <classe> ?\n\nNathanos figurait parmi les premiers de mes champions ; il est connu maintenant sous le nom de Flétrisseur. Très peu ont autant d'engagement et de vigueur que lui, dans nos rangs.\n\nAllez à sa rencontre, dans les Maleterres de l'est. Il vit dans la ferme des Marris. De temps en temps, il parcourt les terres et massacre tous les membres du Fléau et de l'Alliance qu'il croise sur sa route.",
+   "progress": null,
+   "completion": "La Dame noire doit certainement penser que vous n'êtes pas digne d'affronter son champion. Vous êtes là pour nourrir mes chiens, non ? Il ne saurait y avoir d'autre raison à cette interruption.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10181,
+     "name": "Dame Sylvanas Windrunner"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11878,
+     "name": "Nathanos le Flétrisseur"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 56,
+   "reqlevel": 54,
+   "side": "horde",
+   "xp": 1450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7813": {
+   "id": 7813,
+   "name": "Un don de laine",
+   "objectives": null,
+   "description": null,
+   "progress": "Nous acceptons actuellement les dons d'étoffes de laine. Un don de soixante pièces d'étoffe de laine vous vaudra la reconnaissance totale de l'Undercity pour vos actions généreuses. Nos stocks de laine sont tels que nous n'aurons besoin que de soixante pièces de votre part au total ; nous devrions pouvoir en acquérir suffisamment auprès d'autres personnes du royaume pour soutenir notre campagne.\n\nSi vous avez les soixante pièces de laine sur vous et que vous êtes prêt à les donner, je peux vous les prendre dès maintenant.",
+   "completion": "Merveilleux ! Nous vous remercions pour votre généreux don, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14729,
+     "name": "Ralston Farnsley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14729,
+     "name": "Ralston Farnsley"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 60,
+   "reqlevel": 12,
+   "side": "horde",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "7814": {
+   "id": 7814,
+   "name": "Un don de soie",
+   "objectives": null,
+   "description": null,
+   "progress": "Comme pour la plupart des autres tissus, nos stocks de soie sont au plus bas. Nos stocks sont tels que nous n'aurions besoin que de soixante pièces de soie de votre part au total ; nous devrions pouvoir atteindre notre objectif avec le soutien d'autres personnes.\n\nUn don bienveillant comme celui de la soie, si je puis me permettre, augmenterait certainement votre position dans la communauté locale ! Si vous avez les soixante pièces de soie sur vous et que vous êtes prêts à en faire don, je peux vous les prendre dès maintenant.",
+   "completion": "Merveilleux ! Nous vous remercions pour votre généreux don, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14729,
+     "name": "Ralston Farnsley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14729,
+     "name": "Ralston Farnsley"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 60,
+   "reqlevel": 26,
+   "side": "horde",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "7817": {
+   "id": 7817,
+   "name": "Un don de tisse-mage",
+   "objectives": null,
+   "description": null,
+   "progress": "Les stocks de mageweave s'épuisent et nous avons besoin de votre aide pour les reconstituer ! En comptant sur l'ensemble de la communauté, il nous suffirait d'un don de 60 pièces de mageweave de votre part pour atteindre notre objectif. Une telle générosité ne passerait pas inaperçue à Undercity, je vous l'assure !\n\nSi vous avez les soixante pièces de tissu mageweave sur vous et que vous êtes prêt à en faire don, je peux vous les prendre dès maintenant.",
+   "completion": "Merveilleux ! Nous vous remercions pour votre généreux don, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14729,
+     "name": "Ralston Farnsley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14729,
+     "name": "Ralston Farnsley"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 60,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "7818": {
+   "id": 7818,
+   "name": "Un don d'étoffe runique",
+   "objectives": null,
+   "description": null,
+   "progress": "<nom>, vous avez énormément contribué à notre collecte de chiffons.Alors que nous travaillons d'arrache-pied pour reconstituer nos réserves, une forme de chiffon reste extrêmement basse: l'étoffe de run. Nous en avons absolument besoin, et nous espérons que vous pourrez nous aider comme vous l'avez fait par le passé!\n\nIsi vous le souhaitez, apportez-moi le chiffon de rechange que vous pouvez encore épargner.Nous accepterons initialement un seul don de soixante, puis nous partirons de là.",
+   "completion": "Fantastique – je vous assure que tout ce tissu sera bientôt utilisé. Merci encore pour votre aide ! Sans vous, nous n’y serions sûrement pas arrivés.\n\nComme vous avez déjà contribué, je traiterai en priorité tous les dons d'étoffe runique que vous pourriez faire à l’avenir. N’hésitez pas à revenir me voir, et je veillerai personnellement à ce que vos bonnes actions soient reconnues !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14729,
+     "name": "Ralston Farnsley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14729,
+     "name": "Ralston Farnsley"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "horde",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "7819": {
+   "id": 7819,
+   "name": "Encore de l'étoffe runique",
+   "objectives": null,
+   "description": null,
+   "progress": "Je vous salue une nouvelle fois, <nom> ! Nous avons sans cesse besoin d'étoffe runique, et si vous voulez vous séparer de quelques morceaux supplémentaires, nous en aurons l’usage. Si vous nous donnez 20 nouvelles étoffes runiques, je veillerai à ce que vos efforts en faveur d’Undercity soient reconnus à leur juste valeur.\n\nLorsque vous serez prêt à me les remettre, je les accepterai volontiers.",
+   "completion": "<nom>, l’avenir serait compromis sans des héros comme vous qui œuvrent pour les Réprouvés. Merci pour tous vos efforts !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14729,
+     "name": "Ralston Farnsley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14729,
+     "name": "Ralston Farnsley"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "92401": {
+   "id": 92401,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 250686,
+     "name": "Tabitha Heartweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 250686,
+     "name": "Tabitha Heartweaver"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 22,
+   "reqlevel": 15,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "97290": {
+   "id": 97290,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 271613,
+     "name": "Unfinished Abomination"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2055,
+     "name": "Maître apothicaire Faranell"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 21,
+   "reqlevel": 16,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "97891": {
+   "id": 97891,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7683,
+     "name": "Alessandro Luca"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11044,
+     "name": "Docteur Martin Felben"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 16,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "97985": {
+   "id": 97985,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 270038,
+     "name": "Calder Gray"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 270038,
+     "name": "Calder Gray"
+    }
+   ],
+   "zone_id": 1497,
+   "level": 33,
+   "reqlevel": 25,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

@@ -1,0 +1,2706 @@
+{
+ "schema": 1,
+ "zone": "eastern-kingdoms/silverpine-forest",
+ "zone_id": 130,
+ "zone_name": "Forêt des Pins argentés Silverpine Forest",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 50,
+  "complete": 42,
+  "incomplete": 8,
+  "unavailable": 0,
+  "missing_description": 8,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 1
+ },
+ "quests": {
+  "99": {
+   "id": 99,
+   "name": "La folie d'Arugal",
+   "objectives": "Rapporter 6 Chaînes enchantées de Bois-du-Bûcher à Dalar Dawnweaver au Sépulcre.",
+   "description": "Mon mépris pour ce malheureux fou d'Arugal augmente à mesure que je déchiffre son enchantement. J'ai presque fini mes recherches pour y parvenir.\n\nMa compréhension sera totale quand j'aurai compris ce qui cause l'étrange comportement des habitants de Bois-du-Bûcher. Le jour, les paysans sont des gens normaux. Mais la nuit venue ils se transforment en worgens Ragelune.\n\nJe dois puiser l'énergie des chaînes qu'a enchantées Arugal. Rapportez-moi 6 chaînes enchantées de Bois-du-Bûcher, <nom>.",
+   "progress": "Vous avez les Chaînes enchantées de Bois-du-Bûcher <nom> ?",
+   "completion": "Votre persévérance est louable. Avec les connaissances que vous m'avez permis d'acquérir, Arugal tombera et son stupide enchantement avec lui. Félicitations, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1938,
+     "name": "Dalar Dawnweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1938,
+     "name": "Dalar Dawnweaver"
+    }
+   ],
+   "zone_id": 130,
+   "level": 15,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "421": {
+   "id": 421,
+   "name": "Prouver votre valeur",
+   "objectives": "Tuer 5 Poils-blancs Ragelune pour Dalar Dawnweaver au Sépulcre.",
+   "description": "Dame Sylvanas a chargé Varimathras de la conquête des terres humaines et naines se trouvant vers le sud.\n\nMais Arugal, ci-devant charlatan de Dalaran et aujourd'hui bête maudite du donjon d'Ombrecroc, a tristement utilisé sa magie. Il a créé le chaos dans la forêt des Pins argentés qui est d'une grande importance stratégique.\n\nJ'ai besoin de quelqu'un de doué dans les arts du combat pour rétablir l'ordre. Prouvez-moi votre valeur en tuant 5 Poils-blancs Ragelune. Ces bêtes dégénérées se trouvent généralement près de la route, en bas de la colline.",
+   "progress": "Si vous voulez me prouver votre valeur, vous devez tuer 5 Calamars blancs de Moonrage. Accomplissez cette tâche, et je veillerai à ce que vos compétences soient mises au service de missions plus méritantes.",
+   "completion": "Vous m'avez bien servi, <classe>. Il est évident que vous me serez d'une aide précieuse : je me prépare à débarrasser la Forêt des Pins argentés de la malédiction d'Arugal.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1938,
+     "name": "Dalar Dawnweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1938,
+     "name": "Dalar Dawnweaver"
+    }
+   ],
+   "zone_id": 130,
+   "level": 10,
+   "reqlevel": 12,
+   "side": "horde",
+   "xp": 840,
+   "money": 350,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "422": {
+   "id": 422,
+   "name": "La folie d'Arugal",
+   "objectives": "Retrouver le Remède d'Arugal pour Dalar Dawnweaver au Sépulcre.",
+   "description": "Comment Arugal a-t-il pu entrer au Kirin Tor ? C'est au-delà de ma compréhension. Son savoir semblait aussi léger qu'une bulle de savon.\n\nCe qui importe maintenant, c'est de savoir quelle magie Arugal a utilisée afin que je puisse la retourner contre lui et rendre la forêt des Pins argentés saine pour la Dame noire.\n\nArugal a longtemps habité dans la ferme juste au nord du pont. Retrouvez-moi le sort appelé le Remède d'Arugal dans ses livres.",
+   "progress": "Pour savoir ce qui se passe ici, <classe>, j'ai besoin d'étudier le sort appelé le Remède d'Arugal. Apportez-le-moi ou je serais obligé de me trouver un serviteur plus performant.",
+   "completion": "C'est précisément le sort que je cherchais, <classe>. Si votre loyauté à la cause de la Dame noire ne faiblit pas, votre futur au sein des Réprouvés s'annonce des plus brillants.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1938,
+     "name": "Dalar Dawnweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1938,
+     "name": "Dalar Dawnweaver"
+    }
+   ],
+   "zone_id": 130,
+   "level": 11,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": 880,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "423": {
+   "id": 423,
+   "name": "La folie d'Arugal",
+   "objectives": "Rapportez 6 Bracelets de Gloutons et 6 Bracelets de Ténébreux à Dalar Dawnweaver au Sépulcre.",
+   "description": "Après examen des travaux d'Arugal, mes pires hypothèses se sont confirmées. Le vieux fou n'était même pas bon à vider des pots de chambre à Dalaran. Alors, représenter le Kirin Tor dans ses heures les plus sombres...! Les fous !\n\nArugal a utilisé des reliques magiques pour renforcer ses faibles pouvoirs. J'ai besoin d'étudier ces objets avant toute chose. Allez au nord et tuez des Gloutons Ragelune et des Ténébreux Ragelune jusqu'à ce que vous ayez récolté suffisamment de leurs bracelets enchantés. J'en ai besoin pour mes recherches. Vous trouverez ces créatures infâmes au nord et à l'est.",
+   "progress": "J'ai besoin de 6 bracelets de Gloutons et 3 bracelets de Ténébreux pour comprendre la situation et trouver une solution contre Arugal. Maintenant accomplissez votre tâche et tuez des Gloutons et des Ténébreux Ragelune jusqu'à ce que vous puissiez me ramener ce dont j'ai besoin.",
+   "completion": "J'espère que je pourrai acquérir suffisamment d'énergie d'un aussi petit échantillon. J'aurais dû vous demander de me ramener plus de bracelets.\n\nIl faut quand même dire que vous avez récupéré ceux-ci avec maestria, <classe>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1938,
+     "name": "Dalar Dawnweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1938,
+     "name": "Dalar Dawnweaver"
+    }
+   ],
+   "zone_id": 130,
+   "level": 14,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": 980,
+   "money": 600,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "424": {
+   "id": 424,
+   "name": "La folie d'Arugal",
+   "objectives": "Tuer Grimson le Pâle et ramener sa tête à Dalar Dawnweaver au Sépulcre.",
+   "description": "Découvrir les sombres secrets des enchantements d'Arugal va me prendre plus de temps que je ne le pensais.\n\nPendant ce temps, j'aimerais que vous vous occupiez d'un problème que nos Traqueurs noirs ont découvert. Il semble qu'Arugal ait laissé sa magie s'étendre jusqu'à la mine du gouffre d'Elem dans les collines du sud-est.\n\nCette mine serait d'une aide précieuse pour Varimathras.\n\nJe veux que vous décapitiez le contremaître de cette mine, Grimson le Pâle. Avec sa mort, la mine sera nôtre.",
+   "progress": "Est-ce que Grimson le Pâle a été tué ? Varimathras ne sera pas content si nous n'exécutons pas ses volontés.",
+   "completion": "Absolument splendide. La mine va nous fournir des ressources en quantité suffisante pour nos forces tandis que nous occuperons la forêt des Pins argentés puis Azeroth.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1938,
+     "name": "Dalar Dawnweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1938,
+     "name": "Dalar Dawnweaver"
+    }
+   ],
+   "zone_id": 130,
+   "level": 15,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": 1050,
+   "money": 700,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "425": {
+   "id": 425,
+   "name": "Ivar l'Infect",
+   "objectives": "Tuer Ivar l'Infect et ramener sa tête à Rane Yorick au lopin d'Ivar.",
+   "description": "Mon frère Quinn et moi avions pour mission de reconnaître la forêt des Pins argentés et de rendre compte au grand exécuteur Hadrec. Mais nous ne sommes pas allés loin. En passant par cette ferme, nous avons été attaqués par la goule nommée Ivar l'Infect.\n\nNous avons réussi à nous échapper mais Quinn a été grièvement blessé par Ivar. Il récupère en ce moment grâce à la potion que vous lui avez donnée mais Ivar pourrait revenir avant qu'il soit guéri.\n\nTuez Ivar de manière à donner le temps à Quinn de récupérer. Ivar se trouve généralement dans la grange, attendant que je baisse ma garde.",
+   "progress": "Avez-vous tué Ivar l'Infect ? Si vous ne le faites pas pour moi et mon frère, alors faites-le pour les Réprouvés.",
+   "completion": "Ah, merci. Je vous suis reconnaissant, <nom>.\n\nJe vous citerai dans mon prochain rapport à mes supérieurs.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1950,
+     "name": "Rane Yorick"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1950,
+     "name": "Rane Yorick"
+    }
+   ],
+   "zone_id": 130,
+   "level": 12,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 680,
+   "money": 350,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "428": {
+   "id": 428,
+   "name": "Traqueurs noirs égarés",
+   "objectives": "Trouver les Traqueurs noirs Quinn et Rane Yorick.",
+   "description": "Il y a quelques semaines, nos Traqueurs noirs, Rane et Quinn Yorick, ont été envoyés en mission de reconnaissance au nord des Pins argentés. Nul n'a plus entendu parler d'eux.\n\nIls ont peut-être été victimes du Fléau, mais si cela est vrai, j'aimerais en avoir la confirmation. Trouvez ces Traqueurs.\n\nLeur premier objectif était d'explorer les fermes au nord de la forêt. Vous devriez commencer par là.",
+   "progress": null,
+   "completion": "Vous nous avez trouvés ! Il était temps…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1952,
+     "name": "Grand exécuteur Hadrec"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1950,
+     "name": "Rane Yorick"
+    }
+   ],
+   "zone_id": 130,
+   "level": 12,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 225,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "429": {
+   "id": 429,
+   "name": "Cœurs sauvages",
+   "objectives": "Recueillir six Cœurs de worg et les apporter à l'Apothicaire Renferrel au Sépulcre.",
+   "description": "Mon frère Quinn a été gravement blessé par la goule Ivar l'Infect et je doute qu'il puisse guérir sans l'aide de la magie. Bien que je ne sois pas spécialiste de ces choses, je sais que nos apothicaires savent concocter des remèdes à partir de cœurs décolorés de worgs.\n\nRecueillez quelques-uns de ces cœurs et portez-les à l'apothicaire Renferrel au Sépulcre, au sud. Revenez ensuite avec la potion.\n\nVous trouverez des meutes de worgs entre ici et le verger de Malden, plus à l'est.",
+   "progress": "Je n'ai hélas que peu de temps, <classe>, car la Dame noire m'a chargé d'une mission de grande importance.",
+   "completion": "<Renferrel s'empare des cœurs>\n\nIl est troublant que nos Traqueurs noirs aient échoué dans leur mission.\n\nEspérons que ce genre d'échecs ne se reproduira plus.\n\nJe vous donnerai la potion dans un moment, mais voici déjà sa recette. Ainsi, si ces Traqueurs noirs avaient besoin d'aide à l'avenir, peut-être pourriez-vous la leur apporter vous-même.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1950,
+     "name": "Rane Yorick"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1937,
+     "name": "Apothicaire Renferrel"
+    }
+   ],
+   "zone_id": 130,
+   "level": 11,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 440,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "430": {
+   "id": 430,
+   "name": "Retour vers Quinn",
+   "objectives": "Apporter le remède à Quinn Yorick au lopin d'Ivar, au nord du Sépulcre.",
+   "description": "Voici la potion qui guérira Quinn Yorick.\n\nMaintenant, si vous voulez bien m'excuser, j'ai un important travail à terminer...",
+   "progress": "Ma sœur prétend que vous êtes venu pour nous aider, est-ce vrai ?",
+   "completion": "<Quinn prend la potion et la boit>\n\nEn effet, je sens déjà les effets de ce breuvage. Je serai bientôt en mesure de voyager.\n\nVous m'avez rendu un immense service, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1937,
+     "name": "Apothicaire Renferrel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1951,
+     "name": "Quinn Yorick"
+    }
+   ],
+   "zone_id": 130,
+   "level": 11,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "435": {
+   "id": 435,
+   "name": "Une escorte pour Erland",
+   "objectives": "Escorter Erland jusqu'à Rane Yorick.",
+   "description": "Les loups ne partiront pas, et leurs yeux me fixent avec avidité dès que je fais un pas dehors. Ils doivent avoir une sacrée fringale pour penser que je suis comestible !\n\nJ'ai un rapport à remettre à mon équipier, le Traqueur noir Rane Yorick, mais il faudra d'abord se tailler une route à travers ces loups.\n\nEscortez-moi ! C'est une véritable meute qui attend dehors ; si vous appeliez des amis en renfort, nous doublerions nos chances de réussite...",
+   "progress": "Soyez bref, s'il vous plaît. Il y a beaucoup de danger et nous ne pouvons pas rester inactifs dans nos conversations.",
+   "completion": "Merci de votre aide, <nom>. Je craignais qu'Erland n'ait succombé aux dangers de la forêt. Grâce à vous, je me réjouis de voir que ce n’est pas le cas.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1978,
+     "name": "Traqueur noir Erland"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1950,
+     "name": "Rane Yorick"
+    }
+   ],
+   "zone_id": 130,
+   "level": 11,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 880,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "437": {
+   "id": 437,
+   "name": "Le Champ des morts",
+   "objectives": "Tuer des gnolls Poils-putrides au Champ des morts.\n\nDétruire Cinglenuit quand elle apparaît.\n\nRapporter son essence au Grand exécuteur Hadrec au Sépulcre.",
+   "description": "Nos premiers rapports de reconnaissance dans la forêt des Pins argentés indiquent que les Poils-putrides ont une base dans une vieille ferme, le Champ des morts. Nous les avons attaqués à plusieurs reprises, mais à chaque fois ils reçoivent l'assistance de la banshee Cinglenuit dont la magie désorganise et disperse nos forces.\n\nNous voulons la voir détruite.\n\nAllez dans le Champ des morts et attaquez les Poils-putrides. Si vous ne voyez pas la banshee, massacrez les Poils-putrides jusqu'à ce qu'elle apparaisse, puis tuez-la.\n\nSon essence même deviendra de la poussière. Rapportez-moi cette poussière comme preuve de sa destruction",
+   "progress": "Avez-vous vaincu Cinglenuit, <nom> ? Notre victoire sur les Poils-putrides dépend de sa destruction !",
+   "completion": "La nouvelle de votre raid contre les Poils-putrides vous a précédé, <nom>, et cette essence est bien la preuve que Cinglenuit est morte.\n\nLe Fléau a perdu du terrain aujourd'hui. Votre valeur aux yeux des Réprouvés augmente.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1952,
+     "name": "Grand exécuteur Hadrec"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1952,
+     "name": "Grand exécuteur Hadrec"
+    }
+   ],
+   "zone_id": 130,
+   "level": 14,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 980,
+   "money": 600,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "438": {
+   "id": 438,
+   "name": "Le bac délabré",
+   "objectives": "Aller au bac délabré.\n\nChercher la raison de la présence du Fléau.",
+   "description": "<nom>, nous avons découvert une nouvelle infestation du Fléau : le bac délabré. Le bac se trouve à l'est du Sépulcre, et fourmille de patrouilles de Poils-putrides et autres morts-vivants.\n\nLe Fléau a sans doute une bonne raison pour occuper la zone. Allez au bac délabré et trouvez pourquoi le Fléau est là-bas.",
+   "progress": null,
+   "completion": "Dans le bateau gisent des tas de corps enveloppés. En regardant à l'est, de l'autre côté du lac Lordamere, on peut apercevoir un quai sur l'île de Fenris.\n\nCes cadavres sont certainement destinés à finir sur l'île de Fenris.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1952,
+     "name": "Grand exécuteur Hadrec"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 1593,
+     "name": "Corpse Laden Boat"
+    }
+   ],
+   "zone_id": 130,
+   "level": 16,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 880,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "439": {
+   "id": 439,
+   "name": "Un indice vers les Poils-putrides",
+   "objectives": "Rapporter la Bague de Deliah au Grand exécuteur Hadrec au Sépulcre.",
+   "description": "De la pile de corps dépasse une main de femme, marquée par la peste, mais encore relativement fraîche.\n\nUn doigt porte une bague. L'observation de cette bague révèle une inscription :\n\n\"Pour Deliah\"",
+   "progress": "<nom>. Vous êtes rentré, je suppose donc que vos investigations ont été fructueuses ?",
+   "completion": "Vous dites que cette bague était portée par une femme morte récemment ?\n\nCe corps ne peut provenir que des fosses communes de Tirisfal ! Les gnolls Poils-putrides sont certainement en train de convoyer ces corps sur l'île de Fenris !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 1593,
+     "name": "Corpse Laden Boat"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1952,
+     "name": "Grand exécuteur Hadrec"
+    }
+   ],
+   "zone_id": 130,
+   "level": 16,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 290,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "440": {
+   "id": 440,
+   "name": "La bague ciselée",
+   "objectives": "Ramener la Bague de Deliah au Magistrat Sevren à Brill.",
+   "description": "Si vous voulez retrouver le mari ou l'amant qui a donné cette bague à Deliah, parlez au Magistrat Sevren à Brill.\n\nMais je n'entretiendrais pas d'espoir à votre place : celui qui a offert la bague est certainement mort à ce jour. Et s'il est devenu mort-vivant, il a oublié Deliah depuis longtemps.",
+   "progress": "Salut, <nom>. Quel bon vent vous ramène à Brill ?",
+   "completion": "Oui, une Deliah vivait à Brill il n'y a pas longtemps. Elle a été enterrée dans la fosse commune, mais si ce que vous dites est vrai, alors les gnolls Poils-putrides ont volé son cadavre pour le transporter aux Pins argentés.\n\nLes Poils-putrides, comme le Fléau, doivent être détruits. Je vous fais confiance pour qu'il en soit ainsi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1952,
+     "name": "Grand exécuteur Hadrec"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1499,
+     "name": "Magistrat Sevren"
+    }
+   ],
+   "zone_id": 130,
+   "level": 16,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 580,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "441": {
+   "id": 441,
+   "name": "Raleigh et Undercity",
+   "objectives": "Apporter la Bague de Deliah à Raleigh.",
+   "description": "Deliah avait un mari, Raleigh, qui maintenant habite à Undercity. Si la Deliah qui vivait à Brill est bien celle à qui appartient la bague, alors Raleigh le saura.\n\nRaleigh est dans le quartier des Marchands à Undercity.",
+   "progress": "On se connaît ?",
+   "completion": "En effet, c'est bien la bague de ma femme. Son destin a été celui des gens qui n'ont pas su supporter ces temps difficiles. Sa mort ne me peine même pas, pas plus que le vol de son cadavre.\n\nCe genre de sentiment a depuis longtemps gelé en moi. Mais un désir persiste dans mon cœur mort, <nom>.\n\nUn désir de vengeance.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1499,
+     "name": "Magistrat Sevren"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2050,
+     "name": "Raleigh Andrean"
+    }
+   ],
+   "zone_id": 130,
+   "level": 16,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 580,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "442": {
+   "id": 442,
+   "name": "L'attaque de l'île de Fenris",
+   "objectives": "Rapporter la Tête de Thule au Grand exécuteur Hadrec au Sépulcre.",
+   "description": "Il est maintenant temps d'attaquer le bastion du Fléau dans les Pins argentés : l'île de Fenris.\n\nVous devez aller sur l'île et tuer Thule Ravenclaw. Apportez-moi sa tête !\n\nCette mission est aussi importante qu'elle est vitale, <nom>. Vous ne pouvez échouer.",
+   "progress": "Nous ne pouvons tolérer la présence du Fléau dans les Pins argentés plus longtemps, <nom>. Revenez quand vous aurez la preuve de la mort de Thule.",
+   "completion": "La mort de Thule Ravenclaw n'a pas été un événement négligeable, <nom>. Renferrel me dit que les énergies dégagées au moment où vous avez terrassé Thule ont été perçues jusqu'au Sépulcre.\n\nVos faits d'armes sont racontés dans les rangs des Réprouvés. Pour nous, votre valeur ne cesse de croître.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1952,
+     "name": "Grand exécuteur Hadrec"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1952,
+     "name": "Grand exécuteur Hadrec"
+    }
+   ],
+   "zone_id": 130,
+   "level": 24,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 1950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "443": {
+   "id": 443,
+   "name": "L'ichor de Poil-putride",
+   "objectives": "Rapporter 8 bouteilles d'Ichor de Poil-putride à l'apothicaire Renferrel.",
+   "description": "Avant que nous lancions notre offensive contre l'île de Fenris, nous devons déterminer qui dirige les gnolls Poils-putrides. Nos Apothicaires pensent que leur origine est liée au fluide étrange qui coule dans leurs corps.\n\nAllez sur l'île de Fenris, à l'est du Bac délabré, et collectez de lichor de Poil-putride sur les gnolls. Portez-le à l'apothicaire Renferrel, qui se trouve à l'extérieur du Sépulcre",
+   "progress": "Avez-vous de l'ichor de Poil-putride, <nom>?",
+   "completion": "Très bien. Cet ichor nous aidera à comprendre la nature profonde des Poils-putrides, et pourrait nous dévoiler leur faiblesse. . .\n\n… Si toutefois ils en ont une.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1952,
+     "name": "Grand exécuteur Hadrec"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1937,
+     "name": "Apothicaire Renferrel"
+    }
+   ],
+   "zone_id": 130,
+   "level": 17,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 1250,
+   "money": 900,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "444": {
+   "id": 444,
+   "name": "L'origine des Poils-putrides",
+   "objectives": "Apporter l'Echantillon d'ichor à Bethor Iceshard à Undercity.",
+   "description": "J'ai réduit l'ichor que vous m'avez ramené et en ai séparé les principaux composants. Mes découvertes ne laissent aucun doute sur au moins un point : la magie des démonistes et des nécromanciens a été utilisée dans sa création.\n\nPendant que je pousserai mes recherches sur ce sujet, je veux que vous en apportiez un échantillon à Bethor Iceshard à Undercity. Bethor n'est pas un apothicaire, mais sa connaissance de la magie pourrait nous aider à comprendre le mystère des Poils-putrides.\n\nPartez ! Vous trouverez Bethor dans le Quartier de la magie d'Undercity.",
+   "progress": "Mon travail exige une grande concentration, j'espère que vous ne venez pas me déranger pour rien.",
+   "completion": "Cette substance est imprégnée de sorts puissants. Je n'ai pas vu certains depuis très longtemps. . .\n\nUn moment : je dois lancer un sort de divination. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1937,
+     "name": "Apothicaire Renferrel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1498,
+     "name": "Bethor Iceshard"
+    }
+   ],
+   "zone_id": 130,
+   "level": 17,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 315,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "446": {
+   "id": 446,
+   "name": "Thule Ravenclaw",
+   "objectives": "Porter le parchemin de Bethor à l'Apothicaire Renferrel au Sépulcre des Pins argentés.",
+   "description": "Cet ichor a été créé par un vieux confrère : Thule Ravenclaw. C'était un jeune homme prometteur avant la Grande Guerre, mais quand le roi-liche vint au pouvoir, il trahit ses camarades en s'alliant au Fléau.\n\nJe n'avais pas réalisé qu'il était encore en vie, ni qu'il menait les Poils-putrides contre nous !\n\nJe connais beaucoup de ses sorts, et je peux aider à concocter une potion pour les contrer. Rapportez ce parchemin à l'apothicaire Renferrel. Il contient les incantations nécessaires à la potion.",
+   "progress": "Salutations, <nom>. Que raconte Bethor ?",
+   "completion": "Ce parchemin contient une magie puissante. Je n'ai encore jamais utilisé de telles forces dans une potion. . . Ce sera une mixture redoutable qui vous aidera lorsque vous attaquerez Thule dans son bastion de l'île de Fenris.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1498,
+     "name": "Bethor Iceshard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1937,
+     "name": "Apothicaire Renferrel"
+    }
+   ],
+   "zone_id": 130,
+   "level": 16,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 290,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "447": {
+   "id": 447,
+   "name": "Une recette mortelle",
+   "objectives": "Se rendre au Grouillement et y collecter 6 Cœurs de vieil ours et 6 échantillons de Sang du Grouillement, puis les apporter au maître apothicaire Faranell de la Société royale des apothicaires, à Undercity.",
+   "description": "Les troupes d'Arthas sont en nombre, mais avec une Peste nouvelle nous pourrions éradiquer à la fois l'armée du Fléau et les humains.\n\nMes études ont prouvé que du sang d'araignée associé à une toxine présente dans le cœur des vieux ours devient un élixir mortel. Collectez ces échantillons sur les araignées du Grouillement, au nord-ouest, et sur les ours qui arpentent la forêt des Pins argentés. Livrez ensuite ces ingrédients au maître apothicaire Faranell de la Société royale des apothicaires, à Undercity.",
+   "progress": "Salut, <classe>. Que voulez-vous de la Société royale des apothicaires ?",
+   "completion": "Il est bien que l'Apothicaire Renferrel vous envoie à moi, <nom>. Ces échantillons seront utiles à notre cause. Je vais commencer à étudier leurs propriétés toxiques sur-le-champ.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1937,
+     "name": "Apothicaire Renferrel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2055,
+     "name": "Maître apothicaire Faranell"
+    }
+   ],
+   "zone_id": 130,
+   "level": 12,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": 910,
+   "money": 500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "448": {
+   "id": 448,
+   "name": "Un rapport pour Hadrec",
+   "objectives": "Faire un rapport au Grand exécuteur Hadrec au Sépulcre.",
+   "description": "Avant que vous n'attaquiez l'île de Fenris, faites un rapport au grand exécuteur Hadrec. Il aura sans doute les informations et l'équipement complémentaires dont vous aurez besoin.",
+   "progress": null,
+   "completion": "Si Bethor dit vrai, alors Thule Ravenclaw est un problème dont il faut s'occuper le plus vite possible.\n\nIl y a dans notre arsenal deux ou trois choses qui pourraient vous aider dans cette mission. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1937,
+     "name": "Apothicaire Renferrel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1952,
+     "name": "Grand exécuteur Hadrec"
+    }
+   ],
+   "zone_id": 130,
+   "level": 16,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 580,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "449": {
+   "id": 449,
+   "name": "Le rapport des Traqueurs noirs",
+   "objectives": "Apporter le rapport du Traqueur noir au Grand exécuteur Hadrec au Sépulcre.",
+   "description": "Bien que les blessures de Quinn soient en train de guérir, je veux que notre rapport parvienne au grand exécuteur Hadrec le plus vite possible. Il contient des informations vitales pour maintenir l'occupation de la forêt des Pins argentés par les Réprouvés.",
+   "progress": "Avez-vous découvert ce qui est arrivé aux Traqueurs noirs ?",
+   "completion": "Je n'avais pas compté avec une telle présence du Fléau dans la forêt des Pins argentés, ni avec les difficultés que nos Traqueurs noirs rencontreraient lors de leurs reconnaissances.\n\nL'aide que vous avez apportée à nos Traqueurs noirs fut inestimable, <nom>. Vous serez justement récompensé.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1950,
+     "name": "Rane Yorick"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1952,
+     "name": "Grand exécuteur Hadrec"
+    }
+   ],
+   "zone_id": 130,
+   "level": 11,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 440,
+   "money": 200,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "450": {
+   "id": 450,
+   "name": "Une recette mortelle",
+   "objectives": "Récupérer le Journal de Berard à l’Auberge de Bois-du-Bûcher et le rapporter à l'apothicaire Renferrel au Sépulcre.",
+   "description": "Vous pouvez encore être utile à la Société royale des apothicaires, <nom>.\n\nQuand Arugal a jeté sa misérable magie sur la forêt, il a maudit l'un de nos membres les plus prometteurs, l'apothicaire Berard. Devenu un serviteur décérébré d'Arugal, Berard ne nous sert plus à rien, mais ses découvertes pourraient être utiles. Il étudiait une ancienne peste qui a décimé toute la faune aquatique du lac de Lordamere, il y a longtemps.\n\nRécupérez le journal de Berard dans son bureau à l'auberge de Bois-du-Bûcher et rapportez-le à l'apothicaire Renferrel.",
+   "progress": "Je vois que vous êtes rentré, <nom>.",
+   "completion": "Le journal de l'apothicaire Berard ! Vous avez été courageux, <nom>. Voyons où en étaient les recherches de Berard avant qu'il ne perde la raison…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2055,
+     "name": "Maître apothicaire Faranell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1937,
+     "name": "Apothicaire Renferrel"
+    }
+   ],
+   "zone_id": 130,
+   "level": 15,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": 1350,
+   "money": 1400,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "451": {
+   "id": 451,
+   "name": "Une recette mortelle",
+   "objectives": "Apporter 6 Echantillons de Mousse de Rampant du lac, 6 échantillons de Mousse de Furtif du lac et une Tumeur durcie au Maître Apothicaire Faranell à Undercity.",
+   "description": "D'après le journal de Berard, la mousse de Furtifs et de Rampants du lac pourrait intervenir dans la composition d'une Peste nouvelle. Ces bêtes vivent sur les îles du lac de Lordamere, à l'est.\n\nLe journal évoque aussi une rarissime Tumeur durcie qu'il a découverte sur un murloc Aileron noir. Apparemment cette tumeur est tellement rare que Berard n'a pu en prélever qu'une.\n\nRecueillez des échantillons de mousse ainsi que de la Tumeur durcie et rapportez-les au Maître Apothicaire Faranell à Undercity.",
+   "progress": "Qu'est-ce qui vous ramène à Undercity, <nom> ?",
+   "completion": "C'est un coup dur pour la Société royale des apothicaires d'avoir perdu Berard. Mais grâce à votre excellent travail et aux recherches assidues de l'apothicaire Renferrel, les études de Berard ne sont pas perdues et serviront la cause difficile de la Dame noire.\n\nNous avons là de quoi faire quelque chose d'important, <nom>. Si vous n'aviez pas ce talent pour le combat, j'essaierais sans doute de faire de vous un membre de la Société. .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1937,
+     "name": "Apothicaire Renferrel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2055,
+     "name": "Maître apothicaire Faranell"
+    }
+   ],
+   "zone_id": 130,
+   "level": 18,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": 2050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "452": {
+   "id": 452,
+   "name": "Embuscade à Bois-du-Bûcher",
+   "objectives": "Aider le Traqueur noir Faerleia à tuer les Membres du Conseil de Bois-du-Bûcher.",
+   "description": "Vous avez fait vite, <nom> !\n\nLes Conseillers de Bois-du-Bûcher vont revenir dans un instant. Arugal utilise les membres du Conseil comme autant de marionnettes pour garder la main mise sur le village. Mais je pense que sans le Conseil, les partisans d'Arugal se retourneraient contre leur maître.\n\nJe ne peux faire cela toute seule, j'ai besoin de votre aide. Ensemble, nous dévasterons le Conseil au nom de Dame Sylvanas.",
+   "progress": null,
+   "completion": "Vous avez combattu tel un véritable disciple de la Dame noire, <nom>. Le Conseil détruit, peut-être pouvons-nous prendre le contrôle de cette ville une fois pour toutes et chasser Arugal du donjon d'Ombrecroc. Je vous salue !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2058,
+     "name": "Traqueur noir Faerleia"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2058,
+     "name": "Traqueur noir Faerleia"
+    }
+   ],
+   "zone_id": 130,
+   "level": 15,
+   "reqlevel": 12,
+   "side": "horde",
+   "xp": 1350,
+   "money": 1400,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "460": {
+   "id": 460,
+   "name": "Reposer en… pièces",
+   "objectives": "Apporter la tête d'Alaric jusqu’à sa tombe.",
+   "description": "Vous n'avez pas l'air d'un Poil-putride. C'est déjà ça. J'avais perdu espoir...\n\nMon nom est Alaric, j'étais naguère le serviteur et garde du corps de Thule. Il a tenté d'utiliser sa magie pour me \"protéger\" du Fléau mort-vivant, mais en fait, son sort m’a donné une forme de mort-vivant. Après avoir créé les maudits Poil-putride, Thule m’a décapité et donné ma tête aux gnolls pour qu'ils jouent avec !\n\nJe vous supplie de me ramener près de mon corps. Je suis sûr que les gnolls l'ont enterré ici, au donjon de Fenris, près des étables, dans une tombe anonyme.",
+   "progress": "Cette tombe a été creusée à la va-vite.",
+   "completion": "Merci, <nom>. J'avais peur que les gnolls aient détruit mon corps. Je suis heureux de voir qu'ils ne l'ont pas fait.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 3317,
+     "name": "A Talking Head"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 1599,
+     "name": "Shallow Grave"
+    }
+   ],
+   "zone_id": 130,
+   "level": 17,
+   "reqlevel": 12,
+   "side": "horde",
+   "xp": 630,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "461": {
+   "id": 461,
+   "name": "L’alcôve secrète",
+   "objectives": "Amener Alaric à l’alcôve secrète.",
+   "description": "Je connais une alcôve secrète dans le donjon, qui contient un objet cher à Thule et ses anciens confrères. Il y a également quelque chose qui pourrait vous servir. Amenez-moi sur place !\n\nL’alcôve se trouve dans la tour la plus au sud-ouest du donjon, derrière une étagère poussiéreuse.\n\nPrenez mon corps, mais laissez mes bottes. De toute façon elles ne m'allaient pas...",
+   "progress": "Nous y voilà ! Approchons-nous encore…",
+   "completion": "Voilà, c'est ouvert. Laissez-moi ici. J'ai passé mes meilleures années dans ce donjon et l'idée de reposer entre ses murs me réconforte.\n\nAssurez-vous de bien refermer l'alcôve, je ne veux pas que ces Poils-putrides me trouvent.\n\nOh, à propos, prenez ça, vous l'avez largement mérité.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 1599,
+     "name": "Shallow Grave"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 112888,
+     "name": "Dusty Shelf"
+    }
+   ],
+   "zone_id": 130,
+   "level": 18,
+   "reqlevel": 12,
+   "side": "horde",
+   "xp": 680,
+   "money": 500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "477": {
+   "id": 477,
+   "name": "Frontières",
+   "objectives": "Récupérer le contenu de l’une des caisses des Sorciers de Dalaran. Vous trouverez Bois-du-Bûcher au sud.",
+   "description": "Comme vous devez le savoir, Moulin-de-l'Ambre reste un bastion de l'opposition humaine. La ville est soutenue par les Sorciers de Dalaran qui l’approvisionnent.\n\nJe ne connais pas leurs plans, mais s'ils portent autant d'intérêt à ce trou perdu, c'est que cela doit être de première importance.\n\nIls transportent quantité de caisses depuis Hillsbrad. Beaucoup de ces convois ont pour terminus un petit camp au nord du village de Bois-du-Bûcher. Récupérez le contenu de l'une de ces caisses et apportez-le moi.",
+   "progress": null,
+   "completion": "<En soulevant le couvercle de la caisse, vous voyez un assortiment d'objets soigneusement empaquetés. Sur le dessus, il y a de vieilles cartes jaunies qui semblent représenter la forêt des Pins argentés et d'autres régions de l'ouest de Lordaeron.\n\nSous les cartes, vous découvrez un pendentif magique d'aspect mystérieux. >",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2121,
+     "name": "Prêtre des ombres Allister"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 1627,
+     "name": "Dalaran Crate"
+    }
+   ],
+   "zone_id": 130,
+   "level": 14,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 980,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "478": {
+   "id": 478,
+   "name": "Des cartes et des runes",
+   "objectives": "Apporter l'étrange pendentif au prêtre des ombres Allister au Sépulcre.",
+   "description": "<Vous retirez rapidement le pendentif de la caisse et rabattez le couvercle.>",
+   "progress": "Avez-vous appris quelque chose d'intéressant, <nom> ?",
+   "completion": "Des cartes et ce. . . pendentif, hum ! Intéressant.\n\nIl est évident que les Sorciers de Dalaran portent de l'intérêt à Moulin-de-l'Ambre, mais leurs objectifs restent obscurs.\n\nPeut-être Dalar pourrait-il nous en dire plus.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 1627,
+     "name": "Dalaran Crate"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2121,
+     "name": "Prêtre des ombres Allister"
+    }
+   ],
+   "zone_id": 130,
+   "level": 14,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 740,
+   "money": 500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "479": {
+   "id": 479,
+   "name": "Enquête à Moulin-de-l'Ambre",
+   "objectives": "Récupérer 8 Pendentifs de Dalaran pour le prêtre des ombres Allister du Sépulcre.",
+   "description": "Dalar essaie de localiser la source de la magie des sorciers. Pour l'heure, nous devons nous efforcer de ralentir leurs progrès...\n\nIl ne fait aucun doute que les conjurateurs, les mages et les protecteurs portent ces pendentifs. Récupérez-en.\n\nSuivez la route principale au sud, puis prenez à l'est à l'embranchement qui conduit à Moulin-de-l'Ambre.",
+   "progress": "Nous devons nous hâter de contrecarrer leurs plans avant qu'ils ne les finalisent ou nous perdrons notre emprise sur la forêt des Pins argentés.",
+   "completion": "Dalar a découvert que le tressage était déjà bien avancé, malgré le contretemps.\n\nUn Sorcier de grand pouvoir contrôle l'énergie magique. Il faut l'arrêter au plus vite.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2121,
+     "name": "Prêtre des ombres Allister"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2121,
+     "name": "Prêtre des ombres Allister"
+    }
+   ],
+   "zone_id": 130,
+   "level": 16,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 1150,
+   "money": 800,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "480": {
+   "id": 480,
+   "name": "Le Tisserand",
+   "objectives": "Tuer l'archimage de Dalaran, puis récupérer son Bâton pour le prêtre des ombres Allister du Sépulcre.",
+   "description": "Un archimage de grand pouvoir supervise la réactivation du nœud d'énergie Ley. Vu les progrès qu'ils ont faits, notre seule chance de les arrêter est de tuer cet archimage. Ce sera difficile, car il est certainement protégé par d'autres mages et gardiens.\n\nVous devez partir et le neutraliser au plus vite. Quand il sera mort, récupérez son Bâton et apportez-le-moi. En avant !",
+   "progress": "Vite, <nom>, le temps nous est compté !",
+   "completion": "La magie des sorciers se dissipe et l'énergie Ley retombe. Vos efforts ont été fructueux, <nom>, et nous avons porté un coup rude à nos ennemis et aux sorciers dominateurs de Dalaran.\n\nNous devons néanmoins rester vigilants, sachant que la source d'énergie est toujours à portée de main. . . Il nous faut un plan pour des actions futures.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2121,
+     "name": "Prêtre des ombres Allister"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2121,
+     "name": "Prêtre des ombres Allister"
+    }
+   ],
+   "zone_id": 130,
+   "level": 22,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 1750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "481": {
+   "id": 481,
+   "name": "L'analyse de Dalar",
+   "objectives": "Apporter le Pendentif marqué de runes à Dalar Dawnweaver au Sépulcre.",
+   "description": "Apporter le Pendentif à Dalar Dawnweaver. Peut-être pourra-t-il anticiper les plans des Sorciers.",
+   "progress": "Oui, <classe> ? De quoi s'agit-il ?",
+   "completion": "Intéressant, encore des machinations du Kirin Tor, à ce qu'il semble. Ceci est un artefact puissant. Il était fréquemment utilisé par les influents Sorciers du Kirin Tor pour canaliser les énergies magiques.\n\nQu'ils en livrent autant à Moulin-de-l'Ambre indique qu'ils prévoient des actions de grande envergure.\n\nJe vais voir si je peux percer à jour leurs projets. .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2121,
+     "name": "Prêtre des ombres Allister"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1938,
+     "name": "Dalar Dawnweaver"
+    }
+   ],
+   "zone_id": 130,
+   "level": 14,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "482": {
+   "id": 482,
+   "name": "Les intentions de Dalaran",
+   "objectives": "Parler au prêtre des ombres Allister au Sépulcre.",
+   "description": "Bien sûr ! Comment ai-je pu oublier ?\n\nMoulin-de-l'Ambre était l'un des sites de prédilection pour le Kirin Tor, célèbre pour abriter des nœuds dormants d'énergie Ley. Les Sorciers doivent projeter de réactiver les nœuds et d'utiliser cette énergie pour quelque grande œuvre.\n\nNous ne pouvons laisser faire...\n\nIls vont avoir besoin de beaucoup de puissance pour activer les zones d'énergie Ley et nous pouvons enrayer le processus en volant leurs Pendentifs aux Sorciers.\n\nRapportez cette information à Allister, il décidera de la suite.",
+   "progress": null,
+   "completion": "Ce sont de mauvaises nouvelles que vous apportez, <nom>. Si Dalar a raison – et je ne vois pas pourquoi il se tromperait – nous n'avons pas une seconde à perdre.\n\nJe dois m'entretenir avec lui de notre plan d'attaque, mais entre-temps il nous faut absolument ralentir leur progression.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1938,
+     "name": "Dalar Dawnweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2121,
+     "name": "Prêtre des ombres Allister"
+    }
+   ],
+   "zone_id": 130,
+   "level": 14,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "491": {
+   "id": 491,
+   "name": "Une Baguette pour Bethor",
+   "objectives": "Apporter le Bâton tressé à Bethor Iceshard dans le Quartier de la magie à Undercity.",
+   "description": "Thule m'a raconté qu'il y a longtemps, lui et deux de ses confrères créèrent une Baguette magique, la fusion des trois Baguettes que les mages possédaient alors. Cette Baguette devint le symbole de leur amitié, et bien que Thule se mit peu à peu à la mépriser il ne put se résoudre à s'en séparer ou à la laisser aux deux autres. Alors il vola la Baguette et la cacha dans le donjon de Fenris.\n\nVoilà. Apportez la Baguette à Bethor Iceshard, l'un des anciens amis de Thule. Je suis sûr qu’il appréciera.",
+   "progress": "<nom>. Avez-vous vaincu Thule Ravenclaw ?",
+   "completion": "Qu'est-ce que ça veut dire ? Thule avait notre Bâton tressé ? Je croyais qu'il avait été perdu lorsque notre amitié vola en éclats et qu'il fit alliance avec le roi-liche !\n\nIl n'a pas dû invoquer son pouvoir, sinon je l'aurais senti à coup sûr. C'est une bonne chose qu'il ne l'ait pas utilisé. . .\n\nVoilà une trouvaille miraculeuse, <nom>, et vous aurez une récompense.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 112888,
+     "name": "Dusty Shelf"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1498,
+     "name": "Bethor Iceshard"
+    }
+   ],
+   "zone_id": 130,
+   "level": 18,
+   "reqlevel": 12,
+   "side": "horde",
+   "xp": 1700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "493": {
+   "id": 493,
+   "name": "Voyage jusqu’aux contreforts d'Hillsbrad",
+   "objectives": "Livrer les découvertes de l'Apothicaire Renferrel à l'Apothicaire Lydon à Moulin-de-Tarren dans les contreforts d'Hillsbrad.",
+   "description": "La Société royale des apothicaires est sous la constante pression de la Dame noire pour le développement de la Peste nouvelle. Nous travaillons sans relâche et avons fait de grands progrès. Nous pensons que le succès de notre entreprise serait plus rapide si nous partagions les informations au sein de la Société.\n\nPour cette raison, je veux que vous portiez mes dernières recherches à l'apothicaire Lydon à Moulin-de-Tarren, une petite ville nichée dans les contreforts d'Hillsbrad. Le voyage sera long.\n\nAllez au sud sans quitter la route. Suivez de près les panneaux !",
+   "progress": "Vous avez quelque chose pour moi ?",
+   "completion": "Ah excellent ! L'Apothicaire Renferrel mérite mon plus grand respect. J'ai hâte d'étudier son travail.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1937,
+     "name": "Apothicaire Renferrel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "zone_id": 130,
+   "level": 20,
+   "reqlevel": 19,
+   "side": "horde",
+   "xp": 1150,
+   "money": 900,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "516": {
+   "id": 516,
+   "name": "Le Péril de Beren",
+   "objectives": "Localiser le Péril de Beren, tuer 6 Manouvriers Ravenclaw et 6 Gardiens Ravenclaw puis retourner voir le prêtre des ombres Allister au Sépulcre.",
+   "description": "J'ai reçu des rapports indiquant qu'un groupe de morts-vivants se cache pour préparer une attaque contre nous. Armés de cette information, nous pouvons retourner la situation en les attaquant les premiers et réduire leur plan minable à un simple souvenir cocasse.\n\nMalheureusement, les informations dont nous disposons sont incomplètes, au mieux. On dit qu'ils se cachent dans un endroit appelé Péril de Beren. La localisation exacte est inconnue, mais nous savons que c'est une caverne dans les collines, près d'une enclave des sorciers de Dalaran.\n\nJ'ai confiance en vos ressources. Trouvez-les et tuez-les.",
+   "progress": "Avez-vous localisé leur base, <nom> ? Le temps presse !",
+   "completion": "Si nos éclaireurs et nos agents continuent à nous procurer de si riches informations, le Fléau du roi-liche sera éradiqué de nos terres en un rien de temps.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2121,
+     "name": "Prêtre des ombres Allister"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2121,
+     "name": "Prêtre des ombres Allister"
+    }
+   ],
+   "zone_id": 130,
+   "level": 21,
+   "reqlevel": 16,
+   "side": "horde",
+   "xp": 1250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "530": {
+   "id": 530,
+   "name": "La vengeance d'un mari",
+   "objectives": "Tuer Valdred Moray.\n\nApporter ses mains à Raleigh Andrean à Undercity.",
+   "description": "Valdred, autrefois un bon ami à moi, est le meurtrier de ma femme. Bien que je sois incapable de ressentir de la peine, j'aspire à la vengeance. Si vous tuez Valdred et me rapportez ses mains maudites, alors je vous récompenserai.\n\nLa dernière fois que j'ai entendu parler de lui, il se trouvait au Mur de Greymane, dans le sud des Pins argentés, essayant de fuir vers le royaume de Gilnéas.",
+   "progress": "Avez-vous ses mains, <nom> ?",
+   "completion": "Ah bien ! Ce sont ces mains qui ont tué ma femme, Deliah. Venger sa mort était ma seule préoccupation, et vous étiez mes instruments.\n\nTenez, prenez la bague que vous avez apportée il y a quelque temps. Deliah est morte depuis si longtemps que cette bague n'est plus qu'une babiole, que je ne souhaite plus garder. A la place, je conserverai ces mains comme souvenir de la traîtrise de mon ami.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2050,
+     "name": "Raleigh Andrean"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2050,
+     "name": "Raleigh Andrean"
+    }
+   ],
+   "zone_id": 130,
+   "level": 20,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 1550,
+   "money": 1200,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3221": {
+   "id": 3221,
+   "name": "Parler à Renferrel",
+   "objectives": "Parler à l'apothicaire Renferrel au Sépulcre.",
+   "description": "Tandis que vous étiez en train d'aider nos Traqueurs noirs, l'apothicaire Renferrel vous a fait appeler. Il n'a rien précisé mais a dit qu'il voulait vous parler à propos des coeurs de loup que vous lui aviez donnés.",
+   "progress": null,
+   "completion": "Ah, très bien. Il y a un problème dont il faudrait que vous vous occupiez avec les coeurs de loup que vous m'avez apportés un peu plus tôt.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1952,
+     "name": "Grand exécuteur Hadrec"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1937,
+     "name": "Apothicaire Renferrel"
+    }
+   ],
+   "zone_id": 130,
+   "level": 12,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 90,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6321": {
+   "id": 6321,
+   "name": "Approvisionner le Sépulcre",
+   "objectives": "Apporter l’Ordre de Podrig à Karos Razok.",
+   "description": "L'Exécuteur Hadrec m'a demandé de faire le point sur les réserves du Sépulcre. Avec le Fléau qui se cache dans les bois, et pire encore, il ne veut pas que les Gardes noirs manquent de matériel.\n\nJ'ai constaté que nous étions, généralement, bien approvisionnés, mais nous avons besoin de davantage d'armes pour remplacer celles perdues sur le champ de bataille.\n\nVoici un ordre de réquisition pour ce qui nous manque, destiné au marchand d'armes Gordon Wendham à Undercity. Portez l'ordre à notre Maître des chauve-souris, Karos Razok, et voyez avec lui comment vous rendre à Undercity.",
+   "progress": "Vous paraissez être en service officiel. . .",
+   "completion": "Ah, une commande de fournitures ! Vous voulez sans doute apporter cela à Undercity ? Et rapidement, pour que le Sépulcre ne se retrouve pas à cours de stock ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6389,
+     "name": "Garde noir Podrig"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2226,
+     "name": "Karos Razok"
+    }
+   ],
+   "zone_id": 130,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 210,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6322": {
+   "id": 6322,
+   "name": "Michael Garret",
+   "objectives": "Apporter la Caisse de Gordon à Michael Garret.",
+   "description": "J'ai placé l’approvisionnement pour le Sépulcre dans cette caisse. Si vous avez déjà visité le Sépulcre et parlé avec leur Maître des chauve-souris, vous pouvez chevaucher une chauve-souris pour y retourner.\n\nAllez voir le Maître des chauve-souris d'Undercity, Michel Garret. Il pourra vous fournir une monture pour aller au Sépulcre.",
+   "progress": "Si vous devez faire un long voyage, utiliser une chauve-souris reste la meilleure solution.",
+   "completion": "Cette caisse doit être apportée au Sépulcre, dans la forêt des Pins argentés ? C'est facile, nos chauve-souris y vont tous les jours.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4556,
+     "name": "Gordon Wendham"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4551,
+     "name": "Michael Garrett"
+    }
+   ],
+   "zone_id": 130,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 210,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6323": {
+   "id": 6323,
+   "name": "Voyage vers Undercity",
+   "objectives": "Acheter un voyage en chauve-souris pour Undercity, auprès du Maître des chauves-souris, Karos Razok, puis apporter l’Ordre de Podrig à Gordon Wendham, à Undercity.",
+   "description": "Une de mes chauves-souris peut vous conduire à Undercity, pour un prix modique. Revenez me voir quand vous serez <prêt/prête> pour que nous arrangions votre transport.\n\nVous trouverez Gordon Wendham dans le Quartier marchand d'Undercity. C'est dans ce quartier que ma chauve-souris se posera.",
+   "progress": "Je garde toujours mes armes en bon état. Elles sont entretenues et prêtes à servir.",
+   "completion": "Une commande du Sépulcre ? Très bien. C'est un honneur de servir ceux qui servent la Dame noire.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2226,
+     "name": "Karos Razok"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4556,
+     "name": "Gordon Wendham"
+    }
+   ],
+   "zone_id": 130,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 420,
+   "money": 175,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6324": {
+   "id": 6324,
+   "name": "Retour vers Podrig",
+   "objectives": "Acheter un voyage en chauve-souris pour le Sépulcre, auprès du Maître des chauves-souris Michael Garret, puis apporter la Caisse de Gordon au Garde noir Podrig, au Sépulcre.",
+   "description": "Le Maître des chauve-souris du Sépulcre est Karos Razok. Si vous l'avez déjà rencontré, je peux vous donner une chauve-souris pour voler jusqu'à lui.\n\nNos chauves-souris savent toutes voler vers Undercity, mais pour aller plus loin, leurs cavaliers doivent avoir d'abord visité la destination et en parler au Maître des chauves-souris.\n\nVous avez déjà rencontré Karos au Sépulcre, donc vous pouvez voler jusque-là. Quand vous serez sur le point de partir, revenez me voir.",
+   "progress": "<nom>, de retour. Avez-vous nos fournitures provenant d'Undercity ?",
+   "completion": "Beau travail, <nom>. Ces armes vont permettre à nos Gardes noirs de ne pas être pris au dépourvu.\n\nVous avez rendu un fier service à la Dame noire.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4551,
+     "name": "Michael Garrett"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6389,
+     "name": "Garde noir Podrig"
+    }
+   ],
+   "zone_id": 130,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 1050,
+   "money": 350,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "91920": {
+   "id": 91920,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1951,
+     "name": "Quinn Yorick"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1937,
+     "name": "Apothicaire Renferrel"
+    }
+   ],
+   "zone_id": 130,
+   "level": 11,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "91921": {
+   "id": 91921,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1937,
+     "name": "Apothicaire Renferrel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1951,
+     "name": "Quinn Yorick"
+    }
+   ],
+   "zone_id": 130,
+   "level": 11,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "95883": {
+   "id": 95883,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "object",
+     "id": 645153,
+     "name": "Offering Stone"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 645153,
+     "name": "Offering Stone"
+    }
+   ],
+   "zone_id": 130,
+   "level": 23,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "95884": {
+   "id": 95884,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "item",
+     "id": 271343,
+     "name": "Note Scrap"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 645153,
+     "name": "Offering Stone"
+    }
+   ],
+   "zone_id": 130,
+   "level": 23,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "95885": {
+   "id": 95885,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "object",
+     "id": 645153,
+     "name": "Offering Stone"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 645153,
+     "name": "Offering Stone"
+    }
+   ],
+   "zone_id": 130,
+   "level": 23,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "95981": {
+   "id": 95981,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2121,
+     "name": "Prêtre des ombres Allister"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2121,
+     "name": "Prêtre des ombres Allister"
+    }
+   ],
+   "zone_id": 130,
+   "level": 20,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "98298": {
+   "id": 98298,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1938,
+     "name": "Dalar Dawnweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1938,
+     "name": "Dalar Dawnweaver"
+    }
+   ],
+   "zone_id": 130,
+   "level": 16,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "98299": {
+   "id": 98299,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1938,
+     "name": "Dalar Dawnweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1938,
+     "name": "Dalar Dawnweaver"
+    }
+   ],
+   "zone_id": 130,
+   "level": 20,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

@@ -1,0 +1,521 @@
+{
+ "schema": 1,
+ "zone": "dungeons/wailing-caverns",
+ "zone_id": 718,
+ "zone_name": "Cavernes des lamentations",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 9,
+  "complete": 9,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 1
+ },
+ "quests": {
+  "914": {
+   "id": 914,
+   "name": "Les druides du Croc",
+   "objectives": "Apporter les Gemmes de Cobrahn, d'Anacondra, de Pythas et de Serpentis à Nara Wildmane à Thunder Bluff.",
+   "description": "Les druides des Cavernes des lamentations, les druides du Croc, sont une aberration. Ils appartenaient à un ordre de druides nobles voulant soigner les Tarides, mais ils tentent maintenant de plier cette terre à leurs fantasmes.\n\nIls ont quatre chefs, et chacun possède une gemme de rêve. Même à présent, leurs visages me hantent ! Vous devez les tuer et m'apporter les gemmes. Ces terres pourront peut-être ainsi connaître à nouveau la paix.\n\nAllez, <nom>. Vous les trouverez, tapis, au fond des Cavernes des lamentations.",
+   "progress": "Les réminiscences de mes cauchemars me hantent, <nom>. Avez-vous battu les chefs des druides du Croc et pris possession de leurs gemmes ?",
+   "completion": "Vous avez réussi, <nom>. Vous avez tué les chefs des druides du Croc. Mes rêves sont à présent libérés de leurs visages malfaisants, et vous avez aidé à sauver les Tarides d'un avenir bien lugubre.\n\nJe vous remercie, <nom>. Je vous remercie en mon nom, celui des druides de Thunder Bluff, et au nom de la Terre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5770,
+     "name": "Nara Wildmane"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5770,
+     "name": "Nara Wildmane"
+    }
+   ],
+   "zone_id": 718,
+   "level": 22,
+   "reqlevel": 11,
+   "side": "horde",
+   "xp": 2200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "959": {
+   "id": 959,
+   "name": "Fuite de porto aux docks",
+   "objectives": "Le grutier Bigglefuzz de Ratchet veut que vous repreniez la Bouteille de porto vieille de 99 ans à Magglish le Dingue, qui se cache dans les Cavernes des lamentations.",
+   "description": "Oups !\n\nJ'ai eu une petite mésaventure, comme vous pouvez le voir ! La cargaison du matin venant de Baie-du-Butin était énorme. Enorme je dirais ! J'ai jamais vu autant de caisses. Bien, j'essayais d'expédier rapidement les choses alors j'ai commencé à décharger un peu plus que je ne pouvais soutenir. C'est à ce moment-là que tout s'est cassé la gueule.\n\nAvant que je sache ce qu'il se passait, j'ai vu cette peste de Magglish le Dingue filer avec une bouteille de porto vieille de 99 ans. Je l'ai poursuivi jusqu'aux Cavernes des lamentations. Pas question d'y rentrer, quand même.\n\nPeut-être êtes-vous suffisamment <courageux/courageuse> pour aller le retrouver ?",
+   "progress": "Le maître des docks est sur mon dos depuis que Magglish le Dingue a filé avec ce vieux porto. Je suppose que cette bouteille devait constituer un cadeau pour Gazlowe, de la part du baron Revilgaz en personne.\n\nSi vous êtes suffisamment courageux et patient pour rattraper Magglish le Dingue et rapporter le porto, je veillerai à ce que vous ayez une belle récompense.",
+   "completion": "Magnifique ! Et juste au moment où j'allais perdre mon travail en plus ! Je veillerai à ce que Gazlowe ait ce cadeau immédiatement.\n\nMerci, <nom>. Bon travail, je dirais !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3665,
+     "name": "Grutier Bigglefuzz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3665,
+     "name": "Grutier Bigglefuzz"
+    }
+   ],
+   "zone_id": 718,
+   "level": 18,
+   "reqlevel": 14,
+   "side": "both",
+   "xp": 1350,
+   "money": 1000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "courageux/courageuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "962": {
+   "id": 962,
+   "name": "Fleur de serpent",
+   "objectives": "L'Apothicaire Zamah à Thunder Bluff veut que vous récoltiez 10 Fleurs de serpent.",
+   "description": "La Société royale des apothicaires, basée dans la grande ville d'Undercity de Lordaeron, m'a envoyée ici pour une mission très particulière, <nom>. Peut-être souhaitez-vous m'aider, et ainsi aider la Dame noire, dans nos efforts pour faire progresser les Réprouvés.\n\nJ'ai récemment étudié un spécimen rare de flore appelé Fleur de serpent. Je crois qu'en grande quantité cette herbe a un bon potentiel.\n\nMalheureusement, elle ne pousse qu’au plus profond des Cavernes des lamentations, un réseau de cavernes situé dans les Tarides.",
+   "progress": "J'ai hâte de voir si vous pouvez récolter assez de Fleurs de serpent dans les Cavernes des lamentations. J'ai envoyé beaucoup de gens dans ce but, mais personne n'est jamais revenu.",
+   "completion": "Ah, de splendides spécimens ! Vous avez agi à merveille, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3419,
+     "name": "Apothicaire Zamah"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3419,
+     "name": "Apothicaire Zamah"
+    }
+   ],
+   "zone_id": 718,
+   "level": 18,
+   "reqlevel": 14,
+   "side": "horde",
+   "xp": 1350,
+   "money": 2000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1486": {
+   "id": 1486,
+   "name": "Les peaux communes",
+   "objectives": "Napalk dans les Cavernes des lamentations veut 20 Peaux communes.",
+   "description": "Tandis que Naralex s'enfonçait toujours plus profondément dans son cauchemar, des bêtes étranges émergèrent de sous les Tarides, jusqu'aux Cavernes des lamentations.\n\nCes créatures perverties possèdent des propriétés étranges, comme venues d'un autre monde. Bien qu'elles soient maléfiques de nature, je pense qu’il y a des avantages à tirer de leur présence ici. Leur peau peut certainement être travaillée.\n\nSi vous vous considérez à la hauteur, partez dans les cavernes, en dessous, et trouvez des écailles communes.",
+   "progress": "Je suis très intéressé à l'idée d'examiner la peau des créatures perverties qui ont envahi ces cavernes. Avez-vous eu la chance d'en trouver, <classe> ?",
+   "completion": "Nous apprécions vos efforts pour avoir rassemblé ces peaux, <nom>.\n\nMerci pour votre engagement.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5767,
+     "name": "Nalpak"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5767,
+     "name": "Nalpak"
+    }
+   ],
+   "zone_id": 718,
+   "level": 17,
+   "reqlevel": 13,
+   "side": "both",
+   "xp": 1600,
+   "money": 1800,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1487": {
+   "id": 1487,
+   "name": "L'éradication des Déviants",
+   "objectives": "Ebru, des Cavernes des lamentations, veut que vous tuiez 7 Ravageurs Déviant, 7 Vipères Déviant, 7 Glacials Déviant et 7 Crocs-d'effroi Déviant.",
+   "description": "Naralex poursuivait un noble but.\n\nNotre grand chef aspirait à entrer dans le Rêve d'émeraude pour faire reverdir ces terres arides, qui étaient autrefois une forêt luxuriante. Mais quelque chose s'est mal passé.\n\nLe rêve de Naralex s'est transformé en cauchemar et des créatures perverties ont commencé à envahir les cavernes.\n\nDes Disciples de Naralex tentent de le réveiller, mais mon souci est de débarrasser les cavernes de ces bêtes maléfiques.\n\nBravez les cavernes, <nom>, et éradiquez cette vermine étrangère.",
+   "progress": "<nom>, nous, Disciples de Naralex, avons besoin de votre aide. Nos nombres diminuent avec notre maître emprisonné dans son cauchemar tordu.Nous n'avons pas les forces nécessaires pour faire face aux créatures corrompues qui hantent maintenant ces cavernes.\n\nI, implorez-vous, entrez dans les cavernes et faites la guerre aux créatures déviantes!",
+   "completion": "En tant que Disciple de Naralex, je fais l'éloge de votre courage, <nom>.\n\nLe nettoyage de ces cavernes est un premier pas dans notre long combat pour voir revivre les Tarides.\n\nMerci et puissiez-vous prospérer !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5768,
+     "name": "Ebru"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5768,
+     "name": "Ebru"
+    }
+   ],
+   "zone_id": 718,
+   "level": 21,
+   "reqlevel": 15,
+   "side": "both",
+   "xp": 2050,
+   "money": 2500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1489": {
+   "id": 1489,
+   "name": "Hamuul Runetotem",
+   "objectives": "Parler à Hamuul Runetotem.",
+   "description": "Les carapaces que vous m'avez apportées portent une souillure que je n'ai jamais vue auparavant. Je pense que l'eau des oasis en est la cause, et je peux ressentir le désordre qu'ils causent à cette terre. C'est comme si la terre rêvait et ne pouvait s'éveiller.\n\nLes Cavernes des lamentations doivent être à l’origine de cette souillure. Mais avant de vous y rendre, allez parler à Hamuul Runetotem, le druide ancien. Je lui ai envoyé un message décrivant les événements dans les Tarides. C'est un sage, et il peut vous donner de bons conseils.\n\nVous le trouverez à Thunder Bluff, sur la Cime des Anciens.",
+   "progress": null,
+   "completion": "Vous avez mes salutations, <nom>. Vous êtes le bienvenu ici, et je suggère que vous rassembliez vos forces. Car la tâche que nous plaçons devant vous… est terriblement difficile.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3448,
+     "name": "Tonga Runetotem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5769,
+     "name": "Archidruide Hamuul Runetotem"
+    }
+   ],
+   "zone_id": 718,
+   "level": 16,
+   "reqlevel": 12,
+   "side": "horde",
+   "xp": 290,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1490": {
+   "id": 1490,
+   "name": "Nara Wildmane",
+   "objectives": "Parler à Nara Wildmane.",
+   "description": "J'ai pénétré sur la terre des rêves et j’ai vu un groupe de druides dans les Cavernes des lamentations. J'ai vu qu’autrefois leurs buts étaient nobles, mais qu'ils ont perdu le chemin depuis. Ils sont à présent serviteurs de la souillure qui sourd dans les Tarides.\n\nJe ne suis plus jeune et les forces me manquent. Je ne pourrai pas rester plus longtemps sur cette terre des rêves pour en apprendre davantage sur ces druides souillés. Mais Nara est jeune et son esprit est féroce. Elle est restée à rêver tandis que je me retirais.\n\nParlez-lui. Elle est dans la tente, là-bas.",
+   "progress": null,
+   "completion": "Oui, c'est vrai ! J'ai connaissance de ces druides dans les Cavernes des lamentations. J'ai vu leurs visages tordus et écailleux. Je connais leurs crimes et je connais leurs plans.\n\nVous devez les arrêter, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5769,
+     "name": "Archidruide Hamuul Runetotem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5770,
+     "name": "Nara Wildmane"
+    }
+   ],
+   "zone_id": 718,
+   "level": 16,
+   "reqlevel": 12,
+   "side": "horde",
+   "xp": 115,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1491": {
+   "id": 1491,
+   "name": "Les potions d'intelligence",
+   "objectives": "Apporter 6 doses d'Essence de lamentation à Mebok Mizzyrix, à Ratchet.",
+   "description": "Ainsi les cornes de raptors n'ont pas si bien marché que cela ! Mais ce n'est pas grave, personne ne devient riche au premier essai ! Et de plus, je pense avoir trouvé encore mieux pour mes potions d'intelligence !\n\nIl existe une substance appelée essence de lamentation, qui est sûrement responsable de l’état de certaines plantes et bêtes des Tarides. Trouvez-en, et je l'essaierai dans mes boissons !\n\nJ'ai entendu dire que cette essence apparaît sur des créatures à l'état d'ectoplasme vivant dans les Cavernes des lamentations, à l'ouest. Chassez ces créatures et récupérez l'essence.",
+   "progress": "Où est mon Essence de lamentation ?",
+   "completion": "Parfait, vous l'avez ! Je suis très impatient de la tester. Elle va faire de moi un homme riche, j'en suis sûr !\n\nMerci, <nom>. Prenez ceci, et quand je serai riche, je vous en enverrai encore plus, je vous le promets.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3446,
+     "name": "Mebok Mizzyrix"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3446,
+     "name": "Mebok Mizzyrix"
+    }
+   ],
+   "zone_id": 718,
+   "level": 18,
+   "reqlevel": 13,
+   "side": "both",
+   "xp": 1350,
+   "money": 1000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6981": {
+   "id": 6981,
+   "name": "L'Eclat luminescent",
+   "objectives": "Allez à Ratchet pour trouver quelqu'un qui puisse vous en dire plus sur l'Eclat luminescent.\n\nPuis livrez l'Eclat, selon les instructions.",
+   "description": "L'éclat est d'un vert brillant, et bien que compact, ce qui ressemble à de la fumée tourbillonne juste au-dessous de sa surface. Vous ne pouvez vous empêcher de contempler les profondeurs du cristal, bien qu'en même temps, vous sentiez qu'il y réside quelque chose de très inquiétant.\n\nPeut-être devriez-vous voir si quelqu'un à Ratchet pourrait vous en apprendre plus à propos de cet étrange éclat...",
+   "progress": "Bonjour, <nom>. Que puis-je faire pour vous ?",
+   "completion": "Oh. . . Je n'avais jamais rien vu de tel. . .",
+   "starters": [
+    {
+     "type": "item",
+     "id": 10441,
+     "name": "Glowing Shard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8418,
+     "name": "Falla Sagewind"
+    }
+   ],
+   "zone_id": 718,
+   "level": 26,
+   "reqlevel": 15,
+   "side": "both",
+   "xp": 2650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

@@ -1,0 +1,709 @@
+{
+ "schema": 1,
+ "zone": "professions/fishing",
+ "zone_id": -101,
+ "zone_name": "Pêcheur",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 13,
+  "complete": 5,
+  "incomplete": 8,
+  "unavailable": 0,
+  "missing_description": 8,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 1
+ },
+ "quests": {
+  "1579": {
+   "id": 1579,
+   "name": "Rouages électriques",
+   "objectives": "Apporter 8 Rouages électriques à Wizbang Cranktoggle à Auberdine.",
+   "description": "Je suis venu à Auberdine parce que c'est calme. Je veux créer dans le calme. Ironforge est décidément trop bruyante après une nuit passée à boire !\n\nAlors j'ai pris un bateau pour Auberdine et j’ai bu un petit peu trop pendant le voyage. J'ai laissé tomber ma boîte de rouages électriques par-dessus bord ! J'en ai besoin !\n\nJe ne sais pas exactement où je l’ai laissée tomber, mais si vous pêchez quelque part dans l'océan, il se peut que vous ayez de la chance...",
+   "progress": "Avez-vous trouvé mes Rouages électriques, <nom> ? Sans eux je ne peux tout simplement pas mettre au point mes chevilles ouvrières !",
+   "completion": "Je ne peux pas croire que vous les avez trouvés ! Vous devez être la personne la plus chanceuse en Kalimdor, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3666,
+     "name": "Wizbang Cranktoggle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3666,
+     "name": "Wizbang Cranktoggle"
+    }
+   ],
+   "zone_id": -101,
+   "level": 12,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 455,
+   "money": 250,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1580": {
+   "id": 1580,
+   "name": "Pêche aux Electropellers",
+   "objectives": "Apporter 12 Electropellers à Wizbang Cranktoggle à Auberdine.",
+   "description": "Nous savons que vous êtes <chanceux/chanceuse>, mais à quel point l'êtes-vous vraiment, <nom> ?\n\nUne nuit, je marchais sur les routes de Sombrivage. J'essayais de trouver une bonne rivière ou un bon lac pour tester mon nouvel appeau à canard explosif et à propulsion automatique, et je pense que j'étais un peu... parti. Je me suis endormi et je me suis réveillé des heures plus tard à Auberdine. Mes cheveux étaient roussis et je ne trouvais plus mon sac d'Electropellers ! J'avais dû le laisser tomber dans l'eau !\n\nIl me faut ces Electropellers ! Peut-être pourriez-vous les pêcher quelque part dans un lac ou dans un cours d'eau quelconque à Sombrivage...",
+   "progress": "Avez-vous trouvé des Electropellers ? Je vais en avoir besoin si je veux continuer mes recherches sur mes appeaux à canard.",
+   "completion": "Je ne peux pas le croire ! Vous les avez trouvés ! Vous êtes le meilleur pêcheur que je connaisse !\n\nMerci, <nom>. Et tenez, prenez ça. Vous êtes déjà tellement bon à la pêche que vous n'en aurez probablement pas besoin, mais avec ça vous pêcherez encore mieux.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3666,
+     "name": "Wizbang Cranktoggle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3666,
+     "name": "Wizbang Cranktoggle"
+    }
+   ],
+   "zone_id": -101,
+   "level": 12,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 910,
+   "money": 500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "chanceux/chanceuse",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6607": {
+   "id": 6607,
+   "name": "Nat Pagle, pêcheur de l'extrême",
+   "objectives": "Nat Pagle voudrait que vous attrapiez les poissons suivants :\n\nLe Mahi Mahi de Brumejonc, de la grève de Brumejonc, dans le marais des Chagrins.\n\nUn Frappeur Sar'theris, de la grève de Sar'theris en Désolace.\n\nL'Ahi de Feralas, de la rivière Verdantis de Feralas.\n\nLe Sailfin bleu de la Côte sauvage, de la Côte sauvage de la vallée de Strangleronce.\n\nRetournez voir Nat Pagle quand la collecte sera terminée.",
+   "description": "On peut pas dire que j'aime vraiment beaucoup pêcher. Figurez-vous que ça fait vingt ou trente bonnes années que je fais ça.\n\nJ'estime que les gens ont leurs raisons de faire ce qu'ils font.\n\nMaintenant, ça veut pas dire que vous devez pêcher pendant trente ans ou attraper tous les poissons de la mer pour devenir un Maître Pêcheur. J'estime que vous devez juste être volontaire – assez volontaire pour vous asseoir pendant des heures, à rien faire\n\nJe vais vous dire, attrapez-moi quelques poissons rares et je vous apprendrai une chose ou deux. Voici la liste :",
+   "progress": "Ça mord aujourd'hui ?",
+   "completion": "Que voilà une belle prise !\n\nVenez par ici, laissez-moi vous montrer comment poser quelques lignes.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 12919,
+     "name": "Nat Pagle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12919,
+     "name": "Nat Pagle"
+    }
+   ],
+   "zone_id": -101,
+   "level": 45,
+   "reqlevel": 35,
+   "side": "both",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6608": {
+   "id": 6608,
+   "name": "Vous êtes trop bon",
+   "objectives": "Vous pensez que Lumak essaie de vous dire qu’il ne peut plus vous aider à améliorer votre compétence de pêche. Vous devriez essayer de vous adresser maintenant à son ami, Nat Pagle, un pêcheur humain des îles au sud de Theramore (c’est du moins ce que vous croyez comprendre du discours de Lumak).",
+   "description": "Lumak ne peut plus enseigner à <nom>. Vous trop bon ! Vous trouver ami de Lumak, Nat Pagle. Est humain, mais pas manger ! Est ami de Lumak ! Nat apprend vous à mieux pêcher.\n\nTrouver Nat dans le marécage d'Âprefange, au sud de ville de Humie, Thermoroquelquechosecommeça. Nat sûrement en train de pêcher. Partir maintenant !",
+   "progress": null,
+   "completion": "Bien sûr, vous devez être une amie de Lumak.\n\nLa pêche ? Je peux tout vous raconter sur la pêche.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3332,
+     "name": "Lumak"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12919,
+     "name": "Nat Pagle"
+    }
+   ],
+   "zone_id": -101,
+   "level": 45,
+   "reqlevel": 35,
+   "side": "horde",
+   "xp": 970,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6609": {
+   "id": 6609,
+   "name": "Il ne me reste rien !",
+   "objectives": "Aller à Kalimdor, dans la ville côtière de Theramore. À partir de là, chercher une île au sud de la ville principale. Nat Pagle vous attend !",
+   "description": "Bon sang, je suis un nain ! Je n'ai pas été conçu pour pêcher ! Je veux dire, regardez-moi ! Je suis pratiquement fait en pierres.\n\nJe n'ai rien laissé, je vous ai tout transmis. Je vous ai appris tout ce que je sais, flip flop !\n\nVous avez tout ? Oh, excellent ! J'ai un vieil ami sur Kalimdor qui peut vous aider. Il s'appelle Nat Pagle, un garçon très bien. Trouvez-le sur les îles au sud de Theramore. Allez !",
+   "progress": null,
+   "completion": "J'ai toujours de la place sur mon île pour les visiteurs… Je crois…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5161,
+     "name": "Grimnur Stonebrand"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12919,
+     "name": "Nat Pagle"
+    }
+   ],
+   "zone_id": -101,
+   "level": 45,
+   "reqlevel": 35,
+   "side": "alliance",
+   "xp": 970,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8193": {
+   "id": 8193,
+   "name": "Maître pêcheur",
+   "objectives": null,
+   "description": null,
+   "progress": "Aujourd'hui, entre 14 et 16 heures, nous organisons un concours pour déterminer qui est le plus grand pêcheur de tous ! Soyez le PREMIER à me rapporter 40 Tastyfish pêchés dans les bancs de Tastyfish que l'on trouve le long de la côte de Stranglethorn avant tout le monde et vous serez déclaré Maître Pêcheur !\n\nSi vous n'êtes pas le premier à me rapporter 40 poissons, mon apprentie vous récompensera quand même avec de l'argent pour chaque 5 poissons savoureux que vous lui rapporterez.\n\nOh, et ne tardez pas, les poissons savoureux se gâtent vite !",
+   "completion": "Dépêchez-vous de me les donner si vous voulez devenir maître pêcheur ! J'attends ici depuis des HEURES sans rien à manger ! Allez, donnez-les !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15077,
+     "name": "Riggle Bassbait"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15077,
+     "name": "Riggle Bassbait"
+    }
+   ],
+   "zone_id": -101,
+   "level": 60,
+   "reqlevel": 1,
+   "side": "both",
+   "xp": null,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "8194": {
+   "id": 8194,
+   "name": "Apprenti pêcheur",
+   "objectives": null,
+   "description": null,
+   "progress": "Bon, nous avons déjà un gagnant, mais je continue à acheter vos courbines à un prix raisonnable. Ça vous va ?",
+   "completion": "Si ça vous va, ça me va !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15078,
+     "name": "Jang"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15078,
+     "name": "Jang"
+    }
+   ],
+   "zone_id": -101,
+   "level": 60,
+   "reqlevel": 1,
+   "side": "both",
+   "xp": 0,
+   "money": 2300,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "8221": {
+   "id": 8221,
+   "name": "Poisson rare : le scalaire de Keefer",
+   "objectives": null,
+   "description": null,
+   "progress": "* Whir * * Cliquez *\n\nI cherchez des poissons rares que Fishmaster Bluegill va cataloguer. Si vous m'apportez un poisson-ange de Keefer, je vous fournirai cette belle récompense.\n\n* Zzzap * * Whir *",
+   "completion": "* Whir *\n\nIdentification complète du poisson-ange de Keefer.\n\nVotre récompense est maintenant disponible.\n\n* cliquez, cliquez, * * Bzzzz *",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15079,
+     "name": "Pêchebot 5000"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15079,
+     "name": "Pêchebot 5000"
+    }
+   ],
+   "zone_id": -101,
+   "level": 60,
+   "reqlevel": 1,
+   "side": "both",
+   "xp": null,
+   "money": 2300,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "8224": {
+   "id": 8224,
+   "name": "Poisson rare : le talang dezien",
+   "objectives": null,
+   "description": null,
+   "progress": "* Whir * * Cliquez *\n\nI cherchez des poissons rares que Fishmaster Bluegill va cataloguer. Si vous m'apportez un Queenfish Dezian, je vous fournirai cette belle récompense.\n\n* Zzzap * * Whir *",
+   "completion": "* Whir *\n\nIdentification de Dezian Queenfish terminée.\n\nVotre récompense est maintenant disponible.\n\n* cliquez, cliquez, * * Bzzzz *",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15079,
+     "name": "Pêchebot 5000"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15079,
+     "name": "Pêchebot 5000"
+    }
+   ],
+   "zone_id": -101,
+   "level": 60,
+   "reqlevel": 1,
+   "side": "both",
+   "xp": null,
+   "money": 2300,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "8225": {
+   "id": 8225,
+   "name": "Poisson rare : le tassergal à dos rayé",
+   "objectives": null,
+   "description": null,
+   "progress": "* Whir * * Cliquez *\n\nI cherchez des poissons rares que Fishmaster Bluegill va cataloguer. Si vous m'apportez un Brownell's Blue Striped Racer, je vous offrirai cette belle récompense.\n\n* Zzzap * * Whir *",
+   "completion": "* Whir * L'identification de Brownell ' s Racer est terminée. Votre récompense est maintenant disponible. * cliquez * * cliquez * * Bzzzz *",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15079,
+     "name": "Pêchebot 5000"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15079,
+     "name": "Pêchebot 5000"
+    }
+   ],
+   "zone_id": -101,
+   "level": 60,
+   "reqlevel": 1,
+   "side": "both",
+   "xp": null,
+   "money": 2300,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "97065": {
+   "id": 97065,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 267806,
+     "name": "\"Flipfin\""
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 267806,
+     "name": "\"Flipfin\""
+    }
+   ],
+   "zone_id": -101,
+   "level": 60,
+   "reqlevel": null,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "97066": {
+   "id": 97066,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 267806,
+     "name": "\"Flipfin\""
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 267806,
+     "name": "\"Flipfin\""
+    }
+   ],
+   "zone_id": -101,
+   "level": 60,
+   "reqlevel": null,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "97067": {
+   "id": 97067,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 267806,
+     "name": "\"Flipfin\""
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 267806,
+     "name": "\"Flipfin\""
+    }
+   ],
+   "zone_id": -101,
+   "level": 60,
+   "reqlevel": null,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

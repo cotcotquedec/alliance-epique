@@ -1,0 +1,244 @@
+{
+ "schema": 1,
+ "zone": "kalimdor/ruttheran-village",
+ "zone_id": 702,
+ "zone_name": "Rut'theran",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 4,
+  "complete": 4,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "978": {
+   "id": 978,
+   "name": "Les Indomptables lunaires",
+   "objectives": "Collecter 10 Plumes de Chouettard lunaire, dans le Berceau-de-l'Hiver, puis retourner voir Erelas Ambersky, à Rut'theran.",
+   "description": "Les plumes d’Indomptables des Hinterlands contiennent des traces de magie. Toutefois, ces créatures ne semblent pas avoir de pouvoirs particuliers. La magie semble faire partie de leur essence.\n\nPendant mes études, j’ai entendu qu’une importante population d’Indomptables résidait dans les terres enneigées du Berceau-de-l'Hiver. Ces créatures auraient-elles les mêmes pouvoirs ? Aidez-moi à trouver les réponses à ces questions, <nom>. Allez au Berceau-de-l'Hiver et collectez des plumes qui traînent au sol, puis revenez me voir.",
+   "progress": "D'où ces pouvoirs peuvent-ils venir ? Je pense que nous sommes en bonne voie pour trouver la réponse, <nom>.",
+   "completion": "Maintenant je peux comparer les plumes. . . Voyons voir. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7916,
+     "name": "Erelas Ambersky"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7916,
+     "name": "Erelas Ambersky"
+    }
+   ],
+   "zone_id": 702,
+   "level": 55,
+   "reqlevel": 52,
+   "side": "alliance",
+   "xp": 5650,
+   "money": 8500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "979": {
+   "id": 979,
+   "name": "Trouver Ranshalla",
+   "objectives": "Trouver Ranshalla dans l’est du Berceau-de-l'Hiver.",
+   "description": "Oui, oui, ces plumes semblent contenir le même enchantement que j'ai remarqué précédemment… Bien que je ne sache pas vraiment ce que nous pourrions découvrir, je vous conjure de continuer à chercher des réponses, <nom>.\n\nL'une de mes collègues a voyagé récemment au Berceau-de-l'Hiver afin d'y observer les indomptables, dans leur habitat naturel. Pourquoi ne pas essayer de la retrouver et voir ce qu'elle a pu découvrir...",
+   "progress": null,
+   "completion": "Salut ! Erelas vous a envoyé ? Formidable, je me préparais à monter dans les caves maintenant, et je ne refuserais pas un peu de compagnie.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7916,
+     "name": "Erelas Ambersky"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10300,
+     "name": "Ranshalla"
+    }
+   ],
+   "zone_id": 702,
+   "level": 57,
+   "reqlevel": 52,
+   "side": "alliance",
+   "xp": 3000,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3661": {
+   "id": 3661,
+   "name": "Dans les faveurs d'Elune ?",
+   "objectives": "Collecter 15 Plumes d'Indomptable dans les Hinterlands, pour Erelas Ambersky au village de Rut'theran.",
+   "description": "Les Indomptables sont des créatures tout à fait imprévisibles, <nom>. Capables d'une douceur incroyable, elles sont féroces si on menace ce qui est important à leurs yeux.\n\nOn dit que ces bêtes auraient été créées par Elune, et j’aimerais savoir si c’est vraiment le cas.\n\nJ’ai récemment entendu parler d’une population d’Indomptables vivant dans les Hinterlands ; des Chouettards vicieux, des Chouettards primitifs et des Chouettards sauvages. Ils hantent les terres sauvages, là-bas. Pourriez-vous aller collecter quelques-unes de leurs plumes pour moi ?",
+   "progress": "Essayez de les éviter si vous pouvez, <nom>. Les Indomptables peuvent interpéter votre intérêt comme une intention de leur faire du mal. . .",
+   "completion": "Merci d'avoir apporté ceci, <nom>.\n\nQu'avez-vous appris des Indomptables ?\n\nPeut-être ces plumes nous en apprendront-elles plus. Des monstres féroces ou des familiers égarés ? Un jour je souhaiterai connaître la vérité. . .\n\nJe vais poursuivre mes recherches ; revenez me voir dans un moment.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7916,
+     "name": "Erelas Ambersky"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7916,
+     "name": "Erelas Ambersky"
+    }
+   ],
+   "zone_id": 702,
+   "level": 47,
+   "reqlevel": 42,
+   "side": "alliance",
+   "xp": 6300,
+   "money": 13500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5250": {
+   "id": 5250,
+   "name": "Pluie-d'Etoiles",
+   "objectives": "Trouver le village de Pluie-d'Etoiles dans le Berceau-de-l'Hiver et parler à Wynd Nightchaser.",
+   "description": "Le Berceau-de-l'Hiver, au nord de Gangrebois, est jonché de ruines elfes. C'est une terre hostile, mais elle détient beaucoup de secrets et d'endroits à explorer.\n\nMes études ici m'accaparent et je n'ai pas eu l'opportunité d'aller jusqu'au Berceau-de-l'Hiver. Mais il n'y a aucune raison pour que vous ne puissiez pas y aller et étudier les ruines.\n\nLorsque vous serez là-bas, cherchez Wynd Nightchaser. Il passe la plupart de son temps au village de Pluie-d'Etoiles et il connaît bien la région.\n\nDites-lui que vous êtes l'un de mes étudiants.",
+   "progress": null,
+   "completion": "Un étudiant de Daryn Lightwind ? Enchanté, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7907,
+     "name": "Daryn Lightwind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11079,
+     "name": "Wynd Nightchaser"
+    }
+   ],
+   "zone_id": 702,
+   "level": 56,
+   "reqlevel": 53,
+   "side": "alliance",
+   "xp": 580,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

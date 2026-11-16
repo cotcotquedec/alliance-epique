@@ -1,0 +1,500 @@
+{
+ "schema": 1,
+ "zone": "dungeons/the-temple-of-atalhakkar",
+ "zone_id": 1477,
+ "zone_name": "Le temple d'Atal'Hakkar",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 8,
+  "with_display_id": 8,
+  "with_title": 1,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 4,
+   "unknown": 4
+  }
+ },
+ "npcs": {
+  "1443": {
+   "id": 1443,
+   "name": "Fel'zerul",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Swamp of Sorrows"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 4554,
+   "quests_started": [
+    1424,
+    1429,
+    1445
+   ],
+   "quests_ended": [
+    1424,
+    1444,
+    1445
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "5384": {
+   "id": 5384,
+   "name": "Brohann Caskbelly",
+   "title": "Ligue des explorateurs",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Ironforge",
+   "zones": [
+    "Stormwind City"
+   ],
+   "coords": {},
+   "levels": [
+    40,
+    40
+   ],
+   "display_id": 5079,
+   "quests_started": [
+    1448,
+    1449,
+    1475
+   ],
+   "quests_ended": [
+    1448,
+    1469,
+    1475
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleStandard",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5904,
+     "farewell": 5905,
+     "pissed": 5906
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "5598": {
+   "id": 5598,
+   "name": "Exilé atal'ai",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "The Hinterlands"
+   ],
+   "coords": {},
+   "levels": [
+    45,
+    45
+   ],
+   "display_id": 6590,
+   "quests_started": [
+    1444,
+    1446
+   ],
+   "quests_ended": [
+    1429,
+    1446
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TrollMaleShaman",
+    "race": "Troll",
+    "sex": "male",
+    "personality": "Shaman",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5946,
+     "farewell": 5947,
+     "pissed": 5948
+    },
+    "combat_set": "TrollMale"
+   },
+   "model": {
+    "race": "Troll",
+    "race_id": 8,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "TrollMaleShaman"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7771": {
+   "id": 7771,
+   "name": "Marvon Rivetseeker",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    40,
+    40
+   ],
+   "display_id": 7188,
+   "quests_started": [
+    3161,
+    3444,
+    3446,
+    3447
+   ],
+   "quests_ended": [
+    3161,
+    3380,
+    3444,
+    3445
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleZany",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Zany",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5964,
+     "farewell": 5965,
+     "pissed": 5966
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "8115": {
+   "id": 8115,
+   "name": "Sorcier-docteur Uzer'i",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Darkspear Trolls",
+   "zones": [
+    "Feralas"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 7328,
+   "quests_started": [
+    3121,
+    3123,
+    3124,
+    3125,
+    3126,
+    3127,
+    3128,
+    3129,
+    3380
+   ],
+   "quests_ended": [
+    3122,
+    3123,
+    3124,
+    3125,
+    3126,
+    3127,
+    3128,
+    3129
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "8579": {
+   "id": 8579,
+   "name": "Yeh'kinya",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    41,
+    41
+   ],
+   "display_id": 7902,
+   "quests_started": [
+    3520,
+    3527,
+    3528,
+    4787
+   ],
+   "quests_ended": [
+    3520,
+    3527,
+    3528,
+    4787,
+    8181
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TrollMaleShaman",
+    "race": "Troll",
+    "sex": "male",
+    "personality": "Shaman",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5946,
+     "farewell": 5947,
+     "pissed": 5948
+    },
+    "combat_set": "TrollMale"
+   },
+   "model": {
+    "race": "Troll",
+    "race_id": 8,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "TrollMaleShaman"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "15362": {
+   "id": 15362,
+   "name": "Malfurion Stormrage",
+   "title": null,
+   "type": null,
+   "classification": "Boss",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Cenarion Circle",
+   "zones": [
+    "The Temple of Atal'Hakkar"
+   ],
+   "coords": {},
+   "levels": [
+    1,
+    1
+   ],
+   "display_id": 15399,
+   "quests_started": [
+    8733
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "NightElfMale"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "15624": {
+   "id": 15624,
+   "name": "Feu follet forestier",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Teldrassil"
+   ],
+   "coords": {},
+   "levels": [
+    8,
+    8
+   ],
+   "display_id": 12432,
+   "quests_started": [
+    8734
+   ],
+   "quests_ended": [
+    8733
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  }
+ }
+}

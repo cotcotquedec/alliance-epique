@@ -1,0 +1,1736 @@
+{
+ "schema": 1,
+ "zone": "eastern-kingdoms/searing-gorge",
+ "zone_id": 51,
+ "zone_name": "Gorge des Vents brûlants",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 31,
+  "complete": 27,
+  "incomplete": 4,
+  "unavailable": 0,
+  "missing_description": 4,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 5
+ },
+ "quests": {
+  "3181": {
+   "id": 3181,
+   "name": "La corne de la bête",
+   "objectives": "Porter la Corne Gigantesque de Margol à la Montagnarde Pebblebitty.",
+   "description": "La corne gigantesque est couverte d'égratignures et de fissures. Un objet de métal inhabituel s'est logé sous la surface dure.\n\nAprès de plus amples observations, vous remarquez qu'il s'agit d'une lame de hache brisée. Sur le métal sont gravés les mots suivants :\n\nPropriété de la Montagnarde Pebblebitty.\n\nQuand vous essayez de déloger la lame, elle s'effrite en mille morceaux.\n\nOups !",
+   "progress": "Non, je n'ouvrirai pas le portail.",
+   "completion": "Qu'avez-vous là ? C'est un faux, de toute évidence !\n\nJ'ai été face à face avec Margol et je peux vous assurer que sa corne est au moins huit fois plus grande que celle que vous avez en mains, <nom>. Elle vient probablement d'un groin-tempête dans les Tarides. Ah Monsieur, on ne peut pas abuser Pebblebitty !",
+   "starters": [
+    {
+     "type": "item",
+     "id": 10000,
+     "name": "Margol's Horn"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3836,
+     "name": "Montagnarde Pebblebitty"
+    }
+   ],
+   "zone_id": 51,
+   "level": 48,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 5450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3367": {
+   "id": 3367,
+   "name": "Les pierres de Suntara",
+   "objectives": "Aider Dorius à retourner à Ironforge.",
+   "description": "<Dorius gémit.>\n\nJe suis grièvement blessé, <nom>. Je me sens… la tête toute légère… tout… tournoie… je saigne… à l'intérieur.\n\nJe dois retourner à Ironforge. Aidez-moi, <nom>.",
+   "progress": "Je… je ne vais pas y arriver…",
+   "completion": "Dorius avait cette lettre sur lui quand il a été abattu.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8284,
+     "name": "Dorius Stonetender"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 175704,
+     "name": "Singed Letter"
+    }
+   ],
+   "zone_id": 51,
+   "level": 48,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 4400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Dorius gémit.",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3368": {
+   "id": 3368,
+   "name": "Les pierres de Suntara",
+   "objectives": "Apporter la Lettre roussie à Thorius à Ironforge. Il se trouve dans le Hall des Explorateurs.",
+   "description": "Mon frère,\n\nSi vous lisez cette lettre, c'est que je n'existe plus. Comment vous est-elle parvenue, je l'ignore. Mais remerciez et récompensez ceux qui ont fait en sorte que vous l'ayez reçue.\n\nÀ propos des pierres : elles existent, les Sombrefer les ont en leur possession. Leur chef, Lathoric le Noir, utilise le pouvoir de ces pierres pour asservir mon équipe d'archéologues. Ils ont été emmenés au Chaudron. Leurs esprits sont à présent asservis et ils travaillent nuit et jour pour achever une chose qui répond au nom d'Obsidion.\n\nSecourez-les. Il s'agit là de la dernière volonté d'un homme mort.\n\n-Dorius",
+   "progress": "<Thorius sanglote. >",
+   "completion": "<Thorius s'essuie le visage. >\n\nAu nom de la Lumière, son voeu sera exaucé. Je le jure.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175704,
+     "name": "Singed Letter"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8256,
+     "name": "Conservateur en chef Thorius"
+    }
+   ],
+   "zone_id": 51,
+   "level": 48,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 4400,
+   "money": 14000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3372": {
+   "id": 3372,
+   "name": "La libération",
+   "objectives": "Trouver l'Artefact mystérieux gardé par le Marteau du crépuscule au nord.",
+   "description": "Libérez-les, <nom>. Leurs corps sont morts, mais la puissance de Suntara les oblige à achever leur travail.\n\nL'Autel de Suntara est la clé pour les libérer. Allez au nord, dans les collines au-dessus de la caverne… Le Marteau du crépuscule y garde une relique. Emparez-vous-en et placez-la sur l'Autel de Suntara.\n\n<L'archéologue mourant s'effondre.>",
+   "progress": "L'autel est vide.",
+   "completion": "Vous placez l'artefact mystérieux sur l'Autel de Suntara.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8417,
+     "name": "Archéologue mourant"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 148498,
+     "name": "Altar of Suntara"
+    }
+   ],
+   "zone_id": 51,
+   "level": 52,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 5100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "L'archéologue mourant s'effondre.",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3377": {
+   "id": 3377,
+   "name": "Prière à Elune",
+   "objectives": "Écouter le récit de Zamael.",
+   "description": "Me viendrez-vous en aide, <mortel/mortelle> ? Écoutez mon récit.",
+   "progress": "Permettez-moi de terminer mon histoire.",
+   "completion": "Je me suis résigné à mon sort ici dans cette cage, mais la prière doit être retrouvée.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8436,
+     "name": "Zamael Lunthistle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8436,
+     "name": "Zamael Lunthistle"
+    }
+   ],
+   "zone_id": 51,
+   "level": 50,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 470,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mortel/mortelle"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3378": {
+   "id": 3378,
+   "name": "Prière à Elune",
+   "objectives": "Trouver la Prière à Elune et l'apporter à Astarii Starseeker à Darnassus.",
+   "description": "Me viendrez-vous en aide, <mortel/mortelle> ? Trouverez-vous la Prière à Elune ?\n\nComme je l'ai dit, cette prière a été gravée sur une tablette en or. Elle doit se trouver sur l'une de ces crapules vénérant des idoles.\n\nSi vous parvenez à retrouver ma prière, apportez-la à Astarii Starseeker à Darnassus. Il importe peu que ma foi ait été ravivée après les innombrables actions malveillantes que j'ai infligées à ce monde et à ses habitants, mais ma prière doit être entendue. La dernière chose que je demande est l'absolution.",
+   "progress": "Qu'est-ce qui vous amène au Temple de la Lune, <nom> ?",
+   "completion": "Elune vous sourit en cette soirée, <nom>. Vous lui avez ramené un esprit égaré. Veuillez accepter ceci comme gage de notre reconnaissance.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8436,
+     "name": "Zamael Lunthistle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4090,
+     "name": "Astarii Starseeker"
+    }
+   ],
+   "zone_id": 51,
+   "level": 50,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 5900,
+   "money": 14500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mortel/mortelle"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3441": {
+   "id": 3441,
+   "name": "Châtiment divin",
+   "objectives": "Écouter le récit de Kalaran Windblade.",
+   "description": "Écoutez mon récit, <aventurier/aventurière>.",
+   "progress": "Permettez-moi de finir, mo… <race>.",
+   "completion": "Alors, en avez-vous entendu suffisamment ? Êtes-vous prêt à agir ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8479,
+     "name": "Kalaran Windblade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8479,
+     "name": "Kalaran Windblade"
+    }
+   ],
+   "zone_id": 51,
+   "level": 48,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 440,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "aventurier/aventurière"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3442": {
+   "id": 3442,
+   "name": "La flamme parfaite",
+   "objectives": "Réunir 4 Cœurs des flammes et 4 globes d'Huile de golem puis rapporter ces objets à Kalaran Windblade.",
+   "description": "Vous avez pris la bonne décision, <nom>.\n\nNous devons frapper à l'endroit où nous ferons le plus de mal : aux quatre tours de garde.\n\nLorsque les quatre tours seront en feu, nous pourrons lancer notre offensive avant même qu'ils aient le temps de réagir.\n\nVous allez avoir besoin du bon outil pour incendier les tours. Et pour cet outil, nous devons trouver quelques ingrédients.\n\nApportez-moi quatre Cœurs des flammes, et quatre globes d'Huile de golem, et je ferai naître la torche de flamme parfaite.\n\nVous devriez prendre tout d'abord pour cibles les golems et les élémentaires de ces terres.",
+   "progress": "Avez-vous réuni les ingrédients ?",
+   "completion": "Bien joué, <nom>. Nous sommes presque prêts.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8479,
+     "name": "Kalaran Windblade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8479,
+     "name": "Kalaran Windblade"
+    }
+   ],
+   "zone_id": 51,
+   "level": 48,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 4400,
+   "money": 14000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3443": {
+   "id": 3443,
+   "name": "Forger le manche",
+   "objectives": "Apporter 8 Dagues plaquées en thorium à Kalaran Windblade.",
+   "description": "Pour porter la flamme parfaite, nous aurons besoin d'un manche et d'une enveloppe. Vous devez tout d'abord trouver un manche convenable.\n\nLes sous-chefs et les esclavagistes Sombrefer du Chaudron se servent d'armes en thorium enchanté, un alliage extrêmement solide. Si vous m'apportez huit dagues plaquées en thorium, je pourrai les fondre et utiliser le métal pour fabriquer le manche.",
+   "progress": "Huit, <nom>. Il m'en faut huit !",
+   "completion": "Vous êtes un travailleur remarquable, <nom>. Avez-vous déjà pensé à changer de métier ? Détective, peut-être ? Collecteur de bric-à-brac ? Oh, j'ai trouvé, le même métier que ces gnomes stupides qui parcourent les plages avec leur machinerie pour détecter les métaux. Oui, ce travail vous irait comme un gant.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8479,
+     "name": "Kalaran Windblade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8479,
+     "name": "Kalaran Windblade"
+    }
+   ],
+   "zone_id": 51,
+   "level": 48,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 4400,
+   "money": 14000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3452": {
+   "id": 3452,
+   "name": "L'enveloppe de la flamme",
+   "objectives": "Trouver et apporter un Symbole de Ragnaros à Kalaran Windblade.",
+   "description": "Nous avons besoin d'une dernière pièce pour former la torche.\n\nVous trouverez un grand campement du Marteau du crépuscule dans les montagnes au nord-ouest. La rumeur dit qu'ils portent des symboles et des idoles afin de rendre hommage à leur dieu. Il se peut que ces symboles et ces idoles portent en eux suffisamment d'enchantement pour former une enveloppe magique. Apportez un seul Symbole de Ragnaros et je tenterai d'en extraire la magie pour créer l'enveloppe de la flamme.",
+   "progress": "La Torche de vindicte ne pourra être achevée sans une source adéquate d'énergie magique.",
+   "completion": "Il émane de ce symbole une infecte magie. Cela convient parfaitement au dessein auquel nous le destinons.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8479,
+     "name": "Kalaran Windblade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8479,
+     "name": "Kalaran Windblade"
+    }
+   ],
+   "zone_id": 51,
+   "level": 50,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 4700,
+   "money": 7500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3453": {
+   "id": 3453,
+   "name": "La Torche de vindicte",
+   "objectives": "Attendre que Kalaran Windblade termine la Torche de vindicte.",
+   "description": "Laissez-moi un moment afin que je combine les différentes parties et que j'y applique les enchantements nécessaires.",
+   "progress": "Ne pas interrompre le processus de canalisation.",
+   "completion": "Il vous reste une dernière tâche à accomplir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8479,
+     "name": "Kalaran Windblade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8479,
+     "name": "Kalaran Windblade"
+    }
+   ],
+   "zone_id": 51,
+   "level": 50,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 470,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3454": {
+   "id": 3454,
+   "name": "La Torche de vindicte",
+   "objectives": "Prendre la Torche de vindicte.",
+   "description": "La torche doit à présent être liée à <son/sa> propriétaire. Prenez-la, <nom> !",
+   "progress": null,
+   "completion": "Vous prenez la torche des deux mains. Des vagues de colère et de haine vous submergent.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8479,
+     "name": "Kalaran Windblade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 149047,
+     "name": "Torch of Retribution"
+    }
+   ],
+   "zone_id": 51,
+   "level": 50,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 4700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "son/sa"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3462": {
+   "id": 3462,
+   "name": "L'écuyer Maltrake",
+   "objectives": "Parler à l'écuyer Maltrake.",
+   "description": "Adressez-vous à mon représentant, l'écuyer Maltrake. Il vous en apprendra davantage sur l'utilisation de la Torche de vindicte.",
+   "progress": null,
+   "completion": "Êtes-vous prêt à frapper ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8479,
+     "name": "Kalaran Windblade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8509,
+     "name": "Ecuyer Maltrake"
+    }
+   ],
+   "zone_id": 51,
+   "level": 50,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 470,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3463": {
+   "id": 3463,
+   "name": "Allumer le feu !",
+   "objectives": "Mettre le feu aux Tours de garde nord, sud, est, et ouest en utilisant la Torche de vindicte à l'intérieur de chaque tour.",
+   "description": "Écoutez bien, <nom>. Bien que les quatre tours ne pourront jamais être détruites, vous pouvez vous servir de la Torche de châtiment afin d'y mettre le feu pour une longue période. Un incendie qu'aucun élément ou qu'aucune force ne pourra éteindre.\n\nTant qu'elles seront en flammes, aucun Garde ou aucune Sentinelle ne pourra y résider. Ainsi, leur première ligne de défense n'existera simplement plus.\n\nVous devez pénétrer dans chaque tour et utiliser la Torche de vindicte à l'intérieur des fortifications. Méfiez-vous des Sentinelles d'élite Sombrefer, <nom>.",
+   "progress": "Alors, <nom>, êtes-vous perdu ?",
+   "completion": "Formidable ! N'est-ce pas que c'est glorieux, maître ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8509,
+     "name": "Ecuyer Maltrake"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8509,
+     "name": "Ecuyer Maltrake"
+    }
+   ],
+   "zone_id": 51,
+   "level": 52,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 7600,
+   "money": 23000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3481": {
+   "id": 3481,
+   "name": "Bibelots...",
+   "objectives": "Ouvrir le coffre.",
+   "description": "Le coffre a l'air fermé.",
+   "progress": null,
+   "completion": "Le coffre s'ouvre à votre contact. Quelle quantité de fromage peut-il bien y avoir là-dedans ? Il n'y a qu'un seul moyen de le savoir.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 149502,
+     "name": "Hoard of the Black Dragonflight"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 149502,
+     "name": "Hoard of the Black Dragonflight"
+    }
+   ],
+   "zone_id": 51,
+   "level": 50,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 470,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3566": {
+   "id": 3566,
+   "name": "Debout, Obsidion !",
+   "objectives": "Assassiner Lathoric le Noir et Obsidion, puis retourner voir Thorius, à Ironforge, avec la Tête de Lathoric le Noir et le Coeur d'Obsidion.",
+   "description": "C'était... C'était... C'était un piège.\n\nOubliez... moi.\n\nTuez ce bâtard… Tuez-le pour nous… pour Thorius.",
+   "progress": "Je ne vous crois pas ! Prouvez-le-moi !",
+   "completion": "<Thorius devient livide. >\n\nNon. . . Cela est impossible. Mon propre frère ? Il a fait cela ?\n\n<Le visage de Thorius se crispe de colère>\n\nIl m'a trahi, il a trahi Ironforge ! Il semble que l'influence des Dieux très anciens soit toujours forte sur ces terres. À voir mon frère (autrefois un homme noble et honorable) si facilement soumis à la volonté de Ragnaros, je crains que personne ne soit en sûreté.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8417,
+     "name": "Archéologue mourant"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8256,
+     "name": "Conservateur en chef Thorius"
+    }
+   ],
+   "zone_id": 51,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "alliance",
+   "xp": 7600,
+   "money": 15500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4449": {
+   "id": 4449,
+   "name": "Piégé !",
+   "objectives": "Tuer 8 Géologues Sombrefer et rapporter 15 morceaux d’Etoffe de soie à la personne enfermée de les toilettes de la gorge des Vents brûlants.",
+   "description": "Hé vous ! Oui, vous ! Venez donc ici !\n\nVous allez m’aider. J’étais poursuivi par les nains Sombrefer, et je me suis planqué ici, hors de vue. Ces maudits géologues et leur magie ! Ils ont dû me repérer quand même, parce qu’ils ont verrouillé la porte avant que je ne puisse réagir. Je suis coincé à l’intérieur.\n\nDonnez-leur une bonne leçon ! oh… et puis si vous pouviez récupérer de l’étoffe de soie pour... euh… pour rien, ce serait parfait.",
+   "progress": "Je n'ai pas toute la journée ! Apportez-moi ces morceaux de soie ! Je veux dire ces géologues. Attrapez ces géologues ! Ils vont connaître ma, euh. . . votre colère.",
+   "completion": "Oh, fantastique ! C’est doux !\n\nQuoi ? Oh, oui. . . Les géologues. Vous les avez eus, n'est-ce pas ? Je ne sais pas comment vous remercier, <nom>. Ça va me laisser le temps de finir ici. . . Merci encore, <nom>.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 173265,
+     "name": "Wooden Outhouse"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 173265,
+     "name": "Wooden Outhouse"
+    }
+   ],
+   "zone_id": 51,
+   "level": 45,
+   "reqlevel": 43,
+   "side": "both",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4450": {
+   "id": 4450,
+   "name": "Grand livre de Tanaris",
+   "objectives": "Prendre la copie du Livre de Goodsteel, puis collecter les objets qui y sont listés avant d’aller voir Krinkle Goodsteel, à Tanaris.",
+   "description": "Oh, maintenant que j’y pense...\n\nComme je suis bloqué ici, vous pourriez peut-être finir un petit travail que j’avais commencé quand j’étais à Tanaris. C’est facile, enfin vu de l’extérieur ça paraît facile.\n\nKrinkle Goodsteel à Gadgetzan recherchait du matériel que l’on peut trouver ici, dans la Gorge des Vents brûlants et dans quelques autres lieux. Vous pourriez peut-être jeter un coup d’oeil à cette liste et lui apporter ce qu’il veut ?\n\nJe vais glisser son Livre sous la porte si cela vous intéresse. Rapportez-le-lui ainsi que les choses qu’il désire, après les avoir collectées.",
+   "progress": "Oui, oui ? Que puis-je faire pour vous, <nom> ? Je suis très occupé et j'ai beaucoup de commandes en cours. Dépêchez-vous. Je suis désolé de précipiter les choses mais si je veux terminer mon travail, je n'ai pas le choix.",
+   "completion": "Oh, vous avez été capable de faire une partie du travail que je vous avais demandé. Excellent. Je suppose que vous allez me demander de vous fabriquer quelque chose.\n\nC'est parfait. . . Et tout est là. Merci, <classe>.\n\nCe n'est pas grave si je vous récompense avec. . . Hm, que voulez-vous ?",
+   "starters": [
+    {
+     "type": "object",
+     "id": 173265,
+     "name": "Wooden Outhouse"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5411,
+     "name": "Krinkle Goodsteel"
+    }
+   ],
+   "zone_id": 51,
+   "level": 46,
+   "reqlevel": 43,
+   "side": "both",
+   "xp": 5050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4451": {
+   "id": 4451,
+   "name": "La Clé de la liberté",
+   "objectives": "Aller dans la gorge des Vents brûlants et trouver une utilisation à la Clé des toilettes de Grimesilt que vous avez trouvée.",
+   "description": "La petite clé en cuivre a l’air assez simple. La seule chose qui la distingue d’une clé banale sont les mots gravés sur sa tête :\n\n\"Toilettes Sombrefer – Ne pas dupliquer.\"\n\nVous ne savez pas à quoi cela sert ni à quoi cela va mener.",
+   "progress": "*tousse*\n\nQui est-ce ? Vous ne voyez pas que je suis occupé ?",
+   "completion": "Ça par exemple ! Damnation ! Vous avez trouvé la clé ! Je savais que ces enquiquineurs de Sombrefer l'avaient cachée après m'avoir enfermé ici ! Merci beaucoup, <nom>. Vous êtes le meilleur ! Utilisez la clé pour laisser sortir le vieux Locheed !",
+   "starters": [
+    {
+     "type": "item",
+     "id": 11818,
+     "name": "Grimesilt Outhouse Key"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 173265,
+     "name": "Wooden Outhouse"
+    }
+   ],
+   "zone_id": 51,
+   "level": 47,
+   "reqlevel": 43,
+   "side": "both",
+   "xp": 5250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7701": {
+   "id": 7701,
+   "name": "ON RECHERCHE : Surveillant Maltorius",
+   "objectives": "Loin dans les profondeurs de la Fosse aux scories dans le Chaudron, dans la Gorge des Vents brûlants, vous trouverez le nain traître du clan Sombrefer répondant au nom de surveillant Maltorius.\n\nTuez le surveillant Maltorius et prenez sa tête. Apportez-la au capitaine de guet Lolo Longstriker dans la Gorge des Vents brûlants pour la récompense.",
+   "description": "Par ordre de Son Éminence, le surveillant Oilfist, l’agent renégat de la Confrérie du thorium et nouveau chef d'équipe des Sombrefer de la Fosse aux scories du Chaudron, le surveillant Maltorius, doit être tué et sa tête rapportée comme preuve.\n\nAllez voir le capitaine de guet Lolo Longstriker pour la récompense.",
+   "progress": "Vous voyez donc pas qu’j’suis occupé ? Qu’est-ce que vous *hips* voulez ?",
+   "completion": "J’pensais pas qu'je r'verrais sa sale tronche !\n\nElle a l’air mieux sans le reste du bonhomme dessous, en fait.\n\nV’la votre réponcense… récompense, <race>.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 179827,
+     "name": "Wanted/Missing/Lost & Found"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14634,
+     "name": "Capitaine de guet Lolo Longstriker"
+    }
+   ],
+   "zone_id": 51,
+   "level": 50,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 4700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7704": {
+   "id": 7704,
+   "name": "Regardez un peu la taille !",
+   "objectives": "Apportez l'Oreiller de la Femme de chambre Pillaclencher à Evonice Sootsmoker dans la Gorge des Vents brûlants.",
+   "description": "Tiens, tiens, tiens... Quelle surprise. La Femme de chambre avait un oreiller brodé géant et il est maintenant en votre possession. Evonice Sootsmoker va sûrement vouloir mettre ses petites mains poisseuses dessus. Apportez-le-lui et voyez si elle a quelque chose à vous offrir pour votre peine.",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "item",
+     "id": 18950,
+     "name": "Chambermaid Pillaclencher's Pillow"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14628,
+     "name": "Evonice Sootsmoker"
+    }
+   ],
+   "zone_id": 51,
+   "level": 50,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 4700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7722": {
+   "id": 7722,
+   "name": "Le Flux embrasé",
+   "objectives": "Quelque part dans la Fosse aux scories du Chaudron, vous trouverez les Plans secrets : Flux embrasé dérobés par le surveillant Maltorius. Trouvez ces plans et rapportez-les au Maître forgeron Burninate dans la gorge des Vents brûlants.",
+   "description": "Quand ce bâtard de Maltorius a quitté notre clan, il a emporté avec lui quelque chose de plus précieux qu'un cristal des arcanes en parfait état : notre recette du Flux embrasé ! Je mettrais ma main à couper que la recette faisait partie de son marché avec les Sombrefer pour sa promotion.\n\nJe veux que vous nous rapportiez nos plans secrets, <nom>. Je suis certain qu'ils se trouvent près de Maltorius, loin dans les profondeurs de la Fosse aux scories.",
+   "progress": "Avez-vous trouvé les plans ?",
+   "completion": "J'espère que vous lui avez aussi défoncé la mâchoire, <nom>. Ragnaros sait qu'il le méritait.\n\nMaintenant nous pouvons passer aux affaires.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14624,
+     "name": "Maître forgeron Burninate"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14624,
+     "name": "Maître forgeron Burninate"
+    }
+   ],
+   "zone_id": 51,
+   "level": 50,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 4700,
+   "money": 7500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7723": {
+   "id": 7723,
+   "name": "Maudits gros doigts",
+   "objectives": "Hansel Heavyhands veut que vous tuiez 20 Golems de guerre lourds.\n\nLes golems de guerre lourds errent dans les régions qui entourent le Chaudron dans la Gorge des Vents brûlants. Quand vous en aurez tué assez, revenez voir Hansel dans la Gorge des Vents brûlants.",
+   "description": "Malheureusement, je ne peux plus tabasser les bêtes comme avant, à cause de mon problème de gros doigts. Vous voyez, le climat d'ici en plus de la basse pression fait se dilater mes doigts. On dirait des boudins de Thelsamar...\n\nVa falloir que vous fassiez mon travail.\n\nPour commencer : flanquez une raclée aux golems de guerre lourds d'la Gorge. Et qu'ça saute.",
+   "progress": "Vous les avez pilonnés ?",
+   "completion": "Vous êtes vraiment un bon gars. J'ai un petit cadeau pour vous remercier.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14627,
+     "name": "Hansel Heavyhands"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14627,
+     "name": "Hansel Heavyhands"
+    }
+   ],
+   "zone_id": 51,
+   "level": 49,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 4550,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7724": {
+   "id": 7724,
+   "name": "Une menace incandescente",
+   "objectives": "Hansel Heavyhands veut que vous tuiez 20 Grandes araignées de lave dans la gorge des Vents brûlants. Vous pouvez trouver les Grandes araignées de lave dans les plateaux et les mares de lave de la gorge des Vents brûlants.\n\nRevenez voir Hansel dans la gorge des Vents brûlants quand vous aurez tué assez de Grandes araignées de lave.",
+   "description": "J'vous dis pas, chaque fois que le vieil Hansel veut se reposer un moment et réfléchir au sens de la vie, les puissances supérieures lui donnent un nouveau travail.\n\nAlors je me dis, franchement ! Vous voyez ce que je veux dire ? Franchement.\n\nIl y a ces grandes araignées de lave qui font du grabuge. Oilfist dit qu'elles ont du feu qui leur sort du derrière et qu'ce genre de choses fait peur aux enfants.\n\nJ'pense donc qu'y faut les tuer. Ou plutôt qu'vous devez les tuer.",
+   "progress": "Avait-il raison ? Cela sort-il de leur croupion ?",
+   "completion": "<Hansel éternue. >\n\nJ'crois qu'je suis en train d'attraper un rhume. Marre de ce climat glacial !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14627,
+     "name": "Hansel Heavyhands"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14627,
+     "name": "Hansel Heavyhands"
+    }
+   ],
+   "zone_id": 51,
+   "level": 49,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 4550,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7727": {
+   "id": 7727,
+   "name": "Incendosaures ? N'importosaures, plutôt",
+   "objectives": "Hansel Heavyhands veut que vous tuiez 20 Incendosaures.\n\nOn peut les trouver dans les bassins de lave de la Fosse aux scories, qui occupe une partie du Chaudron de la gorge des Vents brûlants.\n\nRetournez voir Hansel Heavyhands dans la gorge des Vents brûlants lorsque vous aurez tué suffisamment d’Incendosaures.",
+   "description": "Les oignons, <mon gars/ma fille>. J'ai des oignons qui m'font vivre un vrai martyre, pour sûr. Comment j'pourrais tuer ces machins avec les pieds dans c't'état ? Faudrait qu'vous m'aidiez, ça, c'est sûr.\n\nScrange et Burninate m'ont d'mandé d'tuer ces bidules pour envoyer des équipes d'exploration dans les mares d'lave, tout au fond d'la Fosse aux scories. Y paraît qu'c'est des incendosaures ou une idiotie de c'genre, qui causent ben des soucis, là, en-bas. Bougez-vous maintenant, et ne rev'nez pas avant qu'la race des incendosaures soit éteinte.",
+   "progress": "<Hansel est occupé à frotter ses oignons>.\n\nNe reste pas planté là, prends de l'huile et un luffa et va frotter ces oignons.\n\nVous n'avez pas de luffa ? Eh bien, dans ce cas ! Il est peut-être temps que je t'envoie en chercher un ?\n\nHé, où allez-vous ?",
+   "completion": "Oh mes pauvres petons.\n\nMais bon, puisque vous z’avez pas d'chiffon…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14627,
+     "name": "Hansel Heavyhands"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14627,
+     "name": "Hansel Heavyhands"
+    }
+   ],
+   "zone_id": 51,
+   "level": 49,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 4550,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mon gars/ma fille"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7728": {
+   "id": 7728,
+   "name": "OBJETS VOLES : Tuyère et longue-vue",
+   "objectives": "Trouvez la Tuyère de forge et la Longue-vue du guetteur et rapportez-les au sous-chef Scrange dans la gorge des Vents brûlants.\n\nLes seules informations dont vous disposez sur ces objets sont les suivantes : ils ont été dérobés par les nains Sombrefer, la Tuyère de forge est un outil utilisé par les forgerons et la Longue-vue du guetteur est un outil de surveillance inestimable pour les guetteurs.",
+   "description": "Les objets suivants ont été volés :\n\n*Une tuyère en sombre fer.\n\n*Une longue-vue de guetteur.\n\nUne récompense sera offerte aux individus qui trouveront et rapporteront ces objets dérobés.\n\nLa Confrérie du thorium est certaine que ces objets ont été volés par des nains Sombrefer jaloux et sans scrupule qui habitent la gorge des Vents brûlants.\n\nLa longue-vue en question était un excellent outil pour les guetteurs et la tuyère était un outil de forgeron irremplaçable.\n\nSi vous trouviez ces objets, rapportez-les à Scrange.",
+   "progress": "Si vous êtes ici pour la récompense, il va falloir que vous me donniez les objets volés.",
+   "completion": "Excellent travail ! Voilà pour votre récompense.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 179827,
+     "name": "Wanted/Missing/Lost & Found"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14626,
+     "name": "Sous-chef Scrange"
+    }
+   ],
+   "zone_id": 51,
+   "level": 48,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 4400,
+   "money": 14000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7729": {
+   "id": 7729,
+   "name": "OFFRE D'EMPLOI : Réduire la concurrence",
+   "objectives": "Tuez 15 Sous-chefs Sombrefer et 15 Esclavagistes Sombrefer. Revenez voir le sous-chef Scrange dans la gorge des Vents brûlants quand vous aurez accompli cette tâche.",
+   "description": "Le sous-chef Scrange recherche quelques hommes et femmes de valeur pour l'aider à \"réduire la concurrence\" dans la gorge des Vents brûlants.\n\nSi ce poste vous intéresse, allez dans la gorge des Vents brûlants et tuez tous les sous-chefs Sombrefer et les esclavagistes Sombrefer que vous verrez.\n\nRevenez voir le sous-chef Scrange quand vos vêtements seront assez couverts de sang.\n\nVous saurez déjà quand il y aura assez de sang, ne demandez pas.",
+   "progress": "Nous devons vous peser avec et sans vêtements pour être sûrs.",
+   "completion": "7,2 kilos ! Voilà qui pourrait bien être un nouveau record de sang et de boyaux sur des vêtements ! Félicitations, <classe> !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 179827,
+     "name": "Wanted/Missing/Lost & Found"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14626,
+     "name": "Sous-chef Scrange"
+    }
+   ],
+   "zone_id": 51,
+   "level": 48,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 4400,
+   "money": 21000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7736": {
+   "id": 7736,
+   "name": "Réapprovisionnement en flux embrasé (Sang-royal)",
+   "objectives": null,
+   "description": null,
+   "progress": "Assez perdu de temps à bavarder, <race>. Il est temps de nous concentrer sur le réapprovisionnement de nos réserves de flux embrasé qui s'amenuisent.\n\nVoici ce que je veux que vous me rapportiez :\n\n*Ecailles d'incendosaure.\n\n*Sang-royal.\n\n*Charbon.\n\nJe prendrai tout ce que vous me donnerez !\n\nEt vous le ferez vite si vous voulez bien vous entendre avec la Confrérie.",
+   "completion": "Il y a toujours de la place pour plus de flux embrasé, junior. Continuez comme ça. . . Jusqu'à ce que je vous dise d'arrêter.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14624,
+     "name": "Maître forgeron Burninate"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14624,
+     "name": "Maître forgeron Burninate"
+    }
+   ],
+   "zone_id": 51,
+   "level": 60,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "7737": {
+   "id": 7737,
+   "name": "Se faire accepter",
+   "objectives": null,
+   "description": null,
+   "progress": "Vous avez monté les barreaux de l'échelle de la Confrérie, <race>. Nous commençons à avoir de vous une opinion favorable. Voilà un bel exploit !\n\nSi vous souhaitez gagner davantage encore de notre respect, écoutez bien.\n\nNous pouvons raffiner le flux embrasé en ajoutant simplement un résidu de sombre fer au mélange. On peut trouver les résidus de sombre fer dans les Profondeurs de Blackrock.\n\nApportez-moi tous les résidus de sombre fer que vous trouverez !",
+   "completion": "Continuez à apporter du résidu !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14624,
+     "name": "Maître forgeron Burninate"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14624,
+     "name": "Maître forgeron Burninate"
+    }
+   ],
+   "zone_id": 51,
+   "level": 60,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "8241": {
+   "id": 8241,
+   "name": "Réapprovisionnement en flux embrasé (Fer)",
+   "objectives": null,
+   "description": null,
+   "progress": "Assez perdu de temps à bavarder, <race>. Il est temps de nous concentrer sur le réapprovisionnement de nos réserves de flux embrasé qui s'amenuisent.\n\nVoici ce que je veux que vous me rapportiez :\n\n*Ecailles d'incendosaure.\n\n*Barres de fer.\n\n*Charbon.\n\nJe prendrai tout ce que vous me donnerez !\n\nEt vous le ferez vite si vous voulez bien vous entendre avec la Confrérie.",
+   "completion": "Il y a toujours de la place pour plus de flux embrasé, junior. Continuez comme ça. . . Jusqu'à ce que je vous dise d'arrêter.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14624,
+     "name": "Maître forgeron Burninate"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14624,
+     "name": "Maître forgeron Burninate"
+    }
+   ],
+   "zone_id": 51,
+   "level": 60,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "8242": {
+   "id": 8242,
+   "name": "Réapprovisionnement en flux embrasé (Cuir lourd)",
+   "objectives": null,
+   "description": null,
+   "progress": "Assez perdu de temps à bavarder, <race>. Il est temps de nous concentrer sur le réapprovisionnement de nos réserves de flux embrasé qui s'amenuisent.\n\nVoici ce que je veux que vous me rapportiez :\n\n*Ecailles d'incendosaure.\n\n*Cuir lourd.\n\n*Charbon.\n\nJe prendrai tout ce que vous me donnerez !\n\nEt vous le ferez vite si vous voulez bien vous entendre avec la Confrérie.",
+   "completion": "Il y a toujours de la place pour plus de flux embrasé, junior. Continuez comme ça. . . Jusqu'à ce que je vous dise d'arrêter.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14624,
+     "name": "Maître forgeron Burninate"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14624,
+     "name": "Maître forgeron Burninate"
+    }
+   ],
+   "zone_id": 51,
+   "level": 60,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

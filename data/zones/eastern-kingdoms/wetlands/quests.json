@@ -1,0 +1,4575 @@
+{
+ "schema": 1,
+ "zone": "eastern-kingdoms/wetlands",
+ "zone_id": 11,
+ "zone_name": "Les Paluns Wetlands",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 65,
+  "complete": 40,
+  "incomplete": 25,
+  "unavailable": 0,
+  "missing_description": 25,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 1
+ },
+ "quests": {
+  "275": {
+   "id": 275,
+   "name": "Fièvre sur le pays",
+   "objectives": "Tuer 12 Rampants des tourbières, puis retourner voir Rethiel, le Gouverneur vert, dans les Paluns.",
+   "description": "Je ne sais pas pourquoi, mais il y a une prolifération maligne dans les Paluns. Les Rampants des tourbières se manifestent. Ils sont malades et répandent leur fièvre partout. Pour circonscrire l’épidémie, ils doivent être dispersés et renvoyés dans les marécages.\n\nLes Rampants des tourbières divaguent dans les voies navigables des Paluns.",
+   "progress": "Les Paluns pleurent toujours, et les Rampants des tourbières continuent de sévir. Revenez me voir lorsque vous aurez accompli votre tâche.",
+   "completion": "Vous avez pacifié cette terre par vos efforts, et par cette action vous méritez une faveur.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1244,
+     "name": "Rethiel le Gouverneur vert"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1244,
+     "name": "Rethiel le Gouverneur vert"
+    }
+   ],
+   "zone_id": 11,
+   "level": 26,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 2650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vous avez pacifié cette terre par vos efforts, et par cette action vous méritez une faveur."
+     },
+     "npc": 1244,
+     "npc_name": "Rethiel le Gouverneur vert",
+     "npc_type": "Creature",
+     "npc_sex": 1,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794549366,
+     "last_seen": 1794549366
+    },
+    "detail": {
+     "texts": {
+      "description": "Je ne sais pas pourquoi, mais il y a une prolifération maligne dans les Paluns. Les rampants des tourbières se manifestent. Ils sont malades et répandent leur fièvre partout. Pour circonscrire l’épidémie, ils doivent être dispersés et renvoyés dans les marécages.\n\nLes rampants des tourbières divaguent dans les voies navigables des Paluns.",
+      "objectives": "Tuer 12 Rampants des tourbières, puis retourner voir Rethiel, le Gouverneur vert, dans les Paluns.",
+      "name": "Fièvre sur le pays"
+     },
+     "npc": 1244,
+     "npc_name": "Rethiel le Gouverneur vert",
+     "npc_type": "Creature",
+     "npc_sex": 1,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70938",
+     "first_seen": 1794547750,
+     "last_seen": 1794547750
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "276": {
+   "id": 276,
+   "name": "Piétinements de pattes",
+   "objectives": "Tuer 15 Gnolls Poils-moussus et 10 Bâtards Poils-moussus puis retourner voir Rethiel, le Gouverneur vert, dans les Paluns.",
+   "description": "Les gnolls Poils-moussus ont vécu paisiblement dans les Paluns pendant longtemps, mais aujourd’hui leur nombre augmente. Les buissons et les fleurs du marais ne leur suffisent plus, et pour alimenter leurs feux, leurs haches crasseuses coupent trop de bois.\n\nL'équilibre naturel n'est plus respecté. Pour la survie des Paluns, le nombre de gnolls doit être réduit.\n\nTuez 15 Gnolls Poils-moussus et 10 Bâtards Poils-moussus. Chassez-les au sud, près des nains de la Porte d'Algaz. Lorsque vous aurez terminé, revenez me voir.",
+   "progress": "Votre tâche n'est pas terminée, jeune <classe>.",
+   "completion": "En réduisant le nombre des gnolls, vous avez assaini les Paluns. Bien que par le passé, j'ai perdu foi en votre peuple, <nom>, il se peut que je la retrouve.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1244,
+     "name": "Rethiel le Gouverneur vert"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1244,
+     "name": "Rethiel le Gouverneur vert"
+    }
+   ],
+   "zone_id": 11,
+   "level": 21,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 1250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "En réduisant le nombre des Gnolls, vous avez assaini les Paluns. Bien que par le passé, j’ai perdu foi en votre peuple, <race>, il se peut que je la retrouve."
+     },
+     "npc": 1244,
+     "npc_name": "Rethiel le Gouverneur vert",
+     "npc_type": "Creature",
+     "npc_sex": 1,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70888",
+     "first_seen": 1794464821,
+     "last_seen": 1794464821
+    },
+    "detail": {
+     "texts": {
+      "description": "Les Gnolls poils-moussus ont vécu paisiblement dans les Paluns pendant longtemps, mais aujourd’hui leur nombre augmente. Les buissons et les fleurs du marais ne leur suffisent plus, et pour alimenter leurs feux, leurs haches crasseuses coupent trop de bois.\n\nL’équilibre naturel n’est plus respecté. Pour la survie des Paluns, le nombre de Gnolls doit être réduit.\n\nTuez 15 Gnolls poils-moussus et 10 bâtards poils-moussus. Chassez-les au sud, près des Nains de la porte d’Algaz. Lorsque vous aurez terminé, revenez me voir.",
+      "objectives": "Tuer 15 Gnolls Poils-moussus et 10 Bâtards Poils-moussus puis retourner voir Rethiel, le Gouverneur vert, dans les Paluns.",
+      "name": "Piétinements de pattes"
+     },
+     "npc": 1244,
+     "npc_name": "Rethiel le Gouverneur vert",
+     "npc_type": "Creature",
+     "npc_sex": 1,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794463751,
+     "last_seen": 1794463751
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "277": {
+   "id": 277,
+   "name": "Feu interdit",
+   "objectives": "Rapporter à Rethiel, le Gouverneur vert, 9 Silex bruts.",
+   "description": "Les Poils-moussus coupent les arbres des Paluns et les brûlent pour se chauffer. Je ne le supporte plus !\n\nAllez leur prendre leurs silex bruts, les outils qu'ils utilisent pour faire du feu. A l'exception des simples gnolls et des bâtards, tous les Poils-moussus portent des silex.",
+   "progress": "Avez-vous les outils à faire du feu des gnolls ?",
+   "completion": "Merci. Je briserai ces silex et je les jetterai dans la mer, pour qu'ils ne puissent jamais plus être utilisés pour enflammer du bois vert.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1244,
+     "name": "Rethiel le Gouverneur vert"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1244,
+     "name": "Rethiel le Gouverneur vert"
+    }
+   ],
+   "zone_id": 11,
+   "level": 23,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 1850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Merci. Je briserai ces silex et je les jetterai dans la mer, pour qu’ils ne puissent jamais plus être utilisés pour enflammer du bois vert."
+     },
+     "npc": 1244,
+     "npc_name": "Rethiel le Gouverneur vert",
+     "npc_type": "Creature",
+     "npc_sex": 1,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794547749,
+     "last_seen": 1794547749
+    },
+    "detail": {
+     "texts": {
+      "description": "Les Poils-moussus coupent les arbres des Paluns et les brûlent pour se chauffer. Je ne le supporte plus !\n\nAllez leur prendre leurs silex bruts, les outils qu’ils utilisent pour faire du feu. À l’exception des simples Gnolls et des bâtards, tous les Poils-moussus portent des silex.",
+      "objectives": "Rapporter à Rethiel, le Gouverneur vert, 9 Silex bruts.",
+      "name": "Feu interdit"
+     },
+     "npc": 1244,
+     "npc_name": "Rethiel le Gouverneur vert",
+     "npc_type": "Creature",
+     "npc_sex": 1,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794464822,
+     "last_seen": 1794464822
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "279": {
+   "id": 279,
+   "name": "Griffes des profondeurs",
+   "objectives": "Tuer 12 murlocs Branchies-bleues.\n\nTuer Enfourneur et prendre sa tête.\n\nL'apporter à Karl Boran au port de Menethil.",
+   "description": "Les murlocs sortent des eaux profondes et construisent leurs villages sur le littoral. Ils harcèlent nos pêcheurs et nos marchands, et il faut les arrêter.\n\nL'un de ces murlocs, Enfourneur, tend des embuscades aux marchands le long de la route, avec d'autres Branchies-bleues, et va ensuite se réfugier dans les taudis voisins. Nos marchands sont en danger et nous sommes prêts à payer pour les protéger.\n\nEnfourneur rôde le long du fleuve au nord d'ici. Trouvez-le, éliminez sa famille et apportez-moi sa tête.",
+   "progress": "Nos marchands ne seront pas en sécurité tant que nous ne nous serons pas débarrassés de Gobbler et de ces Murlocs.",
+   "completion": "Ah, bien joué <nom>.\n\nAcceptez ceci comme paiement pour l'exécution de votre contrat avec les Marines marchandes.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1242,
+     "name": "Karl Boran"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1242,
+     "name": "Karl Boran"
+    }
+   ],
+   "zone_id": 11,
+   "level": 22,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 1750,
+   "money": 1400,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah ! Bon travail, <nom> !\n\nAcceptez ceci en paiement pour avoir honoré votre contrat avec la marine marchande."
+     },
+     "npc": 1242,
+     "npc_name": "Karl Boran",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70888",
+     "first_seen": 1794431016,
+     "last_seen": 1794431016
+    },
+    "detail": {
+     "texts": {
+      "description": "Les murlocs sortent des eaux profondes et construisent leurs villages sur le littoral. Ils harcèlent nos pêcheurs et nos marchands, et il faut les arrêter.\n\nL'un de ces murlocs, Enfourneur, tend des embuscades aux marchands le long de la route, avec d'autres Branchies-bleues, et va ensuite se réfugier dans les taudis voisins. Nos marchands sont en danger et nous sommes prêts à payer pour les protéger.\n\nEnfourneur rôde le long du fleuve au nord d'ici. Trouvez-le, éliminez sa famille et apportez-moi sa tête.",
+      "objectives": "Tuer 12 murlocs Branchies-bleues.\n\nTuer Enfourneur et prendre sa tête.\n\nL'apporter à Karl Boran au port de Menethil.",
+      "name": "Griffes des profondeurs"
+     },
+     "npc": 1242,
+     "npc_name": "Karl Boran",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794408364,
+     "last_seen": 1794408364
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "281": {
+   "id": 281,
+   "name": "Récupération de marchandises",
+   "objectives": "Rechercher les caisses et les barils dans les camps murlocs le long de la côte.",
+   "description": "Il y a peu de temps, un navire marchand, le \"Princesse aveugle\" a été attaqué par les murlocs. Tout ce qui n’intéressait pas les créatures a été jeté par-dessus bord, à commencer par une statuette de très grande valeur de Terenas Menethil. Nous voulons retrouver cette statuette.\n\nRecherchez des caisses, des barils et autres éléments de la cargaison perdue le long de la côte ou dans les taudis des murlocs. Retrouvez la Statuette de Menethil et rendez-la-moi.",
+   "progress": null,
+   "completion": "Cette caisse est couverte de traces de griffes et porte la marque de dégâts causés par l'eau. Une fois forcée, elle se révèle bourrée de paille humide et pourrie, comme si elle avait contenu un objet de valeur. Vous fouillez la paille. . .\n\n. . . et vous trouvez une brassée des bouteilles rouges.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1242,
+     "name": "Karl Boran"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 261,
+     "name": "Damaged Crate"
+    }
+   ],
+   "zone_id": 11,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 510,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Cette caisse est couverte de traces de griffes et porte la marque de dégâts causés par l'eau. Une fois forcée, elle se révèle bourrée de paille humide et pourrie, comme si elle avait contenu un objet de valeur. Vous fouillez la paille...\n\n... et vous trouvez une brassée des bouteilles rouges."
+     },
+     "npc": 261,
+     "npc_name": "Caisse endommagée",
+     "npc_type": "GameObject",
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794546395,
+     "last_seen": 1794546395
+    },
+    "detail": {
+     "texts": {
+      "description": "Il y a peu de temps, un navire marchand, le \"Princesse aveugle\" a été attaqué par les murlocs. Tout ce qui n’intéressait pas les créatures a été jeté par-dessus bord, à commencer par une statuette de très grande valeur de Terenas Menethil. Nous voulons retrouver cette statuette.\n\nRecherchez des caisses, des barils et autres éléments de la cargaison perdue le long de la côte ou dans les taudis des murlocs. Retrouvez la Statuette de Menethil et rendez-la-moi.",
+      "objectives": "Rechercher les caisses et les barils dans les camps murlocs le long de la côte.",
+      "name": "Récupération de marchandises"
+     },
+     "npc": 1242,
+     "npc_name": "Karl Boran",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794431017,
+     "last_seen": 1794431017
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "284": {
+   "id": 284,
+   "name": "La recherche continue",
+   "objectives": "Rechercher la Statuette de Menethil.",
+   "description": "Vous avez fouillé avec soin les taudis murlocs dans ce secteur et vous n'avez trouvé aucune trace de la Statuette de Menethil.\n\nIl y a peut-être davantage d'indices dans les deux taudis qui se trouvent tout près de vous au nord et au nord-est.",
+   "progress": null,
+   "completion": "Ce baril est en grande partie intact. En forçant un peu. . .\n\nUne odeur de fromage vous pique le nez. Il est un peu humide, mais toujours savoureux !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 261,
+     "name": "Damaged Crate"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 142151,
+     "name": "Sealed Barrel"
+    }
+   ],
+   "zone_id": 11,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 510,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ce baril est en grande partie intact. En forçant un peu...\n\nUne odeur de fromage vous pique le nez. Il est un peu humide, mais toujours savoureux !"
+     },
+     "npc": 142151,
+     "npc_name": "Tonneau scellé",
+     "npc_type": "GameObject",
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794546445,
+     "last_seen": 1794546445
+    },
+    "detail": {
+     "texts": {
+      "description": "Vous avez fouillé avec soin les taudis murlocs dans ce secteur et vous n'avez trouvé aucune trace de la Statuette de Menethil.\n\nIl y a peut-être davantage d'indices dans les deux taudis qui se trouvent tout près de vous au nord et au nord-est.",
+      "objectives": "Rechercher la Statuette de Menethil.",
+      "name": "La recherche continue"
+     },
+     "npc": 261,
+     "npc_name": "Caisse endommagée",
+     "npc_type": "GameObject",
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70938",
+     "first_seen": 1794546397,
+     "last_seen": 1794546397
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "285": {
+   "id": 285,
+   "name": "À la recherche d'autres taudis",
+   "objectives": "Continuer à fouiller les taudis des murlocs pour retrouver la Statuette de Menethil.",
+   "description": "L'inspection minutieuse de ces quelques taudis murlocs n'a rien donné.\n\nMais le prochain indice sera le bon.\n\nL'un des taudis qui se situent au nord doit cacher la Statuette de Menethil !",
+   "progress": null,
+   "completion": "Ce baril est à moitié enterré dans l'herbe et la boue…",
+   "starters": [
+    {
+     "type": "object",
+     "id": 142151,
+     "name": "Sealed Barrel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 259,
+     "name": "Half-buried Barrel"
+    }
+   ],
+   "zone_id": 11,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 1000,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ce baril est à moitié enterré dans l'herbe et la boue…"
+     },
+     "npc": 259,
+     "npc_name": "Tonneau à moitié enseveli",
+     "npc_type": "GameObject",
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794546469,
+     "last_seen": 1794546469
+    },
+    "detail": {
+     "texts": {
+      "description": "L'inspection minutieuse de ces quelques taudis murlocs n'a rien donné.\n\nMais le prochain indice sera le bon.\n\nL'un des taudis qui se situent au nord doit cacher la Statuette de Menethil !",
+      "objectives": "Continuer à fouiller les taudis des murlocs pour retrouver la Statuette de Menethil.",
+      "name": "À la recherche d'autres taudis"
+     },
+     "npc": 142151,
+     "npc_name": "Tonneau scellé",
+     "npc_type": "GameObject",
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70938",
+     "first_seen": 1794546447,
+     "last_seen": 1794546447
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "286": {
+   "id": 286,
+   "name": "Rapporter la statuette",
+   "objectives": "Apporter la Statuette de Menethil à Karl Boran.",
+   "description": "Une fois le baril sorti de la boue et ouvert, on y trouve une figurine argentée empaquetée avec soin dans la paille. Elle représente un jeune paladin aux cheveux longs, qui brandit un marteau.\n\nCe doit être la Statuette de Menethil ! Vous devez maintenant l’apporter à Karl Boran au Port de Menethil.",
+   "progress": "Avez-vous la statuette ?",
+   "completion": "Le capitaine du \"Princesse aveugle\" sera soulagé de savoir que sa précieuse cargaison a été récupérée. Vous avez bien mérité ceci en paiement pour les services rendus.\n\nHeureusement qu'il y a encore des gens sûrs dans votre genre, surtout par les temps qui courent.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 259,
+     "name": "Half-buried Barrel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1242,
+     "name": "Karl Boran"
+    }
+   ],
+   "zone_id": 11,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 1500,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Le capitaine du \"Princesse aveugle\" sera soulagé de savoir que sa précieuse cargaison a été récupérée. Vous avez bien mérité ceci en paiement pour les services rendus.\n\nHeureusement qu'il y a encore des gens sûrs dans votre genre, surtout par les temps qui courent."
+     },
+     "npc": 1242,
+     "npc_name": "Karl Boran",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794550987,
+     "last_seen": 1794550987
+    },
+    "detail": {
+     "texts": {
+      "description": "Une fois le baril sorti de la boue et ouvert, on y trouve une figurine argentée empaquetée avec soin dans la paille. Elle représente un jeune paladin aux cheveux longs, qui brandit un marteau.\n\nCe doit être la Statuette de Menethil ! Vous devez maintenant l’apporter à Karl Boran au Port de Menethil.",
+      "objectives": "Apporter la Statuette de Menethil à Karl Boran.",
+      "name": "Rapporter la statuette"
+     },
+     "npc": 259,
+     "npc_name": "Tonneau à moitié enseveli",
+     "npc_type": "GameObject",
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70938",
+     "first_seen": 1794546470,
+     "last_seen": 1794546470
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "288": {
+   "id": 288,
+   "name": "La IIIe flotte",
+   "objectives": "Acheter une Cruche d'hydromel pour le Premier Officier Fitzsimmons.",
+   "description": "J'étais autrefois le Premier Officier du « Maîtresse de l'onde », l'un des bateaux de la IIIe flotte de Kul Tiras. La Flotte perdue. Perdue parce qu'à son dernier voyage, elle a été attaquée par des dragons rouges. Des dragons conduits par des orcs !\n\nNous n'avions aucune chance contre le feu des dragons... Notre flotte a été brûlée et envoyée par le fond. Je suis le seul survivant de ces malheureux navires...\n\n... Oh ça cogne dans ma tête ! Il me faudrait un coup à boire pour supporter cette gueule de bois et continuer mon histoire.",
+   "progress": "Oh ! J'ai tellement soif ! Vous n'achèteriez pas quelque chose à boire pour un pauvre malheureux fou ?",
+   "completion": "Ah ! Ça revigore et ça délie la langue. Merci, collègue !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1239,
+     "name": "Premier officier Fitzsimmons"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1239,
+     "name": "Premier officier Fitzsimmons"
+    }
+   ],
+   "zone_id": 11,
+   "level": 27,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": 220,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah ! Ça revigore et ça délie la langue. Merci, collègue !"
+     },
+     "npc": 1239,
+     "npc_name": "Premier officier Fitzsimmons",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70888",
+     "first_seen": 1794431163,
+     "last_seen": 1794431163
+    },
+    "detail": {
+     "texts": {
+      "description": "J’étais autrefois le second de la Maîtresse de l’onde, l’un des bateaux de la Troisième flotte de Kul Tiras. La flotte maudite. Maudite parce qu’à son dernier voyage, elle a été attaquée par des Dragons rouges. Des Dragons conduits par des Orcs !\n\nNous n’avions aucune chance contre le feu des Dragons… Notre flotte a été brûlée et envoyée par le fond. Je suis le seul survivant de ces malheureux navires…\n\n… Oh ça cogne dans ma tête ! Il me faudrait un coup à boire pour supporter cette gueule de bois et continuer mon histoire.",
+      "objectives": "Acheter une Cruche d'hydromel pour le Premier Officier Fitzsimmons.",
+      "name": "La IIIe flotte"
+     },
+     "npc": 1239,
+     "npc_name": "Premier officier Fitzsimmons",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794408389,
+     "last_seen": 1794408389
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "289": {
+   "id": 289,
+   "name": "L'équipage maudit",
+   "objectives": "Tuer 13 Marins maudits, 5 Soldats de marine maudits et le Premier Officier Snellig. Rapporter la Tabatière de Snellig au Premier Officier Fitzsimmons au port de Menethil.",
+   "description": "<Revigoré, Fitzsimmons continue son histoire...>\n\nJe suis le seul survivant de l'infortunée IIIe flotte de Kul Tiras, détruite au large de la côte, vers le nord. Mais bien que je sois le seul membre d’équipage qui respire toujours, je ne suis pas le seul qui marche encore ! Car sur l'un de nos bateaux a été caché un trésor épouvantable, dont le pouvoir énorme maintient prisonnières les âmes de mes frères d'armes dans les épaves pourries de nos bateaux.\n\nMais si vous parveniez à libérer quelques-uns de mes frères, peut-être pourriez-vous briser la malédiction.",
+   "progress": "Dans mes cauchemars, j’entends parfois les gémissements de damnés de mes frères d'armes ! Par pitié, libérez-les de leurs liens et calmez leurs cris !",
+   "completion": "Merci, <nom>. Et vous avez aussi toute la gratitude de mes frères maudits.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1239,
+     "name": "Premier officier Fitzsimmons"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1239,
+     "name": "Premier officier Fitzsimmons"
+    }
+   ],
+   "zone_id": 11,
+   "level": 29,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": 1750,
+   "money": 1900,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "<Revigoré, Fitzsimmons continue son histoire…>\n\nJe suis le seul survivant de l’infortunée Troisième flotte de Kul Tiras, détruite au large de la côte, vers le nord. Mais bien que je sois le seul membre d’équipage qui respire toujours, je ne suis pas le seul qui marche encore ! Car sur l’un de nos bateaux a été caché un trésor épouvantable, dont le pouvoir énorme maintient prisonnières les âmes de mes frères d’armes dans les épaves pourries de nos bateaux.\n\nMais si vous parveniez à libérer quelques-uns de mes frères, peut-être pourriez-vous briser la malédiction.",
+      "objectives": "Tuez 13 marins maudits, 5 soldats de marine maudits et le second Snellig. Rapportez la tabatière de Snellig au second Fitzsimmons au port de Menethil.",
+      "name": "L'équipage maudit"
+     },
+     "npc": 1239,
+     "npc_name": "Premier officier Fitzsimmons",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794431164,
+     "last_seen": 1794431164
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "290": {
+   "id": 290,
+   "name": "Levée de la malédiction",
+   "objectives": "Obtenir du capitaine Halyndor la Clé du coffre-fort de \"l'Intrépide\".\n\nUtiliser la clé pour ouvrir le Coffre verrouillé de l'Intrépide.",
+   "description": "Pour rompre la malédiction et libérer mes frères d'armes, la... chose... qui se trouve sur mon bateau doit être récupérée et nettoyée ! Je ne sais pas ce que c'est, mais je sais qu'elle est en lieu sûr dans le coffre-fort du bateau, dont seul le capitaine Halyndor avait la clé.\n\nMon vieux capitaine rôde toujours dans mes rêves. Je sais qu'il erre sur \"l'Intrépide\", mon bateau perdu. Obtenez de lui sa clé et utilisez-la pour ouvrir le coffre de \"l'Intrépide\".\n\nEnsuite, quand vous aurez cet objet maudit, apportez-le au prêtre Glorin Steelbrow en ville.",
+   "progress": "Ce coffre est bien fermé.",
+   "completion": "La clé est rouillée, mais elle s'adapte bien à la serrure.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1239,
+     "name": "Premier officier Fitzsimmons"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 112948,
+     "name": "Intrepid's Locked Strongbox"
+    }
+   ],
+   "zone_id": 11,
+   "level": 30,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": 1200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "292": {
+   "id": 292,
+   "name": "L'Oeil de Paleth",
+   "objectives": "Apporter l'Oeil maudit de Paleth à Glorin Steelbrow.",
+   "description": "En ouvrant le coffre, on trouve une sphère noircie, qui irradie une lumière à faire frémir. C'est le trésor dont Fitzsimmons a parlé : un Oeil maudit de Paleth.\n\nApportez l'Oeil maudit de Paleth au prêtre Glorin Steelbrow, un nain qui se trouve au port de Menethil. Demandez-lui comment lever la malédiction de l'Oeil.",
+   "progress": "C'est cet ivrogne de Fitzsimmons qui vous envoie ? Eh bien, vous pouvez lui dire que je n'ai pas de bière supplémentaire. Il devra aller mendier chez quelqu'un d'autre !",
+   "completion": "Un Oeil de Paleth ? Etonnant ! Hum. . . Il y a quelque chose qui ne va pas avec celui-ci. Vous l'avez trouvé sur une de ces épaves ? Cela explique tout ! Mais. . . Je ne savais pas qu'ils avaient un Oeil de cette sorte dans la IIIe flotte. . .\n\nPas étonnant que Fitzsimmons ait été si effrayé. Un Oeil maudit de Paleth ne donne pas envie de rire.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 112948,
+     "name": "Intrepid's Locked Strongbox"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1217,
+     "name": "Glorin Steelbrow"
+    }
+   ],
+   "zone_id": 11,
+   "level": 30,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": 1200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "293": {
+   "id": 293,
+   "name": "Purifier l'Oeil",
+   "objectives": "Apporter l'Oeil maudit de Paleth à l'archevêque Benedictus, à la cathédrale de la Lumière de la ville de Stormwind.",
+   "description": "Je ne peux pas lever la malédiction de l'Oeil de Paleth. Ces Yeux ont été fabriqués par des prêtres humains, vous devez donc aller à Stormwind pour trouver quelqu'un qui pourra vous aider. Allez voir l'archevêque Benedictus, le maître de la cathédrale de la Lumière de Stormwind. Il vous aidera.\n\nJe l'espère pour vous.",
+   "progress": "Qu'est-ce que c'est que cet orbe ? On dirait qu'il est… souillé.",
+   "completion": "Un Oeil de Paleth. Mais celui-ci a vu beaucoup de souffrances. . . Il a dû être témoin d'une terrible tragédie.\n\nLaissez-moi le purifier, car les Yeux ont été créés pour étinceler et leurs pouvoirs peuvent devenir dangereux s'ils sont souillés comme celui-ci.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1217,
+     "name": "Glorin Steelbrow"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1284,
+     "name": "Archevêque Benedictus"
+    }
+   ],
+   "zone_id": 11,
+   "level": 30,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": 2450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "294": {
+   "id": 294,
+   "name": "La vengeance d'Ormer",
+   "objectives": "Sur ordre d'Ormer Ironbraid à l'Excavation de Whelgar, tuer 10 Hurleurs tachetés et 10 Raptors tachetés.",
+   "description": "La situation est grave, c'est certain. Les raptors ont été attirés par les ossements. Ces sales bêtes ont tué mes compagnons et nous ont coincés ici, Merrin, le pauvre Prospecteur et moi.\n\nAidez-nous à nettoyer les Paluns de ces raptors, <nom>. Il y a des raptors tachetés et des Hurleurs tachetés à l'ouest. Tuez-en 10 de chaque, si vous le pouvez.\n\nCe sera un bon début à la vengeance que je leur réserve.",
+   "progress": "Tuez 10 rapaces tachetés et 10 criquets tachetés, <nom>. Mes collègues ne méritaient pas le sort qui leur a été réservé. Il est temps d'égaliser le score.",
+   "completion": "Tuer est une sale affaire, mais vous avez bien fait votre travail, <nom>. Si je n'avais pas été obligé de rester auprès du Prospecteur et de Merrin, j'aurais été à vos côtés pour faire couler le sang.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1078,
+     "name": "Ormer Ironbraid"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1078,
+     "name": "Ormer Ironbraid"
+    }
+   ],
+   "zone_id": 11,
+   "level": 24,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": 1950,
+   "money": 1700,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Tuer est une sale affaire, mais vous avez bien fait votre travail, <nom>. Si je n’avais pas été obligé de rester auprès du prospecteur et de Merrin, j’aurais été à vos côtés pour faire couler le sang."
+     },
+     "npc": 1078,
+     "npc_name": "Ormer Ironbraid",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794593978,
+     "last_seen": 1794593978
+    },
+    "detail": {
+     "texts": {
+      "description": "La situation est grave, c’est certain. Les raptors ont été attirés par les ossements. Ces sales bêtes ont tué mes compagnons et nous ont coincés ici, Merrin, le pauvre prospecteur et moi.\n\nAidez-nous à nettoyer les Paluns de ces raptors, <nom>. Il y a des raptors tachetés et des hurleurs tachetés à l’ouest. Tuez-en 10 de chaque, si vous le pouvez.\n\nCe sera un bon début à la vengeance que je leur réserve.",
+      "objectives": "Sur ordre d'Ormer Ironbraid à l'Excavation de Whelgar, tuer 10 Hurleurs tachetés et 10 Raptors tachetés.",
+      "name": "La vengeance d'Ormer"
+     },
+     "npc": 1078,
+     "npc_name": "Ormer Ironbraid",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70938",
+     "first_seen": 1794573597,
+     "last_seen": 1794573597
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "295": {
+   "id": 295,
+   "name": "La vengeance d'Ormer",
+   "objectives": "Tuer 10 Faucheurs tachetés et 10 Tranchegueules tachetés pour Ormer Ironbraid, puis aller le voir à l'excavation de Whelgar.",
+   "description": "Il est vraiment temps de faire payer à ces raptors leur soif sanguinaire. Un peu plus bas, il y a d’innombrables Faucheurs tachetés et Tranchegueules tachetés. Tuez 10 Faucheurs et 10 Tranchegueules !",
+   "progress": "Je veux faire payer à ces Scytheclaws et Razormaws tachetés ce qu'ils ont fait. Avez-vous déjà tué 10 exemplaires de chacun d'entre eux ?",
+   "completion": "Vous avez fait du bon boulot en éliminant ces raptors, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1078,
+     "name": "Ormer Ironbraid"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1078,
+     "name": "Ormer Ironbraid"
+    }
+   ],
+   "zone_id": 11,
+   "level": 27,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": 2200,
+   "money": 2200,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vous avez fait du bon boulot en éliminant ces raptors, <nom> !"
+     },
+     "npc": 1078,
+     "npc_name": "Ormer Ironbraid",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794594418,
+     "last_seen": 1794594418
+    },
+    "detail": {
+     "texts": {
+      "description": "Il est vraiment temps de faire payer à ces raptors leur soif sanguinaire. Un peu plus bas, il y a d’innombrables faucheurs tachetés et tranchegueules tachetés. Tuez 10 faucheurs et 10 tranchegueules !",
+      "objectives": "Tuez 10 faucheurs tachetés et 10 tranchegueules tachetés pour Ormer Tressefer, puis allez le voir au site de fouilles de Whelgar.",
+      "name": "La vengeance d'Ormer"
+     },
+     "npc": 1078,
+     "npc_name": "Ormer Ironbraid",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70938",
+     "first_seen": 1794593980,
+     "last_seen": 1794593980
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "296": {
+   "id": 296,
+   "name": "La vengeance d'Ormer",
+   "objectives": "Sur ordre d'Ormer Ironbraid, de l'Excavation de Whelgar, tuer Grondecroc et revenir avec l'une de ses serres une fois la tâche accomplie.",
+   "description": "Lorsque vous étiez là-bas, j'ai remarqué qu'un de ces monstres se tenait à l'écart des autres. Il était plus grand et plus menaçant. Je parie que c'est lui qui a incité les autres à venir ici interrompre les fouilles.\n\nJ'ai une dernière chose à vous demander, <nom>. Faites en sorte que Grondecroc réponde de ses crimes à la justice. Et compte tenu de la gravité de ses crimes, la justice dans ce cas, c'est la mort ! Apportez-moi une de ses serres pour preuve de sa mort.",
+   "progress": "Est-ce que Grondecroc est mort ? Avez-vous vengé la mémoire de ceux qui sont tombés ?",
+   "completion": "Merci, <nom>. Vos efforts ne seront pas oubliés. Beaucoup de nains innocents sont morts à cet endroit, en faisant simplement leur travail. Ces raptors diaboliques devraient réfléchir à deux fois avant d'attaquer à nouveau les sujets du roi Magni.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1078,
+     "name": "Ormer Ironbraid"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1078,
+     "name": "Ormer Ironbraid"
+    }
+   ],
+   "zone_id": 11,
+   "level": 29,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": 2950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Merci, <nom>. Vos efforts ne seront pas oubliés. Beaucoup de Nains innocents sont morts à cet endroit, en faisant simplement leur travail. Ces raptors diaboliques devraient réfléchir à deux fois avant d’attaquer à nouveau les sujets du roi Magni."
+     },
+     "npc": 1078,
+     "npc_name": "Ormer Ironbraid",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794595034,
+     "last_seen": 1794595034
+    },
+    "detail": {
+     "texts": {
+      "description": "Lorsque vous étiez là-bas, j’ai remarqué qu’un de ces monstres se tenait à l’écart des autres. Il était plus grand et plus menaçant. Je parie que c’est lui qui a incité les autres à venir ici interrompre les fouilles.\n\nJ’ai une dernière chose à vous demander, <nom>. Faites en sorte que Grondecroc réponde de ses crimes à la justice. Et compte tenu de la gravité de ses crimes, la justice dans ce cas, c’est la mort ! Apportez-moi une de ses serres pour preuve de sa mort.",
+      "objectives": "Sur ordre d'Ormer Ironbraid, de l'Excavation de Whelgar, tuer Grondecroc et revenir avec l'une de ses serres une fois la tâche accomplie.",
+      "name": "La vengeance d'Ormer"
+     },
+     "npc": 1078,
+     "npc_name": "Ormer Ironbraid",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70938",
+     "first_seen": 1794594418,
+     "last_seen": 1794594418
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "299": {
+   "id": 299,
+   "name": "Découverte du passé",
+   "objectives": "À la demande du prospecteur Whelgar, parcourir l'Excavation à la recherche des 4 fragments de tablette : Ados, Modr, Golm et Neru.",
+   "description": "Avant l'invasion, j'ai découvert une tablette appelée la Pierre de Goaz. Elle s'est brisée en quatre morceaux. Elle parle d'un \"plan divin\" et d'une \"prophétie damnée\".\n\nJe crains que nous n'ayons pas beaucoup de temps. Je suis trop vieux pour aller affronter ces bêtes. Mais vous êtes solide.\n\nExplorez le site de fouilles et cherchez les 4 fragments : Ados, Modr, Golm et Neru. Cherchez dans les artefacts anciens, ou bien là où le sol est meuble. Apportez-les, que je puisse résoudre le mystère !",
+   "progress": "Avez-vous déjà retrouvé les quatre fragments, <nom> ? Ados, Modr, Golm et Neru. . .",
+   "completion": "Ah ! La Pierre de Goaz est reconstituée ! Excellent travail, <nom>. Excellent travail, vraiment ! Maintenant je peux continuer la délicate traduction de ces récits des Titans. Je peux déjà discerner quelques nouveaux mots ! Hum. . . Il est dit : \"Dieux très anciens. . . enchaînés sous la Terre. \" C'est le début d'une épopée.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1077,
+     "name": "Prospecteur Whelgar"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1077,
+     "name": "Prospecteur Whelgar"
+    }
+   ],
+   "zone_id": 11,
+   "level": 27,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": 2300,
+   "money": 2500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah ! La pierre de Goaz est reconstituée ! Excellent travail, <nom>. Excellent travail, vraiment ! Maintenant je peux continuer la délicate traduction de ces récits des Titans. Je peux déjà discerner quelques nouveaux mots ! Hum… Il est dit : « Dieux très anciens… enchaînés sous la terre. » C’est le début d’une épopée."
+     },
+     "npc": 1077,
+     "npc_name": "Prospecteur Whelgar",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794594428,
+     "last_seen": 1794594428
+    },
+    "detail": {
+     "texts": {
+      "description": "Avant l’invasion, j’ai découvert une tablette appelée la pierre de Goaz. Elle s’est brisée en quatre morceaux. Elle parle d’un « plan divin » et d’une « prophétie damnée ».\n\nJe crains que nous n’ayons pas beaucoup de temps. Je suis trop vieux pour aller affronter ces bêtes. Mais vous êtes solide.\n\nExplorez le site de fouilles et cherchez les 4 fragments : Ados, Modr, Golm et Neru. Cherchez dans les artéfacts anciens, ou bien là où le sol est meuble. Apportez-les, que je puisse résoudre le mystère !",
+      "objectives": "À la demande du prospecteur Whelgar, parcourir l'Excavation à la recherche des 4 fragments de tablette : Ados, Modr, Golm et Neru.",
+      "name": "Découverte du passé"
+     },
+     "npc": 1077,
+     "npc_name": "Prospecteur Whelgar",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70938",
+     "first_seen": 1794573611,
+     "last_seen": 1794573611
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "303": {
+   "id": 303,
+   "name": "La guerre contre les Sombrefer",
+   "objectives": "Sur ordre de Motley Garmason à Dun Modr, tuer 15 nains Sombrefer : 5 Tunneliers Sombrefer, 5 Saboteurs Sombrefer et 5 Démolisseurs Sombrefer.",
+   "description": "La guerre fait rage ici autant qu'à l'étranger. Tandis que nos valeureux nains donnent leur vie loin de chez eux au nom de l'Alliance, nos propres terres sont la proie des nains Sombrefer. Ils ont eu raison du viaduc de Thandol. Dun Modr est tombée peu après.\n\nNous avons besoin de vous pour reprendre des forces et repousser le front. Si vous pouvez tuer 15 nains Sombrefer, 5 Tunneliers, 5 Saboteurs et 5 Démolisseurs, nos réservistes pourront être là à temps pour conduire l'offensive.\n\nFaites vite !",
+   "progress": "Roggo n'a pas pu contacter les forces de réserve. Nous avons besoin d'une pression offensive sur le campement de Dark Iron, <classe>. Maintenant, retournez là-bas et faites votre devoir envers le roi Magni !",
+   "completion": "Vous avez suivi les ordres, bien, chasse-|nresse ! Vous avez fait preuve de vaillance et de loyauté envers le roi Magni, et à ce titre vous avez toute ma considération ! Avec la pression que vous avez maintenue sur le camp Sombrefer, nous avons maintenant une chance de les chasser pour toujours de notre pays... Si seulement cette damnée réserve voulait bien arriver...",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1074,
+     "name": "Motley Garmason"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1074,
+     "name": "Motley Garmason"
+    }
+   ],
+   "zone_id": 11,
+   "level": 30,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 2450,
+   "money": 2500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "304": {
+   "id": 304,
+   "name": "Une tâche sinistre",
+   "objectives": "Tuer Balgaras le Crasseux et rapporter son oreille à Longbraid le Macabre à Dun Modr.",
+   "description": "Beaucoup de mes soldats sont morts à la bataille de Dun Modr. Mon propre frère a péri lors de la destruction du pont de l'ouest du viaduc de Thandol. Oui, les nains Sombrefer sont une race diabolique. D'après ce que Roggo a réussi à apprendre, le chef de la bande de nervis qui se trouve dans les Paluns est un démoniste du nom de Balgaras le Crasseux. Et c'est un véritable lâche. Il envoie ses soldats en première ligne, mais il reste invisible et il évite le danger.\n\nSi vous parvenez à trouver cette racaille, à l'exécuter et à m'apporter son oreille, je vous récompenserai, <classe>.",
+   "progress": "Est-ce que vous avez déjà pu localiser Balgaras le Crasseux, <classe> ? Cela fait quelque temps qu'il nous échappe.",
+   "completion": "Balgaras le Crasseux est enfin éliminé. Même si sa mort ne ramènera pas à la vie les nombreux nains innocents qu'il a tués, elle permettra à ceux qui ont survécu de retrouver la paix intérieure. Balgaras mort, ce qui reste des Sombrefer devrait être facile à gérer. Maintenant, nous devons les anéantir avant qu'un nouveau chef n’émerge.\n\nVous avez réussi, <classe>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1071,
+     "name": "Longbraid le Macabre"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1071,
+     "name": "Longbraid le Macabre"
+    }
+   ],
+   "zone_id": 11,
+   "level": 34,
+   "reqlevel": 26,
+   "side": "alliance",
+   "xp": 3350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "305": {
+   "id": 305,
+   "name": "À la recherche de l'équipe de fouilles",
+   "objectives": "À la demande de Tarrel Rockweaver, aller jusqu'à l'Excavation et contacter Merrin Rockweaver.",
+   "description": "Oh bon sang ! Vous devez être l'éclaireur que Longbraid a promis d'envoyer ! Vous ne pouvez pas imaginer mon inquiétude.\n\nMa femme, Merrin, m'envoie des lettres toutes les semaines depuis le mois dernier. Elle fait partie de l'équipe de fouilles de Whelgar. Mais il s'est écoulé presque deux semaines depuis sa dernière lettre. Il y a sûrement quelque chose qui ne va pas !\n\nLongbraid a dit qu'il enverrait un éclaireur aux nouvelles si nous n'avions pas rapidement du nouveau. Je suppose que l'éclaireur, c'est vous, <nom>. Allez voir Merrin à l'Excavation, à l'est !",
+   "progress": null,
+   "completion": "Oh, grâce au Ciel vous êtes là !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2096,
+     "name": "Tarrel Rockweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1076,
+     "name": "Merrin Rockweaver"
+    }
+   ],
+   "zone_id": 11,
+   "level": 24,
+   "reqlevel": 21,
+   "side": "alliance",
+   "xp": 970,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Oh, grâce au Ciel vous êtes là !"
+     },
+     "npc": 1076,
+     "npc_name": "Merrin Rockweaver",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794573606,
+     "last_seen": 1794573606
+    },
+    "detail": {
+     "texts": {
+      "description": "Vous ne pouvez pas imaginer mon inquiétude.\n\nMa femme, Merrin, m’envoie des lettres toutes les semaines depuis le mois dernier. Elle fait partie de l’équipe de fouilles de Whelgar. Mais il s’est écoulé presque deux semaines depuis sa dernière lettre. Il y a sûrement quelque chose qui ne va pas !\n\nTresse-longue a dit qu’il enverrait quelqu’un aux nouvelles si nous n’avions pas rapidement du nouveau. Je suppose que l’éclaireur, c’est vous, <nom>. Allez voir Merrin à l’excavation, à l’est !",
+      "objectives": "À la demande de Tarrel Rockweaver, aller jusqu'à l'Excavation et contacter Merrin Rockweaver.",
+      "name": "À la recherche de l’équipe de fouilles"
+     },
+     "npc": 2096,
+     "npc_name": "Tarrel Rockweaver",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794408229,
+     "last_seen": 1794408232
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "306": {
+   "id": 306,
+   "name": "À la recherche de l'équipe de fouilles",
+   "objectives": "Retourner voir Tarrel Rockweaver avec la lettre de Merrin.",
+   "description": "C'était horrible ! Nous avions découvert quelques artefacts rares et nous commencions à nous intéresser à ces grands ossements.\n\nAvant d'avoir compris ce qui se passait, ces raptors marbrés ont déboulé sur le site. Il y a eu beaucoup de morts.\n\nC'est Ormer – et avec quel courage ! – qui nous a sauvés, le Prospecteur et moi. Il nous a couverts pendant que nous courions nous mettre à l'abri. Maintenant nous sommes pris au piège. Et nous avons perdu le fruit de notre dur labeur.\n\nTenez, apportez cette lettre à mon cher Tarrel pour lui expliquer la situation.",
+   "progress": "Avez-vous trouvé Merrin ? Vous a-t-elle donné une lettre ?",
+   "completion": "Quelles terribles nouvelles ! Mais au moins trois d'entre eux ont survécu. Quand cette tuerie finira-t-elle ? J'aspire au jour où les sujets du roi Magni pourront vivre dans la sérénité.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1076,
+     "name": "Merrin Rockweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2096,
+     "name": "Tarrel Rockweaver"
+    }
+   ],
+   "zone_id": 11,
+   "level": 24,
+   "reqlevel": 21,
+   "side": "alliance",
+   "xp": 485,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Quelles terribles nouvelles ! Mais au moins trois d’entre eux ont survécu. Quand cette tuerie finira-t-elle ? J’aspire au jour où les sujets du roi Magni pourront vivre dans la sérénité."
+     },
+     "npc": 2096,
+     "npc_name": "Tarrel Rockweaver",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794574366,
+     "last_seen": 1794574366
+    },
+    "detail": {
+     "texts": {
+      "description": "C’était horrible ! Nous avions découvert quelques artéfacts rares et nous commencions à nous intéresser à ces grands ossements.\n\nAvant d’avoir compris ce qui se passait, ces raptors tachetés ont déboulé sur le site. Il y a eu beaucoup de morts.\n\nC’est Ormer – et avec quel courage ! – qui nous a sauvés, le prospecteur et moi. Il nous a couverts pendant que nous courions nous mettre à l’abri. Maintenant nous sommes pris au piège. Et nous avons perdu le fruit de notre dur labeur.\n\nTenez, apportez cette lettre à mon cher Tarrel pour lui expliquer la situation.",
+      "objectives": "Retourner voir Tarrel Rockweaver avec la lettre de Merrin.",
+      "name": "À la recherche de l’équipe de fouilles"
+     },
+     "npc": 1076,
+     "npc_name": "Merrin Rockweaver",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70938",
+     "first_seen": 1794573608,
+     "last_seen": 1794573608
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "455": {
+   "id": 455,
+   "name": "Le défi d'Algaz",
+   "objectives": "Traverser Dun Algaz.\n\nTuer 8 Eclaireurs Dragonmaw et 6 Grunts Dragonmaw.\n\nFaites votre rapport à Valstag Ironjaw au port de Menethil.",
+   "description": "Les orcs du clan Dragonmaw ont un refuge dans les Paluns. Mais voilà : ils se répandent maintenant dans Dun Algaz ! Nous ne pouvons les laisser s'installer là, sinon le Loch Modan sera coupé du port de Menethil, notre port et bastion dans les Paluns.\n\nTraversez Dun Algaz jusqu'aux Paluns et tuez quelques orcs pour faire bonne mesure! Faites un rapport à Valstag Ironjaw au port de Menethil.\n\nPour rejoindre Menethil, passez par Dun Algaz, puis allez au nord en longeant la route, et enfin prenez à l'ouest à l'embranchement.\n\nNous comptons sur vous, <nom>. Vous ne pouvez échouer.",
+   "progress": "Vous venez du Loch Modan ? Quelle est la situation des orcs à Algaz Gate ?",
+   "completion": "Votre rapport n'est que mauvaises nouvelles !\n\nJe constate que les Dragonmaw font mouvement vers Algaz. Normalement ils se cachent dans les collines. Pourquoi se ruent-ils sur Algaz ? C'est encore un mystère. . .\n\nMerci, <nom>. Nous aurons certainement besoin de votre aide pour traiter le problème des orcs.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1342,
+     "name": "Montagnard Rockgar"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2086,
+     "name": "Valstag Ironjaw"
+    }
+   ],
+   "zone_id": 11,
+   "level": 21,
+   "reqlevel": 19,
+   "side": "alliance",
+   "xp": 1250,
+   "money": 1000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "463": {
+   "id": 463,
+   "name": "Le Gouverneur vert",
+   "objectives": "Trouver le Gouverneur vert.",
+   "description": "Avez-vous entendu parler du Gouverneur vert ? Vous ne le cherchez pas, n'est-ce pas ? Je dirais que vous êtes <fou/folle> si c'est le cas, mais qui suis-je pour empêcher <un illuminé/une illuminée> de courir à sa mort ?\n\nSi vous cherchez le monstre, je crois qu'il hante les marécages à l'est de la route où il y a l'embranchement pour Dun Modr. Il est tapi là-bas, parmi les crocilisques et de choses pires encore !\n\nEt puis, laissez donc votre argent ici ; il ne vous servira à rien où vous allez. Vous ne voulez pas non plus que le Verdâtre s'ébrèche les dents sur votre or quand il vous coupera en deux ?",
+   "progress": null,
+   "completion": "Je vous ai entendue aller à travers les racines et les fougères, petite créature. Bien que j'aie beaucoup de noms, vous pouvez m'appeler Rethiel.\n\nÉcoutez attentivement : ces terres pleurent leurs blessures, et vous pourriez vous charger de les guérir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1239,
+     "name": "Premier officier Fitzsimmons"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1244,
+     "name": "Rethiel le Gouverneur vert"
+    }
+   ],
+   "zone_id": 11,
+   "level": 21,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 830,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "fou/folle",
+    "un illuminé/une illuminée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Je vous ai entendue aller à travers les racines et les fougères, petite créature. Bien que j'aie beaucoup de noms, vous pouvez m'appeler Rethiel.\n\nÉcoutez attentivement : ces terres pleurent leurs blessures, et vous pourriez vous charger de les guérir."
+     },
+     "npc": 1244,
+     "npc_name": "Rethiel le Gouverneur vert",
+     "npc_type": "Creature",
+     "npc_sex": 1,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70888",
+     "first_seen": 1794463750,
+     "last_seen": 1794463750
+    },
+    "detail": {
+     "texts": {
+      "description": "Avez-vous entendu parler du Gardien vert ? Vous ne le cherchez pas, n’est-ce pas ? Je dirais que vous êtes fou si c’est le cas, mais qui suis-je pour empêcher un illuminé de courir à sa mort ?\n\nSi vous cherchez le monstre, je crois qu’il hante les marécages à l’est de la route où il y a l’embranchement pour Dun Modr. Il est tapi là-bas, parmi les crocilisques et de choses pires encore !\n\nEt puis, laissez donc votre argent ici ; il ne vous servira à rien où vous allez. Vous ne voulez pas non plus que le Verdâtre s’ébrèche les dents sur votre or quand il vous coupera en deux ?",
+      "objectives": "Trouver le Gouverneur vert.",
+      "name": "Le Gouverneur vert"
+     },
+     "npc": 1239,
+     "npc_name": "Premier officier Fitzsimmons",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794408389,
+     "last_seen": 1794408389
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "464": {
+   "id": 464,
+   "name": "Bannières de guerre",
+   "objectives": "Rapporter 8 Bannières de guerre Dragonmaw au capitaine Stoutfist.",
+   "description": "Le clan des orcs Dragonmaw fut pratiquement anéanti à la fin de la Deuxième Guerre après qu'ils eurent perdu le contrôle de leurs dragons rouges. Les dragons n'étaient pas contents de leurs anciens maîtres et ont sauvagement traqué les Dragonmaw. Les quelques survivants ont fui de Grim Batol dans les montagnes jusqu’à l'est de l'Excavation de Whelgar.\n\nMaintenant ils ont repris des forces et campent au nord-est de Menethil.\n\nNous voulons que vous attaquiez leur campement. Vous rassemblerez et me rapporterez leurs bannières de guerre comme preuve de leur destruction.",
+   "progress": "Avez-vous attaqué le campement Dragonmaw ?",
+   "completion": "Beau combat, <nom>. Les Dragonmaw ne sont plus les combattants qu'ils étaient quand ils avaient les dragons avec eux, mais ils restent de redoutables adversaires.\n\nIls sont menés par Nek'rosh, fils de Nekros qui était le précédent chef du clan, il y a plusieurs années. Nekros utilisait une puissante magie pour dominer les dragons rouges, mais lorsque cette magie vint à lui échapper, les dragons se retournèrent contre lui.\n\nNekros fut tué et son fils fit serment de le venger des dragons qui l'avaient massacré. .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2104,
+     "name": "Capitaine Stoutfist"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2104,
+     "name": "Capitaine Stoutfist"
+    }
+   ],
+   "zone_id": 11,
+   "level": 28,
+   "reqlevel": 23,
+   "side": "alliance",
+   "xp": 2300,
+   "money": 2500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Beau combat, <nom>. Les Gueules-de-dragon ne sont plus les combattants qu’ils étaient quand ils avaient les Dragons avec eux, mais ils restent de redoutables adversaires.\n\nIls sont menés par Nek’rosh, fils de Nekros qui était le précédent chef du clan, il y a plusieurs années. Nekros utilisait une puissante magie pour dominer les Dragons rouges, mais lorsque cette magie vint à lui échapper, les Dragons se retournèrent contre lui.\n\nNekros fut tué, et son fils fit serment de le venger des Dragons qui l’avaient massacré."
+     },
+     "npc": 2104,
+     "npc_name": "Capitaine Stoutfist",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794574413,
+     "last_seen": 1794574413
+    },
+    "detail": {
+     "texts": {
+      "description": "Le clan des Orcs gueules-de-dragon fut pratiquement anéanti à la fin de la Deuxième guerre après qu’ils eurent perdu le contrôle de leurs Dragons rouges. Les Dragons n’étaient pas contents de leurs anciens maîtres et ont sauvagement traqué les Gueules-de-dragon. Les quelques survivants ont fui de Grim Batol dans les montagnes jusqu’à l’est du site de fouilles de Whelgar.\n\nMaintenant ils ont repris des forces et campent au nord-est de Menethil.\n\nNous voulons que vous attaquiez leur campement. Vous rassemblerez et me rapporterez leurs bannières de guerre comme preuve de leur destruction.",
+      "objectives": "Rapporter 8 Bannières de guerre Dragonmaw au capitaine Stoutfist.",
+      "name": "Bannières de guerre"
+     },
+     "npc": 2104,
+     "npc_name": "Capitaine Stoutfist",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794408280,
+     "last_seen": 1794408280
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "465": {
+   "id": 465,
+   "name": "La manœuvre de Nek'rosh",
+   "objectives": "Détruire les Catapultes Dragonmaw.",
+   "description": "Pendant que vous combattiez les Dragonmaw, nous avons percé à jour certains de leurs plans.\n\nNek'rosh a fait construire des catapultes et projette d'assiéger Menethil ! Et avec les combats à Dun Algaz, nous sommes coupés des renforts !\n\nVous devez détruire ces catapultes. Elles sont au campement des Dragonmaw.\n\nVoici, prenez ce combustible. Taillez-vous une route à coups d'épée jusqu'aux catapultes, puis brûlez-les à l'aide du combustible.\n\nAprès, trouvez et tuez Nek'rosh. Rien ne nous plairait plus que d'avoir la tête de cette engeance Dragonmaw au bout d'une pique...",
+   "progress": "La première catapulte est devant vous, allez-vous la brûler ?",
+   "completion": "Vous placez le combustible sur la catapulte et produisez une étincelle.\n\nLes flammes jaillissent et gagnent rapidement !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2104,
+     "name": "Capitaine Stoutfist"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 1609,
+     "name": "Dragonmaw Catapult"
+    },
+    {
+     "type": "object",
+     "id": 630696,
+     "name": "Dragonmaw Catapult"
+    }
+   ],
+   "zone_id": 11,
+   "level": 31,
+   "reqlevel": 23,
+   "side": "alliance",
+   "xp": 1900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Les Gueules-de-dragon sont sur le point de mettre leurs plans d’attaque à exécution, bien plus tôt que nous ne le pensions.\n\nNek’rosh a fait construire des catapultes et projette d’assiéger Menethil ! Et avec les combats à Dun Algaz, nous sommes coupés des renforts !\n\nVous devez détruire ces catapultes. Elles sont au campement des Gueules-de-dragon.\n\nVoici, prenez ce combustible. Taillez-vous une route à coups d’épée jusqu’aux catapultes, puis brûlez-les à l’aide du combustible.\n\nAprès, trouvez et tuez Nek’rosh. Rien ne nous plairait plus que d’avoir la tête de cette engeance gueule-de-dragon au bout d’une pique…",
+      "objectives": "Détruire les Catapultes Dragonmaw.",
+      "name": "La manœuvre de Nek'rosh"
+     },
+     "npc": 2104,
+     "npc_name": "Capitaine Stoutfist",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70938",
+     "first_seen": 1794574415,
+     "last_seen": 1794574415
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "468": {
+   "id": 468,
+   "name": "Un rapport pour le Montagnard Rockgar",
+   "objectives": "Parler au Montagnard Rockgar.",
+   "description": "Le Montagnard Rockgar cherche des volontaires pour une mission dans Dun Algaz et les Paluns.\n\nSi vous voulez mouiller vos bottes dans cette terre détrempée au nord, allez parler à Rockgar à Dun Algaz. Dun Algaz est plus au nord sur la route, après la Tour de garde.",
+   "progress": null,
+   "completion": "Salut, <classe> ! Vous êtes ici pour le boulot d'éclaireur, non ? Bien !\n\nJ'espère que votre équipement est au point, parce que cette mission de \"reconnaissance\" sera tout sauf une partie de plaisir. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1340,
+     "name": "Montagnard Kadrell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1342,
+     "name": "Montagnard Rockgar"
+    }
+   ],
+   "zone_id": 11,
+   "level": 21,
+   "reqlevel": 19,
+   "side": "alliance",
+   "xp": 165,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "469": {
+   "id": 469,
+   "name": "Livraison quotidienne",
+   "objectives": "Apporter le Lot de peaux de crocilisques à James Halloran, le tanneur, au port de Menethil.",
+   "description": "Bonjour !\n\nVous n’iriez pas vers Menethil, par hasard ? Sinon, vous pouvez faire halte ici, c'est un bon endroit pour faire des achats ou prendre une pinte de bière.\n\nMais si vous allez tout de même à Menethil, vous pourriez peut-être apporter ce lot de peaux de crocilisques à James Halloran, le tanneur ?\n\nJe pourrais le faire moi-même, mais ma femme est d’une méchante humeur en ce moment, et j’aimerais autant éviter de la contrarier.",
+   "progress": "Bonjour, <classe>. N'êtes-vous pas intéressé par une paire de bottes ? Peut-être par des peaux fraîchement traitées ?",
+   "completion": "Hum ! Cela vient d'Einar, non ? Il ne m'a pas livré de peaux depuis presque une semaine. Je gage qu'il doit être retenu par sa femme !\n\nPeut-être faudrait-il que j'envoie la mienne causer avec Sidonie, un de ces jours. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2093,
+     "name": "Einar Stonegrip"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2094,
+     "name": "James Halloran"
+    }
+   ],
+   "zone_id": 11,
+   "level": 21,
+   "reqlevel": 18,
+   "side": "alliance",
+   "xp": 830,
+   "money": 700,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Hum ! Cela vient d'Einar, non ? Il ne m'a pas livré de peaux depuis presque une semaine. Je gage qu'il doit être retenu par sa femme !\n\nPeut-être faudrait-il que j'envoie la mienne causer avec Sidonie, un de ces jours..."
+     },
+     "npc": 2094,
+     "npc_name": "James Halloran",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70888",
+     "first_seen": 1794408321,
+     "last_seen": 1794408321
+    },
+    "detail": {
+     "texts": {
+      "description": "Bonjour !\n\nVous n’iriez pas vers Menethil, par hasard ? Sinon, vous pouvez faire halte ici, c'est un bon endroit pour faire des achats ou prendre une pinte de bière.\n\nMais si vous allez tout de même à Menethil, vous pourriez peut-être apporter ce lot de peaux de crocilisques à James Halloran, le tanneur ?\n\nJe pourrais le faire moi-même, mais ma femme est d’une méchante humeur en ce moment, et j’aimerais autant éviter de la contrarier.",
+      "objectives": "Apporter le Lot de peaux de crocilisques à James Halloran, le tanneur, au port de Menethil.",
+      "name": "Livraison quotidienne"
+     },
+     "npc": 2093,
+     "npc_name": "Einar Stonegrip",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794407942,
+     "last_seen": 1794407942
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "470": {
+   "id": 470,
+   "name": "En creusant dans la vase",
+   "objectives": "L'un des Limons dans le Tombeau d'Ironbeard a le sac de Sidonie. Le retrouver et le lui rapporter au Port de Menethil.",
+   "description": "A l'occasion de ma visite hebdomadaire au Tombeau d'Ironbeard, j'ai été attaquée par de redoutables Limons visqueux ! Naturellement, j'ai paniqué.\n\nJ'ai jeté mon sac sur l'un d'eux, qui l'a littéralement aspiré, ce qui m'a laissé le temps de m'enfuir.\n\nLa mauvaise nouvelle, c’est que j'ai absolument besoin du contenu de mon sac !\n\nEt je ne sais pas sur quel Limon je l'ai jeté : ils se ressemblent tous ! Le Tombeau d'Ironbeard est au nord-est, près de Dun Modr. Merci mille fois !",
+   "progress": "Avez-vous retrouvé mon sac ?",
+   "completion": "Oh merci, <nom> ! Je craignais de l'avoir perdu pour de bon !\n\nEuh ! Je n'ai plus besoin de cela maintenant, mais si vous le laviez, vous pourriez en avoir l'usage.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2111,
+     "name": "Sidonie"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2111,
+     "name": "Sidonie"
+    }
+   ],
+   "zone_id": 11,
+   "level": 24,
+   "reqlevel": 19,
+   "side": "alliance",
+   "xp": 2400,
+   "money": 3500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Oh merci, <nom> ! Je craignais de l'avoir perdu pour de bon !\n\n<Elle vide rapidement sur le sol le contenu de son sac couvert de vase avant de le ramasser.>\n\nEuh ! Je n'ai plus besoin de cela maintenant, mais si vous le laviez, vous pourriez en avoir l'usage."
+     },
+     "npc": 2111,
+     "npc_name": "Sidonie",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70888",
+     "first_seen": 1794513284,
+     "last_seen": 1794513284
+    },
+    "detail": {
+     "texts": {
+      "description": "A l'occasion de ma visite hebdomadaire au Tombeau d'Ironbeard, j'ai été attaquée par de redoutables Limons visqueux ! Naturellement, j'ai paniqué.\n\nJ'ai jeté mon sac sur l'un d'eux, qui l'a littéralement aspiré, ce qui m'a laissé le temps de m'enfuir.\n\nLa mauvaise nouvelle, c’est que j'ai absolument besoin du contenu de mon sac !\n\nEt je ne sais pas sur quel Limon je l'ai jeté : ils se ressemblent tous ! Le Tombeau d'Ironbeard est au nord-est, près de Dun Modr. Merci mille fois !",
+      "objectives": "L'un des Limons dans le Tombeau d'Ironbeard a le sac de Sidonie. Le retrouver et le lui rapporter au Port de Menethil.",
+      "name": "En creusant dans la vase"
+     },
+     "npc": 2111,
+     "npc_name": "Sidonie",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794408415,
+     "last_seen": 1794408415
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "471": {
+   "id": 471,
+   "name": "Les devoirs de l'apprenti",
+   "objectives": "Collecter 6 Peaux de crocilisque géant, et les apporter à James Halloran, au port de Menethil.",
+   "description": "J'ai envoyé mon apprenti dans les marécages pour chasser les fameux crocilisques géants des Paluns. Comme il ne revenait pas, je suis parti à sa recherche et l'ai retrouvé. Tout ce que je peux dire c'est que ce n'était pas... plaisant à regarder.\n\nLa rebouteuse dit qu'il va s'en sortir, mais entre-temps, j'ai toujours besoin de mes peaux !\n\n... Si vous tuiez quelques-uns de ces monstres, je n'y ferais aucune objection ; après ce qu'ils ont fait... Vous trouverez les crocos au nord de la côte, derrière les taudis des murlocs.",
+   "progress": "Mon apprenti est comme un fils pour moi. Ça va être dur pour lui de vivre avec une seule jambe.\n\nAh, <nom>, comment ça va ? Avez-vous mes peaux ?",
+   "completion": "Hum. . . Vous ne voudriez pas devenir mon apprenti ?\n\nAllons, je plaisantais. Vous êtes trop âgé, pour commencer. De plus, à vous voir vous semblez avoir d'autres ambitions dans la vie. Vous avez néanmoins rapporté de bien belles peaux dont je saurai faire bon usage.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2094,
+     "name": "James Halloran"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2094,
+     "name": "James Halloran"
+    }
+   ],
+   "zone_id": 11,
+   "level": 26,
+   "reqlevel": 18,
+   "side": "alliance",
+   "xp": 2100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Hum… Vous ne voudriez pas devenir mon apprenti ?\n\nAllons, je plaisantais. Vous êtes trop âgé, pour commencer. De plus, à vous voir vous semblez avoir d’autres ambitions dans la vie. Vous avez néanmoins rapporté de bien belles peaux dont je saurai faire bon usage."
+     },
+     "npc": 2094,
+     "npc_name": "James Halloran",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70888",
+     "first_seen": 1794430993,
+     "last_seen": 1794430993
+    },
+    "detail": {
+     "texts": {
+      "description": "J'ai envoyé mon apprenti dans les marécages pour chasser les fameux crocilisques géants des Paluns. Comme il ne revenait pas, je suis parti à sa recherche et l'ai retrouvé. Tout ce que je peux dire c'est que ce n'était pas... plaisant à regarder.\n\nLa rebouteuse dit qu'il va s'en sortir, mais entre-temps, j'ai toujours besoin de mes peaux !\n\n... Si vous tuiez quelques-uns de ces monstres, je n'y ferais aucune objection ; après ce qu'ils ont fait... Vous trouverez les crocos au nord de la côte, derrière les taudis des murlocs.",
+      "objectives": "Collecter 6 Peaux de crocilisque géant, et les apporter à James Halloran, au port de Menethil.",
+      "name": "Les devoirs de l'apprenti"
+     },
+     "npc": 2094,
+     "npc_name": "James Halloran",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794429331,
+     "last_seen": 1794429331
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "472": {
+   "id": 472,
+   "name": "La chute de Dun Modr",
+   "objectives": "Rechercher Longbraid dans les parages du village de Dun Modr.",
+   "description": "Dun Modr est tombé aux mains des nains Sombrefer !\n\nMes blessures sont sérieuses, <classe>. Mon régiment a été pratiquement décimé ! Ces brutes de Sombrefer nous ont attaqués avant que nous puissions nous regrouper après l'embuscade du viaduc de Thandol.\n\nNotre chef, Longbraid, a sonné la retraite. Comme nous quittions la ville, j’ai reçu une hache dans le dos. Un voile noir s'est abattu devant mes yeux.\n\nJe me suis réveillé ici, en sécurité à Menethil, mais j'ai peur pour mes compagnons. L'espoir ne m'a pas encore abandonné. Peut-être Longbraid est-il encore vivant ! <nom>, voyez si vous pouvez le retrouver, pas loin du village de Dun Modr !",
+   "progress": null,
+   "completion": "Lequel de ces braves guerriers nous arrive de Menethil ? <nom>, c'est ainsi qu'on vous appelle ?\n\nVous apportez de l'espoir, dans une situation désespérée. Je suis vraiment heureux d'apprendre que le jeune Harlo a survécu. En fuyant, il a été gravement blessé. Nous avons juste eu le temps de le renvoyer sur le dos du dernier coursier du régiment.\n\nMais maintenant nous devons faire face à une situation périlleuse. Dun Modr est tombé et nous ne sommes plus que l'ombre du valeureux régiment que nous étions jadis.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2097,
+     "name": "Harlo Barnaby"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1071,
+     "name": "Longbraid le Macabre"
+    }
+   ],
+   "zone_id": 11,
+   "level": 25,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 1000,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Dun Modr est tombé aux mains des nains Sombrefer !\n\nMes blessures sont sérieuses, <classe>. Mon régiment a été pratiquement décimé ! Ces brutes de Sombrefer nous ont attaqués avant que nous puissions nous regrouper après l'embuscade du viaduc de Thandol.\n\nNotre chef, Longbraid, a sonné la retraite. Comme nous quittions la ville, j’ai reçu une hache dans le dos. Un voile noir s'est abattu devant mes yeux.\n\nJe me suis réveillé ici, en sécurité à Menethil, mais j'ai peur pour mes compagnons. L'espoir ne m'a pas encore abandonné. Peut-être Longbraid est-il encore vivant ! <nom>, voyez si vous pouvez le retrouver, pas loin du village de Dun Modr !",
+      "objectives": "Rechercher Longbraid dans les parages du village de Dun Modr.",
+      "name": "La chute de Dun Modr"
+     },
+     "npc": 2097,
+     "npc_name": "Harlo Barnaby",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70938",
+     "first_seen": 1794551027,
+     "last_seen": 1794551027
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "473": {
+   "id": 473,
+   "name": "Un rapport au capitaine Stoutfist",
+   "objectives": "Parler au capitaine Stoutfist.",
+   "description": "<nom>. Le clan des orcs Dragonmaw montre sa puissance bien au-delà d'Algaz. Le capitaine Stoutfist a demandé à parler à tous ceux qui sont prêts à s'engager contre ces orcs. Il est à l'intérieur du donjon, dans la salle de guerre.",
+   "progress": null,
+   "completion": "<nom>. Valstag m'a parlé de vos victoires passées sur les orcs Dragonmaw à Dun Algaz. J'ai rarement vu un <race> aussi valeureux !\n\nEt j'ai une mission pour vous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2086,
+     "name": "Valstag Ironjaw"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2104,
+     "name": "Capitaine Stoutfist"
+    }
+   ],
+   "zone_id": 11,
+   "level": 28,
+   "reqlevel": 23,
+   "side": "alliance",
+   "xp": 230,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "474": {
+   "id": 474,
+   "name": "Vaincre Nek'rosh",
+   "objectives": "Tuer le Chef Nek'rosh\n\nRapporter la tête de Nek'rosh au capitaine Stoutfist.",
+   "description": "Maintenant que les catapultes ont été détruites, trouvez et exécutez le Chef Nek'rosh.",
+   "progress": "Avez-vous tué Nek'rosh?",
+   "completion": "Bravo, <nom>. Vous avez porté un coup magistral aux orcs Dragonmaw. Ils pourraient ne pas s'en relever. De plus, les catapultes brûlées, le port de Menethil n'a plus rien à redouter.\n\nVous êtes un <race> de grand mérite. Le royaume d'Ironforge sait récompenser ceux qui le servent loyalement.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 1609,
+     "name": "Dragonmaw Catapult"
+    },
+    {
+     "type": "object",
+     "id": 630696,
+     "name": "Dragonmaw Catapult"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2104,
+     "name": "Capitaine Stoutfist"
+    }
+   ],
+   "zone_id": 11,
+   "level": 32,
+   "reqlevel": 23,
+   "side": "alliance",
+   "xp": 2550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "484": {
+   "id": 484,
+   "name": "Les peaux de jeune crocilisque",
+   "objectives": "Collecter 4 Peaux de jeune crocilisque, pour James Halloran, au port de Menethil.",
+   "description": "Je suis James Halloran, le tanneur. Mes peaux de crocilisque traitées sont prisées dans le monde entier.\n\nVous connaissez Einar ? C’est l’un des chasseurs qui m'approvisionne en peaux.\n\nJe suis en ce moment à court de ces peaux soyeuses qui proviennent des jeunes crocilisques.\n\nJe vous paierais grassement si vous pouviez me rapporter quelques-unes de ces peaux. Vous trouverez les jeunes crocilisques dans les marécages, à l’extérieur de la ville.",
+   "progress": "<nom>, c'est ça ? Avez-vous mes peaux ?",
+   "completion": "Beau travail, <nom>. La qualité de ces peaux est superbe. Il faut que je commence à les traiter le plus tôt possible. Mais avant, j'ai encore un travail à vous confier ; vous seriez tout à fait à même de le faire, à mon avis.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2094,
+     "name": "James Halloran"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2094,
+     "name": "James Halloran"
+    }
+   ],
+   "zone_id": 11,
+   "level": 22,
+   "reqlevel": 18,
+   "side": "alliance",
+   "xp": 1750,
+   "money": 1400,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Beau travail, <nom>. La qualité de ces peaux est superbe. Il faut que je commence à les traiter le plus tôt possible. Mais avant, j'ai encore un travail à vous confier ; vous seriez tout à fait à même de le faire, à mon avis."
+     },
+     "npc": 2094,
+     "npc_name": "James Halloran",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70888",
+     "first_seen": 1794429329,
+     "last_seen": 1794429329
+    },
+    "detail": {
+     "texts": {
+      "description": "Je suis James Halloran, le tanneur. Mes peaux de crocilisque traitées sont prisées dans le monde entier.\n\nVous connaissez Einar ? C’est l’un des chasseurs qui m’approvisionne en peaux.\n\nJe suis en ce moment à court de ces peaux soyeuses qui proviennent des jeunes crocilisques.\n\nJe vous paierais grassement si vous pouviez me rapporter quelques-unes de ces peaux. Vous trouverez les jeunes crocilisques dans l’eau, à l’extérieur de la ville.",
+      "objectives": "Collectez6 peaux de jeune crocilisque pour James Halloran, au port de Menethil.",
+      "name": "Les peaux de jeune crocilisque"
+     },
+     "npc": 2094,
+     "npc_name": "James Halloran",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794408322,
+     "last_seen": 1794408322
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "631": {
+   "id": 631,
+   "name": "Le viaduc de Thandol",
+   "objectives": "Rhag Garmason veut que vous retrouviez le vieux Rustlocke.",
+   "description": "Une explosion monstrueuse a grondé à travers les collines. C'tait horrible, j'vous l'dis !\n\nDe bons soldats sont morts en défendant le viaduc de Thandol. Longbraid dit que nous prendrons notre revanche sur les Sombrefer avant que tout cela ne soit fini.\n\nIci, il n’y a que des blessés, et je ne vois aucun renfort arriver à l'horizon. Longbraid a envoyé le vieux Rustlocke en reconnaissance au pont à l'est, pour voir si nous pouvions le sécuriser.\n\nC'était il y a plusieurs jours. Avec Dun Modr en état de siège, nous n'avons pas les ressources d’aller le chercher.\n\nPeut-être pourriez-vous le trouver...",
+   "progress": null,
+   "completion": "Vous fouillez le corps du nain. Gravé sur le casque vous lisez clairement : Ebenezer Rustlocke.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1075,
+     "name": "Rhag Garmason"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 2652,
+     "name": "Ebenezer Rustlocke's Corpse"
+    }
+   ],
+   "zone_id": 11,
+   "level": 31,
+   "reqlevel": 28,
+   "side": "alliance",
+   "xp": 2500,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "632": {
+   "id": 632,
+   "name": "Le viaduc de Thandol",
+   "objectives": "Rendre compte à Rhag Garmason et lui montrer le parchemin que vous avez trouvé sur le corps de Rustlocke.",
+   "description": "Il semblerait que le pauvre vieux Rustlocke soit tombé dans une embuscade de Sombrefer. Vous remarquez un parchemin froissé dans son poing serré.\n\nApportez la triste nouvelle à Rhag Garmason et montrez-lui ce que vous avez trouvé.",
+   "progress": "Des nouvelles du vieux Rustlocke, <nom> ?",
+   "completion": "Oh non ! La nouvelle est grave…",
+   "starters": [
+    {
+     "type": "object",
+     "id": 2652,
+     "name": "Ebenezer Rustlocke's Corpse"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1075,
+     "name": "Rhag Garmason"
+    }
+   ],
+   "zone_id": 11,
+   "level": 31,
+   "reqlevel": 28,
+   "side": "alliance",
+   "xp": 2500,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "633": {
+   "id": 633,
+   "name": "Le viaduc de Thandol",
+   "objectives": "Détruire la cache d'explosifs.",
+   "description": "Par le Ciel, non ! Pauvre Rustlocke ! C'est une tragédie !\n\nNous ne devons pas laisser sa mort impunie. Le parchemin qu’il tenait indique que Kam Deepfury, le cerveau derrière la première attaque, a fait entreposer des explosifs dans une cache, juste de l'autre côté du viaduc de Thandol, dans les hautes-terres d'Arathi.\n\nSi ces explosifs atteignent le pont, notre principale ligne d'approvisionnement vers le nord sera très compromise. La cache doit être détruite, <nom>. Revenez me voir lorsque votre mission sera accomplie.\n\nVous êtes notre seul espoir.",
+   "progress": "La cache d'explosifs doit être détruite !",
+   "completion": "Le pont restant est sauvé ! Vous avez rendu un grand service au roi Magni et au peuple de Khaz Modan.\n\nÀ présent, si nous pouvions tenir suffisamment longtemps pour permettre aux renforts d'arriver. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1075,
+     "name": "Rhag Garmason"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1075,
+     "name": "Rhag Garmason"
+    }
+   ],
+   "zone_id": 11,
+   "level": 31,
+   "reqlevel": 28,
+   "side": "alliance",
+   "xp": 2500,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "634": {
+   "id": 634,
+   "name": "L'appel à l'Alliance",
+   "objectives": "Chercher le capitaine Nials au Refuge de l'Ornière.",
+   "description": "J'aimerais vous demander un autre petit service, <classe>. Nous attendons les troupes de réserve d'Ironforge. Cependant, Roggo connaît l'existence d'un camp de l'Alliance, au nord sur les hautes-terres d'Arathi, au Refuge de l'Ornière.\n\nAllez-y et cherchez le capitaine Nials. Demandez-lui si l'Alliance peut nous prêter quelques soldats pour nous aider à reprendre Dun Modr et le viaduc de Thandol.",
+   "progress": null,
+   "completion": "Mes condoléances accompagnent Longbraid et ses courageux soldats. La nouvelle de la tragédie du viaduc de Thandol et de la chute de Dun Modr assombrit mon cœur.\n\nMais Stromgarde est tombée. D'où notre présence ici au Refuge de l'Ornière. Nous devons reprendre nous-mêmes notre cité.\n\nL'honneur et le devoir exigent que nous ne quittions pas les hautes-terres tant que la grande bannière du roi ne flottera pas de nouveau sur Stromgarde. Je dois envoyer un message annonçant à Longbraid qu'il est seul. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1075,
+     "name": "Rhag Garmason"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2700,
+     "name": "Capitaine Nials"
+    }
+   ],
+   "zone_id": 11,
+   "level": 31,
+   "reqlevel": 28,
+   "side": "alliance",
+   "xp": 1250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "647": {
+   "id": 647,
+   "name": "Le tord-boyaux de MacKreel",
+   "objectives": "Apporter le Tord-boyaux de MacKreel au brasseur Bilger à Southshore.",
+   "description": "J'ai bu pas mal de mon bon vieux tord-boyaux la nuit dernière ! Longbraid aurait ma tête s'il savait que je me suis endormi pendant mon tour de garde.\n\nL’alcool a frappé fort. Je me sentais comme si une brigade entière de machines de siège m'était passée sur le crâne, avec tous ces grondements.\n\nBon sang, regardez l'heure ! J'ai promis au brasseur Bilger de Southshore que je lui paierai ma dette en lui envoyant du tord-boyaux.\n\nMais il ne reste que 15 minutes, après je serai en retard ! Apportez-lui ce lot, s'il vous plaît ! Et dépêchez-vous !",
+   "progress": "Puis-je vous aider, <nom> ?",
+   "completion": "Ah ! Rien de tel que le tord-boyaux de Foggy MacKreel pour vous réchauffer par une journée fraîche. Et moi qui pensais que ce parasite serait de nouveau en retard pour payer son ardoise. Merci, mon ami ! Merci infiniment !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2696,
+     "name": "Foggy MacKreel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2705,
+     "name": "Brasseur Bilger"
+    }
+   ],
+   "zone_id": 11,
+   "level": 30,
+   "reqlevel": 28,
+   "side": "alliance",
+   "xp": 3050,
+   "money": 5500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1132": {
+   "id": 1132,
+   "name": "Fiora Longears",
+   "objectives": "S'adresser à Fiora Longears à Theramore.",
+   "description": "Ah ! Pouvoir prendre la mer une fois encore ! Sentir le baiser du vent, être bercé par les vagues comme un enfant par sa mère !\n\nJ'aimerais avoir votre chance, cher <classe>, car je vois la mer dans votre avenir proche !\n\nIl est de mon devoir de raconter aux âmes vaillantes la terre de Kalimdor, la terre de toutes les possibilités ! Si vous voulez chercher fortune sur la mer, prenez ici un bateau qui vous mènera au joli port de Theramore. Adressez-vous alors à mon amie, l'elfe Fiora Longears.\n\nElle vous aidera à commencer l'aventure de Kalimdor !",
+   "progress": null,
+   "completion": "Bonjour à vous ! C'est M. Flint, du Port de Menethil qui vous envoie ? Habituellement, M. Flint fait preuve d’un bon jugement. S'il vous envoie ici, c'est que vous appartenez à Kalimdor !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4455,
+     "name": "Jack Flint le rouge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4456,
+     "name": "Fiora Longears"
+    }
+   ],
+   "zone_id": 11,
+   "level": 30,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 780,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Ah ! Pouvoir prendre la mer une fois encore ! Sentir le baiser du vent, être bercé par les vagues comme un enfant par sa mère !\n\nJ'aimerais avoir votre chance, cher <classe>, car je vois la mer dans votre avenir proche !\n\nIl est de mon devoir de raconter aux âmes vaillantes la terre de Kalimdor, la terre de toutes les possibilités ! Si vous voulez chercher fortune sur la mer, prenez ici un bateau qui vous mènera au joli port de Theramore. Adressez-vous alors à mon amie, l'elfe Fiora Longears.\n\nElle vous aidera à commencer l'aventure de Kalimdor !",
+      "objectives": "S'adresser à Fiora Longears à Theramore.",
+      "name": "Fiora Longears"
+     },
+     "npc": 4455,
+     "npc_name": "Jack Flint le rouge",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70938",
+     "first_seen": 1794811982,
+     "last_seen": 1794811982
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1302": {
+   "id": 1302,
+   "name": "James Hyal",
+   "objectives": "Parler au greffier Lendry à Theramore.",
+   "description": "Mon frère James a accompagné Dame Proudmoore lorsqu'elle a traversé les océans. Les dernières nouvelles disaient que le calme était revenu là-bas et que James avait monté une auberge quelque part sur le continent. Où qu'il soit, je suis sûr qu'il fait de bonnes affaires. C'est un excellent chef cuisinier !\n\nJe suis sans nouvelles de lui depuis un bon moment. Trop de travail avec son auberge, je suppose. Mais le greffier à Theramore a peut-être plus de renseignements.",
+   "progress": null,
+   "completion": "James Hyal, James Hyal… Pourquoi ce nom me paraît-il familier ?\n\nBien sûr ! L'incident à l'auberge du Repos ombragé. Si vous avez la moindre information à ce sujet, je vous demande instamment d'aller en parler immédiatement au capitaine Vimaire. Il est en charge de l'enquête.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5082,
+     "name": "Vincent Hyal"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5083,
+     "name": "Greffier Lendry"
+    }
+   ],
+   "zone_id": 11,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 690,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Mon frère James a accompagné Dame Proudmoore lorsqu'elle a traversé les océans. Les dernières nouvelles disaient que le calme était revenu là-bas et que James avait monté une auberge quelque part sur le continent. Où qu'il soit, je suis sûr qu'il fait de bonnes affaires. C'est un excellent chef cuisinier !\n\nJe suis sans nouvelles de lui depuis un bon moment. Trop de travail avec son auberge, je suppose. Mais le greffier à Theramore a peut-être plus de renseignements.",
+      "objectives": "Parler au greffier Lendry à Theramore.",
+      "name": "James Hyal"
+     },
+     "npc": 5082,
+     "npc_name": "Vincent Hyal",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70938",
+     "first_seen": 1794811803,
+     "last_seen": 1794811803
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "87318": {
+   "id": 87318,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5683,
+     "name": "Comar Villard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 271322,
+     "name": "Essene Villard"
+    }
+   ],
+   "zone_id": 11,
+   "level": 33,
+   "reqlevel": 28,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "87491": {
+   "id": 87491,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 271481,
+     "name": "Captive Fire Elemental"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1072,
+     "name": "Roggo Harlbarrow"
+    }
+   ],
+   "zone_id": 11,
+   "level": 32,
+   "reqlevel": 27,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "88756": {
+   "id": 88756,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1073,
+     "name": "Ashlan Stonesmirk"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1073,
+     "name": "Ashlan Stonesmirk"
+    }
+   ],
+   "zone_id": 11,
+   "level": 32,
+   "reqlevel": 27,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "88757": {
+   "id": 88757,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 271322,
+     "name": "Essene Villard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 271322,
+     "name": "Essene Villard"
+    }
+   ],
+   "zone_id": 11,
+   "level": 33,
+   "reqlevel": 28,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "88758": {
+   "id": 88758,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 271322,
+     "name": "Essene Villard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5683,
+     "name": "Comar Villard"
+    }
+   ],
+   "zone_id": 11,
+   "level": 33,
+   "reqlevel": 28,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "98072": {
+   "id": 98072,
+   "name": "Crocos des cieux",
+   "objectives": "Récupérez 8 écailles cramoisies immaculées, puis apportez-les à James Halloran, au port de Menethil.",
+   "description": "Vous avez vraiment du chien ! J’ai un dernier service à vous demander, si vous vous sentez d’attaque pour une tâche un peu plus dangereuse.\r\n\r\nLe commerce de crocilisques est une bonne source de revenus, mais ce n’est rien comparé à la valeur marchande des écailles de dragonnet. Les gens sont prêts à dépenser des fortunes pour se procurer un sac d’écailles.\r\n\r\nJe leur ai donné un petit nom : les crocos des cieux ! Mon apprenti ne parviendra jamais à s’en procurer… mais cette tâche semble tout à fait dans vos cordes !\r\n\r\nVous trouverez des dragonnets à l’extrême est, le long de la Ceinture verte. Mais restez sur vos gardes, des Orcs vicieux peuplent les collines !",
+   "progress": null,
+   "completion": "Vos talents semblent sans limites ! Écoutez, si vous décidez un jour de renoncer à cette vie d’aventures, venez voir votre pote James. Je trouverai immédiatement de quoi vous occuper !\r\n\r\nCela dit, j’imagine que vous aurez vieilli un brin. On verra bien !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2094,
+     "name": "James Halloran"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2094,
+     "name": "James Halloran"
+    }
+   ],
+   "zone_id": 11,
+   "level": 27,
+   "reqlevel": null,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vos talents semblent sans limites ! Écoutez, si vous décidez un jour de renoncer à cette vie d’aventures, venez voir votre pote James. Je trouverai immédiatement de quoi vous occuper !\r\n\r\nCela dit, j’imagine que vous aurez vieilli un brin. On verra bien !"
+     },
+     "npc": 2094,
+     "npc_name": "James Halloran",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794551010,
+     "last_seen": 1794551010
+    },
+    "detail": {
+     "texts": {
+      "description": "Vous avez vraiment du chien ! J’ai un dernier service à vous demander, si vous vous sentez d’attaque pour une tâche un peu plus dangereuse.\r\n\r\nLe commerce de crocilisques est une bonne source de revenus, mais ce n’est rien comparé à la valeur marchande des écailles de dragonnet. Les gens sont prêts à dépenser des fortunes pour se procurer un sac d’écailles.\r\n\r\nJe leur ai donné un petit nom : les crocos des cieux ! Mon apprenti ne parviendra jamais à s’en procurer… mais cette tâche semble tout à fait dans vos cordes !\r\n\r\nVous trouverez des dragonnets à l’extrême est, le long de la Ceinture verte. Mais restez sur vos gardes, des Orcs vicieux peuplent les collines !",
+      "objectives": "Récupérez 8 écailles cramoisies immaculées, puis apportez-les à James Halloran, au port de Menethil.",
+      "name": "Crocos des cieux"
+     },
+     "npc": 2094,
+     "npc_name": "James Halloran",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794430999,
+     "last_seen": 1794430999
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98189": {
+   "id": 98189,
+   "name": "Rapporter la statuette",
+   "objectives": "Apportez la statuette de Menethil au capitaine Rudepoing, au donjon de Menethil.",
+   "description": "Ça alors ! C’est… c’est magnifique !\r\n\r\nLa Princesse aveugle devait la livrer au port de Menethil quand le drame s’est produit. Nous étions si proches !\r\n\r\nIl me semble qu’elle devait être réceptionnée par le capitaine Rudepoing du donjon de Menethil, qui se trouve juste derrière nous. Pourquoi ne nous feriez-vous pas les honneurs de finir le travail ?",
+   "progress": null,
+   "completion": "Vous avez réussi à l’arracher à ses monstres ! Les artéfacts ayant appartenu au défunt roi se font rares de nos jours.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1242,
+     "name": "Karl Boran"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2104,
+     "name": "Capitaine Stoutfist"
+    }
+   ],
+   "zone_id": 11,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vous avez réussi à l’arracher à ses monstres ! Les artéfacts ayant appartenu au défunt roi se font rares de nos jours."
+     },
+     "npc": 2104,
+     "npc_name": "Capitaine Stoutfist",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794551061,
+     "last_seen": 1794551061
+    },
+    "detail": {
+     "texts": {
+      "description": "Ça alors ! C’est… c’est magnifique !\r\n\r\nLa Princesse aveugle devait la livrer au port de Menethil quand le drame s’est produit. Nous étions si proches !\r\n\r\nIl me semble qu’elle devait être réceptionnée par le capitaine Rudepoing du donjon de Menethil, qui se trouve juste derrière nous. Pourquoi ne nous feriez-vous pas les honneurs de finir le travail ?",
+      "objectives": "Apportez la statuette de Menethil au capitaine Rudepoing, au donjon de Menethil.",
+      "name": "Rapporter la statuette"
+     },
+     "npc": 1242,
+     "npc_name": "Karl Boran",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70938",
+     "first_seen": 1794550992,
+     "last_seen": 1794550992
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98197": {
+   "id": 98197,
+   "name": "Butin de guerre",
+   "objectives": "Récupérez 6 morceaux de bois de construction de Khaz Modan et 30 unités de fer de Khaz Modan au port de Menethil pour Valstag Gueule-de-fer.",
+   "description": "Ce port a été construit par l’ancienne Horde afin de préparer l’invasion de Hautebrande par la mer. Contournées, les défenses de Lordaeron sont restées totalement impuissantes !\r\n\r\nTant de vies ont été perdues…\r\n\r\nLe pire, c’est que la flotte a été construite grâce aux ressources volées aux quatre coins de Khaz Modan !\r\n\r\nUne bonne partie se trouve encore dans le port depuis que l’amiral Portvaillant a mis ces brutes en déroute et fait de cet endroit un bastion de l’Alliance. Nous devrons toutefois renforcer les défenses de la ville pour faire face à la menace des Gueules-de-dragon.",
+   "progress": null,
+   "completion": "Ah ! Tout ça est un peu humide, mais quelques jours au soleil devraient régler le problème.\r\n\r\nMerci, <classe>. Pour une fois, c’est agréable de ne pas avoir à compter uniquement sur les cargaisons en provenance de Theramore ou d’Auberdine !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2086,
+     "name": "Valstag Ironjaw"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2086,
+     "name": "Valstag Ironjaw"
+    }
+   ],
+   "zone_id": 11,
+   "level": 22,
+   "reqlevel": 18,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah ! Tout ça est un peu humide, mais quelques jours au soleil devraient régler le problème.\r\n\r\nMerci, <classe>. Pour une fois, c’est agréable de ne pas avoir à compter uniquement sur les cargaisons en provenance de Theramore ou d’Auberdine !"
+     },
+     "npc": 2086,
+     "npc_name": "Valstag Ironjaw",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70888",
+     "first_seen": 1794463133,
+     "last_seen": 1794463133
+    },
+    "detail": {
+     "texts": {
+      "description": "Ce port a été construit par l’ancienne Horde afin de préparer l’invasion de Hautebrande par la mer. Contournées, les défenses de Lordaeron sont restées totalement impuissantes !\r\n\r\nTant de vies ont été perdues…\r\n\r\nLe pire, c’est que la flotte a été construite grâce aux ressources volées aux quatre coins de Khaz Modan !\r\n\r\nUne bonne partie se trouve encore dans le port depuis que l’amiral Portvaillant a mis ces brutes en déroute et fait de cet endroit un bastion de l’Alliance. Nous devrons toutefois renforcer les défenses de la ville pour faire face à la menace des Gueules-de-dragon.",
+      "objectives": "Récupérez 6 morceaux de bois de construction de Khaz Modan et 30 unités de fer de Khaz Modan au port de Menethil pour Valstag Gueule-de-fer.",
+      "name": "Butin de guerre"
+     },
+     "npc": 2086,
+     "npc_name": "Valstag Ironjaw",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794408255,
+     "last_seen": 1794408255
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98208": {
+   "id": 98208,
+   "name": "Fleur des cieux",
+   "objectives": "Récupérez Nord’el pour Sylessa Murmesoir, au port de Menethil.",
+   "description": "J’arrive au port de Menethil en provenance d’Auberdine, depuis le grand arbre Teldrassil, pour récupérer une fleur d’une grande importance pour mon peuple.\r\n\r\nIl y a bien des lunes, l’Albatros, un de nos navires, s’est fracassé ici, suivi de la troisième flotte kultirassienne. Il transportait entre autres une fleur appelée Nord’el, ce qui signifie fleur des cieux dans notre langue. Elle a fleuri un soir de pleine lune, au sommet du mont Hyjal, notre ancien foyer.\r\n\r\nJe vous en prie, aidez-moi à la récupérer ! L’épave du navire se trouve juste au sud de la ville, mais elle est occupée par de féroces écumeurs murlocs !",
+   "progress": null,
+   "completion": "Elle a survécu ! Oh, Élune soit louée !\r\n\r\nMille mercis, <nom>. Si cela ne vous dérange pas, j’ai un autre service à vous demander…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 270844,
+     "name": "Sylessa Duskwhisper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 270844,
+     "name": "Sylessa Duskwhisper"
+    }
+   ],
+   "zone_id": 11,
+   "level": 29,
+   "reqlevel": null,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Elle a survécu ! Oh, Élune soit louée !\r\n\r\nMille mercis, <nom>. Si cela ne vous dérange pas, j’ai un autre service à vous demander…"
+     },
+     "npc": 270844,
+     "npc_name": "Sylessa Murmesoir",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794812268,
+     "last_seen": 1794812268
+    },
+    "detail": {
+     "texts": {
+      "description": "J’arrive au port de Menethil en provenance d’Auberdine, depuis le grand arbre Teldrassil, pour récupérer une fleur d’une grande importance pour mon peuple.\r\n\r\nIl y a bien des lunes, l’Albatros, un de nos navires, s’est fracassé ici, suivi de la troisième flotte kultirassienne. Il transportait entre autres une fleur appelée Nord’el, ce qui signifie fleur des cieux dans notre langue. Elle a fleuri un soir de pleine lune, au sommet du mont Hyjal, notre ancien foyer.\r\n\r\nJe vous en prie, aidez-moi à la récupérer ! L’épave du navire se trouve juste au sud de la ville, mais elle est occupée par de féroces écumeurs murlocs !",
+      "objectives": "Récupérez Nord’el pour Sylessa Murmesoir, au port de Menethil.",
+      "name": "Fleur des cieux"
+     },
+     "npc": 270844,
+     "npc_name": "Sylessa Murmesoir",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794408341,
+     "last_seen": 1794408341
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98209": {
+   "id": 98209,
+   "name": "Fleur des cieux",
+   "objectives": "Apportez Nord’el à Thundris Tissevent à Auberdine, en Sombrivage.\r\n\r\nSylessa vous a parlé d’un bateau qui peut vous y conduire en partant du port de Menethil.",
+   "description": "Accepteriez-vous d’apporter Nord’el à l’ancien Thundris Tissevent, à Auberdine ?\r\n\r\nLe bateau qui part d’ici devrait vous y conduire en un rien de temps.\r\n\r\nJe regrette sincèrement de devoir vous demander un autre service. Mais je suis encore éprouvée par mon voyage… sans oublier ces diables murlocs que j’ai dû fuir lorsque j’ai tenté de récupérer la fleur sacrée une première fois !",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 270844,
+     "name": "Sylessa Duskwhisper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3649,
+     "name": "Thundris Windweaver"
+    }
+   ],
+   "zone_id": 11,
+   "level": 29,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Accepteriez-vous d’apporter Nord’el à l’ancien Thundris Tissevent, à Auberdine ?\r\n\r\nLe bateau qui part d’ici devrait vous y conduire en un rien de temps.\r\n\r\nJe regrette sincèrement de devoir vous demander un autre service. Mais je suis encore éprouvée par mon voyage… sans oublier ces diables murlocs que j’ai dû fuir lorsque j’ai tenté de récupérer la fleur sacrée une première fois !",
+      "objectives": "Apportez Nord’el à Thundris Tissevent à Auberdine, en Sombrivage.\r\n\r\nSylessa vous a parlé d’un bateau qui peut vous y conduire en partant du port de Menethil.",
+      "name": "Fleur des cieux"
+     },
+     "npc": 270844,
+     "npc_name": "Sylessa Murmesoir",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70938",
+     "first_seen": 1794812269,
+     "last_seen": 1794812269
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98216": {
+   "id": 98216,
+   "name": "Comprendre notre présent",
+   "objectives": "Utilisez la pierre de Goaz près du gardien de Goaz, puis rapportez sa pierre-clé titanesque au prospecteur Whelgar.",
+   "description": "Les Dieux très anciens ?! Cette nouvelle ne présage rien de bon !\r\n\r\nJ’ai déchiffré un nouveau passage de la pierre, une sorte de gardien y est mentionné. Quelle que soit sa nature, il doit y avoir un lien avec la pierre !\r\n\r\nPrenez-la, et essayez de trouver une grande création des Titans quelque part dans l’excavation. Lisez ce dernier passage de la pierre, et voyez s’il se passe quelque chose !\r\n\r\nSi je ne me trompe pas, ça devrait activer la création. Dans ce cas, éliminez-la, mais en vous efforçant de préserver les éléments les plus intéressants ! Nous devons en apprendre davantage !",
+   "progress": null,
+   "completion": "Regardez… vous voyez comme la pierre de Goaz se met à briller quand on l’approche de la pierre-clé ? Je parviens presque à discerner quelques mots…\r\n\r\nNous devons encore en apprendre davantage sur ce Goaz. J’ai l’impression que ce n’est que la partie visible de l’iceberg… Une découverte colossale nous attend !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1077,
+     "name": "Prospecteur Whelgar"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1077,
+     "name": "Prospecteur Whelgar"
+    }
+   ],
+   "zone_id": 11,
+   "level": 31,
+   "reqlevel": 23,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Regardez… vous voyez comme la pierre de Goaz se met à briller quand on l’approche de la pierre-clé ? Je parviens presque à discerner quelques mots…\r\n\r\nNous devons encore en apprendre davantage sur ce Goaz. J’ai l’impression que ce n’est que la partie visible de l’iceberg… Une découverte colossale nous attend !"
+     },
+     "npc": 1077,
+     "npc_name": "Prospecteur Whelgar",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794595053,
+     "last_seen": 1794595053
+    },
+    "detail": {
+     "texts": {
+      "description": "Les Dieux très anciens ?! Cette nouvelle ne présage rien de bon !\r\n\r\nJ’ai déchiffré un nouveau passage de la pierre, une sorte de gardien y est mentionné. Quelle que soit sa nature, il doit y avoir un lien avec la pierre !\r\n\r\nPrenez-la, et essayez de trouver une grande création des Titans quelque part dans l’excavation. Lisez ce dernier passage de la pierre, et voyez s’il se passe quelque chose !\r\n\r\nSi je ne me trompe pas, ça devrait activer la création. Dans ce cas, éliminez-la, mais en vous efforçant de préserver les éléments les plus intéressants ! Nous devons en apprendre davantage !",
+      "objectives": "Utilisez la pierre de Goaz près du gardien de Goaz, puis rapportez sa pierre-clé titanesque au prospecteur Whelgar.",
+      "name": "Comprendre notre présent"
+     },
+     "npc": 1077,
+     "npc_name": "Prospecteur Whelgar",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70938",
+     "first_seen": 1794594428,
+     "last_seen": 1794594428
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98221": {
+   "id": 98221,
+   "name": "Tiré des cendres",
+   "objectives": "Le capitaine Rudepoing du donjon de Menethil vous demande de détruire 4 plans d’attaque dans le campement de Hargnecroc.",
+   "description": "Pendant la Deuxième guerre, les Gueules-de-dragon ont construit une flotte à l’endroit même où nous nous trouvons, avec la volonté de conquérir Hautebrande. Ils y sont presque parvenus !\r\n\r\nIls ont été mis en déroute par les Dragons rouges, qui n’ont laissé que quelques individus errant au milieu des montagnes. Leur campement au nord-est de Menethil a toutefois connu un regain d’activité.\r\n\r\nDun Algaz est la preuve qu’ils sont à nouveau sur le sentier de la guerre et bien décidés à reconquérir cette région. Découvrez leurs plans d’attaque, notez les informations cruciales, puis détruisez tout. Nous devons savoir où ils comptent frapper la prochaine fois !",
+   "progress": null,
+   "completion": "Forgefer aussi ? Nek’rosh a bel et bien hérité des ambitions de son père !\r\n\r\nCe qui lui manque, bien sûr, c’est l’armée de drakes rouges asservis qui a fait tant de ravages pendant la guerre. Nek’rosh a joué son va-tout… ce qui lui coûtera cher.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2104,
+     "name": "Capitaine Stoutfist"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2104,
+     "name": "Capitaine Stoutfist"
+    }
+   ],
+   "zone_id": 11,
+   "level": 28,
+   "reqlevel": 23,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Forgefer aussi ? Nek’rosh a bel et bien hérité des ambitions de son père !\r\n\r\nCe qui lui manque, bien sûr, c’est l’armée de drakes rouges asservis qui a fait tant de ravages pendant la guerre. Nek’rosh a joué son va-tout… ce qui lui coûtera cher."
+     },
+     "npc": 2104,
+     "npc_name": "Capitaine Stoutfist",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794574414,
+     "last_seen": 1794574414
+    },
+    "detail": {
+     "texts": {
+      "description": "Pendant la Deuxième guerre, les Gueules-de-dragon ont construit une flotte à l’endroit même où nous nous trouvons, avec la volonté de conquérir Hautebrande. Ils y sont presque parvenus !\r\n\r\nIls ont été mis en déroute par les Dragons rouges, qui n’ont laissé que quelques individus errant au milieu des montagnes. Leur campement au nord-est de Menethil a toutefois connu un regain d’activité.\r\n\r\nDun Algaz est la preuve qu’ils sont à nouveau sur le sentier de la guerre et bien décidés à reconquérir cette région. Découvrez leurs plans d’attaque, notez les informations cruciales, puis détruisez tout. Nous devons savoir où ils comptent frapper la prochaine fois !",
+      "objectives": "Le capitaine Rudepoing du donjon de Menethil vous demande de détruire 4 plans d’attaque dans le campement de Hargnecroc.",
+      "name": "Tiré des cendres"
+     },
+     "npc": 2104,
+     "npc_name": "Capitaine Stoutfist",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794408283,
+     "last_seen": 1794408283
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98223": {
+   "id": 98223,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "object",
+     "id": 671518,
+     "name": "Tattered Spellbook"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2104,
+     "name": "Capitaine Stoutfist"
+    }
+   ],
+   "zone_id": 11,
+   "level": 31,
+   "reqlevel": 23,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "98230": {
+   "id": 98230,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2104,
+     "name": "Capitaine Stoutfist"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 270637,
+     "name": "Howin Kindfeather"
+    }
+   ],
+   "zone_id": 11,
+   "level": 29,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "98240": {
+   "id": 98240,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2094,
+     "name": "James Halloran"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 270637,
+     "name": "Howin Kindfeather"
+    }
+   ],
+   "zone_id": 11,
+   "level": 29,
+   "reqlevel": 19,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "98245": {
+   "id": 98245,
+   "name": "Travail d’aiguille tranchegueule",
+   "objectives": "Obtenez 10 incisives de tranchegueule pour Howin Genteplume.",
+   "description": "Je sais pas ce que je déteste le plus : ces satanés Sombrefer, les Gueules-de-dragon, ou les drakes qu’ils chevauchent.\r\n\r\n<Howin crache.>\r\n\r\nJe compte bien arranger les choses. Mais on va avoir besoin de fournitures.\r\n\r\nCes écailles de dragonnet protègent bien du feu draconique, mais elles sont terriblement difficiles à assembler.\r\n\r\nLes raptors tranchegueules de la crête des Raptors, au nord-est, et du vallon des Embruns, au nord-ouest, tirent leur nom de leurs dents effilées… celles-ci arriveraient sûrement à percer les écailles.\r\n\r\nApportez-moi une poignée d’incisives.",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 270637,
+     "name": "Howin Kindfeather"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 270637,
+     "name": "Howin Kindfeather"
+    }
+   ],
+   "zone_id": 11,
+   "level": 29,
+   "reqlevel": 21,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Howin crache."
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Je sais pas ce que je déteste le plus : ces satanés Sombrefer, les Gueules-de-dragon, ou les drakes qu’ils chevauchent.\r\n\r\n<Howin crache.>\r\n\r\nJe compte bien arranger les choses. Mais on va avoir besoin de fournitures.\r\n\r\nCes écailles de dragonnet protègent bien du feu draconique, mais elles sont terriblement difficiles à assembler.\r\n\r\nLes raptors tranchegueules de la crête des Raptors, au nord-est, et du vallon des Embruns, au nord-ouest, tirent leur nom de leurs dents effilées… celles-ci arriveraient sûrement à percer les écailles.\r\n\r\nApportez-moi une poignée d’incisives.",
+      "objectives": "Obtenez 10 incisives de tranchegueule pour Howin Genteplume.",
+      "name": "Travail d’aiguille tranchegueule"
+     },
+     "npc": 270637,
+     "npc_name": "Howin Genteplume",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794407956,
+     "last_seen": 1794407956
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98246": {
+   "id": 98246,
+   "name": "Période de disette",
+   "objectives": "Obtenez 12 œufs de tranchegueule en parfait état pour Howin Genteplume.",
+   "description": "Il me faut des œufs pour que mon plan soit couronné de succès. Bassebec doit avoir le ventre bien plein… J’ai pas l’habitude de sauter sur le dos d’un griffon grincheux.\r\n\r\nLes œufs doivent être parfaits… sans aucune fissure.\r\n\r\nVous avez qu’à en chiper aux raptors tranchegueules… les jaunes sont aussi gros qu’une caboche de Gnome, c’est bien connu. Vous en trouverez sur la crête des Raptors, au nord-est, et dans le vallon des Embruns, au nord-ouest.\r\n\r\nDisons une bonne douzaine, ça devrait faire l’affaire.",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 270637,
+     "name": "Howin Kindfeather"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 270637,
+     "name": "Howin Kindfeather"
+    }
+   ],
+   "zone_id": 11,
+   "level": 29,
+   "reqlevel": 21,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Il me faut des œufs pour que mon plan soit couronné de succès. Bassebec doit avoir le ventre bien plein… J’ai pas l’habitude de sauter sur le dos d’un griffon grincheux.\r\n\r\nLes œufs doivent être parfaits… sans aucune fissure.\r\n\r\nVous avez qu’à en chiper aux raptors tranchegueules… les jaunes sont aussi gros qu’une caboche de Gnome, c’est bien connu. Vous en trouverez sur la crête des Raptors, au nord-est, et dans le vallon des Embruns, au nord-ouest.\r\n\r\nDisons une bonne douzaine, ça devrait faire l’affaire.",
+      "objectives": "Obtenez 12 œufs de tranchegueule en parfait état pour Howin Genteplume.",
+      "name": "Période de disette"
+     },
+     "npc": 270637,
+     "npc_name": "Howin Genteplume",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794407957,
+     "last_seen": 1794407957
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98282": {
+   "id": 98282,
+   "name": "Dangers alchimiques",
+   "objectives": "Procurez-vous une glande de traqueur intacte au rocher de Thelgen, et apportez-la à Caitlin Grassman, au port de Menethil.",
+   "description": "Certaines recettes nécessitent des ingrédients provenant, euh, d’endroits extrêmement dangereux. Et il s’agit le plus souvent de plantes communes ! C’est encore bien pire pour d’autres composants !\r\n\r\nJ’ai besoin de préparer davantage d’antivenin avant de pouvoir reprendre la route. Je serais prête à jurer que tout est toxique dans ce marais. C’en est à croire que la terre elle-même est empoisonnée !\r\n\r\nAccepterez-vous de me venir en aide ? Il me faut une glande à venin d’une araignée du rocher de Thelgen, à l’extrême sud-est. Mais elle doit être intacte, sinon elle ne contiendrait plus assez de venin à votre retour. Pardon !",
+   "progress": null,
+   "completion": "Oh, parfait ! C’est exactement ce dont j’avais besoin ! Vous êtes formidable, vous savez.\r\n\r\nTenez, je serais impardonnable si je ne partageais pas le fruit de vos efforts avec vous. Et prenez bien garde !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1480,
+     "name": "Caitlin Grassman"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1480,
+     "name": "Caitlin Grassman"
+    }
+   ],
+   "zone_id": 11,
+   "level": 22,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Oh, parfait ! C’est exactement ce dont j’avais besoin ! Vous êtes formidable, vous savez.\r\n\r\nTenez, je serais impardonnable si je ne partageais pas le fruit de vos efforts avec vous. Et prenez bien garde !"
+     },
+     "npc": 1480,
+     "npc_name": "Caitlin Grassman",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794640679,
+     "last_seen": 1794640679
+    },
+    "detail": {
+     "texts": {
+      "description": "Certaines recettes nécessitent des ingrédients provenant, euh, d’endroits extrêmement dangereux. Et il s’agit le plus souvent de plantes communes ! C’est encore bien pire pour d’autres composants !\r\n\r\nJ’ai besoin de préparer davantage d’antivenin avant de pouvoir reprendre la route. Je serais prête à jurer que tout est toxique dans ce marais. C’en est à croire que la terre elle-même est empoisonnée !\r\n\r\nAccepterez-vous de me venir en aide ? Il me faut une glande à venin d’une araignée du rocher de Thelgen, à l’extrême sud-est. Mais elle doit être intacte, sinon elle ne contiendrait plus assez de venin à votre retour. Pardon !",
+      "objectives": "Procurez-vous une glande de traqueur intacte au rocher de Thelgen, et apportez-la à Caitlin Grassman, au port de Menethil.",
+      "name": "Dangers alchimiques"
+     },
+     "npc": 1480,
+     "npc_name": "Caitlin Grassman",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70888",
+     "first_seen": 1794408404,
+     "last_seen": 1794408404
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98283": {
+   "id": 98283,
+   "name": "Carnage",
+   "objectives": "Apportez la tête de Carnage à Rethiel le Gardien vert, dans la Ceinture verte.",
+   "description": "L’équilibre naturel de cette région a été brisé. Les raptors tranchegeules se chargeaient autrefois de réguler la prolifération des autres espèces. Ils vivent désormais dans la peur d’un spécimen alpha, qui tire son nom du carnage qu’il laisse dans son sillage.\r\n\r\nJe crains que le mal dont nous peinons tant à nous débarrasser n’ait fait sombrer la bête dans la folie.\r\n\r\nElle sera attirée par la chair malsaine des ours malades se trouvant en contrebas de la crête des Raptors, au nord-est. Laissez leurs entrailles dans la grotte qui lui sert de tanière.\r\n\r\nCarnage viendra. Apportez-moi sa tête.",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1244,
+     "name": "Rethiel le Gouverneur vert"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1244,
+     "name": "Rethiel le Gouverneur vert"
+    }
+   ],
+   "zone_id": 11,
+   "level": 30,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "L’équilibre naturel de cette région a été brisé. Les raptors tranchegeules se chargeaient autrefois de réguler la prolifération des autres espèces. Ils vivent désormais dans la peur d’un spécimen alpha, qui tire son nom du carnage qu’il laisse dans son sillage.\r\n\r\nJe crains que le mal dont nous peinons tant à nous débarrasser n’ait fait sombrer la bête dans la folie.\r\n\r\nElle sera attirée par la chair malsaine des ours malades se trouvant en contrebas de la crête des Raptors, au nord-est. Laissez leurs entrailles dans la grotte qui lui sert de tanière.\r\n\r\nCarnage viendra. Apportez-moi sa tête.",
+      "objectives": "Apportez la tête de Carnage à Rethiel le Gardien vert, dans la Ceinture verte.",
+      "name": "Carnage"
+     },
+     "npc": 1244,
+     "npc_name": "Rethiel le Gouverneur vert",
+     "npc_type": "Creature",
+     "npc_sex": 1,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70938",
+     "first_seen": 1794549374,
+     "last_seen": 1794549374
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98291": {
+   "id": 98291,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 270637,
+     "name": "Howin Kindfeather"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 270637,
+     "name": "Howin Kindfeather"
+    }
+   ],
+   "zone_id": 11,
+   "level": 30,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "98293": {
+   "id": 98293,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "object",
+     "id": 672330,
+     "name": "Dragonmaw Armaments"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2104,
+     "name": "Capitaine Stoutfist"
+    }
+   ],
+   "zone_id": 11,
+   "level": 30,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "98297": {
+   "id": 98297,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 270637,
+     "name": "Howin Kindfeather"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 270637,
+     "name": "Howin Kindfeather"
+    }
+   ],
+   "zone_id": 11,
+   "level": 34,
+   "reqlevel": 24,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "98310": {
+   "id": 98310,
+   "name": "Entrevoir notre avenir",
+   "objectives": "Utilisez la pierre de Goaz près d’Adoss, Modr, Golm et Neru, puis rapportez leurs cœurs au prospecteur Whelgar.",
+   "description": "Il en existe d’autres, d’imposants golems répartis aux quatre coins des Paluns. Ils portent tous des inscriptions les identifiant comme Adoss, Modr, Golm et Neru… ce qui correspond aux parties manquantes de la pierre de Goaz que vous avez trouvée !\r\n\r\nJe suis prêt à parier que si nous pouvons aussi obtenir des parties de ces golems, nous en découvrirons davantage sur la pierre de Goaz !\r\n\r\nVous trouverez Adoss aux portes des Gueules-de-dragon, à l’est, près de Grim Batol. Modr se trouve juste en dehors de Dun Modr, au nord. Golm repose sous Grim Batol, à l’est de Dun Algaz. Enfin, Neru se trouve derrière la colline de Morneforge, au nord-est.",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1077,
+     "name": "Prospecteur Whelgar"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1077,
+     "name": "Prospecteur Whelgar"
+    }
+   ],
+   "zone_id": 11,
+   "level": 32,
+   "reqlevel": 24,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Il en existe d’autres, d’imposants golems répartis aux quatre coins des Paluns. Ils portent tous des inscriptions les identifiant comme Adoss, Modr, Golm et Neru… ce qui correspond aux parties manquantes de la pierre de Goaz que vous avez trouvée !\r\n\r\nJe suis prêt à parier que si nous pouvons aussi obtenir des parties de ces golems, nous en découvrirons davantage sur la pierre de Goaz !\r\n\r\nVous trouverez Adoss aux portes des Gueules-de-dragon, à l’est, près de Grim Batol. Modr se trouve juste en dehors de Dun Modr, au nord. Golm repose sous Grim Batol, à l’est de Dun Algaz. Enfin, Neru se trouve derrière la colline de Morneforge, au nord-est.",
+      "objectives": "Utilisez la pierre de Goaz près d’Adoss, Modr, Golm et Neru, puis rapportez leurs cœurs au prospecteur Whelgar.",
+      "name": "Entrevoir notre avenir"
+     },
+     "npc": 1077,
+     "npc_name": "Prospecteur Whelgar",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Les Paluns",
+     "map_id": 1437,
+     "client": "1.60.1.70938",
+     "first_seen": 1794595064,
+     "last_seen": 1794595064
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98459": {
+   "id": 98459,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 254078,
+     "name": "Tom \"Half-fish\" Wilson"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1481,
+     "name": "Bart Tidewater"
+    }
+   ],
+   "zone_id": 11,
+   "level": 21,
+   "reqlevel": 18,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "98461": {
+   "id": 98461,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2913,
+     "name": "Archéologue Hollee"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2096,
+     "name": "Tarrel Rockweaver"
+    }
+   ],
+   "zone_id": 11,
+   "level": 21,
+   "reqlevel": 18,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

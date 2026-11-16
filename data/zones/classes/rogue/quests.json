@@ -1,0 +1,3603 @@
+{
+ "schema": 1,
+ "zone": "classes/rogue",
+ "zone_id": -162,
+ "zone_name": "Voleur",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 66,
+  "complete": 51,
+  "incomplete": 15,
+  "unavailable": 0,
+  "missing_description": 15,
+  "missing_giver": 5,
+  "new_in_forever": 0,
+  "gendered": 6
+ },
+ "quests": {
+  "1858": {
+   "id": 1858,
+   "name": "La Main brisée",
+   "objectives": "Voler la Clé de Tazan puis l'utiliser pour ouvrir sa Sacoche et livrer son contenu à Therzok dans la Faille de l'ombre à Orgrimmar.",
+   "description": "Je vous le laisse pour ouvrir la sacoche de Tazan et me rapporter son contenu. Le mécanisme de verrouillage est complexe, ce serait sans doute plus facile si vous trouviez la clé.\n\nComme elle n'était pas sur le corps de Tazan, je ne peux que supposer qu'il a confié la clé à quelqu'un... Oh oui ! C'est ça ! Il avait un aide nommé Gamon. Un ivrogne, vous le trouverez probablement à la taverne. Peut-être que vous pourrez lui prendre la clé en douceur.",
+   "progress": "Cela ne vous agace pas d'avoir ce que vous désirez à portée de la main, mais de n'avoir aucun moyen de l'obtenir ?",
+   "completion": "Voilà qui est intéressant. Vous avez plus que prouvé votre valeur, <nom>. Impressionnant. Considérez-vous à présent comme le plus jeune membre de la Main brisée. Et prenez ceci, je crois que cela vous sera d'une grande aide pour l'avenir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6446,
+     "name": "Therzok"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6446,
+     "name": "Therzok"
+    }
+   ],
+   "zone_id": -162,
+   "level": 13,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 455,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1859": {
+   "id": 1859,
+   "name": "Therzok",
+   "objectives": "Aller voir Therzok dans la Faille de l'ombre à Orgrimmar.",
+   "description": "Parlez moins fort, <nom> ! Ouais, je sais qui vous êtes ! On m'a fait un topo.\n\nD'après ce qu'on entend dire de vous, vous vous débrouillez au combat et vous employez la ruse à l'occasion.\n\nJ'ai raison ?\n\nDe toute façon, vous devriez aller voir Therzok à Orgrimmar. Il a quelque chose à vous proposer.",
+   "progress": null,
+   "completion": "Très bien ! Je constate avec plaisir que Kaplak a réussi à vous faire venir.\n\nNous avons à parler d'un certain nombre de choses, dont votre avenir au sein de la Main.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3170,
+     "name": "Kaplak"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6446,
+     "name": "Therzok"
+    }
+   ],
+   "zone_id": -162,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 210,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1885": {
+   "id": 1885,
+   "name": "Mennet Carkad",
+   "objectives": "Aller voir Mennet Carkad dans le Quartier des voleurs d'Undercity.",
+   "description": "<nom> ? Pas vraiment ce à quoi je m'attendais, compte tenu de l'intérêt que Carkad lui-même manifeste pour vous ! Comme quoi les apparences sont parfois trompeuses, non ?\n\nPeu importe, vous devez aller le voir dès que possible. Autant que vous ne sachiez pas ce qui est arrivé au dernier qui a ignoré ses sommations.",
+   "progress": null,
+   "completion": "Hum ! Vous avez accouru dès mon premier appel, n'est-ce pas ? Bien sûr. Je n'en attendais pas moins d'un éventuel futur Traqueur noir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2130,
+     "name": "Marion Call"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6467,
+     "name": "Mennet Carkad"
+    }
+   ],
+   "zone_id": -162,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 210,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1886": {
+   "id": 1886,
+   "name": "Les Traqueurs noirs",
+   "objectives": "Trouver la Lettre de recommandation d'Astor et l'apporter à Mennet Carkad dans le Quartier des voleurs.",
+   "description": "Si vous voulez rejoindre les Traqueurs noirs, la garde d'élite du Seigneur Varimathras, vous devez prouver votre valeur.\n\nJe ne vais pas vous mentir, <nom>, cette tâche pourrait bien signifier votre mort.\n\nIl y a certaines choses auxquelles il faut prêter attention. J'ai besoin des effets personnels d'Astor Hadren, un messager qui voyage entre les Pins argentés et Undercity. Je vous laisse le choix de la méthode.\n\nMoins vous en saurez, mieux ça vaudra pour vous. Réussissez et je vous en dirai plus.",
+   "progress": "Un succès à m'annoncer ?",
+   "completion": "Bien joué, <nom>. Vous avez passé la première partie de ce test. Espérons qu'Andron n'aura pas eu vent de vos activités et que nous serons capables de le convaincre que vous êtes, en fait, le messager qu'il attendait.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6467,
+     "name": "Mennet Carkad"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6467,
+     "name": "Mennet Carkad"
+    }
+   ],
+   "zone_id": -162,
+   "level": 13,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 680,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1898": {
+   "id": 1898,
+   "name": "Les Traqueurs noirs",
+   "objectives": "Aller voir Andron Gant à Undercity.",
+   "description": "La lettre de recommandation devrait être suffisante pour convaincre Andron que vous êtes le messager qu'il attendait. J'ai déjà rencontré Andron, il n'est pas assez intelligent pour être soupçonneux.\n\nLe seigneur Varimathras suspecte Andron d'avoir fourni de l'aide à un autre groupe. Il exige de savoir lequel et en veut la preuve.\n\nJe veux que vous alliez voir Andron pour obtenir cette information. Vous le trouverez à son magasin près de l'Apothicarium.",
+   "progress": "Salut. Quelque chose que je peux faire pour vous ?",
+   "completion": "Oh oui ! Je vous attendais. Je suppose que nos connaissances mutuelles sont satisfaites des informations que j'ai fournies jusqu'ici ?\n\nJe me doute que ce n'est pas à vous qu'il faut demander ça, ça m'étonnerait qu'ils vous mettent au courant. Pourquoi faire autant confiance à un simple messager, hein ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6467,
+     "name": "Mennet Carkad"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6522,
+     "name": "Andron Gant"
+    }
+   ],
+   "zone_id": -162,
+   "level": 13,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 230,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1899": {
+   "id": 1899,
+   "name": "Les Traqueurs noirs",
+   "objectives": "Apporter le Grand Livre d'Astor à Mennet Carkad dans le Quartier des voleurs d'Undercity.",
+   "description": "Vous trouverez les informations qui intéressent vos employeurs dans le grand livre sur l'étagère derrière moi. Apportez-leur avec mes respects et dites-leur que je préférerais que ce soit vous qu'ils envoient, si ce qu'ils trouvent leur semble avoir assez de valeur, pour continuer notre petit accord.",
+   "progress": "Vous avez réussi, <nom> ?",
+   "completion": "Bien, il y a certainement plus d'informations que je n'en attendais d'Andron. Donnez-moi un moment pour le lire attentivement, avant que je ne vous envoie accomplir la mission suivante.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6522,
+     "name": "Andron Gant"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6467,
+     "name": "Mennet Carkad"
+    }
+   ],
+   "zone_id": -162,
+   "level": 13,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 230,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1963": {
+   "id": 1963,
+   "name": "La Main brisée",
+   "objectives": "Tuer Tazan et apporter sa Sacoche à Therzok, à la Faille de l'ombre à Orgrimmar.",
+   "description": "Le Chef de guerre utilise des méthodes trop subtiles. Par prudence, il veut éviter de déchaîner le pouvoir de la Horde. Pourtant, nous avons été plus forts, nous avons été de fiers conquérants ! Nous devons retrouver notre gloire passée et la Main brisée va la reconquérir.\n\nNous tirons notre force de l'ombre et frappons nos ennemis en secret. Une tâche que vous devez accomplir pour prouver votre valeur.\n\nLe troll Tazan est en affaires avec les pirates près de Ratchet. Il détient des informations dont j'ai besoin. Tuez-le et apportez-moi sa sacoche.",
+   "progress": "C'est un imbécile qui croit qu'une charge à la hache est plus efficace qu'un couteau dans la nuit.",
+   "completion": "Hum, même si je suis heureux de savoir que Tazan n'est plus parmi nous, une sacoche fermée à clé ne nous est pas d'une très grande utilité. Nous avons besoin de ce qu'elle contient.\n\nÇa pourrait bien devenir un deuxième défi digne de celui ou celle qui voudrait rejoindre la Main brisée.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6446,
+     "name": "Therzok"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6446,
+     "name": "Therzok"
+    }
+   ],
+   "zone_id": -162,
+   "level": 13,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 680,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1978": {
+   "id": 1978,
+   "name": "Les Traqueurs noirs",
+   "objectives": "Livrer le Grand Livre d'Andron à Varimathras au Hall de la Dame noire à Undercity.",
+   "description": "Le Syndicat ? Je ne m'en serais jamais douté. Il semble que ces messieurs d'Alterac soient tombés bien bas depuis leur trahison.\n\nLe Seigneur Varimathras aura plaisir à apprendre ça et comme vous avez contribué à cette découverte, il convient que ce soit vous qui la lui annonciez.\n\nAh comment pouvais-je oublier !\n\nBienvenue chez les Traqueurs noirs…",
+   "progress": "Oui ?",
+   "completion": "Hum, c'est intéressant… Les Traqueurs noirs ont admirablement fait leur travail en furetant ainsi.\n\nD'après ce que j'ai compris, vous méritez également notre gratitude pour votre performance. J'espère que cela deviendra quelque chose de routinier pour vous, <nom>, mes Traqueurs noirs ont toujours besoin de gens de valeur parmi eux.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6467,
+     "name": "Mennet Carkad"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2425,
+     "name": "Varimathras"
+    }
+   ],
+   "zone_id": -162,
+   "level": 13,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 910,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1998": {
+   "id": 1998,
+   "name": "Fenwick Thatros",
+   "objectives": "Tuer Fenwick Thatros et rapporter sa Tête à Mennet Carkad dans le Quartier des voleurs d'Undercity.",
+   "description": "Le Seigneur Varimathras vient juste de m'envoyer une missive au sujet d'une menace concernant les Réprouvés, menace qui doit être immédiatement supprimée. Son nom est Fenwick Thatros, et le Seigneur Varimathras pense que c'est l'un des chefs morts-vivants qui ont pris pied dans la forêt des Pins argentés.\n\nJ'ai immédiatement pensé à vous, <nom>. J'ai assez confiance dans vos capacités pour penser que vous réussirez cette mission.\n\nLes derniers rapports des Traqueurs noirs dans la forêt indiquent que Thatros doit se trouver près du vieux port abandonné sur Lordamere.",
+   "progress": "Je vous fais parfaitement confiance pour rendre ce service au Seigneur Varimathras.",
+   "completion": "Vous avez réussi, <nom>. Je constate que vous avez rendu beaucoup de services aux Traqueurs noirs, en prouvant votre valeur et il est peut-être temps que nous commencions votre initiation aux Arts de l'ombre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6467,
+     "name": "Mennet Carkad"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6467,
+     "name": "Mennet Carkad"
+    }
+   ],
+   "zone_id": -162,
+   "level": 16,
+   "reqlevel": 16,
+   "side": "horde",
+   "xp": 880,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1999": {
+   "id": 1999,
+   "name": "Les outils du métier",
+   "objectives": "Trouver le Rapport de situation de Dalaran et le remettre à Mennet Carkad dans le Quartier des voleurs d'Undercity.",
+   "description": "Les magiciens de Kirin Tor à Moulin-de-l'Ambre ont stocké d'importants documents se rapportant à l'état actuel de Dalaran. Nous tenons cela d'un de nos prisonniers. Le Seigneur Varimathras a ordonné de remettre ces documents aux Traqueurs noirs.\n\nCette tâche vous incombe, <nom>. Cependant, vous aurez besoin de certains équipements, et de la maîtrise de la technique du Crochetage. Allez voir Estelle Gendry, notre spécialiste, et demandez-lui un jeu d'outils avant de partir.",
+   "progress": "Avez-vous localisé les documents, <nom> ?",
+   "completion": "Parfait, <nom> ! Vous avez bien appris l'art subtil du crochetage, et plus rapidement que je m'y attendais.\n\nJe vois que j'avais raison de vous faire confiance. Croyez-moi, jeune homme, je vous prédis un grand avenir dans ce métier.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6467,
+     "name": "Mennet Carkad"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6467,
+     "name": "Mennet Carkad"
+    }
+   ],
+   "zone_id": -162,
+   "level": 20,
+   "reqlevel": 16,
+   "side": "horde",
+   "xp": 1550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2205": {
+   "id": 2205,
+   "name": "Chercher le SI:7",
+   "objectives": "Remettre le colis de Keryn Sylvius à maître Mathias Shaw à la Caserne de Stormwind.",
+   "description": "L'insigne ? Rien... Rien qui soit pour vous... Si j'en juge par votre apparence, j'ai peur que Mathias vous prenne pour le livreur de fromage, mon enfant, au lieu du malandrin attendu. Enfin, on m'a donné un travail et j'ai promis de livrer ce travail.\n\nTiens, à propos, vous apporterez ce paquet à Mathias, et peut-être qu'il vous donnera un ou deux petits boulots à accomplir.\n\nAllez, du vent.",
+   "progress": "Comment puis-je vous être utile, <classe> ?",
+   "completion": "Vous m'avez trouvé et à vous regarder, je dirais que ce fut long et difficile, car vous me paraissez, physiquement et psychiquement, bien diminué.\n\nVoudriez-vous que Renzik vous accompagne à une auberge ou êtes-vous prêt dès à présent pour une mission ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 917,
+     "name": "Keryn Sylvius"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 332,
+     "name": "Maître Mathias Shaw"
+    }
+   ],
+   "zone_id": -162,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 210,
+   "money": 85,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2206": {
+   "id": 2206,
+   "name": "Effraction",
+   "objectives": "Trouver l'Intendant des docks défias et récupérer le programme d'embarquement, pour le compte de maître Mathias Shaw.",
+   "description": "Nos espions sur le terrain rapportent que les Défias sont très actifs dans le sud de Goldshire. Il semble qu'ils aient pris le Débarcadère de Jerod et qu'ils l'utilisent pour passer en contrebande de grandes quantités de produits entre les Carmines et la marche de l'Ouest.\n\nIl faut que vous vous introduisiez dans les docks et que vous me rapportiez le programme d'embarquement des navires, <nom>. Vous le trouverez probablement au profond des poches de l'Intendant des docks.\n\n... Et <nom>, si vous étiez découvert, sachez que le SI:7 nierait vous avoir jamais <connu/connue>.",
+   "progress": "Les dangers augmentent à mesure que vous perdez du temps à traîner dans la caserne, <classe>.",
+   "completion": "Je suis étonné. . . Etonné que Kerin ait enfin trouvé une recrue qui puisse faire un malandrin potable. Prenez cette lame, <nom>. Un jour viendra où on vous demandera encore de servir le SI:7. Préparez-vous, gardez les yeux ouverts et cette lame affûtée.\n\nVous ne nous verrez pas arriver, mais vous saurez vite quand nous serons là. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 332,
+     "name": "Maître Mathias Shaw"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 332,
+     "name": "Maître Mathias Shaw"
+    }
+   ],
+   "zone_id": -162,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 840,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "connu/connue",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2218": {
+   "id": 2218,
+   "name": "La voie du salut",
+   "objectives": "Parler à Hulfdan Blackbeard à Ironforge.",
+   "description": "Une autre âme perdue en quête de conseil, hein ?Je suppose que vous cherchez une voie, votre voie. J'ai déjà vu ça mille fois, encore un héros désœuvré qui cherche du travail.\n\nEh bien, c'est aujourd'hui votre jour de chance, mon <ami/amie>. Hogral connaît la solution à votre tourment.\n\nVoici ce qu'il vous faut faire : prenez cette route jusqu'à Ironforge et cherchez-y la caverne lugubre. Une fois sur place, localisez la guilde des voleurs et demandez entretien à Hulfdan Blackbeard. Il vous guidera vers votre salut.",
+   "progress": null,
+   "completion": "Alors, vous croyez êt' une vraie crapule ? Un qu'est destiné à êt' parmi les rares choisis de Blackbeard, un officier du Cercle secret ?\n\nY'a qu'un bon à rien, un impertinent pour êt' aussi imbu de lui-même.\n\nMais c'est exactement c'qu'on recherche! Alors bienvenue, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1234,
+     "name": "Hogral Bakkan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5165,
+     "name": "Hulfdan Blackbeard"
+    }
+   ],
+   "zone_id": -162,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 420,
+   "money": 175,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "ami/amie"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2238": {
+   "id": 2238,
+   "name": "Simple subterfuge",
+   "objectives": "Trouver Onin MacHammar à Gnomeregan.",
+   "description": "Vous voyez, le roi a épuisé les carrières en extrayant le minerai de fer et les gemmes. Cela fait plus de richesses que n'en pourrait amasser un nain en vivant dix vies.\n\nLe Cercle secret a des valeurs, <nom>. Nous accordons de la valeur a ce qui a de la valeur. Vous comprenez ?\n\nNous pensons que le roi doit partager ce butin, mais nous ne voulons pas que \"Barbe-puante\" sache qu'il est en train de partager, pigé ?\n\nAdressez-vous à Onin MacHammar à Gnomeregan et rendez moi compte. Il est habile, il se cache parmi les lépreux. Faites attention.",
+   "progress": null,
+   "completion": "Chut ! Moins de bruit, idiot. Ils vont nous entendre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5165,
+     "name": "Hulfdan Blackbeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6886,
+     "name": "Onin MacHammar"
+    }
+   ],
+   "zone_id": -162,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 840,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2239": {
+   "id": 2239,
+   "name": "Rapport d'Onin",
+   "objectives": "Porter le rapport d'Onin à Hulfdan à Ironforge.",
+   "description": "La carrière ? Ouaip, je vois ces monstrueux chars à vapeur qui passent près de là, presque tous les jours.\n\nMes contacts, à l'est, me disent que le char quitte Ironforge, charge sa cargaison à la carrière de Gol'Bolar, se ravitaille à Kharanos et après, pour une raison bizarre, emprunte le long chemin qui contourne Gnomeregan avant d'atteindre Ironforge où il décharge.\n\nTout est dans le rapport, <nom>. Portez-le à Hulfdan, qu'il puisse réfléchir à la suite du plan.",
+   "progress": "Z'avez bien aimé la puanteur du gnome lépreux ? J'demande ça parce que z'avez comme un sourire un peu bizarre.\n\nQuelles nouvelles vous nous rapportez d'Onin ?",
+   "completion": "Longue marche ? Par ma barbe !\n\nZ'avez réussi, <nom>. Prenez cette dague et disparaissez. Le Cercle vous rappellera quand la troisième étape sera sur le point d'commencer.\n\nC'est quoi la troisième étape ? C'est celle qui vient après la deuxième, et j'peux aussi vous botter l'train.\n\nÇa vous dit ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6886,
+     "name": "Onin MacHammar"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5165,
+     "name": "Hulfdan Blackbeard"
+    }
+   ],
+   "zone_id": -162,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 840,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2241": {
+   "id": 2241,
+   "name": "Pomme d'amour",
+   "objectives": "Porter la fleur de Jannok à Syurna à Darnassus.",
+   "description": "Ils disent que je suis fleur bleue... quoi que cela puisse vouloir dire.\n\nC'est vrai qu'à tout instant je pense à Syurna. C'est vrai, ma maison est tapissée de peintures et de dessins de Syurna. C'est vrai, je peux passer des jours sans manger, boire ou dormir en me languissant de l'amour que nous aurions pu connaître. Mais est-ce mal ?\n\nDésormais, elle ne me verra plus ! MOI ! J'ai essayé de lui envoyer des messages, mais elle ne parlera même pas à quelqu’un qui n’est pas un voleur.\n\nPourriez-vous lui porter cette fleur ? Et n'oubliez pas de dire que c'est de la part de Jannok.",
+   "progress": "Oh, n'est-ce pas merveilleux ? Vous avez apporté des fleurs pour vos propres funérailles.",
+   "completion": "Si j'avais conservé chaque fleur que ce balourd de Jannok m'a envoyée, j'aurais eu de quoi ouvrir un magasin de fleurs. Mais bon, il semble toutefois que le dernier courrier de Jannok puisse être utile.\n\nSeriez-vous intéressé par un travail, <classe>?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3599,
+     "name": "Jannok Breezesong"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4163,
+     "name": "Syurna"
+    }
+   ],
+   "zone_id": -162,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2242": {
+   "id": 2242,
+   "name": "L'appel du destin",
+   "objectives": "Trouver Sethir l’Ancien et rapporter tout indice découvert à Syurna.",
+   "description": "Nous pensons qu'il existe un être qui pourrait nous aider à comprendre ce qui arrive aux forêts de Teldrassil. Malheureusement, toutes les tentatives pour amener la créature à coopérer se sont soldées par un désastre.\n\nIl se cache sur une branche, sur le rebord de la clairière de l'Oracle. À ce jour, tous ceux qui ont approché le satyre, par la force ou la diplomatie, ont été anéantis. Le camouflage est peut-être la solution, <nom>.\n\nTrouvez ce que Sethir l'Ancien cache dans ses poches et faites-moi un rapport.",
+   "progress": "Avez-vous pu obtenir des informations de Sethir l'Ancien, <nom> ?",
+   "completion": "Voilà de bien sombres nouvelles, <nom>. Il semblerait que la pestilence qui s’est emparée des forêts et des rivières de Sombrivage ait commencé à infecter notre pays.\n\nVous nous avez loyalement servi, mais il n'y a rien que vous puissiez encore faire ici. Prenez cette épée en guise de récompense.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4163,
+     "name": "Syurna"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4163,
+     "name": "Syurna"
+    }
+   ],
+   "zone_id": -162,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 840,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2259": {
+   "id": 2259,
+   "name": "Erion Shadewhisper",
+   "objectives": "Contacter Erion Shadewhisper à Darnassus.",
+   "description": "Ne vous inquiétez pas, <nom>, je ne vous envoie pas voir Syurna. Erion veut que vous le rejoigniez dans l'Enclave de Cenarion. Faites vite !",
+   "progress": null,
+   "completion": "Il est temps de se diversifier, <race> - le monde vous attend.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3599,
+     "name": "Jannok Breezesong"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4214,
+     "name": "Erion Shadewhisper"
+    }
+   ],
+   "zone_id": -162,
+   "level": 16,
+   "reqlevel": 16,
+   "side": "alliance",
+   "xp": 115,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2260": {
+   "id": 2260,
+   "name": "L'ordre d'Erion",
+   "objectives": "Voyager vers Stormwind pour y rencontrer Renzik \"le Kriss\".",
+   "description": "Le Service de Renseignement de Stormwind (SI:7) a entendu parler de vos exploits, <nom>, et il veut vous recruter.\n\nLe voyage est coûteux et périlleux, mais on ne rejette pas l'opportunité de s'entraîner pour le SI:7 !\n\nUn nouveau monde s'ouvre à vous, <nom>. Rendez-vous dans la vieille ville de Stormwind et adressez-vous à Renzik \"le Kriss\" \" au QG du SI:7.",
+   "progress": null,
+   "completion": "Vous avez répondu à l'appel du SI:7, <nom>, et avez fait longue route pour rejoindre nos rangs ; il vous reste néanmoins encore beaucoup à apprendre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4214,
+     "name": "Erion Shadewhisper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6946,
+     "name": "Renzik \"le kriss\""
+    }
+   ],
+   "zone_id": -162,
+   "level": 16,
+   "reqlevel": 16,
+   "side": "alliance",
+   "xp": 580,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2281": {
+   "id": 2281,
+   "name": "Le Rendez-vous des Carmines",
+   "objectives": "S'aventurer vers Lakeshire dans les Carmines et parler à Lucius.",
+   "description": "Vous jeter maintenant sur le champ de bataille serait pur suicide. Renzik ne veut pas d'un autre cadavre de voleur dans son équipe. Mais pas d'inquiétude, <nom> : Renzik vous mettra à niveau.\n\nDirigez-vous vers les Carmines et discutez avec Lucius, un associé du SI:7. Vous le trouverez facilement, il traîne généralement autour des docks de Lakeshire avec d'autres bons à rien.",
+   "progress": null,
+   "completion": "Ah, z'êtes un peu maladroit d'vos dix doigts, hein ? Bah, pas grave, <nom>, j'en ai transformé des plus mauvais que vous en vrais voleurs accomplis.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6946,
+     "name": "Renzik \"le kriss\""
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6966,
+     "name": "Lucius"
+    }
+   ],
+   "zone_id": -162,
+   "level": 16,
+   "reqlevel": 16,
+   "side": "alliance",
+   "xp": 115,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2282": {
+   "id": 2282,
+   "name": "La scierie d'Alther",
+   "objectives": "Ouvrir le Coffret de Lucius, récupérer le Gage de voleur et le rapporter à Lucius à Lakeshire.",
+   "description": "J'entraîne des voleurs depuis des années ! Après tout, c'est pas n'importe quel vaurien qu'est né avec la grâce et la finesse du vieux Lucius.\n\nUn peu plus loin, z'allez trouver la scierie d'Alther. J'y ai un coffre fermé qui contient que'q' chose d'important. Allez le récupérer pour moi. Ramenez-moi ce qui s'y trouve, et vous recevrez vot' Certificat de voleur !",
+   "progress": "Au fait, avais-je oublié de mentionner les orcs ?\n\nJ'ai cru comprendre qu'il y en avait qui traînaient près de la scierie.",
+   "completion": "Vous l'avez forcé ? Joli travail, <nom>.\n\nSi vous mourez maintenant nous saurons que c'est par stupidité, pas par inexpérience !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6966,
+     "name": "Lucius"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6966,
+     "name": "Lucius"
+    }
+   ],
+   "zone_id": -162,
+   "level": 20,
+   "reqlevel": 16,
+   "side": "alliance",
+   "xp": 1550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2298": {
+   "id": 2298,
+   "name": "Kingly Shakedown",
+   "objectives": "Aller à Stormwind et chercher Renzik \"le Kriss\".",
+   "description": "Alors on était là, en train de comploter pour la phase III quand d'un coup, deux crétins de Magni se pointent en parlant de je ne sais quel coup, et d'arrêter ceux du Cercle secret.\n\nPersonne ne porte la main sur le vieux Blackbeard ! La discussion s'envenime, blabla, paf, et soudain on prononce vot' nom !\n\nV'voulez un conseil ? Prenez le premier Griffon pour Stormwind. Une fois là-bas, allez voir Renzik \"le Kriss\" dans la vieille ville. C'est un vieil ami à moi.",
+   "progress": null,
+   "completion": "Il est toujours bon d'avoir dans ses rangs un des voleurs de Hulfdan !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5165,
+     "name": "Hulfdan Blackbeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6946,
+     "name": "Renzik \"le kriss\""
+    }
+   ],
+   "zone_id": -162,
+   "level": 16,
+   "reqlevel": 16,
+   "side": "alliance",
+   "xp": 115,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2299": {
+   "id": 2299,
+   "name": "Cap sur Hulfdan !",
+   "objectives": "Se rendre à Ironforge et parler à Hulfdan Blackbeard.",
+   "description": "Où donc étiez-vous, <nom> ? Hulfdan vous cherche partout. On craignait que le roi ne vous ait fait mettre aux fers.\n\nAllez à Ironforge dès que possible et parlez à Hulfdan !",
+   "progress": null,
+   "completion": "Parlez moins fort, <nom>, les gardes pourraient vous entendre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1234,
+     "name": "Hogral Bakkan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5165,
+     "name": "Hulfdan Blackbeard"
+    }
+   ],
+   "zone_id": -162,
+   "level": 16,
+   "reqlevel": 16,
+   "side": "alliance",
+   "xp": 115,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2300": {
+   "id": 2300,
+   "name": "SI:7",
+   "objectives": "Aller à Stormwind et chercher Renzik \"le Kriss\".",
+   "description": "Renzik vous cherchait, l'ami.\n\nJe ne ferais pas attendre le bras droit de Mathias à votre place.",
+   "progress": null,
+   "completion": "Es-tu prêt à te mettre au travail ou as-tu besoin de faire une sieste avant de commencer ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 917,
+     "name": "Keryn Sylvius"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6946,
+     "name": "Renzik \"le kriss\""
+    }
+   ],
+   "zone_id": -162,
+   "level": 16,
+   "reqlevel": 16,
+   "side": "alliance",
+   "xp": 115,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2359": {
+   "id": 2359,
+   "name": "La Tour de Klaven",
+   "objectives": "Voler la Clé de la Tour défias, pénétrer dans la Tour et trouver ce que contient le Coffre du bois de la Pénombre. Rapporter les informations à Mathias Shaw à Stormwind. Lire le journal de Kearnen pour savoir ce qui se passe dans la Tour.",
+   "description": "Je suis là, à surveiller cette tour depuis des semaines, <nom>. Récemment, un chargement important est arrivé du bois de la Pénombre, protégé par ces gardes.\n\nQue sont-ils ? Aucune idée. La seule chose que je puisse affirmer, c'est qu'ils ne sont pas humains.\n\nQuoiqu'il en soit, dans cette cargaison repose un coffre, et je suppose que ces abominations sont commises à sa garde. Le gros avec les piques, là, possède une clé dont nous aurons besoin.\n\nRécupérez cette clé, entrez dans la Tour et découvrez ce que contient ce coffre. Rapportez à Mathias le produit de votre recherche.",
+   "progress": "Des nouvelles de l'Agent Kearnen ?",
+   "completion": "Ça expliquerait les pantins défias que Kearnen et vous avez vus hors de la tour, <nom>. Et l'implication de la KapitalRisk avec les Défias, ou encore l'étrange cargaison venue du bois de la Pénombre. . .\n\nSi j'en crois ce livre, les trolls Zanzil de Strangleronce ont découvert une potion pour réveiller les morts. . . Ou, pour être plus clair, un poison.\n\nVous ne serez d'aucune aide au SI:7 sans une bonne connaissance des poisons, <nom>. . . Surtout avec la recette de fabrication des morts-vivants à portée de la main.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7024,
+     "name": "Agent Kearnen"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 332,
+     "name": "Maître Mathias Shaw"
+    }
+   ],
+   "zone_id": -162,
+   "level": 24,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 1950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2360": {
+   "id": 2360,
+   "name": "Mathias et les Défias",
+   "objectives": "Se rendre dans la marche de l'Ouest et trouver l'Agent Kearnen pour un débriefing.",
+   "description": "Pas trop tôt, <nom>. Les éléments de reconnaissance du SI:7 nous apprennent les Défias sont inhabituellement actifs dans la marche de l'Ouest.\n\nOn dirait qu'ils ont pris une ancienne Tour de guet de l'Alliance abandonnée au sud-est de la Colline des sentinelles, et qu'ils s'en servent comme base d'opérations pour leurs trafics à partir de la route d'approvisionnement des Carmines.\n\nAllez dans la marche et contactez l'Agent Kearnen. Elle est cachée à proximité de la tour.\n\n... Oh, <nom>, si vous veniez à être <capturé/capturée>, le SI:7 nierait avoir eu connaissance, etc.",
+   "progress": null,
+   "completion": "Mathias s'est enfin décidé à m'envoyer du renfort ! J'espère qu'il est prêt à entendre des mauvaises nouvelles !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 332,
+     "name": "Maître Mathias Shaw"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7024,
+     "name": "Agent Kearnen"
+    }
+   ],
+   "zone_id": -162,
+   "level": 20,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 390,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "capturé/capturée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2378": {
+   "id": 2378,
+   "name": "Trouver la Main brisée",
+   "objectives": "Voyager vers Orgrimmar pour y parler à Shenthul, dans la Faille de l'ombre.",
+   "description": "Vous avez bien servi les Traqueurs de ténèbres, <nom>, mais il est temps d'étendre votre expérience. Vous avez montré vos capacités en matière de ruse et de traîtrise, mais votre entraînement n'est pas terminé.\n\nLes Traqueurs de ténèbres ont des alliés au sein de la Main brisée. Cherchez ceux qui viennent à notre aide : trouvez Shenthul à Orgrimmar.",
+   "progress": null,
+   "completion": "C'est donc vous que nos puissants alliés expédient à Shenthul ? Pas très engageant. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6467,
+     "name": "Mennet Carkad"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3401,
+     "name": "Shenthul"
+    }
+   ],
+   "zone_id": -162,
+   "level": 16,
+   "reqlevel": 16,
+   "side": "horde",
+   "xp": 115,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2379": {
+   "id": 2379,
+   "name": "Zando'zan",
+   "objectives": "Parler à Zando'zan à la Faille de l'ombre.",
+   "description": "Votre seule détermination ne suffira pas pour affronter les obstacles qui nous attendent.\n\nAdressez-vous à Zando'zan pour commencer votre entraînement comme opérationnel de la Main brisée.\n\nLorsque vous maîtriserez le noble art du vol et de la tricherie vous pourrez faire un pas de plus vers votre destinée.",
+   "progress": null,
+   "completion": "Zando'zan avait peut-être tort. Zando'zan présente des excuses.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3401,
+     "name": "Shenthul"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3402,
+     "name": "Zando'zan"
+    }
+   ],
+   "zone_id": -162,
+   "level": 16,
+   "reqlevel": 16,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2380": {
+   "id": 2380,
+   "name": "Cap sur Orgrimmar !",
+   "objectives": "S'adresser à Shenthul à la Faille de l'ombre à Orgrimmar.",
+   "description": "Spécialiste de la forfaiture et de la tricherie, vous ne l'êtes pas, mais ça peut changer. Il semble que vous ayez impressionné les chefs avec vos maigres talents, puisque le grand Shenthul lui-même vous réclame.\n\nPrenez la route vers le nord jusqu'à Orgrimmar et adressez-vous à Shenthul à la Faille de l'ombre.",
+   "progress": null,
+   "completion": "Il est important que la Main brisée reste vigilante face aux changements que Thrall souhaite apporter à la Horde. Notre nombre ne suffira pas à venir à bout de sa domination - nous devons maîtriser la furtivité et la tromperie.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3170,
+     "name": "Kaplak"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3401,
+     "name": "Shenthul"
+    }
+   ],
+   "zone_id": -162,
+   "level": 16,
+   "reqlevel": 16,
+   "side": "horde",
+   "xp": 115,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2381": {
+   "id": 2381,
+   "name": "Piller les Pilleurs",
+   "objectives": "Rapporter le Trésor des Mers du sud à Wrenix le Misérable à Ratchet. Ne pas oublier d’obtenir un B.G.A.C. et des Outils de voleur de l’Appareil bidulotronique de Wreni. Ces deux éléments sont nécessaires pour accomplir la mission.\n\nEn cas d’attaque par des perroquets particulièrement hostiles, utiliser le B.G.A.C.!",
+   "description": "Sans vouloir vous effrayer, <nom>, les cinq derniers qui ont essayé de voler le trésor des Mers du sud ont été mis en pièces.\n\nLe long de la côte, au sud, vous trouverez le \"Tranche-les-vagues\", le navire des Flibustiers des Mers du sud. Le trésor se trouve dans la cale. Au deuxième niveau se trouve la salle des pirates, une salle d'entraînement pour leurs voleurs.\n\nMontez à bord, volez le trésor, et rapportez-le-moi. Utilisez la salle des pirates si vous voulez vous entraîner, mais attention : prudence !",
+   "progress": "Enfin, au moins, vous avez conservé tous vos membres. . . Et le trésor ?",
+   "completion": "Incroyable ! Impossible ! Etonnant. . . Vous avez du talent, <nom>. Ou alors vous avez une veine de. . . Bref. . .\n\nVoici votre part du butin. Ce truc vous fera sûrement plus d'usage qu'à moi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7161,
+     "name": "Wrenix le Misérable"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7161,
+     "name": "Wrenix le Misérable"
+    }
+   ],
+   "zone_id": -162,
+   "level": 18,
+   "reqlevel": 16,
+   "side": "horde",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2382": {
+   "id": 2382,
+   "name": "Wrenix de Ratchet",
+   "objectives": "Aller jusqu'à Ratchet pour voir Wrenix le Misérable.",
+   "description": "Zando'zan l'a vu ! Oui, le jour vient ! La mort de l'esclave... Le poignard dans le dos, le poison suintant de chaque veine... Zando'zan en a trop dit.\n\n<nom> ! Zando'zan a une tâche pour <nom> ! <nom> doit aller à Ratchet, à l'est de la Croisée, pour rencontrer Wrenix le Misérable. Allez !",
+   "progress": null,
+   "completion": "Encore un ? Les cinq derniers que ces trolls inconscients m'ont envoyés ont fini dans l’estomac des requins. Espérons que vous valez un peu mieux, hein ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3402,
+     "name": "Zando'zan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7161,
+     "name": "Wrenix le Misérable"
+    }
+   ],
+   "zone_id": -162,
+   "level": 16,
+   "reqlevel": 16,
+   "side": "horde",
+   "xp": 115,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2458": {
+   "id": 2458,
+   "name": "Sous le couvert de la nuit",
+   "objectives": "Aller à la tour de la KapitalRisk, au nord de la Videfange, et contacter l'agent secret de la Main brisée, le sous-chef Fizzule.\n\nUne fois la tour en vue, utiliser le lance-fusées pour se signaler au sous-chef Fizzule. Tirer DEUX fusées, puis s'approcher du sous-chef Fizzule et faire le Salut brisé (/salut).\n\nRespecter l'ordre de ces actions, car Fizzule attaque et tue toute personne qu'il ne peut pas identifier.",
+   "description": "La KapitalRisk... Vous avez entendu parler d'eux ?\n\nDepuis un an, nous essayons d'y introduire un de nos agents. Nous avons travaillé dur, mais prudemment, et nous avons réussi.\n\nNous venons d'apprendre que la KapitalRisk projette une opération de grande envergure. Allez au nord de la Videfange, à la tour de la KapitalRisk, et contactez notre agent, le sous-chef Fizzule.\n\nUne fois sur place, utilisez ce lance-fusées, approchez Fizzule et faites-lui le salut de la Main brisée.",
+   "progress": null,
+   "completion": "Ça fait plaisir de voir un autre agent de la Main brisée par ici, mais les fusées, c'était peut-être un peu trop !\n\nLa prochaine fois que vous voudrez me parler, soufflez deux fois dans ce sifflet et je saurai que vous faites partie des alliés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3401,
+     "name": "Shenthul"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7233,
+     "name": "Sous-chef Fizzule"
+    }
+   ],
+   "zone_id": -162,
+   "level": 20,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 1150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2460": {
+   "id": 2460,
+   "name": "Le Salut brisé",
+   "objectives": "Faire le Salut brisé à Shenthul.",
+   "description": "En tant que voleur de la Main brisée, il est impératif que vous appreniez le Salut brisé. C'est la seule façon d'identifier un autre membre de la Main.\n\nRegardez, apprenez, répétez.",
+   "progress": "Passez à la pratique !",
+   "completion": "Bien joué, <nom>. Vous pouvez maintenant y aller.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3401,
+     "name": "Shenthul"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3401,
+     "name": "Shenthul"
+    }
+   ],
+   "zone_id": -162,
+   "level": 20,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 155,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2478": {
+   "id": 2478,
+   "name": "Mission : possible mais non probable",
+   "objectives": "Voler la Clé de la tour de Silixiz au contremaître Silixiz, puis tuer deux Pantins mutants de la KapitalRisk, deux Patrouilleurs de la KapitalRisk, et deux Sentinelles de la KapitalRisk.\n\nAssassiner le grand contremaître Gallywix et prendre sa tête. Ouvrir le coffre de Gallywix et y voler la Mixture altérée de Zanzil. Apporter la Mixture et la tête de Gallywix à Shenthul à Orgrimmar, et attendre de nouvelles instructions.",
+   "description": "Vous devez voler la clé de la tour au contremaître Silixiz, <nom>. Une fois la clé en votre possession, gardez-la soigneusement, je pourrais en avoir besoin plus tard.\n\nProfitez de l'état d'affaiblissement des habitants empoisonnés, et laissez donc votre tendance au chaos et à la destruction s'exprimer librement. Tuez-les tous ! Ne montrez aucune pitié !\n\nLorsque tous baigneront dans leur sang, ouvrez le coffre de Gallywix et volez la Mixture de Zanzil. Apportez la tête de Gallywix ainsi que la Mixture à Shenthul à Orgrimmar.",
+   "progress": "Qu'avez-vous à m'annoncer, <nom> ?",
+   "completion": "Pauvre Fizzule ! C'était un bon agent, l'un des meilleurs. Hélas, c'est le prix à payer, <nom> ! Être un agent de la Main brisée est dangereux.\n\nVous avez fait et bien fait votre devoir, <classe>. Cela aurait été dommage que vous ne surviviez pas.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7233,
+     "name": "Sous-chef Fizzule"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3401,
+     "name": "Shenthul"
+    }
+   ],
+   "zone_id": -162,
+   "level": 24,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 1950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2479": {
+   "id": 2479,
+   "name": "L'aide d'Hinott",
+   "objectives": "Aller à Moulin-de-Tarren dans les contreforts d'Hillsbrad et livrer l'Échantillon de la mixture de Zanzil à Serge Hinott.\n\nPour rejoindre Moulin-de-Tarren, prenez le zeppelin à Undercity et suivez la route du sud, à travers les Pins argentés et vers Hillsbrad. Suivez les panneaux !",
+   "description": "Apportez un échantillon du mélange à Serge Hinott à Moulin-de-Tarren.\n\nSi quelqu'un peut vous guérir, c'est bien Serge. Si vous vivez suffisamment longtemps, il vous montrera comment créer un poison et comment l'utiliser.",
+   "progress": "Qu'est-ce que c'est que ça ?",
+   "completion": "Vous semblez délicieusement pâle, <classe>. Et quel est cet arôme écœurant que vous dégagez ? Je dois le savoir !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3401,
+     "name": "Shenthul"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2391,
+     "name": "Serge Hinott"
+    }
+   ],
+   "zone_id": -162,
+   "level": 26,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 1050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2480": {
+   "id": 2480,
+   "name": "L'aide d'Hinott",
+   "objectives": "Attendre Serge Hinott pour achever le remède.",
+   "description": "Je n'ai jamais vu d’aussi merveilleux résultats pour un poison ! Zanzil, vous dites ? Jamais entendu parler de lui, mais je m'incline devant le mélange qu'il a créé.\n\nBon, vous voulez que je vous guérisse et que je vous apprenne ensuite à utiliser le poison ?\n\nLaissez-moi un peu de temps pour examiner la toxine, <nom>.",
+   "progress": null,
+   "completion": "Le remède est prêt ! Buvez cette antitoxine et cette folie rampante s'arrêtera, mais je ne suis pas capable de faire quoi que ce soit pour l'odeur.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2391,
+     "name": "Serge Hinott"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2391,
+     "name": "Serge Hinott"
+    }
+   ],
+   "zone_id": -162,
+   "level": 20,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 155,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2607": {
+   "id": 2607,
+   "name": "Le toucher de Zanzil",
+   "objectives": "Aller voir le docteur Mixilpixil dans la Cave de la caserne.",
+   "description": "On dirait que vous avez rapporté plus d'informations que je n'en attendais. Les événements prennent une tournure étrange, <nom>.\n\nUn remède ? Hum... Rendez-vous à la Cave et allez voir le docteur Mixilpixil, il pourra peut-être vous aider.",
+   "progress": null,
+   "completion": "Il est grand temps ! Mettez simplement le fromage sur la table et barrez-vous. Osborne vous payera en sortant.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 332,
+     "name": "Maître Mathias Shaw"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7207,
+     "name": "Doc Mixilpixil"
+    }
+   ],
+   "zone_id": -162,
+   "level": 20,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2608": {
+   "id": 2608,
+   "name": "Le toucher de Zanzil",
+   "objectives": "S'allonger (/coucher) pour être <examiné/examinée> par le docteur Mixilpixil. Comment peut-il trouver le remède s'il ne peut pas trouver la cause ?",
+   "description": "Oh Ciel ! Vous ressemblez à la mort. Je corrige : j'ai vu la mort, vous semblez en pire état. Vous ressemblez à ce que serait la mort à son dernier instant.\n\nAh ! Vous entendez ce Noarm ? Notez-le !\n\n*soupir* Hum ! Oui, pour vous aider, je dois prendre un peu de votre sang. Ne vous inquiétez pas, ça ne fait mal que les… cinquante premières fois. Allongez-vous (/coucher) quand vous serez <prêt/prête> pour le traitement, <nom>.",
+   "progress": "Lorsque vous serez prêt pour l'examen, /couchez-vous sur le sol et je commencerai la phlébotomie.",
+   "completion": "Donnez-moi un moment pour discuter avec mes confrères, <nom>. Docteur Montgomery, M. Noarm, réunissons-nous !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7207,
+     "name": "Doc Mixilpixil"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7207,
+     "name": "Doc Mixilpixil"
+    }
+   ],
+   "zone_id": -162,
+   "level": 20,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 155,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "examiné/examinée",
+    "nom",
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2609": {
+   "id": 2609,
+   "name": "Le toucher de Zanzil",
+   "objectives": "Apporter au docteur Mixilpixil une Brassée de Fleurs sauvages simples, une Fiole plombée, un Tube en Bronze et une Bobine de Fil de soie chartreuse. Le itis ne guérit pas tout seul.",
+   "description": "Le diagnostic est unanime, <nom>. Vous êtes <atteint/atteinte> de “itis”.\n\nHeureusement, j'ai un remède.\n\nVoilà ce dont j'ai besoin : une brassée de fleurs sauvages simples, une fiole plombée, un tube en bronze et une bobine de fil de soie chartreuse. La vieille Emma en a laissé pour moi au \"Fil le plus fin”. Le magasin se trouve le long des canaux.\n\nDépêchez-vous <nom>, et ne touchez personne jusqu'à votre guérison. Oh ! Montgomery dit que vous devriez prendre une douche – c'est lui qui le dit, pas moi.",
+   "progress": "Si vous voulez guérir de votre itis, vous allez devoir essayer avec plus d'ardeur, <nom>. Où sont les réactifs pour le remède ?",
+   "completion": "Ce que je fais ? Qu'est-ce que j'ai l'air de faire ? Je mets au point un remède pour soigner votre itis ! Ne jouez pas les indignés avec moi maintenant, <nom> !\n\nPlus que quelques secondes. Là ! Pulvérisez juste un peu de ce médicament fantastique sur vous et vous retrouverez la pêche.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7207,
+     "name": "Doc Mixilpixil"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7207,
+     "name": "Doc Mixilpixil"
+    }
+   ],
+   "zone_id": -162,
+   "level": 20,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 1150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "atteint/atteinte",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3083": {
+   "id": 3083,
+   "name": "Tablette codée",
+   "objectives": "Lire la Tablette codée, et parler à Rwag, dans la Vallée des épreuves.",
+   "description": "Ah, pendant votre absence, on a apporté une tablette pour vous, <nom>.\n\nLisez-la, dès que vous aurez un moment. Si je ne me trompe pas, elle provient du Maître des voleurs, Rwag. Il souhaiterait s'entretenir avec vous, quand vous jugerez le moment venu.",
+   "progress": "Bienvenue dans la Vallée des épreuves, <nom>. Vous ne seriez pas ici si vous n'aviez eu ma tablette, je serai donc direct :\n\nJe suis Rwag, responsable de l'entraînement des bandits, voleurs et détrousseurs, ici dans la vallée. La Main surveillera de près vos progrès et m'a chargé de les superviser. Vous aurez une certaine liberté, mais je vous conseille de travailler dur et d'être prêt lorsqu'ils auront besoin de vos talents.",
+   "completion": "Jusqu'à nouvel ordre, vous serez sous ma tutelle. Je vais vous montrer les ficelles du métier, comme on dit. Dès que vous vous sentez apte, venez me retrouver pour poursuivre l'entraînement. Pour l'instant pratiquez ce que vous avez déjà appris, jusqu'à la maîtrise. La moindre petite compétence peut parfois sauver la vie, dans certaines situations.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3143,
+     "name": "Gornek"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3155,
+     "name": "Rwag"
+    }
+   ],
+   "zone_id": -162,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3088": {
+   "id": 3088,
+   "name": "Parchemin codé",
+   "objectives": "Lire le Parchemin codé, et parler à Rwag, dans la Vallée des épreuves.",
+   "description": "Ah, pendant que vous n’étiez pas là un parchemin est arrivé pour vous, <nom>.\n\nLisez-le quand vous en aurez le temps. Si je ne me trompe pas, il provient du Maître des voleurs, Rwag. Il souhaiterait s’entretenir avec vous, quand vous jugerez le moment venu.",
+   "progress": "Chut, pas si fort. Je ne fais pas confiance à Nartok, là-bas. Ceux qui se cachent encore plus profond que moi dans une grotte ne doivent pas être pris à la légère.\n\nVous n'avez pas eu trop de problèmes pour me trouver ?",
+   "completion": "Maintenant que vous savez ou je demeure, je peux vous le dire : la Main brisée m'a demandé de m'occuper de vous. Ils veulent que je vous entraîne et que je vous informe de tout ce dont ils pourraient avoir besoin. Même si les aider ne vous intéresse pas encore (ce qui serait idiot de votre part), je ferai ce que je peux pour vous entraîner. . . Pour une somme modique. Revenez quand vous voulez et nous verrons ce que vous êtes capable d'apprendre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3143,
+     "name": "Gornek"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3155,
+     "name": "Rwag"
+    }
+   ],
+   "zone_id": -162,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3096": {
+   "id": 3096,
+   "name": "Parchemin codé",
+   "objectives": "Lire le Parchemin codé, et parler à David Trias, au Glas.",
+   "description": "Ah, pendant que vous vous occupiez du Fléau, ce parchemin est arrivé pour vous. Je suppose qu'il est de quelque importance, car il porte le sceau du Maître des voleurs, David Trias. À votre place, je prendrais le temps de le lire avant de repartir.",
+   "progress": "Alors vous avez réussi ? Bien. Avec le temps, nous allons avoir besoin de beaucoup d'autres voleurs. Les Traqueurs des ténèbres finiront sûrement par vous trouver au moment qu'ils trouveront opportun, donc évitez les gaffes ou les choses que vous pourriez regretter. Ils ont besoin d'agents doués. . . Pas de pickpockets et d'idiots.",
+   "completion": "Je passe le plus clair de mon temps ici à l'auberge, à garder un oeil sur les têtes nouvelles et sur les projets prometteurs. Restez en dehors des mauvais coups et je vous apprendrai quelques trucs. Revenez me voir quand vous le voulez, nous verrons bien si vous pouvez acquérir une technique ou deux.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1569,
+     "name": "Prêtre des ombres Sarvis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2122,
+     "name": "David Trias"
+    }
+   ],
+   "zone_id": -162,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3102": {
+   "id": 3102,
+   "name": "Lettre codée",
+   "objectives": "Lire la Lettre codée, et parler à Jorik Kerridan, dans l’écurie, derrière l’Abbaye de Northshire.",
+   "description": "On m'a demandé de vous remettre cela dès que vous seriez de retour des camps des kobolds, <nom>. Il s'agit d'une lettre portant le sceau de Jorik, l'un de nos Maîtres locaux. À votre place, je n'hésiterais pas à la lire avant de faire quoi que ce soit d'autre, ici, dans l'Abbaye.",
+   "progress": "Vous voici, en un seul morceau et sans vous faire remarquer. Parfait. Je n'aime pas trop me faire remarquer dans le coin. . . Je suis plutôt discret. Vous comprenez.\n\nDéjà eu quelques ennuis ? Jamais ? c'est parfait. Cela changera bien assez tôt.",
+   "completion": "Vous découvrirez que de nombreux groupes convoitent nos talents, <nom>. Des aventuriers, le SI:7. . . même la Confrérie défias voudrait bien placer un espion ou deux au sein de Stormwind. Mais n'oubliez jamais que vous n'appartenez qu'à vous. Ne laissez jamais qui que ce soit vous embarquer dans une affaire dont vous ne voulez pas ! De plus, nous avons tous les atouts en main. . . du moins avant que les jeux ne soient faits. Vous voyez ce que je veux dire ?\n\nBon, je voulais juste me présenter et vous dire que j'étais là si vous aviez besoin d'un entraînement. Passez quand vous voulez.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 197,
+     "name": "Maréchal McBride"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 915,
+     "name": "Jorik Kerridan"
+    }
+   ],
+   "zone_id": -162,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3109": {
+   "id": 3109,
+   "name": "Rune codée",
+   "objectives": "Lire la Rune codée, et parler à Solm Hargrin, dans la Vallée des Frigères.",
+   "description": "Pendant que vous m'aidiez, on m'a donné cette rune pour vous. Prenez le temps de la lire. Je pense qu'elle provient du Maître des voleurs, Solm. Jetez-y un coup d'oeil et allez le retrouver, à l'intérieur d'Anvilmar, quand vous en aurez le temps.",
+   "progress": "Vous voilà ! Génial !\n\nNotre activité marche bien en ce moment alors je suis content de pouvoir compter un autre membre du clan Ironforge dans nos rangs. Trop d'entre nous à mon goût se tournent vers l'arcane et le divin. J'ai rien contre eux ou leurs croyances, mais y a rien de tel qu'une lame froide entre vos mains ou qu'un coin d'ombre où se dissimuler, voyez c'que j'veux dire ?",
+   "completion": "De toute façon, lorsque vous commencerez à explorer les Frigères, vous aurez sans doute besoin de formation à un moment ou à un autre. Revenez me voir à chaque fois que vous en ressentirez le besoin et je vous enseignerai ce que je sais. Une astuce, une manoeuvre. . . Vous savez, le genre de truc qui vous garde en vie et vous permet de gagner quelques piécettes.\n\nGardez l'oeil sur vos amis gnomes également. . . Ils sont bien esseulés depuis la destruction de Gnomeregan et ils auront besoin de notre aide pour se sentir chez eux ici.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 658,
+     "name": "Sten Stoutarm"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 916,
+     "name": "Solm Hargrin"
+    }
+   ],
+   "zone_id": -162,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3113": {
+   "id": 3113,
+   "name": "Note de service codée",
+   "objectives": "Lire la Note de service codée, et parler à Solm Hargrin, dans la Vallée des Frigères.",
+   "description": "Pendant que vous m'aidiez, on m'a donné cette note de service pour vous. Prenez le temps de la lire. Je pense qu'elle provient du Maître des voleurs, Solm. Jetez-y un coup d'oeil et allez le retrouver, à l'intérieur d'Anvilmar, quand vous en aurez le temps.",
+   "progress": "Ravi de voir que vous avez reçu ma note et que vous êtes ici. Désolé pour l'imposture avec la note de vos supérieurs. . . N'y voyez aucun mal. Les gens comme nous doivent être solidaires avec les nôtres.\n\nBeaucoup pensent que ce n'est pas une bonne chose que d'avoir nos deux espèces dans la même ville, mais je pense que ça peut marcher. Pas vrai ?",
+   "completion": "J'essaie de bien me tenir par ici pour éviter que ça se retourne contre nous quand des choses disparaissent, mais si vous avez besoin de quoi que ce soit, d'entraînement ou autre, revenez me voir quand vous voulez.\n\nOn se comprend. On sait bien qu'on peut toujours compter sur la famille. . . Et c'est ce qui se passe en ce moment, non ? Que nous importe que Gnomeregan soit. . . envahi, ou que quoi que ce soit d'autre n'advienne, on peut compter sur les autres. Pas vrai ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 658,
+     "name": "Sten Stoutarm"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 916,
+     "name": "Solm Hargrin"
+    }
+   ],
+   "zone_id": -162,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3118": {
+   "id": 3118,
+   "name": "Sceau codé",
+   "objectives": "Lire le Sceau codé et parler à Frahun Shadewhisper, à Sombrevallon.",
+   "description": "Ce sceau m'a été donné par un messager de notre Maître des voleurs, Frahun. Il souhaiterait vous parler, dès que vous aurez un moment à lui accorder. Lisez-le et rapportez-le-lui.",
+   "progress": "Bonjour, <nom>. Vous m'avez trouvé, c'est bien. Je pensais que vous aviez pu vous perdre.\n\nPas grand-chose de neuf dans Sombrevallon depuis mon dernier message, mais ce sera à vous de collecter les nouvelles. Si vous le voulez, vous pouvez parler aux autres gens autour d'Aldrassil.",
+   "completion": "D'ici là, sachez que nous sommes très demandés en ces temps troublés. La paix avec les autres races peut se briser à tout moment et on parle beaucoup de membres de la Horde qui chercheraient à semer les graines de la discorde. N'oubliez pas ça.\n\nRepassez me voir quand vous aurez acquis plus de puissance et d'entraînement. Je veillerai à vous entraîner d'avantage. Il est vital que vous sachiez bien manier votre arme de prédilection, entre autres choses.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2079,
+     "name": "Conservateur Ilthalaine"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3594,
+     "name": "Frahun Shadewhisper"
+    }
+   ],
+   "zone_id": -162,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "D'ici là, sachez que nous sommes très demandés en ces temps troublés. La paix avec les autres races peut se briser à tout moment et on parle beaucoup de membres de la Horde qui chercheraient à semer les graines de la discorde. N'oubliez pas ça.\n\nRepassez me voir quand vous aurez acquis plus de puissance et d'entraînement. Je veillerai à vous entraîner d'avantage. Il est vital que vous sachiez bien manier votre arme de prédilection, entre autres choses."
+     },
+     "npc": 3594,
+     "npc_name": "Frahun Shadewhisper",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793985030,
+     "last_seen": 1793985030
+    },
+    "detail": {
+     "texts": {
+      "description": "Ce sceau m'a été donné par un messager de notre Maître des voleurs, Frahun. Il souhaiterait vous parler, dès que vous aurez un moment à lui accorder. Lisez-le et rapportez-le-lui.",
+      "objectives": "Lire le Sceau codé et parler à Frahun Shadewhisper, à Sombrevallon.",
+      "name": "Sceau codé"
+     },
+     "npc": 2079,
+     "npc_name": "Conservateur Ilthalaine",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793984803,
+     "last_seen": 1793984803
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6681": {
+   "id": 6681,
+   "name": "Ravenholdt, le manoir",
+   "objectives": "Apporter le Sceau de Ravenholdt à Fahrad, au Manoir de Ravenholdt, dans les collines d'Hillsbrad.\n\nVotre sagacité sera mise à l’épreuve tout au long de la route. Préparez-vous.",
+   "description": "<nom>, Ravenholdt porte un certain intérêt à vos capacités de jeune <voleur/voleuse>. Nous avons observé : votre style est un peu maladroit, mais rien d'irréparable.\n\nSi vous souhaitez vous engager dans une carrière de disciple de maître Ravenholdt et de membre de la Ligue des Assassins, vous n'avez qu'à apporter le Cachet de Ravenholdt (attaché à cette lettre) au manoir de Ravenholdt.\n\nVotre première tâche est de localiser le manoir, caché dans les collines d'Hillsbrad, afin de démontrer votre ruse.\n\nMes respects,\n\nFahrad.",
+   "progress": "Avez-vous rencontré Milton ?\n\n<Fahrad rit. >",
+   "completion": "Excellent, jeune larron.\n\nVous avez l'air d'avoir souffert un peu, mais ce n'est pas terminé.\n\nUn long voyage vous attend – long et enrichissant. Voulez-vous enfin saisir votre chance avec les maîtres de Ravenholdt ?\n\nAdressez-vous aux gardes dehors. Ils vous diront quoi faire.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 17126,
+     "name": "Elegant Letter"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6707,
+     "name": "Fahrad"
+    }
+   ],
+   "zone_id": -162,
+   "level": 24,
+   "reqlevel": 24,
+   "side": "both",
+   "xp": 1950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "voleur/voleuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6701": {
+   "id": 6701,
+   "name": "Emblèmes du Syndicat",
+   "objectives": null,
+   "description": null,
+   "progress": "Nous sommes en guerre avec le Syndicat depuis des années. Ils compensent par leur nombre leur manque de compétences. Nous n'arrivons pas à les tuer assez rapidement pour que cela ait un impact notable sur leur population !\n\nNous avons découvert que le meilleur moyen de gérer leur nombre est de voler leurs Emblèmes. Chaque membre qui la perd est 'puni' en interne.\n\nDétroussez-les et rapportez les Emblèmes à moi ou aux autres Gardes.\n\nCommencez à Durnholde, au sud d'ici.",
+   "completion": "Eh ! beau travail. Continuez et les autres voleurs arrêteront peut-être de vous cracher dessus.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6766,
+     "name": "Garde de Ravenholdt"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6766,
+     "name": "Garde de Ravenholdt"
+    }
+   ],
+   "zone_id": -162,
+   "level": 60,
+   "reqlevel": 24,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "8233": {
+   "id": 8233,
+   "name": "Une requête toute simple",
+   "objectives": "Parlez au seigneur Jorach Ravenholdt, au manoir de Ravenholdt.",
+   "description": "Le seigneur Jorach Ravenholdt requiert votre présence. Il s'agit d'une affaire secrète, je ne puis en dire plus.\n\nLe manoir de Ravenholdt se trouve dans les contreforts de Hautebrande. Cherchez un chemin dans les montagnes, au nord-ouest du donjon de Fort-de-Durn.",
+   "progress": null,
+   "completion": "Bienvenue, bienvenue, bienvenue ! S'il vous plaît, <nom>, asseyez-vous et discutez avec moi d'une question simple.\n\nVoyez-vous, <nom>, j'ai récemment perdu quelque chose qui m'était cher, et pour parler franchement, je veux le récupérer à tout prix. Il y a quelque chose pour vous, ne vous inquiétez pas ! Oh oui, quelque chose de très beau.\n\nMaintenant, qu'en dites-vous <nom>... êtes-vous prêt pour l'aventure ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 918,
+     "name": "Osborne l'homme de la nuit"
+    },
+    {
+     "type": "npc",
+     "id": 3328,
+     "name": "Ormok"
+    },
+    {
+     "type": "npc",
+     "id": 4163,
+     "name": "Syurna"
+    },
+    {
+     "type": "npc",
+     "id": 4583,
+     "name": "Miles Dexter"
+    },
+    {
+     "type": "npc",
+     "id": 5165,
+     "name": "Hulfdan Blackbeard"
+    },
+    {
+     "type": "npc",
+     "id": 5167,
+     "name": "Fenthwick"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6768,
+     "name": "Seigneur Jorach Ravenholdt"
+    }
+   ],
+   "zone_id": -162,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 510,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8234": {
+   "id": 8234,
+   "name": "Sac azur scellé",
+   "objectives": "Récupérer le Sac azur scellé auprès du chaman Grumegueule en Azshara. Puis apportez le sac à l'archimage Xylem, également en Azshara.",
+   "description": "Commençons par le commencement. J'ai perdu un petit sac bleu, dont le contenu ne regarde que moi.\n\nNe prenez pas la peine de chercher les voleurs, ils sont déjà morts. Nous savons cependant que ces écervelés n'ont pas pu ouvrir le sac. Ils l'ont alors vendu à un chaman Grumegueule en Azshara en le faisant passer pour une \"relique sacrée\". Très malin.\n\nJe veux que vous alliez en Azshara pour le récupérer auprès du chaman, en employant des moyens subtils... ou bien la force. Je miserais sur la première méthode. Une fois que vous aurez le sac, apportez-le à l'archimage Xylem.",
+   "progress": "Est-ce que je vous connais ?",
+   "completion": "Ah, vous avez le sac du seigneur Ravenholdt. Pourquoi ne l'avez-vous pas dit plus tôt, mon gars ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6768,
+     "name": "Seigneur Jorach Ravenholdt"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8379,
+     "name": "Archimage Xylem"
+    }
+   ],
+   "zone_id": -162,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 5100,
+   "money": 6000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8235": {
+   "id": 8235,
+   "name": "Les fragments codés",
+   "objectives": "Apporter 10 Fragments codés à l'archimage Xylem à Azshara.",
+   "description": "Le seigneur Ravenholdt nous demande à tous deux une faveur. Il souhaite faire enlever l'enchantement de ce sac.\n\nMalheureusement, certains de mes livres traitant du désenchantement m'ont récemment été dérobés avant d'être détruits par des sauvages. Leurs débris ont cependant encore de la valeur pour moi.\n\nSi vous m'apportez assez de fragments codés, je pourrai les réassembler. Vous aurez le plus de chances d'en trouver en tuant les bêtes d'Azshara, elles ont tendance à ramasser n'importe quoi.",
+   "progress": "Avez-vous trouvé assez de fragments pour que je continue mon travail ?",
+   "completion": "On dirait que vous avez ramassé certains des meilleurs fragments. Au fond, il se pourrait que vous ne soyez pas tout à fait bon à rien.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8379,
+     "name": "Archimage Xylem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8379,
+     "name": "Archimage Xylem"
+    }
+   ],
+   "zone_id": -162,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 5100,
+   "money": 7500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8236": {
+   "id": 8236,
+   "name": "La clé d’azur",
+   "objectives": "Rendre la Clé d'azur au seigneur Jorach Ravenholdt.",
+   "description": "Il faudra un moment pour déchiffrer les fragments et supprimer l’enchantement. Lorsque j’aurai terminé, je remettrai personnellement le sac au seigneur Ravenholdt.\n\nIl reste le problème de la clé. Il paraît qu’elle est entre les mains d’un drake vert nommé Morphaz. Il réside loin dans le temple d’Atal'Hakkar, dont l’entrée se trouve dans le marais des Chagrins.\n\nRassemblez des amis et pénétrez dans son repaire. Le seigneur Ravenholdt attendra votre retour… avec la clé.",
+   "progress": "Le sac est déjà revenu de chez l’archimage Xylem. Avez-vous trouvé la clé ?",
+   "completion": "La clé ! Je la croyais perdue à tout jamais. Prenez donc un vêtement enchanté dans mes réserves – ils ne sont attribués qu’aux voleurs exceptionnellement doués et loyaux. Que chacun sache désormais qu’il est préférable de prendre <nom> au sérieux !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8379,
+     "name": "Archimage Xylem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6768,
+     "name": "Seigneur Jorach Ravenholdt"
+    }
+   ],
+   "zone_id": -162,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 6350,
+   "money": 7500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8249": {
+   "id": 8249,
+   "name": "Demande de coffrets",
+   "objectives": null,
+   "description": null,
+   "progress": "Mes voleurs ont besoin de perfectionner leurs compétences en matière de serrurerie et j'ai besoin de serrures d'un niveau de difficulté adéquat : le matériel que Zan nous fabrique n'est pas adapté à tous, sauf aux néophytes les plus modestes.\n\nSi vous m'apportez cinq caisses de ferraille lourde, je vous fournirai quelques-uns des meilleurs couteaux de lancer que l'on connaisse dans le monde des voyous.\n\nVous pouvez déverrouiller les caisses et les fouiller, mais vous devrez y laisser au moins quelques pièces... même un voyou en formation a besoin de motivation.",
+   "completion": "Que ces couteaux trouvent une place dans le cœur de quelqu'un.\n\nEt ce n'est pas une image.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6707,
+     "name": "Fahrad"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6707,
+     "name": "Fahrad"
+    }
+   ],
+   "zone_id": -162,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "78261": {
+   "id": 78261,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "object",
+     "id": 410369,
+     "name": "Dead Drop"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 410369,
+     "name": "Dead Drop"
+    }
+   ],
+   "zone_id": -162,
+   "level": 23,
+   "reqlevel": null,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "78270": {
+   "id": 78270,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4086,
+     "name": "Veenix"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4086,
+     "name": "Veenix"
+    }
+   ],
+   "zone_id": -162,
+   "level": 23,
+   "reqlevel": null,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "78307": {
+   "id": 78307,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [
+    {
+     "type": "object",
+     "id": 410369,
+     "name": "Dead Drop"
+    }
+   ],
+   "zone_id": -162,
+   "level": null,
+   "reqlevel": null,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "78676": {
+   "id": 78676,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "object",
+     "id": 410369,
+     "name": "Dead Drop"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 410369,
+     "name": "Dead Drop"
+    }
+   ],
+   "zone_id": -162,
+   "level": 35,
+   "reqlevel": 25,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "78699": {
+   "id": 78699,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [
+    {
+     "type": "object",
+     "id": 410369,
+     "name": "Dead Drop"
+    }
+   ],
+   "zone_id": -162,
+   "level": 35,
+   "reqlevel": 25,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "92483": {
+   "id": 92483,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 251361,
+     "name": "Rorian the Dayseeker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 251389,
+     "name": "Akeri Duskblade"
+    }
+   ],
+   "zone_id": -162,
+   "level": 2,
+   "reqlevel": 2,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "96779": {
+   "id": 96779,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13085,
+     "name": "Myrokos Silentform"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13085,
+     "name": "Myrokos Silentform"
+    }
+   ],
+   "zone_id": -162,
+   "level": 24,
+   "reqlevel": 24,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "96781": {
+   "id": 96781,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13085,
+     "name": "Myrokos Silentform"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13085,
+     "name": "Myrokos Silentform"
+    }
+   ],
+   "zone_id": -162,
+   "level": 36,
+   "reqlevel": 24,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "96782": {
+   "id": 96782,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13085,
+     "name": "Myrokos Silentform"
+    }
+   ],
+   "zone_id": -162,
+   "level": 36,
+   "reqlevel": 24,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "96783": {
+   "id": 96783,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13085,
+     "name": "Myrokos Silentform"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 656157,
+     "name": "Syndicate Footlocker"
+    }
+   ],
+   "zone_id": -162,
+   "level": 34,
+   "reqlevel": 24,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "96784": {
+   "id": 96784,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "object",
+     "id": 656157,
+     "name": "Syndicate Footlocker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 266847,
+     "name": "Anastasia Miller"
+    }
+   ],
+   "zone_id": -162,
+   "level": 34,
+   "reqlevel": 24,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "96785": {
+   "id": 96785,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 266847,
+     "name": "Anastasia Miller"
+    }
+   ],
+   "zone_id": -162,
+   "level": 34,
+   "reqlevel": 24,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "96786": {
+   "id": 96786,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13085,
+     "name": "Myrokos Silentform"
+    }
+   ],
+   "zone_id": -162,
+   "level": 34,
+   "reqlevel": 24,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

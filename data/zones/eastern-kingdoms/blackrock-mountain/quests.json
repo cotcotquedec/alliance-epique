@@ -1,0 +1,869 @@
+{
+ "schema": 1,
+ "zone": "eastern-kingdoms/blackrock-mountain",
+ "zone_id": 25,
+ "zone_name": "Mont Blackrock",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 15,
+  "complete": 15,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 2
+ },
+ "quests": {
+  "3906": {
+   "id": 3906,
+   "name": "Discordance des flammes",
+   "objectives": "Partir pour la carrière dans le mont Blackrock et tuer le Grand maître Pyron. Retourner voir Thunderheart une fois votre mission accomplie.",
+   "description": "Les anciens ont ressenti une perturbation parmi les éléments. Les nains Sombrefer ont invoqué en notre monde un esprit vil qui menace de recouvrir nos terres d'un froid éternel. Nous devons enquêter sur cette dissonance de la flamme.\n\nPartez pour le mont Blackrock. Passez par l'Abîme de flamme et rendez-vous dans la carrière. C'est là que vous trouverez le Seigneur du feu : le Grand maître Pyron.\n\nRétablissez l'harmonie et revenez me voir.",
+   "progress": "Une dissonance perturbe toujours les éléments, <nom>.",
+   "completion": "Cela ne peut être… cela ne doit pas être ! La mort de Pyron a simplement levé un voile. Il se trouve à présent dans les Profondeurs de Blackrock une source de corruption mille fois plus insidieuse.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9084,
+     "name": "Thunderheart"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9084,
+     "name": "Thunderheart"
+    }
+   ],
+   "zone_id": 25,
+   "level": 52,
+   "reqlevel": 48,
+   "side": "horde",
+   "xp": 5100,
+   "money": 15500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4262": {
+   "id": 4262,
+   "name": "Grand seigneur Pyron",
+   "objectives": "Tuer le Grand seigneur Pyron et retourner voir Jalinda Sprig.\n\nJalinda vous a dit qu'il gardait la carrière. Peut-être devriez-vous chercher à cet endroit ?",
+   "description": "Les cinq derniers mages qui sont allés fureter près du mont Blackrock sont revenus rôtis à point ou dans un état pire.\n\n<Jalinda ramasse des cendres sur le sol et les lance en l'air.>\n\nL'un de ces monstres en particulier, le Grand seigneur Pyron, nous pose pas mal de problèmes. Nous devons éradiquer cet élémentaire pour que notre groupe puisse se rendre dans les Profondeurs de Blackrock.\n\nIl garde l'entrée de la carrière de Blackrock.",
+   "progress": "<Jalinda semble regarder votre tête.>",
+   "completion": "Incendius ? Oh non !…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9561,
+     "name": "Jalinda Sprig"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9561,
+     "name": "Jalinda Sprig"
+    }
+   ],
+   "zone_id": 25,
+   "level": 52,
+   "reqlevel": 48,
+   "side": "alliance",
+   "xp": 5100,
+   "money": 15500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8960": {
+   "id": 8960,
+   "name": "Le triste destin de Bodley",
+   "objectives": "Rendez-vous au mont Rochenoire, près du pic Rochenoire, et utilisez le Révélateur de fantômes extradimensionnel pour trouver Bodley.",
+   "description": "Alors il faut que nous récupérions le reste du médaillon ? Trouver Bodley risque d’être un tantinet compliqué. Il est retourné au mont Rochenoire dans l’espoir de pénétrer à nouveau dans le pic Rochenoire, et il n’est jamais revenu.\n\nJe vous conseille de prendre la machine gobeline à faire apparaître les fantômes avec vous, car je crains le pire.",
+   "progress": null,
+   "completion": "Je suis si heureuse que vous puissiez me voir. Enfin quelqu'un à qui parler !\n\nAllez-vous nous aider, <nom> ? Nous aider à réparer le mal que nous avons fait et à remettre les choses en ordre ? S'il est vrai que vous possédez déjà le morceau supérieur de l'amulette du seigneur Valthalak, je pense pouvoir vous indiquer la bonne direction pour acquérir les deux autres parties, les réunir et mettre un terme à tout cela.\n\nAu fait, bonjour, je m'appelle Bodley. Enchanté de vous rencontrer !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 25,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8961": {
+   "id": 8961,
+   "name": "Les trois rois des flammes",
+   "objectives": "Récupérez l’Incendicite d’Incendius, la Braise du prophète ardent sur le pyrogarde Prophète ardent et les Cendres de Cendres, ainsi qu'un Brasero béni, puis retournez voir Bodley au mont Rochenoire.",
+   "description": "Avant d’invoquer le seigneur Valthalak au pic Rochenoire et de mettre un terme à ce problème, nous devons retrouver les deux autres tiers de l’amulette. Pour cela, il nous faut un brasero et des charbons peu ordinaires…\n\nTrois puissants nobles élémentaires ont ce qu’il nous faut. Ce sont le seigneur Incendius dans les profondeurs de Rochenoire, le pyrogarde Prophète ardent au pic Rochenoire et le duc des Cendres en Silithus. Récupérez un morceau de leurs restes, puis revenez me voir avec un Brasero béni, que vous pourrez acheter auprès de l’Aube d’argent si vous êtes <honoré/honorée> auprès d’eux.",
+   "progress": "Ce dernier boulot était une folie qui a scellé notre destin. Si seulement nous n’avions pas volé un morceau de l’esprit du seigneur Valthalak en même temps que l’amulette ! Nous ne savions pas qu'elle contenait son esprit ! Et si nous n’avions pas été cupides, nous ne nous serions pas partagés l’amulette… Je pourrais être en vie aujourd’hui. Je serais peut-être en train de boire une bière ou de jouer avec mes enfants.\n\n<nom>, prenez garde à ce que la convoitise de notre ancienne compagnie de mercenaires ne vous condamne pas à mort vous aussi.",
+   "completion": "Je suis impressionné, <classe>, mais nous n’avons pas de temps à perdre. Je vous expliquerai bientôt votre prochaine tâche. Il faut encore que nous nous procurions quelques composants importants avant d’entrer dans le vif du sujet.\n\nLorsque vous vous sentirez prêt pour les défis qui nous attendent, revenez me parler.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 25,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "honoré/honorée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8962": {
+   "id": 8962,
+   "name": "Des composants importants",
+   "objectives": "Procurez-vous des Restes druidiques et rapportez-les à Bodley, à l’intérieur du mont Rochenoire.",
+   "description": "Écoutez-moi attentivement, <classe>. Maintenant que nous avons le brasero et le moyen de l'allumer, il ne nous manque plus qu'un composant pour l'alimenter ; quelque chose qui soit assez puissant pour attirer l'esprit de mon ancien camarade décédé.\n\nMor Grayhoof, notre meilleur druide, avait d'excellents amis au sein du Cercle cénarien, dont certains sont tombés sous les coups des silithides. J'ai besoin que vous récupériez des restes druidiques auprès des silithides qui vivent dans les environs de la Ruche'Regal, au sud-est de Silithus.",
+   "progress": "Êtes-vous déjà de retour avec ce dont j’ai besoin, <classe> ?",
+   "completion": "Du bon travail, <nom>. Je vais imprégner le brasero de l’essence des restes.\n\nVous aurez juste à descendre dans les profondeurs du pic Blackrock, jusqu’aux appartements du maître de guerre Voone à Tazz'Alaor, puis à utiliser le brasero pour invoquer l’esprit corrompu de mon ancien associé, Mor Grayhoof. Il ne connaîtra pas le repos tant que vous ne lui aurez pas repris le morceau d’amulette.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 25,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8963": {
+   "id": 8963,
+   "name": "Des composants importants",
+   "objectives": "Procurez-vous une Relique de Brise-Stellaire et rapportez-la à Bodley, à l’intérieur du Mont Rochenoire.",
+   "description": "Écoutez-moi attentivement, <classe>. Maintenant que nous avons le brasero et le moyen de l’allumer, il ne nous manque plus qu’un composant pour l’alimenter ; quelque chose qui soit assez puissant pour attirer l’esprit de mon ancienne camarade décédée.\n\nIsalien, notre prêtresse, a grandi au Berceau-de-l’Hiver, à Brise-stellaire. J’ai besoin que vous alliez chercher une relique de Brise-stellaire auprès des géants Cognegivre de la gorge du Blanc murmure, au sud de Berceau-de-l’Hiver. Ils sont célèbres pour les raids qu’ils lancent de temps en temps dans le nord.",
+   "progress": "Es-tu déjà revenu, <classe>, avec ce que je t'ai envoyé chercher ?",
+   "completion": "Un travail bien fait, <nom>. Je vais imprégner l'essence de la relique dans le brasero.\n\nIl ne me reste plus qu'à me rendre au Sanctuaire d'Eldretharr, dans l'aile est de Dire Maul, et à utiliser le brasero pour invoquer l'esprit de mon ancienne cohorte, Isalien. Son esprit a été corrompu par la possession du morceau d'amulette de Valthalak et de la partie de son âme qu'il contient.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 25,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8964": {
+   "id": 8964,
+   "name": "Des composants importants",
+   "objectives": "Procurez-vous une Épée brillante de fanatisme, puis rapportez-la à Bodley, à l’intérieur du mont Rochenoire.",
+   "description": "Écoutez-moi attentivement, <classe>. Maintenant que nous avons le brasero et le moyen de l'allumer, il ne nous manque plus qu'un composant pour l'alimenter ; quelque chose qui nous fournisse un point focal assez puissant pour attirer l'esprit de mes anciens camarades décédés.\n\nJarien et Sothos croyaient aux idéaux de la Croisade écarlate. Ils souhaitaient devenir chevaliers au sein de cette vile organisation. Rendez-vous à la Main de Tyr, dans les Maleterres de l'est, et récupérez une Epée brillante de fanatisme sur les prétoriens qui y sont cantonnés.",
+   "progress": "Êtes-vous déjà de retour avec ce dont j’ai besoin, <classe> ?",
+   "completion": "Du bon travail, <nom>. Je vais imprégner le brasero avec l’essence de l’épée.\n\nIl ne vous restera plus qu’à aller devant le trône cramoisi, à l’intérieur du Bastion écarlate de Stratholme, et à y utiliser le brasero pour faire apparaître mes anciens associés, Jarien et Sothos. Leurs âmes ont été encore plus perverties par le morceau de l’amulette et l’esprit qu’il contient.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 25,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8965": {
+   "id": 8965,
+   "name": "Des composants importants",
+   "objectives": "Prélevez des Cendres d’âme de banni, puis retournez voir Bodley à l’intérieur du mont Rochenoire.",
+   "description": "Écoutez-moi attentivement, <classe>. Maintenant que nous avons le brasero et le moyen de l'allumer, il ne nous manque plus qu'un composant pour l'alimenter ; quelque chose qui soit assez puissant pour attirer l'esprit de mon ancien camarade décédé.\n\nUn nécromancien ogre qui voyageait avec nous, Kormok, adorait invoquer les âmes des morts bannis sur l'Île de la purification, près de la côte méridionale des contreforts de Hautebrande. Rendez-vous là-bas et récupérez un peu de cendres d'âme de banni sur leurs restes…",
+   "progress": "Es-tu déjà revenu, <classe>, avec ce que je t'ai envoyé chercher ?",
+   "completion": "Un travail bien fait, <nom>. J'imprégnerai l'essence des cendres dans le brasero.\n\nIl ne reste plus qu'à entrer dans Scholomance, dans la chambre de Ras Frostwhisper, et à utiliser le brasero pour invoquer l'esprit de mon ancien compagnon, Kormok. Le morceau d'amulette et l'esprit de Valthalak qu'il contient l'ont encore plus corrompu, et il ne se reposera pas tant que vous ne lui aurez pas arraché cette amulette.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 25,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8985": {
+   "id": 8985,
+   "name": "D'autres composants importants",
+   "objectives": "Procurez-vous une Relique de Brise-Stellaire et rapportez-la à Bodley, à l’intérieur du Mont Rochenoire.",
+   "description": "Écoutez-moi attentivement, <classe>. Nous savons où se trouve le dernier morceau de l'amulette, mais il nous faut encore un composant que nous utiliserons pour imprégner le brasero, quelque chose qui nous fournisse un point focal assez puissant pour attirer l'esprit de mon ancienne associée.\n\nIsalien, notre prêtresse, a grandi au Berceau-de-l'hiver, dans le village de Brise-stellaire. J'ai besoin que vous récupériez une Relique de Brise-stellaire sur les géants Cognegivre de la gorge du Blanc murmure, dans le sud du Berceau-de-l'hiver. Ils font régulièrement des raids dans le nord.",
+   "progress": "Êtes-vous déjà de retour avec ce dont j’ai besoin, <classe> ?",
+   "completion": "Du bon travail, <nom>. Je vais imprégner le brasero de l’essence de la relique.\n\nIl ne vous restera plus qu’à aller au sanctuaire d’Eldretharr, dans l’aile est de Hache-tripes, et à utiliser le brasero pour invoquer l’esprit de mon ancienne associée, Isalien. Le morceau de l’amulette, et surtout la portion d’âme du seigneur Valthalak qu’il renferme, ont corrompu son esprit.\n\nOh, à propos, il me restait un peu du varech de sang que vous m’avez rapporté de l’île d’Alcaz. Je vous ai préparé quelques potions. Faites votre choix !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 25,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8986": {
+   "id": 8986,
+   "name": "D'autres composants importants",
+   "objectives": "Procurez-vous des Restes druidiques et rapportez-les à Bodley, à l’intérieur du mont Rochenoire.",
+   "description": "Écoutez-moi attentivement, <classe>. Nous savons où se trouve le dernier morceau de l'amulette, mais il nous faut encore un composant que nous utiliserons pour imprégner le brasero, quelque chose qui nous fournisse un point focal assez puissant pour attirer l'esprit de mon ancien camarade.\n\nMor Grayhoof, notre meilleur druide, avait de nombreux amis dans le Cercle cénarien. Certains ont été dévorés par les silithides. Je vous demande de reprendre des Restes druidiques aux silithides qui vivent dans les environs de Ruche'Regal, dans le sud-est de Silithus.",
+   "progress": "Es-tu déjà revenu, <classe>, avec ce que je t'ai envoyé chercher ?",
+   "completion": "Un travail bien fait, <nom>. Je vais imprégner l'essence des restes dans le brasero.\n\nIl ne reste plus qu'à aller dans la partie inférieure de la flèche de Blackrock, dans la chambre où réside le maître de guerre Voone à Tazz'Alaor, et à utiliser le brasero pour invoquer l'esprit corrompu de mon ancien coéquipier, Mor Grayhoof. Il ne pourra trouver le repos tant que le morceau d'amulette ne lui aura pas été retiré.\n\nAu fait, il me restait de l'algue sanguine de votre voyage sur l'île d'Alcaz, alors j'en ai fait des potions pour vous. Faites votre choix !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 25,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8987": {
+   "id": 8987,
+   "name": "D'autres composants importants",
+   "objectives": "Procurez-vous une Épée brillante de fanatisme, puis rapportez-la à Bodley, à l’intérieur du mont Rochenoire.",
+   "description": "Écoutez-moi attentivement, <classe>. Maintenant que nous savons où se trouve le dernier morceau de l'amulette, il nous faut encore un composant que nous utiliserons pour imprégner le brasero, quelque chose qui nous fournisse un point focal assez puissant pour attirer l'esprit de mes anciens camarades.\n\nJarien et Sothos croyaient aux idéaux de la Croisade écarlate. Ils souhaitaient devenir chevaliers au sein de cette vile organisation. Rendez-vous à la Main de Tyr, dans les Maleterres de l'est, et récupérez une Epée brillante de fanatisme sur les prétoriens qui y sont cantonnés.",
+   "progress": "Es-tu déjà revenu, <classe>, avec ce que je t'ai envoyé chercher ?",
+   "completion": "Un travail bien fait, <nom>. Je vais imprégner l'essence de l'épée dans le brasero.\n\nIl ne me reste plus qu'à entrer dans le Trône cramoisi, à l'intérieur du Bastion écarlate de Stratholme, et à utiliser le brasero pour invoquer les restes de mes anciens compagnons, Jarien et Sothos. Leurs âmes ont été encore plus tordues par leur possession de l'amulette de Valthalak et de son esprit.\n\nAu fait, il me restait de l'algue sanguine de votre voyage sur l'île d'Alcaz, alors j'en ai fait des potions pour vous. Faites votre choix !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 25,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8988": {
+   "id": 8988,
+   "name": "D'autres composants importants",
+   "objectives": "Prélevez des Cendres d’âme de banni, puis retournez voir Bodley à l’intérieur du mont Rochenoire.",
+   "description": "Écoutez-moi attentivement, <classe>. Nous savons où se trouve le dernier morceau de l'amulette, mais il nous faut encore un composant que nous utiliserons pour imprégner le brasero, quelque chose qui nous fournisse un point focal assez puissant pour attirer l'esprit de mon ancien camarade.\n\nun nécromancien ogre nommé Kormok voyageait avec nous. Il prenait beaucoup de plaisir à faire apparaître les âmes des morts bannis de l'île de la purification, au sud des contreforts d'Hillsbrad. Allez là-bas et récupérez des Cendres d'âme de banni sur leurs restes.",
+   "progress": "Êtes-vous déjà de retour avec ce dont j’ai besoin, <classe> ?",
+   "completion": "Du bon travail, <nom>. Je vais imprégner le brasero de l’essence des cendres.\n\nIl ne vous restera plus qu’à vous rendre à la Scholomance, dans les appartements de Ras Murmegivre, et à utiliser le brasero pour invoquer l’esprit de mon ancien associé, Kormok. Il était déjà corrompu, et son état a été aggravé par le morceau d’amulette et le fragment de l’esprit de Valthalak qu’il contient. Il faudra que vous le lui repreniez de force.\n\nOh, à propos, il me restait un peu du varech de sang que vous m’avez rapporté de l’île d’Alcaz. Je vous ai préparé quelques potions. Faites votre choix !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 25,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8994": {
+   "id": 8994,
+   "name": "Derniers préparatifs",
+   "objectives": "Collectez 40 Brassards rochenoire et un Flacon de pouvoir suprême. Ensuite, retournez voir Bodley au mont Rochenoire.",
+   "description": "Nous sommes presque prêts, <classe>. Il ne nous reste plus qu'à récupérer quelques composants pour modifier le brasero et lui permettre de faire apparaître le seigneur Valthalak.\n\nPour commencer, je vous demande de vous rendre au pic Rochenoire et d'y tuer des orcs. Ils portent des brassards qui contiennent de très faibles quantités du métal dont j'ai besoin. Pour que je puisse en extraire suffisamment, il va m'en falloir beaucoup. Ensuite, pour achever le processus d'imprégnation, il me faudra un Flacon de pouvoir suprême.\n\nBonne chance, <nom>.",
+   "progress": "Nous avons fait une longue route ensemble, <nom>, et je voulais vous dire que je vous remercie du fond du cœur, quoi qu'il arrive. Vous avez affronté de terribles dangers pour aider les survivants de la Lame voilée, notre compagnie de mercenaires. En ce qui me concerne, vous êtes désormais l’un des nôtres.",
+   "completion": "Nous y voilà. Je vais extraire le métal des brassards et imprégner le brasero avec ces derniers composants. Ensuite, il sera prêt à invoquer le seigneur Valthalak, et nous pourrons lui rendre l’amulette qui contient son esprit. Vous avez fait le plus gros, <nom>, ne lâchez pas prise maintenant que la fin est en vue !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 25,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8996": {
+   "id": 8996,
+   "name": "Retourner voir Bodley",
+   "objectives": "Retournez voir Bodley à l'intérieur du mont Rochenoire et donnez-lui le Brasero de signal.",
+   "description": "Je vais ignorer votre impertinence pour cette fois, <classe>, car en me rendant la part de mon esprit qui m’avait été dérobée, vous avez accompli quelque chose de noble. Malgré votre nature faible, <race>, vous avez fait preuve de courage, là où ceux qui m’ont volé en ont manqué. Le courage est certainement une notion qui les dépasse !\n\nRetournez les voir, avant que je ne change d’avis et que je ne vous abatte sur place. Allez, et dites-leur qu’ils sont en sécurité… pour l’instant.",
+   "progress": "<nom>, tu es de retour et toujours en vie! Eh bien, au moins, cela fait l'un de nous.\n\nVous allez devoir tout me dire!",
+   "completion": "Il a vraiment dit tout ça ? Je n'arrive pas à croire qu'il va rappeler les assassins et les harceleurs spectraux, même s'il a laissé entendre qu'il allait faire du mal à mes compagnons vivants à l'avenir.\n\nC'est un grand jour, <nom> ! Vous avez accompli ce que peu de gens auraient pu faire, et vous nous avez absous, au moins en partie, de certains de nos péchés passés.\n\nJe vous remercie ! En signe d'appréciation, j'aimerais vous donner ceci. Vous pouvez l'utiliser pour invoquer des esprits dans les mêmes lieux hantés que vous avez déjà, ainsi que dans d'autres.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16073,
+     "name": "Esprit du seigneur Valthalak"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 25,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "race"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9032": {
+   "id": 9032,
+   "name": "Le triste destin de Bodley",
+   "objectives": "Rendez-vous au mont Rochenoire, près du pic Rochenoire, et utilisez le Révélateur de fantômes extradimensionnel pour trouver Bodley.",
+   "description": "Ce médaillon contenait l'âme du seigneur Valthalak ? Je comprends mieux qu'il ait été gardé par une puissante malédiction.\n\nLocaliser Bodley risque d'être difficile. Aux dernières nouvelles, il se préparait à retourner au pic Rochenoire. On n'a plus jamais entendu parler de lui.\n\nVous devriez le chercher au mont Rochenoire, même s'il est probablement déjà mort. Je vous suggère de prendre la machine du gobelin avec vous, <mon ami/mon amie>.",
+   "progress": null,
+   "completion": "Je suis si heureuse que vous puissiez me voir. Enfin quelqu'un à qui parler !\n\nAllez-vous nous aider, <nom> ? Nous aider à réparer le mal que nous avons fait et à remettre les choses en ordre ? S'il est vrai que vous possédez déjà le morceau supérieur de l'amulette de Lord Valthalaks, je pense pouvoir vous indiquer la bonne direction pour acquérir les deux autres parties, les réunir et mettre un terme à tout cela.\n\nOh, au fait, bonjour, je m'appelle Bodley. Enchanté de vous rencontrer !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16012,
+     "name": "Mokvar"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 25,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "horde",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mon ami/mon amie"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

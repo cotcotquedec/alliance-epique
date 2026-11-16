@@ -1,0 +1,1826 @@
+{
+ "schema": 1,
+ "zone": "dungeons/gnomeregan",
+ "zone_id": 721,
+ "zone_name": "Gnomeregan",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 27,
+  "complete": 21,
+  "incomplete": 6,
+  "unavailable": 0,
+  "missing_description": 6,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 2
+ },
+ "quests": {
+  "2841": {
+   "id": 2841,
+   "name": "Guerre des plates-formes",
+   "objectives": "Obtenir la Combinaison du coffre de Thermaplugg, prendre les Plans de la plate-forme et les apporter à Nogg à Orgrimmar.",
+   "description": "Technologie gnome… Ce terme était autrefois brandi comme un slogan. Les temps ont changé. Ils ont désormais une nouvelle plate-forme, supérieure à tous nos modèles de Déchiqueteurs combinés. J'ai besoin des plans de cette plateforme, <nom> !\n\nMalheureusement ceux-ci sont enfermés dans le coffre du mekgénieur Thermaplugg. Et pour compliquer les choses, la combinaison du coffre n'est connue que de lui seul.\n\nFaites ce qu’il faut pour obtenir cette combinaison, <nom>. Puis ouvrez le coffre et ramenez-moi ces plans !",
+   "progress": "Je ne vois aucun plan. Les avez-vous cachés quelque part sur vous ou bien êtes-vous juste là pour m'énerver ?",
+   "completion": "Je savais que vous pouviez y arriver, <nom> ! Sovik, lui, avait des doutes.\n\nMaintenant que nous avons les plans en notre possession, c'est juste une question de temps avant que nous n’assimilions les innovations des gnomes et que nous les intégrions à nos propres Déchiqueteurs.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3412,
+     "name": "Nogg"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3412,
+     "name": "Nogg"
+    }
+   ],
+   "zone_id": 721,
+   "level": 35,
+   "reqlevel": 25,
+   "side": "horde",
+   "xp": 2750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2842": {
+   "id": 2842,
+   "name": "L'ingénieur en chef Scooty",
+   "objectives": "Parler à Scooty à Baie-du-Butin.",
+   "description": "Dès que nous aurons des nouvelles de Kernobee à propos de la nouvelle plate-forme des gnomes, Scooty et moi commencerons à travailler sur le Transpolyporteur 6000 : le moyen le plus rapide et le plus sûr d’aller à Gnomeregan.\n\nIl est enfin prêt à recevoir des passagers, <nom>. Si vous désirez l'essayer, allez à Baie-du-Butin et parlez avec Scooty au perchoir des Cavaliers célestes. Pour aller à Baie-du-Butin, prenez le bateau depuis Ratchet.\n\nVous pouvez aussi traverser les montagnes de Dun Morogh, mais elles sont infestées de nains…",
+   "progress": null,
+   "completion": "Il est beau n'est-ce pas ? Le summum de la technologie de transport des gobelins, à peine une douzaine d'explosions.\n\nNe vous en faites pas, <nom>, j’ai fait la révision moi-même. Il n'explosera pas. Et si cela arrivait, ce serait rapide et sans douleur.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3413,
+     "name": "Sovik"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7853,
+     "name": "Scooty"
+    }
+   ],
+   "zone_id": 721,
+   "level": 35,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 275,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2843": {
+   "id": 2843,
+   "name": "Gnomer-paaarti !",
+   "objectives": "Attendre que Scooty calibre le transpondeur des gobelins.",
+   "description": "Aussi longtemps que vous êtes en possession du transpondeur des gobelins, tout ce que vous avez à faire est de traverser le portail et vous vous retrouverez à Gnomeregan.\n\nIl y aura peut-être des effets secondaires bizarres, mais aucun ne devrait être permanent... plus maintenant.\n\nJ'oubliais de parler du plus important : le retour. Lorsque vous serez <prêt/prête> à revenir, allez au portail de multitéléportation de Gnomeregan !\n\nBon, il faut maintenant régler le transpondeur selon votre poids et votre taille.",
+   "progress": "Il est prêt !",
+   "completion": "Fini ! Lorsque vous le désirez, traversez le portail.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7853,
+     "name": "Scooty"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7853,
+     "name": "Scooty"
+    }
+   ],
+   "zone_id": 721,
+   "level": 35,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2904": {
+   "id": 2904,
+   "name": "Une jolie pagaille",
+   "objectives": "Escorter Kernobee jusqu’à la sortie de la Fuite du temps, puis faire un rapport à Scooty, à Baie-du-Butin.",
+   "description": "<Kernobee grogne>Qu… Que s'est-il passé ?\n\nLa dernière chose dont je me souviens est d'avoir été capturé par un groupe de nains Sombrefer, d'avoir été battu comme plâtre et jeté ici avec ces troggs crasseux.\n\nSortez-moi de là, <nom> !\n\nVoici le plan : vous me conduisez à la sortie, si nous survivons, vous allez à Baie-du-Butin prévenir Scooty que je suis allé à Ratchet pour informer Tinkerwiz de l'implication des Sombrefer dans la conception de cette super plate-forme.\n\nAllons-y !",
+   "progress": "Eh ? Kernobee est vivant ?",
+   "completion": "Je suppose que vous devriez recevoir une récompense pour nous avoir ramené Kernobee en un seul morceau, <nom>. Si vous repassez par Gnomeregan, ceci vous permettra de prendre l'ascendant nécessaire pour battre ce traître de bon à rien de mekgénieur Thermaplugg.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7850,
+     "name": "Kernobee"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7853,
+     "name": "Scooty"
+    }
+   ],
+   "zone_id": 721,
+   "level": 30,
+   "reqlevel": 24,
+   "side": "both",
+   "xp": 2450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Kernobee grogne",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "<Kernobee grogne>Qu… Que s'est-il passé ?\n\nLa dernière chose dont je me souviens est d'avoir été capturé par un groupe de nains Sombrefer, d'avoir été battu comme plâtre et jeté ici avec ces troggs crasseux.\n\nSortez-moi de là, <nom> !\n\nVoici le plan : vous me conduisez à la sortie, si nous survivons, vous allez à Baie-du-Butin prévenir Scooty que je suis allé à Ratchet pour informer Tinkerwiz de l'implication des Sombrefer dans la conception de cette super plate-forme.\n\nAllons-y !",
+      "objectives": "Escorter Kernobee jusqu’à la sortie de la Fuite du temps, puis faire un rapport à Scooty, à Baie-du-Butin.",
+      "name": "Une jolie pagaille"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": null,
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Gnomeregan",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794673978,
+     "last_seen": 1794673978
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2922": {
+   "id": 2922,
+   "name": "Sauver le cerveau de Techbot !",
+   "objectives": "Rapporter la Mémoire principale de Techbot au maître-artisan Overspark à Ironforge.",
+   "description": "Lorsque notre cité bien-aimée de Gnomeregan est tombée, une étincelle a fait disjoncter ma pauvre création, le Techbot. Il nous aidait bien, moi et mes associés, avec ses nombreux gadgets et ses banques d'informations illimitées, mais son cerveau positronique a été polarisé. Techbot est maintenant négatronique et son comportement s'est inversé. Il erre, enragé, dans Gnomeregan !\n\nMais peut-être peut-il être sauvé. Si vous retrouviez sa mémoire principale et me la rapportiez, je pourrais découvrir la cause de la polarisation et réparer mon pauvre Techbot.",
+   "progress": "Avez-vous trouvé Techbot ? Avez-vous pu récupérer sa mémoire principale ?",
+   "completion": "C'est merveilleux ! Merci, <nom> ! Je me mets au travail immédiatement !\n\nPauvre, pauvre Techbot… Tout ira bien, tu seras bientôt réparé.\n\nOù ai-je mis cette prise pour ma clé à molette hydraulique ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7944,
+     "name": "Maître-artisan Overspark"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7944,
+     "name": "Maître-artisan Overspark"
+    }
+   ],
+   "zone_id": 721,
+   "level": 26,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 2650,
+   "money": 2000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "C'est merveilleux ! Merci, <nom> ! Je me mets au travail immédiatement !\n\nPauvre, pauvre Techbot… Tout ira bien, tu seras bientôt réparé.\n\nOù ai-je mis cette prise pour ma clé à molette hydraulique ?"
+     },
+     "npc": 7944,
+     "npc_name": "Maître-artisan Overspark",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forgefer",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794736033,
+     "last_seen": 1794736033
+    },
+    "detail": {
+     "texts": {
+      "description": "Lorsque notre cité bien-aimée de Gnomeregan est tombée, une étincelle a fait disjoncter ma pauvre création, le Techbot. Il nous aidait bien, moi et mes associés, avec ses nombreux gadgets et ses banques d'informations illimitées, mais son cerveau positronique a été polarisé. Techbot est maintenant négatronique et son comportement s'est inversé. Il erre, enragé, dans Gnomeregan !\n\nMais peut-être peut-il être sauvé. Si vous retrouviez sa mémoire principale et me la rapportiez, je pourrais découvrir la cause de la polarisation et réparer mon pauvre Techbot.",
+      "objectives": "Rapporter la Mémoire principale de Techbot au maître-artisan Overspark à Forgefer.",
+      "name": "Sauver le cerveau de Techbot !"
+     },
+     "npc": 7944,
+     "npc_name": "Maître-artisan Overspark",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forgefer",
+     "map_id": 1455,
+     "client": "1.60.1.70888",
+     "first_seen": 1794406558,
+     "last_seen": 1794406558
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2923": {
+   "id": 2923,
+   "name": "Maître-artisan Overspark",
+   "objectives": "Parler au maître-artisan Overspark à Ironforge.",
+   "description": "Le maître-artisan Overspark est très contrarié par la perte de sa création mécanique, le Techbot. Je me souviens du Techbot comme d’une machine gentille et serviable, très utile aux gnomes, mais Overspark dit qu'il a eu des problèmes de fonctionnement.\n\nVraiment dommage, mais avec de la chance, cela pourrait être réparé !\n\nParlez avec maître Overspark, à Brikabrok, le quartier gnome d'Ironforge. Votre aide sera la bienvenue.",
+   "progress": null,
+   "completion": "Oui, c'est exact. Techbot est devenu fou ! S'il vous plaît, pouvez-vous m'aider ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7917,
+     "name": "Frère Sarno"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7944,
+     "name": "Maître-artisan Overspark"
+    }
+   ],
+   "zone_id": 721,
+   "level": 26,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 210,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Oui, c'est exact. Techbot est devenu fou ! S'il vous plaît, pouvez-vous m'aider ?"
+     },
+     "npc": 7944,
+     "npc_name": "Maître-artisan Overspark",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forgefer",
+     "map_id": null,
+     "client": "1.60.1.70888",
+     "first_seen": 1794406557,
+     "last_seen": 1794406557
+    },
+    "detail": {
+     "texts": {
+      "description": "Le maître-artisan Overspark est très contrarié par la perte de sa création mécanique, le Techbot. Je me souviens du Techbot comme d’une machine gentille et serviable, très utile aux gnomes, mais Overspark dit qu'il a eu des problèmes de fonctionnement.\n\nVraiment dommage, mais avec de la chance, cela pourrait être réparé !\n\nParlez avec maître Overspark, à Brikabrok, le quartier gnome de Forgefer. Votre aide sera la bienvenue.",
+      "objectives": "Parler au maître-artisan Overspark à Forgefer.",
+      "name": "Maître-artisan Overspark"
+     },
+     "npc": 7917,
+     "npc_name": "Frère Sarno",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": 1453,
+     "client": "1.60.1.70888",
+     "first_seen": 1794376179,
+     "last_seen": 1794376179
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2924": {
+   "id": 2924,
+   "name": "Les cerveaux mécaniques",
+   "objectives": "Rapporter 12 Cerveaux mécaniques à Klockmort Spannerspan à Ironforge.",
+   "description": "Un composant pratiquement universel, le cerveau mécanique, est d'une grande utilité pour les artisans et les forgerons de Gnomeregan. Mais durant notre exode, personne n'a pensé à en emporter ! Et j'en ai besoin d'un grand nombre pour le travail que je vais bientôt accomplir.\n\nS'il vous plaît, allez à Gnomeregan et rapportez-en. Vous les trouverez dans les profondeurs de notre cité, dans des conteneurs appelés des extrapolateurs artificiels.\n\nMerci, <nom> et dépêchez-vous !",
+   "progress": "Vous avez les cerveaux mécaniques ?",
+   "completion": "Vous les avez ! Maintenant je peux commencer mes nouvelles expérimentations !\n\nComment puis-je vous remercier, <nom> ? Votre courage a permis à la recherche <race> de faire un grand bond en avant !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6169,
+     "name": "Klockmort Spannerspan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6169,
+     "name": "Klockmort Spannerspan"
+    }
+   ],
+   "zone_id": 721,
+   "level": 30,
+   "reqlevel": 24,
+   "side": "alliance",
+   "xp": 3050,
+   "money": 5500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vous les avez ! Maintenant je peux commencer mes nouvelles expérimentations !\n\nComment puis-je vous remercier, <nom> ? Votre courage a permis à la recherche gnome de faire un grand bond en avant !"
+     },
+     "npc": 6169,
+     "npc_name": "Klockmort Spannerspan",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forgefer",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794736052,
+     "last_seen": 1794736052
+    },
+    "detail": {
+     "texts": {
+      "description": "Un composant pratiquement universel, le cerveau mécanique, est d'une grande utilité pour les artisans et les forgerons de Gnomeregan. Mais durant notre exode, personne n'a pensé à en emporter ! Et j'en ai besoin d'un grand nombre pour le travail que je vais bientôt accomplir.\n\nS'il vous plaît, allez à Gnomeregan et rapportez-en. Vous les trouverez dans les profondeurs de notre cité, dans des conteneurs appelés des extrapolateurs artificiels.\n\nMerci, <nom> et dépêchez-vous !",
+      "objectives": "Rapporter 12 Cerveaux mécaniques à Klockmort Spannerspan à Forgefer.",
+      "name": "Les cerveaux mécaniques"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": "Player",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70938",
+     "first_seen": 1794672011,
+     "last_seen": 1794672011
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2925": {
+   "id": 2925,
+   "name": "Les cerveaux mécaniques de Klockmort",
+   "objectives": "Parler à Klockmort Spannerspan à Ironforge.",
+   "description": "Un ami gnome, Klockmort Spannerspan m'a écrit depuis Ironforge. Il me dit qu'il a besoin d'aide pour une mission dangereuse, mais vitale à Gnomeregan, l'ancienne et puissante cité gnome, aujourd’hui contaminée et envahie de gnomes fous et de leurs inventions.\n\nJe dois rester ici, mais je dois aider mon ami. Si vous pouviez y aller à ma place, je serais votre débiteur.\n\nVous pouvez trouver Klockmort à Brikabrok, le quartier gnome d'Ironforge.",
+   "progress": null,
+   "completion": "Oui ! J'ai besoin d'aide pour une mission dans Gnomeregan. Et vous m'avez l'air d'être la personne qu'il me faut, <classe> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6142,
+     "name": "Mathiel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6169,
+     "name": "Klockmort Spannerspan"
+    }
+   ],
+   "zone_id": 721,
+   "level": 30,
+   "reqlevel": 24,
+   "side": "alliance",
+   "xp": 245,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2926": {
+   "id": 2926,
+   "name": "Gnogaine",
+   "objectives": "Utiliser la Fiole de collecte plombée vide sur les Envahisseurs ou les Pilleurs irradiés pour recueillir des retombées radioactives. Une fois pleine, rapportez-la à Ozzie Togglevolt à Kharanos.",
+   "description": "Depuis l'accident, Gnoarn discute et palabre sur le fait de nettoyer Gnomeregan de l'infestation des troggs et de trouver un remède à la maladie, <nom>.\n\nPar chance, Razzle et moi sommes près de trouver quelque chose, un remède ou une recette de rhum particulièrement corsée, nous ne sommes pas sûrs… Nous le saurons après les tests ! Nous avons bien évidemment besoin de quelques ingrédients pour tester notre produit, notamment des retombées radioactives collectées sur des troggs irradiés de Gnomeregan. Remplissez cette fiole avec la Lueur verte et rapportez-la.",
+   "progress": "Vous ne voyez pas que nous essayons de guérir la race gnome toute entière ? Nous avons besoin de plus de Lueur verte !",
+   "completion": "Très bon travail ! Il est temps de tester notre nouvelle formule. Si cela marche, non seulement ce gnome lépreux sera guéri, mais j'aurai de nouveaux cheveux ! Reculez !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1268,
+     "name": "Ozzie Togglevolt"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1268,
+     "name": "Ozzie Togglevolt"
+    }
+   ],
+   "zone_id": 721,
+   "level": 27,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 2200,
+   "money": 2200,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Depuis l'accident, Gnoarn discute et palabre sur le fait de nettoyer Gnomeregan de l'infestation des troggs et de trouver un remède à la maladie, <nom>.\n\nPar chance, Razzle et moi sommes près de trouver quelque chose, un remède ou une recette de rhum particulièrement corsée, nous ne sommes pas sûrs… Nous le saurons après les tests ! Nous avons bien évidemment besoin de quelques ingrédients pour tester notre produit, notamment des retombées radioactives collectées sur des troggs irradiés de Gnomeregan. Remplissez cette fiole avec la Lueur verte et rapportez-la.",
+      "objectives": "Utiliser la Fiole de collecte plombée vide sur les Envahisseurs ou les Pilleurs irradiés pour recueillir des retombées radioactives. Une fois pleine, rapportez-la à Ozzie Togglevolt à Kharanos.",
+      "name": "Gnogaine"
+     },
+     "npc": 1268,
+     "npc_name": "Ozzie Togglevolt",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70888",
+     "first_seen": 1794406799,
+     "last_seen": 1794406799
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2927": {
+   "id": 2927,
+   "name": "Le jour d'après",
+   "objectives": "Parler à Ozzie Togglevolt à Kharanos.",
+   "description": "Vous ne pensiez quand même pas que j’aie toujours été chauve ? Non <m’sieur/ma'am> ! C'est la fuite radioactive à Gnomeregan qui a causé cette tragique perte de cheveux. Avant cela, j'avais la seule coiffure afrognome de tout Azeroth.\n\n<Gnoarn brandit le poing vers le ciel>\n\nMaudits soient ces troggs crasseux, qu'ils soient tous maudits !\n\nPeut-être qu'il n'est pas trop tard, <nom>. Nous pouvons peut-être encore la sauver, je parle de la ville ! Allez voir Ozzie Togglevolt à Kharanos. Lui et Razzle, son partenaire, travaillent à résoudre ce problème.",
+   "progress": null,
+   "completion": "Je pensais que la perte de sa chevelure spectaculaire signerait sa fin prochaine, mais il a survécu !\n\nJe me tenais près de lui lorsqu'il a été touché par le faisceau de radiation. Ses belles boucles sont tombées par poignées ! Le summum de l'horreur a été atteint lorsque Gnoarn a paniqué ! Oui, j'ai bien dit paniqué ! Il a passé la main sur son crâne chauve, les yeux remplis de haine, <nom> ! Puis il a tourné sa colère contre les troggs !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6569,
+     "name": "Gnoarn"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1268,
+     "name": "Ozzie Togglevolt"
+    }
+   ],
+   "zone_id": 721,
+   "level": 27,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 220,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Gnoarn brandit le poing vers le ciel",
+    "m’sieur/ma'am",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Je pensais que la perte de sa chevelure spectaculaire signerait sa fin prochaine, mais il a survécu !\n\nJe me tenais près de lui lorsqu'il a été touché par le faisceau de radiation. Ses belles boucles sont tombées par poignées ! Le summum de l'horreur a été atteint lorsque Gnoarn a paniqué ! Oui, j'ai bien dit paniqué ! Il a passé la main sur son crâne chauve, les yeux remplis de haine, <nom> ! Puis il a tourné sa colère contre les troggs !\n\n<Ozzie a un mouvement de recul>"
+     },
+     "npc": 1268,
+     "npc_name": "Ozzie Togglevolt",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70888",
+     "first_seen": 1794406796,
+     "last_seen": 1794406796
+    },
+    "detail": {
+     "texts": {
+      "description": "Vous ne pensiez quand même pas que j’aie toujours été chauve ? Non m’sieur ! C'est la fuite radioactive à Gnomeregan qui a causé cette tragique perte de cheveux. Avant cela, j'avais la seule coiffure afrognome de tout Azeroth.\n\n<Gnoarn brandit le poing vers le ciel>\n\nMaudits soient ces troggs crasseux, qu'ils soient tous maudits !\n\nPeut-être qu'il n'est pas trop tard, <nom>. Nous pouvons peut-être encore la sauver, je parle de la ville ! Allez voir Ozzie Togglevolt à Kharanos. Lui et Razzle, son partenaire, travaillent à résoudre ce problème.",
+      "objectives": "Parler à Ozzie Togglevolt à Kharanos.",
+      "name": "Le jour d'après"
+     },
+     "npc": 6569,
+     "npc_name": "Gnoarn",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forgefer",
+     "map_id": 1455,
+     "client": "1.60.1.70888",
+     "first_seen": 1794406566,
+     "last_seen": 1794406566
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2928": {
+   "id": 2928,
+   "name": "Excavateurs gyrodrilmatiques",
+   "objectives": "Rapporter 24 Entrailles mécaniques de robot à Shoni à Stormwind.",
+   "description": "C'est affreux, <nom>. Nous n'avons pas suffisamment de pièces détachées pour notre flotte d'excavateurs gyrodrilmatiques à Dun Morogh.\n\nNous avons besoin de ces pièces, <nom>. Le meilleur endroit pour en trouver est Gnomeregan, mais j'ai entendu dire que les bots et les mechs grouillaient là-bas, comme les puces sur le dos d'un chien.\n\nVous devez aller à Gnomeregan et mettre en pièces quelques robots. Ramenez-moi des entrailles mécaniques. Deux douzaines devraient suffire.",
+   "progress": "S’il y avait eu une course, vous auriez perdu…",
+   "completion": "Ça ira parfaitement, <nom>. Un Excavateur gyrodrilmatique réparé, plus que 398.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6579,
+     "name": "Shoni la Silencieuse"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6579,
+     "name": "Shoni la Silencieuse"
+    }
+   ],
+   "zone_id": 721,
+   "level": 30,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 2450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "C'est affreux, <nom>. Nous n'avons pas suffisamment de pièces détachées pour notre flotte d'excavateurs gyrodrilmatiques à Dun Morogh.\n\nNous avons besoin de ces pièces, <nom>. Le meilleur endroit pour en trouver est Gnomeregan, mais j'ai entendu dire que les bots et les mechs grouillaient là-bas, comme les puces sur le dos d'un chien.\n\nVous devez aller à Gnomeregan et mettre en pièces quelques robots. Ramenez-moi des entrailles mécaniques. Deux douzaines devraient suffire.",
+      "objectives": "Rapporter 24 Entrailles mécaniques de robot à Shoni à Hurlevent.",
+      "name": "Excavateurs gyrodrilmatiques"
+     },
+     "npc": 6579,
+     "npc_name": "Shoni la Silencieuse",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": 1453,
+     "client": "1.60.1.70862",
+     "first_seen": 1794335289,
+     "last_seen": 1794335289
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2929": {
+   "id": 2929,
+   "name": "La grande trahison",
+   "objectives": "Aller à Gnomeregan et tuer le mekgénieur Thermaplugg. Puis retourner voir le Grand Bricoleur Mekkatorque.",
+   "description": "J'avais confiance en Thermaplugg, <nom>. Je ne pensais pas qu'il me trahirait, moi et tout le peuple gnome. Et pourquoi ? La puissance ? L'argent ? Toute chose qu'il aurait eu de toute façon. Maintenant nous avons été jetés hors de notre pays et ce malade est à sa tête. Le roi du vide...\n\nNous reprendrons Gnomeregan, <nom>. Nous n'arrêterons pas tant que la ville ne sera pas nôtre à nouveau. Si vous désirez vous joindre à nous, j'ai une mission simple à vous confier : tuer le traître. Détruisez le mekgénieur Thermaplugg.",
+   "progress": "La tâche est-elle terminée ? A-t-il demandé l'indulgence ? De clémence ??",
+   "completion": "J'aime à penser que la dernière chose qui lui a traversé l'esprit pendant qu'il s'écroulait sur le sol était votre pied, <nom>. Thermaplugg mort, nos plans de reconquête de Gnomeregan sont un pas plus proche de leur réalisation.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7937,
+     "name": "Grand Bricoleur Mekkatorque"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7937,
+     "name": "Grand Bricoleur Mekkatorque"
+    }
+   ],
+   "zone_id": 721,
+   "level": 35,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 2750,
+   "money": 3500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "J'aime à penser que la dernière chose qui lui a traversé l'esprit pendant qu'il s'écroulait sur le sol était votre pied, <nom>. Thermaplugg mort, nos plans de reconquête de Gnomeregan sont un pas plus proche de leur réalisation."
+     },
+     "npc": 7937,
+     "npc_name": "Grand Bricoleur Mekkatorque",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forgefer",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794736038,
+     "last_seen": 1794736038
+    },
+    "detail": {
+     "texts": {
+      "description": "J'avais confiance en Thermaplugg, <nom>. Je ne pensais pas qu'il me trahirait, moi et tout le peuple gnome. Et pourquoi ? La puissance ? L'argent ? Toute chose qu'il aurait eu de toute façon. Maintenant nous avons été jetés hors de notre pays et ce malade est à sa tête. Le roi du vide...\n\nNous reprendrons Gnomeregan, <nom>. Nous n'arrêterons pas tant que la ville ne sera pas nôtre à nouveau. Si vous désirez vous joindre à nous, j'ai une mission simple à vous confier : tuer le traître. Détruisez le mekgénieur Thermaplugg.",
+      "objectives": "Aller à Gnomeregan et tuer le mekgénieur Thermaplugg. Puis retourner voir le Grand Bricoleur Mekkatorque.",
+      "name": "La grande trahison"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": "Player",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70938",
+     "first_seen": 1794672008,
+     "last_seen": 1794672008
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2930": {
+   "id": 2930,
+   "name": "Sauvetage de données",
+   "objectives": "Apporter une Carte perforée prismatique au Maître mécanicien Castpipe, à Ironforge.",
+   "description": "Quand nous avons fui Gnomeregan, nous avons dû abandonner tant de données importantes !\n\nJ'ai besoin des données de la carte perforée prismatique d'une Matrice d'encodage 3005-D, dans Gnomeregan. C'est votre destination ; mais pour cela, vous devez d'abord accéder aux terminaux de modèles -A, -B et -C. Et ceci n'est possible qu'avec les cartes prismatiques, en commençant par les blanches... Et nous avons laissé toutes nos cartes dans la ville.\n\nPouvez-vous nous aider ?",
+   "progress": "Avez-vous la carte perforée prismatique ?",
+   "completion": "Bravo ! Vous avez récupéré la carte et les données perdues qui sont, à vrai dire, d'une importance vitale pour nous !\n\nVotre engagement auprès des gnomes fera date, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7950,
+     "name": "Maître mécanicien Castpipe"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7950,
+     "name": "Maître mécanicien Castpipe"
+    }
+   ],
+   "zone_id": 721,
+   "level": 30,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 3650,
+   "money": 2500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Quand nous avons fui Gnomeregan, nous avons dû abandonner tant de données importantes !\n\nJ'ai besoin des données de la carte perforée prismatique d'une Matrice d'encodage 3005-D, dans Gnomeregan. C'est votre destination ; mais pour cela, vous devez d'abord accéder aux terminaux de modèles -A, -B et -C. Et ceci n'est possible qu'avec les cartes prismatiques, en commençant par les blanches... Et nous avons laissé toutes nos cartes dans la ville.\n\nPouvez-vous nous aider ?",
+      "objectives": "Apporter une Carte perforée prismatique au Maître mécanicien Castpipe, à Forgefer.",
+      "name": "Sauvetage de données"
+     },
+     "npc": 7950,
+     "npc_name": "Maître mécanicien Castpipe",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forgefer",
+     "map_id": 1455,
+     "client": "1.60.1.70938",
+     "first_seen": 1794736057,
+     "last_seen": 1794736057
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2931": {
+   "id": 2931,
+   "name": "Du travail pour Castpipe",
+   "objectives": "Parler au Maître mécanicien Castpipe, à Ironforge.",
+   "description": "Le maître-mécanicien Castpipe à Ironforge a besoin d'aventuriers ! Il organise des groupes pour pénétrer à nouveau dans Gnomeregan afin d'effectuer une mission de récupération de première importance.\n\nIl se peut que Castpipe ne soit pas membre des grandes Assemblées d'arcanologie, d'alchimie ou de sciences d'ingénieries comme je le suis, mais il reste un gnome intelligent. S'il considère que c'est important, alors mes calculs indiquent qu'il y a quatre-vingt pour cent de chance que ce soit véritablement important !\n\nIl s'agit là des probabilités les plus optimistes en ce qui nous concerne !",
+   "progress": null,
+   "completion": "J'organise une opération de récupération de données à Gnomeregan. Si vous êtes venu pour ça, écoutez bien !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4077,
+     "name": "Gaxim Rustfizzle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7950,
+     "name": "Maître mécanicien Castpipe"
+    }
+   ],
+   "zone_id": 721,
+   "level": 28,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 230,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2945": {
+   "id": 2945,
+   "name": "Anneau sali",
+   "objectives": "Trouver un moyen de nettoyer l'Anneau sali.",
+   "description": "Vous avez découvert, sur le corps d'un des nains Sombrefer, ce qui semble être un anneau. La crasse le recouvre entièrement, rendant difficile son identification et impossible son port. Il vous semble pouvoir discerner, sous les résidus, comme le chatoiement d'un métal précieux et l'éclat d'une gemme.\n\nSi vous voulez utiliser cet anneau, il vous faudra trouver un moyen de nettoyer la saleté qui le souille.",
+   "progress": "Le bidule gnomique porte une étiquette : \"Décapeur 5200\". La fonction de la machine, d'après ce que vous en lisez, est de nettoyer la crasse et la saleté recouvrant les objets. Elle comprend une fente, dans laquelle il faut jeter trois pièces d'argent pour déclencher le processus nettoyant l'objet qu'on a placé à l'intérieur.\n\nOn dirait que l'anneau que vous avez trouvé un peu plus tôt est le genre d'objet à soumettre à cette machine !",
+   "completion": "Vous placez l'anneau dans le Décapeur 5200 et jetez une pièce dans la fente.\n\nD'étranges grincements montent de la machine, qui commence à vibrer. Il est difficile d'imaginer le sort de l'objet, pris dans les entrailles du Décapeur. . .\n\nD'un coup, le processus s'arrête, annonçant la fin du travail d'un simple \"Ding !\". La trappe s'ouvre et révèle une petite boîte, lacée d'un petit noeud rouge. Il semblerait, qu'en plus de les nettoyer, le Décapeur emballe les objets qui lui sont confiés !",
+   "starters": [
+    {
+     "type": "item",
+     "id": 9326,
+     "name": "Grime-Encrusted Ring"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 142487,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "zone_id": 721,
+   "level": 34,
+   "reqlevel": 28,
+   "side": "both",
+   "xp": 2700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Vous avez découvert, sur le corps d'un des nains Sombrefer, ce qui semble être un anneau. La crasse le recouvre entièrement, rendant difficile son identification et impossible son port. Il vous semble pouvoir discerner, sous les résidus, comme le chatoiement d'un métal précieux et l'éclat d'une gemme.\n\nSi vous voulez utiliser cet anneau, il vous faudra trouver un moyen de nettoyer la saleté qui le souille.",
+      "objectives": "Trouver un moyen de nettoyer l'Anneau sali.",
+      "name": "Anneau sali"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": null,
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Gnomeregan",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794677422,
+     "last_seen": 1794677422
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2947": {
+   "id": 2947,
+   "name": "Le retour de l'anneau",
+   "objectives": "Garder l'anneau ou retrouver la personne qui y a gravé les lettres.",
+   "description": "En ouvrant la boîte, vous trouvez ce à quoi vous vous attendiez : un anneau scintillant, comme flambant neuf ! Dès que vous l'enfilez, vous sentez une vague de puissance magique traverser votre corps.\n\nDans la face intérieure de l'anneau, vous voyez le poinçon d'Ironforge, accompagné de trois petites initiales gravées : \"TdK\". Ce peuvent être celles du précédent propriétaire de l'anneau ou celles de son artisan. Garder l'anneau... ou le rendre à qui il appartient. Difficiles décisions, en vérité...",
+   "progress": "Hé ! Du calme, l'ami. Je suis un homme d'affaire très en vue ! Le courrier avec le loyer aura eu du retard, voilà tout. . . attendez. . . vous n'êtes pas mon propriétaire.\n\nBien sûr que vous n'êtes pas le propriétaire, idiot que je suis ! Vous venez trouver le meilleur joaillier d'Ironforge ; un qui ne fait PAS des bijoux MAUDITS !\n\nBon, vous cherchez quoi au juste ?",
+   "completion": "Un anneau, dites-vous ? Mince alors ! C'est bien moi qui ai fabriqué cet anneau, en effet !\n\nAvant que la vie ne devienne si chère ici, j'avais une petite boutique. C'est sans doute un des anneaux que j'ai laissés ici, lorsque je suis parti me réfugier dans les collines. Peut-être est-ce l'anneau porté par une personne qui ne s'en est pas tirée.\n\nVous avez trouvé cela sur un nain Sombrefer ? Hum, une nouvelle odeur de conspiration flotte dans l'air. Peut-être les autorités aimeraient être au courant de tout cela ; allez donc les trouver car moi je n'y comprends rien.\n\nRevenons à cet anneau. . .",
+   "starters": [
+    {
+     "type": "object",
+     "id": 142487,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6826,
+     "name": "Talvash del Kissel"
+    }
+   ],
+   "zone_id": 721,
+   "level": 34,
+   "reqlevel": 28,
+   "side": "alliance",
+   "xp": 2700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2949": {
+   "id": 2949,
+   "name": "Le retour de l'anneau",
+   "objectives": "Garder l'anneau ou retrouver la personne qui y a gravé les lettres.",
+   "description": "En ouvrant la boîte produite par le Décapeur 5200, vous découvrez un anneau scintillant. Quand vous le passez à votre doigt, vous sentez une incroyable vague de puissance magique traverser votre corps.\n\nDans la face intérieure de l'anneau, vous pouvez voir le petit poinçon d'Orgrimmar à côté duquel les trois premières lettres gravées d'un mot sont visibles : \"NOG...\"\n\nCe sont peut-être les initiales de l'ancien propriétaire de l'anneau ou de son fabricant. Garder l'anneau... ou retrouver \"NOG\" - difficile décision, en vérité...",
+   "progress": "Vous pensiez que nous trouverions un moyen de l'emporter sur ces sales petits gnomes ? Je suis sûr qu'ils l'ont volé, cet anneau, pour commencer ! Enfin, ces affreux petits. . . hem, oui ? Il vous fallait quelque chose ?",
+   "completion": "Un anneau de Gnomeregan ? Voyons. . . non ce n'est pas le mien, mais c'est intéressant.\n\nCette histoire n'aurait pas pu arriver à de plus parfaits crétins. Quels imbéciles ! Ils sont la risée de tous, depuis des années, et soudain, voilà qu'ils feraient de meilleurs anneaux que nous ?\n\nLes nains Sombrefer avaient l'anneau ? Voilà qui est plus intéressant ! Peut-être les gnomes ont-ils volé les plans de leurs golems et les ont-ils modifiés. Ces Sombrefer, ils veulent vraiment s'attirer tous les bénéfices. Il faut tirer cela au clair.\n\nQuant à cet anneau. . .",
+   "starters": [
+    {
+     "type": "object",
+     "id": 142487,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3412,
+     "name": "Nogg"
+    }
+   ],
+   "zone_id": 721,
+   "level": 34,
+   "reqlevel": 28,
+   "side": "horde",
+   "xp": 2700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2951": {
+   "id": 2951,
+   "name": "Le Décapeur 5200 !",
+   "objectives": "Insérer un Objet sali dans le Décapeur 5200, sans oublier de jeter trois pièces d'argent dans la fente, pour démarrer la machine.",
+   "description": "L'étrange objet est là, au milieu des gnomes. Une petite plaque sur la machine indique : \"Décapeur 5200\", suivit d'un texte :\n\n\"La crasse et les résidus ruinent vos objets ? Le Décapeur 5200 est l'outil qu'il vous faut pour restaurer toute la brillance et l'éclat qu'ils méritent. Veuillez placer l'objet à décaper dans la machine, ainsi que trois pièces d'argent dans la fente prévue à cet effet et attendez un petit moment : vos objets de valeur en sortiront comme neufs\"",
+   "progress": "Il semble que la machine ne fonctionne que lorsqu'on y a déposé un objet à nettoyer et inséré trois pièces d'argent dans la fente prévue à cet effet. Si ces deux conditions sont réunies, le Décapeur 5200 devrait fonctionner.",
+   "completion": "Vous placez l'objet à nettoyer dans l'appareil et jetez trois pièces d'argent dans la fente. Le Décapeur 5200 se met à trembler et à trépider avec une inquiétante violence, tout à son oeuvre de décapage. Des grincements inquiétants, des battements sourds montent des entrailles de la machine tandis qu'elle vacille de tous côtés. . .",
+   "starters": [
+    {
+     "type": "object",
+     "id": 142487,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 142487,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "zone_id": 721,
+   "level": 30,
+   "reqlevel": 25,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2952": {
+   "id": 2952,
+   "name": "Le Décapeur 5200 !",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "D'un coup le Décapeur 5200 s'arrête net. Un petit carillon émet un \"ding\" clair et la trappe de l'appareil s'ouvre. À l'intérieur de la machine vous découvrez une petite boîte garnie d'un noeud. Il semble que la machine emballe les objets après les avoir nettoyés et qu'elle se donne la peine de les empaqueter dans une jolie boîte même quand elle n'a pas fonctionné.\n\nBon, il n'y a qu'un seul moyen de savoir si l'objet à bel et bien été nettoyé ou non...",
+   "starters": [
+    {
+     "type": "object",
+     "id": 142487,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 142487,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "zone_id": 721,
+   "level": 30,
+   "reqlevel": 25,
+   "side": "both",
+   "xp": 2450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "2953": {
+   "id": 2953,
+   "name": "Le Décapeur décape encore",
+   "objectives": null,
+   "description": null,
+   "progress": "Le Décapeur 5200 est vide et attend un objet à nettoyer ainsi que trois pièces d'argent pour démarrer.",
+   "completion": "Le Décapeur 5200 se met en action, vrombissant et crachotant tandis qu'à l'intérieur, sur l'objet, la crasse est pulvérisée par les enzymes de nettoyage spéciales mises au point par les gnomes !\n\nLe Décapeur 5200 s'arrête et émet un \"ding !\" pour indiquer qu'il a terminé son travail. La trappe s'ouvre, dévoilant une petite boîte, ornée d'un joli noeud.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 142487,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 142487,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "zone_id": 721,
+   "level": 30,
+   "reqlevel": 25,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "2962": {
+   "id": 2962,
+   "name": "Encore plus de Lueur verte !",
+   "objectives": "Voyager à Gnomeregan et rapporter de la Matière radioactive à haut potentiel. Attention, la matière radioactive est instable et se désactive rapidement.\n\nAprès le travail, conserver la Flasque plombée lourde, pour Ozzie.",
+   "description": "Votre échantillon n'était pas seulement insuffisant, mais impur.\n\nNous avons besoin de plus de Lueur verte. Les troggs ne sont apparemment pas encore assez irradiés. Vous devrez aller à Gnomeregan et rapporter de la matière radioactive, prélevée à la source. Je parle bien sûr de toutes ces gelées, rôdeurs et autres horreurs irradiées qui errent là-bas. Attention, la collecte et le conditionnement de telles matières est difficile ; il vous faudra faire plusieurs tentatives avant qu'un échantillon valable soit prélevé.",
+   "progress": "Hum, vous ne luisez pas ; c'est un bon signe.",
+   "completion": "<Ozzie vous examine. > Impressionnant, vous avez encore tous vos membres. Voyons maintenant les capacités de cette matière !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1268,
+     "name": "Ozzie Togglevolt"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1268,
+     "name": "Ozzie Togglevolt"
+    }
+   ],
+   "zone_id": 721,
+   "level": 30,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 2450,
+   "money": 2500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4601": {
+   "id": 4601,
+   "name": "Le Décapeur 5200 !",
+   "objectives": "Insérer un Objet sali dans le Décapeur 5200 et s'assurer d'avoir trois pièces d'argent pour démarrer la machine.",
+   "description": "L'étrange machine est là, au milieu des gnomes. Une petite plaque apposée indique : \"Décapeur 5200\", suivi d'un texte :\n\n\"La crasse et les résidus ruinent vos objets ? Le Décapeur 5200 est l'outil qu'il vous faut pour restaurer toute la brillance et l'éclat qu'ils méritent. Veuillez placer l'objet à décaper dans la machine, ainsi que trois pièces d'argent dans la fente prévue à cet effet et attendez un petit moment : vos objets de valeur en sortiront comme neufs\"",
+   "progress": "Il semble que la machine ne fonctionne que lorsqu'on y a déposé un objet à nettoyer et inséré trois pièces d'argent dans la fente prévue à cet effet. Si ces deux conditions sont réunies, le Décapeur 5200 devrait fonctionner. . .",
+   "completion": "Vous placez l'objet à nettoyer dans l'appareil et jetez trois pièces d'argent dans la fente. Le Décapeur 5200 se met à trembler et à trépider avec une violence inquiétante, tout à son oeuvre de décapage. Des grincements étranges, des battements sourds montent des entrailles de la machine tandis qu'elle vacille sur ses pieds. . .",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175084,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 175084,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "zone_id": 721,
+   "level": 30,
+   "reqlevel": 25,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vous placez l'objet à nettoyer dans l'appareil et jetez trois pièces d'argent dans la fente. Le Décapeur 5200 se met à trembler et à trépider avec une violence inquiétante, tout à son oeuvre de décapage. Des grincements étranges, des battements sourds montent des entrailles de la machine tandis qu'elle vacille sur ses pieds..."
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": null,
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Gnomeregan",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794673752,
+     "last_seen": 1794673752
+    },
+    "detail": {
+     "texts": {
+      "description": "L'étrange machine est là, au milieu des gnomes. Une petite plaque apposée indique : \"Décapeur 5200\", suivi d'un texte :\n\n\"La crasse et les résidus ruinent vos objets ? Le Décapeur 5200 est l'outil qu'il vous faut pour restaurer toute la brillance et l'éclat qu'ils méritent. Veuillez placer l'objet à décaper dans la machine, ainsi que trois pièces d'argent dans la fente prévue à cet effet et attendez un petit moment : vos objets de valeur en sortiront comme neufs\"",
+      "objectives": "Insérer un Objet sali dans le Décapeur 5200 et s'assurer d'avoir trois pièces d'argent pour démarrer la machine.",
+      "name": "Le Décapeur 5200 !"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": null,
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Gnomeregan",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794673749,
+     "last_seen": 1794673749
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4602": {
+   "id": 4602,
+   "name": "Le Décapeur 5200 !",
+   "objectives": "Insérer un Objet sali dans le Décapeur 5200 et s'assurer d'avoir trois pièces d'argent pour démarrer la machine.",
+   "description": "L'étrange machine est là, au milieu des gnomes. Une petite plaque apposée indique : \"Décapeur 5200\", suivi d'un texte :\n\n\"La crasse et les résidus ruinent vos objets ? Le Décapeur 5200 est l'outil qu'il vous faut pour restaurer toute la brillance et l'éclat qu'ils méritent. Veuillez placer l'objet à décaper dans la machine, ainsi que trois pièces d'argent dans la fente prévue à cet effet et attendez un petit moment : vos objets de valeur en sortiront comme neufs\"",
+   "progress": "Il semble que la machine ne fonctionne que lorsqu'on y a déposé un objet à nettoyer et inséré trois pièces d'argent dans la fente prévue à cet effet. Si ces deux conditions sont réunies, le Décapeur 5200 devrait fonctionner. . .",
+   "completion": "Vous placez l'objet à nettoyer dans l'appareil et jetez trois pièces d'argent dans la fente. Le Décapeur 5200 se met à trembler et à trépider avec une inquiétante violence, tout à son oeuvre de décapage. Des grincements inquiétants, des battements sourds montent des entrailles de la machine tandis qu'elle vacille de tous côtés. . .",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175085,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 175085,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "zone_id": 721,
+   "level": 30,
+   "reqlevel": 25,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4603": {
+   "id": 4603,
+   "name": "Le Décapeur décape encore",
+   "objectives": null,
+   "description": null,
+   "progress": "Le Décapeur 5200 est vide et attend un objet à nettoyer ainsi que trois pièces d'argent pour démarrer !",
+   "completion": "Le Décapeur 5200 se met en action, vrombissant et crachotant tandis qu'à l'intérieur, sur l'objet, la crasse est pulvérisée par les enzymes de nettoyage spéciales mises au point par les gnomes !\n\nLe Décapeur 5200 s'arrête et émet un \"ding !\" pour indiquer qu'il a terminé son travail. La trappe s'ouvre, dévoilant une petite boîte, ornée d'un joli noeud.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175084,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 175084,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "zone_id": 721,
+   "level": 30,
+   "reqlevel": 25,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Le Décapeur 5200 se met en action, vrombissant et crachotant tandis qu'à l'intérieur, sur l'objet, la crasse est pulvérisée par les enzymes de nettoyage spéciales mises au point par les gnomes !\n\nLe Décapeur 5200 s'arrête et émet un \"ding !\" pour indiquer qu'il a terminé son travail. La trappe s'ouvre, dévoilant une petite boîte, ornée d'un joli noeud."
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": null,
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Gnomeregan",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794673755,
+     "last_seen": 1794673755
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "4604": {
+   "id": 4604,
+   "name": "Le Décapeur décape encore",
+   "objectives": null,
+   "description": null,
+   "progress": "Le Décapeur 5200 est vide et attend un objet à nettoyer ainsi que trois pièces d'argent pour démarrer !",
+   "completion": "Le Décapeur 5200 se met en action, vrombissant et crachotant tandis qu'à l'intérieur, sur l'objet, la crasse est pulvérisée par les enzymes de nettoyage spéciales mises au point par les gnomes !\n\nLe Décapeur 5200 s'arrête et émet un \"ding !\" pour indiquer qu'il a terminé son travail. La trappe s'ouvre, dévoilant une petite boîte, ornée d'un joli noeud.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175085,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 175085,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "zone_id": 721,
+   "level": 30,
+   "reqlevel": 25,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "4605": {
+   "id": 4605,
+   "name": "Le Décapeur 5200 !",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "D'un coup le Décapeur 5200 s'arrête net. Un petit carillon émet un \"ding\" clair et la trappe de l'appareil s'ouvre. À l'intérieur de la machine vous découvrez une petite boîte garnie d'un noeud. Il semble que la machine emballe les objets après les avoir nettoyés et qu'elle se donne la peine de les empaqueter dans une jolie boîte même quand elle n'a pas fonctionné.\n\nBon, il n'y a qu'un seul moyen de savoir si l'objet à bel et bien été nettoyé ou non...",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175084,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 175084,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "zone_id": 721,
+   "level": 30,
+   "reqlevel": 25,
+   "side": "both",
+   "xp": 2450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "D'un coup le Décapeur 5200 s'arrête net. Un petit carillon émet un \"ding\" clair et la trappe de l'appareil s'ouvre. À l'intérieur de la machine vous découvrez une petite boîte garnie d'un noeud. Il semble que la machine emballe les objets après les avoir nettoyés et qu'elle se donne la peine de les empaqueter dans une jolie boîte même quand elle n'a pas fonctionné.\n\nBon, il n'y a qu'un seul moyen de savoir si l'objet à bel et bien été nettoyé ou non..."
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": null,
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Gnomeregan",
+     "map_id": null,
+     "client": "1.60.1.70938",
+     "first_seen": 1794673752,
+     "last_seen": 1794673752
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "4606": {
+   "id": 4606,
+   "name": "Le Décapeur 5200 !",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "D'un coup le Décapeur 5200 s'arrête net. Un petit carillon émet un \"ding\" clair et la trappe de l'appareil s'ouvre. À l'intérieur de la machine vous découvrez une petite boîte garnie d'un noeud. Il semble que la machine emballe les objets après les avoir nettoyés et qu'elle se donne la peine de les empaqueter dans une jolie boîte même quand elle n'a pas fonctionné.\n\nBon, il n'y a qu'un seul moyen de savoir si l'objet à bel et bien été nettoyé ou non...",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175085,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 175085,
+     "name": "The Sparklematic 5200"
+    }
+   ],
+   "zone_id": 721,
+   "level": 30,
+   "reqlevel": 25,
+   "side": "both",
+   "xp": 2450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

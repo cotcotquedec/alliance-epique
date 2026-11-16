@@ -1,0 +1,515 @@
+{
+ "schema": 1,
+ "zone": "miscellaneous/legendary",
+ "zone_id": -344,
+ "zone_name": "Légendaire",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 9,
+  "complete": 9,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 1
+ },
+ "quests": {
+  "7785": {
+   "id": 7785,
+   "name": "Examiner le Calice",
+   "objectives": "Examiner le Calice de la renaissance et le rapporter au généralissime Demitrian.",
+   "description": "Examinez le Calice de la renaissance, <mortel/mortelle>. C'est grâce à lui que le Cherchevent reviendra !",
+   "progress": "Le libérerez-vous de sa prison éternelle ?",
+   "completion": "Puissiez-vous être protégé durant votre croisade. Puisse le maître bénir vos efforts.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 19016,
+     "name": "Vessel of Rebirth"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14347,
+     "name": "Généralissime Demetrian"
+    }
+   ],
+   "zone_id": -344,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mortel/mortelle"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7786": {
+   "id": 7786,
+   "name": "Thunderaan le Cherchevent",
+   "objectives": "Pour libérer Thunderaan le Cherchevent de sa prison, vous devez présenter au généralissime Demetrian les moitiés droite et gauche des Liens du Cherchevent, 10 barres d'élémentium, et l'Essence du Seigneur du feu.",
+   "description": "Je vous ai dit tout ce que je sais, <nom>. C'est à vous de trouver l'élémentium. C'est à vous de détruire la forme physique du Seigneur du feu.\n\nSi vous y parvenez, vous recevrez la bénédiction de Thunderaan.",
+   "progress": "S'il le faut, mettez le monde à genou !",
+   "completion": "Même dans mes rêves les plus fous, je n'avais osé espérer ce jour.\n\nRegarde, mortel.\n\nCONTEMPLE CELUI QUI EST PLUS VIEUX QUE LA VIE ELLE-MÊME !\n\nCONTEMPLE CELUI QUI A AFFRONTÉ LES TITANS ET LES DIEUX !\n\nLÈVE-TOI, MAÎTRE ! LIBÈRE-TOI DE TES CHAÎNES !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14347,
+     "name": "Généralissime Demetrian"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14347,
+     "name": "Généralissime Demetrian"
+    }
+   ],
+   "zone_id": -344,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7787": {
+   "id": 7787,
+   "name": "Éveille-toi, Lame-tonnerre !",
+   "objectives": "Présenter la Lame du baiser du vent dormante au généralissime Demitrian.",
+   "description": "Vous avez vaincu le Cherchevent. Prenez la lame endormie et obligez cet immonde menteur, Demitrian, à utiliser les matériaux que vous lui avez fourni pour sa trahison. Obligez-le à éveiller Lame-tonnerre.",
+   "progress": "<Demitrian tremble en votre présence. >",
+   "completion": "Je vous en supplie, ne me frappez pas ! Prenez-la ! Prenez la lame ! Laissez Demitrian refaire sa pitoyable vie !",
+   "starters": [
+    {
+     "type": "item",
+     "id": 19018,
+     "name": "Dormant Wind Kissed Blade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14347,
+     "name": "Généralissime Demetrian"
+    }
+   ],
+   "zone_id": -344,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9250": {
+   "id": 9250,
+   "name": "La hampe d'Atiesh",
+   "objectives": "Trouvez quelqu’un pour vous aider à récupérer les deux dernières parties du bâton, et pour le débarrasser du mal qui l’habite.",
+   "description": "Avec la hampe reconstituée, Atiesh est presque entièrement réparé. Il ne manque plus maintenant que la tête et le talon. Bon, il restera aussi un problème mineur à régler, le bâton servant de canal au maléfique Sargeras.\n\nTrouvez quelqu'un pour vous aider à retrouver les parties manquantes du bâton et pour l'exorciser.",
+   "progress": "C'était son heure, mortel.",
+   "completion": "Les archimages sont morts.\n\nNe pleurez pas leur disparition, <nom>. Toutes ces choses sont fatales. Tout comme le fait que tu tiennes le personnel du Gardien était prédestiné...",
+   "starters": [
+    {
+     "type": "item",
+     "id": 22727,
+     "name": "Frame of Atiesh"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15192,
+     "name": "Anachronos"
+    }
+   ],
+   "zone_id": -344,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9251": {
+   "id": 9251,
+   "name": "Atiesh, le grand bâton souillé",
+   "objectives": "Anachronos, aux Grottes du temps en Tanaris, veut la Tête d’Atiesh et le Talon d’Atiesh.",
+   "description": "Vous vous demandez pourquoi vous êtes encore en vie. Après tout, vous avez en votre possession un objet hautement maléfique. La réponse est incertaine, <nom>. Je ne fais que ce que je dois.\n\nKel'Thuzad trône à Naxxramas, d'où il tisse ses complots... Il recherche ce que vous possédez et il possède ce que vous recherchez.\n\nEn ce qui concerne le talon du bâton, le nain Brann Barbe-de-bronze le détenait quand il est entré dans Ahn'Qiraj. Il n'y est plus mais le talon du bâton y est resté.\n\nSi vous parvenez à en récupérer les morceaux, rapportez-les-moi.",
+   "progress": "Dans sa forme actuelle, le bâton est bien trop dangereux pour être entre les mains d'un mortel.",
+   "completion": "Il y a un être à l'intérieur... un être qui n'est pas de ce monde.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15192,
+     "name": "Anachronos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15192,
+     "name": "Anachronos"
+    }
+   ],
+   "zone_id": -344,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9257": {
+   "id": 9257,
+   "name": "Atiesh, le grand bâton du Gardien",
+   "objectives": "Anachronos, aux Grottes du temps en Tanaris, veut que vous emportiez Atiesh, le grand bâton du Gardien, à Stratholme et que vous le placiez sur la Terre consacrée. Abattez l'entité qui sera extraite du bâton et retournez le voir.",
+   "description": "Cette dernière besogne sera la plus difficile de toutes, <nom>. Vous avez déjà affronté et vaincu un Dieu très ancien et le général du roi-liche, mais vous devez maintenant faire face à la main de Sargeras.\n\nApportez le bâton à Stratholme. C'est là-bas que vous trouverez une étendue de terre consacrée : le sol sur lequel les plus grands chevaliers du Lordaeron ont été abattus. Placez le bâton souillé sur le sol sacré et préparez-vous à ce qu'une entité au pouvoir immense s'en échappe... Exécutez l'être démoniaque qui contrôle le bâton, puis revenez me trouver.",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15192,
+     "name": "Anachronos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15192,
+     "name": "Anachronos"
+    }
+   ],
+   "zone_id": -344,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9269": {
+   "id": 9269,
+   "name": "Atiesh, le grand bâton du Gardien",
+   "objectives": "Anachronos, aux Grottes du temps en Tanaris, veut que vous emportiez Atiesh, le grand bâton du Gardien, à Stratholme et que vous le placiez sur la Terre consacrée. Abattez l’entité qui sera extraite du bâton et retournez le voir.",
+   "description": "Cette dernière besogne sera la plus difficile de toutes, <nom>. Vous avez déjà affronté et vaincu un Dieu très ancien et le général du roi-liche, mais vous devez maintenant faire face à la main de Sargeras.\n\nApportez le bâton à Stratholme. C’est là-bas que vous trouverez une étendue de terre consacrée : le sol sur lequel les plus grands chevaliers du Lordaeron ont été abattus. Placez le bâton souillé sur le sol sacré et préparez-vous à ce qu’une entité au pouvoir immense s’en échappe... Exécutez l’être démoniaque qui contrôle le bâton, puis revenez me trouver.",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15192,
+     "name": "Anachronos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15192,
+     "name": "Anachronos"
+    }
+   ],
+   "zone_id": -344,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:vmangos",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9270": {
+   "id": 9270,
+   "name": "Atiesh, le grand bâton du Gardien",
+   "objectives": "Anachronos, aux Grottes du temps en Tanaris, veut que vous emportiez Atiesh, le grand bâton du Gardien, à Stratholme et que vous le placiez sur la Terre consacrée. Abattez l’entité qui sera extraite du bâton et retournez le voir.",
+   "description": "Cette dernière besogne sera la plus difficile de toutes, <nom>. Vous avez déjà affronté et vaincu un Dieu très ancien et le général du roi-liche, mais vous devez maintenant faire face à la main de Sargeras.\n\nApportez le bâton à Stratholme. C’est là-bas que vous trouverez une étendue de terre consacrée : le sol sur lequel les plus grands chevaliers du Lordaeron ont été abattus. Placez le bâton souillé sur le sol sacré et préparez-vous à ce qu’une entité au pouvoir immense s’en échappe... Exécutez l’être démoniaque qui contrôle le bâton, puis revenez me trouver.",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15192,
+     "name": "Anachronos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15192,
+     "name": "Anachronos"
+    }
+   ],
+   "zone_id": -344,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:vmangos",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9271": {
+   "id": 9271,
+   "name": "Atiesh, le grand bâton du Gardien",
+   "objectives": "Anachronos, aux Grottes du temps en Tanaris, veut que vous emportiez Atiesh, le grand bâton du Gardien, à Stratholme et que vous le placiez sur la Terre consacrée. Abattez l’entité qui sera extraite du bâton et retournez le voir.",
+   "description": "Cette dernière besogne sera la plus difficile de toutes, <nom>. Vous avez déjà affronté et vaincu un Dieu très ancien et le général du roi-liche, mais vous devez maintenant faire face à la main de Sargeras.\n\nApportez le bâton à Stratholme. C’est là-bas que vous trouverez une étendue de terre consacrée : le sol sur lequel les plus grands chevaliers du Lordaeron ont été abattus. Placez le bâton souillé sur le sol sacré et préparez-vous à ce qu’une entité au pouvoir immense s’en échappe... Exécutez l’être démoniaque qui contrôle le bâton, puis revenez me trouver.",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15192,
+     "name": "Anachronos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15192,
+     "name": "Anachronos"
+    }
+   ],
+   "zone_id": -344,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:vmangos",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

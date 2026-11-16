@@ -92,7 +92,10 @@ def similarity(a: str, b: str) -> float:
 
 def _capture_record(cap: dict, kind: str, texts: dict[str, str | None]) -> dict:
     _, id_key, name_key, type_key = SPEAKERS[kind]
-    return {"texts": texts, "npc": cap.get(id_key) or cap.get("npcID"), "npc_name": cap.get(name_key),
+    # a quest started by an item: the game names the player as the giver, never kept
+    player = cap.get(type_key) == "Player" or (cap.get(name_key) or "") == (cap.get("playerName") or None)
+    return {"texts": texts, "npc": cap.get(id_key) or cap.get("npcID"),
+            "npc_name": None if player else cap.get(name_key),
             "npc_type": cap.get(type_key), "npc_sex": cap.get("npcSex"), "player_sex": cap.get("playerSex"),
             "zone": cap.get("zone"), "map_id": cap.get("mapID"), "client": cap.get("client"),
             "first_seen": cap.get("firstSeen"), "last_seen": cap.get("lastSeen")}

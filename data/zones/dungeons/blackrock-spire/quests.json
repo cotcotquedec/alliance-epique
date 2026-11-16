@@ -1,0 +1,2104 @@
+{
+ "schema": 1,
+ "zone": "dungeons/blackrock-spire",
+ "zone_id": 1583,
+ "zone_name": "Pic Blackrock",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 37,
+  "complete": 37,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 4
+ },
+ "quests": {
+  "4701": {
+   "id": 4701,
+   "name": "Abattez-la",
+   "objectives": "Allez au Pic Blackrock et anéantir la menace worg à sa source. Tandis que vous quittiez Helendis, il a crié un nom : Halycon. C'est ce que disent les orcs en parlant des worgs.",
+   "description": "Vous avez certainement vu les worgs que les orcs Blackrock commandent.\n\nEt c'est curieux : peu importe combien nous en tuons, leur nombre ne diminue jamais. Mes éclaireurs m'ont rapporté que les worgs sont élevés, entraînés au pic Blackrock, la capitale des orcs Blackrock, et finalement exportés. Allez jusqu'au pic Blackrock et découvrez la source de cette menace. Cherchez... et détruisez.\n\nBonne chance, <nom>. Que Cénarius vous protège...",
+   "progress": "Avez-vous découvert et traité la source de la menace mondiale ?",
+   "completion": "Ne pensez plus à sa souffrance, <nom>. La bête était corrompue ; c'était un produit de la magie noire. Vous avez rendu un grand service à l'Alliance et vous serez récompensé.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9562,
+     "name": "Helendis Riverhorn"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9562,
+     "name": "Helendis Riverhorn"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 59,
+   "reqlevel": 55,
+   "side": "alliance",
+   "xp": 6400,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4724": {
+   "id": 4724,
+   "name": "La maîtresse de meute",
+   "objectives": "Tuer Halycon, la maîtresse de la meute des worgs Bloodaxe.",
+   "description": "Certains disent que les worgs contrôlés par les orcs Blackrock ont été créés par une force surnaturelle. D’autres prétendent qu’ils ne sont pas de vrais worgs mais une espèce de chien démon, offert aux orcs par un Seigneur des abîmes.\n\nLa vérité est encore moins romantique que ça, mais tout aussi effrayante. Les worgs Blackrock viennent de Halycon et son compagnon. Halycon est la gigantesque mère des worgs. Son compagnon ? Personne n’est jamais revenu pour raconter l’histoire de celui-là.\n\nFrappez au coeur des worgs. Détruisez Halycon... et, <nom>, surveillez vos arrières.",
+   "progress": "Une fois la maîtresse de meute tuée, nous pourrons commencer à réduire le nombre de sentinelles worgs de la flèche et éventuellement progresser dans la ville.",
+   "completion": "De jeunes bêtes enragées ? Gizrul l'esclavagiste ? Et vous êtes encore là pour le raconter ? Incroyable ! Une récompense bien méritée !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9081,
+     "name": "Galamav le Tireur d'élite"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9081,
+     "name": "Galamav le Tireur d'élite"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 59,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 6400,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4729": {
+   "id": 4729,
+   "name": "Les animaux exotiques de Kibler",
+   "objectives": "Aller au Pic Blackrock et trouver de Jeunes worgs Bloodaxe. Utiliser la cage pour transporter ces petites bêtes féroces. Rapporter un Jeune worg en cage à Kibler.",
+   "description": "Vous vous demandez certainement ce que je fais là. Regardez ces cages ! Est-ce que ce n’est pas évident ?\n\nJ’adore les animaux et… le commerce. Je traque les animaux exotiques et je les revends, domestiqués et doux comme des petits chats, aux gens riches.\n\nVous vous demandez certainement, \"Que puis-je faire pour vous, Kibler ?\" La réponse est simple : prenez cette cage et trouvez des jeunes worgs. En récompense j'en domestiquerai un pour vous !",
+   "progress": "<Kibler est occupé, il discute avec Opus. >",
+   "completion": "Vous les avez eus au bon moment, <nom>. Plus tard, nous n'aurions rien pu en faire ! Donnez-moi une minute et je prépare le petit gars pour que vous le rameniez chez vous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10260,
+     "name": "Kibler"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10260,
+     "name": "Kibler"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 59,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 6400,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4734": {
+   "id": 4734,
+   "name": "Un oeuf congelé",
+   "objectives": "Utiliser le Prototype d'Oeufilloscope sur un oeuf dans la Colonie.",
+   "description": "<nom>, je travaille sur un nouvel appareil : l’Oeufilloscope ! Il est destiné à projeter une salve d’énergie réfrigérante sur l’oeuf d’un dragon noir... ce qui le congèle instantanément ! Pourriez-vous le tester pour moi ?\n\nJ'ai entendu que très haut sur le pic Blackrock, il y a une colonie de dragons où ils couvent leurs oeufs. C’est là que vous devrez aller tester l’Oeufilloscope. Vous reviendrez ensuite me dire comment il a fonctionné !\n\nEt ne vous inquiétez pas, les oeufs de dragons congelés sont tout à fait inoffensifs ; ce sont ceux qui ne seront pas congelés qui seront le véritable souci !",
+   "progress": "<nom>, avez-vous testé l'Oeufilloscope ?",
+   "completion": "Ça a marché ? Splendide ! Je savais que ça serait le cas !\n\nPendant que vous étiez parti j'ai travaillé sur une nouvelle version de l'Oeufilloscope. Celui-ci a une portée plus longue.\n\nVoilà, vous pouvez vous en procurer un au cas où vous retourneriez au pic Blackrock.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10267,
+     "name": "Tinkee Steamboil"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10267,
+     "name": "Tinkee Steamboil"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "both",
+   "xp": 8300,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4735": {
+   "id": 4735,
+   "name": "La collecte d'oeufs",
+   "objectives": "Apporter 8 Oeufs de dragon collectés et le Module collectronique à Tinkee Steamboil à la Corniche des flammes dans les Steppes Ardentes.",
+   "description": "<nom>, je suis disponible pour les oeufs de dragon ! Tenez, prenez ce Module collectronique. Il est destiné à l’extraction et au transport des oeufs de dragon. Retournez à la Colonie et utilisez le Module pour collecter les oeufs.\n\nN’oubliez pas de les congeler avant ou ils risquent d’éclore avant que vous ne puissez avoir fini de les collecter !\n\nQuand vous aurez assez d’oeufs, rapportez-les-moi !",
+   "progress": "Avez-vous les oeufs, <nom> ? Mon client a entendu dire que vous les collectiez pour moi et il est impatient de pouvoir les tenir dans ses mains !",
+   "completion": "Wow, vous les avez ! Le Module collectronique a fonctionné ! Je suis un génie !\n\nMerci, <nom>. Mon client sera très content de récupérer ces oeufs. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10267,
+     "name": "Tinkee Steamboil"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10267,
+     "name": "Tinkee Steamboil"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "both",
+   "xp": 9950,
+   "money": 27000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4742": {
+   "id": 4742,
+   "name": "Le sceau de l'ascension",
+   "objectives": "Trouver les trois gemmes de commandement : la Gemme de Smolderthorn, la Gemme de Pierre-du-pic et la Gemme de Bloodaxe. Rapportez-les, ainsi que le Sceau d'ascension non décoré, à Vaelan.\n\nLes généraux, comme vous l'a dit Vaelan, sont : le maître de guerre Voone de Smolderthorn ; le généralissime Omokk des Pierres-du-pic ; et le seigneur Wyrmthalak de Bloodaxe.",
+   "description": "Vous remarquez que le Sceau d'ascension non décoré comprend trois logements vides. Chacun de ces logements doit être occupé par une gemme de commandement. Enfin, le seigneur Wyrmthalak, maître de la citadelle inférieure, forgera le sceau dans les flammes des dragons noirs.\n\nComprenez cela, mortelle créature : les chances pour que les trois généraux de la citadelle inférieure portent une gemme sur eux sont extrêmement minces. Vous devrez être <vigilant/vigilante> lors de votre quête. Que votre volonté ne fléchisse point !",
+   "progress": "Courage et patience avant tout, mortel !",
+   "completion": "<La silhouette de Vaelan s'estompe pendant un moment. >\n\n<Les morceaux que vous avez récupérés ont disparu. >\n\nLe Sceau d'ascension brut est prêt. Il est temps de passer à la dernière étape.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10299,
+     "name": "Infiltrateur du Bouclier balafré"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10299,
+     "name": "Infiltrateur du Bouclier balafré"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "vigilant/vigilante"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4743": {
+   "id": 4743,
+   "name": "Le sceau de l'ascension",
+   "objectives": "Allez à la tourbière du Ver dans le marécage d'Âprefange. Trouvez l'ancien drake, Brandeguerre, et frappez-le sans merci jusqu'à ce que sa volonté soit brisée.\n\nA cet instant précis, vous devez placer le Sceau d'ascension brut devant l'énorme bête. Vous devez ensuite utiliser rapidement l'Orbe d'énergie draconique sur sa forme affaiblie et prendre possession de ses facultés mentales. Contrôlez la bête et dirigez les flammes du Vol noir sur le Sceau d'ascension brut !",
+   "description": "En dehors de ceux de la citadelle supérieure, rares sont les draconiens noirs qui soient capables de forger le sceau avec les flammes de leur souffle. Wyrmthalak est l’un d'eux, mais sa volonté est inébranlable.\n\nVous devez voyager dans la tourbière du Ver, dans le marécage d'Âprefange. Vous y rencontrerez un ancien drake appelé Brandeguerre. Vous devrez briser sa volonté, <nom>, puis utiliser cet orbe sur lui, alors qu'il est affaibli. Vous n’aurez que quelques secondes pour contrôler son esprit et attiser les flammes qui forgeront le sceau.",
+   "progress": "Ne perdez pas de temps, mortel. Nefarian travaille sans relâche pour libérer ce mal sur notre monde.",
+   "completion": "Ne bougez pas pendant que je termine cette incantation de protection.\n\n<Les yeux de Vaelan se fixent sur les deux orbes de flammes. >\n\nLe Sceau d'ascension est terminé. . .\n\nSachez que j'ai imprégné cet artefact de quelques vertus protectrices puissantes. Quand vous serez au coeur des ténèbres et que tout vous semblera perdu, vous pourrez compter sur le pouvoir des dragons rouges.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10299,
+     "name": "Infiltrateur du Bouclier balafré"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10299,
+     "name": "Infiltrateur du Bouclier balafré"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4764": {
+   "id": 4764,
+   "name": "Le fermoir de Doomrigger",
+   "objectives": "Apporter le Fermoir de Doomrigger à Mayara Brightwing, dans les Steppes ardentes.",
+   "description": "Il y a une salle, tout en haut du pic Blackrock, que l’on appelait le Hall de la chance. C’est là que les nains Sombrefer gardaient leurs reliques, trophées et autres objets d’art.\n\nIl paraît que le hall s’est effondré et qu’il sert maintenant à des objectifs moins raffinés. Je crois cependant que quelques-unes des reliques peuvent encore y être retrouvées.\n\nL’une d’entre elles est le Fermoir de Doomrigger, dont la surface était tant couverte de gemmes rares qu’aucun nain ne pouvait la regarder sans verser une larme.\n\nCe Fermoir, <nom>, est notre objectif.",
+   "progress": "Avez-vous le fermoir, <nom> ? Mon client vous paiera généreusement pour l'avoir.",
+   "completion": "Vous l'avez trouvé ! Les rumeurs étaient donc vraies !\n\nMerci, <nom>. Mon client, le comte Remington Ridgewell, sera content de voir cette pièce rejoindre sa collection.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9565,
+     "name": "Mayara Brightwing"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9565,
+     "name": "Mayara Brightwing"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "alliance",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4765": {
+   "id": 4765,
+   "name": "La livraison à Ridgewell",
+   "objectives": "Apporter la Caisse de Ridgewell à Remington Ridgewell, à Stormwind.",
+   "description": "J’ai empaqueté le Fermoir de Doomrigger dans une caisse, pour faciliter son convoyage vers Stormwind. <nom>, votre aide fut précieuse ; mais puis-je vous demander un dernier service ?\n\nLivrez la caisse au comte Remington Ridgewell. Vous le trouverez dans le donjon de Stormwind. Il sera content de recevoir ce colis.",
+   "progress": "On m'a dit qu'un messager viendrait et qu'il aurait un cadeau du pic Blackrock.\n\nEst-ce que c'est vous ?",
+   "completion": "Ah, c'est donc vous ! Je vous remercie, <nom>. Et. . . si vous ne le saviez pas déjà. . . La gratitude d'un noble de la maison de Ridgewell équivaut presque à une récompense royale.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9565,
+     "name": "Mayara Brightwing"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2285,
+     "name": "Comte Remington Ridgewell"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "alliance",
+   "xp": 6600,
+   "money": 27000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4766": {
+   "id": 4766,
+   "name": "Mayara Brightwing",
+   "objectives": "Parler à Mayara Brightwing, dans les Steppes Ardentes.",
+   "description": "Un de mes agents, Mayara Brightwing, a été envoyée dans les Steppes ardentes pour une reconnaissance de la ville en ruines de Thaurissan. Cette cité détruite des nains Sombrefer pourrait cacher des objets de grande valeur... qui auraient leur place dans notre musée familial.\n\nMayara a prévenu qu’elle avait trouvé quelque chose et qu’elle avait besoin d’aide pour le récupérer ; pourtant, cela ne se trouve pas à Thaurissan. Il faudra faire un raid sur le pic Blackrock.\n\nJe ne connais pas les détails de cette affaire, mais si cela vous intéresse, parlez à Mayara, dans les Steppes ardentes.",
+   "progress": null,
+   "completion": "Vous arrivez de Stormwind ? Merveilleux ; je connais une oeuvre d'art pour laquelle Remington serait prêt à tuer. Mais la récupérer ne va pas être chose facile.\n\nC'est là que vous intervenez.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2285,
+     "name": "Comte Remington Ridgewell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9565,
+     "name": "Mayara Brightwing"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4768": {
+   "id": 4768,
+   "name": "La tablette de Darkstone",
+   "objectives": "Apporter la Tablette de Darkstone à l'ombremage Vivian Lagrave à Kargath.",
+   "description": "La tablette de Darkstone contient les écrits du nain Urheld Darkstone, un alchimiste de grand pouvoir qui était considéré comme fou par ses contemporains. De fait, il ne partagea aucune de ses recherches.\n\nIl les grava toutefois sur des tablettes, et l’une d’elle se trouve sûrement au pic Blackrock, dans une pièce nommée le Hall de la chance. Je ne sais pas comment on l’appelle maintenant, parce que fort peu sont revenus de Blackrock.\n\nMais si vous vous sentez apte à braver ces dangers et revenez avec la tablette, votre récompense sera immense.",
+   "progress": "Avez-vous trouvé la tablette, <nom> ? Je suis impatiente de me plonger dans ses secrets.",
+   "completion": "Excellent. La formule gravée sur cette tablette demandera plusieurs jours d'études pour la comprendre, mais ça en vaut la peine, j'en suis sûre.\n\nMerci, <nom>. Vous avez été d'une aide inestimable.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9078,
+     "name": "Ombremage Vivian Lagrave"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9078,
+     "name": "Ombremage Vivian Lagrave"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "horde",
+   "xp": 8300,
+   "money": 27000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4769": {
+   "id": 4769,
+   "name": "Vivian Lagrave et la tablette de Darkstone",
+   "objectives": "Parler à l'ombremage Vivian Lagrave.",
+   "description": "Vivian Lagrave de Kargath, dans les Terres ingrates, m'a fait savoir qu'il existait un ancien texte dans le pic Blackrock qui nous serait très utile. Elle a besoin d’un volontaire pour aller récupérer ce texte. C'est une mission difficile.\n\nSi cela vous intéresse, parlez à Vivian, dans Kargath.",
+   "progress": null,
+   "completion": "C'est vrai. Je crois qu'une tablette est conservée au pic Blackrock ; dessus sont inscrites de vieilles recettes d'alchimie. Je suis contente que vous soyez là, j'ai besoin de vos services pour la récupérer.\n\nInstallez-vous confortablement, que je vous explique cela en détail.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5204,
+     "name": "Apothicaire Zinge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9078,
+     "name": "Ombremage Vivian Lagrave"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "horde",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4788": {
+   "id": 4788,
+   "name": "Les dernières tablettes",
+   "objectives": "Apporter la cinquième et la sixième Tablette Mosh'aru au Prospecteur Ironboot à Tanaris.",
+   "description": "Pendant que je consulte la troisième et la quatrième tablette Mosh'aru, il faut que vous trouviez la cinquième et la sixième ! Cela ne sera pas facile, car elles se trouvent entre les mains des trolls Smolderthorn, au pic Blackrock.Ce pic est une sombre montagne de feu située entre les Steppes ardentes et la gorge des Vents brûlants.\n\nBonne chance, <nom>. Le pic Blackrock est un endroit malfamé...",
+   "progress": "Avez-vous été au pic, <nom> ? Avez-vous les cinquième et sixième tablettes ?",
+   "completion": "Incroyable ! Vous les avez trouvées ! Vous êtes un vrai héros, <nom> !\n\nD'ailleurs, c'est une bonne chose, car d'après ce que j'ai déchiffré des tablettes que vous m'aviez apportées… Il nous faudra un vrai héros pour arrêter ce qui arrive. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10460,
+     "name": "Prospecteur Ironboot"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10460,
+     "name": "Prospecteur Ironboot"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 58,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 7750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4862": {
+   "id": 4862,
+   "name": "Mauvais",
+   "objectives": "Aller au Pic Blackrock et ramasser 15 Oeuf d'araignée du pic pour Kibler.\n\nCes oeufs peuvent être trouvés à proximité des araignées.",
+   "description": "Croyez-moi, il y a des gens qui sont prêts à payer pour s’offrir la moindre bête domestiquée !\n\nJ’aurais bien envoyé Bijou dans le Pic pour qu’elle collecte quelques-uns de ces oeufs d’araignées mais je n’ai pas de nouvelles d’elle depuis des semaines. Peut-être pourriez-vous m’aider ?\n\nJe vais vous dire, <nom>, allez au pic Blackrock et collectez des Oeufs d’araignée du pic. Si vous m’en rapportez, je vous donnerai non seulement un peu d’argent mais j’en domestiquerai une pour vous !",
+   "progress": "Ce sont les oeufs d'araignée ou êtes-vous simplement heureux de me voir ?",
+   "completion": "Quel chargement ! Sans blague, regardez-moi tous ces oeufs ! Cela devrait rapporter un peu d'or.\n\nComme promis, voilà votre petite créature personnelle. Attention à ne pas vous faire mordre !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10260,
+     "name": "Kibler"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10260,
+     "name": "Kibler"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 59,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 6400,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4866": {
+   "id": 4866,
+   "name": "Le lait matriarcal",
+   "objectives": "Vous trouverez la Matriarche Couveuse au coeur du pic Blackrock. Attaquez-la et poussez-la à vous empoisonner. Vous devrez sans doute la tuer. Une fois <empoisonné/empoisonnée>, trouvez John le Loqueteux afin qu'il puisse prélever un échantillon.",
+   "description": "C’est sans doute l’un des poisons les plus violents du monde, <nom> !\n\nJ’ai entendu les Blackrock parler de sa toxicité lors de ma virée au pic. Ils l’appellent “le lait matriarcal”, en référence à la Matriarche couveuse, la grande araignée de la grotte de Toile-grouillante.\n\nVoici ce que j’aimerais que vous m’apportiez : un échantillon actif de ce lait, coulant dans VOS PROPRES veines. En effet, la glande à venin ne sera pas suffisante. Il faut que vous la poussiez à vous piquer et que vous reveniez me voir !\n\nPuis... je vous trairai comme une vache !\n\n<Il se frotte les mains avec délectation.>",
+   "progress": "<John le Loqueteux vous pince. >",
+   "completion": "Ça donnera la meilleure bière jamais vue !\n\nEh, qu'est-ce que vous croyez que j'allais en faire ? Du poison ou autre chose ?\n\nSatanés gamins. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9563,
+     "name": "John le Loqueteux"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9563,
+     "name": "John le Loqueteux"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 9950,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Il se frotte les mains avec délectation.",
+    "empoisonné/empoisonnée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4867": {
+   "id": 4867,
+   "name": "Urok Hurleruine",
+   "objectives": "Lire le Parchemin de Warosh. Apporter le Mojo de Warosh à Warosh.",
+   "description": "Ahhh ! C'est si dur de parler !\n\nPrenez cette note ! Allez me chercher mon mojo !",
+   "progress": "Ah ! Vous avez mon mojo ?",
+   "completion": "Aha ! Je sens déjà mes pouvoirs me revenir. Et mon esprit n'est plus brisé par la malédiction d'Urok.\n\nMerci, <nom> ! Je suis fier, mais je dois reconnaître votre aide précieuse.\n\nEt je vous souhaite chance et prospérité pour votre voyage par le pic Blackrock. Vous êtes fou de penser pouvoir en atteindre le sommet, mais je rends grâce à votre courage.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10799,
+     "name": "Warosh"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10799,
+     "name": "Warosh"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4903": {
+   "id": 4903,
+   "name": "Ordre du chef de guerre",
+   "objectives": "Tuer le généralissime Omokk, le maître de guerre Voone et le seigneur Wyrmthalak. Récupérer les Importants documents Blackrock. Retourner voir le chef de guerre Goretooth à Kargath une fois la mission accomplie.",
+   "description": "Sur ordre du chef de guerre Goretooth, les résidents suivants du pic Blackrock doivent être détruits :\n\nLe généralissime Omokk, nuisance obèse.\n\nLe maître de guerre Voone, troll cruel et impitoyable.\n\nLe seigneur Wyrmthalak, maître de la cité basse.\n\nVous devrez aussi rapporter tous les documents que vous pourriez trouver.\n\nSi vous réussissez, les honneurs vous reviendront.\n\nÉchouez, et votre nom tombera dans l’oubli.",
+   "progress": "<Le chef de guerre Goretooth salue. >",
+   "completion": "<La peau verte du chef de guerre Goretooth vire au blanc terreux pendant un bref moment. >",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9077,
+     "name": "Chef de guerre Goretooth"
+    },
+    {
+     "type": "item",
+     "id": 12563,
+     "name": "Warlord Goretooth's Command"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9077,
+     "name": "Chef de guerre Goretooth"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 8300,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4907": {
+   "id": 4907,
+   "name": "Tinkee Steamboil",
+   "objectives": "Parler à Tinkee Steamboil.",
+   "description": "Salut, <nom>. Vous vous rappelez de Tinkee Steamboil ? Elle, elle se souvient de vous ! Elle me fait vous dire qu’elle a encore besoin de votre aide. Je pense que c’est en rapport avec ses études sur les dragons.\n\nAllez lui parler dans les Steppes ardentes, à la Corniche des flammes.",
+   "progress": null,
+   "completion": "Felnok avait raison ! J'ai besoin de votre aide à nouveau, et cette fois. . . Ça sera vraiment dangereux.\n\nÊtes-vous prêt ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10468,
+     "name": "Felnok Steelspring"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10267,
+     "name": "Tinkee Steamboil"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "both",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4974": {
+   "id": 4974,
+   "name": "Pour la Horde !",
+   "objectives": "Aller au Pic Blackrock et tuer le Chef de guerre, Rend Blackhand. Prendre sa tête et retourner à Orgrimmar.",
+   "description": "Rend ose prononcer de telles revendications parce qu’il sait qu’il est sous la protection des dragons noirs.\n\nVous, <nom>, trouverez un moyen de traverser les Halls de l’Ascension. Après vous trouverez le ‘Chef de guerre' Rend Blackhand et vous le détruirez - AU NOM DE LA HORDE !\n\n<Thrall abat son poing sur le trône.>\n\nLa prochaine fois que vous viendrez dans mon domaine, vous porterez sa tête, comme trophée, et la présenterez à votre Chef de guerre. Faites cela et soyez <honoré/honorée> comme <héros/héroïne> de la Horde.",
+   "progress": "<Thrall grogne.>",
+   "completion": "Vous avez porté un coup fatal aux forces de Blackrock, <nom>. Leur Chef de guerre mort, la légion Blackrock est une fois de plus plongée dans le chaos.\n\nPour honorer vos efforts héroïques, le peuple de Kalimdor sera récompensé !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4949,
+     "name": "Thrall"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4949,
+     "name": "Thrall"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 9950,
+   "money": 27000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Thrall abat son poing sur le trône.",
+    "honoré/honorée",
+    "héros/héroïne",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4981": {
+   "id": 4981,
+   "name": "Agent Bijou",
+   "objectives": "Aller au Pic Blackrock et découvrir ce qui est arrivé à Bijou.",
+   "description": "Et voilà ce qui arrive quand on fait confiance à un gobelin <nom>.\n\nElle s’appelle Bijou ; l’un de nos agents les plus insaisissables. J’ai trouvé qu’elle travaillait pour quelque louche et exotique vendeur de familiers, à l’extérieur des Steppes ardentes, répondant au nom de Kibler. Ce qui est encore pire, c’est qu’elle utilisait les fonds de la Horde pour financer ses opérations.\n\nJe veux qu’elle soit amenée ici, vivante.\n\nLa dernière fois qu’on l’a vue, elle était au pic Blackrock. Retrouvez-la et ramenez-la.\n\nEt, <nom>, ne lui donnez pas l’opportunité de vous chanter de douces paroles.",
+   "progress": null,
+   "completion": "Je ne vous mentirai pas, <nom>. J'avais besoin d'argent ! Kibler paie très, très bien ; bien mieux que le K. E. F. ne le pourra jamais.\n\nMais ne doutez pas de ma loyauté ! Pourquoi pensez-vous que je suis ici ? Pour fournir à ce gobelin délirant des oeufs d'animaux exotiques ou quelque chose du genre ? Non, seul un fou viendrait au pic Blackrock pour collecter des familiers. Oui, mais je ne pense pas que les personnes de ce genre soient nombreuses en ce bas monde.\n\nLa dernière chose dont nous avons besoin, c'est bien d'eux.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9080,
+     "name": "Lexlort"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10257,
+     "name": "Bijou"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 59,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 6400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4982": {
+   "id": 4982,
+   "name": "Les effets de Bijou",
+   "objectives": "Trouver les Affaires de Bijou et les lui rapporter. Elle vous a dit les avoir cachées dans le niveau inférieur de la ville.",
+   "description": "La nuit, quand la garde de cet endroit se relâche, je rôde autour de la ville, prenant des notes et écrivant toute observation qui pourrait avoir un intérêt stratégique pour le K.E.F.\n\nCependant, la nuit dernière, les choses ont très mal tourné. J’ai trébuché sur le fil d’un système d’alarme et ai déclenché l’alerte. J’ai dissimulé mon équipement de reconnaissance et ai trouvé une cachette ! Malheureusement, je ne puis retourner récupérer cet équipement. Ils ont triplé la fréquence des patrouilles ! Toutes ces informations sont perdues.\n\nRapportez-moi mes affaires que je puisse retourner au K.E.F., l’âme en paix.",
+   "progress": "Alors ?",
+   "completion": "Vous avez réussi ! Une fois que Lexlort aura ces plans, Il oubliera toutes les vilaines choses qu'il voulait m'infliger.\n\n<nom>, vous êtes mon héros !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10257,
+     "name": "Bijou"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10257,
+     "name": "Bijou"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 59,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 6400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4983": {
+   "id": 4983,
+   "name": "Rapport de reconnaissance de Bijou",
+   "objectives": "Rapporter le Rapport de reconnaissance de Bijou au Grand-maître Lexlort, à Kargath.",
+   "description": "Portez ce rapport à Lexlort. Cela rachètera mes erreurs et donnera des informations stratégiques au K.E.F., lesquelles les avantageront dans leur lutte contre les orcs.\n\nVenir avec vous ? J’ai beaucoup trop de travail à faire. Partez, ils ont besoin de ce rapport aussi vite que possible !",
+   "progress": "Où est le gobelin ?",
+   "completion": "Je dois le lui donner ; elle a réussi à se sortir d'une autre situation délicate ! Ces rapports vont s'avérer inestimables dans notre affrontement avec les orcs de Blackrock.\n\nBien sûr, vous serez récompensé pour ce travail.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10257,
+     "name": "Bijou"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9080,
+     "name": "Lexlort"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 59,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 6400,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5001": {
+   "id": 5001,
+   "name": "Les effets de Bijou",
+   "objectives": "Retrouver les Affaires de Bijou et les lui rapporter. Bonne chance !",
+   "description": "D’ordinaire, je ne traite pas avec les gens de votre race, <race>, mais il semble que je sois acculé à cette extrémité. Ma mission, voyez-vous, est de la plus haute importance pour la Horde. L’information que j’ai découverte peut intéresser cependant également l’Alliance. Pourtant, croyez-moi, je ne suis pas un partisan de l’Alliance. La menace Blackrock est cependant autrement plus grave que celle d'une simple bande d’orcs.\n\nAidez-moi à retrouver mes affaires et je vous donnerai des informations qui pourront vous servir, ainsi qu’à ceux de votre espèce.\n\nÇa vous va ?",
+   "progress": "Alors ?",
+   "completion": "Bien, j'en suis ! Où sont-ils ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10257,
+     "name": "Bijou"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10257,
+     "name": "Bijou"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 59,
+   "reqlevel": 55,
+   "side": "alliance",
+   "xp": 6400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "race"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5002": {
+   "id": 5002,
+   "name": "Message à Maxwell",
+   "objectives": "Se rendre dans les Steppes ardentes et confier les Renseignements de Bijou au maréchal Maxwell.",
+   "description": "Je suis un gobelin de parole, <nom>. À présent, écoutez attentivement :\n\nCes orcs sont avant tout utilisés comme bêtes de somme et comme chair à canon par les dragons noirs !\n\nLeur véritable chef n'est autre que Nefarian, rejeton de l'Aile de mort. J'ai également découvert la localisation des subordonnés de Nefarian dans cette partie de la citadelle.\n\nApportez cette carte au maréchal Maxwell dans les Steppes ardentes. J'y ai marqué la localisation de ces monstres afin qu'on puisse les trouver facilement.",
+   "progress": "Ah, <nom>. Ça faisait longtemps.",
+   "completion": "Cela coïncide dans les grandes lignes avec ce que nous savions déjà. Toutefois, c'est une information intéressante et assez négative.\n\nLes indications sur cette carte nous seront utiles pour réduire la menace Blackrock.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10257,
+     "name": "Bijou"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9560,
+     "name": "Maréchal Maxwell"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 59,
+   "reqlevel": 55,
+   "side": "alliance",
+   "xp": 6400,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5047": {
+   "id": 5047,
+   "name": "Pépin Preste-Jugeote, à votre service !",
+   "objectives": "Parler à Malyfous Darkhammer à Long-guet.",
+   "description": "Vous trouverez Malyfous Darkhammer à Long-guet, <classe>. Dites-lui que \"Finkle est très content\" et que la tenue marche parfaitement.\n\nPuis donnez-lui ceci :\n\n<Finkle vous tend un morceau de chair rouge.>\n\nC'est un bout d'entrailles que j'ai arraché à une bête pendant mes \"vacances\".\n\nJe parie que Malyfous pourrait vous donner une idée précise de ce qu'il pourrait faire avec un morceau de bête comme celle-la !\n\nOh, mais vous ne savez peut-être pas où est Long-guet ? Direction le Berceau-de-l'Hiver, <mon bon monsieur/ma bonne dame> !",
+   "progress": "Ouais ?",
+   "completion": "Vivant ? Et la tenue a fonctionné ? Et qu'avons-nous là ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10776,
+     "name": "Pépin Preste-Jugeote"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10637,
+     "name": "Malyfous Darkhammer"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "mon bon monsieur/ma bonne dame"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5081": {
+   "id": 5081,
+   "name": "Mission de Maxwell",
+   "objectives": "Se rendre au Pic Blackrock et tuer le maître de guerre Voone, le généralissime Omokk, et le seigneur Wyrmthalak. Retourner auprès du maréchal Maxwell quand la tâche a été accomplie.",
+   "description": "Cette information complète ce que nous savons déjà du pic Blackrock.\n\nL'attaque doit être décisive, <nom>.\n\nTout d'abord, leur maître de guerre, le troll Voone, doit être anéanti. Sans ses plans de bataille, le chaos règnera dans les rangs des orcs Blackrock.\n\nVous devez ensuite éliminer le généralissime ogre Omokk. Les ogres de Blackrock deviennent lâches sans leur chef.\n\nEnfin, le Seigneur de la citadelle, Wyrmthalak ! Une fois Wyrmthalak mort, leur unité centrale de commandement n'a plus de leader.",
+   "progress": "Statut?",
+   "completion": "Excellent travail, <nom> ! Au minimum, vous nous avez gagné du temps supplémentaire - un temps très, très précieux.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9560,
+     "name": "Maréchal Maxwell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9560,
+     "name": "Maréchal Maxwell"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "alliance",
+   "xp": 8300,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5089": {
+   "id": 5089,
+   "name": "Ordres du général Drakkisath",
+   "objectives": "Remettre les Ordres du général Drakkisath au maréchal Maxwell dans les Steppes ardentes.",
+   "description": "Vous découvrez sur le corps du serpent vaincu ce qui se révèle une note de quelque importance : une lettre de son supérieur, le général Drakkisath, à propos du protocole.\n\nVotre instinct vous conseille de l'apporter au maréchal Maxwell.",
+   "progress": "Qu'avez-vous là, <nom> ?",
+   "completion": "Le mystère s'épaissit…",
+   "starters": [
+    {
+     "type": "item",
+     "id": 12780,
+     "name": "General Drakkisath's Command"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9560,
+     "name": "Maréchal Maxwell"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5102": {
+   "id": 5102,
+   "name": "La reddition du général Drakkisath",
+   "objectives": "Rendez-vous au Pic Blackrock et tuez le général Drakkisath, puis retournez voir le maréchal Maxwell.",
+   "description": "Nous nous battons contre ces créatures sur deux fronts : de notre capitale, Stormwind, nous les pourchassons et sur les Steppes ardentes, nous frappons sur leur territoire. Nous devons rester vigilants, <nom>. Aucun d'eux ne sera épargné, tout comme ils furent sans pitié à l'égard de nos familles.\n\nTrouvez ce général Drakkisath et tuez-le !\n\nCette tâche n'a rien de facile mais la récompense sera à la hauteur.",
+   "progress": "C'est fini?",
+   "completion": "A coup sûr, notre prochaine cible sera leurs seigneurs-dragons. Bravo, brave soldat de l'Alliance ! Bien joué, vraiment.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9560,
+     "name": "Maréchal Maxwell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9560,
+     "name": "Maréchal Maxwell"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "alliance",
+   "xp": 9950,
+   "money": 27000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5127": {
+   "id": 5127,
+   "name": "La forge démoniaque",
+   "objectives": "Se rendre au pic Blackrock et trouver Goraluk Anvilcrack. Le tuer puis utiliser la Pique tachée de sang sur son cadavre. Après avoir siphonné son âme, la pique sera devenue Tachée d'âme.\n\nTrouver aussi la Cuirasse couverte de runes inachevée.\n\nRapporter la Pique tachée d'âme et la Cuirasse couverte de runes inachevée à Lorax au Berceau-de-l'Hiver.",
+   "description": "Lorax conclut des accords, il ne les accepte pas de <mortels insignifiants/mortelles insignifiantes>.\n\nMais je vais tout de même conclure un accord avec vous… Prenez cette pique, elle est imprégnée de puissantes énergies corrompues. Lorsque vous trouverez Goraluk Anvilcrack, tuez-le et transpercez son coeur agonisant avec cette pique. Il a marchandé son âme, et c'est son âme que j'aurai. Rapportez-moi la pique et la cuirasse que ce voleur m'a dérobé et je vous enseignerai ce qu'il était supposé apprendre.",
+   "progress": "Ne tentez pas…",
+   "completion": "Notre pacte, vous n'avez pas brisé. L'âme, je l'ai prise. La récompense, je la donnerai.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10918,
+     "name": "Lorax"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10918,
+     "name": "Lorax"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5160": {
+   "id": 5160,
+   "name": "Le Protectorat de la matrone",
+   "objectives": "Aller jusqu’au Berceau-de-l'Hiver et trouver Haleh. Lui donner l’Ecaille d'Awbee.",
+   "description": "Allez jusqu'à Kalimdor, <race>. Notre vol vous fera oublier que nous allons survoler les paysages désolés du Berceau-de-l'Hiver. Lorsque vous aurez atteint le Berceau-de-l'Hiver, trouvez les grottes de Mazthoril.\n\nSur le sol glacé de Mazthoril, vous trouverez des runes de cobalt. Prenez l'une de mes écailles et tenez-vous sur une rune pour être transporté auprès d'Haleh, notre grande protectrice.\n\nDonnez-lui l'écaille afin qu'elle puisse, par des moyens divinatoires, voir et ressentir ce que j'ai pu vivre dans cet endroit maudit.",
+   "progress": "C'est bon de vous voir, <nom>.",
+   "completion": "Les Aspects insistent pour que nous n'intervenions pas dans les affaires des mortels. Dans ce monde pourtant cela n'est pas toujours le cas, spécialement lorsque l'un des nôtres méprise de telles règles.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10740,
+     "name": "Awbee"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10929,
+     "name": "Haleh"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "race"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6502": {
+   "id": 6502,
+   "name": "Amulette drakefeu",
+   "objectives": "Récupérer le Sang du Champion des dragons noirs sur le général Drakkisath. Il se trouve dans sa salle du trône, derrière les Halls d'Ascension, sur le Pic Blackrock.",
+   "description": "Ceci est une partie du dragon, une écaille, enchantée et transformée. Intacte, elle aurait pu permettre l’accès au repaire de la bête. Brisée, elle est inutile.\n\nIl est possible de la réparer, mais cette opération nécessite le sang d’un Champion des dragons noirs. Il y en a un… Il est connu sous le nom de général Drakkisath, chef des armées draconides de Nefarian. Peut-être avez-vous entendu parler de lui ?\n\nRevenez avec son sang, <nom>, et j’enchanterai le fragment en un objet qui offrira l’accès au repaire d'Onyxia.",
+   "progress": "Le flux du temps ne s'arrête pas et ne ralentit pas, <nom>. Alors que ma vie est éternelle, la vôtre ne l'est pas. Ne gâchez pas le temps qui vous est imparti. . .",
+   "completion": "Cette amulette vous fournira l'accès que vous cherchiez. Le repaire d'Onyxia se trouve dans la baie d'Âprefange. Tant que vous tenez l'amulette ses gardiens ne peuvent pas vous empêcher d’entrer.\n\nLe Vol bleu vous souhaite bonne chance, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10929,
+     "name": "Haleh"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10929,
+     "name": "Haleh"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6569": {
+   "id": 6569,
+   "name": "Illusions d'Occulus",
+   "objectives": "Aller au Pic Blackrock et collecter 20 Yeux de draconide noir. Retourner voir Myranda la Mégère, quand la tâche sera terminée.",
+   "description": "Ainsi le <race> souhaite devenir membre du Vol noir, hein ?\n\nLa création de l'illusion que vous exigez est insignifiante, mais les composants requis pour la divination sont très difficiles à obtenir. Rexxar et le Chef de guerre vous ont confié cette mission, donc Myranda doit penser que vous en êtes capable.\n\nAllez à la citadelle supérieure du Pic Blackrock et tuez assez de draconides noirs pour remplir l'un de vos sacs de leurs yeux.\n\nRetournez voir Myranda quand vous aurez ramassé suffisamment de réactifs.",
+   "progress": "Les yeux de ce que nous voulons imiter est la partie le plus important de toute illusion, <nom>.",
+   "completion": "Laissez Myranda jeter un œil, <nom>.\n\nOh oui, ceux-ci feront parfaitement l'affaire.\n\nAvec ces réactifs, Myranda va créer pour vous un médaillon qui vous fournira une illusion capable de tromper le portier des dragons noirs.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11872,
+     "name": "Myranda la Mégère"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11872,
+     "name": "Myranda la Mégère"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "race"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6602": {
+   "id": 6602,
+   "name": "Le sang du champion des dragons noirs",
+   "objectives": "Aller au Pic Blackrock, et tuer le général Drakkisath. Récupérer son sang et retourner voir Rexxar.",
+   "description": "Vous irez rendre visite au général, mais pas en tant que dragon noir.\n\nVous voyez, une cérémonie n'est qu'un autre terme pour permettre de verser du sang au Vol noir.\n\nL'amulette inachevée a simplement besoin du sang du général pour s’activer. Un de leurs mécanismes à sûreté intégrée.\n\nRetournez au pic Blackrock et détruisez Drakkisath. Rapportez son sang ici et j'activerai la clé du repaire d'Onyxia.",
+   "progress": "On ne doit pas traiter à la légère Drakkisath, <nom>. Il est responsable de la mort de milliers de personnes.",
+   "completion": "<Rexxar a un rictus. >\n\nLe récit de vos exploits sera conté pendant les années à venir, <nom>. Cette Amulette drakefeu est la clé du repaire d'Onyxia. Rassemblez vos forces et partez en campagne au nom de la Horde !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10182,
+     "name": "Rexxar"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10182,
+     "name": "Rexxar"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7761": {
+   "id": 7761,
+   "name": "Les ordres de Blackhand",
+   "objectives": "Cet orc est stupide. Il semble que vous deviez trouver un moyen d’obtenir la Marque de Drakkisath pour accéder à l’Orbe de commandement.\n\nD’après la lettre, la Marque est gardée par le général Drakkisath. Vous devriez peut-être enquêter.",
+   "description": "Imbécile,\n\nJe n’ai aucune confiance dans votre capacité à empêcher les intrus de pénétrer dans le repaire du maître. Dans l’éventualité très probable de votre décès, cet orbe comporte une sécurité incorporée, destinée à empêcher les intrus de se téléporter directement dans le repaire de l'Aile noire.\n\nSeuls ceux qui portent dans leur chair la Marque de Drakkisath peuvent s’en servir. Et heureusement, Drakkisath n’est pas aussi incompétent que vous. Il garde la marque lui-même !\n\nChef de guerre Rend Blackhand.\n\nP.S. : Détruisez cette lettre, idiot.",
+   "progress": null,
+   "completion": "Le fer incandescent est pressé contre votre chair, mais vous ne cillez même pas. Vous êtes coriace !\n\nVous êtes à présent porteur de la Marque de Drakkistah. Amusez-vous bien à piller le château.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 18987,
+     "name": "Blackhand's Command"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 179880,
+     "name": "Drakkisath's Brand"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8966": {
+   "id": 8966,
+   "name": "Le morceau gauche de l'amulette du seigneur Valthalak",
+   "objectives": "Utilisez le Brasero de signal pour invoquer l’esprit de Mor Sabot-gris, puis tuez-le. Ensuite, retournez voir Bodley à l'intérieur du mont Rochenoire avec le Morceau gauche de l'amulette du seigneur Valthalak et le Brasero de signal.",
+   "description": "Mon ami, Mor Grayhoof, a été le premier à être possédé par un morceau de l'amulette du seigneur Valthalak, la première victime du fragment d'esprit corrupteur qu'elle renferme. Après avoir dérobé l'amulette et le livre de sorts du seigneur Valthalak, nous avons fui le sommet du pic Blackrock pour sauver nos vies. Mor s'est égaré et est tombé dans les profondeurs du pic.\n\nPar la suite, nous avons découvert qu'il avait survécu à sa chute, mais qu'il avait été capturé et torturé par le maître de guerre Voone. Quelques assassins spectraux se sont faufilés dans les profondeurs et l'ont tué sous les yeux de Voone.",
+   "progress": "Est-ce fait ? Avez-vous retrouvé le Morceau gauche de l’amulette du seigneur Valthalak et apporté le repos à l’esprit de mon vieux compagnon, Mor Grayhoof ?",
+   "completion": "Vous avez accompli un grand exploit, <nom>. Un esprit repose en paix, mais il nous reste beaucoup à faire avant que nous ne puissions oublier tout cela.\n\nMalheureusement, je ne sais pas où se trouvait le possesseur du morceau droit de l’amulette lorsqu’il est mort. Mais n’ayez pas peur. De mon vivant, je m’intéressais à la divination. J’ai une autre tâche pour vous, qui nous permettra de découvrir où se trouve le dernier morceau.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8989": {
+   "id": 8989,
+   "name": "Le morceau droit de l'amulette du seigneur Valthalak",
+   "objectives": "Utilisez le Brasero de signal pour invoquer l’esprit de Mor Sabot-gris, puis tuez-le. Ensuite, retournez voir Bodley, à l'intérieur du mont Rochenoire, avec l’Amulette du seigneur Valthalak reconstituée et le Brasero de signal.",
+   "description": "Mon ami, Mor Grayhoof, a été le premier à être possédé par un morceau de l'amulette du seigneur Valthalak, la première victime du fragment d'esprit corrupteur qu'elle renferme. Après avoir dérobé l'amulette et le livre de sorts du seigneur Valthalak, nous avons fui le sommet du pic Blackrock pour sauver nos vies. Mor s'est égaré et est tombé dans les profondeurs du pic.\n\nPar la suite, nous avons découvert qu'il avait survécu à sa chute, mais qu'il avait été capturé et torturé par le maître de guerre Voone. Quelques assassins spectraux se sont faufilés dans les profondeurs et l'ont tué sous les yeux de Voone.",
+   "progress": "Alors, c'est fait ? Vous avez récupéré le bon morceau de l'amulette de Lord Valthalak, recombiné l'amulette en un tout, et enfin mis au repos l'esprit de mon ancien compagnon, Mor Grayhoof ?",
+   "completion": "Merci d'avoir aidé Mor Grayhoof, <nom>. Un autre esprit repose en paix, et nous avons maintenant l'amulette reconstituée ! Mais l'épreuve la plus difficile nous attend.\n\nPour que le brasero soit en mesure d'appeler le seigneur Valthalak, il faut encore rassembler quelques objets et me les rapporter ici.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8995": {
+   "id": 8995,
+   "name": "Mea culpa, seigneur Valthalak",
+   "objectives": "Utilisez le Brasero de signal pour invoquer le seigneur Valthalak. Tuez-le, puis utilisez l’Amulette du seigneur Valthalak sur le corps. Ensuite, rendez l’amulette à l’Esprit du seigneur Valthalak.",
+   "description": "Tout est prêt, <nom>.\n\nLes appartements du seigneur Valthalak se trouvaient dans ce qui est devenu depuis la chambre de la Bête. Allez-y et servez-vous du Brasero de signal pour faire apparaître le seigneur Valthalak. Lorsqu’il redeviendra matériel, vous devrez le tuer une nouvelle fois. Si j’étais vous, je commencerais par m’occuper de la Bête, et je veillerais à emmener assez d’ami pour survivre aux dangers du sommet du pic Rochenoire.\n\nLorsque vous aurez réglé son compte à Valthalak, utilisez l’amulette sur son cadavre. Lorsque son esprit sera réunifié, il voudra probablement la récupérer.\n\nBonne chance !",
+   "progress": "Vous osez troublez mon repos, <classe> !",
+   "completion": "Heureusement pour vous, je sais que vous n’êtes pas l’un de mes voleurs.\n\nÀ présent, je vais reprendre ce qui m’appartient, mortel ! Rendez-moi l’amulette !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16073,
+     "name": "Esprit du seigneur Valthalak"
+    }
+   ],
+   "zone_id": 1583,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

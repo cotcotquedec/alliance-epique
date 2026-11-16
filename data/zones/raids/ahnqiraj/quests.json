@@ -1,0 +1,4534 @@
+{
+ "schema": 1,
+ "zone": "raids/ahnqiraj",
+ "zone_id": 3428,
+ "zone_name": "Ahn'Qiraj",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 79,
+  "complete": 77,
+  "incomplete": 2,
+  "unavailable": 0,
+  "missing_description": 2,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 47
+ },
+ "quests": {
+  "8544": {
+   "id": 8544,
+   "name": "Les spallières de conquérant",
+   "objectives": "Apportez des Manchettes de commandement qiraji, 2 Idoles de la nuit, 5 Scarabées de pierre et 5 Scarabées d’argile à Andorgos, à Ahn’Qiraj. Pour terminer cette quête, la Progéniture de Nozdormu doit au moins être Neutre à votre égard.",
+   "description": "Nous pensons qu'à l'origine, les épaulières ornées que portent les races mortelles étaient une tentative pour imiter les ailes des dragons.\n\nRamenez-moi les manchettes portées par les plus hauts dignitaires qiraji, et je les façonnerai pour en faire des espauliers plus redoutables que les ailes de Nefarian lui-même !",
+   "progress": "Vous êtes-vous procuré les composants dont j’ai besoin ?",
+   "completion": "Grâce aux objets que vous avez ramenés et aux écailles des Qiraji tués, je vous façonne ces espauliers, mortel. Puissent-ils vous octroyer la protection dont vous avez besoin ! Puisse leur vue épouvanter nos ennemis !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8556": {
+   "id": 8556,
+   "name": "Chevalière de force inflexible",
+   "objectives": "Apporter 1 Anneau de magistrat qiraji, 2 Idoles brillantes, 5 Scarabées en bronze et 5 Scarabées d'ivoire à l'imploratrice céleste Yessendra, en Silithus. Vous devrez aussi être <Honoré/Honorée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Les anneaux portés par les lieutenants qiraji accordent, paraît-il, des pouvoirs fantastiques. Les gemmes corrompues qui les ornent pourraient, en théorie, être remplacées par des matériaux plus purs, pour créer des versions non corrompues des anneaux.\n\nLes pierres précieuses qui ornent les idoles qiraji conviendraient assez bien, car elles sont d’une qualité supérieure.\n\nApportez-moi un anneau et des idoles, et je vous créerai un anneau puissant, <classe>.",
+   "progress": "Vous m'avez apporté l'anneau et les matériaux, <nom> ?",
+   "completion": "Je vais changer la pierre qui est sertie sur l’anneau, pour que vous puissiez vous en servir. Vous verrez que ses effets seront bien plus… agréables.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15498,
+     "name": "Imploratrice céleste Yessendra"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15498,
+     "name": "Imploratrice céleste Yessendra"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Honoré/Honorée",
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8557": {
+   "id": 8557,
+   "name": "Drapé de force inflexible",
+   "objectives": "Apporter 1 Drapé martial qiraji, 2 Idoles d'onyx, 5 Scarabées d'argent et 5 Scarabées d'os à Keyl Swiftclaw, en Silithus. Vous devrez aussi être <Révéré/Révérée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Je suis content de voir que vous allez nous aider pour notre offensive en Ahn'Qiraj, <nom>. J’aimerais vous offrir un objet de protection, qui pourra vous servir contre notre ennemi, <classe>.\n\nJ’ai besoin pour cela d’un drapé qiraji, que je retaillerai à vos mesures, bien sûr. J’ai aussi besoin d’idoles et de scarabées dont je me servirai pour fabriquer le fermoir.\n\nJe vous promets que vous ne serez pas <déçu/déçue>.",
+   "progress": "Vous avez apporté les matériaux pour la cape, <nom> ?",
+   "completion": "Ah, oui… Ce drapé est impeccable.\n\nPrenez cette cape, <nom>. Je suis certain que vous la trouverez très utile contre les viles magies des Qiraji.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15500,
+     "name": "Keyl Swiftclaw"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15500,
+     "name": "Keyl Swiftclaw"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Révéré/Révérée",
+    "classe",
+    "déçu/déçue",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8558": {
+   "id": 8558,
+   "name": "La faucille de force inflexible",
+   "objectives": "Apporter 1 Manche à pointes qiraji, 2 Idoles d'albâtre, 5 Scarabées de cristal et 5 Scarabées de pierre au Gardien Haro, en Silithus. Vous devrez aussi être <Exalté/Exaltée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Les Qiraji et leurs serviteurs manient des objets façonnés dans les matériaux les plus rares et les plus luxueux : des os de créatures anciennes gargantuesques, des pierres précieuses extraites des profondeurs de la terre, des métaux purs et résistants.\n\nLa simple vue d'artefacts qiraji me donne une envie folle de pratiquer mon art en utilisant leurs pièces brisées ou fondues. Si vous prouvez votre allégeance au Cercle, <nom>, je vous fabriquerai une arme puissante dans les matériaux qiraji les plus fins.",
+   "progress": "M'avez-vous apporté les composants dont j'ai besoin, <nom> ?",
+   "completion": "Vous vous êtes bien débrouillé, <classe>. Ce manche est un véritable chef-d’œuvre… L’équilibrage est parfait.\n\nPrenez votre arme, <nom>. Maniez-la avec assurance et triomphez de nos ennemis !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15499,
+     "name": "Gardien Haro"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15499,
+     "name": "Gardien Haro"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Exalté/Exaltée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8559": {
+   "id": 8559,
+   "name": "Les grèves de conquérant",
+   "objectives": "Apportez des Manchettes de commandement qiraji, 2 Idoles de la guerre, 5 Scarabées d’ivoire et 5 Scarabées d’or à Kandrostrasz, à Ahn'Qiraj. Il faut aussi que la Progéniture de Nozdormu soit au moins Neutre à votre égard.",
+   "description": "La magie qiraji est puissante et ancienne. Les Qiraji les plus redoutables manient des objets si terribles qu'ils feraient hésiter un dragon. Si vous me ramenez des manchettes de commandement qiraji et quelques autres composants mineurs, je vous fabriquerai des bottes exceptionnelles.\n\nVous les trouverez utiles pour affronter l'ennemi.",
+   "progress": "Vous êtes-vous procuré les articles que j'ai demandés, <nom> ?",
+   "completion": "C’est bien, <nom>. Vous avez prouvé que vous n’êtes pas un mortel ordinaire.\n\nJe vous remets ce don avec la certitude qu’il vous aidera à écraser ces vils Qiraji.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8560": {
+   "id": 8560,
+   "name": "Les garde-jambes de conquérant",
+   "objectives": "Ramener la Peau intacte d’Ouro, 2 Idoles de la mort, 5 Scarabées en bronze et 5 Scarabées d’ivoire à Kandrostrasz, à l’intérieur d’Ahn'Qiraj. Pour terminer cette quête, il faut également que la Progéniture de Nozdormu soit au moins Amicale à votre égard.",
+   "description": "Vous souhaitez prouver votre valeur aux yeux de mon espèce, <mortel/mortelle> ? Très bien, peut-être pouvons-nous nous aider mutuellement.\n\nIl existe un très ancien ver des sables d'une puissance légendaire, nommé Ouro. On dit qu'il a été créé par les Dieux très anciens eux-mêmes pour parodier la vie.\n\nSa peau n'a rien de naturel… épaisse et presque impossible à transpercer, mais souple et lui permettant de se déplacer aussi vite et gracieusement que des créatures beaucoup plus petites.\n\nRamenez-moi un échantillon de cette peau et quelques autres composants mineurs, et je vous fabriquerai des jambières d'un grand pouvoir.",
+   "progress": "Avez-vous apporté les composants dont j'ai besoin, <nom> ?",
+   "completion": "Oui... La peau du ver fera une excellente couche protectrice. Combinée aux pièces les plus résistantes des Qiraji que nous avons détruits en chemin, elle devrait constituer une armure redoutable. Puisse-t-elle vous aider à affronter les horreurs indicibles qui vous attendent à l'intérieur !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mortel/mortelle"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8561": {
+   "id": 8561,
+   "name": "La couronne de conquérant",
+   "objectives": "Apportez le Diadème de Vek’nilash, 2 Idoles du soleil, 5 Scarabées de pierre et 5 Scarabées de cristal à Andorgos, à Ahn’Qiraj. Pour terminer cette quête, il faut également que la Progéniture de Nozdormu soit au moins Amicale à votre égard.",
+   "description": "Les Empereurs jumeaux… Leurs murmures incessants usent peu à peu ma santé mentale. Ils se moquent de moi. Ils savent que je ne peux pas pénétrer plus avant dans leur domaine pour sauver mon frère Arygos.\n\nDans mes visions, leurs visages monstrueux sont surmontés d'impressionnantes couronnes. Mais j'aurai ma revanche… Je transformerai ces symboles de la puissance des Qiraji en quelque chose de plus adapté à notre lutte.\n\nRamenez-moi les composants dont j'ai besoin, <nom>, et je vous donnerai une coiffure sans égale.",
+   "progress": "M’avez-vous ramené les composants demandés, <nom> ?",
+   "completion": "Vous avez réussi ! Les murmures des Empereurs jumeaux ont cessé.\n\nPrenez cette récompense. Sa seule vue sèmera l’épouvante au cœur des Qiraji… Elle leur rappellera leurs défunts chefs et lemortel qui les a tués.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8562": {
+   "id": 8562,
+   "name": "La cuirasse de conquérant",
+   "objectives": "Apportez la Carapace du Dieu très ancien, 2 Idoles de la guerre, 5 Scarabées d’argent et 5 Scarabées d’os à Vethsera, à l’intérieur d’Ahn’Qiraj. Pour terminer cette quête, vous devez être <Honoré/Honorée> par la Progéniture de Nozdormu.",
+   "description": "L'indicible Dieu très ancien se réveille lentement de son sommeil sous Ahn'Qiraj. Le destin atroce qui attend Azeroth peut s'abattre sur nous dans des jours, ou des années, car le temps n'a pas vraiment de sens pour lui.\n\nMais lorsque les étoiles seront propices, il se déchaînera, et son effroyable courroux s'abattra sur toutes les créatures vivants. Trouvez-le avant qu'il ne soit trop tard, et mettez un terme à son existence, d'une manière ou d'une autre.\n\nSi vous y parvenez, ramenez-moi un morceau de sa carcasse, et je vous en ferai une armure qui n'a encore jamais été portée par aucun mortel… une armure digne <d'un tueur/d'une tueuse> de dieu !",
+   "progress": "Dans sa demeure d’Ahn’Qiraj, le terrible C’Thun rêve et attend.",
+   "completion": "Je ne m’attendais pas à vous voir revenir, <nom>.\n\nVous avez une destinée supérieure à celle de la plupart des immortels.\n\nEn tuant C’Thun, vous avez sauvé Azeroth, et vous avez fait pencher les plateaux de la balance dans des événements cosmiques qui dépassent votre compréhension.\n\nAcceptez cette cuirasse comme symbole de la gloire et du fardeau qu’engendrent vos actes.\n\nPuisse son pouvoir vous aider dans les défis qui vous attendent, tueur de dieu !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15504,
+     "name": "Vethsera"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15504,
+     "name": "Vethsera"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Honoré/Honorée",
+    "d'un tueur/d'une tueuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8579": {
+   "id": 8579,
+   "name": "Champions mortels",
+   "objectives": null,
+   "description": null,
+   "progress": "Nous sentons la présence de nos frères asservis loin dans les profondeurs d’Ahn’Qiraj, mais une armée de dragons ne suffirait pas à les sauver, <race>.\n\nSi nous nous rapprochons d’eux, le sort qui les lie nous jetterait également dans les griffes de C’Thun.\n\nLe Dieu très ancien a prévu notre venue. Tout espoir est perdu. Qu'est-ce qu'un simple mortel comme vous pourrait bien y changer ?",
+   "completion": "Je vois que vous n’êtes pas un mortel ordinaire, <nom>. Vous avez une chance de triompher du Dieu très ancien. Elle est infime, soit, mais pour l’heure, elle est meilleure que les nôtres. Il s’attend à voir arriver des dragons. Il ne vous attend pas.\n\nIl y a mille ans, Nozdormu et Staghelm ont vaincu les Qiraji grâce à une alliance entre les dragons et les peuples mortels. Nous allons passer un pacte similaire. Gagnez la confiance du Vol de bronze et vous gagnerez notre confiance. Alors, nous ferons de vous un véritable champion.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "8592": {
+   "id": 8592,
+   "name": "La tiare de l’oracle",
+   "objectives": "Apportez le Diadème de Vek’Nilash, 2 Idoles du sage, 5 Scarabées d'argent et 5 Scarabées d'os à Andorgos, à Ahn’Qiraj. Pour terminer cette quête, il faut également que la Progéniture de Nozdormu soit au moins Amicale à votre égard.",
+   "description": "Les Empereurs jumeaux… Leurs murmures incessants usent peu à peu ma santé mentale. Ils se moquent de moi. Ils savent que je ne peux pas pénétrer plus avant dans leur domaine pour sauver mon frère Arygos.\n\nDans mes visions, leurs visages monstrueux sont surmontés d'impressionnantes couronnes. Mais j'aurai ma revanche… Je transformerai ces symboles de la puissance des Qiraji en quelque chose de plus adapté à notre lutte.\n\nRamenez-moi les composants dont j'ai besoin, <nom>, et je vous donnerai une coiffure sans égale.",
+   "progress": "M'avez-vous apporté les composants que j'ai demandés, <nom> ?",
+   "completion": "Vous avez réussi ! Les chuchotements des Empereurs jumeaux ont cessé.\n\nPrenez ceci comme récompense. La simple vue de cet objet fera naître la peur dans le coeur des Qiraji... il leur rappellera leurs chefs déchus et le mortel qui les a tués.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8593": {
+   "id": 8593,
+   "name": "Le pantalon de l'Oracle",
+   "objectives": "Ramener la Peau du grand ver des sables, 2 Idoles de la renaissance, 5 Scarabées d'or et 5 Scarabées d'argile à Kandrostrasz, à l'intérieur d'Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Amicale à votre égard.",
+   "description": "Vous souhaitez prouver votre valeur aux yeux de mon espèce, <mortel/mortelle> ? Très bien, peut-être pouvons-nous nous aider mutuellement.\n\nIl existe un très ancien ver des sables d’une puissance légendaire, nommé Ouro. On dit qu’il a été créé par les Dieux très anciens eux-mêmes pour parodier la vie.\n\nSa peau n’a rien de naturel… épaisse et presque impossible à transpercer, mais souple et lui permettant de se déplacer aussi vite et gracieusement que des créatures beaucoup plus petites.\n\nRamenez-moi un échantillon de cette peau et quelques autres composants mineurs, et je vous fabriquerai des chausses d’un grand pouvoir.",
+   "progress": "Avez-vous apporté les composants dont j'ai besoin, <nom> ?",
+   "completion": "Oui... La peau du ver fera une excellente couche protectrice. Combinée aux pièces les plus résistantes des Qiraji que nous avons détruits en chemin, elle devrait constituer une armure redoutable. Puisse-t-elle vous aider à affronter les horreurs indicibles qui vous attendent à l'intérieur !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mortel/mortelle"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8594": {
+   "id": 8594,
+   "name": "Le mantelet de l’oracle",
+   "objectives": "Apportez des Manchettes de commandement qiraji, 2 Idoles de la renaissance, 5 Scarabées d'argent et 5 Scarabées d'ivoire à Andorgos, à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Neutre à votre égard.",
+   "description": "Nous pensons qu'à l'origine, les épaulières ornées que portent les races mortelles étaient une tentative pour imiter les ailes des dragons.\n\nRamenez-moi les manchettes portées par les plus hauts dignitaires qiraji, et je les façonnerai pour en faire des espauliers plus redoutables que les ailes de Nefarian lui-même !",
+   "progress": "Avez-vous rassemblé les composants dont j'ai besoin ?",
+   "completion": "Avec les matériaux que tu as apportés et les écailles de nos ennemis qiraji tombés au combat, je te fabrique ces pauldrons, mortel. Qu'ils t'apportent la protection dont tu as besoin et que leur vue inspire la crainte à nos ennemis.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8595": {
+   "id": 8595,
+   "name": "Champions mortels",
+   "objectives": null,
+   "description": null,
+   "progress": "Tuer un seigneur qiraji représente un succès notable pour un mortel, <nom>. Hélas, ils sont nombreux et puissants. Continuez à les vaincre pour prouver votre valeur en tant que champion.",
+   "completion": "Vous continuez à bien nous servir, <nom>. Notre pacte est maintenu.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "8596": {
+   "id": 8596,
+   "name": "Les bottillons de l’oracle",
+   "objectives": "Apportez des Manchettes de commandement qiraji, 2 Idoles de la mort, 5 Scarabées en bronze et 5 Scarabées d’or à Kandrostrasz, à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Neutre à votre égard.",
+   "description": "La magie qiraji est puissante et ancienne. Les Qiraji les plus redoutables manient des objets si terribles qu’ils feraient hésiter un dragon. Si vous me ramenez des manchettes de commandement qiraji et quelques autres composants mineurs, je vous fabriquerai des bottillons exceptionnels.\n\nIls vous seront très utiles pour affronter l’ennemi.",
+   "progress": "Vous avez acquis les articles que j'ai demandés, <nom> ?",
+   "completion": "Vous avez bien fait, <nom>. Vous avez prouvé que vous n'étiez pas un mortel ordinaire.\n\nJe vous donne ceci en espérant que cela vous aidera à écraser le vil qiraji.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8602": {
+   "id": 8602,
+   "name": "Les espauliers de l'implorateur des tempêtes",
+   "objectives": "Rapporter des Manchettes de domination qiraji, 2 Idoles de la vie, 5 Scarabées d'or et 5 Scarabées de cristal à Andorgos, à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Neutre à votre égard.",
+   "description": "Nous pensons qu'à l'origine, les épaulières ornées que portent les races mortelles étaient une tentative pour imiter les ailes des dragons.\n\nRamenez-moi les manchettes portées par les plus hauts dignitaires qiraji, et je les façonnerai pour en faire des espauliers plus redoutables que les ailes de Nefarian lui-même !",
+   "progress": "Avez-vous rassemblé les composants dont j'ai besoin ?",
+   "completion": "Avec les matériaux que tu as apportés et les écailles de nos ennemis qiraji tombés au combat, je te fabrique ces pauldrons, mortel. Qu'ils t'apportent la protection dont tu as besoin et que leur vue inspire la crainte à nos ennemis.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "horde",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8603": {
+   "id": 8603,
+   "name": "Les habits de l'Oracle",
+   "objectives": "Ramemer la Carcasse du Dieu très ancien, 2 Idoles de la mort, 5 Scarabées de pierre et 5 Scarabées de cristal à Vethsera, à l'intérieur d'Ahn'Qiraj. Pour terminer cette quête, vous devez être <Honoré/Honorée> par la Progéniture de Nozdormu.",
+   "description": "L'indicible Dieu très ancien se réveille lentement de son sommeil sous Ahn'Qiraj. Le destin atroce qui attend Azeroth peut s'abattre sur nous dans des jours, ou des années, car le temps n'a pas vraiment de sens pour lui.\n\nMais lorsque les étoiles seront propices, il se déchaînera, et son effroyable courroux s'abattra sur toutes les créatures vivantes. Trouvez-le avant qu'il ne soit trop tard, et mettez un terme à son existence, d'une manière ou d'une autre.\n\nSi vous y parvenez, ramenez-moi un morceau de sa carcasse, et je vous en ferai une armure qui n'a encore jamais été portée par aucun mortel… une armure digne <d'un tueur/d'une tueuse> de dieu !",
+   "progress": "Dans sa demeure d’Ahn’Qiraj, le terrible C’Thun rêve et attend.",
+   "completion": "Je ne m’attendais pas à vous voir revenir, <nom>.\n\nVous avez une destinée supérieure à celle de la plupart des immortels.\n\nEn tuant C’Thun, vous avez sauvé Azeroth, et vous avez fait pencher les plateaux de la balance dans des événements cosmiques qui dépassent votre compréhension.\n\nAcceptez ces habits comme symbole de la gloire et du fardeau qu’engendrent vos actes.\n\nPuisse leur pouvoir vous aider dans les défis qui vous attendent, tueur de dieu !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15504,
+     "name": "Vethsera"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15504,
+     "name": "Vethsera"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Honoré/Honorée",
+    "d'un tueur/d'une tueuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8621": {
+   "id": 8621,
+   "name": "Les protège-tibias d'implorateur de tempête",
+   "objectives": "Apportez des Manchettes de domination qiraji, 2 Idoles du sage, 5 Scarabées en bronze et 5 Scarabées d'argile à Kandrostrasz, à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Neutre à votre égard.",
+   "description": "La magie qiraji est puissante et ancienne. Les Qiraji les plus redoutables manient des objets si terribles qu'ils feraient hésiter un dragon. Si vous me ramenez des manchettes de domination qiraji et quelques autres composants mineurs, je vous fabriquerai des bottes exceptionnelles.\n\nVous les trouverez utiles pour affronter l'ennemi.",
+   "progress": "Vous avez acquis les articles que j'ai demandés, <nom> ?",
+   "completion": "Vous avez bien fait, <nom>. Vous avez prouvé que vous n'étiez pas un mortel ordinaire.\n\nJe vous donne ceci avec la certitude qu'ils vous aideront à écraser le vil qiraji.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "horde",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8622": {
+   "id": 8622,
+   "name": "Le haubert d'implorateur de tempête",
+   "objectives": "Apporter la Carapace du Dieu très ancien, 2 Idoles du sage, 5 Scarabées d'argent et 5 Scarabées d'os à Vethsera à l'intérieur d'Ahn'Qiraj. Pour terminer cette quête, vous devez être <Honoré/Honorée> par la Progéniture de Nozdormu.",
+   "description": "L'indicible Dieu très ancien se réveille lentement de son sommeil sous Ahn'Qiraj. Le destin atroce qui attend Azeroth peut s'abattre sur nous dans des jours, ou des années, car le temps n'a pas vraiment de sens pour lui.\n\nMais lorsque les étoiles seront propices, il se déchaînera, et son effroyable courroux s'abattra sur toutes les créatures vivantes. Trouvez-le avant qu'il ne soit trop tard, et mettez un terme à son existence, d'une manière ou d'une autre.\n\nSi vous y parvenez, ramenez-moi un morceau de sa carcasse, et je vous en ferai une armure qui n'a encore jamais été portée par aucun mortel… une armure digne <d'un tueur/d'une tueuse> de dieu !",
+   "progress": "Vous avez acquis les articles que j'ai demandés, <nom> ?",
+   "completion": "Je ne m'attendais pas à ce que vous reveniez de votre tentative, <nom>.\n\nTu as accompli un destin plus grand que celui de la plupart des êtres immortels.\n\nEn tuant C'Thun, tu n'as pas seulement sauvé Azeroth, tu as aussi fait pencher la balance vers des événements cosmiques qui dépassent ton entendement.\n\nAcceptez ce plastron comme un symbole de la gloire et du fardeau qui découleront de vos actions.\n\nQue son pouvoir vous aide à relever les défis qui vous attendent, tueur de dieux !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15504,
+     "name": "Vethsera"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15504,
+     "name": "Vethsera"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "horde",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Honoré/Honorée",
+    "d'un tueur/d'une tueuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8623": {
+   "id": 8623,
+   "name": "Le diadème d'implorateur de tempête",
+   "objectives": "Apporter le Diadème de Vek'lor, 2 Idoles de la renaissance, 5 Scarabées de pierre et 5 Scarabées de cristal à Andorgos à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Amicale à votre égard.",
+   "description": "Les Empereurs jumeaux… Leurs murmures incessants usent peu à peu ma santé mentale. Ils se moquent de moi. Ils savent que je ne peux pas pénétrer plus avant dans leur domaine pour sauver mon frère Arygos.\n\nDans mes visions, leurs visages monstrueux sont surmontés d’impressionnantes couronnes. Mais j’aurai ma revanche… Je transformerai ces symboles de la puissance des Qiraji en quelque chose de plus adapté à notre lutte.\n\nRamenez-moi les composants dont j’ai besoin, <nom>, et je vous donnerai une coiffure sans égale.",
+   "progress": "Vous avez acquis les articles que j'ai demandés, <nom> ?",
+   "completion": "Vous avez réussi ! Les chuchotements des Empereurs jumeaux ont cessé.\n\nPrenez ceci comme récompense. La simple vue de cet objet fera naître la peur dans le coeur des Qiraji... il leur rappellera leurs chefs déchus et le mortel qui les a tués.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "horde",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8624": {
+   "id": 8624,
+   "name": "Les jambières d'implorateur de tempête",
+   "objectives": "Rapporter la Peau du Grand ver des sables, 2 Idoles de la lutte, 5 Scarabées en bronze et 5 Scarabées d'ivoire à Kandrostrasz, à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Amicale à votre égard.",
+   "description": "Vous souhaitez prouver votre valeur aux yeux de mon espèce, <mortel/mortelle> ? Très bien, peut-être pouvons-nous nous aider mutuellement.\n\nIl existe un très ancien ver des sables d'une puissance légendaire, nommé Ouro. On dit qu'il a été créé par les Dieux très anciens eux-mêmes pour parodier la vie.\n\nSa peau n'a rien de naturel… épaisse et presque impossible à transpercer, mais souple et lui permettant de se déplacer aussi vite et gracieusement que des créatures beaucoup plus petites.\n\nRamenez-moi un échantillon de cette peau et quelques autres composants mineurs, et je vous fabriquerai des jambières d'un grand pouvoir.",
+   "progress": "Vous avez acquis les articles que j'ai demandés, <nom> ?",
+   "completion": "Oui... La peau du ver fera une excellente couche protectrice. Combinée aux pièces les plus résistantes des Qiraji que nous avons détruits en chemin, elle devrait constituer une armure redoutable. Puisse-t-elle vous aider à affronter les horreurs indicibles qui vous attendent à l'intérieur !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "horde",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mortel/mortelle"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8625": {
+   "id": 8625,
+   "name": "Les protège-épaules de l'énigme",
+   "objectives": "Rapporter des Manchettes de commandement qiraji, 2 Idoles de la renaissance, 5 Scarabées d'argent et 5 Scarabées d’ivoire à Andorgos, à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Neutre à votre égard.",
+   "description": "Nous pensons qu'à l'origine, les épaulières ornées que portent les races mortelles étaient une tentative pour imiter les ailes des dragons.\n\nRamenez-moi les manchettes portées par les plus hauts dignitaires qiraji, et je les façonnerai pour en faire des espauliers plus redoutables que les ailes de Nefarian lui-même !",
+   "progress": "Vous êtes-vous procuré les composants dont j’ai besoin ?",
+   "completion": "Grâce aux objets que vous avez ramenés et aux écailles des Qiraji tués, je vous façonne ces espauliers, mortel. Puissent-ils vous octroyer la protection dont vous avez besoin ! Puisse leur vue épouvanter nos ennemis !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8626": {
+   "id": 8626,
+   "name": "Les protège-tibias du Frappeur",
+   "objectives": "Apportez des Manchettes de commandement qiraji, 2 Idoles de la vie, 5 Scarabées de pierre et 5 Scarabées d’os à Kandrostrasz, à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Neutre à votre égard.",
+   "description": "La magie qiraji est puissante et ancienne. Les Qiraji les plus redoutables manient des objets si terribles qu’ils feraient hésiter un dragon.\n\nSi vous me ramenez des manchettes de commandement qiraji et quelques autres composants mineurs, je vous fabriquerai des protège-tibias exceptionnels.\n\nIls vous seront utiles pour affronter l’ennemi.",
+   "progress": "Vous êtes-vous procuré les articles que j'ai demandés, <nom> ?",
+   "completion": "C’est bien, <nom>. Vous avez prouvé que vous n’êtes pas une mortelle ordinaire.\n\nJe vous remets ce don avec la certitude qu’il vous aidera à écraser ces vils Qiraji.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8627": {
+   "id": 8627,
+   "name": "La cuirasse du Vengeur",
+   "objectives": "Apporter la Carapace du Dieu très ancien, 2 Idoles du sage, 5 Scarabées d'argent et 5 Scarabées d'os à Vethsera à l'intérieur d'Ahn'Qiraj. Pour terminer cette quête, vous devez être <Honoré/Honorée> par la Progéniture de Nozdormu.",
+   "description": "L’indicible Dieu très ancien se réveille lentement de son sommeil sous Ahn’Qiraj. Le destin atroce qui attend Azeroth peut s’abattre sur nous dans des jours, ou des années, car le temps n’a pas vraiment de sens pour lui.\n\nMais lorsque les étoiles seront propices, il se déchaînera, et son effroyable courroux s’abattra sur toutes les créatures vivantes. Trouvez-le avant qu’il ne soit trop tard, et mettez un terme à son existence, d’une manière ou d’une autre.\n\nSi vous y parvenez, ramenez-moi un morceau de sa carcasse, et je vous en ferai une armure qui n’a encore jamais été portée par aucun mortel… une armure digne <d’un tueur/d’une tueuse> de dieu !",
+   "progress": "Dans sa demeure d'Ahn'Qiraj, le redoutable C'Thun attend dans le sommeil.",
+   "completion": "Je ne m'attendais pas à ce que vous reveniez de votre tentative, <nom>.\n\nTu as accompli un destin plus grand que celui de la plupart des êtres immortels.\n\nEn tuant C'Thun, tu n'as pas seulement sauvé Azeroth, tu as aussi fait pencher la balance vers des événements cosmiques qui dépassent ton entendement.\n\nAcceptez ce plastron comme un symbole de la gloire et du fardeau qui découleront de vos actions.\n\nQue son pouvoir vous aide à relever les défis qui vous attendent, tueur de dieux !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15504,
+     "name": "Vethsera"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15504,
+     "name": "Vethsera"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Honoré/Honorée",
+    "d’un tueur/d’une tueuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8628": {
+   "id": 8628,
+   "name": "La couronne du Vengeur",
+   "objectives": "Apporter le Diadème de Vek'lor, 2 Idoles de la renaissance, 5 Scarabées de pierre et 5 Scarabées de cristal à Andorgos à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Amicale à votre égard.",
+   "description": "Les Empereurs jumeaux… Leurs murmures incessants usent peu à peu ma santé mentale. Ils se moquent de moi. Ils savent que je ne peux pas pénétrer plus avant dans leur domaine pour sauver mon frère Arygos.\n\nDans mes visions, leurs visages monstrueux sont surmontés d’impressionnantes couronnes. Mais j’aurai ma revanche… Je transformerai ces symboles de la puissance des Qiraji en quelque chose de plus adapté à notre lutte.\n\nRamenez-moi les composants dont j’ai besoin, <nom>, et je vous donnerai une coiffure sans égale.",
+   "progress": "M'avez-vous apporté les composants que j'ai demandés, <nom> ?",
+   "completion": "Avec les matériaux que tu as apportés et les écailles de nos ennemis qiraji tombés au combat, je te fabrique ces pauldrons, mortel. Qu'ils t'apportent la protection dont tu as besoin et que leur vue inspire la crainte à nos ennemis.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8629": {
+   "id": 8629,
+   "name": "Les garde-jambes de vengeur",
+   "objectives": "Apportez la Peau du Grand ver des sables, 2 Idoles de la lutte, 5 Scarabées en bronze et 5 Scarabées d'ivoire à Kandrostrasz, à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Amicale à votre égard.",
+   "description": "Vous souhaitez prouver votre valeur aux yeux de mon espèce, <mortel/mortelle> ? Très bien, peut-être pouvons-nous nous aider mutuellement.\n\nIl existe un très ancien ver des sables d’une puissance légendaire, nommé Ouro. On dit qu’il a été créé par les Dieux très anciens eux-mêmes pour parodier la vie.\n\nSa peau n’a rien de naturel… épaisse et presque impossible à transpercer, mais souple et lui permettant de se déplacer aussi vite et gracieusement que des créatures beaucoup plus petites.\n\nRamenez-moi un échantillon de cette peau et quelques autres composants mineurs, et je vous fabriquerai des jambières d’un grand pouvoir.",
+   "progress": "Avez-vous apporté les composants dont j'ai besoin, <nom> ?",
+   "completion": "Oui... La peau du ver fera une excellente couche protectrice. Combinée aux pièces les plus résistantes des Qiraji que nous avons détruits en chemin, elle devrait constituer une armure redoutable. Puisse-t-elle vous aider à affronter les horreurs indicibles qui vous attendent à l'intérieur !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mortel/mortelle"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8630": {
+   "id": 8630,
+   "name": "Les espauliers de vengeur",
+   "objectives": "Apportez des Manchettes de domination qiraji, 2 Idoles de la vie, 5 Scarabées de cristal et 5 Scarabées d'or à Andorgos, à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Neutre à votre égard.",
+   "description": "Nous pensons qu’à l’origine, les épaulières ornées que portent les races mortelles étaient une tentative pour imiter les ailes des dragons.\n\nRamenez-moi les manchettes portées par les plus hauts dignitaires qiraji, et je les façonnerai pour en faire des espauliers plus redoutables que les ailes de Nefarian lui-même !",
+   "progress": "Avez-vous rassemblé les composants dont j'ai besoin ?",
+   "completion": "Avec les matériaux que tu as apportés et les écailles de nos ennemis qiraji tombés au combat, je te fabrique ces pauldrons, mortel. Qu'ils t'apportent la protection dont tu as besoin et que leur vue inspire la crainte à nos ennemis.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8631": {
+   "id": 8631,
+   "name": "Les jambières de l'énigme",
+   "objectives": "Rapporter la Peau intacte d'Ouro, 2 Idoles du sage, 5 Scarabées d'argent et 5 Scarabées d'os à Kandrostrasz, à l'intérieur d'Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Amicale à votre égard.",
+   "description": "Vous souhaitez prouver votre valeur aux yeux de mon espèce, <mortel/mortelle> ? Très bien, peut-être pouvons-nous nous aider mutuellement.\n\nIl existe un très ancien ver des sables d’une puissance légendaire, nommé Ouro. On dit qu’il a été créé par les Dieux très anciens eux-mêmes pour parodier la vie.\n\nSa peau n’a rien de naturel… épaisse et presque impossible à transpercer, mais souple et lui permettant de se déplacer aussi vite et gracieusement que des créatures beaucoup plus petites.\n\nRamenez-moi un échantillon de cette peau et quelques autres composants mineurs, et je vous fabriquerai des jambières d’un grand pouvoir.",
+   "progress": "Vous avez acquis les articles que j'ai demandés, <nom> ?",
+   "completion": "Oui... La peau du ver fera une excellente couche protectrice. Combinée aux pièces les plus résistantes des Qiraji que nous avons détruits en chemin, elle devrait constituer une armure redoutable. Puisse-t-elle vous aider à affronter les horreurs indicibles qui vous attendent à l'intérieur !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mortel/mortelle"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8632": {
+   "id": 8632,
+   "name": "Le diadème de l'énigme",
+   "objectives": "Apporter le Diadème de Vek'nilash, 2 Idoles de la nuit, 5 Scarabées en bronze et 5 Scarabées d'ivoire à Andorgos à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Amicale à votre égard.",
+   "description": "Les Empereurs jumeaux… Leurs murmures incessants usent peu à peu ma santé mentale. Ils se moquent de moi. Ils savent que je ne peux pas pénétrer plus avant dans leur domaine pour sauver mon frère Arygos.\n\nDans mes visions, leurs visages monstrueux sont surmontés d’impressionnantes couronnes. Mais j’aurai ma revanche… Je transformerai ces symboles de la puissance des Qiraji en quelque chose de plus adapté à notre lutte.\n\nRamenez-moi les composants dont j’ai besoin, <nom>, et je vous donnerai une coiffure sans égale.",
+   "progress": "M'avez-vous apporté les composants que j'ai demandés, <nom> ?",
+   "completion": "Vous avez réussi ! Les chuchotements des Empereurs jumeaux ont cessé.\n\nPrenez ceci comme récompense. La simple vue de cet objet fera naître la peur dans le coeur des Qiraji... il leur rappellera leurs chefs déchus et le mortel qui les a tués.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8633": {
+   "id": 8633,
+   "name": "La robe de l'énigme",
+   "objectives": "Apporter la Carcasse du Dieu très ancien, 2 Idoles du soleil, 5 Scarabées d'or et 5 Scarabées d'argile à Vethsera à l'intérieur d'Ahn'Qiraj. Pour terminer cette quête, vous devez être <Honoré/Honorée> par la Progéniture de Nozdormu.",
+   "description": "L’indicible Dieu très ancien se réveille lentement de son sommeil sous Ahn’Qiraj. Le destin atroce qui attend Azeroth peut s’abattre sur nous dans des jours, ou des années, car le temps n’a pas vraiment de sens pour lui.\n\nMais lorsque les étoiles seront propices, il se déchaînera, et son effroyable courroux s’abattra sur toutes les créatures vivantes. Trouvez-le avant qu’il ne soit trop tard, et mettez un terme à son existence, d’une manière ou d’une autre.\n\nSi vous y parvenez, ramenez-moi un morceau de sa carcasse, et je vous en ferai une armure qui n’a encore jamais été portée par aucun mortel… une armure digne <d’un tueur/d’une tueuse> de dieu !",
+   "progress": "Dans sa demeure d’Ahn’Qiraj, le terrible C’Thun rêve et attend.",
+   "completion": "Je ne m’attendais pas à vous voir revenir, <nom>.\n\nVous avez une destinée supérieure à celle de la plupart des immortels.\n\nEn tuant C’Thun, vous avez sauvé Azeroth, et vous avez fait pencher les plateaux de la balance dans des événements cosmiques qui dépassent votre compréhension.\n\nAcceptez cette robe comme symbole de la gloire et du fardeau qu’engendrent vos actes.\n\nPuisse son pouvoir vous aider dans les défis qui vous attendent, tueuse de dieu !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15504,
+     "name": "Vethsera"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15504,
+     "name": "Vethsera"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Honoré/Honorée",
+    "d’un tueur/d’une tueuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8634": {
+   "id": 8634,
+   "name": "Les bottes de l'énigme",
+   "objectives": "Rapporter des Manchettes de domination qiraji, 2 Idoles du soleil, 5 Scarabées d'argent et 5 Scarabées de cristal à Kandrostrasz, à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Neutre à votre égard.",
+   "description": "La magie qiraji est puissante et ancienne. Les Qiraji les plus redoutables manient des objets si terribles qu'ils feraient hésiter un dragon. Si vous me ramenez des manchettes de domination qiraji et quelques autres composants mineurs, je vous fabriquerai des bottes exceptionnelles.\n\nVous les trouverez utiles pour affronter l'ennemi.",
+   "progress": "Vous êtes-vous procuré les articles que j'ai demandés, <nom> ?",
+   "completion": "C’est bien, <nom>. Vous avez prouvé que vous n’êtes pas une mortelle ordinaire.\n\nJe vous remets ce don avec la certitude qu’il vous aidera à écraser ces vils Qiraji.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8637": {
+   "id": 8637,
+   "name": "Les bottes du dispensateur de mort",
+   "objectives": "Rapporter des Manchettes de domination qiraji, 2 Idoles de la lutte, 5 Scarabées de cristal et 5 Scarabées d'os à Kandrostrasz, à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Neutre à votre égard.",
+   "description": "La magie qiraji est puissante et ancienne. Les Qiraji les plus redoutables manient des objets si terribles qu’ils feraient hésiter un dragon.\n\nSi vous me ramenez des manchettes de commandement qiraji et quelques autres composants mineurs, je vous fabriquerai des bottes exceptionnelles.\n\nVous les trouverez utiles pour affronter l’ennemi.",
+   "progress": "Vous êtes-vous procuré les articles que j'ai demandés, <nom> ?",
+   "completion": "C’est bien, <nom>. Vous avez prouvé que vous n’êtes pas un mortel ordinaire.\n\nJe vous remets ce don avec la certitude qu’il vous aidera à écraser ces vils Qiraji.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8638": {
+   "id": 8638,
+   "name": "Le gilet du dispensateur de mort",
+   "objectives": "Apporter la Carapace du Dieu très ancien, 2 Idoles de la lutte, 5 Scarabées en bronze et 5 Scarabées d'ivoire à Vethsera à l'intérieur d'Ahn'Qiraj. Pour terminer cette quête, vous devez être <Honoré/Honorée> par la Progéniture de Nozdormu.",
+   "description": "L’indicible Dieu très ancien se réveille lentement de son sommeil sous Ahn’Qiraj. Le destin atroce qui attend Azeroth peut s’abattre sur nous dans des jours, ou des années, car le temps n’a pas vraiment de sens pour lui.\n\nMais lorsque les étoiles seront propices, il se déchaînera, et son effroyable courroux s’abattra sur toutes les créatures vivantes. Trouvez-le avant qu’il ne soit trop tard, et mettez un terme à son existence, d’une manière ou d’une autre.\n\nSi vous y parvenez, ramenez-moi un morceau de sa carcasse, et je vous en ferai une armure qui n’a encore jamais été portée par aucun mortel… une armure digne <d’un tueur/d’une tueuse> de dieu !",
+   "progress": "Dans sa demeure d’Ahn’Qiraj, le terrible C’Thun rêve et attend.",
+   "completion": "Je ne m’attendais pas à vous voir revenir, <nom>.\n\nVous avez une destinée supérieure à celle de la plupart des immortels.\n\nEn tuant C’Thun, vous avez sauvé Azeroth, et vous avez fait pencher les plateaux de la balance dans des événements cosmiques qui dépassent votre compréhension.\n\nAcceptez ce plastron comme symbole de la gloire et du fardeau qu’engendrent vos actes.\n\nPuisse son pouvoir vous aider dans les défis qui vous attendent, tueur de dieu !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15504,
+     "name": "Vethsera"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15504,
+     "name": "Vethsera"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Honoré/Honorée",
+    "d’un tueur/d’une tueuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8639": {
+   "id": 8639,
+   "name": "Le casque du dispensateur de mort",
+   "objectives": "Apporter le Diadème de Vek'lor, 2 Idoles de la guerre, 5 Scarabées d'or et 5 Scarabées d'argile à Andorgos à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Amicale à votre égard.",
+   "description": "Les Empereurs jumeaux… Leurs murmures incessants usent peu à peu ma santé mentale. Ils se moquent de moi. Ils savent que je ne peux pas pénétrer plus avant dans leur domaine pour sauver mon frère Arygos.\n\nDans mes visions, leurs visages monstrueux sont surmontés d’impressionnantes couronnes. Mais j’aurai ma revanche… Je transformerai ces symboles de la puissance des Qiraji en quelque chose de plus adapté à notre lutte.\n\nRamenez-moi les composants dont j’ai besoin, <nom>, et je vous donnerai une coiffure sans égale.",
+   "progress": "M’avez-vous ramené les composants demandés, <nom> ?",
+   "completion": "Vous avez réussi ! Les murmures des Empereurs jumeaux ont cessé.\n\nPrenez cette récompense. Sa seule vue sèmera l’épouvante au cœur des Qiraji… Elle leur rappellera leurs défunts chefs et lemortel qui les a tués.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8640": {
+   "id": 8640,
+   "name": "Les jambières du dispensateur de mort",
+   "objectives": "Rapporter la Peau intacte d'Ouro, 2 Idoles de la nuit, 5 Scarabées de pierre et 5 Scarabées de cristal à Kandrostrasz, à l'intérieur d'Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Amicale à votre égard.",
+   "description": "Vous souhaitez prouver votre valeur aux yeux de mon espèce, <mortel/mortelle> ? Très bien, peut-être pouvons-nous nous aider mutuellement.\n\nIl existe un très ancien ver des sables d’une puissance légendaire, nommé Ouro. On dit qu’il a été créé par les Dieux très anciens eux-mêmes pour parodier la vie.\n\nSa peau n’a rien de naturel… épaisse et presque impossible à transpercer, mais souple et lui permettant de se déplacer aussi vite et gracieusement que des créatures beaucoup plus petites.\n\nRamenez-moi un échantillon de cette peau et quelques autres composants mineurs, et je vous fabriquerai des jambières d’un grand pouvoir.",
+   "progress": "Vous avez acquis les articles que j'ai demandés, <nom> ?",
+   "completion": "Oui... La peau du ver fera une excellente couche protectrice. Combinée aux pièces les plus résistantes des Qiraji que nous avons détruits en chemin, elle devrait constituer une armure redoutable. Puisse-t-elle vous aider à affronter les horreurs indicibles qui vous attendent à l'intérieur !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mortel/mortelle"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8641": {
+   "id": 8641,
+   "name": "Les spallières de dispensateur de mort",
+   "objectives": "Apportez des Manchettes de commandement qiraji, 2 Idoles du soleil, 5 Scarabées d'argent et 5 Scarabées d'argile à Andorgos, à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Neutre à votre égard.",
+   "description": "Nous pensons qu’à l’origine, les épaulières ornées que portent les races mortelles étaient une tentative pour imiter les ailes des dragons.\n\nRamenez-moi les manchettes portées par les plus hauts dignitaires qiraji, et je les façonnerai pour en faire des espauliers plus redoutables que les ailes de Nefarian lui-même !",
+   "progress": "Vous êtes-vous procuré les composants dont j’ai besoin ?",
+   "completion": "Grâce aux objets que vous avez ramenés et aux écailles des Qiraji tués, je vous façonne ces espauliers, mortel. Puissent-ils vous octroyer la protection dont vous avez besoin ! Puisse leur vue épouvanter nos ennemis !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8655": {
+   "id": 8655,
+   "name": "Les grèves du Vengeur",
+   "objectives": "Rapporter des Manchettes de domination qiraji, 2 Idoles du sage, 5 Scarabées en bronze et 5 Scarabées d'argile à Kandrostrasz, à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Neutre à votre égard.",
+   "description": "La magie qiraji est puissante et ancienne. Les Qiraji les plus redoutables manient des objets si terribles qu’ils feraient hésiter un dragon. Si vous me ramenez des manchettes de domination qiraji et quelques autres composants mineurs, je vous fabriquerai des bottes exceptionnelles.\n\nVous les trouverez utiles pour affronter l’ennemi.",
+   "progress": "Vous avez acquis les articles que j'ai demandés, <nom> ?",
+   "completion": "Vous avez bien fait, <nom>. Vous avez prouvé que vous n'étiez pas un mortel ordinaire.\n\nJe vous donne ceci en espérant que cela vous aidera à écraser le vil qiraji.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8656": {
+   "id": 8656,
+   "name": "Le haubert du Frappeur",
+   "objectives": "Apporter la Carapace du Dieu très ancien, 2 Idoles de la vie, 5 Scarabées d'or et 5 Scarabées d'argile à Vethsera à l'intérieur d'Ahn'Qiraj. Pour terminer cette quête, vous devez être <Honoré/Honorée> par la Progéniture de Nozdormu.",
+   "description": "L’indicible Dieu très ancien se réveille lentement de son sommeil sous Ahn’Qiraj. Le destin atroce qui attend Azeroth peut s’abattre sur nous dans des jours, ou des années, car le temps n’a pas vraiment de sens pour lui.\n\nMais lorsque les étoiles seront propices, il se déchaînera, et son effroyable courroux s’abattra sur toutes les créatures vivantes. Trouvez-le avant qu’il ne soit trop tard, et mettez un terme à son existence, d’une manière ou d’une autre.\n\nSi vous y parvenez, ramenez-moi un morceau de sa carcasse, et je vous en ferai une armure qui n’a encore jamais été portée par aucun mortel… une armure digne <d’un tueur/d’une tueuse> de dieu !",
+   "progress": "Dans sa demeure d'Ahn'Qiraj, le redoutable C'Thun attend dans le sommeil.",
+   "completion": "Je ne m'attendais pas à ce que vous reveniez de votre tentative, <nom>.\n\nTu as accompli un destin plus grand que celui de la plupart des êtres immortels.\n\nEn tuant C'Thun, tu n'as pas seulement sauvé Azeroth, tu as aussi fait pencher la balance vers des événements cosmiques qui dépassent ton entendement.\n\nAcceptez ce plastron comme un symbole de la gloire et du fardeau qui découleront de vos actions.\n\nQue son pouvoir vous aide à relever les défis qui vous attendent, tueur de dieux !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15504,
+     "name": "Vethsera"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15504,
+     "name": "Vethsera"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Honoré/Honorée",
+    "d’un tueur/d’une tueuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8657": {
+   "id": 8657,
+   "name": "Le diadème du Frappeur",
+   "objectives": "Apporter le Diadème de Vek'lor, 2 Idoles de la lutte, 5 Scarabées en bronze et 5 Scarabées d'ivoire à Andorgos à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Amicale à votre égard.",
+   "description": "Les Empereurs jumeaux… Leurs murmures incessants usent peu à peu ma santé mentale. Ils se moquent de moi. Ils savent que je ne peux pas pénétrer plus avant dans leur domaine pour sauver mon frère Arygos.\n\nDans mes visions, leurs visages monstrueux sont surmontés d’impressionnantes couronnes. Mais j’aurai ma revanche… Je transformerai ces symboles de la puissance des Qiraji en quelque chose de plus adapté à notre lutte.\n\nRamenez-moi les composants dont j’ai besoin, <nom>, et je vous donnerai une coiffure sans égale.",
+   "progress": "M’avez-vous ramené les composants demandés, <nom> ?",
+   "completion": "Vous avez réussi ! Les murmures des Empereurs jumeaux ont cessé.\n\nPrenez cette récompense. Sa seule vue sèmera l’épouvante au cœur des Qiraji… Elle leur rappellera leurs défunts chefs et la mortelle qui les a tués.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8658": {
+   "id": 8658,
+   "name": "Les jambières du Frappeur",
+   "objectives": "Rapporter la Peau du Grand ver des sables, 2 Idoles du soleil, 5 Scarabées d'argent et 5 Scarabées d'os à Kandrostrasz, à l'intérieur d'Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Amicale à votre égard.",
+   "description": "Vous souhaitez prouver votre valeur aux yeux de mon espèce, <mortel/mortelle> ? Très bien, peut-être pouvons-nous nous aider mutuellement.\n\nIl existe un très ancien ver des sables d’une puissance légendaire, nommé Ouro. On dit qu’il a été créé par les Dieux très anciens eux-mêmes pour parodier la vie.\n\nSa peau n’a rien de naturel… épaisse et presque impossible à transpercer, mais souple et lui permettant de se déplacer aussi vite et gracieusement que des créatures beaucoup plus petites.\n\nRamenez-moi un échantillon de cette peau et quelques autres composants mineurs, et je vous fabriquerai des jambières d’un grand pouvoir.",
+   "progress": "Vous avez acquis les articles que j'ai demandés, <nom> ?",
+   "completion": "Oui... La peau du ver fera une excellente couche protectrice. Combinée aux pièces les plus résistantes des Qiraji que nous avons détruits en chemin, elle devrait constituer une armure redoutable. Puisse-t-elle vous aider à affronter les horreurs indicibles qui vous attendent à l'intérieur !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mortel/mortelle"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8659": {
+   "id": 8659,
+   "name": "Les espauliers du Frappeur",
+   "objectives": "Apportez des Manchettes de commandement qiraji, 2 Idoles de la guerre, 5 Scarabées de cristal et 5 Scarabées d'ivoire à Andorgos, à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Neutre à votre égard.",
+   "description": "Nous pensons qu’à l’origine, les épaulières ornées que portent les races mortelles étaient une tentative pour imiter les ailes des dragons.\n\nRamenez-moi les manchettes portées par les plus hauts dignitaires qiraji, et je les façonnerai pour en faire des espauliers plus redoutables que les ailes de Nefarian lui-même !",
+   "progress": "Avez-vous rassemblé les composants dont j'ai besoin ?",
+   "completion": "Avec les matériaux que tu as apportés et les écailles de nos ennemis qiraji tombés au combat, je te fabrique ces pauldrons, mortel. Qu'ils t'apportent la protection dont tu as besoin et que leur vue inspire la crainte à nos ennemis.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8660": {
+   "id": 8660,
+   "name": "Les bottillons d’implorateur funeste",
+   "objectives": "Apportez des Manchettes de domination qiraji, 2 Idoles de la nuit, 5 Scarabées d'argile et 5 Scarabées d'ivoire à Kandrostrasz, à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Neutre à votre égard.",
+   "description": "La magie qiraji est puissante et ancienne. Les Qiraji les plus redoutables manient des objets si terribles qu'ils feraient hésiter un dragon. Si vous me ramenez des manchettes de domination qiraji et quelques autres composants mineurs, je vous fabriquerai des bottes exceptionnelles.\n\nVous les trouverez utiles pour affronter l'ennemi.",
+   "progress": "Vous avez acquis les articles que j'ai demandés, <nom> ?",
+   "completion": "Vous avez bien fait, <nom>. Vous avez prouvé que vous n'étiez pas un mortel ordinaire.\n\nJe vous donne ceci en espérant que cela vous aidera à écraser le vil qiraji.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8661": {
+   "id": 8661,
+   "name": "La robe d'implorateur funeste",
+   "objectives": "Apporter la Carcasse du Dieu très ancien, 2 Idoles de la nuit, 5 Scarabées de pierre et 5 Scarabées de cristal à Vethsera à l'intérieur d'Ahn'Qiraj. Pour terminer cette quête, vous devez être <Honoré/Honorée> par la Progéniture de Nozdormu.",
+   "description": "L'indicible Dieu très ancien se réveille lentement de son sommeil sous Ahn'Qiraj. Le destin atroce qui attend Azeroth peut s'abattre sur nous dans des jours, ou des années, car le temps n'a pas vraiment de sens pour lui.\n\nMais lorsque les étoiles seront propices, il se déchaînera, et son effroyable courroux s'abattra sur toutes les créatures vivantes. Trouvez-le avant qu'il ne soit trop tard, et mettez un terme à son existence, d'une manière ou d'une autre.\n\nSi vous y parvenez, ramenez-moi un morceau de sa carcasse, et je vous en ferai une armure qui n'a encore jamais été portée par aucun mortel… une armure digne <d'un tueur/d'une tueuse> de dieu !",
+   "progress": "Dans sa demeure d'Ahn'Qiraj, le redoutable C'Thun attend dans le sommeil.",
+   "completion": "Je ne m'attendais pas à ce que vous reveniez de votre tentative, <nom>.\n\nTu as accompli un destin plus grand que celui de la plupart des êtres immortels.\n\nEn tuant C'Thun, tu n'as pas seulement sauvé Azeroth, tu as aussi fait pencher la balance vers des événements cosmiques qui dépassent ton entendement.\n\nAcceptez ces robes comme un symbole de la gloire et du fardeau qui découleront de vos actions.\n\nQue leur pouvoir vous aide à relever les défis qui vous attendent, tueur de dieux !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15504,
+     "name": "Vethsera"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15504,
+     "name": "Vethsera"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Honoré/Honorée",
+    "d'un tueur/d'une tueuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8662": {
+   "id": 8662,
+   "name": "Le diadème d'implorateur funeste",
+   "objectives": "Apporter le Diadème de Vek'nilash, 2 Idoles de la mort, 5 Scarabées d'argent et 5 Scarabées d'os à Andorgos à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Amicale à votre égard.",
+   "description": "Les Empereurs jumeaux… Leurs murmures incessants usent peu à peu ma santé mentale. Ils se moquent de moi. Ils savent que je ne peux pas pénétrer plus avant dans leur domaine pour sauver mon frère Arygos.\n\nDans mes visions, leurs visages monstrueux sont surmontés d'impressionnantes couronnes. Mais j'aurai ma revanche… Je transformerai ces symboles de la puissance des Qiraji en quelque chose de plus adapté à notre lutte.\n\nRamenez-moi les composants dont j'ai besoin, <nom>, et je vous donnerai une coiffure sans égale.",
+   "progress": "M’avez-vous ramené les composants demandés, <nom> ?",
+   "completion": "Vous avez réussi ! Les murmures des Empereurs jumeaux ont cessé.\n\nPrenez cette récompense. Sa seule vue sèmera l’épouvante au cœur des Qiraji… Elle leur rappellera leurs défunts chefs et lemortel qui les a tués.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8663": {
+   "id": 8663,
+   "name": "Le pantalon d'implorateur funeste",
+   "objectives": "Rapporter la Peau du Grand ver des sables, 2 Idoles de la renaissance, 5 Scarabées d'or et 5 Scarabées d'argile à Kandrostrasz, à l'intérieur d'Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Amicale à votre égard.",
+   "description": "Vous souhaitez prouver votre valeur aux yeux de mon espèce, <mortel/mortelle> ? Très bien, peut-être pouvons-nous nous aider mutuellement.\n\nIl existe un très ancien ver des sables d'une puissance légendaire, nommé Ouro. On dit qu'il a été créé par les Dieux très anciens eux-mêmes pour parodier la vie.\n\nSa peau n'a rien de naturel… épaisse et presque impossible à transpercer, mais souple et lui permettant de se déplacer aussi vite et gracieusement que des créatures beaucoup plus petites.\n\nRamenez-moi un échantillon de cette peau et quelques autres composants mineurs, et je vous fabriquerai des chausses d'un grand pouvoir.",
+   "progress": "Avez-vous apporté les composants dont j'ai besoin, <nom> ?",
+   "completion": "Oui... La peau du ver fera une excellente couche protectrice. Combinée aux pièces les plus résistantes des Qiraji que nous avons détruits en chemin, elle devrait constituer une armure redoutable. Puisse-t-elle vous aider à affronter les horreurs indicibles qui vous attendent à l'intérieur !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mortel/mortelle"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8664": {
+   "id": 8664,
+   "name": "Le mantelet d’implorateur funeste",
+   "objectives": "Apportez des Manchettes de domination qiraji, 2 Idoles du sage, 5 Scarabées en bronze et 5 Scarabées d'os à Andorgos, à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Neutre à votre égard.",
+   "description": "Nous pensons qu'à l'origine, les épaulières ornées que portent les races mortelles étaient une tentative pour imiter les ailes des dragons.\n\nRamenez-moi les manchettes portées par les plus hauts dignitaires qiraji, et je les façonnerai pour en faire des espauliers plus redoutables que les ailes de Nefarian lui-même !",
+   "progress": "Vous êtes-vous procuré les composants dont j’ai besoin ?",
+   "completion": "Grâce aux objets que vous avez ramenés et aux écailles des Qiraji tués, je vous façonne ces espauliers, mortel. Puissent-ils vous octroyer la protection dont vous avez besoin ! Puisse leur vue épouvanter nos ennemis !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8665": {
+   "id": 8665,
+   "name": "Les bottes de la genèse",
+   "objectives": "Rapporter des Manchettes de domination qiraji, 2 Idoles de la renaissance, 5 Scarabées de pierre et 5 Scarabées d'argent à Kandrostrasz, à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Neutre à votre égard.",
+   "description": "La magie qiraji est puissante et ancienne. Les Qiraji les plus redoutables manient des objets si terribles qu'ils feraient hésiter un dragon. Si vous me ramenez des manchettes de domination qiraji et quelques autres composants mineurs, je vous fabriquerai des bottes exceptionnelles.\n\nVous les trouverez utiles pour affronter l'ennemi.",
+   "progress": "Vous avez acquis les articles que j'ai demandés, <nom> ?",
+   "completion": "Vous avez bien fait, <nom>. Vous avez prouvé que vous n'étiez pas un mortel ordinaire.\n\nJe vous donne ceci en espérant que cela vous aidera à écraser le vil qiraji.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8666": {
+   "id": 8666,
+   "name": "Le gilet de la genèse",
+   "objectives": "Apporter la Carcasse du Dieu très ancien, 2 Idoles de la renaissance, 5 Scarabées en bronze et 5 Scarabées d'ivoire à Vethsera à l'intérieur d'Ahn'Qiraj. Pour terminer cette quête, vous devez être <Honoré/Honorée> par la Progéniture de Nozdormu.",
+   "description": "L'indicible Dieu très ancien se réveille lentement de son sommeil sous Ahn'Qiraj. Le destin atroce qui attend Azeroth peut s'abattre sur nous dans des jours, ou des années, car le temps n'a pas vraiment de sens pour lui.\n\nMais lorsque les étoiles seront propices, il se déchaînera, et son effroyable courroux s'abattra sur toutes les créatures vivantes. Trouvez-le avant qu'il ne soit trop tard, et mettez un terme à son existence, d'une manière ou d'une autre.\n\nSi vous y parvenez, ramenez-moi un morceau de sa carcasse, et je vous en ferai une armure qui n'a encore jamais été portée par aucun mortel… une armure digne <d'un tueur/d'une tueuse> de dieu !",
+   "progress": "Dans sa demeure d'Ahn'Qiraj, le redoutable C'Thun attend dans le sommeil.",
+   "completion": "Je ne m'attendais pas à ce que vous reveniez de votre tentative, <nom>.\n\nTu as accompli un destin plus grand que celui de la plupart des êtres immortels.\n\nEn tuant C'Thun, tu n'as pas seulement sauvé Azeroth, tu as aussi fait pencher la balance vers des événements cosmiques qui dépassent ton entendement.\n\nAcceptez ce plastron comme un symbole de la gloire et du fardeau qui découleront de vos actions.\n\nQue son pouvoir vous aide à relever les défis qui vous attendent, tueur de dieux !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15504,
+     "name": "Vethsera"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15504,
+     "name": "Vethsera"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Honoré/Honorée",
+    "d'un tueur/d'une tueuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8667": {
+   "id": 8667,
+   "name": "Le casque de la genèse",
+   "objectives": "Apporter le Diadème de Vek'lor, 2 Idoles de la vie, 5 Scarabées d'or et 5 Scarabées d'argile à Andorgos à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Amicale à votre égard.",
+   "description": "Les Empereurs jumeaux… Leurs murmures incessants usent peu à peu ma santé mentale. Ils se moquent de moi. Ils savent que je ne peux pas pénétrer plus avant dans leur domaine pour sauver mon frère Arygos.\n\nDans mes visions, leurs visages monstrueux sont surmontés d'impressionnantes couronnes. Mais j'aurai ma revanche… Je transformerai ces symboles de la puissance des Qiraji en quelque chose de plus adapté à notre lutte.\n\nRamenez-moi les composants dont j'ai besoin, <nom>, et je vous donnerai une coiffure sans égale.",
+   "progress": "M'avez-vous apporté les composants que j'ai demandés, <nom> ?",
+   "completion": "Vous avez réussi ! Les chuchotements des Empereurs jumeaux ont cessé.\n\nPrenez ceci comme récompense. La simple vue de cet objet fera naître la peur dans le coeur des Qiraji... il leur rappellera leurs chefs déchus et le mortel qui les a tués.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8668": {
+   "id": 8668,
+   "name": "Le pantalon de la genèse",
+   "objectives": "Rapporter la Peau du Grand ver des sables, 2 Idoles de la guerre, 5 Scarabées de pierre et 5 Scarabées de cristal à Kandrostrasz, à l'intérieur d'Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Amicale à votre égard.",
+   "description": "Vous souhaitez prouver votre valeur aux yeux de mon espèce, <mortel/mortelle> ? Très bien, peut-être pouvons-nous nous aider mutuellement.\n\nIl existe un très ancien ver des sables d'une puissance légendaire, nommé Ouro. On dit qu'il a été créé par les Dieux très anciens eux-mêmes pour parodier la vie.\n\nSa peau n'a rien de naturel… épaisse et presque impossible à transpercer, mais souple et lui permettant de se déplacer aussi vite et gracieusement que des créatures beaucoup plus petites.\n\nRamenez-moi un échantillon de cette peau et quelques autres composants mineurs, et je vous fabriquerai des chausses d'un grand pouvoir.",
+   "progress": "Avez-vous apporté les composants dont j'ai besoin, <nom> ?",
+   "completion": "Oui... La peau du ver fera une excellente couche protectrice. Combinée aux pièces les plus résistantes des Qiraji que nous avons détruits en chemin, elle devrait constituer une armure redoutable. Puisse-t-elle vous aider à affronter les horreurs indicibles qui vous attendent à l'intérieur !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15503,
+     "name": "Kandrostrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mortel/mortelle"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8669": {
+   "id": 8669,
+   "name": "Le protège-épaules de la genèse",
+   "objectives": "Apportez des Manchettes de domination qiraji, 2 Idoles de la lutte, 5 Scarabées d'or et 5 Scarabées d'os à Andorgos, à Ahn'Qiraj. Pour terminer cette quête, il faut aussi que la Progéniture de Nozdormu soit au moins Neutre à votre égard.",
+   "description": "Nous pensons qu'à l'origine, les épaulières ornées que portent les races mortelles étaient une tentative pour imiter les ailes des dragons.\n\nRamenez-moi les manchettes portées par les plus hauts dignitaires qiraji, et je les façonnerai pour en faire des espauliers plus redoutables que les ailes de Nefarian lui-même !",
+   "progress": "Avez-vous rassemblé les composants dont j'ai besoin ?",
+   "completion": "Avec les matériaux que tu as apportés et les écailles de nos ennemis qiraji tombés au combat, je te fabrique ces pauldrons, mortel. Qu'ils t'apportent la protection dont tu as besoin et que leur vue inspire la crainte à nos ennemis.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8689": {
+   "id": 8689,
+   "name": "Le voile de sagesse infinie",
+   "objectives": "Apporter 1 Drapé martial qiraji, 2 Idoles de jaspe, 5 Scarabées d'or et 5 Scarabées d'argile à Keyl Swiftclaw, en Silithus. Vous devrez aussi être <Révéré/Révérée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Je suis content de voir que vous allez nous aider pour notre offensive en Ahn'Qiraj, <nom>. J’aimerais vous offrir un objet de protection, qui pourra vous servir contre notre ennemi, <classe>.\n\nJ’ai besoin pour cela d’un drapé qiraji, que je retaillerai à vos mesures, bien sûr. J’ai aussi besoin d’idoles et de scarabées dont je me servirai pour fabriquer le fermoir.\n\nJe vous promets que vous ne serez pas <déçu/déçue>.",
+   "progress": "Vous avez apporté les matériaux pour la cape, <nom> ?",
+   "completion": "Ah, oui… Ce drapé est impeccable.\n\nPrenez cette cape, <nom>. Je suis certain que vous la trouverez très utile contre les viles magies des Qiraji.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15500,
+     "name": "Keyl Swiftclaw"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15500,
+     "name": "Keyl Swiftclaw"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Révéré/Révérée",
+    "classe",
+    "déçu/déçue",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8690": {
+   "id": 8690,
+   "name": "La cape de la tempête imminente",
+   "objectives": "Apporter 1 Drapé royal qiraji, 2 Idoles d’obsidienne, 5 Scarabées d'argile et 5 Scarabées d'or à Keyl Swiftclaw, en Silithus. Vous devrez aussi être <Révéré/Révérée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Je suis content de voir que vous allez nous aider pour notre offensive en Ahn'Qiraj, <nom>. J’aimerais vous offrir un objet de protection, qui pourra vous servir contre notre ennemi, <classe>.\n\nJ’ai besoin pour cela d’un drapé qiraji, que je retaillerai à vos mesures, bien sûr. J’ai aussi besoin d’idoles et de scarabées dont je me servirai pour fabriquer le fermoir.\n\nJe vous promets que vous ne serez pas <déçu/déçue>.",
+   "progress": "As-tu apporté les matériaux pour la cape, <nom> ?",
+   "completion": "Ah oui... ce drap est immaculé.\n\nPrenez cette cape, <nom>. Qu'elle vous protège de l'immonde magie des Qiraji.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15500,
+     "name": "Keyl Swiftclaw"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15500,
+     "name": "Keyl Swiftclaw"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "horde",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Révéré/Révérée",
+    "classe",
+    "déçu/déçue",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8691": {
+   "id": 8691,
+   "name": "Le drapé des secrets scellés",
+   "objectives": "Apporter 1 Drapé martial qiraji, 2 Idoles d'albâtre, 5 Scarabées de pierre et 5 Scarabées de cristal à Keyl Swiftclaw, en Silithus. Vous devrez aussi être <Révéré/Révérée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Je suis content de voir que vous allez nous aider pour notre offensive en Ahn'Qiraj, <nom>. J’aimerais vous offrir un objet de protection, qui pourra vous servir contre notre ennemi, <classe>.\n\nJ’ai besoin pour cela d’un drapé qiraji, que je retaillerai à vos mesures, bien sûr. J’ai aussi besoin d’idoles et de scarabées dont je me servirai pour fabriquer le fermoir.\n\nJe vous promets que vous ne serez pas <déçu/déçue>.",
+   "progress": "As-tu apporté les matériaux pour la cape, <nom> ?",
+   "completion": "Ah oui... ce drap est immaculé.\n\nPrenez cette cape, <nom>. Qu'elle vous protège de l'immonde magie des Qiraji.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15500,
+     "name": "Keyl Swiftclaw"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15500,
+     "name": "Keyl Swiftclaw"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Révéré/Révérée",
+    "classe",
+    "déçu/déçue",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8692": {
+   "id": 8692,
+   "name": "La cape de vie interminable",
+   "objectives": "Apporter 1 Drapé royal qiraji, 2 Idoles vermillon, 5 Scarabées d'argent et 5 Scarabées d'os à Keyl Vivegriffe, en Silithus. Vous devrez aussi être <Révéré/Révérée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Je suis content de voir que vous allez nous aider pour notre offensive en Ahn'Qiraj, <nom>. J’aimerais vous offrir un objet de protection, qui pourra vous servir contre notre ennemi, <classe>.\n\nJ’ai besoin pour cela d’un drapé qiraji, que je retaillerai à vos mesures, bien sûr. J’ai aussi besoin d’idoles et de scarabées dont je me servirai pour fabriquer le fermoir.\n\nJe vous promets que vous ne serez pas <déçu/déçue>.",
+   "progress": "As-tu apporté les matériaux pour la cape, <nom> ?",
+   "completion": "Ah oui... ce drap est immaculé.\n\nPrenez cette cape, <nom>. Qu'elle vous protège de l'immonde magie des Qiraji.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15500,
+     "name": "Keyl Swiftclaw"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15500,
+     "name": "Keyl Swiftclaw"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Révéré/Révérée",
+    "classe",
+    "déçu/déçue",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8693": {
+   "id": 8693,
+   "name": "La cape des ombres voilées",
+   "objectives": "Apporter 1 Drapé martial qiraji, 2 Idoles azur, 5 Scarabées en bronze et 5 Scarabées d'ivoire à Keyl Swiftclaw, en Silithus. Vous devrez aussi être <Révéré/Révérée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Je suis content de voir que vous allez nous aider pour notre offensive en Ahn'Qiraj, <nom>. J’aimerais vous offrir un objet de protection, qui pourra vous servir contre notre ennemi, <classe>.\n\nJ’ai besoin pour cela d’un drapé qiraji, que je retaillerai à vos mesures, bien sûr. J’ai aussi besoin d’idoles et de scarabées dont je me servirai pour fabriquer le fermoir.\n\nJe vous promets que vous ne serez pas <déçu/déçue>.",
+   "progress": "Vous avez apporté les matériaux pour la cape, <nom> ?",
+   "completion": "Ah, oui… Ce drapé est impeccable.\n\nPrenez cette cape, <nom>. Je suis certain que vous la trouverez très utile contre les viles magies des Qiraji.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15500,
+     "name": "Keyl Swiftclaw"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15500,
+     "name": "Keyl Swiftclaw"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Révéré/Révérée",
+    "classe",
+    "déçu/déçue",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8694": {
+   "id": 8694,
+   "name": "Le voile des noms inexprimés",
+   "objectives": "Apporter 1 Drapé royal qiraji, 2 Idoles d’ambre, 5 Scarabées d’ivoire et 5 Scarabées en bronze à Keyl Vivegriffe, en Silithus. Vous devrez aussi être <Révéré/Révérée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Je suis content de voir que vous allez nous aider pour notre offensive en Ahn'Qiraj, <nom>. J’aimerais vous offrir un objet de protection, qui pourra vous servir contre notre ennemi, <classe>.\n\nJ’ai besoin pour cela d’un drapé qiraji, que je retaillerai à vos mesures, bien sûr. J’ai aussi besoin d’idoles et de scarabées dont je me servirai pour fabriquer le fermoir.\n\nJe vous promets que vous ne serez pas <déçu/déçue>.",
+   "progress": "Vous avez apporté les matériaux pour la cape, <nom> ?",
+   "completion": "Ah, oui… Ce drapé est impeccable.\n\nPrenez cette cape, <nom>. Je suis certain que vous la trouverez très utile contre les viles magies des Qiraji.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15500,
+     "name": "Keyl Swiftclaw"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15500,
+     "name": "Keyl Swiftclaw"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Révéré/Révérée",
+    "classe",
+    "déçu/déçue",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8695": {
+   "id": 8695,
+   "name": "La cape de justice éternelle",
+   "objectives": "Apporter 1 Drapé royal qiraji, 2 Idoles d'obsidienne, 5 Scarabées d'or et 5 Scarabées d'argile à Keyl Swiftclaw, en Silithus. Vous devrez aussi être <Révéré/Révérée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Je suis content de voir que vous allez nous aider pour notre offensive en Ahn'Qiraj, <nom>. J’aimerais vous offrir un objet de protection, qui pourra vous servir contre notre ennemi, <classe>.\n\nJ’ai besoin pour cela d’un drapé qiraji, que je retaillerai à vos mesures, bien sûr. J’ai aussi besoin d’idoles et de scarabées dont je me servirai pour fabriquer le fermoir.\n\nJe vous promets que vous ne serez pas <déçu/déçue>.",
+   "progress": "As-tu apporté le matériel pour la cape, <nom> ?",
+   "completion": "Ah oui... ce drap est immaculé.\n\nPrenez cette cape, <nom>. Qu'elle vous protège de l'immonde magie des Qiraji.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15500,
+     "name": "Keyl Swiftclaw"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15500,
+     "name": "Keyl Swiftclaw"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Révéré/Révérée",
+    "classe",
+    "déçu/déçue",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8696": {
+   "id": 8696,
+   "name": "La cape du sentier invisible",
+   "objectives": "Apporter 1 Drapé royal qiraji, 2 Idoles brillantes, 5 Scarabées de pierre et 5 Scarabées de cristal à Keyl Swiftclaw, en Silithus. Vous devrez aussi être <Révéré/Révérée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Je suis content de voir que vous allez nous aider pour notre offensive en Ahn'Qiraj, <nom>. J’aimerais vous offrir un objet de protection, qui pourra vous servir contre notre ennemi, <classe>.\n\nJ’ai besoin pour cela d’un drapé qiraji, que je retaillerai à vos mesures, bien sûr. J’ai aussi besoin d’idoles et de scarabées dont je me servirai pour fabriquer le fermoir.\n\nJe vous promets que vous ne serez pas <déçu/déçue>.",
+   "progress": "Vous avez apporté les matériaux pour la cape, <nom> ?",
+   "completion": "Ah, oui… Ce drapé est impeccable.\n\nPrenez cette cape, <nom>. Je suis certain que vous la trouverez très utile contre les viles magies des Qiraji.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15500,
+     "name": "Keyl Swiftclaw"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15500,
+     "name": "Keyl Swiftclaw"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Révéré/Révérée",
+    "classe",
+    "déçu/déçue",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8697": {
+   "id": 8697,
+   "name": "L' anneau de sagesse infinie",
+   "objectives": "Apporter 1 Anneau de cérémonie qiraji, 2 Idoles d’obsidienne, 5 Scarabées d’argent et 5 Scarabées d’os à l'imploratrice céleste Yessendra, en Silithus. Vous devrez aussi être <Honoré/Honorée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Les anneaux portés par les lieutenants qiraji accordent, paraît-il, des pouvoirs fantastiques. Les gemmes corrompues qui les ornent pourraient, en théorie, être remplacées par des matériaux plus purs, pour créer des versions non corrompues des anneaux.\n\nLes pierres précieuses qui ornent les idoles qiraji conviendraient assez bien, car elles sont d’une qualité supérieure.\n\nApportez-moi un anneau et des idoles, et je vous créerai un anneau puissant, <classe>.",
+   "progress": "Vous m'avez apporté l'anneau et les matériaux, <nom> ?",
+   "completion": "Je vais changer la pierre qui est sertie sur l’anneau, pour que vous puissiez vous en servir. Vous verrez que ses effets seront bien plus… agréables.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15498,
+     "name": "Imploratrice céleste Yessendra"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15498,
+     "name": "Imploratrice céleste Yessendra"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Honoré/Honorée",
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8698": {
+   "id": 8698,
+   "name": "L'anneau de la tempête imminente",
+   "objectives": "Apporter 1 Anneau de magistrat qiraji, 2 Idoles vermillon, 5 Scarabées d’argent et 5 Scarabées d'os à l'imploratrice céleste Yessendra, en Silithus. Vous devrez aussi être <Honoré/Honorée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Les anneaux portés par les lieutenants qiraji accordent, paraît-il, des pouvoirs fantastiques. Les gemmes corrompues qui les ornent pourraient, en théorie, être remplacées par des matériaux plus purs, pour créer des versions non corrompues des anneaux.\n\nLes pierres précieuses qui ornent les idoles qiraji conviendraient assez bien, car elles sont d’une qualité supérieure.\n\nApportez-moi un anneau et des idoles, et je vous créerai un anneau puissant, <classe>.",
+   "progress": "Tu m'as apporté la bague et le matériel, <nom> ?",
+   "completion": "J'échangerai la pierre précieuse de la bague pour vous. Vous trouverez l'effet beaucoup plus... agréable.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15498,
+     "name": "Imploratrice céleste Yessendra"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15498,
+     "name": "Imploratrice céleste Yessendra"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "horde",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Honoré/Honorée",
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8699": {
+   "id": 8699,
+   "name": "L'anneau des secrets scellés",
+   "objectives": "Apporter 1 Anneau de magistrat qiraji, 2 Idoles azur, 5 Scarabées d’or et 5 Scarabées d’argile à l'imploratrice céleste Yessendra, en Silithus. Vous devrez aussi être <Honoré/Honorée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Les anneaux portés par les lieutenants qiraji accordent, paraît-il, des pouvoirs fantastiques. Les gemmes corrompues qui les ornent pourraient, en théorie, être remplacées par des matériaux plus purs, pour créer des versions non corrompues des anneaux.\n\nLes pierres précieuses qui ornent les idoles qiraji conviendraient assez bien, car elles sont d’une qualité supérieure.\n\nApportez-moi un anneau et des idoles, et je vous créerai un anneau puissant, <classe>.",
+   "progress": "Vous m'avez apporté l'anneau et les matériaux, <nom> ?",
+   "completion": "Je vais changer la pierre qui est sertie sur l’anneau, pour que vous puissiez vous en servir. Vous verrez que ses effets seront bien plus… agréables.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15498,
+     "name": "Imploratrice céleste Yessendra"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15498,
+     "name": "Imploratrice céleste Yessendra"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Honoré/Honorée",
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8700": {
+   "id": 8700,
+   "name": "L'anneau de vie interminable",
+   "objectives": "Apporter 1 Anneau de magistrat qiraji, 2 Idoles d’albâtre, 5 Scarabées en bronze et 5 Scarabées d'ivoire à l’imploratrice céleste Yessendra, en Silithus. Vous devrez aussi être <Honoré/Honorée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Les anneaux portés par les lieutenants qiraji accordent, paraît-il, des pouvoirs fantastiques. Les gemmes corrompues qui les ornent pourraient, en théorie, être remplacées par des matériaux plus purs, pour créer des versions non corrompues des anneaux.\n\nLes pierres précieuses qui ornent les idoles qiraji conviendraient assez bien, car elles sont d’une qualité supérieure.\n\nApportez-moi un anneau et des idoles, et je vous créerai un anneau puissant, <frère/sœur>.",
+   "progress": "Tu m'as apporté la bague et le matériel, <nom> ?",
+   "completion": "J'échangerai les pierres précieuses de la bague pour vous. Vous verrez que la pièce finie est beaucoup plus... agréable.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15498,
+     "name": "Imploratrice céleste Yessendra"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15498,
+     "name": "Imploratrice céleste Yessendra"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Honoré/Honorée",
+    "frère/sœur"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8701": {
+   "id": 8701,
+   "name": "L'anneau des ombres voilées",
+   "objectives": "Apporter 1 Anneau de cérémonie qiraji, 2 Idoles d’onyx, 5 Scarabées de pierre et 5 Scarabées de cristal à l’imploratrice céleste Yessendra, en Silithus. Vous devrez aussi être <Honoré/Honorée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Les anneaux portés par les lieutenants qiraji accordent, paraît-il, des pouvoirs fantastiques. Les gemmes corrompues qui les ornent pourraient, en théorie, être remplacées par des matériaux plus purs, pour créer des versions non corrompues des anneaux.\n\nLes pierres précieuses qui ornent les idoles qiraji conviendraient assez bien, car elles sont d’une qualité supérieure.\n\nApportez-moi un anneau et des idoles, et je vous créerai un anneau puissant, <classe>.",
+   "progress": "Vous m'avez apporté l'anneau et les matériaux, <nom> ?",
+   "completion": "Je vais changer la pierre qui est sertie sur l’anneau, pour que vous puissiez vous en servir. Vous verrez que ses effets seront bien plus… agréables.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15498,
+     "name": "Imploratrice céleste Yessendra"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15498,
+     "name": "Imploratrice céleste Yessendra"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Honoré/Honorée",
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8702": {
+   "id": 8702,
+   "name": "L'anneau des noms inexprimés",
+   "objectives": "Apporter 1 Anneau de cérémonie qiraji, 2 Idoles de jaspe, 5 Scarabées de pierre et 5 Scarabées de cristal à l’imploratrice céleste Yessendra, en Silithus. Vous devrez aussi être <Honoré/Honorée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Les anneaux portés par les lieutenants qiraji accordent, paraît-il, des pouvoirs fantastiques. Les gemmes corrompues qui les ornent pourraient, en théorie, être remplacées par des matériaux plus purs, pour créer des versions non corrompues des anneaux.\n\nLes pierres précieuses qui ornent les idoles qiraji conviendraient assez bien, car elles sont d’une qualité supérieure.\n\nApportez-moi un anneau et des idoles, et je vous créerai un anneau puissant, <classe>.",
+   "progress": "Vous m'avez apporté l'anneau et les matériaux, <nom> ?",
+   "completion": "Je vais changer la pierre qui est sertie sur l’anneau, pour que vous puissiez vous en servir. Vous verrez que ses effets seront bien plus… agréables.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15498,
+     "name": "Imploratrice céleste Yessendra"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15498,
+     "name": "Imploratrice céleste Yessendra"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Honoré/Honorée",
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8703": {
+   "id": 8703,
+   "name": "L'anneau de justice éternelle",
+   "objectives": "Apporter 1 Anneau de magistrat qiraji, 2 Idoles vermillon, 5 Scarabées d'argent et 5 Scarabées d'os à l’imploratrice céleste Yessendra, en Silithus. Vous devrez aussi être <Honoré/Honorée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Les anneaux portés par les lieutenants qiraji accordent, paraît-il, des pouvoirs fantastiques. Les gemmes corrompues qui les ornent pourraient, en théorie, être remplacées par des matériaux plus purs, pour créer des versions non corrompues des anneaux.\n\nLes pierres précieuses qui ornent les idoles qiraji conviendraient assez bien, car elles sont d’une qualité supérieure.\n\nApportez-moi un anneau et des idoles, et je vous créerai un anneau puissant, <classe>.",
+   "progress": "Tu m'as apporté la bague et le matériel, <nom> ?",
+   "completion": "J'échangerai la pierre précieuse de la bague pour vous. Vous trouverez l'effet beaucoup plus... agréable.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15498,
+     "name": "Imploratrice céleste Yessendra"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15498,
+     "name": "Imploratrice céleste Yessendra"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Honoré/Honorée",
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8704": {
+   "id": 8704,
+   "name": "La chevalière du sentier invisible",
+   "objectives": "Apporter 1 Anneau de cérémonie qiraji, 2 Idoles d’ambre, 5 Scarabées d’or et 5 Scarabées d'argile à l’imploratrice céleste Yessendra, en Silithus. Vous devrez aussi être <Honoré/Honorée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Les anneaux portés par les lieutenants qiraji accordent, paraît-il, des pouvoirs fantastiques. Les gemmes corrompues qui les ornent pourraient, en théorie, être remplacées par des matériaux plus purs, pour créer des versions non corrompues des anneaux.\n\nLes pierres précieuses qui ornent les idoles qiraji conviendraient assez bien, car elles sont d’une qualité supérieure.\n\nApportez-moi un anneau et des idoles, et je vous créerai un anneau puissant, <classe>.",
+   "progress": "Vous m'avez apporté l'anneau et les matériaux, <nom> ?",
+   "completion": "Je vais changer la pierre qui est sertie sur l’anneau, pour que vous puissiez vous en servir. Vous verrez que ses effets seront bien plus… agréables.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15498,
+     "name": "Imploratrice céleste Yessendra"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15498,
+     "name": "Imploratrice céleste Yessendra"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Honoré/Honorée",
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8705": {
+   "id": 8705,
+   "name": "Le marteau de sagesse infinie",
+   "objectives": "Apporter 1 Manche orné qiraji, 2 Idoles brillantes, 5 Scarabées en bronze et 5 Scarabées d'ivoire au Gardien Haro, en Silithus. Vous devrez aussi être <Exalté/Exaltée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Les Qiraji et leurs serviteurs manient des objets façonnés dans les matériaux les plus rares et les plus luxueux : des os de créatures anciennes gargantuesques, des pierres précieuses extraites des profondeurs de la terre, des métaux purs et résistants.\n\nLa simple vue d'artefacts qiraji me donne une envie folle de pratiquer mon art en utilisant leurs pièces brisées ou fondues. Si vous prouvez votre allégeance au Cercle, <nom>, je vous fabriquerai une arme puissante dans les matériaux qiraji les plus fins.",
+   "progress": "M'avez-vous apporté les composants dont j'ai besoin, <nom> ?",
+   "completion": "Vous avez bien fait, <classe>. C'est un travail de maître... l'équilibre est parfait.\n\nPrenez votre arme, <nom>. Maniez-la avec confiance et vainquez nos ennemis !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15499,
+     "name": "Gardien Haro"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15499,
+     "name": "Gardien Haro"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Exalté/Exaltée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8706": {
+   "id": 8706,
+   "name": "Le marteau de la tempête imminente",
+   "objectives": "Apporter 1 Manche à pointes qiraji, 2 Idoles d’ambre, 5 Scarabées d’ivoire et 5 Scarabées en bronze au Gardien Haro, en Silithus. Vous devrez aussi être <Exalté/Exaltée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Les Qiraji et leurs serviteurs manient des objets façonnés dans les matériaux les plus rares et les plus luxueux : des os de créatures anciennes gargantuesques, des pierres précieuses extraites des profondeurs de la terre, des métaux purs et résistants.\n\nLa simple vue d'artefacts qiraji me donne une envie folle de pratiquer mon art en utilisant leurs pièces brisées ou fondues. Si vous prouvez votre allégeance au Cercle, <nom>, je vous fabriquerai une arme puissante dans les matériaux qiraji les plus fins.",
+   "progress": "M'avez-vous apporté les composants dont j'ai besoin, <nom> ?",
+   "completion": "Vous avez bien fait, <classe>. C'est un travail de maître... l'équilibre est parfait.\n\nPrenez votre arme, <nom>. Maniez-la avec confiance et vainquez nos ennemis !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15499,
+     "name": "Gardien Haro"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15499,
+     "name": "Gardien Haro"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "horde",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Exalté/Exaltée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8707": {
+   "id": 8707,
+   "name": "La lame des secrets scellés",
+   "objectives": "Apporter 1 Manche orné qiraji, 2 Idoles d’obsidienne, 5 Scarabées d’argent et 5 Scarabées d’os au Gardien Haro, en Silithus. Vous devrez aussi être <Exalté/Exaltée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Les Qiraji et leurs serviteurs manient des objets façonnés dans les matériaux les plus rares et les plus luxueux : des os de créatures anciennes gargantuesques, des pierres précieuses extraites des profondeurs de la terre, des métaux purs et résistants.\n\nLa simple vue d'artefacts qiraji me donne une envie folle de pratiquer mon art en utilisant leurs pièces brisées ou fondues. Si vous prouvez votre allégeance au Cercle, <nom>, je vous fabriquerai une arme puissante dans les matériaux qiraji les plus fins.",
+   "progress": "M'avez-vous apporté les composants dont j'ai besoin, <nom> ?",
+   "completion": "Vous avez bien fait, <classe>. C'est un travail de maître... l'équilibre est parfait.\n\nPrenez votre arme, <nom>. Maniez-la avec confiance et vainquez nos ennemis !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15499,
+     "name": "Gardien Haro"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15499,
+     "name": "Gardien Haro"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Exalté/Exaltée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8708": {
+   "id": 8708,
+   "name": "La masse de vie interminable",
+   "objectives": "Apporter 1 Manche orné qiraji, 2 Idoles de jaspe, 5 Scarabées de cristal et 5 Scarabées de pierre au Gardien Haro, en Silithus. Vous devrez aussi être <Exalté/Exaltée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Les Qiraji et leurs serviteurs manient des objets façonnés dans les matériaux les plus rares et les plus luxueux : des os de créatures anciennes gargantuesques, des pierres précieuses extraites des profondeurs de la terre, des métaux purs et résistants.\n\nLa simple vue d'artefacts qiraji me donne une envie folle de pratiquer mon art en utilisant leurs pièces brisées ou fondues. Si vous prouvez votre allégeance au Cercle, <nom>, je vous fabriquerai une arme puissante dans les matériaux qiraji les plus fins.",
+   "progress": "M'avez-vous apporté les composants dont j'ai besoin, Bueno ?",
+   "completion": "Vous avez bien fait, <classe>. C'est un travail de maître... l'équilibre est parfait.\n\nPrenez votre arme, <nom>. Maniez-la avec confiance et vainquez nos ennemis !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15499,
+     "name": "Gardien Haro"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15499,
+     "name": "Gardien Haro"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Exalté/Exaltée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8709": {
+   "id": 8709,
+   "name": "La dague des ombres voilées",
+   "objectives": "Apporter 1 Manche à pointes qiraji, 2 Idoles vermillon, 5 Scarabées d’or et 5 Scarabées d’argile au Gardien Haro, en Silithus. Vous devrez aussi être <Exalté/Exaltée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Les Qiraji et leurs serviteurs manient des objets façonnés dans les matériaux les plus rares et les plus luxueux : des os de créatures anciennes gargantuesques, des pierres précieuses extraites des profondeurs de la terre, des métaux purs et résistants.\n\nLa simple vue d'artefacts qiraji me donne une envie folle de pratiquer mon art en utilisant leurs pièces brisées ou fondues. Si vous prouvez votre allégeance au Cercle, <nom>, je vous fabriquerai une arme puissante dans les matériaux qiraji les plus fins.",
+   "progress": "M'avez-vous apporté les composants dont j'ai besoin, <nom> ?",
+   "completion": "Vous vous êtes bien débrouillé, <classe>. Ce manche est un véritable chef-d’œuvre… L’équilibrage est parfait.\n\nPrenez votre arme, <nom>. Maniez-la avec assurance et triomphez de nos ennemis !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15499,
+     "name": "Gardien Haro"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15499,
+     "name": "Gardien Haro"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Exalté/Exaltée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8710": {
+   "id": 8710,
+   "name": "Le kriss des noms inexprimés",
+   "objectives": "Apporter 1 Manche orné qiraji, 2 Idoles d'onyx, 5 Scarabées d’or et 5 Scarabées d’argile au Gardien Haro, en Silithus. Vous devrez aussi être <Exalté/Exaltée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Les Qiraji et leurs serviteurs manient des objets façonnés dans les matériaux les plus rares et les plus luxueux : des os de créatures anciennes gargantuesques, des pierres précieuses extraites des profondeurs de la terre, des métaux purs et résistants.\n\nLa simple vue d'artefacts qiraji me donne une envie folle de pratiquer mon art en utilisant leurs pièces brisées ou fondues. Si vous prouvez votre allégeance au Cercle, <nom>, je vous fabriquerai une arme puissante dans les matériaux qiraji les plus fins.",
+   "progress": "M'avez-vous apporté les composants dont j'ai besoin, <nom> ?",
+   "completion": "Vous avez bien fait, <classe>. C'est un travail de maître... l'équilibre est parfait.\n\nPrenez votre arme, <nom>. Maniez-la avec confiance et vainquez nos ennemis !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15499,
+     "name": "Gardien Haro"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15499,
+     "name": "Gardien Haro"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Exalté/Exaltée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8711": {
+   "id": 8711,
+   "name": "La lame de justice éternelle",
+   "objectives": "Apporter 1 Manche à pointes qiraji, 2 Idoles d'ambre, 5 Scarabées en bronze et 5 Scarabées d'ivoire au Gardien Haro, en Silithus. Vous devrez aussi être <Exalté/Exaltée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Les Qiraji et leurs serviteurs manient des objets façonnés dans les matériaux les plus rares et les plus luxueux : des os de créatures anciennes gargantuesques, des pierres précieuses extraites des profondeurs de la terre, des métaux purs et résistants.\n\nLa simple vue d'artefacts qiraji me donne une envie folle de pratiquer mon art en utilisant leurs pièces brisées ou fondues. Si vous prouvez votre allégeance au Cercle, <nom>, je vous fabriquerai une arme puissante dans les matériaux qiraji les plus fins.",
+   "progress": "M'avez-vous apporté les composants dont j'ai besoin, <nom> ?",
+   "completion": "Vous avez bien fait, <classe>. C'est un travail de maître... l'équilibre est parfait.\n\nPrenez votre arme, <nom>. Maniez-la avec confiance et vainquez nos ennemis !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15499,
+     "name": "Gardien Haro"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15499,
+     "name": "Gardien Haro"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Exalté/Exaltée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8712": {
+   "id": 8712,
+   "name": "La faux du sentier invisible",
+   "objectives": "Apporter 1 Manche à pointes qiraji, 2 Idoles azur, 5 Scarabées d’argent et 5 Scarabées d’os au Gardien Haro, en Silithus. Vous devrez aussi être <Exalté/Exaltée> par le Cercle cénarien pour terminer cette quête.",
+   "description": "Les Qiraji et leurs serviteurs manient des objets façonnés dans les matériaux les plus rares et les plus luxueux : des os de créatures anciennes gargantuesques, des pierres précieuses extraites des profondeurs de la terre, des métaux purs et résistants.\n\nLa simple vue d'artefacts qiraji me donne une envie folle de pratiquer mon art en utilisant leurs pièces brisées ou fondues. Si vous prouvez votre allégeance au Cercle, <nom>, je vous fabriquerai une arme puissante dans les matériaux qiraji les plus fins.",
+   "progress": "M'avez-vous apporté les composants dont j'ai besoin, <nom> ?",
+   "completion": "Vous avez bien fait, <classe>. C'est un travail de maître... l'équilibre est parfait.\n\nPrenez votre arme, <nom>. Maniez-la avec confiance et vainquez nos ennemis !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15499,
+     "name": "Gardien Haro"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15499,
+     "name": "Gardien Haro"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Exalté/Exaltée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8784": {
+   "id": 8784,
+   "name": "Les secrets des Qiraji",
+   "objectives": "Remettre l’Ancien artefact qiraji aux dragons qui se cachent près de l’entrée du temple.",
+   "description": "Vous avez découvert un antique artefact qiraji ! L’un des dragons qui se trouve près de l’entrée du temple saura peut-être quoi en faire.",
+   "progress": "Vous brillez ! Je sais ce que cela signifie…",
+   "completion": "Une trouvaille exceptionnelle, <nom>. Tout simplement merveilleuse. Cela va nous donner une idée de la manière dont fonctionne l’esprit malade de notre ennemi.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 21230,
+     "name": "Ancient Qiraji Artifact"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15502,
+     "name": "Andorgos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8789": {
+   "id": 8789,
+   "name": "Les armes impériales qiraji",
+   "objectives": "Arygos, dans le temple d’Ahn’Qiraj, vous fabriquera des armes imprégnées d’élémentium si vous lui procurez des Armes impériales qiraji et 3 Minerais d’élémentium.",
+   "description": "Nous ne sommes pas restés inactifs pendant un millénaire, <nom>.\n\nNous avons vu ces bêtes dévorer ceux des leurs qui ne leur semblaient plus utiles. Nous les avons écoutées alors qu’elles préparaient la destruction de notre monde. Et nous avons appris qu’elles connaissaient la trahison.\n\nDes faiblesses existent dans leurs rangs. Nous saurons comment les utiliser à notre avantage.\n\nAllez et trouvez-moi leurs armes de cérémonie. Combinées avec des éléments créés grâce à leur dieu volatil, elles deviendront une force de justice.",
+   "progress": "Allez chercher ce que je vous ai demandé. Vous deviendrez quelque chose de plus que la simple somme de vos éléments, champion.",
+   "completion": "Une fois imprégnées d’élementium, ces armes n’auront aucun mal à frapper les Qiraji et leur dieu.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15380,
+     "name": "Arygos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15380,
+     "name": "Arygos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8790": {
+   "id": 8790,
+   "name": "L'équipement impérial qiraji",
+   "objectives": "Merithra du Rêve, au temple d’Ahn’Qiraj, vous fabriquera des armes imprégnées d’élémentium si vous lui ramenez un Equipement impérial qiraji et 3 Minerais d’élémentium.",
+   "description": "À en croire les théories d’Arygos, l’élément qui naît des conflits entre les Dieux très anciens et leurs séides peut devenir redoutable pour eux lorsque toutes les conditions sont réunies. Je parle de l’élémentium, <mortel/mortelle>.\n\nTrouvez-moi un Equipement impérial qiraji et cet élément toxique. Je vous fabriquerai des armes d’un grand pouvoir.",
+   "progress": "Vous les abattrez et vous nous libérerez de ces liens.",
+   "completion": "N’utilisez cet objet qu’à bon escient, <nom>. Qu’ils ressentent la douleur qu’ils infligent si volontiers.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15378,
+     "name": "Merithra du Rêve"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15378,
+     "name": "Merithra du Rêve"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mortel/mortelle"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8801": {
+   "id": 8801,
+   "name": "L'héritage de C'Thun",
+   "objectives": "Remettre l’Oeil de C’Thun a Caelastrasz, dans le temple d’Ahn’Qiraj.",
+   "description": "Les murs d'Ahn'Qiraj tremblent. Une force maléfique plus vieille que ce monde a été détruite.\n\nAlors que vous contemplez les restes de cette abomination colossale, votre sang se glace. Même après sa mort, l'héritage de C'Thun reste perceptible dans le mal qui vous entoure.\n\nVous avez accompli l'impossible.\n\nVous vous emparez d'un œil pédonculé et le glissez dans votre sac à dos.\n\nApportez-le aux dragons qui se trouvent dans la pièce voisine.",
+   "progress": "<Caelastrasz s’agenouille devant vous. >\n\nMonseigneur <nom>, vous nous avez libérés de ses griffes.",
+   "completion": "Nous quitterons cet endroit par nos propres moyens, monseigneur <nom>, dès que nous serons certains que le mal qu’il renferme a été entièrement détruit. Votre voyage de légende touche à son terme.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 21221,
+     "name": "Eye of C'Thun"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15379,
+     "name": "Caelestrasz"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8802": {
+   "id": 8802,
+   "name": "Le sauveur de Kalimdor",
+   "objectives": "Apporter l’Oeil de C’Thun à Anachronos dans les grottes du Temps.",
+   "description": "Rendez-vous dans les grottes du Temps, <monseigneur/dame> <nom>. Anachronos attend votre retour. Donnez-lui l'œil de C'Thun. Il lui donnera certainement une place d'honneur dans la collection de son maître.",
+   "progress": "Seigneur <nom> ! C’est fini…",
+   "completion": "Le Maître a laissé ceci pour vous, champion. De sa cache intemporelle, une collection d’artefacts couvrant des milliers d’années – le choix vous appartient.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15379,
+     "name": "Caelestrasz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15192,
+     "name": "Anachronos"
+    }
+   ],
+   "zone_id": 3428,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "monseigneur/dame",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}
