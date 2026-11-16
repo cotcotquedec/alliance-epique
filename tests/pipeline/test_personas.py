@@ -160,3 +160,10 @@ def test_a_verified_sex_is_a_fact_never_overridden(data_dir):
     personas.generate(jobs, voices, workers=1, call=fake_call(), log=lambda *_: None)  # Claude answers "male"
     saved = storage.read_json(data_dir / "voices.json")["npcs"]["733"]["persona"]
     assert saved["sex"] == "female" and saved["sex_evidence"] == "model"
+
+
+def test_todo_empty_only_means_no_npc(data_dir):
+    voices = personas.load_voices()
+    # a zone with no speaking NPC passes an empty set: nothing to generate, never every NPC (2026-11-16: 717 by mistake)
+    assert personas.todo({823: NPC}, QUESTS, {823: ["Forêt d'Elwynn"]}, voices, only=set()) == []
+    assert len(personas.todo({823: NPC}, QUESTS, {823: ["Forêt d'Elwynn"]}, voices, only=None)) == 1

@@ -2476,10 +2476,10 @@
   "79358": {
    "id": 79358,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Récupérez 5 totems de feu tordus, 5 totems de terre tordus, 5 totems d’air tordus et 5 totems d’eau tordus pour Veyric Hametonne dans les hautes-terres Arathies.\n\nObjet fourni :",
+   "description": "Inonder les Mille pointes n’est pas une mince affaire, <nom>. Si je n’avais pas senti la fureur des éléments, jamais je n’y aurais cru. Et pourtant, nous y voilà.\n\nLes Hurans ne sont pas les premiers à se servir des éléments comme d’une arme, sans faire preuve de la moindre prudence. Si nous voulons préparer le rituel pour les contrer, il nous faut mieux comprendre ces éléments distordus. Prenez ce livre. Il décrit les nombreux peuples d’Azeroth et leur manière de pratiquer le chamanisme.\n\nSi vous parvenez à apprendre d’eux, peut-être trouverons-nous une solution.",
    "progress": null,
-   "completion": null,
+   "completion": "<Humph… le grand Tauren grogne en lisant le parchemin.>\n\nUne chose est sûre… la personne qui a écrit ce message a bien raison de dire que leurs préparatifs sont passés inaperçus. Nous avons été trop occupés à régler le problème des Centaures et des harpies pour envoyer des coursiers et coursières du vent patrouiller dans le canyon et sur les falaises.\n\nVous avez toute notre gratitude pour nous avoir alertés de cette menace, mais nous pourrions encore avoir besoin d’aide.",
    "starters": [
     {
      "type": "npc",
@@ -2509,19 +2509,28 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
@@ -2845,10 +2854,10 @@
   "94373": {
    "id": 94373,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Apportez 2 pendentifs d’ours crins-de-givre à Teo Martel-tempête, à Courbenclume.",
+   "description": "L’heure est venue, jeune <chaman/chamane>. Vous êtes à présent <fort/forte> et robuste, comme la pierre sous nos bottes. Suivre la voie du chamanisme prouve que vous détenez la sagesse de la montagne, avant même de faire vos preuves. Et que vous avez la ténacité de la pierre car vous avez choisi la terre.\n\nMais pour gagner sa faveur, vous devez lui faire face. Les Trolls crins-de-givre vivent dans une grotte au sud d’ici.\n\nApportez-moi deux des colliers qu’ils portent, fabriqués à partir des ours griffeglaces. Alors, nous parlerons de votre avenir.",
    "progress": null,
-   "completion": null,
+   "completion": "Bien joué, mon garçon. Vous avez fait vos preuves, vous êtes prêt. La terre est le fondement de toute chose : la force, l’endurance, la patience. Elle vous protégera, mais seulement si vous la respectez. Même la pierre peut bouger si on la bouscule. Découvrez ses secrets, vous n’en serez que plus sage. N’oubliez jamais ce qu’elle partage avec vous.\n\nVous allez maintenant fabriquer un sapta… Acceptez-le et vous pourrez suivre la vraie voie.",
    "starters": [
     {
      "type": "npc",
@@ -2873,29 +2882,39 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "chaman/chamane",
+    "fort/forte"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "94374": {
    "id": 94374,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Trouvez la pierre d’esprit et buvez le sapta de terre.\n\nObjet fourni :",
+   "description": "Oui, le sapta est un breuvage forgé par la magie, qui lie notre esprit aux éléments. Seule une poignée de chamans en connaît la recette, et croyez-moi, il n’est pas pour les âmes sensibles. Buvez-le et vous verrez ce que les autres ne peuvent pas voir. Mais attention… ça ne se boit que dans un lieu sacré.\n\nFilez au nord, jusqu’au rocher des esprits. Il se trouve au bout d’un sentier caché, en haut de la montagne. Buvez le sapta là-bas… et voyez ce que la terre a à vous montrer.",
    "progress": null,
-   "completion": null,
+   "completion": "Ah… Bruenor… La terre vous souhaite la bienvenue, même sur ces terres gelées. Lié corps et âme, vous avancerez sachant que les montagnes sont votre force, les plaines votre patience, et le monde votre essence.\n\nPour réussir ce rituel, présentez-vous avec humilité devant la terre. Les autres éléments ne sont pas si tranquilles, ils s’affrontent et grondent. Découvrez leur dualité, même ici, au milieu de la neige et des pierres.",
    "starters": [
     {
      "type": "npc",
@@ -2926,23 +2945,30 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "94375": {
    "id": 94375,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Apportez le quartz brut à Teo Martel-tempête, à Courbenclume.",
+   "description": "Prenez ce quartz brut et apportez-le à Teo Martel-tempête. Il attestera de notre rencontre. Il créera un totem pour vous, et ce caillou en sera le cœur. Aussi petit qu’il puisse paraître, vous comprendrez avec le temps que la taille importe peu, et que même la plus petite des choses peut survivre à bien d’autres.\n\nSoyez <patient/patiente>, <nom>. Restez <fort/forte>. Et recherchez la sagesse. C’est ce que la terre attend de vous. À la fin, vous ne ferez plus qu’un avec elle. Respectez-la comme elle vous respecte.",
    "progress": null,
-   "completion": null,
+   "completion": "Bien joué ! Et retenez bien ceci : les totems ne sont pas qu’une marque de rang chez les chamans. Ce sont des outils, un point d’ancrage pour les sorts liés à la pierre, à la terre et aux autres éléments. À mesure que vous gagnerez en sagesse, le pouvoir de la montagne s’ouvrira un peu plus à vous. Les maîtres et maîtresses sauront quand le moment sera venu de vous en apprendre plus. Mais pour l’heure, prenez ce totem, et laissez la terre parler à travers vous.",
    "starters": [
     {
      "type": "npc",
@@ -2972,27 +2998,38 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "fort/forte",
+    "nom",
+    "patient/patiente"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "94449": {
    "id": 94449,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Trouvez Bruegs Flammené en Dun Morogh.",
+   "description": "Vot’ dernière épreuve r’monte à longtemps, <nom>. Z’avez fait preuve de patience, pour sûr, mais il est désormais temps pour vous d’en apprendre un peu plus sur l’chaos… et la destruction. L’appel du feu est fort et si vous êtes <prêt/prête> à en payer l’prix, il vous parl’ra.\n\nCherchez Bruegs Flammené, loin à l’est, dans les montagnes. Il habite dans une caverne au-d’ssus de l’avant-poste de la Porte sud. Il saura si vous êtes vraiment <prêt/prête>.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -3024,27 +3061,35 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom",
+    "prêt/prête"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "94465": {
    "id": 94465,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Apportez la torche de la flamme dormante à Braldir Houppecendre au Loch Modan.",
+   "description": "Ouais, z’avez la force de porter l’totem du feu, <gamin/gamine>, mais c’est pas avec la force seule que vous s’rez <prêt/prête>.\n\nAu-d’là d’la vallée des Rois, dans les combes du Loch Modan, vous trouv’rez un sentier caché vers l’un d’nos pics sacrés. Braldir Houppecendre y garde l’Autel d’la flamme dormante.\n\nApportez-lui cet’ torche. Elle montrera votre résolution. Rapportez-la allumée au brasero de l’Autel et je f’rai en sorte que vous obteniez le totem comme il se doit.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -3071,27 +3116,35 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "gamin/gamine",
+    "prêt/prête"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "94466": {
    "id": 94466,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Apportez 1 échantillon de goudron de feu et 1 bourse de réactifs à Braldir Houppecendre au Loch Modan.",
+   "description": "Bah, vous avez pas fait toute cette route pour entendre des histoires, hein, <nom> ? Vous cherchez la flamme éternelle et le totem du feu.\n\nPour commencer, il vous faudra un sapta pour lier votre esprit à la flamme.\n\nJe vais l’fabriquer, mais il va m’falloir deux choses : du goudron d’feu des rats des tunnels géomanciens qui vivent dans les grottes des Kobolds au nord et une bourse de réactifs que vous trouverez sur un prophète Brisepierre dans les collines du sud. C’est un boulot dang’reux, mais digne de la flamme.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -3118,27 +3171,34 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "94467": {
    "id": 94467,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Éliminez la manifestation de feu mineure, et placez sa braise rougeoyante dans le brasero, en haut de l’Autel de la flamme éternelle.",
+   "description": "Le sapta d’feu est prêt, <nom>. Maintenant, vous d’vez faire façe à la flamme. Utilisez-la sur l’autel, puis escaladez la montagne jusqu’au sommet. Vous y trouv’rez l’esprit. Il vous frappera pas avant que vous n’lui portiez l’premier coup, mais il saura qu’vous l’voyez.\n\nFrappez vite, <gamin/gamine>. Plus vous attendrez, plus il brûlera fort. Quand il tomb’ra, prenez ses braises rougeoyantes et placez-les dans l’brasero. Allumez la torche et vous aurez mérité la faveur de la flamme.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -3165,27 +3225,35 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "gamin/gamine",
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "94468": {
    "id": 94468,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Apportez la torche de la flamme éternelle à Bruegs Flammené en Dun Morogh.",
+   "description": "La torche fermement en main, vous vous détournez du brasero et embrassez le Loch Modan du regard. Vous sentez la fièvre battre dans votre esprit tandis que le vent avive les flammes qui dansent furieusement.\n\nVous prenez le chemin du retour en Dun Morogh pour trouver Bruegs Flammené.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -3218,23 +3286,28 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "94472": {
    "id": 94472,
    "name": null,
-   "objectives": null,
+   "objectives": "Parlez à Teo Martel-tempête pour obtenir un autre sapta de terre.",
    "description": null,
    "progress": null,
-   "completion": null,
+   "completion": "Prenez ceci et n’oubliez pas qu’un sapta est sacré !",
    "starters": [
     {
      "type": "npc",
@@ -3265,12 +3338,18 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
     "description"
    ],
    "status": "incomplete"
@@ -3278,8 +3357,8 @@
   "94473": {
    "id": 94473,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Parlez à Braldir Houppecendre pour obtenir un autre sapta de feu.",
+   "description": "Vous recevrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": null,
    "starters": [
@@ -3312,13 +3391,18 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
@@ -3328,7 +3412,7 @@
    "objectives": null,
    "description": null,
    "progress": null,
-   "completion": null,
+   "completion": "Les vents soufflent dans vot’ dos, la pierre est solide sous vos bottes et le feu dans vos entrailles brûle avec vigueur. Ouais, il est temps pour vous d’apprendre la pureté d’l’eau. Votre route a été longue, mais c’est vot’ esprit qui continuera à vous faire aller de l’avant. Allez-y, faites le premier pas. La montagne n’attend personne.",
    "starters": [
     {
      "type": "npc",
@@ -3359,8 +3443,13 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "completion": "wowdata"
+    },
+    "origins": {
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
@@ -3372,10 +3461,10 @@
   "94495": {
    "id": 94495,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Trouvez Hervdana Saegrund dans les Paluns.",
+   "description": "Si y a bien un truc que vous d’vez apprendre sur l’eau, c’est ça : l’eau, c’est la renaissance. Elle sculpte la pierre, purifie la saleté et soigne les blessés, mais seul’ment quand elle est pure. Si vous la souillez, elle corrompra tout ce qu’elle touche\n\nTrouvez Hervdana Saegrund dans les Paluns si vous recherchez le sapta de l’eau. Sa famille habite dans une grotte située sous les chutes du sud.\n\nAllez-y, ne laissez pas la rivière vous prendre de vitesse.",
    "progress": null,
-   "completion": null,
+   "completion": "Ouais, j’le vois dans vos yeux, <race>. Vous vous d’mandez quelle sorte d’âme choisit d’vivre ici, au cœur des Paluns, avec toutes ces vermines de Sombrefer qui rôdent dans les parages et pas le moindre garde en vue. Eh ben, on a toutes et tous nos raisons, mon cher.\n\nMais la vraie question c’est : qu’est-ce qui vous amène chez nous ? Ici, au bord des cascades, j’imagine que nous connaissons tous les deux la réponse.",
    "starters": [
     {
      "type": "npc",
@@ -3406,13 +3495,20 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
@@ -3422,7 +3518,7 @@
    "objectives": null,
    "description": null,
    "progress": null,
-   "completion": null,
+   "completion": "Ravie que vous ayez réussi à échapper aux Sombrefer. Quel dommage qu’ils aient réussi à se faufiler si loin au nord. On se demande vraiment ce que le peuple <race> pourrait accomplir si les clans arrêtaient un jour de se chamailler et travaillaient de concert.\n\nQuoi qu’il en soit, les marées montent haut lorsque les lunes sont fortes, et l’eau salée envahit alors le marais. C’est là que nous étudions nos eaux estuariennes.\n\nMerci pour cette offrande sacrée. Elle marque le commencement de votre voyage en tant que réceptacle, en quête de la sagesse de l’eau.",
    "starters": [
     {
      "type": "npc",
@@ -3453,8 +3549,13 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "completion": "wowdata"
+    },
+    "origins": {
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
@@ -3465,11 +3566,11 @@
   },
   "94499": {
    "id": 94499,
-   "name": null,
-   "objectives": null,
-   "description": null,
+   "name": "L’appel de l’eau",
+   "objectives": "Remplissez l’outre rouge vide aux chutes de Guet-de-Pierre près des Murlocs marcheurs de l’ombre et retournez voir Hervdana Saegrund dans les Paluns.",
+   "description": "Ouais, les Carmines s’abreuvent abondamment du lac Placide, mais des créatures s’y infiltrent avant que les eaux ne tombent des chutes de Guet-de-Pierre. Les Murlocs en contrebas sont de grosses brutes corrompues. Pas du tout comme ceux que vous trouvez ici ou au Loch. Heureusement pour les villageois, ils restent au pied des cascades.\n\nRapportez-moi un échantillon. Je compte bien découvrir si c’est la magie, le venin ou quelque chose de pire qui souille les eaux près de ce vieux fort.",
    "progress": null,
-   "completion": null,
+   "completion": "Ah oui, ça c’est de la bonne eau, Raginn. La magie que les prophètes de l’ombre utilisent dans la région doit transformer les Murlocs. L’eau que vous m’avez rapportée n’est rien d’autre que de l’eau parfaitement pure. Votre dévouement envers cette tâche et votre capacité à aller chercher ce dont les autres ont besoin prouvent que vous êtes prêt pour la prochaine étape de votre parcours.\n\nJe n’ai besoin que d’un échantillon supplémentaire pour créer le réactif nécessaire à la confection de votre sapta. Norric en sera également ravi.",
    "starters": [
     {
      "type": "npc",
@@ -3500,15 +3601,23 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache",
+     "completion": "wowdata"
+    },
+    "client_cache": 70938,
+    "wowdata": "db-1ef9f3cb9a92"
    },
-   "missing": [
-    "name",
-    "objectives",
-    "description"
-   ],
-   "status": "incomplete"
+   "missing": [],
+   "status": "complete"
   },
   "94500": {
    "id": 94500,
@@ -3749,7 +3858,7 @@
    "id": 94616,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Vous recevrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": null,
    "starters": [
@@ -3782,13 +3891,17 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3841,9 +3954,9 @@
   },
   "96016": {
    "id": 96016,
-   "name": null,
-   "objectives": null,
-   "description": null,
+   "name": "Les armes de la tempête",
+   "objectives": "Remettez l’œil de la tempête à Bath’rah la Vigie des vents, dans les montagnes d’Alterac.",
+   "description": "C’est du beau travail. J’vois bien que vous attendez une récompense. Le problème, c’est que j’suis plutôt un genre d’ascète, voyez ?\n\n<Veyric désigne d’un large geste ce coin reculé.>\n\nMais j’ai p’têt une idée. Y paraît qu’un Troll appelé la Vigie des Vents vit quelque part dans les montagnes d’Alterac. Un chaman extrêmement puissant et un expert des élémentaires de tempête, par-dessus l’marché. Si vous lui apportez ce noyau élémentaire, j’parie qu’il pourra vous fabriquer une arme digne de votre victoire.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -3876,21 +3989,26 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "origins": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "client_cache": 70938
    },
-   "missing": [
-    "name",
-    "objectives",
-    "description"
-   ],
-   "status": "incomplete"
+   "missing": [],
+   "status": "complete"
   },
   "96135": {
    "id": 96135,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Utilisez les totems tordus pour mettre un terme au rituel des Hurans.",
+   "description": "Beurk, le simple fait d’me tenir à côté de ces totems me file la chair de poule… mais ça va l’faire. On va avoir b’soin d’un paquet de cette corruption pour invoquer les élémentaires des Hurans.\n\nAllez aux Mille pointes et trouvez un lieu où installer vos défenses. Les bassins de Vapeur d’vraient faire l’affaire. On y trouve de la terre, du feu, de l’eau et de l’air à foison. Placez ces totems et préparez-vous à en découvre. Les Tranchecrins risquent de n’pas apprécier que vous vous mêliez de leurs oignons.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -3923,13 +4041,18 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
@@ -4071,10 +4194,10 @@
   "97243": {
    "id": 97243,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Apportez la torche de la flamme dormante à Olariaan Vivebrûle au sanctuaire des Flammes, dans les plaines Aérelles.",
+   "description": "Même si nous nous trouvons dans le royaume de Mur-Céleste, cela reste le plan élémentaire. Les esprits des quatre éléments nous parlent, pour peu que nous prenions le temps de les écouter. Parmi les Sculpte-vents, l’un d’entre nous est particulièrement en harmonie avec l’élément du feu : un Shen’dorei du nom d’Olariaan Vivebrûle.\n\nApportez-lui ceci au sanctuaire des Flammes, dans les plaines Aérelles. Vous le trouverez à l’écart, sur le bord de l’île, à l’ouest de Valanaar.",
    "progress": null,
-   "completion": null,
+   "completion": "Je vois que vous avez apporté la torche. Oui, jeune <classe>, je peux vous apprendre à répondre à l’appel du feu. Ce ne sera pas facile, mais rien de ce que nous accomplissons dans ce royaume ne l’est jamais.",
    "starters": [
     {
      "type": "npc",
@@ -4110,23 +4233,30 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "97244": {
    "id": 97244,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Tuez le prêtre céleste Faladiel dans les plaines Aérelles, puis récupérez son cœur.",
+   "description": "Il existe un prêtre céleste al’aketh du nom de Faladiel. Autrefois, il répondait à l’appel des flammes et comptait parmi les plus fidèles Sculpte-vents. Comme tant d’autres Al’Aketh, il a troqué sa loyauté contre le pouvoir, et ses mains sont désormais tachées du sang de ses anciens frères et sœurs.\n\nVous trouverez le prêtre céleste Faladiel à la ferme située au nord-est de Valanaar, juste au sud du sanctuaire d’Akir. Tuez ce traître et rapportez-moi son cœur. C’est une tâche macabre, mais elle est nécessaire au rituel que nous nous apprêtons à accomplir.",
    "progress": null,
-   "completion": null,
+   "completion": "Les Sculpte-vents n’oublient jamais, et le sang se paie toujours par le sang. Je suis heureuse que vous ayez pu rappeler à ce traître, dans la douleur, ce dernier précepte de notre crédo.\n\nMais ce cœur ne sera pas le seul à nourrir les flammes aujourd’hui. Il reste encore une tâche à accomplir.",
    "starters": [
     {
      "type": "npc",
@@ -4157,23 +4287,30 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "97245": {
    "id": 97245,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Trouvez le repaire de Kuramaa dans les hautes-terres de Shen’dar et vainquez l’esprit au combat. Une fois <victorieux/victorieuse>, rapportez le masque de Kuramaa à Olariaan Vivebrûle dans les plaines Aérelles.",
+   "description": "Les habitants des hautes-terres de Shen’dar parlent d’un ancien esprit de la forêt nommé Kuramaa. On raconte qu’il vit dans une souche noueuse, au sommet d’une colline près du pylône d’ancrage des hautes-terres.\n\nRendez-vous dans les hautes-terres et trouvez cette souche. Frappez son écorce du poing, et Kuramaa apparaîtra. Vainquez l’esprit au combat et rapportez-moi son masque de bois.\n\nMais prenez garde : cette entité est exceptionnellement résistante à la plupart de vos sorts. Seules les flammes pourront venir à bout de cet esprit.",
    "progress": null,
-   "completion": null,
+   "completion": "Nous avons désormais tout ce qu’il nous faut. Nous allons allumer la flamme éternelle et communier avec les esprits du feu.",
    "starters": [
     {
      "type": "npc",
@@ -4198,29 +4335,38 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "victorieux/victorieuse"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "97257": {
    "id": 97257,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Attendez qu’Olariaan commence le rituel au brasero d’offrande, puis suivez ses instructions.\n\nVous devez remettre la flamme éternelle à Valanaar avant la fin du temps imparti.",
+   "description": "Nous allons maintenant accomplir le rituel.\n\nJe vais déposer les ingrédients sur l’autel et invoquer les esprits de la flamme. Si notre offrande est acceptée, ils apparaîtront et allumeront la flamme éternelle. Vous tendrez alors votre torche pour y recueillir la flamme.\n\nPortez la torche enflammée jusqu’à Valanaar et placez-la dans le brasero des flammes éternelles. Faites vite : les flammes des terres de Feu se dissipent rapidement ici, à Mur-Céleste.",
    "progress": null,
-   "completion": null,
+   "completion": "C’est fait. La flamme éternelle brûle à nouveau.\n\nVotre épreuve est maintenant terminée. J’ai le plaisir de vous remettre votre totem de feu. Puissiez-vous faire bon usage de ce symbole de pouvoir au cours de vos voyages, Tata.\n\nN’oubliez jamais ceci : le pouvoir du plan élémentaire sert celles et ceux qui le respectent, mais consume quiconque s’en montre indigne. Telle est notre voie.",
    "starters": [
     {
      "type": "npc",
@@ -4251,13 +4397,20 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
@@ -4300,10 +4453,10 @@
   "98581": {
    "id": 98581,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Lisez la rune archaïque, puis parlez à Teo Martel-tempête, à Courbenclume.",
+   "description": "Pendant que vous m’aidiez, on m’a donné cette rune pour vous. Prenez le temps de la lire. D’après le style marteau-Hardi de cette calligraphie, je pense qu’elle provient du maître des chamans, Teo Martel-tempête. Jetez-y un coup d’œil et allez le retrouver, à l’intérieur de Courbenclume, quand vous en aurez le temps.",
    "progress": null,
-   "completion": null,
+   "completion": "Les arts chamaniques ont été préservés par le clan Marteau-Hardi pendant des années, et maintenant, ils ont également été confiés aux Nains barbe-de-bronze. Je suis là pour aider à propager ces connaissances et guider les nouveaux chamans dans leur apprentissage de la voie des éléments. Venez me voir si vous souhaitez vous entraîner davantage aux sorts de la terre, de l’air, du feu et de l’eau.",
    "starters": [
     {
      "type": "npc",
@@ -4334,13 +4487,20 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   }

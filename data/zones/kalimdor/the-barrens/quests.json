@@ -5410,7 +5410,7 @@
   "9267": {
    "id": 9267,
    "name": "Soigner de vielles blessures",
-   "objectives": null,
+   "objectives": "Vérifiez si vous l'avez déjà terminé en tapant :",
    "description": null,
    "progress": "Vous feriez mieux de réfléchir à deux fois avant de mettre les pieds à Ratchet, <nom> ! La rumeur a circulé sur vos sales actions.\n\nMais vous avez de la chance, un navire vient d'arriver avec de nombreux blessés suite à une rencontre avec les Bloodsail Buccaneers. C'est l'occasion de prouver que vous n'êtes pas une vraie crapule. Aidez-nous en apportant des tissus de lin pour les bandages et des fioles vides pour les potions.",
    "completion": "Je suis heureux que tu te rendes compte de ton erreur, <nom>. Continuez à nous approvisionner ; nous n'allons pas vous oublier si facilement, <monsieur/manquer> !",
@@ -5447,27 +5447,29 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "objectives": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
     "description"
    ],
    "status": "incomplete"
   },
   "79192": {
    "id": 79192,
-   "name": null,
-   "objectives": null,
-   "description": null,
+   "name": "Tort-tue",
+   "objectives": "Vous arrachez la note de la planche et lisez le reste du message.",
+   "description": "Le message commence par ces mots : « D’après la mission, ils accomplissaient tous les deux des livraisons pour le compte de la Peste nouvelle. Pour moi, ça a plutôt l’air de simples accidents d’un apothicaire. Trouvez mon petit nid douillet dans les montagnes, entre les Tarides et Désolace, si vous voulez discuter tranquillement. »",
    "progress": null,
-   "completion": null,
+   "completion": "Des aventuriers et des mercenaires ont dû dresser leur camp ici. Le coin d’une note agitée par le vent attire votre regard et vous saisissez le message.",
    "starters": [
     {
      "type": "object",
@@ -5513,15 +5515,23 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache",
+     "completion": "wowdata"
+    },
+    "client_cache": 70938,
+    "wowdata": "db-1ef9f3cb9a92"
    },
-   "missing": [
-    "name",
-    "objectives",
-    "description"
-   ],
-   "status": "incomplete"
+   "missing": [],
+   "status": "complete"
   },
   "92706": {
    "id": 92706,
@@ -5903,7 +5913,7 @@
    "id": 96339,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Vous recevrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": null,
    "starters": [
@@ -5936,13 +5946,17 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -5950,7 +5964,7 @@
    "id": 96383,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Vous recevrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": null,
    "starters": [
@@ -5983,13 +5997,17 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -6043,8 +6061,8 @@
   "97005": {
    "id": 97005,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Rapportez la tête de Chol’aruk à Bainham dans les Tarides.",
+   "description": "On dit qu’une abomination monstrueuse a installé son repaire dans une grotte au nord-ouest d’ici, sur le plateau connu sous le nom de colline des Épines. Les Tranchecrins la nomment Chol’aruk ou « le Vorace » et ceux qui l’ont vu disent qu’elle est tellement énorme qu’elle peut avaler un Orc tout entier.\n\nPeu croient à ces histoires, mais moi oui… parce que j’en ai déjà affronté une similaire moi-même. Sur l’honneur de ceux que j’ai perdus des griffes de cette créature, cette bête doit mourir.\n\nRassemblez des alliés puissants et trouvez la tanière de Chol’aruk. Éliminez cette abomination et rapportez-moi sa tête.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -6077,13 +6095,18 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
@@ -6184,10 +6207,10 @@
   "98024": {
    "id": 98024,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Faites votre rapport à Thork à la Croisée, dans les Tarides.",
+   "description": "Après être <arrivé/arrivée> ici depuis le plan élémentaire, les problèmes de nos contrées vous sembleront peut-être bien dérisoires. Ne vous y trompez pas : les dangers qui menacent la Horde sont bien réels, et vous deviendrez <un redoutable guerrier/une redoutable guerrière> si vous survivez à votre service.\n\nSi vous souhaitez commencer à répandre le bien dans notre monde, dirigez-vous vers le sud-ouest, jusqu’aux vastes étendues appelées les Tarides. Vous y trouverez un village nommé la Croisée. Ses fiers habitants ont toujours besoin d’aide.\n\nPartez avec honneur, <aventurier/aventurière> !",
    "progress": null,
-   "completion": null,
+   "completion": "Qu’est-ce que c’est que ça ? Une Elfe ? Et vous dites que le chef de guerre vous a envoyée ?\n\n<Thork laisse échapper un grognement rauque en vous toisant de la tête aux pieds.>\n\nVous m’avez l’air un peu maigrelette, mais peu importe. Ici, soit vous vous montrez à la hauteur et survivez, soit vous périssez. C’est ainsi que vont les choses dans ces terres.",
    "starters": [
     {
      "type": "npc",
@@ -6212,19 +6235,29 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "arrivé/arrivée",
+    "aventurier/aventurière"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },

@@ -1090,7 +1090,7 @@
    "id": 960,
    "name": "Onu réfléchit",
    "objectives": null,
-   "description": null,
+   "description": "Je réfléchis, <nom>. Je réfléchis aux raisons de la présence du Marteau du crépuscule et des nagas.\n\nLorsque vous serez prêt utilisez la fiole de divination pour créer une coupe de divination.\n\nSi vous avez perdu votre fiole de divination, en voici un autre.",
    "progress": null,
    "completion": "Je réfléchis, <nom>. Je réfléchis aux raisons de la présence du Marteau du crépuscule et des nagas.\n\nLorsque vous serez prêt utilisez la fiole de divination pour créer une coupe de divination.\n\nSi vous avez perdu votre fiole de divination, en voici un autre.",
    "starters": [
@@ -1117,7 +1117,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -1125,16 +1127,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1142,7 +1146,7 @@
    "id": 961,
    "name": "Onu réfléchit",
    "objectives": null,
-   "description": null,
+   "description": "La découverte de sectateurs du Marteau du crépuscule est inquiétante. Je dois réfléchir à leurs intentions…\n\nLorsque vous aurez plus d'informations, parlez-moi à travers une coupe de divination. Si vous avez besoin d'une nouvelle fiole de divination pour créer une coupe... en voici une.",
    "progress": null,
    "completion": "La découverte de sectateurs du Marteau du crépuscule est inquiétante. Je dois réfléchir à leurs intentions…\n\nLorsque vous aurez plus d'informations, parlez-moi à travers une coupe de divination. Si vous avez besoin d'une nouvelle fiole de divination pour créer une coupe... en voici une.",
    "starters": [
@@ -1177,16 +1181,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -4060,10 +4066,10 @@
   "87760": {
    "id": 87760,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Trouvez une maîtresse des bêtes tempécaille, terrassez-la et rapportez son bâtonnet de domination profonde.",
+   "description": "J’ai reçu des nouvelles de Darnassus, <nom> !\n\nGrâce aux prélèvements sur les animaux, nous avons appris que les Nagas asservissaient ces créatures marines pour en faire des montures et des bêtes de somme, contre leur gré. Celles qui se montraient trop rétives, ou trop vieilles ou trop grièvement blessées, étaient chassées par pur divertissement. Quelle monstruosité !\n\nIl est de notre devoir sacré d’y mettre un terme !\n\nLes Nagas disposent de forces dans les ruines de Mathystra, et ils doivent capturer les batteurs près du rivage. Trouvez leur maîtresse des bêtes, terrassez-la et rapportez ses instruments d’asservissement !",
    "progress": null,
-   "completion": null,
+   "completion": "Ce fut un long périple, <nom>, mais il en valait la peine.\n\nVous avez enfin arraché le bâtonnet dont les Nagas se servent pour contraindre les créatures marines à les servir. Je veillerai à ce qu’il soit détruit, et les batteurs comme les tortues de mer pourront enfin vivre en paix.\n\nMerci encore. Votre ténacité a fini par payer, vous avez toute ma reconnaissance.",
    "starters": [
     {
      "type": "npc",
@@ -4088,19 +4094,28 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
@@ -4176,8 +4191,8 @@
   "97926": {
    "id": 97926,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Remettez la réponse d’Alexston à Thundris Tissevent, à Auberdine, en Sombrivage.",
+   "description": "J’aimerais tant que ce soit aussi simple, <classe>. Vraiment.\n\nSi vous choisissez de passer davantage de temps sur nos terres, vous découvrirez que beaucoup vivent dans le besoin. Les caisses de Hurlevent ne sont plus ce qu’elles étaient, et le peu qu’il en reste ne suffit déjà plus à répondre à tous les besoins.\n\nRemettez cette réponse à l’ancien lorsque vous le reverrez. Ce n’est pas ce qu’il espérait… mais c’est tout ce que je peux lui offrir pour l’instant.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -4204,27 +4219,34 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "classe"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "98013": {
    "id": 98013,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Éliminez 12 myrmidons tempécailles, 8 ensorceleuses tempécailles et 6 guerriers tempécailles pour Arbal, au bosquet des Anciens.",
+   "description": "Préparez-vous avant d’entrer dans les ruines… l’accès ne vous y sera pas accordé sans combat.\n\nDes dizaines de Bien-nés maudits, désormais connus sous le nom de Nagas, hantent la cité jadis prospère. Partez vers le nord-est et purgez-en ces terres.\n\nCe qu’ils furent autrefois… n’est plus. S’ils prêtent main-forte au Marteau du crépuscule, ils n’apporteront que davantage de souffrance aux forêts qui leur offrirent jadis refuge.\n\nC’est la guerre qu’ils cherchent, <classe>. La guerre… c’est ce que nous leur apporterons.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -4251,29 +4273,36 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "classe"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "98025": {
    "id": 98025,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Trouvez Jai’vhanel et terrassez-la, puis récupérez l’une de ses plumes. La chouette noire a été aperçue pour la dernière fois au nord des ruines d’Ameth’Aran, près du pied de la montagne. Signalez la mort de Jai’vhanel à la sentinelle Glynda Nal’Shea, à Auberdine.",
+   "description": "Votre attention !\n\nUne récompense est offerte pour la mort de « Jai’vhanel », également connue sous le nom de « Plumelame ».\n\nHélas, cette chouette a sombré dans la folie et s’en prend désormais aux voyageurs qui empruntent la route près d’Auberdine.\n\nJai’vhanel a été aperçue pour la dernière fois au nord des ruines d’Ameth’Aran, près du pied de la montagne. Rapportez l’une de ses plumes d’un noir de jais en preuve de sa mort.\n\nPour toute récompense liée à cet avis de recherche, adressez-vous à la sentinelle Glynda Nal’Shea, à Auberdine.\n\nLe conseil d’Auberdine.",
    "progress": null,
-   "completion": null,
+   "completion": "Il est bon de savoir que ce problème est réglé, mais je suis peinée que nous n’ayons pu trouver d’autre solution. Jai’vhanel veillait sur cette région depuis un long moment, en quelque sorte, et j’ignore ce qui a pu la faire sombrer dans la folie.\n\nQuoi qu’il en soit, merci pour votre aide d’aujourd’hui, <classe>. Les routes vers Auberdine sont de nouveau sûres.",
    "starters": [
     {
      "type": "object",
@@ -4304,21 +4333,28 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "98028": {
    "id": 98028,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Apportez le globe d’eau trouble à Onu, au bosquet des Anciens, à Sombrivage.",
+   "description": "Il ne reste du puissant élémentaire qu’un globe de ce qui semble être de l’eau pure, troublée par une substance inconnue. Les bords de la sphère paraissent limpides, jusqu’à ce que vous la tourniez, comme si le voile trouble vous empêchait délibérément d’en scruter l’intérieur.\n\nLe mal qui l’a touché, lui et les racines qu’il gardait, agit encore.\n\nSeul Onu, l’ancien du savoir au bosquet des Anciens, loin au sud, aurait une chance d’en savoir plus.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -4351,23 +4387,28 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "98042": {
    "id": 98042,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Obtenez un œil sans pareil auprès d’un disciple ou d’un nervi du Crépuscule, au Glaive du Maître à Sombrivage, puis trouvez quelqu’un à Auberdine qui accepte de le prendre.",
+   "description": "tome du Crépuscule, une voix menaçante envahit votre esprit, sans y avoir été conviée.>\n\nIls ont échoué.\n\nOn vous oubliera.\n\nIls perdront l’œil qu’ils ont acquis.",
    "progress": null,
-   "completion": null,
+   "completion": "<Thundris reste un moment sans parler.>\n\nCeci porte la marque d’un mal ancien, <classe>. Je le ferai porter à Darnassus sur-le-champ, afin qu’on l’étudie plus avant.\n\nAnde’thoras-ethil.",
    "starters": [
     {
      "type": "object",
@@ -4398,13 +4439,20 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   }

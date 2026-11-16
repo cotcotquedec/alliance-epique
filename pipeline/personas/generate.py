@@ -159,10 +159,10 @@ def todo(npcs: dict[int, dict], quests: dict[int, dict], npc_zones: dict[int, li
          dialogues: dict[int, list[str]] | None = None) -> list[tuple[int, dict, str]]:
     """(npc id, dossier, hash) for each NPC without a persona. A persona already generated is kept even
     if its dossier changed since (new quests, another zone): regenerating it would redo its scripts
-    and audio. force=True regenerates them all."""
+    and audio. force=True regenerates them all. only=None: every NPC; an empty set: none."""
     out = []
     for nid in sorted(npcs):
-        if only and nid not in only:
+        if only is not None and nid not in only:  # an empty set is a zone with no speaker: nothing to do
             continue
         if not force and voices["npcs"].get(str(nid)):
             continue

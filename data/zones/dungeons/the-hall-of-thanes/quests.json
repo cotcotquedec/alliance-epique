@@ -24,7 +24,7 @@
    "objectives": "Pénétrez dans la salle des Thanes, sous le Vieux Forgefer, et emparez-vous de la tête de Durgen Mornemartel.",
    "description": "Rassemblez quelques camarades et descendez dans les grottes sous le Vieux Forgefer. Entrez dans la salle des Thanes et progressez jusqu’aux caveaux inférieurs.\r\n\r\nMon sombrefer est un peu rouillé, mais je parviens à déchiffrer un nom : un certain Durgen Mornemartel. Il y a fort à parier que c’est lui, le commandant. Apportez donc sa tête au roi Magni Barbe-de-Bronze.\r\n\r\nAh, et quand ce sera fait, dites-lui que son vieil ami Farsen lui passe le bonjour !",
    "progress": null,
-   "completion": null,
+   "completion": "Une incursion des Sombrefer, juste sous nos pieds ? Eh bien, c’est un soulagement d’apprendre que le commandant sombrefer a été occis.\n\nLes gardes vont s’y engouffrer et nettoyer le reste de la racaille. Nous veillerons à ce que les brèches soient scellées et les niveaux inférieurs renforcés, afin qu’aucune nouvelle incursion ne soit possible.\n\nMerci pour ce que vous avez fait pour Forgefer, <classe>. Acceptez ceci en modeste témoignage de ma gratitude. Ah, et si vous recroisez ce vieux fêlé de Marteau-Hardi, Farsen, dites-lui de venir me rendre une vraie visite.",
    "starters": [
     {
      "type": "npc",
@@ -76,13 +76,16 @@
     "texts": {
      "description": "capture",
      "objectives": "capture",
-     "name": "capture"
+     "name": "capture",
+     "completion": "wowdata"
     },
     "origins": {
      "description": "capture",
      "objectives": "capture",
-     "name": "capture"
-    }
+     "name": "capture",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [],
    "status": "complete"

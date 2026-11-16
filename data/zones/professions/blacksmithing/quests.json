@@ -1861,7 +1861,7 @@
    "id": 7652,
    "name": "Une affaire en thorium",
    "objectives": null,
-   "description": null,
+   "description": "Voilà, messire, j’ai une superbe affaire à vous proposer.\n\nJe veux me débarrasser d’un certain nombre de plans pour des pièces d’armure impériales en plaques. Je cherche quelqu’un qui voudrait les prendre. En échange, tout ce qu’il me faut, ce sont quelques barres de thorium. Cela vous tente ?",
    "progress": null,
    "completion": "Voilà, messire, j’ai une superbe affaire à vous proposer.\n\nJe veux me débarrasser d’un certain nombre de plans pour des pièces d’armure impériales en plaques. Je cherche quelqu’un qui voudrait les prendre. En échange, tout ce qu’il me faut, ce sont quelques barres de thorium. Cela vous tente ?",
    "starters": [
@@ -1896,16 +1896,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1913,7 +1915,7 @@
    "id": 7653,
    "name": "La ceinture impériale en plaques",
    "objectives": null,
-   "description": null,
+   "description": "Les plans de la ceinture vont vous coûter 20 barres de thorium.",
    "progress": "Les plans de la ceinture vont vous coûter 20 barres de thorium.",
    "completion": "Un plaisir de faire des affaires avec vous.\n\nEt <nom>, cet air dégoûté ne vous va pas.",
    "starters": [
@@ -1949,17 +1951,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1967,7 +1971,7 @@
    "id": 7654,
    "name": "Les bottes impériales en plaques",
    "objectives": null,
-   "description": null,
+   "description": "Pour le plan des bottes, mon prix est de 40 barres de thorium. Ouais, 40. Vous n’allez pas pleurer, quand même ? Vous voulez un mouchoir ?\n\n<Derotain ricane.>",
    "progress": "Pour le plan des bottes, mon prix est de 40 barres de thorium. Ouais, 40. Vous n’allez pas pleurer, quand même ? Vous voulez un mouchoir ?\n\n<Derotain ricane.>",
    "completion": "Un plaisir de faire des affaires avec vous.\n\nEt <nom>, cet air dégoûté ne vous va pas.",
    "starters": [
@@ -1994,7 +1998,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "Derotain ricane."
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -2003,17 +2009,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2021,7 +2029,7 @@
    "id": 7655,
    "name": "Les bracelets impériaux en plaques",
    "objectives": null,
-   "description": null,
+   "description": "Pour les plans des bracelets, il me faudra 20 Barres de thorium..\n\nVous vous sentez bien, mon gars? Vous êtes tout rouge.",
    "progress": "Pour les plans des bracelets, il me faudra 20 Barres de thorium..\n\nVous vous sentez bien, mon gars? Vous êtes tout rouge.",
    "completion": "Un plaisir de faire des affaires avec vous.\n\nEt <nom>, cet air dégoûté ne vous va pas.",
    "starters": [
@@ -2057,17 +2065,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2075,7 +2085,7 @@
    "id": 7656,
    "name": "La pansière impériale",
    "objectives": null,
-   "description": null,
+   "description": "Pour les plans de la pansière, il va me falloir 60 barres de thorium.\n\nOh bon, c’est reparti. Vous allez courir voir vos vieux dieux bleus et leur demander pourquoi ils vous ont rejeté ? Allez, haut les cœurs ! Personne n’a dit que la vie était juste !",
    "progress": "Pour les plans de la pansière, il va me falloir 60 barres de thorium.\n\nOh bon, c’est reparti. Vous allez courir voir vos vieux dieux bleus et leur demander pourquoi ils vous ont rejeté ? Allez, haut les cœurs ! Personne n’a dit que la vie était juste !",
    "completion": "Toujours un plaisir de faire affaire avec vous.\n\nEt <nom>, cette expression dégoûtée ne vous va pas.",
    "starters": [
@@ -2111,17 +2121,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2129,7 +2141,7 @@
    "id": 7657,
    "name": "Le heaume impérial en plaques",
    "objectives": null,
-   "description": null,
+   "description": "Vous n'avez qu'à aligner 50 barres de thorium et les plans du heaume sont à vous.",
    "progress": "Vous n'avez qu'à aligner 50 barres de thorium et les plans du heaume sont à vous.",
    "completion": "Un plaisir de faire des affaires avec vous.\n\nEt <nom>, cet air dégoûté ne vous va pas.",
    "starters": [
@@ -2165,17 +2177,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2183,7 +2197,7 @@
    "id": 7658,
    "name": "Les jambières impériales en plaques",
    "objectives": null,
-   "description": null,
+   "description": "Pour les plans des protège-pattes, c’est 60 barres de thorium.\n\nOui, je sais, c’est horrible, je vous ruine et tout et tout. On me l’a déjà faite, alors gardez vos histoires pour vous, d’accord ?",
    "progress": "Pour les plans des protège-pattes, c’est 60 barres de thorium.\n\nOui, je sais, c’est horrible, je vous ruine et tout et tout. On me l’a déjà faite, alors gardez vos histoires pour vous, d’accord ?",
    "completion": "Un plaisir de faire des affaires avec vous.\n\nEt <nom>, cet air dégoûté ne vous va pas.",
    "starters": [
@@ -2219,17 +2233,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2237,7 +2253,7 @@
    "id": 7659,
    "name": "Les épaulières impériales en plaques",
    "objectives": null,
-   "description": null,
+   "description": "Pour le plan des épaulières, ça ira chercher dans les 20 barres de thorium.",
    "progress": "Pour le plan des épaulières, ça ira chercher dans les 20 barres de thorium.",
    "completion": "C'est toujours un plaisir de faire des affaires avec vous.\n\nEt <nom>, cet air dégoûté ne vous va pas.",
    "starters": [
@@ -2273,17 +2289,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },

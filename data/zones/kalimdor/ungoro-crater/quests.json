@@ -1241,7 +1241,7 @@
    "id": 4144,
    "name": "Les pousses de Pétales-de-sang",
    "objectives": null,
-   "description": null,
+   "description": "Voici ce que nous allons faire, <nom>. Procurez-vous des pousses de Pétales-de-sang. De jeunes plantes, pas encore parvenues au stade adulte, vous comprenez ? Puis apportez-les ici. Alors je verrai ce dont la brume atal'ai est capable.\n\nVous pourriez penser que c'est le désir de vengeance qui me guide, mais… vous auriez raison…\n\nEn vérité, je connais le chemin pour nous sortir d'ici, mais tant que Larion n'admet pas que j'ai raison, je ne bouge pas !\n\nC'est assez : partez et trouvez des pousses de Pétales-de-sang afin que nous nous amusions un peu !",
    "progress": "Voici ce que nous allons faire, <nom>. Procurez-vous des pousses de Pétales-de-sang. De jeunes plantes, pas encore parvenues au stade adulte, vous comprenez ? Puis apportez-les ici. Alors je verrai ce dont la brume atal'ai est capable.\n\nVous pourriez penser que c'est le désir de vengeance qui me guide, mais… vous auriez raison…\n\nEn vérité, je connais le chemin pour nous sortir d'ici, mais tant que Larion n'admet pas que j'ai raison, je ne bouge pas !\n\nC'est assez : partez et trouvez des pousses de Pétales-de-sang afin que nous nous amusions un peu !",
    "completion": "Et voilà, <nom> ! Cela va occuper Larion !",
    "starters": [
@@ -1268,7 +1268,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -1277,17 +1279,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2243,7 +2247,7 @@
    "id": 4381,
    "name": "Cristal de restauration",
    "objectives": null,
-   "description": null,
+   "description": "Le Pilon vous permet de combiner les cristaux de puissance verts avec les jaunes.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à vous soigner, vous et vos alliés.",
    "progress": "Le Pilon vous permet de combiner les cristaux de puissance verts avec les jaunes.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à vous soigner, vous et vos alliés.",
    "completion": "Tandis que vous arrangez les cristaux sur la table, vous alignez précautionneusement les couleurs. Lorsque vous placez le dernier, une explosion de lumière intense mêle les cristaux entre eux.\n\nLe résultat vous appartient.",
    "starters": [
@@ -2279,17 +2283,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2297,7 +2303,7 @@
    "id": 4382,
    "name": "Cristal de concentration",
    "objectives": null,
-   "description": null,
+   "description": "Le Pilon vous permet de combiner les cristaux de puissance verts avec les bleus.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à augmenter l'Esprit.",
    "progress": "Le Pilon vous permet de combiner les cristaux de puissance verts avec les bleus.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à augmenter l'Esprit.",
    "completion": "Tandis que vous disposez les cristaux sur la table, vous alignez précautionneusement les couleurs. Lorsque vous placez le dernier, une explosion de lumière intense assemble les cristaux entre eux.\n\nLe résultat est à vous.",
    "starters": [
@@ -2333,17 +2339,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2351,7 +2359,7 @@
    "id": 4383,
    "name": "Cristal de protection",
    "objectives": null,
-   "description": null,
+   "description": "Le Pilon vous permet de combiner les cristaux de puissance verts avec les rouges.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à augmenter la protection contre les dégâts physiques.",
    "progress": "Le Pilon vous permet de combiner les cristaux de puissance verts avec les rouges.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à augmenter la protection contre les dégâts physiques.",
    "completion": "Tandis que vous arrangez les cristaux sur la table, vous alignez précautionneusement les couleurs. Lorsque vous placez le dernier, une explosion de lumière intense mêle les cristaux entre eux.\n\nLe résultat vous appartient.",
    "starters": [
@@ -2387,17 +2395,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2405,7 +2415,7 @@
    "id": 4384,
    "name": "Cristal de réduction",
    "objectives": null,
-   "description": null,
+   "description": "Le Pilon vous permet de combiner les cristaux de puissance rouges avec les bleus.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à réduire la Défense de l'adversaire.",
    "progress": "Le Pilon vous permet de combiner les cristaux de puissance rouges avec les bleus.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à réduire la Défense de l'adversaire.",
    "completion": "Tandis que vous disposez les cristaux sur la table, vous alignez précautionneusement les couleurs. Lorsque vous placez le dernier, une explosion de lumière intense assemble les cristaux entre eux.\n\nLe résultat est à vous.",
    "starters": [
@@ -2441,17 +2451,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2459,7 +2471,7 @@
    "id": 4385,
    "name": "Cristal d'explosion",
    "objectives": null,
-   "description": null,
+   "description": "Le Pilon vous permet de combiner les cristaux de puissance rouges avec les jaunes.\n\nSi on se réfère au manuel de J.D., cette combinaison peut être utilisée pour créer une grande explosion qui inflige des dégâts à vos ennemis.",
    "progress": "Le Pilon vous permet de combiner les cristaux de puissance rouges avec les jaunes.\n\nSi on se réfère au manuel de J.D., cette combinaison peut être utilisée pour créer une grande explosion qui inflige des dégâts à vos ennemis.",
    "completion": "Tandis que vous disposez les cristaux sur la table, vous alignez précautionneusement les couleurs. Lorsque vous placez le dernier, une explosion de lumière intense assemble les cristaux entre eux.\n\nLe résultat est à vous.",
    "starters": [
@@ -2495,17 +2507,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2513,7 +2527,7 @@
    "id": 4386,
    "name": "Cristal de rétribution",
    "objectives": null,
-   "description": null,
+   "description": "Le Pilon vous permet de combiner les cristaux de puissance bleus avec les jaunes.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à créer un bouclier qui inflige des dégâts aux ennemis.",
    "progress": "Le Pilon vous permet de combiner les cristaux de puissance bleus avec les jaunes.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à créer un bouclier qui inflige des dégâts aux ennemis.",
    "completion": "Tandis que vous disposez les cristaux sur la table, vous alignez précautionneusement les couleurs. Lorsque vous placez le dernier, une explosion de lumière intense assemble les cristaux entre eux.\n\nLe résultat est à vous.",
    "starters": [
@@ -2549,17 +2563,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2844,7 +2860,7 @@
    "id": 5150,
    "name": "Dadanga a faim !",
    "objectives": null,
-   "description": null,
+   "description": "Dadanga vous regarde alors que vous l'approchez. Elle semble espérer quelque chose…\n\nElle a probablement faim !\n\nIl y a certainement quelque chose qui pousse dans le cratère et qui ferait un parfait en-cas pour un herbivore de grande taille. Dadanga est une grande fille : quoi que vous lui apportiez, il faudra que ce soit en grosse quantité !",
    "progress": "Dadanga vous regarde alors que vous l'approchez. Elle semble espérer quelque chose…\n\nElle a probablement faim !\n\nIl y a certainement quelque chose qui pousse dans le cratère et qui ferait un parfait en-cas pour un herbivore de grande taille. Dadanga est une grande fille : quoi que vous lui apportiez, il faudra que ce soit en grosse quantité !",
    "completion": "Les pousses posées devant elle, Dadanga semble satisfaite.\n\nElle pousse un petit paquet enveloppé de brun vers vous, en échange du petit cadeau !",
    "starters": [
@@ -2880,17 +2896,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   }

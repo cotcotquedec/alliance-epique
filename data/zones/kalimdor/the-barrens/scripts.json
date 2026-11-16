@@ -1446,9 +1446,103 @@
     "description": "foreverdb:vmangos",
     "objectives": "foreverdb:questie"
    }
+  },
+  "79192": {
+   "quest_id": 79192,
+   "kind": "detail",
+   "name": "Tort-tue",
+   "npc_id": 1000000,
+   "npc_name": "Elise",
+   "narrator": true,
+   "source": "client_cache",
+   "origins": {
+    "description": "client_cache",
+    "objectives": "client_cache"
+   },
+   "text": "Le message commence par ces mots : « D’après la mission, ils accomplissaient tous les deux des livraisons pour le compte de la Peste nouvelle. Pour moi, ça a plutôt l’air de simples accidents d’un apothicaire. Trouvez mon petit nid douillet dans les montagnes, entre les Tarides et Désolace, si vous voulez discuter tranquillement. »\n\nObjectif : Vous arrachez la note de la planche et lisez le reste du message.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-11-16T10:25:37"
+   }
+  },
+  "96339": {
+   "quest_id": 96339,
+   "kind": "detail",
+   "name": null,
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "source": "wowdata",
+   "origins": {
+    "description": "wowdata"
+   },
+   "text": "Vous recevrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-11-16T11:28:48"
+   }
+  },
+  "96383": {
+   "quest_id": 96383,
+   "kind": "detail",
+   "name": null,
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "source": "wowdata",
+   "origins": {
+    "description": "wowdata"
+   },
+   "text": "Vous recevrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-11-16T11:28:48"
+   }
+  },
+  "97005": {
+   "quest_id": 97005,
+   "kind": "detail",
+   "name": null,
+   "npc_id": 267309,
+   "npc_name": "Bainham",
+   "source": "wowdata",
+   "origins": {
+    "description": "wowdata",
+    "objectives": "wowdata"
+   },
+   "text": "On dit qu’une abomination monstrueuse a installé son repaire dans une grotte au nord-ouest d’ici, sur le plateau connu sous le nom de colline des Épines. Les Tranchecrins la nomment Chol’aruk ou « le Vorace » et ceux qui l’ont vu disent qu’elle est tellement énorme qu’elle peut avaler un Orc tout entier.\n\nPeu croient à ces histoires, mais moi oui… parce que j’en ai déjà affronté une similaire moi-même. Sur l’honneur de ceux que j’ai perdus des griffes de cette créature, cette bête doit mourir.\n\nRassemblez des alliés puissants et trouvez la tanière de Chol’aruk. Éliminez cette abomination et rapportez-moi sa tête.\n\nObjectif : Rapportez la tête de Chol’aruk à Bainham dans les Tarides.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-11-16T11:28:48"
+   }
+  },
+  "98024": {
+   "quest_id": 98024,
+   "kind": "detail",
+   "name": null,
+   "npc_id": 4949,
+   "npc_name": "Thrall",
+   "source": "wowdata",
+   "origins": {
+    "description": "wowdata",
+    "objectives": "wowdata"
+   },
+   "text": "Après être <arrivé/arrivée> ici depuis le plan élémentaire, les problèmes de nos contrées vous sembleront peut-être bien dérisoires. Ne vous y trompez pas : les dangers qui menacent la Horde sont bien réels, et vous deviendrez un redoutable guerrier/une redoutable guerrière si vous survivez à votre service.\n\nSi vous souhaitez commencer à répandre le bien dans notre monde, dirigez-vous vers le sud-ouest, jusqu’aux vastes étendues appelées les Tarides. Vous y trouverez un village nommé la Croisée. Ses fiers habitants ont toujours besoin d’aide.\n\nPartez avec honneur, <aventurier/aventurière> !\n\nObjectif : Faites votre rapport à Thork à la Croisée, dans les Tarides.",
+   "gendered": true,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-11-16T11:28:48"
+   }
   }
  },
- "updated_at": "2026-10-10T11:40:25",
+ "updated_at": "2026-11-16T11:28:48",
  "complete": {
   "858": {
    "quest_id": 858,
@@ -2761,6 +2855,43 @@
    },
    "origins": {
     "completion": "foreverdb:vmangos"
+   }
+  },
+  "79192": {
+   "quest_id": 79192,
+   "kind": "complete",
+   "name": "Tort-tue",
+   "npc_id": 1000000,
+   "npc_name": "Elise",
+   "narrator": true,
+   "source": "wowdata",
+   "origins": {
+    "completion": "wowdata"
+   },
+   "text": "Des aventuriers et des mercenaires ont dû dresser leur camp ici. Le coin d’une note agitée par le vent attire votre regard et vous saisissez le message.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-11-16T11:28:48"
+   }
+  },
+  "98024": {
+   "quest_id": 98024,
+   "kind": "complete",
+   "name": null,
+   "npc_id": 3429,
+   "npc_name": "Thork",
+   "source": "wowdata",
+   "origins": {
+    "completion": "wowdata"
+   },
+   "text": "Qu’est-ce que c’est que ça ? Une Elfe ? Et vous dites que le chef de guerre vous a envoyée ?\n\nThork laisse échapper un grognement rauque en vous toisant de la tête aux pieds.\n\nVous m’avez l’air un peu maigrelette, mais peu importe. Ici, soit vous vous montrez à la hauteur et survivez, soit vous périssez. C’est ainsi que vont les choses dans ces terres.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-11-16T11:28:48"
    }
   }
  },

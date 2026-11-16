@@ -4618,8 +4618,8 @@
   "93739": {
    "id": 93739,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Allez trouver Nazgrel au fort Grommash afin de recevoir de nouvelles instructions. Suivez ses indications pour retrouver Vol’jin, Cairne Sabot-de-Sang et dame Sylvanas Coursevent, puis entretenez-vous avec chacun d’eux.",
+   "description": "Azeroth est un monde immense, et les terres de la Horde s’étendent à perte de vue. Fossoyeuse, Orgrimmar et les Pitons-du-Tonnerre abritent chacune des peuples, des traditions et une culture qui leur sont propres.\n\nPuisque vous êtes ici, sur Azeroth, en qualité d’<invité/invitée> de la Horde, vous auriez tout intérêt à faire le tour de nos capitales et à découvrir chacune d’entre elles une par une. Allez voir mon conseiller Nazgrel. Il saura vous mettre sur la bonne voie.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -4646,27 +4646,34 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "invité/invitée"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "95350": {
    "id": 95350,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Voyagez jusqu’à Orgrimmar et parlez à Thrall dans la vallée de la Sagesse.",
+   "description": "Ce monde est vaste, et nos nouveaux alliés sont la clé de notre survie.\n\nLe Cercle terrestre fait partie de la « Horde », une fière communauté de peuples partageant les mêmes idéaux. La ville voisine, les Pitons-du-Tonnerre, appartient à la Horde, et plus à l’est se trouve la capitale, Orgrimmar.\n\nAllez voir le maître de vol au centre des Pitons-du-Tonnerre. Il vous transportera à Orgrimmar, où vous rencontrerez le chef de guerre de la Horde, Thrall, au nom des Sculpte-vents. Que les vents vous guident, <nom>.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -4693,19 +4700,26 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },

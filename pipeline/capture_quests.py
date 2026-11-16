@@ -33,6 +33,7 @@ from pipeline.quests import registry as quest_registry
 from pipeline.text import looks_english
 from pipeline.wowhead.parse import placeholders
 
+FILLED_BY_US = ("capture", "client_cache", "wowdata")  # texts filled from the game side: no difference listed
 SAME = 0.85  # word similarity at or above which a captured text is the registry's (punctuation, spacing, names)
 FILLS = {"detail": {"description": "text", "objectives": "objectives"}, "complete": {"completion": "text"}}
 SPEAKERS = {"detail": ("starters", "giverID", "giverName", "giverType"),
@@ -101,13 +102,9 @@ def _capture_record(cap: dict, kind: str, texts: dict[str, str | None]) -> dict:
             "first_seen": cap.get("firstSeen"), "last_seen": cap.get("lastSeen")}
 
 
-def apply(record: dict, kind: str, cap: dict) -> dict:
-    """Merge one capture into one registry record (in place). Returns what happened: filled fields, differing
-    fields (with their similarity), speaker added."""
-    texts = {field: impersonal(cap.get(key), cap) for field, key in FILLS[kind].items()}
-    if kind == "detail":
-        texts["name"] = convert_text(cap.get("title"))
-    result: dict = {"filled": [], "differs": [], "speaker": None}
+def fill(record: dict, texts: dict[str, str | None], channel: str, result: dict) -> None:
+    """Put each text the record lacks (channel and origin `channel`); a text it has is kept, listed in
+    result["differs"] when it differs (D13). Shared with the client cache import (pipeline/client_cache.py)."""
     source = record.setdefault("source", {})
     channels, origins = source.setdefault("texts", {}), source.setdefault("origins", {})
     for field, value in texts.items():
@@ -115,7 +112,7 @@ def apply(record: dict, kind: str, cap: dict) -> dict:
             continue
         current = record.get(field)
         if current:
-            if channels.get(field) != "capture" and field != "name":
+            if channels.get(field) not in FILLED_BY_US and field != "name":
                 score = similarity(current, value)
                 if score < SAME:
                     result["differs"].append((field, round(score, 2)))
@@ -123,8 +120,26 @@ def apply(record: dict, kind: str, cap: dict) -> dict:
         if looks_english(value):
             continue
         record[field] = value
-        channels[field], origins[field] = "capture", "capture"
+        channels[field], origins[field] = channel, channel
         result["filled"].append(field)
+
+
+def refresh(record: dict) -> None:
+    """Placeholders, missing fields and status after texts changed."""
+    record["placeholders"] = sorted(set(placeholders(record.get("description")) +
+                                        placeholders(record.get("objectives"))))
+    record["missing"] = quest_registry.missing_fields(record)
+    record["status"] = "incomplete" if record["missing"] else "complete"
+
+
+def apply(record: dict, kind: str, cap: dict) -> dict:
+    """Merge one capture into one registry record (in place). Returns what happened: filled fields, differing
+    fields (with their similarity), speaker added."""
+    texts = {field: impersonal(cap.get(key), cap) for field, key in FILLS[kind].items()}
+    if kind == "detail":
+        texts["name"] = convert_text(cap.get("title"))
+    result: dict = {"filled": [], "differs": [], "speaker": None}
+    fill(record, texts, "capture", result)
     list_key, id_key, name_key, type_key = SPEAKERS[kind]
     npc = cap.get(id_key)
     if not any(s.get("type") == "npc" for s in record.get(list_key) or []) and isinstance(npc, int) \
@@ -132,10 +147,7 @@ def apply(record: dict, kind: str, cap: dict) -> dict:
         record[list_key] = [{"type": "npc", "id": npc, "name": cap.get(name_key)}] + list(record.get(list_key) or [])
         result["speaker"] = npc
     record["capture"] = {**(record.get("capture") or {}), kind: _capture_record(cap, kind, texts)}
-    record["placeholders"] = sorted(set(placeholders(record.get("description")) +
-                                        placeholders(record.get("objectives"))))
-    record["missing"] = quest_registry.missing_fields(record)
-    record["status"] = "incomplete" if record["missing"] else "complete"
+    refresh(record)
     return result
 
 

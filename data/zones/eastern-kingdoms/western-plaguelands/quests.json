@@ -917,7 +917,7 @@
    "id": 5058,
    "name": "Journal de Mme Dalson",
    "objectives": null,
-   "description": null,
+   "description": "Un journal aux pages jaunies est ouvert à sa dernière page :\n\n\"Je ne sais pas ce qui va se passer maintenant que Harold a changé. J'ai dû faire de gros efforts pour le mettre dans le seul endroit où je savais qu'il serait enfermé pour de bon. J'ai la clé sur moi, et je prie que ça marche...\n\nJ'espère pouvoir sortir d'ici, mais j'ai besoin d'argent pour ça... Nos affaires sont dans le cabinet, je pense... Et maintenant que j'y pense, Harold en a la clé sur lui ?\n\nJe vais me reposer, je suis morte de fatigue...\"\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "Un journal aux pages jaunies est ouvert à sa dernière page :\n\n\"Je ne sais pas ce qui va se passer maintenant que Harold a changé. J'ai dû faire de gros efforts pour le mettre dans le seul endroit où je savais qu'il serait enfermé pour de bon. J'ai caché la clé sur moi, et je prie pour que cela fonctionne...\n\nJ'espère pouvoir sortir d'ici, mais il me faudrait de l'argent pour cela... Nos affaires sont dans le cabinet, je pense... Et maintenant que j'y pense, Harold en a la clé sur lui ?\n\nJe vais me reposer, je suis morte de fatigue...\"",
    "starters": [
@@ -952,16 +952,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -969,7 +971,7 @@
    "id": 5059,
    "name": "Enfermé",
    "objectives": null,
-   "description": null,
+   "description": "La porte des toilettes a commencé à se briser dans son pourtour comme si on avait essayé encore et encore de la forcer. Actuellement, elle est solidement verrouillée de l'extérieur.\n\nQuand vous secouez la porte, vous entendez un gémissement guttural ! La créature qui est à l'intérieur, quelle qu'elle soit, n'a pas l'air amicale.",
    "progress": "La porte des toilettes a commencé à se briser dans son pourtour comme si on avait essayé encore et encore de la forcer. Actuellement, elle est solidement verrouillée de l'extérieur.\n\nQuand vous secouez la porte, vous entendez un gémissement guttural ! La créature qui est à l'intérieur, quelle qu'elle soit, n'a pas l'air amicale.",
    "completion": "En utilisant la clé trouvée sur le corps de feue Mme Dalson, vous ouvrez la porte des toilettes. Une goule assoiffée de sang en jaillit, enfermée ici on ne sait depuis combien de temps.\n\nLe hurlement à glacer le sang lancé par la goule ne laisse aucun doute, l'ancien fermier Dalson est au-delà de tout espoir de guérison.",
    "starters": [
@@ -1005,17 +1007,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1023,7 +1027,7 @@
    "id": 5060,
    "name": "Enfermé",
    "objectives": null,
-   "description": null,
+   "description": "Un meuble très solide est en face de vous, hermétiquement clos par une serrure intégrée. Le devant du meuble est très rayé et abîmé. Cela pourrait venir de nombreuses et violentes tentatives pour percer les secrets que le meuble dissimule.\n\nSi vous voulez ouvrir ce meuble, il vous faudra trouver la clé.",
    "progress": "Un meuble très solide est en face de vous, hermétiquement clos par une serrure intégrée. Le devant du meuble est très rayé et abîmé. Cela pourrait venir de nombreuses et violentes tentatives pour percer les secrets que le meuble dissimule.\n\nSi vous voulez ouvrir ce meuble, il vous faudra trouver la clé.",
    "completion": "La clé prise sur le cadavre de la goule du fermier Dalson glisse parfaitement dans la serrure. Les portes de la commode s'ouvrent, révélant plusieurs objets intacts et de grande valeur.",
    "starters": [
@@ -1059,17 +1063,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1894,7 +1900,7 @@
    "id": 5218,
    "name": "Le Chaudron du champ de Felstone",
    "objectives": null,
-   "description": null,
+   "description": "Le chaudron de la peste du Fléau est devant vous, répandant d'énormes masses de toxine dans les airs. À la base de la vaste plate-forme du chaudron se trouve un petit panneau d'accès anodin.\n\nPuisque vous avez déjà vaincu le gardien du chaudron et pris sa clé, vous pouvez ajouter les composants appropriés dans le chaudron pour fabriquer un contre-agent à la peste.",
    "progress": "Le chaudron de la peste du Fléau est devant vous, répandant d'énormes masses de toxine dans les airs. À la base de la vaste plate-forme du chaudron se trouve un petit panneau d'accès anodin.\n\nPuisque vous avez déjà vaincu le gardien du chaudron et pris sa clé, vous pouvez ajouter les composants appropriés dans le chaudron pour fabriquer un contre-agent à la peste.",
    "completion": "L'ajout des composants à la mixture dans le chaudron change peu à peu sa couleur et celle des vapeurs qui s'en échappent. Les créatures du Fléau même éloignées du chaudron semblent reculer au fur et à mesure que les nouveaux composants se répandent.",
    "starters": [
@@ -1930,17 +1936,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2060,7 +2068,7 @@
    "id": 5221,
    "name": "Chaudron des Larmes de Dalson",
    "objectives": null,
-   "description": null,
+   "description": "Le chaudron de la peste du Fléau est devant vous, répandant d'énormes masses de toxine dans les airs. À la base de la vaste plate-forme du chaudron se trouve un petit panneau d'accès anodin.\n\nPuisque vous avez déjà vaincu le gardien du chaudron et pris sa clé, vous pouvez ajouter les composants appropriés dans le chaudron pour fabriquer un contre-agent à la peste.",
    "progress": "Le chaudron de la peste du Fléau est devant vous, répandant d'énormes masses de toxine dans les airs. À la base de la vaste plate-forme du chaudron se trouve un petit panneau d'accès anodin.\n\nPuisque vous avez déjà vaincu le gardien du chaudron et pris sa clé, vous pouvez ajouter les composants appropriés dans le chaudron pour fabriquer un contre-agent à la peste.",
    "completion": "L'ajout des composants à la mixture dans le chaudron change peu à peu sa couleur et celle des vapeurs qui s'en échappent. Les créatures du Fléau même éloignées du chaudron semblent reculer au fur et à mesure que les nouveaux composants se répandent.",
    "starters": [
@@ -2096,17 +2104,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2228,7 +2238,7 @@
    "id": 5224,
    "name": "Le Chaudron du Repaire putride",
    "objectives": null,
-   "description": null,
+   "description": "Le chaudron de la peste du Fléau est devant vous, répandant d'énormes masses de toxine dans les airs. À la base de la vaste plate-forme du chaudron se trouve un petit panneau d'accès anodin.\n\nPuisque vous avez déjà vaincu le gardien du chaudron et pris sa clé, vous pouvez ajouter les composants appropriés dans le chaudron pour fabriquer un contre-agent à la peste.",
    "progress": "Le chaudron de la peste du Fléau est devant vous, répandant d'énormes masses de toxine dans les airs. À la base de la vaste plate-forme du chaudron se trouve un petit panneau d'accès anodin.\n\nPuisque vous avez déjà vaincu le gardien du chaudron et pris sa clé, vous pouvez ajouter les composants appropriés dans le chaudron pour fabriquer un contre-agent à la peste.",
    "completion": "L'ajout des composants à la mixture dans le chaudron change peu à peu sa couleur et celle des vapeurs qui s'en échappent. Les créatures du Fléau, même éloignées du chaudron, semblent reculer au fur et à mesure que les nouveaux composants se répandent.",
    "starters": [
@@ -2264,17 +2274,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2397,7 +2409,7 @@
    "id": 5227,
    "name": "Chaudron de la Flétrissure de Gahrron",
    "objectives": null,
-   "description": null,
+   "description": "Le chaudron de la peste du Fléau est devant vous, répandant d'énormes masses de toxine dans les airs. À la base de la vaste plate-forme du chaudron se trouve un petit panneau d'accès anodin.\n\nPuisque vous avez déjà vaincu le gardien du chaudron et pris sa clé, vous pouvez ajouter les composants appropriés dans le chaudron pour fabriquer un contre-agent à la peste.",
    "progress": "Le chaudron de la peste du Fléau est devant vous, répandant d'énormes masses de toxine dans les airs. À la base de la vaste plate-forme du chaudron se trouve un petit panneau d'accès anodin.\n\nPuisque vous avez déjà vaincu le gardien du chaudron et pris sa clé, vous pouvez ajouter les composants appropriés dans le chaudron pour fabriquer un contre-agent à la peste.",
    "completion": "L'ajout des composants à la mixture dans le chaudron change peu à peu sa couleur et celle des vapeurs qui s'en échappent. Les créatures du Fléau même éloignées du chaudron semblent reculer au fur et à mesure que les nouveaux composants se répandent.",
    "starters": [
@@ -2433,17 +2445,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2951,7 +2965,7 @@
    "id": 5237,
    "name": "Mission accomplie !",
    "objectives": null,
-   "description": null,
+   "description": "<nom>, votre travail couronné de succès sur les chaudrons est une immense victoire pour nous !\n\nQue tout le monde le sache : pour services rendus au Royaume de Stormwind et à l'Alliance et pour avoir fait bien plus que son devoir, face à un danger incroyable et contre tout espoir, je remets ceci à <nom> en même temps que je l'assure de notre gratitude. Félicitations !",
    "progress": null,
    "completion": "<nom>, votre réingénierie réussie des chaudrons est une énorme victoire pour nous!\n\n<Le haut exécuteur s'éclaircit la gorge et commence à beugler bruyamment.>\n\nTous en ma présence, entendez: pour le service rendu au Abandonnés et envers la Horde dans son ensemble, au-delà de ce qui était attendu - face à des obstacles énormes et à un danger incroyable, pourrais-je ajouter - je donne <nom> ceci et j'étends à <his/her> notre gratitude éternelle en tant que véritable héros de la Horde. Huzzah!",
    "starters": [
@@ -2978,7 +2992,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -2986,16 +3002,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3169,7 +3187,7 @@
    "id": 5401,
    "name": "Brevet de l'Aube d'argent",
    "objectives": null,
-   "description": null,
+   "description": "Tous ceux qui combattent le mal au nom de l'Aube d'argent doivent recevoir un brevet et arborer notre insigne. Cela leur donne le droit de demander à nos intendants les récompenses dont ils ont la garde.\n\nLorsque vous aurez votre brevet, vous pourrez récupérer des pierres du Fléau sur les membres du Fléau abattus ; ce sont des insignes qu'ils ont, parfois. Procurez-vous ces insignes et apportez-les-moi. Pour chaque insigne rapporté, vous recevrez notre marque d'héroïsme - la marque de valeur de l'Aube d'argent.\n\nAccomplissez votre destin, <classe> - rejoignez le combat dès aujourd'hui !",
    "progress": null,
    "completion": "Tous ceux qui combattent le mal au nom de l'Aube d'argent doivent recevoir un brevet et arborer notre insigne. Cela leur donne le droit de demander à nos intendants les récompenses dont ils ont la garde.\n\nLorsque vous aurez votre brevet, vous pourrez récupérer des pierres du Fléau sur les membres du Fléau abattus ; ce sont des insignes qu'ils ont, parfois. Procurez-vous ces insignes et apportez-les-moi. Pour chaque insigne rapporté, vous recevrez notre marque d'héroïsme - la marque de valeur de l'Aube d'argent.\n\nAccomplissez votre destin, <classe> - rejoignez le combat dès aujourd'hui !",
    "starters": [
@@ -3196,7 +3214,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "classe"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -3204,16 +3224,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3221,7 +3243,7 @@
    "id": 5402,
    "name": "Pierres du Fléau des serviteurs",
    "objectives": null,
-   "description": null,
+   "description": "Une Pierre du Fléau des serviteurs est l'insigne du rang et de la classe du Fléau. Elles se trouvent parfois sur les plus faibles de leurs troupes positionnées dans les Maleterres, bien que le terme \"faible\" mérite d'être replacé dans son contexte.Les membres du Fléau, où qu'ils soient, ne devraient jamais être sous-estimés.\n\nL'Aube d'argent offre à présent une marque de valeur pour 20 de ces insignes - un échange que je serai heureuse d'effectuer si vous avez amassé suffisamment de pierres du Fléau.",
    "progress": "Une Pierre du Fléau des serviteurs est l'insigne du rang et de la classe du Fléau. Elles se trouvent parfois sur les plus faibles de leurs troupes positionnées dans les Maleterres, bien que le terme \"faible\" mérite d'être replacé dans son contexte.Les membres du Fléau, où qu'ils soient, ne devraient jamais être sous-estimés.\n\nL'Aube d'argent offre à présent une marque de valeur pour 20 de ces insignes - un échange que je serai heureuse d'effectuer si vous avez amassé suffisamment de pierres du Fléau.",
    "completion": "Félicitations, <nom> - Je suis heureuse de vous remettre cette marque de valeur de l'Aube d'argent !\n\nCes marques ont deux usages. Un - elles peuvent être utilisées pour augmenter votre statut au sein de l'Aube d'argent ; elles vous octroient des choix et des récompenses réservés à nos alliés honorés et révérés. Deux - elles peuvent être échangées auprès de nos intendants, avec des pièces, pour obtenir des articles de l'Aube d'argent de grande valeur.\n\nQuoi que vous décidiez, sachez que votre brevet est bien mérité. Bravo !",
    "starters": [
@@ -3257,17 +3279,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3275,7 +3299,7 @@
    "id": 5403,
    "name": "Pierres du Fléau des envahisseurs",
    "objectives": null,
-   "description": null,
+   "description": "Une pierre de Fléau des envahisseurs est l'insigne des troupes d'élite du Fléau. On les trouve parfois sur les soldats les plus aguerris stationnés dans les Maleterres. Abattre une telle créature est sans conteste un défi, mais un défi bien agréable pour ceux qui ont accepté notre brevet pour combattre le mal.\n\nL'Aube d'argent offre actuellement une marque de valeur en échange de dix de ces insignes. Apportez-les-moi, et je ferai en sorte que vous receviez votre juste récompense.",
    "progress": "Une pierre de Fléau des envahisseurs est l'insigne des troupes d'élite du Fléau. On les trouve parfois sur les soldats les plus aguerris stationnés dans les Maleterres. Abattre une telle créature est sans conteste un défi, mais un défi bien agréable pour ceux qui ont accepté notre brevet pour combattre le mal.\n\nL'Aube d'argent offre actuellement une marque de valeur en échange de dix de ces insignes. Apportez-les-moi, et je ferai en sorte que vous receviez votre juste récompense.",
    "completion": "Félicitations, <nom> - je suis heureux de vous donner une marque de valeur de l'Aube d'argent !\n\nChaque marque de valeur attribuée à un bénéficiaire méritant est un signe que le vent tourne contre le Fléau. Avec un nombre de plus en plus grand de héros combattant le Fléau sur ses propres terres, l'Aube d'argent sera assurément en bonne position quand le temps sera venu de porter l'attaque ultime contre le Fléau. J'espère que la valeur dont vous avez fait preuve pour gagner votre marque fera merveille à nouveau ce jour-là.",
    "starters": [
@@ -3311,17 +3335,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3329,7 +3355,7 @@
    "id": 5404,
    "name": "Pierres du Fléau des corrupteurs",
    "objectives": null,
-   "description": null,
+   "description": "Une Pierre du Fléau des Corrupteurs est l'insigne des Seigneurs du Fléau. Tout être puissant occupant une position d'autorité au sein du Fléau en possède une. Détruire l'une de ces créatures malfaisantes ferait sans doute avancer la cause de l'Aube d'argent, et toutes les bonnes causes !\n\nAu nom de l'Aube d'argent, je vous remettrai une marque de valeur en échange de l'un de ces insignes. Soyez prudent dans votre quête, <nom> - on ne plaisante pas avec des êtres d'une telle puissance.",
    "progress": "Une Pierre du Fléau des Corrupteurs est l'insigne des Seigneurs du Fléau. Tout être puissant occupant une position d'autorité au sein du Fléau en possède une. Détruire l'une de ces créatures malfaisantes ferait sans doute avancer la cause de l'Aube d'argent, et toutes les bonnes causes !\n\nAu nom de l'Aube d'argent, je vous remettrai une marque de valeur en échange de l'un de ces insignes. Soyez prudent dans votre quête, <nom> - on ne plaisante pas avec des êtres d'une telle puissance.",
    "completion": "Félicitations, <nom>. Je suis heureux de vous attribuer une marque de valeur de l'Aube d'argent !\n\nRecevoir une marque de valeur de telle manière prouve que vous êtes un véritable héros au service du bien. Nous apprécions tous les efforts fournis dans la lutte contre le Fléau, mais abattre l'un de ses chefs est vraiment leur infliger une terrible défaite !\n\nPour l'Aube d'argent, mon frère !",
    "starters": [
@@ -3356,7 +3382,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -3365,17 +3393,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3383,7 +3413,7 @@
    "id": 5405,
    "name": "Brevet de l'Aube d'argent",
    "objectives": null,
-   "description": null,
+   "description": "Tous ceux qui combattent le mal au nom de l'Aube d'argent doivent recevoir un brevet et arborer notre insigne. Cela leur donne le droit de demander à nos intendants les récompenses dont ils ont la garde.\n\nLorsque vous aurez votre brevet, vous pourrez récupérer des pierres du Fléau sur les membres du Fléau abattus ; ce sont des insignes qu'ils ont, parfois. Procurez-vous ces insignes et apportez-les-moi. Pour chaque insigne rapporté, vous recevrez notre marque d'héroïsme - la marque de valeur de l'Aube d'argent.\n\nAccomplissez votre destin, <classe> - rejoignez le combat dès aujourd'hui !",
    "progress": null,
    "completion": "Tous ceux qui combattent le mal au nom de l'Aube d'argent doivent recevoir un brevet et arborer notre insigne. Cela leur donne le droit de demander à nos intendants les récompenses dont ils ont la garde.\n\nLorsque vous aurez votre brevet, vous pourrez récupérer des pierres du Fléau sur les membres du Fléau abattus ; ce sont des insignes qu'ils ont, parfois. Procurez-vous ces insignes et apportez-les-moi. Pour chaque insigne rapporté, vous recevrez notre marque d'héroïsme - la marque de valeur de l'Aube d'argent.\n\nAccomplissez votre destin, <classe> - rejoignez le combat dès aujourd'hui !",
    "starters": [
@@ -3410,7 +3440,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "classe"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -3418,16 +3450,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3435,7 +3469,7 @@
    "id": 5406,
    "name": "Pierres du Fléau des corrupteurs",
    "objectives": null,
-   "description": null,
+   "description": "Une Pierre du Fléau des Corrupteurs est l'insigne des Seigneurs du Fléau. Tout être puissant occupant une position d'autorité au sein du Fléau en possède une. Détruire l'une de ces créatures malfaisantes ferait sans doute avancer la cause de l'Aube d'argent, et toutes les bonnes causes !\n\nAu nom de l'Aube d'argent, je vous remettrai une marque de valeur en échange de l'un de ces insignes. Soyez prudent dans votre quête, <nom> - on ne plaisante pas avec des êtres d'une telle puissance.",
    "progress": "Une Pierre du Fléau des Corrupteurs est l'insigne des Seigneurs du Fléau. Tout être puissant occupant une position d'autorité au sein du Fléau en possède une. Détruire l'une de ces créatures malfaisantes ferait sans doute avancer la cause de l'Aube d'argent, et toutes les bonnes causes !\n\nAu nom de l'Aube d'argent, je vous remettrai une marque de valeur en échange de l'un de ces insignes. Soyez prudent dans votre quête, <nom> - on ne plaisante pas avec des êtres d'une telle puissance.",
    "completion": "Félicitations, <nom>. Je suis heureux de vous attribuer une marque de valeur de l'Aube d'argent !\n\nRecevoir une marque de valeur de telle manière prouve que vous êtes un véritable héros au service du bien. Nous apprécions tous les efforts fournis dans la lutte contre le Fléau, mais abattre l'un de ses chefs est vraiment leur infliger une terrible défaite !\n\nPour l'Aube d'argent, mon frère !",
    "starters": [
@@ -3462,7 +3496,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -3471,17 +3507,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3489,7 +3527,7 @@
    "id": 5407,
    "name": "Pierres du Fléau des envahisseurs",
    "objectives": null,
-   "description": null,
+   "description": "Une pierre de Fléau des envahisseurs est l'insigne des troupes d'élite du Fléau. On les trouve parfois sur les soldats les plus aguerris stationnés dans les Maleterres. Abattre une telle créature est sans conteste un défi, mais un défi bien agréable pour ceux qui ont accepté notre brevet pour combattre le mal.\n\nL'Aube d'argent offre actuellement une marque de valeur en échange de dix de ces insignes. Apportez-les-moi, et je ferai en sorte que vous receviez votre juste récompense.",
    "progress": "Une pierre de Fléau des envahisseurs est l'insigne des troupes d'élite du Fléau. On les trouve parfois sur les soldats les plus aguerris stationnés dans les Maleterres. Abattre une telle créature est sans conteste un défi, mais un défi bien agréable pour ceux qui ont accepté notre brevet pour combattre le mal.\n\nL'Aube d'argent offre actuellement une marque de valeur en échange de dix de ces insignes. Apportez-les-moi, et je ferai en sorte que vous receviez votre juste récompense.",
    "completion": "Félicitations, <nom> - je suis heureux de vous donner une marque de valeur de l'Aube d'argent !\n\nChaque marque de valeur attribuée à un bénéficiaire méritant est un signe que le vent tourne contre le Fléau. Avec un nombre de plus en plus grand de héros combattant le Fléau sur ses propres terres, l'Aube d'argent sera assurément en bonne position quand le temps sera venu de porter l'attaque ultime contre le Fléau. J'espère que la valeur dont vous avez fait preuve pour gagner votre marque fera merveille à nouveau ce jour-là.",
    "starters": [
@@ -3525,17 +3563,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3543,7 +3583,7 @@
    "id": 5408,
    "name": "Pierres du Fléau des serviteurs",
    "objectives": null,
-   "description": null,
+   "description": "Une Pierre du Fléau des serviteurs est l'insigne du rang et de la classe du Fléau. Elles se trouvent parfois sur les plus faibles de leurs troupes positionnées dans les Maleterres, bien que le terme \"faible\" mérite d'être replacé dans son contexte.Les membres du Fléau, où qu'ils soient, ne devraient jamais être sous-estimés.\n\nL'Aube d'argent offre à présent une marque de valeur pour 20 de ces insignes - un échange que je serai heureux d'effectuer si vous avez amassé suffisamment de pierres du Fléau.",
    "progress": "Une Pierre du Fléau des serviteurs est l'insigne du rang et de la classe du Fléau. Elles se trouvent parfois sur les plus faibles de leurs troupes positionnées dans les Maleterres, bien que le terme \"faible\" mérite d'être replacé dans son contexte.Les membres du Fléau, où qu'ils soient, ne devraient jamais être sous-estimés.\n\nL'Aube d'argent offre à présent une marque de valeur pour 20 de ces insignes - un échange que je serai heureux d'effectuer si vous avez amassé suffisamment de pierres du Fléau.",
    "completion": "Félicitations, <nom> - Je suis heureux de vous remettre cette marque de valeur de l'Aube d'argent !\n\nCes marques ont deux usages. Un - elles peuvent être utilisées pour augmenter votre statut au sein de l'Aube d'argent ; elles vous octroient des choix et des récompenses réservés à nos alliés honorés et révérés. Deux - elles peuvent être échangées auprès de nos intendants, avec des pièces, pour obtenir des articles de l'Aube d'argent de grande valeur.\n\nQuoi que vous décidiez, sachez que votre brevet est bien mérité. Bravo !",
    "starters": [
@@ -3579,17 +3619,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3826,7 +3868,7 @@
    "id": 5505,
    "name": "La clé de Scholomance",
    "objectives": null,
-   "description": null,
+   "description": "Et bien voilà, <nom> - la Clé squelette terminée. Je suis aussi certain que possible que cette clé vous permettra d'entrer dans les confins de Scholomance. Toutefois il n'y a qu'un moyen de vérifier son efficacité. Ne perdez pas de temps et essayez-la, c'est ce que je dis.\n\nBonne chance, puissant héros. Puissiez-vous continuer à apporter la lumière dans les ténèbres !",
    "progress": null,
    "completion": "Et bien voilà, <nom> - la Clé squelette terminée. Je suis aussi certain que possible que cette clé vous permettra d'entrer dans les confins de Scholomance. Toutefois il n'y a qu'un moyen de vérifier son efficacité. Ne perdez pas de temps et essayez-la, c'est ce que je dis.\n\nBonne chance, puissant héros. Puissiez-vous continuer à apporter la lumière dans les ténèbres !",
    "starters": [
@@ -3853,7 +3895,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -3861,16 +3905,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },

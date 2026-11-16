@@ -75,3 +75,64 @@ def test_latest_capture_wins(tmp_path):
     assert saved["completion"] == "Fini !"
     assert saved["enders"][0]["id"] == 43
     assert len(report["filled"]) == 2 and report["unknown"] == []
+
+
+def test_client_cache_fills_missing_texts_only(tmp_path):
+    from pipeline import client_cache
+    zone = tmp_path / "g" / "c"
+    zone.mkdir(parents=True)
+    kept = _record(id=8, description="Texte de la base.", source={"texts": {"description": "foreverdb"}, "origins": {}})
+    (zone / "quests.json").write_text(json.dumps({"quests": {"7": _record(), "8": kept}}), encoding="utf-8")
+    texts = {7: {"name": "Une quête", "description": "Bonjour $N.$B$BMerci.", "objectives": "Tuer 5 loups."},
+             8: {"name": None, "description": "Un tout autre texte, sans rapport.", "objectives": None},
+             9: {"name": "Ailleurs", "description": "x", "objectives": None}}
+    report = client_cache.import_cache(texts, 70938, tmp_path)
+    saved = json.loads((zone / "quests.json").read_text(encoding="utf-8"))["quests"]
+    assert saved["7"]["description"] == "Bonjour $N.$B$BMerci."  # converted by read(), not here
+    assert saved["7"]["source"]["origins"]["description"] == "client_cache"
+    assert saved["7"]["source"]["client_cache"] == 70938
+    assert saved["8"]["description"] == "Texte de la base."
+    assert [r["field"] for r in report["differs"]] == ["description"]
+    assert report["unknown"] == [9]
+
+
+def test_client_cache_unconfirmed_needs_the_registry_title(tmp_path):
+    from pipeline import client_cache
+    zone = tmp_path / "g" / "c"
+    zone.mkdir(parents=True)
+    quests = {"7": _record(), "8": _record(id=8, name="Autre titre")}
+    (zone / "quests.json").write_text(json.dumps({"quests": quests}), encoding="utf-8")
+    texts = {7: {"name": "Une quête", "description": "Texte.", "objectives": None, "confirmed": False},
+             8: {"name": "Pas le même", "description": "Texte.", "objectives": None, "confirmed": False}}
+    report = client_cache.import_cache(texts, 1, tmp_path)
+    assert [r["quest"] for r in report["filled"]] == [7]
+    assert [r["quest"] for r in report["skipped"]] == [8]
+
+
+def test_wowdata_read_and_import(tmp_path):
+    import sqlite3
+    from pipeline import client_cache, wowdata
+    db = tmp_path / "forever.db"
+    con = sqlite3.connect(db)
+    con.execute("CREATE TABLE meta (key TEXT, value TEXT)")
+    con.execute("INSERT INTO meta VALUES ('tag', 'db-test')")
+    con.execute("CREATE TABLE quest_text (quest_id INT, locale TEXT, field TEXT, text TEXT, source TEXT)")
+    con.executemany("INSERT INTO quest_text VALUES (?, ?, ?, ?, 'wowhead')", [
+        (7, "frFR", "details", "Salut $N.$B$BÀ vous, $gmon frère:ma sœur;.", ), (7, "frFR", "reward", "Bravo !"),
+        (7, "frFR", "objectives", "Parler à [Old Man]."), (7, "enUS", "details", "Hello."),
+        (8, "frFR", "details", "Pour la Horde, ce texte.")])
+    con.commit()
+    con.close()
+    tag, texts = wowdata.read(db)
+    assert tag == "db-test"
+    assert texts[7] == {"description": "Salut <nom>.\n\nÀ vous, <mon frère/ma sœur>.", "completion": "Bravo !"}
+    zone = tmp_path / "g" / "c"
+    zone.mkdir(parents=True)
+    (zone / "quests.json").write_text(json.dumps({"quests": {"7": _record(), "8": _record(id=8, side="horde")}}),
+                                      encoding="utf-8")
+    report = client_cache.import_cache(texts, tag, tmp_path, channel="wowdata", exclude_side="horde")
+    saved = json.loads((zone / "quests.json").read_text(encoding="utf-8"))["quests"]
+    assert saved["7"]["completion"] == "Bravo !" and saved["7"]["source"]["origins"]["completion"] == "wowdata"
+    assert saved["7"]["source"]["wowdata"] == "db-test"
+    assert saved["8"]["description"] is None
+    assert [r["quest"] for r in report["filled"]] == [7]

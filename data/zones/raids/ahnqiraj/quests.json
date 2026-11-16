@@ -480,7 +480,7 @@
    "id": 8579,
    "name": "Champions mortels",
    "objectives": null,
-   "description": null,
+   "description": "Nous sentons la présence de nos frères asservis loin dans les profondeurs d’Ahn’Qiraj, mais une armée de dragons ne suffirait pas à les sauver, <race>.\n\nSi nous nous rapprochons d’eux, le sort qui les lie nous jetterait également dans les griffes de C’Thun.\n\nLe Dieu très ancien a prévu notre venue. Tout espoir est perdu. Qu'est-ce qu'un simple mortel comme vous pourrait bien y changer ?",
    "progress": "Nous sentons la présence de nos frères asservis loin dans les profondeurs d’Ahn’Qiraj, mais une armée de dragons ne suffirait pas à les sauver, <race>.\n\nSi nous nous rapprochons d’eux, le sort qui les lie nous jetterait également dans les griffes de C’Thun.\n\nLe Dieu très ancien a prévu notre venue. Tout espoir est perdu. Qu'est-ce qu'un simple mortel comme vous pourrait bien y changer ?",
    "completion": "Je vois que vous n’êtes pas un mortel ordinaire, <nom>. Vous avez une chance de triompher du Dieu très ancien. Elle est infime, soit, mais pour l’heure, elle est meilleure que les nôtres. Il s’attend à voir arriver des dragons. Il ne vous attend pas.\n\nIl y a mille ans, Nozdormu et Staghelm ont vaincu les Qiraji grâce à une alliance entre les dragons et les peuples mortels. Nous allons passer un pacte similaire. Gagnez la confiance du Vol de bronze et vous gagnerez notre confiance. Alors, nous ferons de vous un véritable champion.",
    "starters": [
@@ -507,7 +507,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "race"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -516,17 +518,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -703,7 +707,7 @@
    "id": 8595,
    "name": "Champions mortels",
    "objectives": null,
-   "description": null,
+   "description": "Tuer un seigneur qiraji représente un succès notable pour un mortel, <nom>. Hélas, ils sont nombreux et puissants. Continuez à les vaincre pour prouver votre valeur en tant que champion.",
    "progress": "Tuer un seigneur qiraji représente un succès notable pour un mortel, <nom>. Hélas, ils sont nombreux et puissants. Continuez à les vaincre pour prouver votre valeur en tant que champion.",
    "completion": "Vous continuez à bien nous servir, <nom>. Notre pacte est maintenu.",
    "starters": [
@@ -730,7 +734,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -739,17 +745,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
