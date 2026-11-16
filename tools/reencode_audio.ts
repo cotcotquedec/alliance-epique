@@ -67,12 +67,15 @@ export function vorbisFormat(path: string): { channels: number; rate: number } |
 const files = new Map<string, string>();
 for (const registry of walk(ZONES)) pairs(JSON.parse(readFileSync(registry, "utf8")), files);
 
-let done = 0, already = 0, before = 0, after = 0;
+let done = 0, already = 0, absent = 0, before = 0, after = 0;
 const missing: string[] = [];
 const failed: string[] = [];
 const todo: [string, string][] = [];
 for (const [ogg, master] of files) {
-  if (!existsSync(ogg)) continue; // not produced yet (registry ahead of this machine's audio)
+  if (!existsSync(ogg)) {
+    absent++; // not on this machine (a worktree has no audio; or the registry is ahead of this machine's audio)
+    continue;
+  }
   if (!existsSync(master)) {
     missing.push(ogg);
     continue;
@@ -87,7 +90,10 @@ for (const [ogg, master] of files) {
 const batch = todo.slice(0, LIMIT);
 console.log(`${files.size} game files in the registries: ${already} already mono ${RATE / 1000} kHz, ` +
   `${todo.length} to re-encode${batch.length < todo.length ? ` (${batch.length} this run)` : ""}, ` +
-  `${missing.length} without their master`);
+  `${missing.length} without their master, ${absent} not on this machine`);
+if (absent === files.size && files.size) {
+  console.log(`no audio under ${join(ROOT, "addon")}: run it in the game folder, or pass --root <game folder>`);
+}
 
 async function encode([ogg, master]: [string, string]): Promise<void> {
   const wav = `${ogg}.reencode.wav`;

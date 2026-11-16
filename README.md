@@ -67,7 +67,7 @@ Tout l'audio de l'addon a été généré : 10 632 fichiers, 3,1 Go.
 - **Elise** : sa voix ElevenLabs, pour 365 débuts et 209 fins de quête, 50 présentations de zone, 59 répliques de
   niveau, 950 pages de livres et 70 répliques sur les compagnons.
 
-**L'audio n'est pas dans ce dépôt** : il est distribué à part, dans une archive des voix (3,2 Go) partagée par lien.
+**L'audio n'est pas dans ce dépôt** : il est distribué à part, dans une archive des voix (0,9 Go) partagée par lien.
 L'addon publié marche sans elle : la synthèse vocale du jeu lit alors les textes.
 
 **Le dépôt contient tout le code pour le refaire** : l'import des données, les fiches de personnalité des PNJ, les

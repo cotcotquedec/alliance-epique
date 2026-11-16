@@ -261,8 +261,8 @@ tools/readings/run.sh --group eastern-kingdoms --category elwynn-forest [--npc 8
 [tools/readings/constitution.md](../tools/readings/constitution.md).
 
 **Format des fichiers du jeu** (2026-11-16, toutes les boucles : `pipeline/voices/audio.py`) : Ogg Vorbis **mono,
-24 kHz, qualité 1** (environ 36 kbit/s), choisi à l'oreille sur 80 lectures ; les voix passent de 3,4 Go à environ
-0,93 Go. Avant : stéréo 44,1 kHz, qualité 6. Le master FLAC garde le son d'origine. Réencoder les fichiers du jeu
+24 kHz, qualité 1** (environ 36 kbit/s), choisi à l'oreille sur 80 lectures ; les voix sont passées de 3,4 Go à
+0,93 Go (10 643 fichiers réencodés le 2026-11-16). Avant : stéréo 44,1 kHz, qualité 6. Le master FLAC garde le son d'origine. Réencoder les fichiers du jeu
 depuis leurs masters (ceux qui ne sont pas encore en mono 24 kHz ; jamais pendant une boucle qui écrit de l'audio ;
 en jeu, un fichier remplacé s'entend après un redémarrage complet) :
 

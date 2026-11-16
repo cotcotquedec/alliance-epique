@@ -27,7 +27,7 @@ se font avec le compte CurseForge du joueur, dans l'espace auteur du site. Les a
 `16001`). **La distribution** aux applications tierces : autorisée.
 
 **Le fichier à envoyer** : `dist/AllianceEpique-<version>-<date>.zip` (l'addon seul, sans les voix). Jamais l'archive
-des voix (3,2 Go) : elle se partage à part.
+des voix (0,9 Go) : elle se partage à part.
 
 **Ce que CurseForge exige** (appris le 2026-11-05) :
 
@@ -64,7 +64,7 @@ Tout se règle dans Échap > Options > AddOns > Alliance Épique, ou avec `/fs o
 
 ### Les voix
 
-Les voix (environ 3 Go) ne sont pas dans ce téléchargement : elles se partagent à part, dans une archive qui ajoute le
+Les voix (environ 0,9 Go) ne sont pas dans ce téléchargement : elles se partagent à part, dans une archive qui ajoute le
 dossier `AllianceEpique_Voix` à côté de l'addon. Les mises à jour de l'addon n'y touchent pas. Sans elles, l'addon lit
 les textes avec la synthèse vocale du jeu.
 

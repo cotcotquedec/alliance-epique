@@ -6,7 +6,7 @@
 > **ForeverSpeech** et `/fs`.
 > L'audio n'est pas dans le dépôt ; sa fabrication : [docs/pipeline.md](docs/pipeline.md). **Releases** (2026-11-05) : deux
 > archives (`tools/package_addon.ts`) : l'addon sans l'audio (18 Mo), à publier (GitHub, CurseForge ou Wago), et ses voix
-> (3,2 Go), partagées à part par le joueur (Drive), refaites seulement quand des voix changent (`--no-audio` sinon), dans
+> (0,9 Go, mono 24 kHz depuis le 2026-11-16), partagées à part par le joueur (Drive), refaites seulement quand des voix changent (`--no-audio` sinon), dans
 > leur propre dossier `AllianceEpique_Voix` à côté de l'addon (une mise à jour remplace le dossier de l'addon, pas celui-là) ;
 > FlareUI en dépendance optionnelle (`## OptionalDeps`, à déclarer aussi sur CurseForge ; le kit : [docs/curseforge.md](docs/curseforge.md)).
 > **Le dépôt** (2026-11-06) : [alliance-epique](https://github.com/cotcotquedec/alliance-epique), public, le seul où l'on
