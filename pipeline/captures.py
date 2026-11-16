@@ -143,7 +143,21 @@ def main(argv: list[str] | None = None) -> int:
     q.add_argument("--zones", type=Path, default=None, help="registries folder (default data/zones)")
     q.add_argument("--dry-run", action="store_true", help="report only, write nothing")
     q.add_argument("--json", action="store_true")
+    c = sub.add_parser("cache", help="quest texts of the client cache (questcache.wdb) into the zone registries")
+    c.add_argument("wdb", type=Path)
+    c.add_argument("--zones", type=Path, default=None, help="registries folder (default data/zones)")
+    c.add_argument("--dry-run", action="store_true", help="report only, write nothing")
+    c.add_argument("--json", action="store_true")
     args = ap.parse_args(argv)
+    if args.command == "cache":
+        from pipeline import client_cache
+        _, build, texts = client_cache.read(args.wdb)
+        report = client_cache.import_cache(texts, build, args.zones, dry_run=args.dry_run)
+        if args.json:
+            print(json.dumps(report, ensure_ascii=False, indent=1))
+        else:
+            print("\n".join(client_cache.summary(report)) + ("\n(dry run: nothing written)" if args.dry_run else ""))
+        return 0
     if args.command == "quests":
         from pipeline import capture_quests
         report = capture_quests.import_captures(load(args.savedvariables), args.zones, dry_run=args.dry_run)

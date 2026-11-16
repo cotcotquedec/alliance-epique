@@ -4784,9 +4784,9 @@
   },
   "95140": {
    "id": 95140,
-   "name": null,
-   "objectives": null,
-   "description": null,
+   "name": "Le vieil Œil-de-feu",
+   "objectives": "Utilisez la lame de sélénargent pour tuer le vieil Œil-de-feu, dans la forêt des Pins-Argentés.",
+   "description": "Je vois que vous avez votre nouvelle arme, <classe>. Je prie pour qu’elle ne faillisse pas à la tâche.\n\nD’après les habitants, le vieil Œil-de-feu chasse dans une vaste zone au sud d’ici. On le trouve souvent près des portes de Gilnéas. Trouvez-le et servez-vous de votre nouvelle lame pour le tuer. Quand ce sera fait, revenez ici, afin que je puisse vous exprimer toute la gratitude des Sculpte-vents.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -4813,21 +4813,28 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "classe"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "origins": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "client_cache": 70938
    },
-   "missing": [
-    "name",
-    "objectives",
-    "description"
-   ],
-   "status": "incomplete"
+   "missing": [],
+   "status": "complete"
   },
   "95803": {
    "id": 95803,

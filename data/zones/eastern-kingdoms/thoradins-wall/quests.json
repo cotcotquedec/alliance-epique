@@ -20,9 +20,9 @@
  "quests": {
   "79976": {
    "id": 79976,
-   "name": null,
-   "objectives": null,
-   "description": null,
+   "name": "Ça doit être ici",
+   "objectives": "Vous avez raté de peu la personne qui se trouvait ici.",
+   "description": "« J’ai décidé de retourner travailler sous terre. Pour que mon œuvre ne tombe plus entre de mauvaises mains. »\n\n<Le papier a été déchiré au plus près du message. Vous ne savez pas s’il s’agit des derniers mots que l’auteur aura laissés ou d’un indice pour trouver son repaire suivant. Un sac de couchage mal fixé se déroule tout seul jusque sur vos pieds…>",
    "progress": null,
    "completion": null,
    "starters": [
@@ -55,15 +55,20 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "origins": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "client_cache": 70938
    },
-   "missing": [
-    "name",
-    "objectives",
-    "description"
-   ],
-   "status": "incomplete"
+   "missing": [],
+   "status": "complete"
   }
  }
 }

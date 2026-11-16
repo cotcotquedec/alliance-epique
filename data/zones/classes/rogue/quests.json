@@ -3015,9 +3015,9 @@
   },
   "78261": {
    "id": 78261,
-   "name": null,
-   "objectives": null,
-   "description": null,
+   "name": "La Corne de Xelthos",
+   "objectives": "Trouvez la Corne de Xelthos dans le donjon d’Ombrecroc. Puis rapportez-la au point de livraison de C, près du village de Bois-du-Bûcher. Vous devez accomplir cette tâche sans l’aide de personne.",
+   "description": "<Une note est posée dans le coffre.>\n\nBonjour, <nom>.\n\nJe désire ardemment un trésor appelé la Corne de Xelthos, qui se situe quelque part dans le donjon d’Ombrecroc.\n\nS’aventurer dans ce lieu implique généralement d’amener un grand nombre de renforts. Mais pour cette tâche, il sera capital de faire profil bas.\n\nVous devrez y entrer sans personne.\n\nJ’ai un contact du nom de Veenix, dans les Serres-Rocheuses. Il devrait pouvoir vous faire passer la porte de la cour. La suite dépendra de vous.\n\nRapportez la Corne ici, et vous toucherez votre salaire peu après.\n\n– C",
    "progress": null,
    "completion": null,
    "starters": [
@@ -3044,21 +3044,29 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "Une note est posée dans le coffre.",
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "origins": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "client_cache": 70938
    },
-   "missing": [
-    "name",
-    "objectives",
-    "description"
-   ],
-   "status": "incomplete"
+   "missing": [],
+   "status": "complete"
   },
   "78270": {
    "id": 78270,
@@ -3109,9 +3117,9 @@
   },
   "78307": {
    "id": 78307,
-   "name": null,
-   "objectives": null,
-   "description": null,
+   "name": "La Corne de Xelthos",
+   "objectives": "Journal",
+   "description": "Description",
    "progress": null,
    "completion": null,
    "starters": [],
@@ -3138,13 +3146,19 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "origins": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "client_cache": 70938
    },
    "missing": [
-    "name",
-    "objectives",
-    "description",
     "giver"
    ],
    "status": "incomplete"

@@ -4221,9 +4221,9 @@
   },
   "98418": {
    "id": 98418,
-   "name": null,
-   "objectives": null,
-   "description": null,
+   "name": "Fureur partagée",
+   "objectives": "Tuez 5 voleurs, 5 gangreliges, 5 traîtres et 5 implorateurs de l’enfer de Xavian.\nRetournez ensuite auprès de Maseara Lune-d’Automne au Chant des forêts.",
+   "description": "Kurothel a évoqué des créatures que l’on décrit comme des hommes-loups. Leur meute rôde désormais en plus grand nombre dans notre forêt. La dernière fois que nous nous sommes parlé, les druides cherchaient à établir le dialogue avec ceux qui, malgré leur cœur de bête, parvenaient à garder une certaine maîtrise de leurs instincts.\n\nSes écrits révèlent un combat bien plus sombre. Si nous voulons un jour revoir notre Kurothel, alors apaiser la menace démoniaque qui l’entraîne dans cette terrible métamorphose sera sans doute d’un grand secours pour son âme tourmentée.\n\nTuez les Xavian, <nom>.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -4250,21 +4250,28 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "origins": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "client_cache": 70938
    },
-   "missing": [
-    "name",
-    "objectives",
-    "description"
-   ],
-   "status": "incomplete"
+   "missing": [],
+   "status": "complete"
   }
  }
 }

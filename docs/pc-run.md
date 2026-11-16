@@ -10,6 +10,8 @@ du PC reste [machines.md](machines.md), à lire d'abord.
 - Captures en jeu importées dans les registres (`python -m pipeline.captures quests`, nouveau) : 825 textes capturés
   depuis la sortie, 104 textes français qui manquaient comblés (51 débuts, 53 fins ; Marche de l'Ouest, Les Paluns,
   Les Carmines, Hurlevent, donjons de Forever…). Aucun texte existant remplacé.
+- Cache du client importé (`python -m pipeline.captures cache`, nouveau ; `questcache.wdb`, build 70938) : 50 quêtes
+  de plus (45 textes de début, 49 objectifs ; Les Paluns, Dalaran, site de fouilles des Paluns, Bois de la Pénombre…).
 - Boucle texte relancée (`--reset-ratchet` : le cliquet datait du 2026-10-10) : fiches des PNJ qui n'en avaient pas,
   scripts des textes comblés.
 
