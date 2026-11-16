@@ -1894,7 +1894,7 @@
    "id": 7633,
    "name": "Une rencontre",
    "objectives": null,
-   "description": null,
+   "description": "Votre dilligence et votre intégrité ont été notées, <classe>.\n\nNous sommes les Anciens, les protecteurs de cette forêt qui fut grande, autrefois. Nos formes physiques ont été détruites il y a dix mille ans lorsqu’Archimonde et la Légion ardente ont marché sur le mont Hyjal. Malgré tout, nos esprits demeurent intacts.\n\nNous avons des tâches à vous proposer. Des tâches qui vous donneront accès à nos secrets, si vous les accomplissez.\n\nSi vous y parvenez, revenez à ce rocher et nous répondrons à votre appel.\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "Votre dilligence et votre intégrité ont été notées, <classe>.\n\nNous sommes les Anciens, les protecteurs de cette forêt qui fut grande, autrefois. Nos formes physiques ont été détruites il y a dix mille ans lorsqu’Archimonde et la Légion ardente ont marché sur le mont Hyjal. Malgré tout, nos esprits demeurent intacts.\n\nNous avons des tâches à vous proposer. Des tâches qui vous donneront accès à nos secrets, si vous les accomplissez.\n\nSi vous y parvenez, revenez à ce rocher et nous répondrons à votre appel.",
    "starters": [
@@ -1921,7 +1921,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "classe"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -1929,16 +1931,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2355,10 +2359,10 @@
   "92482": {
    "id": 92482,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Lisez la note gribouillée, puis parlez à Tai’ree Doublevue dans le bosquet de Thendal.",
+   "description": "Pendant que vous vous occupiez de notre problème de vuldrènes, notre maîtresse des chasseurs locale, Tai’ree Doublevue, a laissé ce message pour vous. Vous pouvez la trouver juste là-bas, près du centre du village. Lisez ce mot avant de lui parler.",
    "progress": null,
-   "completion": null,
+   "completion": "La voie de la chasse est parsemée de dangers, et seuls ceux qui possèdent les sens les plus aiguisés et les réflexes les plus vifs peuvent survivre dans la nature. En vous regardant, je me revois plus jeune devant mon mentor, il y a tant d’années. Je pense que vous avez ce qu’il faut, mais en fin de compte, cela ne dépendra que de vous.\n\nRevenez me parler si vous souhaitez passer à la prochaine étape.",
    "starters": [
     {
      "type": "npc",
@@ -2389,23 +2393,30 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "94007": {
    "id": 94007,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Présentez-vous à Quel’ana Vent-Vif à Valanaar.",
+   "description": "Maintenant que vous avez trouvé vos marques dans les étendues sauvages des hautes-terres, le moment est venu, je crois, de vous trouver votre propre compagnon.\n\nRendez-vous au port de Valanaar, au sud-est, et adressez-vous à Quel’ana Vent-Vif. Il vous initiera à l’art d’apprivoiser les bêtes.",
    "progress": null,
-   "completion": null,
+   "completion": "Je suis ravie de votre venue. Approchez, commençons.",
    "starters": [
     {
      "type": "npc",
@@ -2436,23 +2447,30 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "94013": {
    "id": 94013,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Utilisez le bâtonnet de domptage pour dompter une alpha vuldrène des plaines Aérelles. Entraînez-vous à combattre à ses côtés, puis rapportez le bâtonnet de domptage à Quel’ana Vent-Vif à Valanaar.",
+   "description": "Vous voilà de retour <couvert/couverte> de gloire après avoir apprivoisé deux bêtes. Il est temps maintenant d’affronter votre dernière épreuve. Les vents de Zéphras murmurent que de plus grands défis vous attendent.\n\nPrenez ce bâtonnet de domptage et rendez-vous dans les plaines Aérelles. Là-bas, apprivoisez une alpha vuldrène et prouvez votre maîtrise.\n\nUne fois cette leçon terminée, vous serez <prêt/prête> à découvrir les aspects les plus profonds de la chasse.",
    "progress": null,
-   "completion": null,
+   "completion": "Parfait, <nom> ! Vous apprenez vite. Maintenant que vous maîtrisez les bases, je peux vous apprendre à nouer des liens étroits avec votre compagnon animal.\n\nMettez ces connaissances en pratique et accomplissez de grandes choses. Devenez le <classe> dont l’île de Zéphras a besoin.",
    "starters": [
     {
      "type": "npc",
@@ -2477,29 +2495,39 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "couvert/couverte",
+    "prêt/prête"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "94050": {
    "id": 94050,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Parlez à Quel’dora Vent-Vif à Valanaar.",
+   "description": "Vous avez maintenant les compétences pour dompter un familier, mais vous devez aussi acquérir celles qui sont nécessaires à son apprivoisement. Personne n’est mieux placé pour cela que ma sœur Quel’dora. Elle vous apprendra à dresser votre nouveau compagnon animal.\n\nQue les vents vous portent, jeune <classe>.",
    "progress": null,
-   "completion": null,
+   "completion": "Un <classe> novice, je vois. Oui, je peux vous insuffler les talents dont vous avez besoin pour entraîner et guider votre familier. En plus d’être capable de lui apprendre de nouvelles techniques, vous serez capable de le nourrir, aussi bien que de le ressusciter s’il venait à périr au combat.\n\nSouvenez-vous, <nom>, de toujours rester respectueux de l’équilibre et de la vie que la nature abrite, et restez humble en face d’elle. Maintenant, poursuivez votre chemin, nous nous reparlerons à une date ultérieure.",
    "starters": [
     {
      "type": "npc",
@@ -2524,29 +2552,38 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "classe"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "94792": {
    "id": 94792,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Utilisez le bâtonnet de domptage pour dompter un sanglier Rochecuir. Entraînez-vous à ses côtés, puis rapportez le bâtonnet de domptage à Joséphine Carson.",
+   "description": "De nombreux chasseurs aiment voyager en compagnie d’animaux. Vous verrez : avec une bête à vos côtés, vous réussirez à survivre aux situations les plus périlleuses. On dit souvent que tout est plus facile en bonne compagnie. Pourtant, il faut faire preuve de considération avant d’adopter un compagnon animal. L’équilibre de la nature est fragile et mérite le plus grand respect.\n\nPrenez ce bâtonnet de domptage et rendez-vous dans la forêt. Vous pourrez y apprivoiser un sanglier Rochecuir et perfectionner vos compétences en matière de chasse.",
    "progress": null,
-   "completion": null,
+   "completion": "Excellent, Marco ! Vous apprenez vite.",
    "starters": [
     {
      "type": "npc",
@@ -2577,23 +2614,30 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "94793": {
    "id": 94793,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Parlez à Isaac Chan à Comté-de-l’Or.",
+   "description": "Vous avez maintenant les compétences pour dompter un familier, mais vous devez aussi acquérir celles qui sont nécessaires à son apprivoisement. Personne n’est mieux placé pour cela qu’Isaac Chan, un bûcheron de longue date. Il vous apprendra à dresser votre nouveau compagnon animal.\n\nQue les vents vous portent, jeune <classe>.",
    "progress": null,
-   "completion": null,
+   "completion": "Un <classe> novice, je vois. Oui, je peux vous insuffler les talents dont vous avez besoin pour entraîner et guider votre familier. En plus d’être capable de lui apprendre de nouvelles techniques, vous serez capable de le nourrir, aussi bien que de le ressusciter s’il venait à périr au combat.\n\nSouvenez-vous, Marco, de toujours rester respectueux de l’équilibre et de la vie que la nature abrite, et restez humble en face d’elle. Maintenant, poursuivez votre chemin, nous nous reparlerons à une date ultérieure.",
    "starters": [
     {
      "type": "npc",
@@ -2618,29 +2662,38 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "classe"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "94863": {
    "id": 94863,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Utilisez le bâtonnet de domptage pour dompter un loup forestier gris. Entraînez-vous à ses côtés, puis rapportez le bâtonnet de domptage à Joséphine Carson.",
+   "description": "Vous savez déjà apprivoiser un sanglier, passons à la leçon suivante. La forêt abrite des compagnons bien plus féroces. À force de prudence, vous pourrez gagner leur confiance.\n\nPrenez ce bâtonnet de domptage et partez à la recherche d’un loup forestier gris. N’oubliez pas que l’équilibre de la nature doit être respecté. Prouvez une fois de plus vos talents en matière de chasse.",
    "progress": null,
-   "completion": null,
+   "completion": "Beau travail, Marco ! Vous êtes vraiment en parfaite harmonie avec la bête.",
    "starters": [
     {
      "type": "npc",
@@ -2671,23 +2724,30 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "94864": {
    "id": 94864,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Utilisez le bâtonnet de domptage pour dompter un jeune ours des forêts. Entraînez-vous à ses côtés, puis rapportez le bâtonnet de domptage à Joséphine Carson.",
+   "description": "Vous avez fait vos preuves en apprivoisant un sanglier et un loup. À présent, votre dernier défi vous attend. L’équilibre d’Elwynn repose à la fois sur le respect et le savoir-faire. Prenez ce bâtonnet de domptage et partez à la recherche d’un jeune ours des forêts. Démontrez que vous méritez la confiance du plus redoutable des compagnons.\n\nEn achevant cette leçon, votre affinité avec les bêtes sera renforcée.",
    "progress": null,
-   "completion": null,
+   "completion": "La force brute des forêts. Quel courage, Marco !",
    "starters": [
     {
      "type": "npc",
@@ -2718,23 +2778,30 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "94978": {
    "id": 94978,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Utilisez le bâtonnet de domptage pour dompter un clampant chantevent près d’un point d’eau.\nEntraînez-vous à combattre à ses côtés, puis rapportez le bâtonnet de domptage à Quel’ana Vent-Vif à Valanaar.",
+   "description": "Pour débuter, tout chasseur doit apprendre à comprendre le lien qui unit la bête et son maître. C’est là votre premier défi. Avec le temps, vous apprivoiserez des créatures venues des quatre coins du monde, mais pour aujourd’hui, commencez par nos rivières et nos lacs sur Zéphras.\n\nPrenez ce bâtonnet de domptage et partez à la recherche d’un clampant chantevent.\n\nMontrez-lui que vous êtes capable de gagner sa confiance, et engagez-vous sur la voie vers la véritable maîtrise des bêtes.",
    "progress": null,
-   "completion": null,
+   "completion": "Excellent domptage, <nom> ! Vous vous améliorez.",
    "starters": [
     {
      "type": "npc",
@@ -2765,23 +2832,30 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "94979": {
    "id": 94979,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Utilisez le bâtonnet de domptage pour dompter un trotteur des trombes hargneux des plaines Aérelles.\nEntraînez-vous à combattre à ses côtés, puis rapportez le bâtonnet de domptage à Quel’ana Vent-Vif à Valanaar.",
+   "description": "Vous avez fait vos preuves en apprivoisant le clampant des rivières. À présent, il est temps de mettre vos talents à l’épreuve en terrain ouvert. Les plaines de Zéphras sont le théâtre des cris du trotteur des trombes, un fier chasseur ailé qui court aussi vite que le vent.\n\nPrenez ce bâtonnet de domptage et partez à sa recherche. Rendez-vous dans les plaines et gagnez sa confiance.\n\nMontrez que vous êtes <prêt/prête> pour les épreuves à venir.",
    "progress": null,
-   "completion": null,
+   "completion": "Vous êtes déjà de retour ! Votre rapidité est impressionnante, <nom> !",
    "starters": [
     {
      "type": "npc",
@@ -2806,19 +2880,28 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "prêt/prête"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   }

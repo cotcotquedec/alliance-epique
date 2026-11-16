@@ -682,7 +682,7 @@
    "id": 2881,
    "name": "Chasse aux colliers trolls",
    "objectives": null,
-   "description": null,
+   "description": "Vous l'avez déjà fait, mais nous continuerons d'accepter tous les Colliers tribaux que vous trouverez. En me les donnant, vous continuerez d'accroître votre prestige parmi les Wildhammer ; si vous désirez vous battre pour nous, nous pourrons nous battre pour vous !\n\nJ'ai besoin de cinq colliers tribaux trolls, <nom>.",
    "progress": "Vous l'avez déjà fait, mais nous continuerons d'accepter tous les Colliers tribaux que vous trouverez. En me les donnant, vous continuerez d'accroître votre prestige parmi les Wildhammer ; si vous désirez vous battre pour nous, nous pourrons nous battre pour vous !\n\nJ'ai besoin de cinq colliers tribaux trolls, <nom>.",
    "completion": "Une autre série de colliers veut dire qu'il y a moins de trolls pour nous inquiéter dans les Hinterlands ! Vous avez bien travaillé, <nom>. Continuez dans cette voie !",
    "starters": [
@@ -709,7 +709,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -718,17 +720,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },

@@ -2675,7 +2675,7 @@
    "objectives": "Vous n’avez pour vous guider que ce qui reste de la note calcinée.",
    "description": "<La lueur sourde des braises s’amenuise et vous tombez sur les restes d’un feu récent.\r\n\r\nParmi les provisions éparses, vous trouvez une note roussie.>\r\n\r\n« Tout ce qui brûle n’est pas perdu. Trouvez la terre jumelle, trouvez le lieu. »",
    "progress": null,
-   "completion": null,
+   "completion": "Vous découvrez une nouvelle dépouille calcinée et apercevez un message cloué sur une planche en bois.",
    "starters": [
     {
      "type": "object",
@@ -2732,13 +2732,16 @@
     "texts": {
      "description": "capture",
      "objectives": "capture",
-     "name": "capture"
+     "name": "capture",
+     "completion": "wowdata"
     },
     "origins": {
      "description": "capture",
      "objectives": "capture",
-     "name": "capture"
-    }
+     "name": "capture",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [],
    "status": "complete"
@@ -2746,8 +2749,8 @@
   "92109": {
    "id": 92109,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Collectez 5 fioles vides, 5 brins de feuillargent et 5 pacifiques pour la jeune alchimiste en herbe devant la grange de Ruisselune dans la marche de l’Ouest.",
+   "description": "Euh… bonjour, <m’sieur/m’dame>. Normalement, je dois pas parler aux <inconnus/inconnues>, mais… Hé, c’est quoi ces bouteilles toutes brillantes qui dépassent de votre sac ? Vous êtes alchimiste ? C’est super cool !\n\nQuand je serai grande, je veux être alchimiste aussi. Mon papa me laisse pas jouer avec ses herbes, il dit que c’est trop dangereux.\n\nMais moi, je veux apprendre maintenant. Vous pourriez pas me donner du matériel ? Allez, s’il vous plaît !",
    "progress": null,
    "completion": null,
    "starters": [
@@ -2774,27 +2777,35 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "inconnus/inconnues",
+    "m’sieur/m’dame"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "92110": {
    "id": 92110,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Collectez 3 yeux de Murloc pour la jeune alchimiste en herbe devant la grange de Ruisselune dans la marche de l’Ouest.",
+   "description": "Ouah, c’est ma toute première potion ! Vous saviez que si on mélange ces deux herbes, la potion devient toute rouge, vous ?\n\nC’est rigolo, mais juste mélanger des fleurs comme ça, ça ressemble pas vraiment à l’alchimie que fait mon papa. Lui, il a aussi des autres ingrédients.\n\nJe sais pas trop quoi utiliser, alors on n’a qu’à inventer des trucs ! Voyons voir… des yeux de Murloc, peut-être ? Ça a l’air un peu dégoûtant, mais je suis sûre que ça fera quelque chose.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -2827,13 +2838,18 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
@@ -3619,7 +3635,7 @@
    "objectives": "Trouvez la forge cachée dans les Mortemines et placez les explosifs de destruction ultime à proximité. Rejoignez ensuite Alba Lunepâle à la sortie des Mortemines.",
    "description": "La source du poison est probablement une grande forge métallurgique. Trouvez un moyen de pénétrer dans les Mortemines, localisez la forge, puis placez les explosifs.\r\nJe vous attendrai dans les collines derrière Ruisselune. À votre retour, nous pourrons faire exploser les charges. Avec un peu de chance, la destruction de la forge permettra à ces terres de commencer à guérir.",
    "progress": null,
-   "completion": null,
+   "completion": "Alors vous avez trouvé la forge et placé les explosifs… Il ne reste plus qu’une seule chose à faire.",
    "starters": [
     {
      "type": "npc",
@@ -3671,13 +3687,16 @@
     "texts": {
      "description": "capture",
      "objectives": "capture",
-     "name": "capture"
+     "name": "capture",
+     "completion": "wowdata"
     },
     "origins": {
      "description": "capture",
      "objectives": "capture",
-     "name": "capture"
-    }
+     "name": "capture",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [],
    "status": "complete"
@@ -3685,10 +3704,10 @@
   "92819": {
    "id": 92819,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Utilisez le détonateur.",
+   "description": "Nous y sommes presque. Utilisez le détonateur et mettez un terme à tout cela.",
    "progress": null,
-   "completion": null,
+   "completion": "J’en reste bouche bée, <nom>. Dire que Hurlevent ferait passer ses ambitions militaires avant les moyens de subsistance de son peuple…",
    "starters": [
     {
      "type": "npc",
@@ -3719,13 +3738,20 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
@@ -3818,10 +3844,10 @@
   "92910": {
    "id": 92910,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Apportez l’assemblage autocognitif de précision à Ozwin Pignondefer, à la ferme des Saldean.",
+   "description": "Les pièces que vous avez réussi à récupérer sur les moissonneurs semblent quasiment intactes. Elles intéresseront peut-être une personne passionnée par les golems des moissons.",
    "progress": null,
-   "completion": null,
+   "completion": "Qu’est-ce que c’est ?",
    "starters": [
     {
      "type": "item",
@@ -3852,23 +3878,30 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "92911": {
    "id": 92911,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Ozwin Pignondefer, à la ferme des Saldean, veut que vous lui rapportiez 8 isoressorts de golem, 4 modulateurs en cuivre et une lunette basique.",
+   "description": "Je vois… Cela me donne une meilleure idée du fonctionnement de ces créatures. Je pense avoir trouvé un moyen de neutraliser leurs systèmes, du moins pendant un court instant.\n\nJe vais continuer à bricoler le mécanisme que vous m’avez apporté. En attendant, pourriez-vous récupérer quelques pièces pour l’appareil ?",
    "progress": null,
-   "completion": null,
+   "completion": "Voilà, <nom> ! Ça devrait fonctionner à merveille. Allez l’essayer !\n\nMoi… ? Non, je vais rester ici. Après tout, cet endroit commence à me donner l’impression d’être chez moi.",
    "starters": [
     {
      "type": "npc",
@@ -3899,21 +3932,28 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "93928": {
    "id": 93928,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Donnez un biscuit à la souris.",
+   "description": "J’ai besoin d’un biscuit, tu vois ?\n\nSquouiii !",
    "progress": null,
    "completion": null,
    "starters": [
@@ -3946,23 +3986,28 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "98021": {
    "id": 98021,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Allez voir Gryan Roidemantel à la colline des Sentinelles, dans la marche de l’Ouest.",
+   "description": "Si vous voulez commencer à répandre le bien dans ce monde, je vous recommande d’aller trouver un homme du nom de Gryan Roidemantel dans la marche de l’Ouest, au sud d’ici, au village de la colline des Sentinelles. Ses semblables ont grand besoin d’aide.\n\nAprès être <arrivé/arrivée> ici depuis un autre plan d’existence, les problèmes de nos contrées vous sembleront peut-être bien dérisoires. Je vous assure pourtant que l’aide que vous apporterez à ceux qui en souffrent compte énormément à leurs yeux, et que les épreuves que vous surmonterez vous rendront plus <fort/forte>.\n\nBonne chance, <aventurier/aventurière> !",
    "progress": null,
-   "completion": null,
+   "completion": "Ça fait des mois que je supplie Hurlevent de nous envoyer de l’aide, et ils m’envoient un Elfe tout maigrichon ? M’enfin… j’imagine que ce n’est pas le moment de faire la fine bouche.\n\nBienvenue dans la marche de l’Ouest, <classe>. Voyons voir si nous pouvons trouver de quoi vous rendre utile.",
    "starters": [
     {
      "type": "npc",
@@ -3987,19 +4032,30 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "arrivé/arrivée",
+    "aventurier/aventurière",
+    "fort/forte"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   }

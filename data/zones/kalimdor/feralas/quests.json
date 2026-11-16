@@ -2694,7 +2694,7 @@
    "id": 3567,
    "name": "Au sommet",
    "objectives": null,
-   "description": null,
+   "description": "Souhaitez-vous admirer la vue depuis le sommet de l'un des Colosses jumeaux ? Je peux vous y envoyer, <race>.\n\nRéfléchissez quand même à la façon de redescendre. C'est un voyage que l'on ne peut faire que dans un seul sens.\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "Souhaitez-vous admirer la vue depuis le sommet de l'un des Colosses jumeaux ? Je peux vous y envoyer, <race>.\n\nRéfléchissez quand même à la façon de redescendre. C'est un voyage que l'on ne peut faire que dans un seul sens.",
    "starters": [
@@ -2721,7 +2721,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "race"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -2729,16 +2731,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2918,7 +2922,7 @@
    "id": 4041,
    "name": "L'élixir de Videre",
    "objectives": null,
-   "description": null,
+   "description": "Apportez-moi de l'Evoroot, et je vous ferai de l'élixir de Videre sans problème.\n\nJe connais toutes sortes de choses à propos des herbes et de l'alchimie… Tenez, par exemple, laissez-moi vous raconter la fois où j'ai transformé le fromage que j'étais sur le point de manger au déjeuner en or... Hé... Où allez-vous ?",
    "progress": "Apportez-moi de l'Evoroot, et je vous ferai de l'élixir de Videre sans problème.\n\nJe connais toutes sortes de choses à propos des herbes et de l'alchimie… Tenez, par exemple, laissez-moi vous raconter la fois où j'ai transformé le fromage que j'étais sur le point de manger au déjeuner en or... Hé... Où allez-vous ?",
    "completion": "Alors, vous en avez mis une au vieux Miblon, hein ?",
    "starters": [
@@ -2954,17 +2958,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },

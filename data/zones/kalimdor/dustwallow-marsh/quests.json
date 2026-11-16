@@ -1907,7 +1907,7 @@
    "id": 1271,
    "name": "Fête au Solitaire Bleu",
    "objectives": null,
-   "description": null,
+   "description": "Mon neveu m'a dit que vous l'aviez aidé dans ses recherches à Âprefange et que vous aviez sorti son associé d’une situation difficile. Bien, nous les Stern, nous nous serrons les coudes et nous nous souvenons de nos amis !\n\nAlors lavez-vous les mains, <nom>, parce que nous allons faire la fête en votre honneur !",
    "progress": null,
    "completion": "Mon neveu m'a dit que vous l'aviez aidé dans ses recherches à Âprefange et que vous aviez sorti son associé d’une situation difficile. Bien, nous les Stern, nous nous serrons les coudes et nous nous souvenons de nos amis !\n\nAlors lavez-vous les mains, <nom>, parce que nous allons faire la fête en votre honneur !",
    "starters": [
@@ -1934,7 +1934,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -1942,16 +1944,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },

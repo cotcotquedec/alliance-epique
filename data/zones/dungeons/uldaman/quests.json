@@ -1397,7 +1397,7 @@
    "id": 2361,
    "name": "Réparer le Collier",
    "objectives": null,
-   "description": null,
+   "description": "C'est avec joie que je vous donne ce collier, <classe>. Vous m'avez rendu un service inestimable. Portez-le avec fierté et n'hésitez pas à citer fréquemment et à voix haute le nom du fabriquant !\n\nEt si vous pouviez préciser au passage qu'il n'est pas maudit, ce serait parfait.",
    "progress": null,
    "completion": "C'est avec joie que je vous donne ce collier, <classe>. Vous m'avez rendu un service inestimable. Portez-le avec fierté et n'hésitez pas à citer fréquemment et à voix haute le nom du fabriquant !\n\nEt si vous pouviez préciser au passage qu'il n'est pas maudit, ce serait parfait.",
    "starters": [
@@ -1424,7 +1424,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "classe"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -1432,16 +1434,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },

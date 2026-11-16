@@ -184,6 +184,18 @@ qu'il ne confirme pas (compteurs des objectifs non retrouvés) n'est prise que s
 .venv/bin/python -m pipeline.captures cache ".../_forever_/Cache/WDB/frFR/questcache.wdb" --dry-run
 ```
 
+**wow-data** (2026-11-16, décision du joueur) : [salty-max/wow-data](https://github.com/salty-max/wow-data) publie une
+base SQLite de Forever à chaque release (`forever.db.gz`). Ses textes français de quête viennent tous de pages Wowhead
+que son auteur a enregistrées depuis un onglet de navigateur : le texte de Forever, avec les marqueurs du jeu, et les
+**textes de fin** que le cache du client n'a pas. Ce sont des textes de Blizzard, hors de la licence MIT du dépôt :
+usage personnel (§3). Mêmes règles (canal et origine `wowdata`), textes restés en anglais entre crochets écartés,
+quêtes de la Horde laissées.
+
+```bash
+gh release download <tag> -R salty-max/wow-data -p forever.db.gz && gunzip forever.db.gz
+.venv/bin/python -m pipeline.captures wowdata forever.db --dry-run
+```
+
 **Produit** : `data/zones/<groupe>/<catégorie>/quests.json` et `npcs.json`, `data/zones.json` (le catalogue).
 Détail : [docs/data-registries.md](data-registries.md). Seules les quêtes de l'Alliance (ou des deux factions)
 sont traitées, sans filtre de niveau.

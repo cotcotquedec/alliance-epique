@@ -876,7 +876,7 @@
    "id": 1782,
    "name": "L'armure de Furen",
    "objectives": null,
-   "description": null,
+   "description": "Voici votre armure, <nom>. Elle résistera au plus dur des coups ou je ne m'appelle pas Furen Longbeard !\n\nEt je dois vous remercier. J'ai beaucoup appris en travaillant les matériaux que vous m'avez apportés. Je pense que je ferai une autre découverte capitale un de ces jours !\n\nJe vais transmettre ce que j'ai appris aux autres forgerons de l'Alliance.\n\nJe leur dirai que vous m'avez été d'une grande aide, et peut-être qu'ils vous récompenseront.",
    "progress": null,
    "completion": "Voici votre armure, <nom>. Elle résistera au plus dur des coups ou je ne m'appelle pas Furen Longbeard !\n\nEt je dois vous remercier. J'ai beaucoup appris en travaillant les matériaux que vous m'avez apportés. Je pense que je ferai une autre découverte capitale un de ces jours !\n\nJe vais transmettre ce que j'ai appris aux autres forgerons de l'Alliance.\n\nJe leur dirai que vous m'avez été d'une grande aide, et peut-être qu'ils vous récompenseront.",
    "starters": [
@@ -903,7 +903,9 @@
     "status": "unchanged",
     "patch": "1.13.2.30406"
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": {
     "http": 200,
@@ -914,16 +916,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1940,7 +1944,7 @@
    "id": 7671,
    "name": "Un nouveau sabre-de-givre",
    "objectives": null,
-   "description": null,
+   "description": "Vous pourrez choisir une de ces récompenses :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "Si vous m'apportez votre vieux sabre gelé, je l'échangerai contre un sabre du nouveau pack. Le nouveau sabre sera aussi rapide que l'ancien, mais il aura un aspect différent. Tu peux regarder les sabres rapides que nous avons déjà dans la cour pour voir à quoi il ressemblera.",
    "starters": [
@@ -1978,16 +1982,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1995,7 +2001,7 @@
    "id": 7672,
    "name": "Remplacement de sabre-de-nuit",
    "objectives": null,
-   "description": null,
+   "description": "Vous pourrez choisir une de ces récompenses :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "Si vous m'apportez votre vieux sabre de nuit, je l'échangerai contre un sabre du nouveau pack. Le nouveau sabre sera aussi rapide que l'ancien, mais il aura un aspect différent. Vous pouvez regarder les sabres rapides que nous avons déjà dans la cour pour voir à quoi ils ressembleront.",
    "starters": [
@@ -2033,16 +2039,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2050,7 +2058,7 @@
    "id": 7673,
    "name": "Echange de bélier de givre",
    "objectives": null,
-   "description": null,
+   "description": "Vous pourrez choisir une de ces récompenses :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "Apportez-moi votre vieux bélier, je l'échangerai contre un bélier de la nouvelle meute ! Le nouveau bélier sera aussi rapide que l'ancien, mais avec un nouveau look. Vous pouvez consulter les béliers rapides ici pour voir ce que vous aurez à choisir.",
    "starters": [
@@ -2088,16 +2096,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2105,7 +2115,7 @@
    "id": 7674,
    "name": "Echange de bélier noir",
    "objectives": null,
-   "description": null,
+   "description": "Vous pourrez choisir une de ces récompenses :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "Apportez-moi votre vieux bélier, je l'échangerai contre un bélier de la nouvelle meute ! Le nouveau bélier sera aussi rapide que l'ancien, mais avec un nouveau look. Vous pouvez consulter les béliers rapides ici pour voir ce que vous aurez à choisir.",
    "starters": [
@@ -2143,16 +2153,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2160,7 +2172,7 @@
    "id": 7675,
    "name": "Remplacement de mécanotrotteur bleu clair",
    "objectives": null,
-   "description": null,
+   "description": "Vous pourrez choisir une de ces récompenses :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "Si tu roules encore sur ton vieux Mechanostrider Icy Blue Mod A, tu voudras sûrement le remplacer par un modèle plus récent. Ton nouveau mécanostrider swift conserve la même vitesse que l'ancien avec un tout nouveau look. Vous pouvez parcourir les mécanostrider swift ici pour voir les superbes modèles que vous aurez à choisir.",
    "starters": [
@@ -2198,16 +2210,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2215,7 +2229,7 @@
    "id": 7676,
    "name": "Remplacement de mécanotrotteur blanc",
    "objectives": null,
-   "description": null,
+   "description": "Vous pourrez choisir une de ces récompenses :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "Si vous roulez toujours sur votre vieux White Mechanostrider Mod A, vous voudrez certainement le remplacer par un modèle plus récent. Ton nouveau mécanostrider swift conserve la même vitesse que l'ancien avec un tout nouveau look. Vous pouvez parcourir les mécanostrider swift ici pour voir les superbes modèles que vous aurez à choisir.",
    "starters": [
@@ -2253,16 +2267,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2270,7 +2286,7 @@
    "id": 7677,
    "name": "Echange d'étalon blanc",
    "objectives": null,
-   "description": null,
+   "description": "Vous pourrez choisir une de ces récompenses :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "Si tu m'apportes ton étalon blanc, je te l'échangerai contre un cheval du nouveau troupeau. Le nouveau cheval sera aussi rapide que l'ancien, mais il aura une allure différente. Vous pouvez regarder les chevaux rapides ici pour voir à quoi il ressemblera.",
    "starters": [
@@ -2308,16 +2324,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2325,7 +2343,7 @@
    "id": 7678,
    "name": "Echange de palomino",
    "objectives": null,
-   "description": null,
+   "description": "Vous pourrez choisir une de ces récompenses :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "Si tu m'apportes ton palomino, je l'échangerai contre un cheval du nouveau troupeau. Le nouveau cheval sera aussi rapide que l'ancien, mais il aura une allure différente. Vous pouvez regarder les chevaux rapides ici pour voir à quoi il ressemblera.",
    "starters": [
@@ -2363,16 +2381,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2500,7 +2520,7 @@
    "id": 7838,
    "name": "Grand maître de l'arène",
    "objectives": null,
-   "description": null,
+   "description": "Salut, l’terrien ! Ramenez-moi 12 bijoux du Maître de l’arène et vous serez le Roi de l’arène des Gurubashi ! Arrrr !",
    "progress": "Salut, l'terrien ! Ramenez-moi 12 bijoux du Maître de l'arène et vous serez le Grand maître de l'arène des Gurubashi ! Arrrr !",
    "completion": "Le sol de l'arène est rouge du sang que vous avez versé. Je suis fier de vous nommer Roi de l'arène !",
    "starters": [
@@ -2539,17 +2559,19 @@
     "texts": {
      "name": "wowhead",
      "progress": "foreverdb",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
      "progress": "foreverdb:vmangos",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3030,7 +3052,7 @@
    "id": 8229,
    "name": "Puis-je avoir un prospectus sur la pêche ?",
    "objectives": null,
-   "description": null,
+   "description": "Concours de pêche à Baie-du-Butin ce dimanche ! Voilà les règles !",
    "progress": null,
    "completion": "Concours de pêche à Baie-du-Butin ce dimanche ! Voilà les règles !",
    "starters": [
@@ -3068,16 +3090,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -4118,7 +4142,7 @@
    "objectives": "Rapportez 20 Lotus pourpres à Maître Chantenuit, à l’aérodrome de Dun Morogh.",
    "description": "Bienvenue une nouvelle fois, <classe> ! Notre réserve grandit, mais même ainsi, il nous faut encore du lotus pourpre. Si vous en avez la possibilité, j'apprécierais que vous preniez le temps d'en récolter encore et de me ramener votre cueillette ici.",
    "progress": "Bienvenue, <classe>. Notre collection s'agrandit, mais nous avons encore besoin de lotus violet. S'il vous est encore possible d'en récolter d'autres, je vous prie de le faire et de me les rapporter ici.",
-   "completion": null,
+   "completion": "Je suis heureux d’accepter votre contribution au nom de l’Alliance, <nom>. Grâce à vos efforts, nous pourrons créer des huiles et des potions pour les combattants qui se trouvent sur le front. Merci. Si vous vous en procurez davantage, pensez à moi.",
    "starters": [
     {
      "type": "npc",
@@ -4155,14 +4179,17 @@
      "name": "foreverdb",
      "objectives": "foreverdb",
      "description": "foreverdb",
-     "progress": "foreverdb"
+     "progress": "foreverdb",
+     "completion": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "objectives": "foreverdb:questie",
      "description": "foreverdb:vmangos",
-     "progress": "foreverdb:vmangos"
-    }
+     "progress": "foreverdb:vmangos",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [],
    "status": "complete"
@@ -4230,7 +4257,7 @@
    "objectives": "Ramener 20 larmes d’Arthas au sergent-major Germain à l’aérodrome de Dun Morogh.",
    "description": "Bon, on dirait bien qu’il me faut encore des larmes d’Arthas. Je suppose que vous pourrez en trouver dans le coin où vous en avez récolté la dernière fois. Plus vite vous les aurez, plus vite nous pourrons lancer l’offensive contre les troupes ennemies à Ahn’Qiraj.\n\nVous n’allez pas nous laisser tomber, <classe> ?",
    "progress": null,
-   "completion": null,
+   "completion": "Remarquable, <nom> ! Vous faites honneur à l’Alliance. Je vais mettre ces herbes à l’abri en attendant que quelqu’un vienne s’en servir pour fabriquer des fournitures militaires. N’hésitez pas à repasser me voir, surtout si vous avez d’autres larmes d’Arthas.",
    "starters": [
     {
      "type": "npc",
@@ -4266,13 +4293,16 @@
     "texts": {
      "name": "foreverdb",
      "objectives": "foreverdb",
-     "description": "foreverdb"
+     "description": "foreverdb",
+     "completion": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "objectives": "foreverdb:questie",
-     "description": "foreverdb:vmangos"
-    }
+     "description": "foreverdb:vmangos",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [],
    "status": "complete"
@@ -5760,7 +5790,7 @@
    "id": 8565,
    "name": "Victoires passées en Arathi",
    "objectives": null,
-   "description": null,
+   "description": "Vous recevrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "Ah, oui ! Bien sûr, nous n'oublions pas vos réalisations passées dans le bassin d'Arathi.",
    "starters": [],
@@ -5786,16 +5816,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "objectives",
-    "description",
     "giver"
    ],
    "status": "incomplete"
@@ -5848,7 +5880,7 @@
    "id": 8567,
    "name": "Victoires passées dans le goulet des Warsong",
    "objectives": null,
-   "description": null,
+   "description": "Vous recevrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "Ah, oui ! Bien sûr, nous n'oublierions pas vos exploits passés dans le Warsong Gulch.",
    "starters": [],
@@ -5874,16 +5906,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "objectives",
-    "description",
     "giver"
    ],
    "status": "incomplete"
@@ -5936,7 +5970,7 @@
    "id": 8569,
    "name": "Efforts passés dans le goulet des Warsong",
    "objectives": null,
-   "description": null,
+   "description": "Vous recevrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "Ah, oui ! Bien sûr, nous n'oublierions pas vos exploits passés dans le Warsong Gulch.",
    "starters": [],
@@ -5962,16 +5996,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "objectives",
-    "description",
     "giver"
    ],
    "status": "incomplete"
@@ -7610,7 +7646,7 @@
    "id": 8811,
    "name": "Une chevalière de mérite",
    "objectives": null,
-   "description": null,
+   "description": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part de Darnassus.\n\nN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.\n\nCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.",
    "progress": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part de Darnassus.\n\nN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.\n\nCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.",
    "completion": "Très bien, vos actes ont été entrés dans nos archives, et vos efforts seront dûment reconnus. Continuez ainsi, <classe>.\n\nSi vous avez d’autres chevalières à remettre, je pourrai vous aider. Vous savez où me trouver.",
    "starters": [
@@ -7651,17 +7687,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -7669,7 +7707,7 @@
    "id": 8812,
    "name": "Une chevalière de mérite",
    "objectives": null,
-   "description": null,
+   "description": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part des exilés de Gnomeregan.\n\nN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.\n\nCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.",
    "progress": "Pour les aventuriers qui n'ont qu'un seul insigne de recommandation, je l'échangerai contre une petite reconnaissance auprès des Exilés de Gnomeregan.\n\nN'oubliez pas qu'il est préférable de remettre une pile de dix insignes à la fois, car vos efforts seront ainsi mieux reconnus. Nous proposons l'échange d'un seul siget pour ceux qui n'ont pas assez d'argent pour une pile de dix sigets.\n\nCela dit, je suis prêt à vous aider si vous souhaitez toujours remettre un seul sceau.",
    "completion": "Très bien - vos actes ont été inscrits dans les registres et vos efforts sont dûment reconnus. Continuez à faire du bon travail, <classe>.\n\nSi vous avez d'autres signets à remettre, je suis en mesure de vous aider davantage à cet égard.",
    "starters": [
@@ -7710,17 +7748,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -7728,7 +7768,7 @@
    "id": 8813,
    "name": "Une chevalière de mérite",
    "objectives": null,
-   "description": null,
+   "description": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part d’Ironforge.\n\nN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.\n\nCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.",
    "progress": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part d’Ironforge.\n\nN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.\n\nCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.",
    "completion": "Très bien, vos actes ont été entrés dans nos archives, et vos efforts seront dûment reconnus. Continuez ainsi, <classe>.\n\nSi vous avez d’autres chevalières à remettre, je pourrai vous aider. Vous savez où me trouver.",
    "starters": [
@@ -7769,17 +7809,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -7787,7 +7829,7 @@
    "id": 8814,
    "name": "Une chevalière de mérite",
    "objectives": null,
-   "description": null,
+   "description": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part de Stormwind.\n\nN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.\n\nCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.",
    "progress": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part de Stormwind.\n\nN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.\n\nCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.",
    "completion": "Très bien, vos actes ont été entrés dans nos archives, et vos efforts seront dûment reconnus. Continuez ainsi, <classe>.\n\nSi vous avez d’autres chevalières à remettre, je pourrai vous aider. Vous savez où me trouver.",
    "starters": [
@@ -7828,17 +7870,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -8082,7 +8126,7 @@
    "id": 8819,
    "name": "Dix chevalières de mérite",
    "objectives": null,
-   "description": null,
+   "description": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus de Darnassus. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.\n\nCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.",
    "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus de Darnassus. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.\n\nCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.",
    "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventuriers comme vous, <nom>, qui font une différence.\n\nDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un <nom>.",
    "starters": [
@@ -8123,17 +8167,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -8141,7 +8187,7 @@
    "id": 8820,
    "name": "Dix chevalières de mérite",
    "objectives": null,
-   "description": null,
+   "description": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus des exilés de Gnomeregan. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.\n\nCeci dit, je prendrai volontiers vos chevalières, si vous êtes prête à m’en remettre une série.",
    "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus des exilés de Gnomeregan. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.\n\nCeci dit, je prendrai volontiers vos chevalières, si vous êtes prête à m’en remettre une série.",
    "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventurières comme vous, <nom>, qui font une différence.\n\nDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un honneur.",
    "starters": [
@@ -8182,17 +8228,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -8200,7 +8248,7 @@
    "id": 8821,
    "name": "Dix chevalières de mérite",
    "objectives": null,
-   "description": null,
+   "description": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus d’Ironforge. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.\n\nCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.",
    "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus d’Ironforge. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.\n\nCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.",
    "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventuriers comme vous, <nom>, qui font une différence.\n\nDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un honneur.",
    "starters": [
@@ -8241,17 +8289,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -8259,7 +8309,7 @@
    "id": 8822,
    "name": "Dix chevalières de mérite",
    "objectives": null,
-   "description": null,
+   "description": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus de Stormwind. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.\n\nCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.",
    "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus de Stormwind. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.\n\nCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.",
    "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventuriers comme vous, <nom>, qui font une différence.\n\nDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un honneur.",
    "starters": [
@@ -8300,17 +8350,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -8554,7 +8606,7 @@
    "id": 8830,
    "name": "Une chevalière de mérite",
    "objectives": null,
-   "description": null,
+   "description": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part de Darnassus.\n\nN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.\n\nCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.",
    "progress": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part de Darnassus.\n\nN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.\n\nCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.",
    "completion": "Très bien, vos actes ont été entrés dans nos archives, et vos efforts seront dûment reconnus. Continuez ainsi, <classe>.\n\nSi vous avez d’autres chevalières à remettre, je pourrai vous aider. Vous savez où me trouver.",
    "starters": [
@@ -8590,17 +8642,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -8608,7 +8662,7 @@
    "id": 8831,
    "name": "Dix chevalières de mérite",
    "objectives": null,
-   "description": null,
+   "description": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus de Darnassus. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.\n\nCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.",
    "progress": "J'accepte les insignes de recommandation des aventuriers qui les ont reçus dans l'exercice de leurs fonctions. Pour chaque lot de dix que vous me remettrez, je veillerai à ce que vous receviez une reconnaissance significative de vos actes au sein de Darnassus. J'accepte également les jetons individuels, mais à un taux de reconnaissance bien moindre. Nous sommes beaucoup plus intéressés par les hauts faits d'armes, mais aucun exploit ne sera ignoré.\n\nCela dit, je prendrai volontiers vos insignes si vous êtes prêt à nous en remettre une série.",
    "completion": "Excellent ! Ce n'est pas un mince sacrifice que vous avez fait pour mériter ces insignes, et vous serez reconnu pour vos services comme il se doit. Ce sont des aventuriers comme vous, <nom>, qui font vraiment la différence.\n\nFaites-moi savoir si vous avez d'autres insignes à remettre ; je vous aiderai volontiers à échanger ceux dont vous avez besoin.",
    "starters": [
@@ -8644,17 +8698,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -8770,7 +8826,7 @@
    "id": 8834,
    "name": "Une chevalière de mérite",
    "objectives": null,
-   "description": null,
+   "description": "Lors de l'achèvement de cette quête vous gagnerez :\n\n5 points de réputation avec Forgefer\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": "Les aventuriers qui n'ont qu'une seule chevalière de mérite ne recevront qu'une reconnaissance minime de la part de Forgefer.\n\nN'oubliez pas qu'il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n'ont pas une pile de dix.\n\nCeci posé, je suis en mesute de vous aider si vous souhaitez me remettre une seule chevalière.",
    "completion": "Très bien - vos actes ont été inscrits dans les registres et vos efforts sont dûment reconnus. Continuez à faire du bon travail, <classe>.\n\nSi vous avez d'autres signets à remettre, je suis en mesure de vous aider davantage à cet égard.",
    "starters": [
@@ -8806,17 +8862,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -8824,7 +8882,7 @@
    "id": 8835,
    "name": "Dix chevalières de mérite",
    "objectives": null,
-   "description": null,
+   "description": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus d’Ironforge. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.\n\nCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.",
    "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus d’Ironforge. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.\n\nCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.",
    "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventuriers comme vous, <nom>, qui font une différence.\n\nDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un honneur.",
    "starters": [
@@ -8860,17 +8918,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -8878,7 +8938,7 @@
    "id": 8836,
    "name": "Une chevalière de mérite",
    "objectives": null,
-   "description": null,
+   "description": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part de Stormwind.\n\nN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.\n\nCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.",
    "progress": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part de Stormwind.\n\nN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.\n\nCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.",
    "completion": "Très bien, vos actes ont été entrés dans nos archives, et vos efforts seront dûment reconnus. Continuez ainsi, <classe>.\n\nSi vous avez d’autres chevalières à remettre, je pourrai vous aider. Vous savez où me trouver.",
    "starters": [
@@ -8914,17 +8974,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -8932,7 +8994,7 @@
    "id": 8837,
    "name": "Dix chevalières de mérite",
    "objectives": null,
-   "description": null,
+   "description": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus de Stormwind. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.\n\nCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.",
    "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus de Stormwind. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.\n\nCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.",
    "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventuriers comme vous, <nom>, qui font une différence.\n\nDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un honneur.",
    "starters": [
@@ -8968,17 +9030,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -8986,7 +9050,7 @@
    "id": 8838,
    "name": "Une chevalière de mérite",
    "objectives": null,
-   "description": null,
+   "description": "Lors de l'achèvement de cette quête vous gagnerez :\n\n5 points de réputation avec Exilés de Gnomeregan\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": "Pour les aventuriers qui n'ont qu'un seul insigne de recommandation, je l'échangerai contre une petite reconnaissance auprès des Exilés de Gnomeregan.\n\nN'oubliez pas qu'il est préférable de remettre une pile de dix insignes à la fois, car vos efforts seront ainsi mieux reconnus. Nous proposons l'échange d'un seul siget pour ceux qui n'ont pas assez d'argent pour une pile de dix sigets.\n\nCela dit, je suis prêt à vous aider si vous souhaitez toujours remettre un seul sceau.",
    "completion": "Très bien - vos actes ont été inscrits dans les registres et vos efforts sont dûment reconnus. Continuez à faire du bon travail, <classe>.\n\nSi vous avez d'autres signets à remettre, je suis en mesure de vous aider davantage à cet égard.",
    "starters": [
@@ -9022,17 +9086,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -9040,7 +9106,7 @@
    "id": 8839,
    "name": "Dix chevalières de mérite",
    "objectives": null,
-   "description": null,
+   "description": "Lors de l'achèvement de cette quête vous gagnerez :\n\n75 points de réputation avec Exilés de Gnomeregan\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": "J'accepte les insignes de recommandation des aventuriers qui les ont reçus dans l'exercice de leurs fonctions. Pour chaque lot de dix que vous me remettrez, je m'assurerai que vous receviez une reconnaissance significative de vos actes avec les Exilés de Gnomeregan. J'accepte également les jetons individuels, mais à un taux de reconnaissance bien moindre. Nous sommes beaucoup plus intéressés par les grands exploits, mais aucun ne sera ignoré.\n\nCela dit, je prendrai volontiers vos insignes si vous êtes prêts à nous en remettre un ensemble.",
    "completion": "Excellent ! Ce n'est pas un mince sacrifice que vous avez fait pour mériter ces insignes, et vous serez reconnu pour vos services comme il se doit. Ce sont des aventuriers comme vous, <nom>, qui font vraiment la différence.\n\nFaites-moi savoir si vous avez d'autres insignes à remettre ; je vous aiderai volontiers à échanger ceux dont vous avez besoin.",
    "starters": [
@@ -9076,17 +9142,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -9418,7 +9486,7 @@
    "id": 8846,
    "name": "Cinq chevalières pour des fournitures militaires",
    "objectives": "Ah ah, vous venez vous chercher quelques fournitures militaires, pas vrai ? Ma foi, je peux comprendre que vous ayez besoin de matériel… Après tout, vous n’avez qu’à regarder autour de vous pour vous rendre compte que vous n’êtes pas la seule.\n\nJe peux vous en donner, mais uniquement en échange d’un certain nombre de chevalières de mérite. Bien sûr, dans ce cas, vous ne deviendrez pas plus célèbre, mais vous recevrez peut-être quelque chose qui vous gardera en vie lorsque la bataille commencera.",
-   "description": null,
+   "description": "Ah ah, vous venez vous chercher quelques fournitures militaires, pas vrai ? Ma foi, je peux comprendre que vous ayez besoin de matériel… Après tout, vous n’avez qu’à regarder autour de vous pour vous rendre compte que vous n’êtes pas la seule.\n\nJe peux vous en donner, mais uniquement en échange d’un certain nombre de chevalières de mérite. Bien sûr, dans ce cas, vous ne deviendrez pas plus célèbre, mais vous recevrez peut-être quelque chose qui vous gardera en vie lorsque la bataille commencera.",
    "progress": "Ah, vous êtes ici pour vous approvisionner, n'est-ce pas ? Je comprends tout à fait que vous ayez besoin de matériel supplémentaire... il suffit de jeter un coup d'œil autour de vous pour vous en convaincre.\n\nJe vous remettrai des fournitures supplémentaires, mais vous devrez me donner en échange un nombre approprié d'insignes de commandement. Vous ne recevrez aucune reconnaissance pour avoir remis les insignes de cette manière, mais vous trouverez peut-être quelque chose d'utile qui vous aidera à rester en vie lorsque la bataille s'engagera enfin.",
    "completion": "Bien, voilà qui est réglé, <classe>, voilà vos fournitures. Si vous voulez procéder à un autre échange, je suis en mesure de l’autoriser. Vous n’aurez qu’à venir me le dire et je veillerai à ce que tout se passe rapidement.\n\nVous faites du bon travail, <nom>. Continuez. Si nous voulons gagner, nous aurons besoin de tout le matériel que nous pourrons ramasser. Si chacun fait son devoir, nous vaincrons !",
    "starters": [
@@ -9455,25 +9523,26 @@
      "name": "foreverdb",
      "objectives": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "objectives": "foreverdb:vmangos",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
-   "missing": [
-    "description"
-   ],
-   "status": "incomplete"
+   "missing": [],
+   "status": "complete"
   },
   "8847": {
    "id": 8847,
    "name": "Dix chevalières pour des fournitures militaires",
    "objectives": null,
-   "description": null,
+   "description": "Vous recevrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": "Ah, vous êtes ici pour vous approvisionner, n'est-ce pas ? Je comprends tout à fait que vous ayez besoin de matériel supplémentaire... il suffit de jeter un coup d'œil autour de vous pour vous en convaincre.\n\nJe vous remettrai des fournitures supplémentaires, mais vous devrez me donner en échange un nombre approprié d'insignes de commandement. Vous ne recevrez aucune reconnaissance pour avoir remis les insignes de cette manière, mais vous trouverez peut-être quelque chose d'utile qui vous aidera à rester en vie lorsque la bataille s'engagera enfin.",
    "completion": "Eh bien, c'est réglé ; voici vos fournitures, <classe>. Si vous souhaitez procéder à un échange supplémentaire, je suis prêt à l'autoriser. Il suffit de m'en donner l'ordre et je ferai en sorte que cela se fasse.\n\nContinuez à faire du bon travail, <nom>. Nous avons besoin de tout le matériel que nous pouvons rassembler si nous voulons gagner. Si nous faisons tous notre part, la victoire nous appartiendra !",
    "starters": [
@@ -9509,17 +9578,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -9527,7 +9598,7 @@
    "id": 8848,
    "name": "Quinze chevalières pour des fournitures militaires",
    "objectives": null,
-   "description": null,
+   "description": "Ah ah, vous venez vous chercher quelques fournitures militaires, pas vrai ? Ma foi, je peux comprendre que vous ayez besoin de matériel… Après tout, vous n’avez qu’à regarder autour de vous pour vous rendre compte que vous n’êtes pas la seule.\n\nJe peux vous en donner, mais uniquement en échange d’un certain nombre de chevalières de mérite. Bien sûr, dans ce cas, vous ne deviendrez pas plus célèbre, mais vous recevrez peut-être quelque chose qui vous gardera en vie lorsque la bataille commencera.",
    "progress": "Ah, vous êtes ici pour vous approvisionner, n'est-ce pas ? Je comprends tout à fait que vous ayez besoin de matériel supplémentaire... il suffit de jeter un coup d'œil autour de vous pour vous en convaincre.\n\nJe vous remettrai des fournitures supplémentaires, mais vous devrez me donner en échange un nombre approprié d'insignes de commandement. Vous ne recevrez aucune reconnaissance pour avoir remis les insignes de cette manière, mais vous trouverez peut-être quelque chose d'utile qui vous aidera à rester en vie lorsque la bataille s'engagera enfin.",
    "completion": "Bien, voilà qui est réglé, <classe>, voici vos fournitures. Si vous voulez procéder à un autre échange, je suis en mesure de l’autoriser. Vous n’aurez qu’à venir me le dire et je veillerai à ce que tout se passe rapidement.\n\nVous faites du bon travail, <nom>. Continuez. Si nous voulons gagner, nous aurons besoin de tout le matériel que nous pourrons ramasser. Si chacun fait son devoir, nous vaincrons !",
    "starters": [
@@ -9563,17 +9634,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -9581,7 +9654,7 @@
    "id": 8849,
    "name": "Vingt chevalières pour des fournitures militaires",
    "objectives": null,
-   "description": null,
+   "description": "Vous recevrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": "Ah, vous êtes ici pour vous approvisionner, n'est-ce pas ? Je comprends tout à fait que vous ayez besoin de matériel supplémentaire... il suffit de jeter un coup d'œil autour de vous pour vous en convaincre.\n\nJe vous remettrai des fournitures supplémentaires, mais vous devrez me donner en échange un nombre approprié d'insignes de commandement. Vous ne recevrez aucune reconnaissance pour avoir remis les insignes de cette manière, mais vous trouverez peut-être quelque chose d'utile qui vous aidera à rester en vie lorsque la bataille s'engagera enfin.",
    "completion": "Eh bien, c'est réglé ; voici vos fournitures, <classe>. Si vous souhaitez procéder à un échange supplémentaire, je suis prêt à l'autoriser. Il suffit de m'en donner l'ordre et je ferai en sorte que cela se fasse.\n\nContinuez à faire du bon travail, <nom>. Nous avons besoin de tout le matériel que nous pouvons rassembler si nous voulons gagner. Si nous faisons tous notre part, la victoire nous appartiendra !",
    "starters": [
@@ -9617,17 +9690,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -9635,7 +9710,7 @@
    "id": 8850,
    "name": "Trente chevalières pour des fournitures militaires",
    "objectives": "Ah ah, vous venez vous chercher quelques fournitures militaires, pas vrai ? Ma foi, je peux comprendre que vous ayez besoin de matériel… Après tout, vous n’avez qu’à regarder autour de vous pour vous rendre compte que vous n’êtes pas le seul.\n\nJe peux vous en donner, mais uniquement en échange d’un certain nombre de chevalières de mérite. Bien sûr, dans ce cas, vous ne deviendrez pas plus célèbre, mais vous recevrez peut-être quelque chose qui vous gardera en vie lorsque la bataille commencera.",
-   "description": null,
+   "description": "Ah ah, vous venez vous chercher quelques fournitures militaires, pas vrai ? Ma foi, je peux comprendre que vous ayez besoin de matériel… Après tout, vous n’avez qu’à regarder autour de vous pour vous rendre compte que vous n’êtes pas le seul.\n\nJe peux vous en donner, mais uniquement en échange d’un certain nombre de chevalières de mérite. Bien sûr, dans ce cas, vous ne deviendrez pas plus célèbre, mais vous recevrez peut-être quelque chose qui vous gardera en vie lorsque la bataille commencera.",
    "progress": "Ah, vous êtes ici pour vous approvisionner, n'est-ce pas ? Je comprends tout à fait que vous ayez besoin de matériel supplémentaire... il suffit de jeter un coup d'œil autour de vous pour vous en convaincre.\n\nJe vous remettrai des fournitures supplémentaires, mais vous devrez me donner en échange un nombre approprié d'insignes de commandement. Vous ne recevrez aucune reconnaissance pour avoir remis les insignes de cette manière, mais vous trouverez peut-être quelque chose d'utile qui vous aidera à rester en vie lorsque la bataille s'engagera enfin.",
    "completion": "Bien, voilà qui est réglé, <classe>, voilà vos fournitures. Si vous voulez procéder à un autre échange, je suis en mesure de l’autoriser. Vous n’aurez qu’à venir me le dire et je veillerai à ce que tout se passe rapidement.\n\nVous faites du bon travail, <nom>. Continuez. Si nous voulons gagner, nous aurons besoin de tout le matériel que nous pourrons ramasser. Si chacun fait son devoir, nous vaincrons !",
    "starters": [
@@ -9672,19 +9747,20 @@
      "name": "foreverdb",
      "objectives": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "objectives": "foreverdb:vmangos",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
-   "missing": [
-    "description"
-   ],
-   "status": "incomplete"
+   "missing": [],
+   "status": "complete"
   },
   "8851": {
    "id": 8851,
@@ -10305,7 +10381,7 @@
    "id": 9029,
    "name": "Un chaudron bouillonnant",
    "objectives": null,
-   "description": null,
+   "description": "Une odeur agréable s'échappe du chaudron.",
    "progress": null,
    "completion": "Une odeur agréable s'échappe du chaudron.",
    "starters": [
@@ -10343,16 +10419,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -10415,7 +10493,7 @@
    "id": 9094,
    "name": "Les gants de l'Aube d'argent",
    "objectives": null,
-   "description": null,
+   "description": "Si vous m'apportez trente runes nécrotiques, je vous donnerai en échange une pièce d'armure de main au choix. Vous devriez les trouver très pratiques pour vous battre contre les morts-vivants du Fléau.",
    "progress": "Si vous m'apportez trente runes nécrotiques, je vous donnerai en échange une pièce d'armure de main au choix. Vous devriez les trouver très pratiques pour vous battre contre les morts-vivants du Fléau.",
    "completion": "Beau travail, <nom>. Prenez la pièce d'armure que vous préférez, et merci pour tout.",
    "starters": [
@@ -10454,17 +10532,19 @@
     "texts": {
      "name": "wowhead",
      "progress": "foreverdb",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
      "progress": "foreverdb:vmangos",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -11453,7 +11533,7 @@
    "id": 9317,
    "name": "Pierre à aiguiser consacrée",
    "objectives": null,
-   "description": null,
+   "description": "Si vous m’apportez huit runes nécrotiques des envahisseurs du Fléau, je vous fournirais une pierre à aiguiser consacrée. Elle devrait vous être d’une grande utilité pour vos combats contre les serviteurs du roi-liche.",
    "progress": "Si vous m’apportez huit runes nécrotiques des envahisseurs du Fléau, je vous fournirais une pierre à aiguiser consacrée. Elle devrait vous être d’une grande utilité pour vos combats contre les serviteurs du roi-liche.",
    "completion": "Merci bien, <nom>. Voici les pierres à aiguiser consacrées. Utilisez-les avec circonspection.",
    "starters": [
@@ -11492,17 +11572,19 @@
     "texts": {
      "name": "wowhead",
      "progress": "foreverdb",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
      "progress": "foreverdb:vmangos",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -11510,7 +11592,7 @@
    "id": 9318,
    "name": "Huile de sorcier bénite",
    "objectives": null,
-   "description": null,
+   "description": "En échange des runes nécrotiques des envahisseurs du Fléau, l’Aube d’argent vous donnera une fiole d’huile de sorcier bénite.",
    "progress": "En échange des runes nécrotiques des envahisseurs du Fléau, l’Aube d’argent vous donnera une fiole d’huile de sorcier bénite.",
    "completion": "J’espère que ces objets vous seront utiles lors de vos batailles à venir.",
    "starters": [
@@ -11549,17 +11631,19 @@
     "texts": {
      "name": "wowhead",
      "progress": "foreverdb",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
      "progress": "foreverdb:vmangos",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -11624,7 +11708,7 @@
    "id": 9321,
    "name": "Potion de soins majeure",
    "objectives": null,
-   "description": null,
+   "description": "En plus de nos autres fournitures, nous disposons de quelques potions de soins majeures qui pourraient vous être utiles. Je vous en donnerai une en échange de quinze runes nécrotiques.",
    "progress": "En plus de nos autres fournitures, nous disposons de quelques potions de soins majeures qui pourraient vous être utiles. Je vous en donnerai une en échange de quinze runes nécrotiques.\nRune nécrotique (15)",
    "completion": "Et voilà, <nom>. Faites attention à vous là-bas. Nous n'avons pas tant de troupes que nous puissions nous permettre d'avoir beaucoup de pertes.",
    "starters": [
@@ -11663,17 +11747,19 @@
     "texts": {
      "name": "wowhead",
      "progress": "foreverdb",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
      "progress": "foreverdb:wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -11909,7 +11995,7 @@
    "id": 9337,
    "name": "Potion de mana majeure",
    "objectives": null,
-   "description": null,
+   "description": "En plus de nos autres fournitures, nous disposons de quelques potions de mana majeures qui pourraient vous être utiles. Je vous en donnerai une en échange de quinze runes nécrotiques.",
    "progress": "En plus de nos autres fournitures, nous disposons de quelques potions de mana majeures qui pourraient vous être utiles. Je vous en donnerai une en échange de quinze runes nécrotiques.",
    "completion": "Et voilà, <nom>. Faites attention à vous là-bas. Nous n'avons pas tant de troupes que nous puissions nous permettre d'avoir beaucoup de pertes.",
    "starters": [
@@ -11948,17 +12034,19 @@
     "texts": {
      "name": "wowhead",
      "progress": "foreverdb",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
      "progress": "foreverdb:vmangos",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -11966,7 +12054,7 @@
    "id": 9341,
    "name": "Tabard de l'Aube d'argent",
    "objectives": null,
-   "description": null,
+   "description": "Vous avez grandement aidé notre cause, <nom>. Si vous le souhaitez, je peux vous procurer le tabard de l'Aube d'argent. Nous sommes fiers de vous compter parmi nos alliés.",
    "progress": "Vous avez grandement aidé notre cause, <nom>. Si vous le souhaitez, je peux vous procurer le tabard de l'Aube d'argent. Nous sommes fiers de vous compter parmi nos alliés.",
    "completion": "Prenez ce tabard et portez-le avec fierté. Peut-être que vos actions inciteront d'autres à prendre les armes pour nous soutenir dans notre combat contre le Fléau.",
    "starters": [
@@ -11993,7 +12081,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -12002,17 +12092,19 @@
     "texts": {
      "name": "foreverdb",
      "progress": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
      "progress": "foreverdb:vmangos",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -12849,7 +12941,7 @@
    "id": 78124,
    "name": "Almanach de Nar’thalas",
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient améliorer notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -12902,16 +12994,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -12919,7 +13013,7 @@
    "id": 78127,
    "name": "Le compendium de Dalaran",
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient améliorer notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -12972,16 +13066,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -12989,7 +13085,7 @@
    "id": 78132,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Le casque du tueur de Dragons appartenait autrefois à un grand commandant mort au combat. On dit que son âme tourmentée hante encore le lieu de son trépas.",
    "progress": null,
    "completion": "Excellent travail, <nom> ! Avec ça, je marque un pas de plus sur le chemin de la gloire.",
    "starters": [
@@ -13026,16 +13122,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -13043,7 +13141,7 @@
    "id": 78133,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Le bouclier du tueur de Dragons serait détenu par un seigneur de guerre orc. Il l’aurait volé lors d’un assaut contre un village <race>.",
    "progress": null,
    "completion": "Excellent travail, <nom> ! Avec ça, je marque un pas de plus sur le chemin de la gloire.",
    "starters": [
@@ -13070,7 +13168,9 @@
     "status": "updated",
     "patch": "1.60.1.69913"
    },
-   "placeholders": [],
+   "placeholders": [
+    "race"
+   ],
    "not_french": [],
    "wowhead": {
     "http": 200,
@@ -13080,16 +13180,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -13097,7 +13199,7 @@
    "id": 78134,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "La lance du tueur de Dragons a changé de mains à de nombreuses reprises. Parfois, il se dit qu’elle apparaît dans des ventes d’armes au marché noir. Peut-être que son propriétaire actuel serait prêt à s’en séparer, à condition d’y mettre le prix.",
    "progress": null,
    "completion": "Excellent travail, <nom> ! Avec ça, je marque un pas de plus sur le chemin de la gloire.",
    "starters": [
@@ -13134,16 +13236,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -13151,7 +13255,7 @@
    "id": 78142,
    "name": "Envoûtements et glamours",
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient améliorer notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -13204,16 +13308,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -13221,7 +13327,7 @@
    "id": 78143,
    "name": "Secrets des Rêveurs",
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient améliorer notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -13274,16 +13380,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -13291,7 +13399,7 @@
    "id": 78145,
    "name": "Manuel des systèmes arcaniques",
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient améliorer notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -13344,16 +13452,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -13361,7 +13471,7 @@
    "id": 78146,
    "name": "Parchemins de Goaz",
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient améliorer notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -13414,16 +13524,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -13431,7 +13543,7 @@
    "id": 78147,
    "name": "Crimes contre l’anatomie",
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient améliorer notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -13484,16 +13596,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -13501,7 +13615,7 @@
    "id": 78148,
    "name": "Runes des rois-sorciers",
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient améliorer notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -13554,16 +13668,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -13571,7 +13687,7 @@
    "id": 78149,
    "name": "Fureur de la terre",
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient améliorer notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -13624,16 +13740,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -13641,7 +13759,7 @@
    "id": 78150,
    "name": "Ami de la bibliothèque",
    "objectives": null,
-   "description": null,
+   "description": "Grâce à vos dons, la bibliothèque prospère.\n\nJe vous en prie, acceptez ceci.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -13688,15 +13806,17 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "name": "wowhead"
+     "name": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "name": "wowhead"
-    }
+     "name": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -13704,7 +13824,7 @@
    "id": 79091,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Vous dîtes que ça provient de la bibliothèque de Forgefer ? Ils ne remarqueront même pas sa disparition.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient améliorer notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -13756,16 +13876,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -13773,7 +13895,7 @@
    "id": 79092,
    "name": "Le journal de recherche de l’archimage Théocritus",
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient améliorer notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -13826,16 +13948,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -13843,7 +13967,7 @@
    "id": 79093,
    "name": "Rumi de Gnomeregan : Le recueil d’œuvres",
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient améliorer notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -13896,16 +14020,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -13913,7 +14039,7 @@
    "id": 79094,
    "name": "Les Leçons de Ta’zo",
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient améliorer notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -13966,16 +14092,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -13983,7 +14111,7 @@
    "id": 79095,
    "name": "L’Abécédaire métaphysique de l’apothicaire",
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient améliorer notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -14036,16 +14164,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -14115,7 +14245,7 @@
    "id": 79097,
    "name": "Baxtan : Sur les magies destructrices",
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient améliorer notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -14168,16 +14298,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -14333,7 +14465,7 @@
    "id": 79535,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient améliorer notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -14385,16 +14517,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -14402,7 +14536,7 @@
    "id": 79536,
    "name": "Mécène de la bibliothèque",
    "objectives": null,
-   "description": null,
+   "description": "Grâce à vos dons, la bibliothèque prospère.\n\nJe vous en prie, acceptez ceci.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -14449,15 +14583,17 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "name": "wowhead"
+     "name": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "name": "wowhead"
-    }
+     "name": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -14504,7 +14640,7 @@
    "id": 79947,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient profiter à notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -14556,16 +14692,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -14573,7 +14711,7 @@
    "id": 79948,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient profiter à notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -14625,16 +14763,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -14642,7 +14782,7 @@
    "id": 79949,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient profiter à notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -14694,16 +14834,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -14711,7 +14853,7 @@
    "id": 79950,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient profiter à notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -14763,16 +14905,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -14780,7 +14924,7 @@
    "id": 79951,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient profiter à notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -14832,16 +14976,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -14849,7 +14995,7 @@
    "id": 79952,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient profiter à notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -14901,16 +15047,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -14980,7 +15128,7 @@
    "id": 81947,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient profiter à notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -15032,16 +15180,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -15049,7 +15199,7 @@
    "id": 81949,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Vous recevrez :",
    "progress": null,
    "completion": null,
    "starters": [
@@ -15100,13 +15250,17 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -15165,7 +15319,7 @@
    "id": 81952,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient profiter à notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -15217,16 +15371,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -15234,7 +15390,7 @@
    "id": 81953,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient profiter à notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -15286,16 +15442,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -15303,7 +15461,7 @@
    "id": 81954,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient profiter à notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -15355,16 +15513,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -15372,7 +15532,7 @@
    "id": 81955,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient profiter à notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -15424,16 +15584,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -15441,7 +15603,7 @@
    "id": 81956,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient profiter à notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -15493,16 +15655,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -15510,7 +15674,7 @@
    "id": 82208,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Grâce à vos dons, la bibliothèque prospère.\n\nJe vous en prie, acceptez ceci.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -15556,13 +15720,17 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -15639,7 +15807,7 @@
    "id": 84396,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient profiter à notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -15691,16 +15859,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -15708,7 +15878,7 @@
    "id": 84397,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient profiter à notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -15760,16 +15930,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -15777,7 +15949,7 @@
    "id": 84398,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Avez-vous apporté quelque chose pour enrichir notre collection ?",
    "progress": null,
    "completion": "Merci, <nom>. Notre savoir s’enrichit grâce à vos efforts.\n\nSi vous découvrez d’autres ouvrages magiques qui pourraient profiter à notre bibliothèque, apportez-les-moi.",
    "starters": [
@@ -15829,16 +16001,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -15846,7 +16020,7 @@
    "id": 84399,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Vous recevrez :",
    "progress": null,
    "completion": null,
    "starters": [
@@ -15897,13 +16071,17 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -16041,7 +16219,7 @@
    "id": 84402,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Vous recevrez :",
    "progress": null,
    "completion": null,
    "starters": [
@@ -16092,13 +16270,17 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -16106,7 +16288,7 @@
    "id": 91899,
    "name": "Une caisse scellée",
    "objectives": null,
-   "description": null,
+   "description": "Une autre livraison ! Fantastique. Placez ça sur la pile et nous pourrons discuter de votre rémunération.",
    "progress": null,
    "completion": "Merci pour tous vos efforts, Fondue. On m’a récemment signalé que les bandits et les voleurs interceptaient de plus en plus d’envois sur nos axes commerciaux. N’hésitez pas à me rapporter toutes les caisses que vous trouverez dans la nature. Nous nous chargerons du reste.\n\nVoici votre dû.",
    "starters": [
@@ -16154,16 +16336,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -16171,7 +16355,7 @@
    "id": 91900,
    "name": "Une caisse scellée",
    "objectives": null,
-   "description": null,
+   "description": "Une autre livraison ! Fantastique. Placez ça sur la pile et nous pourrons discuter de votre rémunération.",
    "progress": null,
    "completion": "Merci pour tous vos efforts, Fondue. On m’a récemment signalé que les bandits et les voleurs interceptaient de plus en plus d’envois sur nos axes commerciaux. N’hésitez pas à me rapporter toutes les caisses que vous trouverez dans la nature. Nous nous chargerons du reste.\n\nVoici votre dû.",
    "starters": [
@@ -16235,16 +16419,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -16252,7 +16438,7 @@
    "id": 91901,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Vous recevrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": null,
    "starters": [
@@ -16298,13 +16484,17 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -16312,7 +16502,7 @@
    "id": 91904,
    "name": "Une caisse scellée",
    "objectives": null,
-   "description": null,
+   "description": "Une autre livraison ! Fantastique. Placez ça sur la pile et nous pourrons discuter de votre rémunération.",
    "progress": null,
    "completion": "Merci pour tous vos efforts, Fondue. On m’a récemment signalé que les bandits et les voleurs interceptaient de plus en plus d’envois sur nos axes commerciaux. N’hésitez pas à me rapporter toutes les caisses que vous trouverez dans la nature. Nous nous chargerons du reste.\n\nVoici votre dû.",
    "starters": [
@@ -16376,16 +16566,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -16393,7 +16585,7 @@
    "id": 91905,
    "name": "Une caisse scellée",
    "objectives": null,
-   "description": null,
+   "description": "Une autre livraison ! Fantastique. Placez ça sur la pile et nous pourrons discuter de votre rémunération.",
    "progress": null,
    "completion": "Merci pour tous vos efforts, <nom>. On m’a récemment signalé que les bandits et les voleurs interceptaient de plus en plus d’envois sur nos axes commerciaux. N’hésitez pas à me rapporter toutes les caisses que vous trouverez dans la nature. Nous nous chargerons du reste.\n\nVoici votre dû.",
    "starters": [
@@ -16441,16 +16633,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "wowhead",
-     "completion": "wowhead"
+     "completion": "wowhead",
+     "description": "wowdata"
     },
     "origins": {
      "name": "wowhead",
-     "completion": "wowhead"
-    }
+     "completion": "wowhead",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -21431,7 +21625,7 @@
    "id": 93862,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Lors de l'achèvement de cette quête vous gagnerez :\n\n50 points de réputation avec Transports logistiques Durotar50 points de réputation avec Administration commerciale d’Azeroth\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": null,
    "starters": [],
@@ -21455,13 +21649,17 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
     "objectives",
-    "description",
     "giver"
    ],
    "status": "incomplete"
@@ -27825,7 +28023,7 @@
    "objectives": "Parlez à Kurdram Martel-de-pierre, à Auberdine, pour apprendre à fabriquer un objet de camping propre à votre métier une fois que vous vous serez fait la main.",
    "description": "Être <mineur/mineuse> n’a peut-être rien de très prestigieux, mais c’est un métier honnête et une voie qui vaut le détour.\n\nJe crois connaître quelqu’un qui pourra vous apprendre à fabriquer une magnétite pour votre camp. Fabriquez-en une, et quiconque manie l’épée se pressera autour de votre feu pour profiter du surcroît de puissance qu’elle lui conférera au combat.",
    "progress": null,
-   "completion": null,
+   "completion": "Et voilà, vous pouvez désormais fabriquer votre propre magnétite. La plupart des gens ne voient pas les camps installés en centre-ville d’un bon œil, alors il va vous falloir vous éloigner un peu si vous voulez la tester.\n\nAh, et une dernière chose : pas de camp sans feu de camp ! Il vous en faudra un avant de pouvoir vous installer. La plupart des cuisiniers et cuisinières peuvent vous apprendre à faire un feu. Si ce n’est pas déjà fait, allez donc voir une personne qui peut vous former aux arts culinaires pour en apprendre les bases.",
    "starters": [
     {
      "type": "npc",
@@ -27864,13 +28062,16 @@
     "texts": {
      "name": "wowhead",
      "objectives": "wowhead",
-     "description": "wowhead"
+     "description": "wowhead",
+     "completion": "wowdata"
     },
     "origins": {
      "name": "wowhead",
      "objectives": "wowhead",
-     "description": "wowhead"
-    }
+     "description": "wowhead",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [],
    "status": "complete"
@@ -29135,10 +29336,10 @@
   "97973": {
    "id": 97973,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Parlez à Taleen Fil-Luisant, à Shen’dar, pour apprendre à fabriquer un objet de camping propre à votre métier une fois que vous vous serez fait la main.",
+   "description": "La couture est un métier étonnamment utile, et je suis sûr qu’elle vous rendra de fiers services.\n\nJe connais quelqu’un qui peut vous apprendre à fabriquer une bannière de faction pour votre camp, pourvu que vous en ayez les compétences. L’inspiration et le moral sont essentiels sur un champ de bataille, et une bannière inspirante contribuera grandement à vous maintenir en pleine forme.",
    "progress": null,
-   "completion": null,
+   "completion": "Et voilà, vous pouvez désormais fabriquer votre propre bannière de ralliement. La plupart des gens ne voient pas les camps installés en centre-ville d’un bon œil, alors il va vous falloir vous éloigner un peu si vous voulez la tester.\n\nAh, et une dernière chose : pas de camp sans feu de camp ! Il vous en faudra un avant de pouvoir vous installer. La plupart des cuisiniers et cuisinières peuvent vous apprendre à faire un feu. Si ce n’est pas déjà fait, allez donc voir une personne qui peut vous former aux arts culinaires pour en apprendre les bases.",
    "starters": [
     {
      "type": "npc",
@@ -29169,13 +29370,20 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
@@ -29315,8 +29523,8 @@
   "98285": {
    "id": 98285,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Parlez à l’étrange ermite, dans la forêt de Trombenoire, pour apprendre à fabriquer un objet de camping propre à votre métier une fois que vous vous serez fait la main.",
+   "description": "Un ingénieur est toujours plein de ressources. Si vous vous retrouvez <seul/seule> dans la nature, votre métier pourrait vous être utile ! Un camp est toujours plus vivant avec quelques assemblages à votre service.\n\nOui, revenez me voir quand vous aurez acquis un peu d’expérience en ingénierie. Je vous apprendrai quelque chose de spécial.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -29343,27 +29551,34 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "seul/seule"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "98286": {
    "id": 98286,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Parlez à Nasalanna Chantelevent, à Shen’dar, pour apprendre à fabriquer un objet de camping propre à votre métier une fois que vous vous serez fait la main.",
+   "description": "Les enchanteresses et les enchanteurs ont le don de rendre tout un peu meilleur, et sont toujours les bienvenus dans un camp en pleine nature.\n\nJe crois connaître quelqu’un qui pourra vous apprendre à fabriquer un luth enchanté pour votre camp. C’est important de se divertir pendant les moments de repos, et un peu de magie vous aidera à être <prêt/prête> à affronter toutes sortes d’épreuves lorsque vous reprendrez la route.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -29390,19 +29605,26 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "prêt/prête"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
@@ -29445,7 +29667,7 @@
   "98338": {
    "id": 98338,
    "name": null,
-   "objectives": null,
+   "objectives": "Vérifiez si vous l'avez déjà terminé en tapant :",
    "description": null,
    "progress": null,
    "completion": null,
@@ -29467,12 +29689,16 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
     "description",
     "giver"
    ],
@@ -29482,7 +29708,7 @@
    "id": 98372,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Le guetteur de nuit qui gît devant vous est couvert de profondes griffures et de larges entailles. Il est évident qu’il a été mutilé par une bête de grande taille.\n\nVous remarquez qu’il serre encore une torche éteinte dans sa main. Vous vous penchez et l’arrachez à ses doigts raidis. Elle pourrait vous être utile au cours de vos voyages dans le bois de la Pénombre et au-delà, pour révéler ce que les ténèbres dissimulent.",
    "progress": null,
    "completion": "Le guetteur de nuit qui gît devant vous est couvert de profondes griffures et de larges entailles. Il est évident qu’il a été mutilé par une bête de grande taille.\r\n\r\nVous remarquez qu’il serre encore une torche éteinte dans sa main. Vous vous penchez et l’arrachez à ses doigts raidis. Elle pourrait vous être utile au cours de vos voyages dans le bois de la Pénombre et au-delà, pour révéler ce que les ténèbres dissimulent.",
    "starters": [],
@@ -29526,16 +29752,18 @@
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
-     "completion": "capture"
+     "completion": "capture",
+     "description": "wowdata"
     },
     "origins": {
-     "completion": "capture"
-    }
+     "completion": "capture",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
     "objectives",
-    "description",
     "giver"
    ],
    "status": "incomplete"
@@ -29579,10 +29807,10 @@
   "98512": {
    "id": 98512,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Tuez 10 assassins al’aketh dans les hautes-terres de Shen’dar.",
+   "description": "Vous, là. <Étranger/Étrangère>. Baissez-vous, et pas un bruit. Il y a des ombres qui rôdent.\n\nJ’étais en patrouille pas loin de la frontière, et j’ai remarqué plusieurs Al’Aketh qui furetaient près de la maison sur la colline, au nord. Je ne sais pas ce qu’ils manigancent, mais ça ne peut être rien de bon.\n\nSi vous souhaitez vous rendre utile, allez les éliminer. J’attends ici et je fais le guet.",
    "progress": null,
-   "completion": null,
+   "completion": "C’est un soulagement de vous revoir, ces Al’Aketh avaient l’air d’être de vrais tueurs.\n\nMerci pour votre aide, je le mentionnerai dans mon rapport à mon retour à Valanaar.",
    "starters": [
     {
      "type": "npc",
@@ -29607,29 +29835,38 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "Étranger/Étrangère"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
   "99260": {
    "id": 99260,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Éliminez la matriarche criailleuse dans la tanière des criailleuses, puis apportez sa tête à Dondallion Murmevent à Valanaar.",
+   "description": "Je me sens déjà bien mieux. J’ai quelques connaissances dans les arts arcaniques et nous ne sommes pas loin de Valanaar. Je peux faire le restant du chemin seul. Toutefois, ce qui importe davantage que ma propre sécurité, c’est le danger que représentent ces criailleuses, dont le nid se trouve si près de Valanaar. Si vous le voulez bien, retournez à l’intérieur et coupez la tête de cette bête !\n\nQuand ce sera fait, retrouvez-moi à Valanaar. Je dois retourner voir Dondallion dès que possible. Il doit être en train de se ronger les sangs.",
    "progress": null,
-   "completion": null,
+   "completion": "Eh bien, je dois avouer que je suis grandement soulagé que Fillion soit rentré. Il n’a jamais fait attention à ce qu’il se passe autour de lui. Il est toujours perdu dans ses pensées ou le nez dans un livre.\n\nMerci, <classe>.",
    "starters": [
     {
      "type": "npc",
@@ -29660,13 +29897,20 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
@@ -29674,7 +29918,7 @@
    "id": 99267,
    "name": null,
    "objectives": null,
-   "description": null,
+   "description": "Vous recevrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": null,
    "starters": [
@@ -29707,13 +29951,17 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   }

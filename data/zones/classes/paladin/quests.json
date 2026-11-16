@@ -81,7 +81,7 @@
    "id": 1641,
    "name": "Le Tome de divinité",
    "objectives": null,
-   "description": null,
+   "description": "A Stormwind, je suis chargé de guider les paladins sur le chemin de la vertu quand ils se consacrent à la Lumière et à la défense d’Azeroth contre le Fléau et autres menaces.\n\nLe temps est venu pour vous de faire vos premiers pas vers la véritable vertu. Si vous l'acceptez, je vous donnerai un livre de divinité. En l'étudiant, vous en apprendrez plus sur la Lumière, et sur ce qu'on attend de vous. Si vous le comprenez, et en avez l’étoffe, vous réussirez à atteindre de plus hautes compétences.",
    "progress": null,
    "completion": "A Stormwind, je suis chargé de guider les paladins sur le chemin de la vertu quand ils se consacrent à la Lumière et à la défense d’Azeroth contre le Fléau et autres menaces.\n\nLe temps est venu pour vous de faire vos premiers pas vers la véritable vertu. Si vous l'acceptez, je vous donnerai un livre de divinité. En l'étudiant, vous en apprendrez plus sur la Lumière, et sur ce qu'on attend de vous. Si vous le comprenez, et en avez l’étoffe, vous réussirez à atteindre de plus hautes compétences.",
    "starters": [
@@ -116,16 +116,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -298,7 +300,7 @@
    "id": 1645,
    "name": "Le Tome de divinité",
    "objectives": null,
-   "description": null,
+   "description": "Un plaisir de vous rencontrer, <nom>. Je suis chargée de guider les paladins sur le chemin d'une plus grande vertu quand ils se consacrent à la Lumière et à la défense d’Azeroth.\n\nLe temps est venu pour vous de faire vos premiers pas vers la véritable vertu. Si vous acceptez cet engagement, je vous donnerai un livre de divinité. En l'étudiant, vous en apprendrez plus sur la Lumière, et sur ce que l'on attend de vous. Si vous le comprenez, et si vous en avez l’étoffe, alors vous réussirez à atteindre de plus hautes compétences.",
    "progress": null,
    "completion": "Un plaisir de vous rencontrer, <nom>. Je suis chargée de guider les paladins sur le chemin d'une plus grande vertu quand ils se consacrent à la Lumière et à la défense d’Azeroth.\n\nLe temps est venu pour vous de faire vos premiers pas vers la véritable vertu. Si vous acceptez cet engagement, je vous donnerai un livre de divinité. En l'étudiant, vous en apprendrez plus sur la Lumière, et sur ce que l'on attend de vous. Si vous le comprenez, et si vous en avez l’étoffe, alors vous réussirez à atteindre de plus hautes compétences.",
    "starters": [
@@ -325,7 +327,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -333,16 +337,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1512,7 +1518,7 @@
    "id": 1789,
    "name": "Le Symbole de vie",
    "objectives": null,
-   "description": null,
+   "description": "Si vous n'arrivez pas à aider Narm en utilisant le Symbole de vie, <nom>, alors revenez me voir et je vous en procurerai un autre.\n\nIl est important pour mon mari et moi que vous y arriviez. S'il vous plaît, hâtez-vous.",
    "progress": null,
    "completion": "Faites vite, <nom>, plus d'une vie est en jeu si vous échouez.\n\nSi, pour une raison ou une autre, tu ne parviens pas à aider Muiredon et Narm, reviens me voir et je te donnerai un autre symbole de vie pour tes voyages.\n\nNe prends pas mon aide pour de la simple charité, tu dois te montrer digne comme n'importe quel autre <classe> et un échec continu pourrait se répercuter sur toi plus tard.",
    "starters": [
@@ -1539,7 +1545,9 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -1547,16 +1555,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1564,7 +1574,7 @@
    "id": 1790,
    "name": "Le Symbole de vie",
    "objectives": null,
-   "description": null,
+   "description": "Hâtez-vous, <nom>, de nombreuses vies seront en danger si vous échouez.\n\nSi pour une raison quelconque vous n'arrivez pas à aider Gazin et Henze, revenez me voir et je vous donnerai un autre Symbole de vie pour cette entreprise.\n\nNe prenez pas cela pour de la charité : vous devez prouver que vous êtes un <classe> aussi brave que les autres, et des échecs répétés auraient des répercussions plus tard.",
    "progress": null,
    "completion": "Hâtez-vous, <nom>, de nombreuses vies seront en danger si vous échouez.\n\nSi pour une raison quelconque vous n'arrivez pas à aider Gazin et Henze, revenez me voir et je vous donnerai un autre Symbole de vie pour cette entreprise.\n\nNe prenez pas cela pour de la charité : vous devez prouver que vous êtes un <classe> aussi brave que les autres, et des échecs répétés auraient des répercussions plus tard.",
    "starters": [
@@ -1591,7 +1601,10 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "classe",
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -1599,16 +1612,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1616,7 +1631,7 @@
    "id": 1793,
    "name": "Le Tome de la bravoure",
    "objectives": null,
-   "description": null,
+   "description": "Il a été prouvé que la Lumière était avec vous, <nom>, mais en ces temps de grands dangers, il est primordial de savoir quelles sont vos forces. Parce que des démons, des dragons et toutes sortes de créatures malfaisantes convoitent nos terres, votre courage sera mis à l'épreuve. Serez-vous assez fort ?\n\nLa bravoure, quelle que soit la situation, est une part importante de la voie du <classe>, au même titre que la Lumière, votre armure et votre arme. Quand vous étudiez dans la cathédrale de la Lumière, les deux leçons que vous devez apprendre sont : protéger les faibles et ne jamais perdre la foi.",
    "progress": null,
    "completion": "Il a été prouvé que la Lumière était avec vous, <nom>, mais en ces temps de grands dangers, il est primordial de savoir quelles sont vos forces. Parce que des démons, des dragons et toutes sortes de créatures malfaisantes convoitent nos terres, votre courage sera mis à l'épreuve. Serez-vous assez fort ?\n\nLa bravoure, quelle que soit la situation, est une part importante de la voie du <classe>, au même titre que la Lumière, votre armure et votre arme. Quand vous étudiez dans la cathédrale de la Lumière, les deux leçons que vous devez apprendre sont : protéger les faibles et ne jamais perdre la foi.",
    "starters": [
@@ -1643,7 +1658,10 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "classe",
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -1651,16 +1669,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -1668,7 +1688,7 @@
    "id": 1794,
    "name": "Le Tome de la bravoure",
    "objectives": null,
-   "description": null,
+   "description": "Il a été prouvé que la Lumière était avec vous, <nom>, mais en ces temps de grands dangers, il est primordial de savoir quelles sont vos forces. Parce que des démons, des dragons et toutes sortes de créatures malfaisantes convoitent nos terres, votre courage sera mis à l'épreuve. Serez-vous assez fort ?\n\nLa bravoure, quelle que soit la situation, est une part importante de la voie du <classe>, au même titre que la Lumière, votre armure et votre arme. Quand vous étudiez dans la cathédrale de la Lumière, les deux leçons que vous devez apprendre sont : protéger les faibles et ne jamais perdre la foi.",
    "progress": null,
    "completion": "Il a été prouvé que la Lumière est avec vous, <nom>, mais à mesure que les temps deviennent plus dangereux, il devient important de savoir quelle force se cache sous la chair. Lorsque des démons, des dragons ou d'autres créatures maléfiques fouleront vos terres, votre courage sera mis à l'épreuve. Serez-vous assez fort ?\n\nLa bravoure, quelle que soit la situation, fait autant partie de la condition de paladin que la lumière, l'armure et l'arme. Protéger les faibles et ne pas perdre la foi sont deux autres leçons que vous devez maîtriser pendant vos études à la Cathédrale de la Lumière.",
    "starters": [
@@ -1695,7 +1715,10 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "classe",
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
@@ -1703,16 +1726,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -2948,7 +2973,7 @@
    "id": 7666,
    "name": "Retour au Grand ossuaire",
    "objectives": null,
-   "description": null,
+   "description": "Vous recevrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
    "progress": null,
    "completion": "Tu retournes à la Scholomance, <nom> ? Vous avez déjà payé très cher l'utilisation du Séchoir de divination, peut-être aimeriez-vous en prendre un autre avec vous. Grâce à lui, vous pourrez à nouveau affronter les périls du Grand Ossuaire.\n\nJe vous en prie, prenez-le. Vous l'avez bien mérité.",
    "starters": [
@@ -2983,16 +3008,18 @@
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
     "texts": {
      "name": "foreverdb",
-     "completion": "foreverdb"
+     "completion": "foreverdb",
+     "description": "wowdata"
     },
     "origins": {
      "name": "foreverdb:questie",
-     "completion": "foreverdb:vmangos"
-    }
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "objectives",
-    "description"
+    "objectives"
    ],
    "status": "incomplete"
   },
@@ -3289,7 +3316,7 @@
    "objectives": null,
    "description": null,
    "progress": null,
-   "completion": null,
+   "completion": "Vous avez bien fait de me rapporter ceci, <nom>.",
    "starters": [],
    "enders": [
     {
@@ -3314,8 +3341,13 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "completion": "wowdata"
+    },
+    "origins": {
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
@@ -3331,7 +3363,7 @@
    "objectives": null,
    "description": null,
    "progress": null,
-   "completion": null,
+   "completion": "<Examine l’orbe avec une expression inquiète.>",
    "starters": [
     {
      "type": "npc",
@@ -3362,8 +3394,13 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "completion": "wowdata"
+    },
+    "origins": {
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
@@ -3378,7 +3415,7 @@
    "objectives": null,
    "description": null,
    "progress": null,
-   "completion": null,
+   "completion": "Donc, la Main d’argent a besoin de mon aide ? Elle va vous coûter cher.",
    "starters": [
     {
      "type": "npc",
@@ -3409,8 +3446,13 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "completion": "wowdata"
+    },
+    "origins": {
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
@@ -3425,7 +3467,7 @@
    "objectives": null,
    "description": null,
    "progress": null,
-   "completion": null,
+   "completion": "Ah… les sels. Je les avais oubliés.\n\nJe n’ai jamais rien vu comme cet orbe, <nom>.",
    "starters": [
     {
      "type": "npc",
@@ -3456,8 +3498,13 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "completion": "wowdata"
+    },
+    "origins": {
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
@@ -3469,10 +3516,10 @@
   "78092": {
    "id": 78092,
    "name": null,
-   "objectives": null,
-   "description": null,
+   "objectives": "Récupérez 12 particules de Mannoroth sur les démons d’Orneval. Apportez-les, avec l’orbe d’Althalaxx, jusqu’à la lance de Mannoroth, au canyon de la Malechute.",
+   "description": "Les filaments de conscience qui émanent de cet orbe sont trop puissants pour que même quelqu’un d’aussi versé que moi dans l’art de la démonologie puisse leur résister longtemps. J’ai du mal à l’admettre, <nom>, mais il doit être détruit.\n\nL’orbe est presque indestructible, mais il pourrait être vulnérable à l’arme d’un puissant seigneur démon. On dit qu’une telle lame se trouve à Orneval, à l’endroit même où le seigneur des abîmes, Mannoroth, fut anéanti.\n\nRécupérez là-bas des particules de l’essence du démon déchu, puis fracassez l’orbe contre la lame.",
    "progress": null,
-   "completion": null,
+   "completion": "<Vous levez l’orbe vers la lance.>",
    "starters": [
     {
      "type": "npc",
@@ -3497,19 +3544,28 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
-    "name",
-    "objectives",
-    "description"
+    "name"
    ],
    "status": "incomplete"
   },
@@ -3519,7 +3575,7 @@
    "objectives": null,
    "description": null,
    "progress": null,
-   "completion": null,
+   "completion": "C’est un soulagement, <nom>. Mais quelle que soit l’entité qui observait Azeroth par cet orbe… j’ai le sentiment qu’elle ne sera pas enchantée de sa destruction.\n\nAcceptez ceci, pour vos efforts. Et… faites attention.",
    "starters": [
     {
      "type": "object",
@@ -3550,8 +3606,13 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "completion": "wowdata"
+    },
+    "origins": {
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
    },
    "missing": [
     "name",
