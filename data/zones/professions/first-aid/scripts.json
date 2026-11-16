@@ -1,0 +1,180 @@
+{
+ "schema": 2,
+ "scripts": {
+  "6624": {
+   "quest_id": 6624,
+   "kind": "detail",
+   "name": "Triage",
+   "npc_id": 12939,
+   "npc_name": "Docteur Gustaf VanHowzen",
+   "source": "foreverdb:vmangos",
+   "text": "Bonjour, docteur. Vous subirez un test quant à votre compétence de diagnostic et de triage des patients, cet après-midi. Si vous réussissez cette épreuve, vous rejoindrez les rangs des médecins de l'Alliance.\n\nMaintenant, faites bien attention : ceux qui agonisent doivent être soignés en premier. Ensuite, viennent ceux qui ont été grièvement blessés. Les blessés seront, quant à eux, les derniers à recevoir des soins. Vous devez sauver 15 patients pour réussir l'examen. Si plus de 5 patients meurent pendant le triage, vous aurez échoué votre examen.\n\nBonne chance, docteur.\n\nObjectif : Sauver des patients en utilisant des Bandages de Triage, afin de panser leurs blessures. Vous devez sauver 15 patients avant que 6 d’entre eux ne meurent de leurs blessures.\n\nRappelez-vous l’ordre du triage ! Les Soldats agonisants meurent les premiers, suivis des Soldats grièvement blessés. Les Soldats blessés sont ceux qui meurent les derniers, et ils doivent être soignés APRES ceux qui agonisent et ceux qui sont grièvement blessés ; selon le tri que vous avez fait.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-08T05:54:53"
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "6625": {
+   "quest_id": 6625,
+   "kind": "detail",
+   "name": "Service de traumatologie de l'Alliance",
+   "npc_id": 5150,
+   "npc_name": "Nissa Firestone",
+   "source": "foreverdb:vmangos",
+   "text": "Docteur, je suppose. C'est un plaisir de vous revoir.\n\nJ'ai de merveilleuses nouvelles pour vous : Gustaf VanHowzen, médecin-chef de l'Alliance, veut que vous alliez le retrouver à Theramore. Ceci pourrait bien être une occasion unique ! Je donnerais n'importe quoi pour avoir la chance d'étudier sous l'enseignement du grand docteur Gustaf VanHowzen ! Ne gâchez pas cette occasion, elle ne se représentera peut-être plus jamais !\n\nObjectif : Aller à Theramore, dans le marécage d'Âprefange, et parler au docteur Gustaf VanHowzen de la possibilité de rejoindre les rangs des médecins de l’Alliance.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-08T05:54:53"
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  }
+ },
+ "complete": {
+  "6624": {
+   "quest_id": 6624,
+   "kind": "complete",
+   "name": "Triage",
+   "npc_id": 12939,
+   "npc_name": "Docteur Gustaf VanHowzen",
+   "source": "foreverdb:vmangos",
+   "text": "Docteur, bienvenue dans les rangs des médecins de l'Alliance.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-08T05:54:53"
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "6625": {
+   "quest_id": 6625,
+   "kind": "complete",
+   "name": "Service de traumatologie de l'Alliance",
+   "npc_id": 12939,
+   "npc_name": "Docteur Gustaf VanHowzen",
+   "source": "foreverdb:vmangos",
+   "text": "Merveilleux. préparez-vous, nous devons commencer immédiatement !",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-08T05:54:53"
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  }
+ },
+ "updated_at": "2026-10-10T10:28:37",
+ "dialogues": {
+  "5150_9699": {
+   "kind": "dialogue",
+   "npc_id": 5150,
+   "npc_name": "Nissa Firestone",
+   "page": "9699",
+   "first": true,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "L’estimable docteur Gustav VanHowzen peut vous faire progresser. Vous le trouverez à la caserne de Theramore, où Il soigne les blessés.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T10:28:37"
+   }
+  },
+  "5150_9700": {
+   "kind": "dialogue",
+   "npc_id": 5150,
+   "npc_name": "Nissa Firestone",
+   "page": "9700",
+   "first": true,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "J’ai entendu dire qu’un certain Deneb Walker, qui se planque dans Stromgarde, possède un livre qui pourrait améliorer votre compétence en Premiers soins.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T10:28:37"
+   }
+  },
+  "5150_9701": {
+   "kind": "dialogue",
+   "npc_id": 5150,
+   "npc_name": "Nissa Firestone",
+   "page": "9701",
+   "first": true,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Je peux vous enseigner des techniques de Premiers soins.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T10:28:37"
+   }
+  },
+  "12939_8970": {
+   "kind": "dialogue",
+   "npc_id": 12939,
+   "npc_name": "Docteur Gustaf VanHowzen",
+   "page": "8970",
+   "first": true,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Quel plaisir de vous revoir, docteur. J'ai suivi vos progrès et je dois dire que vous êtes désormais en mesure d'apprendre des techniques de bandage plus avancées.\n\nRevenez me voir de temps en temps, au fur et à mesure que vos compétences s'étofferont, je vous apprendrai tout ce que je sais.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T10:28:37"
+   }
+  },
+  "12939_8974": {
+   "kind": "dialogue",
+   "npc_id": 12939,
+   "npc_name": "Docteur Gustaf VanHowzen",
+   "page": "8974",
+   "first": true,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Salutations. Je suis le docteur Gustaf VanHowzen, chirurgien-chef de l'unité médicale de l'Alliance.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T10:28:37"
+   }
+  },
+  "12939_9030": {
+   "kind": "dialogue",
+   "npc_id": 12939,
+   "npc_name": "Docteur Gustaf VanHowzen",
+   "page": "9030",
+   "first": true,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Vous avez appris tout ce que je peux vous enseigner pour l'instant, docteur. Revenez me voir lorsque vous aurez un peu de pratique, et je vous apprendrai des facettes plus avancées de l'art médical.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T10:28:37"
+   }
+  }
+ }
+}

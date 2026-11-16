@@ -45,11 +45,12 @@ local function openWindow()
   ForeverSpeech.SideTabs.Update() -- the stubs do not run OnShow
 end
 
--- The fishing tab is on the backpack's bar (2026-10-20).
+-- The fishing tab is on the backpack's bar (2026-10-20), beside the minimap since 2026-11-10.
 local function openBag()
   local f = _G.ContainerFrameCombinedBags
   f:Show()
   f:GetScript("OnShow")(f)
+  ForeverSpeech.SideTabs.Update()
   return ForeverSpeech.SideTabs.Tab("fishing")
 end
 
@@ -107,6 +108,23 @@ end)
 describe("fishing tab", function()
   before_each(setup)
 
+  it("sits beside the minimap's right edge, on its left one where the screen ends", function()
+    local bar = ForeverSpeech.SideTabs.Bar("bag")
+    local at
+    bar.SetPoint = function(_, point, rel, relPoint, x, y) at = { point, rel, relPoint, x, y } end
+    _G.Minimap.GetRight, _G.Minimap.GetEffectiveScale = function() return 900 end, function() return 1 end
+    _G.UIParent.GetRight, _G.UIParent.GetEffectiveScale = function() return 1920 end, function() return 1 end
+    wow.fire("PLAYER_ENTERING_WORLD")
+    assert.same({ "TOPLEFT", _G.Minimap, "TOPRIGHT", 6, 0 }, at)
+    _G.Minimap.GetRight = function() return 1910 end
+    wow.fire("PLAYER_ENTERING_WORLD")
+    assert.same({ "TOPRIGHT", _G.Minimap, "TOPLEFT", -6, 0 }, at)
+    assert.is_true(bar:IsShown())
+    _G.Minimap:Hide()
+    ForeverSpeech.SideTabs.Update()
+    assert.is_false(bar:IsShown())
+  end)
+
   it("hidden to a character who does not know Fishing", function()
     _G.IsPlayerSpell = function() return false end
     assert.is_false(openBag():IsShown())
@@ -124,7 +142,7 @@ describe("fishing tab", function()
   it("click: fishing mode on, lit; again: off, greyed", function()
     local tab = openBag()
     assert.is_true(tab:IsShown())
-    assert.equal(ForeverSpeech.SideTabs.Bar("bag"), tab:GetParent()) -- on the backpack, not the main window
+    assert.equal(ForeverSpeech.SideTabs.Bar("bag"), tab:GetParent()) -- on the backpack's bar, not the main window
     tab:Click()
     assert.is_true(ForeverSpeech.Fishing.IsOn())
     assert.is_true(tab.checked:IsShown())

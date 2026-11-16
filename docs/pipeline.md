@@ -164,6 +164,16 @@ seulement listé : refaire son script ou son audio est une décision humaine. De
 compteurs : relancer chaque boucle une fois avec `--reset-ratchet`. `tools/zone.sh import` (la boucle base) refuse
 de tourner tant qu'un déplacement, un retrait ou un retour attend la synchronisation.
 
+**Les captures en jeu** (2026-11-16) comblent ce que la base n'a pas : l'addon garde le texte de chaque quête vue
+(`ForeverSpeechCaptures` dans les SavedVariables), que cette commande verse dans les registres. Elle ne remplit qu'un
+texte absent (canal et origine `capture`, gardés par l'import de la base) et ne remplace jamais un texte existant :
+une quête que Forever a réécrite est listée, la refaire est une décision humaine. Le nom du joueur devient `<nom>`.
+Puis la boucle texte (fiches, scripts) et les boucles audio.
+
+```bash
+.venv/bin/python -m pipeline.captures quests ".../_forever_/WTF/Account/<compte>/SavedVariables/ForeverSpeech.lua" --dry-run
+```
+
 **Produit** : `data/zones/<groupe>/<catégorie>/quests.json` et `npcs.json`, `data/zones.json` (le catalogue).
 Détail : [docs/data-registries.md](data-registries.md). Seules les quêtes de l'Alliance (ou des deux factions)
 sont traitées, sans filtre de niveau.

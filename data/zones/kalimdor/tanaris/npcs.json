@@ -1,0 +1,2715 @@
+{
+ "schema": 1,
+ "zone": "kalimdor/tanaris",
+ "zone_id": 440,
+ "zone_name": "Tanaris",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 41,
+  "with_display_id": 41,
+  "with_title": 15,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 29,
+   "unique": 1,
+   "unknown": 11
+  }
+ },
+ "npcs": {
+  "2501": {
+   "id": 2501,
+   "name": "MacKinley \"Loup des mers\"",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Booty Bay",
+   "zones": [
+    "Stranglethorn Vale"
+   ],
+   "coords": {},
+   "levels": [
+    44,
+    44
+   ],
+   "display_id": 1925,
+   "quests_started": [
+    606,
+    609,
+    613,
+    2872
+   ],
+   "quests_ended": [
+    607,
+    609,
+    613,
+    2874
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleWarrior",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5977,
+     "farewell": 5978,
+     "pissed": 5979
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "5204": {
+   "id": 5204,
+   "name": "Apothicaire Zinge",
+   "title": "Société royale des apothicaires",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Undercity",
+   "zones": [
+    "Undercity"
+   ],
+   "coords": {},
+   "levels": [
+    29,
+    29
+   ],
+   "display_id": 4056,
+   "quests_started": [
+    232,
+    243,
+    1358,
+    4133,
+    4769,
+    8980
+   ],
+   "quests_ended": [
+    238,
+    864,
+    1359,
+    8979
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "female",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "5411": {
+   "id": 5411,
+   "name": "Krinkle Goodsteel",
+   "title": "Fournitures de forgeron",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    40,
+    40
+   ],
+   "display_id": 7217,
+   "quests_started": [
+    5801,
+    5802
+   ],
+   "quests_ended": [
+    4450,
+    5514,
+    5538
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleZany",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Zany",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6632,
+     "farewell": 5965,
+     "pissed": 5966
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "5594": {
+   "id": 5594,
+   "name": "Alchimiste Pestlezugg",
+   "title": "Fournitures d'alchimie",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    45,
+    45
+   ],
+   "display_id": 7215,
+   "quests_started": [
+    113,
+    4496,
+    4507,
+    4508,
+    4509
+   ],
+   "quests_ended": [
+    82,
+    110,
+    4493,
+    4494,
+    4496,
+    4507
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleGruff",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Gruff",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6630,
+     "farewell": 5959,
+     "pissed": 5960
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleGruff"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "5955": {
+   "id": 5955,
+   "name": "Tooga",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    45,
+    45
+   ],
+   "display_id": 2902,
+   "quests_started": [
+    1560
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "6015": {
+   "id": 6015,
+   "name": "Torta",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    45,
+    45
+   ],
+   "display_id": 1244,
+   "quests_started": [],
+   "quests_ended": [
+    1560
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "7010": {
+   "id": 7010,
+   "name": "Zilzibin Drumlore",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Darkspear Trolls",
+   "zones": [
+    "Orgrimmar"
+   ],
+   "coords": {},
+   "levels": [
+    35,
+    35
+   ],
+   "display_id": 6839,
+   "quests_started": [
+    4494,
+    4511
+   ],
+   "quests_ended": [
+    32,
+    4509,
+    7732
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "7406": {
+   "id": 7406,
+   "name": "Oglethorpe Obnoticus",
+   "title": "Maître-ingénieur gnome",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Booty Bay",
+   "zones": [
+    "Stranglethorn Vale"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 6710,
+   "quests_started": [
+    3642,
+    3643,
+    3645,
+    3721
+   ],
+   "quests_ended": [
+    648,
+    836,
+    2767,
+    3635,
+    3637,
+    3642,
+    3643,
+    3645,
+    3721,
+    8857
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GnomeMaleStandard",
+    "race": "Gnome",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5922,
+     "farewell": 5923,
+     "pissed": 5924
+    },
+    "combat_set": "GnomeMale"
+   },
+   "model": {
+    "race": "Gnome",
+    "race_id": 7,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GnomeMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7407": {
+   "id": 7407,
+   "name": "Ingénieur en chef Bilgewhizzle",
+   "title": "Co. des Eaux Gadgetzan",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 7169,
+   "quests_started": [
+    379,
+    841,
+    864,
+    1690,
+    1691,
+    2768
+   ],
+   "quests_ended": [
+    243,
+    379,
+    654,
+    841,
+    1690,
+    1691,
+    2768,
+    2781
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleGruff",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Gruff",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5958,
+     "farewell": 5959,
+     "pissed": 5960
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleGruff"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7408": {
+   "id": 7408,
+   "name": "Opérateur du robinet Luglunket",
+   "title": "Co. des Eaux Gadgetzan",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    40,
+    40
+   ],
+   "display_id": 7171,
+   "quests_started": [
+    1707,
+    1878
+   ],
+   "quests_ended": [
+    1707,
+    1878
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleZany",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Zany",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5964,
+     "farewell": 5965,
+     "pissed": 5966
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7564": {
+   "id": 7564,
+   "name": "Marin Noggenfogger",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    40,
+    40
+   ],
+   "display_id": 7185,
+   "quests_started": [
+    2605,
+    2606,
+    2662
+   ],
+   "quests_ended": [
+    2605,
+    2661,
+    2662
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleZany",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Zany",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5964,
+     "farewell": 5965,
+     "pissed": 5966
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7583": {
+   "id": 7583,
+   "name": "Sprinkle",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    30,
+    30
+   ],
+   "display_id": 7175,
+   "quests_started": [
+    2641,
+    2661
+   ],
+   "quests_ended": [
+    2606,
+    2641
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinFemaleZany",
+    "race": "Goblin",
+    "sex": "female",
+    "personality": "Zany",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5967,
+     "farewell": 5969,
+     "pissed": 5970
+    },
+    "combat_set": "GnomeFemale"
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "GoblinFemaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7724": {
+   "id": 7724,
+   "name": "Grand Géomètre Fizzledowser",
+   "title": "Co. des Eaux Gadgetzan",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    44,
+    44
+   ],
+   "display_id": 7173,
+   "quests_started": [
+    10,
+    32,
+    82,
+    110,
+    162,
+    992
+   ],
+   "quests_ended": [
+    10,
+    113,
+    992
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleZany",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Zany",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5964,
+     "farewell": 5965,
+     "pissed": 5966
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7733": {
+   "id": 7733,
+   "name": "Aubergiste Fizzgrimble",
+   "title": "Aubergiste",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    30,
+    30
+   ],
+   "display_id": 7346,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleZany",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Zany",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5964,
+     "farewell": 5965,
+     "pissed": 5966
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleZany"
+   }
+  },
+  "7740": {
+   "id": 7740,
+   "name": "Gracina Spiritmight",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Darnassus",
+   "zones": [
+    "Darnassus"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 6840,
+   "quests_started": [
+    4493,
+    4510
+   ],
+   "quests_ended": [
+    162,
+    4267,
+    4508
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfFemaleSentinel",
+    "race": "NightElf",
+    "sex": "female",
+    "personality": "Sentinel",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6005,
+     "farewell": 6006,
+     "pissed": 6007
+    },
+    "combat_set": "NightElfFemale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "NightElfFemaleSentinel"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7763": {
+   "id": 7763,
+   "name": "Curgle Cranklehop",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    48,
+    48
+   ],
+   "display_id": 6881,
+   "quests_started": [
+    2747,
+    2748,
+    2749,
+    2750,
+    2944,
+    3022
+   ],
+   "quests_ended": [
+    2747,
+    2748,
+    2749,
+    2750,
+    2941
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GnomeFemaleNerdy",
+    "race": "Gnome",
+    "sex": "female",
+    "personality": "Nerdy",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5931,
+     "farewell": 5932,
+     "pissed": 5933
+    },
+    "combat_set": "GnomeFemale"
+   },
+   "model": {
+    "race": "Gnome",
+    "race_id": 7,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "GnomeFemaleNerdy"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7771": {
+   "id": 7771,
+   "name": "Marvon Rivetseeker",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    40,
+    40
+   ],
+   "display_id": 7188,
+   "quests_started": [
+    3161,
+    3444,
+    3446,
+    3447
+   ],
+   "quests_ended": [
+    3161,
+    3380,
+    3444,
+    3445
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleZany",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Zany",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5964,
+     "farewell": 5965,
+     "pissed": 5966
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7784": {
+   "id": 7784,
+   "name": "Robot guidé OOX-17/TN",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    42,
+    42
+   ],
+   "display_id": 6909,
+   "quests_started": [
+    648
+   ],
+   "quests_ended": [
+    351
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "7823": {
+   "id": 7823,
+   "name": "Bera Stonehammer",
+   "title": "Maître des gryphons",
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Stormwind",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 6880,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfFemaleGuard",
+    "race": "Dwarf",
+    "sex": "female",
+    "personality": "Guard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5916,
+     "farewell": 5917,
+     "pissed": 5918
+    },
+    "combat_set": "DwarfFemale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "female"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "DwarfFemaleGuard"
+   }
+  },
+  "7876": {
+   "id": 7876,
+   "name": "Tran'rek",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    45,
+    45
+   ],
+   "display_id": 11379,
+   "quests_started": [
+    2865,
+    3362,
+    4504
+   ],
+   "quests_ended": [
+    2864,
+    2865,
+    3362,
+    4504
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleZany",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Zany",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5964,
+     "farewell": 5965,
+     "pissed": 5966
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7881": {
+   "id": 7881,
+   "name": "Stoley",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    30,
+    30
+   ],
+   "display_id": 7027,
+   "quests_started": [
+    2873,
+    2874
+   ],
+   "quests_ended": [
+    2872,
+    2873
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleStandard",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5974,
+     "farewell": 5975,
+     "pissed": 5976
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7882": {
+   "id": 7882,
+   "name": "Chef de la sécurité Bilgewhizzle",
+   "title": "Sécurité de la Co. des Eaux",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    51,
+    51
+   ],
+   "display_id": 11387,
+   "quests_started": [
+    8366
+   ],
+   "quests_ended": [
+    2875,
+    2876,
+    8366
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleGruff",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Gruff",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5958,
+     "farewell": 5959,
+     "pissed": 5960
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleGruff"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7916": {
+   "id": 7916,
+   "name": "Erelas Ambersky",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Darnassus",
+   "zones": [
+    "Teldrassil"
+   ],
+   "coords": {},
+   "levels": [
+    30,
+    30
+   ],
+   "display_id": 7026,
+   "quests_started": [
+    978,
+    979,
+    3661,
+    4902
+   ],
+   "quests_ended": [
+    978,
+    3022,
+    3661,
+    4901
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfMaleWarrior",
+    "race": "NightElf",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5995,
+     "farewell": 5996,
+     "pissed": 5997
+    },
+    "combat_set": "NightElfMale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "NightElfMaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7918": {
+   "id": 7918,
+   "name": "Gardien des pierres de Norgannon",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 6589,
+   "quests_started": [
+    2954
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "8125": {
+   "id": 8125,
+   "name": "Dirge Quikcleave",
+   "title": "Boucher",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    43,
+    43
+   ],
+   "display_id": 7338,
+   "quests_started": [
+    6610,
+    8585,
+    8586,
+    8587
+   ],
+   "quests_ended": [
+    6610,
+    6611,
+    6612,
+    8584,
+    8585,
+    8586
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleGruff",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Gruff",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6630,
+     "farewell": 5959,
+     "pissed": 5960
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleGruff"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "8579": {
+   "id": 8579,
+   "name": "Yeh'kinya",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    41,
+    41
+   ],
+   "display_id": 7902,
+   "quests_started": [
+    3520,
+    3527,
+    3528,
+    4787
+   ],
+   "quests_ended": [
+    3520,
+    3527,
+    3528,
+    4787,
+    8181
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TrollMaleShaman",
+    "race": "Troll",
+    "sex": "male",
+    "personality": "Shaman",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5946,
+     "farewell": 5947,
+     "pissed": 5948
+    },
+    "combat_set": "TrollMale"
+   },
+   "model": {
+    "race": "Troll",
+    "race_id": 8,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "TrollMaleShaman"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "8736": {
+   "id": 8736,
+   "name": "Buzzek Bracketswing",
+   "title": "Ingénieur - Maître",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    53,
+    53
+   ],
+   "display_id": 8010,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleZany",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Zany",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5964,
+     "farewell": 5965,
+     "pissed": 5966
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleZany"
+   }
+  },
+  "10460": {
+   "id": 10460,
+   "name": "Prospecteur Ironboot",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    48,
+    48
+   ],
+   "display_id": 10195,
+   "quests_started": [
+    4788,
+    5065,
+    8181,
+    8182
+   ],
+   "quests_ended": [
+    4788,
+    5065
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleGrim",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Grim",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5907,
+     "farewell": 5908,
+     "pissed": 5909
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleGrim"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11056": {
+   "id": 11056,
+   "name": "Alchimiste Arbington",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Stormwind",
+   "zones": [
+    "Western Plaguelands"
+   ],
+   "coords": {},
+   "levels": [
+    58,
+    58
+   ],
+   "display_id": 10551,
+   "quests_started": [
+    5505,
+    5537,
+    5538,
+    5803
+   ],
+   "quests_ended": [
+    5505,
+    5533,
+    5537,
+    5801,
+    5803
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleStandard",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5974,
+     "farewell": 5975,
+     "pissed": 5976
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11057": {
+   "id": 11057,
+   "name": "Apothicaire Dithers",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Undercity",
+   "zones": [
+    "Tirisfal Glades"
+   ],
+   "coords": {},
+   "levels": [
+    58,
+    58
+   ],
+   "display_id": 10552,
+   "quests_started": [
+    964,
+    5514,
+    5804
+   ],
+   "quests_ended": [
+    838,
+    964,
+    5802,
+    5804
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "11758": {
+   "id": 11758,
+   "name": "Andi Lynn",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    48,
+    48
+   ],
+   "display_id": 11691,
+   "quests_started": [
+    5863
+   ],
+   "quests_ended": [
+    5863
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GnomeFemaleHappy",
+    "race": "Gnome",
+    "sex": "female",
+    "personality": "Happy",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5934,
+     "farewell": 5935,
+     "pissed": 5936
+    },
+    "combat_set": "GnomeFemale"
+   },
+   "model": {
+    "race": "Gnome",
+    "race_id": 7,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "GnomeFemaleHappy"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11811": {
+   "id": 11811,
+   "name": "Narain Soothfancy",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    45,
+    45
+   ],
+   "display_id": 11757,
+   "quests_started": [
+    8576,
+    8577,
+    8584,
+    8597,
+    8606,
+    8620,
+    8728,
+    8729
+   ],
+   "quests_ended": [
+    8575,
+    8576,
+    8578,
+    8587,
+    8598,
+    8599,
+    8606,
+    8620,
+    8728
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "unique",
+    "set": "GnomeMaleZany",
+    "race": "Gnome",
+    "sex": "male",
+    "personality": null,
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5925,
+     "farewell": 5926,
+     "pissed": 5927
+    },
+    "combat_set": "GnomeMale"
+   },
+   "model": {
+    "race": "Gnome",
+    "race_id": 7,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GnomeMaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14743": {
+   "id": 14743,
+   "name": "Jhordy Lapforge",
+   "title": "Ingénieur",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 14774,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GnomeMaleYoung",
+    "race": "Gnome",
+    "sex": "male",
+    "personality": "Young",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5928,
+     "farewell": 5929,
+     "pissed": 5930
+    },
+    "combat_set": "GnomeMale"
+   },
+   "model": {
+    "race": "Gnome",
+    "race_id": 7,
+    "sex": "male"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GnomeMaleYoung"
+   }
+  },
+  "14875": {
+   "id": 14875,
+   "name": "Molthor",
+   "title": "Main de Rastakhan",
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Zandalar Tribe",
+   "zones": [
+    "Stranglethorn Vale"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 14993,
+   "quests_started": [],
+   "quests_ended": [
+    8182,
+    8183
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TrollMaleShaman",
+    "race": "Troll",
+    "sex": "male",
+    "personality": "Shaman",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5946,
+     "farewell": 5947,
+     "pissed": 5948
+    },
+    "combat_set": "TrollMale"
+   },
+   "model": {
+    "race": "Troll",
+    "race_id": 8,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "TrollMaleShaman"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "15165": {
+   "id": 15165,
+   "name": "Modiste arrogante",
+   "title": "Créatrice de mode",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    51,
+    51
+   ],
+   "display_id": 15300,
+   "quests_started": [
+    8365
+   ],
+   "quests_ended": [
+    8365
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinFemaleZany",
+    "race": "Goblin",
+    "sex": "female",
+    "personality": "Zany",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6629,
+     "farewell": 5969,
+     "pissed": 5970
+    },
+    "combat_set": "GnomeMale"
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "GoblinFemaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "15192": {
+   "id": 15192,
+   "name": "Anachronos",
+   "title": null,
+   "type": null,
+   "classification": "Boss",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Brood of Nozdormu",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    61,
+    61
+   ],
+   "display_id": 2719,
+   "quests_started": [
+    8305,
+    8555,
+    8742,
+    8747,
+    8748,
+    8749,
+    8750,
+    8751,
+    8752,
+    8753,
+    8754,
+    8755,
+    8756,
+    8757,
+    8758,
+    8759,
+    8760,
+    8761,
+    8764,
+    8765,
+    8766,
+    9251,
+    9257,
+    9269,
+    9270,
+    9271
+   ],
+   "quests_ended": [
+    8303,
+    8519,
+    8555,
+    8729,
+    8730,
+    8741,
+    8742,
+    8747,
+    8748,
+    8749,
+    8750,
+    8751,
+    8752,
+    8753,
+    8754,
+    8755,
+    8756,
+    8757,
+    8758,
+    8759,
+    8760,
+    8761,
+    8764,
+    8765,
+    8766,
+    8802,
+    9250,
+    9251,
+    9257,
+    9269,
+    9270,
+    9271
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "15526": {
+   "id": 15526,
+   "name": "Meridith la Vierge de mer",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 11268,
+   "quests_started": [
+    8599
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": {
+    "value": "female",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "16012": {
+   "id": 16012,
+   "name": "Mokvar",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Orgrimmar"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 15966,
+   "quests_started": [
+    8913,
+    8914,
+    8915,
+    8916,
+    8917,
+    8918,
+    8919,
+    8920,
+    8923,
+    8927,
+    8930,
+    8938,
+    8939,
+    8940,
+    8941,
+    8942,
+    8943,
+    8944,
+    9007,
+    9008,
+    9009,
+    9010,
+    9011,
+    9012,
+    9013,
+    9014,
+    9032
+   ],
+   "quests_ended": [
+    8913,
+    8914,
+    8915,
+    8916,
+    8917,
+    8918,
+    8919,
+    8920,
+    8927,
+    8938,
+    8939,
+    8940,
+    8941,
+    8942,
+    8943,
+    8944,
+    8957,
+    8978,
+    8998,
+    9007,
+    9008,
+    9009,
+    9010,
+    9011,
+    9012,
+    9013,
+    9014,
+    9016,
+    9017,
+    9018,
+    9019,
+    9020,
+    9021,
+    9022
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "16013": {
+   "id": 16013,
+   "name": "Deliana",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Ironforge",
+   "zones": [
+    "Ironforge"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 15965,
+   "quests_started": [
+    8905,
+    8906,
+    8907,
+    8908,
+    8909,
+    8910,
+    8911,
+    8912,
+    8922,
+    8926,
+    8929,
+    8931,
+    8932,
+    8933,
+    8934,
+    8935,
+    8936,
+    8937,
+    8960,
+    8999,
+    9000,
+    9001,
+    9002,
+    9003,
+    9004,
+    9005,
+    9006
+   ],
+   "quests_ended": [
+    8905,
+    8906,
+    8907,
+    8908,
+    8909,
+    8910,
+    8911,
+    8912,
+    8926,
+    8931,
+    8932,
+    8933,
+    8934,
+    8935,
+    8936,
+    8937,
+    8951,
+    8952,
+    8953,
+    8954,
+    8955,
+    8956,
+    8958,
+    8959,
+    8977,
+    8997,
+    8999,
+    9000,
+    9001,
+    9002,
+    9003,
+    9004,
+    9005,
+    9006
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanFemaleStandard",
+    "race": "Human",
+    "sex": "female",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5980,
+     "farewell": 5981,
+     "pissed": 5982
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "HumanFemaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "16014": {
+   "id": 16014,
+   "name": "Mux Manascrambler",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 15998,
+   "quests_started": [
+    8921,
+    8924,
+    8925,
+    8928,
+    8977,
+    8978
+   ],
+   "quests_ended": [
+    8921,
+    8922,
+    8923,
+    8924,
+    8925,
+    8928
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleZany",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Zany",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5964,
+     "farewell": 5965,
+     "pissed": 5966
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "16417": {
+   "id": 16417,
+   "name": "Rumsen Fizzlebrack",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    44,
+    44
+   ],
+   "display_id": 15324,
+   "quests_started": [
+    9268
+   ],
+   "quests_ended": [
+    9268
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  }
+ }
+}

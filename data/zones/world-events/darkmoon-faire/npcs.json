@@ -1,0 +1,511 @@
+{
+ "schema": 1,
+ "zone": "world-events/darkmoon-faire",
+ "zone_id": -364,
+ "zone_name": "Foire de Sombrelune",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 7,
+  "with_display_id": 7,
+  "with_title": 4,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 7
+  }
+ },
+ "npcs": {
+  "14828": {
+   "id": 14828,
+   "name": "Gelvas Grimegate",
+   "title": "Echange des bons de la foire de Sombrelune",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Darkmoon Faire",
+   "zones": [
+    "Mulgore"
+   ],
+   "coords": {},
+   "levels": [
+    25,
+    25
+   ],
+   "display_id": 14854,
+   "quests_started": [
+    7930,
+    7931,
+    7932,
+    7933,
+    7934,
+    7935,
+    7936,
+    7940,
+    7981
+   ],
+   "quests_ended": [
+    7905,
+    7926,
+    7930,
+    7931,
+    7932,
+    7933,
+    7934,
+    7935,
+    7936,
+    7940,
+    7981
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleGruff",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Gruff",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5958,
+     "farewell": 5959,
+     "pissed": 5960
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleGruff"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14829": {
+   "id": 14829,
+   "name": "Yebb Neblegear",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Darkmoon Faire",
+   "zones": [
+    "Elwynn Forest"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 14856,
+   "quests_started": [
+    7899,
+    7900,
+    7901,
+    7902,
+    7903,
+    7943,
+    8222,
+    8223
+   ],
+   "quests_ended": [
+    7899,
+    7900,
+    7901,
+    7902,
+    7903,
+    7943,
+    8222,
+    8223
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GnomeMaleStandard",
+    "race": "Gnome",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5922,
+     "farewell": 5923,
+     "pissed": 5924
+    },
+    "combat_set": "GnomeMale"
+   },
+   "model": {
+    "race": "Gnome",
+    "race_id": 7,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GnomeMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14832": {
+   "id": 14832,
+   "name": "Kerri Hicks",
+   "title": "La femme la plus forte du monde !",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Darkmoon Faire",
+   "zones": [
+    "Mulgore"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 14876,
+   "quests_started": [
+    7889,
+    7890,
+    7891,
+    7892,
+    7893,
+    7939
+   ],
+   "quests_ended": [
+    7889,
+    7890,
+    7891,
+    7892,
+    7893,
+    7939
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanFemaleWarrior",
+    "race": "Human",
+    "sex": "female",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5986,
+     "farewell": 5987,
+     "pissed": 5988
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "HumanFemaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14833": {
+   "id": 14833,
+   "name": "Chronos",
+   "title": "Celui qui n'oublie jamais !",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Darkmoon Faire",
+   "zones": [
+    "Elwynn Forest"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 14875,
+   "quests_started": [
+    7881,
+    7882,
+    7883,
+    7884,
+    7885,
+    7941
+   ],
+   "quests_ended": [
+    7881,
+    7882,
+    7883,
+    7884,
+    7885,
+    7941
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "UndeadMaleStandard",
+    "race": "Undead",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6036,
+     "farewell": 6037,
+     "pissed": 6038
+    },
+    "combat_set": "UndeadMale"
+   },
+   "model": {
+    "race": "Undead",
+    "race_id": 5,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "UndeadMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14841": {
+   "id": 14841,
+   "name": "Rinling",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Darkmoon Faire",
+   "zones": [
+    "Mulgore"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 14877,
+   "quests_started": [
+    7894,
+    7895,
+    7896,
+    7897,
+    7898,
+    7942
+   ],
+   "quests_ended": [
+    7894,
+    7895,
+    7896,
+    7897,
+    7898,
+    7942
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TrollMaleDark",
+    "race": "Troll",
+    "sex": "male",
+    "personality": "Dark",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5943,
+     "farewell": 5944,
+     "pissed": 5945
+    },
+    "combat_set": "TrollMale"
+   },
+   "model": {
+    "race": "Troll",
+    "race_id": 8,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "TrollMaleDark"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14847": {
+   "id": 14847,
+   "name": "Professeur Thaddeus Paleo",
+   "title": "Foire de Sombrelune, Cartes & marchandises exotiques",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Darkmoon Faire",
+   "zones": [
+    "Mulgore"
+   ],
+   "coords": {},
+   "levels": [
+    35,
+    35
+   ],
+   "display_id": 14883,
+   "quests_started": [],
+   "quests_ended": [
+    7907,
+    7927,
+    7928,
+    7929
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleOfficial",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6636,
+     "farewell": 5972,
+     "pissed": 5973
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14871": {
+   "id": 14871,
+   "name": "Morja",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Darkmoon Faire",
+   "zones": [
+    "Elwynn Forest"
+   ],
+   "coords": {},
+   "levels": [
+    12,
+    12
+   ],
+   "display_id": 14943,
+   "quests_started": [
+    7946
+   ],
+   "quests_ended": [
+    7946
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "OrcFemaleShaman",
+    "race": "Orc",
+    "sex": "female",
+    "personality": "Shaman",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6030,
+     "farewell": 6031,
+     "pissed": 6032
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Orc",
+    "race_id": 2,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "OrcFemaleShaman"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  }
+ }
+}

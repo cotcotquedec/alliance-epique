@@ -1,0 +1,3052 @@
+{
+ "schema": 1,
+ "zone": "kalimdor/dustwallow-marsh",
+ "zone_id": 15,
+ "zone_name": "Marécage d'Âprefange",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 55,
+  "complete": 53,
+  "incomplete": 2,
+  "unavailable": 0,
+  "missing_description": 2,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 1
+ },
+ "quests": {
+  "1133": {
+   "id": 1133,
+   "name": "Le voyage vers Astranaar",
+   "objectives": "Parler à Shindrell Switfire à Astranaar.",
+   "description": "Si vous débarquez tout juste du bateau qui vient de Menethil, la première chose à faire est d'aller à Astranaar. Je suis sûr <qu'un/qu'une> fidèle membre de l'Alliance comme vous peut faire beaucoup de bien là-bas. Allez offrir vos services à Shindrell Switfire.\n\nInutile de mentionner le nom de la personne qui vous envoie, car Shindrell ne me connaît pas...",
+   "progress": null,
+   "completion": "Vous êtes ici pour offrir vos services à l'Alliance, <nom> ? Nous les acceptons avec gratitude, car même s'il lui reste sa beauté la forêt d'Ashenvale n'est plus aussi paisible qu'autrefois.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4456,
+     "name": "Fiora Longears"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3845,
+     "name": "Shindrell Swiftfire"
+    }
+   ],
+   "zone_id": 15,
+   "level": 20,
+   "reqlevel": 18,
+   "side": "alliance",
+   "xp": 390,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "qu'un/qu'une"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1135": {
+   "id": 1135,
+   "name": "Le venin de Haut-perchoir",
+   "objectives": "Apporter 10 Glandes à venin de Haut-perchoir à Fiora Longears à Theramore.",
+   "description": "Comme vous le savez, les wyvernes sont souvent domestiquées par les orcs, qui les utilisent comme montures. Ce que l'on sait moins, c'est que, dans certains cercles, le venin de wyverne est plus recherché que la bête elle-même. Si vous n'avez pas peur de chasser la wyverne, j'ai un travail pour vous.\n\nIl existe dans la région des Mille pointes, à l'ouest, un lieu nommé Haut-perchoir. Les wyvernes qui y nichent produisent un puissant venin. Très puissant et largement monnayable.",
+   "progress": "Avez-vous trouvé Haut-perchoir, <nom> ? Rencontré quelques wyvernes ?",
+   "completion": "Ah ! Voilà des poches qui débordent presque de venin, <nom> ! En général, il n'y a que sur les jeunes wyvernes ou les femelles fertiles que l'on peut en trouver. Il a dû y avoir un véritable massacre, là-haut à Haut-perchoir !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4456,
+     "name": "Fiora Longears"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4456,
+     "name": "Fiora Longears"
+    }
+   ],
+   "zone_id": 15,
+   "level": 30,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 3650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1166": {
+   "id": 1166,
+   "name": "Les soucis du Seigneur Mok'Morokk",
+   "objectives": "Le seigneur Mok'Morokk de Mur-de-Fougères veut que vous retrouviez son grog, son tabac à priser et son coffre dans le marécage d'Âprefange.",
+   "description": "Inclinez-vous devant le seigneur Mok'Morokk !\n\nRexxar faire de moi le puissant chef du clan Cognepierre !\n\nMoi bon chef. Moi garder clan en sûreté.\n\nGrands dragons venir et faire le feu avec anciennes maisons. Mais moi ogre malin. Trouver nouveau foyer pour clan ici.\n\nQuitté ancienne maison trop vite. Oublié truc. Minuscule <race>, aller trouver mes trucs. Aller sud et trouver mon grog délicieux, mon tabac à priser et mon coffre. Moi apprécier vous après ça. Chercher dans Antre des flammes et dans ruines Cognepierres... Mes trucs là-bas, moi sûr !",
+   "progress": "Moi soif de grog. Moi envie de priser aussi. Où est coffre de moi ? Trouver pour seigneur Mok'Morokk.\n\nAller et trouver sud dans vieille maison. Moi trop de travail chef des ogres pour aller.",
+   "completion": "Vous parfait <race>. Moi languir mes choses beaucoup. Moi aimer vous maintenant.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4500,
+     "name": "Seigneur Mok'Morokk"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4500,
+     "name": "Seigneur Mok'Morokk"
+    }
+   ],
+   "zone_id": 15,
+   "level": 43,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 4450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "race"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1168": {
+   "id": 1168,
+   "name": "L'armée des dragons noirs",
+   "objectives": "Tharg de Mur-de-Fougères veut que vous tuiez 15 Eclaireurs Crins-de-feu, 10 Queues-cendrées Crins-de-feu et 5 Gardes Crins-de-feu.",
+   "description": "Mok'Morokk fait seigneur par Rexxar. Lui faire attention plus pouvoir que ogres.\n\nDragons noirs tuer beaucoup ogres. Tuer femme de Tharg. Mok'Morokk dire s'enfuir. Venir ici.\n\nOgres devoir combattre. Ogres pas bons pour fuite. Mok'Morokk seulement intéresse Mok'Morokk.\n\nMoi appeler maison \"ruines Cognepierres\". Moi mieux au sud. Ici pas maison.\n\nAider ogres à combattre armée des dragons noirs. Moi vouloir vengeance. Moi vouloir rentrer maison.",
+   "progress": "Mok'Morokk dit à tous les ogres de rester et de garder cet endroit en sécurité. Je pense que les ogres doivent tuer l'armée du dragon noir et récupérer leur ancienne maison.\n\nAidez les ogres à retrouver leur maison. Aide les ogres à se venger.",
+   "completion": "Vous tuer beaucoup armée dragons noirs. Vous brave <race>.\n\nVous rendre Tharg heureux.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4502,
+     "name": "Tharg"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4502,
+     "name": "Tharg"
+    }
+   ],
+   "zone_id": 15,
+   "level": 43,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 4450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1169": {
+   "id": 1169,
+   "name": "Identification de la portée",
+   "objectives": "Draz'Zilb de Mur-de-Fougères souhaite que vous lui apportiez 15 Langues d'incendiaire et 15 Cœurs d'incendiaire.",
+   "description": "Voyez ce vieux fou de Mok'Morokk, qui se complaît dans son pouvoir et Tharg, qui combat les démons du désespoir et de la vengeance tout en espérant prendre la direction du clan. On dirait que je suis le seul qui cherche à connaître la source de l'agression qui a détruit notre ancien foyer.\n\nPourquoi ce regard ahuri, <nom> ? Vous vous attendiez à m'entendre parler comme un forban mal dégrossi parce que je suis un ogre ?\n\nBon ! Au travail, maintenant ! Apportez-moi des cœurs et des langues de dragonnets incendiaires et de jeunes incendiaires. Je pourrai alors chercher la source du mal.",
+   "progress": "Avec les cœurs et les langues des rejetons brûlés de l'armée des dragons noirs, je peux étudier la bête immonde qui a jeté sa progéniture contre nos maisons. Peut-être qu’en les connaissant mieux pourrons-nous trouver un moyen de les détruire une bonne fois pour toutes et rebâtir le village des Cognepierres.\n\nBien sûr, convaincre Mok'Morokk de traîner sa grosse masse léthargique hors de ce trou à rats sera en soi une quête épique. . .",
+   "completion": "Cette collecte de cœurs et de langues constituait une aventure périlleuse, sans aucun doute. Il me faudra plonger dans les profondeurs des arcanes pour comprendre l'origine de la menace noire qui a fondu sur notre ancien foyer.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4501,
+     "name": "Draz'Zilb"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4501,
+     "name": "Draz'Zilb"
+    }
+   ],
+   "zone_id": 15,
+   "level": 43,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 5350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1170": {
+   "id": 1170,
+   "name": "La portée d'Onyxia",
+   "objectives": "Parler au seigneur Mok'Morokk au village de Mur-de-Fougères.",
+   "description": "Le village des Cognepierres a été envahi par la portée d'Onyxia. Mais pourquoi la fille d'Aile de mort, le seigneur du vol noir, est-elle descendue sur nos champs ?\n\nC'est très troublant. Onyxia a sûrement un autre but que de faire le siège d'un petit village ogre.\n\nRendez immédiatement compte à Mok'Morokk ! Il faut agir !",
+   "progress": null,
+   "completion": "Pourquoi parler dragons à moi ? Moi pas aimer dragons. Moi aimer ici. Pas dragons ici.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4501,
+     "name": "Draz'Zilb"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4500,
+     "name": "Seigneur Mok'Morokk"
+    }
+   ],
+   "zone_id": 15,
+   "level": 43,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 360,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1171": {
+   "id": 1171,
+   "name": "La portée d'Onyxia",
+   "objectives": "Parler à Draz'Zilb à Mur-de-Fougères.",
+   "description": "Vous me laisser maintenant. Aller dire à Draz'Zilb nous rester ici. Pas de dragon noir ici.",
+   "progress": null,
+   "completion": "Lâche et paresseux !\n\nMok'Morokk montrait de la bravoure lorsque Rexxar était notre chef. Mais après le départ de Rexxar, il a été tenté par l’illusion du pouvoir. Plutôt que de conduire son peuple, il a exigé. Il ne sert pas, il veut être servi.\n\nIl faut faire quelque chose.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4500,
+     "name": "Seigneur Mok'Morokk"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4501,
+     "name": "Draz'Zilb"
+    }
+   ],
+   "zone_id": 15,
+   "level": 43,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 360,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1172": {
+   "id": 1172,
+   "name": "La portée d'Onyxia",
+   "objectives": "Draz’Zilb, de Mur-de-Fougères, veut que vous détruisiez 5 des Œufs d'Onyxia.",
+   "description": "L'engeance d'Onyxia s'est répandue dans tout le Cloaque aux dragons. Il est impératif d'empêcher les dragonnets d'éclore.\n\nHâtez-vous de rejoindre la tourbière du Ver, au sud du marécage d'Âprefange. Il est sûr qu'elle a laissé ses œufs là-bas. Trouvez-les tous et détruisez-les.\n\nNous ne pourrons jamais rebâtir le village des Cognepierres si les environs servent de nid aux dragons !\n\nQuant à Mok'Morokk, j'ai d'autres plans pour lui…",
+   "progress": "Dépêchez-vous de rejoindre le Cloaque aux dragons, <nom>. Avec les œufs d'Onyxia répartis tout autour de la tourbière du Ver, nous serons vite débordés par le nombre des dragons si nous ne faisons rien.\n\nDétruisez ses œufs ! Ne laissez pas la malédiction des dragons noirs se répandre sur notre terre natale !",
+   "completion": "Magnifique ! Il faudra du temps avant qu'Onyxia ne ponde d'autres œufs.\n\nAu nom de mon peuple, merci, <nom>.\n\nJ'ai déjà beaucoup exigé de vous, mais peut-être pouvez-vous rendre un dernier service au clan Cognepierre ?\n\nMok'Morokk n'est pas digne de nous conduire. Tharg serait un excellent chef, mais il est diminué par ses blessures et par son âge. Débarrassez cet endroit de Mok'Morokk par la force. Alors seulement nous pourrons choisir un nouveau chef pour nous ramener jusqu'à notre terre natale dans le sud.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4501,
+     "name": "Draz'Zilb"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4501,
+     "name": "Draz'Zilb"
+    }
+   ],
+   "zone_id": 15,
+   "level": 45,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 4850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1173": {
+   "id": 1173,
+   "name": "Défier le Seigneur Mok'Morokk",
+   "objectives": "Défaire Mok'Morokk en combat singulier et rapporter la nouvelle à Draz’Zilb au village de Mur-de-Fougères.",
+   "description": "Toi oser défier le Seigneur Mok'Morokk ?\n\nMorbleu !\n\nMoi écraser <race> comme un insecte !\n\nToi me dire quand vouloir bonne raclée.",
+   "progress": "Je pensais que vous alliez tenter de chasser Mok'Morokk du village. Au lieu de cela, tu es venu me voir pour discuter ?",
+   "completion": "Ce couard de gros plein de soupe a fui comme un lapin. Vous avez rendu là un grand service à tout le monde, <nom>.\n\nMaintenant mon clan va pouvoir choisir un nouveau chef qui nous aidera à reconquérir notre terre natale une bonne fois pour toutes.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4500,
+     "name": "Seigneur Mok'Morokk"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4501,
+     "name": "Draz'Zilb"
+    }
+   ],
+   "zone_id": 15,
+   "level": 45,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 4850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "race"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1177": {
+   "id": 1177,
+   "name": "Faim !",
+   "objectives": "Pilebou Piessale, dans le nord d'Âprefange, veut 12 Têtes d'Aileron boueux.",
+   "description": "Pil'bou grand ogre.\n\nMoi faim.\n\nAller taper poisson. Apporter manger pour Pil'bou.\n\nVous nourrir Pil'bou sinon Pil'bou manger vous.",
+   "progress": "Donner nourriture ou devenir nourriture !",
+   "completion": "Moi aimer têtes de poisson !\n\nMoi pas manger vous tout de suite.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4503,
+     "name": "Pilebou Piessale"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4503,
+     "name": "Pilebou Piessale"
+    }
+   ],
+   "zone_id": 15,
+   "level": 36,
+   "reqlevel": 32,
+   "side": "both",
+   "xp": 2800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1201": {
+   "id": 1201,
+   "name": "Les espions de Theramore",
+   "objectives": "Tuer 9 Infiltrateurs de Theramore, puis rendre compte à Nazeer Bloodpike à Mur-de-Fougères.",
+   "description": "La trêve entre la Horde et l'Alliance n'est pas toujours respectée. Des escarmouches et des actions secrètes sont menées par chacun des deux camps, et il est de notre devoir de nous assurer que la Horde garde l’avantage !\n\nNous avons maintenant l'occasion de démasquer les infiltrateurs de l'Alliance.\n\nIls sont en position à l'est du village de Mur-de-Fougères. Ils nous espionnent et rapportent nos mouvements à Theramore, ce que nous ne pouvons permettre.\n\nTraquez-les et tuez-les. Envoyons un message clair à leurs chefs : nous ne supporterons pas leur présence sur notre sol !",
+   "progress": "Avez-vous trouvé les infiltrés, <nom> ?",
+   "completion": "Bon travail ! Leurs infiltrateurs sont habiles, mais pas assez pour échapper aux yeux attentifs de la Horde !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4791,
+     "name": "Nazeer Bloodpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4791,
+     "name": "Nazeer Bloodpike"
+    }
+   ],
+   "zone_id": 15,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 2750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1202": {
+   "id": 1202,
+   "name": "Les docks de Theramore",
+   "objectives": "Apporter les Documents du capitaine à Nazeer Bloodpike au village de Mur-de-Fougères.",
+   "description": "<nom>, deux de nos espions ont été envoyés pour dérober des documents sur un bateau dans les docks de Theramore. Ils ont trouvé les papiers, mais ont été découverts et ils ont dû jeter les documents à la mer.\n\nL'un des deux a réussi à s'échapper par la suite, mais il n’a pas pu récupérer le paquet. Il a rendu compte de son échec et maintenant je vous confie cette mission.\n\nLes documents sont dans un coffret, quelque part dans les eaux des docks de Theramore. Trouvez ces documents, <nom>, et apportez-les-moi.",
+   "progress": "Avez-vous trouvé les documents, <nom> ? Ils contiennent des informations vitales pour la stabilité de l'Alliance et, par là même, pour la sécurité de la Horde.",
+   "completion": "Je vous félicite, <nom>. Ce n'était pas une tâche facile. Mais les documents que vous avez trouvés seront très appréciés de vos supérieurs.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4791,
+     "name": "Nazeer Bloodpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4791,
+     "name": "Nazeer Bloodpike"
+    }
+   ],
+   "zone_id": 15,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 2750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1203": {
+   "id": 1203,
+   "name": "Jarl a besoin d'une épée",
+   "objectives": "Apporter une Epée en acier lunaire à Jarl, dans le marécage d'Âprefange.",
+   "description": "Je dois découper. Je ne peux pas vous dire quel type de découpage je vais faire, mais j'ai besoin d'une lame… Mais pas n'importe quelle lame !\n\nIl y en a qui l'appellent Epée d'acier lunaire. Moi je l'appelle Epée à double tranchant.\n\nAllez-vous m'aider ? Peut-être que vous la trouverez en ville, peut-être que vous pourrez la faire faire chez un forgeron.\n\nMais ne traînez pas. Ce que je dois découper n'attendra pas des années.",
+   "progress": "Vous avez mon épée ?",
+   "completion": "C'est une bonne épée. Elle balance bien. Merci ! Merci, merci, merci ! Maintenant il faut que je l'essaie…\n\nPlus tard, je l'essaierai plus tard.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4792,
+     "name": "Jarl \"Oeil-des-marais\""
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4792,
+     "name": "Jarl \"Oeil-des-marais\""
+    }
+   ],
+   "zone_id": 15,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 3450,
+   "money": 3500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1204": {
+   "id": 1204,
+   "name": "Soupe de Rochefange aux insectes",
+   "objectives": "Apporter 8 Langues fourchues de Rochefange à Morgan Stern, à Theramore.",
+   "description": "Je prépare un plat que je nomme \"Soupe et insectes rochefange\". Il me manque encore les ingrédients principaux… Eh bien, je pense que je ne ferais pas long feu à patauger tout seul dans le marécage d'Âprefange !\n\nAussi, <nom>, cela vous dérangerait-il de faire une petite partie de chasse pour moi ? D'abord, il me faut des langues de tortues Rochefange. Vous pouvez en trouver le long de la côte, près de la baie.\n\nMais il ne me faut pas n'importe quelles langues ! J'entends par là que certaines tortues ont la langue fourchue...\n\nIl paraît que ces langues fourchues ont un goût particulier, et je veux cet ingrédient-là dans ma recette...",
+   "progress": "Avez-vous trouvé les langues fourchues ?",
+   "completion": "C'est parfait ! Merci, <nom> !\n\nMaintenant je vais essayer différentes techniques de cuisson, afin de trouver la meilleure façon de faire ressortir la saveur de ces langues.\n\nEn fin de compte je vais avoir un plat digne d'être servi au « Solitaire bleu » de Stormwind !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4794,
+     "name": "Morgan Stern"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4794,
+     "name": "Morgan Stern"
+    }
+   ],
+   "zone_id": 15,
+   "level": 38,
+   "reqlevel": 33,
+   "side": "alliance",
+   "xp": 2850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1205": {
+   "id": 1205,
+   "name": "Mortebourbe",
+   "objectives": "Apporter la Dent de Mortebourbe à Melor à Thunder Bluff.",
+   "description": "Mortebourbe est un ancien crocilisque du marécage d'Âprefange. Son heure est arrivée.\n\nSes vieux os grincent quand il extrait son énorme corps du marais, et pourtant il évolue avec la force et la vitesse de ses jeunes années. Son corps fatigué torture le grand esprit qui l'habite, un esprit dont la flamme ne faiblit pas.\n\nPourtant, il vit maintenant marqué par une douleur cruelle et permanente. Vous devez mettre un terme à la vie de cette noble créature, <nom>. Vous devez conduire Mortebourbe à la paix.",
+   "progress": "Vous avez la dent de Mortebourbe, <nom> ? Vous avez mis un terme aux souffrances de la pauvre créature ?",
+   "completion": "Très bien, <nom>.\n\nJe suis sûr que cette chasse n'a pas été facile, mais je suis heureux de savoir que les souffrances de cette bête ont enfin cessé.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3441,
+     "name": "Melor Stonehoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3441,
+     "name": "Melor Stonehoof"
+    }
+   ],
+   "zone_id": 15,
+   "level": 45,
+   "reqlevel": 35,
+   "side": "horde",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1206": {
+   "id": 1206,
+   "name": "Jarl a besoin d’yeux",
+   "objectives": "Apporter 40 Yeux de Sombrebrume à Jarl \"Œil-des-marais\", au Manoir des Flammeroles.",
+   "description": "Le jus d’œil est bon à boire. Malheureusement la plupart des monstres n'ont que deux yeux.\n\nMais les araignées, elles, ont beaucoup d'yeux. Plus que beaucoup. Et le jus d'oeil de Sombrebrume est fameux. Doux et salé ! Des yeux d'araignée entiers... J'ai l'impression de les savourer.\n\nLes araignées Sombrebrume se trouvent à l'ouest d'ici, dans la caverne de Sombrebrume. A votre avis, c'est cette grotte qui a donné son nom aux araignées, ou l'inverse ?",
+   "progress": "Et ces yeux ?",
+   "completion": "Vous avez les yeux ! Vous avez les yeux ! Des yeux d'araignée savoureux, savoureux !\n\nCes yeux ! Quand vous les regardez, ils vous rendent votre regard. Encore un petit dernier. Ils vous tiennent compagnie… dans le marais.\n\nSalut, les petits yeux d'araignée ! Salut ! Vous avez le goût du poulet. Un poulet doux et salé.\n\nMmmmm. . . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4792,
+     "name": "Jarl \"Oeil-des-marais\""
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4792,
+     "name": "Jarl \"Oeil-des-marais\""
+    }
+   ],
+   "zone_id": 15,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 2750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1218": {
+   "id": 1218,
+   "name": "Epices apaisantes",
+   "objectives": "Apporter 3 Epices apaisantes à Jarl \"Œil-des-marais\", dans le marécage d'Âprefange.",
+   "description": "J'aime la cuisine. La bonne cuisine du marais. Les cuisses de grenouille verte grillées par exemple.\n\nEt pour cuisiner j'ai besoin d'épices. Des épices apaisantes. Après je ferai un ragoût qui mijotera et qui mijotera et je le mangerai. Mais je vous en donnerai un peu aussi.\n\nVous aimez le ragoût ?",
+   "progress": "Des épices. Nous avons tous besoin d'épicer notre vie, pas vrai ?",
+   "completion": "Ah ! Ça c'est de l'épice ! Maintenant un bon ragoût du marais !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4792,
+     "name": "Jarl \"Oeil-des-marais\""
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4792,
+     "name": "Jarl \"Oeil-des-marais\""
+    }
+   ],
+   "zone_id": 15,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1219": {
+   "id": 1219,
+   "name": "Le rapport orc",
+   "objectives": "Communiquer le Rapport de l'Espion à un Lieutenant de Theramore.",
+   "description": "En remuant la poussière, on trouve la main coupée d'un orc. Une main qui agrippe encore un tube en os gravé. Le tube contient un parchemin taché.\n\nLe parchemin est écrit en orc... Et ça semble important.",
+   "progress": "Avez-vous un message ?",
+   "completion": "Hum. . . Je ne lis pas très bien l'orc, mais cela ressemble à un rapport. . . Ecrit par un espion orc !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 20985,
+     "name": "Loose Dirt"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4947,
+     "name": "Lieutenant de Theramore"
+    }
+   ],
+   "zone_id": 15,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 690,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1220": {
+   "id": 1220,
+   "name": "Le capitaine Vimaire",
+   "objectives": "Apporter le Rapport orc au capitaine Garran Vimaire.",
+   "description": "Le capitaine Vimaire désire voir le rapport orc que vous avez trouvé, <nom>. C’est lui qui connaît le mieux la langue des orcs. Et il doit savoir qu'il y a des espions de la Horde près de Theramore !\n\nLe capitaine est dans la Caserne, au nord-est de Theramore.",
+   "progress": "Vous avez quelque chose pour moi ?",
+   "completion": "Un rapport d'un espion orc ! Comment avez-vous trouvé ça ? Peu importe, voyons le contenu…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4947,
+     "name": "Lieutenant de Theramore"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4944,
+     "name": "Capitaine Garran Vimaire"
+    }
+   ],
+   "zone_id": 15,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1222": {
+   "id": 1222,
+   "name": "Sauvetage du Puant",
+   "objectives": "Escorter Ignatz \"Puant\" puis discuter avec Morgan Stern à Theramore.",
+   "description": "Génial, enfin quelque chose qui ne veut pas me dévorer !\n\nJ'ai besoin d'aide pour occuper ces monstres autour de moi et vous m'avez l'air de pouvoir le faire.\n\nLe chef cuisinier Morgan Stern travaille sur une nouvelle recette et il m'a envoyé ici pour cueillir des feuilles de haricots des marais. Je pense qu'il les trouve savoureux.\n\nQuoi qu'il en soit, pendant que je cherchais un plant de haricot, je me suis retrouvé cerné ! Pouvez-vous m'aider à sortir de là et surveiller les alentours pendant que je cherche des plants de haricots ?",
+   "progress": "Avez-vous vu M. Ignatz ? Je l'ai envoyé dans le marais il y a quelque temps et il n'est pas revenu !",
+   "completion": "M. Ignatz était ici il y a un instant avec les feuilles de haricots des marais, et il m'a raconté comment vous l'avez sorti d'une situation périlleuse.\n\nMerci beaucoup, <nom>. Je vais demander à mon oncle de vous préparer une fête de remerciement lorsque vous repasserez au « Solitaire bleu » à Stormwind.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4880,
+     "name": "Ignatz \"Puant\""
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4794,
+     "name": "Morgan Stern"
+    }
+   ],
+   "zone_id": 15,
+   "level": 37,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2850,
+   "money": 4000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1238": {
+   "id": 1238,
+   "name": "Le rapport perdu",
+   "objectives": "Apporter le Rapport de l'espion à Nazeer Bloodpike à Mur-de-Fougères.",
+   "description": "Au milieu de la poussière, une main d'orc, seule. Et dans cette main, un tube creusé dans de l'os. Dans le tube, un parchemin sale.\n\nCe parchemin est un rapport établi par un orc qui a passé des semaines à espionner la ville de Theramore.\n\nAprès examen du rapport, il est clair qu'il doit être apporté au Maître Espion, au village de Mur-de-Fougères.",
+   "progress": "Vous avez quelque chose pour moi ?",
+   "completion": "Beau travail, <nom>. Notre agent, Marg Nighteye, était stationné à l'extérieur de Theramore. Il était chargé d'espionner la ville.\n\nVoici son dernier rapport, il n’en fera sans doute jamais plus. D'après votre témoignage, je crains que Marg n'ait fini dans les marais. . .",
+   "starters": [
+    {
+     "type": "object",
+     "id": 20985,
+     "name": "Loose Dirt"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4791,
+     "name": "Nazeer Bloodpike"
+    }
+   ],
+   "zone_id": 15,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 2050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1239": {
+   "id": 1239,
+   "name": "La tête coupée",
+   "objectives": "Apporter la Tête d'orc défiant à Nazeer Bloodpike à Mur-de-Fougères.",
+   "description": "Une fouille approfondie permet de découvrir une tête d'orc mâle. Les lèvres sont figées dans un rictus et les yeux noirs semblent vous fixer avec défi.",
+   "progress": "Vous avez quelque chose d'autre à signaler, <nom> ?",
+   "completion": "C'est la tête de Marg Nighteye ! Comme je le craignais, il est mort.\n\nRegardez la blessure du cou ! Une arme a-t-elle pu faire de telles marques ou bien a-t-il été tué par une bête ?\n\nC'est un mystère que nous devons résoudre, <nom>. Nous devons savoir si la mort de Marg est du fait de l'Alliance !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 20985,
+     "name": "Loose Dirt"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4791,
+     "name": "Nazeer Bloodpike"
+    }
+   ],
+   "zone_id": 15,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 2050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1240": {
+   "id": 1240,
+   "name": "Le Sorcier-docteur troll",
+   "objectives": "Apporter la Tête d'orc défiant à Kin'weelay au Campement Grom'gol dans la vallée de Strangleronce.",
+   "description": "Nous devons connaître les faits concernant la mort de Marg ! Et il n'y a qu'une seule manière de savoir, <nom>. C'est d'utiliser la sorcellerie des trolls.\n\nApportez la tête de Marg à Kin'weelay dans la vallée de Strangleronce au Campement Grom'gol.\n\nKin'weelay est le plus puissant des Sorciers-docteurs des trolls Darkspear. Si quelqu'un peut parler à l'esprit de Marg Nighteye, c'est lui.",
+   "progress": "Il y a un esprit en colère contre vous. Qu'est-ce qui vous amène chez Kin'weelay ?",
+   "completion": "Ah je vois ! L'esprit de cet orc est retenu dans notre monde, bouillant de rage de n'avoir pas accompli sa dernière tâche.\n\nEh bien discutons un peu avec cet orc irascible…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4791,
+     "name": "Nazeer Bloodpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2519,
+     "name": "Kin'weelay"
+    }
+   ],
+   "zone_id": 15,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 2750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1251": {
+   "id": 1251,
+   "name": "Le bouclier noir",
+   "objectives": "Rapporter le Bouclier en fer noirci à Krog, à Mur-de-Fougères.",
+   "description": "Un bouclier en fer, noirci par le feu qui a fait rage, est fixé à la cheminée branlante, une des rares structures encore debout de ce qui a été l'auberge du Repos ombragé.\n\nLe bouclier peut être détaché du mur en brique de la cheminée.",
+   "progress": "Qu'avez-vous là, <nom> ? Des indices trouvés à l'auberge du Repos ombragé ?",
+   "completion": "Je sais que les humains ont des goûts décoratifs étranges, mais placeraient-ils vraiment un bouclier en fer simple sur leur cheminée ? Ce bouclier a peut-être été placé là par ceux qui ont brûlé l'auberge.\n\nSerait-ce un avertissement ? Une menace ?",
+   "starters": [
+    {
+     "type": "object",
+     "id": 20992,
+     "name": "Black Shield"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4926,
+     "name": "Krog"
+    }
+   ],
+   "zone_id": 15,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 690,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1252": {
+   "id": 1252,
+   "name": "Lieutenant Paval Reethe",
+   "objectives": "Rapporter le badge de Reethe au capitaine Garran Vimaire à Theramore.",
+   "description": "Un éclat de lumière attire votre attention sur les gravats. Ecartant les débris et la poussière, vous trouvez un insigne émaillé représentant une ancre dorée sur fond blanc : le symbole de Theramore.\n\nSous l'ancre est gravé : \"Lieutenant Paval Reethe\".",
+   "progress": "Avez-vous trouvé quelque chose d'intéressant à l'auberge du Repos ombragé ?",
+   "completion": "Cela n'est jamais bon lorsque le badge d'un Garde m'est rapporté.\n\nParfois c'est un homme ou une femme tombé au combat et il ne me reste plus qu'à annoncer la nouvelle à une famille éplorée. Il y a aussi les cas où nous ne savons pas ce qui est arrivé. Et enfin, il arrive que cela soit encore pire.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 21042,
+     "name": "Theramore Guard Badge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4944,
+     "name": "Capitaine Garran Vimaire"
+    }
+   ],
+   "zone_id": 15,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 780,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1253": {
+   "id": 1253,
+   "name": "Le Bouclier noir",
+   "objectives": "Rapporter le Bouclier en fer noirci au capitaine Garran Vimaire à Theramore.",
+   "description": "Un bouclier en fer, noirci par le feu qui a fait rage, est fixé à la cheminée branlante, une des rares structures encore debout de ce qui a été l'auberge du Repos ombragé.\n\nLe bouclier peut être détaché du mur en brique de la cheminée.",
+   "progress": "Avez-vous trouvé des indices sur le site de l'auberge du Repos ombragé ?",
+   "completion": "Je ne suis pas un expert en fabrication d’armes et d’armures. En leur utilisation oui, mais pas plus.\n\nCe bouclier semble ordinaire, à l'exception des dégâts subis lors de l'incendie qui a ravagé l'auberge.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 20992,
+     "name": "Black Shield"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4944,
+     "name": "Capitaine Garran Vimaire"
+    }
+   ],
+   "zone_id": 15,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 690,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1258": {
+   "id": 1258,
+   "name": "... Et des bestioles",
+   "objectives": "Apporter 12 Pattes de Clampant en parfait état à Morgan Stern à Theramore.",
+   "description": "Un autre ingrédient de ma nouvelle recette est la patte de crabe géant. Et les crabes qu'ils ont à Âprefange, ceux qu'on appelle les Bourbecoques, ne conviennent pas ! J'ai bien peur que les seuls crabes valables ne vivent loin, dans le marais des Chagrins.\n\nLa carapace des pattes de crabe est un des éléments clés de la présentation de ce plat. Cela veut dire que j'ai besoin de pattes parfaites, sans trace ni éraflure. Un crabe adulte n'a généralement qu’une ou deux pattes de cette qualité et il m'en faut beaucoup pour mettre au point ce plat.\n\nAlors, <nom>... est-ce qu'un voyage vous tente ?",
+   "progress": "Mes recherches sur les langues de Rochefange progressent. J'espère que votre chasse aux crabes se passe bien ?",
+   "completion": "Ce sont des spécimens magnifiques, <nom> ! Les carapaces sont parfaites et les chairs sont tendres et roses. Le sang des plus grands chefs cuisiniers coule dans vos veines, j'en suis sûr !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4794,
+     "name": "Morgan Stern"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4794,
+     "name": "Morgan Stern"
+    }
+   ],
+   "zone_id": 15,
+   "level": 40,
+   "reqlevel": 33,
+   "side": "alliance",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1259": {
+   "id": 1259,
+   "name": "Le lieutenant Paval Reethe",
+   "objectives": "Trouver plus de renseignements sur Paval Reethe auprès de l'adjudant Tesoran à Theramore.",
+   "description": "Le nom du lieutenant Paval Reethe ne me dit rien. Votre meilleure chance est de vérifier auprès de l'adjudant Tesoran. Il conserve tous les dossiers de la garde de Theramore, du personnel jusqu'à l'équipement.\n\nIl devrait être capable de vous dire qui est ce Reethe après un rapide coup d'oeil dans ses registres.",
+   "progress": null,
+   "completion": "Bonjour, <nom>. Vous avez besoin de renseignements sur un membre de la garde de Theramore ? Reethe, n'est-ce pas ?\n\nAccordez-moi un moment que je trouve les bonnes archives.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4944,
+     "name": "Capitaine Garran Vimaire"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4948,
+     "name": "Adjudant Tesoran"
+    }
+   ],
+   "zone_id": 15,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 315,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1260": {
+   "id": 1260,
+   "name": "Morgan Stern",
+   "objectives": "Parler à Morgan Stern à Theramore.",
+   "description": "Je suis en train de créer une nouvelle carte pour le restaurant. Elle sera composée de plats typiques sur un thème \"bayou\". Je pense que ma clientèle au Solitaire Bleu va l'adorer !\n\nJ'ai envoyé mon neveu Morgan à Theramore, une ville au bord du marécage d'Âprefange. Il collecte des recettes locales et j'ai besoin de savoir ce qu'il a déjà trouvé.\n\nLe voyage pour Theramore est long. Trop long pour moi. Mais je parie que quelqu'un d'aussi jeune que vous, <classe>, sauterait sur une occasion de voyager, non ?",
+   "progress": null,
+   "completion": "Oh ! C'est mon oncle qui vous a envoyé, n'est-ce pas ?\n\nEh bien, je suis en train d'élaborer de nouvelles recettes et j'ai quelques pistes, mais j'ai besoin d'aide.\n\nDe l'aide de quelqu'un qui accepterait de se mouiller les pieds.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1141,
+     "name": "Angus Stern"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4794,
+     "name": "Morgan Stern"
+    }
+   ],
+   "zone_id": 15,
+   "level": 38,
+   "reqlevel": 33,
+   "side": "alliance",
+   "xp": 710,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1261": {
+   "id": 1261,
+   "name": "Marg parle",
+   "objectives": "Apporter le Pendentif orné à Nazeer à Mur-de-Fougères.",
+   "description": "Maudit Bourbecoque ! Tu ne peux pas tuer Marg ! Ah, mais je suis mort. Alors il doit m'avoir tué...\n\nMais ma mission ! Ma mission ! Vous, <nom>, devez achever ma mission.\n\nAlors que j'étais près de Theramore, j'ai espionné un groupe de soldats de l'Alliance qui campaient sur la plage. Un de ces soldats portait un pendentif... Un pendentif avec plus de pierres précieuses que dans les rêves d'un soldat !\n\nCette nuit-là, je me suis glissé dans leur camp et j'ai volé le pendentif, mais au retour à la base, un homme-crabe Bourbecoque m'a tué !\n\n<nom>, vous devez le retrouver et récupérer le pendentif !",
+   "progress": "<nom>, avez-vous découvert ce qui est arrivé à Marg ?",
+   "completion": "Ce pendentif était porté par un soldat de Stormwind ?\n\nMerci, <nom>. Vous avez découvert le secret de la mort de Marg. Mais ce pendentif est un nouveau mystère à résoudre, un mystère qui peut avoir des conséquences désastreuses pour l'Alliance et la Horde.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 2076,
+     "name": "Bubbling Cauldron"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4791,
+     "name": "Nazeer Bloodpike"
+    }
+   ],
+   "zone_id": 15,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1262": {
+   "id": 1262,
+   "name": "Rapport à Zor",
+   "objectives": "Apporter le Pendentif orné à Zor Lonetree à Orgrimmar.",
+   "description": "Il est étrange que le pendentif que Marg a volé était en possession de simples soldats. Peut-être que son propriétaire était déguisé, ou que les soldats l’avaient eux-mêmes volé !\n\nQuoi qu'il en soit, il s'agit d'un pendentif de noble et nous devons découvrir son véritable propriétaire si nous voulons percer ce mystère.\n\nApportez-le à Zor Lonetree à Orgrimmar. Il en connaît beaucoup sur les personnages politiques de l'Alliance et saura dire si ce pendentif est connu parmi les nobles de Stormwind.",
+   "progress": "Vous venez de Mur-de-Fougères en Âprefange ? Comment se porte Nazeer ? Ces efforts dans les marais portent-ils leurs fruits ?",
+   "completion": "Ce pendentif a été monté avec une grande précision, ce qui demande une compétence certaine, <nom>. Aucun orc ne convoiterait un tel bijou…\n\nMais beaucoup d'humains le feraient.\n\nJe vais étudier ce pendentif. Avec un peu de temps, j'espère pouvoir dévoiler ses mystères.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4791,
+     "name": "Nazeer Bloodpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4047,
+     "name": "Zor Lonetree"
+    }
+   ],
+   "zone_id": 15,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1268": {
+   "id": 1268,
+   "name": "Des empreintes de sabots suspectes",
+   "objectives": "Faire votre rapport sur les empreintes suspectes de l'auberge du repos ombragé à Krog, au village de Mur-de-Fougères.",
+   "description": "Des lignes d'empreintes de sabots partent des ruines encore fumantes de l'auberge du Repos ombragé. Il y a au moins quelques traces visibles avec d'autres empreintes peu marquées dans la boue du marais.",
+   "progress": null,
+   "completion": "Des empreintes de sabots… Cela pourrait être des hurans. Ou peut-être des centaures. Leur présence dans les Tarides n'est pas anodine et je pense qu'ils sont capables de ce genre d’action.\n\nVous ai-je dit que cette affaire ne se résume pas seulement à une auberge brûlée ? La femme du propriétaire et son bébé ont été tués. Sale histoire !\n\nBon, je vais envoyer Kagoro pour voir où mènent ces traces.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 21015,
+     "name": "Hoofprints"
+    },
+    {
+     "type": "object",
+     "id": 21016,
+     "name": "Hoofprints"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4926,
+     "name": "Krog"
+    }
+   ],
+   "zone_id": 15,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1269": {
+   "id": 1269,
+   "name": "Lieutenant Paval Reethe",
+   "objectives": "Rapporter le Badge de Reethe à Krog à Mur-de-Fougères.",
+   "description": "Un éclat de lumière attire votre attention sur les gravats. Ecartant les débris et la poussière, vous trouvez un insigne émaillé représentant une ancre dorée sur fond blanc : le symbole de Theramore.\n\nSous l'ancre est gravé : \"Lieutenant Paval Reethe\".",
+   "progress": "Avez-vous une hypothèse sur ce qui s'est passé à l'auberge du Repos ombragé ?",
+   "completion": "Je connais cet humain, Paval Reethe. Pathétique même pour eux ! Il a déserté et il se cache maintenant dans les bois.\n\nJ'ai envoyé Ogron pour le traquer. Certains le suspectent de voler notre ravitaillement. Je crois que j'ai vu Ogron aller vers le sud-est.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 21042,
+     "name": "Theramore Guard Badge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4926,
+     "name": "Krog"
+    }
+   ],
+   "zone_id": 15,
+   "level": 37,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 710,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1270": {
+   "id": 1270,
+   "name": "Sauvetage du Puant",
+   "objectives": "Escorter Ignatz \"Puant\" puis discuter avec Mebok Mizzyrix à Ratchet.",
+   "description": "Enfin quelque chose qui ne semble pas vouloir me manger !\n\nJ'ai besoin d'aide pour repousser ces monstres et vous me semblez convenir.\n\nUn Goblin de Ratchet, du nom de Mebok Mizzyrix, a besoin de feuilles de haricots des marais pour une potion ou je ne sais quoi... J'avoue que je me fiche complètement de la raison, son argent est bienvenu et je connais ce marais, donc me voilà.\n\nDommage que je me sois fait encercler avant d'avoir trouvé les haricots ! Pourriez-vous m'aider à sortir de là et surveiller mes arrières tandis que je cherche les plantes pour Mebok ?",
+   "progress": null,
+   "completion": "Le Puant était là avec les herbes que je lui avais commandées et il m'a dit que vous l'aviez bien aidé. Beau travail ! Un ami du Puant est mon ami !\n\nJuste avant de repartir vers le sud pour le marais, il m'a demandé de vous remettre cela.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4880,
+     "name": "Ignatz \"Puant\""
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3446,
+     "name": "Mebok Mizzyrix"
+    }
+   ],
+   "zone_id": 15,
+   "level": 37,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 2850,
+   "money": 4000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1271": {
+   "id": 1271,
+   "name": "Fête au Solitaire Bleu",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Mon neveu m'a dit que vous l'aviez aidé dans ses recherches à Âprefange et que vous aviez sorti son associé d’une situation difficile. Bien, nous les Stern, nous nous serrons les coudes et nous nous souvenons de nos amis !\n\nAlors lavez-vous les mains, <nom>, parce que nous allons faire la fête en votre honneur !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1141,
+     "name": "Angus Stern"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1141,
+     "name": "Angus Stern"
+    }
+   ],
+   "zone_id": 15,
+   "level": 37,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1273": {
+   "id": 1273,
+   "name": "Questionner Reethe",
+   "objectives": "Aller avec Ogron pour parler à Reethe puis retourner voir Krog à Mur-de-Fougères.",
+   "description": "Cela a pris du temps, mais j'ai trouvé Reethe. Il se cache bien pour un humain.\n\nOgron se demande s’il n'est pas devenu fou après tout ce temps passé dans le marais. Vous venez avec moi pour lui tirer les vers du nez.",
+   "progress": "Avez-vous trouvé Reethe ?",
+   "completion": "Ah ! Il est bon de savoir que Reethe ne traînera plus dans le marais, mais il est regrettable que les humains soient trop faibles pour survivre à la blessure d'une petite flèche de rien du tout.\n\nIl semble que cette piste ne nous mène nulle part. Nous devons trouver autre chose.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4983,
+     "name": "Ogron"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4926,
+     "name": "Krog"
+    }
+   ],
+   "zone_id": 15,
+   "level": 37,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 3550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1276": {
+   "id": 1276,
+   "name": "Le Bouclier noir",
+   "objectives": "Montrer le Bouclier en fer noirci à Mosarn à Thunder Bluff.",
+   "description": "Je me souviens ! Mosarn est un forgeron respecté de Thunder Bluff. Je savais que j'avais entendu son nom quelque part !\n\nEn remerciement, le Cercle terrestre m'a offert un équipement complet forgé par Mosarn. Du très beau travail !\n\nPeut-être pourrait-il vous en dire plus sur ce bouclier qu'il a forgé.\n\nCe n'est pas une grosse piste, mais c’est la seule et c’est Reethe qui l’a donnée.",
+   "progress": "Bienvenue, <classe>. Y a-t-il quelque chose que je puisse faire pour vous ?",
+   "completion": "Oui, vous avez raison. C'est un bouclier que j'ai forgé.\n\nMais je crains de ne pouvoir vous en dire plus, <nom>. J'ai fabriqué tant de boucliers et tant d'armures, je ne peux pas me souvenir de tout.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4926,
+     "name": "Krog"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4943,
+     "name": "Mosarn"
+    }
+   ],
+   "zone_id": 15,
+   "level": 37,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 1400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1282": {
+   "id": 1282,
+   "name": "Ils l'appellent Jim le Souriant",
+   "objectives": "Discuter avec le capitaine Garran Vimaire à Theramore.",
+   "description": "Je ne peux pas aider tant que je m'apitoierai sur le vieux Jim là-bas. Il n'a pas toujours été comme cela. Il a tenu une auberge en dehors des marais pendant un moment, un endroit superbe.\n\nÉcoutez, je ne veux pas vraiment en parler. Allez voir le capitaine Vimaire si vous avez besoin de quelque chose.",
+   "progress": null,
+   "completion": "James Hyal est son vrai nom. Il avait une auberge près des Tarides. Il voulait en faire un endroit accueillant pour les voyageurs qui passeraient…\n\nPeut-être a-t-il vu trop grand, mais l'auberge a bien marché au début. Puis nous avons perdu le contrôle des routes dans les marais et les ogres sont arrivés.\n\nJames était trop têtu pour abandonner son rêve et rejoindre la sécurité de nos murs, et l'auberge du Repos ombragé a été incendiée. Nous enquêtons, mais nous n'avons toujours rien trouvé. Si vous voulez aider, allez voir si vous trouvez quelque chose dans les ruines.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4921,
+     "name": "Garde Byron"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4944,
+     "name": "Capitaine Garran Vimaire"
+    }
+   ],
+   "zone_id": 15,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 275,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1284": {
+   "id": 1284,
+   "name": "Des empreintes de sabots suspectes",
+   "objectives": "Rapporter la présence des empreintes suspectes à l’auberge du Repos ombragé au capitaine Vimaire à Theramore.",
+   "description": "Des lignes d'empreintes de sabots partent des ruines encore fumantes de l'auberge du Repos ombragé. Il y a au moins quelques traces visibles avec d'autres empreintes peu marquées dans la boue du marais.",
+   "progress": null,
+   "completion": "Des empreintes de sabots, hein ? Ce qui est sûr, c'est que les centaures sont très actifs près du marécage d'Âprefange. Lors d'une brève incursion dans les Tarides, nous avons trouvé leur camp et leurs fermes.\n\nJe vais envoyer Falgran Hastil, un de nos meilleurs pisteurs, pour voir où mènent ces traces.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 21015,
+     "name": "Hoofprints"
+    },
+    {
+     "type": "object",
+     "id": 21016,
+     "name": "Hoofprints"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4944,
+     "name": "Capitaine Garran Vimaire"
+    }
+   ],
+   "zone_id": 15,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1285": {
+   "id": 1285,
+   "name": "Les hommes de Daelin",
+   "objectives": "Ramener l'information concernant Reethe au capitaine Vimaire à Theramore.",
+   "description": "Reddon… Redpath… Ah voilà ! Lieutenant Paval Reethe.\n\nA rejoint la garde de Theramore en même temps que la plupart des recrues ayant fait la traversée avec dame Proudmoore. Engagé dans les soldats de marine de Kul Tiras à seize ans. Etats de service brillants, promu...\n\nPorté disparu.",
+   "progress": null,
+   "completion": "Porté disparu ? Cela serait la manière pour Tesoran de dire traître.\n\nIl est évident qu'il est l’un de ces idiots si aveuglement loyaux à l'amiral Daelin qu'il a trahi. N'est-ce pas délicieusement ironique ? Les déserteurs nous accusent de trahir l'Alliance.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4948,
+     "name": "Adjudant Tesoran"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4944,
+     "name": "Capitaine Garran Vimaire"
+    }
+   ],
+   "zone_id": 15,
+   "level": 38,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 285,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1286": {
+   "id": 1286,
+   "name": "Les déserteurs",
+   "objectives": "Rapporter l'information de Balos Jacken sur Reethe et les déserteurs dans le marécage d'Âprefange.",
+   "description": "Nous avons lutté pour maintenir notre présence dans les marais, et grâce à notre détermination, nous avons pu conserver plusieurs tours de garde défensives dans le secteur.\n\nLes dernières informations et rapports d'éclaireurs que j'ai reçus indiquent qu'un groupe de déserteurs squatte une tour abandonnée à la Halte perdue, au sud-est de l'auberge.\n\nLeur chef se nomme Jacken. Voyez si vous pouvez lui soutirer des informations.\n\nSoyez sur vos gardes, <nom>. Il risque d'être réticent à collaborer.",
+   "progress": null,
+   "completion": "C'est Vimaire qui vous envoie ? Il ne peut pas faire le sale boulot lui-même, hein ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4944,
+     "name": "Capitaine Garran Vimaire"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5089,
+     "name": "Balos Jacken"
+    }
+   ],
+   "zone_id": 15,
+   "level": 38,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1287": {
+   "id": 1287,
+   "name": "Les déserteurs",
+   "objectives": "Discuter avec le capitaine Garran Vimaire à Theramore à propos de Reethe.",
+   "description": "Reethe ? Ce lâche ?\n\nNous l'avons éjecté du camp, car il insistait pour aller piller le ravitaillement des ogres de Mur-de-Fougères. Nous ne sommes pas suffisamment nombreux pour faire face à ces brutes sans cervelle.\n\nIl a franchi trop de fois les limites, alors nous l'avons envoyé paître.\n\nBon je vous ai aidé... Alors aidez-moi à votre tour en oubliant que vous nous avez trouvés !",
+   "progress": null,
+   "completion": "Je vais envoyer le lieutenant Caldwell s'occuper des déserteurs de la Halte perdue. De plus, je vais lui donner ordre de trouver Reethe. Les marais ne sont pas si grands et il devrait être capable de le retrouver.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5089,
+     "name": "Balos Jacken"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4944,
+     "name": "Capitaine Garran Vimaire"
+    }
+   ],
+   "zone_id": 15,
+   "level": 38,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1319": {
+   "id": 1319,
+   "name": "Le Bouclier noir",
+   "objectives": "Montrer le Bouclier en fer noirci à Caz Twosprocket à Theramore.",
+   "description": "Je suis désolé de ne pouvoir vous en dire plus, <nom>, mais je sais qui peut vous aider. Caz Twosprocket, un de nos meilleurs forgerons. Portez-lui le bouclier et voyez ce qu'il peut vous dire.",
+   "progress": "Quelque chose que je dois examiner ?",
+   "completion": "Hmm… Pièce intéressante que vous avez là. Il est clair qu'elle n'a pas été faite par les forgerons que je connais de ce côté de l'océan et ce n'est certainement pas mon travail.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4944,
+     "name": "Capitaine Garran Vimaire"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4941,
+     "name": "Caz Twosprocket"
+    }
+   ],
+   "zone_id": 15,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 275,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1320": {
+   "id": 1320,
+   "name": "Le Bouclier noir",
+   "objectives": "Discuter avec le capitaine Garran Vimaire à Theramore.",
+   "description": "Ah ! J'ai failli manquer ceci… Cette lanière de cuir au dos aurait dû brûler, et elle a été faite pour un grand gabarit. Je dirais même un tauren.\n\nC'est tout ce que je peux dire. Dites au capitaine Vimaire que je suis désolé de n'avoir pas pu l’aider plus.",
+   "progress": null,
+   "completion": "Ce n'est pas une grosse information, mais gardons-la à l'esprit. Heureusement, certaines pièces du puzzle commencent à se mettre en place et permettent d'avoir une meilleure compréhension de ce qui s'est passé.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4941,
+     "name": "Caz Twosprocket"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4944,
+     "name": "Capitaine Garran Vimaire"
+    }
+   ],
+   "zone_id": 15,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1321": {
+   "id": 1321,
+   "name": "Le Bouclier noir",
+   "objectives": "Montrer le Bouclier en fer noirci à Do'gol au village de Mur-de-Fougères.",
+   "description": "Hmmm… Je ne vois rien qui sorte de l'ordinaire à propos de ce bouclier. Demandons à Do'gol, le forgeron, de l'examiner, puis écoutons ce qu'il peut nous dire, mais n'espérons pas trop…",
+   "progress": "Quelque chose pour moi, <classe> ?",
+   "completion": "C'est un très bon bouclier. Très robuste, lourd, bon. Mais Do'gol n'a pas besoin de bouclier. Je fais des boucliers, je ne les achète pas, <nom>.\n\nVous devriez le savoir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4926,
+     "name": "Krog"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5087,
+     "name": "Do'gol"
+    }
+   ],
+   "zone_id": 15,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 275,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1322": {
+   "id": 1322,
+   "name": "Le Bouclier noir",
+   "objectives": "Trouver 6 Sacs de Venin acide pour Do'gol de Mur-de-Fougères.",
+   "description": "Hmmm ! Il y a quelque chose d'écrit sur le bord du bouclier, c'est dur à lire avec toutes ces traces de suie.\n\nJ'ai besoin d'acide pour le faire apparaître. Du venin d'araignée Sombrecroc des marais serait parfait. Rapportez-moi quelques glandes et je vous nettoie cela.",
+   "progress": "Avez-vous pu ramener les sacs de venin ?",
+   "completion": "Je n'aime pas les araignées qui sont tellement grosses qu’on ne peut pas s'asseoir dessus pour les écraser.\n\nMerci de les avoir rapportés, <nom>. Maintenant j’ouvre ces sacs de venin et j’en répands le contenu sur le bouclier…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5087,
+     "name": "Do'gol"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5087,
+     "name": "Do'gol"
+    }
+   ],
+   "zone_id": 15,
+   "level": 37,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 2850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1323": {
+   "id": 1323,
+   "name": "Le Bouclier noir",
+   "objectives": "Parler à Krog au village de Mur-de-Fougères.",
+   "description": "Oh ! Je crois que j'ai mis trop d'acide sur le bouclier. Frottons un peu pour voir…\n\nHmm, difficile à lire, mais il me semble qu'il s'agit d'un nom : Mosarn. Jamais entendu parler de lui. Peut-être Krog le sait. Krog connaît tellement de monde.",
+   "progress": null,
+   "completion": "Mosarn ? Cela sonne familier… Je n'arrive pas à me souvenir. Cela me reviendra.\n\nCela ne doit pas être important. Un bouclier peut venir de n'importe où et ne rien vouloir dire…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5087,
+     "name": "Do'gol"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4926,
+     "name": "Krog"
+    }
+   ],
+   "zone_id": 15,
+   "level": 37,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 1400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6570": {
+   "id": 6570,
+   "name": "Brandeguerre",
+   "objectives": "Aller à la tourbière du Ver, dans le marécage d'Âprefange, et chercher la tanière de Brandeguerre. Une fois à l’intérieur, porter l’Amulette de subversion draconique, et parler à Brandeguerre.",
+   "description": "J'ai chargé ce médaillon avec suffisamment de magie pour créer et entretenir une illusion à l'intérieur de la tanière de Brandeguerre.\n\nC'est un ancien drake, le vieux gardien de la porte de Nefarian, chargé de tester la valeur des draconides qui veulent rejoindre la garde d'élite d’Onyxia.\n\nAllez à la tourbière du Ver du marécage d'Âprefange et pénétrez dans sa tanière. Une fois là, placez l'amulette et allez là où votre destin vous mènera !",
+   "progress": null,
+   "completion": "Les effectifs de nos troupes sont-ils tombés si bas que Nefarian m'envoie des chiots ? Vous ne passerez jamais mes épreuves, avorton.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11872,
+     "name": "Myranda la Mégère"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10321,
+     "name": "Brandeguerre"
+    }
+   ],
+   "zone_id": 15,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 4950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6582": {
+   "id": 6582,
+   "name": "L'épreuve des crânes, Clairvoyant",
+   "objectives": "Vous devez trouver Clairvoyant, le drake champion du Vol bleu, et le tuer. Arracher son crâne à son cadavre, et le rapporter à Brandeguerre.\n\nClairvoyant se trouve au Berceau-de-l'Hiver.",
+   "description": "Nous sommes les enfants de l'Aile de mort. Notre domination sur les Aspects moindres doit être absolue.\n\nSi vous êtes vraiment digne de l'Ascension, les dragons de moindre niveau fuiront votre présence.\n\nTrouvez leurs champions et causez leur perte au nom de notre Père !\n\nAllez au Berceau-de-l'Hiver et traquez le puissant drake bleu, Clairvoyant. Écrasez-le, ainsi que tous ceux du Vol bleu qui se trouveront sur votre chemin. Arrachez son crâne et rapportez-le-moi.",
+   "progress": "<Brandeguerre siffle. >",
+   "completion": "Vous avez passssé la première épreuve. Une autre commence…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10321,
+     "name": "Brandeguerre"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10321,
+     "name": "Brandeguerre"
+    }
+   ],
+   "zone_id": 15,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6583": {
+   "id": 6583,
+   "name": "L'épreuve des crânes, Somnus",
+   "objectives": "Détruire le Champion drake du Vol vert, Somnus. Arracher son crâne à son cadavre, puis le rapporter à Brandeguerre.",
+   "description": "De même que notre Père écrase les Aspects eux-mêmes, nous devons nous efforcer d'apporter le chaos et la destruction à leurs enfants.\n\nVous devez tester votre talent au combat contre les rêveurs sans sommeil : les enfants du Vol vert.\n\nAllez au marais des Chagrins et traquez Somnus, le champion drake du Vol vert. Laissez agir votre haine ; dominez l'insecte... Revenez me voir avec son crâne...",
+   "progress": "Ne revenez pas avant d'avoir baigné dans le sang de nos ennemis et bu leurs souffrances.",
+   "completion": "Deux de complets, il en reste deux. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10321,
+     "name": "Brandeguerre"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10321,
+     "name": "Brandeguerre"
+    }
+   ],
+   "zone_id": 15,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6584": {
+   "id": 6584,
+   "name": "L'épreuve des crânes, Chronalis",
+   "objectives": "Chronalis, enfant de Nozdormu, garde les Grottes du temps, dans le Désert de Tanaris. Tuez-le et rapportez son crâne à Brandeguerre.",
+   "description": "Les Gardiens du temps, les fils de Nozdormu le Seigneur des sssiècles...\n\nIl y en a trois qui gardent les Grottes du temps, mais sssseul l'un d'eux a retenu l'attention du Vol noir : le Passeur du temps, Chronalissss, le favori de Nozdormu.\n\nTuez ce champion et vous aurez porté un coup qui tirera des larmes au plus sssstoïque des sssables du temps. Revenez me voir avec son crâne.",
+   "progress": "Ironiquement, le temps nous est compté.",
+   "completion": "Il ressste le plus détesssté. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10321,
+     "name": "Brandeguerre"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10321,
+     "name": "Brandeguerre"
+    }
+   ],
+   "zone_id": 15,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6585": {
+   "id": 6585,
+   "name": "L'épreuve des crânes, Axtroz",
+   "objectives": "Aller à Grim Batol et traquer Axtroz, le Champion drake du Vol rouge. Le tuer et arracher son crâne, puis l’apporter à Brandeguerre.",
+   "description": "C'est sur les montagnes de Grim Batol que notre Père a déchaîné sa colère contre les Aspects. L’acte lâche du traître, Alexstrazsa, a donné aux autres Aspects assez de temps pour échapper à la colère de Père.\n\nQuel acte misérable...\n\nLe Vol rouge garde désormais Grim Batol. Son lieutenant, Axtroz, doit être détruit. Rapportez-moi le crâne d'Axtroz. Pour Père !",
+   "progress": "Changements. . . Je les sens se produire en vous. Passez ce test et alors il ne restera plus que la cérémonie.",
+   "completion": "J'ai douté de votre dévouement, petit. Vous avez persévéré, dominant nos ennemis et attirant l'honneur dans notre sillage.\n\nJe dois préparer maintenant les crânes pour votre ascension.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10321,
+     "name": "Brandeguerre"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10321,
+     "name": "Brandeguerre"
+    }
+   ],
+   "zone_id": 15,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6601": {
+   "id": 6601,
+   "name": "Ascension...",
+   "objectives": "Il semble que la comédie soit finie. Vous savez que l’Amulette de subversion draconique, créée par Myranda la Mégère, ne fonctionnera pas à l’intérieur du pic Blackrock. Peut-être devriez-vous trouver Rexxar et lui exposer votre fâcheuse situation. Montrez-lui l'Amulette drakefeu terne. Avec un peu de chance, il saura quoi faire.",
+   "description": "Un médaillon a été façonné à partir des crânes de nos ennemis. Vous connaissez ce médaillon, n'est-ce pas ? Vous l'avez sûrement vu porté par vos aînés.\n\nPrenez cela. Retournez au Pic et présentez-le au général Drakkisath. Il y placera l'enchantement final pour mettre ce bibelot en phase avec votre esprit.\n\nVous porterez ce médaillon avec honneur, en signe de votre accession à l'un de nos rangs les plus fermés : Gardien de la mère des couvées.\n\nAllez !",
+   "progress": "Ne paniquez pas, <nom> !",
+   "completion": "C’est comme quand les dragons parlent, <nom>, il y a plus d'air chaud que d'informations intéressantes. On ne peut que s'attendre à un comportement pompeux et agressif de leur part.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10321,
+     "name": "Brandeguerre"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10182,
+     "name": "Rexxar"
+    }
+   ],
+   "zone_id": 15,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 4950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7541": {
+   "id": 7541,
+   "name": "Un service pour la Horde",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Il faudra du temps pour que nos savants étudient le pendentif que vous nous avez rapporté. J'aimerais vous offrir un petit témoignage de notre reconnaissance, pour le service que vous avez rendu à la Horde.\n\nMerci, <nom>. Vos actions vous font honneur.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4047,
+     "name": "Zor Lonetree"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4047,
+     "name": "Zor Lonetree"
+    }
+   ],
+   "zone_id": 15,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 1950,
+   "money": 15000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "8970": {
+   "id": 8970,
+   "name": "Votre avenir passe par l'île d'Alcaz",
+   "objectives": "Récupérez 20 Varechs de sang sur les nagas Strashaz, puis retournez voir Bodley au mont Rochenoire.",
+   "description": "Comme je vous le disais, <classe>, de mon vivant, j’avais envisagé la possibilité de devenir devin. Mais comme vous le savez peut-être, ça n’est pas un métier très rentable. Non seulement c’est dangereux, mais en plus les composants sont à la fois rares et coûteux. Toutefois, j’en ai appris assez pour localiser le dernier morceau de l’amulette, ainsi que l’esprit de mon ancien camarade.\n\nC’est là que vous intervenez, <nom>. J’ai besoin que vous alliez sur l’île d’Alcaz, au large du marécage d’Âprefange, et que vous récupériez du varech de sang sur les nagas Strashaz qui y vivent.",
+   "progress": "Il me faut du varech de sang, <nom>. Une grande quantité. C'est indispensable pour alimenter mes sorts de divination. Je vous conseille de prendre au moins deux amis avec vous pour la récolte. Ces Strashaz sont peu commodes !",
+   "completion": "Entre nous, je suis surpris de vous voir revenir en un seul morceau, <nom>. Mais bon, en ce moment, l’île d’Alcaz est le cadet de nos soucis.\n\nDonnez-moi un moment… La divination n’est pas quelque chose d’instantané. Il ne suffit pas de se concentrer et de claquer des doigts pour avoir une réponse.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 15,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

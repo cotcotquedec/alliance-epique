@@ -1,0 +1,853 @@
+{
+ "schema": 1,
+ "zone": "dungeons/stratholme",
+ "zone_id": 2017,
+ "zone_name": "Stratholme",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 12,
+  "with_display_id": 12,
+  "with_title": 4,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 9,
+   "unknown": 3
+  }
+ },
+ "npcs": {
+  "1855": {
+   "id": 1855,
+   "name": "Tirion Fordring",
+   "title": null,
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Escortee",
+   "zones": [
+    "Eastern Plaguelands"
+   ],
+   "coords": {},
+   "levels": [
+    61,
+    61
+   ],
+   "display_id": 9477,
+   "quests_started": [
+    5542,
+    5543,
+    5544,
+    5742,
+    5781,
+    5845,
+    5846,
+    5861
+   ],
+   "quests_ended": [
+    5542,
+    5543,
+    5544,
+    5742,
+    5781,
+    5845,
+    5848,
+    5944
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMale"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "10917": {
+   "id": 10917,
+   "name": "Aurius",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Stratholme"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 10217,
+   "quests_started": [
+    5122,
+    5125
+   ],
+   "quests_ended": [
+    5122,
+    5125
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleWarrior",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5977,
+     "farewell": 5978,
+     "pissed": 5979
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11033": {
+   "id": 11033,
+   "name": "Smokey LaRue",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Eastern Plaguelands"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 10471,
+   "quests_started": [
+    5214,
+    6026,
+    6041
+   ],
+   "quests_ended": [
+    5214,
+    6026,
+    6041
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleGrim",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Grim",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5907,
+     "farewell": 5908,
+     "pissed": 5909
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleGrim"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11035": {
+   "id": 11035,
+   "name": "Betina Bigglezink",
+   "title": "L'Aube d'argent",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Argent Dawn",
+   "zones": [
+    "Eastern Plaguelands"
+   ],
+   "coords": {},
+   "levels": [
+    57,
+    57
+   ],
+   "display_id": 10465,
+   "quests_started": [
+    4771,
+    5212,
+    5213,
+    5529
+   ],
+   "quests_ended": [
+    4771,
+    5212,
+    5213,
+    5529,
+    5531,
+    5582
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GnomeFemaleNerdy",
+    "race": "Gnome",
+    "sex": "female",
+    "personality": "Nerdy",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5931,
+     "farewell": 5932,
+     "pissed": 5933
+    },
+    "combat_set": "GnomeFemale"
+   },
+   "model": {
+    "race": "Gnome",
+    "race_id": 7,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "GnomeFemaleNerdy"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11036": {
+   "id": 11036,
+   "name": "Leonid Barthalomew le Révéré",
+   "title": "L'Aube d'argent",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Argent Dawn",
+   "zones": [
+    "Eastern Plaguelands"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 10474,
+   "quests_started": [
+    5243,
+    5463,
+    5465,
+    5531
+   ],
+   "quests_ended": [
+    5243,
+    5462,
+    5464,
+    5522
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "UndeadMaleWarrior",
+    "race": "Undead",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6039,
+     "farewell": 6040,
+     "pissed": 6041
+    },
+    "combat_set": "UndeadMale"
+   },
+   "model": {
+    "race": "Undead",
+    "race_id": 5,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "UndeadMaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11039": {
+   "id": 11039,
+   "name": "Duc Nicholas Zverenhoff",
+   "title": "L'Aube d'argent",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Argent Dawn",
+   "zones": [
+    "Eastern Plaguelands"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 10468,
+   "quests_started": [
+    5251,
+    5263,
+    5264,
+    5503,
+    5508,
+    5509,
+    5510
+   ],
+   "quests_ended": [
+    5251,
+    5262,
+    5263,
+    5503,
+    5508,
+    5509,
+    5510,
+    6030
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleOfficial",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5971,
+     "farewell": 5972,
+     "pissed": 5973
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11140": {
+   "id": 11140,
+   "name": "Egan",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Eastern Plaguelands"
+   ],
+   "coords": {},
+   "levels": [
+    59,
+    59
+   ],
+   "display_id": 10644,
+   "quests_started": [
+    5282
+   ],
+   "quests_ended": [
+    5281,
+    5282
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleStandard",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5904,
+     "farewell": 5905,
+     "pissed": 5906
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11878": {
+   "id": 11878,
+   "name": "Nathanos le Flétrisseur",
+   "title": "Champion de la reine banshee",
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Eastern Plaguelands"
+   ],
+   "coords": {},
+   "levels": [
+    62,
+    62
+   ],
+   "display_id": 11814,
+   "quests_started": [
+    6022,
+    6042,
+    6133,
+    6135,
+    6136,
+    6144,
+    6146,
+    6148,
+    6163
+   ],
+   "quests_ended": [
+    5961,
+    6022,
+    6042,
+    6133,
+    6135,
+    6136,
+    6145,
+    6147,
+    6148,
+    6163
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "11936": {
+   "id": 11936,
+   "name": "Artiste Renfray",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Western Plaguelands"
+   ],
+   "coords": {},
+   "levels": [
+    12,
+    12
+   ],
+   "display_id": 11890,
+   "quests_started": [
+    5848
+   ],
+   "quests_ended": [
+    5846
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "16016": {
+   "id": 16016,
+   "name": "Anthion Harmon",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Eastern Plaguelands"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 15968,
+   "quests_started": [
+    8945,
+    8947,
+    8948,
+    8951,
+    8952,
+    8953,
+    8954,
+    8955,
+    8956,
+    8957,
+    8958,
+    8959,
+    9016,
+    9017,
+    9018,
+    9019,
+    9020,
+    9021,
+    9022
+   ],
+   "quests_ended": [
+    8929,
+    8930,
+    8946,
+    8947,
+    9015
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleWarrior",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5977,
+     "farewell": 5978,
+     "pissed": 5979
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "16031": {
+   "id": 16031,
+   "name": "Ysida Harmon",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Argent Dawn",
+   "zones": [
+    "Stratholme"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 15967,
+   "quests_started": [
+    8946
+   ],
+   "quests_ended": [
+    8945
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanFemaleOfficial",
+    "race": "Human",
+    "sex": "female",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5983,
+     "farewell": 5984,
+     "pissed": 5985
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "HumanFemaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "16033": {
+   "id": 16033,
+   "name": "Bodley",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Eastern Kingdoms"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 15994,
+   "quests_started": [
+    8961,
+    8962,
+    8963,
+    8964,
+    8965,
+    8966,
+    8967,
+    8968,
+    8969,
+    8970,
+    8985,
+    8986,
+    8987,
+    8988,
+    8989,
+    8990,
+    8991,
+    8992,
+    8994,
+    8995,
+    8997,
+    8998
+   ],
+   "quests_ended": [
+    8960,
+    8961,
+    8962,
+    8963,
+    8964,
+    8965,
+    8966,
+    8967,
+    8968,
+    8969,
+    8970,
+    8985,
+    8986,
+    8987,
+    8988,
+    8989,
+    8990,
+    8991,
+    8992,
+    8994,
+    8996,
+    9032
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GnomeMaleStandard",
+    "race": "Gnome",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5922,
+     "farewell": 5923,
+     "pissed": 5924
+    },
+    "combat_set": "GnomeMale"
+   },
+   "model": {
+    "race": "Gnome",
+    "race_id": 7,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GnomeMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  }
+ }
+}

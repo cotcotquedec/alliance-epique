@@ -323,6 +323,52 @@ local function applyZoom(model)
   return ok
 end
 
+-- The speaker talks in the medallion while its line plays (2026-11-08, setting talkAnim, on by default): the ring
+-- glows and pulses softly, Elise's included; the portrait stays still. (Tried the same day: the NPC's 3D model in place
+-- of its portrait, talking; a model cannot be cut round, its square showed inside the ring, even under a hollow ring.)
+-- Only the 3D model fallback (no 2D portrait) also plays the game's talk animations. Animation IDs of the client's
+-- models (unverified on Forever: T70): 60 talk, 64 talk with an exclamation, 65 talk with a question; 0 stand. A talk
+-- animation is a few seconds long: OnAnimFinished starts the next one, mostly plain talk.
+local TALK_ANIMS = { 60, 60, 64, 60, 65 }
+local ANIM_STAND = 0
+-- The glow: the ring's band (Style.RING_BAND) added in light, its alpha two slow waves mixed (a voice's uneven beat),
+-- faded in and out.
+local GLOW_BASE, GLOW_WAVE, GLOW_FADE = 0.25, 0.35, 3 -- alpha at rest and of the wave; fade speed, per second
+
+local function glowUpdate(top, elapsed)
+  top.t = (rawget(top, "t") or 0) + elapsed
+  local t = top.t
+  local target = 0
+  if rawget(frame, "talking") then
+    local wave = (0.5 + 0.5 * math.sin(t * 4.3)) * (0.6 + 0.4 * math.sin(t * 1.7 + 1))
+    target = GLOW_BASE + GLOW_WAVE * wave
+  end
+  local a = rawget(top, "alpha") or 0
+  local step = GLOW_FADE * elapsed
+  a = target > a and math.min(target, a + step) or math.max(target, a - step)
+  top.alpha = a
+  top.glow:SetAlpha(a)
+  if a <= 0 and target <= 0 then -- faded out: nothing to draw until the next line
+    top.glow:Hide()
+    top:SetScript("OnUpdate", nil)
+  end
+end
+
+local function startGlow()
+  local top = frame.glowTop
+  top.glow:Show()
+  top:SetScript("OnUpdate", glowUpdate)
+end
+
+local function animate(model)
+  if rawget(frame, "talking") then
+    frame.talkStep = (rawget(frame, "talkStep") or 0) % #TALK_ANIMS + 1
+    pcall(model.SetAnimation, model, TALK_ANIMS[frame.talkStep])
+  else
+    pcall(model.SetAnimation, model, ANIM_STAND)
+  end
+end
+
 -- Quest tab: model, title, giver, status, Play / Next / Stop, quest text, objectives, rewards.
 -- A section title (2026-10-21): small, muted gold, the game's quest title face. No divider after it (asked after a look
 -- in game: the friezes beside the titles were one ornament too many).
@@ -372,7 +418,27 @@ local function buildQuestPanel(f, qp)
   f.model = CreateFrame("PlayerModel", nil, med)
   f.model:SetSize(MODEL_IN, MODEL_IN)
   f.model:SetPoint("CENTER")
-  pcall(f.model.SetScript, f.model, "OnModelLoaded", applyZoom)
+  f.glowTop = CreateFrame("Frame", nil, med) -- the ring's glow while the speaker talks, above the face
+  f.glowTop:SetAllPoints()
+  f.glowTop:SetFrameLevel((f.model:GetFrameLevel() or 1) + 1)
+  f.glowTop.glow = f.glowTop:CreateTexture(nil, "OVERLAY")
+  f.glowTop.glow:SetAllPoints()
+  f.glowTop.glow:SetTexture(H.Style.RING_BAND)
+  f.glowTop.glow:SetBlendMode("ADD")
+  f.glowTop.glow:SetVertexColor(1, 0.85, 0.55)
+  f.glowTop.glow:SetAlpha(0)
+  f.glowTop.glow:Hide()
+  pcall(f.model.SetScript, f.model, "OnModelLoaded", function(model)
+    applyZoom(model)
+    if rawget(frame, "talking") then -- the talk animation set before the model was loaded
+      animate(model)
+    end
+  end)
+  pcall(f.model.SetScript, f.model, "OnAnimFinished", function(model)
+    if rawget(frame, "talking") then
+      animate(model)
+    end
+  end)
   f.model:Hide()
   f.icon = med:CreateTexture(nil, "ARTWORK")
   f.icon:SetSize(f.faceRound and FACE or MODEL_IN, f.faceRound and FACE or MODEL_IN)
@@ -1417,6 +1483,7 @@ end
 
 local function setVisual(data)
   local model, icon = frame.model, frame.icon
+  frame.talking = false
   icon:Hide()
   model:Hide()
   frame.portrait:Hide()
@@ -1451,6 +1518,22 @@ local function setVisual(data)
       icon:Show()
     end
   end)
+end
+
+-- The speaker talks (on) or stops (off) in the medallion, while the shown quest or line plays (talkAnim above).
+local function setTalking(on)
+  on = on and ForeverSpeechDB.talkAnim ~= false and true or false
+  if on == (rawget(frame, "talking") or false) then
+    return
+  end
+  frame.talking = on
+  H.Trace("frame: talking=%s", on)
+  if on then
+    startGlow()
+  end
+  if frame.model:IsShown() then
+    animate(frame.model)
+  end
 end
 
 local function setRewards(rewards)
@@ -1524,6 +1607,7 @@ function PlayerFrame.Refresh()
   frame.status:SetText(status)
   frame.stopButton:SetActive(Player.IsBusy())
   frame.nextButton:SetActive(queued > 0)
+  setTalking(playing)
 end
 
 -- Height of the shown quest text: the client's measure, else an estimate (about 70 characters a line).
@@ -1825,6 +1909,7 @@ local function fillLine(kind, id)
   frame.objHeader:SetText(L[HEADER[kind]])
   frame.objectiveSummary = L[SUMMARY[kind]]
   setObjectives(frame.objectiveSummary, nil)
+  frame.talking = false
   frame.model:Hide()
   frame.icon:Hide()
   frame.portrait:Hide()

@@ -1,0 +1,4974 @@
+{
+ "schema": 1,
+ "zone": "classes/paladin",
+ "zone_id": -141,
+ "zone_name": "Paladin",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 95,
+  "complete": 52,
+  "incomplete": 43,
+  "unavailable": 0,
+  "missing_description": 43,
+  "missing_giver": 1,
+  "new_in_forever": 0,
+  "gendered": 18
+ },
+ "quests": {
+  "1442": {
+   "id": 1442,
+   "name": "À la recherche de la gemme de Kor",
+   "objectives": "Apporter une Gemme de Kor à Thundris Windweaver à Sombrivage.",
+   "description": "Salutations, <nom>. Que puis-je faire pour quelqu'un qui suit la voie sacrée ?\n\nAh oui ! Stilwell, le forgeron… d'il y a longtemps. Je me souviens bien de lui, mais cela fait quelque temps que je n'ai pas entendu parler de lui.\n\nIl ne m'a jamais paru impudent, aussi je ne peux que supposer que son désir d'une gemme de Kor est noble.\n\nSi vous souhaitez réellement l'une de ces gemmes, alors vous devez vous diriger vers le nord-ouest d'Ashenvale. Vous y trouverez les Profondeurs de Brassenoire à l'intérieur de ruines anciennes. Les nagas qui utilisent toujours ces gemmes se trouvent en bas. Ne partez pas <seul/seule>, <classe>.",
+   "progress": "Si quelqu'un venait s'informer sur la Gemme de Kor en dehors du chemin sacré, je serai soupçonneux. Mais j'ai plus confiance en votre race qu'en certains membres de ma propre famille. Je ne juge pas tout votre ordre à l’aune de ceux qui sont déchus.",
+   "completion": "C'est effectivement la gemme que Stilwell désire, mais avant que j’autorise son départ, elle doit être purifiée de toute corruption. Les jeunes femelles nagas imprègnent les gemmes de puissance, ceci est certain, mais de nature maléfique.\n\nFaites savoir à Stilwell que cette puissance est intacte, et qu'elle devrait fonctionner pour n'importe quel rituel qu’il voudrait mettre en place.\n\nJ'espère que vous savez ce que vous faites, <classe>, ce n'est pas un objet anodin que vous possédez là.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3649,
+     "name": "Thundris Windweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3649,
+     "name": "Thundris Windweaver"
+    }
+   ],
+   "zone_id": -141,
+   "level": 22,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 435,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "nom",
+    "seul/seule"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1641": {
+   "id": 1641,
+   "name": "Le Tome de divinité",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "A Stormwind, je suis chargé de guider les paladins sur le chemin de la vertu quand ils se consacrent à la Lumière et à la défense d’Azeroth contre le Fléau et autres menaces.\n\nLe temps est venu pour vous de faire vos premiers pas vers la véritable vertu. Si vous l'acceptez, je vous donnerai un livre de divinité. En l'étudiant, vous en apprendrez plus sur la Lumière, et sur ce qu'on attend de vous. Si vous le comprenez, et en avez l’étoffe, vous réussirez à atteindre de plus hautes compétences.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1642": {
+   "id": 1642,
+   "name": "Le Tome de divinité",
+   "objectives": "Parler à Duthorian Rall à Stormwind.",
+   "description": "En toutes choses, un paladin doit réfléchir la Lumière qui nourrit notre force. Tendre vers la pureté, se battre pour l'un des nôtres, ne veut pas dire que nous nous battons pour une déité. Nous nous battons pour être bons dans toutes nos actions.\n\nBien que nous soyons appelés pour frapper le Mal en ces temps difficiles, vous ne devez jamais oublier que c'est en aidant les autres que vous vous démarquerez véritablement des citoyens d'Azeroth. La compassion, la patience, la bravoure, ces valeurs sont aussi importantes pour un paladin que la force dans la bataille.\n\nPrenez-en conscience, et ne l'oubliez pas.",
+   "progress": null,
+   "completion": "Soyez à nouveau le bienvenu <nom>. Comment se déroulent vos études du « Tome de la divinité » ?\n\nVous devriez être prêt pour le test. Il y a toujours à faire dans notre ville ou sur nos terres. Des actes de compassion ou des actes de compréhension. Des gens à aider. Des créatures à massacrer.\n\nEn montrant que vous avez la patience de venir en aide aux autres, et particulièrement aux moins fortunés, vous prouvez que vous êtes un serviteur de la Lumière et un esprit sain.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 6775,
+     "name": "Tome of Divinity"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 90,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1643": {
+   "id": 1643,
+   "name": "Le Tome de divinité",
+   "objectives": "Chercher Stephanie Turner dans le Quartier commerçant de Stormwind.",
+   "description": "Votre tâche, à présent, <nom>, est de trouver quelqu'un ici, à Stormwind, qui a besoin de votre aide. Quelqu'un ayant un cœur et des motivations purs. Peut-être une personne dévouée aux autres. Peut-être quelqu'un ayant besoin d'un guide. En tout cas, cette personne doit être pétrie de bonnes intentions et doit vouloir compter sur votre gentillesse.\n\nAgissez au mieux et revenez me voir après. Alors, nous discuterons de la voie du paladin et de la Lumière.",
+   "progress": null,
+   "completion": "Oh ! Salut ! Comment se passent vos aventures ? Je suis heureuse de constater que vous vous portez bien.\n\nOh, moi ? Merci de demander. Je vais bien, dans l'ensemble.\n\nL'augmentation des fournisseurs a mis un frein à la quantité de cuir que les gens veulent bien donner en ce moment, alors ça a été plus dur d'habiller les enfants de l'orphelinat. Mais nous nous en sortirons. Je veux dire mon mari et moi. Il est parti pour Ironforge pour essayer d'obtenir de l'aide.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6174,
+     "name": "Stephanie Turner"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 455,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1644": {
+   "id": 1644,
+   "name": "Le Tome de divinité",
+   "objectives": "Apporter 10 morceaux d'étoffe de lin à Stephanie Turner à Stormwind.",
+   "description": "Qu’ils soient bénis. La plupart ont perdu leur famille dans les attaques du Fléau, ces dernières années.\n\nMon mari, John, collecte des matériaux qui me servent à confectionner des chemises et des pantalons pour les enfants, ce que je n’ai malheureusement pas eu le temps de faire dernièrement.\n\nMais peut-être voudriez-vous m'aider ? Oh, merci mille fois, <nom>.\n\nSi vous pouviez m’apporter de l’étoffe de lin pour que je puisse en faire des vêtements pour les enfants, je vous en serai reconnaissante.",
+   "progress": "J'espère que mon John a plus de chance à Ironforge. Il déteste tellement ces voyages là-bas, car il nous laisse seuls, les enfants et moi. Mais il sait qu'il doit le faire. Il est d'une telle gentillesse.\n\nCertaines années ont été meilleures que d'autres, mais celle-ci est de loin la plus dure. C'est presque comme si quelque chose dans l'air annonçait un grand bouleversement. Mais qui peut savoir ?",
+   "completion": "Merci, <nom>, merci mille fois !\n\nLes enfants seront ravis, et vous m'avez fait gagner tellement de temps. Je vais à présent pouvoir me consacrer aux autres besoins des enfants. Et John va pouvoir rentrer à la maison plus tôt que prévu.\n\nMerci à nouveau, <nom>. je savais que la charité n’était pas un vain mot. Que la Lumière soit avec vous !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6174,
+     "name": "Stephanie Turner"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6174,
+     "name": "Stephanie Turner"
+    }
+   ],
+   "zone_id": -141,
+   "level": 13,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 910,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1645": {
+   "id": 1645,
+   "name": "Le Tome de divinité",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Un plaisir de vous rencontrer, <nom>. Je suis chargée de guider les paladins sur le chemin d'une plus grande vertu quand ils se consacrent à la Lumière et à la défense d’Azeroth.\n\nLe temps est venu pour vous de faire vos premiers pas vers la véritable vertu. Si vous acceptez cet engagement, je vous donnerai un livre de divinité. En l'étudiant, vous en apprendrez plus sur la Lumière, et sur ce que l'on attend de vous. Si vous le comprenez, et si vous en avez l’étoffe, alors vous réussirez à atteindre de plus hautes compétences.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6179,
+     "name": "Tiza Battleforge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6179,
+     "name": "Tiza Battleforge"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1646": {
+   "id": 1646,
+   "name": "Le Tome de divinité",
+   "objectives": "Parler à Tiza Battleforge à Ironforge.",
+   "description": "En toutes choses, un paladin doit réfléchir la Lumière qui nourrit notre force. Tendre vers la pureté, se battre pour l'un des nôtres, ne veut pas dire que nous nous battons pour une déité. Nous nous battons pour être bons dans toutes nos actions.\n\nBien que nous soyons appelés pour frapper le Mal en ces temps difficiles, vous ne devez jamais oublier que c'est en aidant les autres que vous vous démarquerez véritablement des citoyens d'Azeroth. La compassion, la patience, la bravoure, ces valeurs sont aussi importantes pour un paladin que la force dans la bataille.\n\nPrenez-en conscience, et ne l'oubliez pas.",
+   "progress": null,
+   "completion": "Soyez à nouveau le bienvenu, <nom>. Vous avez consacré du temps à l’étude du livre, j'espère ?\n\nAlors vous êtes prêt pour le test. Il y a toujours à faire dans notre ville ou sur nos terres. Des actes de compassion ou des actes de compréhension. Des gens à aider. Des créatures à massacrer.\n\nEn montrant que vous avez la patience de venir en aide aux autres, et particulièrement aux moins fortunés, vous prouvez que vous êtes un serviteur de la Lumière et un esprit sain.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 6916,
+     "name": "Tome of Divinity"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6179,
+     "name": "Tiza Battleforge"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 90,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1647": {
+   "id": 1647,
+   "name": "Le Tome de divinité",
+   "objectives": "Chercher John Turner à la périphérie d'Ironforge.",
+   "description": "Votre tâche, <nom>, consiste à trouver quelqu'un ici à Ironforge qui ait besoin d'aide. Quelqu'un ayant un cœur et des motivations purs. Peut-être une personne dévouée aux autres. Peut-être quelqu'un ayant besoin d'un guide. En tout cas, cette personne doit être pétrie de bonnes intentions et doit vouloir compter sur votre gentillesse.\n\nAgissez au mieux et revenez me voir après. Alors, nous discuterons de la voie du paladin et de la Lumière. Je resterai ici, au temple, dans l'attente de votre retour. D'autres paladins auront besoin que je les guide, également.",
+   "progress": null,
+   "completion": "L'ORPHELINAT DE STOR… Oh pardon ! Je ne voulais pas vous crier dessus, Monsieur.\n\nJe me nomme John Turner. Comment allez-vous ?\n\nBien, bien, je suis heureux d'entendre que les choses se passent bien pour vous. J'ai déjà eu une longue journée de travail, et ma famille me manque terriblement, mais c'est le prix à payer lorsque vous avez tant de bouches à nourrir et de dos à vêtir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6179,
+     "name": "Tiza Battleforge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6175,
+     "name": "John Turner"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 455,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1648": {
+   "id": 1648,
+   "name": "Le Tome de divinité",
+   "objectives": "Apporter 10 morceaux d'étoffe de lin à John Turner à Ironforge.",
+   "description": "Ma femme et moi nous nous occupons d'un orphelinat à Stormwind, principalement pour des enfants qui ont perdu leurs parents au cours des attaques du Fléau cette dernière décennie. Je passe à Ironforge à peu près tous les mois afin de collecter des vivres offerts par des citoyens d’ici, et j’essaie de convaincre certaines associations de soutenir notre action vis-à-vis des enfants.\n\nCe voyage a été horriblement lent, et pas très productif.\n\nSi je pouvais simplement trouver des pièces de lin pour que ma femme puisse coudre quelques vêtements, je pourrais enfin envoyer quelque chose à la maison.",
+   "progress": "Avec l'afflux de commerçants ici et dans tout Azeroth, il y a moins d'articles que nous utilisons pour fabriquer des vêtements pour les enfants de notre orphelinat. C'est très noble de votre part, <nom>, de m'aider à collecter du linge pour que ma femme puisse leur confectionner de nouveaux vêtements. Je vous remercie.\n\nJ'espère pouvoir bientôt retrouver ma femme.",
+   "completion": "C'est très gentil de votre part, <nom>. Je vous remercie encore une fois.\n\nVous êtes un noble <homme/femme> pour avoir fait cela pour moi. Il n'est pas étonnant que tu aies choisi de suivre la Lumière. J'aimerais pouvoir vous remercier pour tout ce que vous avez fait... Qu'est-ce que c'est ? C'est le moins que tu puisses faire ? Vous voyez ? C'est de ça que je parle, <nom>, noble jusqu'au bout.\n\nSois prudent, et que la Lumière te protège dans tes voyages.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6175,
+     "name": "John Turner"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6175,
+     "name": "John Turner"
+    }
+   ],
+   "zone_id": -141,
+   "level": 13,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 910,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1649": {
+   "id": 1649,
+   "name": "Le Tome de la bravoure",
+   "objectives": "Parler à Duthorian Rall à Stormwind.",
+   "description": "La bravoure et toutes les vertus qui vont avec sont comme les minerais rares : pour leur valeur vous devez les chérir, mais vous devez aussi prendre le temps de les entretenir, de les polir. Quand vous les associez judicieusement, vous obtenez un alliage résistant, qui peut résister même aux coups les plus violents.\n\nCette force, votre foi, votre bravoure doivent être éprouvées. Vous devez apprendre à ne jamais perdre la foi et comprendre qu'avec le pouvoir de la Lumière à vos côtés, vous pourrez surmonter plus d’obstacles que la plupart des gens.",
+   "progress": null,
+   "completion": "Ah ! Vous me demandez de tester votre valeur ? Splendide.\n\nIl y a de nombreuses tâches à accomplir, ici et autour de cette cité, qui représentent de grands défis pour quelqu'un d’aussi talentueux que vous.\n\nCe test ne doit pas être pris à la légère, <nom>. Comme à de nombreuses occasions le long de notre chemin, il peut nous coûter la vie. L'Eglise doit maintenir son statut, mais elle comprend les sacrifices que les paladins font en son nom.\n\nVous êtes prêt ?",
+   "starters": [
+    {
+     "type": "item",
+     "id": 6776,
+     "name": "Tome of Valor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "zone_id": -141,
+   "level": 20,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 390,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1650": {
+   "id": 1650,
+   "name": "Le Tome de la bravoure",
+   "objectives": "Trouver Daphne Stilwell dans la marche de l'Ouest",
+   "description": "Bien ! Votre engouement est le signe que vous êtes <prêt/prête> et montre votre enthousiasme à commencer le test. Ainsi soit-il !\n\nA l'extrémité de Longrivage, dans la marche de l'Ouest, une petite maison donne sur l'océan. C’est la demeure du couple Stilwell. Jordan, un très bon forgeron, est parti à Ironforge voir les nains. Mais il a laissé Daphne, sa femme, seule et sans protection.\n\nDes rapports disent que les Défias ont envahi cette zone : Daphne aura peut-être besoin de protection. Allez là-bas.",
+   "progress": null,
+   "completion": "Bonjour, <nom>. A voir votre armure et vos armes, j'en déduis soit que vous avez l’intention de voler mes terres, soit que l'Eglise m'a enfin envoyé quelqu'un pour me protéger pendant l'absence de Jordan.\n\nBien, laissez-moi me présenter : je suis Daphne Stilwell. C'est un plaisir.\n\nEh bien, vous n'êtes pas trop en retard. . . J'ai seulement occis une demi-douzaine de cette racaille depuis ce matin. Ils ont fait un détour pour venir ici, ce qui les a ralentis, mais maintenant qu'ils vous ont vu arriver, ils vont rappliquer ici dans quelques minutes.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6182,
+     "name": "Daphne Stilwell"
+    }
+   ],
+   "zone_id": -141,
+   "level": 23,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 1850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1651": {
+   "id": 1651,
+   "name": "Le Tome de la bravoure",
+   "objectives": "Défendez Daphne Stilwell contre les attaques des Défias.\n\nAucun de vous deux ne doit mourir, si vous voulez réussir la quête.\n\nQuand vous aurez réussi, reparlez à Daphne Stilwell.",
+   "description": "Je suis sûre qu'ils seront là dans peu de temps maintenant, préparez-vous.\n\nJ'ai une arme à la maison. Je vais la chercher et je reviens vous donner un coup de main, mais vous allez devoir faire le plus gros du travail j'en ai peur.\n\nJe n'ai aucune idée de leur nombre, mais pour sûr ils seront plus nombreux que la dernière fois.\n\nPriez la Lumière de vous accorder ses faveurs parce que... Vous avez entendu ça ? Je pense qu'ils arrivent.\n\nNous allons nous replier près de la maison !",
+   "progress": "Nous prendrons position à côté de la maison !",
+   "completion": "Nous avons réussi, <nom> ! Merci de votre aide. Vous avez été vraiment incroyable. Je n'aurais jamais cru qu'un <classe> puisse contenir autant d'ennemis à la fois.\n\nVous avez montré votre bravoure face à cette force écrasante.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6182,
+     "name": "Daphne Stilwell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6182,
+     "name": "Daphne Stilwell"
+    }
+   ],
+   "zone_id": -141,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 1000,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1652": {
+   "id": 1652,
+   "name": "Le Tome de la bravoure",
+   "objectives": "Parler à Duthorian Rall à Stormwind.",
+   "description": "S'il vous plaît, retournez voir Duthorian et dites-lui que je suis saine et sauve. Et c'est grâce à vous et à l'Eglise.\n\nJe vais envoyer un mot à Jordan à Ironforge pour lui dire de ne pas s'inquiéter. Oh qu'il me manque ! J'ai hâte qu'il revienne.",
+   "progress": null,
+   "completion": "Alors, nous nous rencontrons à nouveau, <nom>, et vous êtes en grande forme, à ce que je vois.\n\nLa maison des Stilwell est hors de danger pour l'instant, et d'après votre rapport le danger n'était pas des moindres. Félicitations !\n\nDaphne et Jordan ont beaucoup aidé l'Eglise, et protéger leur ferme (et leur vie) était le moins que l'on puisse faire.\n\nVotre bravoure sera récompensée.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6182,
+     "name": "Daphne Stilwell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "zone_id": -141,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 2550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1653": {
+   "id": 1653,
+   "name": "Le test de droiture",
+   "objectives": "Parler à Jordan Stilwell à Ironforge",
+   "description": "Je pense que Jordan voudra vous remercier lui-même, et comme j'ai besoin de quelqu'un pour lui porter le message disant que sa femme est en sécurité, ce serait bien que vous le lui apportiez.\n\nJordan a été un paladin de la Lumière avant que son dévouement au métier de son père le fasse changer de voie. Il connaît nos coutumes et il est considéré parmi nos meilleurs fidèles.\n\nIl doit être encore à Ironforge. Dans la journée, il aime travailler hors de l'enceinte de la ville, sans doute pour profiter du grand air de la montagne.",
+   "progress": null,
+   "completion": "Bonjour, <nom>. La Lumière est avec vous, n'est-ce pas ?\n\nQu'est-ce donc ? Duthorian vous envoie ? Ma femme, comment va-t-elle ? Je savais qu'il y aurait des problèmes si je partais. Dites-moi qu'elle. . . Que la Lumière soit louée ! Je suis si content qu'elle soit saine et sauve. Les Défias étaient une menace bien avant ces attaques, maintenant les conseillers du roi ne peuvent plus le nier.\n\nQu'est-ce que Duthorian voulait me dire d'autre ?\n\nC'est vous qui avez protégé ma femme ? Alors je vous remercie deux fois plus, <nom>. On ne peut avoir de meilleur test de bravoure.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6181,
+     "name": "Jordan Stilwell"
+    }
+   ],
+   "zone_id": -141,
+   "level": 21,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 830,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1654": {
+   "id": 1654,
+   "name": "Le test de droiture",
+   "objectives": "Utiliser les Notes sur les armes de Jordan, trouver du Bois de chêne de blanchepierre, la Cargaison de Minerai raffiné de Bailor, le Marteau de forge de Jordan et une Gemme de Kor, puis revenir voir Jordan Stilwell à Ironforge.",
+   "description": "J'aimerais vous récompenser, si vous voulez bien l'accepter ? Ne vous y trompez pas, ma générosité sera tributaire de votre contribution, mais je sens que cette association sera bénéfique pour nous deux.\n\nJe vous fabriquerai une arme à la hauteur de vos actions, un symbole des paladins et de la Lumière, mais vous devez me procurer les composants dont j'ai besoin pour la forger. J'ai déjà fait la liste de ce qui est nécessaire, il manquait juste une personne de qualité comme vous pour me les procurer. Qu'en pensez-vous, <classe> ?",
+   "progress": "Les objets de la liste sont très difficiles à se procurer, mais je vous assure que l'arme que je vais vous fabriquer en vaut la peine.\n\nCela sera mon chef-d'œuvre, mais ce sera bien peu de chose en comparaison de ce que vous, vous avez fait pour moi.",
+   "completion": "C'est formidable ! Vous avez récupéré tout ce dont j'ai besoin.\n\nJe ne vais pas avoir de mal à vous forger une merveilleuse arme. J'avais l'intention d’en faire une un jour, mais je n'avais jamais réussi à réunir tous les composants. Merci, <nom>.\n\nÇa fait du bien d'avoir à nouveau le marteau de mon père. . . Et une Gemme de Kor, je n'avais jamais pensé en voir une un jour.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6181,
+     "name": "Jordan Stilwell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6181,
+     "name": "Jordan Stilwell"
+    }
+   ],
+   "zone_id": -141,
+   "level": 22,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 2200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1655": {
+   "id": 1655,
+   "name": "Cargaison de minerai de Bailor",
+   "objectives": "Apporter la Cargaison de minerai de Jordan à Bailor Stonehand au Loch Modan.",
+   "description": "Ach, vous m'avez fait peur <homme/femme> ! Vous ne pouviez pas remarquer que j'étais perdu dans mes pensées ?\n\nQu'est-ce que c'est ? La cargaison de Jordan... pour Ironforge. Ahhh, ouais, j'vois de quoi vous parlez ! Les ogres Mo'grosh... z'ont volé la cargaison de minerai d'mon vieil ami. La caravane venant des Paluns a été attaquée. Le garde qui avait survécu est mort il y a quelques jours : le soigneur n'est pas arrivé à temps.\n\nSi vous voulez la cargaison, faut que vous alliez au nord-est à travers le Loch. Elle est quelque part par là.",
+   "progress": "Alors, z'avez eu de la chance ? Ha ha ! Sont pas commodes ces ogres, hein ?",
+   "completion": "Hé hé, le voilà ! Ah ! Si j'avais su que vous alliez dehors combattre ces ogres, j'vous aurais donné une petite liste de choses dont j'ai besoin. Mais bon, vous n'êtes pas là pour faire des affaires avec moi, hein ?.\n\nUn marché est un marché ; Jordan voulait un chargement de mon alliage et il va l'avoir.\n\nDites-lui bonjour de ma part, et faites attention à vous, <classe>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6241,
+     "name": "Bailor Stonehand"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6241,
+     "name": "Bailor Stonehand"
+    }
+   ],
+   "zone_id": -141,
+   "level": 22,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 435,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "homme/femme"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1661": {
+   "id": 1661,
+   "name": "Le Tome de noblesse",
+   "objectives": "Parler à Duthorian Rall, à Stormwind.",
+   "description": "Encore bonjour, <nom>. Je suis encore plus fier de vous appeler <frère/soeur> qu’avant ; votre dévouement est une bénédiction pour nous tous.\n\nLe temps est venu de vous accorder une grande récompense. Sachez que je vous donne cela gratuitement, mais que plus tard, les défis qu’auront à accomplir les paladins qui voudront réaliser mes quêtes seront autrement plus exigeants.\n\nReparlez-moi plus tard et je vous accorderai une grande faveur.",
+   "progress": null,
+   "completion": "Félicitations ! Que la Lumière vous protège.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "zone_id": -141,
+   "level": 40,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "frère/soeur",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1778": {
+   "id": 1778,
+   "name": "Le Tome de divinité",
+   "objectives": "Parler à Tiza Battleforge à Ironforge.",
+   "description": "Je vais devoir rentrer chez moi le plus rapidement possible. Heureusement, Stephanie fait de même pour rentrer à Stormwind. J'ai hâte de la revoir. A bientôt, <classe>.",
+   "progress": null,
+   "completion": "Alors, vous revenez bien vite, hein ? Et qu'avez-vous accompli pendant ce temps ?\n\nAvez-vous participé à de nobles causes ? Vous avez peut-être appris la valeur de la charité ou compris votre devoir envers les citoyens d'Azeroth. Racontez-moi, qui avez-vous aidé et comment. . . . Impressionnant, <nom>, ce sont là, assurément, les actes d'une personne qui suit le chemin de la Lumière.\n\nCe genre de sacrifice est toujours récompensé un jour ou l'autre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6175,
+     "name": "John Turner"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6179,
+     "name": "Tiza Battleforge"
+    }
+   ],
+   "zone_id": -141,
+   "level": 13,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 230,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1779": {
+   "id": 1779,
+   "name": "Le Tome de divinité",
+   "objectives": "Prendre le Symbole de vie et parler à Muiredon Battleforge à Ironforge.",
+   "description": "Je veux que vous preniez ceci, <nom>. Cela s'appelle le Symbole de vie.\n\nVous avez montré que vous étiez charitable et <patient/patiente>, maintenant je veux que vous me montriez votre pouvoir et vos talents au combat en tant qu'adepte.\n\nMuiredon, mon mari, a rencontré récemment des nains Sombrefer, et il s'en est sorti de justesse. Il est à Ironforge, aux bons soins d’un de nos prêtres.\n\nPrenez le Symbole et parlez-lui. Si vous pouvez l'aider, alors nous nous reparlerons bientôt. Que la Lumière soit avec vous !",
+   "progress": null,
+   "completion": "*Toux*\n\nBonjour à vous, <classe>. Ne vous inquiétez pas pour mes blessures, ce bon prêtre ici s'en est occupé à temps. Je n'aurai pas besoin de ce Symbole de vie que vous avez apporté, pas encore.\n\nAlors ma femme vous a demandé de venir me parler ? Très bien. Je vais prendre le temps de vous parler : je vais vous raconter ce qui est arrivé à Muiredon et à son meilleur ami Narm, un <classe> comme vous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6179,
+     "name": "Tiza Battleforge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6178,
+     "name": "Muiredon Battleforge"
+    }
+   ],
+   "zone_id": -141,
+   "level": 13,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "patient/patiente"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1780": {
+   "id": 1780,
+   "name": "Le Tome de divinité",
+   "objectives": "Parler à Duthorian Rall à Stormwind.",
+   "description": "J'amènerai ça aux enfants dès aujourd'hui. Merci beaucoup, <classe>. Il est rare de nos jours qu'<un homme/une femme> de votre trempe se montre dans cette ville, mais vous avez prouvé que les paladins à Stormwind ne tourneront jamais le dos à ceux qui sont dans le besoin.\n\nAdieu.",
+   "progress": null,
+   "completion": "Vous êtes revenu si vite, <nom>. Et qu'avez-vous accompli pendant votre absence de la cathédrale ?\n\nAvez-vous aidé une noble cause ? Peut-être avez-vous appris la valeur de la charité ou mieux compris vos obligations envers les citoyens d'Azeroth. Dites-moi, qui avez-vous aidé et comment.... Eh bien, je suis impressionné, <nom>, ce sont certainement les actions de quelqu'un qui suit la Lumière et qui valorise les autres avant soi-même.\n\nUn tel sacrifice sera toujours récompensé en temps voulu.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6174,
+     "name": "Stephanie Turner"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "zone_id": -141,
+   "level": 13,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 230,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "un homme/une femme"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1781": {
+   "id": 1781,
+   "name": "Le Tome de divinité",
+   "objectives": "Porter le Symbole de vie à Gazin Tenorm à Stormwind.",
+   "description": "Je veux que vous preniez ceci, <nom>. Cela s'appelle un Symbole de vie.\n\nVous avez montré que vous étiez charitable et <patient/patiente>, et maintenant il est temps de savoir si vous avez la puissance nécessaire pour contrôler un des plus grands dons de la Lumière.\n\nMon ami Gazin a croisé récemment des Défias à Elwynn près de la Veillée des héros – il s'en est sorti de justesse. Il est près de l'autel en train de se faire soigner par un de nos prêtres.\n\nPrenez le Symbole et parlez-lui. Si vous pouvez l'aider, alors nous nous reparlerons bientôt. Que votre chemin soit éclairé par la Lumière !",
+   "progress": null,
+   "completion": "*toux*\n\nRavi de vous rencontrer, <classe>. Ne vous inquiétez pas pour mes blessures, ce bon prêtre s'en est occupé à temps. Je n'aurai pas besoin de ce Symbole de vie que vous avez apporté, pas encore.\n\nAlors, Duthorian vous a demandé de venir me parler, hein ? Gentil de sa part. Je vous raconterai ce qui nous est arrivé à moi et à mon ami Henze. Avec de la chance, et vos compétences, vous pourrez peut-être nous aider.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6173,
+     "name": "Gazin Tenorm"
+    }
+   ],
+   "zone_id": -141,
+   "level": 13,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "patient/patiente"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1783": {
+   "id": 1783,
+   "name": "Le Tome de divinité",
+   "objectives": "Prendre le Symbole de vie et ressusciter Narm Faulk dans Dun Morogh.",
+   "description": "J'espionnais des nains Sombrefer qui se terrent au sud du lac du Lit d'Helm. Nous savions qu'ils n'étaient pas là pour rien, alors Narm et moi nous nous sommes rapprochés – assez près pour voir leur chef donner des ordres à ses hommes.\n\nNarm et moi nous avons tenté d'en tuer quelques-uns, mais ils se sont révélés plus résistants que nous le pensions, et beaucoup plus nombreux. Narm m'a dit de partir et de ramener du renfort, donc voilà pourquoi je suis là.\n\nNarm a besoin d'aide, et je ne me reposerai pas tant qu'il n'en n'aura pas trouvé.\n\nAllez-vous m'aider, <nom> ?",
+   "progress": null,
+   "completion": "Je ne sais pas comment vous remercier, frère.\n\nParce que vous avez le Symbole de vie, je suppose que c'est Tiza et Muiredon qui vous ont envoyé.\n\nC'est vrai, je suis tombé sur les Sombrefer alors que j'essayais de parvenir à un de leurs scripts. J'ai réussi à tenir assez longtemps pour permettre à Muiredon de s'échapper, mais la Lumière m'avait accueilli depuis longtemps quand vous êtes arrivé. Le fait que vous ayez été assez puissant pour utiliser le Symbole signifie de bonnes choses pour vous, mais nous aurons le temps d'en parler plus tard.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6178,
+     "name": "Muiredon Battleforge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6177,
+     "name": "Narm Faulk"
+    }
+   ],
+   "zone_id": -141,
+   "level": 13,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 680,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1784": {
+   "id": 1784,
+   "name": "Le Tome de divinité",
+   "objectives": "Récupérer un Script des nains Sombrefer près du lac du Lit d'Helm et le rapporter à Muiredon Battleforge à Ironforge.",
+   "description": "Avant de tomber, Muiredon et moi avions presque vaincu un des espions Sombrefer près de cette petite maison. Nous avons vu le capitaine leur passer des ordres, et nous avons cherché à le tuer pour récupérer ces ordres.\n\nCertaines personnes au conseil d'Ironforge ne croient pas à la présence des Sombrefer à Dun Morogh. En récupérant un de ces scripts, nous aurions non seulement la preuve de leur présence ici, mais nous aurions aussi une idée de ce qu'ils trament.\n\nRécupérez un de ces scripts et rapportez-le à Muiredon, <nom>.",
+   "progress": "Vous êtes de retour ! Je suis content de vous voir, <nom>. Mes blessures sont guéries et je suis prêt à repartir pour le lac du Lit d'Helm dès que j'aurai convaincu ma femme que je vais bien.",
+   "completion": "Ha ha ! Vous l'avez fait ! Vous avez sauvé Narm, et vous avez la preuve dont ma femme a besoin d'apporter au conseil. Vous êtes le meilleur représentant de la Lumière que j’ai jamais rencontré. . . sans compter ma femme bien sûr.\n\nMerci encore, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6177,
+     "name": "Narm Faulk"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6178,
+     "name": "Muiredon Battleforge"
+    }
+   ],
+   "zone_id": -141,
+   "level": 13,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 680,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1785": {
+   "id": 1785,
+   "name": "Le Tome de divinité",
+   "objectives": "Parler à Tiza Battleforge à Ironforge.",
+   "description": "J'peux déjà voir l'visage d'ma femme s'illuminer de fierté. Vous devriez bouger vot'postérieur tout de suite et aller la voir. J'pense qu'elle aura des choses à vous dire.\n\nLa Lumière soit avec vous, <classe> ! Je vous reverrai sur l'champ de bataille contre le Fléau et ces damnés Sombrefer quand le temps viendra.",
+   "progress": null,
+   "completion": "Vous avez rendu un grand service à Ironforge aujourd'hui, <nom>. Je suis fière de vous compter parmi nous et si vous vous sentez prêt, je vous remets ce parchemin. Le Symbole de vie a fonctionné parce qu’il était entre les mains d’un <classe> prêt à recevoir un des plus grands dons de la Lumière : le pouvoir de ramener un mort à la vie.\n\nJe vous enseignerai comment ressusciter vos compagnons. Utilisez-le sagement, <nom>, et merci, en mon nom, celui de mon mari et celui d'Ironforge.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6178,
+     "name": "Muiredon Battleforge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6179,
+     "name": "Tiza Battleforge"
+    }
+   ],
+   "zone_id": -141,
+   "level": 13,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 1150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1786": {
+   "id": 1786,
+   "name": "Le Tome de divinité",
+   "objectives": "Apporter le Symbole de vie et ressusciter Henze Faulk à Elwynn.",
+   "description": "Henze et moi sommes allés à la Veillée des héros, une île au milieu du lac du Cairn au nord-est d'Elwynn. Nous avions entendu dire que des Défias avaient infiltré nos frontières et nous voulions le prouver aux conseillers du roi.\n\nNous en avons surpris en possession de documents, et nous les avons attaqués. Malheureusement, nous avons été rapidement submergés par des mages.\n\nHenze les a retenus pendant que je m'enfuyais... C’était cinglé de sa part, mais il était brave.\n\nIl est mort à présent. Pourriez-vous nous aider, <nom> ?",
+   "progress": null,
+   "completion": "Merci, frère.\n\nPuisque vous détenez ce Symbole de vie, je suppose que vous êtes envoyé par Duthorian ou Gazin ?\n\nJe suis tombé sous les coups des mages défias tandis que Gazin et moi essayions de leur voler des documents. J'ai pu tenir assez longtemps pour permettre à Gazin de s'échapper, mais finalement leur magie a eu raison de moi.\n\nMais vous m’avez ramené ! Maîtriser le Symbole n'est pas donné à tout le monde, <nom>. Cela présage bien pour vous d'avoir pu l'activer grâce à votre foi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6173,
+     "name": "Gazin Tenorm"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6172,
+     "name": "Henze Faulk"
+    }
+   ],
+   "zone_id": -141,
+   "level": 13,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 680,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1787": {
+   "id": 1787,
+   "name": "Le Tome de divinité",
+   "objectives": "Retrouver un Script Défias sur les Sorciers-voleurs défias d'Elwynn et le rapporter à Gazin Tenorm à Stormwind.",
+   "description": "Nous aurons le temps de parler du Symbole plus tard. Ce qui importe c'est de récupérer les papiers que les Défias avaient sur eux. Si nous pouvons mettre la main dessus, nous serons en mesure de prouver que la Confrérie a infiltré Elwynn et nous aurons une idée de ce qu'elle trame.\n\nJe ne suis pas assez remis pour combattre maintenant, <nom>. Pensez-vous pouvoir récupérer <seul/seule> ces papiers dans l'île ?\n\nSi vous pouvez les récupérer, apportez-les à Gazin et dites-lui que je vais bien.",
+   "progress": "Est-ce que Henze est sauf, <nom> ? Avez-vous réussi ?\n\nEntre vos talents au combat et le pouvoir de la Lumière, j'imagine que la Veillée des héros est débarrassée de la menace des Défias, mais ça, c'est au roi et à ses conseillers qu’il faut le dire.",
+   "completion": "Merveilleux ! Vous l'avez fait, et vous avez sauvé Henze. La Lumière est assurément avec vous, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6172,
+     "name": "Henze Faulk"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6173,
+     "name": "Gazin Tenorm"
+    }
+   ],
+   "zone_id": -141,
+   "level": 13,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 680,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "seul/seule"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1788": {
+   "id": 1788,
+   "name": "Le Tome de divinité",
+   "objectives": "Parler à Duthorian Rall à Stormwind.",
+   "description": "Je vais porter le Script aux conseillers du roi après que Duthorian y aura jeté un coup d'oeil, ensuite allez parler à Duthorian. Il voudra sûrement vous féliciter !\n\nMerci encore, <nom>. J'espère que l'on se reverra. Je suis fier de vous avoir comme <allié/alliée>... et comme <ami/amie>.",
+   "progress": null,
+   "completion": "Vous avez fait du bon travail aujourd'hui, <nom>. Vous devez être fier de ce que vous avez accompli.\n\nEt même plus, vous devez être fier de vos compétences. Il n'est pas donné à tout le monde de pouvoir utiliser le Symbole de vie. Implorer la Lumière pour ramener quelqu'un d'entre les morts signifie que vous êtes prêt à recevoir l'un des plus grands honneurs qu'un <classe> puisse connaître : le pouvoir de résurrection.\n\nVous avez le pouvoir de ramener à la vie vos compagnons tombés au combat, comme vous l'avez fait pour Henze.\n\nPartez en paix, <nom>. Que la Lumière brille sur vous et recevez-la en votre sein.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6173,
+     "name": "Gazin Tenorm"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "zone_id": -141,
+   "level": 13,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 1150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "allié/alliée",
+    "ami/amie",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1789": {
+   "id": 1789,
+   "name": "Le Symbole de vie",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Faites vite, <nom>, plus d'une vie est en jeu si vous échouez.\n\nSi, pour une raison ou une autre, tu ne parviens pas à aider Muiredon et Narm, reviens me voir et je te donnerai un autre symbole de vie pour tes voyages.\n\nNe prends pas mon aide pour de la simple charité, tu dois te montrer digne comme n'importe quel autre <classe> et un échec continu pourrait se répercuter sur toi plus tard.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6179,
+     "name": "Tiza Battleforge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6179,
+     "name": "Tiza Battleforge"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1790": {
+   "id": 1790,
+   "name": "Le Symbole de vie",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Hâtez-vous, <nom>, de nombreuses vies seront en danger si vous échouez.\n\nSi pour une raison quelconque vous n'arrivez pas à aider Gazin et Henze, revenez me voir et je vous donnerai un autre Symbole de vie pour cette entreprise.\n\nNe prenez pas cela pour de la charité : vous devez prouver que vous êtes un <classe> aussi brave que les autres, et des échecs répétés auraient des répercussions plus tard.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1793": {
+   "id": 1793,
+   "name": "Le Tome de la bravoure",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Il a été prouvé que la Lumière était avec vous, <nom>, mais en ces temps de grands dangers, il est primordial de savoir quelles sont vos forces. Parce que des démons, des dragons et toutes sortes de créatures malfaisantes convoitent nos terres, votre courage sera mis à l'épreuve. Serez-vous assez fort ?\n\nLa bravoure, quelle que soit la situation, est une part importante de la voie du <classe>, au même titre que la Lumière, votre armure et votre arme. Quand vous étudiez dans la cathédrale de la Lumière, les deux leçons que vous devez apprendre sont : protéger les faibles et ne jamais perdre la foi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "zone_id": -141,
+   "level": 20,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1794": {
+   "id": 1794,
+   "name": "Le Tome de la bravoure",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Il a été prouvé que la Lumière est avec vous, <nom>, mais à mesure que les temps deviennent plus dangereux, il devient important de savoir quelle force se cache sous la chair. Lorsque des démons, des dragons ou d'autres créatures maléfiques fouleront vos terres, votre courage sera mis à l'épreuve. Serez-vous assez fort ?\n\nLa bravoure, quelle que soit la situation, fait autant partie de la condition de paladin que la lumière, l'armure et l'arme. Protéger les faibles et ne pas perdre la foi sont deux autres leçons que vous devez maîtriser pendant vos études à la Cathédrale de la Lumière.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6179,
+     "name": "Tiza Battleforge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6179,
+     "name": "Tiza Battleforge"
+    }
+   ],
+   "zone_id": -141,
+   "level": 20,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "1806": {
+   "id": 1806,
+   "name": "Le test de droiture",
+   "objectives": "Attendre que Jordan Stilwell finisse de forger votre arme.",
+   "description": "Pourquoi n'irions-nous pas à la forge pour commencer ? J'ai préparé votre arrivée depuis quelque temps déjà et tout devrait être prêt.\n\nAprès cela, vous serez mieux <préparé/préparée> que jamais pour défendre la Lumière, je vous le promets.\n\nJe dois vous avouer, <nom>, que je suis un peu envieux de votre réussite. Mais sachez que de pouvoir participer à ma manière à cette réussite me remplit d'aise.",
+   "progress": null,
+   "completion": "Et voilà, <nom>. Une arme que mérite un serviteur de la Lumière tel que vous. Je l'ai baptisée en mémoire d'un ami, un célèbre <classe> nain. Il s'appelait Verigan. . . Bosch Verigan. Prenez-la en mon nom et celui de ma femme, nous vous devons tant. Le monde va devenir plus sûr maintenant que vous êtes là…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6181,
+     "name": "Jordan Stilwell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6181,
+     "name": "Jordan Stilwell"
+    }
+   ],
+   "zone_id": -141,
+   "level": 22,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 2200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "préparé/préparée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2997": {
+   "id": 2997,
+   "name": "Le Tome de divinité",
+   "objectives": "Parler à Tiza Battleforge à Ironforge.",
+   "description": "Bonjour, <nom>. Je sais que vous êtes très <occupé/occupée> à aider les gens de Dun Morogh, mais si vous avez le temps, allez jusqu'à Ironforge pour parler à la vénérable Tiza Battleforge. Les plus jeunes de nos paladins vont la voir lorsqu'ils veulent en apprendre plus sur la Lumière et sur ce que l'on attend d'eux.\n\nVous la trouverez à l'étage du Hall des Mystères qui se trouve dans la Garde mystique. Bonne chance, <nom>.",
+   "progress": null,
+   "completion": "Bien vu, <nom>. J'espère que la Lumière te montrera le vrai chemin et te gardera à l'abri du mal.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1232,
+     "name": "Azar Stronghammer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6179,
+     "name": "Tiza Battleforge"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 90,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "occupé/occupée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2998": {
+   "id": 2998,
+   "name": "Le Tome de divinité",
+   "objectives": "Parler à Duthorian Rall à Stormwind.",
+   "description": "Salutations ! Duthorian Rall, l'un de nos paladins les plus influents, parlait de vous récemment. Je l'ai entendu dire qu'il était temps que vous soyez <mis/mise> à l'épreuve... Ainsi que des compliments vous concernant.\n\nJe vous conseille de vous rendre à Stormwind et de lui parler. Je pense que vous le trouverez dans la cathédrale de la Lumière, où il passe le plus clair de son temps.",
+   "progress": null,
+   "completion": "Stormwind est belle, n'est-ce pas ?\n\nVous venez à point, si j'ose dire, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 927,
+     "name": "Frère Wilhelm"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 225,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mis/mise"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2999": {
+   "id": 2999,
+   "name": "Le Tome de divinité",
+   "objectives": "Parler à Tiza Battleforge, à Ironforge.",
+   "description": "Bonjour, <nom>. Je sais que vous êtes très <occupé/occupée> à aider les gens de Dun Morogh, mais si vous avez le temps, allez jusqu'à Ironforge pour parler à la vénérable Tiza Battleforge. Les plus jeunes de nos paladins vont la voir lorsqu'ils veulent en apprendre plus sur la Lumière et sur leurs obligations.",
+   "progress": null,
+   "completion": "Salut, <nom>. J'espère que la Lumière est de votre côté et qu'elle vous protège du mal.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5149,
+     "name": "Brandur Ironhammer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6179,
+     "name": "Tiza Battleforge"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 90,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "occupé/occupée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3000": {
+   "id": 3000,
+   "name": "Le Tome de divinité",
+   "objectives": "Parler à Tiza Battleforge à Ironforge.",
+   "description": "Bonjour, <nom>. Je sais que vous êtes très <occupé/occupée> à aider les gens d'Azeroth, mais si vous avez le temps, retournez à Ironforge et parlez à l'une de nos paladins les plus respectés, Tiza Battleforge. Nos jeunes paladins nains vont la consulter quand ils veulent en apprendre plus au sujet de la Lumière et sur ce que l'on attend d'eux.\n\nVous la trouverez à l'étage du Hall des Mystères qui se trouve dans la Garde mystique.",
+   "progress": null,
+   "completion": "Je vous salue et vous souhaite la bienvenue, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 928,
+     "name": "Seigneur Grayson Shadowbreaker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6179,
+     "name": "Tiza Battleforge"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 225,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "occupé/occupée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3101": {
+   "id": 3101,
+   "name": "Lettre consacrée",
+   "objectives": "Lire la Lettre consacrée, et parler à Frère Sammuel, à l’Abbaye de Northshire.",
+   "description": "On m'a demandé de vous remettre cela dès que vous seriez de retour des camps des kobolds, <nom>. Il s'agit d'une lettre portant le sceau de frère Sammuel, notre Maître des paladins local. À votre place, je n'hésiterais pas à la lire avant de faire quoi que ce soit d'autre, ici, dans l'abbaye.",
+   "progress": "Enfin ! Nous nous rencontrons, de frère à frère. Bienvenue à Northshire. Vous y séjournerez le temps d'apprendre nos techniques, mais sachez que Stormwind n'est pas très loin et que tôt ou tard vos pas vous y mèneront. En attendant, usez de patience. . . Chevalier de la Main d'Argent.",
+   "completion": "Par ailleurs, une ou deux choses à savoir. Pour beaucoup sur cette terre vous êtes un modèle : agissez en conséquence. Le Feu Sacré brille à travers vous et cela sera visible autant pour vos alliés que vos ennemis.\n\nAussi, à mesure que vous gagnerez en sagesse et en puissance, vous aurez besoin de vous former à de nouvelles techniques. C'est là que j'interviens. Quand vous sentirez que vous aurez gagné en expérience ici à Northshire, revenez me voir et je vous enseignerai ce que vous pourrez apprendre. Bonne chance. . . <classe> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 197,
+     "name": "Maréchal McBride"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 925,
+     "name": "Frère Sammuel"
+    }
+   ],
+   "zone_id": -141,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3107": {
+   "id": 3107,
+   "name": "Rune consacrée",
+   "objectives": "Lire la Rune consacrée, et parler à Bromos Grummner, dans la Vallée des Frigères.",
+   "description": "Pendant que vous m'aidiez, on m'a donné cette rune pour vous. Prenez le temps de la lire. Je pense qu'elle provient du Maître des paladins, Bromos. Jetez-y un coup d'oeil et allez le retrouver, à l'intérieur d'Anvilmar, quand vous en aurez le temps.",
+   "progress": "Donc vous voici ! Pile au bon moment. Il y a beaucoup à faire dans la Vallée des Frigères et au-delà. Je vais avoir besoin de votre aide au moins autant que vous aurez besoin de la mienne !\n\nVous êtes un chevalier de la Main d'Argent désormais, préparez-vous à jouer votre rôle.",
+   "completion": "Les humains nous ont appris des tas de choses sur le Feu Sacré et à quel point cet ordre était important pour eux. . . et pour la protection d'Azeroth. Nous avons beaucoup de respect pour cette tradition bien ancrée. D'une seule action, d'un seul sacrifice peut dépendre la douleur ou le salut.\n\nNous allons travailler ensemble pour un petit moment. Revenez me voir quand vous voudrez vous entraîner. Il ne faudrait pas partir à l'inconnu sans préparation, n'est-ce pas ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 658,
+     "name": "Sten Stoutarm"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 926,
+     "name": "Bromos Grummner"
+    }
+   ],
+   "zone_id": -141,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 40,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3681": {
+   "id": 3681,
+   "name": "Le Tome de divinité",
+   "objectives": "Parler à Duthorian Rall à Stormwind.",
+   "description": "Il me navre d'interrompre vos voyages, <nom>, mais je pense que vous serez <intéressé/intéressée> d'apprendre que Stormwind a récemment envoyé un message disant que tous les paladins devaient s'y rendre pour y être entraînés.\n\nSi je n'en savais pas plus, je dirais que vous êtes sur le point d'atteindre un certain stade et qu'il est temps pour vous de commencer l'étude des Tomes.\n\nCherchez Duthorian Rall à Stormwind. D'habitude, il enseigne aux paladins dans la cathédrale de la Lumière.",
+   "progress": null,
+   "completion": "Bienvenue à la cathédrale de lumière, <classe>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5149,
+     "name": "Brandur Ironhammer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 225,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "intéressé/intéressée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4485": {
+   "id": 4485,
+   "name": "Le Tome de noblesse",
+   "objectives": "Parler à Duthorian Rall, à Stormwind.",
+   "description": "Salut, <nom>. Je vois que votre dévouement et votre foi restent forts.\n\nIl faut maintenant que vous parliez à Duthorian Rall, à Stormwind. Vous ne connaissez pas tout et je sens que le temps est venu pour un nouvel apprentissage.\n\nVous le trouverez dans la Cathédrale de la Lumière. Prenez ces leçons très au sérieux, <nom>. Vous avez atteint votre niveau actuel grâce à votre humilité et votre travail acharné, ne nous décevez pas en devenant arrogant.\n\nBonne chance.",
+   "progress": null,
+   "completion": "Ah, vous êtes revenu à la cathédrale, <nom>. C'est bien. Il s'est passé beaucoup de choses récemment, et j'aimerais que vous m'aidiez si vous vous en montrez digne.\n\nDe nombreux ennemis perfides sont dans les parages. J'ai besoin de votre aide pour les arrêter.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6179,
+     "name": "Tiza Battleforge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "zone_id": -141,
+   "level": 40,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 315,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4486": {
+   "id": 4486,
+   "name": "Le Tome de noblesse",
+   "objectives": "Parler à Duthorian Rall, à Stormwind.",
+   "description": "Bien, bien, bien, regardez-moi ce paladin, toute cette prestance.\n\n<nom>, je ne pensais pas à mal... je ressens juste l’aiguillon de la jalousie de temps en temps quand je vois quels exploits vous avez accomplis. Tiza me dit que telle est ma faiblesse et m’a fait promettre de travailler sur moi ; ce qui est dur, voyez-vous ?\n\nMais je voulais surtout vous parler parce que Duthorian Rall, à Stormwind, a demandé que vous le rejoigniez dans la cathédrale de la Lumière. Cela semblait important et urgent.",
+   "progress": null,
+   "completion": "Ah, vous êtes de retour à la Cathédrale, <nom>. Bien. Je pourrais avoir besoin de votre aide si vous avez assez de courage.\n\nNous sommes confrontés à de nombreux ennemis. J'ai besoin de vous pour les arrêter.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5149,
+     "name": "Brandur Ironhammer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "zone_id": -141,
+   "level": 40,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 315,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7637": {
+   "id": 7637,
+   "name": "L'accent sur le sacrifice",
+   "objectives": "Rendez-vous à Ironforge et procurez-vous l’Encensoir d’exorcisme du grand prêtre Rohan. Pour vous le procurer, il vous faudra verser une donation de 150 pièces d’or.",
+   "description": "Pour vous préparer à cette tâche, vous devez vous faire preuve de jugeote et d'esprit de sacrifice… en mettant l’accent sur ce dernier aspect.\n\nVous devez vous procurer l’Encensoir d’exorcisme du grand prêtre Rohan. Bien sûr, il ne vous servira que pour de bonnes et justes raisons, mais vous devrez néanmoins verser une compensation à son propriétaire.\n\nRendez-vous à Forgefer et parlez au grand prêtre. Le convaincre de le séparer de son encensoir vous coûtera une forte somme, mais cela montrera votre esprit de sacrifice.\n\nAllez maintenant, <nom>, le temps presse.",
+   "progress": "Je vous salue, noble <classe> ! J’ai garni mon encensoir de l’encens le plus frais et je l’ai béni par trois fois. Votre donation nous permettra non seulement de fabriquer un nouvel encensoir, mais aussi de compléter nos réserves de nourriture pour les nécessiteux d’Ironforge.",
+   "completion": "Soyez béni, ami <classe>. Votre don est largement supérieur à ce qui était nécessaire. Votre sacrifice nous aidera à récupérer ce que nous avons perdu, mais aussi à soulager les misères des pauvres gens d’Ironforge.\n\nÀ présent, laissez-moi m’assurer que j’ai préparé cet encensoir de manière à ce qu’il réponde à vos besoins…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 928,
+     "name": "Seigneur Grayson Shadowbreaker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11406,
+     "name": "Grandprêtre Rohan"
+    }
+   ],
+   "zone_id": -141,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7638": {
+   "id": 7638,
+   "name": "Le seigneur Grayson Shadowbreaker",
+   "objectives": "Parler au seigneur Grayson Shadowbreaker dans le Quartier de la cathédrale de Stormwind.",
+   "description": "<nom>, le temps est venu d'apprendre ce que vous devrez faire pour vous procurer quelque chose que vous attendez sans doute depuis un moment… votre destrier !\n\nAllez parler au seigneur Grayson Shadowbreaker, ici même, dans le Quartier de la cathédrale, à Hurlevent. Il vous apprendra à maîtriser la monture favorite des paladins. Et auparavant, il vous chargera de toutes les tâches que vous devrez accomplir pour vous en procurer un.\n\nJ'espère que votre épreuve se passera bien. Pour la Lumière, noble <frère/sœur> !",
+   "progress": null,
+   "completion": "Je suis content de vous voir, <nom>. Je sais que vous attendiez depuis longtemps que je vous explique comment vous procurer votre destrier, et le moment est venu.\n\nVous allez affronter de nombreuses épreuves, mais l'essentiel est que vous ayez la volonté de surmonter les obstacles qui vous attendent. Ce n’est pas un exercice – vous avez progressé bien au-delà des simples tests qui ont ponctué votre éducation. Vous devrez arracher votre futur compagnon aux griffes même du mal que vous avez passé votre vie à combattre\n\nÉcoutez bien, car votre heure a sonné !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6171,
+     "name": "Duthorian Rall"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 928,
+     "name": "Seigneur Grayson Shadowbreaker"
+    }
+   ],
+   "zone_id": -141,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "frère/sœur",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7639": {
+   "id": 7639,
+   "name": "Des preuves de jugement",
+   "objectives": "Ramener l’Encensoir d’exorcisme au seigneur Grayson Shadowbreaker, dans le Quartier de cathédrale de Stormwind.",
+   "description": "Prenez cet encensoir, avec ma bénédiction. Je l’ai utilisé lors de plusieurs exorcismes, et il vous rendra de grands services dans les tâches ardues qui vous attendent.\n\nRetournez voir le seigneur Grayson Brisombre à Hurlevent, <nom>. Votre quête continue avec lui.",
+   "progress": "Bon retour parmi nous, <nom>. Avez-vous acheté l'encensoir d'exorcisme ?",
+   "completion": "Oui, il conviendra. Au cours de cette affaire, vous aurez à accomplir plus d'un sacrifice. Je suis content de voir que vous en êtes capable. Le sacrifice est un élément clé dans ce qui est nécessaire pour remplir les devoirs d'un <classe>... Mais je n'ai pas besoin de vous sermonner là-dessus.\n\nÀ présent, <nom>, j'ai besoin que vous fassiez preuve de jugement. Cet encensoir sera votre canal pour dispenser votre jugement aux esprits torturés des régions que nous avons perdu.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11406,
+     "name": "Grandprêtre Rohan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 928,
+     "name": "Seigneur Grayson Shadowbreaker"
+    }
+   ],
+   "zone_id": -141,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7640": {
+   "id": 7640,
+   "name": "Exorciser Val-Terreur",
+   "objectives": "Servez-vous de l’Encensoir d’exorcisme pour chasser les esprits qui tourmentent Val-Terreur. Lorsque vous aurez tué 25 Esprits de Val-Terreur, retournez voir le seigneur Grayson Shadowbreaker dans le Quartier de la cathédrale de Stormwind.",
+   "description": "J’ai ajouté dans l’encensoir une pincée de la terre du sol corrompu de Val-Terreur, dans les Maleterres de l’est. Vous vous en servirez pour repérer les régions qui montrent des signes de troubles et de perturbations spirituelles. Cherchez les auras vertes qui imprègnent le sol là où le monde physique ploie sous les souffrances du monde des esprits. Puis servez-vous de l’encensoir pour chasser les esprits mauvais.\n\nLorsque vous aurez jugé assez d’esprits, nous serons prêts à continuer.",
+   "progress": "C’est bon de vous revoir, <nom>. Votre tâche à Val-Terreur est-elle accomplie ?",
+   "completion": "Très bien, <nom>. Passer le jugement de la Lumière sur ceux qui vivent dans les ténèbres est une tâche que nous devons accomplir avec zèle et énergie. Votre sacrifice à Ironforge et le jugement des esprits de Val-Terreur correspondent à cet idéal.\n\nPour votre prochaine étape, vous aurez besoin des deux. Vous allez devoir récupérer l’esprit d’un destrier mort qui, pour l’heure, sert le chevalier de la mort Ravassombre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 928,
+     "name": "Seigneur Grayson Shadowbreaker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 928,
+     "name": "Seigneur Grayson Shadowbreaker"
+    }
+   ],
+   "zone_id": -141,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7641": {
+   "id": 7641,
+   "name": "L'œuvre de Grimand Elmore",
+   "objectives": "Parlez à Grimand Elmore dans le Quartier des nains de Stormwind.",
+   "description": "Sans un caparaçon correct, un destrier de paladin n'est qu'un animal de bât. Pour créer un caparaçon, il faut les matériaux les plus précieux possibles. Le processus impose qu'il soit également harmonisé avec le monde des esprits.\n\nPour commencer, <nom>, nous allons nous occuper de sa fabrication. L'un des plus grands artisans vivants habite dans le Quartier des nains de Hurlevent. Il s'appelle Grimand Elmore. Son travail n'est pas bon marché, mais il est à la hauteur de cette tâche. Allez lui parler.",
+   "progress": null,
+   "completion": "Bien le bonjour, mon gars. Le seigneur Shadowbreaker m’a prévenu que vous alliez me rendre une petite visite. Je suis tout disposé à fabriquer votre caparaçon, mais autant vous le dire tout de suite, ce ne sera ni facile, ni bon marché.\n\nToutefois, je le dis tout net, et Grayson ne me contredira pas, vous ne trouverez pas de meilleurs caparaçons que les miens dans tout Azeroth.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 928,
+     "name": "Seigneur Grayson Shadowbreaker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1416,
+     "name": "Grimand Elmore"
+    }
+   ],
+   "zone_id": -141,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7642": {
+   "id": 7642,
+   "name": "Une ribambelle d'objets",
+   "objectives": "Apporter 40 Etoffes runiques, 6 Barres d’arcanite, 10 Larmes d’Arthas, 5 Fioles d’eau sacrée de Stratholme, et 150 pièces d’or à Grimand Elmore, au Quartier des nains de Stormwind.",
+   "description": "Vous aurez besoin de quatre choses pour le caparaçon : de l’étoffe runique pour la doublure, des barres d’arcanite pour l’armure, des larmes d’Arthas pour l’accord spirituel et de l’eau sacrée de Stratholme pour l’imprégnation spirituelle. Ah, non, en fait, cinq choses… Et de l’or pour me payer. Il couvrira les dépenses pour mon travail, une selle et des étriers faits main.\n\nQuand vous aurez tout cela, je pourrai finir le caparaçon. En attendant, voilà quelques petites choses que je peux faire en attendant, pendant que vous vous chargez de récupérer le matériel.",
+   "progress": "Ah, <nom>. Je ne peux pas finir votre caparaçon sans toutes les choses que j’ai mentionnées. Avez-vous trouvé tout ce qui nous manque ?",
+   "completion": "Bien… c’est exactement ce qu’il me faut. Vous êtes un <classe> plein de ressources, pas vrai ?\n\nParfait, allons finir ce caparaçon !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1416,
+     "name": "Grimand Elmore"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1416,
+     "name": "Grimand Elmore"
+    }
+   ],
+   "zone_id": -141,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7643": {
+   "id": 7643,
+   "name": "L'ancien esprit équin",
+   "objectives": "Procurez-vous un aliment pour chevaux capable de nourrir un esprit équin. Il semble que Merideth Carlson, à Southshore, sache en fabriquer.\n\nEnsuite, rendez-vous au donjon de Hache-tripes en Feralas, et tuez Tendris Crochebois. Sa mort libérera l’Ancien esprit équin. Nourrissez-le avec l’aliment spécial afin de l’apaiser. Enfin, donnez-lui le Caparaçon d’arcanite pour qu’il le bénisse.",
+   "description": "Votre caparaçon aura besoin d’une bénédiction particulière, prononcée par un esprit approprié. Hache-tripes abrite une telle entité, un Ancien esprit équin. Malheureusement, il est entre les mains d’un tréant corrompu, Tendris Crochebois. Jugez cet être infâme, <nom>.\n\nEt sachez que la liberté ne suffira pas à l’esprit équin. Vous devrez l’apaiser, avant de recevoir sa bénédiction. Pour cela, vous aurez besoin d’une nourriture très particulière. Allez à Austrivage et parlez-en à Merideth Carlson… et préparez-vous à d’autres sacrifices.",
+   "progress": "L’Ancien esprit équin vous regarde. Il a l’air interrogateur, comme s’il attendait quelque chose de vous.",
+   "completion": "L’Ancien esprit équin accepte votre offrande de Fourrage enrichi en manne. Il donne des coups de museau au picotin et dévore l’avoine et le grain. Après avoir mangé un peu, il regarde votre caparaçon et se place comme s’il voulait que le mettiez sur son dos…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 928,
+     "name": "Seigneur Grayson Shadowbreaker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14566,
+     "name": "Ancien esprit équin"
+    }
+   ],
+   "zone_id": -141,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 4950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7644": {
+   "id": 7644,
+   "name": "Le caparaçon en arcanite béni",
+   "objectives": "Retourner dans le quartier de la cathédrale de Stormwind avec le Caparaçon d’arcanite béni pour voir le seigneur Grayson Shadowbreaker.",
+   "description": "Une fois posé sur le dos de l’Ancien esprit équin, le caparaçon se met à luire faiblement. L’air se charge de puissance pendant un bref instant, puis le caparaçon se téléporte, en toute sécurité, dans votre sac.\n\nIl semble qu’il ait été béni. Il ne vous reste plus qu’à suivre les instructions du seigneur Brisombre : retourner le voir à Hurlevent.",
+   "progress": "<nom>, vous êtes de retour ! Vous avez pu vous dépêtrer de Merideth Carlson et de Tendris Crochebois ? Honnêtement, il y a des moments où je ne sais pas trop lequel des deux est le pire…",
+   "completion": "Vous avez fait du chemin, mon ami. Votre caparaçon est maintenant prêt pour la dernière étape.\n\nVous l’utiliserez sur votre destrier une fois que sa rédemption sera complète. Auparavant, vous risquez de devoir livrer une lutte très dure. Mais le moment approche – hourra !\n\nIl ne reste plus qu’un objet à façonner avant que nous ne commencions, <nom>. Espérons que vous êtes toujours aussi plein de ressources que lorsque vous avez fait fabriquer ce caparaçon…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14566,
+     "name": "Ancien esprit équin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 928,
+     "name": "Seigneur Grayson Shadowbreaker"
+    }
+   ],
+   "zone_id": -141,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7645": {
+   "id": 7645,
+   "name": "Fourrage enrichi en manne",
+   "objectives": "Récupérer 20 Biscuits enrichis en manne, l’ingrédient vital qui permet de préparer du Fourrage enrichi en manne, pour le compte de Merideth Carlson de Southore dans les contreforts d’Hillsbrad. L’Aube d’argent est la seule à fabriquer ces biscuits.\n\nVous devrez également lui donner 50 pièces d’or pour apaiser sa susceptibilité.",
+   "description": "À la Main d'argent, ils ont dit que j'étais FOLLE lorsque j'ai dit que je pouvais préparer un fourrage qui pourrait nourrir des esprits de chevaux. Ils ont TOUS pensé que j'avais perdu la tête !\n\nMais maintenant, je tiens ma revanche !\n\nJe ferais ce que vous me demandez, PALADIN… soi-disant CHAMPION… mais cela va vous coûter cher. J'ai besoin de biscuit spéciaux… Des Biscuits enrichis en manne qui ne sont vendus que par l'Aube d'argent. Et pour cette fois, j'exige – parfaitement, j'EXIGE de l'or en compensation des souffrances que j'ai endurées !\n\nVous n'arrêtez pas de vous gargariser de votre sens du sacrifice, PALADIN ? Il est temps maintenant de le mettre en pratique !",
+   "progress": "J’ai prouvé que vous aviez tort, n’est-ce pas ? J’ai prouvé que vous aviez tous tort ! J’AVAIS RAISON DEPUIS LE DEBUT !",
+   "completion": "OUI, MAINTENANT QUE… attendez… vous me donnez aussi de l’or ? Mais ce n’est pas vous qui m’avez traitée de folle… de cinglée complètement tordue, en fait… Mais vous êtes quand même prête à vous sacrifier pour des actes que vous n’avez pas commis ?\n\nJe vous avais mal jugée, <nom>. Si vous avez encore besoin de fourrage, venez me voir. Je vous l’offrirai. Merci… noble <classe>.\n\nMais je garde quand même l’argent – je ne suis pas cinglée au point de refuser une fortune.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2357,
+     "name": "Merideth Carlson"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2357,
+     "name": "Merideth Carlson"
+    }
+   ],
+   "zone_id": -141,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7646": {
+   "id": 7646,
+   "name": "Le Clairvoyant",
+   "objectives": "Apportez un Diamant d’Azeroth et un Diamant noir en parfait état au seigneur Grayson Shadowbreaker dans le Quartier de la cathédrale de Stormwind.",
+   "description": "L’épreuve qui vous permettra de sauver le destrier déchu commence par l’assemblage d’un Clairvoyant. En fait, le vôtre est pratiquement prêt. L’Encensoir d’exorcisme que vous avez utilisé à Val-Terreur en sera le catalyseur, et je vais lui fabriquer un réceptacle.\n\nIl nous faut néanmoins nous procurer deux composants : deux diamants. Ils doivent tous deux être d’une eau bien précise – un diamant d’Azeroth et un diamant noir en parfait état. Tous deux formeront le phare grâce auquel le Clairvoyant percera les ombres !",
+   "progress": "Vous êtes presque au bout de la route, <nom>. Il ne vous reste plus qu’à sacrifier ces derniers biens matériels, et vous serez à l’aube de grandes choses. Je le sens dans toutes les fibres de mon être !",
+   "completion": "Ils sont parfaits, <nom> – les dernières pièces sont en place. Votre temps est enfin venu !\n\nDans les profondeurs du Grand ossuaire de la Scholomance se trouvent les restes de maintes créatures. Parmi elles, un destrier qui, autrefois, fut d’une grande noblesse. Son âme ravagée sert à présent de monture au chevalier de la mort Ravassombre. C’est lui que nous devons affronter, et c’est sa monture que vous allez juger. Vous êtes le seul à pouvoir racheter son âme et la libérer de sa servitude, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 928,
+     "name": "Seigneur Grayson Shadowbreaker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 928,
+     "name": "Seigneur Grayson Shadowbreaker"
+    }
+   ],
+   "zone_id": -141,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7647": {
+   "id": 7647,
+   "name": "Jugement et rédemption",
+   "objectives": "Utilisez le Clairvoyant au coeur du sous-sol du Grand ossuaire, dans la Scholomance. Cela attirera des esprits que vous devrez juger. Lorsqu’ils seront vaincus, le Chevalier de la mort Ravassombre apparaîtra. Vainquez-le et purifiez l’âme du destrier déchu.\n\nEnsuite, donnez l’Ame rachetée du destrier et le Caparaçon enchanté et béni au Destrier déchu de Ravassombre.",
+   "description": "Prenez ce paquet, il contient tous les objets dont vous aurez besoin.\n\nServez-vous du Clairvoyant au centre des fondations du Grand ossuaire, afin d’attirer les esprits maudits qui doivent être jugés. Utilisez vos jugements avec sagesse au cours de cette épreuve, car les esprits risquent d’être plus puissants que vous ne le croyez. Lorsque ce sera terminé, le chevalier de la mort apparaîtra. Tuez-le et récupérez l’âme de son destrier. Lorsque ce sera fait, vous pourrez la purifier et placer votre caparaçon sur votre nouveau destrier.\n\nBonne chance, <nom> !",
+   "progress": "L'esprit du chargeur déchu vous regarde d'un air triste. Des yeux tristes, presque creux, vous regardent comme si tout espoir était perdu pour lui.",
+   "completion": "Une lueur de vie - longtemps absente de la pauvre bête - brille dans ses yeux tandis que vous lui rendez son âme jugée. Vous sentez une sainte poussée de puissance autour de vous lorsque vous placez la bardane sur son dos, ayant jugé le chargeur racheté. Le chargeur mordille votre main, tandis que les fardeaux du passé sont enlevés à la bête. Vous avez maintenant l'impression de pouvoir faire appel à cette bête pour vous servir de monture, si le besoin s'en fait sentir.\n\nVous avez réclamé votre chargeur épique, <classe> ! Félicitations !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 928,
+     "name": "Seigneur Grayson Shadowbreaker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14568,
+     "name": "Destrier déchu de Ravassombre"
+    }
+   ],
+   "zone_id": -141,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7648": {
+   "id": 7648,
+   "name": "Le chef d'œuvre de Grimand",
+   "objectives": "Présentez le Caparaçon d’arcanite au seigneur Grayson Shadowbreaker dans le Quartier de la cathédrale de Stormwind, pour inspection.",
+   "description": "<Grimand s’essuie le front. Il irradie la satisfaction.>\n\nNous y voilà, <mon ami/mon amie>. C’est une pièce particulièrement réussie, aussi bonne que le caparaçon que j’ai fait pour le seigneur Brisombre lorsqu’il est parti en quête de son destrier. Je vous remercie de m’avoir honoré de votre confiance.\n\nGrayson voudra certainement le voir par lui-même. Portez-lui ce caparaçon, et transmettez-lui mes remerciements pour la tâche honorable qu’il accomplit.",
+   "progress": "Vous progressez bien, <nom>. Une fois que vous aurez achevé votre caparaçon, nous vous confierons de nouvelles tâches.",
+   "completion": "Très impressionnant. On dirait que plus Grimand vieillit, plus sa main devient sûre. C’est d’autant plus remarquable que lorsqu'il a fabriqué mon propre caparaçon, il était déjà l’un des meilleurs artisans du monde.\n\nCe caparaçon serait déjà excellent sur n’importe quel cheval normal, mais nous ne contenterons pas d’un animal ordinaire. De plus, pour que ce caparaçon soit digne de reposer sur le destrier d’un <classe>, il doit aussi être béni. Je le garderai pour vous en attendant.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1416,
+     "name": "Grimand Elmore"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 928,
+     "name": "Seigneur Grayson Shadowbreaker"
+    }
+   ],
+   "zone_id": -141,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mon ami/mon amie"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7666": {
+   "id": 7666,
+   "name": "Retour au Grand ossuaire",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Tu retournes à la Scholomance, <nom> ? Vous avez déjà payé très cher l'utilisation du Séchoir de divination, peut-être aimeriez-vous en prendre un autre avec vous. Grâce à lui, vous pourrez à nouveau affronter les périls du Grand Ossuaire.\n\nJe vous en prie, prenez-le. Vous l'avez bien mérité.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 928,
+     "name": "Seigneur Grayson Shadowbreaker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 928,
+     "name": "Seigneur Grayson Shadowbreaker"
+    }
+   ],
+   "zone_id": -141,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "7670": {
+   "id": 7670,
+   "name": "Le seigneur Grayson Shadowbreaker",
+   "objectives": "Parler au seigneur Grayson Shadowbreaker dans le Quartier de la cathédrale de Stormwind.",
+   "description": "<nom>, le temps est venu d’apprendre ce que vous devrez faire pour vous procurer quelque chose que vous attendez sans doute depuis longtemps… votre destrier !\n\nAllez parler au seigneur Grayson Shadowbreaker, dans le Quartier de la cathédrale, à Stormwind. Il vous apprendra à maîtriser la monture favorite des paladins. Et auparavant, il vous chargera de toutes les tâches que vous devrez accomplir pour vous en procurer un.\n\nJ’espère que votre épreuve se passera bien. Pour la Lumière, noble <frère/sœur> !",
+   "progress": null,
+   "completion": "Je suis content de vous voir, <nom>. Je sais que vous attendiez depuis longtemps que je vous explique comment vous procurer votre destrier, et le moment est venu.\n\nVous allez traverser de nombreuses épreuves, mais l'essentiel est que vous ayez la volonté de surmonter les obstacles qui vous attendent. Ce n’est pas un exercice – vous avez progressé bien au-delà des simples tests qui ont ponctué votre éducation. Vous devrez arracher votre futur compagnon aux griffes même du mal que vous avez passé votre vie à combattre\n\nÉcoutez bien, car votre heure a sonné !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5149,
+     "name": "Brandur Ironhammer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 928,
+     "name": "Seigneur Grayson Shadowbreaker"
+    }
+   ],
+   "zone_id": -141,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "frère/sœur",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:wowhead",
+     "completion": "foreverdb:wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8414": {
+   "id": 8414,
+   "name": "La dissipation du mal",
+   "objectives": "Récupérez 20 Pierres du Fléau des serviteurs et apportez-les au grand prêtre Thel'danis dans les Maleterres de l'ouest.",
+   "description": "Salutations, <classe>. Des croisés comme vous sont les bienvenus dans ces étendues désolées.\n\nVotre force sacrée est nécessaire pour nous aider à combattre les morts-vivants innombrables qui hantent cette région. Nous avons besoin de vous pour rassembler un grand nombre de pierres du Fléau et les apporter au grand prêtre Thel'danis. Le grand prêtre garde la tombe d’Uther à la colline des Chagrins, non loin d’ici.\n\nSeule une personne détentrice d’un brevet de l’Aube d’argent peut espérer trouver des pierres du Fléau, il vaudrait donc mieux vous entretenir avec l’officier Purecarde, si vous ne l’avez pas déjà fait.",
+   "progress": "Quel maléfice m'avez-vous apporté ?",
+   "completion": "Chasser le mal d'une pierre du Fléau est une entreprise risquée, car cela attire l'attention des morts-vivants sur des lieues et des lieues. Mais la Lumière est forte en vous, <nom>, et je n'ai aucune peur pour vous. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10838,
+     "name": "Commandant Ashlam Valorfist"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1854,
+     "name": "Grand prêtre Thel'danis"
+    }
+   ],
+   "zone_id": -141,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 5100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8415": {
+   "id": 8415,
+   "name": "La pointe du Noroît",
+   "objectives": "Parler au commandant Ashlam Vaillepoing au Camp du Noroît.",
+   "description": "Le commandant Ashlam Vaillepoing a demandé qu’un paladin de votre pureté et de votre valeur vienne le voir, <nom>. Vous pourrez le trouver au camp du Noroît, dans la partie méridionale des Maleterres de l’ouest. Allez le trouver et servez sa cause, au nom de la Lumière !",
+   "progress": null,
+   "completion": "Très bien, <classe> ! Voyons ce que vous valez.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 928,
+     "name": "Seigneur Grayson Shadowbreaker"
+    },
+    {
+     "type": "npc",
+     "id": 5149,
+     "name": "Brandur Ironhammer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10838,
+     "name": "Commandant Ashlam Valorfist"
+    }
+   ],
+   "zone_id": -141,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 510,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8416": {
+   "id": 8416,
+   "name": "Pierres du Fléau inertes",
+   "objectives": "Apportez la Pierre du Fléau inerte au commandant Ashlam Vaillepoing à la pointe du Noroît.",
+   "description": "Le mal a été purgé des pierres, <nom>.\n\nJe connais les plans du commandant Ashlam, et il n’a besoin que d’une seule pierre inerte. Apportez-la lui pour que nous puissions plonger le Fléau dans le feu justicier.",
+   "progress": "Thal'danis a-t-il pu purifier les pierres du Fléau ?",
+   "completion": "Vous avez fait tout ce que j’ai demandé sans poser la moindre question, <nom>.\n\nUne relation de confiance s’est apparemment instaurée entre nous. Peut-être que je pourrais vous révéler quelques détails supplémentaires sur notre projet.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1854,
+     "name": "Grand prêtre Thel'danis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10838,
+     "name": "Commandant Ashlam Valorfist"
+    }
+   ],
+   "zone_id": -141,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 2550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8418": {
+   "id": 8418,
+   "name": "Forger la pierre de pouvoir",
+   "objectives": "Apportez des Plumes vaudou ambres, bleues et vertes.",
+   "description": "Nous devons à présent combiner les pierres du Fléau inertes et créer une arme capable de briser les rangs des morts-vivants. Ce ne sera guère une tâche facile, <nom>. Seuls les trolls du temple englouti détiennent la magie rare qui permet de retourner le mal contenu en une chose contre le mal lui-même.\n\nÀ l'intérieur du temple, les trolls sont connus sous les noms de Balafreur, Mijan, Zolo, Hukku, Zul'lor et Loro. N'éprouvez pas de remords envers leurs âmes corrompues... Ce sont des êtres malfaisants.",
+   "progress": "Avez-vous tué ces misérables trolls ?",
+   "completion": "Voilà qui est excellent, <nom>. Je suis quelque peu surpris, mais il ne faisait pour moi aucun doute que vous ne nous laisseriez pas tomber.\n\nJ'ai l'honneur de vous faire don de l'une des pierres de pouvoir sacrées. Faites-en bon usage.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10838,
+     "name": "Commandant Ashlam Valorfist"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10838,
+     "name": "Commandant Ashlam Valorfist"
+    }
+   ],
+   "zone_id": -141,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 6350,
+   "money": 15500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "78088": {
+   "id": 78088,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3663,
+     "name": "Delgren le Purificateur"
+    }
+   ],
+   "zone_id": -141,
+   "level": 30,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "78089": {
+   "id": 78089,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3663,
+     "name": "Delgren le Purificateur"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5492,
+     "name": "Katherine la Pure"
+    }
+   ],
+   "zone_id": -141,
+   "level": 30,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "78090": {
+   "id": 78090,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5492,
+     "name": "Katherine la Pure"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5495,
+     "name": "Ursula Deline"
+    }
+   ],
+   "zone_id": -141,
+   "level": 30,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "78091": {
+   "id": 78091,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5495,
+     "name": "Ursula Deline"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5495,
+     "name": "Ursula Deline"
+    }
+   ],
+   "zone_id": -141,
+   "level": 30,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "78092": {
+   "id": 78092,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5495,
+     "name": "Ursula Deline"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 409311,
+     "name": "Spear of Mannoroth"
+    }
+   ],
+   "zone_id": -141,
+   "level": 30,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "78093": {
+   "id": 78093,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "object",
+     "id": 409315,
+     "name": "Shattered Orb"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3663,
+     "name": "Delgren le Purificateur"
+    }
+   ],
+   "zone_id": -141,
+   "level": 30,
+   "reqlevel": 22,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "90902": {
+   "id": 90902,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 244808,
+     "name": "Aramis Hammerhand"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 244808,
+     "name": "Aramis Hammerhand"
+    }
+   ],
+   "zone_id": -141,
+   "level": 2,
+   "reqlevel": 2,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "91208": {
+   "id": 91208,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 244808,
+     "name": "Aramis Hammerhand"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 244808,
+     "name": "Aramis Hammerhand"
+    }
+   ],
+   "zone_id": -141,
+   "level": 4,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "91209": {
+   "id": 91209,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 244808,
+     "name": "Aramis Hammerhand"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 246152,
+     "name": "Shari Stilwell"
+    }
+   ],
+   "zone_id": -141,
+   "level": 4,
+   "reqlevel": 4,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "91282": {
+   "id": 91282,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 246152,
+     "name": "Shari Stilwell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 246349,
+     "name": "Breton Samuels"
+    }
+   ],
+   "zone_id": -141,
+   "level": 11,
+   "reqlevel": 8,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "91285": {
+   "id": 91285,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 246349,
+     "name": "Breton Samuels"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 246349,
+     "name": "Breton Samuels"
+    }
+   ],
+   "zone_id": -141,
+   "level": 11,
+   "reqlevel": 7,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "91294": {
+   "id": 91294,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 246349,
+     "name": "Breton Samuels"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 246378,
+     "name": "Danitha Morr"
+    }
+   ],
+   "zone_id": -141,
+   "level": 11,
+   "reqlevel": 8,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "91316": {
+   "id": 91316,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 246393,
+     "name": "Jorin Croge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 246393,
+     "name": "Jorin Croge"
+    }
+   ],
+   "zone_id": -141,
+   "level": 11,
+   "reqlevel": 8,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "91317": {
+   "id": 91317,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 246378,
+     "name": "Danitha Morr"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 246378,
+     "name": "Danitha Morr"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "91858": {
+   "id": 91858,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 246378,
+     "name": "Danitha Morr"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 248840,
+     "name": "Trevan Rol"
+    }
+   ],
+   "zone_id": -141,
+   "level": 22,
+   "reqlevel": 18,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "91859": {
+   "id": 91859,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 248840,
+     "name": "Trevan Rol"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 259611,
+     "name": "Deathguard Baldren"
+    }
+   ],
+   "zone_id": -141,
+   "level": 22,
+   "reqlevel": 18,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "91860": {
+   "id": 91860,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 259611,
+     "name": "Deathguard Baldren"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 566037,
+     "name": "Charred Remains"
+    }
+   ],
+   "zone_id": -141,
+   "level": 22,
+   "reqlevel": 18,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "91861": {
+   "id": 91861,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "object",
+     "id": 566037,
+     "name": "Charred Remains"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 248755,
+     "name": "Lumina Windsinger"
+    }
+   ],
+   "zone_id": -141,
+   "level": 22,
+   "reqlevel": 18,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "91862": {
+   "id": 91862,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 248755,
+     "name": "Lumina Windsinger"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 248755,
+     "name": "Lumina Windsinger"
+    }
+   ],
+   "zone_id": -141,
+   "level": 22,
+   "reqlevel": 18,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "94427": {
+   "id": 94427,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 246378,
+     "name": "Danitha Morr"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 257648,
+     "name": "Tanis Alderwood"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "94434": {
+   "id": 94434,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 257648,
+     "name": "Tanis Alderwood"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 257648,
+     "name": "Tanis Alderwood"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "94435": {
+   "id": 94435,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 257648,
+     "name": "Tanis Alderwood"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 246378,
+     "name": "Danitha Morr"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "94436": {
+   "id": 94436,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 246378,
+     "name": "Danitha Morr"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 257655,
+     "name": "Deathguard Billmuth"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "94438": {
+   "id": 94438,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 257655,
+     "name": "Deathguard Billmuth"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 257663,
+     "name": "Deathguard Falgan"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "94440": {
+   "id": 94440,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 257663,
+     "name": "Deathguard Falgan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 257655,
+     "name": "Deathguard Billmuth"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "94441": {
+   "id": 94441,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 257655,
+     "name": "Deathguard Billmuth"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 246378,
+     "name": "Danitha Morr"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 12,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "95034": {
+   "id": 95034,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 259620,
+     "name": "Lumina Windsinger"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 259620,
+     "name": "Lumina Windsinger"
+    }
+   ],
+   "zone_id": -141,
+   "level": 24,
+   "reqlevel": 18,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "95036": {
+   "id": 95036,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 259620,
+     "name": "Lumina Windsinger"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 248840,
+     "name": "Trevan Rol"
+    }
+   ],
+   "zone_id": -141,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "95042": {
+   "id": 95042,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 259649,
+     "name": "Ulric Frostveil"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 259649,
+     "name": "Ulric Frostveil"
+    }
+   ],
+   "zone_id": -141,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "95111": {
+   "id": 95111,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 248840,
+     "name": "Trevan Rol"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3539,
+     "name": "Ott"
+    }
+   ],
+   "zone_id": -141,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "95125": {
+   "id": 95125,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3539,
+     "name": "Ott"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3539,
+     "name": "Ott"
+    }
+   ],
+   "zone_id": -141,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "95126": {
+   "id": 95126,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3539,
+     "name": "Ott"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 248840,
+     "name": "Trevan Rol"
+    }
+   ],
+   "zone_id": -141,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "95140": {
+   "id": 95140,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 259620,
+     "name": "Lumina Windsinger"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 259620,
+     "name": "Lumina Windsinger"
+    }
+   ],
+   "zone_id": -141,
+   "level": 26,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "95803": {
+   "id": 95803,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 246378,
+     "name": "Danitha Morr"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10181,
+     "name": "Dame Sylvanas Windrunner"
+    }
+   ],
+   "zone_id": -141,
+   "level": 12,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "96204": {
+   "id": 96204,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 248755,
+     "name": "Lumina Windsinger"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 259620,
+     "name": "Lumina Windsinger"
+    }
+   ],
+   "zone_id": -141,
+   "level": 22,
+   "reqlevel": 18,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "98601": {
+   "id": 98601,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1569,
+     "name": "Prêtre des ombres Sarvis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 244808,
+     "name": "Aramis Hammerhand"
+    }
+   ],
+   "zone_id": -141,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

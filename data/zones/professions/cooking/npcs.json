@@ -1,0 +1,548 @@
+{
+ "schema": 1,
+ "zone": "professions/cooking",
+ "zone_id": -304,
+ "zone_name": "Cuisinier",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 9,
+  "with_display_id": 9,
+  "with_title": 6,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 6,
+   "unknown": 3
+  }
+ },
+ "npcs": {
+  "1267": {
+   "id": 1267,
+   "name": "Ragnar Thunderbrew",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Ironforge",
+   "zones": [
+    "Dun Morogh"
+   ],
+   "coords": {},
+   "levels": [
+    30,
+    30
+   ],
+   "display_id": 1684,
+   "quests_started": [
+    384,
+    4126
+   ],
+   "quests_ended": [
+    384,
+    4126,
+    4128
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleGuard",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Guard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5910,
+     "farewell": 5911,
+     "pissed": 5912
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleGuard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "2393": {
+   "id": 2393,
+   "name": "Christoph Jeffcoat",
+   "title": "Commerçant",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Undercity",
+   "zones": [
+    "Hillsbrad Foothills"
+   ],
+   "coords": {},
+   "levels": [
+    32,
+    32
+   ],
+   "display_id": 3672,
+   "quests_started": [
+    7321
+   ],
+   "quests_ended": [
+    7321
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "3399": {
+   "id": 3399,
+   "name": "Zamja",
+   "title": "Maître des cuisiniers",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Darkspear Trolls",
+   "zones": [
+    "Orgrimmar"
+   ],
+   "coords": {},
+   "levels": [
+    35,
+    35
+   ],
+   "display_id": 2734,
+   "quests_started": [
+    6611
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "female",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "3443": {
+   "id": 3443,
+   "name": "Boustiff'",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "The Barrens"
+   ],
+   "coords": {},
+   "levels": [
+    13,
+    13
+   ],
+   "display_id": 3857,
+   "quests_started": [
+    862
+   ],
+   "quests_ended": [
+    862
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "3702": {
+   "id": 3702,
+   "name": "Alanndarian Nightsong",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Darnassus",
+   "zones": [
+    "Darkshore"
+   ],
+   "coords": {},
+   "levels": [
+    19,
+    19
+   ],
+   "display_id": 4487,
+   "quests_started": [
+    2178,
+    6123,
+    6124
+   ],
+   "quests_ended": [
+    2178,
+    6122,
+    6123
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfFemaleStandard",
+    "race": "NightElf",
+    "sex": "female",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5998,
+     "farewell": 5999,
+     "pissed": 6000
+    },
+    "combat_set": "NightElfFemale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "NightElfFemaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "5159": {
+   "id": 5159,
+   "name": "Daryl Riknussun",
+   "title": "Maître des cuisiniers",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Ironforge",
+   "zones": [
+    "Ironforge"
+   ],
+   "coords": {},
+   "levels": [
+    35,
+    35
+   ],
+   "display_id": 3094,
+   "quests_started": [
+    6612
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleStandard",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5904,
+     "farewell": 5905,
+     "pissed": 5906
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "6286": {
+   "id": 6286,
+   "name": "Zarrin",
+   "title": "Cuisinier",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Darnassus",
+   "zones": [
+    "Teldrassil"
+   ],
+   "coords": {},
+   "levels": [
+    13,
+    13
+   ],
+   "display_id": 4989,
+   "quests_started": [
+    4161
+   ],
+   "quests_ended": [
+    4161,
+    96634
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfMaleStandard",
+    "race": "NightElf",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5989,
+     "farewell": 5990,
+     "pissed": 5991
+    },
+    "combat_set": "NightElfMale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "NightElfMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "8125": {
+   "id": 8125,
+   "name": "Dirge Quikcleave",
+   "title": "Boucher",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Gadgetzan",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    43,
+    43
+   ],
+   "display_id": 7338,
+   "quests_started": [
+    6610,
+    8585,
+    8586,
+    8587
+   ],
+   "quests_ended": [
+    6610,
+    6611,
+    6612,
+    8584,
+    8585,
+    8586
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleGruff",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Gruff",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6630,
+     "farewell": 5959,
+     "pissed": 5960
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleGruff"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "15174": {
+   "id": 15174,
+   "name": "Calandrath",
+   "title": "Aubergiste",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Cenarion Circle",
+   "zones": [
+    "Silithus"
+   ],
+   "coords": {},
+   "levels": [
+    54,
+    54
+   ],
+   "display_id": 15312,
+   "quests_started": [
+    8307,
+    8317
+   ],
+   "quests_ended": [
+    8313,
+    8317,
+    8497,
+    8804
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfFemaleStandard",
+    "race": "NightElf",
+    "sex": "female",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5998,
+     "farewell": 5999,
+     "pissed": 6000
+    },
+    "combat_set": "NightElfFemale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "NightElfFemaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  }
+ }
+}

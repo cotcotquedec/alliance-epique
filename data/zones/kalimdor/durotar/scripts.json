@@ -1,0 +1,471 @@
+{
+ "schema": 1,
+ "scripts": {
+  "834": {
+   "quest_id": 834,
+   "kind": "detail",
+   "name": "Des vents dans le désert",
+   "npc_id": 3293,
+   "npc_name": "Rezlak",
+   "source": "foreverdb:vmangos",
+   "text": "Je suis Rezlak, l'un des gars de Gazlowe. Le patron m'a envoyé pour donner un coup de main aux orcs, ici en Durotar. Les choses se sont bien passées, à part pour les caravanes. Je n'arrive pas à assurer leur sécurité ! Ça rend mon boulot un peu plus difficile, vous savez ?\n\nLa dernière livraison – ils ont promis que je passerais ! – a été chipée par les harpies Terrevent au... c'était où déjà... au canyon de Tranchevent ?\n\nFaut que je récupère ces marchandises ou je n'arriverai jamais à rien ! Suivez le grand canyon vers le sud, vous trouverez le ravin coupant exactement les parois à l'est et à l'ouest.\n\nObjectif : Retrouver 5 Sacs de marchandises et les rendre à Rezlak près d'Orgrimmar.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Je suis Rezlak, l'un des gars de Gazlowe. ",
+     "emotion": "fierté",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Présentation de vendeur, un peu bombé du torse, énergique et nasillard.",
+     "direction_en": "Salesman-style introduction, chest puffed out, energetic and nasal.",
+     "el_tags": [
+      "cheerfully"
+     ]
+    },
+    {
+     "text": "Le patron m'a envoyé pour donner un coup de main aux orcs, ici en Durotar. ",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "vif",
+     "direction_fr": "Explication rapide et bavarde, ton familier.",
+     "direction_en": "Quick, chatty explanation, familiar tone.",
+     "el_tags": []
+    },
+    {
+     "text": "Les choses se sont bien passées, à part pour les caravanes. ",
+     "emotion": "agacement",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Le ton retombe, la plainte commence à poindre sur « caravanes ».",
+     "direction_en": "Tone drops, whining begins to creep in on 'caravans'.",
+     "el_tags": [
+      "annoyed"
+     ]
+    },
+    {
+     "text": "Je n'arrive pas à assurer leur sécurité ! ",
+     "emotion": "inquiétude",
+     "intensity": 5,
+     "pace": "précipité",
+     "direction_fr": "Plainte aiguë, stridente, presque paniquée.",
+     "direction_en": "Shrill whining outburst, near panic.",
+     "el_tags": [
+      "frustrated"
+     ]
+    },
+    {
+     "text": "Ça rend mon boulot un peu plus difficile, vous savez ?",
+     "emotion": "agacement",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Appel complice, geignard, avec un petit soupir.",
+     "direction_en": "Complicit, whiny appeal to the listener with a small sigh.",
+     "el_tags": [
+      "sighs"
+     ]
+    },
+    {
+     "text": "\n\nLa dernière livraison – ils ont promis que je passerais ! – a été chipée par les harpies Terrevent au... ",
+     "emotion": "colère",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Indignation rapide, l'aparté est lancé comme une plainte outrée, puis la phrase s'enlise.",
+     "direction_en": "Quick indignation, the aside is an outraged grumble, then the sentence trails off.",
+     "el_tags": [
+      "frustrated"
+     ]
+    },
+    {
+     "text": "c'était où déjà... ",
+     "emotion": "inquiétude",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Hésitation, il cherche dans sa tête, ton marmonné.",
+     "direction_en": "Hesitant, searching his memory, muttered.",
+     "el_tags": [
+      "nervous"
+     ]
+    },
+    {
+     "text": "au canyon de Tranchevent ?",
+     "emotion": "surprise",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Il se souvient, soulagé mais pas sûr de lui.",
+     "direction_en": "Remembering, relieved but unsure.",
+     "el_tags": [
+      "curious"
+     ]
+    },
+    {
+     "text": "\n\nFaut que je récupère ces marchandises ou je n'arriverai jamais à rien ! ",
+     "emotion": "urgence",
+     "intensity": 5,
+     "pace": "précipité",
+     "direction_fr": "Supplication affolée, voix qui monte dans l'aigu.",
+     "direction_en": "Panicked pleading, voice rising shrilly.",
+     "el_tags": [
+      "shouting"
+     ]
+    },
+    {
+     "text": "Suivez le grand canyon vers le sud, vous trouverez le ravin coupant exactement les parois à l'est et à l'ouest.",
+     "emotion": "détermination",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Indications rapides, efficaces, ton de vendeur qui guide son client.",
+     "direction_en": "Brisk, efficient directions, like a salesman guiding a customer.",
+     "el_tags": [
+      "serious"
+     ]
+    },
+    {
+     "text": "\n\nObjectif : Retrouver 5 Sacs de marchandises et les rendre à Rezlak près d'Orgrimmar.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Clair et net, ton neutre.",
+     "direction_en": "Clear and plain delivery.",
+     "el_tags": []
+    }
+   ],
+   "overall": {
+    "emotion": "inquiétude",
+    "intensity": 4,
+    "direction_en": "Fast, nervous, whining goblin merchant worried about his looted caravans, with salesman charm and flustered hesitations."
+   },
+   "render": {
+    "m": "[cheerfully] Je suis Rezlak, l'un des gars de Gazlowe. Le patron m'a envoyé pour donner un coup de main aux orcs, ici en Durotar. [annoyed] Les choses se sont bien passées, à part pour les caravanes. [frustrated] Je n'arrive pas à assurer leur sécurité ! [sighs] Ça rend mon boulot un peu plus difficile, vous savez ? [frustrated] La dernière livraison – ils ont promis que je passerais ! – a été chipée par les harpies Terrevent au... [nervous] c'était où déjà... [curious] au canyon de Tranchevent ? [shouting] Faut que je récupère ces marchandises ou je n'arriverai jamais à rien ! [serious] Suivez le grand canyon vers le sud, vous trouverez le ravin coupant exactement les parois à l'est et à l'ouest. Objectif : Retrouver 5 Sacs de marchandises et les rendre à Rezlak près d'Orgrimmar."
+   },
+   "plain": {
+    "m": "Je suis Rezlak, l'un des gars de Gazlowe. Le patron m'a envoyé pour donner un coup de main aux orcs, ici en Durotar. Les choses se sont bien passées, à part pour les caravanes. Je n'arrive pas à assurer leur sécurité ! Ça rend mon boulot un peu plus difficile, vous savez ? La dernière livraison – ils ont promis que je passerais ! – a été chipée par les harpies Terrevent au... c'était où déjà... au canyon de Tranchevent ? Faut que je récupère ces marchandises ou je n'arriverai jamais à rien ! Suivez le grand canyon vers le sud, vous trouverez le ravin coupant exactement les parois à l'est et à l'ouest. Objectif : Retrouver 5 Sacs de marchandises et les rendre à Rezlak près d'Orgrimmar."
+   },
+   "target_cps": {
+    "m": 19.22
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "bbf16410874898e9",
+    "cost_usd": 0.0251
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "835": {
+   "quest_id": 835,
+   "kind": "detail",
+   "name": "Des lignes sécurisées",
+   "npc_id": 3293,
+   "npc_name": "Rezlak",
+   "source": "foreverdb:vmangos",
+   "text": "Gazlowe m'a dit une fois \"Rezlak, il y a une chose que tu dois savoir dans la vie : si tu veux qu'une chose soit faite de manière correcte, fais-la toi-même.\"\n\nJe ne peux supporter la perte de nos caravanes, alors je vais m'occuper des choses en personne. Le Ravin asséché est quelque part dans la partie est du canyon de Tranchevent. Si nous y tuons toutes les harpies, les routes seront sûres.\n\nBien sûr, il y a autre chose que Gazlowe m'a enseigné, et c'est \"En payant bien, tout est possible.\" Alors, vous allez m'aider?\n\nObjectif : Tuer 12 Terrevent farouches et 8 Sorcières des tempêtes Terrevent pour Rezlak près du Ravin asséché.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Gazlowe m'a dit une fois \"Rezlak, il y a une chose que tu dois savoir dans la vie : si tu veux qu'une chose soit faite de manière correcte, fais-la toi-même.\"",
+     "emotion": "agacement",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Il cite son patron d'un ton sentencieux, en imitant sa voix, puis laisse filer un petit soupir geignard.",
+     "direction_en": "Quoting his boss in a pompous mimicking tone, with a whiny undertone.",
+     "el_tags": [
+      "sarcastic"
+     ]
+    },
+    {
+     "text": "\n\nJe ne peux supporter la perte de nos caravanes, alors je vais m'occuper des choses en personne.",
+     "emotion": "colère",
+     "intensity": 4,
+     "pace": "précipité",
+     "direction_fr": "Plainte nerveuse et stridente, il s'emballe, la voix monte sur « caravanes », puis il se redresse, décidé.",
+     "direction_en": "Shrill, flustered whining that builds, then turns into self-important resolve.",
+     "el_tags": [
+      "frustrated"
+     ]
+    },
+    {
+     "text": " Le Ravin asséché est quelque part dans la partie est du canyon de Tranchevent.",
+     "emotion": "inquiétude",
+     "intensity": 2,
+     "pace": "vif",
+     "direction_fr": "Hésitant, il cherche dans sa mémoire, ton informatif et brouillon.",
+     "direction_en": "Hesitant, fumbling for the location, hurried and informative.",
+     "el_tags": [
+      "nervous"
+     ]
+    },
+    {
+     "text": " Si nous y tuons toutes les harpies, les routes seront sûres.",
+     "emotion": "détermination",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Il s'enflamme, ton de vendeur convaincu, insistance sur « toutes » puis soulagement sur « sûres ».",
+     "direction_en": "Fired up, salesman-like conviction, stressing 'all' then relieved on 'safe'.",
+     "el_tags": [
+      "determined"
+     ]
+    },
+    {
+     "text": "\n\nBien sûr, il y a autre chose que Gazlowe m'a enseigné, et c'est \"En payant bien, tout est possible.\"",
+     "emotion": "ruse",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Sourire dans la voix, complice, il baisse un peu le ton et savoure la maxime sur l'argent.",
+     "direction_en": "Sly, conspiratorial, smiling voice, savoring the money maxim.",
+     "el_tags": [
+      "mischievously"
+     ]
+    },
+    {
+     "text": " Alors, vous allez m'aider?",
+     "emotion": "enthousiasme",
+     "intensity": 5,
+     "pace": "vif",
+     "direction_fr": "Question pleine d'espoir et de charme mercantile, montée vers l'aigu, presque suppliante.",
+     "direction_en": "Hopeful, charming salesman's plea, pitch rising, almost begging.",
+     "el_tags": [
+      "cheerfully"
+     ]
+    },
+    {
+     "text": "\n\nObjectif : Tuer 12 Terrevent farouches et 8 Sorcières des tempêtes Terrevent pour Rezlak près du Ravin asséché.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Lecture claire et neutre de l'objectif.",
+     "direction_en": "Clear, neutral reading of the objective.",
+     "el_tags": []
+    }
+   ],
+   "overall": {
+    "emotion": "agacement",
+    "intensity": 4,
+    "direction_en": "Nervous, whiny goblin merchant who flares up about his lost caravans, then turns charming and greedy to win the player over."
+   },
+   "render": {
+    "m": "[sarcastic] Gazlowe m'a dit une fois \"Rezlak, il y a une chose que tu dois savoir dans la vie : si tu veux qu'une chose soit faite de manière correcte, fais-la toi-même.\" [frustrated] Je ne peux supporter la perte de nos caravanes, alors je vais m'occuper des choses en personne. [nervous] Le Ravin asséché est quelque part dans la partie est du canyon de Tranchevent. [determined] Si nous y tuons toutes les harpies, les routes seront sûres. [mischievously] Bien sûr, il y a autre chose que Gazlowe m'a enseigné, et c'est \"En payant bien, tout est possible.\" [cheerfully] Alors, vous allez m'aider? Objectif : Tuer 12 Terrevent farouches et 8 Sorcières des tempêtes Terrevent pour Rezlak près du Ravin asséché."
+   },
+   "plain": {
+    "m": "Gazlowe m'a dit une fois \"Rezlak, il y a une chose que tu dois savoir dans la vie : si tu veux qu'une chose soit faite de manière correcte, fais-la toi-même.\" Je ne peux supporter la perte de nos caravanes, alors je vais m'occuper des choses en personne. Le Ravin asséché est quelque part dans la partie est du canyon de Tranchevent. Si nous y tuons toutes les harpies, les routes seront sûres. Bien sûr, il y a autre chose que Gazlowe m'a enseigné, et c'est \"En payant bien, tout est possible.\" Alors, vous allez m'aider? Objectif : Tuer 12 Terrevent farouches et 8 Sorcières des tempêtes Terrevent pour Rezlak près du Ravin asséché."
+   },
+   "target_cps": {
+    "m": 19.22
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "4872759df52fc470",
+    "cost_usd": 0.0222
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  }
+ },
+ "complete": {
+  "834": {
+   "quest_id": 834,
+   "kind": "complete",
+   "name": "Des vents dans le désert",
+   "npc_id": 3293,
+   "npc_name": "Rezlak",
+   "source": "foreverdb:vmangos",
+   "text": "Eh bien, n'est-ce pas exactement ce que nous voulions ? Vous nous avez rapporté nos marchandises. C'est merveilleux ! Je vais pouvoir retourner bosser dès que j'aurai trouvé quelqu'un pour porter ces sacs pour moi.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Eh bien, n'est-ce pas exactement ce que nous voulions ? ",
+     "emotion": "surprise",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Surpris et ravi de voir le joueur, ton de vendeur complice, voix qui monte sur la question.",
+     "direction_en": "Pleasantly surprised, salesman-like and complicit, voice rising on the question.",
+     "el_tags": [
+      "curious"
+     ]
+    },
+    {
+     "text": "Vous nous avez rapporté nos marchandises. ",
+     "emotion": "soulagement",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Soulagement qui s'installe, on mesure le butin avec satisfaction, souffle expiré.",
+     "direction_en": "Relief sinking in, eyeing the recovered goods with satisfaction, a breathy exhale.",
+     "el_tags": [
+      "exhales"
+     ]
+    },
+    {
+     "text": "C'est merveilleux ! ",
+     "emotion": "enthousiasme",
+     "intensity": 5,
+     "pace": "précipité",
+     "direction_fr": "Pic de joie débordante, exclamation aiguë et théâtrale, presque strident.",
+     "direction_en": "Peak of gushing joy, shrill theatrical exclamation.",
+     "el_tags": [
+      "excited",
+      "happy"
+     ]
+    },
+    {
+     "text": "Je vais pouvoir retourner bosser dès que j'aurai trouvé quelqu'un pour porter ces sacs pour moi.",
+     "emotion": "ruse",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Retour au mercantile opportuniste : sous-entendu insistant, un brin geignard, regard vers le joueur pour lui refiler la corvée.",
+     "direction_en": "Back to opportunistic salesman, a hint of whining, slyly hinting the player should carry the bags.",
+     "el_tags": [
+      "mischievously"
+     ]
+    }
+   ],
+   "overall": {
+    "emotion": "enthousiasme",
+    "intensity": 4,
+    "direction_en": "Fast, nervous goblin merchant swinging from surprised relief to gushing joy, then slyly angling to offload the work."
+   },
+   "render": {
+    "m": "[curious] Eh bien, n'est-ce pas exactement ce que nous voulions ? [exhales] Vous nous avez rapporté nos marchandises. [excited] [happy] C'est merveilleux ! [mischievously] Je vais pouvoir retourner bosser dès que j'aurai trouvé quelqu'un pour porter ces sacs pour moi."
+   },
+   "plain": {
+    "m": "Eh bien, n'est-ce pas exactement ce que nous voulions ? Vous nous avez rapporté nos marchandises. C'est merveilleux ! Je vais pouvoir retourner bosser dès que j'aurai trouvé quelqu'un pour porter ces sacs pour moi."
+   },
+   "target_cps": {
+    "m": 19.64
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "67f3a03cbc6bc08a",
+    "cost_usd": 0.0165
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "835": {
+   "quest_id": 835,
+   "kind": "complete",
+   "name": "Des lignes sécurisées",
+   "npc_id": 3293,
+   "npc_name": "Rezlak",
+   "source": "foreverdb:vmangos",
+   "text": "Je vais mieux respirer maintenant que les harpies n'attaqueront plus nos caravanes d'approvisionnement. Et juste au bon moment, d'ailleurs. J'ai entendu que l'on m'envoyait de chouettes petits jouets par le prochain chargement !\n\nVous vous débrouillez plutôt bien dans ce que vous faites. Vous devriez aller voir mon patron à Ratchet. Je parie qu'il pourrait vous trouver du travail.\n\nEt ne vous inquiétez pas, je n'oublierai pas de vous payer pour le service que vous m'avez rendu.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Je vais mieux respirer maintenant que les harpies n'attaqueront plus nos caravanes d'approvisionnement.",
+     "emotion": "soulagement",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Grand soupir de soulagement, voix nasillarde qui se détend enfin, encore un peu geignard dans le souvenir des pillages.",
+     "direction_en": "Big sigh of relief, nasal voice finally loosening, still a touch whiny recalling the raids.",
+     "el_tags": [
+      "sighs",
+      "happy"
+     ]
+    },
+    {
+     "text": " Et juste au bon moment, d'ailleurs.",
+     "emotion": "ruse",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Aparté complice de vendeur, un clin d'œil dans la voix.",
+     "direction_en": "Conspiratorial salesman aside, a wink in the voice.",
+     "el_tags": [
+      "mischievously"
+     ]
+    },
+    {
+     "text": " J'ai entendu que l'on m'envoyait de chouettes petits jouets par le prochain chargement !",
+     "emotion": "enthousiasme",
+     "intensity": 5,
+     "pace": "précipité",
+     "direction_fr": "Excitation gourmande, presque gloussante, voix qui monte dans les aigus comme un gamin devant ses cadeaux.",
+     "direction_en": "Greedy, giddy excitement, voice climbing shrill like a kid with presents.",
+     "el_tags": [
+      "excited",
+      "chuckles"
+     ]
+    },
+    {
+     "text": "\n\nVous vous débrouillez plutôt bien dans ce que vous faites.",
+     "emotion": "fierté",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Compliment sincère et chaleureux, un peu étonné, ton flatteur de commerçant.",
+     "direction_en": "Sincere warm compliment, slightly impressed, flattering merchant tone.",
+     "el_tags": [
+      "warmly"
+     ]
+    },
+    {
+     "text": " Vous devriez aller voir mon patron à Ratchet.",
+     "emotion": "enthousiasme",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Conseil donné avec empressement, fier de citer son patron.",
+     "direction_en": "Eager recommendation, proud to name his boss.",
+     "el_tags": [
+      "cheerfully"
+     ]
+    },
+    {
+     "text": " Je parie qu'il pourrait vous trouver du travail.",
+     "emotion": "ruse",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Ton complice et rusé, baissant un peu la voix comme pour un bon tuyau.",
+     "direction_en": "Sly, confiding tone, lowering the voice as if sharing a good tip.",
+     "el_tags": [
+      "mischievously"
+     ]
+    },
+    {
+     "text": "\n\nEt ne vous inquiétez pas, je n'oublierai pas de vous payer pour le service que vous m'avez rendu.",
+     "emotion": "joie",
+     "intensity": 4,
+     "pace": "normal",
+     "direction_fr": "Rassurant et généreux, grand sourire de vendeur qui promet de bien payer, finale chaleureuse.",
+     "direction_en": "Reassuring and generous, big salesman's grin promising good pay, warm finish.",
+     "el_tags": [
+      "warmly",
+      "happy"
+     ]
+    }
+   ],
+   "overall": {
+    "emotion": "soulagement",
+    "intensity": 4,
+    "direction_en": "A fretful goblin merchant turns relieved, gleeful and salesman-sly, ending with a warm, reassuring promise of payment."
+   },
+   "render": {
+    "m": "[sighs] [happy] Je vais mieux respirer maintenant que les harpies n'attaqueront plus nos caravanes d'approvisionnement. [mischievously] Et juste au bon moment, d'ailleurs. [excited] [chuckles] J'ai entendu que l'on m'envoyait de chouettes petits jouets par le prochain chargement ! [warmly] Vous vous débrouillez plutôt bien dans ce que vous faites. [cheerfully] Vous devriez aller voir mon patron à Ratchet. [mischievously] Je parie qu'il pourrait vous trouver du travail. [warmly] [happy] Et ne vous inquiétez pas, je n'oublierai pas de vous payer pour le service que vous m'avez rendu."
+   },
+   "plain": {
+    "m": "Je vais mieux respirer maintenant que les harpies n'attaqueront plus nos caravanes d'approvisionnement. Et juste au bon moment, d'ailleurs. J'ai entendu que l'on m'envoyait de chouettes petits jouets par le prochain chargement ! Vous vous débrouillez plutôt bien dans ce que vous faites. Vous devriez aller voir mon patron à Ratchet. Je parie qu'il pourrait vous trouver du travail. Et ne vous inquiétez pas, je n'oublierai pas de vous payer pour le service que vous m'avez rendu."
+   },
+   "target_cps": {
+    "m": 19.14
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "814b4b47adff6edc",
+    "cost_usd": 0.0214
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  }
+ },
+ "updated_at": "2026-10-06T20:54:18"
+}

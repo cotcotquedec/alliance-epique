@@ -1,0 +1,522 @@
+{
+ "schema": 1,
+ "zone": "dungeons/the-temple-of-atalhakkar",
+ "zone_id": 1477,
+ "zone_name": "Le temple d'Atal'Hakkar",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 9,
+  "complete": 9,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 2
+ },
+ "quests": {
+  "1445": {
+   "id": 1445,
+   "name": "Le temple d'Atal'Hakkar",
+   "objectives": "Rassembler 20 Fétiches d'Hakkar et les apporter à Fel’Zerul à Stonard.",
+   "description": "Ainsi il a parlé de la prophétie de Jammal'an ?\n\nLe chef spirituel des Atal'ai croit qu'une fois Hakkar revenu du Néant pour Azeroth, le dieu accordera l'immortalité à sa tribu.\n\nUne excuse idiote pour provoquer une fin du monde prématurée, si vous voulez mon avis.\n\nMais vous dites que l'Exilé a parlé de fétiches enchantés ? Cela m'inquiète profondément. S'ils constituent la clé du rituel atal'ai et qu'ils sont à l'origine de ce chaos, nous devons comprendre leurs pouvoirs intrinsèques.\n\nAventurez-vous dans le temple, et emparez-vous des fétiches.",
+   "progress": "Si les fétiches atal'ai détiennent le pouvoir d'invoquer Hakkar et de remplir la prophétie de Jammal'an, alors nous devons nous en emparer. De tels pouvoirs doivent être assimilés par la Horde !",
+   "completion": "Vous êtes courageux. Vous nous avez montré que vous êtes un grand champion de la Horde.\n\nÀ présent nous devons nous occuper de cette collection de fétiches d'Hakkar, <classe>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1443,
+     "name": "Fel'zerul"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1443,
+     "name": "Fel'zerul"
+    }
+   ],
+   "zone_id": 1477,
+   "level": 50,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 5900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1446": {
+   "id": 1446,
+   "name": "Jammal'an le Prophète",
+   "objectives": "L'Exilé atal'ai des Hinterlands veut la Tête de Jammal'an.",
+   "description": "Mes compagnons Witherbark n'apprécient pas beaucoup les étrangers qui rôdent près de chez eux.\n\nMoi ? Je n'ai plus de maison. J'ai été exilé par mon peuple, la grande tribu Atal'ai du marais des Chagrins.\n\nNotre chef spirituel, Jammal'an, avait ce qu'il appelait une prophétie. Il pense que l'invocation du dieu Hakkar apportera l'immortalité à la tribu Atal'ai.\n\nMais j'ai prôné la prudence. Et si cette prophétie n'était rien d'autre que de la manipulation ?\n\nJe veux une revanche pour mon exil. Apportez-moi la tête de Jammal'an. Peut-être qu’ensuite mon peuple retrouvera son libre arbitre.",
+   "progress": "Une fois Jammal'an éliminé, j'aurai une chance de retourner chez moi.\n\nTant que Jammal'an reste à leur tête, la tribu Atal'ai court à la destruction.",
+   "completion": "La confiance aveugle de Jammal'an en des visions erronées a précipité mon peuple dans une malédiction éternelle.\n\nJe vous remercie, <classe>, pour avoir vengé mon exil. Je pleure cependant mon peuple. Et je n'ai plus de maison vers laquelle retourner.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5598,
+     "name": "Exilé atal'ai"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5598,
+     "name": "Exilé atal'ai"
+    }
+   ],
+   "zone_id": 1477,
+   "level": 53,
+   "reqlevel": 38,
+   "side": "both",
+   "xp": 6550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1475": {
+   "id": 1475,
+   "name": "Dans le temple d'Atal'Hakkar",
+   "objectives": "Rassembler 10 Tablettes atal'ai pour Brohann Caskbelly à Stormwind.",
+   "description": "D'après la légende, le temple d'Atal'Hakkar est un lieu saint dédié au dieu ancien, Hakkar l'Écorcheur d'âmes. Habité par une ignoble tribu de trolls, les Atal'ai, on dit qu'il est impossible d'y entrer.\n\nCe temple est à présent sous les eaux du Bassin des larmes, et récupérer les artefacts sera d'autant plus difficile. Mais c'est pourtant ce que j'ai besoin que vous fassiez, <nom>.\n\nAidez-moi, en récupérant les Tablettes atal'ai intactes. Apportez-les-moi, et je deviendrai un héros aux yeux de la Ligue des Explorateurs. Nous partagerons ensemble cette gloire.",
+   "progress": "Alors que le crépuscule tombe doucement sur ma carrière, je me tourne vers vous, <nom>, pour m'aider dans ma dernière quête au service de la Ligue des Explorateurs. Si mes vieux os pouvaient rassembler la résistance nécessaire pour braver le marais des Chagrins et le temple englouti, je me battrais à vos côtés.\n\nLa fierté fait qu'il m'est difficile de vous demander de l'aide pour récupérer les tablettes atal'ai. Mais mon grand âge rend cette demande nécessaire cependant.\n\nS'il vous plaît, aidez-moi, <nom>. Je veux me retirer de la Ligue des Explorateurs en ayant accompli sa dernière demande.",
+   "completion": "Les tablettes atal'ai ! Merci, <nom> !\n\nUne fois que je les aurai remises à la Ligue des Explorateurs, nos noms seront gravés côte à côte dans l'histoire. Vous avez aidé un vieux nain à remplir son dernier devoir dans la vie. Je vous en suis éternellement reconnaissant.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5384,
+     "name": "Brohann Caskbelly"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5384,
+     "name": "Brohann Caskbelly"
+    }
+   ],
+   "zone_id": 1477,
+   "level": 50,
+   "reqlevel": 41,
+   "side": "alliance",
+   "xp": 7100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3373": {
+   "id": 3373,
+   "name": "L'Essence d'Eranikus",
+   "objectives": "Placer l'Essence d'Eranikus dans le Réceptacle d'essence situé dans son antre dans le Temple englouti.",
+   "description": "Alors que vous touchez la gemme, une voix grave résonne dans votre esprit.\n\n\"<Mortel/Mortelle>, considérez ma requête. Je suis Eranikus des dragons verts, gardien de ce temple maudit. J'avais pour charge de m'assurer que les trolls n'amènent plus en ces lieux leurs dieux abominables. Mais j'ai échoué. Alors que j'imprègne cette gemme d'une partie de mon essence, je sens que mon étreinte sur le Rêve s'évanouit vers le néant. Je vous en prie, placez cette gemme dans le Réceptacle d'essence de mon antre, et que notre magie en ces lieux purge l'infection de mon esprit et me permette de reposer.\"",
+   "progress": "Alors que vous vous approchez du réceptacle d'essence dont vous a parlé Eranikus, sa voix caresse à nouveau votre esprit.\n\n\"Oui, mortel, ce réceptacle d'essence sauvera ce qu'il reste d'éléments non souillés de mon esprit imprégnés à cette gemme. Placez la gemme à l'intérieur du réceptacle, et laissons la magie des dragons verts nettoyer la corruption et l'infection de mon être. Alors seulement je connaîtrai la libération et les dragons verts seront en mesure de réaffirmer leur tutelle sur les Atal'ai. \"",
+   "completion": "Vous placez la gemme à l'intérieur du Réceptacle d'essence.\n\n\"Merci, mortel, vous avez - non… ce, ce n'est pas possible ! Non ! La corruption de ce dieu maudit souille même la sainteté du Réceptacle d'essence des dragons verts ! Non je vous en prie, je sens ma propre essence se déchirer de moi-même ! LA DOULEUR ! L'étreinte d'un éternel cauchemar se referme sur moi. . . \"\n\n\"Mortel, je vous implore ! Trouvez quelqu'un des dragons verts pour y mettre un terme. . . au secours. . . je suis enchaîné aux ténèbres. . . à l'agonie pour toujours. . . Pitié, ne torturez. . . \"",
+   "starters": [
+    {
+     "type": "item",
+     "id": 10454,
+     "name": "Essence of Eranikus"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 148512,
+     "name": "Essence Font"
+    }
+   ],
+   "zone_id": 1477,
+   "level": 55,
+   "reqlevel": 48,
+   "side": "both",
+   "xp": 2800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Mortel/Mortelle"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3380": {
+   "id": 3380,
+   "name": "Le Temple englouti",
+   "objectives": "Trouver Marvon Rivetseeker à Tanaris.",
+   "description": "Il existe en ce monde des esprits qui ne connaissent pas le repos, <nom>. Il existe des esprits viciés par leur solitude, liés à un mal antique…\n\nJ'ai entendu parler d'un endroit se trouvant profondément sous la surface de la terre, banni en ce lieu par des puissances plus grandes que je n'aie jamais rencontrées.\n\nSi vous souhaitez en apprendre davantage sur cet endroit, le Temple englouti, partez à la recherche d'un gobelin nommé Marvon Rivetseeker. Il a étudié de nombreuses parties du monde, et aux dernières nouvelles, il a quitté sa demeure à Ratchet pour étudier les ruines des trolls à Tanaris.",
+   "progress": null,
+   "completion": "Oui, le Temple englouti, je peux dire que je l'ai vu de mes propres yeux. Peut-être souhaiteriez-vous en entendre davantage à son propos ?\n\nVous m'avez l'air d'être du genre aventurier… Je connais des choses qui pourraient vous intéresser. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8115,
+     "name": "Sorcier-docteur Uzer'i"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7771,
+     "name": "Marvon Rivetseeker"
+    }
+   ],
+   "zone_id": 1477,
+   "level": 51,
+   "reqlevel": 46,
+   "side": "horde",
+   "xp": 3650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3446": {
+   "id": 3446,
+   "name": "Dans les profondeurs",
+   "objectives": "Trouver l'Autel d'Hakkar dans le Temple englouti du marais des Chagrins.",
+   "description": "J'ai trouvé à l'intérieur du temple une pièce circulaire avec six stèles, chacune étant une statue de serpent. La curiosité m’amena à pousser l'une d'entre elles, simplement pour voir ce qui allait se passer. C'était un piège, et l'explosion m'a presque emmené jusqu’aux portes de la mort. Alors que je reposais là, sur le bord, je regardais en bas pour m’apercevoir qu'il y avait une autre statue dans la partie inférieure de la pièce : un autel si l'on peut dire... Hakkar, je crois qu'il s'appelait comme ça.\n\nJe pense que cet autel est la clé du mystère : vous devez apporter ce symbole à cet autel du Temple englouti.",
+   "progress": "En examinant la statue, vous remarquez la présence d'un creux sur son côté, dont la taille est identique à celle du symbole que vous a donné Marvon.",
+   "completion": "Vous poussez le Cercle de pierres dans l'ouverture, et vous l'entendez s'enclencher à sa place.\n\nÀ présent que l'objet est en place, vous pouvez continuer… Mais qu'avez-vous à faire ?\n\nPeut-être devriez-vous examiner plus attentivement cet autel…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7771,
+     "name": "Marvon Rivetseeker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 148836,
+     "name": "Altar of Hakkar"
+    }
+   ],
+   "zone_id": 1477,
+   "level": 51,
+   "reqlevel": 46,
+   "side": "both",
+   "xp": 4900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3447": {
+   "id": 3447,
+   "name": "Le secret du cercle",
+   "objectives": "Voyager jusqu'au Temple englouti et découvrir le secret du cercle de statues.",
+   "description": "Ma mémoire est brumeuse, mais je vais vous raconter ce dont je me souviens. Je crois que le cercle de statues situé dans le Temple englouti détient, malgré les dangers qui s'y cachent, un secret permettant de découvrir un trésor encore plus important.\n\nJe pouvais activer une série de lumières depuis l'autel principal. Il est possible que si vous parveniez à comprendre la signification de ces lumières, vous puissiez découvrir les mystères de cette pièce.\n\nJe vous mets quand même en garde, <nom>. De puissants maléfices protègent ces lieux. Il est probable que quoi que ce soit qui ait de la valeur soit gardé avec ferveur.",
+   "progress": null,
+   "completion": "L'œil de l'idole scintille d'un vif éclat malgré la pénombre qui règne dans le temple. Sa transparence vous révèle quelque chose qui brille derrière. Glissant l'œil sur le côté, vous tendez la main et vous vous emparez de ce qui était caché dans la statue.\n\nLe trésor atal'ai est désormais en votre possession.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7771,
+     "name": "Marvon Rivetseeker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 148838,
+     "name": "Idol of Hakkar"
+    }
+   ],
+   "zone_id": 1477,
+   "level": 51,
+   "reqlevel": 46,
+   "side": "both",
+   "xp": 6100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3528": {
+   "id": 3528,
+   "name": "Le dieu Hakkar",
+   "objectives": "Apporter l'Oeuf Rempli d'Hakkar à Yeh'kinya dans Tanaris.",
+   "description": "Maintenant il faut capturer l'essence de l'avatar d'Hakkar.\n\nApportez l'Oeuf d'Hakkar au Sanctuaire du dieu déchu dans le Temple englouti d'Azeroth. Invoquez le pouvoir de l'œuf pour réveiller le dieu mort.\n\nIl enverra ses sbires contre vous. Combattez-les et prenez leur sang Hakkari, puis versez-le sur les flammes éternelles qui retiennent l'esprit d'Hakkar. Une fois les flammes éteintes, l'avatar d'Hakkar entrera dans notre monde.\n\nCombattez-le et placez son essence dans l'œuf d'Hakkar.",
+   "progress": "Avez-vous vaincu l'avatar d'Hakkar, <nom> ? Son essence a-t-elle redonné pouvoir à l'œuf que je vous ai donné ?",
+   "completion": "L'essence d'Hakkar a été trouvée ! Et même, l'œuf revient maintenant à la vie ! Les mythes d'Hakkar pourraient-ils être vrais ?\n\nCe n'est pas possible, ou alors, j'ai peur de ce que pourrait faire Hakkar s'il naissait de nouveau. Je vais enfermer l'œuf dans ce coffre-fort pour qu'il ne tombe pas dans de mauvaises mains.\n\nVotre travail pour moi est terminé, <nom>. Vous entrez dans la légende et vos actions changeront peut-être un jour la face de notre monde.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8579,
+     "name": "Yeh'kinya"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8579,
+     "name": "Yeh'kinya"
+    }
+   ],
+   "zone_id": 1477,
+   "level": 53,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 7900,
+   "money": 24000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8733": {
+   "id": 8733,
+   "name": "Eranikus, le tyran du Rêve",
+   "objectives": "Rendez-vous sur Teldrassil et trouvez l’agent de Malfurion à l’extérieur des remparts de Darnassus.",
+   "description": "C’est un voyage de rédemption, <héros/héroïne>. Si seulement j’avais succombé aujourd’hui, j’aurais péri pour une cause juste et bonne. Vous devez retrouver le fragment de sceptre vert. Vous devez purifier Eranikus de la souillure que les Dieux très anciens ont placée sur lui.\n\nRendez-vous à Darnassus. Juste devant les remparts de la ville, vous rencontrerez l’un de mes agents. Cet agent lancera l’opération et informera Tyrande de nos plans sans alerter Forteramure.\n\n<Malfurion soupire.>\n\nUne déchéance qui a mis un millénaire à s’accomplir…",
+   "progress": null,
+   "completion": "Le feu follet n’émet qu’un faible bourdonnement. Bizarrement, il semble capable de communiquer avec vous par la pensée.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15362,
+     "name": "Malfurion Stormrage"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15624,
+     "name": "Feu follet forestier"
+    }
+   ],
+   "zone_id": 1477,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Malfurion soupire.",
+    "héros/héroïne"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

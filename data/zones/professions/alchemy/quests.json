@@ -1,0 +1,80 @@
+{
+ "schema": 1,
+ "zone": "professions/alchemy",
+ "zone_id": -181,
+ "zone_name": "Alchimiste",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 1,
+  "complete": 1,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "1581": {
+   "id": 1581,
+   "name": "Les élixirs pour les Bladeleaf",
+   "objectives": "Apporter 6 Elixirs de force du lion et 2 Elixirs de défense mineure à Syral Bladeleaf à Dolanaar.",
+   "description": "Notre magasin d'herbes et d'alchimie est un succès, mais mon mari passe tellement de temps à préparer ses potions qu'il ne nous en reste plus pour nous deux.\n\nPouvez-vous nous aider ?\n\nSi vous m'apportiez une provision d'élixirs déjà faits, alors je serais heureuse de commercer avec vous. J'ai ici quelques herbes rares qui pourraient vous intéresser.",
+   "progress": "Salutations, <nom>. Avez-vous ces élixirs pour moi ?",
+   "completion": "Ils sont parfaitement préparés. Vous prenez grand soin de votre affaire, <nom>, et c'est très important pour un alchimiste.\n\nVoici vos herbes, fraîchement récoltées. Puissent-elles vous être d'une grande utilité.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2083,
+     "name": "Syral Bladeleaf"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2083,
+     "name": "Syral Bladeleaf"
+    }
+   ],
+   "zone_id": -181,
+   "level": 8,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 700,
+   "money": 225,
+   "forever": {
+    "status": "updated",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T21:11:34"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

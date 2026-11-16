@@ -1,0 +1,656 @@
+{
+ "schema": 1,
+ "zone": "professions/leatherworking",
+ "zone_id": -182,
+ "zone_name": "Artisan du cuir",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 11,
+  "with_display_id": 11,
+  "with_title": 10,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 6,
+   "unknown": 5
+  }
+ },
+ "npcs": {
+  "3007": {
+   "id": 3007,
+   "name": "Una",
+   "title": "Artisan du cuir - Artisan",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Thunder Bluff",
+   "zones": [
+    "Thunder Bluff"
+   ],
+   "coords": {},
+   "levels": [
+    46,
+    46
+   ],
+   "display_id": 2127,
+   "quests_started": [],
+   "quests_ended": [
+    2860
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "female",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "4212": {
+   "id": 4212,
+   "name": "Telonis",
+   "title": "Artisan du cuir - Artisan",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Darnassus",
+   "zones": [
+    "Darnassus"
+   ],
+   "coords": {},
+   "levels": [
+    46,
+    46
+   ],
+   "display_id": 2270,
+   "quests_started": [],
+   "quests_ended": [
+    2853
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfMaleWarrior",
+    "race": "NightElf",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6644,
+     "farewell": 5996,
+     "pissed": 5997
+    },
+    "combat_set": "NightElfMale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "NightElfMaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "6034": {
+   "id": 6034,
+   "name": "Lotherias",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Darnassus",
+   "zones": [
+    "Darnassus"
+   ],
+   "coords": {},
+   "levels": [
+    35,
+    35
+   ],
+   "display_id": 5186,
+   "quests_started": [
+    1582
+   ],
+   "quests_ended": [
+    1582
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfFemaleStandard",
+    "race": "NightElf",
+    "sex": "female",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5998,
+     "farewell": 5999,
+     "pissed": 6000
+    },
+    "combat_set": "NightElfFemale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "NightElfFemaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7852": {
+   "id": 7852,
+   "name": "Pratt McGrubben",
+   "title": "Fournitures d'artisan du cuir",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Stormwind",
+   "zones": [
+    "Feralas"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 6892,
+   "quests_started": [
+    2821,
+    2847,
+    2848,
+    2849,
+    2850,
+    2851,
+    2852,
+    2853,
+    7733
+   ],
+   "quests_ended": [
+    2821,
+    2847,
+    2848,
+    2849,
+    2850,
+    2851,
+    2852,
+    7733,
+    7735
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleStandard",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6637,
+     "farewell": 5975,
+     "pissed": 5976
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7854": {
+   "id": 7854,
+   "name": "Jangdor Swiftstrider",
+   "title": "Fournitures d'artisan du cuir",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Thunder Bluff",
+   "zones": [
+    "Feralas"
+   ],
+   "coords": {},
+   "levels": [
+    49,
+    49
+   ],
+   "display_id": 6893,
+   "quests_started": [
+    2822,
+    2854,
+    2855,
+    2856,
+    2857,
+    2858,
+    2859,
+    2860,
+    7734
+   ],
+   "quests_ended": [
+    2822,
+    2854,
+    2855,
+    2856,
+    2857,
+    2858,
+    2859,
+    7734,
+    7738
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "7866": {
+   "id": 7866,
+   "name": "Peter Galen",
+   "title": "Artisan du cuir - Maître écailles de dragon",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Stormwind",
+   "zones": [
+    "Azshara"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 6917,
+   "quests_started": [
+    5141
+   ],
+   "quests_ended": [
+    5141
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleOfficial",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5971,
+     "farewell": 5972,
+     "pissed": 5973
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7867": {
+   "id": 7867,
+   "name": "Thorkaf Dragoneye",
+   "title": "Artisan du cuir - Maître écailles de dragon",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Badlands"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 6916,
+   "quests_started": [
+    5145
+   ],
+   "quests_ended": [
+    5145
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "7868": {
+   "id": 7868,
+   "name": "Sarah Tanner",
+   "title": "Artisan du cuir - Maître élémentaire",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Stormwind",
+   "zones": [
+    "Searing Gorge"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 7030,
+   "quests_started": [
+    5144
+   ],
+   "quests_ended": [
+    5144
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanFemaleWarrior",
+    "race": "Human",
+    "sex": "female",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5986,
+     "farewell": 5987,
+     "pissed": 5988
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "HumanFemaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7869": {
+   "id": 7869,
+   "name": "Brumn Winterhoof",
+   "title": "Artisan du cuir - Maître élémentaire",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Thunder Bluff",
+   "zones": [
+    "Arathi Highlands"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 6918,
+   "quests_started": [
+    5146
+   ],
+   "quests_ended": [
+    5146
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "7870": {
+   "id": 7870,
+   "name": "Caryssia Moonhunter",
+   "title": "Maître des artisans du cuir tribal",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Darnassus",
+   "zones": [
+    "Feralas"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 6919,
+   "quests_started": [
+    5143
+   ],
+   "quests_ended": [
+    5143
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfFemaleSentinel",
+    "race": "NightElf",
+    "sex": "female",
+    "personality": "Sentinel",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6005,
+     "farewell": 6006,
+     "pissed": 6007
+    },
+    "combat_set": "NightElfFemale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "NightElfFemaleSentinel"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "7871": {
+   "id": 7871,
+   "name": "Se'Jib",
+   "title": "Artisan du cuir - Maître tribal",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Stranglethorn Vale"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 7042,
+   "quests_started": [
+    5148
+   ],
+   "quests_ended": [
+    5148
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  }
+ }
+}

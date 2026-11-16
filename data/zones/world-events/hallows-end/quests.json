@@ -1,0 +1,868 @@
+{
+ "schema": 1,
+ "zone": "world-events/hallows-end",
+ "zone_id": -1003,
+ "zone_name": "Sanssaint",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 15,
+  "complete": 15,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 6
+ },
+ "quests": {
+  "1657": {
+   "id": 1657,
+   "name": "Empuantir Southshore",
+   "objectives": "Lancer trois Boules puantes des Réprouvés au milieu de Southshore en Hillsbrad, puis revenez voir la sombre imploratrice Yanka à la Fête de l’homme d’osier, aux Clairières de Tirisfal.",
+   "description": "Nous allons célébrer la Sanssaint en grande pompe… en en faisant voir de toutes les couleurs à nos ennemis de Southshore !\n\nPrenez l’une de ces boules puantes conçues spécialement pour l’occasion. Elle est remplie d’une substance nauséabonde dont aucun humain - ou aucune bête à l’esprit simple, d’ailleurs - ne peut supporter l’odeur. Il faut la jeter au beau milieu de Southshore pour qu’elle agisse correctement, donc attendez-vous à combattre l’Alliance !\n\nQuand vous aurez accompli cette tâche… cet hommage à notre libération, revenez me voir !",
+   "progress": "Avez-vous remis notre \"cadeau\" aux habitants de Southshore ?\n\n<L'appelante Yanka rit méchamment.",
+   "completion": "Ah, bien joué ! J’espère que l’Alliance s’étranglera sur le cadeau puant que nous lui avons envoyé, comme nous avons été étranglés par le joug de l’esclavage du Fléau !\n\nVous avez bien célébré l’esprit de la Sanssaint, <nom>, et je vous en remercie. En petit bonus, laissez-moi vous offrir ces quelques bonbons de la Sanssaint. Je pense que vous les trouverez très amusants !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15197,
+     "name": "Sombre imploratrice Yanka"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15197,
+     "name": "Sombre imploratrice Yanka"
+    }
+   ],
+   "zone_id": -1003,
+   "level": 60,
+   "reqlevel": 25,
+   "side": "horde",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1658": {
+   "id": 1658,
+   "name": "Un intrus à la Fête de l'homme d'osier",
+   "objectives": "Allez voir la Fête de l'homme d'osier des Réprouvés dans les clairières de Tirisfal. Revenez voir le sergent Hartman à Southshore quand ce sera fait.",
+   "description": "J’ai besoin de personnes courageuses pour se rendre aux clairières de Tirisfal, et voir comment se déroule la Fête de l’homme d’osier. Je ne vais pas vous mentir, aller là-bas sera dangereux : les gardes de faction lors de la fête seront exceptionnellement brutaux. Cependant, nous devons absolument connaître l’ampleur des festivités, et la gravité des problèmes que les Réprouvés nous causeront durant la Sanssaint.\n\nSi vous vous sentez d’attaque, dirigez-vous vers Tirisfal et espionnez les Réprouvés. Revenez me voir avec des informations, et je m’assurerai que vous recevrez une compensation convenable.",
+   "progress": "Êtes-vous allés voir ce qui se passe dans la Clairière de Tirisfal ? Ils organisent généralement le festival près de la ville souterraine...",
+   "completion": "Bien joué, <nom>. La Fête de l’homme d’osier continuera à nous poser des problèmes tant que l’on laissera ces abominables Réprouvés hanter les ruines de Lordaeron. Ce n’est PAS un hommage convenable pour cette terre qui fut autrefois un fier royaume, je peux vous le dire…\n\nVoici quelques pièces pour payer les réparations dont vous pourrez avoir besoin, et pour rester dans l’esprit de la Sanssaint, j’y ai ajouté quelques friandises que vous apprécierez peut-être. Joyeuse Sanssaint… et essayons de la rendre la plus sûre possible à Southshore.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15199,
+     "name": "Sergent Hartman"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15199,
+     "name": "Sergent Hartman"
+    }
+   ],
+   "zone_id": -1003,
+   "level": 60,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 6600,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8311": {
+   "id": 8311,
+   "name": "Des bonbons de la Sanssaint pour Jesper !",
+   "objectives": "Parler aux aubergistes de Stormwind, d'Ironforge, de Darnassus, et à Talvash del Kissel à Ironforge. Accomplissez les blagues qu'ils vous demanderont de faire en échange de bonbons.\n\nRetournez voir Jesper à l'orphelinat de Stormwind avec un Massepain de Darnassus, une Boule de gomme de Gnomeregan, du Nougat de Stormwind et un Bonbon à la menthe d'Ironforge.",
+   "description": "J’aimerais bien faire la tournée des bonbons et des blagues, mais je ne peux pas, car je suis malade. Si vous voulez y aller pour moi, je vous échangerai les bonbons que vous gagnerez contre celui que j’ai déjà ! Je pense que vous l’aimerez beaucoup - il vous transforme en des trucs rigolos et effrayants !\n\nTous les aubergistes dans les grandes villes ont des bonbons qu’ils donnent pour la Sanssaint. Parlez-leur et faites les blagues qu’ils vous demanderont ! Ah, et il y a aussi un petit gnome nommé Talvash à Ironforge qui donne des bonbons. Quand vous aurez tous les bonbons, rapportez-les-moi ici !",
+   "progress": "As-tu déjà fini de faire la chasse aux bonbons ? Je suis triste de ne pas pouvoir y aller parce que je suis malade, mais le fait que tu m'aides me rassure un peu...",
+   "completion": "Wow, tu les as tous eus ! Tu es génial !\n\nMerci d'avoir fait la chasse aux bonbons pour moi. Tiens, prends ces friandises à la citrouille - je pense que tu les aimeras beaucoup !\n\nJoyeuse fin d'Halloween, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15310,
+     "name": "Jesper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15310,
+     "name": "Jesper"
+    }
+   ],
+   "zone_id": -1003,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8312": {
+   "id": 8312,
+   "name": "Des bonbons de la Sanssaint pour Spoops !",
+   "objectives": "Parler aux aubergistes d'Orgrimmar, d'Undercity, de Thunder Bluff, et à Kali Remik au village de Sen'jin. Accomplissez les blagues qu'ils vous demanderont de faire en échange de bonbons.\n\nRetournez voir Spoops à l'orphelinat d'Orgrimmar avec un Massepain de Thunder Bluff, une Boule de gomme de Darkspear, du Nougat d'Orgrimmar et un Bonbon à la menthe d'Undercity.",
+   "description": "J’aimerais bien faire la tournée des bonbons et des blagues, mais je ne peux pas, car je suis malade. Si vous voulez y aller pour moi, je vous échangerai les bonbons que vous gagnerez contre ceux que j’ai déjà ! Je pense que vous les aimerez beaucoup - ils vous transforment en des trucs rigolos et effrayants !\n\nTous les aubergistes dans les grandes villes ont des bonbons qu’ils donnent pour la Sanssaint. Parlez-leur et faites les blagues qu’ils vous demanderont ! Ah, et il y a aussi une trollesse qui s'appelle Kali Remik au village de Sen'jin qui donne des bonbons. Quand vous aurez tous les bonbons, rapportez-les-moi ici !",
+   "progress": "As-tu déjà fini de faire la chasse aux bonbons ? Je suis triste de ne pas pouvoir y aller parce que je suis malade, mais le fait que tu m'aides me rassure un peu...",
+   "completion": "Wow, tu les as tous eus ! Tu es génial !\n\nMerci d'avoir fait la chasse aux bonbons pour moi. Tiens, prends ces friandises à la citrouille - je pense que tu les aimeras beaucoup !\n\nJoyeuse fin d'Halloween, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15309,
+     "name": "Spoops"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15309,
+     "name": "Spoops"
+    }
+   ],
+   "zone_id": -1003,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8322": {
+   "id": 8322,
+   "name": "Les œufs pourris",
+   "objectives": "Placez les Oeufs pourris dans le tonneau de bière principal de l’auberge de Southshore.",
+   "description": "Les humains de Southshore adorent la bière, et tout particulièrement celle qui est servie à l’auberge de Southshore. Nous pouvons profiter du chaos provoqué par la Sanssaint pour gâter leur dernière cuvée de boissons pour des semaines… voire des mois !\n\nPrenez ces œufs pourris et allez les placer dans le tonneau de bière principal de l’auberge de Southshore. Votre simple présence déclenchera des combats, alors attendez-vous à vous battre !\n\nQuand vous aurez laissé à Southshore un goût qu’ils ne risquent pas d’oublier, revenez me voir ici, à la fête !",
+   "progress": "Le tonneau est rempli de bière.",
+   "completion": "Après avoir réussi à vous frayer un chemin à l’intérieur de l’auberge, vous placez les oeufs à l’intérieur du tonneau. Vous sentez une odeur terrible qui commence à imprégner l’air…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15197,
+     "name": "Sombre imploratrice Yanka"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 180570,
+     "name": "Keg"
+    }
+   ],
+   "zone_id": -1003,
+   "level": 60,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8353": {
+   "id": 8353,
+   "name": "Caqueter pour un bonbon à la menthe",
+   "objectives": "Utilisez l'emote /poulet devant l'aubergiste Firebrew, et vous recevrez en échange un bonbon à la menthe d'Ironforge !",
+   "description": "Ah, vous faites les blagues de la Sanssaint pour un enfant malade, c'est cela ? Je me disais aussi, vous êtes un peu <vieux/vieille> pour quémander des bonbons…\n\nEh bien, pour que je vous donne un bonbon - un véritable bonbon à la menthe de Forgefer - vous devrez… caqueter comme un poulet ! Oui, oui, les poulets adorent les bonbons à la menthe… Bon, d'accord, peut-être qu'ils ne les ADORENT pas… mais je ne vous en donnerai pas si vous n'imitez pas le poulet pour moi !\n\nAlors, <classe>, vous êtes <prêt/prête> à relever le défi ? C'est le moment de gagner votre bonbon !",
+   "progress": "I'm waiting. . .",
+   "completion": "Trop drôle ! Bien joué, <nom> ! Voici votre bonbon.\n\nJoyeuse Sanssaint !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5111,
+     "name": "Firebrew l'aubergiste"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5111,
+     "name": "Firebrew l'aubergiste"
+    }
+   ],
+   "zone_id": -1003,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "prêt/prête",
+    "vieux/vieille"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8354": {
+   "id": 8354,
+   "name": "Caqueter pour un bonbon à la menthe",
+   "objectives": "Utilisez l'emote /poulet devant l'aubergiste Norman, et vous recevrez en échange un bonbon à la menthe d'Undercity !",
+   "description": "Ah, vous faites les blagues de la Sanssaint pour une petite fille malade, c'est cela ? Je me disais aussi, vous êtes un peu <vieux/vieille> pour quémander des bonbons…\n\nEh bien, pour que je vous donne un bonbon - un véritable bonbon à la menthe de Fossoyeuse - vous devrez… caqueter comme un poulet ! Oui, oui, les poulets adorent les bonbons à la menthe… Bon, d'accord, peut-être qu'ils ne les ADORENT pas… mais je ne vous en donnerai pas si vous n'imitez pas le poulet pour moi !\n\nAlors, <classe>, vous êtes <prêt/prête> à relever le défi ? C'est le moment de gagner votre bonbon !",
+   "progress": "I'm waiting. . .",
+   "completion": "Trop drôle ! Bien joué, <nom> ! Voici votre bonbon.\n\nJoyeuse Sanssaint !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6741,
+     "name": "Norman l'aubergiste"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6741,
+     "name": "Norman l'aubergiste"
+    }
+   ],
+   "zone_id": -1003,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "prêt/prête",
+    "vieux/vieille"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8355": {
+   "id": 8355,
+   "name": "Boule de gomme en approche",
+   "objectives": "Utilisez l'emote /tchou devant Talvash del Kissel, et vous recevrez en échange une boule de gomme de Gnomeregan !",
+   "description": "<Un quémandeur/une quémandeuse> de bonbons ! Hourra !\n\nBon, même si vous faites quelque chose de noble en récupérant des bonbons pour un enfant malade, je ne peux pas vous laisser vous en sortir si facilement. J'ai une délicieuse boule de gomme de Gnomeregan pour le gamin, que je vous donnerai si… vous imitez le bruit du train pour moi ! Haha, oui, c'est une bonne blague ! Le prix de cette boule de gomme est d'imiter le train ! Tchou-tchou, <classe> !",
+   "progress": "Well, go ahead now. . .",
+   "completion": "Wou-wou ! Bien joué, <nom> ! Voici votre bonbon.\n\nJoyeuse Sanssaint !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6826,
+     "name": "Talvash del Kissel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6826,
+     "name": "Talvash del Kissel"
+    }
+   ],
+   "zone_id": -1003,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Un quémandeur/une quémandeuse",
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8356": {
+   "id": 8356,
+   "name": "Montrer ses muscles pour du nougat",
+   "objectives": "Utilisez l'emote /frime devant l'aubergiste Allison, et vous recevrez en échange du nougat de Stormwind !",
+   "description": "C’est un costume très... intéressant, que vous avez là, dites-moi. Même si vous vous montrez sympa et que vous aidez cette année un enfant malade à faire ses blagues de la Sanssaint, j’ai bien peur d’être obligée de vous demander d’accomplir un petit tour pour moi !\n\nVoyons… Vous semblez si <fort/forte> et si <mis/mise> en valeur dans ce… costume… Faites donc un peu jouer vos muscles ! Allez, ne soyez pas timide, frimez un peu pour moi, jeune <homme/femme> !\n\nQuand je vous aurai vu bander vos muscles, je vous donnerai de cet excellent nougat de Hurlevent. C’est un fameux bonbon de la Sanssaint.",
+   "progress": "Pas de bonbons tant que tu n'as pas fléchi pour moi, <nom>...",
+   "completion": "Vous êtes vraiment puissant, haha ! Bien joué, et merci d'avoir été si bon joueur. Voici votre bonbon.\n\nJoyeuse fin d'Halloween, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6740,
+     "name": "Aubergiste Allison"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6740,
+     "name": "Aubergiste Allison"
+    }
+   ],
+   "zone_id": -1003,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "fort/forte",
+    "homme/femme",
+    "mis/mise"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8357": {
+   "id": 8357,
+   "name": "Danser pour du massepain",
+   "objectives": "Utilisez l'emote /danser devant l'aubergiste Saelienne, et vous recevrez en échange du massepain de Darnassus !",
+   "description": "Même si vous faites la tournée de la Sanssaint pour un enfant malade, vous devez quand même faire un petit tour pour obtenir un bonbon ! Nous ne pouvons pas déroger aux traditions, n'est-ce pas ?\n\nJe crois que le prix d'un morceau de massepain aujourd'hui est de se remuer un peu et de DANSER ! C'est ça, voyons donc vos pas de danse ! Dansez pour moi, et je vous donnerai un excellent massepain !",
+   "progress": "Tu sais danser, n'est-ce pas ? Essaie de mettre ton pied droit en avant... puis ton pied droit en arrière... ton pied droit en avant... secoue tout ça...",
+   "completion": "Tu es une vraie machine à danser, <nom> !\n\nVoilà de quoi vous récompenser d'avoir été si bon joueur. Joyeuse fin d'Halloween, et présentez mes meilleurs vœux à votre petit ami malade ! J'espère qu'ils iront bientôt mieux.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6735,
+     "name": "Saelienne l'aubergiste"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6735,
+     "name": "Saelienne l'aubergiste"
+    }
+   ],
+   "zone_id": -1003,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8358": {
+   "id": 8358,
+   "name": "Boule de gomme en approche",
+   "objectives": "Utilisez l'emote /tchou devant Kali Remik, et vous recevrez en échange une boule de gomme de Darkspear !",
+   "description": "<Un quémandeur/Une quémandeuse> de bonbons ! Cool, <l'ami/l'amie> !\n\nBon, même si vous faites quelque chose de noble en récupérant des bonbons pour une petite fille malade, je ne peux pas vous laisser vous en sortir si facilement. J'ai une délicieuse boule de gomme de Sombrelance pour la gamine, que je vous donnerai si… vous imitez le bruit du train pour moi ! Haha, oui, c'est une bonne blague ! Le prix de cette boule de gomme est d'imiter le train ! Tchou-tchou, <classe> !",
+   "progress": "Eh bien, allez-y…",
+   "completion": "Wou-wou ! Bien joué, <nom> ! Voici votre bonbon.\n\nJoyeuse Sanssaint !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11814,
+     "name": "Kali Remik"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11814,
+     "name": "Kali Remik"
+    }
+   ],
+   "zone_id": -1003,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Un quémandeur/Une quémandeuse",
+    "classe",
+    "l'ami/l'amie"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8359": {
+   "id": 8359,
+   "name": "Montrer ses muscles pour du nougat",
+   "objectives": "Utilisez l'emote /frime devant l'aubergiste Gryshka, et vous recevrez en échange du nougat d'Orgrimmar !",
+   "description": "C'est un costume très... intéressant, que vous avez là, dites-moi. Même si vous vous montrez sympa et que vous aidez cette année une petite fille malade à faire ses blagues de la Sanssaint, j'ai bien peur d'être obligée de vous demander d'accomplir un petit tour pour moi !\n\nVoyons… Vous semblez si <fort/forte> et si <mis/mise> en valeur dans ce… costume… Faites donc un peu jouer vos muscles ! Allez, ne soyez pas timide, frimez un peu pour moi, jeune <homme/femme> !\n\nQuand je vous aurai vu bander vos muscles, je vous donnerai de cet excellent nougat d'Orgrimmar. C'est un fameux bonbon de la Sanssaint.",
+   "progress": "Pas de bonbons tant que tu n'as pas fléchi pour moi, <nom>...",
+   "completion": "Vous êtes vraiment puissant, haha ! Bien joué, et merci d'avoir été si bon joueur. Voici votre bonbon.\n\nJoyeuse fin d'Halloween, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6929,
+     "name": "Gryshka l'aubergiste"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6929,
+     "name": "Gryshka l'aubergiste"
+    }
+   ],
+   "zone_id": -1003,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "fort/forte",
+    "homme/femme",
+    "mis/mise"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8360": {
+   "id": 8360,
+   "name": "Danser pour du massepain",
+   "objectives": "Utilisez l'emote /danser devant l'aubergiste Pala, et vous recevrez en échange du massepain de Thunder Bluff !",
+   "description": "Même si vous faites la tournée de la Sanssaint pour une petite fille malade, vous devez quand même faire un petit tour pour obtenir un bonbon ! Nous ne pouvons pas déroger aux traditions, n'est-ce pas ?\n\nJe crois que le prix d'un morceau de massepain aujourd'hui est de se remuer un peu et de DANSER ! C'est ça, voyons donc vos pas de danse ! Dansez pour moi, et je vous donnerai un excellent massepain !",
+   "progress": "Tu sais danser, n'est-ce pas ? Essaie de mettre ton pied droit en avant... puis ton pied droit en arrière... ton pied droit en avant... secoue tout ça...",
+   "completion": "Tu es une vraie machine à danser, <nom> !\n\nVoilà de quoi vous récompenser d'avoir été si bon joueur. Joyeuse fin d'Halloween, et présentez mes meilleurs vœux à votre petit ami malade ! J'espère qu'ils iront bientôt mieux.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6746,
+     "name": "Pala l'aubergiste"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6746,
+     "name": "Pala l'aubergiste"
+    }
+   ],
+   "zone_id": -1003,
+   "level": 60,
+   "reqlevel": 10,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8373": {
+   "id": 8373,
+   "name": "La puissance du pin",
+   "objectives": "Utilisez le Nettoyeur de boules puantes pour retirer les Boules puantes que les Réprouvés ont lancées sur Southshore. Retournez voir le sergent Hartman à Southshore quand vous aurez terminé.",
+   "description": "La chose que je déteste le plus dans la Sanssaint sont les boules puantes que les Réprouvés lancent sur Southsore. Qui aurait cru que fêter leur libération impliquerait une pagaille aussi nauséabonde ?\n\nPendant la Sanssaint, servez-vous de ce nettoyeur pour retirer toutes les boules puantes immondes que la Horde aura déposées dans le village. Il utilise la puissance du pin pour chasser les odeurs pestilentielles.\n\nSi vous aidez Southsore à rester propre, je vous donnerai quelques bonbons de la Sanssaint. Je suis sûre que vous les aimerez. Marché conclu ?",
+   "progress": "Ces maudits Forsaken... c'est déjà assez pénible qu'ils soient morts-vivants, mais en plus ils s'énervent et commencent à semer la pagaille dans MON village !",
+   "completion": "Ah, ça sent déjà presque meilleur par ici. Presque.\n\nGrâce à vous, <nom>, Southshore pourrait bien passer un autre Hallow's End. Voici vos friandises, avec mes remerciements ! Si vous n'avez plus de bonbons, je crois qu'il y a une gnome nommée Katrina Shimmerstar à Ironforge qui peut vous en vendre ; elle n'est là que pendant Hallow's End, je crois.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15199,
+     "name": "Sergent Hartman"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15199,
+     "name": "Sergent Hartman"
+    }
+   ],
+   "zone_id": -1003,
+   "level": 60,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8409": {
+   "id": 8409,
+   "name": "Des tonneaux gâtés",
+   "objectives": "Retournez voir la sombre imploratrice Yanka à la Fête de l'homme d'osier dans les clairières de Tirisfal.",
+   "description": "Les œufs ont été placés à l'intérieur du tonneau. Les prochaines cuvées de bière de l'auberge d'Austrivage seront de toute évidence gâtées !\n\nVous devriez maintenant retourner voir la sombre imploratrice Yanka à la Fête de l'homme d'osier, et lui annoncer votre succès.",
+   "progress": null,
+   "completion": "Ah, vous avez réussi ! Vous avez fait preuve d’un véritable esprit de la Sanssaint - d’un esprit des RÉPROUVÉS, devrais-je dire !\n\n<La sombre imploratrice Yanka ricane et se frotte les mains. >\n\nSavoir que Southshore doit festoyer avec un cuvée gâtée, ou se passer de bière, me réjouit le cœur ! Quant à vous, prenez ces bonbons. Je crois que vous en ferez bon usage !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 180570,
+     "name": "Keg"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15197,
+     "name": "Sombre imploratrice Yanka"
+    }
+   ],
+   "zone_id": -1003,
+   "level": 60,
+   "reqlevel": 25,
+   "side": "horde",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

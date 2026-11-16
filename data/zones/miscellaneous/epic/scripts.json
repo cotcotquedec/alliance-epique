@@ -1,0 +1,83 @@
+{
+ "schema": 2,
+ "scripts": {
+  "8446": {
+   "quest_id": 8446,
+   "kind": "detail",
+   "name": "Voilé par le cauchemar",
+   "npc_id": 1000000,
+   "npc_name": "Elise",
+   "narrator": true,
+   "source": "foreverdb:vmangos",
+   "text": "La corruption suinte de cet objet.\n\nIl doit exister un lien entre lui et les dragons qui ont surgi du Rêve. Vous devez trouver quelqu’un qui pourra comprendre la signification de cet objet. Peut-être que les druides de Reflet-de-Lune ou du Fort cénarien pourront vous aider plus avant.\n\nObjectif : Trouver quelqu’un capable de comprendre la signification de l’Objet noyé dans les cauchemars.\n\nPeut-être qu’un druide de grande puissance pourra vous aider.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T09:41:42"
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "8447": {
+   "quest_id": 8447,
+   "kind": "detail",
+   "name": "L'éveil des légendes",
+   "npc_id": 11832,
+   "npc_name": "Gardien Remulos",
+   "source": "foreverdb:vmangos",
+   "text": "Les eaux du lac Elune'ara devraient dissoudre les cauchemars qui noient cet objet. Laissez-moi un moment pour effectuer la purification.\n\nObjectif : Attendre que le gardien Remulos de Reflet-de-Lune ait purifié l’Objet noyé dans les cauchemars.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-08T06:44:30"
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  }
+ },
+ "complete": {
+  "8446": {
+   "quest_id": 8446,
+   "kind": "complete",
+   "name": "Voilé par le cauchemar",
+   "npc_id": 11832,
+   "npc_name": "Gardien Remulos",
+   "source": "foreverdb:vmangos",
+   "text": "Je dois ôter la souillure de cet objet. Cela pourra peut-être m’éclairer sur mes récents échecs pour approfondir ce qui se passe dans le Rêve. Donnez-le-moi.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-08T06:44:30"
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "8447": {
+   "quest_id": 8447,
+   "kind": "complete",
+   "name": "L'éveil des légendes",
+   "npc_id": 11832,
+   "npc_name": "Gardien Remulos",
+   "source": "foreverdb:vmangos",
+   "text": "Prenez cet anneau. Il a bien servi Malfurion. Il aura maintenant pour vous une autre utilité…",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-08T06:44:30"
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  }
+ },
+ "updated_at": "2026-10-10T09:41:42"
+}

@@ -1,0 +1,353 @@
+{
+ "schema": 1,
+ "zone": "dungeons/ragefire-chasm",
+ "zone_id": 2437,
+ "zone_name": "Gouffre de Ragefeu",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 6,
+  "complete": 6,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 1
+ },
+ "quests": {
+  "5722": {
+   "id": 5722,
+   "name": "À la recherche de la sacoche perdue",
+   "objectives": "Fouiller le Gouffre de Ragefeu pour trouver le cadavre de Maur Grimtotem et tout élément intéressant.",
+   "description": "Les troggs ne sont pas la seule chose qui intéresse Magatha dans le Gouffre de Ragefeu. Elle a entendu dire que l’un de ses serviteurs, un certain Maur Grimtotem, a trouvé quelque chose d’étrange dans le Gouffre, mais il n’a jamais pu en sortir pour le lui montrer. Elle aimerait qu’on retrouve le corps de Maur, s’il existe encore, ainsi que tout signe de ce qu’il avait trouvé quand il a essayé de parler aux troggs.\n\nRapportez tout élément intéressant à Magatha, et je suis sûr qu’elle vous récompensera généreusement.\n\nEncore une fois, cherchez le Gouffre dans les endroits les plus sombres d’Orgrimmar.",
+   "progress": null,
+   "completion": "Le corps semble avoir été durement roué de coups de poing ou de bâton, mais la plupart de ses vêtements et son équipement sont toujours là. On dirait que les troggs ne se soucient pas beaucoup des biens matériels.\n\nVous fouillez le cadavre à la recherche de tout ce qui pourrait aider Magatha.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11833,
+     "name": "Rahauro"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11834,
+     "name": "Maur Grimtotem"
+    }
+   ],
+   "zone_id": 2437,
+   "level": 16,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": 880,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5723": {
+   "id": 5723,
+   "name": "Tester la force de l'ennemi",
+   "objectives": "Chercher le gouffre de Ragefeu dans Orgrimmar, puis tuer 8 Troggs Ragefeu et 8 Chamans Ragefeu avant de revenir auprès de Rahauro à Thunder Bluff.",
+   "description": "Sous la cité d’Orgrimmar, des créatures solidement bâties appelées des \"troggs\" ont commencé à faire surface, provenant d’endroits bien plus profonds que les tunnels de lave. Dans sa grande bienveillance, Magatha a cherché à faire la paix avec ces créatures, mais elles se sont retournées contre ses diplomates et les ont tués. Elle ne tolère pas que le peuple tauren soit traité ainsi et considère maintenant ces créatures comme une menace envers la Horde entière.\n\nElle demande que vous mettiez fin à cette menace trogg avant qu’elle ne submerge la Horde par en-bas. Trouvez le Gouffre de Ragefeu et détruisez-les tous.",
+   "progress": "Comment se passe votre recherche du gouffre ? Et des trognes ?\n\nIl ne faut pas laisser la menace perdurer, elle ne fera que nuire à nos frères orcs si elle continue.",
+   "completion": "Je suis heureux de vous voir prendre au sérieux la tâche de Magatha. Merci, <nom>. Je suis sûr que les troggs auront du mal à refaire surface après une telle diminution d'effectifs.\n\nPeut-être un jour pourrons-nous comprendre d'où ils viennent et ce qu'ils veulent vraiment.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11833,
+     "name": "Rahauro"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11833,
+     "name": "Rahauro"
+    }
+   ],
+   "zone_id": 2437,
+   "level": 15,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": 800,
+   "money": 700,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5724": {
+   "id": 5724,
+   "name": "Rapporter la sacoche perdue",
+   "objectives": "Apporter la Sacoche du Totem sinistre à Rahauro à Thunder Bluff.",
+   "description": "Vous trouvez une sacoche sous le corps du tauren. Il la tient encore serrée entre ses bras comme s’il essayait de la protéger pendant l’attaque des troggs.\n\nVous libérez la sacoche qu’il étreint, vous la placez dans votre propre équipement et vous vous préparez à quitter les tunnels et à retourner auprès de Rahauro à Thunder Bluff.",
+   "progress": "Avez-vous pu trouver quelque chose, <nom> ? Pourquoi l'un des membres de son clan devait-il mourir sans raison apparente ? Un indice serait utile.",
+   "completion": "Excellent, <nom>. Merci.\n\nMagatha m'a dit de vous donner ceci au cas où vous retrouveriez le membre de son clan. Prenez-le, en remerciement.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11834,
+     "name": "Maur Grimtotem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11833,
+     "name": "Rahauro"
+    }
+   ],
+   "zone_id": 2437,
+   "level": 16,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": 1450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5725": {
+   "id": 5725,
+   "name": "Le pouvoir de détruire...",
+   "objectives": "Apporter les livres de Sorts des Ombres et d’Incantations du Néant à Varimathras, à Undercity.",
+   "description": "Beaucoup de membres de la Légion offrent des cadeaux à leurs disciples, comme vous le savez peut-être. La Dame noire estime que certains de ces cadeaux seraient mieux placés entre ses mains plutôt qu’entres celles de ceux doués de… moins de vision.\n\nUne secte du Conseil des ombres, cachée dans les grottes sous Orgrimmar et appelée la Lame brûlante, en est un bon exemple. La Dame me dit que des membres de la Lame brûlante possèdent deux livres de magie puissants ; elle aimerait leur \"emprunter\" ces livres. Vous vous les procurerez pour elle.",
+   "progress": "Des centaines d'autres tâches m'attendent, <classe>. Avez-vous les livres ?",
+   "completion": "Bien, <classe>. Vous avez bien œuvré pour la Dame noire. Votre persévérance et votre ambition sont d'une grande utilité aux sujets de notre dame. Revenez me voir une autre fois. Peut-être aurai-je d’autres tâches à vous confier afin de l'aider dans ses tentatives pour renverser le roi-liche et de libérer ainsi le Fléau.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2425,
+     "name": "Varimathras"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2425,
+     "name": "Varimathras"
+    }
+   ],
+   "zone_id": 2437,
+   "level": 16,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": 1450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5728": {
+   "id": 5728,
+   "name": "Ennemis cachés",
+   "objectives": "Tuer Bazzalan et Jergosh l'Invocateur avant de retourner voir Thrall à Orgrimmar.",
+   "description": "Hmm, des chefs de la Lame brûlante... cela m’inquiète beaucoup. S’ils sont utiles à Neeru, alors ce sont eux qu’il faut viser en premier. Ce satyre... Bazzalan, et l’autre que Neeru a mentionné - qu’est-il, un démoniste ? - doivent être tués.\n\nRetournez à la Faille de l'ombre et pénétrez dans le gouffre de Ragefeu, <nom>. Trouvez ces deux chefs de la Lame brûlante et tuez-les. Mais faites attention à ce que Neeru ne sache pas que c’est vous le responsable. Il faut que vous conserviez votre identité en tant que <frère/sœur> de combat.",
+   "progress": "Les avez-vous trouvés, <nom> ? Les chefs de la lame tranchante.\n\nJe savais que le Conseil de l'ombre cherchait à me prendre Orgrimmar et toute la Horde, mais je n'avais pas réalisé à quelle vitesse ils avaient pu s'infiltrer dans la ville. Cette bête a tellement de bras... Nous pouvons les couper jusqu'à l'épuisement, mais nous ne serons pas plus avancés qu'au début. Je vais devoir demander à mes espions de redoubler d'efforts.",
+   "completion": "Je suis content de vous voir de retour, <nom>. Certains de mes fidèles m'ont immédiatement rapporté le chaos régnant dans les cavernes d'Orgrimmar maintenant que leur chef a été occis. On m'a même rapporté que Neeru était plus qu'agité. On dirait que nous avons ébréché son armure. Je ne peux pas me dire insatisfait. . . même si c'était une victoire mineure.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4949,
+     "name": "Thrall"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4949,
+     "name": "Thrall"
+    }
+   ],
+   "zone_id": 2437,
+   "level": 16,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": 1150,
+   "money": 800,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "frère/sœur",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5761": {
+   "id": 5761,
+   "name": "Tuer la bête",
+   "objectives": "Pénétrer dans le Gouffre de Ragefeu et tuer Taragaman l'Affameur, puis rapporter son coeur à Neeru Fireblade à Orgrimmar.",
+   "description": "La tâche première qui m’a été assignée par notre grand chef de guerre est d’éliminer les créatures responsables de l’infection de la grande cité de notre seigneur par des influences démoniaques. La Lame ardente est une menace, mais il y en a d’autres ; la Lame brûlante par exemple, qui est basée dans le gouffre de Ragefeu, essaie de subvertir en secret des membres innocents de la Horde.\n\nPour les arrêter, il faut tuer leur chef, un gangregarde appelé Taragaman l'Affameur.\n\nTuez-le, et son cœur apaisera Thrall, j’en suis sûr.",
+   "progress": "Avez-vous tué la bête ? C'est certainement le chef de la Lame brûlante dans le gouffre de Ragefeu.",
+   "completion": "Ah ! Vous avez réussi ! Thrall va être ravi.\n\nJe vais m'assurer que l'on prendra soin de ce cœur convenablement.\n\nPour l'instant, vous devez célébrer votre victoire. Je vais informer Thrall de votre réussite.\n\nMerci pour votre aide, <classe>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3216,
+     "name": "Neeru Fireblade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3216,
+     "name": "Neeru Fireblade"
+    }
+   ],
+   "zone_id": 2437,
+   "level": 16,
+   "reqlevel": 9,
+   "side": "horde",
+   "xp": 1150,
+   "money": 800,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

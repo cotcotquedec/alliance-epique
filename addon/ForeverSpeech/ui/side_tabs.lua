@@ -44,7 +44,8 @@ local function showTooltip(tab)
   if not GameTooltip then
     return
   end
-  GameTooltip:SetOwner(tab, "ANCHOR_LEFT")
+  local bar = bars[tab.def.bar]
+  GameTooltip:SetOwner(tab, bar and rawget(bar, "side") == "right" and "ANCHOR_RIGHT" or "ANCHOR_LEFT")
   tab.def.tooltip(GameTooltip)
   if tab.def.locked and tab.def.locked() then
     GameTooltip:AddLine(H.L.SIDE_TAB_COMBAT, 1, 0.3, 0.3)
@@ -71,9 +72,13 @@ local function newTab(def, bar)
   tab:SetSize(TAB_SIZE, TAB_SIZE)
   local art = tab:CreateTexture(nil, "BACKGROUND")
   art:SetSize(64, 64)
-  art:SetPoint("TOPRIGHT", tab, "TOPRIGHT", 3, 11) -- the spellbook's TOPLEFT -3, 11, mirrored
   art:SetTexture(TAB_ART)
-  art:SetTexCoord(1, 0, 0, 1)
+  if rawget(bar, "side") == "right" then -- the spellbook's own side
+    art:SetPoint("TOPLEFT", tab, "TOPLEFT", -3, 11)
+  else
+    art:SetPoint("TOPRIGHT", tab, "TOPRIGHT", 3, 11) -- the spellbook's TOPLEFT -3, 11, mirrored
+    art:SetTexCoord(1, 0, 0, 1)
+  end
   tab.icon = tab:CreateTexture(nil, "ARTWORK")
   tab.icon:SetAllPoints()
   tab.icon:SetTexture(def.icon)
@@ -130,6 +135,42 @@ function SideTabs.Attach(f, key, top, bottom)
     end
   end
   bar:Show()
+  SideTabs.Update()
+  return bar
+end
+
+-- Puts a bar beside f's right edge, its top on f's top (2026-11-10: the backpack's bar beside the minimap), gap
+-- pixels away; on f's left edge when the right one would leave the screen. The bar is UIParent's child (f's scale
+-- left alone), shown while f is visible. Called again, it measures again (f moved, the screen's size changed).
+function SideTabs.AttachRight(f, key, gap)
+  gap = gap or 4
+  local bar = bars[key]
+  if not bar then
+    bar = CreateFrame("Frame", nil, UIParent)
+    bar:SetSize(TAB_SIZE, TAB_SIZE)
+    bar.tabs = {}
+    bar.side = "right"
+    bars[key] = bar
+  end
+  owners[key] = f
+  margins[key] = { 0, 0 }
+  local scale = UIParent:GetEffectiveScale() or 1
+  local fRight, uiRight = f:GetRight(), UIParent:GetRight()
+  local fScale = f:GetEffectiveScale() or scale
+  local fits = not (fRight and uiRight)
+    or fRight * fScale + (gap + TAB_SIZE) * scale <= uiRight * scale
+  bar:ClearAllPoints()
+  if fits then
+    bar:SetPoint("TOPLEFT", f, "TOPRIGHT", gap, 0)
+  else
+    bar:SetPoint("TOPRIGHT", f, "TOPLEFT", -gap, 0)
+  end
+  if not hookedFrames[f] then
+    hookedFrames[f] = true
+    f:HookScript("OnShow", SideTabs.Update)
+    f:HookScript("OnHide", SideTabs.Update)
+  end
+  bar.follows = f
   SideTabs.Update()
   return bar
 end
@@ -229,6 +270,10 @@ end
 
 -- Places the shown tabs of every bar, the switches from the top, the actions from the bottom; each with its look.
 local function updateBar(key, bar)
+  local follows = rawget(bar, "follows")
+  if follows then -- beside a frame it is not a child of: shown with it
+    bar:SetShown(follows:IsVisible() and true or false)
+  end
   local top, bottom = {}, {}
   for i, def in ipairs(defs) do
     if def.bar == key then

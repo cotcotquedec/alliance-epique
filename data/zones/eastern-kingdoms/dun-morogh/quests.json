@@ -1,0 +1,5057 @@
+{
+ "schema": 1,
+ "zone": "eastern-kingdoms/dun-morogh",
+ "zone_id": 1,
+ "zone_name": "Dun Morogh",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 60,
+  "complete": 58,
+  "incomplete": 2,
+  "unavailable": 0,
+  "missing_description": 2,
+  "missing_giver": 0,
+  "new_in_forever": 20,
+  "gendered": 6
+ },
+ "quests": {
+  "170": {
+   "id": 170,
+   "name": "Une nouvelle menace",
+   "objectives": "Balir Frosthammer veut que vous tuiez 6 Troggs Mâcheroc et 6 Troggs Mâcheroc forcenés.",
+   "description": "J'espère que vous êtes là pour nous donner un coup de main, <classe>. Après la dernière attaque des troggs, nous avons besoin de toute l'aide possible !\n\nJe sais que ces canailles pullulent dans toutes les régions et on dirait que les Frigères ne font pas exception. On les a repérés au sud-est, partout dans les collines et à côté du lac Gelé.\n\nEt ce n'est pas tout ! Il y a à peine quelques nuits, ils ont attaqué et détruit notre camp, à l'ouest !\n\nNous sommes un peu à court de personnel, ici, <mon gars/jeune fille>, et nous avons besoin de force et de bravoure pour renvoyer les troggs d'où ils viennent.",
+   "progress": "Des petites saloperies, pas vrai ?",
+   "completion": "Si les problèmes que nous rencontrons ici sont une juste indication de ce qui se passe ailleurs dans le pays, par ma barbe, la situation n'est pas encourageante ! J'espère que le Sénat prend les mesures nécessaires !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 713,
+     "name": "Balir Frosthammer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 713,
+     "name": "Balir Frosthammer"
+    }
+   ],
+   "zone_id": 1,
+   "level": 2,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 170,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "classe",
+    "mon gars/jeune fille"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:55:37"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Si les problèmes que nous rencontrons ici sont une juste indication de ce qui se passe ailleurs dans le pays, par ma barbe, la situation n'est pas encourageante ! J'espère que le Sénat prend les mesures nécessaires !"
+     },
+     "npc": 713,
+     "npc_name": "Balir Frosthammer",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793966982,
+     "last_seen": 1793966982
+    },
+    "detail": {
+     "texts": {
+      "description": "J'espère que vous êtes là pour nous donner un coup de main, <classe>. Après la dernière attaque des troggs, nous avons besoin de toute l'aide possible !\n\nJe sais que ces canailles pullulent dans toutes les régions et on dirait que les Frigères ne font pas exception. On les a repérés au sud-est, partout dans les collines et à côté du lac Gelé.\n\nEt ce n'est pas tout ! Il y a à peine quelques nuits, ils ont attaqué et détruit notre camp, à l'ouest !\n\nNous sommes un peu à court de personnel, ici, jeune fille, et nous avons besoin de force et de bravoure pour renvoyer les troggs d'où ils viennent.",
+      "objectives": "Balir Frosthammer veut que vous tuiez 6 Troggs Mâcheroc et 6 Troggs Mâcheroc forcenés.",
+      "name": "Une nouvelle menace"
+     },
+     "npc": 713,
+     "npc_name": "Balir Frosthammer",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793963516,
+     "last_seen": 1793963516
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "179": {
+   "id": 179,
+   "name": "Tailleur chez les nains",
+   "objectives": "Sten Stoutarm voudrait 8 Morceaux de Viande de loup coriace.",
+   "description": "Qu'est-ce que c'est ? On dirait que vous avez besoin de quelque chose pour tenir chaud aux mains, non ?\n\nJe vais vous dire ce qui vous serait utile : une paire de jolis gants bien chauds. Et comme je suis une âme charitable, je vous les fournirai. À une condition, cependant.\n\nJ'ai besoin de viande de loup. Arrangement équitable, n'est-ce pas ? Vous m'apportez de la viande et je m'assure qu'on ne sera pas obligé de vous amputer d’un ou deux doigts gelés. Qu'est-ce que vous en dites ?",
+   "progress": "Les loups vous donnent du fil à retordre, pas vrai ? Il faut se démener pour éviter les crocs et les griffes !",
+   "completion": "Ah ! Merveilleux. Cette viande de loup fera bien l'affaire. Ne vous inquiétez pas, <nom> ! Je n'ai pas oublié ma part du marché. Voilà. Ils devraient être à votre taille.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 658,
+     "name": "Sten Stoutarm"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 658,
+     "name": "Sten Stoutarm"
+    }
+   ],
+   "zone_id": 1,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 80,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:55:39"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah ! Merveilleux. Cette viande de loup fera bien l'affaire. Ne vous inquiétez pas, <nom> ! Je n'ai pas oublié ma part du marché. Voilà. Ils devraient être à votre taille."
+     },
+     "npc": 658,
+     "npc_name": "Sten Stoutarm",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793963508,
+     "last_seen": 1793963508
+    },
+    "detail": {
+     "texts": {
+      "description": "Qu'est-ce que c'est ? On dirait que vous avez besoin de quelque chose pour tenir chaud aux mains, non ?\n\nJe vais vous dire ce qui vous serait utile : une paire de jolis gants bien chauds. Et comme je suis une âme charitable, je vous les fournirai. À une condition, cependant.\n\nJ'ai besoin de viande de loup. Arrangement équitable, n'est-ce pas ? Vous m'apportez de la viande et je m'assure qu'on ne sera pas obligé de vous amputer d’un ou deux doigts gelés. Qu'est-ce que vous en dites ?",
+      "objectives": "Sten Stoutarm voudrait 8 Morceaux de Viande de loup coriace.",
+      "name": "Tailleur chez les nains"
+     },
+     "npc": 658,
+     "npc_name": "Sten Stoutarm",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793963068,
+     "last_seen": 1793963068
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "182": {
+   "id": 182,
+   "name": "La caverne des trolls",
+   "objectives": "Grelin Whitebeard aimerait que vous tuiez 14 Jeunes trolls Frostmane.",
+   "description": "Mon frère Senir et moi avons voyagé dans tous les coins de Dun Morogh pour évaluer la menace posée par les trolls. Le Sénat est déjà débordé par les ennuis que causent les troggs, il n'a pas besoin de ce problème supplémentaire.\n\nDe ce que j'ai vu, les trolls sont bien installés dans la vallée des Frigères, principalement dans les grottes du sud. Je ne pense pas qu'il soit nécessaire de recourir à l'armée. Quelques hommes robustes devraient suffire.\n\nVous aimeriez peut-être vous joindre à cette campagne ? J'ai le pouvoir de vous dédommager pour votre aide.",
+   "progress": "D'après ce que j'ai appris, ces trolls sont du clan Frostmane. Je ne pense pas détenir d'autre information intéressante pour vous, <nom>.",
+   "completion": "Argh ! Ces abominables trolls !\n\n<Il respire bruyamment puis semble se reprendre un peu...>\n\nUn groupe est entré à la faveur de la nuit et a volé mon journal ! J'aurais dû me méfier au lieu de faire confiance à ce bon à rien de…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 786,
+     "name": "Grelin Whitebeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 786,
+     "name": "Grelin Whitebeard"
+    }
+   ],
+   "zone_id": 1,
+   "level": 4,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 355,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:55:42"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Argh ! Ces abominables trolls !\n\n<Il respire bruyamment puis semble se reprendre un peu...>\n\nUn groupe est entré à la faveur de la nuit et a volé mon journal ! J'aurais dû me méfier au lieu de faire confiance à ce bon à rien de…"
+     },
+     "npc": 786,
+     "npc_name": "Grelin Whitebeard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793966604,
+     "last_seen": 1793966604
+    },
+    "detail": {
+     "texts": {
+      "description": "Mon frère Senir et moi avons voyagé dans tous les coins de Dun Morogh pour évaluer la menace posée par les trolls. Le Sénat est déjà débordé par les ennuis que causent les troggs, il n'a pas besoin de ce problème supplémentaire.\n\nDe ce que j'ai vu, les trolls sont bien installés dans la vallée des Frigères, principalement dans les grottes du sud. Je ne pense pas qu'il soit nécessaire de recourir à l'armée. Quelques hommes robustes devraient suffire.\n\nVous aimeriez peut-être vous joindre à cette campagne ? J'ai le pouvoir de vous dédommager pour votre aide.",
+      "objectives": "Grelin Whitebeard aimerait que vous tuiez 14 Jeunes trolls Frostmane.",
+      "name": "La caverne des trolls"
+     },
+     "npc": 786,
+     "npc_name": "Grelin Whitebeard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793963838,
+     "last_seen": 1793963838
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "183": {
+   "id": 183,
+   "name": "Chasseur de sangliers",
+   "objectives": "Talin Keeneye aimerait que vous tuiez 12 Petits sangliers des rochers.",
+   "description": "Rien de tel qu'une journée de chasse au sanglier, pas vrai ?\n\nOui, eh bien ici, dans la vallée des Frigères, il y en a tellement que ça gâche tout plaisir. Pas besoin de les pousser à attaquer ! Ils sont furieux et prêts à charger sans qu'on les aide ! En fait, depuis quelque temps, il y a tellement de sangliers dans la vallée des Frigères que chasseur devient un métier à haut risque.\n\nPour faire court, si vous pouviez m'aider à tuer quelques bêtes, j'apprécierais le geste.",
+   "progress": "Alors, cette chasse ?",
+   "completion": "Excellent ! Je vais pouvoir recommencer à chasser… dans de bonnes conditions… Bon travail, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 714,
+     "name": "Talin Keeneye"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 714,
+     "name": "Talin Keeneye"
+    }
+   ],
+   "zone_id": 1,
+   "level": 3,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 250,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:55:45"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Excellent ! Je vais pouvoir recommencer à chasser… dans de bonnes conditions… Bon travail, <nom>."
+     },
+     "npc": 714,
+     "npc_name": "Talin Keeneye",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793967395,
+     "last_seen": 1793967395
+    },
+    "detail": {
+     "texts": {
+      "description": "Rien de tel qu'une journée de chasse au sanglier, pas vrai ?\n\nOui, eh bien ici, dans la vallée des Frigères, il y en a tellement que ça gâche tout plaisir. Pas besoin de les pousser à attaquer ! Ils sont furieux et prêts à charger sans qu'on les aide ! En fait, depuis quelque temps, il y a tellement de sangliers dans la vallée des Frigères que chasseur devient un métier à haut risque.\n\nPour faire court, si vous pouviez m'aider à tuer quelques bêtes, j'apprécierais le geste.",
+      "objectives": "Talin Keeneye aimerait que vous tuiez 12 Petits sangliers des rochers.",
+      "name": "Chasseur de sangliers"
+     },
+     "npc": 714,
+     "npc_name": "Talin Keeneye",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793963882,
+     "last_seen": 1793963882
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "218": {
+   "id": 218,
+   "name": "Le journal volé",
+   "objectives": "Grelin Whitebeard veut que vous tuiez Grik'nir le Froid et que vous lui rapportiez son journal.",
+   "description": "Mon journal ! Ils l'ont emporté dans la caverne. Celui qui l'a pris ? C'était une grosse brute avec d'étranges inscriptions sur la peau et le visage. Je n'ai pas pu regarder plus précisément.\n\nVous avez déjà combattu des trolls, peut-être pourriez-vous tenter de me le rapporter ?",
+   "progress": "<nom> ! Alors ?",
+   "completion": "Merveilleux, <nom> ! Merci mille fois pour avoir retrouvé mon journal. Bien, il semblerait que le problème posé par les trolls soit à présent sous contrôle dans la vallée des Frigères.\n\nUne fois que j'aurai apporté les dernières retouches à mon rapport, j'aurai besoin de quelqu'un pour l'amener à mon frère Senir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 786,
+     "name": "Grelin Whitebeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 786,
+     "name": "Grelin Whitebeard"
+    }
+   ],
+   "zone_id": 1,
+   "level": 5,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 560,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:55:47"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Merveilleux, <nom> ! Merci mille fois pour avoir retrouvé mon journal. Bien, il semblerait que le problème posé par les trolls soit à présent sous contrôle dans la vallée des Frigères.\n\nUne fois que j'aurai apporté les dernières retouches à mon rapport, j'aurai besoin de quelqu'un pour l'amener à mon frère Senir."
+     },
+     "npc": 786,
+     "npc_name": "Grelin Whitebeard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793966892,
+     "last_seen": 1793966892
+    },
+    "detail": {
+     "texts": {
+      "description": "Mon journal ! Ils l'ont emporté dans la caverne. Celui qui l'a pris ? C'était une grosse brute avec d'étranges inscriptions sur la peau et le visage. Je n'ai pas pu regarder plus précisément.\n\nVous avez déjà combattu des trolls, peut-être pourriez-vous tenter de me le rapporter ?",
+      "objectives": "Grelin Whitebeard veut que vous tuiez Grik'nir le Froid et que vous lui rapportiez son journal.",
+      "name": "Le journal volé"
+     },
+     "npc": 786,
+     "npc_name": "Grelin Whitebeard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793966607,
+     "last_seen": 1793966607
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "233": {
+   "id": 233,
+   "name": "La distribution du courrier de la Vallée des Frigères",
+   "objectives": "Apporter la pile de lettres à Talin Keeneye.",
+   "description": "Hum, je ne pense pas que vous seriez <prêt/prête> à me rendre un petit service, si ? Une pile de lettres est arrivée au tri aujourd'hui, mais je n'ai pas le temps de les distribuer.\n\nElles ont toutes pour destinataire un dénommé Talin Keeneye. Vous pouvez le trouver à l'ouest, sur la route. Il a établi son camp près du lac Gelé.\n\nQu'en dites-vous ?",
+   "progress": "Oui, avez-vous quelque chose pour moi ?",
+   "completion": "Merci, cela faisait longtemps que je guettais l'arrivée du courrier…\n\nMalheureusement, toutes ces lettres ne me sont pas destinées. Celle-ci est pour Grelin Whitebeard. Il n'habite pas très loin, si vous vouliez la lui remettre…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 658,
+     "name": "Sten Stoutarm"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 714,
+     "name": "Talin Keeneye"
+    }
+   ],
+   "zone_id": 1,
+   "level": 3,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 190,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:55:49"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Merci, cela faisait longtemps que je guettais l'arrivée du courrier…\n\nMalheureusement, toutes ces lettres ne me sont pas destinées. Celle-ci est pour Grelin Whitebeard. Il n'habite pas très loin, si vous vouliez la lui remettre…"
+     },
+     "npc": 714,
+     "npc_name": "Talin Keeneye",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793963881,
+     "last_seen": 1793963881
+    },
+    "detail": {
+     "texts": {
+      "description": "Hum, je ne pense pas que vous seriez prête à me rendre un petit service, si ? Une pile de lettres est arrivée au tri aujourd'hui, mais je n'ai pas le temps de les distribuer.\n\nElles ont toutes pour destinataire un dénommé Talin Keeneye. Vous pouvez le trouver à l'ouest, sur la route. Il a établi son camp près du lac Gelé.\n\nQu'en dites-vous ?",
+      "objectives": "Apporter la pile de lettres à Talin Keeneye.",
+      "name": "La distribution du courrier de la Vallée des Frigères"
+     },
+     "npc": 658,
+     "npc_name": "Sten Stoutarm",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793963513,
+     "last_seen": 1793963513
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "234": {
+   "id": 234,
+   "name": "La distribution du courrier de la Vallée des Frigères",
+   "objectives": "Remettre la lettre à Grelin Whitebeard.",
+   "description": "Si je me souviens bien, le camp de Grelin se trouve plus bas sur la route, vers le sud-est. Il ne fait aucun doute qu'il serait ravi de recevoir ce courrier.",
+   "progress": "Puis-je vous aider ?",
+   "completion": "Ah ! Merveilleux. Cela faisait longtemps que je n'avais pas reçu de nouvelles d'Ironforge.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 714,
+     "name": "Talin Keeneye"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 786,
+     "name": "Grelin Whitebeard"
+    }
+   ],
+   "zone_id": 1,
+   "level": 4,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 270,
+   "money": 7,
+   "forever": {
+    "status": "updated",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:55:52"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ahh, merveilleux ! Voilà un moment que je n’avais pas eu de nouvelles de Forgefer. Ces lettres de ma maman me réchauffent le cœur. Tenez, ce ne serait pas juste que vous n’ayez rien à lire, vous aussi. Prenez l’un de ces manuels qui traînent par ici."
+     },
+     "npc": 786,
+     "npc_name": "Grelin Whitebeard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793963934,
+     "last_seen": 1793963934
+    },
+    "detail": {
+     "texts": {
+      "description": "Si je me souviens bien, le camp de Grelin se trouve plus bas sur la route, vers le sud-est. Il ne fait aucun doute qu'il serait ravi de recevoir ce courrier.",
+      "objectives": "Remettre la lettre à Grelin Whitebeard.",
+      "name": "La distribution du courrier de la Vallée des Frigères"
+     },
+     "npc": 714,
+     "npc_name": "Talin Keeneye",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793963881,
+     "last_seen": 1793963881
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "282": {
+   "id": 282,
+   "name": "Les observations de Senir",
+   "objectives": "Aller voir le Montagnard Thalos.",
+   "description": "Je projetais d'envoyer mon apprenti apporter mon rapport à mon frère Senir, mais je préférerais qu'il soit placé entre des mains plus... fiables. Enfin, si vous êtes d'accord, bien sûr !\n\nHum... Vous devrez prendre le tunnel pour arriver à Kharanos.\n\nAllez voir le Montagnard Thalos avant de traverser le tunnel. Il est complètement infesté de troggs maintenant.\n\nRetournez vers Anvilmar, puis continuez en prenant à l'est vers le tunnel, Thalos n'est pas loin.",
+   "progress": "Salut ! Attention, <nom>, le tunnel pour Dun Morogh n'est pas sûr, il est infesté de troggs !\n\nSi vous n'avez aucune affaire pressante à Dun Morogh, il serait plus prudent de rester à Anvilmar jusqu'à ce que le tunnel soit nettoyé.",
+   "completion": "Eh bien, si Whitebeard vous envoie à Dun Morogh pour une affaire urgente, je ne peux pas vous empêcher d'y aller, n'est-ce pas ?\n\nAu moins, laissez-moi vous donner quelques conseils et quelques indications.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 786,
+     "name": "Grelin Whitebeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1965,
+     "name": "Montagnard Thalos"
+    }
+   ],
+   "zone_id": 1,
+   "level": 5,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 335,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:55:54"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Eh bien, si Whitebeard vous envoie à Dun Morogh pour une affaire urgente, je ne peux pas vous empêcher d'y aller, n'est-ce pas ?\n\nAu moins, laissez-moi vous donner quelques conseils et quelques indications."
+     },
+     "npc": 1965,
+     "npc_name": "Montagnard Thalos",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793968074,
+     "last_seen": 1793968074
+    },
+    "detail": {
+     "texts": {
+      "description": "Je projetais d'envoyer mon apprenti apporter mon rapport à mon frère Senir, mais je préférerais qu'il soit placé entre des mains plus... fiables. Enfin, si vous êtes d'accord, bien sûr !\n\nHum... Vous devrez prendre le tunnel pour arriver à Kharanos.\n\nAllez voir le Montagnard Thalos avant de traverser le tunnel. Il est complètement infesté de troggs maintenant.\n\nRetournez vers Courbenclume, puis continuez en prenant à l'est vers le tunnel, Thalos n'est pas loin.",
+      "objectives": "Aller voir le Montagnard Thalos.",
+      "name": "Les observations de Senir"
+     },
+     "npc": 786,
+     "npc_name": "Grelin Whitebeard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793966897,
+     "last_seen": 1793966912
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "287": {
+   "id": 287,
+   "name": "Le repaire des Frostmane",
+   "objectives": "Explorer le repaire des Frostmane et tuer 5 Chasseurs de tête Frostmane pour Senir Whitebeard à Kharanos.",
+   "description": "Je suis sur mon rapport et j'ai besoin de votre aide, <nom>. Je viens juste de trouver où se cachent les trolls, mais ils sont si nombreux que j'ai peur d'y aller.\n\nVoici ce que j'attends de vous... Allez à la grotte, entrez, tuez quelques trolls et revenez ici.\n\nPrenez la route au nord de Kharanos, puis quand vous arriverez au pont, longez la rivière gelée par l'ouest jusqu'au Lac glacial. Vous trouverez le village de Brassetout sur la rive ouest. Leur repaire est au sud-ouest du village.",
+   "progress": "Vous ne le trouvez pas ? Mes indications étaient très claires ! Nous n'avons pas beaucoup de temps, vous devez vous dépêcher ! Ne revenez pas avant d'avoir trouvé la grotte.",
+   "completion": "Ah, <nom> ! Je ne pensais pas que vous auriez du mal à trouver l'endroit, mes instructions étaient claires, voyez-vous...\n\nLaissez-moi juste terminer mon rapport.\n\nLà ! Bien ! Ha ha ! Maintenant c'est certainement plus amusant... Je suppose, <nom>, que ça ne vous ennuie pas de m'accorder une dernière faveur ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1252,
+     "name": "Senir Whitebeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1252,
+     "name": "Senir Whitebeard"
+    }
+   ],
+   "zone_id": 1,
+   "level": 9,
+   "reqlevel": 7,
+   "side": "alliance",
+   "xp": 590,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:55:57"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah, <nom> ! Je ne pensais pas que vous auriez du mal à trouver l'endroit, mes instructions étaient claires, voyez-vous...\n\nLaissez-moi juste terminer mon rapport.\n\n<Il sort des papiers et griffonne quelque chose dessus.>\n\nLà ! Bien ! Ha ha ! Maintenant c'est certainement plus amusant... Je suppose, <nom>, que ça ne vous ennuie pas de m'accorder une dernière faveur ?"
+     },
+     "npc": 1252,
+     "npc_name": "Senir Whitebeard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794031552,
+     "last_seen": 1794031552
+    },
+    "detail": {
+     "texts": {
+      "description": "Je suis sur mon rapport et j'ai besoin de votre aide, <nom>. Je viens juste de trouver où se cachent les trolls, mais ils sont si nombreux que j'ai peur d'y aller.\n\nVoici ce que j'attends de vous... Allez à la grotte, entrez, tuez quelques trolls et revenez ici.\n\nPrenez la route au nord de Kharanos, puis quand vous arriverez au pont, longez la rivière gelée par l'ouest jusqu'au Lac glacial. Vous trouverez le village de Brassetout sur la rive ouest. Leur repaire est au sud-ouest du village.",
+      "objectives": "Explorer le repaire des Frostmane et tuer 5 Chasseurs de tête Frostmane pour Senir Whitebeard à Kharanos.",
+      "name": "Le repaire des Frostmane"
+     },
+     "npc": 1252,
+     "npc_name": "Senir Whitebeard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794029776,
+     "last_seen": 1794029776
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "foreverdb",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "foreverdb:vmangos",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "291": {
+   "id": 291,
+   "name": "Les rapports",
+   "objectives": "Livrer le rapport de Senir au Sénateur Barin Redstone à Ironforge.",
+   "description": "Excellent ! Apportez mon rapport au Sénateur Barin Redstone. C'est un type plutôt aigri, alors ne vous laissez pas impressionner. Il est à Ironforge, dans la salle où se tient la cour du roi Magni.\n\nVous ne connaissez pas la route pour Ironforge ? Prenez la route au nord de Kharanos, traversez le pont, suivez ensuite la route de l'est – il y a de grandes bannières le long de la route – jusqu'en haut de la montagne.\n\nCela dit, si vous pouviez éviter de raconter que vous m'avez aidé... Je ne veux pas qu'ils pensent que je ne bosse pas assez dur ici, vous comprenez ?",
+   "progress": "Hum... On dirait que mes gardes deviennent moins stricts avec les pétitionnaires. Bien, que voulez-vous ? Faites vite.",
+   "completion": "<Il parcourt rapidement le rapport.>\n\nPar ordre du ROI ! Est-ce que Magni a complètement perdu la tête ? Et ce maudit Whitebeard... Qu'il s'occupe de ce qui le regarde, non ? Le Sénat n'aura pas le plaisir d'en entendre parler, pas même un mot.\n\nQuoi, vous êtes toujours là ? Partez, avant que je n'appelle les gardes !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1252,
+     "name": "Senir Whitebeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1274,
+     "name": "Sénateur Barin Redstone"
+    }
+   ],
+   "zone_id": 1,
+   "level": 10,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 420,
+   "money": 175,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:55:59"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "<Il parcourt rapidement le rapport.>\n\nPar ordre du ROI ! Est-ce que Magni a complètement perdu la tête ? Et ce maudit Whitebeard... Qu'il s'occupe de ce qui le regarde, non ? Le Sénat n'aura pas le plaisir d'en entendre parler, pas même un mot.\n\nQuoi, vous êtes toujours là ? Partez, avant que je n'appelle les gardes !"
+     },
+     "npc": 1274,
+     "npc_name": "Sénateur Barin Redstone",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Forgefer",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794035847,
+     "last_seen": 1794035847
+    },
+    "detail": {
+     "texts": {
+      "description": "Excellent ! Apportez mon rapport au Sénateur Barin Redstone. C'est un type plutôt aigri, alors ne vous laissez pas impressionner. Il est à Forgefer, dans la salle où se tient la cour du roi Magni.\n\nVous ne connaissez pas la route pour Forgefer ? Prenez la route au nord de Kharanos, traversez le pont, suivez ensuite la route de l'est – il y a de grandes bannières le long de la route – jusqu'en haut de la montagne.\n\nCela dit, si vous pouviez éviter de raconter que vous m'avez aidé... Je ne veux pas qu'ils pensent que je ne bosse pas assez dur ici, vous comprenez ?",
+      "objectives": "Livrer le rapport de Senir au Sénateur Barin Redstone à Forgefer.",
+      "name": "Les rapports"
+     },
+     "npc": 1252,
+     "npc_name": "Senir Whitebeard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794031555,
+     "last_seen": 1794031555
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "308": {
+   "id": 308,
+   "name": "Distraire Jarven",
+   "objectives": null,
+   "description": null,
+   "progress": "Hum ! Toute cette boisson stockée là, et dire que j'ai l'interdiction formelle d'y toucher ! Si seulement je pouvais goûter un peu de notre Thunder Ale... Ça me donnerait un esprit plus vif, sans mentir !",
+   "completion": "Pour moi ? Vous êtes le symbole de l'héroïsme, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1373,
+     "name": "Jarven Thunderbrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1373,
+     "name": "Jarven Thunderbrew"
+    }
+   ],
+   "zone_id": 1,
+   "level": 7,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:02"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "progress": "foreverdb",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "progress": "foreverdb:vmangos",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "310": {
+   "id": 310,
+   "name": "Bières rivales",
+   "objectives": "Aller au sous-sol de la distillerie Thunderbrew à Kharanos et remplacer un Tonneau de Thunder Ale par un Tonneau de Barleybrew Scalder.",
+   "description": "Je dois admettre que ces Thunderbrew font quelques bonnes boissons. Mais il faut qu’ils comprennent qu'ils ne sont pas les seuls brasseurs ! Vous pouvez peut-être m'aider à faire passer le message...\n\nTenez, prenez ce tonneau de Barleybrew Scalder. Glissez-vous dans le sous-sol de la distillerie Thunderbrew, à Kharanos, et échangez-le avec un de leurs tonneaux de Thunder Ale. Nous verrons bien si leurs clients préfèrent leur recette ou la mienne !\n\nBien sûr, si les tonneaux sont gardés, il faudra peut-être distraire le garde...",
+   "progress": "La date inscrite sur ce tonneau montre qu'il sera bientôt mis en perce.",
+   "completion": "Vous placez rapidement le tonneau de Barleybrew Scalder au milieu des tonneaux des Thunderbrew.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1375,
+     "name": "Marleth Barleybrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 270,
+     "name": "Unguarded Thunder Ale Barrel"
+    }
+   ],
+   "zone_id": 1,
+   "level": 6,
+   "reqlevel": 2,
+   "side": "alliance",
+   "xp": 135,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:05"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vous placez rapidement le tonneau de Barleybrew Scalder au milieu des tonneaux des Thunderbrew."
+     },
+     "npc": 270,
+     "npc_name": "Tonneau de Thunder Ale non gardé",
+     "npc_type": "GameObject",
+     "npc_sex": null,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794032411,
+     "last_seen": 1794032411
+    },
+    "detail": {
+     "texts": {
+      "description": "Je dois admettre que ces Thunderbrew font quelques bonnes boissons. Mais il faut qu’ils comprennent qu'ils ne sont pas les seuls brasseurs ! Vous pouvez peut-être m'aider à faire passer le message...\n\nTenez, prenez ce tonneau de Barleybrew Scalder. Glissez-vous dans le sous-sol de la distillerie Thunderbrew, à Kharanos, et échangez-le avec un de leurs tonneaux de Thunder Ale. Nous verrons bien si leurs clients préfèrent leur recette ou la mienne !\n\nBien sûr, si les tonneaux sont gardés, il faudra peut-être distraire le garde...",
+      "objectives": "Aller au sous-sol de la distillerie Thunderbrew à Kharanos et remplacer un Tonneau de Thunder Ale par un Tonneau de Barleybrew Scalder.",
+      "name": "Bières rivales"
+     },
+     "npc": 1375,
+     "npc_name": "Marleth Barleybrew",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794031792,
+     "last_seen": 1794031792
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "311": {
+   "id": 311,
+   "name": "Retour chez Marleth",
+   "objectives": "Apporter le Tonneau de Thunder Ale à Marleth Barleybrew au Village de Brassetout.",
+   "description": "Après avoir mis un tonneau de chez Marleth Scalder dans la cave de la Distillerie Thunderbrew, vous emportez un Tonneau de Thunder Ale pour prouver que vous l'avez vraiment fait...",
+   "progress": "Avez-vous fait l'échange ?",
+   "completion": "Pas mal, <nom> ! Avez-vous eu du mal à passer malgré leur garde ?\n\nPeu importe : mille mercis ! Et si vous avez un jour besoin d'hommes vaillants et énergiques, n'oubliez pas les Barleybrew !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 270,
+     "name": "Unguarded Thunder Ale Barrel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1375,
+     "name": "Marleth Barleybrew"
+    }
+   ],
+   "zone_id": 1,
+   "level": 7,
+   "reqlevel": 2,
+   "side": "alliance",
+   "xp": 630,
+   "money": 175,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:07"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Pas mal, <nom> ! Avez-vous eu du mal à passer leur garde ?\n\nPeu importe : mille mercis ! Et si vous avez un jour besoin d’une bonne petite brune qui déménage, n’oubliez pas les Brasselorge !"
+     },
+     "npc": 1375,
+     "npc_name": "Marleth Barleybrew",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794033780,
+     "last_seen": 1794033780
+    },
+    "detail": {
+     "texts": {
+      "description": "Après avoir mis un tonneau de chez Marleth Scalder dans la cave de la Distillerie Thunderbrew, vous emportez un Tonneau de Thunder Ale pour prouver que vous l'avez vraiment fait...",
+      "objectives": "Apporter le Tonneau de Thunder Ale à Marleth Barleybrew au Village de Brassetout.",
+      "name": "Retour chez Marleth"
+     },
+     "npc": 270,
+     "npc_name": "Tonneau de Thunder Ale non gardé",
+     "npc_type": "GameObject",
+     "npc_sex": null,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794032412,
+     "last_seen": 1794032412
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "312": {
+   "id": 312,
+   "name": "La réserve volée de Tundra MacGrann",
+   "objectives": "Récupérer la caisse de viande séchée de Tundra MacGrann dans la Caverne du Vieux Barbeglace.",
+   "description": "J'avais un mois de réserves de viande séchée et salée que j'avais stockées pour la saison froide. C'était hors d'atteinte des ours, dans une caisse fermée ! Mais pendant que j'étais à la chasse au daim, cette bête, le Vieux Barbeglace, est venue et repartie avec ma caisse de viande. Il ne sera pas capable de défoncer le thorium de la caisse. Mais je vais mourir de faim si je ne peux pas récupérer mes réserves de viande.\n\nVous semblez plus discret que moi. Peut-être parviendrez-vous à récupérer ma caisse ? Je n'arriverai jamais à entrer et sortir assez vite de cette caverne avec ma jambe qui se traîne.",
+   "progress": "Est-ce que vous avez réussi à reprendre mes réserves de viande, <nom> ?",
+   "completion": "Quelle âme noble, <nom> ! Grâce à votre courage, je ne mourrai pas de faim lorsque souffleront les rafales de vent de la saison froide.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1266,
+     "name": "Tundra MacGrann"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1266,
+     "name": "Tundra MacGrann"
+    }
+   ],
+   "zone_id": 1,
+   "level": 12,
+   "reqlevel": 7,
+   "side": "alliance",
+   "xp": 910,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:10"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "313": {
+   "id": 313,
+   "name": "L'antre Gris",
+   "objectives": "Réunir 8 Peaux de Wendigo et les apporter au Pilote Stonegear.",
+   "description": "La conduite d'une machine de siège n'est pas à la portée de n'importe qui. Il faut une poigne de fer et des nerfs d'acier... Par chance, j'ai les deux ! Et vous ? De quel bois êtes-vous fait ? Vous voulez le prouver ?\n\nBon... Je cherche comment rendre mon engin, le \"Moissonne-trolls\", un peu plus confortable. Et si vous alliez me chercher quelques peaux de Wendigo dans l'Antre Gris, à l'ouest de Kharanos ? On pourrait en tapisser le pont intérieur de ma machine !",
+   "progress": "Salut, <nom>. Déjà de retour de l'Antre Gris ? Ces Wendigos peuvent être féroces.",
+   "completion": "Ah oui ! Ces peaux vont faire l'affaire ! Vous avez montré une grande fermeté de caractère, <classe>. Je parie que nous entendrons parler de vous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1377,
+     "name": "Pilote Stonegear"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1377,
+     "name": "Pilote Stonegear"
+    }
+   ],
+   "zone_id": 1,
+   "level": 7,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 630,
+   "money": 175,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:12"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah oui ! Ces peaux vont faire l'affaire ! Vous avez montré une grande fermeté de caractère, <classe>. Je parie que nous entendrons parler de vous."
+     },
+     "npc": 1377,
+     "npc_name": "Pilote Stonegear",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794029864,
+     "last_seen": 1794029864
+    },
+    "detail": {
+     "texts": {
+      "description": "La conduite d'une machine de siège n'est pas à la portée de n'importe qui. Il faut une poigne de fer et des nerfs d'acier... Par chance, j'ai les deux ! Et vous ? De quel bois êtes-vous fait ? Vous voulez le prouver ?\n\nBon... Je cherche comment rendre mon engin, le \"Moissonne-trolls\", un peu plus confortable. Et si vous alliez me chercher quelques peaux de Wendigo dans l'Antre Gris, à l'ouest de Kharanos ? On pourrait en tapisser le pont intérieur de ma machine !",
+      "objectives": "Réunir 8 Peaux de Wendigo et les apporter au Pilote Stonegear.",
+      "name": "L'antre Gris"
+     },
+     "npc": 1377,
+     "npc_name": "Pilote Stonegear",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793968851,
+     "last_seen": 1793968851
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "314": {
+   "id": 314,
+   "name": "Protection du troupeau",
+   "objectives": "Sur demande de Rudra Amberstill, tuer Vagash et rapporter un de ses crocs à la ferme des Amberstill.",
+   "description": "Nous avons entendu des cris au milieu de la nuit. Et ce matin, il manquait deux béliers dans le troupeau. C'est cette bête poltronne connue sous le nom de Vagash qui s'en est prise à notre gagne-pain. Vu que la grande partie de l'armée du roi Magni est loin d'ici, en train de se battre avec l'Alliance, il n'y a personne pour tenir Vagash à distance.\n\nVous avez peut-être assez de courage pour poursuivre la bête et la tuer. Apportez-moi un de ses crocs et je vous récompenserai. Vagash se cache juste au-dessus du ranch, mais soyez <prudent/prudente>, il est très dangereux.",
+   "progress": "Vagash terrorise toujours le troupeau ! Je vous en prie, aidez-nous en tuant cette misérable bête.",
+   "completion": "Bien joué ! Veron sera si heureux d'entendre ces bonnes nouvelles. Tuer Vagash n'était pas facile. J'imagine qu'un jour, vous vous battrez aux côtés des hommes du roi Magni sur le front de l'Alliance.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1265,
+     "name": "Rudra Amberstill"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1265,
+     "name": "Rudra Amberstill"
+    }
+   ],
+   "zone_id": 1,
+   "level": 12,
+   "reqlevel": 6,
+   "side": "alliance",
+   "xp": 910,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "prudent/prudente"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:14"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "315": {
+   "id": 315,
+   "name": "La bière parfaite",
+   "objectives": "Apporter 6 Brins de chatoyante à Rejold Barleybrew au village de Brassetout.",
+   "description": "Je cherche à faire la bière parfaite. Je sais que je peux le faire : le brassage, j'ai ça dans le sang. Je dois juste trouver la bonne recette...\n\nLes trolls Frostmane cultivent une plante, la chatoyante, en haut des collines à l'est. Ils l'utilisent dans les rituels de leur tribu. Nous les nains, nous ne lui avons pas trouvé d'usages, mais elle a un goût unique... Et je veux essayer !\n\nApportez-moi de la chatoyante qu'utilisent les Prophètes Frostmane, ou piquez-en dans les paniers à chatoyante des trolls.",
+   "progress": "Avez-vous ma chatoyante ? J'ai un fût de bière prête à brasser et je veux rajouter cette herbe dans mon mélange.",
+   "completion": "Génial ! Je ne vais pas attendre pour utiliser cet ingrédient dans quelques-unes de mes recettes. Il y en a une en particulier qui va être grandiose…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1374,
+     "name": "Rejold Barleybrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1374,
+     "name": "Rejold Barleybrew"
+    }
+   ],
+   "zone_id": 1,
+   "level": 9,
+   "reqlevel": 5,
+   "side": "alliance",
+   "xp": 780,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:17"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Génial ! Je ne vais pas attendre pour utiliser cet ingrédient dans quelques-unes de mes recettes. Il y en a une en particulier qui va être grandiose…"
+     },
+     "npc": 1374,
+     "npc_name": "Rejold Barleybrew",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794033768,
+     "last_seen": 1794033768
+    },
+    "detail": {
+     "texts": {
+      "description": "Je cherche à faire la bière parfaite. Je sais que je peux le faire : le brassage, j'ai ça dans le sang. Je dois juste trouver la bonne recette...\n\nLes trolls Frostmane cultivent une plante, la chatoyante, en haut des collines à l'est. Ils l'utilisent dans les rituels de leur tribu. Nous les nains, nous ne lui avons pas trouvé d'usages, mais elle a un goût unique... Et je veux essayer !\n\nApportez-moi de la chatoyante qu'utilisent les Prophètes Frostmane, ou piquez-en dans les paniers à chatoyante des trolls.",
+      "objectives": "Apporter 6 Brins de chatoyante à Rejold Barleybrew au village de Brassetout.",
+      "name": "La bière parfaite"
+     },
+     "npc": 1374,
+     "npc_name": "Rejold Barleybrew",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794031789,
+     "last_seen": 1794031789
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "317": {
+   "id": 317,
+   "name": "Ravitailler le Crache-vapeur",
+   "objectives": "Réunir 4 morceaux de Viande de sanglier et 2 Fourrures d'ours épaisses et les livrer au pilote Bellowfiz au dépôt de Steelgrill.",
+   "description": "Je me prépare à entamer une mission pour la brigade des Sapeurs. C'est une longue mission et j'ai besoin de ravitailler le Crache-vapeur avec l'équivalent d'un mois de provisions. Alors pendant que Steelgrill travaille sur mon réservoir, pouvez-vous aller chasser pour moi ?\n\nJ'ai besoin de fourrure pour nos lits et de viande pour nous nourrir. Vous pouvez rapporter de la viande de sanglier et de la fourrure d'ours... Vous trouverez l'un et l'autre dans les terrains enneigés au sud de l'Antre Gris.",
+   "progress": "Les préparatifs avancent. Comment se passe votre chasse ?",
+   "completion": "Par la barbe de Magni, quelle chasse ! Merci, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1378,
+     "name": "Pilote Bellowfiz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1378,
+     "name": "Pilote Bellowfiz"
+    }
+   ],
+   "zone_id": 1,
+   "level": 6,
+   "reqlevel": 2,
+   "side": "alliance",
+   "xp": 680,
+   "money": 250,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:19"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Par la barbe de Magni, quelle chasse ! Merci, <nom>."
+     },
+     "npc": 1378,
+     "npc_name": "Pilote Bellowfiz",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794031625,
+     "last_seen": 1794031625
+    },
+    "detail": {
+     "texts": {
+      "description": "Je me prépare à entamer une mission pour la brigade des Sapeurs. C'est une longue mission et j'ai besoin de ravitailler le Crache-vapeur avec l'équivalent d'un mois de provisions. Alors pendant que Steelgrill travaille sur mon réservoir, pouvez-vous aller chasser pour moi ?\n\nJ'ai besoin de fourrure pour nos lits et de viande pour nous nourrir. Vous pouvez rapporter de la viande de sanglier et de la fourrure d'ours... Vous trouverez l'un et l'autre dans les terrains enneigés au sud de l'Antre Gris.",
+      "objectives": "Réunir 4 morceaux de Viande de sanglier et 2 Fourrures d'ours épaisses et les livrer au pilote Bellowfiz au dépôt de Steelgrill.",
+      "name": "Ravitailler le Crache-vapeur"
+     },
+     "npc": 1378,
+     "npc_name": "Pilote Bellowfiz",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793968844,
+     "last_seen": 1793968844
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "318": {
+   "id": 318,
+   "name": "L’Evershine",
+   "objectives": "Demander un tonneau d'Evershine à Rejold Barleybrew au village de Brassetout.",
+   "description": "Rejold Barleybrew fait des expériences de brassage. Certaines ont bon goût, d'autres sont mauvaises et certaines... Eh bien, certaines mettraient par terre les plus vaillants des nains !\n\nCe brasseur habite à Brassetout, à l'ouest de Kharanos, et j'ai besoin de l'une de ses boissons : l'Evershine. Ça me tiendra au chaud quand je serai sur les routes glacées.\n\nEt... ce liquide béni brûle si bien que je peux le jeter dans la chaudière du Crache-vapeur pour avoir un peu plus de puissance ! Cette petite tactique m'a servi plus d'une fois.",
+   "progress": null,
+   "completion": "Bellowfiz a besoin d'un peu de mon Evershine ? Hum… D'accord.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1378,
+     "name": "Pilote Bellowfiz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1374,
+     "name": "Rejold Barleybrew"
+    }
+   ],
+   "zone_id": 1,
+   "level": 7,
+   "reqlevel": 2,
+   "side": "alliance",
+   "xp": 160,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:22"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Bellowfiz a besoin d'un peu de mon Evershine ? Hum… D'accord."
+     },
+     "npc": 1374,
+     "npc_name": "Rejold Barleybrew",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794031787,
+     "last_seen": 1794031787
+    },
+    "detail": {
+     "texts": {
+      "description": "Rejold Barleybrew fait des expériences de brassage. Certaines ont bon goût, d'autres sont mauvaises et certaines... Eh bien, certaines mettraient par terre les plus vaillants des nains !\n\nCe brasseur habite à Brassetout, à l'ouest de Kharanos, et j'ai besoin de l'une de ses boissons : l'Evershine. Ça me tiendra au chaud quand je serai sur les routes glacées.\n\nEt... ce liquide béni brûle si bien que je peux le jeter dans la chaudière du Crache-vapeur pour avoir un peu plus de puissance ! Cette petite tactique m'a servi plus d'une fois.",
+      "objectives": "Demander un tonneau d'Evershine à Rejold Barleybrew au village de Brassetout.",
+      "name": "L’Evershine"
+     },
+     "npc": 1378,
+     "npc_name": "Pilote Bellowfiz",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794031625,
+     "last_seen": 1794031625
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "319": {
+   "id": 319,
+   "name": "Une faveur pour un tonneau d’Evershine",
+   "objectives": "Tuer 6 Ours Griffeglace, 8 Anciens sangliers des rochers et 8 Léopards des neiges, puis retourner voir Rejold Barleybrew à Brassetout.",
+   "description": "J'ai un tonneau d'Evershine sous la main, mais... Pouvez-vous me faire une faveur ? Mon village aurait besoin d'un coup de main pour se débarrasser des animaux sauvages qui errent dans les neiges voisines. Parfois ils rôdent tout près.\n\nNous n'avons pas peur de ces oursons, de ces chats et de ces cochons – aucun nain digne de ce nom n'en aurait peur – mais si vous pouviez vous occuper de ces bestioles, nous aurions plus de temps pour travailler.",
+   "progress": "Avez-vous réglé leur compte à ces animaux sauvages ?",
+   "completion": "Merci, <nom>. Ça va être plus agréable d’exercer nos métiers sans entendre ces grondements et ces reniflements à la porte du village.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1374,
+     "name": "Rejold Barleybrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1374,
+     "name": "Rejold Barleybrew"
+    }
+   ],
+   "zone_id": 1,
+   "level": 8,
+   "reqlevel": 2,
+   "side": "alliance",
+   "xp": 530,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:25"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Merci, <nom>. Ça va être plus agréable d’exercer nos métiers sans entendre ces grondements et ces reniflements à la porte du village."
+     },
+     "npc": 1374,
+     "npc_name": "Rejold Barleybrew",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794034721,
+     "last_seen": 1794034721
+    },
+    "detail": {
+     "texts": {
+      "description": "J'ai un tonneau d'Evershine sous la main, mais... Pouvez-vous me faire une faveur ? Mon village aurait besoin d'un coup de main pour se débarrasser des animaux sauvages qui errent dans les neiges voisines. Parfois ils rôdent tout près.\n\nNous n'avons pas peur de ces oursons, de ces chats et de ces cochons – aucun nain digne de ce nom n'en aurait peur – mais si vous pouviez vous occuper de ces bestioles, nous aurions plus de temps pour travailler.",
+      "objectives": "Tuer 6 Ours Griffeglace, 8 Anciens sangliers des rochers et 8 Léopards des neiges, puis retourner voir Rejold Barleybrew à Brassetout.",
+      "name": "Une faveur pour un tonneau d’Evershine"
+     },
+     "npc": 1374,
+     "npc_name": "Rejold Barleybrew",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794031788,
+     "last_seen": 1794031788
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "320": {
+   "id": 320,
+   "name": "Retour vers Bellowfiz",
+   "objectives": "Donner le Tonneau d'Evershine au Pilote Bellowfiz au Dépôt de Steelgrill.",
+   "description": "Voici votre tonneau d'éternol, <nom>. Et merci encore pour la partie de chasse.",
+   "progress": "Avez-vous obtenu l'Evershine ?",
+   "completion": "Oui, ça fera parfaitement l'affaire. Je pense que je vais tout de suite l’ouvrir pour goûter…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1374,
+     "name": "Rejold Barleybrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1378,
+     "name": "Pilote Bellowfiz"
+    }
+   ],
+   "zone_id": 1,
+   "level": 8,
+   "reqlevel": 2,
+   "side": "alliance",
+   "xp": 880,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:27"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Oui, ça fera parfaitement l'affaire. Je pense que je vais tout de suite l’ouvrir pour goûter…"
+     },
+     "npc": 1378,
+     "npc_name": "Pilote Bellowfiz",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794035453,
+     "last_seen": 1794035453
+    },
+    "detail": {
+     "texts": {
+      "description": "Voici votre tonneau d'éternol, <nom>. Et merci encore pour la partie de chasse.",
+      "objectives": "Donner le Tonneau d'Evershine au Pilote Bellowfiz au Dépôt de Steelgrill.",
+      "name": "Retour vers Bellowfiz"
+     },
+     "npc": 1374,
+     "npc_name": "Rejold Barleybrew",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794034722,
+     "last_seen": 1794034739
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "400": {
+   "id": 400,
+   "name": "Des outils pour Steelgrill",
+   "objectives": "Rapporter les outils de SteelGrill à Beldin Steelgrill.",
+   "description": "Beldin Steelgrill tient un magasin de mécanique. C’est notre meilleur technicien d'engins de siège ! Mais il n'est pas soigneux avec ses outils. Je vous jure qu'il casse ses clés plates aussi vite que nous les lui fournissons !\n\nNous venons juste de préparer sa dernière commande d'outils. Si vous la lui livrez, je suis sûr qu’il vous récompensera.\n\nSon magasin, le dépôt de Steelgrill, est juste au nord-est de Kharanos. Et c'est le repaire de nombreux pilotes d'engins de siège vétérans. Quand vous y serez, gardez les oreilles ouvertes, il y aura peut-être des occasions à saisir.",
+   "progress": "Hum ? Vous paraissez un peu jeune pour être un conducteur d'engins de siège. Mais qu'importe… avez-vous besoin de réparer quelque chose ?\n\nAlors prenez un numéro et mettez-vous à l'aise. Je suis en train de travailler sur quelques moteurs en ce moment et je n'aurai pas le temps de m'occuper d'un autre travail avant au moins quelques jours.\n\nOu êtes-vous ici pour quelque chose d'autre... ?",
+   "completion": "Vous avez mes outils ? Bien joué, bien joué ! Je viens de casser il y a une heure mon rochet à dents et j'en ai besoin pour finir de réparer l'engin du Pilote Stonegear. Vous avez fait du bon travail en ramenant ces outils ici, <nom>.\n\nVoilà, prenez ces pièces pour votre peine.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1872,
+     "name": "Tharek Blackstone"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1376,
+     "name": "Beldin Steelgrill"
+    }
+   ],
+   "zone_id": 1,
+   "level": 5,
+   "reqlevel": 2,
+   "side": "alliance",
+   "xp": 110,
+   "money": 25,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:29"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vous avez mes outils ? Bien joué, bien joué ! Je viens de casser il y a une heure mon rochet à dents et j'en ai besoin pour finir de réparer l'engin du pilote Engrepierre. Vous avez fait du bon travail en ramenant ces outils ici, <nom>.\n\nVoilà, prenez ces pièces pour votre peine."
+     },
+     "npc": 1376,
+     "npc_name": "Beldin Steelgrill",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793968835,
+     "last_seen": 1793968835
+    },
+    "detail": {
+     "texts": {
+      "description": "Beldin Steelgrill tient un magasin de mécanique. C’est notre meilleur technicien d'engins de siège ! Mais il n'est pas soigneux avec ses outils. Je vous jure qu'il casse ses clés plates aussi vite que nous les lui fournissons !\n\nNous venons juste de préparer sa dernière commande d'outils. Si vous la lui livrez, je suis sûr qu’il vous récompensera.\n\nSon magasin, le dépôt de Steelgrill, est juste au nord-est de Kharanos. Et c'est le repaire de nombreux pilotes d'engins de siège vétérans. Quand vous y serez, gardez les oreilles ouvertes, il y aura peut-être des occasions à saisir.",
+      "objectives": "Rapporter les outils de SteelGrill à Beldin Steelgrill.",
+      "name": "Des outils pour Steelgrill"
+     },
+     "npc": 1872,
+     "npc_name": "Tharek Blackstone",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793968479,
+     "last_seen": 1793968479
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "403": {
+   "id": 403,
+   "name": "La garde du tonneau de Thunderbrew",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Le tonneau de bière est gardé par JArve Tonnebière. Tant qu'il est dans le sous sol, aucun tonneau ne peut être approché.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 269,
+     "name": "Guarded Thunder Ale Barrel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 269,
+     "name": "Guarded Thunder Ale Barrel"
+    }
+   ],
+   "zone_id": 1,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:32"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "wowhead",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "412": {
+   "id": 412,
+   "name": "Opération Recombobulation",
+   "objectives": "Porter 8 Rouages de Rééquilibrage et 8 Engrenages gyromécaniques à Razzle Sprysprocket à Kharanos.",
+   "description": "Après des analyses approfondies de la situation, il semble que non seulement nous avons échoué à éradiquer les troggs mais que nous avons changé la majorité de la race gnome en horribles gnomes lépreux.\n\nOzzie et moi voulons renverser l'effet de cette abominable lèpre grâce à notre dernière invention : le Recombobulateur. Cette machine est pratiquement complète mais nous avons un grand besoin de Rouages de Rééquilibrage et d'Engrenages gyromécaniques. Demandez-en pour nous aux gnomes lépreux devant Gnomeregan.",
+   "progress": "Le Recombobulateur sera bientôt prêt et marchera dès que nous aurons suffisamment de Rouages de Rééquilibrage et d'Engrenages gyromécaniques.",
+   "completion": "Ces Engrenages gyromécaniques et Rouages de rééquilibrage sont en parfaite adéquation avec les plans d'Ozzie pour le Recombobulateur. Une fois que j'aurai mis du lubrifiant dans les pistons de combustion internes, ajusté le crank-o-ratchet et augmenté la viscosité de l'électrogomme, cet engin gnome sera comme neuf.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1269,
+     "name": "Razzle Sprysprocket"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1269,
+     "name": "Razzle Sprysprocket"
+    }
+   ],
+   "zone_id": 1,
+   "level": 10,
+   "reqlevel": 7,
+   "side": "alliance",
+   "xp": 840,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:34"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ces Engrenages gyromécaniques et Rouages de rééquilibrage sont en parfaite adéquation avec les plans d'Ozzie pour le Recombobulateur. Une fois que j'aurai mis du lubrifiant dans les pistons de combustion internes, ajusté le crank-o-ratchet et augmenté la viscosité de l'électrogomme, cet engin gnome sera comme neuf."
+     },
+     "npc": 1269,
+     "npc_name": "Razzle Sprysprocket",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794031590,
+     "last_seen": 1794031590
+    },
+    "detail": {
+     "texts": {
+      "description": "Après des analyses approfondies de la situation, il semble que non seulement nous avons échoué à éradiquer les troggs mais que nous avons changé la majorité de la race gnome en horribles gnomes lépreux.\n\nOzzie et moi voulons renverser l'effet de cette abominable lèpre grâce à notre dernière invention : le Recombobulateur. Cette machine est pratiquement complète mais nous avons un grand besoin de Rouages de Rééquilibrage et d'Engrenages gyromécaniques. Demandez-en pour nous aux gnomes lépreux devant Gnomeregan.",
+      "objectives": "Porter 8 Rouages de Rééquilibrage et 8 Engrenages gyromécaniques à Razzle Sprysprocket à Kharanos.",
+      "name": "Opération Recombobulation"
+     },
+     "npc": 1269,
+     "npc_name": "Razzle Sprysprocket",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794029830,
+     "last_seen": 1794029830
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "413": {
+   "id": 413,
+   "name": "La bière Shimmer",
+   "objectives": "Amener le Tonneau de Bière Shimmer au Montagnard Barleybrew.",
+   "description": "J'aimerais que mon frère Wellart essaye ma nouvelle bière Shimmer. C'est un montagnard dont la garnison est la tour de garde sud, une des deux tours au bord du Loch Modan.\n\nIl n'est peut être pas un brasseur comme le reste des Barleybrew mais il aime boire une bonne bière et je sais qu'il appréciera celle-ci.\n\nPouvez-vous lui porter ce Tonneau de Bière Shimmer pour moi ?",
+   "progress": "Bonjour, <classe> ! Qu'est-ce qui peut bien vous amener par ici ?\n\nQuelque chose d'intéressant, j'espère. Je n'ai pas eu un bon combat depuis plusieurs jours et ce Tonneau de bière est pratiquement vide….",
+   "completion": "<Le Montagnard Barleybrew goûte la Bière Shimmer…>\n\nOh. Wouahh ! Ce truc vous met plein d'étoiles dans les yeux. J'ai l'impression de pouvoir voir dans le noir !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1374,
+     "name": "Rejold Barleybrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1959,
+     "name": "Montagnard Barleybrew"
+    }
+   ],
+   "zone_id": 1,
+   "level": 10,
+   "reqlevel": 8,
+   "side": "alliance",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:37"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "<Le Montagnard Barleybrew goûte la Bière Shimmer…>\n\nOh. Wouahh ! Ce truc vous met plein d'étoiles dans les yeux. J'ai l'impression de pouvoir voir dans le noir !"
+     },
+     "npc": 1959,
+     "npc_name": "Montagnard Barleybrew",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794040874,
+     "last_seen": 1794040874
+    },
+    "detail": {
+     "texts": {
+      "description": "J'aimerais que mon frère Wellart essaye ma nouvelle bière Shimmer. C'est un montagnard dont la garnison est la tour de garde sud, une des deux tours au bord du Loch Modan.\n\nIl n'est peut être pas un brasseur comme le reste des Barleybrew mais il aime boire une bonne bière et je sais qu'il appréciera celle-ci.\n\nPouvez-vous lui porter ce Tonneau de Bière Shimmer pour moi ?",
+      "objectives": "Amener le Tonneau de Bière Shimmer au Montagnard Barleybrew.",
+      "name": "La bière Shimmer"
+     },
+     "npc": 1374,
+     "npc_name": "Rejold Barleybrew",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794033774,
+     "last_seen": 1794033774
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "414": {
+   "id": 414,
+   "name": "Bière à Kadrell",
+   "objectives": "Portez le Tonneau de Bière Shimmer au montagnard Kadrell.",
+   "description": "J'ai encore bu un peu de cette bière Shimmer faite par mon frère, c'est vraiment une sacrée bière ! J'aimerais qu'un ami montagnard la goûte. Son nom est Kadrell et il patrouille en général sur la route qui passe par Thelsamar au Loch Modan.\n\nPour aller à Thelsamar, allez au sud-ouest à travers le tunnel puis allez au nord-est quand le chemin se sépare. Suivez cette route jusqu'à Thelsamar.\n\nDonnez au montagnard Kadrell ce Tonneau de Shimmer Stout et voyez ce qu'il en pense !",
+   "progress": "Salutations, <classe>, et bienvenue à Thelsamar !",
+   "completion": "Maintenant, laissez-moi goûter…\n\nPar la barbe de Magni ! Ce truc vous fait tourner la tête ! Et vous avez les jambes légères aussi.\n\nJ'ai l'impression de pouvoir voler !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1959,
+     "name": "Montagnard Barleybrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1340,
+     "name": "Montagnard Kadrell"
+    }
+   ],
+   "zone_id": 1,
+   "level": 10,
+   "reqlevel": 8,
+   "side": "alliance",
+   "xp": 630,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:39"
+   },
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "J'ai encore bu un peu de cette bière Shimmer faite par mon frère, c'est vraiment une sacrée bière ! J'aimerais qu'un ami montagnard la goûte. Son nom est Kadrell et il patrouille en général sur la route qui passe par Thelsamar au Loch Modan.\n\nPour aller à Thelsamar, allez au sud-ouest à travers le tunnel puis allez au nord-est quand le chemin se sépare. Suivez cette route jusqu'à Thelsamar.\n\nDonnez au montagnard Kadrell ce Tonneau de Shimmer Stout et voyez ce qu'il en pense !",
+      "objectives": "Portez le Tonneau de Bière Shimmer au montagnard Kadrell.",
+      "name": "Bière à Kadrell"
+     },
+     "npc": 1959,
+     "npc_name": "Montagnard Barleybrew",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794040875,
+     "last_seen": 1794040875
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "415": {
+   "id": 415,
+   "name": "La nouvelle cuvée de Rejold",
+   "objectives": "Parler à Rejold Barleybrew.",
+   "description": "Rejold Barleybrew du village de Brassetout vous demande.\n\nIl veut vous parler d'une nouvelle boisson sur laquelle il travaille… Il parle d'un coup de main que vous pourriez lui donner. Vous pourriez faire demi-tour et voir ce qu'il a à dire.\n\nIl pourrait y avoir quelques mousses gratuites pour vous...",
+   "progress": null,
+   "completion": "<nom> ! Vous savez, cette herbe que vous m'avez apportée ? Eh bien je l'ai utilisée dans quelques recettes et l'une d'entre elles donne un résultat excellent !\n\nEssayez donc moi cela et dites-moi ce que vous en pensez...",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1378,
+     "name": "Pilote Bellowfiz"
+    },
+    {
+     "type": "npc",
+     "id": 1872,
+     "name": "Tharek Blackstone"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1374,
+     "name": "Rejold Barleybrew"
+    }
+   ],
+   "zone_id": 1,
+   "level": 10,
+   "reqlevel": 8,
+   "side": "alliance",
+   "xp": 85,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:42"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "417": {
+   "id": 417,
+   "name": "La revanche du pilote",
+   "objectives": "Tuer Griffe galeuse.\n\nRapporter la griffe à laquelle il doit son nom et le Journal de Hildelve au pilote Hammerfoot.",
+   "description": "Hildelve écrit dans son journal qu'il a été attaqué par Griffe galeuse, un \"gigantesque ours Griffeglace\". Il a repoussé la bête mais pas avant d'avoir été gravement blessé.\n\nD'après l'état du corps de Hildevel, Griffe galeuse a dû revenir et le tuer.\n\nNéanmoins, Hildevel a écrit dans son journal sa dernière volonté :\n\nVengez-moi ! Tuez Griffe galeuse !",
+   "progress": "Bonjour, <nom>. Avez-vous des nouvelles de mon ami Hildeve ?",
+   "completion": "Ce sont d'amères nouvelles, Hildeve était un très bon ami. Et j'aurais aimé être là avec vous lorsque vous avez trouvé cette bête, Griffe galeuse !\n\nMerci, <nom>. Les pilotes de la brigade des sapeurs d'Ironforge se souviendront de cet exploit.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 2059,
+     "name": "A Dwarven Corpse"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1960,
+     "name": "Pilote Hammerfoot"
+    }
+   ],
+   "zone_id": 1,
+   "level": 11,
+   "reqlevel": 8,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:44"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "419": {
+   "id": 419,
+   "name": "Le pilote perdu",
+   "objectives": "Trouver le pilote Hildeve.",
+   "description": "Mon ami et camarade Mori Hildelve, qui est Sapeur, a disparu dans les collines. Nous étions en train de chercher un minerai rare qui est nécessaire pour une poudre explosive de grande qualité. Durant nos recherches, il a essayé de monter une pente avec son engin lorsque le moteur a explosé !\n\nConvaincu que le minerai était dans ces montagnes, Hildelve m'a confié la garde des engins tandis qu'il poursuivait la prospection à pied.\n\nCela fait maintenant des jours de cela et j'ai entendu les grognements de bêtes dans la montagne la nuit. Mori est dur comme l'acier mais je suis inquiet.\n\nS'il vous plaît, <nom>. Trouvez-le.",
+   "progress": null,
+   "completion": "Ci-gît le corps d'un nain, brisé, gelé et nettoyé par les charognards des montagnes. Coincé dans sa main, il y a un livre contenant les notes fébriles prises par Mori Hildelve. Et autour de lui, toujours intacte, il y a une veste de sergent.\n\nC'est sûrement ici que le sort de ce sapeur a été scellé.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1960,
+     "name": "Pilote Hammerfoot"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 2059,
+     "name": "A Dwarven Corpse"
+    }
+   ],
+   "zone_id": 1,
+   "level": 10,
+   "reqlevel": 8,
+   "side": "alliance",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:47"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "420": {
+   "id": 420,
+   "name": "Les observations de Senir",
+   "objectives": "Apporter le rapport de Grelin à Senir Whitebeard à Kharanos.",
+   "description": "Les troggs qui infestent le tunnel sont extrêmement hostiles et n'hésitent pas à attaquer tout intrus. Vous avez l'air suffisamment solide, vous devriez donc vous en tirer.\n\nLa route à suivre ? Si vous voulez parler à Senir, vous le trouverez à Kharanos.\n\nPassez par le tunnel et une fois dehors à l'autre extrémité, suivez la route, elle vous conduira à Kharanos.",
+   "progress": "Comment allez-vous ? Aimeriez-vous partager une boisson avec moi ? Pas grand-chose d'autre à faire par ce froid.",
+   "completion": "Qu'est-ce que cela ? Ah, le rapport de mon frère. Hmm…\n\nJe lui ai dit d'utiliser prudemment le nom du roi mais il n'écoute pas. Pas de mal à cela je suppose, bien que cela risque de créer quelques remous au Sénat. Remous dont on pourrait bien se passer ! Ha !\n\nBon, je devine que je dois envoyer mon rapport à Ironforge également, mais je dois admettre que je suis un peu en retard. Ce satané froid...\n\nJe devrais avoir du travail pour vous un peu plus tard, si vous êtes intéressé.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1965,
+     "name": "Montagnard Thalos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1252,
+     "name": "Senir Whitebeard"
+    }
+   ],
+   "zone_id": 1,
+   "level": 5,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 335,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:50"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Qu'est-ce que cela ? Ah, le rapport de mon frère. Hmm…\n\nJe lui ai dit d'utiliser prudemment le nom du roi mais il n'écoute pas. Pas de mal à cela je suppose, bien que cela risque de créer quelques remous au Sénat. Remous dont on pourrait bien se passer ! Ha !\n\nBon, je devine que je dois envoyer mon rapport à Forgefer également, mais je dois admettre que je suis un peu en retard. Ce satané froid...\n\nJe devrais avoir du travail pour vous un peu plus tard, si vous êtes intéressée."
+     },
+     "npc": 1252,
+     "npc_name": "Senir Whitebeard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793968271,
+     "last_seen": 1793968271
+    },
+    "detail": {
+     "texts": {
+      "description": "Les troggs qui infestent le tunnel sont extrêmement hostiles et n'hésitent pas à attaquer tout intrus. Vous avez l'air suffisamment solide, vous devriez donc vous en tirer.\n\nLa route à suivre ? Si vous voulez parler à Senir, vous le trouverez à Kharanos.\n\nPassez par le tunnel et une fois dehors à l'autre extrémité, suivez la route, elle vous conduira à Kharanos.",
+      "objectives": "Apporter le rapport de Grelin à Senir Whitebeard à Kharanos.",
+      "name": "Les observations de Senir"
+     },
+     "npc": 1965,
+     "npc_name": "Montagnard Thalos",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793968075,
+     "last_seen": 1793968075
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "432": {
+   "id": 432,
+   "name": "Ces satanés troggs !",
+   "objectives": "Tuer 6 Brise-crânes Mâcheroc pour le contremaître Stonebrow à la carrière de Gol'Bolar.",
+   "description": "Ces satanés troggs sont en train de démolir mon lieu de travail, que la Lumière les brûle ! Regardez-moi ça : un nouveau baril de poudre qui part en fumée !\n\nOh ! Si seulement je pouvais y aller moi-même et tordre, l'un après l'autre, leurs petits cous décharnés ! J'aimerais les tuer tous !\n\nTout ce stress, cette colère... Cela n'est pas bon pour ma santé. Et qu'ont-ils laissé d'intact ? Rien !\n\nJe les massacrerais volontiers, mais je ne sais plus viser ! Allez donc dans la carrière et tuez quelques-uns de ces salopiauds ! Je vous paierai, mais faites-leur mal, détruisez-les !",
+   "progress": "Cela me met hors de moi ! Grrr...",
+   "completion": "Je me sens déjà un peu mieux...\n\nMais voilà, je ne serai soulagé que lorsqu'ils seront tous morts, absolument tous !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1254,
+     "name": "Contremaître Stonebrow"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1254,
+     "name": "Contremaître Stonebrow"
+    }
+   ],
+   "zone_id": 1,
+   "level": 9,
+   "reqlevel": 5,
+   "side": "alliance",
+   "xp": 590,
+   "money": 200,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:52"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Je me sens déjà un peu mieux...\n\nMais voilà, je ne serai soulagé que lorsqu'ils seront tous morts, absolument tous !"
+     },
+     "npc": 1254,
+     "npc_name": "Contremaître Stonebrow",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794039166,
+     "last_seen": 1794039166
+    },
+    "detail": {
+     "texts": {
+      "description": "Ces satanés troggs sont en train de démolir mon lieu de travail, que la Lumière les brûle ! Regardez-moi ça : un nouveau baril de poudre qui part en fumée !\n\nOh ! Si seulement je pouvais y aller moi-même et tordre, l'un après l'autre, leurs petits cous décharnés ! J'aimerais les tuer tous !\n\nTout ce stress, cette colère... Cela n'est pas bon pour ma santé. Et qu'ont-ils laissé d'intact ? Rien !\n\nJe les massacrerais volontiers, mais je ne sais plus viser ! Allez donc dans la carrière et tuez quelques-uns de ces salopiauds ! Je vous paierai, mais faites-leur mal, détruisez-les !",
+      "objectives": "Tuer 6 Brise-crânes Mâcheroc pour le contremaître Stonebrow à la carrière de Gol'Bolar.",
+      "name": "Ces satanés troggs !"
+     },
+     "npc": 1254,
+     "npc_name": "Contremaître Stonebrow",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794039013,
+     "last_seen": 1794039013
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "foreverdb",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "foreverdb:vmangos",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "433": {
+   "id": 433,
+   "name": "Le serviteur public",
+   "objectives": "Tuer 10 Briseurs d'os Mâcheroc pour le sénateur Mehr Stonehallow à la carrière de Gol'Bolar.",
+   "description": "En tant que membre du Sénat et de la Ligue des Explorateurs, j'ai la charge de m'occuper des troggs qui infestent nos terres. Ils ont dévasté la carrière de Gol'Bolar, sans raison apparente. Comme nous forions profondément, ils ont jailli, détruisant notre équipement et chassant les mineurs. Nous n'avons d'autre solution que d'en exterminer un maximum, reconstruire et retourner au travail.\n\nSi vous m'aidez à nous débarrasser de ces troggs, je vous récompenserai en conséquence.",
+   "progress": "Si nous nettoyons la carrière de Gol'Bolar de ses troggs, nous aurons assurément fait un premier pas pour nous débarrasser de cette menace, mais la route sera longue.",
+   "completion": "C'est un début. Avec de la chance nous pouvons en profiter et engager quelques Montagnards pour sécuriser la zone. Ensuite nous pourrons restaurer nos infrastructures et le travail des mineurs reprendra normalement.\n\nMerci pour votre assistance, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1977,
+     "name": "Sénateur Mehr Stonehallow"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1977,
+     "name": "Sénateur Mehr Stonehallow"
+    }
+   ],
+   "zone_id": 1,
+   "level": 11,
+   "reqlevel": 6,
+   "side": "alliance",
+   "xp": 660,
+   "money": 300,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:55"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "C'est un début. Avec de la chance nous pouvons en profiter et engager quelques Montagnards pour sécuriser la zone. Ensuite nous pourrons restaurer nos infrastructures et le travail des mineurs reprendra normalement.\n\nMerci pour votre assistance, <nom>."
+     },
+     "npc": 1977,
+     "npc_name": "Sénateur Mehr Stonehallow",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794039836,
+     "last_seen": 1794039836
+    },
+    "detail": {
+     "texts": {
+      "description": "En tant que membre du Sénat et de la Ligue des Explorateurs, j'ai la charge de m'occuper des troggs qui infestent nos terres. Ils ont dévasté la carrière de Gol'Bolar, sans raison apparente. Comme nous forions profondément, ils ont jailli, détruisant notre équipement et chassant les mineurs. Nous n'avons d'autre solution que d'en exterminer un maximum, reconstruire et retourner au travail.\n\nSi vous m'aidez à nous débarrasser de ces troggs, je vous récompenserai en conséquence.",
+      "objectives": "Tuer 10 Briseurs d'os Mâcheroc pour le sénateur Mehr Stonehallow à la carrière de Gol'Bolar.",
+      "name": "Le serviteur public"
+     },
+     "npc": 1977,
+     "npc_name": "Sénateur Mehr Stonehallow",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794039001,
+     "last_seen": 1794039001
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "466": {
+   "id": 466,
+   "name": "À la recherche de l'incendicite",
+   "objectives": "Apporter 6 Chargements d’Incendicite au Pilote Stonegear à Dun Morogh.",
+   "description": "J'ai appris qu'il existait un minerai rare, l'incendicite, dans les Paluns, dans une grotte au nord-ouest de la Porte d'Algaz. C’est un produit assez volatil, il explose à la moindre mauvaise manipulation ! Mais je suis sûr que correctement extrait, on pourrait l'utiliser pour donner un sacré punch aux obus de canon !\n\nApportez-moi de l'incendicite et je trouverai bien quelqu'un pour l'expérimenter.\n\nAh ! Et pour extraire ce minerai vous devez avoir la Compétence de Minage. Si vous ne l'avez pas, alors... amenez un ami qui la connaisse !",
+   "progress": "Où est ce minerai, <nom> ?!",
+   "completion": "Vous avez le minerai ! Beau travail, <nom> ! Je vais mettre quelqu'un à son étude de suite, en espérant qu'il ne se fasse pas sauter !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1377,
+     "name": "Pilote Stonegear"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1377,
+     "name": "Pilote Stonegear"
+    }
+   ],
+   "zone_id": 1,
+   "level": 22,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 1750,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:57"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "467": {
+   "id": 467,
+   "name": "La quête de Stonegear",
+   "objectives": "Parler au Pilote Stonegear.",
+   "description": "Le pilote Stonegear adore ses engins de siège, comme il se doit ! Et il est toujours avide d'informations lui permettant d'apporter des améliorations techniques à ses chars !\n\nIl a entendu parler d'un minerai rare et cherche quelqu'un pour aller en collecter pour lui. Si vous aimez marcher, allez trouver Stonegear au dépôt de Steelgrill à Dun Morogh, et voyez ce dont il a besoin.",
+   "progress": null,
+   "completion": "Salut <nom>. Vous êtes candidat pour aller chercher ce dont j'ai besoin, hein ? Il est bon de voir un jeune <race> comme vous dont le sang bout à l'idée d'une mission !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1340,
+     "name": "Montagnard Kadrell"
+    },
+    {
+     "type": "npc",
+     "id": 2092,
+     "name": "Pilote Longbeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1377,
+     "name": "Pilote Stonegear"
+    }
+   ],
+   "zone_id": 1,
+   "level": 23,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 460,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:56:59"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2160": {
+   "id": 2160,
+   "name": "Des provisions pour Tannok",
+   "objectives": "Livrer la Caisse de ravitaillement à l'auberge de Tannok Frosthammer à Kharanos.",
+   "description": "Hé ! Vous avez l'air d'être un cœur généreux. Si vous projetez de prendre le Passage, pourriez-vous apporter un paquet à l'auberge de Kharanos ?\n\nVous vouliez vous arrêter à l'auberge, non ? Si vous prenez le Passage, vous aurez certainement envie de vous y reposer.\n\nQuoi qu'il en soit, apportez ceci à Tannok Frosthammer, l'assistant de l'aubergiste. Je ne peux pas passer le Passage moi-même et il faudra des jours avant qu'une escorte de Montagnards ne passe par ici !",
+   "progress": "Hé là ! Entrez, prenez place près du feu et réchauffez-vous avec une chope de bière.",
+   "completion": "Ah ! Enfin, les provisions de Hands ! Je commençais à m'inquiéter, nous n'avons que de rares nouvelles d'Anvilmar depuis que les troggs ont envahi le passage.\n\nMerci de me les avoir apportées, <nom>. Je vous en prie, installez-vous confortablement. Vous devez ressentir la fatigue du voyage.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6782,
+     "name": "Hands Springsprocket"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6806,
+     "name": "Tannok Frosthammer"
+    }
+   ],
+   "zone_id": 1,
+   "level": 5,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 110,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:02"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah ! Enfin, les provisions de Hands ! Je commençais à m'inquiéter, nous n'avons que de rares nouvelles de Courbenclume depuis que les troggs ont envahi le passage.\n\nMerci de me les avoir apportées, <nom>. Je vous en prie, installez-vous confortablement. Vous devez ressentir la fatigue du voyage."
+     },
+     "npc": 6806,
+     "npc_name": "Tannok Frosthammer",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793968423,
+     "last_seen": 1793968423
+    },
+    "detail": {
+     "texts": {
+      "description": "Hé ! Vous avez l'air d'être un cœur généreux. Si vous projetez de prendre le Passage, pourriez-vous apporter un paquet à l'auberge de Kharanos ?\n\nVous vouliez vous arrêter à l'auberge, non ? Si vous prenez le Passage, vous aurez certainement envie de vous y reposer.\n\nQuoi qu'il en soit, apportez ceci à Tannok Frosthammer, l'assistant de l'aubergiste. Je ne peux pas passer le Passage moi-même et il faudra des jours avant qu'une escorte de Montagnards ne passe par ici !",
+      "objectives": "Livrer la Caisse de ravitaillement à l'auberge de Tannok Frosthammer à Kharanos.",
+      "name": "Des provisions pour Tannok"
+     },
+     "npc": 6782,
+     "npc_name": "Hands Springsprocket",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793968079,
+     "last_seen": 1793968079
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3361": {
+   "id": 3361,
+   "name": "Les malheurs d'un réfugié",
+   "objectives": "Apporter la Boîte de Felix, le Coffre de Felix et le Seau de boulons de Felix à Felix Whindlebolt, à Anvilmar.",
+   "description": "Nous avons chassé les troggs de Gnomeregan, mais c'est devenu catastrophique depuis ! Maintenant notre maison est complètement irradiée et nous, les gnomes, nous avons été dispersés dans tout Dun Morogh.\n\nDans ma hâte de fuir les radiations, j'ai perdu toutes mes affaires personnelles et mes outils. Ce sont les trolls qui les ont pris. Ils ont volé mon coffre, ma boîte et mon seau de boulons ! Ils les ont emportés dans leur camp au sud-ouest d'Anvilmar.\n\nJe ne suis pas un aventurier… Pourriez-vous retrouver mes affaires et me les rapporter ici, s'il vous plaît ?",
+   "progress": "Oh, par tous les dieux, <nom>, cette ville ne convient pas du tout à mes semblables. Il y a autant d'horribles créatures ici qu'il y en avait à Gnomeregan avant l'accident !\n\nAvez-vous retrouvé mes affaires ? Si vous ne les avez pas retrouvées, alors qui sait ce que les trolls en ont fait à l'heure qu'il est...",
+   "completion": "Hourra, vous les avez trouvés ! Vous êtes mon sauveur, la bonté incarnée ! Tenez, ce n'est pas grand-chose, c'est un humble dédommagement pour les efforts que vous avez faits ! Merci !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8416,
+     "name": "Felix Whindlebolt"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8416,
+     "name": "Felix Whindlebolt"
+    }
+   ],
+   "zone_id": 1,
+   "level": 3,
+   "reqlevel": 3,
+   "side": "alliance",
+   "xp": 250,
+   "money": 50,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:04"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Hourra, vous les avez trouvés ! Vous êtes mon sauveur, la bonté incarnée ! Tenez, ce n'est pas grand-chose, c'est un humble dédommagement pour les efforts que vous avez faits ! Merci !"
+     },
+     "npc": 8416,
+     "npc_name": "Felix Whindlebolt",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Courbenclume",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793967694,
+     "last_seen": 1793967694
+    },
+    "detail": {
+     "texts": {
+      "description": "Nous avons chassé les troggs de Gnomeregan, mais c'est devenu catastrophique depuis ! Maintenant notre maison est complètement irradiée et nous, les gnomes, nous avons été dispersés dans tout Dun Morogh.\n\nDans ma hâte de fuir les radiations, j'ai perdu toutes mes affaires personnelles et mes outils. Ce sont les trolls qui les ont pris. Ils ont volé mon coffre, ma boîte et mon seau de boulons ! Ils les ont emportés dans leur camp au sud-ouest de Courbenclume.\n\nJe ne suis pas un aventurier… Pourriez-vous retrouver mes affaires et me les rapporter ici, s'il vous plaît ?",
+      "objectives": "Apporter la Boîte de Felix, le Coffre de Felix et le Seau de boulons de Felix à Felix Whindlebolt, à Courbenclume.",
+      "name": "Les malheurs d'un réfugié"
+     },
+     "npc": 8416,
+     "npc_name": "Felix Whindlebolt",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Courbenclume",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793967008,
+     "last_seen": 1793967008
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3364": {
+   "id": 3364,
+   "name": "Une livraison de thé brûlant",
+   "objectives": "Apporter un Thé brûlant à Durnan Furcutter, dans Anvilmar, dans les cinq minutes imparties avant qu'il ne refroidisse !",
+   "description": "Ah ! Je devais apporter un Thé brûlant à Durnan Furcutter, à Anvilmar, mais je dois d’abord en porter un à Grelin. Je n'arriverai jamais à Anvilmar avant qu'il ne refroidisse !\n\nVous m’avez l'air rapide. Vous pouvez le faire. Cette boisson ne restera chaude que 5 minutes et Durnan n'a pas commandé un Thé \"glacé\", alors partez tout de suite. Anvilmar est un village dans la montagne, au nord-est.\n\nMerci, <nom>, et n'oubliez pas de me rapporter ma tasse !",
+   "progress": "Oui ? Je suis Durnan Furcutter. Vous avez quelque chose pour moi ?",
+   "completion": "Ah, bien, voilà exactement ce qu'il me fallait. Permettez-moi de prendre une petite pause et de déguster ce Thé brûlant !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 12738,
+     "name": "Nori Pridedrift"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 836,
+     "name": "Durnan Furcutter"
+    }
+   ],
+   "zone_id": 1,
+   "level": 5,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 225,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:07"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah, bien, voilà exactement ce qu'il me fallait. Permettez-moi de prendre une petite pause et de déguster ce Thé brûlant !"
+     },
+     "npc": 836,
+     "npc_name": "Durnan Furcutter",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Courbenclume",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793967021,
+     "last_seen": 1793967021
+    },
+    "detail": {
+     "texts": {
+      "description": "Ah ! Je devais apporter un Thé brûlant à Durnan Furcutter, à Courbenclume, mais je dois d’abord en porter un à Grelin. Je n'arriverai jamais à Courbenclume avant qu'il ne refroidisse !\n\nVous m’avez l'air rapide. Vous pouvez le faire. Cette boisson ne restera chaude que 5 minutes et Durnan n'a pas commandé un Thé \"glacé\", alors partez tout de suite. Courbenclume est un village dans la montagne, au nord-est.\n\nMerci, <nom>, et n'oubliez pas de me rapporter ma tasse !",
+      "objectives": "Apporter un Thé brûlant à Durnan Furcutter, dans Courbenclume, dans les cinq minutes imparties avant qu'il ne refroidisse !",
+      "name": "Une livraison de thé brûlant"
+     },
+     "npc": 12738,
+     "npc_name": "Nori Pridedrift",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793966888,
+     "last_seen": 1793966888
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3365": {
+   "id": 3365,
+   "name": "Rapporter la Tasse",
+   "objectives": "Apporter la Chope de Nori à Nori Pridedrift.",
+   "description": "Ah ! Vous êtes <arrivé/arrivée> à point nommé ! Rien de tel qu'un bon thé chaud, non, BRULANT, par une froide journée d'hiver pour réchauffer les méandres de votre esprit.\n\nTenez, <nom>, soyez assez aimable pour rapporter cette tasse vide à Nori pour moi, voulez-vous ?",
+   "progress": "Je pense que vous êtes parvenu à livrer le thé brûlant à Durnan dans les temps, n'est-ce pas ? Avez-vous pensé à me rapporter ma tasse ?",
+   "completion": "Parfait, <nom> ! Vous seriez surpris du nombre de livreurs que je rencontre qui oublient une chose aussi simple que de rapporter la tasse. Les tasses ne poussent pas sur les arbres, ou bien c'est une nouveauté que je ne connais pas !\n\nVoici un petit quelque chose pour vos efforts. Merci encore pour votre aide.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 836,
+     "name": "Durnan Furcutter"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12738,
+     "name": "Nori Pridedrift"
+    }
+   ],
+   "zone_id": 1,
+   "level": 5,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": 450,
+   "money": 50,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "arrivé/arrivée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:09"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Parfait, <nom> ! Vous seriez surprise du nombre de livreurs que je rencontre qui oublient une chose aussi simple que de rapporter la tasse. Les tasses ne poussent pas sur les arbres, ou bien c'est une nouveauté que je ne connais pas !\n\nVoici un petit quelque chose pour vos efforts. Merci encore pour votre aide."
+     },
+     "npc": 12738,
+     "npc_name": "Nori Pridedrift",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793967615,
+     "last_seen": 1793967615
+    },
+    "detail": {
+     "texts": {
+      "description": "Ah ! Vous êtes arrivée à point nommé ! Rien de tel qu'un bon thé chaud, non, BRULANT, par une froide journée d'hiver pour réchauffer les méandres de votre esprit.\n\nTenez, <nom>, soyez assez aimable pour rapporter cette tasse vide à Nori pour moi, voulez-vous ?",
+      "objectives": "Apporter la Chope de Nori à Nori Pridedrift.",
+      "name": "Rapporter la Tasse"
+     },
+     "npc": 836,
+     "npc_name": "Durnan Furcutter",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Courbenclume",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793967024,
+     "last_seen": 1793967024
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5541": {
+   "id": 5541,
+   "name": "Munitions pour Rumbleshot",
+   "objectives": "Apporter les Munitions de Rumbleshot à Hegnar Rumbleshot à Dun Morogh.",
+   "description": "Hegnar Grondetrait vend des armes à feu sur la route de Courbenclume. Les fusiliers et les équipes de mortier passent beaucoup de temps à s'entraîner près de son magasin et il a toujours besoin de munitions fraîches.\n\nMais... d'après mon messager, la dernière caisse de munitions que je lui ai envoyée s'est perdue quand il a été chassé de son camp, près de l'antre Gris par des wendigos... L'imbécile a laissé les munitions de Grondetrait derrière lui !\n\n<nom>, pouvez-vous les retrouver et les apporter à Grondetrait ? Il les attend et je suis sûr que ses stocks seront bientôt épuisés.",
+   "progress": "J'espère que vous n'êtes pas là pour avoir des munitions, parce que nous en sommes presque à court !",
+   "completion": "Parfait, plus de munitions ! La cargaison du vieux Loslor est finalement passée ! Les munitions peuvent avoir du retard, mais comme disait mon grand-père : mieux vaut tard que jamais !\n\nMerci beaucoup, <nom>. J'ai déjà des acheteurs pour cette cargaison !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1694,
+     "name": "Loslor Rudge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1243,
+     "name": "Hegnar Rumbleshot"
+    }
+   ],
+   "zone_id": 1,
+   "level": 6,
+   "reqlevel": 5,
+   "side": "alliance",
+   "xp": 540,
+   "money": 125,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:12"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Parfait, plus de munitions ! La cargaison du vieux Loslor est finalement passée ! Les munitions peuvent avoir du retard, mais comme disait mon grand-père : mieux vaut tard que jamais !\n\nMerci beaucoup, <nom>. J'ai déjà des acheteurs pour cette cargaison !"
+     },
+     "npc": 1243,
+     "npc_name": "Hegnar Rumbleshot",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794032573,
+     "last_seen": 1794032573
+    },
+    "detail": {
+     "texts": {
+      "description": "Hegnar Grondetrait vend des armes à feu sur la route de Courbenclume. Les fusiliers et les équipes de mortier passent beaucoup de temps à s'entraîner près de son magasin et il a toujours besoin de munitions fraîches.\n\nMais... d'après mon messager, la dernière caisse de munitions que je lui ai envoyée s'est perdue quand il a été chassé de son camp, près de l'antre Gris par des wendigos... L'imbécile a laissé les munitions de Grondetrait derrière lui !\n\n<nom>, pouvez-vous les retrouver et les apporter à Grondetrait ? Il les attend et je suis sûr que ses stocks seront bientôt épuisés.",
+      "objectives": "Apporter les Munitions de Rumbleshot à Hegnar Rumbleshot à Dun Morogh.",
+      "name": "Munitions pour Rumbleshot"
+     },
+     "npc": 1694,
+     "npc_name": "Loslor Rudge",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793968814,
+     "last_seen": 1793968814
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5841": {
+   "id": 5841,
+   "name": "Bienvenue !",
+   "objectives": "Apporter le Bon-cadeau (Vallée des Frigères) à Yori Crackhelm.",
+   "description": "Bienvenue dans le monde de World of Warcraft !\n\nPour vous remercier d'avoir acheté l'édition collector de World of Warcraft, allez voir Yori Crackhelm dans la Vallée des Frigères avec ce bon. Il vous offrira un petit compagnon qui vous accompagnera dans vos quêtes d'aventure et de gloire.\n\nMerci encore et profitez bien de votre séjour dans World of Warcraft !",
+   "progress": "Bonjour ! Quel plaisir de vous rencontrer !\n\nJe vois que vous avez un bon spécial. Donnez-le-moi et je vous donnerai quelque chose en échange.",
+   "completion": "Vous êtes un héros d'exception, <nom>. Bienvenue dans le monde d'Azeroth, nous vous offrons l'un de ces présents uniques !",
+   "starters": [
+    {
+     "type": "item",
+     "id": 14647,
+     "name": "Coldridge Valley Gift Voucher"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11941,
+     "name": "Yori Crackhelm"
+    }
+   ],
+   "zone_id": 1,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "unchanged",
+    "patch": "1.13.2.30406"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:15"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "95041": {
+   "id": 95041,
+   "name": "Amasseurs de données",
+   "objectives": "Récupérez 7 cartes de données des archives de Gnomeregan aux alentours de Gnomeregan, puis rapportez-les à Jemma Coupecircuit à Forgefer.",
+   "description": "Avant notre fuite de Gnomeregan, j’ai effectué une copie sur papier des archives de ma famille. Équations de champ arcanotechnologiques, plans de coques de submersible de la Deuxième guerre, la recette du chili de Grand-maman Coupecircuit… ces fichiers contiennent nos plus grandes réussites.\n\nJe ne me suis pas aperçue que mon sac avait un trou avant notre arrivée à Forgefer ! Plusieurs cartes perforées ont disparu et, sans elles, les données sont trop embrouillées pour être récupérables.\n\nCes cartes doivent être enfouies dans la neige quelque par à l’extérieur de Gnomeregan. Pourriez-vous les retrouver ? Je sais que la tâche ne sera pas facile…",
+   "progress": "Comment progressent vos recherches ?",
+   "completion": "Ces cartes m’ont l’air un peu humides… mais je devrais pouvoir les utiliser ! Merci, Sylvain !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11028,
+     "name": "Jemma Quikswitch"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11028,
+     "name": "Jemma Quikswitch"
+    }
+   ],
+   "zone_id": 1,
+   "level": 10,
+   "reqlevel": 7,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:17"
+   },
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Avant notre fuite de Gnomeregan, j’ai effectué une copie sur papier des archives de ma famille. Équations de champ arcanotechnologiques, plans de coques de submersible de la Deuxième guerre, la recette du chili de Grand-maman Coupecircuit… ces fichiers contiennent nos plus grandes réussites.\r\n\r\nJe ne me suis pas aperçue que mon sac avait un trou avant notre arrivée à Forgefer ! Plusieurs cartes perforées ont disparu et, sans elles, les données sont trop embrouillées pour être récupérables.\r\n\r\nCes cartes doivent être enfouies dans la neige quelque par à l’extérieur de Gnomeregan. Pourriez-vous les retrouver ? Je sais que la tâche ne sera pas facile…",
+      "objectives": "Récupérez 7 cartes de données des archives de Gnomeregan aux alentours de Gnomeregan, puis rapportez-les à Jemma Coupecircuit à Forgefer.",
+      "name": "Amasseurs de données"
+     },
+     "npc": 11028,
+     "npc_name": "Jemma Quikswitch",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 3,
+     "zone": "Forgefer",
+     "map_id": 1455,
+     "client": "1.60.1.70862",
+     "first_seen": 1794042082,
+     "last_seen": 1794042082
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "95212": {
+   "id": 95212,
+   "name": "Il ne faut jamais s’asseoir sur la qualité",
+   "objectives": "Récupérez 6 fourrures de léopard en parfait état et rapportez-les à la ferme des Distillambre.",
+   "description": "Nous nous apprêtons à envoyer une escouade de béliers pour renforcer l’expédition d’Alterac, mais nous sommes à court de matériaux pour confectionner leurs selles.\n\nRécupérez des peaux sur les léopards les plus imposants et les plus féroces qui vivent à l’est, et rapportez-les-moi. Il fait un froid glacial là-bas et nos forces méritent ce qui se fait de mieux en termes de peaux pour leur tenir chaud !",
+   "progress": "Vous avez l’air transi, <classe>. Comment va la chasse ?",
+   "completion": "Ces peaux feront d’excellentes selles. L’Alliance est fière de vous, <classe> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1265,
+     "name": "Rudra Amberstill"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1265,
+     "name": "Rudra Amberstill"
+    }
+   ],
+   "zone_id": 1,
+   "level": 10,
+   "reqlevel": 7,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:19"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "95213": {
+   "id": 95213,
+   "name": "Poudre explosive volée",
+   "objectives": "Rapportez le baril de poudre vide au responsable Thesten à la carrière de Gol’Bolar.",
+   "description": "Une inscription est tamponnée sur le baril :\n\nPOUDRE EXPLOSIVE — DANGER — NE PAS MANIPULER — DANGER — AUTORISATION DU RESPONSABLE DE LA CARRIÈRE NÉCESSAIRE — DANGER\n\nUn sentiment d’angoisse vous prend lorsque vous réalisez que les Troggs ne devraient pas avoir ce genre de choses entre les mains. Mieux vaudrait signaler ce problème à la carrière le plus tôt possible.",
+   "progress": "Qu’avez-vous donc là ?",
+   "completion": "<Le <race> pâlit lorsqu’il aperçoit le baril.>\n\nOù avez-vous trouvé ça ?",
+   "starters": [
+    {
+     "type": "item",
+     "id": 268548,
+     "name": "Empty Powder Keg"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1256,
+     "name": "Responsable Thesten"
+    }
+   ],
+   "zone_id": 1,
+   "level": 10,
+   "reqlevel": 7,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:22"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "<Le Nain pâlit lorsqu’il aperçoit le baril.>\r\n\r\nOù avez-vous trouvé ça ?"
+     },
+     "npc": 1256,
+     "npc_name": "Responsable Thesten",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794039847,
+     "last_seen": 1794039847
+    },
+    "detail": {
+     "texts": {
+      "description": "Une inscription est tamponnée sur le baril :\r\n\r\nPOUDRE EXPLOSIVE — DANGER — NE PAS MANIPULER — DANGER — AUTORISATION DU RESPONSABLE DE LA CARRIÈRE NÉCESSAIRE — DANGER\r\n\r\nUn sentiment d’angoisse vous prend lorsque vous réalisez que les Troggs ne devraient pas avoir ce genre de choses entre les mains. Mieux vaudrait signaler ce problème à la carrière le plus tôt possible.",
+      "objectives": "Rapportez le baril de poudre vide au responsable Thesten à la carrière de Gol’Bolar.",
+      "name": "Poudre explosive volée"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": null,
+     "npc_sex": null,
+     "player_sex": 3,
+     "zone": "Mine de la carrière de Gol’Bolar",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794039503,
+     "last_seen": 1794039503
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "95214": {
+   "id": 95214,
+   "name": "Poudre explosive volée",
+   "objectives": "Récupérez 16 $oltas de poudre explosive volé:tas de poudre explosive volés;  sur les Troggs à l’est de la carrière de Gol’Bolar, puis retournez voir le responsable Thesten.",
+   "description": "Le baril contenait suffisamment de poudre pour transformer la salle du trône du roi Magni en cour ouverte. Nous devons le reprendre des mains des Troggs avant qu’ils ne comprennent comment l’allumer.",
+   "progress": "J’espère que vous avez de bonnes nouvelles pour moi ?",
+   "completion": "Nous devrions avoir récupéré toute la poudre volée maintenant. Merci, <classe>.\n\nVeuillez accepter cette récompense et… j’apprécierais que vous ne mentionniez aucunement ce petit incident à qui que ce soit.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1256,
+     "name": "Responsable Thesten"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1256,
+     "name": "Responsable Thesten"
+    }
+   ],
+   "zone_id": 1,
+   "level": 10,
+   "reqlevel": 7,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:24"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Nous devrions avoir récupéré toute la poudre volée maintenant. Merci, <classe>.\r\n\r\nVeuillez accepter cette récompense et… j’apprécierais que vous ne mentionniez aucunement ce petit incident à qui que ce soit."
+     },
+     "npc": 1256,
+     "npc_name": "Responsable Thesten",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794041175,
+     "last_seen": 1794041175
+    },
+    "detail": {
+     "texts": {
+      "description": "Le baril contenait suffisamment de poudre pour transformer la salle du trône du roi Magni en cour ouverte. Nous devons le reprendre des mains des Troggs avant qu’ils ne comprennent comment l’allumer.",
+      "objectives": "Récupérez 16 tas de poudre explosive volés sur les Troggs à l’est de la carrière de Gol’Bolar, puis retournez voir le responsable Thesten.",
+      "name": "Poudre explosive volée"
+     },
+     "npc": 1256,
+     "npc_name": "Responsable Thesten",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794039848,
+     "last_seen": 1794039848
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "95217": {
+   "id": 95217,
+   "name": "Le forgeron de la carrière",
+   "objectives": "Récupérez 12 barres de cuivre et 4 peaux de sanglier cuirassées, puis apportez-les à Frast Dokner.",
+   "description": "Ainsi vous cherchez à apprendre l’art de la forge ? Nous pourrons peut-être nous aider mutuellement.\n\nLa cargaison de matériaux est en retard et j’ai besoin de ces derniers pour effectuer des réparations un peu partout dans le campement. Si vous m’apportez ce dont j’ai besoin, je vous enseignerai certaines de mes techniques. Ça vous va ?",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1698,
+     "name": "Frast Dokner"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1698,
+     "name": "Frast Dokner"
+    }
+   ],
+   "zone_id": 1,
+   "level": 10,
+   "reqlevel": 7,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:27"
+   },
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "96390": {
+   "id": 96390,
+   "name": "Étouffer le mal dans l’œuf",
+   "objectives": "Tuez 10 espions sombrefer à Dun Morogh.",
+   "description": "Des espions sombrefer ont infiltré Dun Morogh. Dans quel but, je ne saurais le dire, mais voilà un problème qu’il nous faut étouffer dans l’œuf avant qu’il ne prenne de l’ampleur.\n\nFilez vers l’est, jusqu’à la base de Baguefer, et tuez les espions sombrefer que vous y trouverez.",
+   "progress": null,
+   "completion": "Ces Sombrefer ont beau être nos cousins, ils ne sont pas de la famille, ça, c’est une certitude. Le malheur de ceux qui s’éloignent trop de leur montagne maudite ne m’arrachera pas une larme.\n\nAvec un peu de chance, ça leur ôtera l’envie de pousser plus avant leurs incursions sur ces terres.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 264936,
+     "name": "Earthseer Farsen"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 264936,
+     "name": "Earthseer Farsen"
+    }
+   ],
+   "zone_id": 1,
+   "level": 13,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:29"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ces Sombrefer ont beau être nos cousins, ils ne sont pas de la famille, ça, c’est une certitude. Le malheur de ceux qui s’éloignent trop de leur montagne maudite ne m’arrachera pas une larme.\r\n\r\nAvec un peu de chance, ça leur ôtera l’envie de pousser plus avant leurs incursions sur ces terres."
+     },
+     "npc": 264936,
+     "npc_name": "Terre-voyant Farsen",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794040634,
+     "last_seen": 1794040634
+    },
+    "detail": {
+     "texts": {
+      "description": "Des espions sombrefer ont infiltré Dun Morogh. Dans quel but, je ne saurais le dire, mais voilà un problème qu’il nous faut étouffer dans l’œuf avant qu’il ne prenne de l’ampleur.\r\n\r\nFilez vers l’est, jusqu’à la base de Baguefer, et tuez les espions sombrefer que vous y trouverez.",
+      "objectives": "Tuez 10 espions sombrefer à Dun Morogh.",
+      "name": "Étouffer le mal dans l’œuf"
+     },
+     "npc": 264936,
+     "npc_name": "Terre-voyant Farsen",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794038965,
+     "last_seen": 1794038965
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "96391": {
+   "id": 96391,
+   "name": "La carte souterraine",
+   "objectives": "Remettez la carte sombrefer au terre-voyant Farsen, à Dun Morogh.",
+   "description": "<La carte que vous tenez semble représenter un réseau complexe de galeries et de tunnels, qui paraissent tous converger vers un point situé sous Forgefer même.\n\nImpossible de dire ce qu’indiquent les runes, car elles sont tracées dans l’écriture runique, laide et anguleuse, des Nains sombrefer, mais la finalité de ces tunnels se devine aisément. Tandis que vous étudiez la carte, une bourrasque vous enveloppe et vous croyez y percevoir, ténue, la voix d’un Nain. Le terre-voyant Farsen doit voir ceci.>",
+   "progress": "Oh, qu’avons-nous là ?",
+   "completion": "À en juger par cette carte, tout porte à croire que les Sombrefer préparent une sorte d’incursion dans les tunnels qui s’étendent sous Forgefer. La bande que vous avez taillée en pièces à l’est ne devait être qu’une force de reconnaissance.\n\nMerci de m’avoir apporté ceci. Si nous faisons vite, nous pourrons peut-être les devancer, quel que soit leur objectif là-dessous.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 274268,
+     "name": "Dark Iron Map"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 264936,
+     "name": "Earthseer Farsen"
+    }
+   ],
+   "zone_id": 1,
+   "level": 15,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:32"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "D’après cette carte, il semble que des Sombrefer préparent une sorte d’incursion dans les coffres situés sous Forgefer. Le groupe que vous avez intercepté à l’est devait être une troupe d’éclaireurs.\r\n\r\nMerci de m’avoir apporté ça. Si on se dépêche, on devrait pouvoir les devancer et les empêcher de mener leur plan à bien, quel qu’il soit."
+     },
+     "npc": 264936,
+     "npc_name": "Terre-voyant Farsen",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794040636,
+     "last_seen": 1794040636
+    },
+    "detail": {
+     "texts": {
+      "description": "La carte que vous tenez semble représenter un réseau complexe de galeries et de tunnels, qui paraissent tous converger vers un point situé sous Forgefer même.\r\n\r\nImpossible de dire ce qu’indiquent les runes, car elles sont tracées dans l’écriture runique, laide et anguleuse, des Nains sombrefer, mais la finalité de ces tunnels se devine aisément. Tandis que vous étudiez la carte, une bourrasque vous enveloppe et vous croyez y percevoir, ténue, la voix d’un Nain. Le terre-voyant Farsen doit voir ceci.",
+      "objectives": "Remettez la carte sombrefer au terre-voyant Farsen, à Dun Morogh.",
+      "name": "La carte souterraine"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": null,
+     "npc_sex": null,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794040239,
+     "last_seen": 1794040239
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "96392": {
+   "id": 96392,
+   "name": "Le guet de Farsen",
+   "objectives": "Parlez au terre-voyant Farsen et demandez-lui de vous prêter sa double vue pour observer la menace des Sombrefer.",
+   "description": "Bien le bonjour, l’<ami/amie>. Je me nomme Farsen, le Terre-voyant, et je suis venu du Nid-de-l’Aigle visiter Dun Morogh. En chemin, je n’ai pas pu m’empêcher de remarquer que nous avons, eh bien… un petit souci avec les Nains sombrefer.\n\nSi vous avez un moment, je peux vous montrer ce que je veux dire. J’ai un brin de magie qui devrait faire l’affaire.",
+   "progress": null,
+   "completion": "Alors, vous voyez, maintenant, <classe> ? Ils grouillent comme des cafards, et encore, ce ne sont que ceux qu’on aperçoit depuis les airs.\n\nVous m’avez l’air de quelqu’un de robuste. Que diriez-vous d’un peu de grabuge ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 264936,
+     "name": "Earthseer Farsen"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 264936,
+     "name": "Earthseer Farsen"
+    }
+   ],
+   "zone_id": 1,
+   "level": 13,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [
+    "ami/amie"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:35"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Alors, vous voyez, maintenant, <classe> ? Ils grouillent comme des cafards, et encore, ce ne sont que ceux qu’on aperçoit depuis les airs.\r\n\r\nVous m’avez l’air de quelqu’un de robuste. Que diriez-vous d’un peu de grabuge ?"
+     },
+     "npc": 264936,
+     "npc_name": "Terre-voyant Farsen",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794038964,
+     "last_seen": 1794038964
+    },
+    "detail": {
+     "texts": {
+      "description": "Bien le bonjour, l’amie. Je me nomme Farsen, le Terre-voyant, et je suis venu du Nid-de-l’Aigle visiter Dun Morogh. En chemin, je n’ai pas pu m’empêcher de remarquer que nous avons, eh bien… un petit souci avec les Nains sombrefer.\r\n\r\nSi vous avez un moment, je peux vous montrer ce que je veux dire. J’ai un brin de magie qui devrait faire l’affaire.",
+      "objectives": "Parlez au terre-voyant Farsen et demandez-lui de vous prêter sa double vue pour observer la menace des Sombrefer.",
+      "name": "Le guet de Farsen"
+     },
+     "npc": 264936,
+     "npc_name": "Terre-voyant Farsen",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794038921,
+     "last_seen": 1794038921
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "96408": {
+   "id": 96408,
+   "name": "Une visite à Dun Morogh",
+   "objectives": "Inspectez le campement qui domine la carrière de Gol’Bolar.",
+   "description": "La nuit dernière, l’un de nos montagnards a repéré un feu de camp à flanc de colline, à l’est. Il semble se trouver assez haut et dominer la carrière de Gol’Bolar.\n\nCe n’est sans doute rien, mais j’aimerais que vous alliez jeter un œil à ce campement. S’il s’agit d’alliés, aucun problème. Et dans le cas contraire… eh bien, vous savez ce qu’il vous reste à faire.",
+   "progress": null,
+   "completion": "Salutations, l’ami. Comment allez-vous ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1376,
+     "name": "Beldin Steelgrill"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 264936,
+     "name": "Earthseer Farsen"
+    }
+   ],
+   "zone_id": 1,
+   "level": 13,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69913"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:37"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Salutations, l’amie. Comment allez-vous ?"
+     },
+     "npc": 264936,
+     "npc_name": "Terre-voyant Farsen",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794038919,
+     "last_seen": 1794038919
+    },
+    "detail": {
+     "texts": {
+      "description": "La nuit dernière, l’un de nos montagnards a repéré un feu de camp à flanc de colline, à l’est. Il semble se trouver assez haut et dominer la carrière de Gol’Bolar.\r\n\r\nCe n’est sans doute rien, mais j’aimerais que vous alliez jeter un œil à ce campement. S’il s’agit d’alliés, aucun problème. Et dans le cas contraire… eh bien, vous savez ce qu’il vous reste à faire.",
+      "objectives": "Inspectez le campement qui domine la carrière de Gol’Bolar.",
+      "name": "Une visite à Dun Morogh"
+     },
+     "npc": 1376,
+     "npc_name": "Beldin Steelgrill",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794035470,
+     "last_seen": 1794035470
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98319": {
+   "id": 98319,
+   "name": "Sécuriser la montagne",
+   "objectives": "Trouvez le montagnard Cornélius dans l’antre Gris pour la montagnarde Gretchen.",
+   "description": "On a déjà assez de problèmes avec les Trolls, mais en plus de ça, les montagnes grouillent de wendigos ! D’habitude, ils restent sagement dans leurs grottes, mais j’ai l’impression qu’ils se multiplient comme des lapins. Ils ont envahi l’antre Gris, au nord d’ici.\n\nSi on veut aider Blanchebarbe à rédiger son rapport, il va falloir trouver mon partenaire, Cornélius. Cet imbécile s’est un peu trop emballé et a foncé dans le tas tête baissée. Courageux, mais stupide.\n\nEntrez dans la grotte et retrouvez-le. Et n’hésitez pas à éliminer quelques-unes de ces bestioles tant que vous y êtes.",
+   "progress": null,
+   "completion": "Bon sang, quel imbécile…\n\nMerci pour votre aide, Taeyls. On a eu notre rapport, finalement.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 271546,
+     "name": "Mountaineer Gretchen"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 271546,
+     "name": "Mountaineer Gretchen"
+    }
+   ],
+   "zone_id": 1,
+   "level": 8,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:39"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Bon sang, quel imbécile…\r\n\r\nMerci pour votre aide, <nom>. On a eu notre rapport, finalement."
+     },
+     "npc": 271546,
+     "npc_name": "Montagnarde Gretchen",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794029710,
+     "last_seen": 1794029710
+    },
+    "detail": {
+     "texts": {
+      "description": "On a déjà assez de problèmes avec les Trolls, mais en plus de ça, les montagnes grouillent de wendigos ! D’habitude, ils restent sagement dans leurs grottes, mais j’ai l’impression qu’ils se multiplient comme des lapins. Ils ont envahi l’antre Gris, au nord d’ici.\r\n\r\nSi on veut aider Blanchebarbe à rédiger son rapport, il va falloir trouver mon partenaire, Cornélius. Cet imbécile s’est un peu trop emballé et a foncé dans le tas tête baissée. Courageux, mais stupide.\r\n\r\nEntrez dans la grotte et retrouvez-le. Et n’hésitez pas à éliminer quelques-unes de ces bestioles tant que vous y êtes.",
+      "objectives": "Trouvez le montagnard Cornélius dans l’antre Gris pour la montagnarde Gretchen.",
+      "name": "Sécuriser la montagne"
+     },
+     "npc": 271546,
+     "npc_name": "Montagnarde Gretchen",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793968559,
+     "last_seen": 1793968559
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98321": {
+   "id": 98321,
+   "name": "Cargaison de Flammesilex",
+   "objectives": "Récupérez 8 cargaisons de Flammesilex à l’antre Gris pour Tongus Flammesilex, à Kharanos.",
+   "description": "Ho ho ! Ça fait plaisir de voir <un/une> <race> qui n’a pas peur de se salir les mains.\n\nSi vous cherchez du travail, j’ai bien peur d’être un peu à court de matériaux en ce moment. Notre source de minerai la plus fiable a été envahie par des wendigos, et la grotte a dû être abandonnée. Les mineurs ont été contraints de tout laisser derrière eux en prenant la fuite !\n\nDites donc, pourquoi n’iriez-vous pas jeter un œil dans l’antre Gris, à l’ouest, pour voir si vous pouvez retrouver une partie de nos cargaisons disparues ? Vous nous rendriez un fier service.",
+   "progress": "Les wendigos sont de sacrées vermines. Heureusement que tous les mineurs ont réussi à sortir sains et saufs de l’antre Gris !",
+   "completion": "Ah, voilà qui est mieux ! Avec ces cargaisons, la forge sera de nouveau opérationnelle en un rien de temps !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1241,
+     "name": "Tognus Flintfire"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1241,
+     "name": "Tognus Flintfire"
+    }
+   ],
+   "zone_id": 1,
+   "level": 7,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [
+    "race",
+    "un/une"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:42"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah, voilà qui est mieux ! Avec ces cargaisons, la forge sera de nouveau opérationnelle en un rien de temps !"
+     },
+     "npc": 1241,
+     "npc_name": "Tognus Flintfire",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794029795,
+     "last_seen": 1794029795
+    },
+    "detail": {
+     "texts": {
+      "description": "Ho ho ! Ça fait plaisir de voir une nain qui n’a pas peur de se salir les mains.\r\n\r\nSi vous cherchez du travail, j’ai bien peur d’être un peu à court de matériaux en ce moment. Notre source de minerai la plus fiable a été envahie par des wendigos, et la grotte a dû être abandonnée. Les mineurs ont été contraints de tout laisser derrière eux en prenant la fuite !\r\n\r\nDites donc, pourquoi n’iriez-vous pas jeter un œil dans l’antre Gris, à l’ouest, pour voir si vous pouvez retrouver une partie de nos cargaisons disparues ? Vous nous rendriez un fier service.",
+      "objectives": "Récupérez 8 cargaisons de Flammesilex à l’antre Gris pour Tongus Flammesilex, à Kharanos.",
+      "name": "Cargaison de Flammesilex"
+     },
+     "npc": 1241,
+     "npc_name": "Tognus Flintfire",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793968487,
+     "last_seen": 1793968487
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98322": {
+   "id": 98322,
+   "name": "Sécuriser la montagne",
+   "objectives": "Allez voir la montagnarde Gretchen à l’ouest de Kharanos.",
+   "description": "L’exploration des grottes obscures, c’est l’affaire des aventuriers. Moi, mon travail, c’est de rédiger des rapports et de les envoyer à Forgefer, c’est tout.\n\nLe seul problème, c’est que l’un de mes rapports n’a pas été… eh bien, renvoyé. J’ai demandé à quelques montagnards d’en apprendre plus sur notre problème de wendigos, mais je n’ai pas eu de nouvelles depuis.\n\nPuisque vous êtes déjà en chemin, pourriez-vous aller voir la montagnarde Gretchen, à l’ouest de la ville ? Je suis déjà bien assez en retard comme ça !",
+   "progress": null,
+   "completion": "C’est le vieux Blanchebarbe qui vous envoie, hein ?\n\nOuais, j’ai eu son rapport. Cette histoire, c’est un vrai bazar !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1252,
+     "name": "Senir Whitebeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 271546,
+     "name": "Mountaineer Gretchen"
+    }
+   ],
+   "zone_id": 1,
+   "level": 8,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69913"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:44"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "C’est le vieux Blanchebarbe qui vous envoie, hein ?\r\n\r\nOuais, j’ai eu son rapport. Cette histoire, c’est un vrai bazar !"
+     },
+     "npc": 271546,
+     "npc_name": "Montagnarde Gretchen",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793968558,
+     "last_seen": 1793968558
+    },
+    "detail": {
+     "texts": {
+      "description": "L’exploration des grottes obscures, c’est l’affaire des aventuriers. Moi, mon travail, c’est de rédiger des rapports et de les envoyer à Forgefer, c’est tout.\r\n\r\nLe seul problème, c’est que l’un de mes rapports n’a pas été… eh bien, rendu. J’ai demandé à quelques montagnards d’en apprendre plus sur notre problème de wendigos, mais je n’ai pas eu de nouvelles depuis.\r\n\r\nPuisque vous êtes déjà en chemin, pourriez-vous aller voir la montagnarde Gretchen, à l’ouest de la ville ? Je suis déjà bien assez en retard comme ça !",
+      "objectives": "Allez voir la montagnarde Gretchen à l’ouest de Kharanos.",
+      "name": "Sécuriser la montagne"
+     },
+     "npc": 1252,
+     "npc_name": "Senir Whitebeard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793968271,
+     "last_seen": 1793968271
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98323": {
+   "id": 98323,
+   "name": "Sécuriser la montagne",
+   "objectives": "Apportez le rapport de la montagnarde Gretchen à Senir Blanchebarbe, à Kharanos.",
+   "description": "J’espère que vous avez éliminé le plus de vermines possible pendant que vous étiez là-dedans. C’est dommage pour Cornélius.\n\nD’après ce que vous m’avez dit, il n’y a pas grand-chose à signaler, à part que cette grotte est une cause perdue. Blanchebarbe ne va pas aimer cette réponse, mais je n’enverrai personne d’autre dans ce piège mortel.\n\nN’hésitez pas à transmettre le message, <nom>. Je ne quitterai pas cet endroit tant que la montagne ne sera pas sécurisée !",
+   "progress": "Ah, pile à l’heure.\n\nQue se passe-t-il, mon grand ? On dirait que vous avez vu un fantôme.",
+   "completion": "Complètement infestée ? Boh, ça ne me surprend pas.\n\nEh bien, ça aussi, ça va intégrer le rapport.\n\n<Senir plie la lettre de Gretchen et la dépose dans son tas de notes.>",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 271546,
+     "name": "Mountaineer Gretchen"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1252,
+     "name": "Senir Whitebeard"
+    }
+   ],
+   "zone_id": 1,
+   "level": 8,
+   "reqlevel": 4,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:47"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Complètement infestée ? Boh, ça ne me surprend pas.\r\n\r\nEh bien, ça aussi, ça va intégrer le rapport.\r\n\r\n<Senir plie la lettre de Gretchen et la dépose dans son tas de notes.>"
+     },
+     "npc": 1252,
+     "npc_name": "Senir Whitebeard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794029775,
+     "last_seen": 1794029775
+    },
+    "detail": {
+     "texts": {
+      "description": "J’espère que vous avez éliminé le plus de vermines possible pendant que vous étiez là-dedans. C’est dommage pour Cornélius.\r\n\r\nD’après ce que vous m’avez dit, il n’y a pas grand-chose à signaler, à part que cette grotte est une cause perdue. Blanchebarbe ne va pas aimer cette réponse, mais je n’enverrai personne d’autre dans ce piège mortel.\r\n\r\nN’hésitez pas à transmettre le message, <nom>. Je ne quitterai pas cet endroit tant que la montagne ne sera pas sécurisée !",
+      "objectives": "Apportez le rapport de la montagnarde Gretchen à Senir Blanchebarbe, à Kharanos.",
+      "name": "Sécuriser la montagne"
+     },
+     "npc": 271546,
+     "npc_name": "Montagnarde Gretchen",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794029710,
+     "last_seen": 1794029710
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98326": {
+   "id": 98326,
+   "name": "Hurlegivre",
+   "objectives": "Éliminez Hurlegivre et récupérez le sac de poissons de Gretta Ganter, à Brassetout.",
+   "description": "Vous savez à quel point il est difficile de pêcher dans un lac gelé ? Ça fait des jours que mon pauvre mari, Paxton, est resté ici inlassablement, et on n’a pas la moindre prise !\n\nEnfin, nous avions des prises… jusqu’à ce que ce maudit wendigo m’attaque et s’enfuie avec. Il nous faudra des semaines pour tout repêcher à nouveau ! Enfin, seulement si ce braillard de Hurlegivre ne les a pas tous fait fuir, bien sûr.\n\nVous pourriez nous rendre service et récupérer notre sac de prises ? Cette brute baveuse doit être au fond de l’antre Gris, au sud-est.",
+   "progress": "Le ciel s’abattra sur Dun Morogh avant que je ne dise à Paxton qu’un wendigo a dérobé tous nos poissons !",
+   "completion": "Vous nous sauvez la vie, Taeylss !\n\nMon mari en aurait rigolé, mais je n’aurais pas supporté de lui annoncer qu’il devrait passer une nuit de plus sur le lac. Nous allons enfin pouvoir profiter d’un vrai festin, maintenant.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8508,
+     "name": "Gretta Ganter"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8508,
+     "name": "Gretta Ganter"
+    }
+   ],
+   "zone_id": 1,
+   "level": 9,
+   "reqlevel": 5,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:49"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vous nous sauvez la vie, <nom> !\r\n\r\nMon mari en aurait rigolé, mais je n’aurais pas supporté de lui annoncer qu’il devrait passer une nuit de plus sur le lac. Nous allons enfin pouvoir profiter d’un vrai festin, maintenant."
+     },
+     "npc": 8508,
+     "npc_name": "Gretta Ganter",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794033794,
+     "last_seen": 1794033794
+    },
+    "detail": {
+     "texts": {
+      "description": "Vous savez à quel point il est difficile de pêcher dans un lac gelé ? Ça fait des jours que mon pauvre mari, Paxton, est resté ici inlassablement, et on n’a pas la moindre prise !\r\n\r\nEnfin, nous avions des prises… jusqu’à ce que ce maudit wendigo m’attaque et s’enfuie avec. Il nous faudra des semaines pour tout repêcher à nouveau ! Enfin, seulement si ce braillard de Hurlegivre ne les a pas tous fait fuir, bien sûr.\r\n\r\nVous pourriez nous rendre service et récupérer notre sac de prises ? Cette brute baveuse doit être au fond de l’antre Gris, au sud-est.",
+      "objectives": "Éliminez Hurlegivre et récupérez le sac de poissons de Gretta Ganter, à Brassetout.",
+      "name": "Hurlegivre"
+     },
+     "npc": 8508,
+     "npc_name": "Gretta Ganter",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794031804,
+     "last_seen": 1794031804
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98423": {
+   "id": 98423,
+   "name": "Le traité d’entente",
+   "objectives": "Remettez le traité de l’entente à Magni Barbe-de-Bronze, à Forgefer.",
+   "description": "<À l’intérieur de la chambre forte, vous découvrez une tablette détaillant les termes d’un traité de paix entre les clans nains Barbe-de-Bronze et Marteau-Hardi. Elle semble remonter à la période qui suivit de peu la guerre des Trois marteaux et représente très probablement une pièce marquante de l’histoire des Nains. Le roi de Forgefer porterait sans nul doute de l’intérêt à cet artéfact.>",
+   "progress": "Que rapportez-vous des profondeurs, <classe> ?",
+   "completion": "Ah oui, mon ancêtre Madoran fut le premier roi Barbe-de-Bronze de Forgefer au lendemain de la grande guerre civile qui opposa les clans Marteau-Hardi, Barbe-de-Bronze et Sombrefer. Ce traité fut rédigé pour entériner la fin des hostilités et les conditions de la paix, une fois la montagne conquise par les Barbe-de-Bronze.\n\nComme vous pouvez le constater, les Marteaux-Hardis et les Barbe-de-Bronze l’ont signé… mais pas les Sombrefer.\n\nMerci de l’avoir retrouvé et de me l’avoir apporté, <classe>.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 281030,
+     "name": "Treaty of Understanding"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2784,
+     "name": "Roi Magni Bronzebeard"
+    }
+   ],
+   "zone_id": 1,
+   "level": 16,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:52"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah oui, mon ancêtre Madoran fut le premier roi Barbe-de-Bronze de Forgefer au lendemain de la grande guerre civile qui opposa les clans Marteau-Hardi, Barbe-de-Bronze et Sombrefer. Ce traité fut rédigé pour entériner la fin des hostilités et les conditions de la paix, une fois la montagne conquise par les Barbe-de-Bronze.\r\n\r\nComme vous pouvez le constater, les Marteaux-Hardis et les Barbe-de-Bronze l’ont signé… mais pas les Sombrefer.\r\n\r\nMerci de l’avoir retrouvé et de me l’avoir apporté, <classe>."
+     },
+     "npc": 2784,
+     "npc_name": "Roi Magni Bronzebeard",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forgefer",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794086312,
+     "last_seen": 1794086312
+    },
+    "detail": {
+     "texts": {
+      "description": "<À l’intérieur de la chambre forte, vous découvrez une tablette détaillant les termes d’un traité de paix entre les clans nains Barbe-de-Bronze et Marteau-Hardi. Elle semble remonter à la période qui suivit de peu la guerre des Trois marteaux et représente très probablement une pièce marquante de l’histoire des Nains. Le roi de Forgefer porterait sans nul doute de l’intérêt à cet artéfact.>",
+      "objectives": "Remettez le traité de l’entente à Magni Barbe-de-Bronze, à Forgefer.",
+      "name": "Le traité d’entente"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": null,
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "La salle des Thanes",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794085788,
+     "last_seen": 1794085788
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "progress": "wowhead",
+     "completion": "wowhead"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "99158": {
+   "id": 99158,
+   "name": "Aube sur les montagnes",
+   "objectives": "Apportez la caisse de bougies au père Gavin.",
+   "description": "Dans la montagne, il y a un prêtre qui appartient à une organisation appelée l’Aube d’argent, un groupe religieux dont la mission est de trouver et d’éradiquer toute présence impie et contre nature.\n\nLe père Gavin, lui, préfère apporter de l’aide et des soins autour de lui plutôt que de brandir une arme. Il a réparé un vieux bâtiment et l’a transformé en abri pour les gens de passage. J’ai une caisse de bougies sacrées pour lui. Si vous allez dans cette direction, pourriez-vous la lui apporter ?",
+   "progress": null,
+   "completion": "Ah, des bougies de Forgefer.\r\n\r\nMa vie d’ermite me satisfait, mais je reconnais que j’apprécie recevoir certains objets de la part des dévots et des gens de la ville.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1226,
+     "name": "Maxan Anvol"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1253,
+     "name": "Père Gavin"
+    }
+   ],
+   "zone_id": 1,
+   "level": 8,
+   "reqlevel": 5,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:54"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah, des bougies de Forgefer.\r\n\r\nMa vie d’ermite me satisfait, mais je reconnais que j’apprécie recevoir certains objets de la part des dévots et des gens de la ville."
+     },
+     "npc": 1253,
+     "npc_name": "Père Gavin",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794035539,
+     "last_seen": 1794035539
+    },
+    "detail": {
+     "texts": {
+      "description": "Dans la montagne, il y a un prêtre qui appartient à une organisation appelée l’Aube d’argent, un groupe religieux dont la mission est de trouver et d’éradiquer toute présence impie et contre nature.\r\n\r\nLe père Gavin, lui, préfère apporter de l’aide et des soins autour de lui plutôt que de brandir une arme. Il a restauré un vieux bâtiment et l’a transformé en abri pour les gens de passage. Il l’a baptisé le refuge de Brumepins. J’ai une caisse de bougies sacrées pour lui. Si vous allez dans cette direction, pourriez-vous la lui apporter ?",
+      "objectives": "Apportez la caisse de bougies au père Gavin, au refuge de Brumepins.",
+      "name": "Aube sur les montagnes"
+     },
+     "npc": 1226,
+     "npc_name": "Maxan Anvol",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793968432,
+     "last_seen": 1793968432
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "capture"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "99159": {
+   "id": 99159,
+   "name": "Un peu de chaleur",
+   "objectives": "Rassemblez 14 morceaux de petit bois.",
+   "description": "J’accueille avec joie toutes les âmes qui souhaitent se réchauffer près de mon feu, mais j’aimerais également vous demander une faveur.\n\nJ’ai simplement besoin de petit bois. D’ordinaire, je m’en occupe moi-même, mais d’autres tâches ont nécessité mon attention ces derniers temps.",
+   "progress": null,
+   "completion": "Ah, parfait. Ce bois fera l’affaire. J’attendrai que les morceaux plus humides sèchent complètement avant de les utiliser.\r\n\r\nJ’aurais d’autres tâches à vous confier, si vous le voulez bien.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1253,
+     "name": "Père Gavin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1253,
+     "name": "Père Gavin"
+    }
+   ],
+   "zone_id": 1,
+   "level": 8,
+   "reqlevel": 5,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:57"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah, parfait. Ce bois fera l’affaire. J’attendrai que les morceaux plus humides sèchent complètement avant de les utiliser.\r\n\r\nJ’aurais d’autres tâches à vous confier, si vous le voulez bien."
+     },
+     "npc": 1253,
+     "npc_name": "Père Gavin",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794037911,
+     "last_seen": 1794037911
+    },
+    "detail": {
+     "texts": {
+      "description": "J’accueille avec joie toutes les âmes qui souhaitent se réchauffer près de mon feu, mais j’aimerais également vous demander une faveur.\r\n\r\nJ’ai simplement besoin de petit bois. D’ordinaire, je m’en occupe moi-même, mais d’autres tâches ont nécessité mon attention ces derniers temps.",
+      "objectives": "Rassemblez 14 morceaux de petit bois.",
+      "name": "Un peu de chaleur"
+     },
+     "npc": 1253,
+     "npc_name": "Père Gavin",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794035543,
+     "last_seen": 1794035543
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "capture"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "99160": {
+   "id": 99160,
+   "name": "La colère du givre",
+   "objectives": "Détruisez 10 élémentaires de glace mineurs.",
+   "description": "Vous avez peut-être remarqué la présence d’élémentaires dans les environs. Il y a quelques jours, une couche de roche et de glace s’est détachée de la montagne, ce qui a provoqué leur agitation.\n\nCes pics gelés sont bien assez dangereux pour les gens ordinaires sans que les élémentaires ne s’en mêlent. Comme j’ai personnellement laissé la violence derrière moi, je vous serais reconnaissant d’aider à rendre cette route plus sûre en tuant les esprits qui y rôdent.",
+   "progress": null,
+   "completion": "J’aurais voulu pouvoir les apaiser. Malheureusement, je n’en ai pas les compétences, et ils étaient trop dangereux pour que nous les laissions déambuler sans réagir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1253,
+     "name": "Père Gavin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1253,
+     "name": "Père Gavin"
+    }
+   ],
+   "zone_id": 1,
+   "level": 8,
+   "reqlevel": 5,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:57:59"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "J’aurais voulu pouvoir les apaiser. Malheureusement, je n’en ai pas les compétences, et ils étaient trop dangereux pour que nous les laissions déambuler sans réagir."
+     },
+     "npc": 1253,
+     "npc_name": "Père Gavin",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794038300,
+     "last_seen": 1794038300
+    },
+    "detail": {
+     "texts": {
+      "description": "Vous avez peut-être remarqué la présence d’élémentaires dans les environs. Il y a quelques jours, une couche de roche et de glace s’est détachée de la montagne, ce qui a provoqué leur agitation.\r\n\r\nCes pics gelés sont bien assez dangereux pour les gens ordinaires sans que les élémentaires ne s’en mêlent. Comme j’ai personnellement laissé la violence derrière moi, je vous serais reconnaissant d’aider à rendre cette route plus sûre en tuant les esprits qui y rôdent.",
+      "objectives": "Détruisez 10 élémentaires de glace mineurs.",
+      "name": "La colère du givre"
+     },
+     "npc": 1253,
+     "npc_name": "Père Gavin",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794037914,
+     "last_seen": 1794037914
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "capture"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "99161": {
+   "id": 99161,
+   "name": "La colère du givre",
+   "objectives": "Tuez Avala et récupérez son noyau.",
+   "description": "J’ai remarqué que le premier élémentaire apparu après l’avalanche était plus imposant que ses semblables. Depuis, la météo est changeante, et d’autres avalanches mineures ont parfois lieu. Je pense qu’il en est à l’origine.\n\nJe l’ai surnommé « Avala ». Si vous le tuez et que vous m’apportez son noyau comme preuve, je vous offrirai une récompense.",
+   "progress": null,
+   "completion": "Que la Lumière vous bénisse, <classe>. Vos efforts contribuent à rendre cette région plus sûre et à prévenir des morts inutiles.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1253,
+     "name": "Père Gavin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1253,
+     "name": "Père Gavin"
+    }
+   ],
+   "zone_id": 1,
+   "level": 8,
+   "reqlevel": 5,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:58:02"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Que la Lumière vous bénisse, <classe>. Vos efforts contribuent à rendre cette région plus sûre et à prévenir des morts inutiles."
+     },
+     "npc": 1253,
+     "npc_name": "Père Gavin",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794038383,
+     "last_seen": 1794038383
+    },
+    "detail": {
+     "texts": {
+      "description": "J’ai remarqué que le premier élémentaire apparu après l’avalanche était plus imposant que ses semblables. Depuis, la météo est changeante, et d’autres avalanches mineures ont parfois lieu. Je pense qu’il en est à l’origine.\r\n\r\nJe l’ai surnommé « Avala ». Si vous le tuez et que vous m’apportez son noyau comme preuve, je vous offrirai une récompense.",
+      "objectives": "Tuez Avala et récupérez son noyau.",
+      "name": "La colère du givre"
+     },
+     "npc": 1253,
+     "npc_name": "Père Gavin",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794038302,
+     "last_seen": 1794038302
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "capture"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "99162": {
+   "id": 99162,
+   "name": "Un froid dangereux",
+   "objectives": "Récupérez les fusils des montagnards disparus.",
+   "description": "Il faut toujours faire preuve de la plus grande vigilance pendant la traversée des pics de Dun Morogh, où les chutes de neige et de glace sont souvent responsables de la mort d’alpinistes novices.\n\nAprès chaque avalanche, je pars à la recherche d’éventuels survivants, tout en priant la Lumière de ne trouver aucune victime. Mais les éléments sont capricieux ces derniers temps, alors j’évite de m’aventurer trop loin. Pourriez-vous chercher des traces de personnes disparues et me rapporter leurs carabines ? Je les emporterai ensuite à Forgefer.",
+   "progress": null,
+   "completion": "Lorsque les montagnards s’aventurent dans la montagne, ils gravent leur nom sur la crosse de leur fusil, afin que leurs corps puissent être identifiés si quelque chose devait leur arriver. Je vais envoyer ces armes à Forgefer, où elles seront restituées à la famille des victimes.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1253,
+     "name": "Père Gavin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1253,
+     "name": "Père Gavin"
+    }
+   ],
+   "zone_id": 1,
+   "level": 8,
+   "reqlevel": 5,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": "new",
+    "patch": "1.60.1.69893"
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": {
+    "http": 200,
+    "fetched_at": "2026-10-05T19:58:05"
+   },
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Lorsque les montagnards s’aventurent dans la montagne, ils gravent leur nom sur la crosse de leur fusil, afin que leurs corps puissent être identifiés si quelque chose devait leur arriver. Je vais envoyer ces armes à Forgefer, où elles seront restituées à la famille des victimes."
+     },
+     "npc": 1253,
+     "npc_name": "Père Gavin",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794038596,
+     "last_seen": 1794038596
+    },
+    "detail": {
+     "texts": {
+      "description": "Il faut toujours faire preuve de la plus grande vigilance pendant la traversée des pics de Dun Morogh, où les chutes de neige et de glace sont souvent responsables de la mort d’alpinistes novices.\r\n\r\nAprès chaque avalanche, je pars à la recherche d’éventuels survivants, tout en priant la Lumière de ne trouver aucune victime. Mais les éléments sont capricieux ces derniers temps, alors j’évite de m’aventurer trop loin. Pourriez-vous chercher des traces de personnes disparues et me rapporter leurs carabines ? Je les emporterai ensuite à Forgefer.",
+      "objectives": "Récupérez les fusils des montagnards disparus.",
+      "name": "Un froid dangereux"
+     },
+     "npc": 1253,
+     "npc_name": "Père Gavin",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794037916,
+     "last_seen": 1794037916
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "capture"
+    },
+    "origins": {
+     "name": "wowhead",
+     "objectives": "wowhead",
+     "description": "wowhead",
+     "completion": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

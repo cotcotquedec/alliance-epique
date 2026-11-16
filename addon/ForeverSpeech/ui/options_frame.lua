@@ -101,6 +101,7 @@ local PAGES = {
     { kind = "check", label = L.OPT_SHOW_TEXT, db = { "showText", function() PlayerFrame.RefreshQuestText() end } },
     { kind = "check", label = L.OPT_SHOW_QUEST_LEVEL,
       on = { "showQuestLevel", function() PlayerFrame.UpdateQuestLevel() end } },
+    { kind = "check", label = L.OPT_TALK_ANIM, db = { "talkAnim", function() PlayerFrame.Refresh() end } },
     { kind = "check", label = L.OPT_DOCK_FLARE, db = { "dockFlare", function() PlayerFrame.Redock() end } },
     { kind = "cycle", label = L.OPT_ZOOM, db = { "modelZoom", function() PlayerFrame.ApplyZoom() end },
       values = { { 0, L.ZOOM_BODY }, { 0.3, L.ZOOM_BUST }, { 0.6, L.ZOOM_HEAD }, { 1, L.ZOOM_FACE } } },
@@ -129,11 +130,6 @@ local PAGES = {
     { kind = "check", label = L.OPT_PROFESSION_TABS, on = { "professionTabs", sideTabs } },
     { kind = "check", label = L.OPT_FADE_MOVE, on = { "fadeOnMove", function(value) H.Fade.SetEnabled(value) end } },
     { kind = "check", label = L.OPT_DISENCHANT_TAB, on = { "disenchantTab", sideTabs } },
-    { kind = "check", label = L.OPT_BAG_ROWS, on = { "bagRows", function(value) H.BagFrame.SetRows(value) end } },
-    { kind = "action", label = L.OPT_BAG_RESET, run = function()
-      H.BagFrame.Reset()
-      return L.BAG_RESET_DONE
-    end },
     { kind = "check", label = L.OPT_MAP_BUTTON, on = { "mapButton", mapButton } },
     { kind = "check", label = L.OPT_MAP_PANEL, on = { "mapPanel", mapButton } },
     { kind = "check", label = L.OPT_QUEST_AREA, on = { "questAreaHighlight", function() H.QuestArea.Refresh() end } },

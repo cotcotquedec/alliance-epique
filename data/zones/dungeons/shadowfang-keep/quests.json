@@ -1,0 +1,191 @@
+{
+ "schema": 1,
+ "zone": "dungeons/shadowfang-keep",
+ "zone_id": 209,
+ "zone_name": "Donjon d'Ombrecroc",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 3,
+  "complete": 3,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "1013": {
+   "id": 1013,
+   "name": "Le Livre d'Ur",
+   "objectives": "Apporter le \"Livre d'Ur\" au Gardien Bel'dugur à l'Apothicarium à Undercity.",
+   "description": "<nom>, il y a un livre dans le donjon d'Ombrecroc, le « Livre d'Ur », qui ferait très bon effet dans ma collection. Ur était un grand mage de Dalaran avant l'arrivée du Fléau, les études qu'il a faites dans certains domaines ont beaucoup de valeur aux yeux de certains... parmi les Réprouvés.\n\nPénétrez dans le donjon d'Ombrecroc et trouvez ce livre. Apportez-le-moi et je ferai part de votre action à notre Dame noire.",
+   "progress": "Vous avez trouvé le livre, <nom> ?",
+   "completion": "Très bien. Ce livre va gentiment s'ajouter à ma collection sur les travaux d'Ur. Il avait de grandes connaissances, mais sa conscience l'a empêché de détenir le véritable pouvoir. Alors quand le Fléau est venu et l'a obligé à faire usage de sa force, il a échoué.\n\nNous, les Réprouvés, nous ne pouvons pas nous permettre une telle faiblesse si nous voulons survivre. . .\n\n. . . Si nous voulons vaincre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2934,
+     "name": "Gardien Bel'dugur"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2934,
+     "name": "Gardien Bel'dugur"
+    }
+   ],
+   "zone_id": 209,
+   "level": 26,
+   "reqlevel": 16,
+   "side": "horde",
+   "xp": 2100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1014": {
+   "id": 1014,
+   "name": "Arugal doit mourir",
+   "objectives": "Tuer Arugal et apporter sa Tête à Dalar Dawnweaver au Sépulcre.",
+   "description": "Arugal se trouve toujours dans le Donjon d'Ombrecroc. Nous ne pouvons pas faire des Pins argentés une forteresse stratégique pour la Dame noire tant qu'Arugal est vivant.\n\nJe vais me débrouiller pour que sa magie soit annihilée, <nom>. Mais je vous laisse le soin de faire en sorte qu'Arugal rencontre la mort qu'il sert si bien.\n\nAllez au Donjon d'Ombrecroc pour mettre fin une fois pour toutes aux charmes crasseux d'Arugal. Apportez-moi la tête de ce vil sorcier !",
+   "progress": "Grâce à la mort d'Arugal, nous sommes en mesure de renforcer le pouvoir de la Dame noire sur Lordaeron.",
+   "completion": "La forêt des Pins argentés est enfin libérée du vice de cet Arugal de malheur. Vous avez rendu à la Dame noire un grand service, <nom>. Votre ténacité sera récompensée.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1938,
+     "name": "Dalar Dawnweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1938,
+     "name": "Dalar Dawnweaver"
+    }
+   ],
+   "zone_id": 209,
+   "level": 27,
+   "reqlevel": 18,
+   "side": "horde",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1098": {
+   "id": 1098,
+   "name": "Des Traqueurs noirs à Ombrecroc",
+   "objectives": "Trouver les Traqueurs noirs Adamant et Vincent.",
+   "description": "En préparation d'un assaut sur Ombrecroc, deux Traqueurs noirs ont été envoyés au donjon pour réunir des renseignements. Plusieurs jours ont passé, et ils ne sont toujours pas revenus. Nous devons cependant prendre connaissance de leur rapport si nous voulons que notre attaque ait la moindre chance de réussir !\n\nAussi voici votre tâche, <nom>. Partez pour le donjon d'Ombrecroc au sud et trouvez les Traqueurs noirs Adamant et Vincent. Trouvez-les, et s'ils ont besoin d’aide, aidez-les !\n\nCette mission est aussi dangereuse qu'elle est critique, <nom>. N'échouez pas.",
+   "progress": null,
+   "completion": "Le corps de Vincent gît, brisé et immobile.\n\nBien que le rapport du Traqueur noir Adamant parviendra à Hadrec, les détails supplémentaires que Vincent avait réunis sont encore sur lui.\n\nSa main est crispée sur un petit colifichet.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1952,
+     "name": "Grand exécuteur Hadrec"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4444,
+     "name": "Traqueur noir Vincent"
+    }
+   ],
+   "zone_id": 209,
+   "level": 25,
+   "reqlevel": 18,
+   "side": "horde",
+   "xp": 2000,
+   "money": 1800,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

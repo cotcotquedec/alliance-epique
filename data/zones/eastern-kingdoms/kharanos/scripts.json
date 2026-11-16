@@ -1,0 +1,146 @@
+{
+ "schema": 1,
+ "scripts": {
+  "6722": {
+   "quest_id": 6722,
+   "kind": "detail",
+   "name": "La voie du chasseur",
+   "npc_id": 1231,
+   "npc_name": "Grif Wildheart",
+   "source": "foreverdb:vmangos",
+   "text": "Salut, jeune adepte de la chasse. Vous me semblez assez habile pour apprivoiser une bête et en faire votre compagnon.\n\nVous devez aller voir Dazalar, à Dolanaar. Il vous mettra sur la voie, et vous montrera comment avoir votre propre familier.\n\nObjectif : Parler à Dazalar, à Dolanaar.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Salut, jeune adepte de la chasse. ",
+     "emotion": "enthousiasme",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Interpellation joviale et chaleureuse, grosse voix rocailleuse, grand sourire.",
+     "direction_en": "Jovial, hearty greeting with a big smile in the gravelly voice.",
+     "el_tags": [
+      "cheerfully"
+     ]
+    },
+    {
+     "text": "Vous me semblez assez habile pour apprivoiser une bête et en faire votre compagnon.",
+     "emotion": "fierté",
+     "intensity": 4,
+     "pace": "normal",
+     "direction_fr": "Fierté paternelle, ton admiratif et complice, avec une pointe de malice sur « compagnon ».",
+     "direction_en": "Proud fatherly tone, admiring and complicit, a hint of mischief on 'companion'.",
+     "el_tags": [
+      "warmly"
+     ]
+    },
+    {
+     "text": "\n\nVous devez aller voir Dazalar, à Dolanaar. ",
+     "emotion": "détermination",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Instruction claire, plus posée, ton de mentor qui indique la route.",
+     "direction_en": "Clear instruction, steadier mentor tone pointing the way.",
+     "el_tags": [
+      "serious"
+     ]
+    },
+    {
+     "text": "Il vous mettra sur la voie, et vous montrera comment avoir votre propre familier.",
+     "emotion": "enthousiasme",
+     "intensity": 5,
+     "pace": "vif",
+     "direction_fr": "L'enthousiasme monte, suspense taquin et gourmand, presque un rire dans la voix sur « propre familier ».",
+     "direction_en": "Excitement rises, teasing and eager, almost laughing on 'your very own pet'.",
+     "el_tags": [
+      "excited",
+      "chuckles"
+     ]
+    },
+    {
+     "text": "\n\nObjectif : Parler à Dazalar, à Dolanaar.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Énoncé clair et net, neutre.",
+     "direction_en": "Clear, plain statement of the objective.",
+     "el_tags": []
+    }
+   ],
+   "overall": {
+    "emotion": "enthousiasme",
+    "intensity": 4,
+    "direction_en": "Jovial dwarven mentor, warm and proud, building excitement about the player's first pet."
+   },
+   "render": {
+    "m": "[cheerfully] Salut, jeune adepte de la chasse. [warmly] Vous me semblez assez habile pour apprivoiser une bête et en faire votre compagnon. [serious] Vous devez aller voir Dazalar, à Dolanaar. [excited] [chuckles] Il vous mettra sur la voie, et vous montrera comment avoir votre propre familier. Objectif : Parler à Dazalar, à Dolanaar."
+   },
+   "plain": {
+    "m": "Salut, jeune adepte de la chasse. Vous me semblez assez habile pour apprivoiser une bête et en faire votre compagnon. Vous devez aller voir Dazalar, à Dolanaar. Il vous mettra sur la voie, et vous montrera comment avoir votre propre familier. Objectif : Parler à Dazalar, à Dolanaar."
+   },
+   "target_cps": {
+    "m": 18.61
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "9505ab68fd23872b",
+    "cost_usd": 0.0166
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  }
+ },
+ "complete": {
+  "6722": {
+   "quest_id": 6722,
+   "kind": "complete",
+   "name": "La voie du chasseur",
+   "npc_id": 3601,
+   "npc_name": "Dazalar",
+   "source": "foreverdb:vmangos",
+   "text": "Oui, il est temps de vous former...",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Oui, il est temps de vous former...",
+     "emotion": "fierté",
+     "intensity": 3,
+     "pace": "posé",
+     "direction_fr": "Voix grave et chaude, un hochement de tête silencieux : fierté paternelle discrète. Léger sourire dans la voix, pause solennelle sur les points de suspension.",
+     "direction_en": "Deep, warm voice with quiet paternal pride; a faint smile in the tone and a solemn pause on the ellipsis.",
+     "el_tags": [
+      "warmly"
+     ]
+    }
+   ],
+   "overall": {
+    "emotion": "fierté",
+    "intensity": 3,
+    "direction_en": "Solemn mentor quietly proud of his student, warm and measured, ready to begin the next stage of training."
+   },
+   "render": {
+    "m": "[warmly] Oui, il est temps de vous former..."
+   },
+   "plain": {
+    "m": "Oui, il est temps de vous former..."
+   },
+   "target_cps": {
+    "m": 16.5
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "bf663f5f7ea1320a",
+    "cost_usd": 0.0112
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  }
+ },
+ "updated_at": "2026-10-06T20:52:57"
+}

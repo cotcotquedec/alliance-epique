@@ -1,0 +1,477 @@
+{
+ "schema": 1,
+ "zone": "professions/fishing",
+ "zone_id": -101,
+ "zone_name": "Pêcheur",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 8,
+  "with_display_id": 7,
+  "with_title": 4,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 5,
+   "unknown": 3
+  }
+ },
+ "npcs": {
+  "3332": {
+   "id": 3332,
+   "name": "Lumak",
+   "title": "Maître des pêcheurs",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Orgrimmar"
+   ],
+   "coords": {},
+   "levels": [
+    35,
+    35
+   ],
+   "display_id": 1332,
+   "quests_started": [
+    6608
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "3666": {
+   "id": 3666,
+   "name": "Wizbang Cranktoggle",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Gnomeregan Exiles",
+   "zones": [
+    "Darkshore"
+   ],
+   "coords": {},
+   "levels": [
+    15,
+    15
+   ],
+   "display_id": 4474,
+   "quests_started": [
+    983,
+    1579,
+    1580
+   ],
+   "quests_ended": [
+    1579,
+    1580
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GnomeMaleStandard",
+    "race": "Gnome",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5922,
+     "farewell": 5923,
+     "pissed": 5924
+    },
+    "combat_set": "GnomeMale"
+   },
+   "model": {
+    "race": "Gnome",
+    "race_id": 7,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GnomeMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "5161": {
+   "id": 5161,
+   "name": "Grimnur Stonebrand",
+   "title": "Maître des pêcheurs",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Ironforge",
+   "zones": [
+    "Ironforge"
+   ],
+   "coords": {},
+   "levels": [
+    35,
+    35
+   ],
+   "display_id": 3096,
+   "quests_started": [
+    6609
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleStandard",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5904,
+     "farewell": 5905,
+     "pissed": 5906
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "12919": {
+   "id": 12919,
+   "name": "Nat Pagle",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Dustwallow Marsh"
+   ],
+   "coords": {},
+   "levels": [
+    45,
+    45
+   ],
+   "display_id": 13099,
+   "quests_started": [
+    6607
+   ],
+   "quests_ended": [
+    6607,
+    6608,
+    6609,
+    8227
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleStandard",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5974,
+     "farewell": 5975,
+     "pissed": 5976
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "15077": {
+   "id": 15077,
+   "name": "Riggle Bassbait",
+   "title": "Maître de pêche",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Stranglethorn Vale"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 15235,
+   "quests_started": [
+    8193
+   ],
+   "quests_ended": [
+    8193
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleZany",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Zany",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5964,
+     "farewell": 5965,
+     "pissed": 5966
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "15078": {
+   "id": 15078,
+   "name": "Jang",
+   "title": "Apprentie du maître de pêche",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Stranglethorn Vale"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 15236,
+   "quests_started": [
+    8194
+   ],
+   "quests_ended": [
+    8194
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinFemaleZany",
+    "race": "Goblin",
+    "sex": "female",
+    "personality": "Zany",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5967,
+     "farewell": 5969,
+     "pissed": 5970
+    },
+    "combat_set": "GnomeMale"
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "GoblinFemaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "15079": {
+   "id": 15079,
+   "name": "Pêchebot 5000",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Stranglethorn Vale"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 15200,
+   "quests_started": [
+    8221,
+    8224,
+    8225
+   ],
+   "quests_ended": [
+    8221,
+    8224,
+    8225
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "267806": {
+   "id": 267806,
+   "name": "\"Flipfin\"",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": null,
+   "faction": null,
+   "zones": [
+    "Stranglethorn Vale"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": null,
+   "quests_started": [
+    97065,
+    97066,
+    97067
+   ],
+   "quests_ended": [
+    97065,
+    97066,
+    97067
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "display_id",
+    "voice"
+   ]
+  }
+ }
+}

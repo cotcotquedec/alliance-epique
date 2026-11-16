@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "audio": {
+  "7509": {
+   "npc": 14368,
+   "m": {
+    "file": "Interface\\AddOns\\ForeverSpeech\\audio\\14368\\7509_detail.ogg",
+    "master": "data/audio/raids/onyxias-lair/14368/7509_detail.flac",
+    "dur": 54.0,
+    "cps": 15.8,
+    "model": "qwen3-tts-1.7b-base",
+    "engine": "Qwen/Qwen3-TTS-12Hz-1.7B-Base (cuda)",
+    "seed": 1653140964,
+    "scores": {
+     "en": 0.0002,
+     "fr": 0.9995,
+     "wer": 0.028,
+     "cps": 15.8,
+     "secs": 54.0,
+     "sim": 0.889
+    },
+    "text": "Apportez la lame ancienne brute dans le repaire d’Onyxia et combattez-la.\n\nPour chauffer la lame, faites preuve de ruse. Au cours du combat, elle cherchera certainement à vous incinérer à l’aide de son souffle brûlant. Vous devez placer la Lame ancienne brute à proximité, et espérer que son souffle chauffera la lame. Si vous survivez, prenez la lame chauffée et achevez le dragon.\n\nPlongez la lame chauffée dans son cadavre incandescent pour créer la lame ancienne trempée.\n\nObjectif : Vous devez amener Onyxia à cracher le feu sur la Lame ancienne brute. Lorsque ce sera fait, ramassez la Lame ancienne chauffée. Attention, elle ne restera pas chaude éternellement. Le temps est très important.\n\nAvant de revenir me voir, il vous faudra tuer la bête et plonger la Lame ancienne chauffée dans son cadavre.\n\nSi vous y parvenez, Quel’Serrar sera à vous.",
+    "stamp": {
+     "voice": "q944900865",
+     "voice_seed": 944900865
+    },
+    "created_at": "2026-10-09T23:40:56"
+   }
+  }
+ },
+ "complete": {
+  "7509": {
+   "npc": 14368,
+   "m": {
+    "file": "Interface\\AddOns\\ForeverSpeech\\audio\\14368\\7509_complete.ogg",
+    "master": "data/audio/raids/onyxias-lair/14368/7509_complete.flac",
+    "dur": 6.4,
+    "cps": 14.2,
+    "model": "qwen3-tts-1.7b-base",
+    "engine": "Qwen/Qwen3-TTS-12Hz-1.7B-Base (cuda)",
+    "seed": 1580163824,
+    "scores": {
+     "en": 0.0006,
+     "fr": 0.998,
+     "wer": 0.286,
+     "cps": 14.2,
+     "secs": 6.4,
+     "sim": 0.824
+    },
+    "text": "Lydros murmure quelque chose d’inintelligible.\n\nComme promis, voici la lame de Quel’Serrar.",
+    "stamp": {
+     "voice": "q944900865",
+     "voice_seed": 944900865
+    },
+    "created_at": "2026-10-13T09:03:57",
+    "refused": {
+     "by": "judge",
+     "at": "2026-10-13T09:03:57",
+     "failed": [
+      "wer"
+     ]
+    }
+   }
+  }
+ }
+}

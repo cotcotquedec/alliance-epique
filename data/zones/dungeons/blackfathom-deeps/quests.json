@@ -1,0 +1,639 @@
+{
+ "schema": 1,
+ "zone": "dungeons/blackfathom-deeps",
+ "zone_id": 719,
+ "zone_name": "Profondeurs de Brassenoire",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 11,
+  "complete": 11,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "971": {
+   "id": 971,
+   "name": "La connaissance des profondeurs",
+   "objectives": "Apporter le « Manuscrit de Lorgalis » à Gerrig Bonegrip à Ironforge.",
+   "description": "Comme il se peut que vous le sachiez, je recueille le savoir. Le savoir ancien. Le savoir puissant. Le savoir qui ouvre les portes et le savoir qui réveille Ceux qui dorment.\n\nIl court des rumeurs sur une pièce de savoir, le Manuscrit de Lorgalis, loin dans les Profondeurs de Brassenoire, dans Ashenvale. Cet endroit est la demeure d'elfes depuis longtemps disparus. Des elfes qui avaient réuni de grandes connaissances avant que leur cité ne tombe en ruines.\n\nFouillez les Profondeurs de Brassenoire à la recherche du manuscrit. Faites-le, et je ne l'oublierai pas. Même pas après... les derniers jours.",
+   "progress": "La route pour Ashenvale est longue, et votre tâche n'est pas aisée. Mais si vous me procurez le manuscrit, <nom>. . . la récompense sera grande.",
+   "completion": "Vous avez trouvé le manuscrit ! Que ce jour est heureux ! Nous allons faire des copies et les distribuer, et le savoir ancien de Lorgalis sera enfin connu de mes frères et de mes sœurs !\n\nVous nous avez rendu un service tel que vous ne pouvez l’imaginer, <nom>. Mais j'espère que ce cadeau vous montrera la gratitude que nous exprimons à nos alliés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2786,
+     "name": "Gerrig Bonegrip"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2786,
+     "name": "Gerrig Bonegrip"
+    }
+   ],
+   "zone_id": 719,
+   "level": 23,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 2750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1198": {
+   "id": 1198,
+   "name": "À la recherche de Thaelrid",
+   "objectives": "Aller chercher le Garde d'argent Thaelrid dans les Profondeurs de Brassenoire.",
+   "description": "De nombreuses rumeurs circulent ces jours-ci sur l'union entre le Marteau du crépuscule et les nagas dans les Profondeurs de Brassenoire sur les côtes d'Ashenvale.\n\nMon rôle ici avec l'Aube d'argent est de collecter autant d'informations que possible, afin que nous sachions où et quand on a besoin d'aide.\n\nCela fait des semaines à présent que j'ai envoyé un éclaireur espionner les activités menées dans les Profondeurs de Brassenoire. Le Garde d’argent Thaelrid n'est toujours pas revenu.\n\nMes autres éclaireurs sont très pris par d'autres tâches pressantes.\n\nRecherchez et venez en aide à Thaelrid pour moi, <nom>.",
+   "progress": null,
+   "completion": "Le Veilleur de l'aube Shaedlass a manifesté sa bonté en vous envoyant. Effectivement, il se trame des complots dans cet endroit corrompu.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4786,
+     "name": "Veilleur de l'aube Shaedlass"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4787,
+     "name": "Garde d’argent Thaelrid"
+    }
+   ],
+   "zone_id": 719,
+   "level": 24,
+   "reqlevel": 18,
+   "side": "both",
+   "xp": 2400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1199": {
+   "id": 1199,
+   "name": "Le crépuscule descend",
+   "objectives": "Apporter 10 Pendentifs du Crépuscule au Garde d'argent Manados à Darnassus.",
+   "description": "Les membres du Marteau du crépuscule, se servant des vieux rites des chaotiques Dieux très anciens, se battent pour les ramener en ce monde et pour y répandre la mort et la terreur.\n\nNous pensons que le Marteau du crépuscule s'est allié aux nagas et se regroupe en masse dans les Profondeurs de Brassenoire sur la côte d'Ashenvale.\n\nQuels que soient les plans maléfiques qu'ils préparent dans les profondeurs du temple ancien, ils doivent être contrecarrés.\n\nLancez un assaut sur le Marteau et rapportez la preuve de vos actes. Vos efforts se verront récompensés de grandiose manière.",
+   "progress": "Les Profondeurs de Brassenoire étaient autrefois un temple des elfes de la nuit. Il abritait le plus puissant des puits de lune. Qui sait ce que le Marteau du crépuscule prépare là-bas. . .\n\nAvez-vous réussi à nous débarrasser de leur présence ?",
+   "completion": "Vous êtes sans aucun doute possible un brave et noble cœur, <nom>. L'Aube d'argent vous remercie de vos efforts contre le Mal.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4784,
+     "name": "Garde d'argent Manados"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4784,
+     "name": "Garde d'argent Manados"
+    }
+   ],
+   "zone_id": 719,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 2550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1200": {
+   "id": 1200,
+   "name": "L'infamie de Brassenoire",
+   "objectives": "Apporter la Tête du Seigneur du crépuscule Kelris au Veilleur de l'aube Selgorm, à Darnassus.",
+   "description": "Mes forces me quittent. J'ai besoin de votre aide !\n\nIl y a longtemps, ce site était un grand temple d'Elune. Mais la malchance l'a conduit à sa ruine, quand un Dieu très ancien, en contaminant la terre, a corrompu le Puits de lune sacré.\n\nAku'Mai, serviteur du Dieu très ancien, est sorti des eaux.\n\nLes sectateurs du Marteau du crépuscule se sont alliés aux nagas pour occuper ces terres. Les sectateurs, conduits par Kelris, sacrifient des innocents à Aku'Mai pour augmenter son pouvoir.\n\nTuez Kelris et apportez sa tête à Selgorm, à Darnassus, je vous en prie, <nom>.",
+   "progress": "Le temps est précieux, <classe>.\n\nMon rôle à Darnassus est de m’assurer que l'Aube d'argent ne faiblit pas et que les forces du Mal infiltrées à Kalimdor sont mises en échec.\n\nFaites rapidement ce que vous avez à faire ou bien passez votre chemin.",
+   "completion": "Cela fait longtemps que Kelris nous échappe.\n\nOn dirait qu'il a son rôle dans chaque manifestation du Mal par ici. Pendant un temps, nous l'avons cru mort ou disparu.\n\nPourtant, tout cela est cohérent. En mettant fin à son influence, vous avez épargné la vie de nombreux innocents.\n\nPar la Lumière ! Comment peut-on en arriver, par intérêt, à sacrifier une vie à un serviteur d'un Dieu très ancien ?\n\nVous avez fait une belle action, <nom>. Je vous salue au nom de l'Aube d'argent.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4787,
+     "name": "Garde d’argent Thaelrid"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4783,
+     "name": "Veilleur de l'aube Selgorm"
+    }
+   ],
+   "zone_id": 719,
+   "level": 27,
+   "reqlevel": 18,
+   "side": "alliance",
+   "xp": 1650,
+   "money": 6500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1275": {
+   "id": 1275,
+   "name": "Recherches sur la corruption",
+   "objectives": "Gershala Nightwhisper d'Auberdine veut 8 Souches de cerveau corrompu.",
+   "description": "Ces imbéciles d'elfes de sang peinent avec la magie démoniaque. N'ont-ils pas vu ce qui est arrivé aux nagas et aux satyres de Kalimdor ?\n\nJe crains que les elfes de sang ne rencontrent pareille déformation. Azeroth ne supporterait pas la naissance d'une autre race de monstres infects.\n\nJe souhaite étudier les Souches de cerveaux des satyres et des nagas afin d'en déduire la voie que prennent les elfes. Vous trouverez des satyres et des nagas dans les Profondeurs de Brassenoire, sur la côte d'Ashenvale.\n\nC'est un long voyage, <nom>.",
+   "progress": "Une fois que j'aurai suffisamment d'échantillons, mon travail véritable pourra commencer. En étudiant les cerveaux corrompus des satyres et des nagas des Profondeurs de Brassenoire, je pourrais trouver une corrélation entre les mutations.\n\nPeut-être qu'avec ces connaissances, je pourrai empêcher les elfes de sang de s'enfoncer plus profondément dans les difformités et les maléfices.",
+   "completion": "Vous avez voyagé loin et affronté de terribles dangers.\n\nVos actions étaient désintéressées. C'est pour le bien d'Azeroth que vous m'avez aidé dans mes recherches. Je vous remercie, <nom>, de tout ce que vous avez fait.\n\nMaintenant excusez-moi, j'ai beaucoup de travail à accomplir. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8997,
+     "name": "Gershala Nightwhisper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8997,
+     "name": "Gershala Nightwhisper"
+    }
+   ],
+   "zone_id": 719,
+   "level": 24,
+   "reqlevel": 18,
+   "side": "alliance",
+   "xp": 2400,
+   "money": 3500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6561": {
+   "id": 6561,
+   "name": "L'infamie de Brassenoire",
+   "objectives": "Apporter la tête du Seigneur du crépuscule Kelris à Bashana Runetotem, à Thunder Bluff.",
+   "description": "Ma force m'a abandonné. Votre aide m'est nécessaire !\n\nIl y a longtemps, cet endroit était un grand temple d'Elune. Mais il a été conduit à la ruine quand la corruption d'un Dieu très ancien a suinté de la terre et souillé le Puits de lune sacré.\n\nAku'Mai, le serviteur du Dieu très ancien, est sorti des eaux.\n\nLes sectateurs du Marteau du crépuscule se sont alliés aux nagas pour occuper ces terres. Ces sectateurs, menés par Kelris, sacrifient des innocents à Aku'Mai afin d’obtenir sa puissance.\n\nS'il vous plaît, <nom>, tuez Kelris et apportez sa tête à Bashana, à Thunder Bluff.",
+   "progress": "Que la Terre-mère soit avec vous, <nom>.\n\nMaintenir la paix entre la terre et les gens qu'elle porte doit être notre but. Elle a un grand projet pour la nature, et nous y avons tous un rôle à jouer.",
+   "completion": "Kelris a échappé à l'Aube d'argent pour un moment.\n\nPendant un temps ils l'ont considéré comme mort ou disparu.\n\nEn mettant fin à son règne vous avez sauvé un grand nombre de vies innocentes, <nom>.\n\nQue la Terre-mère soit louée ! Sacrifier quelqu’un à un serviteur d'un Dieu très ancien pour un profit personnel est plus que répugnant !\n\nVous avez fait une bonne chose aujourd'hui. Kelris était une créature du mal qui cherchait à ramener le monde au temps du chaos, en vouant un culte à ces Dieux très anciens. Merci, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4787,
+     "name": "Garde d’argent Thaelrid"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9087,
+     "name": "Bashana Runetotem"
+    }
+   ],
+   "zone_id": 719,
+   "level": 27,
+   "reqlevel": 18,
+   "side": "horde",
+   "xp": 1650,
+   "money": 6500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6562": {
+   "id": 6562,
+   "name": "Problèmes dans les profondeurs",
+   "objectives": "Parler à Je'neu Sancrea, à Ashenvale.",
+   "description": "Je'neu Sancrea a besoin d'aide. Il est à l'avant-poste de Zoram'gar dans Ashenvale. La forêt des elfes de la nuit est au nord des Serres-Rocheuses. Vous pouvez le rejoindre en voyageant par la combe des Cisailles ou en vous dirigeant vers le nord à travers les Tarides. La grève de Zoram est à l'ouest de la forêt, assez loin. Faites preuve de prudence, <nom>. Il y a des forces là-bas qui ne verront pas votre présence d'un bon œil.",
+   "progress": null,
+   "completion": "Tsunaman vous envoie ? Excellent. Nous avons des choses à nous dire.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11862,
+     "name": "Tsunaman"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12736,
+     "name": "Je'neu Sancrea"
+    }
+   ],
+   "zone_id": 719,
+   "level": 22,
+   "reqlevel": 17,
+   "side": "horde",
+   "xp": 435,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6563": {
+   "id": 6563,
+   "name": "L'Essence d'Aku'Mai",
+   "objectives": "Apporter 20 Saphirs d'Aku'Mai à Je'neu Sancrea, à Ashenvale.",
+   "description": "Dans les premiers tunnels des Profondeurs de Brassenoire, on trouve de grosses grappes de saphirs le long des murs. Récemment, on a constaté que les nagas ramassaient les cristaux. Jusqu'à ce qu'on sache pourquoi, il vaudrait mieux empêcher les nagas de continuer. Les cristaux ont un grand pouvoir élémentaire et s'ils sont mal utilisés, ils peuvent entrer dans la composition d'un arcane puissant.\n\nVoulez-vous m'aider, <nom> ? Les Profondeurs de Brassenoire se trouvent le long de la grève de Zoram au nord de notre avant-poste.",
+   "progress": "Comment se passe votre recherche des cristaux, <nom> ? Avez-vous la preuve que les nagas les moissonnent ? J'espère que nous connaîtrons un jour la raison pour laquelle ils récupèrent ces choses.",
+   "completion": "Bien joué, <nom>. Ce sont les cristaux dont je parlais. Intéressant. . .\n\nJe sens la puissance à l'intérieur. Les esprits de l'eau s'y accrochent. J'ignore pourquoi les nagas veulent s'en servir. . . Réjouissons-nous qu'ils ne soient plus entre leurs mains.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 12736,
+     "name": "Je'neu Sancrea"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12736,
+     "name": "Je'neu Sancrea"
+    }
+   ],
+   "zone_id": 719,
+   "level": 22,
+   "reqlevel": 17,
+   "side": "horde",
+   "xp": 1750,
+   "money": 1400,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6564": {
+   "id": 6564,
+   "name": "Allégeance aux Dieux très anciens",
+   "objectives": "Apporter la Note humide à Je'neu Sancrea, à Ashenvale.",
+   "description": "Quelques mots sont griffonnés en haut de la note chiffonnée :\n\n\"Oui, dites à toutes les prêtresses de m'apporter les cristaux. L'esprit des élémentaires d'eau y est fort et ils aideront énormément nos aquamanciens dans leurs prédictions.\n\nEn contrôlant le pouvoir des cristaux, nous apaiserons Aku'Mai. Un jour, nous aurons assez de pouvoir pour ramener Aku'Mai et le monde connaîtra à nouveau une ère de gloire ! Une ère régie par les Dieux très anciens ! \"",
+   "progress": "Oui, <nom> ? De quoi avez-vous besoin ? J'ai encore tellement à apprendre sur les cristaux que les nagas collectent.",
+   "completion": "C'est très intéressant, en effet. Je suis content que vous ayez attiré mon attention sur cela.\n\nMaintenant, nous pouvons mettre un nom sur nos problèmes… Lorgus Jett.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 16790,
+     "name": "Damp Note"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12736,
+     "name": "Je'neu Sancrea"
+    }
+   ],
+   "zone_id": 719,
+   "level": 22,
+   "reqlevel": 17,
+   "side": "horde",
+   "xp": 1750,
+   "money": 1100,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6565": {
+   "id": 6565,
+   "name": "Allégeance aux Dieux très anciens",
+   "objectives": "Tuer Lorgus Jett, dans les Profondeurs de Brassenoire et retourner voir Je'neu Sancrea, à Ashenvale.",
+   "description": "On ne peut pas permettre au disciple du Marteau du crépuscule d'achever son plan. Le Marteau du crépuscule ne comprend pas l'esprit de la nature. Il croit aux Dieux très anciens, des créatures de chaos et de destruction qui ont été battues il y a bien longtemps. On ne peut pas permettre à ce Lorgus de réussir. Vous devez l'arrêter, <nom>. Je ne peux pas le faire moi-même – je suis trop faible.\n\nAllez dans les Profondeurs de Brassenoire, trouvez-le et tuez-le. Revenez me voir ici à Zoram'gar quand ce sera fait.",
+   "progress": "L'avez-vous trouvé, <nom> ? Lorgus doit être arrêté !",
+   "completion": "Très bien ! Merci, <nom>. Nous n'avons peut-être pas complètement arrêté le Marteau du crépuscule, mais au moins, vous avez saboté un autre de leurs plans pour ramener les Dieux très anciens au pouvoir.\n\nQui pourrait dire quels autres plans ils sont en train de mettre au point ? Quoi qu'il en soit nous pouvons souffler un peu, pour le moment.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 12736,
+     "name": "Je'neu Sancrea"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12736,
+     "name": "Je'neu Sancrea"
+    }
+   ],
+   "zone_id": 719,
+   "level": 26,
+   "reqlevel": 17,
+   "side": "horde",
+   "xp": 2650,
+   "money": 4000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6921": {
+   "id": 6921,
+   "name": "Parmi les ruines",
+   "objectives": "Apporter le Noyau de la brasse à Je'neu Sancrea, à l’Avant-poste de Zoram'gar, dans Ashenvale.",
+   "description": "Le Marteau du crépuscule s'est déplacé dans les ruines d'Ecrin-de-Lune des Profondeurs de Brassenoire. Leur présence forcera les élémentaires à travailler contre nous. Si nous ne nous occupons pas de cette région, ils en prendront complètement le contrôle.\n\n<nom>, allez à Brassenoire et trouvez la pierre de la brasse. Elle devrait se trouver quelque part, à proximité, dans l'eau. À l'intérieur, se trouve un Noyau de la Brasse, un objet qui, s'il est utilisé correctement, offrira un historique de toute l'activité des élémentaires. Si je l'avais, je pourrais, avec l'aide du Cercle terrestre, faire quelque chose pour les arrêter !",
+   "progress": "Avez- vous réussi à localiser le Noyau de la Brasse ? Sans lui nous n'aurons aucune idée de l'emplacement précis du Marteau du crépuscule.",
+   "completion": "C'est exactement ce dont j'avais besoin ! C'est une incroyable source d'informations dont nous tirerons beaucoup de bien. Quel que soit le maléfice secret du Marteau du crépuscule, croyez-moi, mes camarades et moi saurons bientôt tout !\n\nVous avez bien agi, et le Cercle terrestre souhaite vraiment que vous nous aidiez ! Vous avez également aidé la Horde toute entière et vous avez toutes les raisons d'éprouver de la fierté.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 12736,
+     "name": "Je'neu Sancrea"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12736,
+     "name": "Je'neu Sancrea"
+    }
+   ],
+   "zone_id": 719,
+   "level": 27,
+   "reqlevel": 21,
+   "side": "horde",
+   "xp": 2750,
+   "money": 4500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

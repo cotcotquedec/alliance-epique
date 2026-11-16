@@ -1687,3 +1687,64 @@ sur le disque du jeu.
 | 4 | `/reload` | Rien à coller : je lis la trace (`index: voices folder installed` puis `absent`). |
 
 **À relever** : une quête lue par la synthèse vocale alors que sa voix existe, toute erreur Lua.
+
+## T70 — Le PNJ parle dans le médaillon (2026-11-08)
+
+**Premier essai** (2026-11-08) : le modèle 3D du PNJ qui parle, à la place du portrait. Refusé à l'œil : un modèle ne se
+découpe pas en rond, son carré se voyait dans l'anneau (même agrandi sous un anneau évidé).
+
+**Livré** sur `main` ensuite : pendant qu'une quête, un dialogue ou une réplique d'Elise est lu, l'anneau du médaillon
+brille et pulse doucement ; le portrait reste fixe. À la fin ou sur Stop, la lueur s'éteint en un tiers de seconde.
+Réglage : Options > Fenêtre de quête, « Faire briller le médaillon de celui qui parle » (activé).
+
+| # | Action | Attendu |
+|---|---|---|
+| 1 | Redémarrage complet (nouvelle image), puis `/fs play <id>` | Pendant la lecture, l'anneau brille et pulse ; le portrait est net et rond. |
+| 2 | Laisser la lecture finir, puis relancer et appuyer sur Stop | Les deux fois, la lueur s'éteint. |
+| 3 | Lire une réplique d'Elise (`/fs level 12`) | L'anneau brille aussi. |
+| 4 | Décocher le réglage, relancer une quête | L'anneau reste éteint. |
+
+**À relever** : une lueur trop forte, trop faible ou trop rapide, un décalage entre la lueur et l'anneau, toute erreur
+Lua (la trace dit `frame: talking=true`).
+
+## T71 — Le sac de composants avec tous les sacs (2026-11-09)
+
+**Retiré le 2026-11-10** avec tout le sac à dos de l'addon (`ui/bag_frame.lua`), avant d'être vérifié : à ne pas faire.
+
+**Premier essai** (2026-11-09) : un crochet sur `ToggleAllBags` ; le sac 5 existe (6 cases, `Enum.BagIndex.ReagentBag`
+= 5, `NUM_TOTAL_BAG_FRAMES` = 5), mais le crochet ne s'est jamais déclenché ; le sac cliqué à la main était bien vert.
+
+**Livré** sur `main` ensuite : le sac de composants suit la fenêtre du sac à dos (ouvert et fermé avec elle, quelle
+que soit la façon de l'ouvrir), et ses cases sont **dans cette fenêtre**, dernier sac, sous un titre vert sur un fond
+vert ; sa propre fenêtre n'apparaît plus. Réglage : Options > Confort, « Sac de composants dans la fenêtre du sac à dos,
+en vert » (activé). Sans « une ligne par sac » : sa propre fenêtre, teintée de vert (H44).
+
+| # | Action | Attendu |
+|---|---|---|
+| 1 | `/reload`, sacs fermés, raccourci « Ouvrir tous les sacs » | Une seule fenêtre : en bas, « <nom du sac> · 6 cases » en vert, ses cases sur un fond vert. |
+| 2 | Survoler, déplacer, utiliser un objet du sac de composants ; en ranger un dedans | Infobulle, glisser-déposer et clic droit marchent ; la case se met à jour. |
+| 3 | Rappuyer sur le raccourci, puis rouvrir par le bouton du sac à dos | Tout se ferme ; le bouton rouvre aussi le sac de composants dans la fenêtre. |
+| 4 | Ouvrir la banque et un sac de banque | Le sac de banque garde sa fenêtre, sans vert. |
+| 5 | `/fs bag slots` (sacs ouverts) | `reagent bag 5: 6 slots, …, tinted true` et `…, did OpenBag…, frame now ContainerFrame<N>, folded true`. |
+| 6 | Décocher le réglage, rouvrir les sacs | Le sac de composants reste fermé ; cliqué, sa fenêtre normale. |
+
+**À relever** : les deux lignes `reagent bag` de l'étape 5, un morceau de son ancienne fenêtre encore visible, une case
+qui ne répond pas, toute erreur Lua, un message « action bloquée » en combat.
+
+## T72 — Les onglets du sac à droite de la minimap (2026-11-10)
+
+**Livré** sur `main` : la barre d'onglets du sac (pêche, un onglet par métier, désenchantement) n'est plus collée au
+sac à dos ; elle est à droite de la minimap, en colonne depuis son haut, toujours affichée (sacs fermés aussi). Si la
+minimap touche le bord droit de l'écran, la barre passe à sa gauche. Les onglets sécurisés (métiers, désenchantement)
+disparaissent toujours en combat.
+
+| # | Action | Attendu |
+|---|---|---|
+| 1 | `/reload`, sacs fermés | Les onglets en colonne à droite de la minimap, à 6 pixels, l'art du grimoire de leur côté. |
+| 2 | Clic sur un métier, puis sur Désenchanter | La fenêtre du métier s'ouvre ; le curseur attend l'objet. |
+| 3 | Près d'un feu, puis loin | L'onglet Cuisine en couleur, puis grisé. |
+| 4 | Entrer en combat, en sortir | Métiers et Désenchanter disparaissent, puis reviennent à leur place. |
+| 5 | Ouvrir le sac à dos | Plus d'onglets sur son bord. |
+
+**À relever** : une capture de la minimap et des onglets, un onglet coupé par le bord de l'écran ou caché par un autre
+élément, une infobulle du mauvais côté, toute erreur Lua.

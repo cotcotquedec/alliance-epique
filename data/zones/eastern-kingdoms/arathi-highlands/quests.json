@@ -1,0 +1,3015 @@
+{
+ "schema": 1,
+ "zone": "eastern-kingdoms/arathi-highlands",
+ "zone_id": 45,
+ "zone_name": "Hautes-terres d'Arathi",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 56,
+  "complete": 49,
+  "incomplete": 7,
+  "unavailable": 0,
+  "missing_description": 6,
+  "missing_giver": 6,
+  "new_in_forever": 0,
+  "gendered": 5
+ },
+ "quests": {
+  "635": {
+   "id": 635,
+   "name": "Le cristal dans les montagnes",
+   "objectives": "Trouver le cristal de votre vision.",
+   "description": "L'éclat vibre tandis que vous le tenez…\n\nVous ressentez comme un appel, comme si quelqu'un essayait de communiquer, quelqu'un qui avait désespérément besoin de votre aide.\n\nUne vision apparaît dans votre esprit. Une vision des monts Arathi, et d'un cristal brillant saillant de la terre, là-bas.\n\nVous vous sentez <attiré/attirée> par cet endroit.",
+   "progress": null,
+   "completion": "Ce cristal vibre comme s'il renfermait une force vitale.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 4614,
+     "name": "Pendant of Myzrael"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 138492,
+     "name": "Shards of Myzrael"
+    }
+   ],
+   "zone_id": 45,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 275,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "attiré/attirée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "636": {
+   "id": 636,
+   "name": "Légendes de la Terre",
+   "objectives": "Trouver les Éclats de Myzrael.",
+   "description": "Ce livre raconte l'histoire d'une princesse élémentaire, Myzrael, et de son emprisonnement loin sous les hautes-terres Arathies.\n\nIl évoque également un affleurement secret de cristaux, en surface. Ces cristaux, les Éclats de Myzrael, forment une fenêtre sur la prison de la princesse.\n\nSi une âme courageuse trouve les Éclats de Myzrael, alors peut-être pourra-t-elle lui parler...",
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 45,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 275,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:vmangos",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "639": {
+   "id": 639,
+   "name": "Glyphe de Strom",
+   "objectives": "Trouver le Glyphe de Strom pour Zengu au Trépas-d'Orgrim.",
+   "description": "Dans des temps anciens, les trolls se battaient contre l'Empire arathorien et notre plus vaillant adversaire était le seigneur Ignaeus de Strom, dit Trollbane. Il se lançait dans la bataille en brandissant Trol'kalar, ce qui dans leur langue voulait dire \"Tueuse de trolls\".\n\nMais aujourd’hui les fils de Trollbane sont affaiblis et leur forteresse en ruine.\n\nL'épée est protégée par de nombreux glyphes qui ont été répartis entre les survivants de Stromgarde, et nous devons les retrouver.\n\nLe premier a été pris par le Syndicat, l'un de leurs hommes à Stromgarde devrait l'avoir.",
+   "progress": "Avez-vous déjà localisé le premier Glyphe ? Il est très probablement porté par l'un des agents du Syndicat à Stromgarde.",
+   "completion": "Excellent, mon ami. C'est un bon départ vers la collection complète des Glyphes dont nous aurons besoin pour retirer Trol'kalar de la tombe de Trollbane.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2703,
+     "name": "Zengu"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2703,
+     "name": "Zengu"
+    }
+   ],
+   "zone_id": 45,
+   "level": 37,
+   "reqlevel": 32,
+   "side": "horde",
+   "xp": 2850,
+   "money": 4000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "640": {
+   "id": 640,
+   "name": "Le Glyphe qui fut brisé",
+   "objectives": "Reprendre les 11 Fragments de Glyphe aux défenseurs de Stromgarde, puis les apporter à Tor'gan au Trépas-d'Orgrim.",
+   "description": "La tombe de Thoras Trollbane est protégée par trois glyphes. Vous avez récupéré le premier auprès du Syndicat. Les deux autres seront plus difficiles à obtenir, car ils sont détenus par la milice fortement retranchée de Stromgarde.\n\nLe Glyphe de Thoradin a été brisé en onze morceaux par le fils de Thoras, Galen, et dispersé entre les défenseurs de Stromgarde. Retrouvez les morceaux et apportez-les à Tor'gan, le chaman troll, il les assemblera pour reconstituer le Glyphe complet.",
+   "progress": "Throm'ka, <classe>. Zengu m'a informé que vous aviez besoin de mon assistance ?",
+   "completion": "Ah ! Vous avez besoin que je reconstitue le Glyphe de Thoradin? Ça ne devrait pas être trop difficile. Toutes les pièces semblent réunies et la structure magique va être aisée à reformuler.\n\nVous devriez fermer les yeux !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2703,
+     "name": "Zengu"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2706,
+     "name": "Tor'gan"
+    }
+   ],
+   "zone_id": 45,
+   "level": 40,
+   "reqlevel": 32,
+   "side": "horde",
+   "xp": 3150,
+   "money": 5000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "641": {
+   "id": 641,
+   "name": "Glyphe de Thoradin",
+   "objectives": "Apporter le Glyphe de Thoradin reconstitué à Zengu, au Trépas-d'Orgrim.",
+   "description": "Le Glyphe a retrouvé son intégrité et peut désormais permettre d’ouvrir le sceau sur la tombe de Trollbane. Apportez-le à Zengu, il ne fait pas de doute qu'il a d'autres tâches à vous confier.",
+   "progress": "<nom> ! Avez-vous le deuxième Glyphe ?",
+   "completion": "Nous ne sommes pas encore capables de retirer Trol'kalar de la tombe de Trollbane. Nous ne savons pas exactement où se trouve le troisième Glyphe, car ses porteurs semblent beaucoup se déplacer en Arathi, mais j'ai foi en vos capacités pour le retrouver.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2706,
+     "name": "Tor'gan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2703,
+     "name": "Zengu"
+    }
+   ],
+   "zone_id": 45,
+   "level": 40,
+   "reqlevel": 32,
+   "side": "horde",
+   "xp": 315,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "642": {
+   "id": 642,
+   "name": "La Princesse emprisonnée",
+   "objectives": "Collecter 12 Poussières de Myzrael, puis les répandre sur les Eclats iridescents, à la gorge des Sèches-moustaches.",
+   "description": "Mon nom est Myzrael. Je suis une Princesse de la terre et mes ravisseurs, les géants, m'ont emprisonnée loin sous les hautes-terres d'Arathi. Ces éclats de cristal sont le seul moyen dont je dispose pour communiquer avec le monde de la surface.\n\nPar pitié, aidez-moi. Les alliés des géants, les kobolds Sèches-moustaches, possèdent un de ces éclats à la gorge des Sèches-moustaches, à l'est. Pour l'activer, vous devez collecter des Poussières de Myzrael sur les kobolds, puis les y appliquer.\n\nJe vous en supplie, <nom>, venez à mon secours !",
+   "progress": "Cet amas d'éclats ressemble beaucoup aux Eclats de Myzrael. Mais l'impression de sécurité n'émane pas de celui-ci.",
+   "completion": "Ah ! Vous avez activé ces éclats.\n\nDéjà, je me sens plus moi-même !\n\nMais hélas je suis loin d'être libre !…",
+   "starters": [
+    {
+     "type": "object",
+     "id": 138492,
+     "name": "Shards of Myzrael"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 2701,
+     "name": "Iridescent Shards"
+    }
+   ],
+   "zone_id": 45,
+   "level": 37,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 2850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "643": {
+   "id": 643,
+   "name": "Glyphe d'Arathor",
+   "objectives": "Retrouver le Glyphe d'Arathor et l'apporter à Zengu, au Trépas-d'Ogrim.",
+   "description": "Bien qu'on puisse dire qu'il contrôle tout juste Stromgarde, et certainement pas toutes les hautes-terres d'Arathi, le prince humain fait courir la campagne aux restes de sa cavalerie. Je ne comprends pas pourquoi, mais qui peut comprendre la façon dont pensent les humains, hein ?\n\nLe plus important, c’est qu’il ait donné l'un des Glyphes au lieutenant Valorcall, commandant sa cavalerie. Trouvez-le et rapportez-moi son Glyphe.",
+   "progress": "Valorcall ne sera pas facile à retrouver, <nom>. A cheval, il peut se déplacer très rapidement. Néanmoins, nous devons récupérer son Glyphe.",
+   "completion": "La perte de leur chef de cavalerie est un coup terrible porté aux défenseurs de Stromgarde. Encore mieux, cela veut dire qu'il ne nous reste plus qu'un seul Glyphe à trouver avant de pouvoir posséder Trol'kalar.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2703,
+     "name": "Zengu"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2703,
+     "name": "Zengu"
+    }
+   ],
+   "zone_id": 45,
+   "level": 41,
+   "reqlevel": 32,
+   "side": "horde",
+   "xp": 3300,
+   "money": 5500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "644": {
+   "id": 644,
+   "name": "Glyphe de Trollbane",
+   "objectives": "Tuer le prince Galen Trollbane et apporter le Glyphe de Trollbane à Zengu, au Trépas-d'Ogrim.",
+   "description": "Le dernier Glyphe dont nous avons besoin pour ouvrir la tombe de Thoras Trollbane est détenu par son fils en personne. Il vit loin à l'intérieur de Stromgarde, dans une chapelle des quartiers contrôlés par la milice. Le prince Galen est bien protégé et n'est pas maladroit à la guerre non plus, aussi cette tâche pourrait s'avérer très ardue.",
+   "progress": "Vous êtes revenu, <nom>. La lignée d'Ignaeus Trollbane est-elle brisée ?",
+   "completion": "C'est un grand jour, <classe>. La lignée de Trollbane cessera de hanter mon peuple, et les Glyphes dont nous avions besoin pour prendre possession de Trol'kalar sont entre nos mains. Bientôt, très bientôt, nous frapperons les trolls haïs de Zul'Gurub.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2703,
+     "name": "Zengu"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2703,
+     "name": "Zengu"
+    }
+   ],
+   "zone_id": 45,
+   "level": 42,
+   "reqlevel": 32,
+   "side": "horde",
+   "xp": 3450,
+   "money": 5500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "645": {
+   "id": 645,
+   "name": "Trol'kalar",
+   "objectives": "Retirer Trol'kalar de la tombe de Trollbane à Stromgarde.",
+   "description": "Qu'est-ce donc ? Les quatre Glyphes une fois réunis, ils se sont rassemblés pour n'en former qu'un seul : le Glyphe d'Ignaeus. Celui-ci pourra sans aucun doute désactiver la garde placée sur la tombe de Trollbane.\n\nSes restes sont ensevelis dans le Sanctuaire derrière la chapelle de Stromgarde. Rapportez Trol'kalar.",
+   "progress": "Un relief dans la pierre, sur le dessus de la tombe de Trollbane, correspond aux lignes luisantes du Glyphe d'Ignaeus…",
+   "completion": "Vous placez le Glyphe d'Ignaeus dans le relief correspondant sur la tombe de Trollbane. Aussitôt, un éclat de lumière consume le Glyphe, et l'épée légendaire Trol'kalar est libérée de l'étreinte des mains de pierre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2703,
+     "name": "Zengu"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 2703,
+     "name": "Trollbane's Tomb"
+    }
+   ],
+   "zone_id": 45,
+   "level": 42,
+   "reqlevel": 32,
+   "side": "horde",
+   "xp": 860,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "646": {
+   "id": 646,
+   "name": "Trol'kalar",
+   "objectives": "Apporter Trol'kalar à Zengu au Trépas-d'Orgrim.",
+   "description": "La lumière s'éteint, doucement, et l'épée Trol'kalar, reposant dans un fourreau de pierre, est libérée.",
+   "progress": "<nom> ! Avez-vous pris l'épée ?",
+   "completion": "Pendant des générations, les forces de Strom et d'Arathor ont massacré notre peuple. Maintenant leur arme la plus puissante est entre nos mains. Nos laborieux progrès dans les forêts brumeuses de Zul'Gurub vont être facilités.\n\nVotre aide a été précieuse, <nom>, et les trolls Darkspear vous sont redevables.\n\nJe m'assurerai que l'épée est délivrée à Nimboya à Grom'gol.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 2703,
+     "name": "Trollbane's Tomb"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2703,
+     "name": "Zengu"
+    }
+   ],
+   "zone_id": 45,
+   "level": 42,
+   "reqlevel": 32,
+   "side": "horde",
+   "xp": 4300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "651": {
+   "id": 651,
+   "name": "Les pierres de lien",
+   "objectives": "Collecter la Clé ardente, la Clé armoriée et la Clé de tonnerre aux lieux suivants : la Pierre de lien occidentale, la Pierre de lien orientale et la Pierre de lien extérieure.\n\nLes apporter à la Pierre de lien intérieure.",
+   "description": "Quatre Pierres de lien sont dispersées à travers tout Arathi. Ces pierres me retiennent prisonnière sous la terre.\n\nPour me libérer vous devez ouvrir la plus puissante : la Pierre de lien intérieure. Et pour cela, vous devez rassembler les clés des trois autres.\n\nCes pierres sont sous la surveillance de gardiens, mais si vous agissez intelligemment, ou si vous avez de la chance, vous pouvez trouver un moyen de les bannir.",
+   "progress": "Ceci est la Pierre de lien intérieure. C'est la plus puissante des Pierres de lien et elle doit être ouverte pour permettre aux autres de s'ouvrir.",
+   "completion": "<Myzrael parle à travers la pierre. >\n\nVous l'avez fait ! Vous avez ouvert les Pierres de lien ! Je sens mes entraves se relâcher et je sais que je serai bientôt libre.\n\nVous êtes un noble <classe>, <nom>. Mon sauveur !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 2701,
+     "name": "Iridescent Shards"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 2702,
+     "name": "Stone of Inner Binding"
+    }
+   ],
+   "zone_id": 45,
+   "level": 38,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 2850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "652": {
+   "id": 652,
+   "name": "La Pierre cruciale",
+   "objectives": "Trouver et tuer Fozruk. Apporter le Bâtonnet de l'ordre à la Pierre cruciale dans les hautes-terres d'Arathi.",
+   "description": "Ouvrir les Pierres de lien a relâché l'étreinte de mes fers, mais quelque chose me retient toujours captive. C'est la Pierre cruciale que vous voyez parmi ce cercle de pierres. Et sa clé est détenue par l'un de mes geôliers, le Gardien de pierres Fozruk.\n\nVous devez prendre cette clé, que les Gardiens de pierres appellent le Bâtonnet de l'ordre, à Fozruk, et l'utiliser pour ouvrir la Pierre cruciale.\n\n<nom>, vous avez déjà tellement fait pour me venir en aide. Encore un peu... et ma gratitude fera trembler les fondations même de la terre !",
+   "progress": "La Pierre cruciale est chargée d'une extraordinaire énergie géomagnétique.",
+   "completion": "Vous placez le Bâtonnet dans la Pierre cruciale. Et un tremblement roule sous vos pieds…",
+   "starters": [
+    {
+     "type": "object",
+     "id": 2702,
+     "name": "Stone of Inner Binding"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 2688,
+     "name": "Keystone"
+    }
+   ],
+   "zone_id": 45,
+   "level": 42,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 3450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "653": {
+   "id": 653,
+   "name": "Les alliés de Myzrael",
+   "objectives": "Parler à Gerrig Bonegrip, dans la caverne lugubre d’Ironforge.",
+   "description": "<Myzrael parle.>\n\nLibre ! JE SUIS LIBRE ! Je suis libre de rassembler mes forces, à l’abri du regard de mes geôliers. Si je les affrontais maintenant ils me domineraient et m'emprisonneraient de nouveau.\n\nMais au moment voulu, je combattrai les géants, et ils regretteront la tutelle qu'ils m'ont imposée !\n\nVous êtes <un noble allié/une noble alliée>, <nom>. J'aurai encore besoin de votre aide quand le temps sera venu. Bientôt, il vous faudra m'invoquer à la surface.\n\nParlez à Gerrig Bonegrip. Il se trouve à Ironforge, dans une boutique de la caverne lugubre. Il sait comment on doit m'invoquer.",
+   "progress": null,
+   "completion": "La Dame m'a annoncé votre venue, <classe>. Vous êtes le bienvenu dans ma demeure, car vous, comme moi, êtes au service d'une cause supérieure.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 2688,
+     "name": "Keystone"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2786,
+     "name": "Gerrig Bonegrip"
+    }
+   ],
+   "zone_id": 45,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Myzrael parle.",
+    "nom",
+    "un noble allié/une noble alliée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "655": {
+   "id": 655,
+   "name": "Trépas-d'Orgrim",
+   "objectives": "Parler à Tor'gan au Trépas-d'Orgrim.",
+   "description": "Je m'en souviens très bien, c'est comme si c'était hier... Tellement d'années sans espoir, attaché à cet horrible endroit par du bois et par du fer. Et puis enfin, enfin ! Il y eut le Chef de guerre. Orgrim Doomhammer dans son armure étincelante, son marteau de guerre tournoyant au-dessus de la tête.\n\nCe fut... trop terrible. Que le coup d'un misérable lâche terrasse notre plus grand héros. Il a chargé, sur son cheval, par-derrière, et sa lance l'a transpercé. Je suis tombé à genoux. Quels espoirs restaient-ils ? Quels espoirs restent-ils ?",
+   "progress": null,
+   "completion": "Vous parlez de Gor'mul ? Oui, d'après ce qu'il dit, il semble qu'il ne s'est jamais remis de la mort d'Orgrim Doomhammer.\n\nGor'mul était prisonnier ici quand Thrall et Orgrim se sont battus pour libérer le camp, mais, alors que la terre tremblait et que nos frères s'échappaient, lui fut laissé derrière. Perdu, il vagabonda pendant des années, sans but ni espoir, jusqu'à ce que nous revenions nous établir au Trépas-d'Orgrim.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2792,
+     "name": "Gor'mul"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2706,
+     "name": "Tor'gan"
+    }
+   ],
+   "zone_id": 45,
+   "level": 34,
+   "reqlevel": 29,
+   "side": "horde",
+   "xp": 270,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "656": {
+   "id": 656,
+   "name": "L'invocation de la Princesse",
+   "objectives": "Aller aux Eclats de Myzrael, l'invoquer et la battre.\n\nPrendre ses Chaînes indicibles et les attacher aux Eclats de Myzrael.",
+   "description": "Vous devez battre Myzrael avant que sa force n'augmente. Sinon, une fois qu'elle aura rassemblé suffisamment de pouvoir, elle défiera ses ravisseurs ! Certains pensent pouvoir la contrôler, mais si elle peut l'être, alors pourquoi les géants l'ont-ils enchaînée ??\n\nLogique stupide, pas vrai ?\n\nPour la défier, invoquez-la aux Éclats de Myzrael, où vous lui avez parlé la première fois. Battez-la et prenez ses Chaînes indicibles, puis attachez-les aux Éclats de Myzrael.\n\nAgissez ainsi et elle sera de nouveau prise au piège.",
+   "progress": "Les Eclats de Myzrael n'émettent plus à présent.",
+   "completion": "Au moment où les Chaînes indicibles sont placées autour des Fragments, un hurlement inhumain monte des profondeurs. Le cri est suivi d'un rugissement.\n\nLes Fragments de Myzrael n'évoquent plus les mêmes impressions de chaleur et de sécurité qu'ils engendraient autrefois. À présent ils vibrent ouvertement d'une menace. . . comme si la chose, sous leur faible étreinte, allait jaillir à la surface.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2785,
+     "name": "Theldurin l’Egaré"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 138492,
+     "name": "Shards of Myzrael"
+    }
+   ],
+   "zone_id": 45,
+   "level": 50,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 7100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "662": {
+   "id": 662,
+   "name": "Sauvetage en haute mer",
+   "objectives": "Le lieutenant Nilzlix veut que vous récupériez les Cartes et les Journaux de bord de la « Folie de la vierge » et de « L'Esprit des Pins argentés ».",
+   "description": "O'Breen a conduit les bateaux dans la crique. Nous étions certains d'y trouver le trésor. Le « Noir messager » a accosté sans encombre, mais à mesure que la « Folie de la vierge » et « L'Esprit des Pins argentés » approchaient, le niveau de la mer a commencé à baisser. C'est la chose la plus étrange que j'aie jamais vue !\n\nLes deux bateaux se sont échoués sur quelque chose... Une sorte de temple dans les récifs. Puis ils ont coulé à pic ; une vraie tragédie.\n\nNous voulons récupérer leurs cartes maritimes et leurs journaux de bord avant de partir. Nous ne voulons pas que les autres puissent les récupérer !",
+   "progress": "Comment se passe la recherche, <nom> ? Il ne faut absolument pas que les journaux de bord et les cartes de la « Folie de la vierge » et de « L'Esprit des Pins argentés », tombent entre de mauvaises mains.\n\nSi nos ennemis s'emparent de ces informations, l'amiral Seahorn nous fera subir le supplice de la planche.\n\nSi tant est que l'on sorte d'ici. . .",
+   "completion": "Savoir ces informations en sécurité rassurera le commandement de Baie-du-Butin. Beau travail, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2767,
+     "name": "Second Nilzlix"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2767,
+     "name": "Second Nilzlix"
+    }
+   ],
+   "zone_id": 45,
+   "level": 40,
+   "reqlevel": 35,
+   "side": "both",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "663": {
+   "id": 663,
+   "name": "Terre !",
+   "objectives": "Parler au capitaine O'Breen à la Crique de Faldir.",
+   "description": "Lolo voit une minuscule personne ! Toujours Lolo faire le guet !\n\nBienvenue à la crique de Faldir, <nom>. Capitaine O'Breen a dit que nous resterions que quelques heures. Juste le temps de récupérer le trésor, puis nous revenir à Baie-du-Butin.\n\nMais Lolo pense que ça va durer plus longtemps. Notre groupe a perdu deux navires. Pauvres « Esprit des Pins argents » et « Folie de la vierge ». Au fond de la mer maintenant ils reposent !\n\nLolo propose de vous parler au capitaine O'Breen si vous voulez rester ici.",
+   "progress": null,
+   "completion": "Ohé, mon pote.\n\nC't'une pagaille pas possible. Seahorn aura not' peau si on récupère pas c'qui a coulé.\n\nUn des trucs du professeur indiquait que le trésor perdu devait s'trouver près d'cette crique. J'ai amarré le « Noir messager » aux quais, puis j'ai dit à l' « Esprit des pins argentés » et à la « Folie de la vierge » de suivre.\n\nAlors la mer a commencé à gargouiller. Puis le niveau de l'eau a baissé brusquement et les deux bateaux se sont échoués sur le récif.\n\nMais c'était pas un récif naturel. Il y avait quelque chose d'autre en dessous. . .\n\nDonnez un coup de main à mon équipage, et je vous récompenserai.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2766,
+     "name": "Lolo le Guetteur"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2610,
+     "name": "Shakes O'Breen"
+    }
+   ],
+   "zone_id": 45,
+   "level": 35,
+   "reqlevel": 35,
+   "side": "both",
+   "xp": 690,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "664": {
+   "id": 664,
+   "name": "Chagrin noyé",
+   "objectives": "Le capitaine Steelgut de la crique de Faldir veut que vous tuiez 10 Ecumeurs Daguéchine et 3 Sorcières Daguéchine.",
+   "description": "Argh, quelle horrible vie ! Je devrais être mort sous l'eau, et pas assis ici près d'un feu, respirant de l'air frais.\n\nL'équipage a tout fait pour sauver mon merveilleux « Folie de la Vierge ». Loué soit-il !\n\nO'Breen a réussi à atteindre la rive, nous on n'a pas été aussi chanceux. La mer s'est carrément défilée sous nous, je le jure.\n\nA un instant on naviguait, l'instant d'après on était échoué sur un récif. Et ces créatures ! Elles ont tué tous les survivants. Saleté de nagas ! Je me suis évanoui, puis je me suis réveillé ici.\n\nJe veux que ces créatures meurent !",
+   "progress": "Bah, peut-être que je devrais aller tuer cette racaille de Nagas moi-même. Il est évident que vous ne le ferez pas.\n\nJe peux peut-être trouver des aiguilles à tricoter pour que tu puisses t'occuper.",
+   "completion": "Bon travail, <nom>.\n\nCes saletés ont eu ce qu'elles méritaient. Même si ça ne ramène pas mon navire ni mon équipage, ça me réconforte un peu de savoir quelques nagas morts.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2769,
+     "name": "Capitaine Steelgut"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2769,
+     "name": "Capitaine Steelgut"
+    }
+   ],
+   "zone_id": 45,
+   "level": 40,
+   "reqlevel": 35,
+   "side": "both",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "665": {
+   "id": 665,
+   "name": "Le trésor englouti",
+   "objectives": "Escorter le professeur Phizzlethorpe à la grotte et revenir.",
+   "description": "Maintenant que nous sommes des Ecumeurs des Flots noirs accomplis, il est de notre devoir d'aider M. O'Breen à localiser le trésor perdu des elfes.\n\nDans ces eaux sombres, il est presque impossible de trouver les gemmes sans aide. Le docteur a conçu des lunettes spéciales qui pourraient nous être utiles. Il a besoin de les charger avec l’énergie magique de pierres enchantées qui se trouvent dans la grotte en haut de la colline.\n\nMais cette grotte est maudite ! Quand on s'en approche, on se fait attaquer. Venez et protégez-moi, alors je pourrai transférer l'énergie des pierres vers les lunettes.",
+   "progress": "Ce n'est pas le moment de parler ! Les lunettes doivent être chargées avec le pouvoir de la pierre !",
+   "completion": "Les Lunettes marchent à la perfection maintenant ! Beau travail, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2768,
+     "name": "Professeur Phizzlethorpe"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2774,
+     "name": "Docteur Draxlegauge"
+    }
+   ],
+   "zone_id": 45,
+   "level": 40,
+   "reqlevel": 35,
+   "side": "both",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "666": {
+   "id": 666,
+   "name": "Le trésor englouti",
+   "objectives": "Le docteur Draxlegauge, à la crique de Faldir, veut que vous rapportiez 10 Gemmes elfiques et que vous rapportiez ensuite les Lunettes de chasse aux gemmes.",
+   "description": "Le trésor repose au fond de la mer depuis si longtemps que les gemmes se sont calcifiées en pierres. Mais le pouvoir contenu dans ces lunettes vous permettront de les localiser facilement.\n\nL'ingéniosité gnome permet beaucoup !\n\nAussi, empruntez les Lunettes de chasse aux gemmes, <nom>, et voyez si vous pouvez récupérer une partie du trésor perdu pour le capitaine O'Breen.\n\nJ'y plongerais bien moi-même mais... euh... des affaires scientifiques importantes nécessitent ma présence sur un sol dur et sec... euh... voilà, c'est ça.",
+   "progress": "Les lunettes ont bien fonctionné ? Tout s'est passé correctement ? Des réglages sont peut-être nécessaires.\n\nOh ! Et il faudra me les rapporter ensuite. Je suis sûr que le capitaine O'Breen en aura besoin.",
+   "completion": "Superbe, <nom> ! Le capitaine sera très content ! Et attendez que cela parvienne aux oreilles de Seahorn !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2774,
+     "name": "Docteur Draxlegauge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2774,
+     "name": "Docteur Draxlegauge"
+    }
+   ],
+   "zone_id": 45,
+   "level": 40,
+   "reqlevel": 35,
+   "side": "both",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "667": {
+   "id": 667,
+   "name": "La mort venue d'en-bas",
+   "objectives": "Protéger Shakes O'Breen lors de l'attaque.",
+   "description": "Ça ne se présente pas bien. Il semble que les Daguéchine se regroupent pour une attaque.\n\nLes nagas ont la réputation d'être impitoyables dans la bataille et ne cesseront d'attaquer tant que je n'aurai pas rencontré la mort.\n\nJe ne considère pas ma vie plus précieuse que celles des membres de mon équipage, mais vous devez aider à ma sauvegarde. L'équipage ne pourra pas revenir à Baie-du-Butin seul et sans la connaissance que je possède des mers.\n\nLes nagas viendront de la mer. Je veux que vous restiez près de moi ici en haut pour parer leur attaque. Servez-vous du canon et repoussez-les.\n\nÊtes-vous <prêt/prête>, <nom> ?",
+   "progress": null,
+   "completion": "Nous avons survécu !\n\nNous n'aurions pas pu sans vous, <nom>.\n\nNous partirons dès que la marée sera montée. Si vous n'aviez pas des choses importantes à accomplir, je vous engagerais de suite sur mon bateau. Mais je peux vous dire que vous allez avoir affaire à un gros morceau.\n\nMême si vous êtes un peu chétif, <nom>. . . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2610,
+     "name": "Shakes O'Breen"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2610,
+     "name": "Shakes O'Breen"
+    }
+   ],
+   "zone_id": 45,
+   "level": 44,
+   "reqlevel": 35,
+   "side": "both",
+   "xp": 4650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "668": {
+   "id": 668,
+   "name": "Le trésor englouti",
+   "objectives": "Apporter les Gemmes elfique au capitaine O'Breen.",
+   "description": "Ne faites pas attendre le capitaine O'Breen. Il veut voir les gemmes. Après tout, c'est quand même pour ça qu'on est là !\n\nAprès ces quelques semaines passées avec les pirates, le professeur pense que la pire des choses serait qu'ils s'aperçoivent que nous nous approprions leur trésor.\n\nVoilà, <nom>, portez ça à O'Breen.",
+   "progress": "Salut, <classe>. Qu'est-ce qui vous amène sur le pont ?",
+   "completion": "Alors comme ça les petits gnomes ont prouvé leur valeur ? Je savais que je n'attendais pas pour rien !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2774,
+     "name": "Docteur Draxlegauge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2610,
+     "name": "Shakes O'Breen"
+    }
+   ],
+   "zone_id": 45,
+   "level": 40,
+   "reqlevel": 35,
+   "side": "both",
+   "xp": 1550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "669": {
+   "id": 669,
+   "name": "Le trésor englouti",
+   "objectives": "Prendre l'échantillon de Gemme elfique et l'apporter à l'amiral Seahorn à Baie-du-Butin.",
+   "description": "L'amiral Seahorn voudrait voir le plus rapidement possible ce que vous avez trouvé.\n\nMais comme vous pouvez le constater, nous sommes un peu coincés ici. Primo la marée est trop basse, deuzio ces damnées créatures ne nous quittent pas des yeux.\n\nVous rendriez un immense service aux Ecumeurs des Flots noirs si vous pouviez prévenir l'amiral Seahorn à Baie-du-Butin que nous avons découvert le trésor, et que nous sommes en train de le remonter. Prenez cet échantillon en guise de preuve.",
+   "progress": "Qu'apportez-vous à Baie-du-Butin, <classe> ?",
+   "completion": "Ah, laissez ça au bon vieux Shakes O'Breen ! Je savais que c'était le capitaine qu'il nous fallait !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2610,
+     "name": "Shakes O'Breen"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2487,
+     "name": "Amiral Seahorn"
+    }
+   ],
+   "zone_id": 45,
+   "level": 40,
+   "reqlevel": 35,
+   "side": "both",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "670": {
+   "id": 670,
+   "name": "Le trésor englouti",
+   "objectives": "Remettre la Lettre de Seahorn à Shakes O'Breen dans les hautes-terres d'Arathi.",
+   "description": "Dites, <nom>, vous semblez aimer l'aventure. Ma flotte est bloquée à Baie-du-Butin pour cause de ravitaillement.\n\nIl y a des choses qui se trament dans le coin, et j'ai besoin d'envoyer une correspondance secrète à Shakes O'Breen, qui a jeté l’ancre près des côtes d'Arathi.\n\nPuis-je vous faire confiance pour remettre en toute confidentialité cette missive ?",
+   "progress": "Alors Seahorn a été impressionné ? Je suis persuadé que son sourire s'étirait de Baie-du-Butin à Ratchet.",
+   "completion": "Merci d'avoir fait un si long et dangereux voyage. Vous avez toute la gratitude des Ecumeurs des Flots noirs.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2487,
+     "name": "Amiral Seahorn"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2610,
+     "name": "Shakes O'Breen"
+    }
+   ],
+   "zone_id": 45,
+   "level": 40,
+   "reqlevel": 35,
+   "side": "both",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "671": {
+   "id": 671,
+   "name": "Magies immondes",
+   "objectives": "Apporter 10 Amulettes de Pierre de sang à Tor'gan au Trépas-d'Orgrim.",
+   "description": "J'ai senti quelque chose de bizarre dans l'air... une chose qui m'a fait frémir. J'ai ma petite idée sur ce que c'est. En essayant de trouver d'où me venait cette sensation, j'ai découvert dans l'ouest, au manoir de Nordclos, des traces résiduelles d'une invocation démoniaque. A mesure que j'approchais, mon sang frémissait et la rage montait en moi.\n\nSur le sol, j'ai trouvé une Amulette de Pierre de sang, qui est généralement utilisée pour les invocations démoniaques. Celle que j'ai trouvée était déchargée. Il m'en faut une autre pour l'examiner, mais je ne retournerai pas dans le manoir. Pouvez-vous m'en procurer ?",
+   "progress": "Le sang maudit continu de couler dans mes veines, <nom>. Si quelqu'un. . . ou quelque chose invoque des démons, il faut l'arrêter.",
+   "completion": "Il va me falloir un peu de temps pour établir avec certitude les intentions du Syndicat, mais il est évident qu'il est complice des Ténèbres, la magie démoniaque continue de me troubler. Je vous préviendrai quand j'en saurai plus.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2706,
+     "name": "Tor'gan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2706,
+     "name": "Tor'gan"
+    }
+   ],
+   "zone_id": 45,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 2650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "672": {
+   "id": 672,
+   "name": "L'éveil de l'esprit",
+   "objectives": "Récupérer 10 Yeux de raptors des plateaux sur les Arpenteurs des hautes-terres et les Vandales des hautes-terres pour Tor'gan au Trépas-d'Orgrim.",
+   "description": "Nous avons essayé de l’installer confortablement, de le dérider, de lui raconter des histoires sur notre majestueuse cité d'Orgrimmar en Kalimdor, mais rien ne le fait réagir.\n\nLes histoires de notre jeune Chef de guerre Thrall, qui porte l'armure et le marteau d'Orgrim mais, peut-être... Peut-être ! Une démonstration de la nouvelle magie chamanique lui donnera de l'espoir. Ça vaut la peine d'essayer !\n\nNous pourrions peut-être lui fabriquer un petit quelque chose, oui... Amenez-moi quelques Yeux de raptor, et je vais voir ce que je peux faire.",
+   "progress": "Je créerai une amulette qui donnera un peu de la force des raptors à Gor'mul. Cela ranimera peut-être la flamme qui dort en lui. . .",
+   "completion": "Excellent. L'esprit du raptor contenu dans ces yeux va donner de la force au porteur.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2706,
+     "name": "Tor'gan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2706,
+     "name": "Tor'gan"
+    }
+   ],
+   "zone_id": 45,
+   "level": 34,
+   "reqlevel": 29,
+   "side": "horde",
+   "xp": 2700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "673": {
+   "id": 673,
+   "name": "Magies immondes",
+   "objectives": "Trouver l’Orbe de Pierre de sang de Marez Cowl et l’apporter à Tor'gan au Trépas-d'Orgrim.",
+   "description": "Je n'ai plus aucun doute sur le fait qu'un puissant démoniste réside dans l'enceinte de Stromgarde. Régulièrement, en utilisant une relique de magie des arcanes, ce démoniste a invoqué un grand nombre de démons. Nous devons tarir sa source d'énergie.\n\nTrouvez le démoniste et tuez-le. Ramenez-moi sa source d'énergie, elle doit être sur lui, et je m'emploierai à la détruire. Nous verrons alors si le pouvoir de cette chose continue de souiller cette terre...",
+   "progress": "Cette brûlure dans mes veines. . . Elle s’intensifie de jour en jour. Le démoniste doit être arrêté.",
+   "completion": "Mes nuits sans sommeil vont se transformer en nuits douces et paisibles dès que j'aurai détruit cet orbe. Merci, <nom>. C'est un rappel effrayant du pouvoir terrible que les démons détenaient sur les orcs avant qu'Hellscream ne les libère de cette malédiction.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2706,
+     "name": "Tor'gan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2706,
+     "name": "Tor'gan"
+    }
+   ],
+   "zone_id": 45,
+   "level": 40,
+   "reqlevel": 35,
+   "side": "horde",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "674": {
+   "id": 674,
+   "name": "L'éveil de l'esprit",
+   "objectives": "Donner l'Amulette de griffe de raptor à Gor'mul.",
+   "description": "Tenez, donnez cette amulette à Gor'mul, et regardez si la force des raptors peut ranimer la flamme guerrière qui sommeille en lui.",
+   "progress": "Quel espoir reste-t-il quand le plus puissant des puissants peut être assassiné par un lâche ? Quel espoir, je vous le demande !",
+   "completion": "Qu'est-ce que c’est ? De l'os poli. Qu'est-ce que vous voulez que j'en fasse ? Est-ce qu'une babiole peut restaurer la gloire de la Horde ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2706,
+     "name": "Tor'gan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2792,
+     "name": "Gor'mul"
+    }
+   ],
+   "zone_id": 45,
+   "level": 34,
+   "reqlevel": 29,
+   "side": "horde",
+   "xp": 270,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "675": {
+   "id": 675,
+   "name": "L'éveil de l'esprit",
+   "objectives": "Parler à Tor'gan.",
+   "description": "<Gor'mul jette l'amulette au sol.>\n\nTor'gan vous envoie, c'est ça ? Peuh ! Pourquoi est-il si miséricordieux avec moi. Ma propre miséricorde m'a été enlevée le jour où je n'ai pas pu mourir avec mon Chef de guerre au combat. Un mauvais coup du sort...",
+   "progress": null,
+   "completion": "Cela ne marche pas, je vois. Néanmoins, je pense que lui montrer la puissance de la magie des chamans peut peut-être redonner à Gor'mul sa fierté et sa confiance en l'avenir. Le pouvoir de l'amulette n'était pas assez grand pour lui montrer notre nouvelle puissance.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2792,
+     "name": "Gor'mul"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2706,
+     "name": "Tor'gan"
+    }
+   ],
+   "zone_id": 45,
+   "level": 34,
+   "reqlevel": 29,
+   "side": "horde",
+   "xp": 270,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Gor'mul jette l'amulette au sol."
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "677": {
+   "id": 677,
+   "name": "L'appel du combat",
+   "objectives": "Tuer 10 Lanceurs de haches Witherbark, 10 Chasseurs de tête et 8 Sorciers-docteurs, puis retourner voir Drum Fel à l'avant-poste du Trépas-d'Orgrim.",
+   "description": "Les trolls Witherbark et les ogres Rochepoings d'Arathi se sont alliés pour nous éradiquer de cette terre, mais nous ne mourrons pas de leurs mains, ni des mains de personne. Nous allons les tuer et leur montrer que nous aussi possédons notre demeure ici.\n\nLes trolls nous ont refusé leur aide et les ogres, si nous les laissions faire, se serviraient de nous comme nourriture et comme literie. Cela ne sera pas !\n\nNous commençons notre attaque sur les trolls Witherbark, au sud. Tuez-les en masse, et ne revenez que lorsque leur camp sera rempli de leur sang.",
+   "progress": "Si vous n'avez pas encore accompli ma tâche, c'est que vous êtes peut-être un lâche dans l'âme et un novice dans la guerre.",
+   "completion": "Vos vêtements portent des traces du combat, et votre arcade sourcilière saigne. Bien, beau travail.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2771,
+     "name": "Drum Fel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2771,
+     "name": "Drum Fel"
+    }
+   ],
+   "zone_id": 45,
+   "level": 32,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 2550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "678": {
+   "id": 678,
+   "name": "L'appel du combat",
+   "objectives": "Tuer 10 Brutes Rochepoings et 4 Magi Rochepoings, puis retourner voir Drum Fel à l'avant-poste du Trépas-d'Orgrim.",
+   "description": "Votre force ne fait aucun doute, <nom>. Voyons ce que vous valez contre un ennemi digne de ce nom.\n\nLes Rochepoings sont basés au sud-ouest d'ici, vers le pont des nains, et si je ne me trompe pas, les marteleurs et les magi qui s'y trouvent représenteront pour vous un grand défi.\n\nTuez-en un maximum et revenez me voir quand vous aurez fini. Et même si vous n'en revenez pas, je ferai l'éloge de vos exploits sur le champ de bataille.",
+   "progress": "Vous hésitez. Pourquoi ? Vous avez fait preuve d'une grande force jusqu'à présent, <nom>. Ne me décevez pas maintenant.",
+   "completion": "Vous êtes aussi fort qu'un kodo, et votre soif de combat vous honore.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2771,
+     "name": "Drum Fel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2771,
+     "name": "Drum Fel"
+    }
+   ],
+   "zone_id": 45,
+   "level": 38,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 2850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "679": {
+   "id": 679,
+   "name": "L'appel du combat",
+   "objectives": "Tuer 15 Chamans Rochepoings et 10 Seigneurs Rochepoings et revenir voir Drum Fel à l'avant-poste du Trépas-d'Orgrim.",
+   "description": "La tête de la bête est prête à tomber... avec grand fracas, <nom>. Vous avez définitivement prouvé votre valeur au cours de cette dernière bataille. Les commanditaires de ces attaques sont installés dans les ruines de Stromgarde, symbole de la faiblesse humaine.\n\nTrouvez et tuez les seigneurs Rochepoings et leurs laquais chamans, qui essayent de nous repousser hors de nos terres.",
+   "progress": "Je vois que ton courage finit par s'émousser. Il semble que mon instinct ait vu juste à votre sujet : votre force n'est rien comparée à votre bravade.\n\nRevenez me voir quand la tête de la bête aura été tranchée, ou ne revenez plus jamais.",
+   "completion": "Votre peuple doit être fier de vous, <nom>. La menace est moins pressante grâce à vous, et je suis certain que nous allons pouvoir la chasser définitivement de nos terres.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2771,
+     "name": "Drum Fel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2771,
+     "name": "Drum Fel"
+    }
+   ],
+   "zone_id": 45,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 3150,
+   "money": 5000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "680": {
+   "id": 680,
+   "name": "La réelle menace",
+   "objectives": "Tuer Or'Kalar et apporter sa Tête à Korin Fel à l'avant-poste du Trépas-d'Orgrim.",
+   "description": "Vous avez bien servi mon mari, <classe>, mais il ne connaît pas la véritable cause des attaques contre le Trépas-d'Orgrim.\n\nOr'Kalar, le valet de Mug’Thol à Stromgarde, déteste mon mari, et souhaite sa mort depuis qu'il a été vaincu par lui quelques années auparavant.\n\nJ'avais le pressentiment qu'Or'Kalar tendait un piège à mon mari. Je lui ai donc caché les indices comme quoi il était à l'origine de ces attaques.\n\nSinon mon mari aurait foncé tête baissée dans le piège… Je voudrais que vous tuiez cette créature et que vous me rameniez sa tête.",
+   "progress": "Près de la tour d'Arathor, c'est là que vous trouverez Or'Kalar. Sa mort sauvera non seulement la vie de mon mari, mais elle mettra un terme aux attaques incessantes contre le Trépas-d'Orgrim.\n\nJe vois dans vos yeux que vous désapprouvez mon silence. Un jour, vous connaîtrez un amour tel que celui que je connais. Alors vous me comprendrez.\n\nEn attendant, faites ce que je vous ai demandé, et tuez Or'Kalar.",
+   "completion": "Vous m'avez rendu un grand service, <nom>. La vie de mon mari est sauve et la sécurité du Trépas-d'Orgrim assurée, tout cela grâce à vous. Je vous prie de recevoir ceci en récompense.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2772,
+     "name": "Korin Fel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2772,
+     "name": "Korin Fel"
+    }
+   ],
+   "zone_id": 45,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "681": {
+   "id": 681,
+   "name": "Le manoir de Nordclos",
+   "objectives": "Tuer 10 Malandrins du Syndicat et 6 Mercenaires du Syndicat.\n\nRetourner ensuite alors le capitaine Nials au refuge de l'Ornière.",
+   "description": "Nous avons combattu pour Stromgarde, et nous avons perdu. Les ogres, le Syndicat et nous, avons divisé notre grande cité et chaque faction s'est battue contre les autres.\n\nMais nos forces s'épuisent tandis que celles de nos ennemis se renforcent.\n\nIl nous faut l'aide de la ville de Southshore, mais l'approvisionnement reste difficile, car le Syndicat contrôle le territoire entre les deux cités.\n\nAllez au camp du Syndicat situé au manoir de Nordclos et tuez les occupants. Peut-être qu'ensuite, plus de caravanes de ravitaillement arriveront à destination.",
+   "progress": "<nom>, chaque heure perdue rend notre situation plus précaire. Vous devez vous presser ou notre ville tombera.",
+   "completion": "Très bien, <nom>. Avec la mort de ces hommes du Syndicat, nous recevrons plus facilement l’approvisionnement en provenance de Southshore.\n\nL'espoir perdure.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2700,
+     "name": "Capitaine Nials"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2700,
+     "name": "Capitaine Nials"
+    }
+   ],
+   "zone_id": 45,
+   "level": 31,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2500,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "682": {
+   "id": 682,
+   "name": "Les insignes de Stromgarde",
+   "objectives": "Rapporter les Insignes de Stromgarde au capitaine Nials au Refuge de l'Ornière.",
+   "description": "Le Syndicat de Stromgarde est actuellement en guerre contre la milice. Pour inciter la populace à nous affronter aussi, ils ont mis à prix la tête de nos soldats, et donnent de l'or à tous ceux qui apportent un insigne de Stromgarde pris sur un soldat mort.\n\nNous voulons récupérer ces insignes. Nous ne pouvons tolérer que ces manants gardent des trophées de nos braves soldats tombés sur le champ de bataille !\n\nAllez dans la zone contrôlée par le Syndicat et récupérez les insignes.",
+   "progress": "Avez-vous trouvé des insignes de Stromgarde, <nom> ? Le Syndicat doit comprendre qu'il ne peut pas profiter de la mort des nôtres.",
+   "completion": "Merci, <nom>. Nous allons informer les familles de ces soldats qu'ils sont morts au champ de bataille.\n\nCela va leur causer énormément de chagrin, mais il vaut mieux savoir que de rester dans le doute.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2700,
+     "name": "Capitaine Nials"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2700,
+     "name": "Capitaine Nials"
+    }
+   ],
+   "zone_id": 45,
+   "level": 37,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "684": {
+   "id": 684,
+   "name": "On recherche : Marez Cowl",
+   "objectives": "Apporter la tête de Marez au capitaine Nials, au Refuge de l'Ornière.",
+   "description": "La tête de Marez Cowl a été mise à prix. La dernière fois que cette conseillère de haut niveau du Syndicat a été aperçue, c'était dans la zone de Stromgarde contrôlée par le Syndicat.\n\nLa prime peut être réclamée au capitaine Nials.\n\nAttention: Marez est une démoniste rusée et très adroite, et il est de notoriété publique qu'elle fricote avec les démons. Débusquez-la avec une extrême prudence.",
+   "progress": "Alors, <classe>. Vous avez quelque chose ?",
+   "completion": "Avez-vous tué Marez Cowl ? Très bien, <nom>. Vraiment formidable !\n\nMarez était une menace pour les défenseurs de Stromgarde. Une rumeur disait même qu'elle était l'émissaire d'une autre force auprès du Syndicat. Nous sommes heureux qu'elle ne puisse plus utiliser ses pouvoirs contre nous.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 2713,
+     "name": "Wanted Board"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2700,
+     "name": "Capitaine Nials"
+    }
+   ],
+   "zone_id": 45,
+   "level": 39,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "685": {
+   "id": 685,
+   "name": "On recherche : Falconcrest et Otto",
+   "objectives": "Apporter les Têtes de Falconcrest et d'Otto au capitaine Nials au Refuge de l'Ornière.",
+   "description": "La milice de Stromgarde a mis à prix les têtes du seigneur Falconcrest et de son garde du corps Otto. Falconcrest dirige les forces du Syndicat dans les hautes-terres d'Arathi, et sa mort sèmerait le chaos dans ces forces.\n\nSon garde du corps Otto, bien qu'il ne constitue pas une cible stratégique, est un adversaire puissant et il a déjà tué nombre de nos défenseurs.\n\nIl faut aller voir le capitaine Nials pour récolter les primes.",
+   "progress": "Bonjour. Vous avez rapporté quelque chose ?",
+   "completion": "Falconcrest et Otto ? Splendide !\n\nVoilà la récompense, <nom>. Et je suis heureux de la payer.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 2713,
+     "name": "Wanted Board"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2700,
+     "name": "Capitaine Nials"
+    }
+   ],
+   "zone_id": 45,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "687": {
+   "id": 687,
+   "name": "Theldurin l’Egaré",
+   "objectives": "Trouver Theldurin l'Egaré.",
+   "description": "Theldurin l'Egaré était un membre de notre ordre, le Marteau du crépuscule. Il a perdu l'esprit et a rejeté nos enseignements. Et avant de s'enfuir il nous a volé le Parchemin de Myzrael ! Nous n'avons pas pu le rattraper, mais des rumeurs font état de sa présence dans les Terres ingrates, complètement fou et baragouinant n'importe quoi.\n\nPour ramener la Dame, vous devez absolument retrouver le parchemin. Et pour cela vous devez retrouver Theldurin.",
+   "progress": null,
+   "completion": "Salut. Salut, salut salut salut salut SALUT !\n\nJe regrette - attendez, non je ne regrette pas ! Ne soyez pas impoli !\n\nOh non… il s'agissait de folles paroles.\n\nMais… parfois la folie est mon seul réconfort.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2786,
+     "name": "Gerrig Bonegrip"
+    },
+    {
+     "type": "npc",
+     "id": 2787,
+     "name": "Zaruk"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2785,
+     "name": "Theldurin l’Egaré"
+    }
+   ],
+   "zone_id": 45,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 1550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "688": {
+   "id": 688,
+   "name": "Les alliés de Myzrael",
+   "objectives": "Parler à Zaruk au Trépas-d'Orgrim.",
+   "description": "<Myzrael parle>\n\nLibre ! JE SUIS LIBRE ! Je suis libre de rassembler mes forces, hors de portée de mes ravisseurs. Si je les rencontrais maintenant, ils seraient sûrement plus forts que moi et me captureraient à nouveau.\n\nEn temps voulu, j'affronterai les géants, et ils regretteront de m'avoir bannie !\n\nVous êtes d’une aide précieuse, <nom>. J'aurai encore besoin de vous. Quand je serai prête, j'aurai besoin de vous pour m'invoquer à la surface.\n\nParlez avec Zaruk au Trépas-d'Orgrim. Il sait comment m'invoquer.",
+   "progress": null,
+   "completion": "Bonjour, <classe>. La Dame m'a informé de votre passage, et si vous voulez la faire revenir, alors nous avons des tas de choses à nous dire. . .",
+   "starters": [
+    {
+     "type": "object",
+     "id": 2688,
+     "name": "Keystone"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2787,
+     "name": "Zaruk"
+    }
+   ],
+   "zone_id": 45,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 2350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Myzrael parle",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "691": {
+   "id": 691,
+   "name": "Valoir son poids en or",
+   "objectives": "Trouver 10 Défenses de Witherbark, 4 Bourses-médecine Witherbark et un Couteau de Chasseur d'ombre pour l'Apprenti Kryten au Refuge de l'Ornière.",
+   "description": "L’archimage Malin nous a envoyés, Skuerto et moi, collecter des ingrédients. Maintenant que vous êtes là, je sais que je n’aurai pas de problèmes pour trouver ces objets.\n\nJ’ai besoin des objets suivants : des défenses de Witherbark, des bourses-médecine Witherbark et un couteau de chasseur d'ombre.\n\nPourriez-vous me rapporter ces objets ? Les Witherbark vivent au sud-est d’Arathi.",
+   "progress": "Avez-vous été chanceux, <nom> ?\n\nSi mes recherches sont exactes, les défenses peuvent provenir de n'importe quel troll Witherbark. Les bourses-médecines doivent provenir des sorciers-docteurs Witherbark. Et seuls les plus robustes des Chasseurs d'ombre Witherbark portent le couteau qui m’intéresse, ils le reçoivent une fois leur rite de passage achevé. Mais il n'y a aucun moyen de savoir s’ils ont un couteau tant qu'on ne les a pas abattus.",
+   "completion": "Incroyable ! Je comprends pourquoi Malin vous a fait venir – bon boulot !\n\nA ce rythme, Skuerto et moi reviendrons à Stormwind dans très peu de temps.\n\nJe crois que mon ami nain est revenu de sa reconnaissance du Hall Rochepoing ; allez lui parler.\n\nJe pense qu'il a dû avoir une échauffourée avec quelques ogres. Mais ne lui en parlez pas, il est très susceptible quant à ses compétences d'éclaireur, il déteste les critiques à ce propos.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2788,
+     "name": "Apprenti Kryten"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2788,
+     "name": "Apprenti Kryten"
+    }
+   ],
+   "zone_id": 45,
+   "level": 36,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3500,
+   "money": 7500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "693": {
+   "id": 693,
+   "name": "La baguette au poing",
+   "objectives": "Trouver la Baguette d'invocation de Trelane et revenir voir Skuerto au Refuge de l'Ornière.",
+   "description": "Hé <nom> ! Désolé d'avoir été un peu bref, la dernière fois j'étais pris de court... euh, non ce n'est pas un jeu de mots.\n\nJ'ai découvert où le premier objet de Trelane a échoué : c'est Kor'gresh qui l'a au Hall Rochepoing. Pendant que j'y suis : il jette des éclairs de glace sur ses troupes pour qu'elles gardent leur position, ce qui prouve qu'il n'est pas loin de maîtriser tous les pouvoirs de l'objet.\n\nVous trouverez le Hall Rochepoing au sud d'ici puis à l'est du viaduc de Thandol. Trouvez cet ogre et ramenez-moi la baguette.\n\nPendant que vous serez en chemin, je vais voir ce que je peux faire pour Stromgarde.",
+   "progress": "Notre but c'est la baguette, <nom>. Concentrez-vous uniquement sur cet objectif.",
+   "completion": "Excellent, <nom>. Voilà le premier objet, il n'en manque plus que trois, selon ma liste. Les trois autres se trouvent dans Stromgarde.\n\nReposez-vous pour récupérer vos forces, car la prochaine étape de mon plan risque de vous demander beaucoup plus de temps et d'efforts. Revenez me voir quand vous aurez pris un repas chaud et un peu de repos.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2789,
+     "name": "Skuerto"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2789,
+     "name": "Skuerto"
+    }
+   ],
+   "zone_id": 45,
+   "level": 39,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3000,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "694": {
+   "id": 694,
+   "name": "Les défenses de Trelane",
+   "objectives": "Trouver une Agate d'azur et la porter à l'Apprenti Kryten au Refuge de l'Ornière.",
+   "description": "Alors vous êtes d'attaque ?\n\nVoici la prochaine étape : il y a des ogres tout autour de la Tour d'Arathor à Stromgarde. Nous devons activer les défenses de la tour si nous voulons avoir une chance contre eux et sauvegarder les objets. Pour cela, nous avons besoin de ces gemmes que les chamans Rochepoings apprécient particulièrement. Ils les ont récupérées à la tour, mais ils ne vont pas les garder très longtemps.\n\nRécupérez une de ces gemmes, et portez-la à Kryten : il connaît le sort pour l'enchanter afin qu'elle serve de clef.",
+   "progress": "<nom>, re-bonjour. Avez-vous trouvé une Agate d'azur ?",
+   "completion": "Vous me fascinez, <nom>. Vraiment bien joué !\n\nLaissez-moi un moment, le temps de jeter le sort approprié, et tout sera prêt.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2789,
+     "name": "Skuerto"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2788,
+     "name": "Apprenti Kryten"
+    }
+   ],
+   "zone_id": 45,
+   "level": 39,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3000,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "695": {
+   "id": 695,
+   "name": "Enchantement d'Apprenti",
+   "objectives": "Parler à Skuerto.",
+   "description": "Et voilà, <nom>. Il suffit d'appuyer la gemme sur un des piédestaux près de la base de la tour, et ses défenses s'activeront. Utilisez-la pour rentrer dans la tour quand vous serez <prêt/prête> et allez chercher les autres objets de Trelane.\n\nBonne chance à vous ! Je vous attendrai au camp. Oh ! Parlez à Skuerto avant de partir. Il vous donnera tous les détails nécessaires.",
+   "progress": null,
+   "completion": "Bien, bien !\n\nSi vous n'avez pas autre chose à faire, alors commençons.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2788,
+     "name": "Apprenti Kryten"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2789,
+     "name": "Skuerto"
+    }
+   ],
+   "zone_id": 45,
+   "level": 39,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "696": {
+   "id": 696,
+   "name": "Attaque sur la tour",
+   "objectives": "Trouver le Phylactère de Trelane, l'Orbe de Trelane et l'Agathe d'ambre de Trelane. Les rapporter à Skuerto au Refuge de l'Ornière.",
+   "description": "Voici ce qu'il faut récupérer : le Phylactère de Trelane, l'Orbe de Trelane et l'Agate de braise de Trelane.\n\nLes trois objets doivent se trouver dans un coffre dans la tour, vous ne devriez pas avoir de problème pour l'ouvrir ; faites juste attention aux ogres.\n\nLes défenses de la tour ne s'occuperont pas d'eux ; vous devez avoir vos armes prêtes. Quand les ogres remarqueront que vous êtes là pour les voler, ils risquent de ne pas apprécier.\n\nSoyez <prudent/prudente>, et bonne chance.",
+   "progress": "Si vous faites cela, je suis persuadé que Malin vous proposera plus que son amitié.",
+   "completion": "Malin n'aurait pu trouver personne plus compétente à nous envoyer pour nous aider, <nom>. Vous avez accompli un exploit !\n\nIl sera heureux de savoir que la mission est une totale réussite.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2789,
+     "name": "Skuerto"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2789,
+     "name": "Skuerto"
+    }
+   ],
+   "zone_id": 45,
+   "level": 39,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3000,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "prudent/prudente"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "697": {
+   "id": 697,
+   "name": "La demande de Malin",
+   "objectives": "Porter la Lettre scellée à l'archimage Malin dans le quartier des mages de Stormwind.",
+   "description": "Apportez cette lettre à Stormwind et informez Malin que Kryten sera bientôt de retour. Il vous récompensera pour nous avoir aidés, <nom>, sans aucun doute.\n\nBon voyage.",
+   "progress": "Oui ? J'ai l'impression de vous connaître. Excusez-moi, on s'est déjà vu ? Je suis si occupé que j'en perds un peu la tête.",
+   "completion": "<L'archimage Malin ouvre la lettre, et ses yeux s'agrandissent. >\n\nPar la Lumière, vous avez réussi ! C'est un miracle ! Trelane va être si content. Je suis persuadé que Kryten et Skuerto sont aussi excités que moi de les rapporter à Stormwind.\n\nMerci, <nom>. S'il vous plaît, prenez ceci pour vous aider lors de vos voyages.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2789,
+     "name": "Skuerto"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2708,
+     "name": "Archimage Malin"
+    }
+   ],
+   "zone_id": 45,
+   "level": 39,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3750,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "701": {
+   "id": 701,
+   "name": "La ruse du raptor",
+   "objectives": "Récupérer 12 Cœurs de raptor provenant de Charognards des hautes-terres pour Tor'gan.",
+   "description": "Avec quelques petites choses en plus, je serai capable de créer un objet qui donnera à Gor'mul la ruse du raptor ! Avec le pouvoir du raptor en lui, Gor'mul prendra conscience de notre puissance, et le guerrier qui sommeille en lui se réveillera !\n\nJ'ai besoin de cœurs de raptors pour créer l'objet et lancer le sort.",
+   "progress": "Tout est prêt, mais il me manque les cœurs.",
+   "completion": "Oui, cela fonctionne à la perfection. Je vais transférer la puissance et l'esprit du raptor dans cet orbe, qui les communiquera ensuite à Gor'mul.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2706,
+     "name": "Tor'gan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2706,
+     "name": "Tor'gan"
+    }
+   ],
+   "zone_id": 45,
+   "level": 37,
+   "reqlevel": 29,
+   "side": "horde",
+   "xp": 2850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "702": {
+   "id": 702,
+   "name": "La ruse du raptor",
+   "objectives": "Donner l'Orbe de Tor'gan à Gor'mul.",
+   "description": "Prenez cet orbe et utilisez sa magie pour insuffler à Gor'mul l'essence des raptors. Cela va revigorer son esprit et lui redonner goût à la vie. Lorsqu'il sera comme avant, nous lui ferons un résumé de l'activité de la Horde, et il comprendra que pour nos incessantes batailles nous avons besoin d'un grand guerrier.",
+   "progress": "De retour ? Si il y a quelque chose dont je n'ai vraiment pas besoin, c'est bien de la pitié de Tor'gan.\n\nQu'est-ce que vous avez pour moi cette fois-ci ? Un bout de ficelle colorée ? Ou peut-être une corde, que je puisse mettre fin à ma misérable vie. . .",
+   "completion": "Finalement, ce que vous avez apporté semble plus intéressant que je ne le pensais. Cela rayonne d'un étrange pouvoir. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2706,
+     "name": "Tor'gan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2792,
+     "name": "Gor'mul"
+    }
+   ],
+   "zone_id": 45,
+   "level": 37,
+   "reqlevel": 29,
+   "side": "horde",
+   "xp": 285,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "847": {
+   "id": 847,
+   "name": "La ruse du raptor",
+   "objectives": "Parler à Tor'gan.",
+   "description": "Ce… Ce pouvoir… Est-ce le pouvoir des chamans que Tor'gan a essayé de me montrer ? Je dois admettre que c'est intéressant. Dites à Tor'gan qu'il a réussi à me convaincre… pour l'instant. Je vais écouter ce qu'il a à dire.",
+   "progress": null,
+   "completion": "Lorsque l'enchantement s'éteindra, je parlerai à Gor'mul. Je vous remercie d'avoir contribué au retour de Gor'mul dans le monde des vivants. Il ne fait pas de doute qu'il vous remerciera tout autant.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2792,
+     "name": "Gor'mul"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2706,
+     "name": "Tor'gan"
+    }
+   ],
+   "zone_id": 45,
+   "level": 37,
+   "reqlevel": 29,
+   "side": "horde",
+   "xp": 2850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8384": {
+   "id": 8384,
+   "name": "La revendication du bassin d'Arathi",
+   "objectives": "La guerre contre la Horde diminue rapidement nos réserves, <nom>. Il est vital que nous conservions le contrôle du bassin d'Arathi pour que les ressources continuent à nous arriver ! Êtes-vous déjà venue nous donner un coup de main en Arathi ?",
+   "description": "La guerre contre la Horde diminue rapidement nos réserves, <nom>. Il est vital que nous conservions le contrôle du bassin d'Arathi pour que les ressources continuent à nous arriver ! Êtes-vous déjà venue nous donner un coup de main en Arathi ?",
+   "progress": "La guerre contre la Horde diminue rapidement nos réserves, <nom>. Il est vital que nous conservions le contrôle du bassin d'Arathi pour que les ressources continuent à nous arriver ! Êtes-vous déjà venue nous donner un coup de main en Arathi ?",
+   "completion": "Excellent travail, <classe> ! Vos efforts permettront à l’Alliance de recevoir les ressources dont elle a besoin.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "zone_id": 45,
+   "level": 29,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 1200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8438": {
+   "id": 8438,
+   "name": "La conquête du bassin d'Arathi",
+   "objectives": "Apportez 3 Marques d’honneur du bassin d’Arathi à l’un des porteguerres de la Horde, devant les champs de bataille.",
+   "description": "Notre conflit contre l'Alliance est devenu une véritable guerre. Plus personne n'a besoin de faux prétextes pour aller au combat, ni l'Alliance, ni la Horde.\n\nLa bataille pour le bassin d'Arathi est une guerre économique, ni plus ni moins. Soit l'Alliance obtient ces ressources et les utilise contre nous, soit nous nous en emparons pour soutenir notre effort de guerre. Aidez les Profanateurs à assurer notre approvisionnement, <nom> !",
+   "progress": "Vous êtes revenu avec des nouvelles d'Arathi, <classe> ?",
+   "completion": "Sécuriser nos ressources à Arathi est une tâche importante ! Tu as bien travaillé, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "zone_id": 45,
+   "level": 59,
+   "reqlevel": 50,
+   "side": "horde",
+   "xp": 6400,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "79624": {
+   "id": 79624,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 217300,
+     "name": "Skonk"
+    }
+   ],
+   "zone_id": 45,
+   "level": 40,
+   "reqlevel": 32,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "92519": {
+   "id": 92519,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 45,
+   "level": 36,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "92707": {
+   "id": 92707,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 45,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "92867": {
+   "id": 92867,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 45,
+   "level": 39,
+   "reqlevel": 32,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "92872": {
+   "id": 92872,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 45,
+   "level": 38,
+   "reqlevel": 32,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "97539": {
+   "id": 97539,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 12920,
+     "name": "Docteur Gregory Victor"
+    }
+   ],
+   "enders": [],
+   "zone_id": 45,
+   "level": 36,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

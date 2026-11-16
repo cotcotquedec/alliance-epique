@@ -286,6 +286,41 @@ describe("player window", function()
     assert.equals("face", (PlayerFrame.Visual()))
   end)
 
+  it("makes the medallion's ring glow while its quest plays, the portrait still, then fades it out", function()
+    local PlayerFrame, Player = ForeverSpeech.PlayerFrame, ForeverSpeech.Player
+    _G.SetPortraitTextureFromCreatureDisplayID = function() end
+    questDetail(18)
+    _G.ForeverSpeechIndex = { version = 9, quests = { [18] = { giver = 823 } },
+      npcs = { [823] = { display = 2072, name = "Adjoint Willem" } } }
+    PlayerFrame.ShowQuest(18)
+    local top = PlayerFrame.ListPanel():GetParent().glowTop
+    local alpha = 0
+    top.glow.SetAlpha = function(_, a) alpha = a end
+    Player.PlayQuest(18)
+    assert.equals("face", (PlayerFrame.Visual()))
+    local update = top:GetScript("OnUpdate")
+    assert.is_function(update)
+    for _ = 1, 10 do update(top, 0.1) end
+    assert.is_true(alpha > 0.2) -- glowing
+    Player.Stop()
+    for _ = 1, 10 do update(top, 0.1) end
+    _G.SetPortraitTextureFromCreatureDisplayID = nil
+    assert.equals(0, alpha)
+    assert.is_nil(top:GetScript("OnUpdate")) -- faded out, stopped
+    assert.equals("face", (PlayerFrame.Visual()))
+  end)
+
+  it("keeps the medallion's ring still while it plays when the setting is off", function()
+    local PlayerFrame, Player = ForeverSpeech.PlayerFrame, ForeverSpeech.Player
+    ForeverSpeechDB.talkAnim = false
+    questDetail(18)
+    _G.ForeverSpeechIndex = { version = 9, quests = { [18] = { giver = 823 } },
+      npcs = { [823] = { display = 2072, name = "Adjoint Willem" } } }
+    PlayerFrame.ShowQuest(18)
+    Player.PlayQuest(18)
+    assert.is_nil(PlayerFrame.ListPanel():GetParent().glowTop:GetScript("OnUpdate"))
+  end)
+
   it("remembers that it was open, and opens again when the world is entered after a reload", function()
     local PlayerFrame = ForeverSpeech.PlayerFrame
     questDetail(18)

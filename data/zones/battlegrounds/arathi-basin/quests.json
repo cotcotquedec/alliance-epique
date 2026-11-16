@@ -1,0 +1,2971 @@
+{
+ "schema": 1,
+ "zone": "battlegrounds/arathi-basin",
+ "zone_id": 3358,
+ "zone_name": "Bassin d'Arathi",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 56,
+  "complete": 29,
+  "incomplete": 27,
+  "unavailable": 0,
+  "missing_description": 9,
+  "missing_giver": 20,
+  "new_in_forever": 0,
+  "gendered": 7
+ },
+ "quests": {
+  "8080": {
+   "id": 8080,
+   "name": "Les ressources du bassin d'Arathi",
+   "objectives": "Gagnez la bataille pour le bassin d'Arathi, obtenez une Caisse de resssources d'Arathi et rapportez-la au sergent Maclear au Refuge de l'Ornière.",
+   "description": "Une guerre se fait avec des soldats - tous les soldats pourront vous le confirmer. Ils vous diront aussi que livrer bataille l'estomac vide, avec un mauvais équipement, est une garantie de défaite !\n\nC'est pour cette raison que le bassin d'Arathi est si important. Certains endroits clés de cette région contiennent des ressources essentielles. Des métaux, des armes, de la nourriture, du bois… Tout ce dont nous avons besoin se trouve là-bas !\n\nVoici ce que je veux que vous fassiez, <nom>. Entrez dans le bassin d'Arathi, remportez la bataille en contrôlant plus de bases que l'ennemi, et revenez me voir avec une caisse de ressources.",
+   "progress": "Avez-vous les marques d'honneur, <nom> ? La Ligue d'Arathor ne peut pas mener une bataille décente sans elles...",
+   "completion": "Vous avez obtenu la note ! Beau travail ! Je vais envoyer les ressources à nos quartiers-maîtres, qui pourront les distribuer rapidement à nos troupes.\n\nMerci, <nom>. C'est en effet en menant à bien des missions comme celle que vous avez réalisée que l'on gagne vraiment les guerres.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 55,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 8450,
+   "money": 25000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8081": {
+   "id": 8081,
+   "name": "Plus de caisses de ressources",
+   "objectives": "Gagnez la bataille pour le Bassin Arathi, obtenez une Caisse de ressources arathies et rapportez-la au sergent Maclear au Refuge de l'Ornière.",
+   "description": "Une guerre se fait avec des soldats - tous les soldats pourront vous le confirmer. Ils vous diront aussi que livrer bataille l'estomac vide, avec un mauvais équipement, est une garantie de défaite !\n\nC'est pour cette raison que le bassin Arathi est si important. Certains endroits clés de cette région contiennent des ressources essentielles. Des métaux, des armes, de la nourriture, du bois… Tout ce dont nous avons besoin se trouve là-bas !\n\nVoici ce que je veux que vous fassiez, <nom>. Entrez dans le bassin Arathi, remportez la bataille en contrôlant plus de bases que l'ennemi, et revenez me voir avec une caisse de ressources.",
+   "progress": "<nom>, la League of Arathor a pour mission permanente de vous faire rentrer dans le bassin d'Arathi, de vous procurer plus de caisses de ressources et de me les apporter.",
+   "completion": "Très bien. Je les transmettrai immédiatement à nos quartiers-maîtres, et mes supérieurs recevront une lettre de félicitations pour vos actions.\n\nEncore une fois, merci <nom>. Vos contributions à nos luttes sont remarquées par les fantassins comme par les maréchaux.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 55,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8105": {
+   "id": 8105,
+   "name": "La bataille pour le bassin d'Arathi !",
+   "objectives": "Attaquez la mine, la scierie, la forge et la ferme, puis revenez voir le grand maréchal Oslight au Refuge de l'Ornière.",
+   "description": "La bataille pour le bassin d’Arathi est un combat pour les ressources et les terres, <nom>. Les points clés de la région doivent être protégés et maintenus en état de fonctionner pour qu’ils continuent à fournir à nos troupes les matériaux bruts et les approvisionnements qui leur sont si nécessaires Je vous charge d’attaquer les points les plus éloignés de notre base du bassin d’Arathi.\n\nAttaquez la ferme, la mine, la scierie et la forge quand elles sont contrôlées par l’ennemi. Trouvez la bannière de l’adversaire et arrachez-là de son mât !\n\nQuand vous aurez réussi ces objectifs pour ces quatre points clés, revenez me voir.",
+   "progress": "<nom>, vous n'avez pas encore pris d'assaut les quatre bases. Revenez me voir lorsque vos objectifs seront atteints.",
+   "completion": "J'ai reçu des rapports sur vos exploits dans le bassin d'Arathi, <nom>. Bravo ! Avec ceux qui, comme vous, se joignent à la lutte, j'ai la conviction que nous reprendrons un jour nos terres.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14983,
+     "name": "Grand maréchal Oslight"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14983,
+     "name": "Grand maréchal Oslight"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 55,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 5650,
+   "money": 16500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8114": {
+   "id": 8114,
+   "name": "Contrôler quatre bases",
+   "objectives": "Entrez dans le Bassin Arathi, capturez et contrôlez quatre bases simultanément, puis revenez voir le grand maréchal Oslight au Refuge de l'Ornière.",
+   "description": "<nom>, vous avez pris part à la bataille du bassin d'Arathi contre nos ennemis, et acquis un grand honneur sur ce champ de bataille. Vous nous avez démontré que vous êtes un <classe> de grande valeur, et nos adversaires ont bien compris que vous ne vous soumettrez pas à leur félonie !\n\nPuisque vous êtes si <doué/douée>, je vais vous confier une tâche difficile. Je veux que vous preniez et teniez au moins quatre des bases du bassin d'Arathi. Si vous y parvenez, non seulement nous nous assurerons de la possession de ressources vitales, mais nous montrerons notre puissance à la Horde !\n\nAllez, <nom>, bonne chance.",
+   "progress": null,
+   "completion": "Très bon travail, <nom> ! Un éclaireur enthousiaste m'a fait part de vos exploits. La Ligue d'Arathor est très satisfaite !\n\nVous devenez rapidement un héros local parmi les soldats de la Ligue, et votre exploit d'aujourd'hui prouve une fois de plus votre excellente réputation.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14983,
+     "name": "Grand maréchal Oslight"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14983,
+     "name": "Grand maréchal Oslight"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 9950,
+   "money": 27000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "doué/douée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8115": {
+   "id": 8115,
+   "name": "Prendre cinq bases",
+   "objectives": "Contrôlez 5 bases du bassin d'Arathi simultanément, puis revenez voir le grand maréchal Oslight au Refuge de l'Ornière.",
+   "description": "Se battre pour s'approprier les ressources du bassin d'Arathi est une entreprise sanglante, <nom>. Le service que vous rendez à la Ligue d'Arathor est aussi nécessaire qu'apprécié.\n\nEt nous avons une tâche supplémentaire à vous confier.\n\nLa Ligue souhaite lancer une puissante offensive contre l'occupation du bassin d'Arathi par les Profanateurs. Nous voulons les chasser de tous les points stratégiques du champ de bataille !\n\nCe ne sera pas facile, mais si quelqu'un peut y parvenir, c'est bien vous.",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14983,
+     "name": "Grand maréchal Oslight"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14983,
+     "name": "Grand maréchal Oslight"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 9950,
+   "money": 27000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8120": {
+   "id": 8120,
+   "name": "La bataille pour le bassin d'Arathi !",
+   "objectives": "Attaquez la mine, la scierie, la forge et l’écurie du bassin d’Arathi, puis revenez voir le Maître noir Dwire, au Trépas-d’Orgrim.",
+   "description": "Comme vous l’avez sûrement entendu, la Ligue d’Arathor envoie un grand nombre de troupes dans le bassin d’Arathi. Avides de nourriture et de matières premières, ces fous de l’Alliance ont l’intention de prendre et de contrôler les riches ressources de cette région. Nous devons leur montrer qu’Arathi ne sera plus jamais le foyer de pitoyables humains !\n\nAllez dans le bassin d’Arathi et attaquez la mine, la scierie, la forge et l’écurie. Mettez à bas la bannière de l’ennemi, et emparez-vous de ces territoires pour la Horde.\n\nAllez, <nom>. Revenez me voir quand vous aurez accompli votre tâche.",
+   "progress": null,
+   "completion": "Un éclaireur des Profanateurs m’a rapporté la nouvelle de votre succès, <nom>. Bien joué.\n\nComme vous l’apprendrez bientôt, pour gagner la bataille d’Arathi, nous devons rester vigilants et écraser toutes les tentatives d’expansion de l’Alliance. Si nous y parvenons, notre victoire est assurée.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15021,
+     "name": "Maître noir Dwire"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15021,
+     "name": "Maître noir Dwire"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 55,
+   "reqlevel": 50,
+   "side": "horde",
+   "xp": 5650,
+   "money": 16500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8121": {
+   "id": 8121,
+   "name": "Prendre quatre bases",
+   "objectives": "Contrôlez quatre bases du bassin d'Arathi simultanément, puis revenez voir le Maître noir Dwire, au Trépas-d’Orgrim.",
+   "description": "Alors que les combats pour le bassin d’Arathi font rage, le récit de vos exploits est parvenu à de nombreuses oreilles, <nom>. Vous êtes très bien <considéré/considérée> dans nos rangs, et je suis certain que vous réussirez la mission que je vais vous confier.\n\nIl est temps d’envoyer un message à la Ligue d’Arathor. Nous devons leur démontrer que leurs installations dans le bassin d’Arathi sont précaires, et qu’ils peuvent les perdre rapidement. Et nous allons le faire en prenant le contrôle, d’un coup, de quatre points stratégiques du bassin d’Arathi.\n\nSi vous réussissez cette mission, <nom>, vous acquerrez un grand respect chez les Profanateurs.",
+   "progress": null,
+   "completion": "Bon travail, <nom> ! Vos derniers engagements dans le bassin d’Arathi étaient assez difficiles, et votre réussite est digne d’éloge. La Ligue d’Arathor semble reculer après les récentes escarmouches, et doit être en train de panser ses blessures. Espérons qu’elle réexaminera sa décision de combattre dans cette région.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15021,
+     "name": "Maître noir Dwire"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15021,
+     "name": "Maître noir Dwire"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "horde",
+   "xp": 9950,
+   "money": 27000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "considéré/considérée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8122": {
+   "id": 8122,
+   "name": "Prendre cinq bases",
+   "objectives": "Contrôlez 5 bases du Bassin Arathi simultanément, puis revenez voir le Maître de la mort Dwire, au Trépas-d’Orgrim.",
+   "description": "Il est difficile de se rendre compte de la situation, tant le conflit est intense. Mais nos espions nous ont signalé un certain affaiblissement de la détermination de la Ligue d'Arathor. Nous devons profiter de cette opportunité et lancer une attaque brutale ! Retournez dans le bassin d'Arathi et chargez nos ennemis. Maudissez-les, tuez-les, et contrôlez les cinq bases stratégiques ! Que sous vos coups leurs soldats ensanglantés s'enfuient du front en hurlant, pour répandre partout l'histoire de votre cruauté.\n\nAllez, et remportez une grande victoire pour les Profanateurs !",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15021,
+     "name": "Maître noir Dwire"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15021,
+     "name": "Maître noir Dwire"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "horde",
+   "xp": 9950,
+   "money": 27000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8123": {
+   "id": 8123,
+   "name": "Couper les voies de ravitaillement d'Arathor",
+   "objectives": "Gagnez la bataille pour le bassin d'Arathi, obtenez une Caisse de resssources d'Arathi et rapportez-la au Traqueur noir Mortis au Trépas-d'Orgrim.",
+   "description": "La Ligue d'Arathor n'épargne aucune dépense dans sa tentative de reprise du bassin d'Arathi. Avec l'aide de tous les peuples de l'Alliance, qui se rendent maintenant en masse vers cette région lointaine, elle a l'intention d'étendre son emprise depuis le refuge de l'Ornière. Nous devons les arrêter, et le meilleur moyen d'y parvenir est de nous emparer de leurs réserves.\n\nVous pouvez nous aider, <nom>. Entrez dans le bassin d'Arathi, connu pour ses mines productives, ses terres fertiles et ses artisans habiles. Capturez et contrôlez un maximum de bases, remportez la bataille, et revenez me voir avec les ressources dont vous vous serez <emparé/emparée>.",
+   "progress": "Qu'est-ce que c'est, <race> ? Avez-vous les marques d'honneur ? Retourne au bassin d'Arathi, tue la vermine de l'Alliance et prends possession de ses ressources pour la Dame Sombre !",
+   "completion": "<La Brute Mortis sourit>\n\nUn nouveau coup décisif a été porté à nos ennemis, <nom>. Grâce à tes actes, le bassin d'Arathi sera bientôt pris d'assaut par les Defilers.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 55,
+   "reqlevel": 50,
+   "side": "horde",
+   "xp": 8450,
+   "money": 25000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "emparé/emparée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8124": {
+   "id": 8124,
+   "name": "Plus de caisses de ressources",
+   "objectives": "Gagnez la bataille pour le Bassin Arathi, obtenez une Caisse de ressources arathies et rapportez-la au nécrotraqueur Mortis au Trépas-d'Orgrim.",
+   "description": "La Ligue d'Arathor n'épargne aucune dépense dans sa tentative de reprise du bassin Arathi. Avec l'aide de tous les peuples de l'Alliance, qui se rendent maintenant en masse vers cette région lointaine, elle a l'intention d'étendre son emprise depuis le refuge de l'Ornière. Nous devons les arrêter, et le meilleur moyen d'y parvenir est de nous emparer de leurs réserves.\n\nVous pouvez nous aider, <nom>. Entrez dans le bassin Arathi, connu pour ses mines productives, ses terres fertiles et ses artisans habiles. Capturez et contrôlez un maximum de bases, remportez la bataille, et revenez me voir avec les ressources dont vous vous serez <emparé/emparée>.",
+   "progress": "<nom>, les Defilers ont pour mission permanente de rentrer dans le bassin d'Arathi, de se procurer plus de caisses de ressources et de me les apporter.",
+   "completion": "Très bien. Je les transmettrai immédiatement à nos quartiers-maîtres, et mes supérieurs recevront une lettre de félicitations pour vos actions.\n\nEncore une fois, merci <nom>. Votre contribution à nos luttes est remarquée par les simples soldats comme par les grands chefs de guerre.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 55,
+   "reqlevel": 50,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "emparé/emparée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8154": {
+   "id": 8154,
+   "name": "Les ressources du bassin d'Arathi",
+   "objectives": "Gagnez la bataille pour le bassin d'Arathi, obtenez une Caisse de resssources d'Arathi et rapportez-la au sergent Maclear au Refuge de l'Ornière.",
+   "description": "Une guerre se fait avec des soldats - tous les soldats pourront vous le confirmer. Ils vous diront aussi que livrer bataille l'estomac vide, avec un mauvais équipement, est une garantie de défaite !\n\nC'est pour cette raison que le bassin d'Arathi est si important. Certains endroits clés de cette région contiennent des ressources essentielles. Des métaux, des armes, de la nourriture, du bois… Tout ce dont nous avons besoin se trouve là-bas !\n\nVoici ce que je veux que vous fassiez, <nom>. Entrez dans le bassin d'Arathi, remportez la bataille en contrôlant plus de bases que l'ennemi, et revenez me voir avec une caisse de ressources.",
+   "progress": "Avez-vous les marques d'honneur, <nom> ? La Ligue d'Arathor ne peut pas mener une bataille décente sans elles...",
+   "completion": "Vous avez obtenu la note ! Beau travail ! Je vais envoyer les ressources à nos quartiers-maîtres, qui pourront les distribuer rapidement à nos troupes.\n\nMerci, <nom>. C'est en effet en menant à bien des missions comme celle que vous avez réalisée que l'on gagne vraiment les guerres.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 5850,
+   "money": 19500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8155": {
+   "id": 8155,
+   "name": "Les ressources du bassin d'Arathi",
+   "objectives": "Gagnez la bataille pour le bassin d'Arathi, obtenez une Caisse de resssources d'Arathi et rapportez-la au sergent Maclear au Refuge de l'Ornière.",
+   "description": "Une guerre se fait avec des soldats - tous les soldats pourront vous le confirmer. Ils vous diront aussi que livrer bataille l'estomac vide, avec un mauvais équipement, est une garantie de défaite !\n\nC'est pour cette raison que le bassin d'Arathi est si important. Certains endroits clés de cette région contiennent des ressources essentielles. Des métaux, des armes, de la nourriture, du bois… Tout ce dont nous avons besoin se trouve là-bas !\n\nVoici ce que je veux que vous fassiez, <nom>. Entrez dans le bassin d'Arathi, remportez la bataille en contrôlant plus de bases que l'ennemi, et revenez me voir avec une caisse de ressources.",
+   "progress": "Avez-vous les marques d'honneur, <nom> ? La Ligue d'Arathor ne peut pas mener une bataille décente sans elles...",
+   "completion": "Vous avez obtenu la note ! Beau travail ! Je vais envoyer les ressources à nos quartiers-maîtres, qui pourront les distribuer rapidement à nos troupes.\n\nMerci, <nom>. C'est en effet en menant à bien des missions comme celle que vous avez réalisée que l'on gagne vraiment les guerres.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 2000,
+   "money": 5500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8156": {
+   "id": 8156,
+   "name": "Les ressources du bassin d'Arathi",
+   "objectives": "Gagnez la bataille pour le bassin d'Arathi, obtenez une Caisse de resssources d'Arathi et rapportez-la au sergent Maclear au Refuge de l'Ornière.",
+   "description": "Une guerre se fait avec des soldats - tous les soldats pourront vous le confirmer. Ils vous diront aussi que livrer bataille l’estomac vide, avec un mauvais équipement, est une garantie de défaite !\n\nC’est pour cette raison que le bassin d’Arathi est si important. Certains endroits clés de cette région contiennent des ressources essentielles. Des métaux, des armes, de la nourriture, du bois… Tout ce dont nous avons besoin se trouve là-bas !\n\nVoici ce que je veux que vous fassiez, <nom>. Entrez dans le bassin d’Arathi, remportez la bataille en contrôlant plus de bases que l’ennemi, et revenez me voir avec une caisse de ressources.",
+   "progress": "Avez-vous les marques d'honneur, <nom> ? La Ligue d'Arathor ne peut pas mener une bataille décente sans elles...",
+   "completion": "Vous avez obtenu la note ! Beau travail ! Je vais envoyer les ressources à nos quartiers-maîtres, qui pourront les distribuer rapidement à nos troupes.\n\nMerci, <nom>. C'est en effet en menant à bien des missions comme celle que vous avez réalisée que l'on gagne vraiment les guerres.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3450,
+   "money": 11000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8157": {
+   "id": 8157,
+   "name": "Plus de caisses de ressources",
+   "objectives": "Gagnez la bataille pour le Bassin Arathi, obtenez une Caisse de ressources arathies et rapportez-la au sergent Maclear au Refuge de l'Ornière.",
+   "description": "Une guerre se fait avec des soldats - tous les soldats pourront vous le confirmer. Ils vous diront aussi que livrer bataille l'estomac vide, avec un mauvais équipement, est une garantie de défaite !\n\nC'est pour cette raison que le bassin Arathi est si important. Certains endroits clés de cette région contiennent des ressources essentielles. Des métaux, des armes, de la nourriture, du bois… Tout ce dont nous avons besoin se trouve là-bas !\n\nVoici ce que je veux que vous fassiez, <nom>. Entrez dans le bassin Arathi, remportez la bataille en contrôlant plus de bases que l'ennemi, et revenez me voir avec une caisse de ressources.",
+   "progress": "<nom>, la League of Arathor a pour mission permanente de vous faire rentrer dans le bassin d'Arathi, de vous procurer plus de caisses de ressources et de me les apporter.",
+   "completion": "Très bien. Je les transmettrai immédiatement à nos quartiers-maîtres, et mes supérieurs recevront une lettre de félicitations pour vos actions.\n\nEncore une fois, merci <nom>. Vos contributions à nos luttes sont remarquées par les fantassins comme par les maréchaux.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8158": {
+   "id": 8158,
+   "name": "Plus de caisses de ressources",
+   "objectives": "Gagnez la bataille pour le Bassin Arathi, obtenez une Caisse de ressources arathies et rapportez-la au sergent Maclear au Refuge de l'Ornière.",
+   "description": "Une guerre se fait avec des soldats - tous les soldats pourront vous le confirmer. Ils vous diront aussi que livrer bataille l'estomac vide, avec un mauvais équipement, est une garantie de défaite !\n\nC'est pour cette raison que le bassin Arathi est si important. Certains endroits clés de cette région contiennent des ressources essentielles. Des métaux, des armes, de la nourriture, du bois… Tout ce dont nous avons besoin se trouve là-bas !\n\nVoici ce que je veux que vous fassiez, <nom>. Entrez dans le bassin Arathi, remportez la bataille en contrôlant plus de bases que l'ennemi, et revenez me voir avec une caisse de ressources.",
+   "progress": "<nom>, la League of Arathor a pour mission permanente de vous faire rentrer dans le bassin d'Arathi, de vous procurer plus de caisses de ressources et de me les apporter.",
+   "completion": "Très bien. Je les transmettrai immédiatement à nos quartiers-maîtres, et mes supérieurs recevront une lettre de félicitations pour vos actions.\n\nEncore une fois, merci <nom>. Vos contributions à nos luttes sont remarquées par les fantassins comme par les maréchaux.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8159": {
+   "id": 8159,
+   "name": "Plus de caisses de ressources",
+   "objectives": "Gagnez la bataille pour le Bassin Arathi, obtenez une Caisse de ressources arathies et rapportez-la au sergent Maclear au Refuge de l'Ornière.",
+   "description": "Une guerre se fait avec des soldats - tous les soldats pourront vous le confirmer. Ils vous diront aussi que livrer bataille l'estomac vide, avec un mauvais équipement, est une garantie de défaite !\n\nC'est pour cette raison que le bassin Arathi est si important. Certains endroits clés de cette région contiennent des ressources essentielles. Des métaux, des armes, de la nourriture, du bois… Tout ce dont nous avons besoin se trouve là-bas !\n\nVoici ce que je veux que vous fassiez, <nom>. Entrez dans le bassin Arathi, remportez la bataille en contrôlant plus de bases que l'ennemi, et revenez me voir avec une caisse de ressources.",
+   "progress": "<nom>, la League of Arathor a pour mission permanente de vous faire rentrer dans le bassin d'Arathi, de vous procurer plus de caisses de ressources et de me les apporter.",
+   "completion": "Très bien. Je les transmettrai immédiatement à nos quartiers-maîtres, et mes supérieurs recevront une lettre de félicitations pour vos actions.\n\nEncore une fois, merci <nom>. Vos contributions à nos luttes sont remarquées par les fantassins comme par les maréchaux.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8160": {
+   "id": 8160,
+   "name": "Couper les voies de ravitaillement d'Arathor",
+   "objectives": "Gagnez la bataille pour le bassin d'Arathi, obtenez une Caisse de resssources d'Arathi et rapportez-la au Traqueur noir Mortis au Trépas-d'Orgrim.",
+   "description": "La Ligue d'Arathor n'épargne aucune dépense dans sa tentative de reprise du bassin d'Arathi. Avec l'aide de toutes les races de l'Alliance, qui se rendent maintenant en masse vers cette région lointaine, elle a l'intention d'étendre son emprise depuis le Refuge de l'Ornière. Nous devons les arrêter, et le meilleur moyen d'y parvenir est de nous emparer de leurs réserves.\n\nVous pouvez nous aider, <nom>. Entrez dans le bassin d'Arathi, connu pour ses mines productives, ses terres fertiles et ses artisans habiles. Capturez et contrôlez un maximum de bases, remportez la bataille, et revenez me voir avec les ressources dont vous vous serez emparé.",
+   "progress": "Qu'est-ce que c'est, <race> ? Avez-vous les marques d'honneur ? Retourne au bassin d'Arathi, tue la vermine de l'Alliance et prends possession de ses ressources pour la Dame Sombre !",
+   "completion": "<La Brute Mortis sourit>\n\nUn nouveau coup décisif a été porté à nos ennemis, <nom>. Grâce à tes actes, le bassin d'Arathi sera bientôt pris d'assaut par les Defilers.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 5850,
+   "money": 19500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8161": {
+   "id": 8161,
+   "name": "Couper les voies de ravitaillement d'Arathor",
+   "objectives": "Gagnez la bataille pour le bassin d'Arathi, obtenez une Caisse de resssources d'Arathi et rapportez-la au Traqueur noir Mortis au Trépas-d'Orgrim.",
+   "description": "La Ligue d’Arathor n’épargne aucune dépense dans sa tentative de reprise du bassin d’Arathi. Avec l’aide de toutes les races de l’Alliance, qui se rendent maintenant en masse vers cette région lointaine, elle a l’intention d’étendre son emprise depuis le Refuge de l’Ornière. Nous devons les arrêter, et le meilleur moyen d’y parvenir est de nous emparer de leurs réserves.\n\nVous pouvez nous aider, <nom>. Entrez dans le bassin d’Arathi, connu pour ses mines productives, ses terres fertiles et ses artisans habiles. Capturez et contrôlez un maximum de bases, remportez la bataille, et revenez me voir avec les ressources dont vous vous serez emparé.",
+   "progress": "Qu'est-ce que c'est, <race> ? Avez-vous les marques d'honneur ? Retourne au bassin d'Arathi, tue la vermine de l'Alliance et prends possession de ses ressources pour la Dame Sombre !",
+   "completion": "<La Brute Mortis sourit>\n\nUn nouveau coup décisif a été porté à nos ennemis, <nom>. Grâce à tes actes, le bassin d'Arathi sera bientôt pris d'assaut par les Defilers.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 3450,
+   "money": 11000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8162": {
+   "id": 8162,
+   "name": "Couper les voies de ravitaillement d'Arathor",
+   "objectives": "Gagnez la bataille pour le bassin d'Arathi, obtenez une Caisse de resssources d'Arathi et rapportez-la au Traqueur noir Mortis au Trépas-d'Orgrim.",
+   "description": "La Ligue d'Arathor n'épargne aucune dépense dans sa tentative de reprise du bassin d'Arathi. Avec l'aide de toutes les races de l'Alliance, qui se rendent maintenant en masse vers cette région lointaine, elle a l'intention d'étendre son emprise depuis le Refuge de l'Ornière. Nous devons les arrêter, et le meilleur moyen d'y parvenir est de nous emparer de leurs réserves.\n\nVous pouvez nous aider, <nom>. Entrez dans le bassin d'Arathi, connu pour ses mines productives, ses terres fertiles et ses artisans habiles. Capturez et contrôlez un maximum de bases, remportez la bataille, et revenez me voir avec les ressources dont vous vous serez emparé.",
+   "progress": "Qu'est-ce que c'est, <race> ? Avez-vous les marques d'honneur ? Retourne au bassin d'Arathi, tue la vermine de l'Alliance et prends possession de ses ressources pour la Dame Sombre !",
+   "completion": "<La Brute Mortis sourit>\n\nUn nouveau coup décisif a été porté à nos ennemis, <nom>. Grâce à tes actes, le bassin d'Arathi sera bientôt pris d'assaut par les Defilers.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 2000,
+   "money": 5500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8163": {
+   "id": 8163,
+   "name": "Plus de caisses de ressources",
+   "objectives": "Gagnez la bataille pour le Bassin Arathi, obtenez une Caisse de ressources arathies et rapportez-la au nécrotraqueur Mortis au Trépas-d'Orgrim.",
+   "description": "La Ligue d'Arathor n'épargne aucune dépense dans sa tentative de reprise du bassin Arathi. Avec l'aide de tous les peuples de l'Alliance, qui se rendent maintenant en masse vers cette région lointaine, elle a l'intention d'étendre son emprise depuis le refuge de l'Ornière. Nous devons les arrêter, et le meilleur moyen d'y parvenir est de nous emparer de leurs réserves.\n\nVous pouvez nous aider, <nom>. Entrez dans le bassin Arathi, connu pour ses mines productives, ses terres fertiles et ses artisans habiles. Capturez et contrôlez un maximum de bases, remportez la bataille, et revenez me voir avec les ressources dont vous vous serez <emparé/emparée>.",
+   "progress": "<nom>, les Defilers ont pour mission permanente de rentrer dans le bassin d'Arathi, de se procurer plus de caisses de ressources et de me les apporter.",
+   "completion": "Très bien. Je les transmettrai immédiatement à nos quartiers-maîtres, et mes supérieurs recevront une lettre de félicitations pour vos actions.\n\nEncore une fois, merci <nom>. Votre contribution à nos luttes est remarquée par les simples soldats comme par les grands chefs de guerre.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "emparé/emparée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8164": {
+   "id": 8164,
+   "name": "Plus de caisses de ressources",
+   "objectives": "Gagnez la bataille pour le Bassin Arathi, obtenez une Caisse de ressources arathies et rapportez-la au nécrotraqueur Mortis au Trépas-d'Orgrim.",
+   "description": "La Ligue d'Arathor n'épargne aucune dépense dans sa tentative de reprise du bassin Arathi. Avec l'aide de tous les peuples de l'Alliance, qui se rendent maintenant en masse vers cette région lointaine, elle a l'intention d'étendre son emprise depuis le refuge de l'Ornière. Nous devons les arrêter, et le meilleur moyen d'y parvenir est de nous emparer de leurs réserves.\n\nVous pouvez nous aider, <nom>. Entrez dans le bassin Arathi, connu pour ses mines productives, ses terres fertiles et ses artisans habiles. Capturez et contrôlez un maximum de bases, remportez la bataille, et revenez me voir avec les ressources dont vous vous serez <emparé/emparée>.",
+   "progress": "<nom>, les Defilers ont pour mission permanente de rentrer dans le bassin d'Arathi, de se procurer plus de caisses de ressources et de me les apporter.",
+   "completion": "Très bien. Je les transmettrai immédiatement à nos quartiers-maîtres, et mes supérieurs recevront une lettre de félicitations pour vos actions.\n\nEncore une fois, merci <nom>. Votre contribution à nos luttes est remarquée par les simples soldats comme par les grands chefs de guerre.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "emparé/emparée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8165": {
+   "id": 8165,
+   "name": "Plus de caisses de ressources",
+   "objectives": "Gagnez la bataille pour le Bassin Arathi, obtenez une Caisse de ressources arathies et rapportez-la au nécrotraqueur Mortis au Trépas-d'Orgrim.",
+   "description": "La Ligue d'Arathor n'épargne aucune dépense dans sa tentative de reprise du bassin Arathi. Avec l'aide de tous les peuples de l'Alliance, qui se rendent maintenant en masse vers cette région lointaine, elle a l'intention d'étendre son emprise depuis le refuge de l'Ornière. Nous devons les arrêter, et le meilleur moyen d'y parvenir est de nous emparer de leurs réserves.\n\nVous pouvez nous aider, <nom>. Entrez dans le bassin Arathi, connu pour ses mines productives, ses terres fertiles et ses artisans habiles. Capturez et contrôlez un maximum de bases, remportez la bataille, et revenez me voir avec les ressources dont vous vous serez <emparé/emparée>.",
+   "progress": "<nom>, les Defilers ont pour mission permanente de rentrer dans le bassin d'Arathi, de se procurer plus de caisses de ressources et de me les apporter.",
+   "completion": "Très bien. Je les transmettrai immédiatement à nos quartiers-maîtres, et mes supérieurs recevront une lettre de félicitations pour vos actions.\n\nEncore une fois, merci <nom>. Votre contribution à nos luttes est remarquée par les simples soldats comme par les grands chefs de guerre.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "emparé/emparée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8166": {
+   "id": 8166,
+   "name": "La bataille pour le bassin d'Arathi !",
+   "objectives": "Attaquez la mine, la scierie, la forge et la ferme, puis revenez voir le grand maréchal Oslight au Refuge de l'Ornière.",
+   "description": "La bataille pour le bassin d’Arathi est un combat pour les ressources et les terres, <nom>. Les points clés de la région doivent être protégés et maintenus en état de fonctionner pour qu’ils continuent à fournir à nos troupes les matériaux bruts et les approvisionnements qui leur sont si nécessaires Je vous charge d’attaquer les points les plus éloignés de notre base du bassin d’Arathi.\n\nAttaquez la ferme, la mine, la scierie et la forge quand elles sont contrôlées par l’ennemi. Trouvez la bannière de l’adversaire et arrachez-là de son mât !\n\nQuand vous aurez réussi ces objectifs pour ces quatre points clés, revenez me voir.",
+   "progress": null,
+   "completion": "J'ai reçu des rapports sur vos exploits dans le bassin d'Arathi, <nom>. Bravo ! Avec ceux qui, comme vous, se joignent à la lutte, j'ai la conviction que nous reprendrons un jour nos terres.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14983,
+     "name": "Grand maréchal Oslight"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14983,
+     "name": "Grand maréchal Oslight"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 3900,
+   "money": 13000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8167": {
+   "id": 8167,
+   "name": "La bataille pour le bassin d'Arathi !",
+   "objectives": "Attaquez la mine, la scierie, la forge et la ferme, puis revenez voir le grand maréchal Oslight au Refuge de l'Ornière.",
+   "description": "La bataille pour le bassin d’Arathi est un combat pour les ressources et les terres, <nom>. Les points clés de la région doivent être protégés et maintenus en état de fonctionner pour qu’ils continuent à fournir à nos troupes les matériaux bruts et les approvisionnements qui leur sont si nécessaires Je vous charge d’attaquer les points les plus éloignés de notre base du bassin d’Arathi.\n\nAttaquez la ferme, la mine, la scierie et la forge quand elles sont contrôlées par l’ennemi. Trouvez la bannière de l’adversaire et arrachez-là de son mât !\n\nQuand vous aurez réussi ces objectifs pour ces quatre points clés, revenez me voir.",
+   "progress": null,
+   "completion": "J'ai reçu des rapports sur vos exploits dans le bassin d'Arathi, <nom>. Bravo ! Avec ceux qui, comme vous, se joignent à la lutte, j'ai la conviction que nous reprendrons un jour nos terres.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14983,
+     "name": "Grand maréchal Oslight"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14983,
+     "name": "Grand maréchal Oslight"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2750,
+   "money": 7500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8168": {
+   "id": 8168,
+   "name": "La bataille pour le bassin d'Arathi !",
+   "objectives": "Attaquez la mine, la scierie, la forge et la ferme, puis revenez voir le grand maréchal Oslight au Refuge de l'Ornière.",
+   "description": "La bataille pour le bassin d’Arathi est un combat pour les ressources et les terres, <nom>. Les points clés de la région doivent être protégés et maintenus en état de fonctionner pour qu’ils continuent à fournir à nos troupes les matériaux bruts et les approvisionnements qui leur sont si nécessaires Je vous charge d’attaquer les points les plus éloignés de notre base du bassin d’Arathi.\n\nAttaquez la ferme, la mine, la scierie et la forge quand elles sont contrôlées par l’ennemi. Trouvez la bannière de l’adversaire et arrachez-là de son mât !\n\nQuand vous aurez réussi ces objectifs pour ces quatre points clés, revenez me voir.",
+   "progress": null,
+   "completion": "J'ai reçu des rapports sur vos exploits dans le bassin d'Arathi, <nom>. Bravo ! Avec ceux qui, comme vous, se joignent à la lutte, j'ai la conviction que nous reprendrons un jour nos terres.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14983,
+     "name": "Grand maréchal Oslight"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14983,
+     "name": "Grand maréchal Oslight"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 2000,
+   "money": 3500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8169": {
+   "id": 8169,
+   "name": "La bataille pour le bassin d'Arathi !",
+   "objectives": "Attaquez la mine, la scierie, la forge et l’écurie du bassin d’Arathi, puis revenez voir le Maître noir Dwire, au Trépas-d’Orgrim.",
+   "description": "Comme vous l’avez sûrement entendu, la Ligue d’Arathor envoie un grand nombre de troupes dans le bassin d’Arathi. Avides de nourriture et de matières premières, ces fous de l’Alliance ont l’intention de prendre et de contrôler les riches ressources de cette région. Nous devons leur montrer qu’Arathi ne sera plus jamais le foyer de pitoyables humains !\n\nAllez dans le bassin d’Arathi et attaquez la mine, la scierie, la forge et l’écurie. Mettez à bas la bannière de l’ennemi, et emparez-vous de ces territoires pour la Horde.\n\nAllez, <nom>. Revenez me voir quand vous aurez accompli votre tâche.",
+   "progress": null,
+   "completion": "Un éclaireur de Defiler est venu me voir pour me faire part de votre succès, <nom>. Bien joué.\n\nComme vous le verrez, pour gagner la bataille du bassin d'Arathi, nous devons rester vigilants et écraser toute tentative d'expansion de l'Alliance. Si nous y parvenons, notre victoire sera assurée.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15021,
+     "name": "Maître noir Dwire"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15021,
+     "name": "Maître noir Dwire"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 3900,
+   "money": 13000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8170": {
+   "id": 8170,
+   "name": "La bataille pour le bassin d'Arathi !",
+   "objectives": "Attaquez la mine, la scierie, la forge et l’écurie du bassin d’Arathi, puis revenez voir le Maître noir Dwire, au Trépas-d’Orgrim.",
+   "description": "Comme vous l’avez sûrement entendu, la Ligue d’Arathor envoie un grand nombre de troupes dans le bassin d’Arathi. Avides de nourriture et de matières premières, ces fous de l’Alliance ont l’intention de prendre et de contrôler les riches ressources de cette région. Nous devons leur montrer qu’Arathi ne sera plus jamais le foyer de pitoyables humains !\n\nAllez dans le bassin d’Arathi et attaquez la mine, la scierie, la forge et l’écurie. Mettez à bas la bannière de l’ennemi, et emparez-vous de ces territoires pour la Horde.\n\nAllez, <nom>. Revenez me voir quand vous aurez accompli votre tâche.",
+   "progress": null,
+   "completion": "Un éclaireur des Profanateurs m’a rapporté la nouvelle de votre succès, <nom>. Bien joué.\n\nComme vous l’apprendrez bientôt, pour gagner la bataille d’Arathi, nous devons rester vigilants et écraser toutes les tentatives d’expansion de l’Alliance. Si nous y parvenons, notre victoire est assurée.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15021,
+     "name": "Maître noir Dwire"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15021,
+     "name": "Maître noir Dwire"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 2750,
+   "money": 7500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8171": {
+   "id": 8171,
+   "name": "La bataille pour le bassin d'Arathi !",
+   "objectives": "Attaquez la mine, la scierie, la forge et l’écurie du bassin d’Arathi, puis revenez voir le Maître noir Dwire, au Trépas-d’Orgrim.",
+   "description": "Comme vous l’avez sûrement entendu, la Ligue d’Arathor envoie un grand nombre de troupes dans le bassin d’Arathi. Avides de nourriture et de matières premières, ces fous de l’Alliance ont l’intention de prendre et de contrôler les riches ressources de cette région. Nous devons leur montrer qu’Arathi ne sera plus jamais le foyer de pitoyables humains !\n\nAllez dans le bassin d’Arathi et attaquez la mine, la scierie, la forge et l’écurie. Mettez à bas la bannière de l’ennemi, et emparez-vous de ces territoires pour la Horde.\n\nAllez, <nom>. Revenez me voir quand vous aurez accompli votre tâche.",
+   "progress": null,
+   "completion": "Un éclaireur de Defiler est venu me voir pour me faire part de votre succès, <nom>. Bien joué.\n\nComme vous le verrez, pour gagner la bataille du bassin d'Arathi, nous devons rester vigilants et écraser toute tentative d'expansion de l'Alliance. Si nous y parvenons, notre victoire sera assurée.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15021,
+     "name": "Maître noir Dwire"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15021,
+     "name": "Maître noir Dwire"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 2000,
+   "money": 3500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8260": {
+   "id": 8260,
+   "name": "Paquetage de base d'Arathor",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Vous avez certainement commencé à nous prouver votre valeur, <nom>. En guise de récompense, prenez ce paquet de soins ! Il contient des rations et des bandages qui ne peuvent être utilisés que dans le bassin d'Arathi.\n\nAu fur et à mesure que tu feras tes preuves dans le bassin, tu pourras acheter ces articles. Les rations seront disponibles lorsque tu seras Ami avec nous, et les bandages lorsque tu seras Honoré.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15127,
+     "name": "Samuel Hawke"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15127,
+     "name": "Samuel Hawke"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 34,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 270,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "8261": {
+   "id": 8261,
+   "name": "Paquetage ordinaire d'Arathor",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Vous avez certainement commencé à nous prouver votre valeur, <nom>. En guise de récompense, prenez ce paquet de soins ! Il contient des rations et des bandages qui ne peuvent être utilisés que dans le bassin d'Arathi.\n\nAu fur et à mesure que tu feras tes preuves dans le bassin, tu pourras acheter ces articles. Les rations seront disponibles lorsque tu seras Ami avec nous, et les bandages lorsque tu seras Honoré.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15127,
+     "name": "Samuel Hawke"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15127,
+     "name": "Samuel Hawke"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 44,
+   "reqlevel": 35,
+   "side": "alliance",
+   "xp": 375,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "8262": {
+   "id": 8262,
+   "name": "Paquetage amélioré d'Arathor",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Vous avez commencé à faire vos preuves à nos yeux, <nom>. En récompense, prenez ce paquetage ! Vous y trouverez des rations et des bandages, dont vous ne pourrez vous servir que dans le bassin d'Arathi.\n\nSi vous restez dans le bassin, vous finirez par avoir la possibilité d’acheter ces objets. Les rations vous seront proposées lorsque nous serons Amicaux à votre égard, et les bandages lorsque vous serez Honoré.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15127,
+     "name": "Samuel Hawke"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15127,
+     "name": "Samuel Hawke"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 60,
+   "reqlevel": 45,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "8263": {
+   "id": 8263,
+   "name": "Le paquetage de base de profanateur",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Vous avez certainement commencé à nous prouver votre valeur, <nom>. En guise de récompense, prenez ce paquet de soins ! Il contient des rations et des bandages qui ne peuvent être utilisés que dans le bassin d'Arathi.\n\nAu fur et à mesure que tu feras tes preuves dans le bassin, tu pourras acheter ces articles. Les rations seront disponibles lorsque tu seras Ami avec nous, et les bandages lorsque tu seras Honoré.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15126,
+     "name": "Rutherford Twing"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15126,
+     "name": "Rutherford Twing"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 34,
+   "reqlevel": 25,
+   "side": "horde",
+   "xp": 270,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "8264": {
+   "id": 8264,
+   "name": "Le paquetage ordinaire de profanateur",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Vous avez certainement commencé à nous prouver votre valeur, <nom>. En guise de récompense, prenez ce paquet de soins ! Il contient des rations et des bandages qui ne peuvent être utilisés que dans le bassin d'Arathi.\n\nAu fur et à mesure que tu feras tes preuves dans le bassin, tu pourras acheter ces articles. Les rations seront disponibles lorsque tu seras Ami avec nous, et les bandages lorsque tu seras Honoré.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15126,
+     "name": "Rutherford Twing"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15126,
+     "name": "Rutherford Twing"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 44,
+   "reqlevel": 35,
+   "side": "horde",
+   "xp": 375,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "8265": {
+   "id": 8265,
+   "name": "Le paquetage amélioré de profanateur",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Vous avez commencé à faire vos preuves à nos yeux, <nom>. En récompense, prenez ce paquetage ! Vous y trouverez des rations et des bandages, dont vous ne pourrez vous servir que dans le bassin d'Arathi.\n\nSi vous restez dans le bassin, vous finirez par avoir la possibilité d’acheter ces objets. Les rations vous seront proposées lorsque nous serons Amicaux à votre égard, et les bandages lorsque vous serez Honoré.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15126,
+     "name": "Rutherford Twing"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15126,
+     "name": "Rutherford Twing"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 60,
+   "reqlevel": 45,
+   "side": "horde",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "8297": {
+   "id": 8297,
+   "name": "Les ressources du bassin d'Arathi",
+   "objectives": "Gagnez la bataille pour le bassin d'Arathi, obtenez une Caisse de resssources d'Arathi et rapportez-la au sergent Maclear au Refuge de l'Ornière.",
+   "description": "Une guerre se fait avec des soldats - tous les soldats pourront vous le confirmer. Ils vous diront aussi que livrer bataille l'estomac vide, avec un mauvais équipement, est une garantie de défaite !\n\nC'est pour cette raison que le bassin d'Arathi est si important. Certains endroits clés de cette région contiennent des ressources essentielles. Des métaux, des armes, de la nourriture, du bois… Tout ce dont nous avons besoin se trouve là-bas !\n\nVoici ce que je veux que vous fassiez, <nom>. Entrez dans le bassin d'Arathi, remportez la bataille en contrôlant plus de bases que l'ennemi, et revenez me voir avec une caisse de ressources.",
+   "progress": "Avez-vous les marques d'honneur, <nom> ? La Ligue d'Arathor ne peut pas mener une bataille décente sans elles...",
+   "completion": "Vous avez obtenu la note ! Beau travail ! Je vais envoyer les ressources à nos quartiers-maîtres, qui pourront les distribuer rapidement à nos troupes.\n\nMerci, <nom>. C'est en effet en menant à bien des missions comme celle que vous avez réalisée que l'on gagne vraiment les guerres.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 9950,
+   "money": 27000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8298": {
+   "id": 8298,
+   "name": "Plus de caisses de ressources",
+   "objectives": null,
+   "description": null,
+   "progress": "<nom>, la League of Arathor a pour mission permanente de vous faire rentrer dans le bassin d'Arathi, de vous procurer plus de caisses de ressources et de me les apporter.",
+   "completion": "Très bien. Je les transmettrai immédiatement à nos quartiers-maîtres, et mes supérieurs recevront une lettre de félicitations pour vos actions.\n\nEncore une fois, merci <nom>. Vos contributions à nos luttes sont remarquées par les fantassins comme par les maréchaux.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8299": {
+   "id": 8299,
+   "name": "Couper les voies de ravitaillement d'Arathor",
+   "objectives": "Gagnez la bataille pour le bassin d'Arathi, obtenez une Caisse de resssources d'Arathi et rapportez-la au Traqueur noir Mortis au Trépas-d'Orgrim.",
+   "description": "La Ligue d'Arathor n'épargne aucune dépense dans sa tentative de reprise du bassin d'Arathi. Avec l'aide de tous les peuples de l'Alliance, qui se rendent maintenant en masse vers cette région lointaine, elle a l'intention d'étendre son emprise depuis le refuge de l'Ornière. Nous devons les arrêter, et le meilleur moyen d'y parvenir est de nous emparer de leurs réserves.\n\nVous pouvez nous aider, <nom>. Entrez dans le bassin d'Arathi, connu pour ses mines productives, ses terres fertiles et ses artisans habiles. Capturez et contrôlez un maximum de bases, remportez la bataille, et revenez me voir avec les ressources dont vous vous serez emparé.",
+   "progress": "Qu'est-ce que c'est, <race> ? Avez-vous les marques d'honneur ? Retourne au bassin d'Arathi, tue la vermine de l'Alliance et prends possession de ses ressources pour la Dame Sombre !",
+   "completion": "<La Brute Mortis sourit>\n\nUn nouveau coup décisif a été porté à nos ennemis, <nom>. Grâce à tes actes, le bassin d'Arathi sera bientôt pris d'assaut par les Defilers.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "horde",
+   "xp": 9950,
+   "money": 27000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8300": {
+   "id": 8300,
+   "name": "Plus de caisses de ressources",
+   "objectives": null,
+   "description": null,
+   "progress": "<nom>, les Defilers ont pour mission permanente de rentrer dans le bassin d'Arathi, de se procurer plus de caisses de ressources et de me les apporter.",
+   "completion": "Très bien. Je les transmettrai immédiatement à nos quartiers-maîtres, et mes supérieurs recevront une lettre de félicitations pour vos actions.\n\nEncore une fois, merci <nom>. Votre contribution à nos luttes est remarquée par les simples soldats comme par les grands chefs de guerre.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 3358,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8370": {
+   "id": 8370,
+   "name": "La conquête du bassin d'Arathi",
+   "objectives": "Apportez 3 Marques d’honneur du bassin d’Arathi à l’un des porteguerres de la Horde, devant les champs de bataille.",
+   "description": "Notre conflit contre l'Alliance est devenu une véritable guerre. Plus personne n'a besoin de faux prétextes pour aller au combat, ni l'Alliance, ni la Horde.\n\nLa bataille pour le bassin d'Arathi est une guerre économique, ni plus ni moins. Soit l'Alliance obtient ces ressources et les utilise contre nous, soit nous nous en emparons pour soutenir notre effort de guerre. Aidez les Profanateurs à assurer notre approvisionnement, <nom> !",
+   "progress": "Vous êtes revenu avec des nouvelles d'Arathi, <classe> ?",
+   "completion": "Sécuriser nos ressources à Arathi est une tâche importante ! Tu as bien travaillé, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 29,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 2350,
+   "money": 2500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8374": {
+   "id": 8374,
+   "name": "La revendication du bassin d'Arathi",
+   "objectives": "Apportez 3 Marques d'honneur du bassin d'Arathi à un général de brigade de l'Alliance, devant les champs de bataille.",
+   "description": "Pour gagner une guerre, il ne suffit pas de battre l’adversaire, ou de déjouer ses ruses. Souvent, la victoire est remportée tout simplement en produisant plus de ressources que l’ennemi.\n\nLe bassin d’Arathi n’est ni plus ni moins qu’un océan de ressources potentielles pour le camp qui parviendra à s’en emparer le premier.\n\nSi l’Alliance l’emporte, cela signifie que nous aurons plus d’épées et de piques pour nos troupes. Si c’est la Horde qui gagne, ces épées et ces piques seront tout de même fabriquées, mais elles seront pointées sur nous ! Il est temps, maintenant, d’aider l’Alliance dans le bassin d’Arathi, <nom>.",
+   "progress": "Dites-moi, quelles sont les nouvelles du front ?",
+   "completion": "Bon travail, soldat ! Continuez comme cela, et bientôt nous renverrons la Horde à Orgrimmar au pas de course…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 29,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 2350,
+   "money": 2500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Pour gagner une guerre, il ne suffit pas de battre l’adversaire, ou de déjouer ses ruses. Souvent, la victoire est remportée tout simplement en produisant plus de ressources que l’ennemi.\n\nLe bassin Arathi n’est ni plus ni moins qu’un océan de ressources potentielles pour le camp qui parviendra à s’en emparer le premier.\n\nSi l’Alliance l’emporte, cela signifie que nous aurons plus d’épées et de piques pour nos troupes. Si c’est la Horde qui gagne, ces épées et ces piques seront tout de même fabriquées, mais elles seront pointées sur nous ! Il est temps, maintenant, d’aider l’Alliance dans le bassin Arathi, <nom>.",
+      "objectives": "Apportez 3 Marques d'honneur du bassin d'Arathi à un général de brigade de l'Alliance, devant les champs de bataille.",
+      "name": "La revendication du bassin d'Arathi"
+     },
+     "npc": 15351,
+     "npc_name": "Général de brigade de l'Alliance",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forgefer",
+     "map_id": 1455,
+     "client": "1.60.1.70862",
+     "first_seen": 1794338540,
+     "last_seen": 1794376345
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8390": {
+   "id": 8390,
+   "name": "La conquête du bassin d'Arathi",
+   "objectives": "La guerre contre la racaille de l'Alliance exige des ressources, <nom> ! Nous ne pouvons pas nous permettre de laisser tarir nos réserves au beau milieu de la lutte. Continuez à faire en sorte que le bassin d'Arathi reste entre nos mains !",
+   "description": "La guerre contre la racaille de l'Alliance exige des ressources, <nom> ! Nous ne pouvons pas nous permettre de laisser tarir nos réserves au beau milieu de la lutte. Continuez à faire en sorte que le bassin d'Arathi reste entre nos mains !",
+   "progress": "La guerre contre la racaille de l'Alliance exige des ressources, <nom> ! Nous ne pouvons pas nous permettre de laisser tarir nos réserves au beau milieu de la lutte. Continuez à faire en sorte que le bassin d'Arathi reste entre nos mains !",
+   "completion": "Excellent travail, <nom> ! Tant que le bassin d’Arathi reste sous notre contrôle, nos réserves seront bien approvisionnées.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 29,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 1200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8391": {
+   "id": 8391,
+   "name": "La revendication du bassin d'Arathi",
+   "objectives": "La guerre contre la Horde diminue rapidement nos réserves, <nom>. Il est vital que nous conservions le contrôle du bassin d'Arathi pour que les ressources continuent à nous arriver ! Êtes-vous déjà venu nous donner un coup de main en Arathi ?",
+   "description": "La guerre contre la Horde diminue rapidement nos réserves, <nom>. Il est vital que nous conservions le contrôle du bassin d'Arathi pour que les ressources continuent à nous arriver ! Êtes-vous déjà venu nous donner un coup de main en Arathi ?",
+   "progress": "La guerre contre la Horde diminue rapidement nos réserves, <nom>. Il est vital que nous conservions le contrôle du bassin d'Arathi pour que les ressources continuent à nous arriver ! Êtes-vous déjà venu nous donner un coup de main en Arathi ?",
+   "completion": "Excellent travail, <classe> ! Vos efforts permettront à l’Alliance de recevoir les ressources dont elle a besoin.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 39,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 1500,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8392": {
+   "id": 8392,
+   "name": "La revendication du bassin d'Arathi",
+   "objectives": "La guerre contre la Horde diminue rapidement nos réserves, <nom>. Il est vital que nous conservions le contrôle du bassin d'Arathi pour que les ressources continuent à nous arriver ! Êtes-vous déjà venu nous donner un coup de main en Arathi ?",
+   "description": "La guerre contre la Horde diminue rapidement nos réserves, <nom>. Il est vital que nous conservions le contrôle du bassin d'Arathi pour que les ressources continuent à nous arriver ! Êtes-vous déjà venu nous donner un coup de main en Arathi ?",
+   "progress": "La guerre contre la Horde diminue rapidement nos réserves, <nom>. Il est vital que nous conservions le contrôle du bassin d'Arathi pour que les ressources continuent à nous arriver ! Êtes-vous déjà venu nous donner un coup de main en Arathi ?",
+   "completion": "Excellent travail, <classe> ! Vos efforts permettront à l’Alliance de recevoir les ressources dont elle a besoin.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 49,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 2250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8393": {
+   "id": 8393,
+   "name": "La revendication du bassin d'Arathi",
+   "objectives": "Apportez 3 Marques d'honneur du bassin d'Arathi à un général de brigade de l'Alliance, devant les champs de bataille.",
+   "description": "Pour gagner une guerre, il ne suffit pas de battre l’adversaire, ou de déjouer ses ruses. Souvent, la victoire est remportée tout simplement en produisant plus de ressources que l’ennemi.\n\nLe bassin d’Arathi n’est ni plus ni moins qu’un océan de ressources potentielles pour le camp qui parviendra à s’en emparer le premier.\n\nSi l’Alliance l’emporte, cela signifie que nous aurons plus d’épées et de piques pour nos troupes. Si c’est la Horde qui gagne, ces épées et ces piques seront tout de même fabriquées, mais elles seront pointées sur nous ! Il est temps, maintenant, d’aider l’Alliance dans le bassin d’Arathi, <nom>.",
+   "progress": "Dites-moi, quelles sont les nouvelles du front ?",
+   "completion": "Bon travail, soldat ! Continuez comme cela, et bientôt nous renverrons la Horde à Orgrimmar au pas de course…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 39,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3000,
+   "money": 4500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8394": {
+   "id": 8394,
+   "name": "La revendication du bassin d'Arathi",
+   "objectives": "Apportez 3 Marques d'honneur du bassin d'Arathi à un général de brigade de l'Alliance, devant les champs de bataille.",
+   "description": "Pour gagner une guerre, il ne suffit pas de battre l'adversaire, ou de déjouer ses ruses. Souvent, la victoire est remportée tout simplement en produisant plus de ressources que l'ennemi.\n\nLe bassin d'Arathi n'est ni plus ni moins qu'un océan de ressources potentielles pour le camp qui parviendra à s'en emparer le premier.\n\nSi l'Alliance l'emporte, cela signifie que nous aurons plus d'épées et de piques pour nos troupes. Si c'est la Horde qui gagne, ces épées et ces piques seront tout de même fabriquées, mais elles seront pointées sur nous ! Il est temps, maintenant, d'aider l'Alliance dans le bassin d'Arathi, <nom>.",
+   "progress": "Dites-moi, quelles sont les nouvelles du front ?",
+   "completion": "Bon travail, soldat ! Continuez comme cela, et bientôt nous renverrons la Horde à Orgrimmar au pas de course…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 49,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 4550,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8395": {
+   "id": 8395,
+   "name": "La revendication du bassin d'Arathi",
+   "objectives": "Apportez 3 Marques d'honneur du bassin d'Arathi à un général de brigade de l'Alliance, devant les champs de bataille.",
+   "description": "Pour gagner une guerre, il ne suffit pas de battre l'adversaire, ou de déjouer ses ruses. Souvent, la victoire est remportée tout simplement en produisant plus de ressources que l'ennemi.\n\nLe bassin d'Arathi n'est ni plus ni moins qu'un océan de ressources potentielles pour le camp qui parviendra à s'en emparer le premier.\n\nSi l'Alliance l'emporte, cela signifie que nous aurons plus d'épées et de piques pour nos troupes. Si c'est la Horde qui gagne, ces épées et ces piques seront tout de même fabriquées, mais elles seront pointées sur nous ! Il est temps, maintenant, d'aider l'Alliance dans le bassin d'Arathi, <nom>.",
+   "progress": "Quelles sont les nouvelles du front ?",
+   "completion": "Bon travail, soldat ! Continuez comme ça et nous aurons la Horde qui courra jusqu'à Orgrimmar.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 59,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 6400,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8396": {
+   "id": 8396,
+   "name": "La revendication du bassin d'Arathi",
+   "objectives": "Apportez 3 Marques d'honneur du bassin d'Arathi à un général de brigade de l'Alliance, devant les champs de bataille.",
+   "description": "Pour gagner une guerre, il ne suffit pas de battre l'adversaire, ou de déjouer ses ruses. Souvent, la victoire est remportée tout simplement en produisant plus de ressources que l'ennemi.\n\nLe bassin d'Arathi n'est ni plus ni moins qu'un océan de ressources potentielles pour le camp qui parviendra à s'en emparer le premier.\n\nSi l'Alliance l'emporte, cela signifie que nous aurons plus d'épées et de piques pour nos troupes. Si c'est la Horde qui gagne, ces épées et ces piques seront tout de même fabriquées, mais elles seront pointées sur nous ! Il est temps, maintenant, d'aider l'Alliance dans le bassin d'Arathi, <nom>.",
+   "progress": "Dites-moi, quelles sont les nouvelles du front ?",
+   "completion": "Bon travail, soldat ! Continuez comme cela, et bientôt nous renverrons la Horde à Orgrimmar au pas de course…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 6600,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8397": {
+   "id": 8397,
+   "name": "La revendication du bassin d'Arathi",
+   "objectives": "La guerre contre la Horde diminue rapidement nos réserves, <nom>. Il est vital que nous conservions le contrôle du bassin d'Arathi pour que les ressources continuent à nous arriver ! Êtes-vous déjà venu nous donner un coup de main en Arathi ?",
+   "description": "La guerre contre la Horde diminue rapidement nos réserves, <nom>. Il est vital que nous conservions le contrôle du bassin d'Arathi pour que les ressources continuent à nous arriver ! Êtes-vous déjà venu nous donner un coup de main en Arathi ?",
+   "progress": "La guerre contre la Horde diminue rapidement nos réserves, <nom>. Il est vital que nous conservions le contrôle du bassin d'Arathi pour que les ressources continuent à nous arriver ! Êtes-vous déjà venu nous donner un coup de main en Arathi ?",
+   "completion": "Excellent travail, <classe> ! Vos efforts permettront à l’Alliance de recevoir les ressources dont elle a besoin.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 59,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 3200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8398": {
+   "id": 8398,
+   "name": "La revendication du bassin d'Arathi",
+   "objectives": "La guerre contre la Horde diminue rapidement nos réserves, <nom>. Il est vital que nous conservions le contrôle du bassin d'Arathi pour que les ressources continuent à nous arriver ! Êtes-vous déjà venu nous donner un coup de main en Arathi ?",
+   "description": "La guerre contre la Horde diminue rapidement nos réserves, <nom>. Il est vital que nous conservions le contrôle du bassin d'Arathi pour que les ressources continuent à nous arriver ! Êtes-vous déjà venu nous donner un coup de main en Arathi ?",
+   "progress": "La guerre contre la Horde diminue rapidement nos réserves, <nom>. Il est vital que nous conservions le contrôle du bassin d'Arathi pour que les ressources continuent à nous arriver ! Êtes-vous déjà venu nous donner un coup de main en Arathi ?",
+   "completion": "Excellent travail, <classe> ! Vos efforts permettront à l’Alliance de recevoir les ressources dont elle a besoin.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "alliance",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8436": {
+   "id": 8436,
+   "name": "La conquête du bassin d'Arathi",
+   "objectives": "Apportez 3 Marques d’honneur du bassin d’Arathi à l’un des porteguerres de la Horde, devant les champs de bataille.",
+   "description": "Notre conflit contre l'Alliance est devenu une véritable guerre. Plus personne n'a besoin de faux prétextes pour aller au combat, ni l'Alliance, ni la Horde.\n\nLa bataille pour le bassin d'Arathi est une guerre économique, ni plus ni moins. Soit l'Alliance obtient ces ressources et les utilise contre nous, soit nous nous en emparons pour soutenir notre effort de guerre. Aidez les Profanateurs à assurer notre approvisionnement, <nom> !",
+   "progress": "Vous êtes revenu avec des nouvelles d’Arathi, <classe> ?",
+   "completion": "Protéger nos ressources en Arathi est une tâche importante ! Vous vous êtes bien débrouillé, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 39,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 3000,
+   "money": 4500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8437": {
+   "id": 8437,
+   "name": "La conquête du bassin d'Arathi",
+   "objectives": "Apportez 3 Marques d’honneur du bassin d’Arathi à l’un des porteguerres de la Horde, devant les champs de bataille.",
+   "description": "Notre conflit contre l'Alliance est devenu une véritable guerre. Plus personne n'a besoin de faux prétextes pour aller au combat, ni l'Alliance, ni la Horde.\n\nLa bataille pour le bassin d'Arathi est une guerre économique, ni plus ni moins. Soit l'Alliance obtient ces ressources et les utilise contre nous, soit nous nous en emparons pour soutenir notre effort de guerre. Aidez les Profanateurs à assurer notre approvisionnement, <nom> !",
+   "progress": "Vous êtes revenu avec des nouvelles d'Arathi, <classe> ?",
+   "completion": "Sécuriser nos ressources à Arathi est une tâche importante ! Tu as bien travaillé, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 49,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 4550,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8439": {
+   "id": 8439,
+   "name": "La conquête du bassin d'Arathi",
+   "objectives": "Apportez 3 Marques d’honneur du bassin d’Arathi à l’un des porteguerres de la Horde, devant les champs de bataille.",
+   "description": "Notre conflit contre l'Alliance est devenu une véritable guerre. Plus personne n'a besoin de faux prétextes pour aller au combat, ni l'Alliance, ni la Horde.\n\nLa bataille pour le bassin d'Arathi est une guerre économique, ni plus ni moins. Soit l'Alliance obtient ces ressources et les utilise contre nous, soit nous nous en emparons pour soutenir notre effort de guerre. Aidez les Profanateurs à assurer notre approvisionnement, <nom> !",
+   "progress": "Vous êtes revenu avec des nouvelles d’Arathi, <classe> ?",
+   "completion": "Protéger nos ressources en Arathi est une tâche importante ! Vous vous êtes bien débrouillé, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "horde",
+   "xp": 6600,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8440": {
+   "id": 8440,
+   "name": "La conquête du bassin d'Arathi",
+   "objectives": "La guerre contre la racaille de l'Alliance exige des ressources, <nom> ! Nous ne pouvons pas nous permettre de laisser tarir nos réserves au beau milieu de la lutte. Continuez à faire en sorte que le bassin d'Arathi reste entre nos mains !",
+   "description": "La guerre contre la racaille de l'Alliance exige des ressources, <nom> ! Nous ne pouvons pas nous permettre de laisser tarir nos réserves au beau milieu de la lutte. Continuez à faire en sorte que le bassin d'Arathi reste entre nos mains !",
+   "progress": "La guerre contre la racaille de l'Alliance exige des ressources, <nom> ! Nous ne pouvons pas nous permettre de laisser tarir nos réserves au beau milieu de la lutte. Continuez à faire en sorte que le bassin d'Arathi reste entre nos mains !",
+   "completion": "Excellent travail, <nom> ! Tant que le bassin d’Arathi reste sous notre contrôle, nos réserves seront bien approvisionnées.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 39,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 1500,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8441": {
+   "id": 8441,
+   "name": "La conquête du bassin d'Arathi",
+   "objectives": null,
+   "description": null,
+   "progress": "La guerre contre la racaille de l'Alliance exige des ressources, <nom> ! Nous ne pouvons pas laisser nos réserves s'épuiser au milieu d'une bataille. Continuez à vous assurer que le bassin d'Arathi reste entre nos mains !",
+   "completion": "Sécuriser nos ressources à Arathi est une tâche importante ! Tu as bien travaillé, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 49,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 2250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "8442": {
+   "id": 8442,
+   "name": "La conquête du bassin d'Arathi",
+   "objectives": "La guerre contre la racaille de l'Alliance exige des ressources, <nom> ! Nous ne pouvons pas nous permettre de laisser tarir nos réserves au beau milieu de la lutte. Continuez à faire en sorte que le bassin d'Arathi reste entre nos mains !",
+   "description": "La guerre contre la racaille de l'Alliance exige des ressources, <nom> ! Nous ne pouvons pas nous permettre de laisser tarir nos réserves au beau milieu de la lutte. Continuez à faire en sorte que le bassin d'Arathi reste entre nos mains !",
+   "progress": "La guerre contre la racaille de l'Alliance exige des ressources, <nom> ! Nous ne pouvons pas nous permettre de laisser tarir nos réserves au beau milieu de la lutte. Continuez à faire en sorte que le bassin d'Arathi reste entre nos mains !",
+   "completion": "Excellent travail, <nom> ! Tant que le bassin d’Arathi reste sous notre contrôle, nos réserves seront bien approvisionnées.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 59,
+   "reqlevel": 50,
+   "side": "horde",
+   "xp": 3200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8443": {
+   "id": 8443,
+   "name": "La conquête du bassin d'Arathi",
+   "objectives": "La guerre contre la racaille de l'Alliance exige des ressources, <nom> ! Nous ne pouvons pas nous permettre de laisser tarir nos réserves au beau milieu de la lutte. Continuez à faire en sorte que le bassin d'Arathi reste entre nos mains !",
+   "description": "La guerre contre la racaille de l'Alliance exige des ressources, <nom> ! Nous ne pouvons pas nous permettre de laisser tarir nos réserves au beau milieu de la lutte. Continuez à faire en sorte que le bassin d'Arathi reste entre nos mains !",
+   "progress": "La guerre contre la racaille de l'Alliance exige des ressources, <nom> ! Nous ne pouvons pas nous permettre de laisser tarir nos réserves au beau milieu de la lutte. Continuez à faire en sorte que le bassin d'Arathi reste entre nos mains !",
+   "completion": "Excellent travail, <nom> ! Tant que le bassin d’Arathi reste sous notre contrôle, nos réserves seront bien approvisionnées.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "zone_id": 3358,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "horde",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

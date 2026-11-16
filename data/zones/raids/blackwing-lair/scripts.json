@@ -1,0 +1,136 @@
+{
+ "schema": 2,
+ "scripts": {
+  "8288": {
+   "quest_id": 8288,
+   "kind": "detail",
+   "name": "Il ne peut y en avoir qu'un",
+   "npc_id": 15180,
+   "npc_name": "Baristolth des Sables changeants",
+   "source": "foreverdb:vmangos",
+   "text": "Nous n’avons pas de temps à perdre. Nous devons trouver un héros ! La tâche que je vais vous confier nécessite une armée, mais de la foule des aspirants, un seul se lèvera pour endosser le fardeau et la responsabilité qui pèsent sur les alliés de la Progéniture.\n\nUne bête cruelle vit dans le repaire du Seigneur de Rochenoire. Le seigneur des couvées Lanistaire garde les Halls des conflits, bloquant le passage vers le sanctuaire de Nefarian. Tuez cette vile aberration et ramenez-moi sa tête. Si vous y parvenez, vous pourrez progresser vers l’étape suivante de votre voyage.\n\nObjectif : Rapportez la Tête du seigneur des couvées Lanistaire à Baristolth des Sables changeants, au Fort cénarien en Silithus.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-08T06:49:32"
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "8730": {
+   "quest_id": 8730,
+   "kind": "detail",
+   "name": "La corruption de Nefarius",
+   "npc_id": 13020,
+   "npc_name": "Vaelastrasz le Corrompu",
+   "source": "foreverdb:vmangos",
+   "text": "Champion, est-ce bien vous ? Un millier d’années se sont écoulées depuis que le fragment m’a été confié, et c’est à mon heure la plus sombre que quelqu’un se présente pour me le réclamer… Mais que serait une tragédie sans cruauté ?\n\n\n\nNe… Nefarius détient aujourd’hui le fragment du sceptre.\n\nLe temps presse. Nefarius a l’intention de détruire le fragment. Vous devez vous hâter !\n\nObjectif : Tuez Nefarian pour récupérer le Fragment de sceptre rouge. Rapportez le Fragment de sceptre rouge à Anachronos aux Grottes du temps en Tanaris. Vous avez 5 heures pour accomplir cette tâche.",
+   "gendered": false,
+   "stage_directions": [
+    " Vaelastrasz tousse faiblement."
+   ],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-08T06:49:32"
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  }
+ },
+ "complete": {
+  "8288": {
+   "quest_id": 8288,
+   "kind": "complete",
+   "name": "Il ne peut y en avoir qu'un",
+   "npc_id": 15180,
+   "npc_name": "Baristolth des Sables changeants",
+   "source": "foreverdb:vmangos",
+   "text": "Serez-vous le premier depuis mille ans à obtenir la faveur du Vol de bronze ?",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-08T06:49:32"
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "8730": {
+   "quest_id": 8730,
+   "kind": "complete",
+   "name": "La corruption de Nefarius",
+   "npc_id": 15192,
+   "npc_name": "Anachronos",
+   "source": "foreverdb:vmangos",
+   "text": "L’âme de Vaelastrasz repose en paix, champion. Tous les Aspects observent vos progrès avec un grand intérêt. Sachez que vous avez de puissants alliés.\n\nJ’ai reçu l’ordre de vous offrir quelque chose pour vous aider dans votre lutte. Faites-en bon usage…",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-08T06:49:32"
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  }
+ },
+ "updated_at": "2026-10-10T12:37:08",
+ "dialogues": {
+  "10162_9846": {
+   "kind": "dialogue",
+   "npc_id": 10162,
+   "npc_name": "Seigneur Victor Nefarius",
+   "page": "9846",
+   "first": true,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Vous attendiez-vous à ce que je redoute la puissante légion |2?\n\nVous n'êtes rien pour moi. Moins que rien. Si j'avais voulu votre tête, on me l'aurait présentée sur une pique.\n\nVous avez commis la faute que commettent tous les mortels.\n\n\n\nLe temps fait des choses étranges à ceux qui l'utilisent comme une monnaie.",
+   "gendered": false,
+   "stage_directions": [
+    "Le seigneur Victor Nefarius soupire."
+   ],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T12:37:08"
+   }
+  },
+  "10162_9903": {
+   "kind": "dialogue",
+   "npc_id": 10162,
+   "npc_name": "Seigneur Victor Nefarius",
+   "page": "9903",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Dans votre course vers la gloire, vous avez supposé que le cours du jeu était déterminé par vos actions. Pouvez-vous seulement comprendre combien cette pensée paraît absurde à un être comme moi ? Un être qui si tel était son désir pourrait faire en sorte que vos propres pensées insignifiantes écrasent le petit pois de matière grise qui flotte dans votre crâne.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T12:37:08"
+   }
+  },
+  "10162_9905": {
+   "kind": "dialogue",
+   "npc_id": 10162,
+   "npc_name": "Seigneur Victor Nefarius",
+   "page": "9905",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "C'est vraiment simple. Laissez-moi vous expliquer...",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T12:37:08"
+   }
+  }
+ }
+}

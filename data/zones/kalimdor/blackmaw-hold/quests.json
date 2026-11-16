@@ -1,0 +1,417 @@
+{
+ "schema": 1,
+ "zone": "kalimdor/blackmaw-hold",
+ "zone_id": 1216,
+ "zone_name": "Repaire des Noiregueules",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 7,
+  "complete": 7,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "6031": {
+   "id": 6031,
+   "name": "L'étoffe runique",
+   "objectives": "Apportez 30 pièces d'étoffe runique à Meilosh au Repaire des Grumegueules.",
+   "description": "À Grumegueules, nous sommes satisfaits d'être entre nous. Nous n’aimons pas les étrangers, ce qui n’arrange malheureusement pas le commerce.\n\nIl n’y a pas longtemps, une de nos rares amis elfe de la nuit est arrivée à Grumegueules, portant une cape en étoffe runique. L’étoffe runique est un textile que l’on ne voit pas souvent par ici, et mes frères ont été séduits par sa perfection. Ils désirent que je leur procure des vêtements taillés dans cette étoffe.\n\nVoudriez-vous m’apporter de l’étoffe runique ? Si vous m’en apportez suffisamment, je vous donnerai quelque chose en échange.",
+   "progress": "Avez-vous mon étoffe runique ? Mon peuple est impatient d'avoir des objets façonnés dans cette matière !",
+   "completion": "Ah, vous avez apporté les étoffes. Quelle belle finition !\n\nMerci, <nom>. Vous êtes vraiment un ami. Acceptez ceci en échange, s'il vous plaît.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11557,
+     "name": "Meilosh"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11557,
+     "name": "Meilosh"
+    }
+   ],
+   "zone_id": 1216,
+   "level": 55,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 5650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6032": {
+   "id": 6032,
+   "name": "Le vêtement sacré",
+   "objectives": "Apporter 2 pièces d’Etoffe lunaire à Meilosh, au Repaire des Grumegueules.",
+   "description": "Bien que le peuple des Grumegueules sache enchanter les étoffes runiques, elles ne sont pas sacrées pour nous. Mais l'étoffe lunaire, elle, est sacrée.\n\nApportez-m'en un petit morceau et je vous apprendrai un secret de fabrication.",
+   "progress": "Avez-vous apporté l'étoffe lunaire, <nom> ?",
+   "completion": "Ah, très bien ! Cette étoffe lunaire servira à confectionner les vêtements sacrés de notre peuple. Merci, <nom>. Maintenant je vais vous entraîner.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11557,
+     "name": "Meilosh"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11557,
+     "name": "Meilosh"
+    }
+   ],
+   "zone_id": 1216,
+   "level": 55,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 5650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8461": {
+   "id": 8461,
+   "name": "Les Mort-bois du nord",
+   "objectives": "Nafien veut que vous tuiez 6 Protecteurs Mort-bois, 6 Vengeurs Mort-bois et 6 Chamans Mort-bois. Ensuite, retournez le voir dans le nord de Gangrebois, près de l'entrée du repaire des Grumegueules.",
+   "description": "Au sud-ouest se trouve un camp de furbolgs Mort-bois. Il empeste la corruption, et je veux que ce soit résolu avant de devenir un problème.\n\nLa tribu Mort-bois est maléfique, mais c’est parce que la corruption a souillé leurs esprits. Leur hostilité n’est pas innée, mais ils ne peuvent plus être aidés. Pour cette raison, j’ai l’immense tristesse de devoir combattre mes propres frères.\n\nS’il vous plaît, <nom>, faites ce qui doit être fait. Epargnez-moi les détails, ils évoquent des images qui me mettent trop mal à l'aise.",
+   "progress": "Une fois encore vous avez gagné la confiance des Grumegueules. Je suis sûr que nous pouvons faire quelque chose pour vous en échange de votre loyauté. Les Grumegueules n'oublient pas leurs alliés, surtout dans des temps aussi difficiles que ceux que nous vivons.",
+   "completion": "Je sens que vous avez vaincu. La victoire… un mot creux, quand on pense à ce que vous avez dû faire. Mais quoi qu’il en soit, vous avez fait la preuve de votre utilité, et vous êtes digne de notre confiance.\n\nIl faudra sans doute encore un peu de temps pour que les Grumegueules vous accueillent sans hostilité dans leur repaire. Mais à force de persévérance, leurs soupçons finiront par s’estomper. Tant que vous ne nous trahissez pas, tant que vous ne prenez pas les armes contre nous, nous aurons un terrain d’entente.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15395,
+     "name": "Nafien"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15395,
+     "name": "Nafien"
+    }
+   ],
+   "zone_id": 1216,
+   "level": 55,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 5650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8464": {
+   "id": 8464,
+   "name": "Les Tombe-hiver s'agitent",
+   "objectives": "Salfa voudrait que vous tuiez 8 Chamans Tombe-hiver, 8 Protecteurs Tombe-hiver et 8 Ursas Tombe-hiver. Salfa se trouve juste à l'extérieur de l'entrée du repaire des Grumegueules, au Berceau-de-l'hiver.",
+   "description": "Les Grumegueules ont tendance à rester entre eux, <nom>. Nous laissons passer ceux en qui nous avons toute confiance, mais nous essayons d'éviter les autres tribus de furbolgs, si cela est possible.\n\nDernièrement, j'ai remarqué que la tribu Tombe-hiver montrait des signes d'hostilité à notre égard. Ils semblent être dans un étrange état de rage, rendus furieux par tout ce qui les effraie et qu'ils ne comprennent pas.\n\nJe me vois dans l’obligation de vous demander d’assurer notre sécurité en réduisant leur nombre. Vous les trouverez au village des Tombe-hiver, loin à l’est d’ici.",
+   "progress": "Nous apprécions beaucoup ce que vous avez fait pour les Timbermaw, <nom>. La poursuite de vos efforts vous vaudra certainement la confiance et le respect de ma tribu.",
+   "completion": "Merci pour ce que vous avez fait, même si c'était une triste tâche. Acceptez cette babiole en gage de notre reconnaissance.\n\nS'il vous plaît, continuez à nous aider, <nom>. Nous n'avons que peu d'alliés auxquels demander de l'aide et sans vous, nous ne parviendrons pas à venir à bout de tout ce qui nous menace.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11556,
+     "name": "Salfa"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11556,
+     "name": "Salfa"
+    }
+   ],
+   "zone_id": 1216,
+   "level": 58,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 6200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8481": {
+   "id": 8481,
+   "name": "La racine du mal",
+   "objectives": "Plantez la Torche d'invocation de démon à l’entrée de la caverne du grand chef Tombe-hiver, dans le village des furbolgs Tombe-hiver. Triomphez du démon et récupérez l’Essence de Xandivious pour Gorn le Borgne du Repaire des Grumegueules.",
+   "description": "Grâce à vous, <nom>, nous avons imaginé un moyen de forcer le démon corrupteur qui se trouve à la racine de la corruption des Tombe-hiver à se montrer.\n\nPrenez cette torche et amenez-la à l'entrée de la caverne personnelle du grand chef Tombe-hiver, puis plantez-la dans le sol. Cela forcera le démon à venir enquêter. A ce moment-là, vous pourrez le détruire avec l'aide de vos alliés. À l'aide de l'essence du démon mort, nous pourrons entamer la lente guérison de la tribu Tombe-hiver… et sauver le repaire des Grumegueules.",
+   "progress": "Tu es revenu parmi nous, <nom>... cela signifie-t-il que le démon a été tué ?",
+   "completion": "Vous nous avez sauvés ! Votre victoire sur le démon Xandivious a assuré la sécurité de Timbermaw Hold pour les années à venir. Vous êtes vraiment un héros parmi les nôtres.\n\nAcceptez ceci avec notre bénédiction. Même si le processus de guérison sera lent chez les furbolgs et que le conflit se poursuivra, vous avez donné à la Chute d'hiver quelque chose qu'elle n'avait jamais eu avant ce jour.\n\nIls ont une chance de survivre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11555,
+     "name": "Gorn le Borgne"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11555,
+     "name": "Gorn le Borgne"
+    }
+   ],
+   "zone_id": 1216,
+   "level": 60,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8484": {
+   "id": 8484,
+   "name": "Négocier la paix",
+   "objectives": "Apporter l’Offrande de paix grumegueule au roi Magni Bronzebeard, à Ironforge.",
+   "description": "Vos exploits sont plus qu’héroïques, <nom>. Si le reste de votre peuple est à votre image, alors, nous sommes prêts à faire la paix avec lui, même si cela nous impose des efforts.\n\nS’il vous plaît, portez cette offre au roi nain qui vit dans une montagne de fer – dans une ville qui, je crois, s’appelle Forgefer. Autrefois, il a tenté de nous contacter au nom de son Alliance. Reconnaître votre rôle-clé dans la négociation de cette paix est la moindre des choses.",
+   "progress": "<classe>, vous êtes accueilli dans mon domaine.Forgefer devrait toujours être considéré comme un foyer pour un héros tel que vous. Maintenant, quelles affaires avez-vous avec moi?",
+   "completion": "En effet, il s'agit là d'une tournure des plus fortuites. Si une paix durable était conclue avec ces créatures, cela nous donnerait certainement un avantage dans les affaires de Kalimdor... un avantage que les Elfes de la Nuit ne peuvent pas supporter seuls. J'en informe immédiatement les autres dirigeants de l'Alliance et d'autres diplomates seront envoyés !\n\nQuant à vous, <nom>... vous avez fait preuve de courage, tant dans la diplomatie que dans l'action. Je vous remercie, ainsi que l'ensemble de l'Alliance.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11555,
+     "name": "Gorn le Borgne"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2784,
+     "name": "Roi Magni Bronzebeard"
+    }
+   ],
+   "zone_id": 1216,
+   "level": 60,
+   "reqlevel": 45,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8485": {
+   "id": 8485,
+   "name": "Négocier la paix",
+   "objectives": "Apporter l’Offrande de paix grumegueule à Thrall, à Orgrimmar.",
+   "description": "Vos exploits sont plus qu'héroïques, <nom>. Si le reste de votre peuple est à votre image, alors, nous sommes prêts à faire la paix avec lui, même si cela nous impose des efforts.\n\nS'il vous plaît, portez cette offre au chef de guerre orc qui vit au pays de Durotar – je crois que vous appelez sa ville Orgrimmar. Autrefois, il a tenté de nous contacter au nom de la Horde. Reconnaître votre rôle-clé dans la négociation de cette paix est la moindre des choses.",
+   "progress": "Les salutations du warchief vous sont accordées, <classe>. Vos actes renforcent la Horde en ces temps troublés. Qu'avez-vous à me dire ?",
+   "completion": "En effet, il s'agit là d'une tournure des événements des plus fortuites. Si une paix durable était conclue avec ces créatures, cela nous donnerait un avantage certain pour protéger Kalimdor des menaces extérieures. J'en informe immédiatement les autres chefs de la Horde et d'autres diplomates vont être envoyés !\n\nQuant à vous, <nom>... vous avez fait preuve de courage, tant dans la diplomatie que dans l'action. Je vous remercie, tout comme l'ensemble de la Horde.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11555,
+     "name": "Gorn le Borgne"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4949,
+     "name": "Thrall"
+    }
+   ],
+   "zone_id": 1216,
+   "level": 60,
+   "reqlevel": 45,
+   "side": "horde",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

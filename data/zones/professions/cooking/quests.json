@@ -1,0 +1,698 @@
+{
+ "schema": 1,
+ "zone": "professions/cooking",
+ "zone_id": -304,
+ "zone_name": "Cuisinier",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 11,
+  "complete": 11,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "384": {
+   "id": 384,
+   "name": "Côtes de sanglier à la bière",
+   "objectives": "Ragnar Thunderbrew à Kharanos veut 6 Côtes de sangliers des rochers et une Chope de bière au malt Rhapsody.",
+   "description": "Il n'y a rien que mes clients apprécient plus qu'une bonne côte de sanglier à la bière ! Le seul problème est que le trappeur qui nous ravitaille s'est engagé dans l'armée du roi pour aller à la guerre sur le front de l'Alliance.\n\nPeut-être pourriez-vous m'aider ? Si vous pouvez me procurer six côtes de sangliers des rochers et une bière au malt Rhapsody de la taverne, je vous donne ma recette familiale des côtes de sanglier à la bière accompagnée bien évidemment d'un échantillon gratuit ! Le secret est dans la bière, mais je ne vous en dis pas plus !",
+   "progress": "Je vais avoir besoin de 6 Côtes de sangliers des rochers et d'une Chope de bière au malt Rhapsody, <nom>.",
+   "completion": "Le malt est fermenté, les sangliers tués.\nEt avant que tout ne soit terminé\nNous allons nous chamailler comme des frères\nPour ces délicieuses côtes de sanglier à la bière !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1267,
+     "name": "Ragnar Thunderbrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1267,
+     "name": "Ragnar Thunderbrew"
+    }
+   ],
+   "zone_id": -304,
+   "level": 7,
+   "reqlevel": 5,
+   "side": "alliance",
+   "xp": 630,
+   "money": 175,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Le malt est fermenté, les sangliers tués.\nEt avant que tout ne soit terminé\nNous allons nous chamailler comme des frères\nPour ces délicieuses côtes de sanglier à la bière !"
+     },
+     "npc": 1267,
+     "npc_name": "Ragnar Thunderbrew",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794041309,
+     "last_seen": 1794041309
+    },
+    "detail": {
+     "texts": {
+      "description": "Il n'y a rien que mes clients apprécient plus qu'une bonne côte de sanglier à la bière ! Le seul problème est que le trappeur qui nous ravitaille s'est engagé dans l'armée du roi pour aller à la guerre sur le front de l'Alliance.\n\nPeut-être pourriez-vous m'aider ? Si vous pouvez me procurer six côtes de sangliers des rochers et une bière au malt Rhapsody de la taverne, je vous donne ma recette familiale des côtes de sanglier à la bière accompagnée bien évidemment d'un échantillon gratuit ! Le secret est dans la bière, mais je ne vous en dis pas plus !",
+      "objectives": "Ragnar Thunderbrew à Kharanos veut 6 Côtes de sangliers des rochers et une Chope de bière au malt Rhapsody.",
+      "name": "Côtes de sanglier à la bière"
+     },
+     "npc": 1267,
+     "npc_name": "Ragnar Thunderbrew",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70790",
+     "first_seen": 1793968281,
+     "last_seen": 1793968281
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "862": {
+   "id": 862,
+   "name": "Brouet de rat",
+   "objectives": "Apporter 8 Rats fouisseurs à Boustiff' à l'est de la Croisée.",
+   "description": "Les <classe>s comme vous doivent plutôt avoir faim ici dans les Tarides. Moi, je crève la dalle tout au long de la journée.\n\nJe vais vous mitonner un chouette brouet. J'ai juste besoin de quelques rats fouisseurs.\n\nIl semble que ces sales nains de Bael Modan soient submergés par le festin favori de tout un chacun. À présent descendez vers le sud, à Bael Modan, et apportez-moi quelques rats fouisseurs.\n\nVous ne pouvez pas vous prétendre <aventurier chevronné/aventurière chevronnée> si vous n'avez pas passé du temps à tuer des rats ! Ha !",
+   "progress": "Z'avez éclaté assez de rats, <nom> ?",
+   "completion": "D'ordinaire je n'aime pas manger ces rongeurs quand ils sont si… si… verts. J'aime les laisser pourrir quelques semaines pour que le fumet ressorte vraiment. Mais vous avez l'air si affamé. Laissez-moi vous faire un bon brouet de rat. Et c'est parti. . .\n\nTenez, voilà pour vous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3443,
+     "name": "Boustiff'"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3443,
+     "name": "Boustiff'"
+    }
+   ],
+   "zone_id": -304,
+   "level": 23,
+   "reqlevel": 15,
+   "side": "horde",
+   "xp": 1850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2178": {
+   "id": 2178,
+   "name": "Brouet de trotteur",
+   "objectives": "Apporter 5 morceaux de Viande de trotteur à Alanndarian Nightsong, à Auberdine.",
+   "description": "Sentez-vous cet arôme délicieux ? C'est ma recette secrète, <nom> : le brouet de trotteur frais. Délicieux !\n\nLa recette vous intéresse peut-être ?\n\nAvant de vous l'apprendre, je veux voir comment vous vous débrouillez avec les bêtes.\n\nJe ne m'attends pas à ce que vous sortiez en dompter un, mais si vous pouvez en abattre quelques-uns et rapporter leur succulente viande, ça suffira à me convaincre que je peux vous montrer comment cuisiner mon brouet de trotteur.",
+   "progress": "Le pot est vide et j'ai faim ! Pourquoi est-ce si long ?",
+   "completion": "Fantastique ! Essayez ça et dites-moi ce que vous en pensez, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3702,
+     "name": "Alanndarian Nightsong"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3702,
+     "name": "Alanndarian Nightsong"
+    }
+   ],
+   "zone_id": -304,
+   "level": 12,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": 910,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4161": {
+   "id": 4161,
+   "name": "Une recette kaldorei",
+   "objectives": "Collecter 7 Petites pattes d'araignée pour Zarrin, à Dolanaar.",
+   "description": "Autrefois, les elfes de la nuit s’appelaient les kaldorei, ce qui veut dire \"les enfants des étoiles\". La connaissance du passé est une étape importante de votre cheminement de <classe>, <nom>, aussi écoutez attentivement ce que je vais vous dire.\n\nLes kaldorei ont toujours été très fiers de la relation harmonieuse qu'ils entretiennent avec la nature. Cela implique que nous ne prélevons chez elle que le nécessaire et que nous le restituons toujours. Cet équilibre nous est très bénéfique, <nom>.\n\nÀ présent sortez et prélevez sept petites pattes d'araignées – pas plus – puis revenez me voir.",
+   "progress": "Rappelez-vous l'équilibre, <nom>. Je souhaiterais que vous développiez une compréhension et une grande empathie pour les forêts.",
+   "completion": "N’oubliez jamais ce que je vous ai appris en ce jour, <nom>. Vous-même faites partie de cet équilibre que les elfes de la nuit s’évertuent à préserver, même durant les époques troublées.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6286,
+     "name": "Zarrin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6286,
+     "name": "Zarrin"
+    }
+   ],
+   "zone_id": -304,
+   "level": 7,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 630,
+   "money": 85,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "N’oubliez jamais ce que je vous ai appris en ce jour, <nom>. Vous-même faites partie de cet équilibre que les elfes de la nuit s’évertuent à préserver, même durant les époques troublées."
+     },
+     "npc": 6286,
+     "npc_name": "Zarrin",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793998167,
+     "last_seen": 1793998167
+    },
+    "detail": {
+     "texts": {
+      "description": "Autrefois, les elfes de la nuit s’appelaient les kaldorei, ce qui veut dire \"les enfants des étoiles\". La connaissance du passé est une étape importante de votre cheminement de voleur, <nom>, aussi écoutez attentivement ce que je vais vous dire.\n\nLes kaldorei ont toujours été très fiers de la relation harmonieuse qu'ils entretiennent avec la nature. Cela implique que nous ne prélevons chez elle que le nécessaire et que nous le restituons toujours. Cet équilibre nous est très bénéfique, <nom>.\n\nÀ présent sortez et prélevez sept petites pattes d'araignées – pas plus – puis revenez me voir.",
+      "objectives": "Collecter 7 Petites pattes d'araignée pour Zarrin, à Dolanaar.",
+      "name": "Une recette kaldorei"
+     },
+     "npc": 6286,
+     "npc_name": "Zarrin",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Teldrassil",
+     "map_id": 1438,
+     "client": "1.60.1.70790",
+     "first_seen": 1793990915,
+     "last_seen": 1793990915
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6610": {
+   "id": 6610,
+   "name": "Surprise de palourdes",
+   "objectives": "Dirge Quikcleave voudrait que vous lui apportiez les objets suivants :\n\n12 Oeufs géants. Vous les trouverez sur les Rocs qui hantent Tanaris ou sur toute autre espèce de grand oiseau.\n\n10 morceaux de Chair de palourde piquante. Vous pouvez trouver la chair de palourde sur... les palourdes, naturellement !\n\n20 Emmentals d'Alterac. Vous les trouverez dans une fromagerie !\n\nCollectez tous ces objets, puis retournez voir Dirge.",
+   "description": "Déjà entendu parler de l’omelette aux palourdes ? Bien sûr que non ! C'est mon dernier et plus grand chef-d'œuvre culinaire. Oh, <nom>, je salive rien que d'y penser !\n\nMalheureusement, je manque des ingrédients nécessaires pour cuisiner ! Faisons un marché : vous allez chercher les produits dont j'ai besoin pour faire mon plat et en échange je vous apprends les subtilités de la cuisine exotique. Je préparerai même quelques palourdes pour démarrer ! D'accord ?\n\nVoici ce dont j'ai besoin :",
+   "progress": "Mes besoins vont avoir raison de moi ! Vite, <nom> ; avant que je n'entame mes propres réserves.",
+   "completion": "Vous allez vous régaler, <nom>. Regardez et apprenez !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8125,
+     "name": "Dirge Quikcleave"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8125,
+     "name": "Dirge Quikcleave"
+    }
+   ],
+   "zone_id": -304,
+   "level": 45,
+   "reqlevel": 35,
+   "side": "both",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6611": {
+   "id": 6611,
+   "name": "Vers Gadgetzan vous allez !",
+   "objectives": "Aller à Gadgetzan, dans le Désert de Tanaris, et parler de votre carrière de cuisinier à Dirge Quikcleave.",
+   "description": "Pourquoi vous croire que Zamja peut apprendre autre chose ? Vous tout savoir de cuisine mojo de Zamja et quand même vouloir savoir plus !\n\nZamja peut pas. Gros <race> aller à Gadgetzan. Trouver là-bas petit gobelin Dirge. Lui peut aider.\n\nQuand vous faire grande cuisine, vous revenir et apprendre à Zamja, d’accord ? Allez maintenant !",
+   "progress": null,
+   "completion": "<Dirge crache des bouts de sandale en cuir. >\n\nPfftou. . .\n\n<Dirge tousse bruyamment. >\n\nQuoi ? Je dois vous dire que ce cuir est étonnamment riche en protéines et ne contient presque pas d'hydrates de carbone.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3399,
+     "name": "Zamja"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8125,
+     "name": "Dirge Quikcleave"
+    }
+   ],
+   "zone_id": -304,
+   "level": 45,
+   "reqlevel": 35,
+   "side": "horde",
+   "xp": 970,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "race"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6612": {
+   "id": 6612,
+   "name": "Je connais un gars...",
+   "objectives": "Aller à Gadgetzan, dans le Désert de Tanaris, et parler de votre carrière de cuisinier à Dirge Quikcleave.",
+   "description": "Par ma meilleure cuillère, j'peux dire que vous savez cuisiner. Là, j'peux rien vous apprendre.\n\n'Reusement pour vous, je connais un type. C'est un gobelin, même qu'il est le meilleur cuisinier de Kalimdor.\n\nOuais, ça, c'est la mauvaise nouvelle ! Va falloir que vous alliez à Kalimdor. Puis à Gadgetzan pour chercher Dirge Quikcleave. Il vous donnera ses recettes.",
+   "progress": null,
+   "completion": "<Dirge crache du cuir. >\n\nPfftou. . .\n\n<Dirge tousse bruyamment. >\n\nQuoi ? Je dois vous dire que ce cuir est étonnamment riche en protéines et ne contient presque pas de glucides, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5159,
+     "name": "Daryl Riknussun"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8125,
+     "name": "Dirge Quikcleave"
+    }
+   ],
+   "zone_id": -304,
+   "level": 45,
+   "reqlevel": 35,
+   "side": "alliance",
+   "xp": 970,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7321": {
+   "id": 7321,
+   "name": "Bisque de tortue apaisante",
+   "objectives": "Apporter 10 morceaux de Viande de tortue et des Epices apaisantes à Christoph Jeffcoat au Moulin-de-Tarren.",
+   "description": "Qui prétend que les morts-vivants n’y connaissent rien en cuisine ? Tenez, par exemple, prenez ma recette secrète de Bisque de tortue apaisante, par exemple. Je connais des gens qui sont revenus d’entre les morts rien que pour en déguster un bol ! Hé hé…\n\nA ce propos, je n’ai pas eu l’occasion d’en préparer dernièrement. Autrefois, j’allais jusqu'au lac de Lordamere pour chasser les gueules d’acier – ces sales bêtes – mais à présent, j’ai trop de travail.\n\nSi vous m'apportiez de la Viande de tortue venant des gueules d'acier et des Epices apaisantes, je vous mitonnerai un bon petit plat.",
+   "progress": "Alors, vous avez mes ingrédients ? Je vais vous dire, ces infects vers de l’Alliance sont trop nombreux dans la région. À mon avis, ils sont aussi beaucoup trop près.",
+   "completion": "Ma bisque de tortue apaisante vous tiendra chaud par les nuits d'hiver… si vous aimez ce genre de choses.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2393,
+     "name": "Christoph Jeffcoat"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2393,
+     "name": "Christoph Jeffcoat"
+    }
+   ],
+   "zone_id": -304,
+   "level": 31,
+   "reqlevel": 28,
+   "side": "horde",
+   "xp": 2500,
+   "money": 3000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8307": {
+   "id": 8307,
+   "name": "Recette du désert",
+   "objectives": "Cherchez des informations sur la façon de cuisiner la Chair de ver de sable, au camp du Marteau du crépuscule à l'ouest du Fort cénarien.",
+   "description": "S’adapter à la vie du désert a été difficile, et c’est un euphémisme. Les arbres et les oiseaux d’Auberdine me manquent. Quant à la nourriture, dans cet environnement aride, nos choix sont considérablement limités. J’essaye d’apprendre à connaître les herbes du désert, mais elles sont si peu nombreuses !\n\nJ’ai vu que dans leur camp à l’ouest d’ici, les sectateurs du Marteau du crépuscule chassaient les vers des sables pour les manger. La chair de ces créatures est très amère, je ne sais vraiment pas comment ils la rendent mangeable. Si vous allez dans leur camp, gardez les yeux ouverts et faites-moi part de vos éventuelles découvertes.",
+   "progress": null,
+   "completion": "Le livre contient plusieurs recettes banales et quelques recettes inhabituelles. Vous le parcourez quelques secondes et repérez une recette qui fait appel à de la chair de ver des sables.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15174,
+     "name": "Calandrath"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 180503,
+     "name": "Sandy Cookbook"
+    }
+   ],
+   "zone_id": -304,
+   "level": 57,
+   "reqlevel": 54,
+   "side": "both",
+   "xp": 3000,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8313": {
+   "id": 8313,
+   "name": "Partager la connaissance",
+   "objectives": "Apportez la Page de recette déchirée à Calandrath, à l’auberge du Fort cénarien.",
+   "description": "La recette pour préparer la viande de ver des sables est lisible, mais elle contient des références à des herbes et des épices dont vous n’avez jamais entendu parler. Calandrath connaît bien les plantes du désert, elle saura sans doute de quoi il retourne.",
+   "progress": "Avez-vous appris la recette ? Vous n'allez pas la garder pour vous, j'espère ?",
+   "completion": "Regardons ça…\n\nÇa a l’air assez simple. Ils ont leurs propres noms pour certains herbes, mais ils sont assez proches des nôtres pour être compréhensibles. Là, laissez-moi vous montrer !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 180503,
+     "name": "Sandy Cookbook"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15174,
+     "name": "Calandrath"
+    }
+   ],
+   "zone_id": -304,
+   "level": 57,
+   "reqlevel": 54,
+   "side": "both",
+   "xp": 6000,
+   "money": 8500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8317": {
+   "id": 8317,
+   "name": "Un coup de main à la cuisine",
+   "objectives": "Calandrath, du Fort cénarien, a besoin d’une fournée de 10 Boulettes du desert fumées.",
+   "description": "Cette recette sera bien pratique. Je vais m’y mettre, afin d’avoir quelques boulettes fumées du désert de prêtes pour le prochain repas. J’aurais besoin d’un coup de main, d’ailleurs. Je vous récompenserai…",
+   "progress": "Alors, ces boulettes, ça donne quoi ?",
+   "completion": "Excellent ! Vous me sauvez la vie. Ces boulettes sont excellentes. Je ne m’attendais pas à ce que le Marteau du crépuscule ait aussi bon goût.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15174,
+     "name": "Calandrath"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15174,
+     "name": "Calandrath"
+    }
+   ],
+   "zone_id": -304,
+   "level": 57,
+   "reqlevel": 54,
+   "side": "both",
+   "xp": 3000,
+   "money": 17000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

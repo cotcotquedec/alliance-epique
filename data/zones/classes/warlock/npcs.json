@@ -1,0 +1,2974 @@
+{
+ "schema": 1,
+ "zone": "classes/warlock",
+ "zone_id": -61,
+ "zone_name": "Démoniste",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 51,
+  "with_display_id": 51,
+  "with_title": 15,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 23,
+   "unique": 1,
+   "unknown": 27
+  }
+ },
+ "npcs": {
+  "197": {
+   "id": 197,
+   "name": "Maréchal McBride",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Stormwind",
+   "zones": [
+    "Elwynn Forest"
+   ],
+   "coords": {},
+   "levels": [
+    20,
+    20
+   ],
+   "display_id": 1859,
+   "quests_started": [
+    7,
+    15,
+    21,
+    54,
+    3100,
+    3101,
+    3102,
+    3103,
+    3104,
+    3105,
+    91758,
+    92479,
+    96627
+   ],
+   "quests_ended": [
+    7,
+    15,
+    21,
+    783,
+    91752
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleOfficial",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5971,
+     "farewell": 5972,
+     "pissed": 5973
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "459": {
+   "id": 459,
+   "name": "Drusilla La Salle",
+   "title": "Maître des démonistes",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Stormwind",
+   "zones": [
+    "Elwynn Forest"
+   ],
+   "coords": {},
+   "levels": [
+    5,
+    5
+   ],
+   "display_id": 3345,
+   "quests_started": [
+    1598
+   ],
+   "quests_ended": [
+    1598,
+    3105
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanFemaleWarrior",
+    "race": "Human",
+    "sex": "female",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5986,
+     "farewell": 5987,
+     "pissed": 5988
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "HumanFemaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "460": {
+   "id": 460,
+   "name": "Alamar Grimm",
+   "title": "Maître des démonistes",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Gnomeregan Exiles",
+   "zones": [
+    "Dun Morogh"
+   ],
+   "coords": {},
+   "levels": [
+    5,
+    5
+   ],
+   "display_id": 1930,
+   "quests_started": [
+    1599
+   ],
+   "quests_ended": [
+    1599,
+    3115
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GnomeMaleStandard",
+    "race": "Gnome",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5922,
+     "farewell": 5923,
+     "pissed": 5924
+    },
+    "combat_set": "GnomeMale"
+   },
+   "model": {
+    "race": "Gnome",
+    "race_id": 7,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GnomeMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "461": {
+   "id": 461,
+   "name": "Demisette Cloyce",
+   "title": "Maître des démonistes",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Stormwind",
+   "zones": [
+    "Stormwind City"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 1469,
+   "quests_started": [
+    4488,
+    4738,
+    4968,
+    8419
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanFemaleOfficial",
+    "race": "Human",
+    "sex": "female",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5983,
+     "farewell": 5984,
+     "pissed": 5985
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "HumanFemaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "658": {
+   "id": 658,
+   "name": "Sten Stoutarm",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Ironforge",
+   "zones": [
+    "Dun Morogh"
+   ],
+   "coords": {},
+   "levels": [
+    5,
+    5
+   ],
+   "display_id": 1362,
+   "quests_started": [
+    179,
+    233,
+    3106,
+    3107,
+    3108,
+    3109,
+    3110,
+    3112,
+    3113,
+    3114,
+    3115,
+    98574,
+    98581
+   ],
+   "quests_ended": [
+    179
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleStandard",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5904,
+     "farewell": 5905,
+     "pissed": 5906
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "1569": {
+   "id": 1569,
+   "name": "Prêtre des ombres Sarvis",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Undercity",
+   "zones": [
+    "Tirisfal Glades"
+   ],
+   "coords": {},
+   "levels": [
+    5,
+    5
+   ],
+   "display_id": 1584,
+   "quests_started": [
+    364,
+    3095,
+    3096,
+    3097,
+    3098,
+    3099,
+    3901,
+    98601
+   ],
+   "quests_ended": [
+    363,
+    364,
+    3901
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "2126": {
+   "id": 2126,
+   "name": "Maximillion",
+   "title": "Maître des démonistes",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Undercity",
+   "zones": [
+    "Tirisfal Glades"
+   ],
+   "coords": {},
+   "levels": [
+    5,
+    5
+   ],
+   "display_id": 1581,
+   "quests_started": [],
+   "quests_ended": [
+    3099
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "2670": {
+   "id": 2670,
+   "name": "Xizk Goodstitch",
+   "title": "Fournitures de tailleur",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Booty Bay",
+   "zones": [
+    "Stranglethorn Vale"
+   ],
+   "coords": {},
+   "levels": [
+    43,
+    43
+   ],
+   "display_id": 7177,
+   "quests_started": [
+    4782,
+    4785
+   ],
+   "quests_ended": [
+    4781,
+    4785
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleGruff",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Gruff",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5958,
+     "farewell": 5959,
+     "pissed": 5960
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleGruff"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "3143": {
+   "id": 3143,
+   "name": "Gornek",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Durotar"
+   ],
+   "coords": {},
+   "levels": [
+    5,
+    5
+   ],
+   "display_id": 1653,
+   "quests_started": [
+    788,
+    789,
+    2383,
+    3065,
+    3082,
+    3083,
+    3084,
+    3085,
+    3086,
+    3087,
+    3088,
+    3089,
+    3090,
+    97279,
+    98575,
+    98576
+   ],
+   "quests_ended": [
+    787,
+    788,
+    789,
+    804,
+    4641
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "3145": {
+   "id": 3145,
+   "name": "Zureetha Fargaze",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Durotar"
+   ],
+   "coords": {},
+   "levels": [
+    12,
+    12
+   ],
+   "display_id": 1875,
+   "quests_started": [
+    792,
+    794,
+    805
+   ],
+   "quests_ended": [
+    792,
+    794,
+    1499
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "female",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "3156": {
+   "id": 3156,
+   "name": "Nartok",
+   "title": "Maître des démonistes",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Durotar"
+   ],
+   "coords": {},
+   "levels": [
+    9,
+    9
+   ],
+   "display_id": 1884,
+   "quests_started": [],
+   "quests_ended": [
+    3090,
+    98575
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "3294": {
+   "id": 3294,
+   "name": "Ophek",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Durotar"
+   ],
+   "coords": {},
+   "levels": [
+    10,
+    10
+   ],
+   "display_id": 1654,
+   "quests_started": [
+    1506
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "3326": {
+   "id": 3326,
+   "name": "Zevrost",
+   "title": "Maître des démonistes",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Orgrimmar"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 1326,
+   "quests_started": [
+    3631,
+    4737,
+    4967,
+    8419
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "3363": {
+   "id": 3363,
+   "name": "Magar",
+   "title": "Tailleur - Expert",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Orgrimmar"
+   ],
+   "coords": {},
+   "levels": [
+    35,
+    35
+   ],
+   "display_id": 1385,
+   "quests_started": [
+    65610
+   ],
+   "quests_ended": [
+    65601
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "3464": {
+   "id": 3464,
+   "name": "Gazrog",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "The Barrens"
+   ],
+   "coords": {},
+   "levels": [
+    25,
+    25
+   ],
+   "display_id": 3846,
+   "quests_started": [
+    869,
+    1510,
+    3281
+   ],
+   "quests_ended": [
+    869,
+    1509,
+    3281
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "4197": {
+   "id": 4197,
+   "name": "Ken'zigla",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Darkspear Trolls",
+   "zones": [
+    "Stonetalon Mountains"
+   ],
+   "coords": {},
+   "levels": [
+    20,
+    20
+   ],
+   "display_id": 4105,
+   "quests_started": [
+    1511
+   ],
+   "quests_ended": [
+    1510
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "4563": {
+   "id": 4563,
+   "name": "Kaal Soulreaper",
+   "title": "Maître des démonistes",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Undercity",
+   "zones": [
+    "Undercity"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 2675,
+   "quests_started": [
+    4489,
+    4739,
+    4969,
+    8419
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "5172": {
+   "id": 5172,
+   "name": "Eglantine",
+   "title": "Maître des démonistes",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Gnomeregan Exiles",
+   "zones": [
+    "Ironforge"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 3116,
+   "quests_started": [
+    4487,
+    4736,
+    4965,
+    8419
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GnomeMaleStandard",
+    "race": "Gnome",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5922,
+     "farewell": 5923,
+     "pissed": 5924
+    },
+    "combat_set": "GnomeMale"
+   },
+   "model": {
+    "race": "Gnome",
+    "race_id": 7,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GnomeMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "5520": {
+   "id": 5520,
+   "name": "Spackle Thornberry",
+   "title": "Maître des démons",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Gnomeregan Exiles",
+   "zones": [
+    "Stormwind City"
+   ],
+   "coords": {},
+   "levels": [
+    40,
+    40
+   ],
+   "display_id": 3316,
+   "quests_started": [
+    7562
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GnomeMaleStandard",
+    "race": "Gnome",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5922,
+     "farewell": 5923,
+     "pissed": 5924
+    },
+    "combat_set": "GnomeMale"
+   },
+   "model": {
+    "race": "Gnome",
+    "race_id": 7,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GnomeMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "5667": {
+   "id": 5667,
+   "name": "Venya Marthand",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Horde Generic",
+   "zones": [
+    "Tirisfal Glades"
+   ],
+   "coords": {},
+   "levels": [
+    10,
+    10
+   ],
+   "display_id": 3944,
+   "quests_started": [
+    1470
+   ],
+   "quests_ended": [
+    1470
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "female",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "5675": {
+   "id": 5675,
+   "name": "Carendin Halgar",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Horde Generic",
+   "zones": [
+    "Undercity"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 3948,
+   "quests_started": [
+    1471,
+    1472,
+    1473,
+    1474,
+    3001,
+    65597
+   ],
+   "quests_ended": [
+    1471,
+    1473,
+    1474,
+    1476,
+    1478,
+    65593,
+    65597
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "5693": {
+   "id": 5693,
+   "name": "Godrick Farsan",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Undercity",
+   "zones": [
+    "Undercity"
+   ],
+   "coords": {},
+   "levels": [
+    15,
+    15
+   ],
+   "display_id": 4020,
+   "quests_started": [
+    1476,
+    65593
+   ],
+   "quests_ended": [
+    1472
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "5724": {
+   "id": 5724,
+   "name": "Ageron Kargal",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Horde Generic",
+   "zones": [
+    "Tirisfal Glades"
+   ],
+   "coords": {},
+   "levels": [
+    15,
+    15
+   ],
+   "display_id": 4107,
+   "quests_started": [
+    1478
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "5765": {
+   "id": 5765,
+   "name": "Ruzan",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Durotar"
+   ],
+   "coords": {},
+   "levels": [
+    10,
+    10
+   ],
+   "display_id": 4209,
+   "quests_started": [
+    1485,
+    1499
+   ],
+   "quests_ended": [
+    1485
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "5815": {
+   "id": 5815,
+   "name": "Kurgul",
+   "title": "Maître des démons",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Orgrimmar"
+   ],
+   "coords": {},
+   "levels": [
+    45,
+    45
+   ],
+   "display_id": 4354,
+   "quests_started": [
+    7562
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "5875": {
+   "id": 5875,
+   "name": "Gan'rul Bloodeye",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Horde Generic",
+   "zones": [
+    "Orgrimmar"
+   ],
+   "coords": {},
+   "levels": [
+    40,
+    40
+   ],
+   "display_id": 4492,
+   "quests_started": [
+    1501,
+    1504,
+    1507,
+    1513,
+    2996,
+    65604
+   ],
+   "quests_ended": [
+    1501,
+    1504,
+    1506,
+    1512,
+    1513,
+    65604,
+    65610
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "5908": {
+   "id": 5908,
+   "name": "Grunt Dogran",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Horde Generic",
+   "zones": [
+    "The Barrens"
+   ],
+   "coords": {},
+   "levels": [
+    20,
+    20
+   ],
+   "display_id": 4544,
+   "quests_started": [
+    1512
+   ],
+   "quests_ended": [
+    1515
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "5909": {
+   "id": 5909,
+   "name": "Cazul",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Horde Generic",
+   "zones": [
+    "Orgrimmar"
+   ],
+   "coords": {},
+   "levels": [
+    40,
+    40
+   ],
+   "display_id": 4545,
+   "quests_started": [
+    1508,
+    65601
+   ],
+   "quests_ended": [
+    1507
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "5910": {
+   "id": 5910,
+   "name": "Zankaja",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Horde Generic",
+   "zones": [
+    "Orgrimmar"
+   ],
+   "coords": {},
+   "levels": [
+    15,
+    15
+   ],
+   "display_id": 4546,
+   "quests_started": [
+    1509
+   ],
+   "quests_ended": [
+    1508
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "female",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "5911": {
+   "id": 5911,
+   "name": "Grunt Logmar",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Horde Generic",
+   "zones": [
+    "The Barrens"
+   ],
+   "coords": {},
+   "levels": [
+    20,
+    20
+   ],
+   "display_id": 4547,
+   "quests_started": [
+    1515,
+    97250
+   ],
+   "quests_ended": [
+    1511,
+    97250
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "6120": {
+   "id": 6120,
+   "name": "Lago Blackwrench",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Gnomeregan Exiles",
+   "zones": [
+    "Ironforge"
+   ],
+   "coords": {},
+   "levels": [
+    30,
+    30
+   ],
+   "display_id": 4865,
+   "quests_started": [
+    1715,
+    1717,
+    1798
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GnomeMaleYoung",
+    "race": "Gnome",
+    "sex": "male",
+    "personality": "Young",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5928,
+     "farewell": 5929,
+     "pissed": 5930
+    },
+    "combat_set": "GnomeMale"
+   },
+   "model": {
+    "race": "Gnome",
+    "race_id": 7,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GnomeMaleYoung"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "6121": {
+   "id": 6121,
+   "name": "Remen Marcot",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Stormwind",
+   "zones": [
+    "Elwynn Forest"
+   ],
+   "coords": {},
+   "levels": [
+    10,
+    10
+   ],
+   "display_id": 4866,
+   "quests_started": [
+    1685
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleWarrior",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5977,
+     "farewell": 5978,
+     "pissed": 5979
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "6122": {
+   "id": 6122,
+   "name": "Gakin le Tisse-noir",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Stormwind",
+   "zones": [
+    "Stormwind City"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 4867,
+   "quests_started": [
+    1688,
+    1689,
+    1716,
+    1739,
+    1798,
+    65603
+   ],
+   "quests_ended": [
+    1685,
+    1688,
+    1689,
+    1715,
+    1717,
+    1738,
+    1739,
+    65602,
+    65603
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleWarrior",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5977,
+     "farewell": 5978,
+     "pissed": 5979
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "6244": {
+   "id": 6244,
+   "name": "Takar le Prophète",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Stormwind",
+   "zones": [
+    "The Barrens"
+   ],
+   "coords": {},
+   "levels": [
+    45,
+    45
+   ],
+   "display_id": 4928,
+   "quests_started": [
+    1738,
+    65602
+   ],
+   "quests_ended": [
+    1716
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleWarrior",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5977,
+     "farewell": 5978,
+     "pissed": 5979
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "6247": {
+   "id": 6247,
+   "name": "Doan Karhan",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "The Barrens"
+   ],
+   "coords": {},
+   "levels": [
+    40,
+    40
+   ],
+   "display_id": 4931,
+   "quests_started": [
+    1740
+   ],
+   "quests_ended": [
+    1740
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleWarrior",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5977,
+     "farewell": 5978,
+     "pissed": 5979
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "6251": {
+   "id": 6251,
+   "name": "Strahad Farsan",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "The Barrens"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 4940,
+   "quests_started": [
+    1758,
+    1795,
+    1801,
+    4490
+   ],
+   "quests_ended": [
+    1795,
+    1798,
+    1804,
+    1805,
+    2996,
+    3001,
+    3631,
+    4487,
+    4488,
+    4489,
+    4490
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleWarrior",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5977,
+     "farewell": 5978,
+     "pissed": 5979
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "6252": {
+   "id": 6252,
+   "name": "Acolyte Magaz",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "The Barrens"
+   ],
+   "coords": {},
+   "levels": [
+    20,
+    20
+   ],
+   "display_id": 4941,
+   "quests_started": [
+    4963
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "OrcFemaleWarrior",
+    "race": "Orc",
+    "sex": "female",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6033,
+     "farewell": 6034,
+     "pissed": 6035
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Orc",
+    "race_id": 2,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "OrcFemaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "6254": {
+   "id": 6254,
+   "name": "Acolyte Wytula",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "The Barrens"
+   ],
+   "coords": {},
+   "levels": [
+    20,
+    20
+   ],
+   "display_id": 4943,
+   "quests_started": [
+    4962
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "UndeadFemaleMagic",
+    "race": "Undead",
+    "sex": "female",
+    "personality": "Magic",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6052,
+     "farewell": 6053,
+     "pissed": 6054
+    },
+    "combat_set": "UndeadFemale"
+   },
+   "model": {
+    "race": "Undead",
+    "race_id": 5,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "UndeadFemaleMagic"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "6266": {
+   "id": 6266,
+   "name": "Menara Voidrender",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "The Barrens"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 4948,
+   "quests_started": [
+    1796,
+    1799,
+    4781,
+    4783,
+    4784,
+    4786,
+    4964,
+    4975
+   ],
+   "quests_ended": [
+    1796,
+    4736,
+    4737,
+    4738,
+    4739,
+    4782,
+    4783,
+    4784,
+    4786,
+    4962,
+    4963,
+    4964,
+    4965,
+    4967,
+    4968,
+    4969,
+    4975,
+    4976
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanFemaleWarrior",
+    "race": "Human",
+    "sex": "female",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5986,
+     "farewell": 5987,
+     "pissed": 5988
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "HumanFemaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "6293": {
+   "id": 6293,
+   "name": "Jorah Annison",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Undercity",
+   "zones": [
+    "Undercity"
+   ],
+   "coords": {},
+   "levels": [
+    20,
+    20
+   ],
+   "display_id": 4987,
+   "quests_started": [
+    1803,
+    1805
+   ],
+   "quests_ended": [
+    1801,
+    1803
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "6294": {
+   "id": 6294,
+   "name": "Krom Stoutarm",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Ironforge",
+   "zones": [
+    "Ironforge"
+   ],
+   "coords": {},
+   "levels": [
+    20,
+    20
+   ],
+   "display_id": 4988,
+   "quests_started": [
+    1360,
+    1802,
+    1804
+   ],
+   "quests_ended": [
+    1360,
+    1758,
+    1802
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleStandard",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5904,
+     "farewell": 5905,
+     "pissed": 5906
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "6382": {
+   "id": 6382,
+   "name": "Jubahl Cherche-corps",
+   "title": "Maître des démons",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Gnomeregan Exiles",
+   "zones": [
+    "Ironforge"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 5085,
+   "quests_started": [
+    7562
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleWarrior",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5977,
+     "farewell": 5978,
+     "pissed": 5979
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "6546": {
+   "id": 6546,
+   "name": "Tabetha",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Dustwallow Marsh"
+   ],
+   "coords": {},
+   "levels": [
+    62,
+    62
+   ],
+   "display_id": 5375,
+   "quests_started": [
+    1948,
+    1949,
+    1952,
+    1954,
+    1955,
+    1956,
+    1957,
+    1958,
+    2846,
+    4961,
+    4976
+   ],
+   "quests_ended": [
+    1799,
+    1947,
+    1948,
+    1951,
+    1952,
+    1953,
+    1954,
+    1955,
+    1956,
+    1957,
+    1958,
+    2846,
+    2861,
+    4961
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanFemaleOfficial",
+    "race": "Human",
+    "sex": "female",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5983,
+     "farewell": 5984,
+     "pissed": 5985
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "HumanFemaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "9516": {
+   "id": 9516,
+   "name": "Seigneur Banehollow",
+   "title": null,
+   "type": null,
+   "classification": "Elite",
+   "react": null,
+   "faction": "Jaedenar",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    59,
+    59
+   ],
+   "display_id": 8611,
+   "quests_started": [
+    7624,
+    7625
+   ],
+   "quests_ended": [
+    7623,
+    7624
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "12807": {
+   "id": 12807,
+   "name": "Greshka",
+   "title": "Maître des démons",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Swamp of Sorrows"
+   ],
+   "coords": {},
+   "levels": [
+    50,
+    50
+   ],
+   "display_id": 12689,
+   "quests_started": [
+    7562
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "female",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "14436": {
+   "id": 14436,
+   "name": "Mor'zul Bloodbringer",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Burning Steppes"
+   ],
+   "coords": {},
+   "levels": [
+    61,
+    61
+   ],
+   "display_id": 14565,
+   "quests_started": [
+    7563,
+    7564,
+    7626,
+    7627,
+    7628,
+    7631
+   ],
+   "quests_ended": [
+    7562,
+    7563
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleOfficial",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5971,
+     "farewell": 5972,
+     "pissed": 5973
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14437": {
+   "id": 14437,
+   "name": "Gorzeeki Wildeyes",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Burning Steppes"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 14566,
+   "quests_started": [
+    7623,
+    7629,
+    7630
+   ],
+   "quests_ended": [
+    7564,
+    7625,
+    7626,
+    7627,
+    7628,
+    7629,
+    7630
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GoblinMaleGruff",
+    "race": "Goblin",
+    "sex": "male",
+    "personality": "Gruff",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6630,
+     "farewell": 5959,
+     "pissed": 5960
+    },
+    "combat_set": null
+   },
+   "model": {
+    "race": "Goblin",
+    "race_id": 9,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GoblinMaleGruff"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14463": {
+   "id": 14463,
+   "name": "Daio le Décrépit",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Blasted Lands"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 14531,
+   "quests_started": [
+    7581,
+    7582,
+    7583
+   ],
+   "quests_ended": [
+    7581,
+    7582,
+    7583
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleOfficial",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5971,
+     "farewell": 5972,
+     "pissed": 5973
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14469": {
+   "id": 14469,
+   "name": "Niby le Tout-puissant",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    56,
+    56
+   ],
+   "display_id": 14532,
+   "quests_started": [
+    7601
+   ],
+   "quests_ended": [
+    7603
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "unique",
+    "set": "GnomeMaleZany",
+    "race": "Gnome",
+    "sex": "male",
+    "personality": null,
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5925,
+     "farewell": 5926,
+     "pissed": 5927
+    },
+    "combat_set": "GnomeMale"
+   },
+   "model": {
+    "race": "Gnome",
+    "race_id": 7,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GnomeMaleZany"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "14470": {
+   "id": 14470,
+   "name": "Démonet",
+   "title": "Sbire de Niby",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Felwood"
+   ],
+   "coords": {},
+   "levels": [
+    56,
+    56
+   ],
+   "display_id": 4449,
+   "quests_started": [
+    7602,
+    7603,
+    8420,
+    8421,
+    8422
+   ],
+   "quests_ended": [
+    7601,
+    7602,
+    8419,
+    8420,
+    8421,
+    8422
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "14504": {
+   "id": 14504,
+   "name": "Esprit de Destrier de l'effroi",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Creature",
+   "zones": [
+    "Dire Maul"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 14553,
+   "quests_started": [],
+   "quests_ended": [
+    7631
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  }
+ }
+}

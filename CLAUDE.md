@@ -143,7 +143,7 @@ addon/ForeverSpeech/
                chargé en dernier) ; Bindings.xml à la racine
   ui/          tracker_buttons.lua, questlog_buttons.lua, player_frame.lua, side_tabs.lua et
                fishing_tab.lua (onglets sur le côté, §9.10), emote_wheel.lua (roue d'émotes, §9.21), bag_tabs.lua (onglets du sac à dos, §9.13),
-               bag_frame.lua (sac à dos déplaçable, §9.13), quest_sort.lua (quêtes triées par niveau, §9.20), style.lua (apparence commune, §9.19), map_panel.lua
+               quest_sort.lua (quêtes triées par niveau, §9.20), style.lua (apparence commune, §9.19), map_panel.lua
                (récit du lieu, D16)
   data/        index.lua, game_voices.lua (GÉNÉRÉS — ne pas éditer à la main ; pipeline/build_index.py, pipeline/game_voices.py)
   audio/       test/*.ogg (phase 1), puis <npc>/<quest>_<kind>[_m|_f].ogg
@@ -156,7 +156,7 @@ pipeline/      Python 3.11+ : foreverdb/ (import de la base), wowhead/ (lecture 
                scripts.py (scripts, sans
                Claude), narration.py, build_index.py ; le « compagnon »
                (D3) = ces commandes lancées à la main
-data/          (pas dans git, sauf accents.json) zones.json (catalogue), zones/<groupe>/<catégorie>/{quests,npcs,scripts,audio,readings}.json
+data/          (dans git depuis le 2026-11-16 : les JSON seulement, accents.json, zones.json, voices.json, zones/** ; jamais l'audio ni les voix) zones.json (catalogue), zones/<groupe>/<catégorie>/{quests,npcs,scripts,audio,readings}.json
                (registres, voir docs/data-registries.md ; D12), voices.json (fiche de personnalité, voice_text et
                voix Qwen3 par PNJ, voir docs/voices-and-text.md), accents.json (accent par race, D11), voices/samples/
                (voix modèles, banc), audio/ (masters FLAC), cache/ (Wowhead brut, boucles ; gitignore)
@@ -319,7 +319,7 @@ Entrée absente → fallback **et** capture enregistrée pour génération ulté
    `npcvoices on|off`, `zone [mapID|where|reset|on|off]` (D16), `level [n|on|off]` (D17),
    `fish` (mode pêche, §9.10), `options [thème]` (fenêtre d'options), `friends [on|off|say <palier>]` (journal des compagnons, D18),
    `announce [questID|on|off|party|say]` (annonce au groupe, §9.11), `area` (quêtes dont je suis dans la zone, §9.12),
-   `disenchant` (objets à désenchanter, §9.13), `bag [reset]` (place du sac à dos, §9.13), `duck on|off` (baisse du
+   `disenchant` (objets à désenchanter, §9.13), `duck on|off` (baisse du
    son du jeu, §9.14), `books [on|off]` (livres lus par Elise, §9.17), `gossip [on|off]` (dialogues des PNJ, §9.18), `sort [on|off|probe]` (quêtes triées par niveau, §9.20), `check` (vérification du jeu, §2).
 7. Canal audio : « Dialog » par défaut, configurable.
 8. **Fin de quête** (2026-10-06) : capture du texte de rendu à `QUEST_COMPLETE` (`GetRewardText`, PNJ de rendu,
@@ -383,21 +383,19 @@ Entrée absente → fallback **et** capture enregistrée pour génération ulté
    visée, `ForeverSpeechDB.disenchantCheck` garde ce que dit chaque objet. `/fs disenchant` dit combien d'objets se
    désenchantent. H18 vérifié (sac combiné de Retail, `GetBagID`, `UpdateItems`, le sort 13262 lancé par l'onglet) ;
    non vérifié : T36.
-   **Le sac combiné se déplace** (2026-10-20, `ui/bag_frame.lua`) : glissé par son bord ou son titre, sa place est
-   retenue (`ForeverSpeechDB.bagPos`) et remise après chaque rangement des sacs par le jeu
-   (`UpdateContainerFrameAnchors`) ; `/fs bag [reset]`, Options > Confort. **Une ligne par sac** (réglage `bagRows`, activé par défaut) : après la grille du
-   jeu, ses cases reprises sac par sac, le sac à dos en haut, chaque sac à la ligne sous son nom, ses cases et ses cases
-   libres, un trait entre deux sacs, le cadre grandi d'autant, même quand le jeu le redimensionne (colonnes, pas et coin
-   de la grille du jeu ; le premier titre remonté de 11 pixels sous la recherche, 6 de plus sous le dernier sac) ; `/fs bag slots` dit la taille de
-   chaque sac. Sacs séparés : laissés au jeu. **Règle (2026-10-20) : les onglets des métiers vont sur le sac** : la
+   **Le sac à dos de l'addon retiré le 2026-11-10** (demande du joueur : le sac marchait mal, FlareUI ou le jeu ont
+   changé ; voir d'abord ce que fait le jeu seul) : `ui/bag_frame.lua` (sac déplaçable, une ligne par sac, sac de
+   composants replié dans le sac à dos, T38, T71), ses réglages `bagRows` et `reagentBag` et `/fs bag`. À remettre au
+   besoin depuis le commit qui le retire (`git log -- addon/ForeverSpeech/ui/bag_frame.lua`). Restent : les onglets
+   à droite de la minimap et la bordure dorée du désenchantement sur les cases (`ui/bag_tabs.lua`).
+   **Règle (2026-10-20) : les onglets des métiers vont sur la barre du sac** (à droite de la minimap depuis le 2026-11-10, demande du joueur : toujours à portée, sacs fermés ; à sa gauche si l'écran s'arrête là ; `SideTabs.AttachRight`, l'art du grimoire de son côté ; non vérifié : T72) : la
    pêche, puis **un onglet par métier appris qui a une fenêtre** (2026-11-05 ; la cuisine et la couture depuis le
    2026-10-20) : alchimie, forge, enchantement, ingénierie, travail du cuir, couture, fonte (le minage), cuisine,
    secourisme ; onglets sécurisés qui lancent le sort du métier par son nom, donc le rang connu, et ouvrent sa fenêtre ;
    réglage `professionTabs`. **Grisé, toujours cliquable**, quand le jeu dit que le lieu du métier n'est pas à
    proximité (cuisine : un feu ; fonte : une forge ; forge : une enclume ; `C_TradeSkillUI.IsNearProfessionSpellFocus`,
    demandé deux fois par seconde sac ouvert ; sans réponse du jeu, jamais grisé ; l'infobulle dit ce qui manque). Puis
-   Désenchanter. Vérifié en jeu le 2026-11-05 (T62, H37) ; non vérifié : T38. Les onglets sécurisés suivent le sac quel
-   que soit celui qui le déplace (2026-11-05, §9.22).
+   Désenchanter. Vérifié en jeu le 2026-11-05 (T62, H37) ; non vérifié : T38.
 14. **Le son du jeu baisse pendant une lecture** (2026-10-21, `core/ducking.lua`, idée de Spoken, MIT) : pendant toute
    lecture de l'addon, la musique, l'ambiance et les effets descendent en 0,8 s à 30 %, 40 % et 60 % du réglage du
    joueur (jamais le canal de l'addon, `channel`) et remontent 1,2 s après la fin de la liste (pas entre deux quêtes).
@@ -430,7 +428,10 @@ Entrée absente → fallback **et** capture enregistrée pour génération ulté
      infobulles en trois niveaux ; dans le suivi et le journal, le pictogramme sur la case fine du jeu ;
    - **en-tête « médaillon »** (choisi parmi quatre maquettes) : le PNJ dans un médaillon rond (son portrait 2D du jeu,
      `SetPortraitTextureFromCreatureDisplayID`, masqué rond ; sinon son modèle 3D cadré sur la tête dans l'anneau ;
-     Elise : son portrait peint recadré sur son visage), à côté le titre de la quête (deux lignes au plus, le seul
+     Elise : son portrait peint recadré sur son visage ; **pendant la lecture, l'anneau brille** et pulse doucement
+     (l'anneau évidé `media/ui/ring_band.tga`, `tools/ring_band.ts`, en lumière ajoutée), le portrait reste fixe ; réglage
+     `talkAnim`, 2026-11-08 ; essayé puis retiré le même jour : le modèle 3D qui parle à la place du portrait, son carré se
+     voyait dans l'anneau ; non vérifié : T70), à côté le titre de la quête (deux lignes au plus, le seul
      point fort), « PNJ · état », les contrôles de 20 px et le bouton de la liste de lecture ; le blason de difficulté
      (52 px) en haut à droite, son chiffre centré sur la plaque (`BADGE_NUDGE`) ;
    - **dessous, en pleine largeur** : la description de la quête (le seul bloc optionnel : « Afficher le texte de la

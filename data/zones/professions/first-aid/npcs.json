@@ -1,0 +1,239 @@
+{
+ "schema": 1,
+ "zone": "professions/first-aid",
+ "zone_id": -324,
+ "zone_name": "Premiers soins",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 4,
+  "with_display_id": 4,
+  "with_title": 4,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 2,
+   "unknown": 2
+  }
+ },
+ "npcs": {
+  "3373": {
+   "id": 3373,
+   "name": "Arnok",
+   "title": "Maître des premiers soins",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Orgrimmar",
+   "zones": [
+    "Orgrimmar"
+   ],
+   "coords": {},
+   "levels": [
+    35,
+    35
+   ],
+   "display_id": 1395,
+   "quests_started": [
+    6623
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "5150": {
+   "id": 5150,
+   "name": "Nissa Firestone",
+   "title": "Maître des premiers soins",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Ironforge",
+   "zones": [
+    "Ironforge"
+   ],
+   "coords": {},
+   "levels": [
+    35,
+    35
+   ],
+   "display_id": 3068,
+   "quests_started": [
+    6625
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfFemaleGuard",
+    "race": "Dwarf",
+    "sex": "female",
+    "personality": "Guard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5916,
+     "farewell": 5917,
+     "pissed": 5918
+    },
+    "combat_set": "DwarfFemale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "DwarfFemaleGuard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "12920": {
+   "id": 12920,
+   "name": "Docteur Gregory Victor",
+   "title": "Chirurgien",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Undercity",
+   "zones": [
+    "Arathi Highlands"
+   ],
+   "coords": {},
+   "levels": [
+    48,
+    48
+   ],
+   "display_id": 12928,
+   "quests_started": [
+    6622,
+    97539
+   ],
+   "quests_ended": [
+    6622,
+    6623
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "12939": {
+   "id": 12939,
+   "name": "Docteur Gustaf VanHowzen",
+   "title": "Chirurgien",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Theramore",
+   "zones": [
+    "Dustwallow Marsh"
+   ],
+   "coords": {},
+   "levels": [
+    48,
+    48
+   ],
+   "display_id": 12930,
+   "quests_started": [
+    6624
+   ],
+   "quests_ended": [
+    6624,
+    6625
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleStandard",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5974,
+     "farewell": 5975,
+     "pissed": 5976
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  }
+ }
+}

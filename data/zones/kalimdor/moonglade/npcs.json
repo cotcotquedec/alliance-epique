@@ -1,0 +1,967 @@
+{
+ "schema": 1,
+ "zone": "kalimdor/moonglade",
+ "zone_id": 493,
+ "zone_name": "Reflet-de-Lune",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 15,
+  "with_display_id": 15,
+  "with_title": 4,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 12,
+   "unknown": 3
+  }
+ },
+ "npcs": {
+  "10897": {
+   "id": 10897,
+   "name": "Sindrayl",
+   "title": "Maître des hippogryphes",
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Darnassus",
+   "zones": [
+    "Moonglade"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 10196,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfFemaleSentinel",
+    "race": "NightElf",
+    "sex": "female",
+    "personality": "Sentinel",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6005,
+     "farewell": 6006,
+     "pissed": 6007
+    },
+    "combat_set": "NightElfFemale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "female"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "NightElfFemaleSentinel"
+   }
+  },
+  "11798": {
+   "id": 11798,
+   "name": "Bunthen Plainswind",
+   "title": "Maître de vol de Thunder Bluff",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Cenarion Circle",
+   "zones": [
+    "Moonglade"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 11773,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TaurenMaleShaman",
+    "race": "Tauren",
+    "sex": "male",
+    "personality": "Shaman",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6011,
+     "farewell": 6012,
+     "pissed": 6013
+    },
+    "combat_set": "TaurenMale"
+   },
+   "model": {
+    "race": "Tauren",
+    "race_id": 6,
+    "sex": "male"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "TaurenMaleShaman"
+   }
+  },
+  "11800": {
+   "id": 11800,
+   "name": "Silva Fil'naveth",
+   "title": "Maître de vol de Darnassus",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Cenarion Circle",
+   "zones": [
+    "Moonglade"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 11767,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfFemalePriestess",
+    "race": "NightElf",
+    "sex": "female",
+    "personality": "Priestess",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6001,
+     "farewell": 6002,
+     "pissed": 6003
+    },
+    "combat_set": "NightElfFemale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "female"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "NightElfFemalePriestess"
+   }
+  },
+  "11801": {
+   "id": 11801,
+   "name": "Rabine Saturna",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Cenarion Circle",
+   "zones": [
+    "Moonglade"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 11768,
+   "quests_started": [
+    1124,
+    5526,
+    5527
+   ],
+   "quests_ended": [
+    1123,
+    5526,
+    5527,
+    6762,
+    6845
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfMaleStandard",
+    "race": "NightElf",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5989,
+     "farewell": 5990,
+     "pissed": 5991
+    },
+    "combat_set": "NightElfMale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "NightElfMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11832": {
+   "id": 11832,
+   "name": "Gardien Remulos",
+   "title": null,
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Cenarion Circle",
+   "zones": [
+    "Moonglade"
+   ],
+   "coords": {},
+   "levels": [
+    62,
+    62
+   ],
+   "display_id": 11906,
+   "quests_started": [
+    8447,
+    8735,
+    8736,
+    8741
+   ],
+   "quests_ended": [
+    7066,
+    8446,
+    8447,
+    8734,
+    8735,
+    8736
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "11939": {
+   "id": 11939,
+   "name": "Umber",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Cenarion Circle",
+   "zones": [
+    "Moonglade"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 11893,
+   "quests_started": [
+    1185,
+    6845
+   ],
+   "quests_ended": [
+    1185,
+    6844
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleStandard",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5974,
+     "farewell": 5975,
+     "pissed": 5976
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11956": {
+   "id": 11956,
+   "name": "Esprit du Grand ours",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Cenarion Circle",
+   "zones": [
+    "Moonglade"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 11909,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true
+  },
+  "13220": {
+   "id": 13220,
+   "name": "Layo Starstrike",
+   "title": "Le Cercle cénarien",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Cenarion Circle",
+   "zones": [
+    "Silithus"
+   ],
+   "coords": {},
+   "levels": [
+    55,
+    55
+   ],
+   "display_id": 13149,
+   "quests_started": [
+    1125,
+    1126,
+    6844
+   ],
+   "quests_ended": [
+    1124,
+    1125,
+    1126
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfMaleOfficial",
+    "race": "NightElf",
+    "sex": "male",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5992,
+     "farewell": 5993,
+     "pissed": 5994
+    },
+    "combat_set": "NightElfMale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "NightElfMaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "15192": {
+   "id": 15192,
+   "name": "Anachronos",
+   "title": null,
+   "type": null,
+   "classification": "Boss",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Brood of Nozdormu",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    61,
+    61
+   ],
+   "display_id": 2719,
+   "quests_started": [
+    8305,
+    8555,
+    8742,
+    8747,
+    8748,
+    8749,
+    8750,
+    8751,
+    8752,
+    8753,
+    8754,
+    8755,
+    8756,
+    8757,
+    8758,
+    8759,
+    8760,
+    8761,
+    8764,
+    8765,
+    8766,
+    9251,
+    9257,
+    9269,
+    9270,
+    9271
+   ],
+   "quests_ended": [
+    8303,
+    8519,
+    8555,
+    8729,
+    8730,
+    8741,
+    8742,
+    8747,
+    8748,
+    8749,
+    8750,
+    8751,
+    8752,
+    8753,
+    8754,
+    8755,
+    8756,
+    8757,
+    8758,
+    8759,
+    8760,
+    8761,
+    8764,
+    8765,
+    8766,
+    8802,
+    9250,
+    9251,
+    9257,
+    9269,
+    9270,
+    9271
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "15694": {
+   "id": 15694,
+   "name": "Fêtard de Stormwind",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Moonglade"
+   ],
+   "coords": {},
+   "levels": [
+    1,
+    60
+   ],
+   "display_id": 15766,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleStandard",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5974,
+     "farewell": 5975,
+     "pissed": 5976
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleStandard"
+   }
+  },
+  "15719": {
+   "id": 15719,
+   "name": "Fêtard de Thunder Bluff",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Moonglade"
+   ],
+   "coords": {},
+   "levels": [
+    1,
+    1
+   ],
+   "display_id": 15770,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "TaurenMaleWarrior",
+    "race": "Tauren",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6008,
+     "farewell": 6009,
+     "pissed": 6010
+    },
+    "combat_set": "TaurenMale"
+   },
+   "model": {
+    "race": "Tauren",
+    "race_id": 6,
+    "sex": "male"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "TaurenMaleWarrior"
+   }
+  },
+  "15905": {
+   "id": 15905,
+   "name": "Fêtard de Darnassus",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Moonglade"
+   ],
+   "coords": {},
+   "levels": [
+    1,
+    1
+   ],
+   "display_id": 15883,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfMaleStandard",
+    "race": "NightElf",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5989,
+     "farewell": 5990,
+     "pissed": 5991
+    },
+    "combat_set": "NightElfMale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "male"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "NightElfMaleStandard"
+   }
+  },
+  "15906": {
+   "id": 15906,
+   "name": "Fêtard d'Ironforge",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Moonglade"
+   ],
+   "coords": {},
+   "levels": [
+    1,
+    59
+   ],
+   "display_id": 15887,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "DwarfMaleStandard",
+    "race": "Dwarf",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5904,
+     "farewell": 5905,
+     "pissed": 5906
+    },
+    "combat_set": "DwarfMale"
+   },
+   "model": {
+    "race": "Dwarf",
+    "race_id": 3,
+    "sex": "male"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "DwarfMaleStandard"
+   }
+  },
+  "15907": {
+   "id": 15907,
+   "name": "Fêtard d'Undercity",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Moonglade"
+   ],
+   "coords": {},
+   "levels": [
+    1,
+    1
+   ],
+   "display_id": 15895,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "UndeadMaleStandard",
+    "race": "Undead",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6036,
+     "farewell": 6037,
+     "pissed": 6038
+    },
+    "combat_set": "UndeadMale"
+   },
+   "model": {
+    "race": "Undead",
+    "race_id": 5,
+    "sex": "male"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "UndeadMaleStandard"
+   }
+  },
+  "15908": {
+   "id": 15908,
+   "name": "Fêtard d'Orgrimmar",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Moonglade"
+   ],
+   "coords": {},
+   "levels": [
+    1,
+    1
+   ],
+   "display_id": 15891,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "OrcMaleStandard",
+    "race": "Orc",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6021,
+     "farewell": 6022,
+     "pissed": 6023
+    },
+    "combat_set": "OrcMale"
+   },
+   "model": {
+    "race": "Orc",
+    "race_id": 2,
+    "sex": "male"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "OrcMaleStandard"
+   }
+  }
+ }
+}

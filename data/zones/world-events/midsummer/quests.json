@@ -1,0 +1,918 @@
+{
+ "schema": 1,
+ "zone": "world-events/midsummer",
+ "zone_id": -369,
+ "zone_name": "Solstice d'été",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 16,
+  "complete": 16,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 2
+ },
+ "quests": {
+  "9319": {
+   "id": 9319,
+   "name": "Une lumière au sein des ombres",
+   "objectives": "Trouvez et touchez les feux de joie situés au pic Blackrock, à Hache-tripes, dans la Scholomance et à Stratholme. Puis retournez voir le gardien des flammes de la fête.",
+   "description": "Nous ne sommes pas les seuls à célébrer cette fête, <nom>. Toutes les créatures, toutes les cultures, sont touchées par les flammes. Même dans les lieux les plus sombres, des feux sont allumés.\n\nSi vous souhaitez le vérifier par vous-même, voyagez dans les profondeurs. Cherchez les feux de joie qui brûlent dans Stratholme, dans la Scholomance, parmi les ogres de Hache-tripes et dans les salles du pic Rochenoire lui-même ; j'attendrai votre retour.",
+   "progress": "Avez-vous trouvé votre chemin dans l'obscurité ?",
+   "completion": "Votre essence chante avec l'énergie des flammes que vous avez trouvées, <nom>. Le feu que tu as rencontré est puissant, et avec les bonnes connaissances, sa puissance peut être exploitée...\n\n<Le gardien des flammes marmonne une incantation dans une langue étrange et arcanique, puis sort une bouteille incandescente.\n\nAh ! Nous y voilà. Que ceci éclaire votre chemin, peu importe où vous marchez.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16788,
+     "name": "Gardien des flammes de la fête"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16788,
+     "name": "Gardien des flammes de la fête"
+    }
+   ],
+   "zone_id": -369,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 4950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9322": {
+   "id": 9322,
+   "name": "Feux sauvages en Kalimdor",
+   "objectives": "Visitez les campements du solstice d'été en Azshara, en Silithus, au cratère d'Un'Goro et à Berceau-de-l'Hiver, puis revenez voir le Gardien des flammes.",
+   "description": "La fête du Feu du solstice d'été est célébrée partout en Azeroth, et les terres contrastées de Kalimdor ne font guère exception. À vous voir, un voyage ne vous ferait pas de mal.\n\nLe solstice d'été ne peut être pleinement apprécié que si vous voyez les grands feux bleutés de par le monde. Les célébrants ont allumé des feux dans l'ouest de la froide région de Berceau-de-l'hiver, dans le nord-est d'Azshara, près du Repos des Vaillants dans les terres désolées de Silithus, et près de l'entrée de la luxuriante contrée d'Un'Goro. Revenez quand vous aurez achevé votre voyage.",
+   "progress": "Les flammes de Kalimdor brûlent-elles intensément ?",
+   "completion": "Votre esprit brille de la chaleur des feux de Kalimdor, ami. Cette chaleur n'est-elle pas revigorante ?\n\nLorsque cet effet s'estompera, voilà qui pourra peut-être raviver cette sensation.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16788,
+     "name": "Gardien des flammes de la fête"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16788,
+     "name": "Gardien des flammes de la fête"
+    }
+   ],
+   "zone_id": -369,
+   "level": 60,
+   "reqlevel": 1,
+   "side": "both",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9323": {
+   "id": 9323,
+   "name": "Feux sauvages dans les Royaumes de l'est",
+   "objectives": "Rendez visite aux campements de la fête du Feu situés dans les Terres foudroyées, les Maleterres de l’est, les Hinterlands, et la gorge des Vents brûlants, puis allez parler au gardien des flammes de la fête.",
+   "description": "Notre célébration de la flamme se répand à travers les territoires, <classe>. Aucun lieu n’est assez éloigné pour ne pas ressentir la chaleur de notre fête, et les plus grands feux brillent de flammes d’un bleu intense. Allez les voir.\n\nVous en trouverez un juste au nord du pic Blackrock. Les autres sont près d’une ville en ruine au cœur des Maleterres de l’est, le long de la route des falaises dans les montagneuses Hinterlands, et sur la voie de la Porte des ténèbres dans les Terres foudroyées.\n\nRevenez une fois que votre voyage sera terminé.",
+   "progress": "Avez-vous déjà parcouru le continent ? L'illumination vous attend.",
+   "completion": "Ah, vous revoilà. Un peu plus fatigué, un peu plus poussiéreux, mais illuminé ! La chaleur nous atteint tous en cette saison et nous unit ; vous luisez de la puissance des feux que vous avez approchés.\n\nC'est vrai que de nos jours, l'illumination est considérée comme une piètre récompense pour avoir accompli une tâche. Prenez ceci, et allez vous amuser.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16788,
+     "name": "Gardien des flammes de la fête"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16788,
+     "name": "Gardien des flammes de la fête"
+    }
+   ],
+   "zone_id": -369,
+   "level": 60,
+   "reqlevel": 1,
+   "side": "both",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9324": {
+   "id": 9324,
+   "name": "Voler la flamme d'Orgrimmar",
+   "objectives": "Rapportez la Flamme d'Orgrimmar au Maître des traditions.",
+   "description": "Cette flamme, dérobée au cœur même d'Orgrimmar, vous inonde de chaleur. Ce pouvoir brut vous est étranger, mais le Maître des traditions saura sûrement vous en dire plus...",
+   "progress": "Vous rayonnez littéralement, <race>. Qu'est-ce que vous avez là ?",
+   "completion": "Qu'est-ce que c'est ? Sauf erreur de ma part, cette flamme a été prise au cœur même d'Orgrimmar ! Sa chaleur ardente reflète la férocité des cœurs des orcs et des trolls. Quel bel ajout à notre collection, et quelle bravoure de votre part : pénétrer dans l'antre de l'ennemi pour prendre la flamme sacrée !\n\nJe me demande quel pouvoir se cache dans les autres villes...",
+   "starters": [
+    {
+     "type": "item",
+     "id": 23179,
+     "name": "Flame of Orgrimmar"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16817,
+     "name": "Maître des traditions de la fête"
+    }
+   ],
+   "zone_id": -369,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 4950,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9325": {
+   "id": 9325,
+   "name": "Voler la flamme de Thunder Bluff",
+   "objectives": "Rapportez la flamme de Thunder Bluff au Maître des traditions.",
+   "description": "Cette flamme, dérobée aux chamans des Pitons du Tonnerre, vous inonde de chaleur. Ce pouvoir brut vous est étranger, mais le Maître des traditions saura sûrement vous en dire plus...",
+   "progress": "Vous rayonnez littéralement, <race>. Qu'est-ce que vous avez là ?",
+   "completion": "À moins que je ne me trompe, ce feu provient des falaises des Pitons du Tonnerre ! Comme le pouvoir des esprits y résonne ! Vous êtes une sacrée voleuse, <nom>. Prenez ceci en paiement de votre habileté. Si seulement nous avions les flammes des quatre villes...",
+   "starters": [
+    {
+     "type": "item",
+     "id": 23180,
+     "name": "Flame of Thunder Bluff"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16817,
+     "name": "Maître des traditions de la fête"
+    }
+   ],
+   "zone_id": -369,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 4950,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9326": {
+   "id": 9326,
+   "name": "Voler la flamme d'Undercity",
+   "objectives": "Rapportez la flamme d'Undercity au Maître des traditions.",
+   "description": "Cette flamme, dérobée dans les ruines au-dessus de Fossoyeuse, vous inonde de chaleur. Ce pouvoir brut vous est étranger, mais le Maître des traditions saura sûrement vous en dire plus...",
+   "progress": "Vous rayonnez littéralement, <race>. Qu'est-ce que vous avez là ?",
+   "completion": "Hm... que ce feu est étrange ! Il couve, presque étouffé, mais sa chaleur est intense. Et vous l'avez obtenu à Fossoyeuse, vous dites ? C'est fascinant. Avec les flammes des quatre villes, qui sait ce que nous pourrions accomplir ?",
+   "starters": [
+    {
+     "type": "item",
+     "id": 23181,
+     "name": "Flame of the Undercity"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16817,
+     "name": "Maître des traditions de la fête"
+    }
+   ],
+   "zone_id": -369,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 4950,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9330": {
+   "id": 9330,
+   "name": "Voler la flamme de Stormwind",
+   "objectives": "Rapportez la flamme de Stormwind au Conteur de la fête.",
+   "description": "Cette flamme, dérobée au cœur même de Hurlevent, vous inonde de chaleur. Ce pouvoir brut vous est étranger, mais le Conteur de la fête saura sûrement vous en dire plus...",
+   "progress": "Vous êtes pratiquement rayonnant, <race>. Qu'est-ce que tu as là ?",
+   "completion": "Et ce feu brillant... vous dites qu'il vient de Stormwind ? C'est remarquable ! Cela a dû être une sacrée aventure ! Je vous paierai pour cela, bien sûr. Si vous trouvez autre chose de ce genre, n'hésitez pas à m'en reparler.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 23182,
+     "name": "Flame of Stormwind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16818,
+     "name": "Conteur de la fête"
+    }
+   ],
+   "zone_id": -369,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "horde",
+   "xp": 4950,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9331": {
+   "id": 9331,
+   "name": "Voler la flamme d'Ironforge",
+   "objectives": "Rapportez la flamme d'Ironforge au Conteur de la fête.",
+   "description": "Cette flamme, dérobée au cœur même de Forgefer, vous inonde de chaleur. Ce pouvoir brut vous est étranger, mais le Conteur de la fête saura sûrement vous en dire plus...",
+   "progress": "Vous êtes pratiquement rayonnant, <race>. Qu'est-ce que tu as là ?",
+   "completion": "Cette solide flamme doit provenir des couloirs d'Ironforge ; elle est aussi robuste que les nains eux-mêmes. Belle prise, <nom>. Si j'avais les feux des autres villes... ah, mais passons. Voici votre paiement.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 23183,
+     "name": "Flame of Ironforge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16818,
+     "name": "Conteur de la fête"
+    }
+   ],
+   "zone_id": -369,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "horde",
+   "xp": 4950,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9332": {
+   "id": 9332,
+   "name": "Voler la flamme de Darnassus",
+   "objectives": "Rapportez la flamme de Darnassus au Conteur de la fête.",
+   "description": "Cette flamme, dérobée sur les côtes de Teldrassil, vous inonde de chaleur. Ce pouvoir brut vous est étranger, mais le Conteur de la fête saura sûrement vous en dire plus...",
+   "progress": "Vous rayonnez littéralement, <race>. Qu'est-ce que vous avez là ?",
+   "completion": "Cette flamme brûle d'un chagrin ancien, <nom>. Elle vient de Teldrassil, vous dites ? Fascinant ! Voici une récompense pour votre habileté. Revenez me voir si vous trouvez quoi que ce soit de semblable, je pourrai sûrement en faire usage.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 23184,
+     "name": "Flame of Darnassus"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16818,
+     "name": "Conteur de la fête"
+    }
+   ],
+   "zone_id": -369,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "horde",
+   "xp": 4950,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9339": {
+   "id": 9339,
+   "name": "La récompense d'un voleur",
+   "objectives": "Rapportez la Flamme de Stormwind à (NOM).",
+   "description": "Cette flamme, dérobée au cœur même de Stormwind, vous inonde de chaleur. Ce pouvoir brut vous est étranger, mais (NOM) saura sûrement vous en dire plus...",
+   "progress": null,
+   "completion": "Vous avez fait vos preuves aujourd'hui, <nom>.\n\nJe n'ai pas grand-chose d'autre à te donner, mais j'ai cette couronne, un cadeau digne d'un conquérant. Qu'elle éclaire ton chemin.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16818,
+     "name": "Conteur de la fête"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16818,
+     "name": "Conteur de la fête"
+    }
+   ],
+   "zone_id": -369,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "horde",
+   "xp": 4950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:wowhead",
+     "description": "foreverdb:wowhead",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9365": {
+   "id": 9365,
+   "name": "La récompense d'un voleur",
+   "objectives": "Rapportez la Flamme de Stormwind à (NOM).",
+   "description": "Cette flamme, dérobée au cœur même de Stormwind, vous inonde de chaleur. Ce pouvoir brut vous est étranger, mais (NOM) saura sûrement vous en dire plus...",
+   "progress": null,
+   "completion": "Vous avez fait vos preuves aujourd'hui, <nom>.\n\nJe n'ai pas grand-chose d'autre à te donner, mais j'ai cette couronne, un cadeau digne d'un conquérant. Qu'elle éclaire ton chemin.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16817,
+     "name": "Maître des traditions de la fête"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16817,
+     "name": "Maître des traditions de la fête"
+    }
+   ],
+   "zone_id": -369,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 4950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:wowhead",
+     "description": "foreverdb:wowhead",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9367": {
+   "id": 9367,
+   "name": "La fête du Feu",
+   "objectives": "Touchez les feux de joie à l'intérieur de Stormwind, Ironforge et Darnassus, puis parlez à n'importe quel Maître des traditions de la fête dans une des capitales.",
+   "description": "Le solstice d'été est à nouveau là !\n\nChaque année, comme le veut la tradition, des Gardiens des flammes sont choisis pour entretenir les feux de joie dans nos capitales. Des feux brûlent dans tout Azeroth, mais il faut absolument que les nôtres soient les plus chauds et les plus vifs pour rendre l'hommage qui convient à la saison.\n\nEn fait, j'ai une tâche à vous confier, si vous voulez bien. On ne m'a pas encore dit si les feux de toutes les capitales brûlaient correctement. Allez-y vous-même, réchauffez-vous et vérifiez que les feux sont bien chauds !",
+   "progress": "Les feux brûlent-ils ?",
+   "completion": "Excellent ! Nous avons nommé de très consciencieux Gardiens des flammes cette année, si les feux de joie sont aussi bien entretenus que vous le dites. Merci d'avoir vérifié pour moi. Tenez, acceptez ce petit quelque chose en gage de mon estime.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16817,
+     "name": "Maître des traditions de la fête"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16817,
+     "name": "Maître des traditions de la fête"
+    }
+   ],
+   "zone_id": -369,
+   "level": 60,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 0,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9368": {
+   "id": 9368,
+   "name": "La fête du Feu",
+   "objectives": "Touchez les feux de joie à l'intérieur d'Orgrimmar, Thunder Bluff et Undercity, puis parlez à n'importe quel Maître des traditions de la fête dans une des capitales.",
+   "description": "Le solstice d'été est à nouveau là !\n\nChaque année, comme le veut la tradition, des Gardiens des flammes sont choisis pour entretenir les feux de joie dans nos capitales. Des feux brûlent dans tout Azeroth, mais il faut absolument que les nôtres soient les plus chauds et les plus vifs pour rendre l'hommage qui convient à la saison.\n\nEn fait, j'ai une tâche à vous confier, si vous voulez bien. On ne m'a pas encore dit si les feux de toutes les capitales brûlaient correctement. Allez-y vous-même, réchauffez-vous et vérifiez que les feux sont bien chauds !",
+   "progress": "Avez-vous eu de la chance, <nom> ?",
+   "completion": "Excellent ! Nous avons nommé de très consciencieux Gardiens des flammes cette année, si les feux de joie sont aussi bien entretenus que vous le dites. Merci d'avoir vérifié pour moi. Tenez, acceptez ce petit quelque chose en gage de mon estime.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16818,
+     "name": "Conteur de la fête"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16818,
+     "name": "Conteur de la fête"
+    }
+   ],
+   "zone_id": -369,
+   "level": 60,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9386": {
+   "id": 9386,
+   "name": "Une Lumière au sein des ombres",
+   "objectives": "Trouvez et touchez les feux de joie situés au pic Rochenoire, à Hache-Tripes, dans la Scholomance et à Stratholme, puis parlez au gardien des flammes de la fête.",
+   "description": "Vous ne manquez pas de passion ni d'enthousiasme ? Si vous êtes <partant/partante> pour retourner dans les profondeurs, je vous récompenserai bien volontiers.\n\nCherchez les feux de joie qui brûlent dans Stratholme, dans la Scholomance, dans Hache-tripes et dans les murs du pic Rochenoire lui-même ; j'attendrai votre retour avec impatience, <nom>.",
+   "progress": "Avez-vous trouvé votre chemin dans l'obscurité ?",
+   "completion": "Tu as prouvé que tu n'étais pas totalement inutile, mortel.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16788,
+     "name": "Gardien des flammes de la fête"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16788,
+     "name": "Gardien des flammes de la fête"
+    }
+   ],
+   "zone_id": -369,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "partant/partante"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9388": {
+   "id": 9388,
+   "name": "Flammes vacillantes en Kalimdor",
+   "objectives": "Rendez-vous aux feux de joie d’Ashenvale, des Tarides, de Sombrivage et des Serres-Rocheuses, puis parlez au Gardien des flammes de la fête.",
+   "description": "En ce jour, <nom>, de nombreuses flammes brûlent de par le monde. Les plus délicates à entretenir sont vertes. Sans supervision, elles ne brûlent pas longtemps. Soyez <gentil/gentille>, faites en sorte que les feux d’émeraude continuent à brûler pour notre Gardien des flammes, d’accord ?\n\nVous les trouverez près de Ratchet dans les Tarides, non loin du Glaive du maître à Sombrivage, dans la forêt d’Ashenvale, à côté du pont de l’avant-poste d’Aile-argent, et près du chemin de la combe des Cisailles, le long de la grand-route des Serres-Rocheuses.",
+   "progress": "Les feux ne peuvent pas s'éteindre tant que le festival n'est pas terminé !",
+   "completion": "Ahhh, ainsi, ils brûlent encore. C’est bien. Ils ne doivent pas s’éteindre avant leur temps. Vous avez bien agi, <nom>. Prenez ceci, avec ma bénédiction.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16817,
+     "name": "Maître des traditions de la fête"
+    },
+    {
+     "type": "npc",
+     "id": 16818,
+     "name": "Conteur de la fête"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16788,
+     "name": "Gardien des flammes de la fête"
+    }
+   ],
+   "zone_id": -369,
+   "level": 25,
+   "reqlevel": 1,
+   "side": "both",
+   "xp": 3050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "gentil/gentille",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9389": {
+   "id": 9389,
+   "name": "Flammes vacillantes dans les Royaumes de l'est",
+   "objectives": "Rendez-vous aux feux de joie des contreforts d’Hillsbrad, de la forêt des Pins argentés, de la Marche de l’ouest et des Paluns, puis parlez au Gardien des flammes de la fête.",
+   "description": "Lors de la fête du solstice d’été, il est de tradition d’illuminer le pays en allumant une multitude de flammes. Certains disent que les feux verts sont les plus raffinés. En tout cas, ce sont les plus compliqués à entretenir.\n\nAssurez-vous qu’ils brûlent toujours dans les Royaumes de l’est pour le compte de notre Gardien des flammes. Vous les trouverez près de Dun Modr dans les Paluns, non loin du village de Bois-du-Bûcher dans la forêt des Pins argentés, sur les falaises qui dominent le phare de la Marche de l’ouest, et à côté de la tour en ruine des contreforts d’Hillsbrad.",
+   "progress": "Avez-vous vu à votre tâche?",
+   "completion": "Vous voilà de retour, et vous avez contemplé toutes les flammes d’émeraude de ce continent. Qu’en pensez-vous ? N’est-ce pas un spectacle fascinant ? Mais j’ai bien conscience que vous appréciez davantage les récompenses tangibles… Tenez, prenez ceci pour votre peine.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16817,
+     "name": "Maître des traditions de la fête"
+    },
+    {
+     "type": "npc",
+     "id": 16818,
+     "name": "Conteur de la fête"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16788,
+     "name": "Gardien des flammes de la fête"
+    }
+   ],
+   "zone_id": -369,
+   "level": 25,
+   "reqlevel": 1,
+   "side": "both",
+   "xp": 3050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}
