@@ -1,0 +1,922 @@
+{
+ "schema": 1,
+ "zone": "dungeons/stratholme",
+ "zone_id": 2017,
+ "zone_name": "Stratholme",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 16,
+  "complete": 14,
+  "incomplete": 2,
+  "unavailable": 0,
+  "missing_description": 2,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 1
+ },
+ "quests": {
+  "5122": {
+   "id": 5122,
+   "name": "Le médaillon de foi",
+   "objectives": null,
+   "description": "Le pouvoir de cette chapelle me donne la force de résister à la corruption qui envahit mon coeur. Si je la quitte, je deviendrai un Chevalier de la mort. Mais il existe un médaillon de la foi qui me donnera la force dont j'ai besoin pour partir.\n\nS'il vous plaît, <nom>, trouvez le médaillon. Il est gardé par Malor le Zélé, un membre fou de la Croisade écarlate qui réside aux tréfonds du Bastion écarlate à l'ouest de Stratholme.",
+   "progress": "Le pouvoir de cette chapelle me donne la force de résister à la corruption qui envahit mon coeur. Si je la quitte, je deviendrai un Chevalier de la mort. Mais il existe un médaillon de la foi qui me donnera la force dont j'ai besoin pour partir.\n\nS'il vous plaît, <nom>, trouvez le médaillon. Il est gardé par Malor le Zélé, un membre fou de la Croisade écarlate qui réside aux tréfonds du Bastion écarlate à l'ouest de Stratholme.",
+   "completion": "Vous avez retrouvé le médaillon ! Je vais enfin pouvoir quitter la chapelle et faire mon devoir.\n\nMon devoir est de tuer la bête qui a participé à ma corruption, moi et tant d'autres de mes frères et sœurs, le baron Rivendare !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10917,
+     "name": "Aurius"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10917,
+     "name": "Aurius"
+    }
+   ],
+   "zone_id": 2017,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "5125": {
+   "id": 5125,
+   "name": "L'estimation d'Aurius",
+   "objectives": null,
+   "description": "<nom>, je me meurs… mais mon âme est sauve, et pour cela je vous dois plus que les mots peuvent exprimer. Je vous en prie, prenez ceci… et continuez le combat, brave <classe> !",
+   "progress": null,
+   "completion": "<nom>, je meurs ... mais mon âme est sauvée. Pour cela, je vous dois plus que ce que les mots peuvent dire. S'il vous plaît, prenez ceci ... et continuez, brave <classe>!",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10917,
+     "name": "Aurius"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10917,
+     "name": "Aurius"
+    }
+   ],
+   "zone_id": 2017,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "5212": {
+   "id": 5212,
+   "name": "La chair ne ment pas",
+   "objectives": "Récupérer 20 Echantillons de chair pestiférée à Stratholme puis les rapporter à Betina Bigglezink. Vous pensez que toutes les créatures de Stratholme possèdent de tels échantillons de chair.",
+   "description": "Les apothicaires Réprouvés ne sont pas les seuls êtres au monde versés dans les sciences.\n\nJ'ai étudié la peste pendant des années, <nom>. Nous pensions que sa puissance vacillait, mais ce que j'ai découvert ici dans les Maleterres est consternant. La peste semble gagner en force !\n\nJe dois effectuer davantage de tests ! La source la plus puissante de la peste est celle de la chair souillée de ceux les plus récemment infectés. Partez pour Stratholme et rapportez-moi des échantillons, <nom>.",
+   "progress": "Certains disent que je me fais trop de soucis - je leur répond \"Vous ne vous en faites pas assez !\"",
+   "completion": "Quelque chose a changé dans la structure chimique des agents actifs de la peste. Davantage de données sont nécessaires.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11035,
+     "name": "Betina Bigglezink"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11035,
+     "name": "Betina Bigglezink"
+    }
+   ],
+   "zone_id": 2017,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 6600,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5213": {
+   "id": 5213,
+   "name": "L'agent actif",
+   "objectives": "Se rendre jusqu’à Stratholme et fouiller les ziggourats. Trouver et ramener de nouvelles informations sur le Fléau à Betina Bigglezink.",
+   "description": "Vous devez fouiller plus profond dans Stratholme, <nom>.\n\nAu-delà des premières portes, vous trouverez les ziggourats. Nous savons que le Fléau tire beaucoup d'énergie de ces structures. Trouvez les ziggourats et revenez avec toutes les informations que vous pouvez réunir.",
+   "progress": "Nous sommes sur le point de découvrir ce que peut être ce nouveau composant de la peste !",
+   "completion": "Stupéfiant ! Cela va prendre des mois pour le disséquer et l'analyser. L'Aube d'argent vous remercie pour vos efforts, <nom>.\n\nChoisissez votre récompense entre ce Sceau ou cette Rune de l’Aube, avec notre bénédiction. Tous deux peuvent vous servir de Brevet de l’Aube d’argent pour rassembler des Pierres du Fléau en notre nom. Si vous le perdez, revenez me voir, et je vous le remplacerai.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11035,
+     "name": "Betina Bigglezink"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11035,
+     "name": "Betina Bigglezink"
+    }
+   ],
+   "zone_id": 2017,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5214": {
+   "id": 5214,
+   "name": "Le grand Ezra Grimm",
+   "objectives": "Trouver le magasin de tabac d’Ezra Grimm à Stratholme et récupérer une boîte de Tabac d’Ezra. Retourner auprès de Smokey LaRue quand ce sera fait.",
+   "description": "C'est terrible…ce qui est arrivé à Fras. La ville était aux mains des pillards mais Fras ne voulait pas abandonner sa précieuse marchandise. Je me souviens qu'il disait : \"Je brûlerai tout jusqu'à la dernière feuille plutôt qu'ils mettent leurs sales mains dessus !\"\n\nJe donnerais n'importe quoi pour une bonne pipe, jusqu'à un certain point. J'ai quitté Fras et son magasin ce jour-là. J'imagine que tout a brûlé mais s'il y avait seulement une chance qu'une boîte de son délicieux tabac soit encore intacte...\n\nQue dites-vous, <nom> ? Trouver une boîte pour ce vieux Smokey ?",
+   "progress": "Je n'en peux plus, <nom> ! Il faut que vous m'aidiez ! Je meurs !",
+   "completion": "Oh, comme vous m'avez manqué. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11033,
+     "name": "Smokey LaRue"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11033,
+     "name": "Smokey LaRue"
+    }
+   ],
+   "zone_id": 2017,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5243": {
+   "id": 5243,
+   "name": "Les demeures du Sacré",
+   "objectives": "Se rendre à Stratholme, au nord. Fouiller les caisses de fournitures qui encombrent la cité et récupérer 5 Eaux sacrées de Stratholme. Retourner auprès de Leonid Barthalomew le Révéré quand vous avez récolté assez de liquide béni.",
+   "description": "Je considère ma nature cadavérique comme une maladie, <nom>. Un problème de santé qui nécessite des soins. C'est également une bénédiction pour l'Aube d'argent. Quel meilleur moyen de frapper les païens du Fléau que les morts-vivants ?\n\nMes collègues me vénèrent à cause des sacrifices que j'ai faits mais leurs courbettes me laissent indifférent.\n\nSi vous souhaitez aider l'Aube d'argent, alors j'ai un travail pour vous.\n\nAllez à Stratholme et récupérez notre surplus d'eau sacrée. Fouillez les caisses de ravitaillement.",
+   "progress": "Prudence, toutes les caisses de fournitures n'auront pas survécu à la destruction de la cité. Le Fléau n'ose pas toucher à l'eau, mais il est certain que l'eau sacrée n'empêchera pas la propagation de la vermine.",
+   "completion": "Bien joué, <nom>. Bien que vous ayez fait preuve de tolérance envers les autres, vous ne céderez à rien pour détruire les serviteurs de Kel’Thulzad.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11036,
+     "name": "Leonid Barthalomew le Révéré"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11036,
+     "name": "Leonid Barthalomew le Révéré"
+    }
+   ],
+   "zone_id": 2017,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 6600,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5251": {
+   "id": 5251,
+   "name": "L'archiviste",
+   "objectives": "Voyager jusqu’à Stratholme et trouver l’Archiviste Galford de la Croisade écarlate. L’abattre et brûler les Archives écarlates.",
+   "description": "Tout ce qui est extrême est dangereux pour notre monde, <nom>. Prenez par exemple la Croisade écarlate. Croyez-vous vraiment que leurs zélotes servent un bien supérieur ? Combien d'innocents ont-ils tués au nom de la Lumière ?\n\nDes blasphémateurs, tous autant qu'ils sont !\n\nL'un d'eux m'intéresse particulièrement, tout de même : l'archiviste Galford de Stratholme, un homme qui veille sur les documents les plus précieux de la Croisade. Tuez-le et brûlez ses archives ! Si vous réussissez, revenez me voir et vous serez <récompensé/récompensée>.",
+   "progress": "Rappelez-vous, <nom> - nous devons être tolérants mais rigides dans nos croyances!",
+   "completion": "Extraordinaire, <nom> ! Des années d'espionnage perdues ! La Croisade écarlate ressentira certainement ce coup dans les semaines qui viennent.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11039,
+     "name": "Duc Nicholas Zverenhoff"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11039,
+     "name": "Duc Nicholas Zverenhoff"
+    }
+   ],
+   "zone_id": 2017,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 8300,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "récompensé/récompensée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5262": {
+   "id": 5262,
+   "name": "La vérité vient du ciel",
+   "objectives": "Apporter la Tête de Balnazzar au duc Nicholas Zverenhoff dans les Maleterres de l’est.",
+   "description": "Vous essayez de rassembler vos pensées alors que la poussière retombe dans la chambre. Vous revenez sur les événements et vous ne comprenez toujours pas la gravité de la situation.\n\nLe grand croisé de la Croisade écarlate, un démon ? Et pas n'importe quel démon, mais le frère de Varimathras, le seigneur d'Undercity ?\n\nVous remettez avec précaution la tête tranchée du seigneur de l'effroi dans votre sac. Personne ne voudra jamais croire votre histoire sans preuve.\n\nLe duc Nicholas Zverenhoff doit être informé immédiatement !",
+   "progress": "Qu'avez-vous là, <nom> ?",
+   "completion": "Qu'est-ce que cela signifie pour la Croisade ? Se peut-il qu’ils aient été sous l'influence de ce démon ? Servant sans s'en douter un mal bien plus grand encore ?",
+   "starters": [
+    {
+     "type": "item",
+     "id": 13250,
+     "name": "Head of Balnazzar"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11039,
+     "name": "Duc Nicholas Zverenhoff"
+    }
+   ],
+   "zone_id": 2017,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5263": {
+   "id": 5263,
+   "name": "Au-dessus et au-delà",
+   "objectives": "S’aventurer dans Stratholme et tuer le baron Rivendare. Prendre sa tête et retourner auprès du duc Nicholas Zverenhoff.",
+   "description": "Vous avez une aptitude naturelle à la destruction et vous suivez les ordres. Il est rare de voir les deux coexister. Je commence à croire que vous pouvez faire un excellent porte-parole de la justice divine.\n\n<Zverenhoff joint ses mains devant son visage.>\n\nLe laquais de Kel'Thuzad règne sur Stratholme. Prouvez-moi que vous êtes un champion, mon champion. Détruisez le baron Rivendare et revenez avec sa tête.",
+   "progress": "Le baron a sans doute massacré plus de personnes que vous n'en avez vu tout le long de votre vie.",
+   "completion": "Il y a belle lurette que nous n'avons pas reçu de héros dans nos rangs. Vous êtes le premier à être reçu par le seigneur Maxwell depuis des années.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11039,
+     "name": "Duc Nicholas Zverenhoff"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11039,
+     "name": "Duc Nicholas Zverenhoff"
+    }
+   ],
+   "zone_id": 2017,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5282": {
+   "id": 5282,
+   "name": "Âmes tourmentées",
+   "objectives": "Se servir du Libérateur d'Egan sur les citoyens fantomatiques et spectraux de Stratholme. Quand les esprits sans repos se libèrent de leur enveloppes fantomatiques, utiliser de nouveau le Libérateur – ils seront enfin libres !\n\nLibérer 15 Esprits sans repos puis retourner auprès d’Egan.",
+   "description": "Je tire mon pouvoir - ma volonté de continuer à vivre et à respirer - de la haine absolue que j'ai envers le Fléau et envers ce qu'ils ont fait. Je ne suis pas cependant un zélote. Il y a ceux, comme la Croisade écarlate, qui préfèreraient détruire d'innocents morts-vivants plutôt que de leur accorder ne serait-ce qu'une once de compassion.\n\nCe qui m'amène à cela : mon Libérateur. Il libérera les esprits torturés de Stratholme.\n\nServez-vous-en sur les fantômes qui hantent les rues saccagées. Apaisez leurs esprits.",
+   "progress": "La compassion est ce qui nous différencie de l'animal, <nom>. Ne l'oubliez pas…",
+   "completion": "<Egan essuie une larme. >\n\nAvez-vous vu ma mère, <nom> ? L'avez-vous libérée ?\n\nVous êtes un brillant exemple d'honnêteté. Pour vous dédommager. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11140,
+     "name": "Egan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11140,
+     "name": "Egan"
+    }
+   ],
+   "zone_id": 2017,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 8300,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5463": {
+   "id": 5463,
+   "name": "Le cadeau de Menethil",
+   "objectives": "Voyager jusqu’à Stratholme et trouver le cadeau de Menethil. Placer le Souvenir de la mémoire sur le sol impie.",
+   "description": "J'ai vu l'humain, Ras Murmegivre, faire don de son âme éternelle au roi-liche. Il plaça sa propre dague sur sa gorge et, le sourire à la bouche, la trancha d'une oreille à l'autre. Son corps s'effondra dans le pentagramme. Le roi-liche se tint au-dessus de son corps et d'un simple geste, Ras Murmegivre la Liche naquit.\n\n<Le regard de Leonig s'égare sur le sol, puis revient à vous.>\n\nOui, <nom>, je m'en souviens. Ce que vous recherchez a un nom. Le Cadeau de Menethil. Le sol béni par le roi-liche. Un sol sacré pour le Fléau.",
+   "progress": "La région qui entoure le Don de Menethil est exceptionnellement froide.",
+   "completion": "Vous placez le souvenir de mémoire sur le sol maculé.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11036,
+     "name": "Leonid Barthalomew le Révéré"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 176631,
+     "name": "Menethil's Gift"
+    }
+   ],
+   "zone_id": 2017,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5848": {
+   "id": 5848,
+   "name": "De l'amour et de la famille",
+   "objectives": "Se rendre à Stratholme, dans la partie nord des Maleterres. C’est dans le Bastion écarlate que se trouve le tableau De l'amour et de la famille, caché derrière une autre peinture représentant les lunes jumelles.\n\nRapporter le tableau à Tirion Fordring.",
+   "description": "Le tableau… Il a été accroché au mur de mon atelier - dans la caserne de l'Ordre - pendant des années.\n\nAprès le procès de Tirion, je savais que je ne pouvais pas le laisser là, à la vue de tout le monde. Je l'ai caché dans un endroit où personne ne pensera aller chercher.\n\nAllez à Stratholme, enfoncez-vous profondément dans ce qu'on nomme maintenant le Bastion écarlate et cherchez un tableau représentant nos lunes jumelles. Grattez la peinture pour révéler mon chef-d’oeuvre, De l'amour et de la famille.\n\nQue la Lumière guide vos actions.",
+   "progress": "La peinture, <nom>. Avez-vous la peinture ?",
+   "completion": "<Tirion manque de s'effondrer lorsqu'il aperçoit la peinture. >\n\n<Il commence à sangloter de façon frénétique. >",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11936,
+     "name": "Artiste Renfray"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1855,
+     "name": "Tirion Fordring"
+    }
+   ],
+   "zone_id": 2017,
+   "level": 60,
+   "reqlevel": 52,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6163": {
+   "id": 6163,
+   "name": "Ramstein",
+   "objectives": "Aller à Stratholme et tuer Ramstein Grandgosier. Prendre sa tête, et l’apporter à Nathanos.",
+   "description": "J'ai été dépassé. Sur cette terre même, je suis resté debout... J'ai cherché à défendre Lordaeron. La ferme et tout ce qu'il y avait dessus ont été balayés par une immense onde du Fléau.\n\nSaleté. Il a plané au-dessus de moi, les entrailles sortant de l’abdomen.\n\nQuand je me suis réveillé, je faisais partie du Fléau. Je suis resté impuissant pendant si longtemps. Mon esprit était lié à celui du roi-liche.\n\nElle est venue pour moi... Quelque part, d'une façon ou d'une autre, je savais qu'elle le ferait. Libre.\n\nEt maintenant, je dois avoir ma vengeance – ma vengeance qui est ma seule raison de vivre. Détruisez-le.",
+   "progress": "Après avoir été libéré par Sylvanas, j'ai chassé cette bête en vain pendant des mois. Elle a fui et s'est réfugiée à Stratholme. Saleté. . .",
+   "completion": "Je me demande. . . A-t-il imploré grâce ? Savait-il seulement ce que c'est ?\n\n<Nathanos crache. >\n\nJe vais accrocher cette tête sur mon mur.\n\nVous avez gagné votre place parmi mes champions, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11878,
+     "name": "Nathanos le Flétrisseur"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11878,
+     "name": "Nathanos le Flétrisseur"
+    }
+   ],
+   "zone_id": 2017,
+   "level": 60,
+   "reqlevel": 56,
+   "side": "horde",
+   "xp": 6600,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8945": {
+   "id": 8945,
+   "name": "La supplique du mort",
+   "objectives": "Entrez à Stratholme et sauvez Ysida Harmon du baron Vaillefendre.",
+   "description": "Vous aurez vos informations, <nom>, mais il y a plus important.\n\nMon épouse bien-aimée a été capturée par la vermine morte-vivante du baron Vaillefendre.\n\nJe ne voulais pas qu’elle rejoigne l’absurde croisade de l’Aube d’argent, mais cela n’a plus d’importance. Vous devez achever ce que j’ai commencé, vous devez arracher Ysida aux griffes du baron !",
+   "progress": "Dites-moi, Ysida est-elle vivante?",
+   "completion": "Merci de m’avoir sauvée… J’ai bien cru que j’allais mourir. Prenez ceci, en gage de reconnaissance.\n\nAnthion est… non… ce n’est pas possible.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16016,
+     "name": "Anthion Harmon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16031,
+     "name": "Ysida Harmon"
+    }
+   ],
+   "zone_id": 2017,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8968": {
+   "id": 8968,
+   "name": "Le morceau gauche de l'amulette du seigneur Valthalak",
+   "objectives": "Utilisez le Brasero de signal pour invoquer Jarien et Sothos et les tuer. Retournez voir Bodley, à l'intérieur du mont Rochenoire, avec le Morceau gauche de l’amulette du seigneur Valthalak et le Brasero de signal.",
+   "description": "Lorsque notre compagnie de mercenaires a éclaté, Sothos et Jarien, un frère et une sœur, ont decidé de rejoindre la Croisade écarlate. Ils ont emmené le Morceau gauche de l'amulette du seigneur Valthalak avec eux. C'était plutôt un bon débarras… sauf qu'il nous faut ce morceau.\n\nÀ ce que j'ai compris, ils ont échoué lors de leur initiation, et ont été tués par le Grand croisé Dathrohan en personne dans ses appartements du Bastion écarlate.\n\nQue ce soit vrai ou non, nous devons… je veux dire, vous devez, récupérer ce morceau d'amulette.",
+   "progress": "Cela signifie-t-il, <classe>, que vous avez déjà enterré les âmes de ces deux imbéciles et récupéré le morceau gauche de l'amulette de Lord Valthalak ?",
+   "completion": "Je suppose que c'est pour le mieux que les âmes de ces deux-là reposent enfin en paix, même si je ne les aimais pas de leur vivant. En tout cas, nous avons ce que nous cherchions, et c'est vraiment une bonne chose !\n\nMalheureusement, je ne sais pas où se trouve celui qui est mort avec le bon morceau de l'amulette en sa possession. Mais n'ayez crainte, dans la vie j'étais un adepte de la divination, alors j'ai une autre tâche à vous confier, qui va nous permettre de dénicher le dernier morceau.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 2017,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8991": {
+   "id": 8991,
+   "name": "Le morceau droit de l'amulette du seigneur Valthalak",
+   "objectives": "Utilisez le Brasero de signal pour invoquer Jarien et Sothos, puis tuez-les. Retournez voir Bodley, à l'intérieur du mont Blackrock, avec l’Amulette du seigneur Valthalak reconstituée et le Brasero de signal.",
+   "description": "Lorsque notre compagnie de mercenaires a éclaté, Sothos et Jarien, un frère et une sœur, ont decidé de rejoindre la Croisade écarlate. Ils ont emmené le Morceau gauche de l'amulette du seigneur Valthalak avec eux. C'était plutôt un bon débarras… sauf qu'il nous faut ce morceau.\n\nÀ ce que j'ai compris, ils ont échoué lors de leur initiation, et ont été tués par le Grand croisé Dathrohan en personne dans ses appartements du Bastion écarlate.\n\nQue ce soit vrai ou non, nous devons… je veux dire, vous devez, récupérer ce morceau d'amulette.",
+   "progress": "Cela signifie-t-il, <classe>, que vous avez déjà enterré les âmes de ces deux imbéciles et recomposé les morceaux de l'amulette de Lord Valthalak ?",
+   "completion": "Je suppose qu'il est préférable que les âmes de ces deux-là soient enfin enterrées, même si je ne les aimais pas de leur vivant. Quoi qu'il en soit, nous avons ce que nous cherchions, et l'amulette est à présent reconstituée ! Mais le plus dur reste à faire.\n\nPour que le brasero soit en mesure d'invoquer le seigneur Valthalak, il faut encore rassembler quelques objets et me les rapporter ici.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 2017,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

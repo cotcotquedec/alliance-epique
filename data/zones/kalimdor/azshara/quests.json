@@ -1,0 +1,1802 @@
+{
+ "schema": 1,
+ "zone": "kalimdor/azshara",
+ "zone_id": 16,
+ "zone_name": "Azshara",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 32,
+  "complete": 30,
+  "incomplete": 2,
+  "unavailable": 0,
+  "missing_description": 2,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 4
+ },
+ "quests": {
+  "3141": {
+   "id": 3141,
+   "name": "Loramus",
+   "objectives": "Écouter l'histoire de Loramus Thalipedes.",
+   "description": "Donc vous souhaitez vous battre contre des démons ? Vous feriez bien d'écouter mon histoire.",
+   "progress": "Ne m'interrompez pas, <race>.",
+   "completion": "Qu'il en soit ainsi. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7783,
+     "name": "Loramus Thalipedes"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7783,
+     "name": "Loramus Thalipedes"
+    }
+   ],
+   "zone_id": 16,
+   "level": 57,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3382": {
+   "id": 3382,
+   "name": "Un équipage sous le feu ennemi",
+   "objectives": "Défendre la capitaine Vanessa Beltis, son équipage et les passagers de “l’Horizon” contre l'attaque des nagas. La capitaine Vanessa Beltis doit survivre.",
+   "description": "Nous étions près de la côte et cherchions un endroit sûr où jeter l'ancre. Le soleil ne s'était pas couché depuis plus d'une heure lorsqu'ils ont attaqué… Ces maudits nagas !\n\nJe ne sais pas ce qu'ils cherchaient, mais il est clair qu'ils ne l'ont pas trouvé. Ils sont déjà revenus une fois. Deux de mes éclaireurs sont de garde à l'entrée de la vallée pour nous avertir lorsque la prochaine attaque aura lieu.\n\nCela me désole que vous arriviez à ce moment, <nom>, mais je n'y peux rien.\n\nÊtes-vous <prêt/prête> pour le combat de votre vie ?",
+   "progress": "Ça va être une bataille difficile. . .",
+   "completion": "Vous avez réussi ! Merci ! C'est certainement l'une des batailles les plus violentes auxquelles j'ai pris part. Je ne pourrai jamais vous remercier assez.\n\nJ'aurais tellement voulu qu'une plus grande partie de mon équipage survive.\n\nJ'aimerais que vous parliez à tous les passagers survivants de “l’Horizon”. Certains avaient à faire dans le secteur, et il se peut qu'ils aient à vous demander un ou deux services, si vous le souhaitez. Je vous remercie à nouveau pour toute votre aide.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8380,
+     "name": "Capitaine Vanessa Beltis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8380,
+     "name": "Capitaine Vanessa Beltis"
+    }
+   ],
+   "zone_id": 16,
+   "level": 57,
+   "reqlevel": 48,
+   "side": "both",
+   "xp": 600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3421": {
+   "id": 3421,
+   "name": "Le voyage de retour",
+   "objectives": null,
+   "description": "Je vais vous renvoyer au camp de Sanath à présent.\n\nNe faites pas attention à ses mauvaises manières. Il est brusque envers tout le monde, sauf envers le maître. Peut-être apprendra-t-il la leçon un jour ?\n\nVérifiez si vous l'avez déjà terminé en tapant :",
+   "progress": null,
+   "completion": "Je vais vous renvoyer au camp de Sanath à présent.\n\nNe faites pas attention à ses mauvaises manières. Il est brusque envers tout le monde, sauf envers le maître. Peut-être apprendra-t-il la leçon un jour ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8399,
+     "name": "Nyrill"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8399,
+     "name": "Nyrill"
+    }
+   ],
+   "zone_id": 16,
+   "level": 55,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "3503": {
+   "id": 3503,
+   "name": "Réunion avec le Maître",
+   "objectives": null,
+   "description": "Autrefois, je pouvais demander tout ce que je voulais à ceux qui souhaitaient voir mon maître. À présent, vous n'avez qu'à demander et je vous enverrai à lui.\n\nCela me chagrine mais je ne discute pas ses ordres. Le seul plaisir qu'il me reste est de me moquer des vêtements ridicules que vous portez et de votre mine pitoyable. Même cela m'ennuie...\n\nMêmes ces bavardages m'ennuient ! Souhaitez-vous voir mon maître ou non ?\n\nVérifiez si vous l'avez déjà terminé en tapant :",
+   "progress": null,
+   "completion": "Autrefois, je pouvais demander tout ce que je voulais à ceux qui souhaitaient voir mon maître. À présent, vous n'avez qu'à demander et je vous enverrai à lui.\n\nCela me chagrine mais je ne discute pas ses ordres. Le seul plaisir qu'il me reste est de me moquer des vêtements ridicules que vous portez et de votre mine pitoyable. Même cela m'ennuie...\n\nMêmes ces bavardages m'ennuient ! Souhaitez-vous voir mon maître ou non ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8395,
+     "name": "Sanath Lim-yo"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8395,
+     "name": "Sanath Lim-yo"
+    }
+   ],
+   "zone_id": 16,
+   "level": 55,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "3508": {
+   "id": 3508,
+   "name": "Briser l'Amulette",
+   "objectives": "Attendre que Loramus ait achevé le rituel de Lumière.",
+   "description": "Vous êtes téméraire, <nom>. C'est une qualité admirable de votre espèce, le fait de foncer aveuglément dans la bataille alors qu'il n'y a aucune chance de succès, ou si peu. Je vous aiderai, ne serait-ce que pour voir tomber un seul des sbires de Razelikh.\n\nBriser la tutelle de Razelikh sur ses subalternes va prendre du temps et nécessitera l’utilisation d'artefacts rares.\n\nNe bougez plus, je dois commencer le rituel de Lumière. L'information que j'en tirerai m'aidera à façonner des armes de grand pouvoir.",
+   "progress": null,
+   "completion": "Il faut trouver le nom de la bête.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7783,
+     "name": "Loramus Thalipedes"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7783,
+     "name": "Loramus Thalipedes"
+    }
+   ],
+   "zone_id": 16,
+   "level": 58,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 3100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3509": {
+   "id": 3509,
+   "name": "Le nom de la bête",
+   "objectives": "Aller voir le seigneur Arkkoroc dans Azshara. Commencer la recherche au bord de l'eau pour trouver le temple d'Arkkoran.",
+   "description": "Il n'y a qu'une façon de nuire au Seigneur démon et à ses sbires. Il faut forger une arme qui portera son véritable nom.\n\nSi nous parvenons à forger une telle arme, le démon et toute sa clique seront vulnérables.\n\nIl y a dans Azshara un autre seigneur, le seigneur Arkkoroc. Vous devez le rechercher, mais attention, ses sbires n'hésiteront pas à vous éliminer s'ils vous découvrent.\n\nVous aurez certainement un prix à payer pour cette information.",
+   "progress": null,
+   "completion": "Un seigneur-démon ?\n\n<Le seigneur Arkkoroc se met à rire. >\n\nIl se peut que l'élu puisse vous aider à obtenir ce renseignement. Mais d'abord, vous devez aider l'élu.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7783,
+     "name": "Loramus Thalipedes"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6134,
+     "name": "Seigneur Arkkoroc"
+    }
+   ],
+   "zone_id": 16,
+   "level": 58,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 6200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3510": {
+   "id": 3510,
+   "name": "Le nom de la bête",
+   "objectives": "Assassiner Hetaera et apporter la Tête ensanglantée d'Hetaera, la Tête battue d'Hetaera et la Tête meurtrie d'Hetaera au seigneur Arkkoroc.",
+   "description": "Elle tue mes enfants, <mortel/mortelle>. Celle qui se proclame souveraine de ces océans. Une fausse déesse, rien de plus. Écrasez-la et apportez-moi chacune de ses têtes.\n\nEn échange, vous obtiendrez le nom que vous cherchez et autre chose, d'importance égale.\n\nElle rôde sur la couvée... Elle se nomme Hetaera.\n\n<Le seigneur Arkkoroc désigne le sud-ouest.>\n\nAllez-y !",
+   "progress": "<Le seigneur Arkkoroc se penche pour vous examiner. >\n\nOù sont-elles ?",
+   "completion": "Enfin une personne digne de la sagesse d'Arkkoroc !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6134,
+     "name": "Seigneur Arkkoroc"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6134,
+     "name": "Seigneur Arkkoroc"
+    }
+   ],
+   "zone_id": 16,
+   "level": 58,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 6200,
+   "money": 26500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mortel/mortelle"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3511": {
+   "id": 3511,
+   "name": "Le nom de la bête",
+   "objectives": "Rapporter le durcisseur à Loramus Thalipedes.",
+   "description": "Comme promis, je vais vous révéler le nom du seigneur-démon : Razelikh le Souilleur. Mais tout d'abord, je dois préparer quelque chose de la plus grande importance pour votre voyage.\n\nL'arme que vous cherchez à confectionner nécessite une trempe particulière. Laissez-moi quelques instants pour vider le sang de ces têtes.\n\n<Le seigneur Arkkoroc presse les têtes entre ses gigantesques poings, exprimant ainsi tout le sang.>\n\nApportez la trempe à Loramus, ainsi que le nom de la bête : Rakh'likh.",
+   "progress": "Vous êtes là ! Etonnant, <nom>. Avez-vous découvert le véritable nom ?",
+   "completion": "Le durcisseur ajoutera ce qui nous manquait pour créer ces armes. Il n'y a plus qu'une étape dans leur création.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6134,
+     "name": "Seigneur Arkkoroc"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7783,
+     "name": "Loramus Thalipedes"
+    }
+   ],
+   "zone_id": 16,
+   "level": 58,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 3100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3517": {
+   "id": 3517,
+   "name": "L'art du vol",
+   "objectives": "Trouver la Tablette de Beth'Amara, la Tablette de Jin'yael, la Tablette de Markri et la Tablette de Sael'hai puis retourner voir Jediga dans Azshara.",
+   "description": "J'admets avoir profité de ma situation dans Azshara, <nom>. La punition de Belgrom a eu de bons côtés.\n\nJ'y ai fait des recherches et vous seriez <étonné/étonnée> de voir combien il y a d'objets de valeur ici.\n\nJe vous en dirai plus sur mes affaires et vous ferai participer aux profits, si vous m'aidez à les récupérer.\n\nJ'ai besoin de tablettes disposées partout dans les ruines d'Eldarath, à l'est d'ici. Les quatre portent le nom de sorciers bien-nés. Trouvez-les pour moi et nous discuterons.",
+   "progress": "Les tablettes que je vous ai demandé de trouver vont nous rapporter pas mal d'argent si on les propose aux bonnes personnes. Je vous dirai à qui les livrer quand vous les aurez trouvées. Mais je ne suis pas idiote. . . vous n'aurez votre part que lorsque j'aurai eu la preuve qu'elles ont été livrées.\n\nAllons-y : nous n'avons pas toute la journée. Je dois trouver quelqu'un d'autre pour m'aider.",
+   "completion": "Parfait, <nom> et en plus, en bon état. Nous en obtiendrons un bon prix de leurs acquéreurs.\n\nNe traînons pas plus longtemps par ici. Il y a de l'argent à se faire.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8587,
+     "name": "Jediga"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8587,
+     "name": "Jediga"
+    }
+   ],
+   "zone_id": 16,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "horde",
+   "xp": 5100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "étonné/étonnée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3518": {
+   "id": 3518,
+   "name": "Livraison à Magatha",
+   "objectives": "Apporter la Tablette de Beth'Amara à Magatha dans Thunder Bluff.",
+   "description": "La première tablette va à un tauren femelle... Elle s'appelle Magatha. Elle se trouve parmi les anciens dans Thunder Bluff et elle est l'un des partisans de l'alliance entre les taurens et les Réprouvés. Plus que n'importe lequel des anciens, elle sent que les taurens et leurs connaissances peuvent aider les Réprouvés à redevenir des hommes.\n\nApportez-lui la Tablette de Beth'Amara. La tablette est peut être le lien dont elle a besoin pour aider les Réprouvés... ou du moins c'est ce qu'elle dit.",
+   "progress": "Oui, <nom>. Qu'est-ce que je peux faire pour vous ? J'ai beaucoup de choses à faire, s'il vous plaît, faites vite.",
+   "completion": "Ah, enfin, la Tablette de Beth'Amara. Je me demandais si mon association avec Jediga avait échoué ou si cette pauvre orc avait trouvé la mort dans Azshara. Je vois avec plaisir qu'elle a réussi.\n\nBeth'Amara était l'un des alchimistes bien-né les plus influents. On a dit d'elle qu'elle avait réussi à transmuter des métaux en d'autres choses.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8587,
+     "name": "Jediga"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4046,
+     "name": "Magatha Grimtotem"
+    }
+   ],
+   "zone_id": 16,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "horde",
+   "xp": 2550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3541": {
+   "id": 3541,
+   "name": "Livraison pour Jes'rimon",
+   "objectives": "Apporter la Tablette de Jin'yael à Jes'rimon dans Orgrimmar.",
+   "description": "J'ai un copain dans Orgrimmar. Il réside dans la rue principale. Il est difficile à trouver si vous ne savez pas où regarder, mais allez voir dans les bâtiments les plus hauts et vous devriez sans peine tomber sur lui.\n\nFaites-moi une faveur : n'allez pas répéter à tout Kalimdor qu'il est là : ce serait mauvais pour lui comme pour moi.\n\nIl nous donnera un prix plus qu'honnête pour la Tablette de Jin'yael. Je ne sais pas pourquoi, mais vous auriez dû voir comme il était excité quand je lui en ai parlé.",
+   "progress": "Ouais, voulez quoi ? J'ai des trucs à faire, jourd'hui, et z'en faites pas partie. Mais si vous me gonflez trop, j'vous garantis que j'm'occupe de vous.",
+   "completion": "Ah, Jediga m'envoie son paquet d'Azshara. Bien. C'est c'que j'attendais.\n\nJediga, c'est une femme bien. . . Et une mortelle aussi. Que d'mander de plus ?\n\nVoyons. . . La tablette est en très bon état. Vous faites l'affaire comme messager, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8587,
+     "name": "Jediga"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8659,
+     "name": "Jes'rimon"
+    }
+   ],
+   "zone_id": 16,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "horde",
+   "xp": 2550,
+   "money": 4000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3542": {
+   "id": 3542,
+   "name": "Livraison à Andron Gant",
+   "objectives": "Apporter la Tablette de Markri à Andron Gant dans Undercity.",
+   "description": "Andron Gant est mon contact suivant. Il se terre habituellement dans Undercity, tout près de l'Apothicarium.\n\nQuand il est venu me voir, il était plus loquace qu'à l'ordinaire et il m'a dit pourquoi il voulait la Tablette. Apparemment, des mages d'Undercity veulent étudier certains des charmes mystérieux que les Bien-nés utilisaient. Ils pensent que cette tablette les y aidera. Markri était expert en invocation de créatures, surtout des élémentaires.\n\nApportez la Tablette de Markri et revenez me voir pour votre récompense.",
+   "progress": "Eh bien. . . <hic>. . . Quelle surprise ? Quelqu'un qui cherche l'aventure. . . <hic> !\n\nQue puis-je pour vous. . . <hic> ?",
+   "completion": "Prenez quelques pièces de monnaie. . . Servez-vous. . . <hic>. . . Une nouvelle armure ou quelque chose du genre. . .\n\nVa apporter un peu d'or. . . <hic> aux bonnes personnes.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8587,
+     "name": "Jediga"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6522,
+     "name": "Andron Gant"
+    }
+   ],
+   "zone_id": 16,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "horde",
+   "xp": 2550,
+   "money": 6000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3561": {
+   "id": 3561,
+   "name": "Livraison à l'archimage Xylem",
+   "objectives": "Apporter la Tablette de Sael'hai à l'archimage Xylem dans Azshara.",
+   "description": "Cette dernière tablette est destinée à quelqu'un de très dangereux, <nom>. Croyez-moi, je lui fais encore moins confiance qu'aux autres.\n\nL'archimage Xylem habite une tour en haut des collines qui entourent Azshara. Il est humain, mais il n'agit comme aucun autre humain. La puissance se dégage de tout son être et je n'ose lui demander ce qu'il veut faire de la tablette.\n\nSon garde du corps Sanath doit m'aider à parvenir à la tour lorsque je serai prêt à le rencontrer. Allez chercher Sanath, au nord.",
+   "progress": "Comment puis-je vous aider, <nom> ?",
+   "completion": "Ah, la Tablette de Sael'hai. . . Il y a longtemps que j'ai envie de l'étudier.\n\nMerci, <nom>. Vous pouvez dire à Jediga qu'elle a réussi. Le paiement qu'elle a demandé est mérité.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8587,
+     "name": "Jediga"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8379,
+     "name": "Archimage Xylem"
+    }
+   ],
+   "zone_id": 16,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "horde",
+   "xp": 2550,
+   "money": 4000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3562": {
+   "id": 3562,
+   "name": "Le Paiement de Magatha à Jediga",
+   "objectives": "Apporter la Note de Magatha à Jediga dans Azshara.",
+   "description": "Portez cette note à Jediga. Dites-lui que son paiement l'attendra à son retour. Et dites-lui que son travail est satisfaisant.\n\nFaites vite, <nom>. Dites à votre Maître que je l'attendrai ici.",
+   "progress": "Alors, qu'a dit Magatha ? La vieille bique. . . Je parie qu'elle a été moins que polie.",
+   "completion": "Ah, bon. Elle a été beaucoup plus raisonnable que je ne m'y attendais. . . du moins vis-à-vis de vous. Je pensais qu'elle vous punirait pour mon insolence, le fait d'avoir envoyé quelqu'un à ma place. Elle doit vraiment vouloir cette tablette. Intéressant.\n\nC'est à retenir pour une autre fois.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4046,
+     "name": "Magatha Grimtotem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8587,
+     "name": "Jediga"
+    }
+   ],
+   "zone_id": 16,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "horde",
+   "xp": 3800,
+   "money": 6000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3563": {
+   "id": 3563,
+   "name": "Le Paiement de Jes'rimon à Jediga",
+   "objectives": "Apporter la Note de Jes'rimon à Jediga dans Azshara.",
+   "description": "Portez cette lettre à Jediga. Faites-lui savoir que notre accord a été rentable et que son travail me satisfait.\n\nDites-lui de revenir vite à Orgrimmar et que Jes'rimon prendra bien soin d'elle.\n\nDites-lui tout cela et j'aurai peut-être besoin de vos services dans le futur, <nom>.",
+   "progress": "Avez-vous déjà vu Jes'rimon ?\n\nIl est comme un sanglier parmi les trolls, mais ses informations sont précises et ses emplois bien payés.\n\nSi vous pouvez supporter son attitude, il y a de l'argent à se faire en participant à ses affaires.",
+   "completion": "Je vois qu'il était très satisfait. . . Un peu trop sans doute.\n\nJe m'occuperai de lui faire savoir un jour combien j'apprécie ses avances. Voilà au moins une bonne raison de passer plus de temps à Azshara.\n\nVoici votre part du paiement.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8659,
+     "name": "Jes'rimon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8587,
+     "name": "Jediga"
+    }
+   ],
+   "zone_id": 16,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "horde",
+   "xp": 3800,
+   "money": 6000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3564": {
+   "id": 3564,
+   "name": "Le Paiement d'Andron à Jediga",
+   "objectives": "Apporter la Note d'Andron à Jediga dans Azshara.",
+   "description": "Ici... Portez... <hic> cela à Jediga. Bonne chance !",
+   "progress": "Avez-vous déjà vu Andron ? Il quitte rarement Undercity, alors je ne pense pas qu'il sera très dur de le trouver.",
+   "completion": "Parfait. . . Attendez un instant.\n\nHa ha ! Que lui avez-vous dit quand vous avez livré la tablette, <nom> ? Il nous a plus que surpayés ! ce n'est pas que je me plaigne. Lui avez-vous dit que l'accord avait changé ? Ou avait-il encore bu ?\n\nAucune importance. . . Prenez une part supplémentaire vous aussi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6522,
+     "name": "Andron Gant"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8587,
+     "name": "Jediga"
+    }
+   ],
+   "zone_id": 16,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "horde",
+   "xp": 3800,
+   "money": 7500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "hic"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3565": {
+   "id": 3565,
+   "name": "Le Paiement de Xylem à Jediga",
+   "objectives": "Apporter la Note de Xylem à Jediga dans Azshara.",
+   "description": "Qu'est-ce que c'est ? Oh oui, votre paiement, bien sûr !\n\nPrenez cela et repartez. Je suis sûr que Jediga attend avec une grande, grande patience votre retour.",
+   "progress": "Ah, qu'est-ce que Xylem a à me dire ? Il ne vous a rien fait, n'est-ce pas ? Il vous a jeté un sort ? Pour vous faire travailler pour lui ?",
+   "completion": "Aucun problème ? Vraiment aucun ? Bien, c'est bon à savoir. . . je m'attendais à ce qu'il montre une sorte de répugnance ou qu'il trahisse notre accord. Hum, on peut peut-être lui faire confiance après tout.\n\nBien, aucun intérêt de toute façon. Voici votre part. Merci pour votre aide.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8379,
+     "name": "Archimage Xylem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8587,
+     "name": "Jediga"
+    }
+   ],
+   "zone_id": 16,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "horde",
+   "xp": 3800,
+   "money": 6000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3601": {
+   "id": 3601,
+   "name": "Kim'jael évidemment !",
+   "objectives": "Fouiller le Camp de base thalassien pour trouver la Boussole, la Lunette, le Poulet farci et le Wizzlegoober de Kim'Jael, puis les lui rapporter à Azshara.",
+   "description": "Kim'jael, effectivement ! Savez-vous ce que Kim'jael signifie chez les elfes de sang, <nom> ? Petit rat... ou quelque chose comme ça. Quels imbéciles !\n\nIls m'ont embauché pour aider à reconnaître le secteur et pour chercher des genres de trésors perdus. Je me suis évidemment précipité lorsque j'ai entendu le mot \"trésor\" et le montant qu'ils allaient me payer, mais ils m'ont bien entendu trahi et ont essayé de me tuer... MOI !\n\nC'est pour vous dire, on ne peut jamais faire confiance à un elfe de sang.\n\nMaintenant, le problème, c'est qu'ils sont en possession de mon équipement et que je ne peux pas le récupérer. Vous voulez m'aider ?",
+   "progress": "Ces fichus elfes de sang ! Je vous le dis, si j'étais aussi fort que vous, j'irais là-bas et je leur dirais deux mots moi-même ! Mais il faudra que je me contente de vous payer pour faire le travail à ma place.",
+   "completion": "Ha ha ! Vous les avez eus, n'est-ce pas ?!\n\nC'est formidable ! Cela apprendra à ces elfes de sang à trahir leurs partenaires… particulièrement quelqu'un d'aussi loyal qu'un marchand gobelin ! Bah, les elfes de sang… !\n\nBon, le moins que je puisse faire est de vous dédommager pour votre temps. . . comme je l'avais dit.\n\nVoilà pour vous. . . Cela devrait vous être utile.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8420,
+     "name": "Kim'jael"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8420,
+     "name": "Kim'jael"
+    }
+   ],
+   "zone_id": 16,
+   "level": 53,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 6550,
+   "money": 800,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3602": {
+   "id": 3602,
+   "name": "Azsharite",
+   "objectives": "Trouver 20 Azsharites cristallisées au sud d'Azshara. Utiliser éventuellement le gangrechien pour ‘renifler’ l'emplacement où sont intelligemment cachés les dépôts.\n\nRetourner voir Loramus une fois votre tâche accomplie.",
+   "description": "Les anciens géants des falaises de la région du sud d'Azshara se nourrissent de la roche et des constructions locales. Leurs excréments forment un cristal très malléable et extrêmement solide appelé azsharite.\n\nOn le trouve dans le Cercle du sud, mais on en récupère peu en raison du tempérament extrêmement violent des géants.\n\nVous devez aller au sud et récupérer suffisamment d'azsharite pour créer le corps de l'arme. Mes gangrechiens vous aideront à trouver le cristal.",
+   "progress": "Le mal ne dort jamais, imbécile. Vous aurez le temps de vous reposer quand vous serez mort. Maintenant, apportez-moi ces cristaux.",
+   "completion": "Votre tâche à Azshara est terminée. Je dois maintenant forger ce qui va vous être nécessaire pour poursuivre vos aventures.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7783,
+     "name": "Loramus Thalipedes"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7783,
+     "name": "Loramus Thalipedes"
+    }
+   ],
+   "zone_id": 16,
+   "level": 58,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 7750,
+   "money": 26500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3621": {
+   "id": 3621,
+   "name": "La Formation de Felbane",
+   "objectives": "Apporter la cargaison à Galvan l'Ancien dans la vallée de Strangleronce.",
+   "description": "Les armes sont prêtes à être forgées. Vous devez apporter l'azsharite à quelqu'un qui saura en exploiter l'énergie.\n\nIl y a un forgeron dans la Vallée de Strangleronce. Galvan l'Ancien, le chef de l'Ordre du Mithril, pourra fabriquer ces armes. Vous trouverez son campement entre Zul'Gurub et le tertre des ogres Mosh'Ogg.\n\nPuissent votre détermination et votre foi vous porter dans cette épreuve. Si vous échouez, sachez que votre dieu vous regarde en souriant, <mortel/mortelle>.",
+   "progress": "Loramus, hein ? Il y a bien des années que je n'avais pas entendu ce nom.",
+   "completion": "Bon sang ! Je ne peux qu'imaginer ce que vous avez dû subir pour obtenir cela. Peu nombreux sont ceux qui vont à Azshara et reviennent en vie ; sans parler des affrontements avec ces demi-dieux et ces géants !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7783,
+     "name": "Loramus Thalipedes"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7802,
+     "name": "Galvan l'Ancien"
+    }
+   ],
+   "zone_id": 16,
+   "level": 58,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 4650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mortel/mortelle"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5534": {
+   "id": 5534,
+   "name": "L'équipement \"manquant\" de Kim'jael",
+   "objectives": "Trouver \"une rune\" détenue par les nagas dans les ruines d’Eldarath et la rapporter à Kim'jael à Azshara.",
+   "description": "Quoi ?! Quoi !\n\nCe n'était pas assez bien pour vous ? Vous savez combien coûtent ces explosifs ? A peu près… oh, et puis laissez tomber. Bon, vous voulez vraiment vous faire de l'argent ? Parce que c'est comme ça que ça marche : vous faites vos preuves et vous êtes récompensé de manière adéquate.\n\nSi vous êtes vraiment un employé \"inestimable\", allez dans les ruines d'Eldarath et trouvez-moi une rune que recherchent ces satanés elfes. Les nagas l'ont apparemment en leur possession.",
+   "progress": "Eh bien, <nom> ? Où est la rune ? Vous êtes un bon employé, n'est-ce-pas ? Vous êtes là pour aider ?\n\nNe me laissez pas douter de l'opportunité de vous payer ce dont nous étions convenus. Comment ? Oh, nous n'avions aucun accord ? Oh, parfait… alors prenez votre temps. Sachez simplement que la somme sera plus légère si vous prenez beaucoup de temps.",
+   "completion": "Ha ha ! Merveilleux !\n\nJe suis sûr de trouver à quoi cela sert et pourquoi la magus Rimtori (c'est la punaise qui m'a embauché) courait derrière. Ha ! Je vous tiens maintenant, sales elfes de sang ! Kim'jael ! Ha ! Je leur apprendrai qui sont les rats !\n\nVous avez bien fait, <nom>. Merci beaucoup. Voici, prenez cette pièce et laissez-moi, j'ai à réfléchir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8420,
+     "name": "Kim'jael"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8420,
+     "name": "Kim'jael"
+    }
+   ],
+   "zone_id": 16,
+   "level": 53,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 6550,
+   "money": 16000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5535": {
+   "id": 5535,
+   "name": "Agitation spirituelle",
+   "objectives": "Détruire 6 Apparitions de Bien-nés et 6 Jeunes liches bien-nées avant de retourner auprès de Loh'atu à Azshara.",
+   "description": "Il y a longtemps, les Bien-nés étaient les plus doués des elfes de la nuit dans le domaine des arcanes. La corruption qui accompagne ces études causa beaucoup de tort à la société des elfes de la nuit et affecta grandement tout Azeroth... Mais vous le savez certainement déjà.\n\nJ'ai promis aux Sentinelles que je libérerai les esprits de leurs attaches mortelles dès que je les trouverai. Si vous pouviez faire de même, alors je vous récompenserai.\n\nLes esprits hantent le sanctuaire de Shadowsong au nord-est d'ici.",
+   "progress": "Comment se passe votre recherche des alcools de haute volée, <classe> ?\n\nDe nombreux événements ont causé de grandes souffrances à toutes les races d'Azeroth, mais pour une raison ou une autre, ces esprits semblent être un fléau pour tous les peuples. Peut-être est-ce dû à leur désir constant d'utiliser la magie des arcanes - un tel désir est un signe avant-coureur de la Légion ardente, et nous savons à quoi cela peut mener.",
+   "completion": "Bien joué, <classe>. Merci de votre aide. Les esprits sont apaisés, et leur désir pour l'attrait de l'arcane est retombé.\n\nJe suis certain que les deux opposants dans ce conflit pour Azeroth verront que vous êtes au-dessus de cela.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11548,
+     "name": "Loh'atu"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11548,
+     "name": "Loh'atu"
+    }
+   ],
+   "zone_id": 16,
+   "level": 47,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 4200,
+   "money": 5000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5536": {
+   "id": 5536,
+   "name": "Un pays plein de haine",
+   "objectives": "Tuer 6 satyres Haldarr, 2 Entourloupeurs Haldarr, 2 Lige de la corruption Haldarr puis revenir auprès de Loh'atu à la frontière d’Ashenvale.",
+   "description": "Les satyres, êtres difformes et maléfiques issus des elfes de la nuit, souillent désormais les terres sacrées où Cénarius se promenait jadis. Je ne peux parler à la place des elfes de la nuit de toutes les atrocités que ces créatures démoniaques ont pu commettre, mais j'ai fait le serment à la Terre-mère d'aider les elfes à se débarrasser des satyres.\n\nMontrez-moi ce dont vous êtes capable en m'aidant à les éliminer.\n\nAu nord-est d'ici, vous trouverez le clan Haldarr. Revenez me voir lorsque vous aurez éprouvé votre pouvoir contre eux.",
+   "progress": "Comment se déroule votre combat contre les satyres, <classe> ?\n\nSont-ils aussi forts que vous le pensiez ? Plus forts ? Ou peut-être ne sont-ils pas à la mesure de votre propre force.",
+   "completion": "Bien joué, <classe>. Je vois que votre adresse se double de subtilité. Battre de telles créatures est la preuve de votre loyauté à la Terre-mère, même si vous ne la reconnaissez pas comme votre déesse. Elle est dans toutes choses sur cette planète et au-delà. Ses yeux, un sombre et un clair, voyagent parmis les nuages, toujours attentifs à nos actes.\n\nS'il vous plaît, acceptez ces quelques pièces en récompense pour ce que vous avez fait.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11548,
+     "name": "Loh'atu"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11548,
+     "name": "Loh'atu"
+    }
+   ],
+   "zone_id": 16,
+   "level": 47,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 4200,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6804": {
+   "id": 6804,
+   "name": "Eau empoisonnée",
+   "objectives": "Utiliser l’Aspect de Neptulon sur les élémentaires empoisonnés des Maleterres de l’est. Apporter 12 Bracelets discordants et l’Aspect de Neptulon au duc Hydraxis, en Azshara.",
+   "description": "Une force composée d’éclaireurs élémentaires a été envoyée dans les Maleterres de l’est de Lordaeron, mais la maladie qui a cours là-bas les a contaminés. Les Seigneurs des eaux ne peuvent pas tolérer un tel affront à notre pureté !\n\nPrenez cette fiole. Elle contient l’essence de l’un des aspects de Neptulon. Si elle est utilisée sur les élémentaires pestiférés, son contenu annulera le poison qui les ronge et les guérira ! Mais le conflit intérieur qui les dévore risque de les précipiter dans une folie incontrôlable.\n\nTriomphez des vagues discordantes et rapportez-moi leurs bracelets de liaison.",
+   "progress": "Avez-vous les Bracelets ?",
+   "completion": "Vous avez bien fait, <classe>. Les élémentaires corrompus que vous avez soignés étaient une insulte à tous les êtres d'eau. Notre pureté est notre force et si nous voulons gagner la guerre, nous devons rester forts.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13278,
+     "name": "Duc Hydraxis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13278,
+     "name": "Duc Hydraxis"
+    }
+   ],
+   "zone_id": 16,
+   "level": 56,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 4350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6805": {
+   "id": 6805,
+   "name": "Tempêtes",
+   "objectives": "Tuer 15 Tempétueux de poussière et 15 Grondeurs du désert, puis retourner voir le duc Hydraxis, en Azshara.",
+   "description": "Nous, les élémentaires d’eau, nous partons en guerre contre les éléments inférieurs et leurs élémentaires. Si vous êtes vraiment de notre côté, faites preuve de votre engagement !\n\nLoin au sud, dans le désert de Silithus, les servants de l’air et de la terre se terrent dans un endroit appelé la vallée des cristaux. Ils protègent des objets puissants de l’appétit des mortels, et bien que j’ignore pourquoi ils font cela, je n’aspire qu’à contrecarrer leurs efforts.\n\nAllez dans la vallée des cristaux, en Silithus, et abattez nos ennemis. Revenez me voir quand cela sera fait.",
+   "progress": "La lâcheté n'est pas un sentiment et une attitude que nous apprécions, <classe>. Allez en Silithus et montrez-nous votre bravoure.",
+   "completion": "Vous avez prouvé votre valeur et montré que vous étiez digne de notre intérêt. Peut-être pourrai-je vous confier d'autres tâches, plus dignes d'un allié de votre trempe.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13278,
+     "name": "Duc Hydraxis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13278,
+     "name": "Duc Hydraxis"
+    }
+   ],
+   "zone_id": 16,
+   "level": 57,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 6000,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6821": {
+   "id": 6821,
+   "name": "Oeil du Prophète ardent",
+   "objectives": "Apporter l’Oeil du Prophète ardent au duc Hydraxis, en Azshara.",
+   "description": "Vous m’avez montré que vous pouviez vaincre nos ennemis et réaliser des missions, pour servir la cause des Seigneurs des eaux. Mais jusqu’à maintenant, vous n’avez fait face qu’à des ennemis de second ordre... Comment réagiriez-vous contre des adversaires réellement puissants ?\n\nVoici quelle sera votre prochaine tâche.\n\nDans les hauteurs du pic Blackrock, les orcs ont capturé un servant du feu, le Pyrogarde Prophète ardent. Trouvez l’endroit où il est enfermé, tuez ses gardiens, puis exécutez le Prophète ardent. Rapportez-moi son Oeil ; si vous réussissez, vous m’aurez convaincu de votre valeur.",
+   "progress": "Avez-vous l'Œil, <classe> ? Avez-vous la force et le courage pour entrer dans le pic Blackrock ?",
+   "completion": "Ah, ainsi vous avez la force requise. Et vous avez aussi la ruse voulue. Car le pic Blackrock demande bien plus que de la force brute.\n\nEn vérité, <nom>, vous pourriez être un allié appréciable. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13278,
+     "name": "Duc Hydraxis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13278,
+     "name": "Duc Hydraxis"
+    }
+   ],
+   "zone_id": 16,
+   "level": 60,
+   "reqlevel": 56,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6822": {
+   "id": 6822,
+   "name": "Le Cœur du Magma",
+   "objectives": "Tuer 1 Seigneur du feu, 1 Géant de lave, 1 Chien antique du Magma et 1 Surgisseur de lave, puis retourner voir le duc Hydraxis, à Azshara.",
+   "description": "<nom>, peut-être est-il temps maintenant de vous affronter à une véritable épreuve ; si toutefois vous vous en sentez capable.\n\nAu plus profond des Profondeurs de Blackrock se trouve un passage vers le Cœur du Magma. C’est un bastion utilisé par notre ennemi et tenu par les plus puissants servants du feu qui existent en ce monde.\n\nAllez au Cœur du Magma, <nom>. Montrez-moi que vous avez la force et la volonté de tuer quoi qui puisse se trouver là-bas.\n\nEt si vous avez des alliés ou des amis, n’hésitez pas à les enrôler dans votre périple.Pour survivre à ce qui vous attend dans les abysses du Cœur du Magma, une armée ne sera pas de trop.",
+   "progress": "Votre succès dans le noyau fondu vous attend, <nom>.",
+   "completion": "Vous avez fait ce que beaucoup pensaient impossible à réaliser. Vous avez affronté les êtres qui hantaient le Cœur du Magma, et vous les avez vaincus !\n\nPour une si petite créature, vous avez démontré que vous aviez des ressources insoupçonnables.\n\nPeut-être qu'un jour nous ferons de ceux de votre espèce les véritables alliés des Seigneur des eaux.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13278,
+     "name": "Duc Hydraxis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13278,
+     "name": "Duc Hydraxis"
+    }
+   ],
+   "zone_id": 16,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6823": {
+   "id": 6823,
+   "name": "Agent de Hydraxis",
+   "objectives": "Parvenir au niveau de réputation Honoré auprès des Hydraxiens, puis parler au duc Hydraxis, en Azshara.",
+   "description": "Si vous souhaitez réellement nous faire preuve de votre allégeance, je vous invite à partir en guerre contre nos ennemis, les servants de l'air, de la terre et du feu. Chaque défaite que vous leur infligerez réduira l'étreinte qu'ils imposent à ce pays, et chacune de vos victoires nous convaincra un peu plus que vous êtes digne de notre cause.\n\nLa campagne sera longue, mais si vous persévérez, la gloire et l'honneur seront vôtres.",
+   "progress": "Votre campagne n'est pas encore terminée, <nom>. Va vaincre nos ennemis, les serviteurs de l'air, de la terre et du feu, et un jour, peut-être, tu gagneras une place dans la salle des Seigneurs de l'eau.",
+   "completion": "Vos exploits contre nos ennemis ont retenti dans les chambres des Seigneurs des eaux, <nom>. Certains disent que votre forme est trop petite et fragile pour combattre dans notre guerre, mais vous avez beaucoup gagné. Vous avez gagné notre respect. C'est incroyable.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13278,
+     "name": "Duc Hydraxis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13278,
+     "name": "Duc Hydraxis"
+    }
+   ],
+   "zone_id": 16,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6824": {
+   "id": 6824,
+   "name": "Les mains de l'ennemi",
+   "objectives": "Apporter les Mains de Lucifron, de Sulfuron, de Gehennas et de Shazzrah au duc Hydraxis, en Azshara.",
+   "description": "<nom>, votre service est d'une grande valeur pour nous, et c'est la raison pour laquelle nous sommes quelque peu réticents à vous envoyer sur cette dernière mission. Nous ne voulons pas risquer la vie d'un agent tel que vous.\n\nCependant, le succès de cette mission nous garantirait un avantage significatif dans cette guerre, et nous pensons qu'il est nécessaire que vous risquiez votre vie pour sa réussite.\n\nNous voulons que les capitaines du Cœur du Magma soient exécutés : Lucifron, Sulfuron, Gehennas et Shazzrah. Tuez-les et rapportez-moi leurs Mains !\n\nCette quête est d'une exigence telle qu'elle mobilisera toutes vos ressources, <nom>. Mais si vous réussissez, les Seigneurs du feu auront subi un terrible revers.",
+   "progress": "Avez-vous vaincu Lucifron et les autres, <nom> ? Avez-vous récupéré les Mains de nos ennemis ?",
+   "completion": "Vous avez les mains ! Les capitaines du feu battus ! Je ne l'aurais pas cru possible, si je n'avais pas su de quoi vous êtes capable.\n\n<nom>, vos exploits sont innombrables, mais cette nouvelle victoire va retentir jusqu'au coeur des Seigneurs des eaux. Votre nom sera un jour une légende pour nous.\n\nRevenez me voir, <nom>. J'aurai peut-être une autre tâche à vous confier. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13278,
+     "name": "Duc Hydraxis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13278,
+     "name": "Duc Hydraxis"
+    }
+   ],
+   "zone_id": 16,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7486": {
+   "id": 7486,
+   "name": "La récompense du héros",
+   "objectives": "Allez chercher votre récompense dans le Coffre d’Hydraxis.",
+   "description": "<nom>, les services que vous avez rendus aux Seigneurs de la guerre surpassent tout ce que nous attendions des habitants de ce monde.\n\nNous ne comprenons pas la notion de gratitude, ou de récompense pour des bonnes actions, mais dans ce cas… une prime semble être à l’ordre du jour.\n\nSous les flots à la base sud de cette île vous trouverez un coffre. Il contient votre… récompense.\n\nAllez, <nom>. Allez récupérer votre récompense.",
+   "progress": null,
+   "completion": "La voix d’Hydraxis descend depuis la surface….\n\n« Choisissez ce qui vous convient, <nom>. Puisse ce don vous protéger des ennemis des Seigneurs des Eaux. »",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13278,
+     "name": "Duc Hydraxis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 179551,
+     "name": "Hydraxis' Coffer"
+    }
+   ],
+   "zone_id": 16,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8575": {
+   "id": 8575,
+   "name": "Le grand livre magique d'Azuregos",
+   "objectives": "Apporter le Grand livre magique d'Azuregos à Narain Divinambolesque, en Tanaris.",
+   "description": "Vous ne comprenez pas le moindre mot de ce qui est écrit dans ce livre. Vous ne savez même pas dans quelle langue il est rédigé !",
+   "progress": "Ooooh ! Un machin magique qui vibre. C'est pour moi ?",
+   "completion": "<Narain examine le document avec enthousiasme. >\n\nExtraordinaire, <race> ! Qu'est-ce que c'est ? Je ne sais pas du tout lire le draconique.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15481,
+     "name": "Esprit d'Azuregos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11811,
+     "name": "Narain Soothfancy"
+    }
+   ],
+   "zone_id": 16,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8729": {
+   "id": 8729,
+   "name": "Le courroux de Neptulon",
+   "objectives": "Utilisez la Bouée d’arcanite au Maelström tourbillonnant dans la Baie des tempêtes en Azshara.",
+   "description": "Je ne vous ai pas encore dit qu’elle était la mauvaise nouvelle ? Elle s’appelle Crocs-de-la-mer : trente mètres de mort et de destruction. J’avais peut-être oublié de mentionner ce point de détail.\n\nD’après mon extraordinaire clairvoyance psycho-psionique, le meilleur endroit pour lancer cette bouée est la côte d’Azshara, dans la Baie des tempêtes.\n\nCherchez un maelström tourbillonnant, qui sera probablement encombré de débris.\n\nAu fait, j’espère que vous avez de bons amis.\n\nBon, si par miracle vous réussissez, apportez le fragment de sceptre à Anachronos.",
+   "progress": "Le temps presse, champion.",
+   "completion": "Bien joué, <nom>. Je serai bientôt capable de refaçonner le sceptre des Sables changeants.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11811,
+     "name": "Narain Soothfancy"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15192,
+     "name": "Anachronos"
+    }
+   ],
+   "zone_id": 16,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

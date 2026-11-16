@@ -1,0 +1,1164 @@
+{
+ "schema": 1,
+ "zone": "professions/engineering",
+ "zone_id": -201,
+ "zone_name": "Ingénieur",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 20,
+  "complete": 15,
+  "incomplete": 5,
+  "unavailable": 0,
+  "missing_description": 4,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 10
+ },
+ "quests": {
+  "1559": {
+   "id": 1559,
+   "name": "La recette de la bombe éclairante",
+   "objectives": null,
+   "description": "Alors vous êtes l'ingénieur, hein ? Bien, en contrepartie de votre aide pour ces perles, voici la recette de la bombe éclairante.\n\nBonne chance et tâchez de ne pas vous aveugler !",
+   "progress": null,
+   "completion": "Alors, vous êtes ingénieur, hein ? Eh bien, pour m'aider à obtenir ces perles, voici la recette des bombes éclair.\n\nBonne chance, et essayez de ne pas vous aveugler !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2817,
+     "name": "Rigglefuzz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2817,
+     "name": "Rigglefuzz"
+    }
+   ],
+   "zone_id": -201,
+   "level": 37,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "3526": {
+   "id": 3526,
+   "name": "Ingénierie des gobelins",
+   "objectives": "Pour en apprendre davantage sur l'Ingénierie gobeline, apporter le Manuel d'Ingénierie à Nixx Sprocketspring dans Gadgetzan.",
+   "description": "La meilleure ingénierie est représentée par deux disciplines : celle des gnomes et celle des gobelins. L'Ingénierie des gobelins est clairement le choix de tous les ingénieurs brillants. Apprendre à vaincre le monde par l'utilisation judicieuse d'explosifs et d'incroyables mécanismes !\n\n<nom>, lisez ce manuel. Si vous voulez en apprendre plus, apportez-le à Nixx Sprocketspring à Gadgetzan. Mais attention : l’adhésion à cette discipline est définitive et exclusive, alors soyez <sûr/sûre> de faire le bon choix !",
+   "progress": "Je peux sentir les futures recrues à un kilomètre à la ronde, mieux que je ne sens la poudre explosive. Êtes-vous là pour apprendre à maîtriser l'art de l'explosion ?",
+   "completion": "Bien <nom>, vous avez été avisé de choisir mon enseignement ! N'importe quel balourd peut devenir expert en ingénierie : les gnomes et leurs maisons irradiées de Gnomeregan en sont la preuve. Mais il faut un esprit fort et une main stable (accent sur STABLE) pour maîtriser la discipline d'Ingénierie des gobelins.\n\nOuvrez vos oreilles, <nom>, et vous pourrez apprendre beaucoup.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4586,
+     "name": "Graham Van Talen"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8126,
+     "name": "Nixx Sprocketspring"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "sûr/sûre"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3629": {
+   "id": 3629,
+   "name": "Ingénierie des gobelins",
+   "objectives": "Pour en apprendre davantage sur l'Ingénierie gobeline, apporter le Manuel d'Ingénierie à Nixx Sprocketspring dans Gadgetzan.",
+   "description": "L'ingénierie pratiquée au niveau d'expert connaît deux disciplines : celle des gnomes et celle des gobelins. Je ne mentionne l'Ingénierie des gobelins que parce que je suis un Maître juste. Ils aiment faire des choses qui explosent et se soucient rarement des conséquences.\n\n<nom>, lisez ce manuel. Si vous voulez apprendre comment vous faire sauter, apportez-le à Nixx Sprocketspring dans Gadgetzan. Mais le choix de cette discipline est définitif et exclut l'autre, alors soyez <sûr/sûre> de votre choix !",
+   "progress": "Je peux sentir les nouvelles recrues comme je peux sentir une excellente poudre explosive - à un kilomètre de distance. Êtes-vous venus pour apprendre la maîtrise de l'explosion ?",
+   "completion": "Eh bien, <nom>, tu as bien fait de demander ma tutelle ! N'importe qui peut devenir un expert dans les bases de l'ingénierie - les gnomes et leur maison irradiée de Gnomeregan en sont la preuve. Il faut cependant un esprit fort et une main sûre (l'accent est mis sur la main sûre) pour maîtriser la discipline de l'ingénierie gobeline.\n\nRestez à l'écoute, <nom>, et vous apprendrez peut-être quelque chose.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5174,
+     "name": "Springspindle Fizzlegear"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8126,
+     "name": "Nixx Sprocketspring"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "sûr/sûre"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3630": {
+   "id": 3630,
+   "name": "Ingénierie des gnomes",
+   "objectives": "Pour en apprendre davantage sur l'ingénierie gnome, apporter le Manuel d'Ingénierie au maître-artisan Overspark, à Ironforge.",
+   "description": "L'ingénierie pratiquée à un niveau d'expert connaît deux disciplines : celle des gnomes et celle des gobelins. L'Ingénierie gnome est de loin supérieure ! Elle consiste à construire de merveilleux dispositifs qui rendent la vie meilleure !\n\n<nom>, lisez ce manuel. Si vous voulez en apprendre plus sur l'Ingénierie gnome, apportez ce manuel au maître-artisan Overspark dans Ironforge. Mais le choix de cette discipline est définitif et exclut l'autre, alors soyez <sûr/sûre> de votre choix !",
+   "progress": "Oui, oui, quels sont vos besoins auxquels je pourrais répondre aujourd'hui ? Il est clair que j'ai le temps de le faire puisque tout ce que je fais, c'est de rester ici pendant que notre ville bien-aimée gît dans un nuage de mort irradiée.",
+   "completion": "Ah, un jeune ingénieur désireux de poursuivre la seule et véritable discipline qu'est l'ingénierie ! Pardonnez mon mélodrame, mon ami. Bien que notre situation reste désastreuse, c'est toujours un bon jour de voir un autre ingénieur répondre à l'appel du clairon de la véritable ingénierie !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5518,
+     "name": "Lilliam Sparkspindle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7944,
+     "name": "Maître-artisan Overspark"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "sûr/sûre"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3632": {
+   "id": 3632,
+   "name": "Ingénierie des gnomes",
+   "objectives": "Pour en apprendre davantage sur l'ingénierie gnome, apporter le Manuel d'Ingénierie au maître-artisan Overspark, à Ironforge.",
+   "description": "L'ingénierie pratiquée à un niveau d'expert connaît deux disciplines : celle des gnomes et celle des gobelins. L'Ingénierie gnome est de loin supérieure ! Elle consiste à construire de merveilleux dispositifs qui rendent la vie meilleure !\n\n<nom>, lisez ce manuel. Si vous voulez en apprendre plus sur l'Ingénierie gnome, apportez ce manuel au maître-artisan Overspark dans Ironforge. Mais le choix de cette discipline est définitif et exclut l'autre, alors soyez <sûr/sûre> de votre choix !",
+   "progress": "Oui, oui, que puis-je faire pour vous aujourd'hui ? J'ai vraiment du temps libre maintenant que ma seule activité est de regarder notre ville bien-aimée se noyer dans un nuage de mort.",
+   "completion": "Oh, un jeune ingénieur qui veut poursuivre l'étude de la seule, la vraie discipline d'ingénierie ! Pardonnez ce ton mélodramatique, mon ami. Alors que notre situation devient de plus en plus difficile, c'est toujours une joie de voir qu'un autre ingénieur répond à l'appel de clairon de la véritable ingénierie !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5174,
+     "name": "Springspindle Fizzlegear"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7944,
+     "name": "Maître-artisan Overspark"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "sûr/sûre"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3633": {
+   "id": 3633,
+   "name": "Ingénierie des gobelins",
+   "objectives": "Pour en apprendre davantage sur l'ingénierie gobeline, apporter le Manuel d'Ingénierie à Nixx Sprocketspring, à Gadgetzan.",
+   "description": "La meilleure ingénierie est représentée par deux disciplines : celle des gnomes et celle des gobelins. L'Ingénierie des gobelins est clairement le choix de tous les ingénieurs brillants. Apprendre à vaincre le monde par l'utilisation judicieuse d'explosifs et d'incroyables mécanismes !\n\n<nom>, lisez ce manuel. Si vous voulez en apprendre plus, apportez-le à Nixx Sprocketspring à Gadgetzan. Mais attention : l’adhésion à cette discipline est définitive et exclusive, alors soyez <sûr/sûre> de faire le bon choix !",
+   "progress": "Je peux sentir les futures recrues à un kilomètre à la ronde, mieux que je ne sens la poudre explosive. Êtes-vous là pour apprendre à maîtriser l'art de l'explosion ?",
+   "completion": "Bien <nom>, vous avez été avisé de choisir mon enseignement ! N'importe quel balourd peut devenir expert en ingénierie : les gnomes et leurs maisons irradiées de Gnomeregan en sont la preuve. Mais il faut un esprit fort et une main stable (accent sur STABLE) pour maîtriser la discipline d'Ingénierie des gobelins.\n\nOuvrez vos oreilles, <nom>, et vous pourrez apprendre beaucoup.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3494,
+     "name": "Tinkerwiz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8126,
+     "name": "Nixx Sprocketspring"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "sûr/sûre"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3634": {
+   "id": 3634,
+   "name": "Ingénierie des gnomes",
+   "objectives": "Pour en apprendre davantage sur l'ingénierie gnome, apporter le Manuel d'Ingénierie au maître-artisan Overspark, à Ironforge.",
+   "description": "L'ingénierie au niveau d'expert connaît deux disciplines : celle des gnomes et celle des gobelins. Bien que ce soit du gâchis à mon sens, vous devriez vous spécialiser dans celle des gnomes. Ils fabriquent des objets et des gadgets pour soit-disant changer le monde, mais ça fonctionne rarement.\n\n<nom>, lisez ce manuel. Si ça vous intéresse, apportez-le au maître-artisan Overspark dans Ironforge. Mais le choix de cette discipline est définitif et exclut l'autre, alors soyez <sûr/sûre> de votre choix !",
+   "progress": "Oui, oui, quels sont vos besoins auxquels je pourrais répondre aujourd'hui ? Il est clair que j'ai le temps de le faire puisque tout ce que je fais, c'est de rester ici pendant que notre ville bien-aimée gît dans un nuage de mort irradiée.",
+   "completion": "Ah, un jeune ingénieur désireux de poursuivre la seule et véritable discipline qu'est l'ingénierie ! Pardonnez mon mélodrame, mon ami. Même si notre situation reste désastreuse, c'est toujours un bon jour de voir un autre ingénieur répondre à l'appel du clairon de la véritable ingénierie !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3494,
+     "name": "Tinkerwiz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7944,
+     "name": "Maître-artisan Overspark"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "sûr/sûre"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3635": {
+   "id": 3635,
+   "name": "Ingénierie des gnomes",
+   "objectives": "Pour en apprendre davantage sur l'Ingénierie gnome, apporter le Manuel d'Ingénierie à Oglethorpe Obnoticus à Baie-du-Butin.",
+   "description": "L'ingénierie au niveau d'expert enseigne deux disciplines : celle des gnomes et celle des gobelins. Bien que ce soit du gâchis à mon sens, vous devriez connaître celle des gnomes. Ils fabriquent des objets et des gadgets pour prétendument changer le monde, mais ils fonctionnent rarement.\n\n<nom>, lisez ce manuel. Si ça vous intéresse, apportez-le à Oglethorpe Obnoticus à Baie-du-Butin. Mais attention : l’adhésion à cette discipline est définitive et exclusive, alors soyez <sûr/sûre> de faire le bon choix !",
+   "progress": "Salut à vous ! Si c'est parce que l'un de nos robots guidés a démoli un mur de votre domicile que vous venez, je vous envoie tout de suite mon avocat. Sinon, que puis-je faire pour vous ?",
+   "completion": "Vous venez pour apprendre l'ingénierie gnome, alors ? Bien, vous vous adressez au bon gnome. Même si la faction dirigeante de Gnomeregan utilise la politique pour frapper d'ostracisme ceux qu'ils perçoivent comme une menace intellectuelle, ils savent qu'ils ne peuvent pas contrôler la connaissance.\n\nIls savent comme moi que si je quitte Gnomeregan, ils perdront un de leurs plus grands ingénieurs gnomes vivants aujourd'hui. Si vous vous montrez capable, je vous apprendrai ce que je sais.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4586,
+     "name": "Graham Van Talen"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7406,
+     "name": "Oglethorpe Obnoticus"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "sûr/sûre"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3637": {
+   "id": 3637,
+   "name": "Ingénierie des gnomes",
+   "objectives": "Pour en apprendre davantage sur l'Ingénierie gnome, apporter le Manuel d'Ingénierie à Oglethorpe Obnoticus à Baie-du-Butin.",
+   "description": "L'ingénierie au niveau d'expert enseigne deux disciplines : celle des gnomes et celle des gobelins. Bien que ce soit du gâchis à mon sens, vous devriez connaître celle des gnomes. Ils fabriquent des objets et des gadgets pour prétendument changer le monde, mais ils fonctionnent rarement.\n\n<nom>, lisez ce manuel. Si ça vous intéresse, apportez-le à Oglethorpe Obnoticus à Baie-du-Butin. Mais attention : l’adhésion à cette discipline est définitive et exclusive, alors soyez <sûr/sûre> de faire le bon choix !",
+   "progress": "Salut à vous ! Si c'est parce que l'un de nos robots guidés a démoli un mur de votre domicile que vous venez, je vous envoie tout de suite mon avocat. Sinon, que puis-je faire pour vous ?",
+   "completion": "Vous venez pour apprendre l'ingénierie gnome, alors ? Bien, vous vous adressez au bon gnome. Même si la faction dirigeante de Gnomeregan utilise la politique pour frapper d'ostracisme ceux qu'ils perçoivent comme une menace intellectuelle, ils savent qu'ils ne peuvent pas contrôler la connaissance.\n\nIls savent comme moi que si je quitte Gnomeregan, ils perdront un de leurs plus grands ingénieurs gnomes vivants aujourd'hui. Si vous vous montrez capable, je vous apprendrai ce que je sais.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3494,
+     "name": "Tinkerwiz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7406,
+     "name": "Oglethorpe Obnoticus"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "sûr/sûre"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3638": {
+   "id": 3638,
+   "name": "Le Vœu du secret",
+   "objectives": "Pour devenir un Ingénieur gobelin, cliquer avec le bouton droit sur le Vœu de secret et retourner voir une fois encore Nixx Sprocketspring dans Gadgetzan.",
+   "description": "L'ingénierie des gobelins traite de l'utilisation pratique des explosifs ! Nos schémas nous permettent de faire des bombes et des armes puissantes ; c’est le thème du manuel que vous lisez.\n\nDepuis toujours, ce manuel est lié par un Vœu du secret couvrant tous nos schémas. Une fois que vous serez Ingénieur gobelin, vous ne pourrez plus accéder à l'Ingénierie des gnomes. Si vous voulez toujours devenir Ingénieur gobelin, signez ce document vous engageant au secret et revenez me voir. Réfléchissez soigneusement, <nom>.",
+   "progress": "Si vous avez signé le document et que vous êtes d'attaque, il n'y a rien à faire de plus. C'est un chemin que l'on ne peut faire que dans un seul sens. Si vous êtes prêt, sautez donc à bord !",
+   "completion": "Bienvenue à bord, Ingénieur gobelin <nom> ! Vous aurez bientôt l'accès aux schémas de l'Ingénierie la plus puissante d'Azeroth.\n\nMaintenant que vous avez décidé de poursuivre cet apprentissage, il est temps d'examiner votre travail d'Ingénieur gobelin. Ensuite, nous vous aiderons à construire un plan pour maximiser vos talents d'Ingénieur gobelin !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8126,
+     "name": "Nixx Sprocketspring"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8126,
+     "name": "Nixx Sprocketspring"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3639": {
+   "id": 3639,
+   "name": "Montrez votre travail",
+   "objectives": "Apporter 20 Grandes Bombes en fer, 20 Dynamites Solides et 5 Moutons Explosifs à Nixx Sprocketspring dans Gadgetzan.",
+   "description": "En tant que mentor, je veux quelques échantillons de votre travail. Vous êtes un ingénieur habile ; la question n'est pas là, <nom>. Je veux analyser votre travail pour orienter vos efforts futurs. J'ai besoin des échantillons suivants : 20 grandes bombes en fer, 20 bâtons de dynamite solide et 5 moutons explosifs.\n\nSoumettez-moi vos réalisations et je vous ferai votre Carte de membre des Ingénieurs gobelins ; elle est exigée pour accéder à toutes les techniques des maîtres des ingénieurs gobelins !",
+   "progress": "Une fois que j'aurai reçu ce que vous devez fabriquer pour ma revue, je vous remettrai une véritable Carte de membre des Ingénieurs gobelins ! Tant que la carte sera valable, vous aurez un accès illimité à n'importe laquelle des formations de Maître Ingénieur gobelin partout dans le monde.",
+   "completion": "Voici votre première Carte de membre des ingénieurs gobelins !\n\nLa cotisation est payable d’avance, pour quatorze jours. Toutes les cartes expirent après deux semaines d'activité. Lorsqu'elle expire, donnez le montant des cotisations versées à n'importe quel Maître des Ingénieurs gobelin afin d'obtenir une nouvelle carte. Sans carte, votre adhésion sera temporairement caduque et vous ne pourrez pas accéder à de nouveaux schémas.\n\nCependant, cela n'affecte en rien les connaissances déjà acquises. Lorsqu'on est Ingénieur gobelin, c'est pour la vie.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8126,
+     "name": "Nixx Sprocketspring"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8126,
+     "name": "Nixx Sprocketspring"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3640": {
+   "id": 3640,
+   "name": "Le Vœu du secret",
+   "objectives": "Pour devenir un Ingénieur gnome, cliquer avec le bouton droit sur le Vœu de secret et retourner voir une fois encore le maître-artisan Overspark, à Ironforge.",
+   "description": "L'ingénierie des gnomes consiste à mettre en forme la théorie de l'ingénierie pour servir nos besoins ! Nos schémas nous permettent de construire des appareils contrôlant le monde qui nous entoure. Le manuel que vous avez lu traite de ce sujet.\n\nIl traite également du Vœu du secret qui recouvre nos schémas. Lorsque vous adhérez à l'Ingénierie des gnomes, vous ne pouvez plus revenir en arrière. Vous ne pourrez jamais plus accéder à l'Ingénierie des gobelins.\n\nSi vous souhaitez toujours devenir Ingénieur gnome, signez ce document qui vous engage à garder le secret à vie et revenez me parler. Prenez votre décision après mûre réflexion, <nom>.",
+   "progress": "Si vous avez signé le document et que vous êtes prêt à me le remettre, alors nous y sommes.\n\nLes secrets que je partagerai avec vous sont d'une telle importance que signer le Vœu du secret est capital. J'en ai signé un, comme l'ont fait mon frère et ma sœur, tous deux Ingénieurs gnomes. Vous rejoignez une bien belle famille, Ingénieur <nom> !",
+   "completion": "Bienvenue à bord, <nom> ! Vous aurez bientôt accès aux schémas de l'ingénierie la plus avancée de tout Azeroth.\n\nPuisque vous avez décidé de poursuivre dans cette voie, il est temps d'examiner votre technique de travail d'ingénierie <race>. Ensuite, nous vous aiderons à maximiser vos talents !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7944,
+     "name": "Maître-artisan Overspark"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7944,
+     "name": "Maître-artisan Overspark"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3641": {
+   "id": 3641,
+   "name": "Montrez votre travail",
+   "objectives": "Apporter 6 Tubes de mithril, 1 Lunette de précision et 2 Leurres perfectionnés au Maître artisan Overspark à Ironforge.",
+   "description": "En tant que votre mentor, je veux avoir des exemplaires de votre travail. Vous êtes <compétent/compétente> en tant qu'Ingénieur, je ne le remets pas en question, <nom>. Cependant, je souhaite analyser votre travail pour savoir comment introduire les techniques gnomes dans vos travaux futurs. J'ai besoin des objets suivants : six tubes de mithril, une lunette de précision et deux leurres perfectionnés.\n\nSoumettez-moi ces objets et je vous remettrai votre propre Carte de membre des ingénieurs gnomes. Elle vous sera demandée pour aborder tous les Entraîneurs des Ingénieurs gnomes !",
+   "progress": "Une fois que j'aurai reçu ce que vous devez fabriquer pour ma revue, je vous remettrai une véritable Carte de membre des Ingénieurs gnomes ! Tant que la carte sera valable, vous aurez un accès illimité à n'importe laquelle des formations des Entraîneurs des Ingénieurs gnomes partout dans le monde.",
+   "completion": "Voici votre première Carte de membre des ingénieurs gnomes !\n\nLa cotisation est payable d’avance, pour quatorze jours. Toutes les cartes expirent après deux semaines d'activité. Lorsqu'elle expire, donnez le montant des cotisations versées à n'importe quel Maître des Ingénieurs gnome afin d'obtenir une nouvelle carte. Sans carte, votre adhésion sera temporairement caduque et vous ne pourrez pas accéder à de nouveaux schémas.\n\nCependant, cela n'affecte en rien les connaissances déjà acquises. Lorsqu'on est Ingénieur gnome, c'est pour la vie.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7944,
+     "name": "Maître-artisan Overspark"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7944,
+     "name": "Maître-artisan Overspark"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "compétent/compétente",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3642": {
+   "id": 3642,
+   "name": "Le Vœu du secret",
+   "objectives": "Pour devenir un Ingénieur gnome, cliquer avec le bouton droit sur le Vœu de secret et retourner voir une fois encore Oglethrope Obnoticus à Baie-du-Butin.",
+   "description": "L'ingénierie des gnomes consiste à mettre en forme la théorie de l'ingénierie pour servir nos besoins ! Nos schémas nous permettent de construire des appareils contrôlant le monde qui nous entoure. Le manuel que vous avez lu traite de ce sujet.\n\nIl traite également du Vœu du secret qui recouvre nos schémas. Lorsque vous adhérez à l'Ingénierie des gnomes, vous ne pouvez plus revenir en arrière. Vous ne pourrez jamais plus accéder à l'ingénierie des gobelins.\n\nSi vous souhaitez toujours devenir Ingénieur gnome, signez ce document qui vous engage à garder le secret à vie et revenez me parler. Prenez votre décision après mûre réflexion, <nom>.",
+   "progress": "Si vous avez signé le document et que vous êtes disponible, c'est le moment.\n\nMême si je suis violemment en désaccord à propos de Gnomeregan, particulièrement avec ce fou de maître-artisan Overspark, le Voeu de secret dépasse tout le reste ! Vous devez consentir à emprunter un chemin que l'on ne peut suivre que dans un seul sens et rester sur ce chemin toute votre vie.",
+   "completion": "Bienvenue à bord, <nom> ! Vous aurez bientôt accès aux schémas de l'ingénierie la plus avancée de tout Azeroth.\n\nPuisque vous avez décidé de poursuivre dans cette voie, il est temps d'examiner votre technique de travail d'Ingénierie Gnome. Ensuite, nous vous aiderons à maximiser vos talents !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7406,
+     "name": "Oglethorpe Obnoticus"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7406,
+     "name": "Oglethorpe Obnoticus"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3643": {
+   "id": 3643,
+   "name": "Montrez votre travail",
+   "objectives": "Apporter 6 Tubes de mithril, 1 Lunette de précision et 2 Cibles avancées à Oglethorpe Obnoticus à Baie-du-Butin.",
+   "description": "En tant que votre mentor, je veux avoir des exemplaires de votre travail. Vous êtes <compétent/compétente> en tant qu'ingénieur, je ne le remets pas en question, <nom>. Cependant, je souhaite analyser votre travail pour savoir comment introduire les techniques gnomes dans vos travaux futurs. J'ai besoin des objets suivants : six tubes de mithril, une lunette de précision et deux cibles avancées.\n\nSoumettez-moi ces objets et je vous remettrai votre propre Carte de membre des ingénieurs gnomes. Elle vous sera demandée pour aborder tous les entraîneurs des ingénieurs gnomes !",
+   "progress": "Une fois que j'aurai reçu ce que vous devez fabriquer pour ma revue, je vous remettrai une véritable Carte de membre des Ingénieurs gnomes ! Tant que la carte sera valable, vous aurez un accès illimité à n'importe laquelle des formations des Entraîneurs des Ingénieurs gnomes partout dans le monde.",
+   "completion": "Voici votre première Carte de membre des ingénieurs gnomes !\n\nLa cotisation est payable d’avance, pour quatorze jours. Toutes les cartes expirent après deux semaines d'activité. Lorsqu'elle expire, donnez le montant des cotisations versées à n'importe quel Maître des Ingénieurs gnome afin d'obtenir une nouvelle carte. Sans carte, votre adhésion sera temporairement caduque et vous ne pourrez pas accéder à de nouveaux schémas.\n\nCependant, cela n'affecte en rien les connaissances déjà acquises. Lorsqu'on est Ingénieur gnome, c'est pour la vie.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7406,
+     "name": "Oglethorpe Obnoticus"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7406,
+     "name": "Oglethorpe Obnoticus"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "compétent/compétente",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3644": {
+   "id": 3644,
+   "name": "Le renouvellement de la Carte de membre",
+   "objectives": null,
+   "description": "Pour renouveler votre carte de membre, vous devez vous acquitter du prix de renouvellement qui est de deux pièces d'or.",
+   "progress": "Pour renouveler votre carte de membre, vous devez vous acquitter du prix de renouvellement qui est de deux pièces d'or.",
+   "completion": "Puisque vous pratiquez l'Ingénierie des gobelins depuis un certain temps, je peux renouveler votre Carte de membre expirée contre un paiement de deux pièces d'or. Une fois ces frais de renouvellement acquittés, on vous remettra une nouvelle Carte de membre. Cela vous permettra d'obtenir des schémas d'Ingénierie des gobelins chez les Entraîneurs concernés.\n\nLe délai de validité de cette carte sera de deux semaines d'activité, à l'issue desquelles les frais d'adhésion devront à nouveau être payés. Si vous voulez accéder aux schémas, vous devrez apporter cette somme, mais pas les arriérés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8126,
+     "name": "Nixx Sprocketspring"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8126,
+     "name": "Nixx Sprocketspring"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "3645": {
+   "id": 3645,
+   "name": "Le renouvellement de la Carte de membre",
+   "objectives": null,
+   "description": "Pour renouveler votre carte de membre, vous devez vous acquitter du prix de renouvellement qui est de deux pièces d'or.",
+   "progress": "Pour renouveler votre carte de membre, vous devez vous acquitter du prix de renouvellement qui est de deux pièces d'or.",
+   "completion": "Puisque vous pratiquez l'Ingénierie des gnomes depuis un certain temps, je peux renouveler votre Carte de membre expirée contre un paiement de deux pièces d'or. Une fois ces frais de renouvellement acquittés, on vous remettra une nouvelle Carte de membre. Cela vous permettra d'obtenir des schémas d'Ingénierie des gnomes chez les Entraîneurs concernés.\n\nLa validité de cette carte est de deux semaines, à l'issue desquelles vos frais d'adhésion devront à nouveau être payés. Si vous voulez accéder aux schémas, vous devrez apporter cette somme, mais pas les arriérés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7406,
+     "name": "Oglethorpe Obnoticus"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7406,
+     "name": "Oglethorpe Obnoticus"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "3646": {
+   "id": 3646,
+   "name": "Le renouvellement de la Carte de membre",
+   "objectives": null,
+   "description": "Pour renouveler votre carte de membre, vous devez vous acquitter du prix de renouvellement qui est de deux pièces d'or.[\n][\n]",
+   "progress": "Pour renouveler votre carte de membre, vous devez vous acquitter du prix de renouvellement qui est de deux pièces d'or.",
+   "completion": "Puisque vous pratiquez l'Ingénierie des gobelins depuis un certain temps, je peux renouveler votre Carte de membre expirée contre un paiement de deux pièces d'or. Une fois ces frais de renouvellement acquittés, on vous remettra une nouvelle Carte de membre. Cela vous permettra d'obtenir des schémas d'Ingénierie des gobelins chez les Entraîneurs concernés.\n\nLe délai de validité de cette carte sera de deux semaines d'activité, à l'issue desquelles les frais d'adhésion devront à nouveau être payés. Si vous voulez accéder aux schémas, vous devrez apporter cette somme, mais pas les arriérés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8738,
+     "name": "Vazario Linkgrease"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8738,
+     "name": "Vazario Linkgrease"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "3647": {
+   "id": 3647,
+   "name": "Le renouvellement de la Carte de membre",
+   "objectives": null,
+   "description": "Pour renouveler votre carte de membre, vous devez vous acquitter du prix de renouvellement qui est de deux pièces d'or.",
+   "progress": "Pour renouveler votre carte de membre, vous devez vous acquitter du prix de renouvellement qui est de deux pièces d'or.",
+   "completion": "Puisque vous pratiquez l'Ingénierie des gnomes depuis un certain temps, je peux renouveler votre Carte de membre expirée contre un paiement de deux pièces d'or. Une fois ces frais de renouvellement acquittés, on vous remettra une nouvelle Carte de membre. Cela vous permettra d'obtenir des schémas d'Ingénierie des gnomes chez les Entraîneurs concernés.\n\nLa validité de cette carte est de deux semaines, à l'issue desquelles vos frais d'adhésion devront à nouveau être payés. Si vous voulez accéder aux schémas, vous devrez apporter cette somme, mais pas les arriérés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7944,
+     "name": "Maître-artisan Overspark"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7944,
+     "name": "Maître-artisan Overspark"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "4181": {
+   "id": 4181,
+   "name": "Ingénierie des gobelins",
+   "objectives": "Apporter le Manuel d'ingénierie à Nixx Sprocketspring à Gadgetzan si vous souhaitez en apprendre davantage sur l'ingénierie gobeline.",
+   "description": "La meilleure ingénierie est représentée par deux disciplines : celle des gnomes et celle des gobelins. Je ne mentionne l'ingénierie gobeline que par souci d’objectivité. Ces gens-là aiment concevoir des choses qui explosent, en se souciant rarement de ce qui se trouve alentour, et même pas d'eux.\n\nLisez ce manuel, <nom>. Si vous voulez apprendre à vous faire sauter le caisson, alors apportez-le à Nixx Sprocketspring à Gadgetzan. Et n’oubliez pas : l'adhésion à l'une de ces disciplines est irrévocable. Choisir telle discipline aujourd’hui interdit de changer d’avis par la suite. Aussi réfléchissez bien avant d'accomplir cette tâche.",
+   "progress": "Je peux sentir les recrues potentielles comme je le fais d’une poudre explosive de première qualité : à des kilomètres ! Êtes-vous venu pour étudier les arcanes de l'explosion ?",
+   "completion": "Bien <nom>, vous avez été avisé de choisir mon enseignement ! N'importe quel balourd peut devenir expert en ingénierie : les gnomes et leurs maisons irradiées de Gnomeregan en sont la preuve. Mais il faut un esprit fort et une main stable (accent sur STABLE) pour maîtriser la discipline d'ingénierie des gobelins.\n\nOuvrez vos oreilles, <nom>, et vous pourrez apprendre beaucoup.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5518,
+     "name": "Lilliam Sparkspindle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8126,
+     "name": "Nixx Sprocketspring"
+    }
+   ],
+   "zone_id": -201,
+   "level": 47,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "schema": 1,
+ "zone": "raids/ruins-of-ahnqiraj",
+ "zone_id": 3429,
+ "zone_name": "Ruines d'Ahn'Qiraj",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 1,
+  "complete": 1,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "8791": {
+   "id": 8791,
+   "name": "La chute d'Ossirian",
+   "objectives": "Remettez la Tête d’Ossirian l’Intouché au commandant Mar’alith, au Fort cénarien en Silithus.",
+   "description": "Une terrible menace est enfin neutralisée. Ossirian le cruel a été vaincu.\n\nLes habitants de Kalimdor seront soulagés lorsqu’ils auront connaissance de cette victoire. Prenez la tête d’Ossirian et présentez-la au commandant Mar’alith du Fort cénarien.",
+   "progress": "Ah, <nom>, vous voici de retour ! Et en un seul morceau, qui est plus est. Quelles nouvelles d’Ahn’Qiraj ?",
+   "completion": "Cet exploit mérite les plus grands éloges. Je vous offre un objet magique de votre choix, <nom>. Vous avez rendu un grand service aux peuples de Kalimdor.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 21220,
+     "name": "Head of Ossirian the Unscarred"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15181,
+     "name": "Commandant Mar'alith"
+    }
+   ],
+   "zone_id": 3429,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

@@ -1,0 +1,4143 @@
+{
+ "schema": 1,
+ "zone": "kalimdor/desolace",
+ "zone_id": 405,
+ "zone_name": "Désolace",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 80,
+  "complete": 56,
+  "incomplete": 24,
+  "unavailable": 0,
+  "missing_description": 24,
+  "missing_giver": 12,
+  "new_in_forever": 0,
+  "gendered": 5
+ },
+ "quests": {
+  "261": {
+   "id": 261,
+   "name": "Sur le chemin écarlate",
+   "objectives": "Détruire 30 Ravageurs morts-vivants, puis retourner voir Frère Anton, à la Combe de Nijel.",
+   "description": "Je serai franc. Nous sommes en guerre contre le Fléau. C'est un mal qui corrompt notre peuple et pollue nos terres. Il faut l'arrêter avant qu'il ne nous prenne de vitesse et n'entraîne notre monde dans l'obscurité. Nous, la Croisade écarlate, avons juré de combattre le Fléau de toutes nos forces et de toute notre âme.\n\nSi vous êtes de notre bord, faites montre de votre courage et prouvez-nous votre allégeance en détruisant les Ravageurs morts-vivants de Désolace, dans la Vallée des ossements, plus au sud.\n\nFaites cela et la Croisade vous portera en haute estime.",
+   "progress": "Le Fléau gagne en puissance au fil des jours. Si vous souhaitez vraiment stopper sa progression, montrez-moi.",
+   "completion": "Vous avez fait montre d'une grande résolution, et la Croisade écarlate vous applaudit.\n\nSi le juste massacre ne vous intimide pas, alors peut-être que votre destin est de devenir des nôtres…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1182,
+     "name": "Frère Anton"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1182,
+     "name": "Frère Anton"
+    }
+   ],
+   "zone_id": 405,
+   "level": 39,
+   "reqlevel": 34,
+   "side": "alliance",
+   "xp": 3000,
+   "money": 4500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1052": {
+   "id": 1052,
+   "name": "Sur le chemin écarlate",
+   "objectives": "Apporter la Lettre de recommandation du Frère Anton à Raleigh le Dévot à Southshore.",
+   "description": "Nous, les membres de la Croisade écarlate, nous revendiquons des forteresses de Hearthglen aux Clairières de Tirisfal. Nous sommes assez fiers des bastions de nettoyage que nous avons installés partout dans Lordaeron.\n\nVous avez fait vos preuves contre les morts-vivants de Désolace. Mais la vraie menace de cette peste se trouve à Lordaeron.\n\nFaites route jusqu'à la ville de Southshore, dans les Royaumes de l'est. Cherchez-y un croisé nommé Raleigh le Dévot. Remettez-lui cette lettre de recommandation portant mon cachet et il vous donnera une place d'honneur dans notre monastère.",
+   "progress": "Qui va là ? Que voulez-vous de moi ?",
+   "completion": "Le Frère Anton répand toujours la bonne parole de la Croisade écarlate ? Bon sang. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1182,
+     "name": "Frère Anton"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3980,
+     "name": "Raleigh le Dévot"
+    }
+   ],
+   "zone_id": 405,
+   "level": 40,
+   "reqlevel": 34,
+   "side": "alliance",
+   "xp": 1550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1361": {
+   "id": 1361,
+   "name": "Regthar Deathgate",
+   "objectives": "Discuter avec Regthar Deathgate.",
+   "description": "Un guerrier de la Horde, Regthar Deathgate, recrute des agents pour une mission dans les terres de Désolace. Allez lui parler si vous souhaitez vous porter volontaire. Il se trouve dans les Tarides, dans une série de fortins situés à l'ouest de la Croisée.\n\nEt aiguisez vos armes. Désolace est ravagée par la guerre.",
+   "progress": null,
+   "completion": "Oui, je recrute ! Cette mission nous conduira dans Désolace, contre les centaures. Je serai bref afin que vous puissiez commencer le plus tôt possible.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2229,
+     "name": "Krusk"
+    },
+    {
+     "type": "npc",
+     "id": 3230,
+     "name": "Nazgrel"
+    },
+    {
+     "type": "npc",
+     "id": 4485,
+     "name": "Belgrom Rockmaul"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3389,
+     "name": "Regthar Deathgate"
+    }
+   ],
+   "zone_id": 405,
+   "level": 32,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 640,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1362": {
+   "id": 1362,
+   "name": "Les Kolkar de Désolace",
+   "objectives": "Discuter avec Felgur Twocuts au poste de Rôdeur-fantôme en Désolace.",
+   "description": "Les centaures Kolkar vivent en Désolace et leurs forces sont disséminées dans toutes les Tarides. Il est de notoriété publique que des agents de la Horde s'occupent d'eux.\n\nMais tant que les centaures seront puissants en Désolace, ils resteront une menace. Il est temps de nous en débarrasser.\n\nParlez à Felgur Twocuts au Poste de Rôdeur-fantôme en Désolace. Il y a été envoyé pour réunir des informations sur les centaures. Il saura comment faire au mieux avec les Kolkar de Désolace.",
+   "progress": null,
+   "completion": "Vous venez sur l'ordre de Regthar ? Alors vous êtes ici pour vous occuper des centaures. Bien.\n\nJ'espère que vous êtes bien reposé. Je ne sais pas comment notre campagne contre les centaures va se terminer, mais je sais que la lutte va être longue.\n\nPrenez un siège et écoutez-moi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3389,
+     "name": "Regthar Deathgate"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5395,
+     "name": "Felgur Twocuts"
+    }
+   ],
+   "zone_id": 405,
+   "level": 32,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 640,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1365": {
+   "id": 1365,
+   "name": "Khan Dez'hepah",
+   "objectives": "Rapporter la Tête du khan Dez'hepah à Felgur Twocuts en Désolace.",
+   "description": "Les Kolkar ne sont pas les seuls centaures de Désolace. De nombreux clans parcourent ces plaines sèches, combattant et mourant. Il est heureux qu’ils se battent entre eux, car ils sont forts et brutaux. Si les centaures s'unissaient contre nous, ils seraient un adversaire redoutable.\n\nNous devons nous occuper d'eux avant qu'ils ne s'allient.\n\nVotre première mission est de désorganiser le clan Kolkar. Vous y parviendrez en tuant son chef, le khan Dez'hepah.\n\nLe village des Kolkar est au nord-est. Allez et que les dieux soient avec vous !",
+   "progress": "<nom>, avez-vous défait le khan Dez'hepah ?",
+   "completion": "Bien joué ! Cette frappe rapide contre les Kolkar est une démonstration impressionnante de force, et la force est ce que les centaures comprennent le mieux.\n\nLa mort du chef des Kolkar ne perturbera pas seulement ce clan, mais arrêtera aussi les autres.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5395,
+     "name": "Felgur Twocuts"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5395,
+     "name": "Felgur Twocuts"
+    }
+   ],
+   "zone_id": 405,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 3450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1366": {
+   "id": 1366,
+   "name": "La prime aux centaures",
+   "objectives": "Apporter 15 Oreilles de centaure à Felgur Twocuts, en Désolace.",
+   "description": "Maintenant que vous avez terrifié les clans centaures, il est temps de les saigner. Lorsque vous voyagerez à travers Désolace, chassez-les. Je me moque de savoir à quel clan ils appartiennent. Vous devez juste collectionner les oreilles. Je veux un monceau d'oreilles !\n\nEn diminuant leur nombre vous porterez un coup à leur résolution et sonnerez le glas de leurs envies d'expansion.\n\nBonne chasse, <nom>.",
+   "progress": "Comment se porte votre collection d'oreilles, <nom> ? Est-elle déjà impressionnante ?",
+   "completion": "Maintenant les centaures connaissent votre nom. Je suis sûr qu'ils le connaissent et qu’ils le craignent. Et comme ils vous connaissent, ils savent sous quelle bannière vous vous battez.\n\nLa bannière de la Horde !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5395,
+     "name": "Felgur Twocuts"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5395,
+     "name": "Felgur Twocuts"
+    }
+   ],
+   "zone_id": 405,
+   "level": 31,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 3750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1367": {
+   "id": 1367,
+   "name": "L'alliance avec les Magram",
+   "objectives": "Faire en sorte que les Magram soient Amicaux envers vous, puis aller parler à Warug.",
+   "description": "Pour battre les centaures, nous allons utiliser leur haine contre eux. Nous allons nous allier à l'un des clans, et par ce biais nous apprendrons comment battre les autres clans.\n\nSi vous décidez de vous allier aux Magram, alors tuez leurs ennemis, les Gelkis. Vous gagnerez ainsi le respect des Magram. Lorsque cela sera fait, alors allez rencontrer Warug, le porte-parole des Magram, dans les faubourgs du village des Magram au sud-est de Désolace.",
+   "progress": "Partez ! Les Magrams ne parlent pas aux faibles. Nous les tuons !\n\nSi tu veux me parler, montre-moi que tu es fort. Revenez après avoir tué de nombreux Gelkis.",
+   "completion": "Les Gelkis pleurent lorsqu'ils entendent votre nom, <nom>. Ils vous craignent et vous haïssent. Ils vous haïssent autant qu'ils haïssent les Magram !\n\nPeut-être êtes-vous aussi fort qu’un Magram ? Nous verrons…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5412,
+     "name": "Gurda Wildmane"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5398,
+     "name": "Warug"
+    }
+   ],
+   "zone_id": 405,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1368": {
+   "id": 1368,
+   "name": "L'alliance avec les Gelkis",
+   "objectives": "Faire en sorte que les Gelkis deviennent Amicaux envers vous, puis aller parler à Uthek la Sage.",
+   "description": "Pour battre les centaures, nous allons utiliser contre eux leur haine fratricide. Nous allons nous allier à l'un des clans, et par ce biais, nous apprendrons comment vaincre les autres clans.\n\nSi vous décidez de vous allier aux Gelkis, alors tuez leurs pires ennemis, les Magram. Après avoir gagné le respect des Gelkis, allez rencontrer le chaman Uthek la Sage dans les environs du village des Gelkis, au sud-ouest de Désolace.",
+   "progress": "Vos deux pieds foulent la terre de Gelkis. Vous n'êtes pas les bienvenus ici !\n\nProuvez que vous recherchez l'amitié des Gelkis. Tuez le centaure de Magram. Revenez quand le sol est mouillé par le sang de Magram.",
+   "completion": "La terre me parle. Et elle dit que vous avez tué de nombreux Magram. Cela est bien !\n\nSi vous êtes proche des Gelkis, alors écoutez. J'ai d'autres choses à vous faire faire.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5412,
+     "name": "Gurda Wildmane"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5397,
+     "name": "Uthek la Sage"
+    }
+   ],
+   "zone_id": 405,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1369": {
+   "id": 1369,
+   "name": "Larmes brisées",
+   "objectives": "Maintenir votre réputation auprès des Magram et ramener 3 Larmes brisées à Warug au village des Magram.",
+   "description": "Les Gelkis pensent que Theradras, la mère des centaures, nous protège. Ils sont idiots. Personne ne protège les centaures. Les centaures n'ont pas besoin de protection ! Les Magram n'ont pas besoin de protection ! Nous sommes les plus forts !\n\nMontrez aux Gelkis qu'ils sont stupides. Allez dans la caverne de leur village. Ils y possèdent des cristaux, les Larmes de Theradras. Détruisez ces cristaux et rapportez-moi les morceaux.",
+   "progress": "Si vous n'êtes pas notre ennemi alors vous ferez ce que je dis !",
+   "completion": "Vous avez les larmes ! Maintenant les Gelkis vont savoir que Theradras ne les aidera pas. Elle ne pleurera pas lorsque nous allons les écraser ! Les Magram régneront !\n\nVous êtes intelligent de nous aider, <nom>. Nous sommes les plus forts.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5398,
+     "name": "Warug"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5398,
+     "name": "Warug"
+    }
+   ],
+   "zone_id": 405,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 2650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1370": {
+   "id": 1370,
+   "name": "Voleur de viande",
+   "objectives": "Rapporter 6 Sacs de viande grossièrement séchée à Uthek la Sage au village des Gelkis.",
+   "description": "Lorsque nous ne sommes pas en guerre, nous chassons pour trouver de la viande. La viande nous donne la force et des ventres remplis se battent mieux que des ventres vides.\n\nC'est la même chose chez les Magram. Ils gardent la viande en trop afin de se battre plus longtemps entre leurs chasses. Si vous attaquez leur village par l'est et prenez leurs réserves de viande, leur force va diminuer.",
+   "progress": "Revenez après avoir prouvé votre valeur aux Gelkis !",
+   "completion": "Bien ! Je peux entendre geindre les ventres des Magram depuis leur village, loin d'ici !\n\nJe vais donner cette viande aux Gelkis. Et nous allons nous battre pendant de longs jours sans repos.\n\nCe que vous avez fait est bon pour les Gelkis, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5397,
+     "name": "Uthek la Sage"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5397,
+     "name": "Uthek la Sage"
+    }
+   ],
+   "zone_id": 405,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1371": {
+   "id": 1371,
+   "name": "Un Bidule pour Warug",
+   "objectives": "Maintenir votre réputation auprès des Magram et rapporter un Leurre perfectionné à Warug au village des Magram en Désolace.",
+   "description": "Il y a longtemps, un petit gnome est venu en Désolace. Il avait des chevaux et une carriole qui contenait des choses étranges. De drôles de choses. Des choses qui brûlaient de différentes couleurs. Des choses qui bougeaient, mais n'étaient pas vivantes. J'ai tué le petit gnome mais avant cela... Il m'a fait rire.\n\nJ'ai gardé ma chose préférée de sa carriole. C'était un humain en bois qui me faisait signe jusqu'à ce que je le tape et que je le casse.\n\nJ'en veux un nouveau !",
+   "progress": "Si vous n'êtes pas notre ennemi alors vous ferez ce que je dis !",
+   "completion": "Oui, c'est ça que j'avais ! Je vais le faire bouger. Ça me fait tellement rire !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5398,
+     "name": "Warug"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5398,
+     "name": "Warug"
+    }
+   ],
+   "zone_id": 405,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 2050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1373": {
+   "id": 1373,
+   "name": "Ongeku",
+   "objectives": "Maintenir votre réputation auprès des Gelkis et rapporter un Eclat de draenéthyste à Uthek la Sage au village des Gelkis, en Désolace.",
+   "description": "Vous avez encore à prouver des choses et votre prochaine mission vous emmènera loin, car maintenant les Gelkis vont combattre les Magram sans vous.\n\nLa terre chuchote bien des secrets à ceux qui savent écouter. Un des secrets que j'ai appris est qu'il existe un cristal rouge appelé draenéthyste, nouvellement arrivé sur notre terre. Il vient d'un endroit où les montagnes volent et où les démons règnent.\n\nApportez-moi un éclat de draenéthyste et ma magie grandira ! Le cristal se cache dans un endroit appelé le marais des Chagrins, et appartient à un Perdu, Ongeku.",
+   "progress": "Montrez-moi que vous êtes un ami des Gelkis, <nom>.",
+   "completion": "Oui, c'est le cristal dont la terre parlait ! Je peux sentir une puissante magie en lui ! Je vais utiliser cette magie contre les ennemis des Gelkis.\n\nVous avez encore accompli une mission pour nous, <nom>. Peut-être que bientôt nous vous appellerons ami.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5397,
+     "name": "Uthek la Sage"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5397,
+     "name": "Uthek la Sage"
+    }
+   ],
+   "zone_id": 405,
+   "level": 37,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 2850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1374": {
+   "id": 1374,
+   "name": "Khan Jehn",
+   "objectives": "Rapporter la Tête du khan Jehn à Uthek la Sage au village des Gelkis, en Désolace.",
+   "description": "La terre me parle et me dit que les Magram sont de plus en plus faibles. Il est maintenant temps de tuer leur khan !\n\nRapportez-moi la tête de Jehn, le khan des Magram !",
+   "progress": "Montrez-moi que vous êtes un ami des Gelkis, <nom>.",
+   "completion": "Le khan Jehn était fort, mais stupide. Il pensait que sa force était grande. Il n'a pas vu que la magie de la terre était plus forte. Sans leur chef, les centaures Magram vont maintenant tomber, et les Gelkis vont régner !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5397,
+     "name": "Uthek la Sage"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5397,
+     "name": "Uthek la Sage"
+    }
+   ],
+   "zone_id": 405,
+   "level": 37,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 2850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1375": {
+   "id": 1375,
+   "name": "Khan Shaka",
+   "objectives": "Maintenir votre réputation parmi les Magram et rapporter la Tête du khan Shaka à Warug au village des Magram en Désolace.",
+   "description": "Vous avez aidé les Magram et je vous apprécie. Maintenant tuez le khan des Gelkis ! Il s'appelle Shaka et je veux sa tête ! Je veux la regarder et me moquer d'elle !",
+   "progress": "Servez les Magram et je vous aiderai.",
+   "completion": "Le khan Shaka est mort ! Je vais placer sa tête sur une pique et la garder avec moi afin que Shaka puisse voir la puissance des Magram !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5398,
+     "name": "Warug"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5398,
+     "name": "Warug"
+    }
+   ],
+   "zone_id": 405,
+   "level": 37,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 2850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1380": {
+   "id": 1380,
+   "name": "Khan Hratha",
+   "objectives": "Maintenir votre réputation auprès des Gelkis, et apporter le Fragment de clé des Maraudine à Uthek la Sage au village des Gelkis.",
+   "description": "Vous nous avez aidés contre les Magram, <nom>. À présent, aidez-nous à battre le clan des Maraudine ! Tuez leur chef, le khan Hratha !\n\nPour le combattre, soufflez dans la corne de guerre maraudine. Elle se trouve au sommet d'un grand promontoire, dans la Vallée des lances.\n\nMais pour souffler dans la corne, vous devez d’abord obtenir une embouchure de corne de guerre. Elles sont rares, et portées uniquement par des Maraudine de confiance.\n\nQuand vous aurez soufflé dans la corne, des centaures arriveront. Tuez-en jusqu'à ce que Hratha apparaisse.\n\nLe khan Hratha porte un fragment de... clé. Apportez-le-moi...",
+   "progress": "Le khan Hratha est-il mort ? Avez-vous le fragment de clé ?",
+   "completion": "Il est mort ! Le khan Hratha est mort ! Et maintenant, le clan Maraudine va tomber ! Quand les Gelkis seront maîtres de cette terre, <nom>, nous nous souviendrons de vous. Et les esprits de la terre chanteront votre nom à jamais.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5397,
+     "name": "Uthek la Sage"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5397,
+     "name": "Uthek la Sage"
+    }
+   ],
+   "zone_id": 405,
+   "level": 42,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 4300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1381": {
+   "id": 1381,
+   "name": "Khan Hratha",
+   "objectives": "Maintenir votre réputation auprès des Magram, et apporter le Fragment de clé des Maraudine à Warug au village des Magram en Désolace.",
+   "description": "Le khan des Gelkis est mort, et à présent le clan Maraudine va tomber ! Tuez le khan des Maraudine, Hratha.\n\nPour le combattre, soufflez dans la Corne sur le grand promontoire de la Vallée des lances. Mais pour y souffler, vous aurez besoin d'une Embouchure. Pour l'obtenir, tuez des centaures Maraudine. Tuez jusqu'à ce que vous la trouviez. Puis soufflez dans la corne.\n\nAgissez ainsi et les centaures Maraudine viendront à la tour. Tuez-en jusqu'à ce que le khan Hratha apparaisse. Il détient un fragment de clé. Apportez-moi ce fragment...",
+   "progress": "Faites ce que je demande. Prouvez-moi que vous êtes l'allié des Magram !",
+   "completion": "Le khan Hratha est mort ! À présent, les Magram sont les plus forts des centaures ! Nous écraserons les autres et règnerons sur Désolace !\n\nNous nous souviendrons de vous, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5398,
+     "name": "Warug"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5398,
+     "name": "Warug"
+    }
+   ],
+   "zone_id": 405,
+   "level": 42,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 4300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1382": {
+   "id": 1382,
+   "name": "Une étrange alliance",
+   "objectives": "Obtenir que les Gelkis se montrent Amicaux, puis parler à Uthek la Sage.",
+   "description": "Nous avons de la chance que les clans de centaures se battent entre eux, car s'ils unissaient leurs forces, rien ne pourrait les arrêter. Oui, nous sommes chanceux, et nous devrions mettre à profit cet avantage.\n\nL'un des clans de centaures, le clan Gelkis, mène une guerre acharnée au clan Magram. Si nous attaquons ce second clan, alors nous pourrions peut-être conclure une alliance avec les Gelkis.\n\nAllez parler à Uthek la Sage, aux approches des campements gelkis, au sud-ouest de Désolace. Grâce à elle, vous pourrez peut-être conclure une alliance avec le clan Gelkis.",
+   "progress": "Partez ! Les Gelkis ne veulent pas de vous ici. Partez maintenant !\n\nRevenez après avoir tué de nombreux Magram, et je vous parlerai.",
+   "completion": "On murmure votre nom parmi les Gelkis. Vos mains sont trempées du sang des Magram. C'est bien.\n\nPeut-être est-ce bien aussi que nous parlions. Dites-moi ce que vous pouvez faire pour les Gelkis, et ce que les Gelkis peuvent faire pour vous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5396,
+     "name": "Capitaine Pentigast"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5397,
+     "name": "Uthek la Sage"
+    }
+   ],
+   "zone_id": 405,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1384": {
+   "id": 1384,
+   "name": "Raid sur les Kolkar",
+   "objectives": "Maintenir votre réputation auprès des Gelkis, et apporter 10 Charmes bruts à Uthek la Sage dans le village des Gelkis, en Désolace.",
+   "description": "Les Kolkar estiment que leur magie est puissante. Ils ne connaissent rien à la magie ! Ils ne reconnaîtraient même pas la magie si elle les frappait !\n\nVous allez leur montrer que leur magie est faible. Allez chez les centaures Kolkar au nord-est, et tuez-les. Détruisez leurs camps. Apportez-moi leurs charmes, que je les jette au feu et que je rie !",
+   "progress": "Avez-vous les charmes ? Avez-vous montré leur faiblesse aux Kolkar ?",
+   "completion": "Vous rendez un grand service aux Gelkis. Les Kolkar sont faibles et vont mourir. Leur magie pathétique ne les sauvera pas. Vous le leur avez montré, et leur peur va les affaiblir encore plus !\n\nEt ici, celui qui est faible meurt rapidement.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5397,
+     "name": "Uthek la Sage"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5397,
+     "name": "Uthek la Sage"
+    }
+   ],
+   "zone_id": 405,
+   "level": 32,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1385": {
+   "id": 1385,
+   "name": "Une violente politique",
+   "objectives": "Faire en sorte que les Magram soient Amicaux à votre égard, puis aller parler à Warug.",
+   "description": "Désolace est une terre en guerre. Les centaures se font la guerre les uns les autres. Nous pensons que les vainqueurs vont surgir et menacer nos forteresses, ce que nous ne pouvons permettre.\n\nNous devons apprendre comment battre les centaures, et pour cela nous devons nous allier à l'un des clans. Les centaures Magram sont en guerre contre les Gelkis. Si vous combattez les centaures Gelkis, alors les Magram pourraient envisager une alliance.\n\nGagnez les faveurs des Magram, puis parlez à Warug, au village des Magram, au sud-est de Désolace.",
+   "progress": "Partez maintenant, ou le Magram vous écrasera ! Pour être notre ami, tu dois tuer Gelkis.",
+   "completion": "Beaucoup de Gelkis sont tombés devant vous. J'aime ça. Peut-être pouvez-vous faire plus de choses que j'aime. Peut-être que vous et les centaures Magram peuvent être amis.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5396,
+     "name": "Capitaine Pentigast"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5398,
+     "name": "Warug"
+    }
+   ],
+   "zone_id": 405,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1386": {
+   "id": 1386,
+   "name": "Assaut sur les Kolkar",
+   "objectives": "Maintenir votre réputation auprès des Magram, tuer 12 Centaures kolkar, 12 Eclaireurs kolkar, 6 Marteleurs kolkar, puis retourner voir Warug, dans le village des Magram, en Désolace.",
+   "description": "Les centaures Kolkar pensent qu'ils sont forts, mais nous rions de leur force ! Nous rions d'eux et nous les tuons ! Vous les tuez aussi. Montrez-moi que vous pouvez tuer des centaures Kolkar comme nous les tuons. Allez vers le nord et massacrez-les tous !",
+   "progress": "Avez-vous peur des Kolkar ? Pourquoi ne les tuez-vous pas ? Vous avez peut-être oublié comment tuer. Dépêchez-vous de tuer les Kolkars avant qu'ils ne meurent !",
+   "completion": "Les centaures Kolkar ont peur de vous maintenant. J'espère que vous avez ri en les tuant. C'est meilleur de rire en tuant, car l'ennemi voit qu'il est faible.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5398,
+     "name": "Warug"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5398,
+     "name": "Warug"
+    }
+   ],
+   "zone_id": 405,
+   "level": 32,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1387": {
+   "id": 1387,
+   "name": "La prime aux centaures",
+   "objectives": "Apporter 15 Oreilles de centaures au caporal Melkins, à la combe de Nijel, en Désolace.",
+   "description": "Le peuple des centaures est divisé en nombreux clans. Chaque clan a son chef et ses propres buts, mais ils ont tous une « qualité » en commun : la cruauté.\n\nSi nous voulons avoir une chance de construire la paix, alors les centaures doivent être éradiqués. C'est exactement la tâche que je vous confie.\n\nPendant que vous serez en Désolace, chassez des centaures et prenez leurs oreilles. Apportez-moi de nombreuses, très nombreuses oreilles.\n\nŒuvrez au service de l'Alliance, <nom>, et nous nous rapprocherons de la fin de la guerre.",
+   "progress": "Avez-vous un rapport à me faire, <nom> ?",
+   "completion": "Ah, les oreilles ! Beau travail !\n\nLa qualité de vos services à l'Alliance ne peut être mise en cause, <nom>. Le sang que vous avez fait couler en Désolace épargnera, il est certain, un nombre incalculable d’autres vies.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5752,
+     "name": "Caporal Melkins"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5752,
+     "name": "Caporal Melkins"
+    }
+   ],
+   "zone_id": 405,
+   "level": 31,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1437": {
+   "id": 1437,
+   "name": "La recherche de Vahlarriel",
+   "objectives": "Rechercher le chariot de Tyranis et de Dalinda Malem en Désolace.",
+   "description": "Je me nomme Vahlarriel, <nom>. Je suis ici pour retrouver deux nobles disparus, issus d'une famille marchande de Darnassus : la famille Malem. Le père craint le pire, et je dois tout tenter pour retrouver ses enfants disparus. J'ai commencé mes recherches pour retrouver Tyranis ou Dalinda, mais j'ai bon espoir que je ne serai pas ici longtemps.\n\nAux dernières nouvelles, ils passaient par les Serres-Rocheuses il y a quelques semaines.\n\nSi vous trouvez leur chariot, s'il vous plaît, veuillez revenir ici pour m'en informer.",
+   "progress": null,
+   "completion": "La fouille des restes du chariot révèle qu'il a été attaqué par des armes conventionnelles et des sorts. L’attaque a été rapide et unilatérale. Il n'y a ni traces de sang ni cadavres.\n\nQuel qu'ait été l'attaquant, il a été rapide et efficace.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5642,
+     "name": "Vahlarriel Demonslayer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 50961,
+     "name": "Malem Chest"
+    }
+   ],
+   "zone_id": 405,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 1950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1438": {
+   "id": 1438,
+   "name": "La recherche de Vahlarriel",
+   "objectives": "Trouver Dalinda Malem en Désolace.",
+   "description": "Trouvez Dalinda et Tyranis si vous le pouvez, et revenez m'informer de vos progrès. Commencez vos recherches dans cette forteresse. Je vais immédiatement contacter mes supérieurs à Darnassus et les informer de la situation.\n\n<nom>, il y a quelque chose que je souhaite vous dire. Mes supérieurs ont montré quelque inquiétude à propos de Tyranis Malem et de ses raisons de venir ici. Le plus important pour eux est que Dalinda Malem soit retrouvée et ramenée en bonne santé. Nous devons... jauger Tyranis avant qu'il ne rentre chez lui.",
+   "progress": null,
+   "completion": "Qu'Elune soit remerciée, quelqu'un est enfin venu à mon aide. S'il vous plaît, <classe>, j'ai besoin de vous. Mon frère Tyranis et moi avons été capturés et amenés ici par la Lame ardente. Je pense qu'ils comptent me sacrifier à leurs maîtres démoniaques !\n\nJe savais que venir à Désolace était une erreur, mais Tyranis a commencé depuis peu à se passionner pour tout ce qui concerne les arcanes - même contre la volonté de notre peuple. Il a décidé d'entreprendre ce périple bien qu'il ait entendu parler des démons qui infestent cette région.\n\nJe crains le pire pour lui.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5642,
+     "name": "Vahlarriel Demonslayer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5644,
+     "name": "Dalinda Malem"
+    }
+   ],
+   "zone_id": 405,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1439": {
+   "id": 1439,
+   "name": "À la recherche de Tyranis",
+   "objectives": "Trouver Tyranis Malem en Désolace.",
+   "description": "Nous avons été emmenés ici après le massacre de nos gardes et de nos serviteurs par les orcs. Oh ! Ils leur ont fait des choses si horribles ! J'ai cru qu'ils allaient également nous tuer, sur place, mais ils avaient visiblement d'autres plans.\n\nTyranis a essayé de leur parler. Je pense qu'il voulait les impressionner par sa connaissance des arcanes... Je ne suis pas sûre de savoir pourquoi.\n\nJe vous en prie, je ne peux pas quitter les lieux tant que j'ignore ce qu'il est advenu de mon frère. Retrouvez-le, et venez me dire quel a été son sort.",
+   "progress": "Je crains que Tyranis n'essaie d'apprendre les secrets de la Lame ardente et de rejoindre leurs rangs s'ils y consentent - il a toujours adoré le pouvoir que donne la magie à ceux qu'elle séduit.\n\nJe ne suis pas certain de vouloir retourner parmi les miens avec la nouvelle que l'esprit de Tyranis fraye avec de tels dangers. C'est déjà un délit épouvantable pour ceux de mon espèce de se consacrer à de telles pratiques, mais devenir la chose dont nous essayons de nous protéger, ma foi, c'est criminel.",
+   "completion": "C'est terrible ! Mais je suppose que c'était nécessaire. Si cela n'avait pas été de votre main, alors c’est l'une de mon peuple qui aurait frappé. Je pense que je devrais vous remercier – veuillez me pardonner si cela n'a pas l'air sincère. Mon but n'est pas de vous offenser.\n\nMaintenant que je sais que mon frère a rencontré son destin, il semble que le temps de mon évasion soit venu. Si vous le souhaitez toujours, j'accepte volontiers votre aide pour m’échapper de cet horrible endroit.\n\nLorsque vous serez prêt, nous partirons pour un lieu sûr.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5644,
+     "name": "Dalinda Malem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5644,
+     "name": "Dalinda Malem"
+    }
+   ],
+   "zone_id": 405,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1440": {
+   "id": 1440,
+   "name": "Le retour vers Vahlarriel",
+   "objectives": "Escorter Dalinda Malem depuis la forteresse de Hache-Tonnerre et retourner voir Vahlarriel Demonslayer, en Désolace.",
+   "description": "Ainsi, le temps est venu ? J'apprécie vos efforts, et si la situation ne se résout pas, alors permettez-moi de vous remercier dès à présent pour tout ce que vous avez fait pour moi et ma famille. Si vous êtes <prêt/prête>, rien ne me retient ici. Nous pouvons partir quand vous estimerez le bon moment arrivé.",
+   "progress": null,
+   "completion": "Merci, <nom>. Dalinda est revenue saine et sauve à la Combe de Nijel, et dans une bien meilleure condition que je n'aurais pu l'espérer. Le fait qu'elle y soit parvenue par ses propres moyens est bon signe. J'espère que vous allez bien ?\n\nCela me peine de savoir que Tyranis et Dalinda ne sont pas revenus ensemble, mais c'est à elle qu'incombe l'embarras des décisions de Tyranis. Elle devra vivre avec lorsqu'elle retournera à Darnassus.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5644,
+     "name": "Dalinda Malem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5642,
+     "name": "Vahlarriel Demonslayer"
+    }
+   ],
+   "zone_id": 405,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1454": {
+   "id": 1454,
+   "name": "L'épave de Karnitol",
+   "objectives": "Retrouver le Coffre de Karnitol en Désolace.",
+   "description": "Ma première commande concerne le mage Karnitol, une sorte de noble de Stormwind. Il semblerait que son bateau ait été attaqué par des géants des mers tandis qu'il naviguait au large de la côte, dans le nord-ouest de Désolace. Ses serviteurs ont essayé de ramener sur la rive l'un de ses coffres les plus précieux, mais lorsque les géants ont attaqué en masse, il a préféré abandonner le coffre et se téléporter, avec ses serviteurs, en sécurité.\n\nIl veut que nous retrouvions le coffre et son contenu, et que nous le lui rapportions à Stormwind.",
+   "progress": null,
+   "completion": "Vous remarquez que le coffre ne semble pas avoir subi de dégâts dus à l’eau de mer.\n\nLa deuxième chose que vous notez est que le couvercle du coffre a été forcé et qu'il est ouvert. Quelle que soit la protection magique qui était censée le protéger, elle s'est déclenchée depuis longtemps. Les marques de brûlure sur ses bords en disent long à ce propos.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5638,
+     "name": "Kreldig Ungor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 35251,
+     "name": "Karnitol's Chest"
+    }
+   ],
+   "zone_id": 405,
+   "level": 39,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3000,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1455": {
+   "id": 1455,
+   "name": "L'épave de Karnitol",
+   "objectives": "Retourner voir Kreldig Ungor en Désolace.",
+   "description": "Vous prenez un moment pour comprendre comment le coffre a été ouvert, et vous remarquez, sur les côtés et le dessus du coffre, de longues et profondes entailles. Elles révèlent que quelque chose d'autre qu'un humain ou qu'un géant s'y est intéressé. Les marques ne semblent être celles d'une épée ou d'une dague.\n\nAprès avoir fouillé le coffre, vous constatez qu'il est complètement vide.\n\nN'ayant plus rien d'autre à faire, vous refermez le coffre et vous préparez à partir. Kredlig va être déçu.",
+   "progress": null,
+   "completion": "Soyez de nouveau le bienvenu à la Combe de Nijel, <nom>. Alors, dites-moi ce que vous avez découvert.\n\nQuoi ? Rien ? Ce n'est pas un coffre vide qui va nous payer, j'en ai bien peur. Dites-m'en plus sur les marques que vous avez vues… ces entailles.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 35251,
+     "name": "Karnitol's Chest"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5638,
+     "name": "Kreldig Ungor"
+    }
+   ],
+   "zone_id": 405,
+   "level": 39,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 1500,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1456": {
+   "id": 1456,
+   "name": "L'épave de Karnitol",
+   "objectives": "Retrouver la Sacoche de Karnitol et la rapporter à Kreldig Ungor en Désolace.",
+   "description": "Intriguant.\n\nBien, il se peut que tout espoir ne soit pas perdu.\n\nLe long de cette même côte, mais plus au nord, près de l'île de Ranazjar, se trouvent des ruines sous-marines datant des elfes de la nuit. Une tribu de nagas, les Ondulame, s'y est établie ! Je pense que c'est ce notre meilleure chance.\n\nSi un groupe de leurs éclaireurs a été envoyé aussi loin au sud, alors cette tribu doit être puissante. Pour retrouver les possessions de Karnitol, je m’attaquerais en priorité aux nagas les plus forts : les chasse-marées et les sorcières des mers.",
+   "progress": "Sans vouloir offenser Nijel, qui qu'il soit, ce camp n'est pas l'endroit le plus confortable pour passer la nuit, si vous voyez ce que je veux dire, <nom>.",
+   "completion": "C'est parfait, <nom> ! Vous avez trouvé les possessions de Karnitol !\n\nCes fichus nagas, toujours à créer des problèmes. Je préférerais passer ma vie à faire la guerre à la Horde plutôt que d'avoir à combattre leur race. Vous avez rendu un grand service aux Récupérateurs.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5638,
+     "name": "Kreldig Ungor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5638,
+     "name": "Kreldig Ungor"
+    }
+   ],
+   "zone_id": 405,
+   "level": 39,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3000,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1457": {
+   "id": 1457,
+   "name": "L'épave de Karnitol",
+   "objectives": "Apporter la Sacoche de Karnitol à Roetten Stonehammer à Ironforge.",
+   "description": "Rapportez les biens de Karnitol à Roetten à Ironforge, et il vous paiera pour ce travail bien accompli.\n\nHa ! Ha ! Si vous ne faites pas attention, il sera tellement satisfait de vous qu'il vous demandera de nous rejoindre à plein temps.\n\nMais à nouveau, bon travail, <nom>.\n\nSoyez <prudent/prudente> sur le chemin du retour, et ne prenez pas tout votre temps ; Karnitol n'est pas le plus patient des hommes, mais il reste très généreux néanmoins.",
+   "progress": "Les affaires sont florissantes, <nom>, et je n'ai pas beaucoup de temps pour les questions. Si vous avez à faire avec Récupérateurs SA, alors parlez. Sinon, adressez-vous à l'un de mes subordonnés. Ils sont suffisamment compétents pour s'occuper des choses ici.",
+   "completion": "Ah ! Les petites affaires de Karnitol en Désolace. Excellent !\n\nAinsi, le coffre a été détruit, mais les objets sont tous là, hein ? Bien, je le laisserai juger de cela. L'un des bons aspects de mon travail, c’est que je peux envoyer les clients balader s'ils ne sont pas satisfaits ! Notre boulot, c’est de retrouver leurs trucs perdus, pas de nettoyer ou vérifier le bon état de ce qu’on leur rend.\n\nBon travail, <nom>. On va maintenant songer à ce que vous soyez payé.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5638,
+     "name": "Kreldig Ungor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5637,
+     "name": "Roetten Stonehammer"
+    }
+   ],
+   "zone_id": 405,
+   "level": 39,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 1500,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "prudent/prudente"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1458": {
+   "id": 1458,
+   "name": "Des réactifs pour les Récupérateurs",
+   "objectives": "Apporter 10 Griffes de Fielfurie et 10 Cornes de Fielfurie à Kreldig Ungor en Désolace.",
+   "description": "L'une de mes tâches ici consiste à collecter des réactifs pour Leftwitch, un mage gnome de Kharanos. Roetten semble penser que c'est de l'argent facilement gagné puisque nous sommes déjà sur place. Il se soucie peu du fait que nous sommes si démunis.\n\nLes premiers objets de sa liste devraient être assez faciles à trouver, et ce sera de l'argent gagné pour quiconque m'aidera.\n\nJ'ai besoin de cornes et de griffes des satyres Fielfurie qui vivent à l'est d'ici. Rapportez-m'en et nous poursuivrons la liste.",
+   "progress": "Des créatures immondes, ces satyres. On dit qu'ils sont liés d'une certaine manière aux elfes de la nuit, mais je n’en suis pas certain.\n\nJe pense qu’eux y croient depuis que cet elfe les a menés au combat il y a quelques années. Le monde n'a jamais été le même depuis. Beaucoup plus dangereux, et beaucoup plus effrayant.",
+   "completion": "Bien, bien, <nom>. Je ne suis pas vraiment sûr qu'elles soient d'une quelconque qualité, mais si Leftwitch en voulait d'un type particulier, il aurait dû le spécifier avant d'envoyer Récupérateurs SA par ici.\n\nQue diriez-vous de continuer avec notre liste ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5638,
+     "name": "Kreldig Ungor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5638,
+     "name": "Kreldig Ungor"
+    }
+   ],
+   "zone_id": 405,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2650,
+   "money": 3500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1459": {
+   "id": 1459,
+   "name": "Des réactifs pour les Récupérateurs",
+   "objectives": "Apporter 7 Fioles de venin de scorpashi et 3 Peaux de vieux kodo à Kreldig Ungor, en Désolace.",
+   "description": "Ensuite, sur la liste de Leftwitch, on trouve… on trouve… Oh !\n\nRelativement facile, mais il faut décrypter ses directives. Il a besoin de venin de scorpashi et de peau de kodo. Mais il est précisé que le venin doit provenir de n'importe quel scorpashi, et que la peau doit être celle d'un vieux kodo, pas d'un kodo mourant ou d'un ancien kodo.\n\nLes mages, je vous dis pas, les trucs qu'ils veulent parfois... c'est tout simplement bizarre.",
+   "progress": "Cela me désole de ne pas avoir pu vous dire où trouver de kodos ou de scorpashis. Ce secteur ne m'est guère familier, et je n'ai pas trouvé le temps de l'explorer.",
+   "completion": "Votre soutien ici est une bénédiction, <nom>. Vous divisez au moins par deux le temps que j’ai à passer en Désolace. Avec votre aide, je serai de retour à Ironforge en un rien de temps et je pourrai enfin y réchauffer mes pieds.\n\nUne fois que nous nous serons occupés de cette liste, et que je serai rentré, venez me voir, je vous paierai une bonne bière, ça sera la moindre des choses.\n\nMais en attendant, occupons-nous du reste de ces réactifs.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5638,
+     "name": "Kreldig Ungor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5638,
+     "name": "Kreldig Ungor"
+    }
+   ],
+   "zone_id": 405,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2750,
+   "money": 2500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1465": {
+   "id": 1465,
+   "name": "La recherche de Vahlarriel",
+   "objectives": "Rapporter le Pendentif de Malem à Vahlarriel Demonslayer en Désolace.",
+   "description": "Tandis que vous continuez à fouiller le chariot, vous découvrez non seulement un pendentif mais également des traces de pas qui se dirigent vers le sud. Au loin, vous distinguez de la fumée s'élevant d'une grande forteresse. La fumée provient d'un feu entretenu, il ne s'agit pas de bâtiments qui brûlent, et votre instinct vous dit que les Malem, si tant est qu'ils soient toujours en vie, ont été emmenés dans cette direction.\n\nVous estimez que Vahlarriel, à la Combe de Nijel, devrait voir le pendentif et savoir qu'il se trouve des signes de vie au sud.",
+   "progress": null,
+   "completion": "Exaspérant ! Fiasco total !\n\nIls savaient tous les deux que c'était dangereux de venir ici. À présent ils ont disparu… ou pire.\n\nVous dites que vous avez vu des empreintes de pas qui se dirigeaient vers un fort proche ? Il se peut que ce soit la meilleure supposition à faire.\n\nD'après les gens du coin, cette forteresse est un repaire de la Lame ardente, des orcs qui s’occupent d’affaires démoniaques. Ils ne sont peut-être pas représentatifs des croyances de la Horde, mais ils sont maléfiques et ils vous tueront s'ils vous prennent à espionner.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 50961,
+     "name": "Malem Chest"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5642,
+     "name": "Vahlarriel Demonslayer"
+    }
+   ],
+   "zone_id": 405,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 1950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1466": {
+   "id": 1466,
+   "name": "Des réactifs pour les Récupérateurs",
+   "objectives": "Apporter 10 Cervelles de gangrechiens, 10 Ailes du Néant et 10 Fioles de Sang de garde funeste à Kreldig Ungor, en Désolace.",
+   "description": "Ce sont les derniers objets à rassembler. Cela vous prendra aussi un peu plus de temps que pour les précédents.\n\nBien, assez parlé, commençons. Leftwitch dit qu'il a besoin de : dix cervelles de mange-mana, de chasseur de mage ou de chasseur ley ; dix ailes du néant prélevées sur une vierge du néant, une soeur du néant ou une ensorceleuse du néant. Et... dix fioles de sang de garde funeste provenant d'un capitaine ou seigneur de la garde funeste.\n\nC'est assez simple, non ? Non, sérieusement, si vous laissez tomber cette quête, je comprendrai.",
+   "progress": "Je n'avais même pas réalisé que ces démons se trouvaient à Desolace. D'après ce que j'ai lu, les centaures possédaient à peu près tout le territoire après que les elfes de la nuit l'aient quitté il y a des années.\n\nJe me demande pourquoi ils se sont installés ici, et comment.",
+   "completion": "Honnêtement ? Je ne l'aurais pas cru. Tu es incroyable, <nom>. Affronter des démons pour les expériences d'un mage, et revenir en un seul morceau. C'est du bon boulot !\n\nJe parlerai personnellement de vous à Roetten quand je rentrerai à Ironforge.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5638,
+     "name": "Kreldig Ungor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5638,
+     "name": "Kreldig Ungor"
+    }
+   ],
+   "zone_id": 405,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3150,
+   "money": 3500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1467": {
+   "id": 1467,
+   "name": "Des réactifs pour Récupérateurs SA",
+   "objectives": "Rapporter la Caisse de Leftwitch à Roetten Stonehammer à Ironforge.",
+   "description": "Pour être <payé/payée>, vous devez retourner à Ironforge et parler à Roetten en personne. Il aimera être débarrassé de la caisse de Leftwitch, de toute façon. Remettez-lui simplement ceci et ça devrait suffire pour avoir votre récompense.\n\nEt ne vous en faites pas, je ferai passer un mot positif à votre sujet lorsque je reviendrai. Je ne devrais plus rester longtemps en Désolace.",
+   "progress": "Bienvenue, <nom>. Les affaires prospèrent, le son des enclumes frappées résonne dans tout Ironforge, les soufflets nourrissent un feu ardent, et ma femme me prépare une tourte pour le dessert de ce soir. La vie pourrait-elle être plus belle ?",
+   "completion": "Ah ! La caisse pour Leftwitch, de Désolace. Excellent. J'apprécie le travail, et votre à-propos, <classe>. Heureux de vous avoir à bord pour au moins ce petit travail.\n\nJ'ai votre paie juste ici. Que Récupérateurs SA reste réputée pour bien payer une bonne semaine de travail !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5638,
+     "name": "Kreldig Ungor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5637,
+     "name": "Roetten Stonehammer"
+    }
+   ],
+   "zone_id": 405,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3150,
+   "money": 3500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "payé/payée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1480": {
+   "id": 1480,
+   "name": "Le corrupteur",
+   "objectives": "Apporter une Peau de démon écorché à Maurin Bonesplitter en Désolace.",
+   "description": "La peau déchirée sent le pourri. Malgré son aspect sec et fragile, elle est remarquablement souple.\n\nEn la déroulant, vous voyez clairement une sorte de langage écrit en rouge sur l'un des côtés. Un symbole est apposé en évidence en bas de la peau ; vous supposez qu’il s’agit d’une signature.\n\nPeut-être Maurin pourrait-il vous en dire plus ?",
+   "progress": "Les membres de la Lame ardente commencent à réaliser à quel point ils sont faibles. Leurs magies sont pathétiques et leurs forces frêles.\n\nLeur seule puissance vient de ceux qu'ils servent et non de la possession de quelque pouvoir ou connaissance.",
+   "completion": "Hmmm, ces runes composent effectivement un langage, <nom>, un vieux langage. Elles me font penser à celui d'Eredun, mais avec des différences importantes. Si je ne m'abuse, il s'agit là d'une sorte de contrat… Oui, regardez, ce symbole est la signature du démon, un certain \"seigneur Azrethoc\".",
+   "starters": [
+    {
+     "type": "item",
+     "id": 20310,
+     "name": "Flayed Demon Skin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4498,
+     "name": "Maurin Bonesplitter"
+    }
+   ],
+   "zone_id": 405,
+   "level": 33,
+   "reqlevel": 25,
+   "side": "horde",
+   "xp": 1300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1481": {
+   "id": 1481,
+   "name": "Le corrupteur",
+   "objectives": "Apporter un Scalp de Traqueur des ténèbres à Maurin Bonesplitter en Désolace.",
+   "description": "Je pense pouvoir trouver ce démon si j'ai les réactifs adéquats.\n\nS'il est effectivement aussi puissant que je le suspecte, je vais avoir besoin de certains objets disponibles sur des créatures mortelles. Mais vous agissez au nom du Chef de guerre, aussi je suis certain que vous accepterez ma quête.\n\nD'abord, je vais devoir briser toutes les protections qu'il aurait contre les visions. Pour cela, j'aurais besoin d'un scalp de satyre. Mais pas de n'importe quel satyre. Il doit provenir d'un Traqueur des ténèbres Fielfurie.\n\nCherchez cette tribu dans les ruines anciennes au nord-est de Désolace.",
+   "progress": "Ne m'apportez pas n'importe quel scalp, <classe>. Utiliser les mauvais réactifs pourrait causer notre mort. Le seigneur démon pourrait être protégé par des sorts de secours qui tuent quiconque essaie de le scruter.\n\nLe destin m'a déjà infligé suffisamment de douleur.",
+   "completion": "Les Traqueurs des ténèbres n’ont pas réussi à vous tuer, <classe>. Impressionnant… très impressionnant.\n\nCe scalp fera parfaitement l'affaire pour mon sort. Pendant que vous étiez parti, j'ai pu réunir d’autres réactifs nécessaires au sort.\n\nJe suis presque prêt. J'ai juste besoin d'un focalisateur pour ce sort, quelque chose dans lequel projeter une image du démon et de l'endroit où il se trouve.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4498,
+     "name": "Maurin Bonesplitter"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4498,
+     "name": "Maurin Bonesplitter"
+    }
+   ],
+   "zone_id": 405,
+   "level": 33,
+   "reqlevel": 25,
+   "side": "horde",
+   "xp": 2650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1482": {
+   "id": 1482,
+   "name": "Le corrupteur",
+   "objectives": "Apporter un Cristal d'oracle à Maurin Bonesplitter, en Désolace.",
+   "description": "Un cristal d'oracle ferait parfaitement l'affaire. Ils sont conçus par les nagas et utilisés par leurs oracles.\n\nAu nord-ouest d'ici, le long de la côte, se trouve un vaste récif de corail que les nagas considèrent comme leur demeure, lorsqu'ils viennent près du rivage. Vous trouverez leurs oracles là-bas. Les Ondulames sont dangereux et ne réagiront pas amicalement à votre intrusion : soyez <prudent/prudente> et hâtez-vous.\n\nQuand vous reviendrez, nous verrons à localiser le seigneur-démon Azrethoc.",
+   "progress": "Je suis prêt à recevoir ce cristal d'oracle, <classe>. Débusquer et tuer ce seigneur Azrethoc nous permettrait à tous les deux de gagner la faveur du chef de guerre. Nous ferions bien de travailler ensemble, et de travailler vite, pour prétendre à de plus hauts buts, et pour obtenir ses faveurs.",
+   "completion": "Ah, l'un de ces précieux cristaux d'oracle… parfait… merveilleux.\n\nNous allons commencer immédiatement. Trouver ce seigneur démon devrait être notre principal souci, et son élimination nécessite toute notre attention.\n\nReculez, <classe>. . . Voyons la nature de ce démon, et l'endroit où il se terre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4498,
+     "name": "Maurin Bonesplitter"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4498,
+     "name": "Maurin Bonesplitter"
+    }
+   ],
+   "zone_id": 405,
+   "level": 35,
+   "reqlevel": 25,
+   "side": "horde",
+   "xp": 2750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "prudent/prudente"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1484": {
+   "id": 1484,
+   "name": "Le corrupteur",
+   "objectives": "Parler à Takata Steelblade en Désolace.",
+   "description": "Cette créature est beaucoup plus dangereuse que je ne l'avais cru. Il est certain que Takata remet en cause mes capacités à battre une telle créature, et ce serait insulter son honneur que de ne pas l'informer de ce qui vient juste de se passer.\n\nParlez à l'homme d'épée, dites-lui que vous voulez tuer le démon s'il l’autorise, mais n'insistez pas trop. Ce serait mieux qu'il croit que c'est son idée.",
+   "progress": null,
+   "completion": "J'ai été témoin de ce qui s'est passé entre Maurin et le seigneur-démon. Cette créature, même en tant que simple apparition, semble avoir plus de pouvoir que mon compagnon démoniste. Je me demande s'il est vraiment à la hauteur pour battre ce monstre… Il serait mieux, pour le Chef de guerre, que je m'en occupe en personne. Mais avec toutes mes responsabilités ici, cela risquerait de disgracier mon clan si je tournais le dos à mes devoirs pour aller me couvrir d'honneurs personnels en combattant ce démon.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4498,
+     "name": "Maurin Bonesplitter"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5641,
+     "name": "Takata Steelblade"
+    }
+   ],
+   "zone_id": 405,
+   "level": 35,
+   "reqlevel": 25,
+   "side": "horde",
+   "xp": 275,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1488": {
+   "id": 1488,
+   "name": "Le corrupteur",
+   "objectives": "Tuer le seigneur Azrethoc et Jugkar Grim'rod puis retourner voir Takata Steelblade en Désolace.",
+   "description": "Bien que je ne sache rien de ce seigneur Azrethoc, je suis d'accord avec Maurin. Il faut l'arrêter, surtout s'il tente de gagner du pouvoir au sein de la Lame ardente pour faire avancer ses objectifs.\n\nVous nous avez déjà exprimé votre souhait d’aider le Chef de guerre, et j'aimerais vous charger de réunir un groupe pour aller tuer ce seigneur-démon et son serviteur démoniste.\n\nLorsque vous serez <prêt/prête>, partez pour le sud, et revenez me voir lorsque ce danger sera éliminé.",
+   "progress": "Gloire à la Horde, et mort à nos ennemis, <nom> !\n\nLes démons de Desolace représentent une menace plus grande que jamais. Mon espoir de retrouver le Warchief s'amenuise au fur et à mesure que ces créatures immondes apparaissent.\n\nJ'aimerais parfois n'avoir à affronter que le centaure.",
+   "completion": "Voilà une grande victoire pour chacun d'entre nous, <nom>. Réjouissons-nous de votre réussite. Je crois qu'à présent, notre avenir ici n'est pas aussi morne que prévu.\n\nLes démons seront massacrés, la Lame ardente échouera dans ses tentatives, et nous aurons un jour un endroit que nous pourrons à nouveau appeler « foyer ».",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5641,
+     "name": "Takata Steelblade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5641,
+     "name": "Takata Steelblade"
+    }
+   ],
+   "zone_id": 405,
+   "level": 40,
+   "reqlevel": 25,
+   "side": "horde",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5381": {
+   "id": 5381,
+   "name": "La Main d'Iruxos",
+   "objectives": "Récupérer la Boîte démoniaque dans la forteresse de Hache-Tonnerre, puis la rapporter à Taiga Wisemane, à Proie-de-l'Ombre.",
+   "description": "La Lame ardente possède la Boîte démoniaque qui renferme la puissante Main d'Iruxos. Il l'utilise pour ouvrir des portails démoniaques du convent de Mannoroc. Nous devons arrêter la vague de démons qui déferle sur notre monde, <nom> !\n\nUtilisez cette Pioche démoniaque sur le cristal rouge dans la forteresse de Hache-Tonnerre pour obtenir l'accès à la Boîte démoniaque.",
+   "progress": "<nom>, avez-vous la Boîte démoniaque ?",
+   "completion": "Ah la Boîte démoniaque ! Donnez-la-moi, <classe>, je l'ouvrirai. . . et je vous montrerai la Main d'Iruxos.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11624,
+     "name": "Taiga Wisemane"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11624,
+     "name": "Taiga Wisemane"
+    }
+   ],
+   "zone_id": 405,
+   "level": 38,
+   "reqlevel": 32,
+   "side": "horde",
+   "xp": 2850,
+   "money": 4500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5386": {
+   "id": 5386,
+   "name": "La prise du jour",
+   "objectives": "Parler à Jinar'Zillen à Proie-de-l'Ombre, puis amener 2 poissons Ventre-rouge à Nataka Longhorn.",
+   "description": "Cela fait longtemps qu’on n’a pas senti l’odeur du poisson cuit ici au poste de Rôdeur-fantôme. Les trolls de Proie-de-l'Ombre sont les meilleurs pêcheurs... Mais malheureusement, avec tous ces centaures, je n'ai plus le temps d'aller voir les trolls. Hum...\n\nRendez-moi service et allez à Proie-de-l'Ombre. Parlez au pêcheur Jinar'Zillen et rapportez-moi mon poisson favori, du Ventre-rouge. La route au sud d’ici vous mènera à l’ouest jusqu’au village des trolls.",
+   "progress": "Mon sabot me démange et j'ai l'eau à la bouche quand je pense à du Ventre-Rouge frit… Vous en avez sur vous ?",
+   "completion": "Vous êtes mon sauveur, <nom> ! Ces poissons Ventre-rouges semblent assez bon pour être mangés crus.\n\nVoici : prenez l'un de ces objets en paiement pour ces poissons.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11259,
+     "name": "Nataka Longhorn"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11259,
+     "name": "Nataka Longhorn"
+    }
+   ],
+   "zone_id": 405,
+   "level": 37,
+   "reqlevel": 32,
+   "side": "horde",
+   "xp": 2100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5421": {
+   "id": 5421,
+   "name": "Poisson dans un seau",
+   "objectives": null,
+   "description": null,
+   "progress": "Je récompense ceux qui me facilitent la vie… J'aime en faire le moins possible, mon ami !\n\nSous les quais de Proie-de-l'Ombre, j'ai placé de nombreux casiers à crustacés. Si vous avez la gentillesse de faire mon travail à ma place et de relever les casiers, je vous récompenserai en vous donnant quelque chose que vous voulez... Voyez où je veux en venir, l'ami ? Je vous donnerai un beau Ventre-Rouge pour 5 crustacés rapportés !",
+   "completion": "Ah… Rien ne vaut le travail bien fait, surtout lorsqu'il est fait par un autre…hein ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11317,
+     "name": "Jinar'Zillen"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11317,
+     "name": "Jinar'Zillen"
+    }
+   ],
+   "zone_id": 405,
+   "level": 25,
+   "reqlevel": 25,
+   "side": "horde",
+   "xp": null,
+   "money": 5500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "5501": {
+   "id": 5501,
+   "name": "Collectionneur d'os",
+   "objectives": "Apporter à Bibbly F'utzbuckle à la Hutte de Kormek 10 Os de kodo provenant du Cimetière des kodos.",
+   "description": "Nous sommes assis sur une mine d'or ici, je vous le dis ! Une mine d'or ! Les os de kodos changeront la face du monde pour toujours… J'ai des clients qui en font des meubles, des instruments de musique, et même des poudres explosives.\n\nUne caravane passe, ramasse les os et les vend à Proie-de-l'Ombre. Si vous pouvez voyager jusqu'au Cimetière des kodos au sud et m'apporter dix Os de kodos, je vous donnerai quelque chose en contrepartie. C'est d'accord ?",
+   "progress": "Avez-vous les os ? La caravane sera là d'un instant à l'autre. Il me faut juste dix os de kodo supplémentaires pour atteindre un sommet dans ma carrière. Un sommet, je vous dis !",
+   "completion": "Ah, superbe ! Mes os !\n\nJe frémis d'impatience à l'idée que les gars de chez nous vont voir mon visage en première page de \"Valeurs gobelines\". Je serai le gobelin le plus riche du monde… et mon professeur d'éducation physique qui pensait que je n'arriverais jamais à rien.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11438,
+     "name": "Bibbly F'utzbuckle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11438,
+     "name": "Bibbly F'utzbuckle"
+    }
+   ],
+   "zone_id": 405,
+   "level": 39,
+   "reqlevel": 33,
+   "side": "both",
+   "xp": 2250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5561": {
+   "id": 5561,
+   "name": "Le rassemblement des kodos",
+   "objectives": "Ramener cinq Kodos domptés et le Kombobulateur kodo à Smeed Scrabblescrew au camp de Scrabblescrew.",
+   "description": "Bibbly pense être le seul gobelin de Désolace à savoir comment faire de l'argent. Peuh… Moi, je suis responsable de la seule caravane suffisamment courageuse pour voyager dans ces contrées. Depuis que j'ai appris à rajeunir et à contrôler les kodos âgés et mourants avec mon Kombobulateur kodo, les propriétaires de la caravane, Cork, Rigger et moi, nous nous sommes associés.\n\nPrenez le Kombobulateur et utilisez-le sur des kodos âgés ou mourants. Cela secouera la bête et la rendra docile, prête à vous suivre. Une fois que vous aurez un kodo docile, ramenez-le-moi.",
+   "progress": "La caravane sera là d'ici peu ; avez-vous les cinq nouveaux kodos apprivoisés que je vous ai demandés ?",
+   "completion": "<Smeed Scrabblescrew commence à compter. >\n\nTrois, quatre et cinq… Excellent, je demande cinq kodos apprivoisés et j'en reçois cinq apprivoisés… Je vais être riche. . . Oui, très riche ! J'aimerais voir la tête de Bibbly lorsqu'il aura connaissance de ma réussite !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11596,
+     "name": "Smeed Scrabblescrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11596,
+     "name": "Smeed Scrabblescrew"
+    }
+   ],
+   "zone_id": 405,
+   "level": 34,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 2000,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5581": {
+   "id": 5581,
+   "name": "Les portails de la Légion",
+   "objectives": "Bannir 6 Portails, dans le convent de Mannoroc, puis retourner voir Taiga Wisemane, à Proie-de-l'Ombre.",
+   "description": "Regardez, la Main d'Iruxos ! C'est vraiment une vision horrible.\n\nVous devez l'avoir en votre possession pour pouvoir fermer les portails démoniaques du convent de Mannoroc... C'est ce que je vous demande maintenant de faire. La menace démoniaque augmente et nous devons fermer ces portails pour arrêter cette vague de démons. Bonne chance, <nom>... et méfiez-vous des gardiens du portail.",
+   "progress": "Avez-vous banni les portails démoniaques au convent de Mannoroc ?",
+   "completion": "Je fais votre éloge, <nom>. Votre action a grandement aidé à combattre la menace démoniaque, tout Azeroth est maintenant plus sûr.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11624,
+     "name": "Taiga Wisemane"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11624,
+     "name": "Taiga Wisemane"
+    }
+   ],
+   "zone_id": 405,
+   "level": 38,
+   "reqlevel": 32,
+   "side": "horde",
+   "xp": 3550,
+   "money": 4500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5741": {
+   "id": 5741,
+   "name": "Sceptre de lumière",
+   "objectives": "Prendre le Sceptre de lumière et le rapporter à Azore Aldamort, dans la tour d’Ethel Rethor.",
+   "description": "D'après ce qu'on dit, les sectateurs de la Lame ardente, dans la forteresse de Hache-Tonnerre, à l'est, aurait réussi à obtenir le Sceptre de lumière des nagas. La légende dit que ce sceptre est capable d'engloutir des villes entières sous la mer. On ne doit pas permettre à la Lame ardente de posséder une telle puissance.\n\nC'est pour cela que vous devez récupérer le sceptre ! Il est détenu par le Prophète de la Lame ardente, qui l’étudie sous la protection des gardiens de la tour de Hache-Tonnerre.",
+   "progress": "Avez-vous le Sceptre de Lumière ?",
+   "completion": "L'insaisissable Sceptre de lumière ! De l'avoir récupéré permet d'écarter une grande menace de la face du monde. Bien joué, <classe>, bien joué.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11863,
+     "name": "Azore Aldamort"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11863,
+     "name": "Azore Aldamort"
+    }
+   ],
+   "zone_id": 405,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 2650,
+   "money": 3500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5763": {
+   "id": 5763,
+   "name": "Chasse à Strangleronce",
+   "objectives": "Apporter la Corne de kodo de Roon à Hemet Nesingwary à Strangleronce.",
+   "description": "Il y a longtemps de cela, un nain arriva dans cette contrée. Il s’appelait Hemet et voulait chasser des créatures puissantes. Son maniement du fusil était excellent, et nous passâmes plusieurs jours à chasser ensemble. Même l’animosité entre nos deux peuples avait été oubliée.\n\nQuand il partit de Désolace pour Strangleronce, j’ai juré qu’un jour je l’accueillerais de nouveau et que nous chasserions encore une fois ensemble. Le temps est venu.\n\nApportez cette corne de kodo à Hemet. Il saura que c’est de ma part. Vous le trouverez en Strangleronce, au nord du Campement Grom'gol.",
+   "progress": "Asseyez-vous, <classe>. Vous retournerez dans la jungle bien assez tôt.",
+   "completion": "Ah, cette corne appartient à un tauren, Roon Wildmane. Nous avons eu plaisir à chasser ensemble les bêtes de Désolace. Alors Roon me rend l'invitation, c'est ça ?\n\nNous sommes dans la jungle jusqu'au cou, mais merci <nom>. Peut-être que ma prochaine expédition m'emmènera vers Désolace, le pays des centaures.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11877,
+     "name": "Roon Wildmane"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 715,
+     "name": "Hemet Nesingwary"
+    }
+   ],
+   "zone_id": 405,
+   "level": 31,
+   "reqlevel": 28,
+   "side": "horde",
+   "xp": 1250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5821": {
+   "id": 5821,
+   "name": "Garde du corps à recruter",
+   "objectives": "Escorter la Caravane de Gizelton et l’aider à passer le village des centaures Kolkar. Parler à Smeed, au camp de Scrabblescrew, pour toucher la récompense.",
+   "description": "En temps normal, Rigger et moi conduirions nos kodos à travers le territoire des centaures Kolkar. Mais depuis quelque temps, nous entendons résonner les tambours de guerre des centaures. Comme il n’est jamais bon pour les affaires d’être mort, nous préférons ne pas nous aventurer plus avant sur leurs terres !\n\nSi vous acceptiez de nous protéger, <classe>, et nous aidiez à passer au-delà du village des Kolkar, nous vous récompenserions en conséquence.\n\nCela ne représente pas une si grande distance ; vous devrez simplement sécuriser la caravane, puis vous pourrez toucher votre dû des mains de Smeed Scrabblescrew, qui est un peu plus bas sur la route. Nous faisons souvent des affaires ensemble.",
+   "progress": "Pourquoi est-ce que je me retrouve à attendre cette maudite caravane ?\n\n<Smeed a l'air éclairé.>\n\nAh oui, ils paient les factures. Vous les avez vus ?",
+   "completion": "Vous savez, ça ne paraît pas très intéressant de payer quelqu'un comme vous pour escorter la caravane de Gizelton. <classe>, si j'étais plus grand, je pourrais aussi m'installer sur mon kodo avec le plus gros fusil que ma main puisse tenir, et j'apprendrais à ces satanés centaures qui est le maître.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11625,
+     "name": "Cork Gizelton"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11596,
+     "name": "Smeed Scrabblescrew"
+    }
+   ],
+   "zone_id": 405,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 2750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5943": {
+   "id": 5943,
+   "name": "La caravane de Gizelton",
+   "objectives": "Escorter la caravane de Gizelton à travers le convent de Mannoroc. Parler à Smeed, au camp de Scrabblescrew, pour toucher la récompense.",
+   "description": "Vous semblez compétent, <race>. Peut-être voudriez-vous gagner un peu d’argent ? Cork et moi avons monté cette caravane pour faire fortune, mais nous ignorions les dangers que recélait cette entreprise !\n\nDevant nous se trouve le convent de Mannoroc… En temps normal, les démons nous ignorent mais quelque chose a effrayé les kodos, ce coup-ci. Je vous paierai pour protéger la caravane lorsque nous passons près du convent de Mannoroc. Quand nous aurons traversé ce coin, vous pourrez aller chercher votre récompense auprès de notre associé, Smeed, au camp de Scrabblescrew.",
+   "progress": "Vous savez, si cette caravane venait à disparaître, je serais ruiné ! Vous n'êtes pas le porteur de mauvaises nouvelles à propos de la caravane, n'est-ce pas ?\n\n<Smeed s'essuie le front.>\n\nMerci à la déesse de la cupidité !",
+   "completion": "Il n'est pas certain que cela soit une bonne proposition d'être payé autant pour protéger la caravane de Gizelton. Cork et Rigger ne gagnent qu'une pièce d'or par semaine, mais du moment qu'ils payent pour mes kodos je ne m'occupe pas de la façon dont ils gèrent leurs affaires.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11626,
+     "name": "Rigger Gizelton"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11596,
+     "name": "Smeed Scrabblescrew"
+    }
+   ],
+   "zone_id": 405,
+   "level": 38,
+   "reqlevel": 32,
+   "side": "both",
+   "xp": 2850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "race"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6027": {
+   "id": 6027,
+   "name": "Le Livre des Anciens",
+   "objectives": "Obtenir le Livre des Anciens, puis le rapporter à Azore Aldamort, dans la tour d’Ethel Rethor.",
+   "description": "<nom>, je vous confie la Gemme du serpent. Placez cette gemme dans la main de la Statue du serpent qui se trouve sur l'île de Ranazjar, une petite île au nord-ouest d'ici. En même temps, vous appellerez celui qui protège le Livre des Anciens. Ce livre contient les secrets des nagas, des secrets qui ont été gardés pendant des siècles. Apportez-moi ce livre et nous en apprendrons beaucoup sur nos adversaires !",
+   "progress": "Ha, <nom> ! C'est bon de vous revoir. Avez-vous le Livre des Anciens ?",
+   "completion": "Le Livre des anciens, perdu depuis si longtemps ! Je vais faire en sorte que ce livre soit apporté au haut conseil. Vous avez fait du bon travail aujourd'hui, et pour cela je vous remercie. . . comme tous les héros devraient être remerciés !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11863,
+     "name": "Azore Aldamort"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11863,
+     "name": "Azore Aldamort"
+    }
+   ],
+   "zone_id": 405,
+   "level": 38,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 3550,
+   "money": 4500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6132": {
+   "id": 6132,
+   "name": "Faites-moi sortir de là !",
+   "objectives": "Escorter Melizza Brimbuzzle, puis parler à Hornizz Brimbuzzle au cimetière des Kodos en Désolace.",
+   "description": "Sortez-moi d'ici !\n\nJ'ai voyagé jusqu'à la Vallée des Lances pour parler aux Maraudine. Je croyais que je pourrais faire des affaires avec eux... mais ils ne veulent rien entendre. Je crois que la seule chose qui les intéresse est de me dévorer !\n\nSortez-moi d'ici, mon frère Hornizz vous paiera largement pour cela ! Il se trouve dans notre camp, à côté du Cimetière des kodos, à l'est.\n\nFaites vite, <nom>. Il n'y a pas deux minutes, j'ai entendu certains centaures envisager de collecter du bois pour chauffer leur marmite...",
+   "progress": "Avez-vous vu ma sœur Melizza ? Elle est toujours en mouvement, ce qui lui vaut de nombreux ennuis.",
+   "completion": "Ma soeur Melizza a dit que vous alliez venir. Grand merci pour l'avoir sortie du pétrin dans lequel elle était ; malheureusement, elle s'est probablement déjà fourrée dans un autre depuis !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 12277,
+     "name": "Melizza Brimbuzzle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6019,
+     "name": "Hornizz Brimbuzzle"
+    }
+   ],
+   "zone_id": 405,
+   "level": 39,
+   "reqlevel": 34,
+   "side": "both",
+   "xp": 2250,
+   "money": 4500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6134": {
+   "id": 6134,
+   "name": "Chasse à l'ectoplasme",
+   "objectives": "Apporter 8 Fantôm-o-plasmes et la Caisse d'aimants fantômes à Hornizz Brimbuzzle, en Désolace.",
+   "description": "Il y a une vallée au sud-est, la vallée des Ossements, qui est hantée par les fantômes magram. Effrayant, n'est-ce pas ? Et si ça l'est pour nous, imaginez ce que les Magram en pensent ! Si nous capturons l'énergie ectoplasmique de cet endroit, je parie que ça vaudra une fortune chez les centaures.\n\nPrenez cette caisse d'aimants fantômes. Si vous en placez un entre les deux grands squelettes de la vallée, les Goliaths morts, les fantômes se matérialiseront et s'y rendront. Attaquez ces fantômes et prenez leur Fantôm-o-plasme, nous le revendrons aux Magram.",
+   "progress": "Où est mon Fantôm-o-plasme, <nom> ?",
+   "completion": "Le voilà ! On dirait que vous en avez un peu sur vos habits aussi. Gluant, n'est-ce pas ?\n\nBien, merci beaucoup pour tous les problèmes endurés, <nom>. Ce matériel va valoir une fortune. . . Si je peux convaincre les centaures de ce que c'est !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6019,
+     "name": "Hornizz Brimbuzzle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6019,
+     "name": "Hornizz Brimbuzzle"
+    }
+   ],
+   "zone_id": 405,
+   "level": 39,
+   "reqlevel": 34,
+   "side": "both",
+   "xp": 2250,
+   "money": 4500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6141": {
+   "id": 6141,
+   "name": "Frère Anton",
+   "objectives": "Adressez-vous au frère Anton, en Désolace.",
+   "description": "Mon frère d’armes, le frère Anton, a entendu parler d’une infestation de morts-vivants, sur les terres lointaines de Kalimdor, dans un pays connu sous le nom de Désolace. Anton a immédiatement décidé de se rendre sur place pour anéantir la menace représentée par ces morts-vivants !\n\nIl cherche à enrôler des volontaires courageux, prêts à l’aider dans cette entreprise. Si votre âme est pure, allez voir Anton. Il se trouve en Désolace, dans la ville de l’Alliance appelée la Combe de Nijel.",
+   "progress": null,
+   "completion": "J'ai reçu un message disant que nous allions recevoir de l'aide venant de l'Est. Est-ce que c'est vous ? Vous venez aider les Frères écarlates dans leur croisade ?\n\nSi c'est le cas, écoutez attentivement. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 12336,
+     "name": "Frère Crowley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1182,
+     "name": "Frère Anton"
+    }
+   ],
+   "zone_id": 405,
+   "level": 39,
+   "reqlevel": 34,
+   "side": "alliance",
+   "xp": 300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6142": {
+   "id": 6142,
+   "name": "Des praires comme appât",
+   "objectives": "Trouver 10 morceaux de Chair de praire et les apporter à Mai'Lahii, à Proie-de-l'Ombre.",
+   "description": "Vous avez tout l'air d'un pêcheur, <classe> ! J'adore pêcher, et j'ai pratiqué cette activité pendant toute ma vie. Le meilleur appât qui existe est sans aucun doute la chair de praire ; les poissons n'y résistent pas, si vous voyez ce que je veux dire.\n\nPlus au nord, vous verrez un navire échoué, au large de la côte. Les praires en question jonchent la zone. Si vous me rapportez 10 morceaux de Chair de praire, je vous donnerai quelque chose en échange.",
+   "progress": "Je suis impatient d'aller pêcher avec un peu de chair de praire fraîche. M'avez-vous apporté les 10 morceaux dont j'ai besoin ?",
+   "completion": "Parfait, c'est juste ce que le Sorcier docteur m'a dit de faire pour ma migraine. Il a dit : \"Mai'Lahii - allez à la pêche. Vous vous sentirez mieux\"\n\nEffectivement, je me sens déjà mieux, merci !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 12031,
+     "name": "Mai'Lahii"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12031,
+     "name": "Mai'Lahii"
+    }
+   ],
+   "zone_id": 405,
+   "level": 35,
+   "reqlevel": 31,
+   "side": "horde",
+   "xp": 2750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6143": {
+   "id": 6143,
+   "name": "D'autres poissons à frire",
+   "objectives": "Tuer 7 Myrmidons Ondulame, 7 Nagas Ondulame et 5 Sorcières Ondulame, puis parler à Drulzegar, à Proie-de-l'Ombre, en Désolace.",
+   "description": "Peut-être en avez-vous entendu parler, peut-être pas... Mon équipage et moi-même étions en train de pêcher près de l'île de Ranazjar, au nord du bateau détruit qui se trouve au large de la côte nord. Nous avons toujours pêché là… Maintenant je ne cherche plus qu'à venger mes camarades tués.\n\nLes nagas nous ont attaqués un matin, ils ont tué tout le monde sauf moi.\n\nJe me sens coupable d'avoir survécu. J'ai besoin d'un <classe> qui exterminerait les nagas pour moi. Je ferai en sorte que vous ne regrettiez pas vos efforts. Vous pensez pouvoir m'aider ?",
+   "progress": "J'entends encore leurs voix appeler à l'aide lorsque les nagas ont déchaîné leur chaos sur nous. Si je n'avais pas ce mauvais genou, je vous aiderais à tuer ces satanés nagas !\n\nEn général, on peut être sûr de les trouver dans les profondeurs des récifs coralliens, sous la surface... à l'affût... en train de comploter...",
+   "completion": "Il est doux d’apprendre que les nagas ont été vaincus, mais mon cœur souffre toujours d'un vide immense. Je vais consacrer ma vie à leur destruction.\n\nVoilà la récompense promise, l’ami . C'est vraiment peu de chose comparé à la satisfaction de savoir que les nagas ont souffert pour ce qu’ils ont fait à mon équipage.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 12340,
+     "name": "Drulzegar Skraghook"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12340,
+     "name": "Drulzegar Skraghook"
+    }
+   ],
+   "zone_id": 405,
+   "level": 36,
+   "reqlevel": 32,
+   "side": "horde",
+   "xp": 2800,
+   "money": 4000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6161": {
+   "id": 6161,
+   "name": "Revendiquer le trésor de Rackmore !",
+   "objectives": "Trouver la Clé d'argent de Rackmore. Trouver la Clé d'or de Rackmore. Trouver et ouvrir le Coffre de Rackmore.",
+   "description": "Le journal de Rackmore explique comment son bateau a été attaqué par des créatures marines alors qu'il naviguait vers le bastion de Feathermoon. Pour empêcher son trésor de tomber dans des mains ennemies, il a caché son coffre sur l'île de Ranazjar.\n\nPour l'ouvrir, il faut deux clés, une en argent et une en or. Elles ont été perdues, mais un trésor attend celui qui retrouvera les clés et le coffre !",
+   "progress": "Ce coffre est bien fermé.",
+   "completion": "Le coffre ouvert révèle le trésor de Rackmore !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 177787,
+     "name": "Rackmore's Log"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 177786,
+     "name": "Rackmore's Chest"
+    }
+   ],
+   "zone_id": 405,
+   "level": 36,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 2800,
+   "money": 11500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6568": {
+   "id": 6568,
+   "name": "Le testament de Rexxar",
+   "objectives": "Apporter le Testament de Rexxar à Myranda la Mégère, dans les Maleterres de l’ouest.",
+   "description": "Que connaissez-vous des illusions, <nom> ? Parce que c'est une illusion que vous devez créer pour circonvenir les défenses du Vol noir.\n\nJe connais une personne qui acceptera de vous aider dans votre recherche de l'art de la tromperie. Elle a aidé les nôtres dans le passé, quand elle jugeait que la cause en était digne.\n\nDans les Maleterres de l'ouest, vous trouverez Myranda la Sorcière, un Maître Illusionniste, exilée de l'Alliance de Lordaeron. Allez là-bas et prenez avec vous ce message.",
+   "progress": "Il n'est pas fréquent de voir une personne de la Horde dans cette partie de Lordaeron. Qu'avez-vous pour Myranda ?",
+   "completion": "<Myranda tient la note, fait une pause et sourit. >\n\nComment va-t-il ? Je veux dire Rexxar. Oh, détendez-vous, ne soyez pas si confus. Cette lettre a intentionnellement été laissée blanche. Elle portait avec elle les intentions et les pensées de son créateur. À en juger par son contenu, pas la peine de se demander pourquoi Rexxar l'a laissée comme ça. Imaginez ce qui se serait passé, si par la capture ou dans la mort, ces informations vous avaient échappé !\n\nOh, aucune importance ! Myranda vous aidera, <nom>. Je dois au Chef de guerre une faveur ou deux.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10182,
+     "name": "Rexxar"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11872,
+     "name": "Myranda la Mégère"
+    }
+   ],
+   "zone_id": 405,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 4950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "79229": {
+   "id": 79229,
+   "name": null,
+   "objectives": "Trouvez quelqu’un à Désolace qui connaît ce campement pillé.",
+   "description": "Le campement sous vos yeux présente une scène macabre. À en juger par les dépouilles, les victimes sont deux êtres humains et un nain. Des marques sur leurs os révèlent la brutalité de l’attaque, mais les marchandises pillées indiquent qu’il ne s’agit pas d’un animal sauvage. Les blessures ne correspondent pas non plus à l’arsenal des centaures.\n\nUne personne connaissant bien ce terrain pourrait sans doute vous aider à y voir plus clair.",
+   "progress": null,
+   "completion": "Ah, vous en avez trouvé un autre…",
+   "starters": [
+    {
+     "type": "object",
+     "id": 417353,
+     "name": "#417353"
+    }
+   ],
+   "enders": [],
+   "zone_id": 405,
+   "level": 40,
+   "reqlevel": null,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  },
+  "92743": {
+   "id": 92743,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5398,
+     "name": "Warug"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5398,
+     "name": "Warug"
+    }
+   ],
+   "zone_id": 405,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "92754": {
+   "id": 92754,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 405,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "92755": {
+   "id": 92755,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 253096,
+     "name": "Halea"
+    }
+   ],
+   "zone_id": 405,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "92811": {
+   "id": 92811,
+   "name": null,
+   "objectives": null,
+   "description": "Lors de l'achèvement de cette quête vous gagnerez :\n\n750 points de réputation avec Centaures (Magram)\n\nVérifiez si vous l'avez déjà terminé en tapant :",
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 405,
+   "level": 60,
+   "reqlevel": 1,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "92812": {
+   "id": 92812,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 253140,
+     "name": "Molkar"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 253140,
+     "name": "Molkar"
+    }
+   ],
+   "zone_id": 405,
+   "level": 60,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "92814": {
+   "id": 92814,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 405,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "92817": {
+   "id": 92817,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 405,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "92818": {
+   "id": 92818,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 405,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "93044": {
+   "id": 93044,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5397,
+     "name": "Uthek la Sage"
+    }
+   ],
+   "zone_id": 405,
+   "level": 38,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "93128": {
+   "id": 93128,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 253177,
+     "name": "Nerlokh"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5397,
+     "name": "Uthek la Sage"
+    }
+   ],
+   "zone_id": 405,
+   "level": 42,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "93196": {
+   "id": 93196,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 405,
+   "level": 42,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "93224": {
+   "id": 93224,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5396,
+     "name": "Capitaine Pentigast"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5396,
+     "name": "Capitaine Pentigast"
+    }
+   ],
+   "zone_id": 405,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "93225": {
+   "id": 93225,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5412,
+     "name": "Gurda Wildmane"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5412,
+     "name": "Gurda Wildmane"
+    }
+   ],
+   "zone_id": 405,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "93226": {
+   "id": 93226,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 405,
+   "level": 45,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "93227": {
+   "id": 93227,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5396,
+     "name": "Capitaine Pentigast"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 253140,
+     "name": "Molkar"
+    }
+   ],
+   "zone_id": 405,
+   "level": 45,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "93465": {
+   "id": 93465,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 405,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "93678": {
+   "id": 93678,
+   "name": null,
+   "objectives": null,
+   "description": "Vous recevrez :",
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 405,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "94872": {
+   "id": 94872,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5412,
+     "name": "Gurda Wildmane"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 253139,
+     "name": "Gorhak"
+    }
+   ],
+   "zone_id": 405,
+   "level": 45,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "94873": {
+   "id": 94873,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5412,
+     "name": "Gurda Wildmane"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 253140,
+     "name": "Molkar"
+    }
+   ],
+   "zone_id": 405,
+   "level": 45,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "96222": {
+   "id": 96222,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 253066,
+     "name": "Umarak"
+    }
+   ],
+   "enders": [],
+   "zone_id": 405,
+   "level": 42,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "97265": {
+   "id": 97265,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 268705,
+     "name": "Aka'rai"
+    }
+   ],
+   "enders": [],
+   "zone_id": 405,
+   "level": 33,
+   "reqlevel": 28,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "97284": {
+   "id": 97284,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 405,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

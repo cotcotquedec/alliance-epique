@@ -1,0 +1,295 @@
+{
+ "schema": 1,
+ "zone": "raids/blackwing-lair",
+ "zone_id": 2677,
+ "zone_name": "Repaire de l'Aile noire",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 4,
+  "with_display_id": 4,
+  "with_title": 1,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 1,
+   "unknown": 3
+  }
+ },
+ "npcs": {
+  "10162": {
+   "id": 10162,
+   "name": "Seigneur Victor Nefarius",
+   "title": "Seigneur du Clan Blackrock",
+   "type": null,
+   "classification": "Boss",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Blackwing Lair"
+   ],
+   "coords": {},
+   "levels": [
+    63,
+    63
+   ],
+   "display_id": 9472,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMale"
+   }
+  },
+  "13020": {
+   "id": 13020,
+   "name": "Vaelastrasz le Corrompu",
+   "title": null,
+   "type": null,
+   "classification": "Boss",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Blackwing Lair"
+   ],
+   "coords": {},
+   "levels": [
+    63,
+    63
+   ],
+   "display_id": 13992,
+   "quests_started": [
+    8730
+   ],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "15180": {
+   "id": 15180,
+   "name": "Baristolth des Sables changeants",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Cenarion Circle",
+   "zones": [
+    "Silithus"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 15311,
+   "quests_started": [
+    8286,
+    8288,
+    8301,
+    8302,
+    8303
+   ],
+   "quests_ended": [
+    8286,
+    8288,
+    8301,
+    8302
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "NightElfMaleStandard",
+    "race": "NightElf",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5989,
+     "farewell": 5990,
+     "pissed": 5991
+    },
+    "combat_set": "NightElfMale"
+   },
+   "model": {
+    "race": "NightElf",
+    "race_id": 4,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "NightElfMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "15192": {
+   "id": 15192,
+   "name": "Anachronos",
+   "title": null,
+   "type": null,
+   "classification": "Boss",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Brood of Nozdormu",
+   "zones": [
+    "Tanaris"
+   ],
+   "coords": {},
+   "levels": [
+    61,
+    61
+   ],
+   "display_id": 2719,
+   "quests_started": [
+    8305,
+    8555,
+    8742,
+    8747,
+    8748,
+    8749,
+    8750,
+    8751,
+    8752,
+    8753,
+    8754,
+    8755,
+    8756,
+    8757,
+    8758,
+    8759,
+    8760,
+    8761,
+    8764,
+    8765,
+    8766,
+    9251,
+    9257,
+    9269,
+    9270,
+    9271
+   ],
+   "quests_ended": [
+    8303,
+    8519,
+    8555,
+    8729,
+    8730,
+    8741,
+    8742,
+    8747,
+    8748,
+    8749,
+    8750,
+    8751,
+    8752,
+    8753,
+    8754,
+    8755,
+    8756,
+    8757,
+    8758,
+    8759,
+    8760,
+    8761,
+    8764,
+    8765,
+    8766,
+    8802,
+    9250,
+    9251,
+    9257,
+    9269,
+    9270,
+    9271
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "sex": null,
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  }
+ }
+}

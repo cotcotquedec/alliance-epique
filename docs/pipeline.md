@@ -164,6 +164,38 @@ seulement listé : refaire son script ou son audio est une décision humaine. De
 compteurs : relancer chaque boucle une fois avec `--reset-ratchet`. `tools/zone.sh import` (la boucle base) refuse
 de tourner tant qu'un déplacement, un retrait ou un retour attend la synchronisation.
 
+**Les captures en jeu** (2026-11-16) comblent ce que la base n'a pas : l'addon garde le texte de chaque quête vue
+(`ForeverSpeechCaptures` dans les SavedVariables), que cette commande verse dans les registres. Elle ne remplit qu'un
+texte absent (canal et origine `capture`, gardés par l'import de la base) et ne remplace jamais un texte existant :
+une quête que Forever a réécrite est listée, la refaire est une décision humaine. Le nom du joueur devient `<nom>`.
+Puis la boucle texte (fiches, scripts) et les boucles audio.
+
+```bash
+.venv/bin/python -m pipeline.captures quests ".../_forever_/WTF/Account/<compte>/SavedVariables/ForeverSpeech.lua" --dry-run
+```
+
+**Le cache du client** (2026-11-16) : le jeu garde la réponse du serveur pour chaque quête qu'il a consultée (journal,
+suivi, liens), même sans capture de l'addon : titre, texte de début et objectifs, bruts (marqueurs `$B`, `$N`, `$G`
+gardés, donc les variantes m/f restent possibles), jamais le texte de fin. Mêmes règles que les captures (canal et
+origine `client_cache`). Lu par le lecteur de la Forever Database (`.data/forever-db/etl/questcache.py`) ; une fiche
+qu'il ne confirme pas (compteurs des objectifs non retrouvés) n'est prise que si son titre ne contredit pas le registre.
+
+```bash
+.venv/bin/python -m pipeline.captures cache ".../_forever_/Cache/WDB/frFR/questcache.wdb" --dry-run
+```
+
+**wow-data** (2026-11-16, décision du joueur) : [salty-max/wow-data](https://github.com/salty-max/wow-data) publie une
+base SQLite de Forever à chaque release (`forever.db.gz`). Ses textes français de quête viennent tous de pages Wowhead
+que son auteur a enregistrées depuis un onglet de navigateur : le texte de Forever, avec les marqueurs du jeu, et les
+**textes de fin** que le cache du client n'a pas. Ce sont des textes de Blizzard, hors de la licence MIT du dépôt :
+usage personnel (§3). Mêmes règles (canal et origine `wowdata`), textes restés en anglais entre crochets écartés,
+quêtes de la Horde laissées.
+
+```bash
+gh release download <tag> -R salty-max/wow-data -p forever.db.gz && gunzip forever.db.gz
+.venv/bin/python -m pipeline.captures wowdata forever.db --dry-run
+```
+
 **Produit** : `data/zones/<groupe>/<catégorie>/quests.json` et `npcs.json`, `data/zones.json` (le catalogue).
 Détail : [docs/data-registries.md](data-registries.md). Seules les quêtes de l'Alliance (ou des deux factions)
 sont traitées, sans filtre de niveau.

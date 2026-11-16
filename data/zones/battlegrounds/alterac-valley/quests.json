@@ -1,0 +1,4415 @@
+{
+ "schema": 1,
+ "zone": "battlegrounds/alterac-valley",
+ "zone_id": 2597,
+ "zone_name": "Vallée d'Alterac",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 83,
+  "complete": 36,
+  "incomplete": 47,
+  "unavailable": 0,
+  "missing_description": 33,
+  "missing_giver": 22,
+  "new_in_forever": 0,
+  "gendered": 11
+ },
+ "quests": {
+  "5892": {
+   "id": 5892,
+   "name": "Fournitures de Gouffrefer",
+   "objectives": "Apporter 10 Fournitures de Gouffrefer à l’Intendant de l'Alliance de Dun Baldar.",
+   "description": "Avant que les combats ne commencent, nous avons stocké du matériel pour Dun Baldar dans la mine de Gouffrefer. Les troggs qui ont débarqué ne représentaient pas un grand problème tant que nous disposions de troupes pour surveiller la mine, mais maintenant que nous nous battons contre la Horde, nous ne pouvons plus en garder le contrôle.\n\nNous avons besoin du matériel qui se trouve à Gouffrefer, <nom>. Entrez dans la mine et rapportez-m'en un chargement.",
+   "progress": "Avez-vous les fournitures, <nom> ? Nous n'en aurons jamais trop !",
+   "completion": "Bien joué ! J'en ferai bon usage. Merci, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 12096,
+     "name": "Intendant Stormpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12096,
+     "name": "Intendant Stormpike"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 55,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": null,
+   "money": 4000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5893": {
+   "id": 5893,
+   "name": "Fournitures de Froide-dent",
+   "objectives": "Apporter 10 Fournitures de Froide-dent à l’intendant de la Horde, au donjon Frostwolf.",
+   "description": "La mine de Froide-dent au nord était autrefois l'endroit idéal pour stocker des réserves de matériel, mais maintenant que les combats contre les Foudrepiques deviennent de plus en plus violents, nous n'avons pas toujours assez de guerriers pour en stationner à la mine pour la protéger. Le contrôle de la mine passe donc souvent à l'Alliance ou à ses habitants souterrains...\n\nMais nous avons grand besoin de nos fournitures, <nom> ! Allez à la mine de Froide-dent et rapportez-m'en un chargement. Et prenez garde aux ennemis en chemin. L'équilibre des forces en présence peut changer très vite là-bas...",
+   "progress": "Êtes-vous allé dans la mine de Froide-dent, <nom> ? Avez-vous les fournitures que je vous ai demandées ?",
+   "completion": "Ah, vous les avez. Bon travail, <nom> ! Ces fournitures sont un peu moisies d'avoir été stockées dans cette sombre mine si longtemps, mais elles nous seront bien utiles.\n\nMerci, <nom>. Vos efforts sont d'une importance vitale pour le ravitaillement de nos troupes.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 12097,
+     "name": "Intendant Frostwolf"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12097,
+     "name": "Intendant Frostwolf"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 55,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": null,
+   "money": 4000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6741": {
+   "id": 6741,
+   "name": "Plus de butin !",
+   "objectives": null,
+   "description": null,
+   "progress": "J'ai besoin de plus de Morceaux d'armure, <nom> ! Vous en avez ?",
+   "completion": "Merci encore, <nom>. La Horde est fière de vous…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13176,
+     "name": "Forgeron Regzar"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13176,
+     "name": "Forgeron Regzar"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "6781": {
+   "id": 6781,
+   "name": "Plus de morceaux d'armure !",
+   "objectives": null,
+   "description": "<nom>, nous avons besoin de davantage de Morceaux d’armure pour équiper nos troupes !",
+   "progress": "<nom>, nous avons besoin de plus de restes d'armure pour approvisionner nos troupes!",
+   "completion": "Ce sont de jolis éléments, <nom>. Je peux les utiliser pour fabriquer de nouveaux équipements pour nos troupes.\n\nSi mes fournitures atteignent un niveau suffisant, peut-être nos troupes aguerries pourront-elles entrer sur le champ de bataille.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13257,
+     "name": "Murgot Deepforge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13257,
+     "name": "Murgot Deepforge"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "6801": {
+   "id": 6801,
+   "name": "Lokholar le Seigneur des Glaces",
+   "objectives": null,
+   "description": null,
+   "progress": "Je viens de Thunder Bluff, <nom>. Cairne en personne m’a diligenté afin que j’assiste le clan Frostwolf en ces temps difficiles.\n\nMais ne perdons pas plus de temps. Vous devez abattre nos ennemis et me rapporter un peu de leur sang. Une fois que le sang aura été collecté, le rituel d’invocation pourra commencer.\n\nLa victoire sera certaine lorsque le Seigneur élémentaire sera lâché sur l’armée des Stormpike.",
+   "completion": "Le sang de nos ennemis a été versé. Je vais le mélanger avec celui qui a déjà été récolté. Une fois l’offrande complète, le Seigneur de glace montrera à ces chiens de Stormpike ce qu’est la colère du clan Frostwolf !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13236,
+     "name": "Primaliste Thurloga"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13236,
+     "name": "Primaliste Thurloga"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "6825": {
+   "id": 6825,
+   "name": "L'appel des airs - l'escadrille de Guse",
+   "objectives": null,
+   "description": null,
+   "progress": "Nous devons préparer la nouvelle flotte des Chevaucheurs de guerre, <nom> ! Mes Chevaucheurs sont prêts pour combattre au centre du champ de bataille, mais d’abord nous devons les mettre en appétit et les préparer à l’assaut.\n\nIl me faut suffisamment de chair de soldats Stormpike pour nourrir la flotte ! Des centaines de kilos de viande ! Je suis sûr que vous pouvez vous occuper de ça, n’est-ce pas ?",
+   "completion": "La flotte se nourrit de leur chair. Cela consume l'ennemi.\n\nLe vol est imminent !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13179,
+     "name": "Chef d'escadrille Guse"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13179,
+     "name": "Chef d'escadrille Guse"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "6826": {
+   "id": 6826,
+   "name": "L'appel des airs - l'escadrille de Jeztor",
+   "objectives": null,
+   "description": null,
+   "progress": "Vous avez bien travaillé, <nom>, mais nous ne faisons que commencer !\n\nMes Chevaucheurs de guerre doivent goûter à la chair de leurs cibles. Cela permettra d’obtenir comme qui dirait une frappe chirurgicale contre nos ennemis !\n\nMa flotte est la seconde plus puissante de toute notre force aérienne. Ce sont eux qui frapperont les plus puissants de nos adversaires. Pour cela, je le répète, il nous faut de la chair des Lieutenants de l'Alliances.\n\nFaites vite !",
+   "completion": "Encore ! Encore ! Il en faut plus car ils seront bientôt prêts !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13180,
+     "name": "Chef d'escadrille Jeztor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13180,
+     "name": "Chef d'escadrille Jeztor"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "6827": {
+   "id": 6827,
+   "name": "L'appel des airs - l'escadrille de Mulverick",
+   "objectives": null,
+   "description": null,
+   "progress": "J’ai subi un emprisonnement inhumain dans ce trou à rats. Vous pouvez me croire quand je vous dis que je n’aspire qu’à la vengeance !\n\nNous devons agir avec prudence, néanmoins.\n\nD’abord, mes Chevaucheurs de guerre ont besoin de cibles, de cibles prioritaires. Je me dois de les nourrir avec la chair des commandants de l'Alliance. Malheureusement, ces petits couards sont retranchés loin derrière leurs lignes. Vous avez du pain sur la planche, on peut le dire !",
+   "completion": "Insuffisant ! Ce genre de travail est correct pour un initié, mais vous, <nom> ? En avant, soldat, il faut encore de la chair !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13181,
+     "name": "Chef d'escadrille Mulverick"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13181,
+     "name": "Chef d'escadrille Mulverick"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "6846": {
+   "id": 6846,
+   "name": "Que l'attaque commence !",
+   "objectives": null,
+   "description": "Lors de l'achèvement de cette quête vous gagnerez :\n\n10 points de réputation avec Garde Foudrepique10 points de réputation avec Forgefer\n\nVérifiez si vous l'avez déjà terminé en tapant :",
+   "progress": "Mes troupes sont ravitaillées et prêtes à l'assaut. Nous avons juste besoin des ordres de Noreg Stormpike et je les enverrai dans la mêlée !",
+   "completion": "Ah, les ordres ! Ils disent que je dois attaquer à volonté, et ma volonté dit... maintenant !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13446,
+     "name": "Grand maréchal Teravaine"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13446,
+     "name": "Grand maréchal Teravaine"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "6847": {
+   "id": 6847,
+   "name": "L'Œil qui-voit-tout de Maître Ryson",
+   "objectives": "Récupérer l’Oeil qui-voit-tout de Maître Ryson dans les Grottes Haches-d’hiver, puis le rapporter à Maître Ryson.\n\nSachez que l’on dit de l’Oeil qui-voit-tout de Maître Ryson qu’il contient une terrible malédiction !",
+   "description": "Votre guerre dans le cœur d’Alterac ne signifie rien pour le Syndicat, <classe>. Nous ferons comme nous avons toujours fait : attendre jusqu’à ce qu’une opportunité claire de victoire émerge des cendres et des décombres, puis frapper.\n\nCe n’est pas pour cela, cependant, que nous sommes là aujourd’hui. L’Oeil-qui-voit-tout a été volé par les trolls Haches-d’hiver de la région.\n\nRécupérez l’Oeil et nous nous mettrons à votre service.\n\nRevenez me voir, une fois que l’Oeil est en votre possession, et puis je réfléchirai à la question.\n\n<Maître Ryson sourit.>",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13151,
+     "name": "Maître du Syndicat Ryson"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13151,
+     "name": "Maître du Syndicat Ryson"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Maître Ryson sourit.",
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6848": {
+   "id": 6848,
+   "name": "L'Œil qui voit tout de maître Ryson",
+   "objectives": "Récupérer l’Oeil-qui-voit-tout de Maître Ryson dans les Grottes Winterax, puis le rapporter à Maître Ryson.\n\nSachez que l’on dit de l’Oeil-qui-voit-tout de Maître Ryson qu’il contient une terrible malédiction !",
+   "description": "Votre guerre dans le cœur d’Alterac ne signifie rien pour le Syndicat, <classe>. Nous ferons comme nous avons toujours fait : attendre jusqu’à ce qu’une opportunité claire de victoire émerge des cendres et des décombres, puis frapper.\n\nCe n’est pas pour cela, cependant, que nous sommes là aujourd’hui. L’Oeil-qui-voit-tout a été volé par les trolls Haches-d’hiver de la région.\n\nRécupérez l’Oeil et nous nous mettrons à votre service.\n\nRevenez me voir, une fois que l’Oeil est en votre possession, et puis je réfléchirai à la question.\n\n<Maître Ryson sourit.>",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13151,
+     "name": "Maître du Syndicat Ryson"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13151,
+     "name": "Maître du Syndicat Ryson"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Maître Ryson sourit.",
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6861": {
+   "id": 6861,
+   "name": "Le Déchiqueteur portable de Zinfizzlex",
+   "objectives": "Le Maître Ingénieur Zinfizzlex veut que vous lui apportiez les matériaux suivants :\n\n*30 Barres de thorium.\n\n*50 Barres de Mithril.\n\n*75 Barres de fer.\n\n*1 Scie mécanique.",
+   "description": "J'ai hâte de faire l'essai de mon Déchiqueteur portable, <nom>, mais avant que je ne puisse fabriquer le kit, j'ai besoin de beaucoup de matériel !\n\nPour être précis, il me faut une montagne de thorium, de mithril et de fer. J'aurai également besoin d'une Scie mécanique par unité. Vous les trouverez à la scierie.\n\nAlors que je traînais dans les environs (avant ma capture) j'ai remarqué une pile de Scies mécaniques, au Camp de bûcherons des Foudrepiques.",
+   "progress": "Je suis aussi impatiente que vous d'essayer ma déchiqueteuse portable, <race>, mais avant de pouvoir fabriquer le kit, je vais avoir besoin de matériel - beaucoup de matériel !\n\nPour être exact, il me faut une montagne de thorium, de mithril et de fer. J'aurai également besoin d'une scie à vapeur par unité. Il faut aller les chercher à la scierie.\n\nQuand j'étais ici (avant ma capture), j'ai remarqué une pile de scies à vapeur dans le camp de Stormpike.\n\nL'ingénieur en chef Zinfizzlex veut que vous lui apportiez ce qui suit :",
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13377,
+     "name": "Maître ingénieur Zinfizzlex"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13377,
+     "name": "Maître ingénieur Zinfizzlex"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6862": {
+   "id": 6862,
+   "name": "Le Déchiqueteur portable de Zinfizzlex",
+   "objectives": "Le Maître Ingénieur Zinfizzlex veut que vous lui apportiez les matériaux suivants :\n\n*30 Barres de thorium.\n\n*50 Barres de Mithril.\n\n*75 Barres de fer.\n\n*1 Scie mécanique.",
+   "description": "J'ai hâte de faire l'essai de mon Déchiqueteur portable, <nom>, mais avant que je ne puisse fabriquer le kit, j'ai besoin de beaucoup de matériel !\n\nPour être précis, il me faut une montagne de thorium, de mithril et de fer. J'aurai également besoin d'une Scie mécanique par unité. Vous les trouverez à la scierie.\n\nAlors que je traînais dans les environs (avant ma capture), j'ai remarqué une pile de Scies mécaniques au Camp de bûcherons de Loup-de-givre.",
+   "progress": "Je suis aussi impatiente que vous d'essayer ma déchiqueteuse portable, <race>, mais avant de pouvoir fabriquer le kit, je vais avoir besoin de matériel - beaucoup de matériel !\n\nPour être exact, il me faut une montagne de thorium, de mithril et de fer. J'aurai également besoin d'une scie à vapeur par unité. Il faut aller les chercher à la scierie.\n\nQuand j'étais ici (avant ma capture), j'ai remarqué une pile de scies à vapeur dans le camp de Stormpike.\n\nL'ingénieur en chef Zinfizzlex veut que vous lui apportiez ce qui suit :",
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13377,
+     "name": "Maître ingénieur Zinfizzlex"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13377,
+     "name": "Maître ingénieur Zinfizzlex"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6881": {
+   "id": 6881,
+   "name": "Ivus le Seigneur des forêts",
+   "objectives": null,
+   "description": "Le clan Frostwolf est protégé par un poison constitué d'énergie élémentaire. Leurs chamans ont développé des pouvoirs qui nous détruiront jusqu'au dernier, si on laisse les choses suivre leur cours.\n\nLa menace est maintenant trop importante pour le Cercle. Ivus doit être appelé à l'aide.\n\nLes soldats Frostwolf portent des charmes élémentaires, appelés Cristaux de tempête. Nous pouvons utiliser ces charmes pour invoquer Ivus. Partez maintenant et récupérez ces cristaux, <nom> !",
+   "progress": "Le clan Frostwolf est protégé par un poison constitué d'énergie élémentaire. Leurs chamans ont développé des pouvoirs qui nous détruiront jusqu'au dernier, si on laisse les choses suivre leur cours.\n\nLa menace est maintenant trop importante pour le Cercle. Ivus doit être appelé à l'aide.\n\nLes soldats Frostwolf portent des charmes élémentaires, appelés Cristaux de tempête. Nous pouvons utiliser ces charmes pour invoquer Ivus. Partez maintenant et récupérez ces cristaux, <nom> !",
+   "completion": "Bien joué, <nom>. Je vais me servir du pouvoir de ce charme pour augmenter la magie qui a déjà été collectée. Lorsque nous aurons assez de puissance, je focaliserai les énergies et j’appellerai le Seigneur des forêts pour aider notre cause.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13442,
+     "name": "Archidruide Renferal"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13442,
+     "name": "Archidruide Renferal"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "6901": {
+   "id": 6901,
+   "name": "Lancez l'attaque !",
+   "objectives": null,
+   "description": null,
+   "progress": "Mes troupes sont ravitaillées et prêtes à l'assaut. Nous avons juste besoin des ordres du Quartermaster Frostwolf et je les enverrai dans la mêlée !",
+   "completion": "Il était temps ! Nous allons pouvoir montrer à l'Alliance qu'elle a eu tort de venir dans la vallée d'Alterac !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13449,
+     "name": "Maître de guerre Garrick"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13449,
+     "name": "Maître de guerre Garrick"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 1,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "6941": {
+   "id": 6941,
+   "name": "L'appel des airs - l'escadrille de Vipore",
+   "objectives": null,
+   "description": "Les troupes d'élite de la Horde en faction sur la ligne de front doivent être engagées ! Je vous demande de tailler dans cette bande de sauvages et d'en faire chuter les effectifs. Revenez me voir avec les Médailles de leurs Lieutenants et de leurs Légionnaires. Lorsque un nombre suffisant de cette racaille aura étouffé dans son propre sang, je ferai déployer la force aérienne.",
+   "progress": "Les troupes d'élite de la Horde en faction sur la ligne de front doivent être engagées ! Je vous demande de tailler dans cette bande de sauvages et d'en faire chuter les effectifs. Revenez me voir avec les Médailles de leurs Lieutenants et de leurs Légionnaires. Lorsque un nombre suffisant de cette racaille aura étouffé dans son propre sang, je ferai déployer la force aérienne.",
+   "completion": "Le vol sera bientôt prêt. Continuez vos efforts !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13439,
+     "name": "Chef d'escadrille Vipore"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13439,
+     "name": "Chef d'escadrille Vipore"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "6942": {
+   "id": 6942,
+   "name": "L'appel des airs - l'escadrille de Slidore",
+   "objectives": null,
+   "description": "Mes gryphons sont en place pour donner l'assaut frontal, mais ils ne peuvent pas le faire tant que les rangs ennemis n'auront pas été réduits préalablement.\n\nLes guerriers de la Horde chargés de tenir la ligne de front portent des Médailles qu'ils arborent fièrement sur leurs poitrines. Arrachez ces Médailles à leurs cadavres et rapportez-les-moi.\n\nUne fois que les effectifs ennemis de la ligne de front auront été suffisamment réduits, je ferai donner la force aérienne !",
+   "progress": "Mes gryphons sont en place pour donner l'assaut frontal, mais ils ne peuvent pas le faire tant que les rangs ennemis n'auront pas été réduits préalablement.\n\nLes guerriers de la Horde chargés de tenir la ligne de front portent des Médailles qu'ils arborent fièrement sur leurs poitrines. Arrachez ces Médailles à leurs cadavres et rapportez-les-moi.\n\nUne fois que les effectifs ennemis de la ligne de front auront été suffisamment réduits, je ferai donner la force aérienne !",
+   "completion": "Il faut que ça entre, soldat ! Les gryphons du Nid-de-l'Aigle seront prêts à frapper en un rien de temps !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13438,
+     "name": "Chef d'escadrille Slidore"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13438,
+     "name": "Chef d'escadrille Slidore"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "6943": {
+   "id": 6943,
+   "name": "L'appel des airs - l'escadrille d'Ichman",
+   "objectives": null,
+   "description": "Leur moral est au plus bas. Depuis l'échec cuisant de notre dernière attaque aérienne contre la Horde, ils refusent de voler ! C'est à vous maintenant de remonter leur moral.\n\nRetournez sur le champ de bataille et frappez le coeur du commandement de la Horde. Abattez leurs commandants et leurs gardiens. Revenez me voir quand vous aurez récupéré autant de Médailles que peut en contenir votre sac ! Je vous promets que lorsque mes gryphons verront ce butin et qu'ils sentiront l'odeur de leur sang sur les Médailles, ils seront prêts à reprendre le combat. Partez maintenant !",
+   "progress": "Leur moral est au plus bas. Depuis l'échec cuisant de notre dernière attaque aérienne contre la Horde, ils refusent de voler ! C'est à vous maintenant de remonter leur moral.\n\nRetournez sur le champ de bataille et frappez le coeur du commandement de la Horde. Abattez leurs commandants et leurs gardiens. Revenez me voir quand vous aurez récupéré autant de Médailles que peut en contenir votre sac ! Je vous promets que lorsque mes gryphons verront ce butin et qu'ils sentiront l'odeur de leur sang sur les Médailles, ils seront prêts à reprendre le combat. Partez maintenant !",
+   "completion": "Vous ne voyez pas ? Regardez, soldat ! Ils approchent ! Bientôt, l'escadrille d'Ichman frappera de nouveau au coeur de la vallée ! Les Stormpike régneront dans les cieux !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13437,
+     "name": "Chef d'escadrille Ichman"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13437,
+     "name": "Chef d'escadrille Ichman"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "6982": {
+   "id": 6982,
+   "name": "Fournitures de Froide-dent",
+   "objectives": "Apporter 10 Fournitures de Froide-dent à l'intendant de l’Alliance, à Dun Baldar.",
+   "description": "La mine de Froide-dent est un dépôt de stockage de la Horde. Je ne supporte pas la nourriture qu'ils donnent à leurs troupes, et leurs armes et armures sont dans un état atroce ! Mais... dans des temps pareils, quand les fournitures sont d'une importance capitale, tout cela peut quand même nous être utile.\n\nEntrez dans la mine de Froide-dent et rapportez-moi leur matériel. Cela aidera l'Alliance à rester à même de se battre, et privera les guerriers de la Horde d'équipement dont ils auraient bien besoin.\n\nBonne chance, <nom>. La mine est au sud, loin dans le territoire de la Horde.",
+   "progress": "Êtes-vous entré dans la mine de Froide-dent dans le territoire de la Horde, <nom> ? Avez-vous pillé leurs fournitures ?",
+   "completion": "Vous les avez ! Bien joué, <nom> ! Je vais examiner ces fournitures et les préparer pour nos propres troupes !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 12096,
+     "name": "Intendant Stormpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12096,
+     "name": "Intendant Stormpike"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 55,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": null,
+   "money": 8500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6985": {
+   "id": 6985,
+   "name": "Fournitures de Gouffrefer",
+   "objectives": "Apporter 5 Fournitures de Gouffrefer à l'Intendant de la Horde, au donjon Frostwolf.",
+   "description": "Les nains Foudrepique se servent de la mine de Gouffrefer pour stocker leurs réserves. Pillez-la, rapporter-moi leurs fournitures. Cela ralentira leurs efforts dans la vallée d’Alterac, tout en nous donnera l’équipement dont nous avons besoin !\n\nFaites attention, <nom>. La mine de Gouffrefer se trouve loin dans le territoire de l’Alliance, et elle a changé de mains maintes et maintes fois.",
+   "progress": "Êtes-vous entré dans la mine de Gouffrefer, <nom>? Avez-vous pillé les fournitures ?",
+   "completion": "Vous les avez ! Bien joué, <nom> ! J'espère que vous avez vu quelques nains pendant votre raid et que vous avez versé leur sang pour les Frostwolf !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 12097,
+     "name": "Intendant Frostwolf"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12097,
+     "name": "Intendant Frostwolf"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 55,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": null,
+   "money": 8500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7001": {
+   "id": 7001,
+   "name": "Ecuries vides",
+   "objectives": "Trouvez un Loup des glaces dans la vallée d’Alterac. Servez-vous de la Muselière de loup des glaces pour « dompter » la bête. Lorsque ce sera fait, le loup des glaces vous suivra jusqu’au Maître des écuries Frostwolf. Parlez au Maître des écuries Frostwolf pour être crédité de cette capture.",
+   "description": "La guerre dans la vallée a coûté cher à nos soldats. Nous devons stimuler nos forces !\n\nSi nous pouvons remplir les écuries, nos Chevaucheurs de loups pourront se joindre à nouveau à la bataille.\n\nPrenez cette muselière et traquez les loups des glaces qui vivent dans la forêt voisine. Lorsque vous en trouverez un, servez-vous de la muselière pour le dompter.\n\nLorsqu’il y aura assez de loups dans l’écurie, les Chevaucheurs de loups recommenceront à patrouiller sur nos lignes.",
+   "progress": "Sans votre aide, les chevaucheurs de loups Frostwolf n'auraient pas de montures à chevaucher. Vous nous avez rendu un grand service !",
+   "completion": "J’espère que ceux qui doivent récolter les peaux de bélier sont aussi déterminés que vous, <nom>.\n\nA ce rythme, les écuries seront pleines dans quelques heures !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13616,
+     "name": "Maître des écuries Frostwolf"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13616,
+     "name": "Maître des écuries Frostwolf"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7002": {
+   "id": 7002,
+   "name": "Harnais en cuir de bélier",
+   "objectives": "Certains de nos soldats sont occupés à capturer des loups pour le maître des écuries. D’autres doivent nous fournir les accessoires nécessaires à la monte. Je parle des harnais, bien sûr.\n\nVous devez vous procurer les matières premières sur les béliers de la région. Oui, ceux-là même que les Stormpike utilisent comme montures !\n\nTuez-les et ramenez-moi leurs peaux. Lorsque vous en aurez assez, nous fabriquerons des harnais, et les Chevaucheurs de loups Frostwolf entreront dans la bataille !",
+   "description": "Certains de nos soldats sont occupés à capturer des loups pour le maître des écuries. D’autres doivent nous fournir les accessoires nécessaires à la monte. Je parle des harnais, bien sûr.\n\nVous devez vous procurer les matières premières sur les béliers de la région. Oui, ceux-là même que les Stormpike utilisent comme montures !\n\nTuez-les et ramenez-moi leurs peaux. Lorsque vous en aurez assez, nous fabriquerons des harnais, et les Chevaucheurs de loups Frostwolf entreront dans la bataille !",
+   "progress": "J'ai hâte de faire l'essai de mon déchiqueteur portatif, <race>, mais avant que je ne puisse fabriquer le kit, j'ai besoin de beaucoup de matériel !\n\nPour être précis, il me faut une montagne de thorium, de mithril et de fer. J'aurai également besoin d'une scie à vapeur par unité. Vous les trouverez à la scierie.\n\nAlors que je traînais dans les environs (avant ma capture) j'ai remarqué une pile de scies à vapeur, au Camp de bûcherons des Foudrepiques.",
+   "completion": "Bon travail, soldat. Je vous dirai quand nous aurons assez de ces peaux.\n\nContinuez !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13441,
+     "name": "Commandant Chevaucheur de loup Frostwolf"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13441,
+     "name": "Commandant Chevaucheur de loup Frostwolf"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7026": {
+   "id": 7026,
+   "name": "Harnais pour béliers",
+   "objectives": "La brigade Stormpike ne peut pas charger à cru ! Il nous faut des harnais pour nos montures. Après tout, nous ne sommes pas des sauvages.\n\nNous pourrions tuer les béliers qui s'aventurent près de notre base pour fabriquer ces harnais, mais ce serait idiot : nous en avons besoin comme montures.\n\nVous devez attaquer la base ennemie, tuer leurs loups de monte et prendre leur peaux. Ramenez-les-moi, et nous en ferons des harnais pour la cavalerie. Allez !",
+   "description": "La brigade Stormpike ne peut pas charger à cru ! Il nous faut des harnais pour nos montures. Après tout, nous ne sommes pas des sauvages.\n\nNous pourrions tuer les béliers qui s'aventurent près de notre base pour fabriquer ces harnais, mais ce serait idiot : nous en avons besoin comme montures.\n\nVous devez attaquer la base ennemie, tuer leurs loups de monte et prendre leur peaux. Ramenez-les-moi, et nous en ferons des harnais pour la cavalerie. Allez !",
+   "progress": "J'ai hâte de faire l'essai de mon déchiqueteur portatif, <race>, mais avant que je ne puisse fabriquer le kit, j'ai besoin de beaucoup de matériel !\n\nPour être précis, il me faut une montagne de thorium, de mithril et de fer. J'aurai également besoin d'une scie à vapeur par unité. Vous les trouverez à la scierie.\n\nAlors que je traînais dans les environs (avant ma capture) j'ai remarqué une pile de scies à vapeur, au Camp de bûcherons des Foudrepiques.",
+   "completion": "Bon travail, soldat. Je vous dirai quand nous aurons assez de ces peaux.\n\nContinuez !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13577,
+     "name": "Commandant Chevaucheur de bélier Stormpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13577,
+     "name": "Commandant Chevaucheur de bélier Stormpike"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7027": {
+   "id": 7027,
+   "name": "Écuries vides",
+   "objectives": "Trouvez un Bélier d'Alterac dans la vallée d'Alterac. Lorsque vous serez à proximité, servez-vous du Collier d'entraînement Stormpike pour le \"dompter\". Une fois dompté, le Bélier d'Alterac vous suivra jusqu'au Maître des écuries. Parlez au Maître des écuries pour être crédité de cette capture.",
+   "description": "Regardez les écuries, <nom> ! Vides ! La brigade de Foudrepique n’a plus de béliers à monter. Notre cavalerie n’existe plus.\n\nVous devez nous aider, soldat. Prenez ce collier d’entraînement et aventurez-vous dans la partie sauvage de la vallée. Trouvez les béliers d’Alterac qui y vagabondent et servez-vous du collier pour en capturer un. Lorsque vous l’aurez, amenez-le ici et je le mettrai à l’écurie.\n\nLorsque nous aurons assez de béliers, j’en informerai l’officier responsable. Avec votre aide, la cavalerie va ressusciter !",
+   "progress": "Sans votre aide, les monteurs de béliers Stormpike n'auraient pas de montures à chevaucher. Vous nous avez rendu un grand service !",
+   "completion": "Les écuries seront pleines en un rien de temps. Continuez à bien travailler !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13617,
+     "name": "Maître des écuries Stormpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13617,
+     "name": "Maître des écuries Stormpike"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7081": {
+   "id": 7081,
+   "name": "Les cimetières de la vallée d'Alterac",
+   "objectives": "Attaquez un cimetière, puis présentez-vous au caporal Noreg Stormpike à Dun Baldar.",
+   "description": "Les cimetières de la vallée d’Alterac sont des territoires de choix. La Horde et l’Alliance se battent sauvagement pour conserver le contrôle de ces terres consacrées. Êtes-vous <prêt/prête> à vous joindre à ce combat, <nom> ?\n\nJe veux que vous attaquiez un cimetière ennemi. Trouvez un cimetière sur lequel flotte la bannière de la Horde et arrachez-la ! Si vous y parvenez, la tâche que je vous ai assignée sera achevée…\n\nMais si vous le tenez pour quelques minutes supplémentaires, nos troupes viendront vous relever.",
+   "progress": "<nom>, vous n'avez pas encore attaqué un cimetière. Revenez à moi quand cette tâche sera terminée!",
+   "completion": "Bien joué ! Les cimetières sont vitaux pour notre contrôle de la vallée d’Alterac. Lorsque vous en prenez un, vous aidez l’Alliance a y assurer sa souveraineté.\n\nAllez maintenant, <nom>. Entrez dans la bataille, et si vous trouvez un cimetière sous le contrôle de la Horde, vous savez quoi faire !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13777,
+     "name": "Sergent Durgen Stormpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13777,
+     "name": "Sergent Durgen Stormpike"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 6600,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7082": {
+   "id": 7082,
+   "name": "Les cimetières d'Alterac",
+   "objectives": "Attaquez un cimetière, puis présentez-vous au caporal Teeka Bloodsnarl dans les montagnes d'Alterac.",
+   "description": "Dans cette vallée, la ligne de front fluctue sans cesse. Les territoires avancent et reculent au gré des affrontements avec nos adversaires. Il se trouve que les cimetières sont l’endroit où le conflit est le plus intense, <nom>.\n\nPrenez un cimetière à l’Alliance ! Trouvez un cimetière avec une bannière de l’Alliance plantée en son centre et arrachez-la !\n\nSi vous y parvenez, la tâche que je vous ai assignée sera achevée, mais si vous tenez le cimetière pendant quelques minutes supplémentaires, il nous appartiendra et nos troupes viendront vous relever.",
+   "progress": "Attaquez un cimetière tenu par l'Alliance !",
+   "completion": "Bien joué, <nom> ! Avec ce cimetière sous notre contrôle, les esprits de nos ennemis vont errer, perdus et impuissants…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13776,
+     "name": "Caporal Teeka Bloodsnarl"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13776,
+     "name": "Caporal Teeka Bloodsnarl"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 6600,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7101": {
+   "id": 7101,
+   "name": "Tours et fortins",
+   "objectives": "Prenez une tour ennemie, puis présentez-vous au caporal Teeka Bloodsnarl dans les montagnes d'Alterac.",
+   "description": "Les tours et les fortins sont des positions défensives de très grande valeur, et nous devons tous les prendre. Je veux que vous attaquiez un fortin ou une tour détenu par l’ennemi.\n\nPour cela, entrez dans une tour ou un fortin sur lequel flotte la bannière de l’Alliance. À l’intérieur, vous trouverez une autre bannière ennemie. Prenez-la, et la bannière blanche de la Horde apparaîtra à sa place. Bien joué !\n\nÀ ce stade, votre mission sera achevée, mais si vous tenez assez longtemps et si l’Alliance ne contre-attaque pas, la zone tombera entre nos mains !",
+   "progress": "Vous n'avez pas encore attaqué de bunker, <nom> ! Vous attendez que d'autres s'emparent de votre gloire ?",
+   "completion": "J’entendu dire que vous aviez réussi. Cela me plaît…\n\nNos troupes vont bientôt charger les troupes de l’Alliance en toute impunité, et leur montrer que la vallée d’Alterac ne leur appartient pas !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13776,
+     "name": "Caporal Teeka Bloodsnarl"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13776,
+     "name": "Caporal Teeka Bloodsnarl"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 6600,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7102": {
+   "id": 7102,
+   "name": "Tours et fortins",
+   "objectives": "Détruisez la bannière d'une tour ou d'un fortin ennemi, puis présentez-vous au sergent Durgen Stormpike à Dun Baldar.",
+   "description": "Les tours et les fortins sont des positions défensives de très grande valeur, et nous devons en tenir autant que possible. Je veux que vous attaquiez un fortin ou une tour détenue par l’ennemi.\n\nPour cela, entrez dans une tour ou un fortin sur lequel flotte la bannière de la Horde. À l’intérieur, vous trouverez une autre bannière ennemie. Prenez-la, et la bannière blanche de l’Alliance apparaîtra à sa place. Bien joué !\n\nÀ ce stade, votre mission sera achevée, mais si vous tenez assez longtemps et si la Horde ne contre-attaque pas, la zone tombera entre nos mains !",
+   "progress": "Tu n'as pas encore attaqué une tour, <nom> ! Qu'attendez-vous ?",
+   "completion": "J'ai reçu un rapport signalant que vous aviez aidé à saisir une bannière ennemie. Bien joué, <nom> ! Comme leurs tireurs ne sont plus en position, nous pourrons tenir la zone contre les prochaines attaques de la Horde !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13777,
+     "name": "Sergent Durgen Stormpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13777,
+     "name": "Sergent Durgen Stormpike"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 6600,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7121": {
+   "id": 7121,
+   "name": "L'intendant",
+   "objectives": "Parlez à l’Intendant Stormpike.",
+   "description": "<nom>, notre indendant m’a demandé de lui envoyer les nouvelles recrues. Il a besoin du matériel conservé dans les caches dissimulées dans les mines d’Alterac, et il va sans doute vous envoyer le récupérer.\n\nSuivez la route. Vous trouverez l’indendant à l’ouest.",
+   "progress": null,
+   "completion": "C’est bon de voir des troupes fraîches ici, <nom>, mais avec un peu de chance il y aura bientôt de l’action et vous ne serez plus si frais !\n\nÉcoutez, j''ai des tâches à vous proposer…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13797,
+     "name": "Montagnard Boombellow"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12096,
+     "name": "Intendant Stormpike"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7122": {
+   "id": 7122,
+   "name": "Prendre une mine",
+   "objectives": "Prenez une mine que les Stormpike ne contrôlent pas, puis présentez-vous à l’intendant Stormpike à Dun Baldar.",
+   "description": "Les mines de la vallée d’Alterac renferment bien davantage que du minerai. Les Loups-de-givre et les Foudrepiques ont dissimulé du matériel dans les mines de Gouffrefer et de Froide-dent… ce ne serait pas une mauvaise idée, si seulement nous pouvions en garder le contrôle !\n\nPrenez une mine, puis revenez me voir. Pour prendre une mine, entrez dans une de celles que nous ne contrôlons pas et tuez son chef. Lorsque ce sera fait, la mine sera à nous et nous enverrons des troupes pour la protéger !",
+   "progress": "Vous n'avez pas encore capturé la mine, <nom> !\n\nUne fois que nous aurons pris le contrôle d'une mine, il sera beaucoup plus facile d'en extraire des minerais et des fournitures.",
+   "completion": "Vous l’avez fait ! Bravo, <nom> !\n\nLorsque nous contrôlons une mine et que nous y stationnons des troupes, il est beaucoup plus facile d’y récolter du minerai et du matériel.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13777,
+     "name": "Sergent Durgen Stormpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13777,
+     "name": "Sergent Durgen Stormpike"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 6600,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7123": {
+   "id": 7123,
+   "name": "Parlez à notre Intendant",
+   "objectives": "Parlez à l’Intendant Frostwolf.",
+   "description": "<nom>, l'Intendant des Loups-de-givre cherche des recrues pour accomplir des tâches qui les conduiront dans les mines de la vallée d'Alterac. Allez lui parler, il vous en dira davantage.\n\nSuivez la route vers l'ouest jusqu'au fortin, puis prenez la sortie ouest et vous trouverez notre intendant.",
+   "progress": null,
+   "completion": "Salut, <nom> ! Cela fait du bien de voir un <classe> comme vous, enthousiaste à l'idée de faire sa part pour la Horde. Écoutez-moi bien, car j'ai des tâches d'une importance capitale à vous confier…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13798,
+     "name": "Jotek"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12097,
+     "name": "Intendant Frostwolf"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7124": {
+   "id": 7124,
+   "name": "Prendre une mine",
+   "objectives": "Prenez une mine, puis présentez-vous au caporal Teeka Bloodsnarl dans les montagnes d'Alterac.",
+   "description": "La bataille fait rage dans la vallée d’Alterac, mais aussi dans les mines de Froide-dent et de Gouffrefer. Ces deux exploitations sont riches en minerais, et sont toutes deux utilisées pour y stocker du matériel ; ce n’est pas étonnant qu’elles soient autant appréciées !\n\nContribuez à notre effort de guerre, <nom> ! Capturez une mine pour la Horde ! Pour y parvenir, entrez dans une mine que nous ne contrôlons pas et tuez son chef. La mine sera alors à nous, et nous enverrons des troupes pour la protéger !",
+   "progress": "Vous n'avez pas encore capturé de mine, <nom> ! Trouvez-en une que nous ne contrôlons pas et battez son chef !",
+   "completion": "Vous avez pris une mine ! Maintenant que nos propres guerriers la protègent, il sera bien plus simple d'extraire du minerai de ses profondeurs, ou de rassembler les fournitures qui y ont été stockées.\n\nBien joué, <nom>. L'acte que vous avez accompli est un véritable bienfait pour notre effort de guerre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13776,
+     "name": "Caporal Teeka Bloodsnarl"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13776,
+     "name": "Caporal Teeka Bloodsnarl"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 6600,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7141": {
+   "id": 7141,
+   "name": "La bataille d'Alterac",
+   "objectives": "Entrez dans la vallée d'Alterac, tuez Drek'thar, le général de la Horde, puis retournez voir la Prospectrice Stonehewer dans les montagnes d'Alterac.",
+   "description": "La Ligue des Explorateurs soupçonne la présence d’artefacts dans la vallée d’Alterac, mais les orcs Loup-de-givre nous empêchent de l’explorer. Nous ne pouvons pas laisser la Horde faire obstacle à la poursuite du savoir ! Abattez Drek’Thar, leur général. Sans lui, les Loups-de-givre perdront leur mordant.\n\nDrek’Thar est au donjon Loup-de-givre, au sud de la vallée d'Alterac. Tuez-le et revenez me voir.",
+   "progress": "Allez, <nom>. Va dans la vallée d'Alterac et bats le général orc !",
+   "completion": "Bien joué, <nom> ! Avec le nez de la Horde ensanglanté par la mort de son général, nous aurons le souffle nécessaire pour explorer !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13816,
+     "name": "Prospectrice Stonehewer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13816,
+     "name": "Prospectrice Stonehewer"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 9950,
+   "money": 27000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7142": {
+   "id": 7142,
+   "name": "La bataille pour Alterac",
+   "objectives": "Entrez dans la vallée d'Alterac, tuez Vanndar Stormpike, le général nain, puis retournez voir Voggah Deathgrip dans les montagnes d'Alterac",
+   "description": "Les nains Foudrepique et leurs alliés ont envahi la vallée d'Alterac, et nous devons les chasser !\n\nPour cela, nous devons vaincre leur général, Vanndar Foudrepique.\n\nVous trouverez Vanndar à Dun Baldar, dans le nord de la vallée d'Alterac. Tuez-le, <nom>, et revenez me voir.",
+   "progress": "Nous ne tolérerons pas les nains dans notre maison ! Tombez sur nos ennemis et battez leur chef, le général Stormpike !",
+   "completion": "Bien joué, <nom>. Cette stupide invasion est condamnée.\n\nBah ! Tout ce qu'ils ont réussi à obtenir, c'est un général mort !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13817,
+     "name": "Voggah Deathgrip"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13817,
+     "name": "Voggah Deathgrip"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 9950,
+   "money": 27000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7161": {
+   "id": 7161,
+   "name": "Montrer sa valeur",
+   "objectives": "Rendez-vous dans les cavernes des Follepattes, au sud-est de la base principale, et récupérez la Bannière Frostwolf qui s’y trouve. Ramenez-la au Maître de guerre Laggrond.",
+   "description": "Salutations, <classe>. Il y a bien longtemps que nous n’avons pas eu la chance de répondre à l’appel de la bataille. La vieille envie est lente à monter, mais lorsqu’elle s’éveille, le sang court plus vite dans nos veines. La rage de la bataille revient…\n\nTous les nouveaux venus dans la vallée doivent accomplir le rite de la bataille.\n\nDans les profondeurs de la caverne des gnolls follepattes se trouve une bannière Loup-de-givre. Allez-y et récupérez-la. Rapportez-la-moi et je vous donnerai l’insigne d’initié des Loups-de-givre.",
+   "progress": "Allez, <nom>, on se réveille ! Ce n’est pas un rêve. Vous êtes vraiment au beau milieu d’une bataille !",
+   "completion": "Vous ressentez comme une brûlure, pas vrai ? C’est votre âme qui s’éveille. Votre esprit a accepté l’appel de la bataille.\n\nVous êtes maintenant un Frostwolf, <nom>. Félicitations.\n\nPortez cet insigne avec vous en toutes circonstances. Au fur et à mesure de votre montée en grade, je le remplacerai par d’autres insignes, plus puissants.\n\nEt qui sait ? Un jour peut-être, vous serez Exalté parmi le clan Frostwolf. Si ce jour arrive, vous recevrez l’Œil du Commandement.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13840,
+     "name": "Maître de guerre Laggrond"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13840,
+     "name": "Maître de guerre Laggrond"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7162": {
+   "id": 7162,
+   "name": "Montrer sa valeur",
+   "objectives": "Rendez-vous dans les cavernes de l'Aile de glace, au sud-ouest de la base principale, et récupérez la Bannière Stormpike qui s’y trouve. Ramenez-la au lieutenant Haggerdin.",
+   "description": "Vous arrivez juste à temps, <classe>. Ces sauvages de Loups-de-givre refusent d’abandonner ! Nous devons leur montrer la puissance des Foudrepiques. Ils doivent s’incliner devant notre supériorité.\n\nAvant de vous risquer sur le champ de bataille, vous devrez rejoindre les rangs des Foudrepiques.\n\nLes cavernes de l'Aile de glace se trouvent au sud-ouest de Dun Baldar. Dans leurs tréfonds, vous trouverez une bannière Foudrepique. Allez-y et récupérez-la. Rapportez-la-moi et vous aurez bien mérité un insigne d’initié Foudrepique.",
+   "progress": "Faites attention aux harpies, <classe>. Elles n’hésiteront pas une seconde à vous égorger !",
+   "completion": "Prenez cet insigne et portez-le avec fierté, <nom>. Il évoluera au fur et à mesure de votre montée en grade parmi les Stormpike. Revenez me voir lorsque vous gagnerez de l’honneur et je remplacerai votre insigne par un autre, plus puissant.\n\nPeut-être deviendrez-vous un jour une légende sur ce champ de bataille. Si ce jour arrive, vous recevrez l’Œil du Commandement.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13841,
+     "name": "Lieutenant Haggerdin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13841,
+     "name": "Lieutenant Haggerdin"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7163": {
+   "id": 7163,
+   "name": "Ascension et reconnaissance",
+   "objectives": null,
+   "description": null,
+   "progress": "<Le Maître de guerre Laggrond vous salue.>\n\nVotre heure a sonné, <nom>. Vous avez rendu service au clan Loup-de-givre. Ce faisant, vous avez mérité une place parmi nous, non seulement comme soldat, mais aussi comme ami.\n\nBien joué ! Présentez votre insigne d'initié.",
+   "completion": "Ce nouvel insigne reflète votre grade parmi les Loups-de-givre. Gardez-le sur vous en permanence.\n\nEt <classe>... Tâchez de mourir avec honneur !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13840,
+     "name": "Maître de guerre Laggrond"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13840,
+     "name": "Maître de guerre Laggrond"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "7164": {
+   "id": 7164,
+   "name": "Honoré au sein du clan",
+   "objectives": null,
+   "description": null,
+   "progress": "Je suis heureux de vous revoir, <classe>. Je ne m'attendais pas à ce que vous reveniez. Hélas, tu as prouvé que tu étais un soldat courageux et honorable du Frostwolf.\n\nTon heure est venue, <nom>. Vous avez mérité un nouveau grade et, en tant que tel, un nouvel insigne qui atteste de cette montée en puissance.\n\nPrésentez votre insigne.",
+   "completion": "<L'armateur Laggrond salue.\n\nAllez, <nom> ! Continuez à défendre le Frostwolf. Cette guerre doit être gagnée ! Pour Drek'Thar ! Pour le Warchief !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13840,
+     "name": "Maître de guerre Laggrond"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13840,
+     "name": "Maître de guerre Laggrond"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "7165": {
+   "id": 7165,
+   "name": "Montée en grade",
+   "objectives": null,
+   "description": null,
+   "progress": "Tant de morts. Un champ saturé de sang. Mais vous êtes en vie. Vous avez persévéré. Vous avez mené nos armées à la victoire. Et pour cela, soldat, vous avez mérité de monter en grade.\n\nPrésentez votre insigne.",
+   "completion": "<Le maître de guerre Laggrond rugit. >\n\nIls commencent à raconter vos exploits, soldats. Les Stormpike tremblent de peur lorsqu’ils entendent votre nom. Continuez !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13840,
+     "name": "Maître de guerre Laggrond"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13840,
+     "name": "Maître de guerre Laggrond"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "7166": {
+   "id": 7166,
+   "name": "Héros de légende",
+   "objectives": null,
+   "description": null,
+   "progress": "Puissance et autorité émanent de vous, <classe>. Vous êtes exalté aux yeux des Frostwolf – l’ennemi se cache à la seule mention de votre nom.\n\nDebout, Héros des Frostwolf. Debout et soyez honoré !\n\nPrésentez votre insigne.",
+   "completion": "Bientôt, tout le champ de bataille sera sous vos yeux vigilants. Vous aurez le commandement de la Vallée et de ses troupes.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13840,
+     "name": "Maître de guerre Laggrond"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13840,
+     "name": "Maître de guerre Laggrond"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "7167": {
+   "id": 7167,
+   "name": "L'Œil du commandement",
+   "objectives": null,
+   "description": null,
+   "progress": "Drek’Thar chante vos louanges. Kalimdor résonne du bruit de vos exploits. Le chef de guerre sourit – votre héroïque défense de notre clan l’a grandement satisfait.\n\nVous avez mérité l’Œil du Commandement.\n\nPrésentez votre insigne, commandant <nom>.",
+   "completion": "Canalisez le pouvoir de l’insigne. Laissez l’ennemi entendre vos paroles. La puissance de la Horde est incontestable !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13840,
+     "name": "Maître de guerre Laggrond"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13840,
+     "name": "Maître de guerre Laggrond"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "7168": {
+   "id": 7168,
+   "name": "Ascension et reconnaissance",
+   "objectives": null,
+   "description": "La plupart des gens ne vivent pas assez longtemps pour s’élever au-dessus de leur propre médiocrité. Vous avez montré que vous êtes un soldat exemplaire, <classe>. L’heure est venue.\n\nPrésentez votre insigne.",
+   "progress": "La plupart des gens ne vivent pas assez longtemps pour s’élever au-dessus de leur propre médiocrité. Vous avez montré que vous êtes un soldat exemplaire, <classe>. L’heure est venue.\n\nPrésentez votre insigne.",
+   "completion": "Que nos ennemis voient qu’un soldat d’élite les a tués ! Battez-vous ! Battez-vous pour la gloire des Stormpike !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13841,
+     "name": "Lieutenant Haggerdin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13841,
+     "name": "Lieutenant Haggerdin"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7169": {
+   "id": 7169,
+   "name": "Honoré au sein de la Garde",
+   "objectives": null,
+   "description": "Toute la base parle de vos exploits sur le Champ sanglant ! Vous avez porté des coups sévères à l’ennemi – et à son moral ! Pour cela, vous avez mérité de progresser au sein des Stormpike.\n\nPrésentez votre insigne.",
+   "progress": "Toute la base parle de vos exploits sur le Champ sanglant ! Vous avez porté des coups sévères à l’ennemi – et à son moral ! Pour cela, vous avez mérité de progresser au sein des Stormpike.\n\nPrésentez votre insigne.",
+   "completion": "Le roi a été informé de vos exploits sur le champ de bataille, <classe>. Continuez votre vaillante défense de la Garde Stormpike !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13841,
+     "name": "Lieutenant Haggerdin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13841,
+     "name": "Lieutenant Haggerdin"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7170": {
+   "id": 7170,
+   "name": "Montée en grade",
+   "objectives": null,
+   "description": "Je m’interroge, <nom>. Lorsque vous regardez dans les yeux de l’ennemi, y voyez-vous la peur ? Se cachent-ils plutôt que de vous faire face ? Ils doivent bien se rendre compte qu’ils sont vaincus !\n\nVous avez mérité que la Garde vous traite avec révérence. Présentez votre insigne !",
+   "progress": "Je m’interroge, <nom>. Lorsque vous regardez dans les yeux de l’ennemi, y voyez-vous la peur ? Se cachent-ils plutôt que de vous faire face ? Ils doivent bien se rendre compte qu’ils sont vaincus !\n\nVous avez mérité que la Garde vous traite avec révérence. Présentez votre insigne !",
+   "completion": "A notre première rencontre, je ne me serais jamais douté que vous étiez un héros en herbe. Continuez, soldat !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13841,
+     "name": "Lieutenant Haggerdin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13841,
+     "name": "Lieutenant Haggerdin"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7171": {
+   "id": 7171,
+   "name": "Héros de légende",
+   "objectives": null,
+   "description": "Devant moi se tient un héros de l’Alliance.\n\nLieutenant Haggerdin salue.>\n\nRares sont ceux qui ont obtenu un tel grade parmi les Stormpike. J’ai vu l’ennemi tomber devant vous. J’ai vu leur résolution s’effondrer devant votre présence. Lorsque vous entrez dans la mêlée, vous devenez un point de ralliement pour nos forces !\n\nPrésentez votre insigne.",
+   "progress": "Devant moi se tient un héros de l’Alliance.\n\n<Le Lieutenant Haggerdin salue.>\n\nRares sont ceux qui ont obtenu un tel grade parmi les Stormpike. J’ai vu l’ennemi tomber devant vous. J’ai vu leur résolution s’effondrer devant votre présence. Lorsque vous entrez dans la mêlée, vous devenez un point de ralliement pour nos forces !\n\nPrésentez votre insigne.",
+   "completion": "C’est sûrement vous qui porterez l’Oeil du Commandement !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13841,
+     "name": "Lieutenant Haggerdin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13841,
+     "name": "Lieutenant Haggerdin"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7172": {
+   "id": 7172,
+   "name": "L'Œil du commandement",
+   "objectives": null,
+   "description": "Laissez-les entendre votre voix, commandant <nom> ! Ils connaîtront la peur. Montrez-leur le pouvoir des Stormpike !\n\nPrésentez votre insigne.",
+   "progress": "Qu'ils entendent votre voix, Commandant <nom> ! Faites-leur connaître la peur. Montrez-leur le pouvoir que le Stormpike détient dans leur rang !\n\nPrésentez votre insigne.",
+   "completion": "C'est vous qui devez mener nos troupes à la victoire, commandant ! Les soldats sont sous votre commandement. Ils suivront vos ordres directs. Dirigez-les.... Écrasez le loup-glace.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13841,
+     "name": "Lieutenant Haggerdin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13841,
+     "name": "Lieutenant Haggerdin"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7181": {
+   "id": 7181,
+   "name": "La légende de Korrak",
+   "objectives": "Korrak le Ragesang se cache dans les profondeurs des cavernes Winterax. D’après la légende, le chef des puissants trolls Winterax ne se montre qu’après la mort de 500 de ses guerriers.\n\nRendez-vous aux cavernes Winterax et massacrez tout ce qui vous fait obstacle jusqu’à ce que Korrak se montre. Tuez-le et présentez-vous au Maître de guerre Laggrond.",
+   "description": "Les envahisseurs Foudrepique ne sont pas la seule menace dans la région, soldat. La guerre dans la Vallée se livre sur deux fronts. Les trolls cannibales des Haches-d’hiver ont leurs propres ambitions.\n\nIls sont dirigés par Korrak le Ragesang, une bête cruelle et rusée.\n\nLa mort de Korrak serait un grand coup porté aux Haches-d’hiver. Tuez cet animal, et vous serez <récompensé/récompensée> !",
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13840,
+     "name": "Maître de guerre Laggrond"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "récompensé/récompensée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7202": {
+   "id": 7202,
+   "name": "Korrak le Ragesang",
+   "objectives": "Korrak le Ragesang se cache dans les profondeurs des cavernes Winterax. D’après la légende, le chef des puissants trolls Winterax ne se montre qu’après la mort de 500 de ses guerriers.\n\nRendez-vous aux cavernes Winterax et massacrez tout ce qui vous fait obstacle jusqu’à ce que Korrak se montre. Tuez-le et présentez-vous au Lieutenant Haggerdin.",
+   "description": "Les indigènes de la région, les trolls Haches-d’hiver, sont des sauvages cruels qui rêvent d’ajouter nos os à leurs infâmes ragoûts.\n\nNous devons leur montrer notre force !\n\nNous avons récupéré dans leurs cavernes des livres qui détaillent leur hiérarchie. Ils indiquent que leur chef, Korrak le Ragesang, a tendance à rester caché jusqu’à ce qu’il ait une raison de faire connaître sa présence.\n\nLa mort de Korrak signerait la mort du clan Hache-d’hiver ! Tuez-le et revenez.",
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13841,
+     "name": "Lieutenant Haggerdin"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7221": {
+   "id": 7221,
+   "name": "Discuter avec la prospectrice Stonehewer",
+   "objectives": "Discutez avec la Prospectrice Stonehewer à la Garnison de Dun Baldar.",
+   "description": "Ah, <nom>, <prêt/prête> à prendre votre service ? Très bien, les Stormpike ont besoin de tous les bras disponibles !\n\nDiscutez avec la prospectrice Stonehewer à Dun Baldar. Elle cherche des volontaires pour une mission très importante en territoire ennemi. Vous la trouverez dans les profondeurs de la garnison de Dun Baldar.\n\nEt gardez l’œil ouvert quand vous traverserez Dun Baldar. Il y a beaucoup à faire pour un <classe> travailleur et qui n’a pas peur de se salir les mains.",
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13816,
+     "name": "Prospectrice Stonehewer"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "nom",
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:wowhead"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7222": {
+   "id": 7222,
+   "name": "Discuter avec Voggah Deathgrip",
+   "objectives": "Parlez à Voggah au donjon Frostwolf.",
+   "description": "Un <classe> ? Bien ! Nous sommes contents de vous avoir à Alterac, <nom>. Des nains fouineurs et leurs alliés sont en train d’envahir notre vallée, et nous accueillons au sein de la Horde tous ceux qui veulent se joindre à nous pour la bataille.\n\nParlez à Voggah Deathgrip. Il cherche des agents pour une mission importante au cœur de la forteresse de l’Alliance.\n\nVous le trouverez au donjon Frostwolf.",
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13817,
+     "name": "Voggah Deathgrip"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:wowhead"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7223": {
+   "id": 7223,
+   "name": "Morceaux d'armures",
+   "objectives": "Apportez 20 Morceaux d’armure à Murgot Deepforge à Dun Baldar.",
+   "description": "Les combats font sans cesse rage dans la vallée d’Alterac, et le matériel que nous recevons de Forgefer est insuffisant pour équiper nos troupes.\n\nSi vous trouvez des morceaux d’armure sur le champ de bataille, contribuez à l’effort de guerre et rapportez-les-moi !",
+   "progress": "Avez-vous apporté des restes d'armure, <nom> ?",
+   "completion": "Ce sont de bonnes pièces, <nom>. Je peux les utiliser pour fabriquer de nouveaux équipements pour nos troupes.\n\nSi mon niveau d'approvisionnement est suffisamment élevé, alors peut-être que nos unités de combat aguerries entreront en action !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13257,
+     "name": "Murgot Deepforge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13257,
+     "name": "Murgot Deepforge"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7224": {
+   "id": 7224,
+   "name": "Pris à l'ennemi",
+   "objectives": "Apportez 20 Morceaux d’armure au forgeron Regzar au village Frostwolf.",
+   "description": "Lorsque vous combattez l’ennemi, ramassez les morceaux de leurs armures et amenez-les-moi. Je m’en servirai pour fabriquer des armures pour nos propres troupes !",
+   "progress": "Comment se passe la chasse, <nom>. Avez-vous des restes d'armure pour moi ?",
+   "completion": "Ceux-ci feront l'affaire. Je les ferai fondre et je les rafistolerai et vous ne saurez jamais qu'ils proviennent de ces lâches de Stormpike !\n\nMerci, <nom>. Et laisse-moi polir ton armure...",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13176,
+     "name": "Forgeron Regzar"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13176,
+     "name": "Forgeron Regzar"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7241": {
+   "id": 7241,
+   "name": "La défense des Frostwolf",
+   "objectives": "Rendez-vous dans la vallée d'Alterac, dans les contreforts d'Hillsbrad. Trouvez le maître de guerre Laggrond, parlez-lui et commencez votre carrière comme soldat Frostwolf.",
+   "description": "Les tambours de guerre résonnent dans des terres lointaines, <classe>. Le clan favori de votre Chef de guerre est attaqué par l'infâme garde Foudrepique de Forgefer.\n\nÀ vous voir, je pense que vous êtes <endurci et prêt/endurcie et prête> à vous battre pour la cause du clan Loup-de-givre.\n\nC'est vous qui devez faire ce nouveau pas dans votre évolution.\n\nVous trouverez l'entrée de la vallée d'Alterac dans les contreforts de Hautebrande. Entrez-y et allez trouver le maître de guerre Laggrond. Faites vite, <classe>, la bataille est commencée !",
+   "progress": null,
+   "completion": "Pour devenir un soldat Frostwolf, il faut être mis à l'épreuve…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13842,
+     "name": "Ambassadrice Rokhstrom des Frostwolf"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13840,
+     "name": "Maître de guerre Laggrond"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "endurci et prêt/endurcie et prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7261": {
+   "id": 7261,
+   "name": "L'impératif souverain",
+   "objectives": "Rendez-vous dans la vallée d'Alterac, dans les contreforts d'Hillsbrad. Présentez-vous au lieutenant Haggerdin.\n\nPour la gloire de Bronzebeard !",
+   "description": "Nous livrons une dure bataille dans les vallées d'Alterac. Le clan Loup-de-givre défie la puissance de foudrepique. Tous deux doivent être exterminés au nom du roi Magni Barbe-de-bronze ! Cette terre doit être prise et nettoyée. C'est un impératif territorial souverain pour le royaume de Forgefer !\n\nHélas, les soldats ne poussent pas sur les arbres ! Présentez-vous au lieutenant Haggerdin à l'extérieur de la vallée d'Alterac pour commencer votre carrière de soldat des Foudrepiques.",
+   "progress": null,
+   "completion": "Au travail !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13843,
+     "name": "Lieutenant Rotimer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13841,
+     "name": "Lieutenant Haggerdin"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7281": {
+   "id": 7281,
+   "name": "Amour fraternel",
+   "objectives": "Pénétrez en territoire Stormpike et tuez le commandant Karl Philips. Lorsque ce sera fait, présentez-vous au commandant Louis Philips.",
+   "description": "Tragique… Mon frère et moi sommes dans des camps opposés : il est commandant chez les Foudrepiques.\n\nDes quatre commandants des Foudrepiques, il est incontestablement le plus dangereux. Peut-être que s’il était tué, la reine banshee pourrait lui montrer son erreur, comme elle l’a fait avec moi…\n\nVous trouverez mon frère loin en territoire ennemi. Tuez-le et ramenez-le-moi. Je vous fais confiance pour remplir cette mission, soldat.\n\nOh… ne partez pas seul, soldat.",
+   "progress": "Comme il doit souffrir de rester parmi les vivants alors que son frère bien-aimé est monté à la perfection.",
+   "completion": "Vos exploits ne passent pas inaperçus, <nom>.\n\nJe ne dois pas perdre de temps s’il faut le sauver. Sylvanas doit être contactée !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13154,
+     "name": "Commandant Louis Philips"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13154,
+     "name": "Commandant Louis Philips"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7282": {
+   "id": 7282,
+   "name": "Amour fraternel",
+   "objectives": "Pénétrez en territoire Frostwolf et tuez le commandant Louis Philips. Lorsque ce sera fait, présentez-vous au commandant Karl Philips.",
+   "description": "Il faut mettre un terme à ses souffrances, soldat. Il ne sait pas ce qu’il fait. Il est devenu un serviteur décérébré de la terrible reine banshee.\n\nTraversez le Champ sanglant et pénétrez dans les profondeurs du territoire Loup-de-givre. Trouvez mon frère et détruisez-le. Son tourment doit s’achever.",
+   "progress": "C'est le cœur lourd que je donne cet ordre, soldat.",
+   "completion": "Vous avez bien brûlé le cadavre, n’est-ce pas ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13320,
+     "name": "Commandant Karl Philips"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13320,
+     "name": "Commandant Karl Philips"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7301": {
+   "id": 7301,
+   "name": "Les ailes brisées",
+   "objectives": "Enfoncez-vous en territoire Frostwolf à la recherche des chefs d’escadrille Slidor, Vipore et Ichman. Si vous les retrouvez, présentez-vous au commandant Duffy.",
+   "description": "Nous les tenons prisonniers, <race>. Je parle de leurs chefs d’escadrille. La bataille aérienne a été violente, mais ils ont fini par tomber. Malheureusement, nos meilleurs pilotes ont été abattus dans une contre-attaque contre le donjon Loup-de-givre. Vous devez découvrir ce qui leur est arrivé.\n\nAllez voir à la Tour de la halte ouest et au donjon Loup-de-givre, ce sont leurs dernières positions connues. Fouillez soigneusement les environs.",
+   "progress": "Y a-t-il quelque chose que j'aimerais entendre ?",
+   "completion": "Incroyable ! Vous les avez libérés, n’est-ce pas ? N’est-ce pas ? Bon, au moins, nous savons où ils étaient détenus.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13319,
+     "name": "Commandant Duffy"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13319,
+     "name": "Commandant Duffy"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "race"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7302": {
+   "id": 7302,
+   "name": "Les ailes brisées",
+   "objectives": "Découvrez ce qui est arrivé aux chefs d’escadrille Guse, Jetzor et Mulverick. Lorsque vous les aurez retrouvés, présentez-vous au commandant Mulfort.",
+   "description": "Notre soutien aérien n’existe plus, <nom>. Nos chefs d’escadrille ont été abattus au-dessus du territoire ennemi. Vous devez découvrir ce qui leur est arrivé, afin que nous puissions mener une expédition de secours ! Guse a été vu pour la dernière fois au-dessus du fortin de l'Aile de glace. Le Chevaucheur de guerre de Jeztor a été vu près de la scierie Foudrepique. Quant à Mulverick… on a vu ce crétin téméraire s’écraser près du fortin nord de Dun Baldar.\n\nJe n’ai pas d’autres informations. Allez-y et passez la région au peigne fin !",
+   "progress": "État de la chasse, soldat ?",
+   "completion": "Très bien ! Ces informations seront très utiles à notre cause.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13153,
+     "name": "Commandant Mulfort"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13153,
+     "name": "Commandant Mulfort"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7361": {
+   "id": 7361,
+   "name": "En faveur auprès des Sombrelances",
+   "objectives": "Vous avez été <chargé/chargée> de tuer les personnages Elfes de la nuit présents dans la vallée d’Alterac.\n\nTuez un Elfe de la nuit et présentez-vous à Najak Maléficas avec une Tête coupée d’Elfe de la nuit.",
+   "description": "<Najak grogne.>\n\nAvant les elfes de la nuit, il y avait les trolls. Les elfes de la nuit viennent des trolls.\n\nLeurs attaques indisciplinées contre mon peuple ne sont pas tolérables. Forteramure cherche à nous éradiquer, à effacer toute trace de ceux qui lui ont donné naissance, à lui et aux siens. Cela ne sera pas !\n\nPour chaque elfe de la nuit que vous tuez et que vous décapitez, Najak vous accordera une faveur parmi les Sombrelances. Le récit de vos exploits se répandra dans tout Kalimdor et dans les Royaumes de l’est. Allez et servez les Sombrelances !",
+   "progress": "Ils cherchent à nous exterminer ? Ce sont eux qui seront exterminés.",
+   "completion": "<nom>, ce n'est que l'un des milliers. Un travail bien fait quand même.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 9950,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Najak grogne.",
+    "chargé/chargée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7362": {
+   "id": 7362,
+   "name": "Allié des Taurens",
+   "objectives": "Vous avez été <chargé/chargée> de tuer les personnages gnomes présents dans la vallée d’Alterac.\n\nTuez un Gnome et présentez-vous à Ravak Totem-Sinistre au donjon Loup-de-givre avec une Touffe de cheveux de Gnome.",
+   "description": "L'Ancienne m'envoie dans cette zone de guerre pour étudier les autres peuples. Je suis là pour ramasser des échantillons de gnomes. Magatha s'intéresse à leur potentiel de survie. En vérité, les gnomes sont minuscules et ridiculement faibles, mais ils font preuve d'une résistance considérable, en combat ou autrement.\n\nHeureusement pour vous, je suis à la recherche de forbans pour accomplir la volonté de Magatha. Ramenez-moi des touffes de cheveux de gnome, et les taurens vous considèreront comme un allié.",
+   "progress": "Je me fiche de savoir d'où viennent les cheveux, <race>.",
+   "completion": "Oui, il s'agit bien d'un gnome. Bien joué, <race>, mais il y a encore du travail à faire.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 9950,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "chargé/chargée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7363": {
+   "id": 7363,
+   "name": "La condition humaine",
+   "objectives": "Vous avez été <chargé/chargée> de tuer les personnages humains présents dans la vallée d’Alterac.\n\nTuez un humain et présentez-vous au commandant Louis Philips (qui fait la navette entre le front et le donjon Loup-de-givre) avec un Bout d’os humain.\n\nUn remède à la condition humaine est à portée de main !",
+   "description": "Les humains sont détestables.\n\n<Le commandant Philips grimace.>\n\nJe suis un soldat des Loups-de-givre, mais je reste un serviteur de Sylvanas.\n\nJe profite de mon service ici pour rendre service aux sombres apothicaires de Fossoyeuse.\n\nJ'ai commencé à rassembler des bouts d'os qui pourraient servir à soigner la condition humaine.\n\nJe suis autorisé à sous-traiter cette tâche à mes subordonnés.\n\nTrouvez-les. Tuez-les. Rapportez-moi des bouts d'os.",
+   "progress": "Oui, c'est vrai. Mon frère est un humain. Honteux... Une tache sur mon dossier presque immaculé.",
+   "completion": "Ce serait plus facile s'ils acceptaient simplement leur maladie et s'abandonnaient à votre touche de guérison. Ce serait aussi probablement moins amusant. Continuez ! Nous les guérirons, d'une manière ou d'une autre.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 9950,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Le commandant Philips grimace.",
+    "chargé/chargée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7364": {
+   "id": 7364,
+   "name": "Au service de Gnomeregan",
+   "objectives": "Vous avez été <chargé/chargée> de tuer les personnages taurens présents dans la vallée d’Alterac.\n\nTuez un Tauren et présentez-vous à Dirk Lembrouille à Dun Baldar avec un Sabot de Tauren.",
+   "description": "Le Grand Bricoleur lui-même m’envoie sur ce champ de bataille pour défendre mes frères et sœurs gnomes. Nous avons entendu dire que les taurens s’en prennent aux gnomes, et pire que tout, ils arrachent des poignées de cheveux aux corps de ceux qui sont tombés. Il faut mettre un terme à ces atrocités. Nous allons répliquer !\n\nSoulagez-les de leurs sabots, <classe>. Amenez-moi leurs sabots ! Montrez que vous êtes un allié des gnomes.",
+   "progress": "Faites-les boiter, <nom>. Ils doivent apprendre que le peuple gnomish n'accepte pas d'être malmené !",
+   "completion": "*Dirk jette le sabot en tas derrière lui.*",
+   "starters": [],
+   "enders": [],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 9950,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "chargé/chargée",
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7365": {
+   "id": 7365,
+   "name": "Le requiem de Forteramure",
+   "objectives": "Vous avez été <chargé/chargée> de tuer les personnages trolls présents dans la vallée d’Alterac.\n\nTuez un Troll et présentez-vous à Athramanis à Dun Baldar avec un Mojo de Troll sombrelance.",
+   "description": "Forteramure a donné l'ordre. Tous les trolls sur le champ de bataille doivent être exterminés. Leur ridicule prétention à avoir donné naissance aux elfes de la nuit ne doit recevoir qu'une seule réponse : la force.\n\nTuez-les et rapportez-moi leur mojo. Je répète : je veux que vous voliez leur mojo.",
+   "progress": "Je peux encore sentir la puanteur des trolls.",
+   "completion": "Merci, <nom>. L'air est un peu plus pur.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 9950,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "chargé/chargée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7366": {
+   "id": 7366,
+   "name": "La pitié de l'archevêque",
+   "objectives": "Vous avez été <chargé/chargée> de tuer les personnages Réprouvés présents dans la vallée d’Alterac.\n\nTuez un Réprouvé et présentez-vous au commandant Karl Philips (qui fait la navette entre le scierie et la mine) avec un Cœur de Réprouvé.",
+   "description": "L'archevêque est aussi bon que sage. Il faut être quelqu'un d'exceptionnel pour avoir pitié de tels misérables…\n\n<Le commandant Philips hoche la tête, incrédule.>\n\nIl est trop bon… trop bon.\n\nL'archevêque insiste pour que nous prenions les morts-vivants en pitié. Nous devons leur octroyer une mort rapide et miséricordieuse. Pour cela, il nous faut leurs cœurs noirs et malades.\n\nRapportez-moi le cœur des Réprouvés pour que nous puissions les incinérer à la cathédrale de la Lumière en grande cérémonie. Hâtez-vous, <nom> !",
+   "progress": "Benedictus ! Je ne suis qu'une tache dans l'ombre de sa grandeur. Louez-le !",
+   "completion": "Louange à Benedictus ! Une autre âme perdue, bientôt sauvée par les flammes brûlantes de la Lumière !\n\nAllez-y, ô soldat de la Lumière ! Il faut en sauver d'autres !",
+   "starters": [],
+   "enders": [],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 9950,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "chargé/chargée",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7367": {
+   "id": 7367,
+   "name": "Désarmer les mines",
+   "objectives": "Trouvez l’Expert en explosifs Frostwolf et tuez-le. Lorsque ce sera fait, présentez-vous à l’Expert en explosifs Stormpike.",
+   "description": "Les Loups-de-givre ont piégé leurs lignes et leurs bases, <classe>. Lorsque vous entrez dans leur territoire, vous devez faire attention où vous mettez les pieds.\n\nSi vous lancez une frappe massive contre eux, vous devez détruire leur source de munitions antipersonnel – je parle de leur spécialiste en explosifs. Si vous le tuez, vous pourrez désamorcer les mines sans danger. Tant qu’il est à terre, les mines sont inoffensives.\n\nVous le trouverez probablement dans une tour près de la garnison de Glace-sang. Bonne chance !",
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7368": {
+   "id": 7368,
+   "name": "Désarmer les mines",
+   "objectives": "Trouvez l’Expert en explosifs Stormpike et tuez-le. Lorsque ce sera fait, présentez-vous à l’Expert en explosifs Frostwolf.",
+   "description": "Je sais tout sur les mines. C’est moi qui les pose sur les lignes de front, après tout.\n\nSi vous voulez neutraliser les champs de mine des Foudrepiques, tout ce que vous avez à faire, c'est tuer leur expert en explosifs. Ce pleutre de nain se cache sans doute dans la première tour du Champ sanglant. Débarrassez-vous-en et ces mines ne reviendront pas après avoir été désarmées.\n\nSi vous arrivez à le tuer, revenez ici et faites-le-moi savoir. Après tout, il faut savoir récompenser les bonnes actions.",
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7381": {
+   "id": 7381,
+   "name": "Le retour de Korrak",
+   "objectives": "Si Korrak le Ragesang devait réapparaître dans le Champ sanglant, traquez-le et tuez-le.\n\nApportez le Crâne de Korrak au Maître de guerre Laggrond dans les contreforts de Hautebrande.",
+   "description": "Korrak a été tué, certes, mais une question demeure : restera-t-il mort ? Les trolls sont réputés pour leurs étranges sorcelleries tribales. Je ne serais pas surpris que leur chef défunt ne se relève d'entre les morts pour reprendre les rênes de son clan.\n\nVous savez quoi faire si cela se produit.\n\n<Laggrond passe son index sur son cou, un geste très éloquent.>\n\nEt cette fois, je veux sa tête. Gardez les yeux ouverts, soldat.\n\nVous pouvez disposer !",
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13840,
+     "name": "Maître de guerre Laggrond"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7382": {
+   "id": 7382,
+   "name": "Korrak l'Indestructible",
+   "objectives": "Si Korrak le Ragesang réapparaît dans le Champ sanglant, traquez-le et tuez-le.\n\nApportez le Crâne de Korrak au lieutenant Haggerdin dans les Contreforts de Hautebrande.",
+   "description": "Quelque chose cloche dans cette affaire… Est-ce que quelqu'un a pensé à brûler le corps de Korrak ? Ces trolls sont prêts à tout pour ressusciter leur chef – c'est une pratique courante chez ces païens semi-humains à la peau bleue.\n\nGardez les yeux ouverts, <nom>. Ne paniquez pas si Korrak réapparaît. Si cela se produit, je veux qu'on l'exécute et qu'on le réduise en cendres.\n\nEt pour faire bonne mesure, avant d'allumer le feu, coupez-lui la tête et ramenez-la-moi.",
+   "progress": "As-tu tué Korra la Sanglante, <classe> ? Les éclaireurs ont signalé qu'il se trouvait aux alentours du champ de bataille.",
+   "completion": "Bien joué, <nom>. Même la magie la plus puissante ne pourrait réanimer Korrak. Vous avez exterminé une menace majeure de la vallée d'Alterac, soldat.",
+   "starters": [],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13841,
+     "name": "Lieutenant Haggerdin"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7385": {
+   "id": 7385,
+   "name": "Quelques litres de sang",
+   "objectives": "Vous avez la possibilité d’offrir des quantités de sang prises à l’ennemi plus importantes. Je serais content d’accepter des offrandes de quelques litres, <nom>.",
+   "description": "Vous avez la possibilité d’offrir des quantités de sang prises à l’ennemi plus importantes. Je serais content d’accepter des offrandes de quelques litres, <nom>.",
+   "progress": "J'ai hâte de faire l'essai de mon déchiqueteur portatif, <race>, mais avant que je ne puisse fabriquer le kit, j'ai besoin de beaucoup de matériel !\n\nPour être précis, il me faut une montagne de thorium, de mithril et de fer. J'aurai également besoin d'une scie à vapeur par unité. Vous les trouverez à la scierie.\n\nAlors que je traînais dans les environs (avant ma capture) j'ai remarqué une pile de scies à vapeur, au Camp de bûcherons des Foudrepiques.",
+   "completion": "Le sang de nos ennemis a été versé. Je vais le mélanger avec celui qui a déjà été récolté. Une fois l’offrande complète, le Seigneur de glace montrera à ces chiens de Stormpike ce qu’est la colère du clan Frostwolf !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13236,
+     "name": "Primaliste Thurloga"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13236,
+     "name": "Primaliste Thurloga"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7386": {
+   "id": 7386,
+   "name": "Grappes de cristaux",
+   "objectives": "Parfois, vous serez bloqué dans la bataille pendant des jours ou des semaines. Profitez de ces longues périodes d’activité pour ramasser des grappes de cristaux de tempête Frostwolf.\n\nLe Cercle accepte de telles offrandes, <nom>.",
+   "description": "Parfois, vous serez bloqué dans la bataille pendant des jours ou des semaines. Profitez de ces longues périodes d’activité pour ramasser des grappes de cristaux de tempête Frostwolf.\n\nLe Cercle accepte de telles offrandes, <nom>.",
+   "progress": "J'ai hâte de faire l'essai de mon déchiqueteur portatif, <race>, mais avant que je ne puisse fabriquer le kit, j'ai besoin de beaucoup de matériel !\n\nPour être précis, il me faut une montagne de thorium, de mithril et de fer. J'aurai également besoin d'une scie à vapeur par unité. Vous les trouverez à la scierie.\n\nAlors que je traînais dans les environs (avant ma capture) j'ai remarqué une pile de scies à vapeur, au Camp de bûcherons des Foudrepiques.",
+   "completion": "Bien joué, <nom>. Je vais me servir du pouvoir de ce charme pour augmenter la magie qui a déjà été collectée. Lorsque nous aurons assez de puissance, je focaliserai les énergies et j’appellerai le Seigneur des forêts pour aider notre cause.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13442,
+     "name": "Archidruide Renferal"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13442,
+     "name": "Archidruide Renferal"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7401": {
+   "id": 7401,
+   "name": "ON RECHERCHE : des Nains !",
+   "objectives": "Vous avez été <chargé/chargée> de tuer les personnages nains présents dans la vallée d’Alterac.\n\nTuez des Nains et arrachez-leur la colonne vertébrale. Apportez les Colonnes vertébrales de Nains au sergent Yazra Gronde-Sang au donjon Loup-de-givre.",
+   "description": "Par ordre du sergent Yazra Gronde-sang, tous les nains rencontrés sur le champ de bataille doivent être abattus à vue.\n\nSi vous en tuez un, arrachez sa colonne vertébrale et laissez pourrir le reste – ce tas de déchets mous servira d'avertissement à tous ceux qui oseraient s'opposer à la puissance des Loups-de-givre.\n\nAllez voir le sergent Yazra Gronde-sang avec la preuve de vos exploits.",
+   "progress": "Je fais de l'ironie en gros, soldat.",
+   "completion": "Vous avez maintenant le droit de décimer des nains par douzaines, <classe> !\n\n<Yazra regarde au loin pendant un moment>.\n\nOn n'oublie jamais son premier dé-spining...",
+   "starters": [
+    {
+     "type": "object",
+     "id": 179438,
+     "name": "Wanted: DWARVES!"
+    }
+   ],
+   "enders": [],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 9950,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "chargé/chargée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7402": {
+   "id": 7402,
+   "name": "On recherche : ORCS !",
+   "objectives": "Vous avez été chargé de tuer les personnages orcs présents dans la Vallée d’Alterac.\n\nTuez un orc et remettez les Dents d’orc au caporal Noreg Foudrepique à Dun Baldar.",
+   "description": "Par ordre du caporal Noreg Foudrepique, tous les soldats valides doivent abattre sans faire de quartier tous les orcs qu'ils rencontrent sur le champ de bataille.\n\nLes soldats doivent prélever une défense ou une dent sur la mâchoire de leurs victimes et présenter ladite dent comme preuve de leur exploit.\n\nIl est recommandé de porter des gants épais.",
+   "progress": "Vous avez besoin d'une pince pour arracher les dents ?",
+   "completion": "Bien, <nom>. J'attends les petites souris.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 179437,
+     "name": "Wanted: ORCS!"
+    }
+   ],
+   "enders": [],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "both",
+   "xp": 9950,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7421": {
+   "id": 7421,
+   "name": "La défense des Sombrelances",
+   "objectives": null,
+   "description": null,
+   "progress": "Ils cherchent à nous exterminer ? Ce sont eux qui seront exterminés.",
+   "completion": "<nom>, ce n'est qu'un exemple parmi des milliers d'autres. Il n'en reste pas moins qu'il s'agit d'un travail bien fait.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 1900,
+   "money": 2000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7422": {
+   "id": 7422,
+   "name": "Pour une poignée de cheveux",
+   "objectives": null,
+   "description": null,
+   "progress": "Je me fiche de savoir d'où viennent les cheveux, <race>.",
+   "completion": "Oui, il s'agit bien d'un gnome. Bien joué, <race>, mais il y a encore du travail à faire.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 1900,
+   "money": 2000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7423": {
+   "id": 7423,
+   "name": "Toujours plus de bouts d'os !",
+   "objectives": null,
+   "description": null,
+   "progress": "Oui, c'est vrai. Mon frère est un humain. Honteux... Une tache sur mon dossier presque immaculé.",
+   "completion": "Ce serait plus facile s'ils acceptaient simplement leur maladie et s'abandonnaient à votre touche de guérison. Ce serait aussi probablement moins amusant. Continuez ! Nous les guérirons, d'une manière ou d'une autre.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 1900,
+   "money": 2000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7424": {
+   "id": 7424,
+   "name": "Chasse aux sabots !",
+   "objectives": null,
+   "description": null,
+   "progress": "J'ai hâte de faire l'essai de mon déchiqueteur portatif, <race>, mais avant que je ne puisse fabriquer le kit, j'ai besoin de beaucoup de matériel !\n\nPour être précis, il me faut une montagne de thorium, de mithril et de fer. J'aurai également besoin d'une scie à vapeur par unité. Vous les trouverez à la scierie.\n\nAlors que je traînais dans les environs (avant ma capture) j'ai remarqué une pile de scies à vapeur, au Camp de bûcherons des Foudrepiques.",
+   "completion": "* Dirk jette le sabot derrière lui. *",
+   "starters": [],
+   "enders": [],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "alliance",
+   "xp": 1900,
+   "money": 2000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7425": {
+   "id": 7425,
+   "name": "La collection de mojos de Forteramure",
+   "objectives": null,
+   "description": null,
+   "progress": "Je peux encore sentir la puanteur des trolls.",
+   "completion": "Merci, <nom>. L'air est un peu plus pur.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "alliance",
+   "xp": 1900,
+   "money": 2000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7426": {
+   "id": 7426,
+   "name": "L'amour d'un homme",
+   "objectives": null,
+   "description": null,
+   "progress": "Benedictus ! Je ne suis qu'une tache dans l'ombre de sa grandeur. Louez-le !",
+   "completion": "Louange à Benedictus ! Une autre âme perdue, bientôt sauvée par les flammes brûlantes de la Lumière !\n\nAllez-y, ô soldat de la Lumière ! Il faut en sauver d'autres !",
+   "starters": [],
+   "enders": [],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "alliance",
+   "xp": 1900,
+   "money": 2000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7427": {
+   "id": 7427,
+   "name": "On recherche : PLUS DE NAINS !",
+   "objectives": null,
+   "description": null,
+   "progress": "Je fais de l'ironie en gros, soldat.",
+   "completion": "Vous avez maintenant le droit de décimer des nains par douzaines, <classe> !\n\n<Yazra regarde au loin pendant un moment>.\n\nOn n'oublie jamais son premier dé-spining...",
+   "starters": [],
+   "enders": [],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "horde",
+   "xp": 1900,
+   "money": 2000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "7428": {
+   "id": 7428,
+   "name": "On recherche : PLUS D'ORCS !",
+   "objectives": null,
+   "description": null,
+   "progress": "Vous avez besoin d'une pince pour arracher les dents ?",
+   "completion": "Bien, <nom>. J'attends les petites souris.",
+   "starters": [],
+   "enders": [],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "alliance",
+   "xp": 1900,
+   "money": 2000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "8271": {
+   "id": 8271,
+   "name": "Héros des Stormpike",
+   "objectives": null,
+   "description": "En tant que héros des Stormpike, vous pouvez choisir un objet parmi ces trésors récemment pill… euh, récupérés.",
+   "progress": null,
+   "completion": "En tant que héros du Stormpike, vous pouvez choisir un objet parmi ces trésors récemment découverts... euh, récupérés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13816,
+     "name": "Prospectrice Stonehewer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13816,
+     "name": "Prospectrice Stonehewer"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "8272": {
+   "id": 8272,
+   "name": "Héros des Loups-de-givre",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "Qu'est-ce que ça fait, <nom> ? Qu'est-ce que ça fait d'écraser ses ennemis et de voir leurs lignes se briser ? C'est bon, n'est-ce pas ?\n\nVous devriez être récompensé pour cet acte héroïque, soldat.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 13817,
+     "name": "Voggah Deathgrip"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 13817,
+     "name": "Voggah Deathgrip"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "8369": {
+   "id": 8369,
+   "name": "Les envahisseurs de la vallée d'Alterac",
+   "objectives": "Apportez 3 Marques d’honneur de la vallée d’Alterac à l’un des porteguerres de la Horde, devant les champs de bataille.",
+   "description": "Écoutez, <nom>. Malgré tout ce que vous avez pu entendre sur la bataille qui fait rage dans la vallée d’Alterac, une chose reste vraie : l’expédition Foudrepique a envahi le territoire des Loups-de-givre ! Le jour où nous permettrons à l’Alliance d’envahir les terres de la Horde sans réagir énergiquement est le jour où je raccrocherai ma hache et où je passerai le reste de ma vie dans la honte. Allez combattre, et chassez les envahisseurs !",
+   "progress": "Quelles nouvelles apportez-vous des terres des Frostwolf ? Comment tourne la bataille pour la vallée d’Alterac ?",
+   "completion": "Vous avez fait preuve d’une grande bravoure en protégeant nos terres dans la vallée d’Alterac ! Je vais conter vos exploits à mes supérieurs.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "zone_id": 2597,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 8300,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

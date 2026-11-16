@@ -1,0 +1,4460 @@
+{
+ "schema": 1,
+ "zone": "kalimdor/darkshore",
+ "zone_id": 148,
+ "zone_name": "Sombrivage Darkshore",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 80,
+  "complete": 71,
+  "incomplete": 9,
+  "unavailable": 0,
+  "missing_description": 9,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 2
+ },
+ "quests": {
+  "729": {
+   "id": 729,
+   "name": "Les absences du Prospecteur",
+   "objectives": "Aller vers le sud et vérifier l'état de santé du Prospecteur Remtravel.",
+   "description": "Quel honneur cela a été quand Maître Greywhisker m'a affecté aux ordres du grand Prospecteur Remtravel. À l'Académie d'Ironforge tout le monde connaît les grandes découvertes de Remtravel.\n\nMais le Prospecteur est plutôt... hum... inconscient... de son environnement.\n\nNous avons découvert les traces d’une grande société. D'horribles Golems sont sortis du sol et ont envahi le site. Remtravel n'a pas semblé s'en apercevoir. J'ai fui à Auberdine pour demander de l'aide.\n\nS'il vous plaît, allez vers le sud pour voir si le prospecteur va bien !",
+   "progress": null,
+   "completion": "Hollee, est-ce que c'est vous ? J'ai besoin d'aide pour gratter cette pierre. Donnez-moi mon pinceau à pierre, j'ai l'impression de voir quelque chose.\n\nHé ! Vous n'êtes pas Hollee ! Je suppose que vous n'avez pas vu mon pinceau à pierre ?\n\nC'est pas bien grave ! Mais j'ai promis à la ligue d'envoyer ce mystérieux fossile. Où est parti Hollee ?\n\nIl y a tellement de travail à faire ! Et où est donc ce fossile. . . et mon burin. . . et Hollee. . .\n\nEt qui êtes-vous ? Ça n'a pas d'importance, du moment que vous pouvez m'aider.\n\nFaites-moi savoir quand vous serez prêt.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2913,
+     "name": "Archéologue Hollee"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2917,
+     "name": "Prospecteur Remtravel"
+    }
+   ],
+   "zone_id": 148,
+   "level": 20,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": 1150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "731": {
+   "id": 731,
+   "name": "Les absences du Prospecteur",
+   "objectives": "Protéger le Prospecteur Remtravel pendant qu'il recherche le mystérieux fossile, puis revenir voir l'Archéologue Hollee à Auberdine.",
+   "description": "Alors, Hollee... Oh c'est vrai ! Vous n'êtes pas Hollee. Où est Hollee ?\n\nBah, ce n'est pas le problème ! Nous devons trouver ce pinceau à pierre... enfin je veux dire ce mystérieux fossile ! Nous devons le trouver. La Ligue des Explorateurs à Darnassus veut savoir sur quoi je travaille.\n\nDites-moi quand vous serez d'accord et nous partirons à la recherche de ce pinceau.... je veux dire de ce fossile ! Nous trouverons peut-être quelque chose d'intéressant à écrire à la Ligue.\n\nAlors on y va ?",
+   "progress": "Le prospecteur est-il vivant ?",
+   "completion": "Grâce au Ciel le Prospecteur Remtravel est sain et sauf ! Je vous avais dit qu'il avait des absences. Je ne peux pas croire qu'il ait voulu rester là-bas avec toutes ces horribles créatures qui traînent.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2917,
+     "name": "Prospecteur Remtravel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2913,
+     "name": "Archéologue Hollee"
+    }
+   ],
+   "zone_id": 148,
+   "level": 20,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": 1950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "741": {
+   "id": 741,
+   "name": "Les absences du Prospecteur",
+   "objectives": "Apporter le Mystérieux fossile au Chef archéologue Greywhisker, à Darnassus.",
+   "description": "Alors le prospecteur veut envoyer le mystérieux fossile à la Ligue des Explorateurs à Darnassus ? Quitter Sombrivage sans lui… ce n'est pas bien.\n\nVoilà, <nom>, apportez le mystérieux fossile au Chef Archéologue Greywhisker à Darnassus.",
+   "progress": "Que puis-je faire pour vous, <nom> ?",
+   "completion": "Oh mon. . . ! Gloire au Prospecteur Remtravel d'avoir découvert une telle chose !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2913,
+     "name": "Archéologue Hollee"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2912,
+     "name": "Chef archéologue Greywhisker"
+    }
+   ],
+   "zone_id": 148,
+   "level": 20,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": 1150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "942": {
+   "id": 942,
+   "name": "Les absences du Prospecteur",
+   "objectives": "Apporter le mystérieux Fossile à l'Archéologue Flagongut au Port de Menethil.",
+   "description": "Le fossile ressemble de manière frappante à un autre que j'ai vu une fois à Ironforge. Un Archéologue du nom de Flagongut l'avait apporté à notre conférence annuelle de la Ligue des Explorateurs. Il croyait que le fossile détenait un pouvoir que l'on aurait pu réveiller d'une certaine façon.\n\nLa dernière fois que j'ai entendu parler de lui, Flagongut s'était installé à la taverne de l'Eau-profonde, au Port de Menethil, attendant une escorte pour le mener à l'Excavation de Whelgar. Recherchez-le et montrez-lui le Fossile de Remtravel. Peut-être pourra-t-il révéler les secrets du passé.\n\nLe bateau pour le Port de Menethil part d'Auberdine.",
+   "progress": "Qu'avez-vous là, mon ami ?",
+   "completion": "Oh bon sang ! Vous dites que ce fossile vient des terres lointaines de Kalimdor ?\n\nAhurissant, simplement ahurissant !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2912,
+     "name": "Chef archéologue Greywhisker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2911,
+     "name": "Archéologue Flagongut"
+    }
+   ],
+   "zone_id": 148,
+   "level": 20,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": 1550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "943": {
+   "id": 943,
+   "name": "Les absences du Prospecteur",
+   "objectives": "L'archéologue Flagongut au Port de Menethil veut que vous lui apportiez la Pierre de Relu et le Fossile de Flagongut.",
+   "description": "Le Prospecteur Whelgar détient à présent le fossile original, en son site des marécages. Quand j'ai découvert la Pierre de Relu, j'ai cru y voir la solution à l'énigme du fossile.\n\nAlors que je taillais la route pour aller à la rencontre de Whelgar, j'ai subi une attaque de raptors et la relique fut perdue. J'ignore laquelle des ces créatures chamarrées a bien pu l'avaler, mais si vous pouvez la retrouver, je peux libérer le pouvoir de ces artefacts.\n\nApportez-moi donc la Pierre de Relu, et le fossile original que Whelgar possède.",
+   "progress": "Une fois que je serai en possession de la Pierre de Relu je pourrai libérer les secrets cachés de mon fossile, mais également ceux du fossile de Remtravel de Sombrivage, <nom>.",
+   "completion": "Plus que parfait, <nom> !\n\nÀ présent voyons si je peux utiliser la pierre pour découvrir les pouvoirs des fossiles.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2911,
+     "name": "Archéologue Flagongut"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2911,
+     "name": "Archéologue Flagongut"
+    }
+   ],
+   "zone_id": 148,
+   "level": 24,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": 2400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "944": {
+   "id": 944,
+   "name": "Le Glaive du Maître",
+   "objectives": "Trouver des informations, puis utiliser la Fiole de divination pour créer une Coupe de divination. Utiliser la coupe pour parler à Onu.",
+   "description": "C'est étrange que des nagas soient là, à Sombrivage. Mais... la présence du Marteau du crépuscule l'est encore plus. Ce culte vénère de très anciens seigneurs de la terre. Des seigneurs vaincus il y a longtemps de cela.\n\nLe Glaive du Maître, au sud, est un endroit où est tombé l'un de ces anciens seigneurs.\n\nAllez-y et cherchez d'autres sectateurs du Marteau du crépuscule.\n\nPrenez cette fiole de divination. Utilisez-la pour créer une coupe de divination après avoir enquêté au Glaive du Maître. Puis parlez-moi par l'intermédiaire de cette coupe.",
+   "progress": "Le Glaive du Maître, <nom>.\n\nAllez-y, puis parlez-moi à nouveau de là-bas.",
+   "completion": "Le Marteau du crépuscule se trouve au Glaive du Maître ?\n\nC'est malheureux.\n\nLe vieux seigneur, empalé sur le glaive, est mort depuis longtemps, mais cela ne veut pas dire que des bribes de son pouvoir n'ont pas subsisté.\n\nLe Marteau du crépuscule doit rechercher ce pouvoir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3616,
+     "name": "Onu"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 10076,
+     "name": "Scrying Bowl"
+    }
+   ],
+   "zone_id": 148,
+   "level": 17,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 630,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "945": {
+   "id": 945,
+   "name": "L'évasion de Therylune",
+   "objectives": "Aider Therylune à s'échapper, puis dire à Therysil au Sanctuaire d'Aessina que sa sœur est saine et sauve.",
+   "description": "Au secours !\n\nJe me promenais autour du Glaive du Maître, et ces infâmes sectateurs m'ont entourée. Encore heureux que je sois douée pour me cacher !\n\nPouvez-vous m'aider à m'échapper ? Et j'aurais aussi besoin de dire à ma sœur Therysil que je vais bien. Elle est à Ashenvale au sud, au sanctuaire d'Aessina.",
+   "progress": null,
+   "completion": "Ma sœur était où ? Therylune n'a pas peur de se salir, mais quand même ! C'est loin pour une simple promenade et le Glaive du Maître est un endroit malsain…\n\nBien, merci, <nom>. Vous avez été très aimable de m'informer du sort de ma sœur.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3584,
+     "name": "Therylune"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3585,
+     "name": "Therysil"
+    }
+   ],
+   "zone_id": 148,
+   "level": 18,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1350,
+   "money": 1000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "947": {
+   "id": 947,
+   "name": "La caverne aux champignons",
+   "objectives": "Apporter 5 Pédoncules d'Amanite et 1 Amanite phalloïde à Barithras Moonshade à Auberdine.",
+   "description": "Je prépare une potion qui nécessite des champignons rares, des champignons qui ne poussent que dans une certaine caverne. La caverne en question se trouve au-delà des Chutes de la Bondissante, à l'est et légèrement au nord le long des montagnes.\n\nJ'irais bien moi-même, mais le Bosquet des Anciens m'a conseillé de me tenir à l'écart de cet endroit. Nos vénérables alliés pressentent que cette caverne est l'antre d'une nouvelle créature maléfique, ici à Sombrivage.\n\nS'il vous plaît, <nom>, ramassez ces champignons pour moi. Et pendant que vous y êtes, explorez la caverne pour confirmer le pressentiment des Anciens.",
+   "progress": "Avez-vous mes champignons, <nom> ? Êtes-vous allé à la caverne ?",
+   "completion": "Merci beaucoup, <nom>. Ces champignons sont magnifiques !\n\nEt pendant que vous étiez aux chutes de la Bondissante, avez-vous trouvé quoi que ce soit qui confirme les avertissements des Anciens ?\n\nLes Anciens sont des sages, mais j'avais espéré qu'ils se soient trompés cette fois-ci.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3583,
+     "name": "Barithras Moonshade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3583,
+     "name": "Barithras Moonshade"
+    }
+   ],
+   "zone_id": 148,
+   "level": 17,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 1250,
+   "money": 900,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "948": {
+   "id": 948,
+   "name": "Onu",
+   "objectives": "Parler à Onu au Bosquet des Anciens.",
+   "description": "Onu, un Ancien du savoir au Bosquet des Anciens, est au courant de votre voyage vers les Chutes de la Bondissante et souhaite vous parler. Le bosquet se trouve au sud, blotti près des montagnes.\n\nLes Anciens sont patients et sages, <nom>. Mais si Onu souhaite votre conseil à propos de ce que vous avez vu aux chutes, alors j'ai peur que ce soit urgent.",
+   "progress": null,
+   "completion": "<nom>. Vous voilà.\n\nBien.\n\nIl y a des choses dont… nous devons parler. Vous et moi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3583,
+     "name": "Barithras Moonshade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3616,
+     "name": "Onu"
+    }
+   ],
+   "zone_id": 148,
+   "level": 17,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 630,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "949": {
+   "id": 949,
+   "name": "Le camp du Marteau du crépuscule",
+   "objectives": "Trouver un indice au Camp du Marteau du crépuscule au Glaive du Maître.",
+   "description": "Nous ne connaissons pas le but du Marteau du crépuscule au Glaive du Maître.\n\nFouillez leur camp au Glaive… Essayez de trouver quelque chose qui puisse nous indiquer leurs intentions.\n\nCar nous devons les connaître avant d'établir un plan.",
+   "progress": null,
+   "completion": "Ce livre est manuscrit dans un ancien langage et illustré par un maître artiste.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 10076,
+     "name": "Scrying Bowl"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 12666,
+     "name": "Twilight Tome"
+    }
+   ],
+   "zone_id": 148,
+   "level": 17,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 1250,
+   "money": 900,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "950": {
+   "id": 950,
+   "name": "La page qui rend fou",
+   "objectives": "Apporter les Gribouillages déments à Onu.",
+   "description": "Consulter le Tome du crépuscule rend fou. Au premier regard, le texte commence à flotter et danser ; images et enluminures s'entremêlent pour créer des formes grotesques.\n\nVous arrivez tout juste à déchirer une page de ces gribouillages déments avant qu'un vertige ne vous submerge.",
+   "progress": "<nom>. Vous êtes de retour !",
+   "completion": "Une magie chaotique et primitive baigne cette page. J'y ressens le travail des très anciens.\n\nEspérons qu'elle révélera les desseins du Marteau du crépuscule à Sombrivage.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 12666,
+     "name": "Twilight Tome"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3616,
+     "name": "Onu"
+    }
+   ],
+   "zone_id": 148,
+   "level": 17,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 950,
+   "money": 700,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "951": {
+   "id": 951,
+   "name": "Les Reliques de Mathystra",
+   "objectives": "Apporter 6 Reliques de Mathystra à Onu, au Bosquet des Anciens.",
+   "description": "Le parchemin que vous avez découvert au Glaive du Maître est la page d'un texte ancien… écrit par des elfes ! Il est souillé de la corruption du Marteau du crépuscule. Ainsi, le culte utilise l'ancienne magie des elfes pour ramener ses vieux maîtres dans notre monde.\n\nVoyagez jusqu'aux ruines de Mathystra au nord-est, et cherchez d'anciennes reliques, dans l'herbe et parmi les pierres brisées. En les étudiant, il se peut que nous comprenions comment le Marteau du crépuscule compte exploiter la magie des elfes.",
+   "progress": "<nom>. Vos recherches dans les Ruines de Mathystra ont-elles été fructueuses ?",
+   "completion": "Merci. Ces reliques datent de la grande époque de Mathystra. Cet ancien bastion de renom des elfes a aujourd'hui disparu, mais des fragments de sa magie demeurent. Espérons que nous pourrons découvrir les secrets de cet endroit avant nos ennemis. . .\n\nLa vigilance s'impose, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3616,
+     "name": "Onu"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3616,
+     "name": "Onu"
+    }
+   ],
+   "zone_id": 148,
+   "level": 20,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 1950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "952": {
+   "id": 952,
+   "name": "Bosquet des Anciens",
+   "objectives": "Livrer le message de Fandral à Onu, au bosquet des Anciens, à Sombrivage, au sud d’Auberdine.",
+   "description": "Si vous avez suffisamment de temps pour servir de <messager/messagère> pour l'arbre-oracle, je pourrais vous demander de remettre un message au bosquet des Anciens, à Sombrivage, au sud d'Auberdine.\n\nVous aurez probablement à effectuer le voyage en hippogryphe, mais j'ai foi en vos compétences. Apportez ceci à Onu, l'Ancien du savoir. Il attend un mot de ma part, tout comme j'attendais un mot de la Clairière de l'Oracle.",
+   "progress": "Ah. <classe>. Comment Onu peut vous être d'une quelconque assistance ?",
+   "completion": "Merci, <nom>. C'est étrange, cependant. L'archidruide semble toujours si pressé. La forêt sait que tout ce qui doit arriver arrivera en temps utile. Shan'do Hurlorage a compris cela.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3516,
+     "name": "Archidruide Fandral Staghelm"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3616,
+     "name": "Onu"
+    }
+   ],
+   "zone_id": 148,
+   "level": 17,
+   "reqlevel": 6,
+   "side": "alliance",
+   "xp": 880,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "messager/messagère"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Si vous avez suffisamment de temps pour servir de messager pour l'arbre-oracle, je pourrais vous demander de remettre un message au bosquet des Anciens, à Sombrivage, au sud d'Auberdine.\n\nVous aurez probablement à effectuer le voyage en hippogryphe, mais j'ai foi en vos compétences. Apportez ceci à Onu, l'Ancien du savoir. Il attend un mot de ma part, tout comme j'attendais un mot de la Clairière de l'Oracle.",
+      "objectives": "Livrer le message de Fandral à Onu, au bosquet des Anciens, à Sombrivage, au sud d’Auberdine.",
+      "name": "Bosquet des Anciens"
+     },
+     "npc": 3516,
+     "npc_name": "Archidruide Fandral Staghelm",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Darnassus",
+     "map_id": 1457,
+     "client": "1.60.1.70790",
+     "first_seen": 1794000953,
+     "last_seen": 1794000953
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "953": {
+   "id": 953,
+   "name": "La chute d'Ameth'Aran",
+   "objectives": "Étudier les tablettes qui parlent d'Ameth'Aran et de sa chute, puis retourner voir la Sentinelle Tysha Moonblade à Sombrivage.",
+   "description": "Vous trouverez à l'est les ruines d'Ameth'Aran. Elles sont habitées par les esprits sans repos des Bien-nés qui vivaient autrefois dans ces murs, quand les serviteurs d'Azshara y pratiquaient librement leur puissante magie.\n\nOn m'a envoyée pour explorer les ruines et trouver deux grandes tablettes, sur lesquels sont racontées les histoires d'Ameth'Aran et de sa chute. Alors que je lisais les runes, j'ai été surprise par les esprits, et je me suis enfuie.\n\nS'il vous plaît, si vous le pouvez, aventurez-vous dans les ruines et déchiffrez les tablettes pour moi.",
+   "progress": "Lorsque vous aurez étudié les tablettes et compris les circonstances de la chute d'Ameth'Aran, je relaierai cette connaissance jusqu'à Auberdine, et informerai le Cercle des Anciens.",
+   "completion": "Nous avons peu de registres des temps de la guerre des Anciens, et spécialement de ceux proches de la destruction du Puits d'éternité. Compte tenu des événements dramatiques et des bouleversements qui ont eu lieu, ce n'est pas une grande surprise.\n\nMerci, <nom>. Grâce à votre aide, j'ai terminé mon travail ici, et vais être en mesure de remettre un rapport complet au Cercle.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3639,
+     "name": "Sentinelle Tysha Moonblade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3639,
+     "name": "Sentinelle Tysha Moonblade"
+    }
+   ],
+   "zone_id": 148,
+   "level": 12,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": 910,
+   "money": 500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "954": {
+   "id": 954,
+   "name": "Bashal'Aran",
+   "objectives": "Trouver la source de l’aura bleue dans les Ruines de Bashal'Aran.",
+   "description": "Les ruines de Bashal'Aran à l'est sont infestées de serviteurs démoniaques. Les fées et les satyres qui ont élu domicile dans la région se nourrissent des énergies magiques du secteur, et leurs pouvoirs augmentent avec le temps passé sur place.\n\nMais malgré cela, j'ai remarqué un sanctuaire dont ils ne s'approchent jamais. A l’ouest des ruines, au sommet d'un petit promontoire, filtre une étrange aura bleue... Il doit y avoir une explication à la répugnance des démons.\n\nJ'aimerais que vous enquêtiez à ce propos.",
+   "progress": null,
+   "completion": "Ah !… Pour quelle raison me feriez-vous l'extraordinaire honneur de votre compagnie. En vérité, cela en révèle beaucoup sur mes compagnons actuels – sans vouloir offenser mes hôtes, les nobles grells et les grands satyres –, car votre présence pourrait être considérée comme une amélioration, <nom>.\n\nMais, s'il vous plaît, ne laissez point ma langue si peu civile vous faire fuir. Il y a de nombreuses années, en fait des décennies, que je n'ai eu d‘aimable compagnie.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3649,
+     "name": "Thundris Windweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3650,
+     "name": "Asterion"
+    }
+   ],
+   "zone_id": 148,
+   "level": 12,
+   "reqlevel": 7,
+   "side": "alliance",
+   "xp": 680,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "955": {
+   "id": 955,
+   "name": "Bashal'Aran",
+   "objectives": "Acquérir 8 Boucles d'oreilles de grell pour Asterion à Bashal'Aran.",
+   "description": "Si j'avais à raconter l'histoire de ma vie, il ne fait pas de doute qu'elle dépasserait les limites de votre patience. Disons que ma vie a été longue et douloureuse, et cette forme spectrale qui est la mienne à présent est peut-être le pire de tous ces tourments.\n\nJe suis retenu ici par les pouvoirs de la magie. Bien que mes mots puissent sonner faux, je vous assure que je vous serais reconnaissant au-delà de tout si vous pouviez m’aider à identifier ce qui me retient prisonnier. Un sceau fait partie de ce dispositif, et en examinant les boucles d'oreilles des fées et des grells, je pourrais en trouver la trace.",
+   "progress": "Une fois que j'aurai les boucles d'oreilles, je lancerai le sort pour localiser approximativement le sceau qui me retient. Pendant des siècles, j'ai rêvé à la liberté que m'apporterait la destruction de ce sceau… Peut-être que ces siècles ont doucement jeté un voile sur mon esprit, que je ne pourrai jamais complètement ôter. . .",
+   "completion": "En fait… Les grells de Bashal'Aran ne possèdent pas ce que je recherche… Cependant ils sont récemment entrés en contact avec ce que je recherche. Récemment… je prends comme mesure votre temps, pas le mien. Récent pour moi veut dire dans les brumes du passé, presque dans un autre âge. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3650,
+     "name": "Asterion"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3650,
+     "name": "Asterion"
+    }
+   ],
+   "zone_id": 148,
+   "level": 12,
+   "reqlevel": 7,
+   "side": "alliance",
+   "xp": 910,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "956": {
+   "id": 956,
+   "name": "Bashal'Aran",
+   "objectives": "Obtenir l'Ancien sceau de pierre de lune et l'apporter à Asterion à Bashal'Aran.",
+   "description": "Si les grells sont entrés en contact avec le sceau qui verrouille ma prison éternelle, je crois en connaître la cause. Il ne fait pas de doute que le sceau est en la possession du satyre qui les dirige.\n\nJe ressens fortement que cela doit être vrai, <nom>. L'un des satyres le possède à présent. Si vous pouvez l'obtenir, je serais si proche de pouvoir passer les barreaux de ma prison que les larmes me monteraient aux yeux.",
+   "progress": "Les piliers de cet Autel sont comme les barreaux d'une prison pour moi, <nom>. Aucune force qui pourrait me rester ne pourra les briser, et aucune magie que je pourrais lancer ne pourra les détruire…\n\nPendant des milliers d'années et même plus, je les ai regardés, me demandant si en vivant plus longtemps que ces pierres je parviendrais à m’échapper, ou si c’était des barreaux invisibles qui me retenaient.",
+   "completion": "C'est… C'est difficile de simplement croire que ce que je tiens est ce qui m'a tenu pendant si longtemps. Ne perdons pas de temps, <nom>. Lorsque le sceau sera brisé, il se peut que je puisse marcher dans les forêts de la terre, à nouveau libre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3650,
+     "name": "Asterion"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3650,
+     "name": "Asterion"
+    }
+   ],
+   "zone_id": 148,
+   "level": 13,
+   "reqlevel": 7,
+   "side": "alliance",
+   "xp": 910,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "957": {
+   "id": 957,
+   "name": "Bashal'Aran",
+   "objectives": "Détruire l'Ancien sceau de pierre de lune à la flamme antique qui se trouve dans Ameth'Aran, puis retourner voir Asterion à Bashal'Aran.",
+   "description": "C'est le savoir de l'un des plus puissants Bien-nés qui a créé le sceau fermant ma prison. À Ameth'Aran, dans les ruines au sud, jumelles de celles-ci, brûle une flamme antique, de couleur bleue. Dans cette flamme, ce sceau pourrait être détruit.\n\nSoyez <prudent/prudente> dans les ruines, <nom>.",
+   "progress": "En vérité, <nom>, j'ai peur... Peur que votre venue - tout ceci - ne soit qu'une invention d'un esprit dérangé. Pouvez-vous savoir la torture que c'est ? I... S'il vous plaît, vous devez partir rapidement.",
+   "completion": "Je suis libre, <nom> ! Je peux à présent voir de mes propres yeux les changements qui sont survenus dans notre monde… Je n'en ai connu que des fragments, des morceaux. Quand je pense que la dernière fois que j'ai marché librement, le Puits était toujours debout et que les Bien-nés étaient à la cour avec Azshara, notre reine bien-aimée. . .\n\nJe sens que mon geôlier, mon ancien maître, Athrikus, est toujours en vie. . . Déjà, mes sentiments de désespoir laissent place à des projets de vengeance.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3650,
+     "name": "Asterion"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3650,
+     "name": "Asterion"
+    }
+   ],
+   "zone_id": 148,
+   "level": 13,
+   "reqlevel": 7,
+   "side": "alliance",
+   "xp": 680,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "prudent/prudente"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "958": {
+   "id": 958,
+   "name": "Les outils des Bien-nés",
+   "objectives": "Retrouver 7 Reliques de Bien-né pour Thundris Windweaver à Auberdine.",
+   "description": "<classe>. J'aurais quelque chose à vous demander.\n\nConnaissez-vous les ruines d'Ameth'Aran ? Si ce n'est pas le cas, vous les trouverez à l’est de la route principale, à quelque distance au sud. Alors qu'elles abritaient de nombreux Bien-nés puissants, elles ne sont plus à présent que l’image de la destruction à laquelle leurs expériences ont abouti.\n\nLes Sentinelles disent que les esprits des Bien-nés sont toujours là, et qu'ils manient toujours leurs instruments magiques. Nous devons nous emparer de ces reliques, afin de les détruire.",
+   "progress": "Si seulement les outils de leur perte avaient pu être détruits dans le cataclysme qui a détruit notre monde… Mais passons, nous devons tout faire pour s'assurer que les horreurs du passé ne se reproduisent plus à l’avenir.",
+   "completion": "Bien que ce ne soit probablement que le fruit de mon imagination, je pourrais presque sentir la marque de la magie maléfique des Bien-nés sur ces objets. Nous devons faire en sorte qu'ils soient détruits, pour que leur puissance magique latente ne se réveille jamais.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3649,
+     "name": "Thundris Windweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3649,
+     "name": "Thundris Windweaver"
+    }
+   ],
+   "zone_id": 148,
+   "level": 12,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": 910,
+   "money": 500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "960": {
+   "id": 960,
+   "name": "Onu réfléchit",
+   "objectives": null,
+   "description": "Je réfléchis, <nom>. Je réfléchis aux raisons de la présence du Marteau du crépuscule et des nagas.\n\nLorsque vous serez prêt utilisez la fiole de divination pour créer une coupe de divination.\n\nSi vous avez perdu votre fiole de divination, en voici un autre.",
+   "progress": null,
+   "completion": "Je réfléchis, <nom>. Je réfléchis aux raisons de la présence du Marteau du crépuscule et des nagas.\n\nLorsque vous serez prêt utilisez la fiole de divination pour créer une coupe de divination.\n\nSi vous avez perdu votre fiole de divination, en voici un autre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3616,
+     "name": "Onu"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3616,
+     "name": "Onu"
+    }
+   ],
+   "zone_id": 148,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "961": {
+   "id": 961,
+   "name": "Onu réfléchit",
+   "objectives": null,
+   "description": "La découverte de sectateurs du Marteau du crépuscule est inquiétante. Je dois réfléchir à leurs intentions…\n\nLorsque vous aurez plus d'informations, parlez-moi à travers une coupe de divination. Si vous avez besoin d'une nouvelle fiole de divination pour créer une coupe... en voici une.",
+   "progress": null,
+   "completion": "La découverte de sectateurs du Marteau du crépuscule est inquiétante. Je dois réfléchir à leurs intentions…\n\nLorsque vous aurez plus d'informations, parlez-moi à travers une coupe de divination. Si vous avez besoin d'une nouvelle fiole de divination pour créer une coupe... en voici une.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3616,
+     "name": "Onu"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3616,
+     "name": "Onu"
+    }
+   ],
+   "zone_id": 148,
+   "level": 1,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "963": {
+   "id": 963,
+   "name": "Un amour éternel",
+   "objectives": "Libérer l'esprit d'Anaya Dawnrunner et rapporter son pendentif à Cerellean Whiteclaw à Auberdine.",
+   "description": "À la suite des batailles au Puits d'éternité, j'ai appris qu'Ameth'Aran avait été détruit, et son peuple tué, y compris mon bel amour Anaya.\n\nJe n'aurais jamais cru, des milliers d'années plus tard, que des souvenirs d'Anaya hanteraient toujours mes rêves. Frappé de stupeur, j'ai erré dans les bois de Sombrivage, et j’ai retrouvé les ruines d'Ameth'Aran... Là j’ai vu l'esprit hanté de ma bien-aimée.\n\nElle doit être libérée, mais je n'ai pas le cœur de faire cela. Son esprit doit être détruit.",
+   "progress": "Le cœur empli d'une immense tristesse, j'ai suivi Shan'do Stormrage jusqu'en hibernation, et j’ai emporté mes chagrins dans mes rêves, endormi pour des milliers d'années.",
+   "completion": "Merci, <nom>. Peut-être aurait-il été mieux que je m’en occupe moi-même. Mais même après ces milliers d'années, je n'aurais supporté de lever la main sur ma bien-aimée.\n\nJe vous en prie, laissez-moi seul avec mon chagrin…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3644,
+     "name": "Cerellean Whiteclaw"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3644,
+     "name": "Cerellean Whiteclaw"
+    }
+   ],
+   "zone_id": 148,
+   "level": 16,
+   "reqlevel": 11,
+   "side": "alliance",
+   "xp": 880,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "965": {
+   "id": 965,
+   "name": "La Tour d'Althalaxx",
+   "objectives": "Trouver Balthule Shadowstrike près de la Tour d'Althalaxx à Sombrivage.",
+   "description": "Salutations, jeune <race>. Je m'appelle Elissa Starbreeze, et il est de mon devoir de protéger Auberdine de tout mal.\n\nÀ cette fin, j'ai envoyé Balthule Shadowstrike observer les événements étranges qui se produisent près de la Tour d'Althalaxx au nord-est.\n\nIl aurait déjà dû revenir. J'ai peur qu'il ait rencontré un danger imprévu dans la forêt. J'apprécierais beaucoup si vous pouviez le trouver et vous assurer qu'il va bien.",
+   "progress": null,
+   "completion": "Elissa vous a envoyé ? Alors ce sont de bons vents qui vous amènent. J'ai des nouvelles inquiétantes à lui transmettre, et n'avais pas de moyen de le faire.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3657,
+     "name": "Sentinelle Elissa Starbreeze"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3661,
+     "name": "Balthule Shadowstrike"
+    }
+   ],
+   "zone_id": 148,
+   "level": 18,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": 680,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "race"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "966": {
+   "id": 966,
+   "name": "La Tour d'Althalaxx",
+   "objectives": "Collecter 4 Parchemins passés pour Balthule Shadowstrike près de la Tour d'Althalaxx.",
+   "description": "Un groupe de démonistes s'est établi autour et à l'intérieur de la tour. Je serais retourné à Auberdine pour rendre compte à Elissa plus tôt, mais j'avais peur de rater quelque chose une fois parti.\n\nDelgren suspectait qu'une telle compagnie puisse se rassembler à la tour, mais il n’en savait pas la cause.\n\nQuelques morceaux de parchemins appartenant à ces démonistes ont atterri entre mes mains, mais j'en ai besoin d'autres pour compléter le puzzle. Je vous avertis cependant de ne pas vous aventurer dans la tour, les démonistes qui s'y trouvent sont beaucoup trop puissants !",
+   "progress": "Avez-vous trouvé des parchemins ? Je serais capable de me faire une image plus précise du culte si vous en trouvez.",
+   "completion": "Merci beaucoup, <nom>. Cela devrait éclaircir un peu la raison du rassemblement de démonistes…\n\nHmmm… Le Culte de la Rive noire… Je n'ai jamais entendu parler de ce groupe jusqu'alors. N'ayant pas connaissance de leur histoire, il est impossible d’en déduire leurs plans.\n\nIl n'y a plus de temps à perdre. L'alerte doit être immédiatement donnée à Delgren.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3661,
+     "name": "Balthule Shadowstrike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3661,
+     "name": "Balthule Shadowstrike"
+    }
+   ],
+   "zone_id": 148,
+   "level": 18,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": 1350,
+   "money": 1000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "967": {
+   "id": 967,
+   "name": "La Tour d'Althalaxx",
+   "objectives": "Remettre la Lettre de Balthule à Delgren le Purificateur dans la forêt d'Ashenvale.",
+   "description": "Mon maître, Delgren le Purificateur, est un paladin qui a gracieusement offert son assistance pour défendre nos forêts contre les démons et les morts-vivants. Il m'a beaucoup appris sur le Feu sacré et sur l'art de la bataille.\n\nDelgren doit être mis au courant des opérations du culte immédiatement.\n\nVous le trouverez loin au sud, au poste de Maestra dans la forêt d'Ashenvale. Faites vite, j'ai peur que la menace que représente la Rive noire n'augmente d'heure en heure.",
+   "progress": "Voulez-vous me parler d'une affaire, <classe> ?",
+   "completion": "Si cela ne vous dérange pas que je vous dise ça, vous avez l'air bien équipé pour un messager, pas vrai ? Je suppose que Balthule voulait être certain que sa lettre parvienne à bon port. Voyons ce qu'il a à dire…\n\nVoilà des nouvelles inquiétantes. Lorsque des forces démoniaques ou des morts-vivants sont découverts, j'aide les Sentinelles à les détruire.\n\nAu début, je n'étais pas accoutumé aux manières des elfes de la nuit, mais je les respecte grandement aujourd'hui en tant qu'alliés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3661,
+     "name": "Balthule Shadowstrike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3663,
+     "name": "Delgren le Purificateur"
+    }
+   ],
+   "zone_id": 148,
+   "level": 18,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": 1000,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "968": {
+   "id": 968,
+   "name": "Les puissances d'en-bas",
+   "objectives": "Apporter le Livre : Les puissances d'en bas à Gerrig Bonegrip, dans la caverne lugubre d'Ironforge.",
+   "description": "Bien qu'affreusement usé et égratigné, le titre est encore lisible sur la couverture :\n\nLes puissances d'en bas.\n\nÀ l'intérieur du livre écorné se trouve une liste de noms imprononçables affublés d'horribles titres, des méthodes de culte, des sacrifices conseillés... dont beaucoup incluent des créatures humanoïdes, vivantes.\n\nAu verso de la couverture, sont inscrits les mots suivants : \"Runes et malédictions de Bonegrip, la caverne lugubre, Ironforge. Propriétaire : Gerrig Bonegrip.\"\n\nSi Bonegrip vend de tels livres, peut-être qu'il rachètera celui-ci.",
+   "progress": "Salutations, Monsieur.\n\nPuis-je vous intéresser à l'un de mes livres ?",
+   "completion": "Ah ! Une copie des « Puissances d'en bas ». Un texte intéressant, on peut le dire. Et d'aucuns pourraient le trouver utile…\n\nMais celle-ci est dans un triste état. Et regardez ! Il y a des annotations en marge de presque toutes les pages !\n\nHum. . . Je connais cette copie. Je l'ai vendue à Bolgar l'année dernière. Êtes-vous. . . l'un de ses amis ? Oui, il me semblait bien que vous l'étiez ! Vous avez ce même feu dans le regard !\n\nBien, par définition, un ami de Bolgar est mon ami. Et l'on prend soin des siens, n'est-ce pas ?",
+   "starters": [
+    {
+     "type": "item",
+     "id": 5352,
+     "name": "Book: The Powers Below"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2786,
+     "name": "Gerrig Bonegrip"
+    }
+   ],
+   "zone_id": 148,
+   "level": 20,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "970": {
+   "id": 970,
+   "name": "La Tour d'Althalaxx",
+   "objectives": "Trouver une Gemme d'âme luminescente et la rapporter à Delgren le Purificateur au poste de Maestra.",
+   "description": "La lettre de Balthule est désespérée. Ce culte de la Rive noire m'irrite au plus haut point et doit être éradiqué. J'ai eu affaire à quelques vermines de la Rive noire au nord-est d'ici à Ordil'Aran. L'un d'entre eux possède une gemme d'âme, qui je crois détient le secret de la puissance de ce culte.\n\nApportez-la-moi, et je serai capable de déchiffrer les secrets qu'elle contient.",
+   "progress": "Êtes-vous entré en possession de la gemme d'âme ?",
+   "completion": "Hmmm ! Une magie maléfique ensorcelle cette Pierre d'âme. Voyons quel piège elle recèle…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3663,
+     "name": "Delgren le Purificateur"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3663,
+     "name": "Delgren le Purificateur"
+    }
+   ],
+   "zone_id": 148,
+   "level": 21,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "973": {
+   "id": 973,
+   "name": "La Tour d'Althalaxx",
+   "objectives": "Apporter le Tome d'Ilkrud Magthrull à Delgren le Purificateur au Poste de Maestra.",
+   "description": "Ilkrud Magthrull ? Oui, je le connais. Il s'agit d'un puissant démoniste orc qui s’est établi au Sanctuaire de Scarfeu, un endroit très maléfique dans le sud-ouest d'Ashenvale.\n\nIl n'a pas été plus qu'un simple désagrément jusqu'à présent, et je n'ai pas eu affaire à lui, mais il semble que le temps soit venu.",
+   "progress": "Vous semblez un peu secoué, <nom>. Vous allez bien ?",
+   "completion": "C'est une grande chose que vous avez accomplie aujourd'hui, <nom>. Vous pouvez être fier de vous pour avoir vaincu un démoniste d'une telle puissance.\n\nÀ présent, voyons ce que peuvent nous apprendre les écrits d'Ilkrud.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3663,
+     "name": "Delgren le Purificateur"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3663,
+     "name": "Delgren le Purificateur"
+    }
+   ],
+   "zone_id": 148,
+   "level": 24,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": 1950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "981": {
+   "id": 981,
+   "name": "La Tour d'Althalaxx",
+   "objectives": "Aller voir Delgren le Purificateur au Poste de Maestra.",
+   "description": "Vous méritez bien une récompense pour tout ce que vous avez accompli. Retournez voir Delgren et dites-lui qu'Athrikus Narassin gît à terre par vos soins et que le Culte de la Rive noire est vaincu et démantelé.",
+   "progress": null,
+   "completion": "Je savais que vous seriez à la hauteur, <nom>.\n\nDe grandes prouesses vous attendent et vous aurez raison des maux qui pourrissent notre pays. Recevez ma bénédiction, <nom>, ainsi que ce cadeau.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3661,
+     "name": "Balthule Shadowstrike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3663,
+     "name": "Delgren le Purificateur"
+    }
+   ],
+   "zone_id": 148,
+   "level": 31,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": 2500,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "982": {
+   "id": 982,
+   "name": "Océan profond, mer immense",
+   "objectives": "Récupérer le Coffret de l’Aube argentée et le Coffret du Voile de brume, pour Gorbold Steelhand, à Auberdine. Ces deux objets se trouvent à bord des épaves des navires respectifs, au nord du village.",
+   "description": "Au large de Sombrivage, plus au nord, il y a deux épaves de bateau : l’Aube argentée et le Voile de brume. Il y a quelque temps, ces deux bateaux sont tombés sur ces maudits murlocs, alors qu’ils faisaient voile à travers la vaste mer jusqu’à Auberdine. Ils reposent maintenant au fond des eaux, comme autant de trophées au crédit de ces démons.\n\nLes deux capitaines n’ont pas survécu et leurs journaux de bord et effets personnels sont toujours dans leurs coffrets. Je voudrais que vous les récupériez ; cela serait symboliquement très important pour tous les équipages de cette contrée.",
+   "progress": "Les capitaines de ces navires étaient des elfes de la nuit et ils méritent un meilleur destin que celui qu'ils ont connu. Nous devons nous occuper de leurs effets personnels, c'est le meilleur moyen de permettre à leurs esprits de trouver le repos.",
+   "completion": "Vous avez rendu un fier service à Auberdine, gamin. Nous veillerons à ce que l'on prenne grand soin de leurs effets.\n\nEt pour vous, veuillez accepter ceci. C'est le moins que l'on puisse faire pour remercier la personne qui a eu le courage de rétablir l'ordre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6301,
+     "name": "Gorbold Steelhand"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6301,
+     "name": "Gorbold Steelhand"
+    }
+   ],
+   "zone_id": 148,
+   "level": 17,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": 1250,
+   "money": 1800,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "983": {
+   "id": 983,
+   "name": "Bigobox 827",
+   "objectives": "Réunir 6 Pattes de clampants et les mettre dans la bigobox 827.",
+   "description": "Hé ! J'ai besoin d'aide pour ma dernière invention, la bigobox. Elle permet de parler aux gens à distance !\n\nVous en avez peut-être déjà vu, ce sont des boîtes avec un levier dessus. Le seul problème, c'est qu'il faut une maintenance permanente.\n\nElles ont toutes un problème différent, mais j'ai eu une idée géniale. J'ai placé chacune d'elle près de la créature qui possède les éléments appropriés pour la réparer. En ce moment, la bigobox 827 est en panne. C'est juste au sud d'Auberdine, vraiment tout près. Il faut 6 pattes de clampants pour la réparer. Je vous payerai pour ça...",
+   "progress": "La bigobox 827 est posée là, dans un silence à faire frémir. Un simple clignotant indique qu'elle a besoin de 6 pattes de clampants pour fonctionner.",
+   "completion": "Alors que vous placez les pattes de clampants dans la machine, vous entendez des engrenages commencer à grincer. À en juger par les bruits de chocs qui émanent de la Bigobox, vous pensez que les pattes de clampants s'imbriquent à la place qui leur est destinée. Bientôt la machine commence à bourdonner, et vous entendez une voix minuscule qui en sort.\n\n\"Allô ? Euh. . . Salut ! Vous l'avez réparée ! C'est Wizbang ici ! Merci beaucoup. . . Hé, vous ne voudriez pas en réparer une autre, par hasard ?\"",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3666,
+     "name": "Wizbang Cranktoggle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 17182,
+     "name": "Buzzbox 827"
+    }
+   ],
+   "zone_id": 148,
+   "level": 10,
+   "reqlevel": 7,
+   "side": "alliance",
+   "xp": 840,
+   "money": 350,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "984": {
+   "id": 984,
+   "name": "Quelle est l'ampleur de la menace ?",
+   "objectives": "Trouver un camp de furbolgs corrompus à Sombrivage et retourner voir Terenthis dans Auberdine.",
+   "description": "Certains de mes frères ont été sauvés de justesse d'un furbolg corrompu à Teldrassil, et je me suis juré d'arrêter ces atrocités avant que d'autres ne soient blessés... ou pire.\n\nJ'ai déjà vu des prémices de corruption à Sombrivage, mais il faut que je cherche d'autres signes ailleurs. Je pense qu'il serait logique de poursuivre les investigations auprès des furbolgs. Pourriez-vous trouver un de leurs camps et me dire s’il y a des signes de corruption ?",
+   "progress": "Comment se passe votre recherche, <nom> ?",
+   "completion": "C'est vraiment une terrible nouvelle, <nom>.\n\nSi les furbolgs sont si près d'Auberdine, nous devons nous préparer à l'inévitable.\n\nMerci, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3693,
+     "name": "Terenthis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3693,
+     "name": "Terenthis"
+    }
+   ],
+   "zone_id": 148,
+   "level": 14,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 740,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "985": {
+   "id": 985,
+   "name": "Quelle est l'ampleur de la menace ?",
+   "objectives": "Tuer 8 Guides et 5 Messagers du vent Noirbois puis retourner voir Terenthis à Auberdine.",
+   "description": "Vous avez déjà prouvé vos qualités dans le domaine de la reconnaissance, <nom>. Avez-vous aussi les qualités nécessaires pour affronter l'adversaire ?\n\nLes aventuriers ne préfèrent pas tous le combat direct à l'art de la ruse et de l'évasion.\n\nSi vous pensez être à la hauteur de la tâche, sachez que la plus grande menace pour notre peuple est aujourd'hui le camp furbolg au sud d'Auberdine. Vous y trouverez des furbolgs de la tribu Noirbois. Tuez 8 Guides et 5 Messagers du vent et revenez me voir.",
+   "progress": "Ne t'éloigne pas de ce qui doit être fait, mon enfant. Je sais à quel point l'idée de tuer les créatures de la forêt doit être répugnante, mais dans ce cas, c'est nécessaire. Aucun remède n'a été découvert contre la corruption qui s'est abattue sur la forêt, et nous devons faire tout ce qui est en notre pouvoir pour stopper sa progression jusqu'à ce qu'un remède soit trouvé.",
+   "completion": "Lavez le sang de vos vêtements, <nom> et ne pleurez pas sur ce que vous avez dû faire. Rendez grâces, plutôt. Vous avez éloigné la menace d'Auberdine, même si Sombrivage est toujours en danger par la faute des gangremousses.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3693,
+     "name": "Terenthis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3693,
+     "name": "Terenthis"
+    }
+   ],
+   "zone_id": 148,
+   "level": 14,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 980,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "986": {
+   "id": 986,
+   "name": "Un maître perdu",
+   "objectives": "Trouver 5 Belles peaux de traquelune et les apporter à Terenthis, à Auberdine.",
+   "description": "<nom>, votre habileté m'a déjà été utile. Puis-je à nouveau vous demander d'aider Griffe-sinistre et son maître Volcor ? Je vais vous fabriquer une cape magique qui vous permettra de vous déplacer librement au milieu des créatures de Sombrivage pendant que vous le chercherez.\n\nPour faire cette cape, j'ai besoin de cinq belles peaux de géniteur ou de matriarche traquelune. Vous trouverez ces tigres au sud de la Sinueuse ou beaucoup plus au sud, non loin d'Ashenvale.",
+   "progress": "En toute bonne conscience, je ne peux pas vous permettre de partir chercher Volcor avant d'avoir terminé votre cape.",
+   "completion": "Celles-ci feront l'affaire, <nom>. Je vais me mettre immédiatement au travail sur cette cape.\n\nDonnez-moi un peu de temps, puis revenez me voir.\n\nEncore une chose : l’utilisation de l'enchantement de la cape limite vos possibilités d'interactions avec les autres. Si possible, contentez-vous de parler. Si vous en faites plus, l'illusion disparaîtra.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3693,
+     "name": "Terenthis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3693,
+     "name": "Terenthis"
+    }
+   ],
+   "zone_id": 148,
+   "level": 20,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "993": {
+   "id": 993,
+   "name": "Un maître perdu",
+   "objectives": "Trouver Volcor, à Sombrivage, et lui donner la Cape enchantée de traquelune.",
+   "description": "La cape est terminée, <nom>. Nous devons trouver Volcor à présent. J'espère seulement que nous sommes encore dans les temps.\n\nLa magie de la cape, une fois invoquée, ne durera pas longtemps. Cinq minutes, peut-être. Ce sera à vous de choisir quand l'utiliser. Je suggèrerais d'attendre de trouver Griffe-sinistre.\n\nSi ce qu'il m'a dit est vrai, vous trouverez son maître dans une caverne au sud d'ici. Griffe-sinistre vous attendra le long de la route. Faites-lui un signe de la main lorsque vous le verrez et il vous indiquera la direction de son maître.",
+   "progress": null,
+   "completion": "Merveilleux ! Terenthis a trouvé quelqu'un pour m'aider.\n\nEt regardez, une Cape de traquelune. . . <il tousse> Oh. . . Ça fait mal. Merci, <nom>.\n\nLes furbolgs m'ont blessé avant que je ne réussisse à leur échapper. Laissez-moi quelques instants et je serai en mesure de parler plus longuement.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3693,
+     "name": "Terenthis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3692,
+     "name": "Volcor"
+    }
+   ],
+   "zone_id": 148,
+   "level": 20,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 780,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "994": {
+   "id": 994,
+   "name": "Évasion par la force",
+   "objectives": "Protéger Volcor jusqu'à la route puis aller voir Terenthis à Auberdine.",
+   "description": "Ça va, <nom>. Sortons de là. Nous nous fraierons un passage jusqu'à la route ; Griffe-sinistre devrait encore y être. Une fois là bas, nous pourrons nous séparer.\n\nTerenthis va vouloir que vous lui racontiez immédiatement ce qui s'est passé, vous irez donc à Auberdine dès que nous serons sortis vivants d'ici.",
+   "progress": null,
+   "completion": "<nom> ! Je suis heureux de voir que vous avez réussi. En aidant Volcor, vous m'avez rendu la foi : nous surmonterons les défis qui nous attendent à Sombrivage et au-delà.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3692,
+     "name": "Volcor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3693,
+     "name": "Terenthis"
+    }
+   ],
+   "zone_id": 148,
+   "level": 22,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1750,
+   "money": 1400,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "995": {
+   "id": 995,
+   "name": "Évasion par la ruse",
+   "objectives": "S'échapper de la grotte des furbolgs et aller voir Terenthis à Auberdine.",
+   "description": "D’accord... si vous le voulez, nous nous échapperons d’ici.\n\nRappelez vous, une fois que vous aurez quitté ce lieu, allez à Auberdine et rencontrez Terenthis. C’est là que je vais me rendre aussi, et j’y serai probablement avant vous.",
+   "progress": "Oui, <nom> ?",
+   "completion": "<nom> ! Je suis heureux de voir que vous avez réussi. En aidant Volcor, vous m'avez rendu la foi : nous surmonterons les défis qui nous attendent à Sombrivage et au-delà.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3692,
+     "name": "Volcor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3693,
+     "name": "Terenthis"
+    }
+   ],
+   "zone_id": 148,
+   "level": 20,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 780,
+   "money": 600,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1001": {
+   "id": 1001,
+   "name": "Bigobox 411",
+   "objectives": "Rassembler 3 Yeux de batteur de Sombrivage au fond de la mer, près de la bigobox 411.",
+   "description": "Une petite voix crépite à l'intérieur de la machine.\n\n\"C'est Wizbang ! La prochaine Bigobox se trouve au nord d'Auberdine, sur la plage !\n\nCette Bigobox porte le numéro 411 et a besoin de 3 Yeux de batteur pour être réparée. Ils sont un peu au large de la côte ! Les Frappeurs de Sombrivage... *Hic*... Pardon...\n\nTout comme pour la dernière fois, quand vous donnerez les objets à la Bigobox, elle vous crachera votre récompense. *Hic*... Quoi ? Non, je vais bien !\"",
+   "progress": "L'écoutille de la machine s'est ouverte et elle semble attendre avec espoir qu'on y place 3 Yeux de batteur.",
+   "completion": "La bigobox reprend vie et commence à bourdonner dès que vous y placez les Yeux de batteur. Après un instant de silence, vous entendez une minuscule voix qui vous est familière.\n\n\" Le vin de clampant est le meilleur. . . \" *hic*\n\n\" Quoi ? Oh ! Vous l'avez dé-déjà réparée ? Ouah, v-v-vous êtes un ra-rapide ! Vous-vous voulez en ré-réparer une autre ?\"\n\nIl vous semble entendre un liquide versé dans un verre, suivi de forts bruits de déglutition.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 17182,
+     "name": "Buzzbox 827"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 17183,
+     "name": "Buzzbox 411"
+    }
+   ],
+   "zone_id": 148,
+   "level": 12,
+   "reqlevel": 7,
+   "side": "alliance",
+   "xp": 1150,
+   "money": 1000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1002": {
+   "id": 1002,
+   "name": "Bigobox 323",
+   "objectives": "Trouver 6 Crocs de traquelune et les mettre dans la bigobox 323.",
+   "description": "La bigobox se tait un instant puis vous entendez Wizbang commencer à parler.\n\n\"La-la bigobox suivante est la numéro 323. L'est au nord d'Auberdine mais... Où est la bière ? Hein ? Oh ! C'est sur-sur la route alo-lors ça ne devrait pas-pas être dif-difficile de la trou-trouver près du pont.\"\n\nWizbang marmonne quelque chose d'incohérent puis vous entendez un bruit de déglutition sonore.\n\n\" Il f-f-faut des Crocs de traquelune... 6 cro-crocs.\"",
+   "progress": "Bien que vous n'ayez pas encore placé les 6 Crocs de traquelune à l'intérieur de la machine, vous croyez y entendre des divagations incohérentes en gnome. Quelqu'un d'autre a-t-il déjà réparé la machine ?",
+   "completion": "La bigobox se met soudain en marche et vous entendez distinctement des bruits de dents qui en sortent.\n\n\"A-Alors, c'est f-fait ? Exc-ellente nou-nouvelle. . . B-B-bon. . . On continue ? Oh ! À moins qu-que vous ne vouliez f-faire autre cho-chose !\"",
+   "starters": [
+    {
+     "type": "object",
+     "id": 17183,
+     "name": "Buzzbox 411"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 17184,
+     "name": "Buzzbox 323"
+    }
+   ],
+   "zone_id": 148,
+   "level": 14,
+   "reqlevel": 7,
+   "side": "alliance",
+   "xp": 980,
+   "money": 600,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1003": {
+   "id": 1003,
+   "name": "Bigobox 525",
+   "objectives": "Se procurer 4 Scalps vieillis sur de Vieux ours des chardons au sud d'Auberdine et les placer dans la Bigobox 525.",
+   "description": "En plus du bruit de fond et des sons écœurants qui viennent de la machine, vous entendez la voix hésitante de Wizbang appeler.\n\n\"Au-autre au s-sud en bas de l-la route. Ne devrait pa-pas trop dur à trouver... juste au b-bord... près d'une clôture. Je p-pense que je l'ai ca-cachée dans un beu-beu... buisson. Hé hé hé !... Ouais, la bigobox 525 a be-besoin de s-scalps vieillis de vieux ou-ours des chardons. Garçon, une autre ! Vi-vieillis... Hé hé hé !...\"\n\nVous entendez déglutir tandis que la machine s'arrête. Puis soudain, elle éructe.\n\n\"4 !\"",
+   "progress": "La bigobox 525 se met à chanter – faux.\n\n\"L'vin de clampant est exchellent, la bi-bière d'batteur encore meilleure, et l'alcool d'traquelune peut faire la une. Mais ri-rien ne vaut la bi-bière d'ours des chardons, et bien-bientôt j'm'en s'rais mis plein l’bedon !\"\n\nL'écoutille baille et avale ses 4 scalps vieillis d’ours tandis que la chanson boucle sur le refrain.",
+   "completion": "Vous-vous avez mis les scalps d-dedans ? Gé-génial. . . Hein ? Ah oui ! Je-je su-suppose que vous-vous avez v-vu que je peux p-parler aux gens sans-sans mettre les trucs d-dans m-ma machine. Mais je disais la vé-vérité quand je d-disais qu'elles étaient ca-cassées !\n\nVous v-voyez, en plus de serv-servir à communiquer, les bigobox f-font aussi de la dis-distillation de-d'excellents s-spiritueux. Dé-désolé pour le dérangement, mais les elfes de-de la nuit n'apprécient p-pas le débit de boi-boissons que je viens d’ouvrir dans leur v-ville. Je vous ai m-mis un ca-cadeau cuvée spéciale dans ce-cette boîte pour v-vous montrer ma gra-gratitude. Appréciez, c’est du bon !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 17184,
+     "name": "Buzzbox 323"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 17185,
+     "name": "Buzzbox 525"
+    }
+   ],
+   "zone_id": 148,
+   "level": 16,
+   "reqlevel": 7,
+   "side": "alliance",
+   "xp": 1150,
+   "money": 800,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1138": {
+   "id": 1138,
+   "name": "Fruit de la mer",
+   "objectives": "Collecter 6 morceaux de Belle chair de crabe pour Gubber Blump, à Auberdine.",
+   "description": "J’adore le crabe, ce fruit de mer par excellence ! Vous pouvez le faire griller, l’ébouillanter, le braiser, en faire des beignets frits, des acras, le déguster en salade ou le consommer en soupe ; voilà tout ce qu’on peut faire avec.\n\nJe suis ici en train de pêcher en ce moment, et je ne peux donc pas me procurer les morceaux de belle chair de crabe dont j'ai besoin. Vous pouvez en trouver sur les clampants des récifs et sur les clampants des marées incrustés. Vous pouvez en faire plein de choses. Vous pouvez le faire griller, l’ébouillanter, le braiser...",
+   "progress": "…Crabe au citron, crabe aux navetilles et le crabe surprise d'Ironforge. C'est à peu près tout.\n\nOh, bien le bonjour, <nom>. Avez-vous la belle chair de crabe dont je vous parlais ?",
+   "completion": "J'avais justement besoin de ces morceaux de belle chair de crabe. Merci <nom> ! J'ai trouvé ça il y a quelques temps en pêchant et je n'en ai pas l'usage. Peut-être lui trouverez-vous une utilité. C'est inutilisable pour faire de bons plats de crabe.\n\nJe vous ai tout dit à propos des crabes, n'est-ce pas ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10216,
+     "name": "Gubber Blump"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10216,
+     "name": "Gubber Blump"
+    }
+   ],
+   "zone_id": 148,
+   "level": 17,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": 1250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1140": {
+   "id": 1140,
+   "name": "La tour d'Althalaxx",
+   "objectives": "Libérer les Âmes de Bien-nés captives au défilé de la Nuit et à Satyrnaar, puis retourner voir Delgren le Purificateur au poste de Maestra.",
+   "description": "L'écriture des orcs est à peine plus lisible que le gribouillage d'un enfant. J'ai essuyé bien des moqueries lorsque j'ai décidé d'apprendre leur langue, mais il est toujours utile de connaître l'ennemi.\n\nSi j'en crois les griffonnages d'Ilkrud, il semble qu'Athrikus possède toujours deux gemmes d'âme captives, au défilé de la Nuit et à Satyrnaar, des régions tenues par les satyres au nord-est d'Ashenvale.\n\nFaites attention, <nom>, les temples baignés de sang des satyres peuvent être effrayants, même pour des <classe>s aguerris !",
+   "progress": "J'ai entendu chuchoter un jour que l'histoire des satyres était liée à celle des elfes de la nuit, mais mes chers hôtes se sont montrés réticents à l'idée d'en parler.",
+   "completion": "Les satyres ont peut-être été autorisés à résider trop longtemps dans cette forêt. J'en parlerai à Elissa la prochaine fois que je me rendrai à Auberdine.\n\nEn tout cas, le pouvoir d'Athrikus va beaucoup diminuer avec la destruction des gemmes d'âme. Nous devons en profiter pour le détruire et pour éradiquer son culte.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3663,
+     "name": "Delgren le Purificateur"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3663,
+     "name": "Delgren le Purificateur"
+    }
+   ],
+   "zone_id": 148,
+   "level": 28,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": 2300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1141": {
+   "id": 1141,
+   "name": "La famille à la canne à pêche",
+   "objectives": "Attraper 6 Mérous de Sombrivage pour Gubber Blump, à Auberdine.",
+   "description": "J’adore pêcher. La famille Blump est connue comme une grande famille de pêcheurs. Je m’appelle Gubber Blump ; je pêche.\n\nIl y a un poisson que j’aime attraper dans le coin, le mérou de Sombrivage. J’avais l’habitude d’aller en bateau pour pêcher Ie mérou, mais les bateaux ne sortent plus depuis que ces maudits murlocs sont arrivés. Je suppose qu’ils ont aussi dévoré tous les mérous.\n\nVoulez-vous m’aider à attraper des mérous de Sombrivage ? Si vous m’aidez, je vous donnerai une authentique canne à pêche de la famille Blump ! C’est une excellente canne pour attraper le poisson.",
+   "progress": "Les mérous de Sombrivage sont à l'origine d'une quantité non négligeable de plats. Ils sont savoureux, mais c'est encore plus amusant de les attraper.\n\nVous avez déjà attrapé des mérous de Sombrivage ?",
+   "completion": "Certains de ces mérous sont vraiment très beaux, <nom> ! Merci de votre aide !\n\nVous êtes au moins aussi bon pêcheur que ma cousine, Graun Blump. Elle porte aussi la barbe et sent particulièrement fort, mais ça ne l'empêche pas de continuer à pêcher. J'admets que vous avez ce qu'il faut pour utiliser une canne à pêche de la famille Blump.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10216,
+     "name": "Gubber Blump"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10216,
+     "name": "Gubber Blump"
+    }
+   ],
+   "zone_id": 148,
+   "level": 14,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 980,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1143": {
+   "id": 1143,
+   "name": "La tour d'Althalaxx",
+   "objectives": "Tuer Athrikus Narassin et apporter sa Tête à Balthule Shadowstrike près de la Tour d'Althalaxx.",
+   "description": "Je vois. Si ce que vous affirmez est vrai, alors c'est le moment de frapper. Je sais qu'Athrikus réside en haut de la tour. Faites attention, car il est entouré de nombreux démonistes, bien plus dangereux que ceux que vous avez déjà combattus.",
+   "progress": "Athrikus Narassin est un vieux et puissant démoniste. Nous devrions peut-être attendre l'aide de Delgren, mais il avait l'air de vous faire confiance, puisqu'il vous a envoyé seul ici.",
+   "completion": "J'espère que la mort d'Athrikus Narassin va faire reculer les forces démoniaques dans cette région ! Je sais qu'elles vont se regrouper et attaquer, mais nous serons préparés à les recevoir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3661,
+     "name": "Balthule Shadowstrike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3661,
+     "name": "Balthule Shadowstrike"
+    }
+   ],
+   "zone_id": 148,
+   "level": 31,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": 2500,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1167": {
+   "id": 1167,
+   "name": "La tour d'Althalaxx",
+   "objectives": "S'entretenir avec Balthule Shadowstrike près de la Tour d'Althalaxx.",
+   "description": "Il serait sage de vous entretenir avec Balthule avant d'affronter Athrikus. Il a certainement observé la Tour avec une grande vigilance et il pourrait avoir des renseignements intéressants.",
+   "progress": null,
+   "completion": "Ah ! Ravi de vous revoir, <nom> ! Il se passe des choses particulièrement étranges par ici et je suis content que vous soyez de retour !\n\nVraiment bizarre, <nom>. Tout avait l'air normal (enfin, pour autant que les choses puissent être normales par ici) et tout à coup un éclair aveuglant s'est échappé de la pièce la plus haute de la Tour. Puis il y a eu les cris. Des hurlements qui déchiraient l’air et des éclairs qui frappaient le sol de temps à autre. Qu'est-ce qui se passe ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3663,
+     "name": "Delgren le Purificateur"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3661,
+     "name": "Balthule Shadowstrike"
+    }
+   ],
+   "zone_id": 148,
+   "level": 28,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": 570,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2078": {
+   "id": 2078,
+   "name": "La vengeance de Gyromast",
+   "objectives": "Trouver le Premier Officier de Gelkak, le Destructomembreur 4100, et le ramener à Gelkak.",
+   "description": "Bouseux de terrien ! Tu dois me dégoter mon Premier Officier.\n\nPrends c'te clé, mets-y dans le bon trou, et ramèn' le ici pour servir le cap'taine.\n\nCes murlocs et leur chef vont pas beaucoup aimer quand mon Premier Officier va leur mettre l'grappin dessus !",
+   "progress": "Où est mon second, <nom> ? Des chaînes et des requins pour vous bientôt si vous ne vous dépêchez pas !",
+   "completion": "Rrr. . . Va falloir q'tu montres que t'es plus qu'un chien de mer gueulard, bouseux de terrien !\n\nLe cap'taine pourrait bien t'filer une promotion serpillière sur le pont de poupe si t'accélères pas l'mouvement. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6667,
+     "name": "Gelkak Gyromast"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6667,
+     "name": "Gelkak Gyromast"
+    }
+   ],
+   "zone_id": 148,
+   "level": 20,
+   "reqlevel": 14,
+   "side": "alliance",
+   "xp": 1150,
+   "money": 900,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2098": {
+   "id": 2098,
+   "name": "La recherche de Gyromast",
+   "objectives": "Trouver et rapporter les 3 Morceaux de la clé de Gelkak à Gelkak Gyromast.",
+   "description": "La vie d'un pirate n'est pas facile, bouseux de terrien. C'est pas pillage et tafia à volonté ! Hélas ! Mon navire est à la baille, tout près du bord, à cause de ces saletés de battrodons.\n\nJ'ai b'soin que mon Premier Officier rapplique en ordre de marche !\n\nQuand j'me suis ramassé sur le rivage, la clé de contact de mon Premier Officier est tombée sur les rochers et a été chapardée par des bestioles du cru. Du coin de l'oeil, j'ai vu des clampants enragés, des trotteurs des forêts géants et des murlocs fouiller l'épave...",
+   "progress": "T'as r'trouvé ma clé cassée, bouseux de terrien ?",
+   "completion": "Bougre de scorbut de chien de mer ! T'as réussi ! Mon Premier Officier va remarcher bientôt et ces saletés d'bestioles sauront même pas qui les a frappées !\n\nHum, t'as trouvé le Premier Officier ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6667,
+     "name": "Gelkak Gyromast"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6667,
+     "name": "Gelkak Gyromast"
+    }
+   ],
+   "zone_id": 148,
+   "level": 20,
+   "reqlevel": 14,
+   "side": "alliance",
+   "xp": 1550,
+   "money": 1200,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2118": {
+   "id": 2118,
+   "name": "Terres malades",
+   "objectives": "Capturer vivant un Ours des chardons enragé, puis le ramener à Tharnariun.",
+   "description": "Il y a une maladie qui s'étend à travers tout Sombrivage, contaminant les esprits et les organismes qu'elle touche.\n\nCe sont les ours des chardons qui ont été les plus touchés. Ces animaux, autrefois si nobles, sont devenus des instruments de destruction, enragés et frénétiques. J'ai peut-être trouvé un remède contre ce mal.\n\nApportez ce piège dans la forêt et placez-le au sol. N'importe quel ours des chardons enragé qui traversera cette lumière deviendra docile pour un court moment. Une fois que l'ours sera docile, il vous suivra. Ramenez-le ici, <nom>.",
+   "progress": "M'avez-vous apporté l'animal malade, <nom> ?\n\nSi vous ne parvenez pas à déclencher le piège, ne vous inquiétez pas : l'espoir de Tharnariun est éternel. Si vous avez besoin d'un autre piège, abandonnez votre tâche et revenez me voir.",
+   "completion": "Notre travail vient seulement de commencer, <nom>. Vous sentez-vous prêt pour la tâche suivante ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3701,
+     "name": "Tharnariun Treetender"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3701,
+     "name": "Tharnariun Treetender"
+    }
+   ],
+   "zone_id": 148,
+   "level": 14,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 980,
+   "money": 600,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2138": {
+   "id": 2138,
+   "name": "Nettoyage de l'infection",
+   "objectives": "Débarrasser la forêt de 20 Ours des chardons enragés et retourner voir Tharnariun Treetender, à Sombrivage.",
+   "description": "Comme je le craignais, le remède ne marche pas.\n\nCela m'attriste énormément de devoir ordonner la mort de certaines créatures de la nature, mais les ours des chardons malades et infectés doivent être éliminés.\n\nRetournez dans la forêt et détruisez 20 ours des chardons enragés, <nom>. Cela ne suffira sans doute pas à éradiquer la contamination, mais ça permettra de limiter pendant quelque temps les dégâts que ces animaux causent à notre forêt et à ses habitants.",
+   "progress": "Votre tâche est-elle terminée ?",
+   "completion": "Vous avez rendu à Auberdine un grand service, <nom>, mais votre tâche n'est pas encore terminée.\n\nRevenez me voir lorsque vous aurez pris un peu de repos.\n\nEt… <nom>, préparez votre esprit et votre âme à d'autres bains de sang.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3701,
+     "name": "Tharnariun Treetender"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3701,
+     "name": "Tharnariun Treetender"
+    }
+   ],
+   "zone_id": 148,
+   "level": 16,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2139": {
+   "id": 2139,
+   "name": "Espoir de Tharnariun",
+   "objectives": "Trouver et tuer la Mère de la tanière.",
+   "description": "La survie de notre peuple et de nos terres a exigé des sacrifices, <nom>.\n\nHélas, vous avez dû verser le sang des serviteurs de la nature et bien des animaux sont tombés sous vos coups. Le peuple d'Auberdine vous doit beaucoup, et la souffrance de la forêt est apaisée, au moins pour le moment.\n\nJ'ai une dernière tâche à vous confier mais sachez qu'il vous faudra tuer de nouveau. J'espère de tout coeur que ce sera la dernière fois, <nom>.\n\nÀ côté de Bashal'Aran, dans une caverne au nord-est d'ici, habite la Mère de la tanière. Faites-la disparaître.",
+   "progress": "En tuant la mère de la tanière infectée, on réduit la population d'oursons enragés qui pénètrent sur nos terres. Ne perdez pas de temps, <nom>.",
+   "completion": "Vous avez combattu pour Auberdine avec bravoure et honneur, <nom>. Sur nos terres déchirées par la guerre, la mort et le désespoir sont monnaie courante. Nombreux sont ceux qui ne sont pas prêts à relever le défi de la vie dans notre nouveau pays, préférant se cacher chez eux ou s'enfuir vers les terres plus fortifiées de l'Alliance.\n\nMerci, <nom>. Peut-être qu'un jour prochain, nous nous battrons côte à côte, en tant que camarades, contre un autre ennemi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3701,
+     "name": "Tharnariun Treetender"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3701,
+     "name": "Tharnariun Treetender"
+    }
+   ],
+   "zone_id": 148,
+   "level": 18,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3524": {
+   "id": 3524,
+   "name": "Echouage",
+   "objectives": "Récupérer des Os de créature marine sur la créature échouée, au sud d’Auberdine, puis les apporter à Gwennyth Bly'Leggonde, à Auberdine.",
+   "description": "De majestueuses créatures marines se jettent sur le littoral de Sombrivage, où elles restent échouées jusqu’à leur mort. Dernièrement, le nombre de ces bêtes n’a cessé d’augmenter. C’est le temple de la Lune qui m’envoie pour enquêter, mais la présence des murlocs, sur le littoral, a freiné mes recherches.\n\nIl y a une créature géante échouée au sud d’Auberdine, et beaucoup de ces maudits murlocs Grisebrume aux alentours. Pourriez-vous aller récupérer des os sur la carcasse de cette créature ? Ils nous serviront pour nos études.",
+   "progress": "Ce n'est que récemment que ces créatures ont commencé à venir s'échouer en nombre alarmant sur les côtes de Sombrivage. Je ne peux vous aider, mais je pense que c'est un mauvais présage. Allez au sud, récupérez un échantillon des os de cette créature. Cela nous permettra de mener des recherches à Darnassus et de comprendre ce qu'il se passe !",
+   "completion": "J'espère que les murlocs ne vous ont pas posé trop de problèmes lorsque vous avez récupéré ceci pour nous ! Je ne manquerai pas de confier cela au prochain hippogryphe pour Darnassus. Le temple de la Lune m'a donné quelques fonds pour dénicher de l'aide. Prenez-en votre part, avec tous nos remerciements.\n\nVotre succès me donne envie de vous offrir une nouvelle chance d'aider le temple de la Lune une fois de plus, si ça vous chante. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10219,
+     "name": "Gwennyth Bly'Leggonde"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10219,
+     "name": "Gwennyth Bly'Leggonde"
+    }
+   ],
+   "zone_id": 148,
+   "level": 13,
+   "reqlevel": 11,
+   "side": "alliance",
+   "xp": 680,
+   "money": 400,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4681": {
+   "id": 4681,
+   "name": "Échouage",
+   "objectives": "Récupérer les Restes de tortue de mer sur le Squelette de la tortue de mer, dans les eaux à l’ouest d’Auberdine, puis parler à Gwennyth Bly'Leggonde, à Auberdine.",
+   "description": "Cette créature échouée n’est pas un incident isolé, ici à Sombrivage. Il y en a plus le long de la côte et même dans l’eau. Je voudrais que vous alliez étudier un autre de ces cas dans les eaux à l’ouest d’Auberdine, non loin d’un navire englouti. Revenez avec tout ce que vous aurez pu récupérer qui nous aiderait dans nos recherches.\n\nDe même, pendant vos voyages, vous pourriez tomber sur d’autres créatures. Bien sûr, si vous deviez découvrir quoi que ce soit, vous n’oublieriez pas de nous en faire part !",
+   "progress": "Une fois que vous aurez inspecté les restes de la créature qui se trouve dans l'eau à l'ouest, je pourrai faire mon rapport au Temple de la Lune à Darnassus. Nous comprendrons peut-être mieux pourquoi ces créatures décident de mettre fin à leur vie en venant s'échouer sur les rivages de Sombrivage.",
+   "completion": "Vous avez été d'une aide inestimable aujourd'hui ; désormais nous avons une chance non négligeable d'élucider le mystère de ces créatures qui ont choisi de venir s'échouer sur la côte de Sombrivage. L'idée qu'elles essaient peut-être de fuir les rivages de Teldrassil est inquiétante. Si vous en rencontrez d'autres dans vos voyages, informez-m'en. Nos recherches n'en sont qu'au début.\n\nVeuillez accepter ceci, de la part du temple de la Lune, pour vous remercier de vos efforts. Merci, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10219,
+     "name": "Gwennyth Bly'Leggonde"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10219,
+     "name": "Gwennyth Bly'Leggonde"
+    }
+   ],
+   "zone_id": 148,
+   "level": 14,
+   "reqlevel": 11,
+   "side": "alliance",
+   "xp": 980,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4722": {
+   "id": 4722,
+   "name": "La tortue de mer échouée",
+   "objectives": "Apporter les Restes de tortue de mer à Gwennyth Bly'Leggonde à Auberdine.",
+   "description": "Vous trouvez le cadavre d’une tortue de mer qui s’est échouée sur la côte de Sombrivage, il y a quelque temps. les murlocs ont établi un campement autour de la créature et ont mis la main sur ses restes. Il apparaît cependant qu’il subsiste quelques échantillons valables à prélever sur la dépouille ; et Gwennyth Bly'Leggonde, à Auberdine, pourrait en avoir l’usage.",
+   "progress": "Bonjour <nom>. Vous avez découvert de nouvelles créatures échouées sur le rivage ?",
+   "completion": "Une nouvelle découverte à étudier, très bien, <nom> ! Ces restes seront examinés en détails une fois à Darnassus. Veuillez accepter ceci en échange des échantillons que vous nous avez fournis pour nos études.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 176190,
+     "name": "Beached Sea Turtle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10219,
+     "name": "Gwennyth Bly'Leggonde"
+    }
+   ],
+   "zone_id": 148,
+   "level": 13,
+   "reqlevel": 11,
+   "side": "alliance",
+   "xp": 455,
+   "money": 300,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4723": {
+   "id": 4723,
+   "name": "La créature marine échouée",
+   "objectives": "Apporter les Os de créature marine à Gwennyth Bly'Leggonde à Auberdine.",
+   "description": "Les restes d’un batteur gigantesque, bien plus grand que ceux qu'on s'attendrait à trouver à Sombrivage, gisent, échoués sur la côte de la Lisière des brumes. La présence de cette créature à cet endroit est un mystère ; les murlocs qui festoient sur la carcasse semblent bien trop faibles pour avoir chassé et abattu la bête tout seuls.\n\nIl reste suffisamment à prélever sur la dépouille pour en rapporter un échantillon que Gwennyth Bly'Leggonde, à Auberdine, pourrait étudier.",
+   "progress": "Peut-être un jour, trouverons-nous le moyen d'empêcher ces pauvres créatures de venir s'échouer sur les côtes de Sombrivage. En attendant, nous devons continuer nos recherches !\n\nSalutations <nom> ; quelles nouvelles apportez-vous ?",
+   "completion": "Une autre découverte ; bravo <nom> ! Ces restes seront étudiés dès qu'ils arriveront à Darnassus. Veuillez accepter cette récompense en échange de ce que vous nous avez fourni.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175233,
+     "name": "Beached Sea Creature"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10219,
+     "name": "Gwennyth Bly'Leggonde"
+    }
+   ],
+   "zone_id": 148,
+   "level": 13,
+   "reqlevel": 11,
+   "side": "alliance",
+   "xp": 455,
+   "money": 300,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4725": {
+   "id": 4725,
+   "name": "La tortue de mer échouée",
+   "objectives": "Apporter la Boîte aux marques étranges à Gwennyth Bly'Leggonde à Auberdine.",
+   "description": "D’autres restes de tortue gisent, échoués le long de la côte. Cette dépouille a une espèce de chariot attaché à sa carapace. Il semble que la créature ait été conduite sur le littoral et qu’elle ne se soit pas échouée, à la différence des autres. Les murlocs Grisebrume habitent maintenant les restes de cette créature, se régalant sur la carcasse.\n\nDans le chariot, vous trouvez une boîte avec d’étranges inscriptions ; peut-être Gwennyth Bly'Leggonde, à Auberdine, pourrait comprendre de quoi il s'agit.",
+   "progress": "Quel plaisir de vous revoir, <nom>. Nous nous efforçons de percer le mystère des majestueuses créatures marines qui s'échouent sur les rivages de Sombrivage, mais chaque fois qu'une question est résolue, deux autres apparaissent.\n\nÊtes-vous ici pour nous aider dans nos recherches ?",
+   "completion": "J'ai entendu parler de tels chariots attachés au dos de tortues. Ils sont utilisés par les nagas pour le combat et pour transporter les provisions sur terre. Les marques que vous avez trouvées sur la boîte sont celles des nagas ; cela explique leur présence aussi loin au nord de Sombrivage.\n\nJe vais envoyer cette boîte à Darnassus avec le reste de vos découvertes. Tenez, ceci est pour vous. Merci pour votre aide.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 176197,
+     "name": "Beached Sea Turtle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10219,
+     "name": "Gwennyth Bly'Leggonde"
+    }
+   ],
+   "zone_id": 148,
+   "level": 15,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 540,
+   "money": 350,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4727": {
+   "id": 4727,
+   "name": "La tortue de mer échouée",
+   "objectives": "Apporter les Restes de tortue de mer à Gwennyth Bly'Leggonde à Auberdine.",
+   "description": "Les restes d’une tortue de mer gisent sur le sable des plages du nord de Sombrivage. Les murlocs Grisebrume n'ont peut-être pas encore repéré cette carcasse ; ou alors, ils l'ont rejetée pour quelque étrange raison. Il subsiste néanmoins de quoi prélever un échantillon et le rapporter à Gwennyth Bly'Leggonde, à Auberdine, afin que ceux du temple de la Lune puissent l’étudier.",
+   "progress": "Re-bonjour, <nom>. Avez-vous trouvé d'autres créatures échouées dont l’existence devrait être communiquée au Temple de la lune ?",
+   "completion": "C'est intéressant que les murlocs n'aient pas été présents sur ce site. Nous nous en souviendrons lorsque nous étudierons les restes de la créature ! Merci pour vos efforts, <nom> ; le temple de la Lune souhaite que je vous remette ça pour récompenser vos efforts.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 176196,
+     "name": "Beached Sea Turtle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10219,
+     "name": "Gwennyth Bly'Leggonde"
+    }
+   ],
+   "zone_id": 148,
+   "level": 15,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 540,
+   "money": 350,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4728": {
+   "id": 4728,
+   "name": "La créature marine échouée",
+   "objectives": "Apporter les Os de créature marine à Gwennyth Bly'Leggonde à Auberdine.",
+   "description": "La dépouille de ce qui semble être un immense mammifère marin gît, éviscérée, sur la plage. Une brouette et divers outils traînent, abandonnés, à côté de cette énorme bête échouée, comme si quelqu’un avait tenté d’en faire l’autopsie. Bien que les murlocs aient dépouillé la créature, il reste possible de prélever sur elle les échantillons qui intéressent Gwennyth Bly'Leggonde, à Auberdine.",
+   "progress": "Salutations à nouveau, <nom> ! Qu'est-ce qui vous amène à Auberdine ? Vous venez nous faire part d'une nouvelle découverte ?",
+   "completion": "Ah, je crois que vous en avez découvert un qui était étudié, à l'origine, par la Ligue des Explorateurs. Ils sont implantés à Sombrivage et ils ont raconté qu'ils étudiaient une des créatures échouées lorsqu'ils ont été chassés par les murlocs. Il semble que vous ayez réussi là où nous avons échoué. Veuillez accepter cette récompense de la part du temple de la Lune.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175226,
+     "name": "Beached Sea Creature"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10219,
+     "name": "Gwennyth Bly'Leggonde"
+    }
+   ],
+   "zone_id": 148,
+   "level": 14,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 490,
+   "money": 300,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4730": {
+   "id": 4730,
+   "name": "La créature marine échouée",
+   "objectives": "Apporter les Os de créature marine à Gwennyth Bly'Leggonde à Auberdine.",
+   "description": "La carcasse à moitié dévorée de ce qui a été un mammifère géant gît sur la plage. Une bande de murlocs, plus forts que ceux qui étaient près d’Auberdine, vivent auprès des restes de la créature. Il subsiste cependant de quoi prélever sur les os de la créature des échantillons qui pourraient être apportés à Gwennyth Bly'Leggonde, à Auberdine.",
+   "progress": "Bonjour à nouveau, <nom> ! Vous venez nous faire part d'une nouvelle découverte ?",
+   "completion": "Les ossements que vous avez découverts proviennent des mammifères marins qui peuplent les eaux qui entourent la base de Teldrassil. Ils ne sont pas réputés pour venir s'échouer sur les plages comme nous avons pu le constater avec les batteurs. Je me demande pourquoi ces créatures agissent de la sorte ? Peut-être que l'étude de ces restes nous apportera des éléments de réponse.\n\nEncore une fois, merci pour votre aide. Veuillez accepter cette modeste récompense de la part du Temple de la lune.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175227,
+     "name": "Beached Sea Creature"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10219,
+     "name": "Gwennyth Bly'Leggonde"
+    }
+   ],
+   "zone_id": 148,
+   "level": 16,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 580,
+   "money": 400,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4731": {
+   "id": 4731,
+   "name": "La tortue de mer échouée",
+   "objectives": "Apporter la Boîte aux marques étranges à Gwennyth Bly'Leggonde à Auberdine.",
+   "description": "Un autre tas de restes de tortue de mer gît, échoué, sur le littoral. Un chariot est attaché à la carapace de la tortue. Peut-être cette créature a-t-elle été conduite sur le littoral par quelqu’un et ne s'est-elle pas échouée, à la différence des autres. Les puissants murlocs Grisebrume ont fait de la carcasse leur habitation.\n\nDans le chariot, vous trouvez une boîte avec d’étranges inscriptions ; peut-être Gwennyth Bly'Leggonde, à Auberdine, pourra-t-elle les déchiffrer.",
+   "progress": "Salut à nouveau, <nom>. Le travail que vous avez accompli au service du Temple de la Lune est incroyable. Aurons-nous la chance de pouvoir compter sur vous encore un peu ?",
+   "completion": "J'ai entendu parler de ce chariot attaché au dos de cette tortue. C'est un chariot de naga, utilisé pour le combat et pour transporter les provisions sur terre. Les marques que vous avez trouvées sont celles des nagas ; peut-être que la créature que vous avez dénichée a été tuée, pendant qu'elle se rendait plus loin au sud. . . à Ashenvale, qui sait ?\n\nJe vais m'assurer d'envoyer cette boîte à Darnassus avec le reste de vos découvertes. Tenez, ceci est pour vous. Merci pour votre aide.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 176198,
+     "name": "Beached Sea Turtle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10219,
+     "name": "Gwennyth Bly'Leggonde"
+    }
+   ],
+   "zone_id": 148,
+   "level": 19,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": 730,
+   "money": 500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4732": {
+   "id": 4732,
+   "name": "La tortue de mer échouée",
+   "objectives": "Apporter les Restes de tortue de mer à Gwennyth Bly'Leggonde à Auberdine.",
+   "description": "Vous trouvez le cadavre d’une tortue de mer qui s’est échouée sur la côte de Sombrivage, il y a quelque temps. Les murlocs Grisebrume ont nettoyé la carcasse et campent maintenant autour des restes de la créature. Il apparaît cependant qu’il subsiste quelques échantillons valables à prélever sur la dépouille. Gwennyth Bly'Leggonde, à Auberdine, pourrait en avoir l’usage.",
+   "progress": "Salutations à nouveau <nom> ; avez-vous découvert d'autres choses dont vous souhaiteriez parler au Temple de la Lune ?",
+   "completion": "Vous avez trouvé d'autres créatures échouées, <nom> ? On pouvait trouver les tortues de mer le long de la base de Nordrassil, elles avaient pour habitude de s'y accoupler, avant sa destruction. Depuis la naissance de Teldrassil, nous avons constaté que le nombre de ces créatures diminuait. Certaines d'entre elles, que nous avons découvertes, venaient finir leur vie à cet endroit pour une raison inconnue.\n\nPeut-être pourrez-vous nous aider à élucider ce mystère. Veuillez accepter ceci en échange des restes que vous nous avez rapportés pour nos recherches.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 176191,
+     "name": "Beached Sea Turtle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10219,
+     "name": "Gwennyth Bly'Leggonde"
+    }
+   ],
+   "zone_id": 148,
+   "level": 19,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": 730,
+   "money": 500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4733": {
+   "id": 4733,
+   "name": "La créature marine échouée",
+   "objectives": "Apporter les Os de créature marine à Gwennyth Bly'Leggonde à Auberdine.",
+   "description": "Les restes de ce qui semble être un batteur géant ont échoué dans la crique rocheuse du Rivage du Crépuscule. Ce Frappeur est bien plus grand que la plupart des Frappeurs de la région. D'où qu'elle vienne, cette créature ne semble pas être native de Sombrivage.\n\nBien qu'il ne reste que des morceaux de la créature, il y a suffisamment de matière pour obtenir un échantillon correct pour Gwennyth Bly'Leggonde d'Auberdine.",
+   "progress": "Elune soit louée ; Je suis heureux de vous revoir à nouveau, <nom>. Le Temple de la Lune enquête sur un étrange phénomène qui frappe les côtes de Sombrivage. Peut-être en savez-vous plus ?",
+   "completion": "Les dimensions du batteur que vous mentionnez sont surprenantes. Les plus vieux batteurs de cette région n'atteignent pas un dixième de cette taille. Vous pouvez en trouver de plus grands près de Teldrassil. Ils ont presque disparu. Je ne peux pas m'empêcher de me demander si le fait que ces créatures viennent s'échouer sur ces plages n'a pas un rapport.\n\nEn attendant que nous ayons analysé les os que vous avez rapportés, veuillez accepter ceci de la part du Temple de la lune. Merci, <nom>.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175230,
+     "name": "Beached Sea Creature"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10219,
+     "name": "Gwennyth Bly'Leggonde"
+    }
+   ],
+   "zone_id": 148,
+   "level": 19,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": 730,
+   "money": 500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4740": {
+   "id": 4740,
+   "name": "On recherche : Fondeboue !",
+   "objectives": "Trouver et tuer le murloc connu sous le nom de Fondeboue. On pense que la créature défend les huttes des murlocs au sud d'Auberdine près de l'eau.\n\nAnnoncer la mort de Fondeboue à la Sentinelle Glynda Nal'Shea à Auberdine.",
+   "description": "Votre attention !\n\nUne récompense est offerte pour la mort du murloc \"Fondeboue\". Cette bête immonde est au moins responsable de la mort d'une Sentinelle et du sabordage de deux navires de fret, dans les eaux de Sombrivage !\n\nFondeboue a été aperçu en dernier dans un camp murloc au sud d’Auberdine, et l’on pense qu’il est là pour protéger ce camp. Tous ceux qui veulent réclamer la récompense doivent le faire auprès de la Sentinelle Glynda Nal'Shea, à Auberdine.\n\nLe conseil d'Auberdine",
+   "progress": "Salutations <classe> - Que peuvent faire les Sentinelles pour vous aider aujourd'hui ? Peut-être êtes-vous ici pour vous renseigner sur la prime accordée à Murkdeep ?",
+   "completion": "Bien, il semble que vous ne soyez pas là que pour vous renseigner ! Les citoyens seront heureux d'apprendre que ce soir ils pourront dormir en sécurité.\n\nAujourd'hui, vous avez été le bras justicier du peuple d'Auberdine, <nom>. C'est pour cela que je compte vous offrir une récompense digne. . . du véritable héros d'Auberdine.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175320,
+     "name": "WANTED: Murkdeep!"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2930,
+     "name": "Sentinelle Glynda Nal'Shea"
+    }
+   ],
+   "zone_id": 148,
+   "level": 18,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": 1700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4761": {
+   "id": 4761,
+   "name": "Thundris Windweaver",
+   "objectives": "Parler à Thundris Windweaver, à Auberdine.",
+   "description": "Thundris Windweaver doit être averti du résultat de votre reconnaissance au camp furbolg. C’est l'un des anciens d’Auberdine qui aide à régler les affaires courantes du village. Allez lui faire part de vos découvertes sur la situation des furbolgs.\n\nIl sait certainement pourquoi ils ont été corrompus. Peut-être pourriez-vous travailler avec lui au rétablissement de l'équilibre naturel à cet endroit !",
+   "progress": null,
+   "completion": "Bien joué, <classe>. Les informations que vous rapportez à propos des furbolgs tombent à point pour les gens d'Auberdine. Depuis quelques temps, en plus des créatures devenues hostiles, nous devons faire face à la corruption de la forêt elle-même. Heureusement, vous avez l'air de pouvoir venir en aide à Auberdine en ces temps troublés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3693,
+     "name": "Terenthis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3649,
+     "name": "Thundris Windweaver"
+    }
+   ],
+   "zone_id": 148,
+   "level": 15,
+   "reqlevel": 11,
+   "side": "alliance",
+   "xp": 105,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4762": {
+   "id": 4762,
+   "name": "La Bondissante",
+   "objectives": "Aller au nord d’Auberdine, à la première chute d’eau, le long de la Bondissante et prélever un échantillon de l’eau de l’étang.\n\nRetourner voir Thundris Windweaver, à Auberdine, avec le Prélèvement de la Bondissante.",
+   "description": "La Bondissante est en train de se corrompre. Ce fleuve se déverse dans la Lisière des brumes, et je crains qu’il ne contamine bientôt Auberdine. Je soupçonne les furbolgs Noirbois, qui se trouvent plus haut sur le fleuve, d’être la cause de de cette infection ; bien que je ne pense pas qu’ils en soient les vrais responsables.\n\nPrenez ce tube de prélèvement et allez à l'embouchure de la rivière, au nord. Marchez jusqu’à la première cascade et faites un prélèvement d'eau sur place. Vous verrez un pont au-dessus de vous. Une fois le prélèvement effectué, revenez me voir à Auberdine.",
+   "progress": "La pollution de la Bondissante annonce une catastrophe à Sombrivage. L'échantillon que vous avez va nous aider à mettre en place un plan. . . un plan d'attaque, qui commence à se préciser.",
+   "completion": "Il n'est pas surprenant que cette eau soit corrompue, regardez comme elle est croupie ! Il semble qu'il soit plus que temps d'agir, n'est-ce pas, <nom> ?\n\nÀ l'est, il y a Gangrebois ; c'est là-bas qu'à l'époque j'ai vu ce qui doit être à l'origine de cette corruption. Je pense que cet échantillon le confirmera. Nous devrions pouvoir préparer un remède, mais il nous faudra de l'aide. Quand le moment sera venu, <nom>, j'espère que vous répondrez à notre appel.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3649,
+     "name": "Thundris Windweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3649,
+     "name": "Thundris Windweaver"
+    }
+   ],
+   "zone_id": 148,
+   "level": 15,
+   "reqlevel": 11,
+   "side": "alliance",
+   "xp": 800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4763": {
+   "id": 4763,
+   "name": "La corruption des Noirbois",
+   "objectives": "Remplir le Bol de purification vide au Puits de lune d’Auberdine.\n\nCollecter un échantillon de fruit, de noix et de céréales dans les camps nord des furbolgs Noirbois.\n\nMélanger les échantillons de nourriture à l’eau du bol et le placer à proximité du feu le plus proche de la rivière Bondissante, au camp nord. Cela fera venir le satyre corrupteur.\n\nPrendre son Talisman de corruption et l'apporter à Thundris Windweaver, à Auberdine.",
+   "description": "Les satyres sont une des sources de la corruption des furbolgs. Leur joug est assuré par des talismans qui leur servent à canaliser de la magie. Pour sauver les furbolgs, nous devons arracher son talisman au satyre corrupteur !\n\nRemplissez ce bol avec de l'eau puisée dans notre Puits de lune et collectez des échantillons de nourriture furbolg, dans leur camp, au nord. Mélangez-les à l’eau du puits et placez-les près du feu, à la rivière ; tous les furbolgs qui en mangeront seront désinfectés assez longtemps pour attirer le satyre hors de sa retraite ; et vous pourrez le tuer !",
+   "progress": "Le Talisman de corruption est un objet sinistre dont le seul but est de pervertir l'équilibre de la nature. Retrouvez cet objet sur l'un des satyres qui tourmentent les furbolgs et rapportez-le-moi. Alors, nous aurons remporté une grande victoire !",
+   "completion": "Nous sommes entrés en guerre contre les forces corruptrices pour reprendre notre forêt et aujourd'hui nous avons remporté une bataille ! <nom>, les citoyens d'Auberdine vous doivent une fière chandelle et il ne sera pas simple de s'acquitter de cette dette. Acceptez ceci en plus de nos remerciements. Un jour peut-être, ce que nous avons appris permettra de délivrer nos amis furbolgs des entraves qui les tourmentent sans cesse.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3649,
+     "name": "Thundris Windweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3649,
+     "name": "Thundris Windweaver"
+    }
+   ],
+   "zone_id": 148,
+   "level": 18,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": 1700,
+   "money": 2000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4811": {
+   "id": 4811,
+   "name": "Le cristal rouge",
+   "objectives": "Voyager en direction de l’est en partant d'Auberdine et chercher un gros cristal rouge le long de la chaîne de montagne est de Sombrivage. Aller faire un rapport de ce que vous avez trouvé à la Sentinelle Glynda Nal'Shea à Auberdine.",
+   "description": "Des séléniens hostiles se massent toujours en plus grand nombre à l'est. Nous croyions autrefois qu'il s'agissait de créatures inoffensives, et presque mystiques. Bien que certains continuent à leur porter révérence, la sécurité d'Auberdine me force à considérer les choses de manière plus réaliste.\n\nJ'ai reçu divers rapports m'informant que les séléniens étaient attirés par un grand cristal rouge le long de la chaîne de montagnes à l'est de Sombrivage. Personne ne sait ce qu'est ce cristal, ou même s'il existe vraiment. Je veux que vous le localisiez et que vous me rapportiez vos découvertes.",
+   "progress": "Qu'avez-vous à dire sur ce cristal rouge ? Existe-t-il vraiment ?",
+   "completion": "Alors le cristal existe, <nom> ? Fascinant… Quoi qu'il en soit, vous avez parfaitement exécuté votre tâche ; bon travail !\n\nQu'est-ce que ce cristal exactement ? Ce n'est qu'une simple question dans un océan d'interrogations. Une autre question qui vient à l'esprit, est pourquoi les séléniens sont-ils attirés par cet objet ? Le cristal est-il bon de nature, ou renferme-t-il un secret plus sombre ?\n\nJ'ai beaucoup d'autres questions, mais il va nous falloir examiner ce cristal de près pour trouver des réponses.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2930,
+     "name": "Sentinelle Glynda Nal'Shea"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2930,
+     "name": "Sentinelle Glynda Nal'Shea"
+    }
+   ],
+   "zone_id": 148,
+   "level": 14,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 490,
+   "money": 600,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4812": {
+   "id": 4812,
+   "name": "Comme l'eau tombe en cascade",
+   "objectives": "Remplir le Tube d'eau vide au Puits de lune d’Auberdine, puis chercher le cristal rouge le long des falaises des montagnes à l’est de Sombrivage.",
+   "description": "Servez-vous de cette fiole vide et remplissez-la à l'un des Puits de Lune ici, à Auberdine. Une magie si puissante devrait fournir un indice quant à la composition du cristal. Pour ce faire, vous verserez le liquide dessus. Il devrait s'occuper du reste.\n\nBien que je ne pense pas que quoi que ce soit de mauvais puisse vous arriver, je souhaite tout de même que vous agissiez avec prudence. Au-dessus de nous, à l'est, se trouve Gangrebois. Si ce cristal est lié à cet endroit comme je le suspecte, alors il pourrait être très dangereux.",
+   "progress": "Le cristal semble étranger sur le paysage boisé de Sombrivage. Vous croyez entendre un très léger bourdonnement qui s'élève de ses profondeurs.",
+   "completion": "Vous atteignez une fois de plus le cristal. Vous ôtez le bouchon du Tube d'eau du Puits de lune et versez avec précaution son contenu sur le sommet du cristal. Alors que l'eau tombe en cascade le long des facettes du cristal, vous voyez que perdant sa teinte opaque, sa surface devient transparente. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2930,
+     "name": "Sentinelle Glynda Nal'Shea"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 175524,
+     "name": "Mysterious Red Crystal"
+    }
+   ],
+   "zone_id": 148,
+   "level": 14,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 490,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4813": {
+   "id": 4813,
+   "name": "Les fragments à l'intérieur",
+   "objectives": "Aller faire un rapport de ce que vous avez trouvé à la Sentinelle Glynda Nal'Shea à Auberdine.",
+   "description": "L'eau du Puits de Lune a révélé que quelques petits fragments d'os ainsi que la moitié d'un maxillaire sont incrustés à l'intérieur du cristal. Le maxillaire semble appartenir à un humanoïde, mais il est impossible de s'en assurer sans briser le cristal, un exploit que même la plus puissante des magies considèrerait comme quasiment impossible.\n\nCette tâche accomplie, tout ce qu'il reste à faire est de retourner informer la Sentinelle Glynda Nal'Shea à Auberdine.",
+   "progress": null,
+   "completion": "Bien, il semblerait que bien que nous en sachions plus sur ce cristal, d'autres questions sans réponses apparaissent !\n\nJe ferai part des informations que vous avez découvertes au conseil d'Auberdine. Peut-être sauront-ils quelle action entreprendre pour ce cristal. Bon, s'il faut en entreprendre une ; pour l'heure, la menace demeure suffisamment à l'est pour que nous soyons hors de danger.\n\nEn ce qui vous concerne, prenez ceci, s'il vous plaît. Considérez ceci comme la récompense d'un travail bien fait, <nom>.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175524,
+     "name": "Mysterious Red Crystal"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2930,
+     "name": "Sentinelle Glynda Nal'Shea"
+    }
+   ],
+   "zone_id": 148,
+   "level": 14,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 980,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5321": {
+   "id": 5321,
+   "name": "Le dormeur s'est éveillé",
+   "objectives": "Escorter Kerlonian Evershade jusqu’à Liladris Moonriver au Poste de Maestra à Ashenvale.",
+   "description": "J'étais parti en direction du Poste de Maestra pour rencontrer Liladris Moonriver lorsque je décidai de m'arrêter et de me reposer un peu. Depuis que je me suis extirpé du Rêve d'émeraude, j'ai tout le temps sommeil…\n\n<bâille>\n\nAuriez-vous l'obligeance de me montrer le chemin ? Je crois que le Poste de Maestra est au sud, près de la route d'Ashenvale. Cela peut-être dangereux, j'espère que vous avez des amis pour nous accompagner.\n\nIl se peut que je m'endorme, alors pour me réveiller, utilisez ma corne, qui est dans ce coffre.",
+   "progress": "Kerlonian est-il arrivé ?",
+   "completion": "Oh je suis si heureux que Kelonian ait réussi ! Et je suis sûr de le trouver assoupi quelque part par ici, non ?\n\nMerci de lui avoir montré le chemin, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11218,
+     "name": "Kerlonian Evershade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11219,
+     "name": "Liladris Moonriver"
+    }
+   ],
+   "zone_id": 148,
+   "level": 20,
+   "reqlevel": 17,
+   "side": "alliance",
+   "xp": 1550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "bâille"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5713": {
+   "id": 5713,
+   "name": "Un tir. Un tué",
+   "objectives": "Protéger la Sentinelle Aynasha, puis parler à Onaeya au poste de Maestra, en Ashenvale.",
+   "description": "J’étais en route pour Auberdine chargé d’un message important quand le furbolg Marosh et ses traqueurs m’ont attaqué. Au cours du combat, j’ai été empoisonné et je peux maintenant à peine me tenir debout. Je peux préparer un antidote, mais cela va prendre du temps avant qu’il ne soit prêt.\n\nJ’aimerais vous demander de me defendre jusqu’à ce que je puisse m’administrer l’antidote. Je vous aiderai avec mon arc du mieux que je peux.\n\nSi nous survivons, je pourrai porter mon message à Auberdine, pendant que vous parlerez avec Onaeya au poste de Maestra pour l’informer de cet incident.",
+   "progress": "Avez-vous vu la sentinelle Aynasha sur la route ? Elle est partie pour une mission importante, mais elle n'est pas encore revenue.",
+   "completion": "Vous apportez des nouvelles bienvenues, <classe>. Content d'entendre qu'Aynasha est en vie, grâce à vous. J'espère bien que vous accepterez une récompense pour votre valeur. Qu'Elune éclaire votre chemin et guide vos pas.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11711,
+     "name": "Sentinelle Aynasha"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11806,
+     "name": "Sentinelle Onaeya"
+    }
+   ],
+   "zone_id": 148,
+   "level": 15,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1050,
+   "money": 1400,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6341": {
+   "id": 6341,
+   "name": "Le don de Teldrassil",
+   "objectives": "Apporter la Collection de Nessa à Vesprystus.",
+   "description": "Les pêcheurs du village de Rut'theran savent très bien y faire ; de plus, le poisson, là-bas, y est extrêmement abondant et on y pêche des spécimens d’une taille étonnante. Je voudrais juste comparer la manne de cet endroit avec celle du continent.\n\nJe possède une importante collection d’os et d’écailles de poisson que je souhaiterais faire porter à l'un de mes collègues, à Sombrivage. Il s’appelle Laird, il vend des poissons au village d’Auberdine.\n\nApportez ma collection à notre Maître des hippogryphes, Vesprystus, et discutez avec lui des conditions d’un voyage vers Auberdine.",
+   "progress": "Comment puis-je vous aider ? Avez-vous besoin d'un transport ?",
+   "completion": "Ah, vous voulez aller à Auberdine ? Très bien. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10118,
+     "name": "Nessa Shadowsong"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3838,
+     "name": "Vesprystus"
+    }
+   ],
+   "zone_id": 148,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 210,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6342": {
+   "id": 6342,
+   "name": "Vol vers Auberdine",
+   "objectives": "Prenez un hippogryphe vers Auberdine chez le maître des hippogryphes Vesprystus, puis apportez la Collection de Nessa à Laird.",
+   "description": "À partir de Rut'theran, il existe deux moyens pour se rendre à Auberdine : par le bac ou par hippogryphe. Les deux sont rapides et sûrs, mais si vous n’avez pas encore voyagé vers Auberdine à dos d’hippogryphe, je vous suggère d’essayer.\n\nLorsqu'il y a un Maîtres des hippogryphes dans une ville, il est très profitable de lui parler. Une fois que vous avez parlé à un Maître, vous pouvez revenir dans la ville où il se trouve, à partir des autres villes.\n\nVoici la Collection de Nessa. Revenez me voir quand vous voudrez vous envoler pour Auberdine, et livrer la Collection de Nessa à Laird.",
+   "progress": "Venez-vous de Teldrassil ? Dites-moi, comment est la pêche là-bas ?",
+   "completion": "Un paquet provenant de Nessa ? Merci, <nom> ! Elle m'avait dit qu'elle m'enverrait un spécimen de cette espèce de poisson capturée près du village Rut'theran. Elle pense qu'elle est différente de celle attrapée ici. . .\n\nOh ! Sa mâchoire est effectivement deux fois plus grande et ses écailles aussi grosses qu'un poing ! Incroyable !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3838,
+     "name": "Vesprystus"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4200,
+     "name": "Laird"
+    }
+   ],
+   "zone_id": 148,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6343": {
+   "id": 6343,
+   "name": "Retourner à Nessa",
+   "objectives": "Réponse de Laird à Nessa Shadowsong.",
+   "description": "Je dois faire parvenir une réponse à Nessa. Elle sera très intéressée de savoir à quel point les poissons ici sont différents de ceux que l’on trouve le long de la côte de Teldrassil. Nous ne pouvons que spéculer sur les raisons de ces différences, mais je pense que la présence de l’Arbre Monde affecte la faune et la flore autour de lui !\n\nS’il vous plaît, faites parvenir cette réponse à Nessa. Si vous souhaitez prendre un hippogryphe pour aller à Rut'theran, adressez-vous au Maître des hippogryphes, Caylais Moonfeather. Si vous souhaitez plutôt prendre le navire, il y en un qui part régulièrement à partir du quai, au nord-ouest.",
+   "progress": "<nom>, vous revenez d'Auberdine ? Avez-vous parlé avec Laird ?",
+   "completion": "C'est très intéressant. Les poissons sont gros ici, mais je ne pensais pas que les différences étaient telles entre les prises d'ici et celles du continent. Il doit y avoir une raison à cela. . .\n\nBien, merci <nom>. Je discuterai avec les villageois des nouvelles que vous m'avez apportées. Peut-être qu'un jour nous trouverons les raisons de cette bizarrerie. Mais en attendant, nous devons en profiter !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4200,
+     "name": "Laird"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10118,
+     "name": "Nessa Shadowsong"
+    }
+   ],
+   "zone_id": 148,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1050,
+   "money": 250,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "87760": {
+   "id": 87760,
+   "name": null,
+   "objectives": "Trouvez une maîtresse des bêtes tempécaille, terrassez-la et rapportez son bâtonnet de domination profonde.",
+   "description": "J’ai reçu des nouvelles de Darnassus, <nom> !\n\nGrâce aux prélèvements sur les animaux, nous avons appris que les Nagas asservissaient ces créatures marines pour en faire des montures et des bêtes de somme, contre leur gré. Celles qui se montraient trop rétives, ou trop vieilles ou trop grièvement blessées, étaient chassées par pur divertissement. Quelle monstruosité !\n\nIl est de notre devoir sacré d’y mettre un terme !\n\nLes Nagas disposent de forces dans les ruines de Mathystra, et ils doivent capturer les batteurs près du rivage. Trouvez leur maîtresse des bêtes, terrassez-la et rapportez ses instruments d’asservissement !",
+   "progress": null,
+   "completion": "Ce fut un long périple, <nom>, mais il en valait la peine.\n\nVous avez enfin arraché le bâtonnet dont les Nagas se servent pour contraindre les créatures marines à les servir. Je veillerai à ce qu’il soit détruit, et les batteurs comme les tortues de mer pourront enfin vivre en paix.\n\nMerci encore. Votre ténacité a fini par payer, vous avez toute ma reconnaissance.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10219,
+     "name": "Gwennyth Bly'Leggonde"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10219,
+     "name": "Gwennyth Bly'Leggonde"
+    }
+   ],
+   "zone_id": 148,
+   "level": 20,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  },
+  "97894": {
+   "id": 97894,
+   "name": "Affaires à Auberdine",
+   "objectives": "Prenez des nouvelles de Gorbold Main-d’acier à Auberdine, à Sombrivage.\r\n\r\nBorgus a parlé d’un bateau, au quai le plus au sud du port de Hurlevent, qui peut vous y emmener.",
+   "description": "Ravi de faire votre connaissance ! Borgus, de l’unique et inimitable famille Main-d’acier. Avec nous, vous pouvez toujours passer des marchés honnêtes !\r\n\r\nIl y a quelques semaines, mon frère Gorbold s’est associé à un étal de marchand à Auberdine. Y a de quoi se faire un bon petit pactole, à ravitailler les navires là-bas, croyez-moi ! Sacré veinard.\r\n\r\nSauf que je n’ai plus de nouvelles de lui, depuis… Ça vous ennuierait d’aller voir comment il va, si vous passez par là ?\r\n\r\nUn nouveau navire au port vous y emmènera tout droit. Filez au quai le plus au sud, vous ne pourrez pas le manquer !",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7232,
+     "name": "Borgus Steelhand"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6301,
+     "name": "Gorbold Steelhand"
+    }
+   ],
+   "zone_id": 148,
+   "level": 17,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Ravi de faire votre connaissance ! Borgus, de l’unique et inimitable famille Main-d’acier. Avec nous, vous pouvez toujours passer des marchés honnêtes !\r\n\r\nIl y a quelques semaines, mon frère Gorbold s’est associé à un étal de marchand à Auberdine. Y a de quoi se faire un bon petit pactole, à ravitailler les navires là-bas, croyez-moi ! Sacré veinard.\r\n\r\nSauf que je n’ai plus de nouvelles de lui, depuis… Ça vous ennuierait d’aller voir comment il va, si vous passez par là ?\r\n\r\nUn nouveau navire au port vous y emmènera tout droit. Filez au quai le plus au sud, vous ne pourrez pas le manquer !",
+      "objectives": "Prenez des nouvelles de Gorbold Main-d’acier à Auberdine, à Sombrivage.\r\n\r\nBorgus a parlé d’un bateau, au quai le plus au sud du port de Hurlevent, qui peut vous y emmener.",
+      "name": "Affaires à Auberdine"
+     },
+     "npc": 7232,
+     "npc_name": "Borgus Steelhand",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": 1453,
+     "client": "1.60.1.70790",
+     "first_seen": 1793913361,
+     "last_seen": 1794070360
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "97926": {
+   "id": 97926,
+   "name": null,
+   "objectives": "Remettez la réponse d’Alexston à Thundris Tissevent, à Auberdine, en Sombrivage.",
+   "description": "J’aimerais tant que ce soit aussi simple, <classe>. Vraiment.\n\nSi vous choisissez de passer davantage de temps sur nos terres, vous découvrirez que beaucoup vivent dans le besoin. Les caisses de Hurlevent ne sont plus ce qu’elles étaient, et le peu qu’il en reste ne suffit déjà plus à répondre à tous les besoins.\n\nRemettez cette réponse à l’ancien lorsque vous le reverrez. Ce n’est pas ce qu’il espérait… mais c’est tout ce que je peux lui offrir pour l’instant.",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1646,
+     "name": "Baros Alexston"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3649,
+     "name": "Thundris Windweaver"
+    }
+   ],
+   "zone_id": 148,
+   "level": 17,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  },
+  "98013": {
+   "id": 98013,
+   "name": null,
+   "objectives": "Éliminez 12 myrmidons tempécailles, 8 ensorceleuses tempécailles et 6 guerriers tempécailles pour Arbal, au bosquet des Anciens.",
+   "description": "Préparez-vous avant d’entrer dans les ruines… l’accès ne vous y sera pas accordé sans combat.\n\nDes dizaines de Bien-nés maudits, désormais connus sous le nom de Nagas, hantent la cité jadis prospère. Partez vers le nord-est et purgez-en ces terres.\n\nCe qu’ils furent autrefois… n’est plus. S’ils prêtent main-forte au Marteau du crépuscule, ils n’apporteront que davantage de souffrance aux forêts qui leur offrirent jadis refuge.\n\nC’est la guerre qu’ils cherchent, <classe>. La guerre… c’est ce que nous leur apporterons.",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 270269,
+     "name": "Arbal"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 270269,
+     "name": "Arbal"
+    }
+   ],
+   "zone_id": 148,
+   "level": 20,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  },
+  "98025": {
+   "id": 98025,
+   "name": null,
+   "objectives": "Trouvez Jai’vhanel et terrassez-la, puis récupérez l’une de ses plumes. La chouette noire a été aperçue pour la dernière fois au nord des ruines d’Ameth’Aran, près du pied de la montagne. Signalez la mort de Jai’vhanel à la sentinelle Glynda Nal’Shea, à Auberdine.",
+   "description": "Votre attention !\n\nUne récompense est offerte pour la mort de « Jai’vhanel », également connue sous le nom de « Plumelame ».\n\nHélas, cette chouette a sombré dans la folie et s’en prend désormais aux voyageurs qui empruntent la route près d’Auberdine.\n\nJai’vhanel a été aperçue pour la dernière fois au nord des ruines d’Ameth’Aran, près du pied de la montagne. Rapportez l’une de ses plumes d’un noir de jais en preuve de sa mort.\n\nPour toute récompense liée à cet avis de recherche, adressez-vous à la sentinelle Glynda Nal’Shea, à Auberdine.\n\nLe conseil d’Auberdine.",
+   "progress": null,
+   "completion": "Il est bon de savoir que ce problème est réglé, mais je suis peinée que nous n’ayons pu trouver d’autre solution. Jai’vhanel veillait sur cette région depuis un long moment, en quelque sorte, et j’ignore ce qui a pu la faire sombrer dans la folie.\n\nQuoi qu’il en soit, merci pour votre aide d’aujourd’hui, <classe>. Les routes vers Auberdine sont de nouveau sûres.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175320,
+     "name": "WANTED: Murkdeep!"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2930,
+     "name": "Sentinelle Glynda Nal'Shea"
+    }
+   ],
+   "zone_id": 148,
+   "level": 13,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  },
+  "98028": {
+   "id": 98028,
+   "name": null,
+   "objectives": "Apportez le globe d’eau trouble à Onu, au bosquet des Anciens, à Sombrivage.",
+   "description": "Il ne reste du puissant élémentaire qu’un globe de ce qui semble être de l’eau pure, troublée par une substance inconnue. Les bords de la sphère paraissent limpides, jusqu’à ce que vous la tourniez, comme si le voile trouble vous empêchait délibérément d’en scruter l’intérieur.\n\nLe mal qui l’a touché, lui et les racines qu’il gardait, agit encore.\n\nSeul Onu, l’ancien du savoir au bosquet des Anciens, loin au sud, aurait une chance d’en savoir plus.",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "item",
+     "id": 279275,
+     "name": "Clouded Water Globe"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3616,
+     "name": "Onu"
+    }
+   ],
+   "zone_id": 148,
+   "level": 21,
+   "reqlevel": 17,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  },
+  "98042": {
+   "id": 98042,
+   "name": null,
+   "objectives": "Obtenez un œil sans pareil auprès d’un disciple ou d’un nervi du Crépuscule, au Glaive du Maître à Sombrivage, puis trouvez quelqu’un à Auberdine qui accepte de le prendre.",
+   "description": "tome du Crépuscule, une voix menaçante envahit votre esprit, sans y avoir été conviée.>\n\nIls ont échoué.\n\nOn vous oubliera.\n\nIls perdront l’œil qu’ils ont acquis.",
+   "progress": null,
+   "completion": "<Thundris reste un moment sans parler.>\n\nCeci porte la marque d’un mal ancien, <classe>. Je le ferai porter à Darnassus sur-le-champ, afin qu’on l’étudie plus avant.\n\nAnde’thoras-ethil.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 12666,
+     "name": "Twilight Tome"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3649,
+     "name": "Thundris Windweaver"
+    }
+   ],
+   "zone_id": 148,
+   "level": 17,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

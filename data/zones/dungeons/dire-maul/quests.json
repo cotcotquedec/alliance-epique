@@ -1,0 +1,2136 @@
+{
+ "schema": 1,
+ "zone": "dungeons/dire-maul",
+ "zone_id": 2557,
+ "zone_name": "Hache-tripes",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 38,
+  "complete": 32,
+  "incomplete": 6,
+  "unavailable": 0,
+  "missing_description": 5,
+  "missing_giver": 1,
+  "new_in_forever": 0,
+  "gendered": 5
+ },
+ "quests": {
+  "1193": {
+   "id": 1193,
+   "name": "Un piège cassé",
+   "objectives": null,
+   "description": "Un grand piège cassé se trouve devant vous. On dirait que les ogres ont tenté de le réparer sans succès. Une note hâtivement griffonnée se trouve juste à côté. Curieusement, elle détaille tout ce qui est nécessaire pour le réparer : il faut un rouage en thorium et un peu d’huile glaciale. Si le piège était réparé, un ogre qui passerait à côté pourrait s’y faire prendre, et pourrait être évité.\n\nC’est vraiment une bonne chose que très peu d’ogres sachent lire.\n\nVraiment.",
+   "progress": "Un grand piège cassé se trouve devant vous. On dirait que les ogres ont tenté de le réparer sans succès. Une note hâtivement griffonnée se trouve juste à côté. Curieusement, elle détaille tout ce qui est nécessaire pour le réparer : il faut un rouage en thorium et un peu d’huile glaciale. Si le piège était réparé, un ogre qui passerait à côté pourrait s’y faire prendre, et pourrait être évité.\n\nC’est vraiment une bonne chose que très peu d’ogres sachent lire.\n\nVraiment.",
+   "completion": "Le rouage de thorium se met en place, ce qui crée un conduit par lequel vous versez l’huile glaciale. Les dernières gouttes sont à peines tombées que le piège se met en place.\n\nMalheur au premier ogre imprudent qui passera par là !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 179485,
+     "name": "Broken Trap"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 179485,
+     "name": "Broken Trap"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 56,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "1318": {
+   "id": 1318,
+   "name": "Affaires inachevées chez les Gordok",
+   "objectives": "Trouvez le Gantelet de Puissance Gordok et rendez-le au capitaine Kromcrush à Hache-tripes.\n\nSelon Kromcrush, les histoires des « vieux » racontent que Tortheldrin – un « vilain » elfe qui se fait appeler prince – l’a volé à l’un des rois gordok.",
+   "description": "Maintenant qu'z'êtes le roi, p'têt' qu'vous pourrez récupérez l'objet précieux des Gordok que le sale elfe qui se dit Prince nous a pris. L'roi avant vous a pas réussi, et celui d'avant non plus, et aucun roi depuis que Tortheldrin – c'est le sale elfe – l'a volé à un vieux roi gordok d'il y a longtemps !\n\nC'est le Gantelet de puissance Gordok. Les vieux, ils disent que seul le vrai roi des Gordok pourra le ramener. Et puis, les vieux, ils disent aussi que le sale elfe est toujours là – si vous le trouvez, vous pourrez porter le gantelet de puissance pour toujours ! Ouais ! Je vais vous montrer !",
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 56,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "5518": {
+   "id": 5518,
+   "name": "La tenue d'ogre gordok",
+   "objectives": "Apportez 4 Rouleaux d'étoffe runique, 8 Cuirs robustes, 2 Fils runiques et du Tanin ogre à Knot Thimblejack. Il est actuellement enchaîné dans l’aile Gordok de Hache-tripes.",
+   "description": "Si vous devez combattre le roi de cette décharge, et je pense que vous n’avez pas le choix, vous devrez vous occuper du capitaine Kromcrush. Oh, vous pouvez vous en « occuper » en le tuant, bien sûr. Mais vous pouvez aussi le laisser en vie.\n\nComment ? Eh bien, depuis le temps que je moisis ici, je pense que je saurais préparer un déguisement d’ogre qui durerait juste assez longtemps pour tromper ces clowns. Le seul problème est la stabilité. Il ne durera pas plus de dix minutes. Apportez-moi ce qu’il me faut, et je vous en ferai un. Je ne vais nulle part, de toute façon…",
+   "progress": "De tous les ingrédients dont j’ai besoin, le Tanin ogre est sans doute ce qu’il y a de plus dur à trouver. Je crois qu’ils en ont en haut. C’est difficile à dire, parce que ce boulet limite quelque peu mes mouvements…\n\nEn tout cas, dès que vous m’aurez apporté tout ce qu’il me faut, je vous fabriquerai une tenue qui convaincra le capitaine Kromcrush que vous êtes l’un de ses hommes. Enfin, l’un de ses ogres.",
+   "completion": "Oui, ça fera l’affaire. Un peu ici, une touche là… hé hé, ça ira très bien !<Un grand sourire apparaît sur le visage du gobelin enchaîné. >\n\nEt voilà, c’est prêt. Souvenez-vous quand même que ce n’est pas très solide. Vous avez dix minutes avant qu’il ne parte en morceaux. Après ça, vous ne tromperez plus personne ! Essayez de vous en servir juste avant de l’approcher, et souvenez-vous… il VOUS prendra pour un allié, mais ça ne s’applique pas à vos camarades !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14338,
+     "name": "Knot Thimblejack"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14338,
+     "name": "Knot Thimblejack"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 56,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5519": {
+   "id": 5519,
+   "name": "La tenue d'ogre gordok",
+   "objectives": null,
+   "description": "Besoin d’une autre tenue, hein ? Bon, je ne vais nulle part, de toute façon. Amenez-moi les mêmes éléments que l’autre fois, et je vous en ferai une autre.",
+   "progress": "Besoin d’une autre tenue, hein ? Bon, je ne vais nulle part, de toute façon. Amenez-moi les mêmes éléments que l’autre fois, et je vous en ferai une autre.",
+   "completion": "Voilà qui est fait, <nom>. Mettez ce truc, et vous aurez dix minutes pour faire ce que vous voulez. Bonne chance.\n\nOh, si par hasard vous tombez sur la clé qui me permettra de sortir d’ici, N’HESITEZ SURTOUT PAS A ME LE FAIRE SAVOIR !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14338,
+     "name": "Knot Thimblejack"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14338,
+     "name": "Knot Thimblejack"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 56,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "5525": {
+   "id": 5525,
+   "name": "Libérez Knot !",
+   "objectives": null,
+   "description": "C’est la Clé des menottes gordok – en tous cas, c’est comme ça que l’appellent ces patapoufs. Je ne sais pas qui l’a. Ils le peuvent tous, j’imagine. Les gardes, sans doute…\n\nMais qu’est-ce que je raconte ? Vous l’avez déjà, n’est-ce pas ? Vous l’avez sur vous ?",
+   "progress": "C’est la Clé des menottes gordok – en tous cas, c’est comme ça que l’appellent ces patapoufs. Je ne sais pas qui l’a. Ils le peuvent tous, j’imagine. Les gardes, sans doute…\n\nMais qu’est-ce que je raconte ? Vous l’avez déjà, n’est-ce pas ? Vous l’avez sur vous ?",
+   "completion": "Vous – vous êtes numéro un. Tous les autres sont numéro deux – ou moins. Merci de m’avoir libéré !\n\nJe savais que j’avais autre chose à faire de ma vie que de servir d’apéritif à un ogre !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14338,
+     "name": "Knot Thimblejack"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14338,
+     "name": "Knot Thimblejack"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "5528": {
+   "id": 5528,
+   "name": "La dégustation gordok",
+   "objectives": null,
+   "description": "V’z’êtes le grand patron maintenant, alors z’avez le droit de goûter mes alcools. Ils rendent fort ET font tourner la tête ! C’est d’la bonne, chef… essayez, vous pourrez l’dire à Kreeg !",
+   "progress": null,
+   "completion": "V’z’êtes le grand patron maintenant, alors z’avez le droit de goûter mes alcools. Ils rendent fort ET font tourner la tête ! C’est d’la bonne, chef… essayez, vous pourrez l’dire à Kreeg !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14322,
+     "name": "Kreeg le Marteleur"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14322,
+     "name": "Kreeg le Marteleur"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7429": {
+   "id": 7429,
+   "name": "Libérez Knot !",
+   "objectives": null,
+   "description": "C’est la Clé des menottes gordok – en tous cas, c’est comme ça que l’appellent ces patapoufs. Je ne sais pas qui l’a. Ils le peuvent tous, j’imagine. Les gardes, sans doute…\n\nMais qu’est-ce que je raconte ? Vous l’avez déjà, n’est-ce pas ? Vous l’avez sur vous ?",
+   "progress": "C’est la Clé des menottes gordok – en tous cas, c’est comme ça que l’appellent ces patapoufs. Je ne sais pas qui l’a. Ils le peuvent tous, j’imagine. Les gardes, sans doute…\n\nMais qu’est-ce que je raconte ? Vous l’avez déjà, n’est-ce pas ? Vous l’avez sur vous ?",
+   "completion": "Oh, merci de m'avoir libéré ! Vous – vous êtes numéro un. Tous les autres sont numéro deux – ou moins. Merci de m’avoir libéré !\n\nJe savais que j’avais autre chose à faire de ma vie que de servir d’apéritif à un ogre !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14338,
+     "name": "Knot Thimblejack"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14338,
+     "name": "Knot Thimblejack"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "both",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7441": {
+   "id": 7441,
+   "name": "Pusillin et l'Ancien Azj'Tordin",
+   "objectives": "Rendez-vous à Hache-tripes et trouvez le diablotin Pusillin. Persuadez-le par tous les moyens de vous rendre le Livre d’Incantations d’Azj’Tordin.\n\nSi vous parvenez à le récupérer, retournez voir Azj’Tordin au Pavillon de Lariss, en Feralas.",
+   "description": "J’ai baissé ma garde pendant un moment, <étranger/étrangère>. Dans ma hâte d’échapper aux griffes du prince déchu, j’ai été volé. Un très abject démon, le diablotin Pusillin, s’est emparé de mon livre d’incantations et de la clé qui ouvre les grandes salles d’Eldre’Thalas.\n\nLa clé ne m’intéresse plus, car j’ai échangé l’immortalité contre la liberté, mais j’ai désespérément besoin de mon livre d’incantations.\n\nTrouvez le diablotin, Pusillin, et retrouvez mon livre.\n\nFouillez le quartier de Crochebois de Hache-tripes pour trouver Pusillin.",
+   "progress": "Je ne regrette rien, étranger. La reine n’est plus depuis longtemps. Les œuvres des Shen’Dralar ont été défigurées par la folie du prince Tortheldrin. Je ne cherche que la liberté. Un moyen de fuir…",
+   "completion": "Vous l’avez trouvé ! Que ce misérable diablotin soit maudit. Hélas, mes biens matériels sont peu nombreux, mais vous pouvez choisir parmi ce que j’ai à offrir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14355,
+     "name": "Azj'Tordin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14355,
+     "name": "Azj'Tordin"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 58,
+   "reqlevel": 54,
+   "side": "both",
+   "xp": 7750,
+   "money": 17500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "étranger/étrangère"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7461": {
+   "id": 7461,
+   "name": "Folie intérieure",
+   "objectives": "Vous devez détruire les gardiens qui protègent les 5 Pylônes qui alimentent la Prison d’Immol’thar. Une fois que les Pylônes seront coupés, le champ de force qui entoure Immol’thar se dissipera.\n\nEntrez dans la Prison d’Immol’thar et éradiquez l’infâme démon qui se trouve en son cœur. Enfin, affrontez le prince Tortheldrin à l’Athenaeum.\n\nLorsque vous aurez terminé, retournez voir l’Ancienne des Shen’dralar dans la cour.",
+   "description": "En avez-vous entendu assez ? Êtes-vous <un homme/une femme> d’action ?\n\nCette folie doit s’achever. L’âge des immortels est révolu depuis longtemps. Détruisez les gardiens qui entourent les pylônes pour abattre le champ de force. Lorsque ce sera fait, détruisez Immol’thar. Le pouvoir du prince sera très diminué. Attaquez-le et mettez un terme à son existence. Il est temps que les esprits de cette ville trouvent le repos.",
+   "progress": "Prenez garde, aventurier. Le prince est… persuasif.",
+   "completion": "Nous vous remercions, héros.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14358,
+     "name": "Ancienne de Shen'Dralar"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14358,
+     "name": "Ancienne de Shen'Dralar"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 56,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "un homme/une femme"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7462": {
+   "id": 7462,
+   "name": "Le trésor des Shen'dralar",
+   "objectives": "Retournez à l’Athenaeum et trouvez le Trésor des Shen’dralar. Prenez votre récompense !",
+   "description": "Dans l'Athenaeum, la bibliothèque, vous trouverez un vieux coffre caché sous l'escalier. Prenez-y ce que vous voulez.",
+   "progress": null,
+   "completion": "Vous ouvrez le coffre pour trouver...",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14358,
+     "name": "Ancienne de Shen'Dralar"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 179517,
+     "name": "Treasure of the Shen'dralar"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 56,
+   "side": "alliance",
+   "xp": 660,
+   "money": 27000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7463": {
+   "id": 7463,
+   "name": "Rafraîchissement arcanique",
+   "objectives": "Rendez-vous dans le quartier de Crochebois de Hache-tripes et tuez Hydrogénos, l’élémentaire de l’eau. Retournez voir le Gardien du savoir Lydros à l’Athenaeum avec l’Essence d’Hydrogénos.",
+   "description": "<Un/Une> <race> mage ! C’est merveilleux ! Je n’avais vu personne de votre espèce depuis… attendez, laissez-moi réfléchir… cinq cents ans !\n\nJ’ai quelque chose qui pourrait apaiser votre soif, mais vous devrez d’abord me rendre un service.\n\n<Lydros ricane.>\n\nUne anomalie hante Eldre’Thalas. Un élémentaire d’eau s’est installé dans l’aile est. Sa présence doit être cataloguée !\n\nRendez-vous dans le quartier de Crochebois et emparez-vous d’une partie de l’essence élémentaire de l’Hydrogénos. Revenez me voir ensuite et je vous apprendrai un sort utile.",
+   "progress": "Oui ? Je vous connais ?",
+   "completion": "Merveilleux ! Qui êtes-vous, déjà ? Oh, aucune importance. Qu’étais-je censé vous donner ? Hmm… ah oui, vous êtes un <classe>, cela vous sera peut-être utile.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14368,
+     "name": "Gardien du savoir Lydros"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14368,
+     "name": "Gardien du savoir Lydros"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Lydros ricane.",
+    "Un/Une",
+    "race"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7481": {
+   "id": 7481,
+   "name": "Légendes elfiques",
+   "objectives": "Fouillez Hache-tripes à la recherche de Telmius Cherche-Rêve. Lorsque vous aurez des informations, donnez-les au Sage Korolusk du Camp Mojache.",
+   "description": "Il y a plusieurs années, un maître elfe solitaire du nom de Kariel Winthalus a fui la destruction de sa terre natale avec plusieurs anciens objets magiques elfiques.\n\nNos recherches nous ont conduit aux ruines de Quel’Thalas, de l’autre côté des Steppes Ardentes, à travers l’océan, jusqu’en Féralas.\n\nNous pensons que cet elfe a cherché refuge dans les salles d’Eldre’Thalas, que l’on appelle aujourd’hui Hache-tripes.\n\nVous devez le trouver, aventurier. Qu’il soit mort ou vif, les connaissances qu’il portait avec lui doivent être retrouvées !",
+   "progress": "Mon associée, l'érudite elfe de la nuit Runethorn, recrute ses alliés pour cette tâche.",
+   "completion": "Une honte… une tragédie. Les objets sont perdus, selon vous ? Vous n’avez retrouvé aucune trace ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14373,
+     "name": "Sage Korolusk"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14373,
+     "name": "Sage Korolusk"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 54,
+   "side": "horde",
+   "xp": 8300,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7482": {
+   "id": 7482,
+   "name": "Légendes elfiques",
+   "objectives": "Fouillez Hache-tripes à la recherche de Telmius Cherche-Rêve. Lorsque vous aurez des informations, donnez-les à l’Erudite Runethorn, à Feathermoon.",
+   "description": "Il y a plusieurs années, un maître elfe solitaire du nom de Kariel Winthalus a fui la destruction de sa terre natale avec plusieurs anciens objets magiques elfiques.\n\nNos recherches nous ont conduit aux ruines de Quel’Thalas, de l’autre côté des Steppes ardentes, à travers l’océan, jusqu’en Féralas.\n\nNous pensons que cet elfe a trouvé refuge dans les salles d’Eldre’Thalas, que l’on appelle aujourd’hui Hache-tripes.\n\nVous devez le trouver, <aventurier/aventurière>. Qu’il soit mort ou vif, les connaissances qu’il portait avec lui doivent être retrouvées !",
+   "progress": "Mon associé, le sage tauren Korolusk, recrute ses alliés pour cette tâche.",
+   "completion": "Une honte… une tragédie. Les objets sont perdus, selon vous ? Vous n’avez retrouvé aucune trace ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14374,
+     "name": "Erudite Runethorn"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14374,
+     "name": "Erudite Runethorn"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 54,
+   "side": "alliance",
+   "xp": 8300,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "aventurier/aventurière"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7483": {
+   "id": 7483,
+   "name": "Libram de Rapidité",
+   "objectives": "Apportez un Libram de rapidité, 1 Diamant noir en parfait état, 2 Grands éclats brillants et 2 doses de Sang des héros au Gardien du savoir Lydros à Hache-tripes pour recevoir un Arcanum de rapidité.",
+   "description": "Maître Winthalus a perdu le Libram de Rapidité dans l’aile est. Le Libram permet de placer un sorcelet de rapidité mineur sur votre équipement. À peine mieux qu’un tour de passe-passe, en vérité…\n\nMais s’il vous intéresse, vous pourrez m’apporter le Libram avec quelques composants de base.\n\nJe crois qu’il faut aussi du sang des héros, un diamant noir parfait et de grands éclats brillants. Mais je peux me tromper !\n\n<Lydros hausse les épaules.>",
+   "progress": "Qu'est-ce que c'est ? J'ai énormément de classement à faire !",
+   "completion": "<Lydros bâille. >\n\nComme promis, voici votre arcanum de rapidité. Ne le gaspillez pas.\n\n<Lydros ricane. >",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14368,
+     "name": "Gardien du savoir Lydros"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14368,
+     "name": "Gardien du savoir Lydros"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Lydros hausse les épaules."
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7484": {
+   "id": 7484,
+   "name": "Libram de focalisation",
+   "objectives": "Apportez un Libram de focalisation, 1 Diamant noir en parfait état, 4 Grands éclats brillants et 2 Peaux des ombres au Gardien du savoir Lydros à Hache-tripes pour recevoir un arcanum de focalisation.",
+   "description": "Le libram a presque intéressé l’un des plus jeunes familiers du Gardien du savoir. Pauvre petite chose, elle n’avait que quelques semaines.\n\nCeux d’entre vous qui ont un penchant pour la magie pourraient trouver cet objet intéressant.\n\nLe Libram de focalisation a été perdu dans cette aile. Je suppose que l’un des esprits bien-nés l’a en sa possession.\n\nSi vous m’apportez le Libram avec quelques grands éclats brillants, des peaux des ombres et un diamant noir parfait, je pourrai conjurer l'arcanum.",
+   "progress": "Encore vous ? Que voulez-vous, cette fois ?",
+   "completion": "Ne vous blessez pas en appliquant l’enchantement, <race>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14368,
+     "name": "Gardien du savoir Lydros"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14368,
+     "name": "Gardien du savoir Lydros"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7485": {
+   "id": 7485,
+   "name": "Libram de Protection",
+   "objectives": "Apportez un Libram de protection, 1 Diamant noir en parfait état, 2 Grands éclats brillants et 1 Couture d'abomination effilochée au Gardien du savoir Lydros à Hache-tripes pour recevoir un Arcanum de protection.",
+   "description": "Il a pleuré comme un enfant lorsqu’il a perdu ce libram. De vous à moi, il m’est arrivé de pleurer sur des textes disparus, car il n’est pas de plus grande perte que celle du savoir et de l’histoire, mais verser des larmes sur ce méli-mélo d’incantations quasiment inutilisables ? Grotesque ! Cela m’a convaincu que le prince lui a fait une faveur le jour où il a séparé sa chair de ses os.\n\nApportez-moi le libram avec un diamant noir en parfait état, de grands éclats brillants et une couture d'abomination effilochée et je recréerai l'arcanum.\n\nOh, il doit être dans l’aile nord.",
+   "progress": "Ma patience vous évite de souffrir.",
+   "completion": "Oui oui, calmez-vous. Voilà votre arcanum, comme promis.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14368,
+     "name": "Gardien du savoir Lydros"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14368,
+     "name": "Gardien du savoir Lydros"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7488": {
+   "id": 7488,
+   "name": "Le filet de Lethtendris",
+   "objectives": "Ramenez le Filet de Lethtendris à Latronicus Moonspear au bastion de Feathermoon en Feralas.",
+   "description": "La magicienne Lethtendris, une elfe de sang vicieuse dont la brutalité n’a d’égale que la dépendance à l’égard de la magie, a fui vers Hache-tripes. Elle a créé un objet, un filet qui lui permet de capturer les énergies magiques de l’endroit. Nous craignons qu’elle n’inflige des dommages irréparables à notre monde, s’il n’y est pas mis bon ordre.\n\nArrêtez-là, <nom>. Trouvez-la et récupérez son filet. Elle se trouve probablement non loin des satyres dans le quartier de Crochebois, à Hache-tripes. Ramenez-moi son filet, afin que sa puissance soit dispersée dans la nature…",
+   "progress": "Avez-vous le filet, <nom> ? Cette concentration d’énergie magique doit être dissipée !",
+   "completion": "Vous avez récupéré le filet ! Bien joué, <nom> ! Leththendris, comme beaucoup d’elfes de son espèce, était aveugle aux dangers que l’excès de magie fait courir à notre monde. Ils croient maîtriser la magie, sans réaliser qu’ils sont esclaves de leur propre dépendance. Sa mort m’attriste, mais elle était nécessaire.\n\nMerci, <nom>. Je vais faire en sorte que les énergies contenues dans le filet soient dispersées dans une zone assez vaste pour qu’il n’y ait pas de danger, puis je le détruirai pour éviter de nouveaux abus.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7877,
+     "name": "Latronicus Moonspear"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7877,
+     "name": "Latronicus Moonspear"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 57,
+   "reqlevel": 54,
+   "side": "alliance",
+   "xp": 7550,
+   "money": 17000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7489": {
+   "id": 7489,
+   "name": "Le filet de Lethtendris",
+   "objectives": "Ramenez le Filet de Lethtendris à Talo Thornhoof au Camp Mojache, en Feralas.",
+   "description": "L’elfe de sang Lethtendris est allée trop loin. Elle était si désireuse d’amasser de la puissance magique qu’elle a défié ses frères, créant un objet sinistre et insidieux, un filet conçu pour siphonner les énergies magiques corrompues de Hache-tripes. En ce moment même, elle les rassemble et se prépare à les libérer sur ses ennemis.\n\nLethtendris doit être arrêtée. Elle se trouve dans le quartier de Crochebois, à Hache-tripes. Une fois que vous l’aurez vaincue, ramenez-moi son filet, afin que je puisse le confier à des elfes de sang plus raisonnables qui l’étudieront à loisir.",
+   "progress": "<nom>, avez-vous le filet de Lethtendris ?",
+   "completion": "Vous vous en êtes bien tiré, <nom>. Ce filet renferme d’immenses quantités de la magie de Hache-tripes, et je ne sais pas quels dégâts il aurait pu causer entre des mains aussi irresponsables que celles de Lethtendris. Sa mort m’attriste, mais je sais que vivante, elle ne se serait jamais séparée de son filet.\n\nMerci, <nom>. Je transmettrai le filet à des chercheurs plus responsables que Lethtendris. Ils deviendront les gardiens de son pouvoir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7776,
+     "name": "Talo Thornhoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7776,
+     "name": "Talo Thornhoof"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 57,
+   "reqlevel": 54,
+   "side": "horde",
+   "xp": 7550,
+   "money": 17000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7492": {
+   "id": 7492,
+   "name": "Camp Mojache",
+   "objectives": "Parlez à Talo Thornhoof au Camp Mojache, en Feralas.",
+   "description": "Talo Sabot-de-ronce, un Ancien tauren de Féralas, a besoin d’aide. Il n’a pas donné beaucoup de détails, mais il a besoin d’agents pour une affaire à la fois délicate… et redoutable.\n\nServez la Horde, <nom>. Rendez-vous au Camp Mojache, en Féralas, et parlez à Talo.",
+   "progress": null,
+   "completion": "Ah, il est bon de voir un <classe> répondre à mon appel. J’ai besoin de vos services, <nom>, et je crains qu’ils ne vous conduisent sur une route dangereuse…\n\nLa route de Hache-tripes.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10879,
+     "name": "Messager Balthazad"
+    },
+    {
+     "type": "npc",
+     "id": 10880,
+     "name": "Gorlach le Hurleguerre"
+    },
+    {
+     "type": "npc",
+     "id": 10881,
+     "name": "Messager de Thunder Bluff Windstrider"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7776,
+     "name": "Talo Thornhoof"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 57,
+   "reqlevel": 54,
+   "side": "horde",
+   "xp": 1500,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7494": {
+   "id": 7494,
+   "name": "Le bastion de Feathermoon",
+   "objectives": "Parlez à Latronicus Moonspear au bastion de Feathermoon en Feralas.",
+   "description": "<nom>, nous avons besoin de votre aide en Féralas !\n\nUne magicienne renégate, Lethtendris, se cache dans les anciennes ruines elfiques d’Eldre’Thalas, que l’on appelle aujourd’hui Hache-tripes. On suppose qu’elle a avec elle un objet qui concentre de dangereuses énergies magiques. Il doit être récupéré.\n\nLatronicus Lancelune a besoin d’agents pour entrer dans Hache-tripes et prendre cet objet à Lethtendris.\n\nServez l’Alliance ! Allez voir Latronicus au bastion de Pennelune, en Féralas.",
+   "progress": null,
+   "completion": "Salutations, <nom>. Je suis content de vous voir, même si je déplore que cette rencontre ne se déroule pas dans des conditions plus plaisantes.\n\nÉcoutez-moi attentivement, car j’ai une tâche très importante pour vous…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2198,
+     "name": "Crieur Goodman"
+    },
+    {
+     "type": "npc",
+     "id": 10877,
+     "name": "Messager Hammerfall"
+    },
+    {
+     "type": "npc",
+     "id": 10878,
+     "name": "Héraut Moonstalker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7877,
+     "name": "Latronicus Moonspear"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 57,
+   "reqlevel": 54,
+   "side": "alliance",
+   "xp": 1500,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7498": {
+   "id": 7498,
+   "name": "Garona : une étude en discrétion et en trahison",
+   "objectives": "Rendez ce livre à ses légitimes propriétaires.",
+   "description": "Ce livre porte la marque de l'Athenaeum.",
+   "progress": "Vous avez récupéré un livre !",
+   "completion": "Très bon travail, <race>. Si vous trouvez d’autres livres, n’hésitez pas à nous les retourner.\n\nAu fur et à mesure que le temps passe, nous avons tendance à évoluer et à ajouter de nouvelles récompenses pour le retour des livres disparus.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 18356,
+     "name": "Garona: A Study on Stealth and Treachery"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14383,
+     "name": "Gardien du savoir Kildrath"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 54,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7499": {
+   "id": 7499,
+   "name": "Le codex de défense",
+   "objectives": "Rendez ce livre à ses légitimes propriétaires.",
+   "description": "Ce livre porte la marque de l'Athenaeum.",
+   "progress": "Vous avez récupéré un livre !",
+   "completion": "Très bon travail, <race>. Si vous trouvez d’autres livres, n’hésitez pas à nous les retourner.\n\nAu fur et à mesure que le temps passe, nous avons tendance à évoluer et à ajouter de nouvelles récompenses pour le retour des livres disparus.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 18357,
+     "name": "Codex of Defense"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14383,
+     "name": "Gardien du savoir Kildrath"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 54,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7500": {
+   "id": 7500,
+   "name": "Les recettes de l’arcaniste",
+   "objectives": "Rendez ce livre à ses légitimes propriétaires.",
+   "description": "Ce livre porte la marque de l'Athenaeum.",
+   "progress": "Vous avez récupéré un livre !",
+   "completion": "Très bon travail, <race>. Si vous trouvez d’autres livres, n’hésitez pas à nous les retourner.\n\nAu fur et à mesure que le temps passe, nous avons tendance à évoluer et à ajouter de nouvelles récompenses pour le retour des livres disparus.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 18358,
+     "name": "The Arcanist's Cookbook"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14383,
+     "name": "Gardien du savoir Kildrath"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 54,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7501": {
+   "id": 7501,
+   "name": "La lumière et comment l'altérer",
+   "objectives": "Rendez ce livre à ses légitimes propriétaires.",
+   "description": "Ce livre porte la marque de l’Athenaeum.",
+   "progress": "Vous avez récupéré un livre !",
+   "completion": "Très bon travail, <race>. Si vous trouvez d’autres livres, n’hésitez pas à nous les retourner.\n\nAu fur et à mesure que le temps passe, nous avons tendance à évoluer et à ajouter de nouvelles récompenses pour le retour des livres disparus.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 18359,
+     "name": "The Light and How to Swing It"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14382,
+     "name": "Gardienne du savoir Mykos"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 54,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7502": {
+   "id": 7502,
+   "name": "Contrôler les ombres",
+   "objectives": "Rendez ce livre à ses légitimes propriétaires.",
+   "description": "Ce livre porte la marque de l’Athenaeum.",
+   "progress": "Vous avez récupéré un livre !",
+   "completion": "Très bon travail, mort-vivant. Si vous trouvez d’autres livres, n’hésitez pas à nous les retourner.\n\nAu fur et à mesure que le temps passe, nous avons tendance à évoluer et à ajouter de nouvelles récompenses pour le retour des livres disparus.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 18360,
+     "name": "Harnessing Shadows"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14382,
+     "name": "Gardienne du savoir Mykos"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 54,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7503": {
+   "id": 7503,
+   "name": "La plus grande race de chasseurs",
+   "objectives": "Rendez ce livre à ses légitimes propriétaires.",
+   "description": "Ce livre porte la marque de l’Athenaeum.",
+   "progress": "Vous avez récupéré un livre !",
+   "completion": "Très bon travail, <race>. Si vous trouvez d’autres livres, n’hésitez pas à nous les retourner.\n\nAu fur et à mesure que le temps passe, nous avons tendance à évoluer et à ajouter de nouvelles récompenses pour le retour des livres disparus.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 18361,
+     "name": "The Greatest Race of Hunters"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14382,
+     "name": "Gardienne du savoir Mykos"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 54,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7504": {
+   "id": 7504,
+   "name": "Sainte Bolognaise : Ce que la lumière ne vous dit pas",
+   "objectives": "Rendez ce livre à ses légitimes propriétaires.",
+   "description": "Ce livre porte la marque de l’Athenaeum.",
+   "progress": "Vous avez récupéré un livre !",
+   "completion": "Très bon travail, <race>. Si vous trouvez d’autres livres, n’hésitez pas à nous les retourner.\n\nAu fur et à mesure que le temps passe, nous avons tendance à évoluer et à ajouter de nouvelles récompenses pour le retour des livres disparus.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 18362,
+     "name": "Holy Bologna: What the Light Won't Tell You"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14381,
+     "name": "Gardien du savoir Javon"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 54,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7505": {
+   "id": 7505,
+   "name": "Le Horion de givre et vous",
+   "objectives": "Rendez ce livre à ses légitimes propriétaires.",
+   "description": "Ce livre porte la marque de l'Athenaeum.",
+   "progress": "Vous avez récupéré un livre !",
+   "completion": "Très bon travail, <race>. Si vous trouvez d’autres livres, n’hésitez pas à nous les retourner.\n\nAu fur et à mesure que le temps passe, nous avons tendance à évoluer et à ajouter de nouvelles récompenses pour le retour des livres disparus.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 18363,
+     "name": "Frost Shock and You"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14381,
+     "name": "Gardien du savoir Javon"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 54,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7506": {
+   "id": 7506,
+   "name": "Le Rêve d'Emeraude…",
+   "objectives": "Rendez ce livre à ses légitimes propriétaires.",
+   "description": "Ce livre porte la marque de l’Athenaeum.",
+   "progress": "Vous avez récupéré un livre !",
+   "completion": "Très bon travail, <race>. Si vous trouvez d’autres livres, n’hésitez pas à nous les retourner.\n\nAu fur et à mesure que le temps passe, nous avons tendance à évoluer et à ajouter de nouvelles récompenses pour le retour des livres disparus.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 18364,
+     "name": "The Emerald Dream"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14381,
+     "name": "Gardien du savoir Javon"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 54,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7507": {
+   "id": 7507,
+   "name": "Le guide de Dagharn",
+   "objectives": "Rapporter « Le guide de Nostro du tueur de dragons » à l’Athenaeum.",
+   "description": "Vous avez découvert quelque chose de très important. Ce livre ne ressemble à rien de ce que vous avez déjà vu.\n\nIl semble que quelque chose ou quelqu’un soit parvenu à briser le sceau de l’Athenaeum. A l’intérieur, le texte est à peine lisible.",
+   "progress": "Ah, une de nos plus grandes compilations. Celle-ci manquait depuis une éternité.",
+   "completion": "Au marché noir, ce livre vous aurait rapporté par mal d’argent, <nom>. Surtout parce que son sceau protecteur était brisé, exhibant les secrets de la mise à mort des dragons à toutes les personnes assez intelligentes pour assimiler les connaissances contenues dans ces pages sacrées.\n\nUne grande récompense est à l’ordre du jour… Ou plus exactement, une récompense qui va exiger de vous un effort immense.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 18401,
+     "name": "Nostro's Compendium of Dragon Slaying"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14368,
+     "name": "Gardien du savoir Lydros"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7508": {
+   "id": 7508,
+   "name": "Forger Quel'Serrar",
+   "objectives": "Donnez la Lame elfique inachevée au Gardien du savoir Lydros.",
+   "description": "Si vous voulez vous charger de cette tâche, présentez la lame inachevée à Lydros.",
+   "progress": "Excellent, commençons tout de suite…",
+   "completion": "Si vous parvenez à entrer dans le repaire du dragon, à chauffer la lame à son souffle brûlant et à la tremper dans son sang, je la lierai à vous.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 18513,
+     "name": "A Dull and Flat Elven Blade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14368,
+     "name": "Gardien du savoir Lydros"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7703": {
+   "id": 7703,
+   "name": "Affaires inachevées chez les Gordok",
+   "objectives": "Trouvez le Gantelet de Puissance Gordok et rendez-le au capitaine Kromcrush à Hache-tripes.\n\nSelon Kromcrush, les histoires des « vieux » racontent que Tortheldrin – un « vilain » elfe qui se fait appeler prince – l’a volé à l’un des rois gordok.",
+   "description": "Maintenant qu’z’êtes le roi, p’têt qu’vous pourrez récupérez l’objet précieux des Gordok que le sale elfe qui se dit Prince nous a pris. L’roi avant vous a pas réussi, et celui d’avant non plus, et aucun roi depuis que Tortheldrin – c’est le sale elfe – l’a volé à un vieux roi gordok d’il y a longtemps !\n\nC’est le Gantelet de puissance Gordok. Les vieux, ils disent que seul le vrai roi des Gordok pourra le ramener. Et puis, les vieux, ils disent aussi que le sale elfe est toujours là – si vous le trouvez, vous pourrez porter le gantelet de puissance pour toujours ! Ouais ! Je vais vous montrer !",
+   "progress": "Ha, vous l’avez pas trouvé, patron ? Peut-être que les histoires des vieux, c’est des menteries… c’est dur de croire qu’un vilain elfe peut voler des trucs au roi des Gordok !",
+   "completion": "Waou… vous êtes vraiment l’vrai roi ! J’pensais pas qu’je verrai le gantelet d’mon vivant ! On dirait qu’il n’a plus de mojo. P’têt que le vilain elfe a essayé d’s’en servir et l’a cassé. Eh ben je lui dis HAR HAR HAR !\n\nRegardez ! Cette marque sur l'gantelet, c’est une très très vieille marque, plus vieille que les Gordok, y paraît. Les capitaines des Gordok, ils apprennent tous quequ’chose – comment faire vivre la marque pour rendre son pouvoir au gantelet !\n\nJ’vais l’faire pour vous, roi ! Là, prenez le gantelet et régnez POUR TOUJOURS !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14325,
+     "name": "Capitaine Kromcrush"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14325,
+     "name": "Capitaine Kromcrush"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 56,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7877": {
+   "id": 7877,
+   "name": "Le trésor des Shen'dralar",
+   "objectives": "Retournez à l’Athenaeum et trouvez le Trésor des Shen’dralar. Prenez votre récompense !",
+   "description": "Dans l’Athenaeum, la bibliothèque, vous trouverez un vieux coffre caché sous l’escalier. Prenez-y ce que vous voulez.",
+   "progress": null,
+   "completion": "Vous ouvrez le coffre pour trouver…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14358,
+     "name": "Ancienne de Shen'Dralar"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 179517,
+     "name": "Treasure of the Shen'dralar"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 56,
+   "side": "both",
+   "xp": 660,
+   "money": 27000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8948": {
+   "id": 8948,
+   "name": "Le vieil ami d'Anthion",
+   "objectives": "Apportez la Bannière de défi incomplète à Farlin Sculpteflore, dans la bibliothèque de Hache-Tripes.",
+   "description": "Theldren n'est pas du genre à participer de son plein gré à un combat honnête. J'ai donc fabriqué cette bannière aux couleurs de sa famille.\n\nMoyennant une petite touche de magie supplémentaire, il sera incapable de résister à cette provocation.\n\nFalrin, l'une de mes vieilles connaissances, connaît la marche à suivre. Vous le trouverez dans la bibliothèque de Hache-tripes.",
+   "progress": "Eh bien, parlez, étranger. Vous ne voyez pas que je suis occupé ?",
+   "completion": "Vous dites qu'Anthion vous envoie ? Je pensais qu'il était mort. Bon, je suppose que j'ai déjà entendu des choses plus étranges dans ma vie.\n\nTrès bien, que voulez-vous que je fasse avec cette bannière ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16016,
+     "name": "Anthion Harmon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16032,
+     "name": "Falrin Treeshaper"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8949": {
+   "id": 8949,
+   "name": "La vendetta de Falrin",
+   "objectives": "Collecter 25 Perles de guerre ogres à l’intérieur de Hache-Tripes ou du Pic Rochenoire, puis revenir voir Falrin Sculpteflore, à l'intérieur de l'Athenaeum à Hache-Tripes.",
+   "description": "En effet, je connais l’enchantement dont vous avez besoin, <classe>. Mais je ne suis pas de ceux qui distribuent des faveurs gratuitement, même si vous m’avez été <envoyé/envoyée> par un vieil ami.\n\nJe hais mes voisins ogres, ces brutes méprisables. J’exècre les séides d’Omokk autant que les sujets du roi Gordok.\n\nTuez-les ! Tuez-en beaucoup ! Ramenez-moi les perles qu’ils portent autour du cou comme preuve de vos actions. Lorsque vous m’en aurez rapporté assez, nous reparlerons de votre requête.",
+   "progress": "Je vous avais demandé une faveur, <nom>. Avez-vous terminé ?",
+   "completion": "Hmmm… curieusement, cela n’efface pas la mort de mon frère, qui a été tué par ces brutes.\n\nBref… vous avez rempli votre part du marché. Voyons ce que je peux faire pour vous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16032,
+     "name": "Falrin Treeshaper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16032,
+     "name": "Falrin Treeshaper"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "envoyé/envoyée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8950": {
+   "id": 8950,
+   "name": "L'enchantement du provocateur",
+   "objectives": "Apportez les choses suivantes à Falrin Sculpteflore dans Hache-Tripes : 1 Essence de spectre railleur, 4 Runes ténébreuses et 8 Grands éclats brillants.",
+   "description": "Enchanter la bannière ne sera pas bien compliqué, <nom>. Malheureusement, je n’ai pas les matériaux nécessaires. Entre nous, les gens demandent rarement des charmes de ce genre.\n\nIl va me falloir l’essence de l’un des fantômes d’Eldreth qui hantent ces salles, une poignée de runes ténébreuses de la Scholomance et quelques grands éclats brillants. Ramenez-moi ces composants, je m’occuperai du reste.",
+   "progress": "Avez-vous les matériaux dont j’ai besoin, <nom> ?",
+   "completion": "Oui, ils feront parfaitement l’affaire. Lorsque j’en aurai terminé, aucune force au monde ne pourra empêcher votre victime de relever votre défi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16032,
+     "name": "Falrin Treeshaper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16032,
+     "name": "Falrin Treeshaper"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8967": {
+   "id": 8967,
+   "name": "Le morceau gauche de l'amulette du seigneur Valthalak",
+   "objectives": "Utilisez le Brasero de signal pour invoquer l’esprit d’Isalien, puis tuez-le. Retournez voir Bodley, à l'intérieur du mont Rochenoire, avec le Morceau gauche de l’amulette du seigneur Valthalak et le Brasero de signal.",
+   "description": "Sur la fin, alors que nous faisions notre possible pour rester en vie, nous avons appris que la prêtresse elfe de la nuit de notre compagnie, Isalien, s’était rendue dans une antique cité de son peuple, la ville que nous connaissons sous le nom de « Hache-tripes ». D’après ce que nous avons compris, elle avait des raisons personnelles pour s’y installer, mais elle voulait aussi découvrir les secrets du morceau d’amulette qu’elle détenait.\n\nElle n’y est pas parvenue. Nous avons entendu dire qu’elle avait été victime d’une embuscade tendue par Alzzin le Modeleur et ses forces au sanctuaire d’Eldretharr.",
+   "progress": "Vous n'avez certainement pas déjà traité du salut de l'esprit d'Isalien et de la récupération du morceau gauche de l'amulette de Lord Valthalak, <nom> ?",
+   "completion": "Merci, <nom>, d'avoir apaisé l'esprit d'Isalien. Maintenant, peut-être, trouvera-t-elle la paix avec sa déesse. Mais il y a encore beaucoup de travail à faire si nous voulons nous sortir de ce mauvais pas.\n\nMalheureusement, je ne sais pas où se trouve celui qui est mort avec le bon morceau de l'amulette en sa possession. J'ai donc une autre tâche à vous confier, qui va nous permettre de trouver le dernier morceau de l'amulette.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8990": {
+   "id": 8990,
+   "name": "Le morceau droit de l'amulette du seigneur Valthalak",
+   "objectives": "Utilisez le Brasero de signal pour invoquer l’esprit d’Isalien, puis tuez-le. Retournez voir Bodley, à l'intérieur du mont Rochenoire, avec l’Amulette du seigneur Valthalak reconstituée et le Brasero de signal.",
+   "description": "Sur la fin, alors que nous faisions notre possible pour rester en vie, nous avons appris que la prêtresse elfe de la nuit de notre compagnie, Isalien, s'était rendue dans une antique cité de son peuple, la ville que nous connaissons sous le nom de « Hache-tripes ». D'après ce que nous avons compris, elle avait des raisons personnelles pour s'y installer, mais elle voulait aussi découvrir les secrets du morceau d'amulette qu'elle détenait.\n\nElle n'y est pas parvenue. Nous avons entendu dire qu'elle avait été victime d'une embuscade tendue par Alzzin le Modeleur et ses forces au sanctuaire d'Eldretharr.",
+   "progress": "Vous n’avez sans doute pas encore eu le temps de sauver l’esprit d’Isalien et de récupérer le Morceau droit de l’amulette du seigneur Valthalak, <nom>. Si ? N’oubliez pas de réassembler les morceaux de l’amulette avant de me la donner.",
+   "completion": "Merci d’avoir apporté le repos à l’âme d’Isalien, <nom>. Elle trouvera peut-être la paix auprès de sa déesse. Mais la tâche qui nous attend est la plus difficile de toutes.\n\nIl nous manque encore quelques objets pour que le brasero soit capable d’invoquer le seigneur Valthalak. Il va falloir que vous les récoltiez et que vous me les rameniez.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "zone_id": 2557,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

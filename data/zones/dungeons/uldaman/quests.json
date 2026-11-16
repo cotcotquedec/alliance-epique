@@ -1,0 +1,1618 @@
+{
+ "schema": 1,
+ "zone": "dungeons/uldaman",
+ "zone_id": 1337,
+ "zone_name": "Uldaman",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 29,
+  "complete": 28,
+  "incomplete": 1,
+  "unavailable": 0,
+  "missing_description": 1,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "17": {
+   "id": 17,
+   "name": "Rechercher les composants à Uldaman",
+   "objectives": "Apporter 12 Champignons magenta à Ghak Healtouch à Thelsamar.",
+   "description": "On a découvert récemment une nouvelle plante : les champignons magenta. Ils poussent en grappes, au plus profond des excavations d'Uldaman ; il en existe peut-être ailleurs, mais je ne connais que cet endroit. Je veux étudier leur utilité éventuelle en alchimie, et c'est là que vous entrez en scène.\n\nTrouvez les Champignons magenta et rapportez-m'en une douzaine. Attention, les grappes peuvent projeter des spores vénéneux quand on les manipule !\n\nRendez-moi ce service et je sortirai pour vous un petit Elixir revigorant de derrière les fagots.",
+   "progress": "Vous avez les champignons magenta dont j'ai besoin pour mes travaux ? Pas de champignons, pas de récompense !",
+   "completion": "Bon travail, <nom>, vous avez prouvé encore une fois votre valeur ! Cela va vraiment être intéressant d'étudier ces champignons !\n\nEt maintenant, comme promis, appréciez un de mes breuvages les plus revigorants, de ma réserve personnelle. . .\n\nSi vous êtes un alchimiste compétent, j'aurai peut-être une autre mission pour vous. Quoi qu'il en soit, merci de votre aide !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1470,
+     "name": "Ghak Healtouch"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1470,
+     "name": "Ghak Healtouch"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 42,
+   "reqlevel": 38,
+   "side": "alliance",
+   "xp": 3450,
+   "money": 5500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "704": {
+   "id": 704,
+   "name": "Le destin d'Agmond",
+   "objectives": "Apporter 4 Urnes de pierre gravées au Prospecteur Ironband au Loch Modan.",
+   "description": "Le dernier rapport que j'ai reçu d'Agmond est inquiétant, d'autant plus qu'à présent il est mort ! Il dit que son équipe a découvert des \"urnes anciennes\" au site de fouilles en dehors d'Uldaman. J'ai peur que les urnes qu'il y a découvertes n'aient poussé les troggs à agir, de la même manière que lorsque j'ai découvert les idoles.\n\nJ'ai besoin que vous récupériez ces urnes afin que nous les étudions. Allez au site d'Uldaman, récupérez-les, et revenez me voir.",
+   "progress": "Avez-vous trouvé ces urnes, <nom> ? Nous devons découvrir quel est le lien entre elles et les troggs !",
+   "completion": "Bon travail ! L'assiduité, accompagnée d'un peu de chance, nous permettra de découvrir le lien, quel qu'il soit, entre les troggs et ces artefacts anciens.\n\nVous avez rendu un grand service aux Prospecteurs, <nom>. Vos efforts ne seront pas oubliés. Et Agmond non plus.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1344,
+     "name": "Prospecteur Ironband"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1344,
+     "name": "Prospecteur Ironband"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 38,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "709": {
+   "id": 709,
+   "name": "La solution à la malédiction",
+   "objectives": "Rapporter la Tablette de Ryun'eh à Theldurin l'Egaré.",
+   "description": "Oh dieux ! Une malédiction approche. Écoutez-moi ! Une malédiction !\n\nNon, je ne peux pas en parler... je ne peux pas prononcer leur nom, ils pourraient entendre ! Mais si vous voulez savoir, oui si vous voulez en savoir plus sur eux... Alors vous en apprendrez peut-être assez pour les contrecarrer !\n\nPeut-être.\n\nAllez à Uldaman. Non ! Je l'ai dit ! Vous devez trouver... trouvez la tablette de... Ryun'eh. Oui, trouvez-la ! Et ne me faites plus prononcer ce nom !\n\nElle est au fond de cet endroit, dans un ancien coffre. C'est là qu'elle est cachée... dans un coffre construit bien avant n'importe quelle construction naine.",
+   "progress": "Avez-vous trouvé la tablette ? Elle doit contenir des secrets ! Ces secrets peuvent nous sauver !",
+   "completion": "Oh ! La chance est avec nous ! Merci ! Nous allons peut-être en réchapper !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2785,
+     "name": "Theldurin l’Egaré"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2785,
+     "name": "Theldurin l’Egaré"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "721": {
+   "id": 721,
+   "name": "Un signe d'espoir",
+   "objectives": "Trouver Hammertoe Grez à Uldaman.",
+   "description": "<nom>, l'avez-vous trouvé ? Avez-vous trouvé Hammertoe à Uldaman ?\n\nSi ces sales Ombreforge le gardent pour le faire parler des anciens Titans, alors tout Ironforge court un grand danger.\n\nDepuis longtemps maintenant, les Sombrefer sont à la recherche de magies pour créer des Golems très puissants. Hammertoe faisait la même chose, mais dans le but de les contrecarrer.\n\nIls le garderont probablement en vie tant qu'ils ne lui auront pas arraché toutes ses connaissances. Nous devons nous dépêcher de le sauver !",
+   "progress": null,
+   "completion": "Oui ? Je suis désolé. . . <Toux> Suis si faible. Approchez-vous, <classe>.\n\nRyedol vous envoie ? Muradin soit loué ! Ce garçon n'est pas aussi bête que je le pensais.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2910,
+     "name": "Prospecteur Ryedol"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2909,
+     "name": "Hammertoe Grez"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 35,
+   "reqlevel": 35,
+   "side": "alliance",
+   "xp": 2750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "722": {
+   "id": 722,
+   "name": "L'amulette des secrets",
+   "objectives": "Trouver l'Amulette de Hammertoe et lui rapporter à Uldaman.",
+   "description": "Vous avez du courage… <toux>… pour venir jusqu'à Uldaman pour moi, <classe>.\n\nSi vous êtes vraiment là pour aider… le vieux Hammertoe, alors… <toux>… vous devrez me trouver… une amulette.\n\nDeepshadow l’a… Magregan Deepshadow. L'est dans l'coin... dans les ruines, c'est sûr. L'amulette les mènera... <toux>... droit aux parchemins si on n'l'arrête pas. Ça dépend de vous, <nom>. Je vous en prie... récupérez-la.\n\nLes parchemins aideront sans doute les Sombrefer à créer des Golems encore plus puissants. Je l'sais, c'est tout. Je peux le sentir dans mes os.",
+   "progress": "Le clan Ombreforge. . . <Toux> … est dangereux. Soyez prudent. <toux> Vous devez trouver l'amulette.",
+   "completion": "Ah ! <toux toux>\n\nJe savais que vous la retrouveriez, <nom>.\n\nVraiment bien joué, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2909,
+     "name": "Hammertoe Grez"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2909,
+     "name": "Hammertoe Grez"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 40,
+   "reqlevel": 35,
+   "side": "alliance",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "nom",
+    "toux"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1139": {
+   "id": 1139,
+   "name": "La tablette de volonté",
+   "objectives": "Trouver la Tablette de Volonté et la rapporter au Conseiller Belgrum à Ironforge.",
+   "description": "Nous avons ralenti le clan Ombreforge en le coupant du pic Blackrock, mais la quête d'Hammertoe n'est toujours pas accomplie. Sa mort ne doit pas rester vaine. Il voulait trouver la Tablette de Volonté : un morceau de pierre que les Titans avaient gravé de caractères magiques pour les aider à donner la vie à leurs créations, leur communiquer une volonté propre. C'est ce que dit la légende en tout cas.\n\nIl nous faut retrouver cette tablette avant ceux du clan Ombreforge !\n\nRepartez pour Uldaman, trouvez la Tablette et revenez ici immédiatement.",
+   "progress": "La quête d'Hammertoe doit être reprise, <nom>. Je lui dois au moins ça.\n\nVous devez impérativement retourner à Uldaman, non seulement dans ce but, mais également dans l'intérêt de toute la race des nains. Si la Tablette tombe entre les mains des Sombrefer, qui sait le pouvoir que pourrait avoir leur armée de golems.",
+   "completion": "<Le Conseiller Belgrum hoche la tête d'un air surpris lorsque vous lui tendez la pierre. >\n\n<nom>, c'est ahurissant ! Je dois la faire porter aux mages du roi aussi vite que possible. Ils voudront l'analyser pour vérifier la véracité de la légende ! Mais c'est un autre sujet. Vous avez apporté à notre peuple une aide plus grande que tout ce que nous aurions pu espérer. Merci !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2918,
+     "name": "Conseiller Belgrum"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2918,
+     "name": "Conseiller Belgrum"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 45,
+   "reqlevel": 35,
+   "side": "alliance",
+   "xp": 5850,
+   "money": 13000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1360": {
+   "id": 1360,
+   "name": "Des Trésors à recouvrer",
+   "objectives": "Récupérer les biens de Krom Stoutarm dans son coffre dans le hall commun nord d'Uldaman et les lui rapporter à Ironforge.",
+   "description": "J'avais un bon travail de terrassier à l'excavation d'Uldaman dans les Terres ingrates… jusqu'à ce que ces sacrés troggs arrivent. J'ai à peine réussi à sauver ma peau, rien d'autre. Dans la panique, j'ai laissé mon plus précieux bien. C'est dans mon coffre donc à l'abris des troggs, mais au beau milieu d'eux.\n\nVous auriez toute ma gratitude, en honneur et en or, si vous pouviez me le ramener. Il y a un coffre portant mon nom au bout du hall commun nord. C'est là qu'il faut aller.",
+   "progress": "Alors, vous avez réussi à éviter ces troggs assez longtemps pour atteindre mon coffre et récupérer mon trésor ?",
+   "completion": "Ah, je suis de nouveau moi-même : merci mille fois.\n\nCertains nains adorent l'éclat du métal, d'autres celui des pierres précieuses… mais un Stoutarm n'est rien sans sa chope chérie !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6294,
+     "name": "Krom Stoutarm"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6294,
+     "name": "Krom Stoutarm"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 43,
+   "reqlevel": 33,
+   "side": "alliance",
+   "xp": 3600,
+   "money": 6000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2198": {
+   "id": 2198,
+   "name": "Le Collier brisé",
+   "objectives": "Chercher celui qui a fabriqué le Collier brisé pour découvrir sa valeur potentielle.",
+   "description": "Vous avez trouvé un Collier terni mais sur lequel on devine encore des entrelacs compliqués et des signes magiques. Il a été brisé et on voit qu'il manque trois Gemmes. Sous le collier, on peut reconnaître le sceau de la ville d'Ironforge et, sous le sceau, trois toutes petites lettres : \"TdK\".\n\nS'il y a quelque chose à tirer de ce Collier, il va falloir revenir à ses origines. Le sceau et les initiales sont déjà un début...",
+   "progress": "Vous ne parlez pas au bon gnome ! Je n'y suis jamais allé ! Vous ne pouvez rien prouver !\n\nEt d'abord, qui êtes-vous ? Et où. . . Bon sang ! D'où vient ce collier ?",
+   "completion": "Oui. . . C'est moi qui ai fabriqué ce collier. Et je ne suis pas du genre à donner gratuitement des informations, mon ami. Si vous voulez que je vous aide, vous devez d'abord m'aider MOI.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 7666,
+     "name": "Shattered Necklace"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6826,
+     "name": "Talvash del Kissel"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 41,
+   "reqlevel": 37,
+   "side": "alliance",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2199": {
+   "id": 2199,
+   "name": "Le Prix de la Connaissance",
+   "objectives": "Apporter 5 Barres d'Argent à Talvash del Kissel, à Ironforge.",
+   "description": "Je suis un joaillier de renom, ici, à Ironforge. Enfin, je l'étais... Je suis la victime d'un concurrent déloyal ! Dans ce métier, c'est la réputation qui fait tout... Et résultat, je me retrouve sans un sous, uniquement propriétaire d'un nom traîné dans la boue !\n\nJe veux que vous me rapportiez cinq Barres d'argent pour terminer une commande qui m'a été faite - la première commande depuis des lustres !\n\nVous me rapportez ces barres d'argent et je répondrai à vos questions au sujet du Collier.",
+   "progress": "Vous avez mes Barres d'argent ? Je vous raconterai en détail l'histoire du Collier. . . Quand j'aurai ces Barres ! Vous allez bien donner un coup de main à un gnome, non ?",
+   "completion": "Vous êtes quelqu'un de bien. Je me fiche de ce que peuvent dire les autres. . . C'est une blague ! Non, sérieusement, merci.\n\nCe Collier que vous avez trouvé est l'une de mes plus belles réussites, mais il lui manque les trois Gemmes pour retrouver son pouvoir magique. Je l'avais fait pour un paladin, il y a quelque temps. Il s'était fixé comme mission de nettoyer la \"contamination maléfique\" d'un site d'excavation nommé Uldaman, dans les Terres ingrates.\n\nEh bien, ce paladin est mort là-bas, et mes ennuis ont commencé comme ça.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6826,
+     "name": "Talvash del Kissel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6826,
+     "name": "Talvash del Kissel"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 41,
+   "reqlevel": 37,
+   "side": "alliance",
+   "xp": 2450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2200": {
+   "id": 2200,
+   "name": "Retour à Uldaman",
+   "objectives": "Chercher des indices sur le Collier de Talvash à Uldaman. Le paladin dont il a parlé est la dernière personne à l'avoir porté.",
+   "description": "Un de mes concurrents a fait courir la rumeur que le collier avait maudit le paladin. Inutile de dire que personne ne vient acheter des bijoux maudits à un joaillier !\n\n<nom>, je vous propose un marché : trouvez les gemmes et je réparerai le collier, à condition que vous affirmiez partout que je ne fabrique PAS de bijoux maudits !\n\nCherchez des indices à Uldaman ; voyez si le corps du paladin est là-bas ; après tout c'est lui qui en était le dernier propriétaire ! Quand vous aurez les gemmes, utilisez ceci pour me contacter, ici à Ironforge.",
+   "progress": null,
+   "completion": "En lisant le journal, vous apprenez qu'après bien des efforts, le paladin avait localisé les gemmes manquantes :\n\nLes nains Ombreforge ont caché le rubis dans leur fortin, pendant qu'ils combattaient les troggs à Uldaman.\n\nLes troggs ont caché la topaze dans une urne qui se trouve près du lieu de résidence d'habitants assez inhabituels à Uldaman : les nains de l'Alliance !\n\nQuant au saphir, c'est l'Ancien trogg qui l'a gardé.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6826,
+     "name": "Talvash del Kissel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6912,
+     "name": "Restes d’un paladin"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 42,
+   "reqlevel": 37,
+   "side": "alliance",
+   "xp": 2550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2201": {
+   "id": 2201,
+   "name": "Trouver les Gemmes",
+   "objectives": "Trouvez le rubis, le saphir et la topaze qui sont éparpillés à travers Uldaman. Une fois que vous les aurez, contactez Talvash del Kissel en utilisant la Fiole de divination qu’il vous a donnée précédemment.\n\nC'est dans le journal, vous savez...\n\n* Le rubis a été caché dans une zone barricadée des Ombreforge.\n* La topaze a été dissimulée dans une urne, dans l’une des zones trogg, pas très loin de nains de Alliance.\n* Le saphir est en possession du chef trogg, Grimlok.",
+   "description": "Le journal du paladin est sans doute le seul indice dans Uldaman qui puisse vous conduire aux gemmes. Si ce qu'il prétend est vrai, il va falloir traiter avec les nains Ombreforge et les troggs qui combattent pour le contrôle de l'excavation.\n\nLa traque des gemmes doit commencer immédiatement. Lorsqu'elles seront récupérées, il faudra prendre les instructions de Talvash à Ironforge en utilisant la Fiole de Divination.",
+   "progress": "L'image de Talvash apparaît dans l'eau de la coupe de divination.\n\n\"Et bien, vous êtes encore en vie ! Vous les avez ? Vous avez sauvé ma réputation ? Ne me dites pas que vous avez gâché une charge de la fiole simplement pour bavarder ! Ce n'est pas donné, et je suis déjà plus que fauché !\"",
+   "completion": "Oui. . . Ce sont les Gemmes. Joli travail ! Malheureusement, ce n'est pas tout.\n\nNon, je ne cherche pas à enquiquiner le monde, stupide <classe> ! Il s'agit de forger de la magie, ici ! De la joaillerie magique estampillée Talvash del Kissel ! Vous avez besoin d'une forte Source d'énergie pour donner à ce Collier un peu de pep's. Car ce collier ne dégage plus de pep's. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6912,
+     "name": "Restes d’un paladin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 112877,
+     "name": "Talvash's Scrying Bowl"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 43,
+   "reqlevel": 37,
+   "side": "alliance",
+   "xp": 3600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2202": {
+   "id": 2202,
+   "name": "Rechercher les composants à Uldaman",
+   "objectives": "Apporter 12 Champignons magenta à Jarkal Mossmeld à Kargath.",
+   "description": "On a découvert récemment une nouvelle plante : le champignon magenta. Ils poussent en grappes, au plus profond des excavations d'Uldaman ; il en existe peut-être ailleurs, mais je ne connais que cet endroit. Je veux étudier leur utilité éventuelle en alchimie, et c'est là que vous entrez en scène.\n\nTrouvez les champignons magenta et rapportez-m'en une douzaine. Attention, les grappes peuvent projeter des spores vénéneux quand on les manipule !\n\nRendez-moi ce service et je sortirai pour vous un petit élixir revigorant de derrière les fagots.",
+   "progress": "Vous avez les Champignons magenta dont j'ai besoin pour mes travaux ? Pas de Champignons, pas de récompense !",
+   "completion": "Bravo, <nom>, vous avez prouvé votre valeur, une fois de plus ! L'étude de ces plantes sera passionnante !\n\nEt maintenant, comme promis, je vous offre un aperçu de l'une de mes préparations les plus revigorantes. . .\n\nSi vous êtes un alchimiste qualifié, nous pourrons peut-être continuer de travailler ensemble. De toute façon, merci pour votre aide !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6868,
+     "name": "Jarkal Mossmeld"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6868,
+     "name": "Jarkal Mossmeld"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 42,
+   "reqlevel": 36,
+   "side": "horde",
+   "xp": 3450,
+   "money": 5500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2204": {
+   "id": 2204,
+   "name": "Réparer le Collier",
+   "objectives": "Obtenir une Source d'énergie de la construction la plus puissante que vous pouvez trouver à Uldaman, puis la remettre à Talvash del Kissel à Ironforge.",
+   "description": "Vous allez avoir besoin de \"pep's\" pour le collier, et l'endroit idéal pour en trouver, c'est Uldaman... Je suppose qu'il y a des tas de constructions qui se baladent par là-bas, non ? Il suffit de choisir la plus vile et la plus grande et de lui piquer sa Source d'énergie. Je suis presque sûr de pouvoir m'en servir pour le collier !\n\nSans source d'énergie, de toute façon, la réparation est impossible. Revenez-me voir à Ironforge quand vous l'aurez, et on verra ce qu'on peut faire !",
+   "progress": "Vous n'avez même pas fait un brin de toilette avant de rentrer, hein ? Vous arrivez directement, en traînant avec vous les odeurs fétides d'Uldaman. . . Espérons au moins que votre visite n'est pas seulement odoriférante. . .\n\nVous avez la Source d'énergie pour le Collier ?",
+   "completion": "Ben ça. . . Je suis ravi de vous voir en un seul morceau, cette Source d'énergie et vous ! Il va me falloir un moment pour fusionner le Collier et sa Source d'énergie par la magie, maintenant que les Gemmes ont retrouvé leur place. . . Et puis il sera à vous !\n\nPas d'impatience ! Vous frétillez de nervosité ! Bon. . . Où ai-je donc rangé ce sort. . .",
+   "starters": [
+    {
+     "type": "object",
+     "id": 112877,
+     "name": "Talvash's Scrying Bowl"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6826,
+     "name": "Talvash del Kissel"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 44,
+   "reqlevel": 37,
+   "side": "alliance",
+   "xp": 930,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2240": {
+   "id": 2240,
+   "name": "La Chambre secrète",
+   "objectives": "Lire le journal de Baelog, explorer la Chambre secrète, puis rendre compte au Prospecteur Stormpike.",
+   "description": "Bon... Pour la tâche en cours...\n\nIl va falloir explorer une chambre secrète, la Chambre de Khaz'mul. Le problème, c'est qu'elle se trouve derrière une lourde porte fermée ! Il est heureux que je sache comment l'ouvrir !\n\nJ'ai tout écrit dans ce journal, là, sur la table. Pour l'instant nous sommes coincés ici. Trouvez la Chambre de Khaz'mul pour nous, <nom> !\n\nLisez mon journal, explorez la Chambre, puis rendez compte au Prospecteur Stormpike de la Ligue des Explorateurs à Ironforge.",
+   "progress": "Avez-vous quelque chose à signaler ?",
+   "completion": "Vous avez vu la Chambre de Khaz'mul ? Fascinant ! Baelog affirmait son existence, mais j'avais des doutes. . .\n\nMerci, <nom>. Avec un peu de chance, cette découverte incitera nos chefs à renouveler leurs efforts pour reprendre Uldaman. Et si nous en reprenons le contrôle, les secrets de la Chambre de Khaz'mul serons nôtres !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6906,
+     "name": "Baelog"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1356,
+     "name": "Prospecteur Stormpike"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 40,
+   "reqlevel": 35,
+   "side": "alliance",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2278": {
+   "id": 2278,
+   "name": "Les Disques de platine",
+   "objectives": "Parler au Gardien des pierres pour connaître le Savoir qu'il défend. Une fois découvert ce qu'ils peuvent offrir, activer les Disques de Norgannon.",
+   "description": "Les pièces centrales de cette chambre au trésor sont quatre larges disques de platine ornés de sceaux d'origine inconnue. Lorsque vous les touchez, vous sentez un frémissement. Le visage d'un grand Gardien des pierres apparaît alors.\n\n\"Salut à vous. Je suis le Gardien du Savoir. La synthèse des Créateurs de la Terre a été gravée et conservée dans les Disques de Norgannon.\"\n\nVous avez découvert une manne de savoir inconnu du monde entier !",
+   "progress": "La voix du Gardien paraît résonner au plus profond de vous-même.\n\n\"Vous devez d'abord passer une épreuve d'assimilation des données des Disques de Norgannon ; ensuite, il vous sera permis d'en emporter une version portable. Commencez donc par lire attentivement les informations qui se trouvent dans ce reposoir. \"",
+   "completion": "Maintenant que vous connaissez l'histoire des troggs, des nains et de la terre, vous suivez les instructions du Gardien des pierres et revenez vers les Disques de Norgannon. Vous entendez un faible bourdonnement, assez bref. Puis le Gardien parle de nouveau :\n\n\"les Disques de Norgannon ont été compressés. Touchez-les de nouveau pour obtenir votre copie personnelle. \"",
+   "starters": [
+    {
+     "type": "object",
+     "id": 131474,
+     "name": "The Discs of Norgannon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 131474,
+     "name": "The Discs of Norgannon"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 47,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 4200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2279": {
+   "id": 2279,
+   "name": "Les Disques de platine",
+   "objectives": "Apporter la version miniature des Disques de Norgannon à la Ligue des Explorateurs à Ironforge.",
+   "description": "Votre main vibre de nouveau au contact des Disques de Norgannon. Cette fois, pourtant, c'est un étrange grincement qui se fait entendre.\n\nSoudain, votre sac paraît plus lourd. Vous y trouvez une version miniature des Disques !\n\nVoilà qui sera utile à tous ceux qui s'intéressent à l'histoire ancienne d'Azeroth. La Ligue des Explorateurs d'Ironforge est connue dans toute l'Alliance pour ses recherches sur le sujet ; ils devraient pouvoir faire bon usage de tout ceci.",
+   "progress": "Puis-je vous aider ? Je suis très occupé mais si cela peut avoir un intérêt pour la Ligue des Explorateurs, j'écoute.",
+   "completion": "Qu'avez-vous là. . . Oh ! D'où ça vient ?\n\nNon, c'est vrai ?\n\nVous en avez parlé à quelqu'un ?\n\nNON ?\n\nJeune <classe>, c'est la découverte archéologique de l'année ! Par les Dieux, qu'est-ce que je dis : du siècle ! Si ces Disques sont bien ce que je crois, c'est la clé que nous cherchions ! Cela pourrait bien être la preuve indubitable de la légitimité de l'origine magique des nains !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 131474,
+     "name": "The Discs of Norgannon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5387,
+     "name": "Grand Explorateur Magellas"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 47,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 5250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2280": {
+   "id": 2280,
+   "name": "Les Disques de platine",
+   "objectives": "Apporter la version miniature des Disques de Norgannon à l'un des Sages de Thunder Bluff.",
+   "description": "Votre main vibre de nouveau au contact des Disques de Norgannon. Cette fois, pourtant, c'est un étrange grincement qui émane des disques.\n\nSoudain, votre sac paraît plus lourd. Vous y trouvez une version miniature des Disques !\n\nVoilà qui sera utile à tous ceux qui s'intéressent à l'histoire ancienne d'Azeroth. Les Sages de Thunderbluff sont connus dans toute la Horde pour leurs recherches sur le sujet ; ils devraient pouvoir faire bon usage de tout ceci.",
+   "progress": "Je lis la fougue et la jeunesse dans le pas déterminé qui vous amène sous ma tente. . . Que cherchez-vous ? Un conseil sur un sujet vital pour la Horde ? La révélation des secrets de l'Univers ?",
+   "completion": "Qu'est-ce donc ?\n\nImpressionnant ! Je sens dans ces Disques des secrets que la Terre avait longtemps protégés. Vous avez fait preuve d'une grande sagesse en me les apportant.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 131474,
+     "name": "The Discs of Norgannon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3978,
+     "name": "Sage Truthseeker"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 47,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 5250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2283": {
+   "id": 2283,
+   "name": "Réparer le Collier",
+   "objectives": "Rechercher dans l'excavation d'Uldaman un Collier de prix et le rapporter à Dran Droffers à Orgrimmar. Ce Collier peut être endommagé.",
+   "description": "Nous avons du travail pour vous, si vous avez du cran...\n\nAu plus profond de l'excavation d'Uldaman, dans les Terres ingrates, il paraît qu'il y a les restes d'un crétin de paladin qui est mort par là il y a pas longtemps. Ça nous intéresse pas, sauf qu'il avait un collier de prix avec lui. On dit qu'il y avait trois Gemmes dessus : un Rubis, un Saphir et une Topaze.\n\nBon alors voilà : on le paiera très cher. Il est peut-être abîmé mais on s'en moque. On le réparera.",
+   "progress": "Vous avez le Collier ? Vous n'aurez pas un sous si vous ne nous le rapportez pas !",
+   "completion": "Ouiiiii. . . Je sens le Collier d'ici. . . Voyons ce joyau. . .\n\nMais qu'est-ce que vous croyez ? Il manque les Gemmes ! Vous imaginiez qu'on ne s'en apercevrait pas ? Même Malton verrait qu'elles sont pas d'ssus !\n\nBon, OK, p'têt que vous les avez pas volées. . . Mais, de toute façon, ce collier n'vaut rien sans les Gemmes ! Le boulot est loin d'êt' terminé !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6986,
+     "name": "Dran Droffers"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6986,
+     "name": "Dran Droffers"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 41,
+   "reqlevel": 37,
+   "side": "horde",
+   "xp": 2450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2284": {
+   "id": 2284,
+   "name": "Réparer le Collier, deuxième prise",
+   "objectives": "Trouver, dans les profondeurs d'Uldaman, des indices sur la localisation des Gemmes.",
+   "description": "Aussi vrai que Malton est un crétin, ces gemmes sont encore quêk part dans Uldaman. Va falloir y r'tourner.\n\nComme j'l'ai d'jà dit, si les informations que nous avons sont justes, il y a un rubis, un saphir et une topaze.\n\nOù elles sont, comment je l'saurais ? Si vous avez du bol et qu'vous trouvez l'corps du paladin, et qu'il a pas encore été nettoyé, elles s'ront p'têt encore là.",
+   "progress": null,
+   "completion": "On dirait que vous avez trouvé les restes du paladin dont parlait Dran. En fouillant le corps, vous trouvez ce qui semble être son journal. Le livre est en mauvais état et du sang séché recouvre de grands pans de texte. Ce que vous pouvez lire ressemble à du charabia ; il est écrit dans la langue native des humains, pour autant que vous sachiez.\n\nVous devez faire traduire ce livre pour en extraire les informations.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6986,
+     "name": "Dran Droffers"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6912,
+     "name": "Restes d’un paladin"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 41,
+   "reqlevel": 37,
+   "side": "horde",
+   "xp": 2450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2318": {
+   "id": 2318,
+   "name": "La Traduction du Journal",
+   "objectives": "Trouver quelqu'un qui puisse traduire le journal du paladin. L'endroit le plus proche est Kargath, dans les Terres ingrates.",
+   "description": "Vous êtes dans l'impasse si vous n'arrivez pas à faire traduire le journal dans une langue que vous comprenez. Il doit bien y avoir des gens qui en sont capables, non ? L'endroit le plus proche où vous pourriez trouver un traducteur, c'est l'avant-poste de Kargath dans les Terres ingrates. C'est le mieux pour commencer !",
+   "progress": null,
+   "completion": "<classe>, Je sais quelle aventure vous amène ici, dans les Terres ingrates. C'est ma connaissance des langues qui vous intéresse ? Je sais que vous êtes à la recherche des morceaux du collier que vous avez trouvés dans Uldaman.\n\nEt oui, c'est mon rôle de tout savoir. Mais discutons plutôt de ce que vous êtes prêt à faire pour traduire ce journal. Croyez-moi, je suis le seul qui puisse le faire.\n\nLaissez-moi vous faire une meilleure offre que Dran Droffers, ce qui ne vous empêchera pas de conclure vos affaires avec eux. Intéressé maintenant ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6912,
+     "name": "Restes d’un paladin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6868,
+     "name": "Jarkal Mossmeld"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 42,
+   "reqlevel": 37,
+   "side": "horde",
+   "xp": 860,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2338": {
+   "id": 2338,
+   "name": "La Traduction du Journal",
+   "objectives": "Laisser Jarkal emprunter le Collier en échange de la traduction du Journal.",
+   "description": "Ceux de la Récupération Droffers et fils sont trop bêtes pour restaurer la magie du Collier. Moi, je peux le faire. Je veux l'étudier pour apprendre à le confectionner moi-même. Pour ce faire, j'aurai besoin de votre collier. Laissez-le-moi et en échange je vous traduirai le journal. Le temps que vous trouviez les Gemmes, j'aurai le loisir d'apprendre ce qui m'intéresse.\n\nUn marché simple et sans duperie... Alors, qu'en pensez-vous ?",
+   "progress": "Vous y avez réfléchi, n'est-ce pas ? Vous seriez une personne avisée si vous acceptiez ce marché, <classe>. . . Chacun obtiendra ce qu'il veut, même la société de Récupération Droffers et fils, alors qu'ils ne savent pas bien ce qu'ils cherchent. . .",
+   "completion": "Vous savez repérer une bonne affaire quand elle se présente ; je savais que je pouvais compter sur vous.\n\nPatientez un moment, le temps que je lance le sort qui traduira la langue humaine en un langage que vous comprendrez. Je suis un troll de parole ; renseignez-vous auprès de quiconque dans la Horde au sujet de Jarkal Mossmeld. Maintenant, commençons. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6868,
+     "name": "Jarkal Mossmeld"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6868,
+     "name": "Jarkal Mossmeld"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 42,
+   "reqlevel": 37,
+   "side": "horde",
+   "xp": 345,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2339": {
+   "id": 2339,
+   "name": "Trouver les Gemmes et la Source d'énergie",
+   "objectives": "Récupérer, dans Uldaman, les trois gemmes et une source d’énergie pour le collier, puis les rapporter à Jarkal Mossmeld, à Kargath. Jarkal pense que vous pouvez trouver une source d’énergie sur la machine la plus puissante d’Uldaman.\n\nC'est dans le journal, vous savez...\n\n* Le rubis a été caché dans une zone barricadée des Ombreforge.\n* La topaze a été dissimulée dans une urne, dans l’une des zones trogg, pas très loin de nains de Alliance.\n* Le saphir est possession du chef trogg, Grimlok.",
+   "description": "Voici la traduction du journal, pour que vous puissiez le lire de votre côté.\n\nIl est crucial de savoir que ce sont les nains qui ont caché le rubis, les troggs la topaze et que c'est un trogg nommé Grimlok qui a le saphir.\n\nBon. Ensuite, vous aurez besoin d'une source d'énergie pour que le Collier fonctionne de nouveau. Et ça, Dran Droffers ne le sait pas. Pour en trouver une, moi, j'irais au plus profond d'Uldaman et je détruirais les machines les plus puissantes. Elles doivent en disposer !\n\nQuand vous aurez tout ça, revenez me voir.",
+   "progress": "Il va falloir retourner dans les profondeurs d'Uldaman si vous n'avez pas les Gemmes et la Source d'énergie nécessaires pour permettre la canalisation magique dans le Collier.\n\nVous pourrez récupérer les Gemmes pour les livrer aux triples crétins d'Orgrimmar mais la Source d'énergie sera pour moi, puisque c'est ça qui permet au Collier de fonctionner. .",
+   "completion": "Bien joué, <classe>. Nous allons tirer les fruits de cet effort. J'en ai fini avec le Collier lui-même et je sais que je pourrai le dupliquer.\n\nJe vais rapidement analyser ces gemmes avec une incantation avant que vous les rapportiez à Orgrimmar avec le Collier. Ce ne sera pas long.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6868,
+     "name": "Jarkal Mossmeld"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6868,
+     "name": "Jarkal Mossmeld"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 44,
+   "reqlevel": 37,
+   "side": "horde",
+   "xp": 3750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2340": {
+   "id": 2340,
+   "name": "Livrer les Gemmes",
+   "objectives": "Apporter Les gemmes et le collier récupérés à Dran Droffers, à Orgrimmar.",
+   "description": "Un collier et des gemmes ordinaires marcheront aussi bien, du moment qu'ils sont faits du même matériau. Cette Source d'énergie, en revanche, c'est elle qui va donner sa magie au Collier... Enfin j'espère !\n\nJe fournirai volontiers les gemmes nécessaires pour la confection de votre version du Collier, si toutefois cette Source d'énergie fonctionne.\n\nRetournez à Orgrimmar, et terminez votre marché avec Droffers et Fils. Ne leur dites rien de notre rencontre et lorsque vous reviendrez, je pourrais bien avoir un cadeau pour vous.",
+   "progress": "Tiens, mais qui voilà ! Ça vous aura pris un moment pour revenir. . . Je ne vous paierai que lorsque le lot sera complet ! Et faites-moi confiance, on vérifiera tout ! On vérifiera deux fois, et trois fois s'il le faut !",
+   "completion": "C'est bon. On peut garder le sac, aussi ? Merci. . . J'apprécie.\n\nCe collier est notre meilleure prise ! Pleurez pas, y vous irait pas de toute façon. Ah ! Ah !\n\nBon, un marché, c'est un marché. Voici votre part. On aura peut-être encore du boulot pour vous plus tard, mais en attendant, du vent !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6868,
+     "name": "Jarkal Mossmeld"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6986,
+     "name": "Dran Droffers"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 44,
+   "reqlevel": 37,
+   "side": "horde",
+   "xp": 1850,
+   "money": 12500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2341": {
+   "id": 2341,
+   "name": "Réparer le collier, troisième prise",
+   "objectives": "Rendre visite à Jarkal Mossmeld à Kargath pour constater (ou non) son succès.",
+   "description": "Pendant que Dran et Malton Droffers se disputent la prise, la moitié de l'affaire est maintenant close. Il vous reste à retourner dans les Terres ingrates pour finir tout ça. Jarkal Mossmeld, à Kargath, pourrait avoir une récompense spéciale à vous donner.",
+   "progress": null,
+   "completion": "Votre Source d'énergie a dépassé toutes mes espérances. J'ai réussi à fabriquer un Collier pour moi et un pour vous. . . Et je pourrais encore en faire trois de plus. . . Un marché équitable, non ? Et les dupes sont les Droffers. . .\n\nEh bien, camarade. . . Félicitations pour le travail d'exception que vous avez réalisé. . . Et voici quelque chose de spécial pour vous récompenser de vos efforts. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6986,
+     "name": "Dran Droffers"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6868,
+     "name": "Jarkal Mossmeld"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 44,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 5600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2342": {
+   "id": 2342,
+   "name": "Des Trésors à recouvrer",
+   "objectives": "Rapporter à Patrick Garrett, à Undercity, son Trésor de famille, qui se trouve dans le Coffre de famille dans le Hall commun sud d'Uldaman.",
+   "description": "Balayer les enclos à chauve-souris avec ce balai, ce n'est pas digne d'un Garrett ! J'ai fait quelques économies avec ce boulot maudit, et je suis prêt à les dépenser pour améliorer mes conditions de travail.\n\nL'arme familiale des Garrett est restée enfermée dans notre Coffre, dans le Hall commun sud d'Uldaman, où nous avons trimé comme mineurs. Sans elle, je suis coincé ici pour toujours, à balayer derrière ces immondes chauve-souris !\n\nRapportez-moi ce trésor de famille ! Aidez-moi à retrouver ma dignité !",
+   "progress": "Je n'en finis plus de balayer ! Ces chauves-souris se jouent de moi ! Vous avez récupéré mon Trésor ? Je vous ai offert mon argent ! Que voulez-vous de plus ?",
+   "completion": "Enfin ! Un balai digne d'un Garrett ! Vous valez bien les pièces d'argent que je vous donne !\n\nVous avez entendu, les chauves-souris ? J'ai l'arme de prédilection des Garrett ! Tremblez, les chauves-souris, tremblez !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5651,
+     "name": "Patrick Garrett"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5651,
+     "name": "Patrick Garrett"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 43,
+   "reqlevel": 33,
+   "side": "horde",
+   "xp": 3600,
+   "money": 6000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2361": {
+   "id": 2361,
+   "name": "Réparer le Collier",
+   "objectives": null,
+   "description": "C'est avec joie que je vous donne ce collier, <classe>. Vous m'avez rendu un service inestimable. Portez-le avec fierté et n'hésitez pas à citer fréquemment et à voix haute le nom du fabriquant !\n\nEt si vous pouviez préciser au passage qu'il n'est pas maudit, ce serait parfait.",
+   "progress": null,
+   "completion": "C'est avec joie que je vous donne ce collier, <classe>. Vous m'avez rendu un service inestimable. Portez-le avec fierté et n'hésitez pas à citer fréquemment et à voix haute le nom du fabriquant !\n\nEt si vous pouviez préciser au passage qu'il n'est pas maudit, ce serait parfait.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6826,
+     "name": "Talvash del Kissel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6826,
+     "name": "Talvash del Kissel"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 44,
+   "reqlevel": 37,
+   "side": "alliance",
+   "xp": 5600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "2398": {
+   "id": 2398,
+   "name": "Les nains perdus",
+   "objectives": "Trouver Baelog dans Uldaman.",
+   "description": "Le site de fouilles d'Uldaman n'a pas toujours été mal fréquenté. Nous, les nains d'Ironforge, contrôlions le secteur... jusqu’à la venue des troggs. Ils sont arrivés si vite et si nombreux que même des nains n'ont pas pu les arrêter !\n\nLeur attaque a été si soudaine que je crains que certains des nôtres soient pris au piège derrière les lignes ennemies.\n\nMon ami Baelog a conduit une petite troupe assez loin dans le site avant d'être repéré. S'ils sont vivants, je veux que vous les trouviez.",
+   "progress": null,
+   "completion": "Il était grand temps que vous vous montriez ! J'ai failli perdre mon pari avec Olaf !\n\nIl a parié que sa barbe descendrait jusqu’à ses genoux avant de voir un autre <race> vivant. Eh bien, vous voilà et comme vous pouvez le constater, il manque quelques pouces à la barbe d'Olaf pour gagner son pari.\n\nMerci, <nom>. Je partagerai les gains avec vous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1356,
+     "name": "Prospecteur Stormpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6906,
+     "name": "Baelog"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 40,
+   "reqlevel": 35,
+   "side": "alliance",
+   "xp": 315,
+   "money": 500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2418": {
+   "id": 2418,
+   "name": "Les pierres de puissance",
+   "objectives": "Apporter 8 Pierres de puissance Dentrium et 8 Pierres de puissance An'Alleum à Rigglefuzz dans les Terres ingrates.",
+   "description": "Je viens d'avoir un problème avec les nains Ombreforge. Ils m'ont amené à la forteresse d'Angor pour étudier deux sortes de pierres étranges venant d'Uldaman. J'ai découvert que ces pierres, à condition d’être bien utilisées, étaient des sources d'énergie stables. C'est étonnant tout ce qu'on peut trouver sur ce vieux site !\n\nBref, après leur avoir appris le secret des pierres, ils m'ont chassé de la forteresse et ont commencé les fouilles.\n\nJe veux ces pierres ! Apportez-moi ces deux sortes de pierres et je vous paierai bien !",
+   "progress": "Avez-vous les Pierres de puissance, <nom> ? Mon robot-rongeur a besoin d'une alimentation électrique. . .",
+   "completion": "Bravo, vous les avez trouvées ! Merci beaucoup, <nom>. Je n'ai pas rencontré |2 <race> plus fiable !\n\nJe vais les essayer sans attendre sur quelques dispositifs de mon invention. Je parie que, dans les conditions adéquates, les dispositifs alimentés par ces pierres vont fonctionner encore et encore. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2817,
+     "name": "Rigglefuzz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2817,
+     "name": "Rigglefuzz"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 36,
+   "reqlevel": 30,
+   "side": "both",
+   "xp": 3500,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3375": {
+   "id": 3375,
+   "name": "La fiole de remplacement",
+   "objectives": "Apporter une Potion de mana, du Charbon, et du Nectar sucré à Talvash del Kissel à Ironforge pour remplacer la Fiole de divination de Talvash.",
+   "description": "Hum, vous avez besoin d'une autre Fiole de divination ? C'est une plaisanterie, n'est ce pas ? Qu'avez-vous fait de la première ?! Beaucoup de travail nous attend, <nom>. Ces fioles ne poussent pas sur les arbres. En fait, j'aimerais bien que ce soit le cas, car je m'y rendrais tout simplement et en cueillerais une, puisqu'il ne m'en reste plus !!\n\nPour que je puisse vous la préparer, j'ai besoin des choses suivantes : une Potion de mana, un morceau de Charbon, et du Nectar sucré. Ne me demandez pas pourquoi, amenez-moi simplement tout ceci et je vous en ferai une autre.",
+   "progress": "Pour faire une autre Fiole de divination, j'ai besoin d'une potion de mana, d'un morceau de charbon, et d'un peu de nectar sucré.\n\nEt de beaucoup, beaucoup de patience apparemment.",
+   "completion": "Le puissant aventurier arrive enfin avec la cargaison. Hourra !! Oh, à propos, j'ai menti… j'avais une autre fiole. Prenez-la, allez.\n\nEt alors, vous vous attendiez à quoi ?! \"Oh, mais je vous en prie, prenez donc ! Je ne suis qu'un rigolo qui n'a rien d'autre à faire que de distribuer des outils magiques de communication à tous les aventuriers qui passent dans le secteur !\" Dormez tranquille, quand même, ce que vous m'avez apporté suffira à l'élaboration d'une autre fiole quand vous aurez égaré celle-là aussi.\n\nPar pitié, ne me donnez pas raison, et ne perdez pas celle que je viens de vous donner, d'accord ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6826,
+     "name": "Talvash del Kissel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6826,
+     "name": "Talvash del Kissel"
+    }
+   ],
+   "zone_id": 1337,
+   "level": 42,
+   "reqlevel": 37,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

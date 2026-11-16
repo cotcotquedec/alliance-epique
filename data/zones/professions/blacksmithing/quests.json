@@ -1,0 +1,2350 @@
+{
+ "schema": 1,
+ "zone": "professions/blacksmithing",
+ "zone_id": -121,
+ "zone_name": "Forgeron",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 41,
+  "complete": 32,
+  "incomplete": 9,
+  "unavailable": 0,
+  "missing_description": 8,
+  "missing_giver": 1,
+  "new_in_forever": 0,
+  "gendered": 3
+ },
+ "quests": {
+  "1578": {
+   "id": 1578,
+   "name": "Rééquiper le front",
+   "objectives": "Apporter 6 Haches en cuivre et 6 Ceintures en anneaux de cuivre à Thorvald dans la Tour de garde méridionale du Loch Modan.",
+   "description": "Les montagnards de Loch Modan combattent les troggs, et cela les occupe beaucoup. Ils ont constamment besoin d'être approvisionnés en armures et en nouvelles armes.\n\nC'est pourquoi mon collègue Thorvald est ici, pour maintenir l'équipement des montagnards en bon état. Aussi, si vous pouviez fabriquer des haches en cuivre et des ceintures en anneaux de cuivre, puis les apporter à Thorvald, il vous en serait reconnaissant. Il se peut même qu'il partage une partie de son savoir avec vous.\n\nThorvald est basé dans la tour de garde méridionale de Loch Modan.",
+   "progress": "Je n'ai pas le temps pour la parlotte. Vous avez quelque chose à me dire ?",
+   "completion": "Ah ! Toutes mes excuses ! Je ne savais pas que vous étiez là pour nous aider à équiper nos troupes. Ce que vous avez fait nous sera d'un grand secours !\n\nVoici les plans pour un type d'armure. J'espère qu'ils vous seront utiles.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6031,
+     "name": "Tormus Deepforge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6030,
+     "name": "Thorvald Deepforge"
+    }
+   ],
+   "zone_id": -121,
+   "level": 12,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 910,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Les montagnards de Loch Modan combattent les troggs, et cela les occupe beaucoup. Ils ont constamment besoin d'être approvisionnés en armures et en nouvelles armes.\n\nC'est pourquoi mon collègue Thorvald est ici, pour maintenir l'équipement des montagnards en bon état. Aussi, si vous pouviez fabriquer des haches en cuivre et des ceintures en anneaux de cuivre, puis les apporter à Thorvald, il vous en serait reconnaissant. Il se peut même qu'il partage une partie de son savoir avec vous.\n\nThorvald est basé dans la tour de garde méridionale de Loch Modan.",
+      "objectives": "Apporter 6 Haches en cuivre et 6 Ceintures en anneaux de cuivre à Thorvald dans la Tour de garde méridionale du Loch Modan.",
+      "name": "Rééquiper le front"
+     },
+     "npc": 6031,
+     "npc_name": "Tormus Deepforge",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forgefer",
+     "map_id": 1455,
+     "client": "1.60.1.70862",
+     "first_seen": 1794080738,
+     "last_seen": 1794080738
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1618": {
+   "id": 1618,
+   "name": "Le rééquipement des Carmines",
+   "objectives": "Tormus Deepforge veut que vous apportiez 4 Ceintures runiques en cuivre et 4 Grands maillets en cuivre à Verner Osgood, dans les Carmines.",
+   "description": "Nous les nains ne sommes pas les seuls à nous battre. Nos alliés humains sont très occupés également.\n\nLes Carmines subissent régulièrement des attaques des orcs Blackrock, et leur réserve d'équipement est constamment très basse. Si vous vouliez leur venir en aide, je suis sûr que leur forgeron permanent, Verner Osgood, vous apprendrait un ou deux trucs.",
+   "progress": "J'espère que vous êtes ici avec de bonnes nouvelles d'Ironforge. Parce que je ne sais plus où donner de la tête !",
+   "completion": "Merci, <nom>. Cela va m'aider énormément. Avec les orcs de Blackrock qui attaquent depuis le donjon de Stonewatch et les gnolls de Redridge qui rôdent dans les contreforts au nord, je suis toujours en train de réparer les armures et de fabriquer de nouvelles armes pour nos troupes.\n\nLes provisions que vous avez apportées me permettront de souffler un peu. J'aurai le temps de vous apprendre quelque chose...",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6031,
+     "name": "Tormus Deepforge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 415,
+     "name": "Verner Osgood"
+    }
+   ],
+   "zone_id": -121,
+   "level": 16,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": 1150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Nous les nains ne sommes pas les seuls à nous battre. Nos alliés humains sont très occupés également.\n\nLes Carmines subissent régulièrement des attaques des orcs rochenoires, et leur réserve d'équipement est constamment très basse. Si vous vouliez leur venir en aide, je suis sûr que leur forgeron permanent, Verner Osgood, vous apprendrait un ou deux trucs.",
+      "objectives": "Tormus Deepforge veut que vous apportiez 4 Ceintures runiques en cuivre et 4 Grands maillets en cuivre à Verner Osgood, dans les Carmines.",
+      "name": "Le rééquipement des Carmines"
+     },
+     "npc": 6031,
+     "npc_name": "Tormus Deepforge",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forgefer",
+     "map_id": 1455,
+     "client": "1.60.1.70862",
+     "first_seen": 1794080732,
+     "last_seen": 1794080732
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2751": {
+   "id": 2751,
+   "name": "Remparts barbares",
+   "objectives": "Apporter 2 Brassards guillochés en bronze, 2 Glaives en bronze et 2 Griffes aiguisées à Orokk Omosh à Orgrimmar.",
+   "description": "Vingt générations d'Omosh ont tenu ce marteau, <nom>. Nous avons façonné cent mille tonnes de métal. Tragiquement, tout prend fin avec Orokk, l'échec des Omosh : sans famille et sans héritier.\n\nJe ne peux pas laisser les savoir-faire secrets des Omosh mourir avec moi ! Quelqu'un doit recueillir cet héritage, qu’il soit ou non un Omosh !\n\nProuvez à Orokk que vous êtes celui-là, <nom>. Apportez deux brassards guillochés en bronze, deux glaives en bronze et deux griffes aiguisées. Apportez-les à Orokk et nous pourrons continuer.",
+   "progress": "Du bronze, <nom> ! Plus de bronze !",
+   "completion": "La lignée s’achève, mais la légende des Omosh va survivre !\n\nVous avez prouvé que vous avez l’âme d’un Forgeron, <nom>. La récompense du Forgeron, c'est la satisfaction de voir ses armes et ses armures couvertes du sang de l’ennemi !\n\nPuissent les plastrons que vous forgerez pour les générations futures ruisseler du sang de vos ennemis !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7790,
+     "name": "Orokk Omosh"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7790,
+     "name": "Orokk Omosh"
+    }
+   ],
+   "zone_id": -121,
+   "level": 32,
+   "reqlevel": 32,
+   "side": "horde",
+   "xp": 2550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2752": {
+   "id": 2752,
+   "name": "Épaulettes en fer",
+   "objectives": "Apporter 4 Haches de guerre en bronze et 4 Marteaux de guerre en bronze à Orokk Omosh à Orgrimmar.",
+   "description": "Orokk voit l'ardeur dans vos yeux, <nom>. Comme une éponge, vous absorbez la sagesse des leçons des Omosh.\n\nTrois leçons encore !\n\nRetournez à l'enclume, absorbez-vous dans la chaleur de la forge, créez pour Orokk quatre marteaux de guerre en bronze et quatre haches de guerre en bronze. Ensuite seulement vous apprendrez le secret des Epaulettes en fer.",
+   "progress": "Montrez-moi votre dévouement, <nom>.",
+   "completion": "Vous faites la fierté d'Orokk, <nom>. Lisez, apprenez le secret des Épaulières en fer !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7790,
+     "name": "Orokk Omosh"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7790,
+     "name": "Orokk Omosh"
+    }
+   ],
+   "zone_id": -121,
+   "level": 32,
+   "reqlevel": 32,
+   "side": "horde",
+   "xp": 2550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2753": {
+   "id": 2753,
+   "name": "Piétinés",
+   "objectives": "Apporter 4 Heaumes en fer émeraude, 4 Bracelets en fer émeraude et 2 Jambières en fer émeraude à Orokk Omosh à Orgrimmar.",
+   "description": "Deux leçons encore vous enseignera Orokk, <nom>. Vos muscles font mal, je sais, mais continuez pour les Omosh !\n\nApportez à Orokk quatre heaumes en fer émeraude, quatre bracelets en fer émeraude et deux jambières en fer émeraude – pour votre apprentissage et la souffrance de vos ennemis !",
+   "progress": "Leurs crânes vont craquer sous la pression de vos bottes !",
+   "completion": "Vous rappelez à Orokk son grand-père, le chef des Omosh, Gorokk ! Lisez, apprenez le secret des bottes en fer.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7790,
+     "name": "Orokk Omosh"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7790,
+     "name": "Orokk Omosh"
+    }
+   ],
+   "zone_id": -121,
+   "level": 36,
+   "reqlevel": 32,
+   "side": "horde",
+   "xp": 2800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2754": {
+   "id": 2754,
+   "name": "Les cornes de Frénésie",
+   "objectives": "Apporter 2 Solides maillets en fer, 2 Bottes en bronze argenté et 2 Gantelets en bronze argenté à Orokk Omosh à Orgrimmar.",
+   "description": "Voici la dernière leçon d'Orokk, <nom>. A l'enclume sacrée et à la forge, vous devez retourner ! Apportez à Orokk deux solides maillets en fer, deux bottes en bronze argenté et deux gantelets en bronze argenté.\n\nRegardez la crainte grandir dans leurs yeux à votre approche !",
+   "progress": "Montrez-moi le fer que vous travaillez, <nom> !",
+   "completion": "Étonnant ! Vous avez appris les secrets des Omosh, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7790,
+     "name": "Orokk Omosh"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7790,
+     "name": "Orokk Omosh"
+    }
+   ],
+   "zone_id": -121,
+   "level": 36,
+   "reqlevel": 32,
+   "side": "horde",
+   "xp": 2800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2755": {
+   "id": 2755,
+   "name": "Les joies des Omosh",
+   "objectives": "Regarder et apprendre la Danse de joie des Omosh.",
+   "description": "Orokk ne pleure pas, <nom>. Il a une poussière dans l'œil.\n\n<Orokk essuie une larme.>\n\nIl y a un dernier secret de famille Omosh qu'Orokk va transmettre. Orokk mourra heureux, grâce à <nom>.\n\nApprenez la danse de joie des Omosh et vous apprendrez ensuite le secret des Poings de fer !",
+   "progress": null,
+   "completion": "< Orokk halète. >\n\nIl y a bien longtemps qu'Orokk n'a pas fait la Danse de joie des Omosh. Apprenez maintenant, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7790,
+     "name": "Orokk Omosh"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7790,
+     "name": "Orokk Omosh"
+    }
+   ],
+   "zone_id": -121,
+   "level": 36,
+   "reqlevel": 32,
+   "side": "horde",
+   "xp": 280,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Orokk essuie une larme.",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2756": {
+   "id": 2756,
+   "name": "Les vieilles voies",
+   "objectives": "Apporter 4 Cuirasses en acier et 4 Heaumes en plaques d'acier à Aturk l'Enclume à Orgrimmar.",
+   "description": "Aux temps légendaires, Aturk aurait écrasé les crânes de ses ennemis et réduit leurs os en poudre comme combustible de lampe. Ces jours sont loin, <nom>. Le chef de guerre appelle à la paix parmi les clans. Les vieux ennemis ne sont plus observés que par des yeux fatigués !\n\nC'est incroyable, je sais, mais telle est la volonté de Thrall.\n\nAssez ! Vous êtes ici pour apprendre et vous allez apprendre ! Apportez-moi quatre cuirasses en acier et quatre heaumes en plaques d'acier et vous aurez un avant-goût de la guerre !",
+   "progress": "Aturk, comme le temps, n'attend personne ! Dépêchez-vous !",
+   "completion": "Encore un sous-fifre complaisant du chef de guerre ! Quelle déception, <nom>. . .\n\nMoi qui rêvais d'une mort glorieuse au champ de bataille, je suis cantonné ici, par ordre de Thrall, à transmettre mon art aux enfants en bas âge ! Regardez et apprenez, gamin !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7792,
+     "name": "Aturk l'Enclume"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7792,
+     "name": "Aturk l'Enclume"
+    }
+   ],
+   "zone_id": -121,
+   "level": 40,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2757": {
+   "id": 2757,
+   "name": "Baie-du-Butin ou la mort !",
+   "objectives": "Aller voir McGavan à Baie-du-Butin.",
+   "description": "Écoutez, <gamin/gamine> : vous n'apprendrez plus rien ici.\n\nJe connais un type qui connaît un autre type. Il tourne autour de la forge à Baie-du-Butin. Montrez-lui cet insigne, il vous dira tout du mithril.\n\nAlors, qu'en dites-vous ? Laissez cette matière aux bébés dans leurs langes, <nom>. Il est temps de progresser.\n\nSi ça vous intéresse, ce gars s'appelle McGavan. Montrez-lui ce bibelot et il reconnaîtra votre engagement.",
+   "progress": "Vous êtes d'une race rare, l'ami. Laissez-moi voir cet insigne.",
+   "completion": "Par la barbe de Blackhoof ! Enfin quelqu'un digne de l’Ordre du Mithril !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7793,
+     "name": "Boeuf"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7794,
+     "name": "McGavan"
+    }
+   ],
+   "zone_id": -121,
+   "level": 40,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 1550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "gamin/gamine",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2758": {
+   "id": 2758,
+   "name": "Les origines de la forge",
+   "objectives": "Apporter 6 Brassards en écailles dorées à Hank le Marteau à Stormwind.",
+   "description": "Quand j'avais votre âge, un nain du nom de Galvan m'a pris sous son aile et m'a tout appris du métier de Forgeron d'armures. Avant de partir pour Baie-du-Butin, il m'a fait promettre de former tous ceux qui auraient le désir et la détermination de devenir forgerons.\n\nBien, il est temps pour vous d'apprendre quelque chose. Faites-moi six brassards en écailles dorées et vous comprendrez comment on devient forgeron, <nom>.",
+   "progress": "Serez-vous le prochain protégé de Galvan ?",
+   "completion": "Très bien, <nom> ! Écoutez et apprenez.\n\nL'art de la forge ne vient jamais d'ici !\n\nL'art de la forge ne vient jamais d'ici !\n\nL'art de la forge ne peut venir que d'ici !\n\nMaintenant vous connaissez l'origine de l'art de la forge.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7798,
+     "name": "Hank le Marteau"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7798,
+     "name": "Hank le Marteau"
+    }
+   ],
+   "zone_id": -121,
+   "level": 40,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 4700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2759": {
+   "id": 2759,
+   "name": "À la recherche de Galvan",
+   "objectives": "Aller voir McGavan à Baie-du-Butin.",
+   "description": "Galvan a quitté Baie-du-Butin depuis longtemps, mais les membres de l'ordre sont restés en ville, espérant trouver un jour une autre personne digne de la tutelle de Galvan.\n\nPortez cet insigne à McGavan à Baie-du-Butin.\n\nSi vous avez réussi à aller aussi loin, il saura que vous êtes digne de lui. J'ai foi en vous, <nom> !",
+   "progress": "Vous êtes d'une race rare, l'ami. Laissez-moi voir cet insigne.",
+   "completion": "Par les poils de Sabot-noir ! ! Enfin quelqu'un digne de l’Ordre du mithril !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7798,
+     "name": "Hank le Marteau"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7794,
+     "name": "McGavan"
+    }
+   ],
+   "zone_id": -121,
+   "level": 40,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 2350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2760": {
+   "id": 2760,
+   "name": "L'Ordre du mithril",
+   "objectives": "Aller voir Galvan l'Ancien dans la vallée de Strangleronce.",
+   "description": "La plupart de nos recrues ne vont jamais jusqu'à Baie-du-Butin, <nom>. L'éclat de l'insigne est suffisant pour déclencher la convoitise, même chez le plus loyal des forgerons. Les imbéciles ! Cet insigne est une goutte d'eau en comparaison de l'océan des richesses que vous verrez !\n\nAllez trouver Galvan l'Ancien et montrez-lui cette épingle. Il habite loin au nord, entre Zul Gurub et le tertre des ogres Mosh'Ogg.",
+   "progress": "Salut ! Approchez-vous, montrez à Galvan ce que vous avez.",
+   "completion": "Ah ! Beaucoup d'années se sont écoulées sans que personne ne soit digne d’être initié à l’Ordre du mithril. Nous allons commencer tout de suite !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7794,
+     "name": "McGavan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7802,
+     "name": "Galvan l'Ancien"
+    }
+   ],
+   "zone_id": -121,
+   "level": 40,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2761": {
+   "id": 2761,
+   "name": "Ça fond, ça ne fond pas",
+   "objectives": "Apporter 40 Barres de mithril et 40 Barres de fer à Galvan l'Ancien à Strangleronce.",
+   "description": "Beaucoup de forgerons pensent qu'extraire le minerai et le travailler sont des tâches séparées, indépendantes, mais qui peut être forgeron sans être mineur ? C'est impossible ! Un forgeron accompli doit aussi être un mineur accompli.\n\nMontrez donc à Galvan ce dont vous êtes capable, <nom>. Apportez-moi quarante barres de fer et quarante barres de mithril. En échange, Galvan vous apprendra comment réaliser des jambières ornées en mithril !",
+   "progress": "Après un tel labeur, vos muscles sont noués et vous avez des courbatures partout !",
+   "completion": "Votre éthique de travail est excellente, <nom> ! Vous commencez à comprendre les voies de la minéralogie de Galvan ! Prenez ceci et apprenez-en le plus de choses possible.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7802,
+     "name": "Galvan l'Ancien"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7802,
+     "name": "Galvan l'Ancien"
+    }
+   ],
+   "zone_id": -121,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2762": {
+   "id": 2762,
+   "name": "Le vif-argent n’est pas de l'argent",
+   "objectives": "Apporter 40 Barres de mithril et 5 Barres de vrai-argent à Galvan l'Ancien à Strangleronce.",
+   "description": "On dit que le vrai-argent est plus solide et plus résistant que le mithril. Galvan n'est pas contre les comparaisons, mais contrairement à ce que son nom laisse croire, le vrai-argent n'est pas de l'argent ! Le mithril est un minerai beaucoup plus noble ! Il faut comprendre cela par soi-même, <nom>.\n\nApportez-moi quarante barres de mithril et cinq barres de vrai-argent. En échange, vous saurez le secret des Gants ornés en mithril et mieux, vous comprendrez que le vrai-argent ne tient pas ses promesses !",
+   "progress": "Après un tel labeur, vos muscles sont noués et vous avez des courbatures partout !",
+   "completion": "C'est une maîtresse cruelle, n'est-ce pas, <nom> ? Je parle du vrai-argent, naturellement. Eh oui ! Il a fallu à Galvan une décennie passée dans les montagnes d'Alterac pour apprendre cette leçon. Prenez ceci et apprenez-en autant que vous pourrez !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7802,
+     "name": "Galvan l'Ancien"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7802,
+     "name": "Galvan l'Ancien"
+    }
+   ],
+   "zone_id": -121,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2763": {
+   "id": 2763,
+   "name": "L'art de l'imprégnation",
+   "objectives": "Apporter 40 Barres de mithril et 4 Citrines à Galvan l'Ancien à Strangleronce.",
+   "description": "Les pierres précieuses sont de la plus grande importance pour notre art, <nom>. Peu de gemmes sont plus précieuses que la citrine. Elle amplifie les propriétés magiques que nous insufflons à nos produits.\n\nPour cette leçon, nous allons renforcer quarante barres de mithril avec quatre citrines. Cela vous permettra de mieux comprendre la gemmologie magique et comment créer des épaulières ornées en mithril.",
+   "progress": "Après un tel labeur, vos muscles sont noués et vous avez des courbatures partout !",
+   "completion": "On ne peut que difficilement détacher ses yeux d'une telle splendeur, <nom>. Oui, la citrine est réellement une gemme précieuse entre toutes.\n\nRegardez bien et retenez la leçon.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7802,
+     "name": "Galvan l'Ancien"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7802,
+     "name": "Galvan l'Ancien"
+    }
+   ],
+   "zone_id": -121,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2764": {
+   "id": 2764,
+   "name": "Le meilleur disciple de Galvan",
+   "objectives": "Parler à Trenton Lighthammer à Gadgetzan.",
+   "description": "Si vous êtes sur le point de terminer votre formation avec Galvan, vous devez aller à Gadgetzan.\n\nLà, vous trouverez mon meilleur élève : Trenton Lighthammer. Il a beaucoup à vous apprendre sur le mithril orné. Sinon restez ici et apprenez !\n\nOh bien sûr Gadgetzan est à Tanaris !",
+   "progress": null,
+   "completion": "Galvan l'Ancien vous envoie ?\n\n<Trenton s'incline. >\n\nC'est un grand honneur de rencontrer un autre des élèves du Maître.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7802,
+     "name": "Galvan l'Ancien"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7804,
+     "name": "Trenton Lighthammer"
+    }
+   ],
+   "zone_id": -121,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 2900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2765": {
+   "id": 2765,
+   "name": "Maître Forgeron !",
+   "objectives": "Réclamez votre récompense à Galvan l'Ancien !",
+   "description": "J'ai su, dès que je vous ai vu, que vous deviendriez un de mes meilleurs disciples ! Vous n’avez pas hésité à donner une relique à McGavan. Dans le seul but de le rencontrer. Une telle foi et une telle dévotion pour l'art doivent être récompensées.\n\nVous avez obtenu une expertise dans l'art de la forge, <nom>. Cueillez le fruit de vos efforts !",
+   "progress": "Claim your reward!",
+   "completion": "Il est juste que vous receviez une relique de plus grande valeur que celle que vous avez sacrifiée pour venir ici. Utilisez-la avec soin, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7802,
+     "name": "Galvan l'Ancien"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7802,
+     "name": "Galvan l'Ancien"
+    }
+   ],
+   "zone_id": -121,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2771": {
+   "id": 2771,
+   "name": "Une tête bien faite sur les épaules",
+   "objectives": "Rapporter deux Camails en mithril et une paire d'Epaulières ornées en mithril à Trenton Lighthammer.",
+   "description": "Il semble que le maître ait planifié tout cela depuis le début. Je n'ai pas appris à créer le genre d'objet que vous savez créer, de même que vous ne savez pas créer ce que je sais faire.\n\nLe maître est sage, <nom>. Chacun de nous doit apprendre de l'autre !\n\nMontrez-moi comment faire un camail en mithril et des épaulières ornées en mithril et je vous montrerai comment faire un heaume orné en mithril.",
+   "progress": "Avez-vous terminé de fabriquer les objets, <nom> ?",
+   "completion": "Excellent ! Un très bon échange ! Regardez et apprenez, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7804,
+     "name": "Trenton Lighthammer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7804,
+     "name": "Trenton Lighthammer"
+    }
+   ],
+   "zone_id": -121,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2772": {
+   "id": 2772,
+   "name": "Le monde à vos pieds",
+   "objectives": "Rapporter deux paires de Bottes en mithril lourd et des Jambières ornées en mithril à Trenton Lighthammer.",
+   "description": "Au dernier championnat intervallée des forgerons, tous les spectateurs ont vu un de ces chiens de la mine de la KapitalRisk m'attaquer la jambe. Mais ils ne savent pas ce qui m'a permis de continuer et de gagner ce championnat. Eh oui ! Des bottes ornées en mithril !\n\nJe vais avoir besoin d'apprendre à faire des jambières ornées en mithril cette année, car la KapitalRisk participe encore au championnat ! Apprenez-moi comment faire les jambières et je vous apprendrai à faire les bottes !",
+   "progress": "Avez-vous terminé de fabriquer les objets, <nom> ?",
+   "completion": "Le monde sera à vos pieds, <nom> ! Soyez fier, car plus personne ne pourra vous faire tomber à la renverse !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7804,
+     "name": "Trenton Lighthammer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7804,
+     "name": "Trenton Lighthammer"
+    }
+   ],
+   "zone_id": -121,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2773": {
+   "id": 2773,
+   "name": "Le gars du mithril",
+   "objectives": "Rapporter deux Cuirasses lourdes en mithril et une paire de Gants ornés en mithril à Trenton Lighthammer.",
+   "description": "Dans cette région, on m'appelle le gars du mithril. Je fournis des équipements ornés en mithril aux aventuriers du monde entier.\n\n<Trenton chuchote.>\n\nPeu savent que je ne connais pas la technique des gants ornés en mithril. Mais chut ! Cela sera notre petit secret.\n\nEnseignez-moi cette technique, <nom>, et en échange je vous montre le point culminant de mon apprentissage chez Galvan : la cuirasse ornée en mithril.",
+   "progress": "Avez-vous terminé de fabriquer les objets, <nom> ?",
+   "completion": "Merci pour tout ce que vous m'avez appris, <nom>. Vous maîtriserez bientôt tout l'équipement orné en mithril.\n\nRegardez !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7804,
+     "name": "Trenton Lighthammer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7804,
+     "name": "Trenton Lighthammer"
+    }
+   ],
+   "zone_id": -121,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Trenton chuchote.",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3321": {
+   "id": 3321,
+   "name": "Est-ce que ceci est à vous ?",
+   "objectives": "Attendre que Trenton ait terminé son travail.",
+   "description": "Vous avez beaucoup fait pour l'Ordre, <nom>. Le total dévouement nécessaire pour parvenir jusqu'ici aurait rebuté toute personne ordinaire. Il ne fait aucun doute dans mon esprit, ni dans celui de Galvan, que vous faites partie des nôtres.\n\nC'est la raison pour laquelle j'estime que vous méritez une petite récompense. Ce n'est pas grand chose en fait, un simple colifichet. Il se peut que vous soyez <familier/familière> avec ses propriétés, car je crois que c'est ce qui vous a <amené/amenée> à nous en premier lieu.",
+   "progress": "Aujourd'hui, nous finalisons la célébration de votre engagement au sein de l'Ordre.",
+   "completion": "Elevez-vous et soyez reconnu, <nom>, Forgeron de l'Ordre du Mithril.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7804,
+     "name": "Trenton Lighthammer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7804,
+     "name": "Trenton Lighthammer"
+    }
+   ],
+   "zone_id": -121,
+   "level": 50,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 7100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "amené/amenée",
+    "familier/familière",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5103": {
+   "id": 5103,
+   "name": "Mort brûlante",
+   "objectives": "Quelqu’un dans ce monde doit bien savoir à quoi servent ces gantelets. Bonne chance !",
+   "description": "La seule chose qu'il reste de cet humain est un tas d'os carbonisés. Il semble être mort près de ce qu'il voulait saisir : des gantelets en plaques inachevés.\n\nVous devriez peut-être attraper les gantelets et sortir du feu ?",
+   "progress": null,
+   "completion": "Que…",
+   "starters": [
+    {
+     "type": "object",
+     "id": 176090,
+     "name": "Human Remains"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10637,
+     "name": "Malyfous Darkhammer"
+    }
+   ],
+   "zone_id": -121,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5283": {
+   "id": 5283,
+   "name": "L'art de l'armurier",
+   "objectives": "Pour devenir un fabricant d'armures, il faut fabriquer les éléments suivants et les rapporter à Grumnus : 4 Heaumes ornés en mithril, 2 Bottes ornées en mithril, 1 Cuirasse ornée en mithril.",
+   "description": "Ainsi vous avez pris la bonne décision.\n\nOn ne s'apprécie guère ici, moi et ce vieux Ironus. Ce bon à rien de fabricant de jouets sait parfaitement qui sont les véritables artisans de valeur en ces contrées.\n\nLes guerres véritablement grandes sont gagnées avec une bonne défense. Quand c'est l'heure d'y aller, aucune arme ne vous fera de cadeau dans la bataille.\n\nMais passons, et mettons-nous au travail. Tout ce que vous avez à faire est de me montrer que vous avez le talent de base nécessaire. Après, j'aplatirai vos imperfections et vous mettrai dans le moule de la fabrique d'armures. Vous savez comment faire du mithril orné, pas vrai ?",
+   "progress": "Ah, rien de tel qu'un bon bronzage de forge. Vous voyez les meilleurs bronzage aux marques du tablier.",
+   "completion": "Qu'il en soit ainsi, <nom>. Après ceci, plus moyen de reculer. Il n'est pas trop tard pour devenir un fabricant de jouets, ou, un fabricant d'armes.\n\nJe suis certain que vous prendrez la bonne décision",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5164,
+     "name": "Grumnus Steelshaper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5164,
+     "name": "Grumnus Steelshaper"
+    }
+   ],
+   "zone_id": -121,
+   "level": 40,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5284": {
+   "id": 5284,
+   "name": "La voie du Forgeron d'armes",
+   "objectives": "Pour devenir un Fabricant d'armes, il faut fabriquer les éléments suivants et les rapporter à Ironus : 4 Epées d'acier lunaire, 4 Gigantesques haches en fer, 2 Haches en mithril lourd, et 2 Grandes masses noires.",
+   "description": "En tant que <fabricant/fabricante> d'armes, vous verrez à maintes reprises que les héros et les aventuriers viendront vous voir pour obtenir un bon équipement. Bien que la charge de travail puisse être parfois insoutenable, les richesses que l'on en retire font oublier le mal de dos et les poumons pris.\n\nOui, <nom>, les Fabricants d'armes sont ceux qui ont tout l'or !\n\nSi vous souhaitez rejoindre nos rangs, vous allez devoir me montrer que vous pouvez m'apporter quelques pièces... je veux dire me faire quelques pièces et que vous serez <l'homme/la femme> de la situation lorsqu'il s'agira de forger des armes de qualité supérieure. Au travail !",
+   "progress": "<Ironus est en train de mettre des pièces d'or en petites piles bien nettes. >",
+   "completion": "Il était temps ! J'ai des clients qui attendent.\n\nDonnez-les-moi et faites bien attention, vous allez prendre votre première leçon dans votre carrière d'Armurier.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11146,
+     "name": "Ironus Coldsteel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11146,
+     "name": "Ironus Coldsteel"
+    }
+   ],
+   "zone_id": -121,
+   "level": 40,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "fabricant/fabricante",
+    "l'homme/la femme",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5301": {
+   "id": 5301,
+   "name": "L'art de l'armurier",
+   "objectives": "Pour devenir un fabricant d'armures, il faut fabriquer les éléments suivants puis les apporter à Okothos : 4 Heaumes ornés en mithril, 2 Bottes ornées en mithril, 1 Cuirasse ornée en mithril.",
+   "description": "La satisfaction. C'est ce que je retire du marteau et de l'enclume. Voir un fier guerrier de la Horde protégé par mon acier me rappelle ce que signifie être vivant. C'est un besoin dont j'espère ne jamais avoir à me passer, <nom>.\n\nJe ne peux pas vous octroyer cette satisfaction, mais simplement vous placer sur son chemin. Comme toute tentative dans la vie, le chemin de la fabrique d'armures est un voyage.\n\nSi vous voulez faire partie des rares élus, vous n'avez besoin que de demander et je vous entraînerai. Mais tout d'abord, vous devez accomplir une certaine tâche.",
+   "progress": "Je frapperai l'acier jusqu'à mon tout dernier souffle.",
+   "completion": "C'est la dernière phase avant de commencer votre carrière de fabricant d'armures, <nom>. Si vous choisissiez d'abandonner, ce serait maintenant votre dernière chance. Sinon, préparez-vous à une vie de gloire.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11177,
+     "name": "Okothos Ironrager"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11177,
+     "name": "Okothos Ironrager"
+    }
+   ],
+   "zone_id": -121,
+   "level": 40,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5302": {
+   "id": 5302,
+   "name": "La voie du Forgeron d'armes",
+   "objectives": "Pour devenir un Fabricant d'armes, vous devez fabriquer les éléments suivants et les rapporter à Borgosh : 4 Epées d'acier lunaire, 4 Gigantesques haches en fer, 2 Haches en mithril lourd, et 2 Grandes masses noires.",
+   "description": "Un jour, je créerai un marteau légendaire. Un marteau digne d'un chef de guerre !\n\nC'est le travail de toute une vie, <nom>. Ma passion. Je reconnais que vous avez le potentiel pour faire partie des nôtres, les fabricants d'armes. Je suis celui qui peut vous aider à exploiter ce potentiel.\n\nTout ce que vous avez à faire est de mener à bien une tâche simple. Plutôt facile pour quelqu'un qui a vos talents.",
+   "progress": "À la gloire de la Horde !",
+   "completion": "Ceci est l'ultime étape avant de commencer votre nouvelle carrière de fabricant d'armes, <nom>. Voudriez-vous y renoncer que cela serait votre dernière chance. Sinon, préparez-vous à être consumé par le savoir !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11178,
+     "name": "Borgosh Corebender"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11178,
+     "name": "Borgosh Corebender"
+    }
+   ],
+   "zone_id": -121,
+   "level": 40,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5305": {
+   "id": 5305,
+   "name": "Douce sérénité",
+   "objectives": "Aller jusqu’à Stratholme et tuer le Forgeur de marteaux cramoisi. Récupérer son Tablier et le ramener à Lilith.",
+   "description": "Dans les confins du Bastion écarlate se trouve la douce Sérénité. Le Forgeur de marteaux cramoisi garde ce secret de sa vie. Battez-le et apportez-moi son tablier. En échange, je vous enseignerai comment forger des marteaux.\n\nMais sachez bien ceci : une fois que vous aurez choisi de suivre cette voie, les arts de la forge d'épées ou de haches vous seront à jamais fermées.",
+   "progress": "Son tablier ! Où est-il ?",
+   "completion": "Vous êtes sûre que c'est ce que vous voulez ? Devenir un fabricant de marteaux ? Rappelez-vous, les portes des carrières de fabricant d'épées et de haches vous seront définitivement fermées.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11191,
+     "name": "Lilith l'Agile"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11191,
+     "name": "Lilith l'Agile"
+    }
+   ],
+   "zone_id": -121,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5306": {
+   "id": 5306,
+   "name": "Pierre du serpent de la chasseresse des ombres",
+   "objectives": "Aller jusqu’au Pic Blackrock et abattre la chasseresse des ombres Vosh'gajin. Récupérer la Pierre du serpent de Vosh'gajin et la ramener à Kilram.",
+   "description": "Ne laissez pas sa beauté vous duper, <classe>. La chasseresse des ombres, Vosh'gajin, est implacable et son esprit est dérangé.\n\n<Kilram désigne la cicatrice qu'il porte au visage.>\n\nOui, c'est elle qui m'en a fait cadeau. Une marque d'amour, pour employer ses termes.\n\nL'heure de la vengeance a enfin sonné.\n\nVous pouvez trouver Vosh'gajin au pic Blackrock. Tuez-la et rapportez-moi sa pierre du serpent. Accomplissez cet exploit et je vous enseignerai l'art de la fabrication des haches.",
+   "progress": "La légende dit que celui qui utilise la pierre du serpent de Vosh'gajin gardera sa hache affûtée comme un rasoir pendant mille ans !",
+   "completion": "Vous êtes sûr que c'est ce que vous voulez ? Devenir un fabricant de haches ? Rappelez-vous, les portes des carrières de fabricant d'épées ou de marteaux vous seront définitivement fermées.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11192,
+     "name": "Kilram"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11192,
+     "name": "Kilram"
+    }
+   ],
+   "zone_id": -121,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5307": {
+   "id": 5307,
+   "name": "Corruption",
+   "objectives": "Trouver le Fabricant d'épées de la Garde noire à Stratholme et le tuer. Récupérer l’Insigne de la Garde noire et retourner auprès de Seril Scourgebane.",
+   "description": "Si je ne m'étends pas avec vous, j'ai une bonne raison. Les plans pour la création de la grande lame, Corruption, ont été volés par la Garde noire : des unités squelettes d'élite du baron Rivendare.\n\nOui, le baron Rivendare de Stratholme.\n\nLe fabricant d'épées de la Garde noire est maintenant en possession des plans avec sa... non-vie.\n\nTuez-le et rapportez-moi la preuve de votre exploit. Je vous enseignerai alors l'art de la fabrique d'épées.",
+   "progress": "Avez-vous oublié la mission qui vous a été confiée, <nom> ?",
+   "completion": "Il est évident que l'épée est toujours le meilleur choix.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11193,
+     "name": "Seril Scourgebane"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11193,
+     "name": "Seril Scourgebane"
+    }
+   ],
+   "zone_id": -121,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7649": {
+   "id": 7649,
+   "name": "Les plates en thorium enchanté - Volume I",
+   "objectives": "Rendez ce livre à ses légitimes propriétaires.",
+   "description": "Ce livre porte la marque de l’Athenaeum.",
+   "progress": "Vous avez récupéré un livre !",
+   "completion": "Très bon travail, mon petit.\n\n<Le Gardien du savoir Lydros arrache une page du livre. >\n\nCette recette pourra certainement vous être utile.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 18769,
+     "name": "Enchanted Thorium Platemail"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14368,
+     "name": "Gardien du savoir Lydros"
+    }
+   ],
+   "zone_id": -121,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7650": {
+   "id": 7650,
+   "name": "Les plates en thorium enchanté - Volume II",
+   "objectives": "Rendez ce livre à ses légitimes propriétaires.",
+   "description": "Ce livre porte la marque de l’Athenaeum.",
+   "progress": "Vous avez récupéré un livre !",
+   "completion": "Très bon travail, mon petit.\n\n<Le Gardien du savoir Lydros arrache une page du livre. >\n\nCette recette pourra certainement vous être utile.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 18770,
+     "name": "Enchanted Thorium Platemail"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14368,
+     "name": "Gardien du savoir Lydros"
+    }
+   ],
+   "zone_id": -121,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7651": {
+   "id": 7651,
+   "name": "Les plates en thorium enchanté - Volume III",
+   "objectives": "Rendez ce livre à ses légitimes propriétaires.",
+   "description": "Ce livre porte la marque de l’Athenaeum.",
+   "progress": "Vous avez récupéré un livre !",
+   "completion": "Très bon travail, mon petit.\n\n<Le Gardien du savoir Lydros arrache une page du livre. >\n\nCette recette pourra certainement vous être utile.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 18771,
+     "name": "Enchanted Thorium Platemail"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14368,
+     "name": "Gardien du savoir Lydros"
+    }
+   ],
+   "zone_id": -121,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7652": {
+   "id": 7652,
+   "name": "Une affaire en thorium",
+   "objectives": null,
+   "description": "Voilà, messire, j’ai une superbe affaire à vous proposer.\n\nJe veux me débarrasser d’un certain nombre de plans pour des pièces d’armure impériales en plaques. Je cherche quelqu’un qui voudrait les prendre. En échange, tout ce qu’il me faut, ce sont quelques barres de thorium. Cela vous tente ?",
+   "progress": null,
+   "completion": "Voilà, messire, j’ai une superbe affaire à vous proposer.\n\nJe veux me débarrasser d’un certain nombre de plans pour des pièces d’armure impériales en plaques. Je cherche quelqu’un qui voudrait les prendre. En échange, tout ce qu’il me faut, ce sont quelques barres de thorium. Cela vous tente ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14567,
+     "name": "Derotain Mudsipper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14567,
+     "name": "Derotain Mudsipper"
+    }
+   ],
+   "zone_id": -121,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7653": {
+   "id": 7653,
+   "name": "La ceinture impériale en plaques",
+   "objectives": null,
+   "description": "Les plans de la ceinture vont vous coûter 20 barres de thorium.",
+   "progress": "Les plans de la ceinture vont vous coûter 20 barres de thorium.",
+   "completion": "Un plaisir de faire des affaires avec vous.\n\nEt <nom>, cet air dégoûté ne vous va pas.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14567,
+     "name": "Derotain Mudsipper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14567,
+     "name": "Derotain Mudsipper"
+    }
+   ],
+   "zone_id": -121,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7654": {
+   "id": 7654,
+   "name": "Les bottes impériales en plaques",
+   "objectives": null,
+   "description": "Pour le plan des bottes, mon prix est de 40 barres de thorium. Ouais, 40. Vous n’allez pas pleurer, quand même ? Vous voulez un mouchoir ?\n\n<Derotain ricane.>",
+   "progress": "Pour le plan des bottes, mon prix est de 40 barres de thorium. Ouais, 40. Vous n’allez pas pleurer, quand même ? Vous voulez un mouchoir ?\n\n<Derotain ricane.>",
+   "completion": "Un plaisir de faire des affaires avec vous.\n\nEt <nom>, cet air dégoûté ne vous va pas.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14567,
+     "name": "Derotain Mudsipper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14567,
+     "name": "Derotain Mudsipper"
+    }
+   ],
+   "zone_id": -121,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Derotain ricane."
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7655": {
+   "id": 7655,
+   "name": "Les bracelets impériaux en plaques",
+   "objectives": null,
+   "description": "Pour les plans des bracelets, il me faudra 20 Barres de thorium..\n\nVous vous sentez bien, mon gars? Vous êtes tout rouge.",
+   "progress": "Pour les plans des bracelets, il me faudra 20 Barres de thorium..\n\nVous vous sentez bien, mon gars? Vous êtes tout rouge.",
+   "completion": "Un plaisir de faire des affaires avec vous.\n\nEt <nom>, cet air dégoûté ne vous va pas.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14567,
+     "name": "Derotain Mudsipper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14567,
+     "name": "Derotain Mudsipper"
+    }
+   ],
+   "zone_id": -121,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7656": {
+   "id": 7656,
+   "name": "La pansière impériale",
+   "objectives": null,
+   "description": "Pour les plans de la pansière, il va me falloir 60 barres de thorium.\n\nOh bon, c’est reparti. Vous allez courir voir vos vieux dieux bleus et leur demander pourquoi ils vous ont rejeté ? Allez, haut les cœurs ! Personne n’a dit que la vie était juste !",
+   "progress": "Pour les plans de la pansière, il va me falloir 60 barres de thorium.\n\nOh bon, c’est reparti. Vous allez courir voir vos vieux dieux bleus et leur demander pourquoi ils vous ont rejeté ? Allez, haut les cœurs ! Personne n’a dit que la vie était juste !",
+   "completion": "Toujours un plaisir de faire affaire avec vous.\n\nEt <nom>, cette expression dégoûtée ne vous va pas.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14567,
+     "name": "Derotain Mudsipper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14567,
+     "name": "Derotain Mudsipper"
+    }
+   ],
+   "zone_id": -121,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7657": {
+   "id": 7657,
+   "name": "Le heaume impérial en plaques",
+   "objectives": null,
+   "description": "Vous n'avez qu'à aligner 50 barres de thorium et les plans du heaume sont à vous.",
+   "progress": "Vous n'avez qu'à aligner 50 barres de thorium et les plans du heaume sont à vous.",
+   "completion": "Un plaisir de faire des affaires avec vous.\n\nEt <nom>, cet air dégoûté ne vous va pas.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14567,
+     "name": "Derotain Mudsipper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14567,
+     "name": "Derotain Mudsipper"
+    }
+   ],
+   "zone_id": -121,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7658": {
+   "id": 7658,
+   "name": "Les jambières impériales en plaques",
+   "objectives": null,
+   "description": "Pour les plans des protège-pattes, c’est 60 barres de thorium.\n\nOui, je sais, c’est horrible, je vous ruine et tout et tout. On me l’a déjà faite, alors gardez vos histoires pour vous, d’accord ?",
+   "progress": "Pour les plans des protège-pattes, c’est 60 barres de thorium.\n\nOui, je sais, c’est horrible, je vous ruine et tout et tout. On me l’a déjà faite, alors gardez vos histoires pour vous, d’accord ?",
+   "completion": "Un plaisir de faire des affaires avec vous.\n\nEt <nom>, cet air dégoûté ne vous va pas.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14567,
+     "name": "Derotain Mudsipper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14567,
+     "name": "Derotain Mudsipper"
+    }
+   ],
+   "zone_id": -121,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7659": {
+   "id": 7659,
+   "name": "Les épaulières impériales en plaques",
+   "objectives": null,
+   "description": "Pour le plan des épaulières, ça ira chercher dans les 20 barres de thorium.",
+   "progress": "Pour le plan des épaulières, ça ira chercher dans les 20 barres de thorium.",
+   "completion": "C'est toujours un plaisir de faire des affaires avec vous.\n\nEt <nom>, cet air dégoûté ne vous va pas.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14567,
+     "name": "Derotain Mudsipper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14567,
+     "name": "Derotain Mudsipper"
+    }
+   ],
+   "zone_id": -121,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "8869": {
+   "id": 8869,
+   "name": "Douce sérénité",
+   "objectives": "Aller jusqu’à Stratholme et tuer le Forgeur de marteaux cramoisi. Récupérer son Tablier et le ramener à Lilith.",
+   "description": "Dans les confins du Bastion écarlate se trouve la douce Sérénité. Le Forgeur de marteaux cramoisi garde ce secret de sa vie. Battez-le et apportez-moi son tablier. En échange, je vous enseignerai comment forger des marteaux.\n\nMais sachez bien ceci : une fois que vous aurez choisi de suivre cette voie, les arts de la forge d'épées ou de haches vous seront à jamais fermées.",
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": -121,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:wowhead"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

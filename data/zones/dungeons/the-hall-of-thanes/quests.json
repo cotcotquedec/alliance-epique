@@ -1,0 +1,342 @@
+{
+ "schema": 1,
+ "zone": "dungeons/the-hall-of-thanes",
+ "zone_id": 16919,
+ "zone_name": "La salle des Thanes",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 4,
+  "complete": 0,
+  "incomplete": 4,
+  "unavailable": 0,
+  "missing_description": 4,
+  "missing_giver": 1,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "96393": {
+   "id": 96393,
+   "name": "Incursion dans le Vieux Forgefer",
+   "objectives": "Pénétrez dans la salle des Thanes, sous le Vieux Forgefer, et emparez-vous de la tête de Durgen Mornemartel.",
+   "description": "Rassemblez quelques camarades et descendez dans les grottes sous le Vieux Forgefer. Entrez dans la salle des Thanes et progressez jusqu’aux caveaux inférieurs.\r\n\r\nMon sombrefer est un peu rouillé, mais je parviens à déchiffrer un nom : un certain Durgen Mornemartel. Il y a fort à parier que c’est lui, le commandant. Apportez donc sa tête au roi Magni Barbe-de-Bronze.\r\n\r\nAh, et quand ce sera fait, dites-lui que son vieil ami Farsen lui passe le bonjour !",
+   "progress": null,
+   "completion": "Une incursion des Sombrefer, juste sous nos pieds ? Eh bien, c’est un soulagement d’apprendre que le commandant sombrefer a été occis.\n\nLes gardes vont s’y engouffrer et nettoyer le reste de la racaille. Nous veillerons à ce que les brèches soient scellées et les niveaux inférieurs renforcés, afin qu’aucune nouvelle incursion ne soit possible.\n\nMerci pour ce que vous avez fait pour Forgefer, <classe>. Acceptez ceci en modeste témoignage de ma gratitude. Ah, et si vous recroisez ce vieux fêlé de Marteau-Hardi, Farsen, dites-lui de venir me rendre une vraie visite.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 264936,
+     "name": "Earthseer Farsen"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2784,
+     "name": "Roi Magni Bronzebeard"
+    }
+   ],
+   "zone_id": 16919,
+   "level": 16,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Rassemblez quelques camarades et descendez dans les grottes sous le Vieux Forgefer. Entrez dans la salle des Thanes et progressez jusqu’aux caveaux inférieurs.\r\n\r\nMon sombrefer est un peu rouillé, mais je parviens à déchiffrer un nom : un certain Durgen Mornemartel. Il y a fort à parier que c’est lui, le commandant. Apportez donc sa tête au roi Magni Barbe-de-Bronze.\r\n\r\nAh, et quand ce sera fait, dites-lui que son vieil ami Farsen lui passe le bonjour !",
+      "objectives": "Pénétrez dans la salle des Thanes, sous le Vieux Forgefer, et emparez-vous de la tête de Durgen Mornemartel.",
+      "name": "Incursion dans le Vieux Forgefer"
+     },
+     "npc": 264936,
+     "npc_name": "Terre-voyant Farsen",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Dun Morogh",
+     "map_id": 1426,
+     "client": "1.60.1.70862",
+     "first_seen": 1794040637,
+     "last_seen": 1794040637
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "96394": {
+   "id": 96394,
+   "name": "Les morts sans repos",
+   "objectives": "Tuez 15 apparitions enragées et 10 âmes tourmentées, puis accordez le repos à l’esprit de Courbenclume.",
+   "description": "Quelque chose a troublé le repos des défunts de la salle des Thanes et d’étranges bruits montent des caveaux. Les esprits des morts ont le sommeil léger et ce qui se trame dans les profondeurs les a effrayés.\r\n\r\nDescendez et voyez ce que vous pouvez faire pour arranger ça. Si certains morts se sont réveillés, eh bien… faites en sorte qu’ils retrouvent le repos éternel !",
+   "progress": null,
+   "completion": "Ah, bien, voilà qui est réglé. Je ne peux pas laisser les autres gardiens refuser d’entrer dans la salle pour accomplir leur devoir sous prétexte qu’il s’y trouve des « fantômes » et des « morts en colère », n’est-ce pas ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 264943,
+     "name": "Afadra Dunwall"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 264943,
+     "name": "Afadra Dunwall"
+    }
+   ],
+   "zone_id": 16919,
+   "level": 15,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ah, bien, voilà qui est réglé. Je ne peux pas laisser les autres gardiens refuser d’entrer dans la salle pour accomplir leur devoir sous prétexte qu’il s’y trouve des « fantômes » et des « morts en colère », n’est-ce pas ?"
+     },
+     "npc": 264943,
+     "npc_name": "Afadra Mur-de-Dun",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Forgefer",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794086253,
+     "last_seen": 1794086253
+    },
+    "detail": {
+     "texts": {
+      "description": "Quelque chose a troublé le repos des défunts de la salle des Thanes et d’étranges bruits montent des caveaux. Les esprits des morts ont le sommeil léger et ce qui se trame dans les profondeurs les a effrayés.\r\n\r\nDescendez et voyez ce que vous pouvez faire pour arranger ça. Si certains morts se sont réveillés, eh bien… faites en sorte qu’ils retrouvent le repos éternel !",
+      "objectives": "Tuez 15 apparitions enragées et 10 âmes tourmentées, puis accordez le repos à l’esprit de Courbenclume.",
+      "name": "Les morts sans repos"
+     },
+     "npc": 264943,
+     "npc_name": "Afadra Mur-de-Dun",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 3,
+     "zone": "Forgefer",
+     "map_id": 1455,
+     "client": "1.60.1.70862",
+     "first_seen": 1794041765,
+     "last_seen": 1794080337
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "96395": {
+   "id": 96395,
+   "name": "Une rancune ancestrale",
+   "objectives": "Apaisez l’esprit de Faldrim Courbenclume, puis retournez voir la domestique fantomatique dans la salle des Thanes.",
+   "description": "Le… thane… mon puissant… thane… il… a besoin de… repos.\r\n\r\nJe vous en prie… aidez-le… aidez-le à… trouver le repos…\r\n\r\nRongé… par… une ancienne… rancune… Pas de… repos…",
+   "progress": null,
+   "completion": "Mon… thane… il… repose… oui… le repos.\r\n\r\nMerci… à vous…\r\n\r\nJe… connais… le repos…",
+   "starters": [],
+   "enders": [],
+   "zone_id": 16919,
+   "level": 15,
+   "reqlevel": null,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Mon… thane… il… repose… oui… le repos.\r\n\r\nMerci… à vous…\r\n\r\nJe… connais… le repos…"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": null,
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "La salle des Thanes",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794083320,
+     "last_seen": 1794083320
+    },
+    "detail": {
+     "texts": {
+      "description": "Le… thane… mon puissant… thane… il… a besoin de… repos.\r\n\r\nJe vous en prie… aidez-le… aidez-le à… trouver le repos…\r\n\r\nRongé… par… une ancienne… rancune… Pas de… repos…",
+      "objectives": "Apaisez l’esprit de Faldrim Courbenclume, puis retournez voir la domestique fantomatique dans la salle des Thanes.",
+      "name": "Une rancune ancestrale"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": null,
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "La salle des Thanes",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794083039,
+     "last_seen": 1794083039
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "96403": {
+   "id": 96403,
+   "name": "Précieux héritages",
+   "objectives": "Récupérez 8 héritages nains dans la salle des Thanes.",
+   "description": "Vous, là, aventurier… J’aurais grand besoin de votre aide.\r\n\r\nJe me faufilais… euh… je « patrouillais » dans les chambres fortes quand une troupe de Nains sombrefer a surgi des profondeurs à bord de taupes mécaniques ! J’ignore ce qu’ils sont venus chercher, mais il y a là un butin inestimable… euh, ou plutôt… enfin, d’« importants trésors culturels » ! De grâce, récupérez toutes les reliques de ce genre que vous apercevrez et rapportez-les ici.\r\n\r\nJe vous assure que tout ce que vous récupérerez sera catalogué et rendu à la place d’honneur qui lui revient.",
+   "progress": null,
+   "completion": "Voyez-vous ça, vous êtes aussi courageux qu’ambitieux ! Je n’ai qu’une parole, et vous avez bien mérité votre récompense !\r\n\r\nÀ présent, laissez-moi jeter un œil au magot… euh, je veux dire… aux objets récupérés. Il me faut commencer à les estimer… pardon, à les « cataloguer », pour qu’ils puissent regagner leur place au plus vite.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 265003,
+     "name": "Thom Filch"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 265003,
+     "name": "Thom Filch"
+    }
+   ],
+   "zone_id": 16919,
+   "level": 15,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Voyez-vous ça, vous êtes aussi courageux qu’ambitieux ! Je n’ai qu’une parole, et vous avez bien mérité votre récompense !\r\n\r\nÀ présent, laissez-moi jeter un œil au magot… euh, je veux dire… aux objets récupérés. Il me faut commencer à les estimer… pardon, à les « cataloguer », pour qu’ils puissent regagner leur place au plus vite."
+     },
+     "npc": 265003,
+     "npc_name": "Thom Filch",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forgefer",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794086524,
+     "last_seen": 1794086524
+    },
+    "detail": {
+     "texts": {
+      "description": "Vous, là, aventurier… J’aurais grand besoin de votre aide.\r\n\r\nJe me faufilais… euh… je « patrouillais » dans les chambres fortes quand une troupe de Nains sombrefer a surgi des profondeurs à bord de taupes mécaniques ! J’ignore ce qu’ils sont venus chercher, mais il y a là un butin inestimable… euh, ou plutôt… enfin, d’« importants trésors culturels » ! De grâce, récupérez toutes les reliques de ce genre que vous apercevrez et rapportez-les ici.\r\n\r\nJe vous assure que tout ce que vous récupérerez sera catalogué et rendu à la place d’honneur qui lui revient.",
+      "objectives": "Récupérez 8 héritages nains dans la salle des Thanes.",
+      "name": "Précieux héritages"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": "Player",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Tram des profondeurs",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794080341,
+     "last_seen": 1794080341
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

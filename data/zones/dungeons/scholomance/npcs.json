@@ -1,0 +1,632 @@
+{
+ "schema": 1,
+ "zone": "dungeons/scholomance",
+ "zone_id": 2057,
+ "zone_name": "Scholomance",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "npcs": 10,
+  "with_display_id": 10,
+  "with_title": 4,
+  "new_in_forever": 0,
+  "voices": {
+   "archetype": 4,
+   "unknown": 6
+  }
+ },
+ "npcs": {
+  "10432": {
+   "id": 10432,
+   "name": "Vectus",
+   "title": null,
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Creature",
+   "zones": [
+    "Scholomance"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 2606,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true
+  },
+  "10433": {
+   "id": 10433,
+   "name": "Marduk Noirétang",
+   "title": null,
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Creature",
+   "zones": [
+    "Scholomance"
+   ],
+   "coords": {},
+   "levels": [
+    58,
+    58
+   ],
+   "display_id": 10248,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": "Undead",
+    "race_id": 5,
+    "sex": "male"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "UndeadMale"
+   }
+  },
+  "10475": {
+   "id": 10475,
+   "name": "Etudiant de Scholomance",
+   "title": null,
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Creature",
+   "zones": [
+    "Scholomance"
+   ],
+   "coords": {},
+   "levels": [
+    58,
+    59
+   ],
+   "display_id": 11161,
+   "quests_started": [],
+   "quests_ended": [],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": null,
+    "race_id": null,
+    "sex": null
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 5051ec1; questie cac1eff 2026-10-01; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ],
+   "dialogue_only": true,
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "NightElfFemale"
+   }
+  },
+  "11022": {
+   "id": 11022,
+   "name": "Alexi Barov",
+   "title": "Maison Barov",
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": null,
+    "horde": 1
+   },
+   "faction": "Horde Generic",
+   "zones": [
+    "Tirisfal Glades"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 10456,
+   "quests_started": [
+    5341,
+    5342
+   ],
+   "quests_ended": [
+    5341,
+    5342
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": null,
+   "sex": {
+    "value": "male",
+    "source": "base_model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "11023": {
+   "id": 11023,
+   "name": "Weldon Barov",
+   "title": "Maison Barov",
+   "type": null,
+   "classification": "Elite",
+   "react": {
+    "alliance": 1,
+    "horde": null
+   },
+   "faction": "Stormwind",
+   "zones": [
+    "Western Plaguelands"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 10457,
+   "quests_started": [
+    5343,
+    5344
+   ],
+   "quests_ended": [
+    5343,
+    5344
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "HumanMaleOfficial",
+    "race": "Human",
+    "sex": "male",
+    "personality": "Official",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5971,
+     "farewell": 5972,
+     "pissed": 5973
+    },
+    "combat_set": "HumanMale"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMaleOfficial"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11035": {
+   "id": 11035,
+   "name": "Betina Bigglezink",
+   "title": "L'Aube d'argent",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Argent Dawn",
+   "zones": [
+    "Eastern Plaguelands"
+   ],
+   "coords": {},
+   "levels": [
+    57,
+    57
+   ],
+   "display_id": 10465,
+   "quests_started": [
+    4771,
+    5212,
+    5213,
+    5529
+   ],
+   "quests_ended": [
+    4771,
+    5212,
+    5213,
+    5529,
+    5531,
+    5582
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GnomeFemaleNerdy",
+    "race": "Gnome",
+    "sex": "female",
+    "personality": "Nerdy",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5931,
+     "farewell": 5932,
+     "pissed": 5933
+    },
+    "combat_set": "GnomeFemale"
+   },
+   "model": {
+    "race": "Gnome",
+    "race_id": 7,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "game_voice",
+    "set": "GnomeFemaleNerdy"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11036": {
+   "id": 11036,
+   "name": "Leonid Barthalomew le Révéré",
+   "title": "L'Aube d'argent",
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Argent Dawn",
+   "zones": [
+    "Eastern Plaguelands"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 10474,
+   "quests_started": [
+    5243,
+    5463,
+    5465,
+    5531
+   ],
+   "quests_ended": [
+    5243,
+    5462,
+    5464,
+    5522
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "UndeadMaleWarrior",
+    "race": "Undead",
+    "sex": "male",
+    "personality": "Warrior",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 6039,
+     "farewell": 6040,
+     "pissed": 6041
+    },
+    "combat_set": "UndeadMale"
+   },
+   "model": {
+    "race": "Undead",
+    "race_id": 5,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "UndeadMaleWarrior"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  },
+  "11216": {
+   "id": 11216,
+   "name": "Eva Sarkhoff",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Western Plaguelands"
+   ],
+   "coords": {},
+   "levels": [
+    54,
+    54
+   ],
+   "display_id": 10895,
+   "quests_started": [
+    5382,
+    5384,
+    5515
+   ],
+   "quests_ended": [
+    5382,
+    5384,
+    5515
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "female"
+   },
+   "sex": {
+    "value": "female",
+    "source": "model"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "11286": {
+   "id": 11286,
+   "name": "Magistrat Marduke",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Western Plaguelands"
+   ],
+   "coords": {},
+   "levels": [
+    57,
+    57
+   ],
+   "display_id": 10931,
+   "quests_started": [
+    5461,
+    5462,
+    5466
+   ],
+   "quests_ended": [
+    5461,
+    5465,
+    5466
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": null,
+    "kind": "unknown",
+    "reason": "no_game_voice_data"
+   },
+   "model": {
+    "race": "Human",
+    "race_id": 1,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "HumanMale"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": [
+    "voice"
+   ]
+  },
+  "16033": {
+   "id": 16033,
+   "name": "Bodley",
+   "title": null,
+   "type": null,
+   "classification": "Normal",
+   "react": {
+    "alliance": 1,
+    "horde": 1
+   },
+   "faction": "Friendly",
+   "zones": [
+    "Eastern Kingdoms"
+   ],
+   "coords": {},
+   "levels": [
+    60,
+    60
+   ],
+   "display_id": 15994,
+   "quests_started": [
+    8961,
+    8962,
+    8963,
+    8964,
+    8965,
+    8966,
+    8967,
+    8968,
+    8969,
+    8970,
+    8985,
+    8986,
+    8987,
+    8988,
+    8989,
+    8990,
+    8991,
+    8992,
+    8994,
+    8995,
+    8997,
+    8998
+   ],
+   "quests_ended": [
+    8960,
+    8961,
+    8962,
+    8963,
+    8964,
+    8965,
+    8966,
+    8967,
+    8968,
+    8969,
+    8970,
+    8985,
+    8986,
+    8987,
+    8988,
+    8989,
+    8990,
+    8991,
+    8992,
+    8994,
+    8996,
+    9032
+   ],
+   "forever": {
+    "status": null
+   },
+   "voice": {
+    "source": "wowhead_classic_fr",
+    "kind": "archetype",
+    "set": "GnomeMaleStandard",
+    "race": "Gnome",
+    "sex": "male",
+    "personality": "Standard",
+    "vendor": false,
+    "soundkits": {
+     "greeting": 5922,
+     "farewell": 5923,
+     "pissed": 5924
+    },
+    "combat_set": "GnomeMale"
+   },
+   "model": {
+    "race": "Gnome",
+    "race_id": 7,
+    "sex": "male"
+   },
+   "sex": {
+    "value": "male",
+    "source": "game_voice",
+    "set": "GnomeMaleStandard"
+   },
+   "wowhead": null,
+   "wowhead_classic": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+   },
+   "missing": []
+  }
+ }
+}

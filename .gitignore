@@ -8,18 +8,19 @@ __pycache__/
 
 .DS_Store
 
-# data and audio: registries, voices, masters and game audio (personal use, never redistributed; the folder is
-# copied between machines, not committed). data/accents.json is hand-written and sealed: it is committed.
+# data and audio: voices, masters, caches and game audio are never committed (too big; audio goes between machines
+# by another channel). data/accents.json is hand-written and sealed: committed.
+# Since 2026-11-16 the JSON registries are committed too (the user's decision), so that the Mac and the PC share them
+# through git: the catalogue, data/voices.json (personas, model voices) and every data/zones/**/*.json (quests, NPCs,
+# scripts, audio and reading states, dialogues, books). Never an audio file.
 data/*
 !data/accents.json
-# Elise's companion lines (D18) are hand-written too: committed, the rest of data/zones/ is not
+!data/zones.json
+!data/voices.json
 !data/zones/
-data/zones/*
-!data/zones/@elise/
-data/zones/@elise/*
-!data/zones/@elise/companions/
-data/zones/@elise/companions/*
-!data/zones/@elise/companions/scripts.json
+data/zones/**/*.*
+!data/zones/**/
+!data/zones/**/*.json
 addon/ForeverSpeech/audio/*
 !addon/ForeverSpeech/audio/test/
 # the zone pictures (tools/zone_pictures.ts): 50 x 384 KB, made again from their masters in data/icons/zones/

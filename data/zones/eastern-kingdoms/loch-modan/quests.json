@@ -1,0 +1,2573 @@
+{
+ "schema": 1,
+ "zone": "eastern-kingdoms/loch-modan",
+ "zone_id": 38,
+ "zone_name": "Loch Modan",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 46,
+  "complete": 40,
+  "incomplete": 6,
+  "unavailable": 0,
+  "missing_description": 6,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 6
+ },
+ "quests": {
+  "161": {
+   "id": 161,
+   "name": "Une sombre menace se dessine",
+   "objectives": "L'Ingénieur en chef Hinderweir veut que vous apportiez cette étrange poudre à Stonesmirk l'Artificier à Dun Modr.",
+   "description": "Si mes soupçons sont justifiés, c'est une espèce de poudre explosive. Il faut la faire analyser par un artificier pour savoir à quoi nous avons à faire exactement. Ashlan Stonesmirk a été affecté au régiment qui garde Dun Modr et le viaduc de Thandol. Vous allez devoir faire un périlleux voyage, <nom>.\n\nTraversez la Porte d'Algaz, suivez la route jusqu'aux Paluns et trouvez Stonesmirk à Dun Modr. Et suivez mon conseil : ne vous éloignez pas de la route et ne vous arrêtez pour rien au monde !",
+   "progress": "Vous avez dit quelque chose, M'sieu ? J'entends rien du tout, j'ai encore les oreilles qui tintent. C'est quoi, ce que vous avez là ?",
+   "completion": "Ah ! Eh bien ! Le vieux Hinderweir a des raisons de se faire du souci !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1093,
+     "name": "Ingénieur en chef Hinderweir VII"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1073,
+     "name": "Ashlan Stonesmirk"
+    }
+   ],
+   "zone_id": 38,
+   "level": 18,
+   "reqlevel": 16,
+   "side": "alliance",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "199": {
+   "id": 199,
+   "name": "Une sombre menace se dessine",
+   "objectives": "Retourner voir l'ingénieur en chef Hinderweir et lui montrer l'indice que vous avez découvert.",
+   "description": "Vous devez prendre un échantillon de l'étrange poudre odorante.",
+   "progress": "Alors, avez-vous découvert quelque indice, <nom> ?",
+   "completion": "C'est une découverte inquiétante, c'est le moins qu'on puisse dire !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 257,
+     "name": "Suspicious Barrel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1093,
+     "name": "Ingénieur en chef Hinderweir VII"
+    }
+   ],
+   "zone_id": 38,
+   "level": 18,
+   "reqlevel": 16,
+   "side": "alliance",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "217": {
+   "id": 217,
+   "name": "À la défense des terres du roi",
+   "objectives": "Tuer le chef des troggs, Grawmug, et ses deux gardes, Grinceur et Bagarreur, puis rendre compte de la situation au capitaine Rugelfuss à la Tour de garde méridionale.",
+   "description": "<nom>, nos éclaireurs ont identifié le chef des troggs qui a mené la récente incursion que nous avons subie. Il semble que ces bêtes du Loch Modan répondent aux ordres d'un certain Grawmug. Celui-ci est bien protégé. Deux de ses meilleurs gardes, Grinceur et Bagarreur, ne le quittent pas une seconde.\n\nSi vous vous en sentez capable, <nom>, j'aimerais que vous acceptiez la mission visant à assassiner Gramwug et ses deux acolytes. Une fois la direction des troggs décapitée, nous aurons peut-être une chance de renvoyer ces monstres sous terre.",
+   "progress": "Grawmug et ses deux gardes, Gnasher et Brawler, sont encore en vie. Votre mission n'est pas terminée tant que les trois n'ont pas été tués. L'empire nain compte sur vous, <nom>.",
+   "completion": "Parfait, <nom> ! Vous avez ramené l'espoir à Loch Modan. Maintenant que Grawmug est mort, nos chances d'éradiquer les troggs de nos terres sont multipliées.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1092,
+     "name": "Capitaine Rugelfuss"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1092,
+     "name": "Capitaine Rugelfuss"
+    }
+   ],
+   "zone_id": 38,
+   "level": 17,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "224": {
+   "id": 224,
+   "name": "À la défense des terres du roi",
+   "objectives": "Le Montagnard Cobbleflint de la Tour de garde méridionale veut que vous tuiez 10 Troggs et 10 Eclaireurs Brisepierre.",
+   "description": "Nous devons protéger le Loch, <nom> ! Avec tant de soldats du roi combattant vaillamment sur des champs de bataille lointains, les forces nous manquent à l'intérieur. Les troggs nous envahissent depuis la plus petite brèche et constituent la menace principale qui pèse sur Ironforge. Ces répugnants mutants doivent être annihilés.\n\nNous avons besoin de vous, <brave aventurier/courageuse aventurière>, pour mener une expédition et amener le chaos dans leurs rangs. Tuez 10 Troggs et 10 Eclaireurs parmi les Brisepierre.",
+   "progress": "Le Loch Modan est assiégé, <nom> ! Nous avons besoin de tous les membres valides de l'Alliance pour nous aider. Avez-vous déjà tué 10 Troggs de Stonesplinter et 10 Scouts de Stonesplinter ?",
+   "completion": "Beau travail, <nom> ! Vous avez montré un incroyable courage sur le champ de bataille. C’est grâce à des efforts et des exploits tels que les vôtres que la guerre contre les troggs pourra être remportée. Vous avez servi le roi Magni avec brio.\n\nSi vous pensez être à la hauteur de ce type d'aventures, je vous suggère d'aller parler au Montagnard Gravelgaw. Le capitaine l'a assigné à une opération de patrouille particulièrement dangereuse, et je suis sûr que votre aide lui sera précieuse. Allez le voir dans la tour.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1089,
+     "name": "Montagnard Cobbleflint"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1089,
+     "name": "Montagnard Cobbleflint"
+    }
+   ],
+   "zone_id": 38,
+   "level": 12,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 910,
+   "money": 500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "brave aventurier/courageuse aventurière",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "237": {
+   "id": 237,
+   "name": "À la défense des terres du roi",
+   "objectives": "Le Montagnard Gravelgaw de la Tour de garde méridionale veut que vous tuiez 10 Brise-crâne et 10 Prophètes Brisepierre, puis que vous retourniez le voir.",
+   "description": "Le Montagnard Cobbleflint n'a pas tari d’éloges à votre égard, <nom>. Aussi, je vais vous confier une mission de la plus haute importance. Nous devons maintenir la pression sur les forces d'invasion des troggs jusqu'à ce que les nains, nos frères, reviennent du front de l'Alliance.\n\nMettez-vous en route pour les collines méridionales et tuez 10 Brise-crâne et 10 Prophètes Brisepierre. Vos attaques nous feront gagner un temps précieux. Revenez me voir une fois votre mission menée à bien.",
+   "progress": "Nous avons besoin de plus de temps, <race>. Vos ordres sont de tuer 10 Skullthumpers de Stonesplinter et 10 Seers de Stonesplinter. Maintenez l'ennemi sous pression jusqu'à ce que nous recevions des renforts. Ce n'est pas le moment de rester les bras croisés.",
+   "completion": "Vous avez accompli votre mission, <nom>. Le roi en personne serait fier.\n\nLes renforts promis ne sont cependant jamais arrivés. Apparemment, le front de l'Alliance est rouge du sang de nos frères. Les nouvelles sont amères et les pertes lourdes, mais nous devons faire en sorte que leur mort ne soit pas vaine. Il faut nous rassembler, en ces temps difficiles, et ramener l'Alliance sur le chemin de la gloire.\n\nAllez voir le Montagnard Wallbang, il vous donnera une nouvelle mission. Nous avons besoin de vous, maintenant plus que jamais.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1091,
+     "name": "Montagnard Gravelgaw"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1091,
+     "name": "Montagnard Gravelgaw"
+    }
+   ],
+   "zone_id": 38,
+   "level": 15,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1050,
+   "money": 700,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "250": {
+   "id": 250,
+   "name": "Une sombre menace se dessine",
+   "objectives": "Enquêter près de la rampe est du barrage et rapporter à l'ingénieur en chef Hinderweir un indice qui permettrait de deviner les intentions des nains Sombrefer.",
+   "description": "Grâce au Ciel, quelqu'un s'inquiète pour le barrage ! D'abord la destruction du viaduc de Thandol, ensuite le pillage de Dun Modr ! Je suis sûr que le barrage est la prochaine cible des Sombrefer. La plus grande partie de mon détachement de sécurité a été dépêché sur le front de l'Alliance, y compris mon meilleur inspecteur.\n\nC'est pourquoi j'ai besoin de vous, <nom>. J'ai aperçu quelques Sapeurs Sombrefer près de la rampe est du barrage. Enquêtez sur place, et ramenez un indice.",
+   "progress": null,
+   "completion": "Ce tonneau à l'aspect suspect contient une poudre à l’odeur étrange.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1093,
+     "name": "Ingénieur en chef Hinderweir VII"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 257,
+     "name": "Suspicious Barrel"
+    }
+   ],
+   "zone_id": 38,
+   "level": 18,
+   "reqlevel": 16,
+   "side": "alliance",
+   "xp": 680,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "255": {
+   "id": 255,
+   "name": "Mercenaires",
+   "objectives": "Le magistrat Bluntnose de Thelsamar vous a <embauché/embauchée> pour tuer 4 Ogres, 4 Brutes et 4 Massacreurs Mo'grosh.",
+   "description": "Deux mois d'attente, et pour apprendre que seule une poignée d'hommes sera dépêchée ici, et qu'il lui faudra deux autres mois pour arriver ! Je comprends que notre ville risquerait d’être sans protection, mais le site de fouilles et le barrage – le barrage ! – sont également l’objet d’attaques.\n\nJe n'ai pas le choix, je vais devoir embaucher des mercenaires.\n\nQu'en pensez-vous ? Vous semblez faire l'affaire, <classe>. Un groupe d'ogres s'est établi au nord-est du lac. Vous pourriez peut-être recruter d'autres mercenaires et nous débarrasser de la menace qui pèse sur notre ville?",
+   "progress": "Avez-vous eu de la chance ?",
+   "completion": "Ah ! voilà d'excellentes nouvelles. Vos efforts sont grandement appréciés par moi-même et par le peuple de Thelsamar. Mieux encore, si nous pouvons résoudre le problème des ogres, nous pourrons nous concentrer sur ces troggs impies.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1139,
+     "name": "Magistrat Bluntnose"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1139,
+     "name": "Magistrat Bluntnose"
+    }
+   ],
+   "zone_id": 38,
+   "level": 19,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": 1800,
+   "money": 2000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "embauché/embauchée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "256": {
+   "id": 256,
+   "name": "ON RECHERCHE : Chok'sul",
+   "objectives": "Tuer Chok'sul et rapporter sa tête au Magistrat Bluntnose de Thelsamar.",
+   "description": "Par décret du Magistrat de Thelsamar : Chok'sul, l'ogre que l'on croit être l'instigateur et le chef des attaques menées sur la ville de Thelsamar, sur le barrage de Formepierre et sur les excavations, est recherché mort, et mort seulement.\n\nLa récompense sera donnée à celui qui apportera la preuve de sa mort au Magistrat.\n\nLa dernière fois que Chok'sul a été vu, il se trouvait au camp des ogres au nord-est de Loch Modan.",
+   "progress": "Oui ? Il y a quelque chose que je peux faire pour vous ?",
+   "completion": "Pouah ! Qu'est-ce que c'est ? Et pourquoi m'app…\n\nBon sang ! Est-ce que… Eh bien ! que la Lumière me brûle, n'est-ce pas la tête de ce maudit ogre ? Vous parlez d'un trophée ! Tenez, prenez votre récompense. Le peuple de Thelsamar et moi-même vous remercions.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 256,
+     "name": "WANTED"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1139,
+     "name": "Magistrat Bluntnose"
+    }
+   ],
+   "zone_id": 38,
+   "level": 22,
+   "reqlevel": 17,
+   "side": "alliance",
+   "xp": 1750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "257": {
+   "id": 257,
+   "name": "La fanfaronnade d'un chasseur",
+   "objectives": "Tuer 6 Busards des montagnes et retourner auprès de Daryl le Jeune au pavillon des pérégrins en moins de 15 minutes.",
+   "description": "Vous croyez pouvoir vous mesurer à Daryl l'Intrépide, hein ? Si j'étais vous, je n’y croirais pas ! Bien sûr, vous êtes libre d'essayer. Voilà un défi qui devrait être au-dessus de vos capacités, alors ne culpabilisez pas trop si vous n'êtes pas à la hauteur.\n\nUn groupe de Buses s'est établi ici à Loch Modan. Pourquoi ne pas essayer d'en désabuser certaines ? Voilà le marché : si vous parvenez à accomplir le défi en quinze minutes, je vous donne mon arc ou mon fusil.\n\n<Il vous jauge dédaigneusement.>\n\nVous n'avez pas grand-chose à perdre, de toute façon...",
+   "progress": "On n'y arrive pas, hein ? Ne vous en faites pas trop, Elfmaner. . .\n\nTout le monde ne peut pas être moi.",
+   "completion": "Quoi ! Vous y êtes arrivé?\n\nSuivez mon conseil, Loucasama, que ce succès ne vous monte pas à la tête ! N'importe quel gamin impubère équipé d'un arc aurait pu abattre de tels… oisillons. Et j'espère que vous n'aimez pas trop tâter de la Buse, hein ? Nous ne voudrions pas que cet oiseau devienne une espèce en voie de disparition.\n\nBien, euh. . . Il ne sera jamais dit que Daryl le Jeune ne tient pas sa parole.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1187,
+     "name": "Daryl le Jeune"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1187,
+     "name": "Daryl le Jeune"
+    }
+   ],
+   "zone_id": 38,
+   "level": 16,
+   "reqlevel": 11,
+   "side": "alliance",
+   "xp": 880,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Il vous jauge dédaigneusement."
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "258": {
+   "id": 258,
+   "name": "Le défi d'un chasseur",
+   "objectives": "Tuer 5 Anciens sangliers des montagnes et retourner auprès de Daryl le Jeune au pavillon des pérégrins en 12 minutes.",
+   "description": "<nom>af, c'est ça ? Je vois que vous exultez pour avoir réussi le premier test, pas vrai ? Comme je vous l'ai dit, ce n'était pas grand-chose.\n\nVous devriez vous essayer à la chasse au sanglier. Croyez-moi, cela n'a rien à voir avec la chasse au sanglier de la Vallée des Frigères, alors prenez vos précautions. Vous n'aurez que douze minutes cette fois-ci.\n\nEt ne soyez pas <déçu/déçue> en cas d’échec. Je vous donnerai ma chemise si vous réussissez !\n\nÀ propos, je vous ai déjà raconté comment j'ai reçu ma célèbre cicatrice ? Non ? C'était il y a deux ans...",
+   "progress": "C'est tout à fait naturel de se sentir lamentable lorsque l'on se tient aux côtés de quelqu'un aussi exceptionnel. N'allez pas vous évanouir, n'est-ce pas, Jackalasah ?\n\nHum ? Ai-je écorché votre nom ?",
+   "completion": "Vous avez l'air fatigué. Les sangliers vont ont posé quelques problèmes, n'est-ce pas ? Ne vous en faites pas, je ne dirai rien à personne. J'imagine que c’est déjà suffisamment difficile sans que les langues commencent à parler et les sarcasmes à fuser.\n\nOh ! Vous êtes parvenu à vaincre les sangliers ? Je. . . eh bien ! c'est. . . je veux dire, cela ne me surprend pas ! Le premier nourrisson venu aurait pu. . . pari ?\n\nQuel pari ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1187,
+     "name": "Daryl le Jeune"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1187,
+     "name": "Daryl le Jeune"
+    }
+   ],
+   "zone_id": 38,
+   "level": 17,
+   "reqlevel": 11,
+   "side": "alliance",
+   "xp": 950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "déçu/déçue",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "263": {
+   "id": 263,
+   "name": "À la défense des terres du roi",
+   "objectives": "Le Montagnard Wallbang de la Tour de garde méridionale veut que vous tuiez 10 Chamans et 10 Briseurs d'Os Brisepierre.",
+   "description": "Les Montagnards disent que vous êtes <courageux/courageuse> et <compétent/compétente>, <nom>. Nous avons besoin de gens tels que vous ici. Le problème avec les troggs ne s'arrange pas. Les réservistes ont été envoyés à la guerre et nous sommes seuls. Mais à présent que nous avons un <classe> expérimenté comme vous, <nom>, nous allons voir de quoi vous êtes capable.\n\nSortez et tuez 10 Chamans et 10 Briseurs d'Os Brisepierre. Nous allons voir si votre réputation est fondée, <tueur de/tueuse de> troggs.",
+   "progress": "De retour, déjà ! Au cas où je n'aurais pas été suffisamment explicite, vous devez tuer 10 Chamans et 10 Briseurs d'Os Brisepierre, <nom>. À présent prenez soin d'eux, tueur de troggs.",
+   "completion": "J'ai su, à la seconde même où j'ai posé les yeux sur vous, <nom>, qu'Ironforge serait fière de vous. Vous avez bien servi le roi Magni. Maintenant que vous avez montré votre valeur, et que vous êtes un fidèle allié du royaume, vous devriez parler au capitaine, pour voir s'il a une mission plus cruciale à vous confier. Je vous salue, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1090,
+     "name": "Montagnard Wallbang"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1090,
+     "name": "Montagnard Wallbang"
+    }
+   ],
+   "zone_id": 38,
+   "level": 15,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1050,
+   "money": 700,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "compétent/compétente",
+    "courageux/courageuse",
+    "nom",
+    "tueur de/tueuse de"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "267": {
+   "id": 267,
+   "name": "La menace trogg",
+   "objectives": "Apporter 8 Dents de pierre de troggs au capitaine Rugelfuss à la Tour de garde méridionale.",
+   "description": "<classe>, il se peut que vous ayez entendu parler de la menace que les troggs font peser sur les nains. Les réservistes ayant été appelés pour servir sur le front de l'Alliance, nous nous retrouvons avec bien peu de forces pour assurer la sécurité de nos terres. Mon régiment a pour mission de garder la porte, ici, et nous ne pouvons quitter notre poste, nous craignons trop une invasion.\n\nMais nous devons attaquer ces maudits troggs, qui se terrent dans les collines. Si vous vous en sentez capable, lancez un assaut contre eux. Ramenez-moi 8 Dents de pierre de trogg comme preuve de votre réussite.",
+   "progress": "Avez-vous ces 8 Dents de pierre à me montrer ? Si ce n'est pas le cas, il vous reste du travail à accomplir, <nom>.",
+   "completion": "Vous m'impressionnez, <nom>. Vous avez rendu un grand service à la race des nains en défendant nos terres. Le roi Magni Bronzebeard sera fier !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1092,
+     "name": "Capitaine Rugelfuss"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1092,
+     "name": "Capitaine Rugelfuss"
+    }
+   ],
+   "zone_id": 38,
+   "level": 12,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 910,
+   "money": 500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "271": {
+   "id": 271,
+   "name": "La vengeance de Vyrin",
+   "objectives": "Tuer le Vieux Noiraud puis montrer le résultat à Daryl le Blanc-bec au pavillon des pérégrins.",
+   "description": "Je suppose que vous ne seriez pas contre le fait de rabattre un peu le caquet de Monsieur le Brave ? Daryl a une certaine habileté, il nous le rabâche assez.\n\nIl y a un an, un grand ours était dans le collimateur du pavillon des pérégrins, mais pas un chasseur ne réussissait à le tuer. Alors Daryl s'est dit qu'il allait s'en occuper. La seule chose qu'il y a gagnée, c'est cette vilaine cicatrice à l’œil.\n\nTuez cet ours, ça clouera le bec de Daryl, pour une fois.\n\nVous trouverez cet ours, le vieux Noiraud, près de sa tanière dans les collines, au-delà de Thelsamar.",
+   "progress": "Ah; <nom> ! Déjà de retour ? Vous étiez sans doute à la chasse ? Ne vous inquiétez pas si vous rentrez bredouille, ça ira mieux demain !\n\nÇa ne peut pas être pire, de toute façon. . .",
+   "completion": "Euh !. . . Qu'est-ce que c'est ? La tête d'un ours, on dirait.\n\n<Inconsciemment, il promène son doigt le long de sa cicatrice. >\n\nEh bien ! C'est une prise intéressante que vous avez là. Ne serait-ce pas ce fameux ours ?. . .\n\n<Il s'écarte puis commence à trembler de façon visible. >\n\nOh emportez ça, emportez-le ! Sortez immédiatement cette chose horrible !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1156,
+     "name": "Vyrin Swiftwind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1187,
+     "name": "Daryl le Jeune"
+    }
+   ],
+   "zone_id": 38,
+   "level": 20,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": 780,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "273": {
+   "id": 273,
+   "name": "Approvisionnement du site de fouilles",
+   "objectives": "Aller voir Huldar.",
+   "description": "Cependant, il n'est pas trop tard, votre aide est la bienvenue pour prêter main-forte à Huldar. Il ne peut pas être très loin : aussi forts qu'ils soient, Miran et Saean ne peuvent pas se déplacer très vite avec les barils dont ils sont chargés.\n\nIls ont pris la route habituelle pour aller au site, celle qui suit la courbe du lac au sud de la ville.\n\nÇa ne devrait pas poser de problème de les rattraper à moins qu'ils ne soient déjà arrivés.",
+   "progress": null,
+   "completion": "Hum ! Il faudra davantage qu'une embuscade des Sombrefer pour empêcher la livraison !\n\nMais Saean. . . Je n'aurais jamais soupçonné qu'il soit l’un de leurs sympathisants. Il travaille avec nous depuis presque un an maintenant. . . J'ai peut-être laissé passer des signes.\n\nBon ! Je verrai ça plus tard.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1105,
+     "name": "Jern Hornhelm"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2057,
+     "name": "Huldar"
+    }
+   ],
+   "zone_id": 38,
+   "level": 15,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 270,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "274": {
+   "id": 274,
+   "name": "Une sombre menace se dessine",
+   "objectives": "Sur ordre d'Ashlan Stonesmirk, retourner voir l'Ingénieur en chef Hinderweir pour l'informer de la nouvelle découverte.",
+   "description": "Ce n'est pas un explosif ordinaire. Regardez ces petits cristaux et sentez cette odeur particulière ! C'est de la poudre d'hydroglycérine. Cette substance est sans danger quand elle n'est pas humidifiée ; autrement, elle pourrait faire sauter tout Ironforge en une fois.\n\nLa réaction en chaîne peut être enrayée en mêlant quatre composants : du venin de rôdeuse, du cristal Mo'Grosh pilé, une larme de crocilisque et ce colloïde de désamorçage. Allez prévenir Hinderweir au plus vite !",
+   "progress": "Qu'avez-vous rapporté de chez Ashlan ?",
+   "completion": "Un colloïde de désamorçage ? Pour de l'hydroglycérine ? Oh bon sang !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1073,
+     "name": "Ashlan Stonesmirk"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1093,
+     "name": "Ingénieur en chef Hinderweir VII"
+    }
+   ],
+   "zone_id": 38,
+   "level": 18,
+   "reqlevel": 16,
+   "side": "alliance",
+   "xp": 340,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "278": {
+   "id": 278,
+   "name": "Une sombre menace se dessine",
+   "objectives": "Collecter du Venin de rôdeuse, un Cristal Mo'grosh et une Larme de crocilisque pour l'Ingénieur en chef Hinderweir.",
+   "description": "Commencez à collecter les matériaux de désamorçage, <nom>. Le venin de rôdeuse peut être collecté sur les araignées de Loch Modan. Vous trouverez les larmes de crocilisque dans le Loch également. Mais le cristal mo'grosh sera plus difficile à obtenir. Les ogres dans le nord-est en exploitent dans leurs mines, mais c’est un minerai très rare.\n\nNous devons être prêts à enrayer l’attaque des Sombrefer ! Revenez quand vous aurez collecté les ingrédients requis.",
+   "progress": "Avez-vous trouvé les composants nécessaires ? Le temps presse !",
+   "completion": "Juste à temps, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1093,
+     "name": "Ingénieur en chef Hinderweir VII"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1093,
+     "name": "Ingénieur en chef Hinderweir VII"
+    }
+   ],
+   "zone_id": 38,
+   "level": 18,
+   "reqlevel": 16,
+   "side": "alliance",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "280": {
+   "id": 280,
+   "name": "Une sombre menace se dessine",
+   "objectives": "Sur ordre de l'Ingénieur en chef Hinderweir, nager jusqu'à la base du barrage pour localiser le tonnelet de poudre et y verser la mixture de désamorçage pour empêcher une explosion.",
+   "description": "Tout à l'heure, j'ai découvert quelques insurgés Sombrefer qui nageaient vers le barrage avec un tonnelet. Aucun Montagnard n'était en mesure de les arrêter ! J'ai bien peur qu'ils n'aient placé de l'hydroglycérine à la base du barrage et ça pourrait exploser à tout moment ! Laissez-moi préparer une mixture de désamorçage. Allons-y.\n\nMaintenant, j'ai besoin de vous pour prendre ce produit et le mélanger au contenu du tonnelet avant que ce ne soit trop tard ! Vite !",
+   "progress": "Le couvercle du tonnelet se soulève lentement.",
+   "completion": "L’intérieur du tonnelet pétille légèrement au moment où vous versez la Mixture de désamorçage.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1093,
+     "name": "Ingénieur en chef Hinderweir VII"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 1585,
+     "name": "Explosive Charge"
+    }
+   ],
+   "zone_id": 38,
+   "level": 18,
+   "reqlevel": 16,
+   "side": "alliance",
+   "xp": 680,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "283": {
+   "id": 283,
+   "name": "Une sombre menace se dessine",
+   "objectives": "La Mixture de désamorçage semble avoir fonctionné. Retourner voir l'Ingénieur en chef Hinderweir pour lui annoncer la bonne nouvelle.",
+   "description": "Le tonnelet pétille légèrement.",
+   "progress": null,
+   "completion": "Merci, sincèrement, <nom> ! Vous avez sauvé le Barrage de Formepierre ! Sans votre aide, les terroristes Sombrefer se seraient sûrement emparés de ce point stratégique. Vous êtes la fierté du royaume et de l'Alliance, brave <classe>.\n\nLe Barrage est de nouveau en sécurité. . . du moins pour l'instant.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 1585,
+     "name": "Explosive Charge"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1093,
+     "name": "Ingénieur en chef Hinderweir VII"
+    }
+   ],
+   "zone_id": 38,
+   "level": 20,
+   "reqlevel": 16,
+   "side": "alliance",
+   "xp": 1950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "297": {
+   "id": 297,
+   "name": "Réunir les idoles",
+   "objectives": "Apporter 8 Idoles de pierre sculptée à Magmar Fellhew.",
+   "description": "Récemment, juste avant que les troggs ne débarquent sur le site, nous avons découvert un grand nombre d'étranges idoles taillées. Mais nous n'avons pas eu le temps de les étudier, car les troggs nous ont chassés des ruines juste après ! Et ces idoles ont un curieux effet sur les troggs : elles les rendent fous furieux !\n\nRapportez-moi 8 de ces idoles. Je veux les étudier et il ne faut pas qu'elles restent aux mains des troggs ! Vous pouvez trouver les idoles sur les troggs qui infestent le site.",
+   "progress": "Avez-vous ces idoles ? Nous devons les étudier et faire part de nos découvertes à Ironforge !",
+   "completion": "Vous les avez ! Bien joué, <nom> !\n\nEt vous n'avez pas l'air d'avoir trop peiné, même avec ces troggs fous furieux. Je vais garder un œil sur vous… Vous êtes plein de promesses.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1345,
+     "name": "Magmar Fellhew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1345,
+     "name": "Magmar Fellhew"
+    }
+   ],
+   "zone_id": 38,
+   "level": 18,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "298": {
+   "id": 298,
+   "name": "Compte rendu d'avancement des fouilles",
+   "objectives": "Apporter le Compte rendu d'avancement d'Ironband à Jern Hornhelm à Thelsamar.",
+   "description": "Je dois envoyer un compte rendu d'avancement à Thelsamar et une nouvelle demande pour avoir plus d'explosif ! Voici le rapport. Portez-le à Jern Hornhelm. C'est notre contact local à Thelsamar.\n\nCe n'est pas une tâche difficile, mais ça doit être fait.",
+   "progress": "Oh ! Un compte rendu d'avancement du site ? Très bien !",
+   "completion": "Bah ! Ironband a des problèmes avec les troggs. Je me demande s'il veut son explosif pour faciliter ses fouilles ou pour l'aider contre les troggs. . .\n\nBon, d'une façon ou d'une autre, ce sera de la poudre bien utilisée !\n\nMais ce qui est étrange, c'est que je lui ai envoyé de l'explosif en grande quantité il y a quelques semaines. Je me demande où il est passé. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1344,
+     "name": "Prospecteur Ironband"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1105,
+     "name": "Jern Hornhelm"
+    }
+   ],
+   "zone_id": 38,
+   "level": 15,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 270,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "301": {
+   "id": 301,
+   "name": "Rapport à Ironforge",
+   "objectives": "Porter le Compte rendu d'avancement d'Ironband au Prospecteur Stormpike.",
+   "description": "Nous aurons besoin d'une autorisation pour fournir à Ironband plus d'explosif. Vous devrez apporter son rapport au quartier général de la Ligue des Explorateurs à Ironforge.\n\nVoici ce rapport. Donnez-le au Prospecteur Stormpike et mettez-vous à l'abri juste après ! Stormpike est impétueux et il ne sera pas ravi d'apprendre qu'Ironband ne progresse que lentement sur le site.\n\nVous trouverez Stormpike à l'Assemblée des Explorateurs.",
+   "progress": "Nous, les Stormpike, nous n'aimons pas être dérangés pour des questions insignifiantes, <classe>. J'espère que les nouvelles que vous apportez sont dignes de mon attention.",
+   "completion": "Maudit soit cet Ironband ! Je lui ai envoyé une cargaison d'explosif il y a quelques semaines, mais il n'en fait aucune mention dans son rapport.\n\nAlors… Où cet explosif est-il passé ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1105,
+     "name": "Jern Hornhelm"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1356,
+     "name": "Prospecteur Stormpike"
+    }
+   ],
+   "zone_id": 38,
+   "level": 15,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 540,
+   "money": 175,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "302": {
+   "id": 302,
+   "name": "De l'explosif pour Ironband",
+   "objectives": "Parler à Jern Hornhelm à Thelsamar.",
+   "description": "Si Ironband a encore besoin d'explosif, par Magni, alors il l'aura ! J'ai envoyé un messager à Thelsamar avec une autorisation pour Jern Hornhelm. Il préparera la poudre et du matériel à remettre à Ironband.\n\nEncore une chose : je veux que vous assuriez personnellement la livraison pour que l'explosif arrive à bon port. Le dernier chargement n'y est pas arrivé, alors gardez l'esprit vif et les yeux ouverts.",
+   "progress": null,
+   "completion": "Quoi ? Stormpike veut que vous assuriez personnellement la livraison d'Ironband ?\n\nJe. . . suppose que c'est bien. Le seul problème, c'est que j'ai déjà envoyé Huldar avec les porteurs, Miran et Saean. Vous les avez manqués de peu, ils viennent juste de partir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1356,
+     "name": "Prospecteur Stormpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1105,
+     "name": "Jern Hornhelm"
+    }
+   ],
+   "zone_id": 38,
+   "level": 15,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 270,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "307": {
+   "id": 307,
+   "name": "Bas les pattes !",
+   "objectives": "Aller à la Mine du Ru d'argent pour prendre 4 lots d'Equipement de mineur.\n\nRetourner voir le Montagnard Stormpike.",
+   "description": "La mine du Ru d'argent à l'est est épuisée depuis longtemps. Elle a été convertie en dépôt de stockage par la Ligue des Mineurs, mais aujourd’hui les kobolds s'y sont installés, et ils mettent leurs pattes sales sur nos bons vieux outils !\n\nNous chasserons bientôt cette vermine de là, mais avant d'envoyer des guerriers qui feront forcément un peu de casse, la Ligue veut que quelqu'un aille chercher son équipement. Ce ne sera pas facile, vous pourriez avoir besoin de l'aide d'alliés.\n\nL'équipement de mineur est stocké dans les caisses de la Ligue des Mineurs un peu partout dans la mine. Bonne chance !",
+   "progress": "Avez-vous l'équipement de mineur, <nom> ?",
+   "completion": "Avez-vous vu beaucoup de kobolds là-bas ? Je n'en peux plus d’attendre l'ordre de les déloger de la mine. La pensée de leurs pattes crasseuses touchant nos outils me donne des maux d'estomac !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1343,
+     "name": "Montagnard Stormpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1343,
+     "name": "Montagnard Stormpike"
+    }
+   ],
+   "zone_id": 38,
+   "level": 15,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "309": {
+   "id": 309,
+   "name": "Protection de la cargaison",
+   "objectives": "S'assurer que Miran et la cargaison parviennent au Site de fouilles puis en informer le Prospecteur Ironband.",
+   "description": "Prêt à y aller, <nom> ?\n\nD'abord, nous devons trouver de l'explosif pour Ironband. Je ne pourrai pas le porter seul, d'autant que ça peut être dangereux – et qui sait ce que les Sombrefer me réservent ?\n\nJe me sentirais mieux si vous m'accompagniez.",
+   "progress": "Où est mon explosif, <nom> ? J'en ai désespérément besoin.",
+   "completion": "Oh, que la Lumière soit remerciée ! Voilà enfin l'explosif. Mais vous apportez aussi des nouvelles inquiétantes. Imaginer que les Sombrefer ont des sympathisants capables de leur procurer ce type de matériel pour mener leurs plans à bien. . .\n\nC'est à méditer, mais une autre fois. Je dois faire bon usage de cet explosif.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1379,
+     "name": "Miran"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1344,
+     "name": "Prospecteur Ironband"
+    }
+   ],
+   "zone_id": 38,
+   "level": 15,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "385": {
+   "id": 385,
+   "name": "Chasse aux crocilisques",
+   "objectives": "Trouver 5 morceaux de Viande de cocilisque et 6 Peaux de crocilisque pour Marek Ironheart au pavillon des pérégrins.",
+   "description": "Beaucoup de chasseurs viennent au Loch Modan pour chasser nos fameux crocilisques. Il y a toujours des marchands qui payent pour avoir ces peaux servant à la confection de vêtements ou d’armures ; sans parler de ceux qui apprécient leur viande.\n\nLes crocilisques étant féroces et retranchés sur leur île, au milieu du Loch, nous manquons de peaux. Mais ne vous laissez pas effrayer : esquiver les mâchoires de ces bêtes est une expérience enrichissante.\n\nDu moins cette fois...",
+   "progress": "Vous ai-je déjà parlé de la fois où j'ai presque perdu ma main par un de ces crocs ? Un sacré filou celui-là, des dents comme des rasoirs. Mais j'ai eu de la chance… J'ai bloqué les mâchoires de cette brute avec mon couteau. Je dois toujours avoir ce couteau quelque part d'ailleurs. . .",
+   "completion": "Eh bien, ce sont de très beaux spécimens que vous m'avez rapportés, <nom>. Du bon argent pour de bons matériaux, c'est sûr.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1154,
+     "name": "Marek Ironheart"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1154,
+     "name": "Marek Ironheart"
+    }
+   ],
+   "zone_id": 38,
+   "level": 15,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "416": {
+   "id": 416,
+   "name": "Chasse au rat",
+   "objectives": "Apporter 12 Oreilles de Rat des tunnels au Montagnard Kadrell à Thelsamar.",
+   "description": "Nous avons vraiment un problème de vermine à l'ouest. Les rats des tunnels kobolds sont venus dans les collines, ont creusé leurs terriers et contaminé notre terre avec leur pestilence !\n\nNous voulons les éliminer. Chassez-les et ramenez-moi leurs oreilles pour la récompense.\n\nVous trouverez les tunnels des kobolds et leurs terriers à l'ouest de Thelsamar, disséminés à flanc de montagne.",
+   "progress": "Salut, <nom>. Alors, cette chasse au rat ?",
+   "completion": "Heuu ! Lorsque j'ai demandé ces oreilles, je ne réalisais pas qu'elles puaient autant !\n\nVoici votre récompense, <nom>. Bon travail.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1340,
+     "name": "Montagnard Kadrell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1340,
+     "name": "Montagnard Kadrell"
+    }
+   ],
+   "zone_id": 38,
+   "level": 11,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 880,
+   "money": 400,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "418": {
+   "id": 418,
+   "name": "Les boudins de Thelsamar",
+   "objectives": "Apporter 3 morceaux de Viande d’ours, 3 Tripes de sanglier et 3 Ichors d'araignée à Vidra Hearthstove à Thelsamar.",
+   "description": "On n'a jamais manqué d'estomacs vides à Thelsamar, avec les gamins qui courent partout et les ouvriers qui reviennent de leur journée de travail après un dur labeur. Nos boudins sont réputés, vous les avez déjà essayés ?\n\nNon ? Eh bien, par ici, il faut travailler pour mériter sa pitance et ce n'est pas parce que vous êtes bien <habillé/habillée> que l'on fera une exception pour vous, <classe>.\n\nJe vais avoir besoin de viande d'ours, d'intestins de sanglier pour la cuisson et d'ichor d'araignée pour épicer le tout. Trouvez-moi cela et laissez la cuisine à Vidra !",
+   "progress": "Je suis prête à cuisiner, avez-vous les ingrédients ?",
+   "completion": "Croyez-moi, c'est bien plus dur qu'il n'y parait mais…\n\nOh, je ne savais pas que quelqu'un pouvait trouver autant d'intérêt à la fabrication de boudin. Je vais vous donner la recette au cas où. Et voilà, n'oubliez pas de les manger frais !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1963,
+     "name": "Vidra Hearthstove"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1963,
+     "name": "Vidra Hearthstove"
+    }
+   ],
+   "zone_id": 38,
+   "level": 11,
+   "reqlevel": 7,
+   "side": "alliance",
+   "xp": 880,
+   "money": 400,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "habillé/habillée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "436": {
+   "id": 436,
+   "name": "Les fouilles d'Ironband",
+   "objectives": "Parler à l'Explorateur Fellhew.",
+   "description": "Le Prospecteur Ironband dirige l’exploration de ruines à l'est du lac. Malgré notre approvisionnement, sa progression s'est ralentie dernièrement.\n\nIronband est un solide et honnête nain qui aime à faire du bon travail, c'est pourquoi je crains que des forces contraires soient à l'œuvre pour le ralentir.\n\nAllez aux fouilles d'Ironband et parlez à Magmar Fellhew. C'est lui qui gère le site, et il saura sûrement pourquoi le rythme de travail a décru.\n\nPour rejoindre les fouilles, contournez la pointe sud du lac, puis marchez droit vers l'est.",
+   "progress": null,
+   "completion": "Jern aimerait savoir pourquoi l'exploitation s'est ralentie, hein ?\n\nIronband consigne dans son rapport les détails des derniers progrès, mais je peux déjà vous dire une chose :\n\nCe sont les troggs !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1105,
+     "name": "Jern Hornhelm"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1345,
+     "name": "Magmar Fellhew"
+    }
+   ],
+   "zone_id": 38,
+   "level": 18,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": 340,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "454": {
+   "id": 454,
+   "name": "Après l'embuscade",
+   "objectives": "Parler à Miran.",
+   "description": "Avant toute cette...histoire, nous étions en train de convoyer les barils de poudre. Mais maintenant nous devons répartir les tâches, Miran prenant les barils et moi veillant sur les autres.\n\nJe n'aime pas l'idée que Miran transporte le reste de la cargaison tout seul. Pourriez-vous l'escorter quand il sera prêt à partir ?",
+   "progress": null,
+   "completion": "Bonjour, <classe>.\n\nVous allez m'escorter jusqu'au site de fouilles ? C'est une bonne nouvelle. . . Après Saean et ses compères, qui sait quels tours les Sombrefer ont encore dans leur sac ?\n\nEnfin, laissez-moi vérifier deux trois choses. Faites-moi signe quand vous serez prêt à partir.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2057,
+     "name": "Huldar"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1379,
+     "name": "Miran"
+    }
+   ],
+   "zone_id": 38,
+   "level": 15,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 105,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "531": {
+   "id": 531,
+   "name": "La vengeance de Vyrin",
+   "objectives": "Amener la tête du vieux Noiraud à Vyrin Swiftwind au pavillon des pérégrins.",
+   "description": "Par la Lumière ! N'apportez pas de choses comme ça dans le pavillon… c'est insalubre, insupportable, in… in… insalubre !\n\nSortez-moi ça de là, voulez-vous ? Personne ne veut voir votre fichu petit trophée, vraiment !",
+   "progress": "Bon travail, <nom> ! La démonstration était éloquente. Tenez, donnez-moi la tête et j'en prendrai soin.",
+   "completion": "Merci de votre soutien dans cette petite affaire, <nom>. Cela me démangeait depuis des mois de rendre la monnaie de sa pièce à ce garçon hautain et bêcheur, et je dirais qu'on a fait du plutôt bon boulot ! Tenez, prenez ça, vous l'avez gagné.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1187,
+     "name": "Daryl le Jeune"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1156,
+     "name": "Vyrin Swiftwind"
+    }
+   ],
+   "zone_id": 38,
+   "level": 20,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": 1550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1338": {
+   "id": 1338,
+   "name": "La mission de Stormpike",
+   "objectives": "Porter la commande de Stormpike à Furen Longbeard à Stormwind.",
+   "description": "Il y a un forgeron nain dont j'admire beaucoup le travail. Il s'appelle Furen Longbeard et ses compétences sont inégalables. J'ai besoin d'un nouveau bouclier et je veux l'un des siens !\n\nLe problème… Furen est loin dans le sud, dans le quartier des nains de Stormwind. Chez les humains ! Je ne comprends pas pourquoi il vit là-bas, si loin d'Ironforge. Les humains doivent lui faire un pont d’or pour qu'il accepte de rester !\n\nSi vous avez envie de voyager, et ne pensez pas à demander une récompense, alors pourquoi ne porteriez-vous pas ma commande de bouclier à Furen ?",
+   "progress": "Une lettre en provenance du pays ? Je me demande qui peut bien m'écrire de si loin dans le nord…\n\nExcusez-moi, je dois lire ce courrier.",
+   "completion": "Ah ! Une requête d'un des Stormpike. C'est un fier clan, plein des qualités appréciées par les nains. Riches aussi.\n\nMerci, <nom>. Je dois me mettre au travail sur le bouclier du Montagnard Stormpike avant la fin du jour.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1343,
+     "name": "Montagnard Stormpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5413,
+     "name": "Furen Longbeard"
+    }
+   ],
+   "zone_id": 38,
+   "level": 14,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": 980,
+   "money": 600,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1339": {
+   "id": 1339,
+   "name": "La mission du Montagnard Stormpike",
+   "objectives": "Parler au Montagnard Stormpike.",
+   "description": "J'ai entendu dire que le montagnard Stormpike a besoin d'un coursier. Quelqu'un pour voyager à sa place. Qu'en pensez-vous, <nom> ? Êtes-vous capable de ce travail ?\n\nSi c'est le cas, vous trouverez Stormpike au sommet de la tour de garde la plus au nord.",
+   "progress": null,
+   "completion": "C'est exact. J'ai une mission que je ne peux accomplir, car je suis de garde. En fait, cela vous conduira loin du Loch Modan.\n\nVotre meilleure chance pour une aventure !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1340,
+     "name": "Montagnard Kadrell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1343,
+     "name": "Montagnard Stormpike"
+    }
+   ],
+   "zone_id": 38,
+   "level": 15,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": 540,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2038": {
+   "id": 2038,
+   "name": "Les fournitures perdues de Bingles",
+   "objectives": "Trouver et rapporter à Bingles son matériel :\n\nLa Clé de Bingles, le Tournevis de Bingles, le Marteau de Bingles et le Capsuleur soufflant de Bingles.",
+   "description": "Comme si le crash dans le Loch n'avait pas suffi, des troggs de l'île voisine m'ont attaqué et ont volé mes outils et mes capsuleurs soufflants Blastenheimer spéciaux ! Sans gyrocoptère et sans explosifs, le mouvement n'a aucune chance !\n\nRapportez-moi mes outils et mes capsuleurs soufflants, <nom>. Pour Gnomeregan !",
+   "progress": "<nom> ! Où sont mes petites affaires ?",
+   "completion": "Vous nous avez rendu un grand service, <nom>. Les troggs et les gnomes lépreux qui infestent Gnomeregan vont bientôt avoir droit à un assaut aérien des gnomes !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6577,
+     "name": "Bingles Blastenheimer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6577,
+     "name": "Bingles Blastenheimer"
+    }
+   ],
+   "zone_id": 38,
+   "level": 15,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 1050,
+   "money": 700,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2500": {
+   "id": 2500,
+   "name": "Les réactifs des Terres ingrates",
+   "objectives": "Aller chercher les réactifs dont Ghak Healtouch a besoin dans les Terres ingrates, puis les lui rapporter à Thelsamar.",
+   "description": "<classe>, vos services vont m’être utiles. Je suis alchimiste et j'ai besoin de votre aide pour trouver certains réactifs dans les Terres ingrates.\n\nJ'ai besoin de ceci pour ma réserve : 5 Gésiers de busard, 10 Crocs de coyote des rochers et 5 Fragments d'élémentaire de roche. Évidemment, vous pouvez trouver les réactifs sur les créatures elles-mêmes. Si vous n'êtes pas du genre battant, trouvez donc des amis qui le soient.\n\nApportez-moi tout ça et je vous récompenserai.\n\nQu'en dites-vous ?",
+   "progress": "Avez-vous ce que je vous ai demandé ? Vous ne serez payé que lorsque vous m'aurez rapporté ces ingrédients.",
+   "completion": "Ah ! Bien joué, <nom> ! Ça devrait me permettre de tenir un petit moment. Voici votre paye, comme promis.\n\nSi ça vous dit, j'ai également besoin de composants qu'on ne trouve que dans les profondeurs d'Uldaman. Ils ne seront pas facile à obtenir, mais je ferai en sorte que la récompense soit à la hauteur des efforts fournis.\n\nPeut-être autre chose que quelques pièces brillantes, hein ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1470,
+     "name": "Ghak Healtouch"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1470,
+     "name": "Ghak Healtouch"
+    }
+   ],
+   "zone_id": 38,
+   "level": 39,
+   "reqlevel": 36,
+   "side": "alliance",
+   "xp": 3000,
+   "money": 4500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2501": {
+   "id": 2501,
+   "name": "Les réactifs des Terres ingrates II",
+   "objectives": "Utiliser les Récipients thaumaturgiques vides sur des dragons gardiens des terres brûlées dans les Terres ingrates. Une fois remplis, les rapporter à Ghak Healtouch à Thelsamar.",
+   "description": "Vous m'avez été des plus utiles, <nom>. Votre récompense sera la recette de la boisson que vous avez goûtée tout à l'heure... Mais j'ai une tâche très dangereuse pour vous.\n\nCette boîte fermée contient trois Récipients vides ; ils sont imprégnés d'un fluide magique qui drainera le sang d'un dragon gardien des terres brûlées. Je vous préviens : le fait de les utiliser irrite beaucoup les bêtes. Une fois que vous aurez rempli les trois, apportez-les-moi.\n\nEnsuite la recette sera à vous !",
+   "progress": "Avez-vous utilisé les récipients thaumaturgiques pour pomper le sang de dragon gardien des terres brûlées dont j'ai besoin ? Oui, je sais que c'est une opération dangereuse. . . Mais l’élaboration de mon breuvage fortifiant dépend de votre succès. Risque et récompense, mon ami. Risque et récompense. . .",
+   "completion": "Je vous salue, et c'est le salut d'un Alchimiste à un autre Alchimiste. Voilà, prenez connaissance de cette recette. Vous connaîtrez peut-être grâce à elle le succès et les récompenses qu'elle m'a apportés au cours des ans.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1470,
+     "name": "Ghak Healtouch"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1470,
+     "name": "Ghak Healtouch"
+    }
+   ],
+   "zone_id": 38,
+   "level": 44,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 3750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3182": {
+   "id": 3182,
+   "name": "Titre de propriété",
+   "objectives": "Porter la Corne gigantesque de Margol au conservateur en chef Thorius à Ironforge.",
+   "description": "Et vous pensez que je vais avaler une histoire pareille ? Le fer de ma hache se serait brisé et serait coincé dans la véritable corne, s'il s'agissait bien d'elle.\n\nÉcoutez, apportez ce faux grossier au conservateur en chef Thorius à Ironforge. S'il est capable de valider vos dires, vous recevrez un certificat de haut fait. Rapportez-moi cette preuve et je vous remettrai la clé de la gorge des Vents brûlants.\n\nAllez-y !",
+   "progress": "Bonjour jeune homme. Vous venez pour faire le tour du musée ?",
+   "completion": "Qu'est-ce que c'est ?\n\nOh, je ne peux pas le croire ! Vous savez ce que vous avez là, <nom> ? C'est la Corne de Margol l'Enragée ! Margol ! Le fléau de tout archéologue qui ait jamais pénétré dans la Gorge des Vents brûlants.\n\nPuis-je la garder ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3836,
+     "name": "Montagnarde Pebblebitty"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8256,
+     "name": "Conservateur en chef Thorius"
+    }
+   ],
+   "zone_id": 38,
+   "level": 48,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 4400,
+   "money": 14000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6387": {
+   "id": 6387,
+   "name": "L'honneur des étudiants",
+   "objectives": "Apportez la Liste de Brock à Thorgrum Borrelson à Thelsamar.",
+   "description": "Je vois maints jeunes nains à ma porte, avides d’apprendre l’art du minage. Et si un mineur a besoin de quelque chose, c’est bien d’une pioche !\n\nJ’ai une liste d’étudiants qui ont travaillé dur pendant leur apprentissage, et ont gagné une pioche d'honneur en échange de leurs efforts. Apportez ma liste à Golnir Bouldertoe, à Ironforge. Il aura préparé les pioches.\n\nLe moyen le plus rapide pour se rendre sur place est d’utiliser un gryphon. Apportez d’abord la liste à notre Maître des gryphons, Thorgrum Borrelson, et discutez avec lui de la possibilité d’un voyage vers Ironforge.",
+   "progress": "Est-ce que vous avez fini ce que vous aviez à faire à Thelsamar ? Voulez-vous partir maintenant vers une autre ville ?",
+   "completion": "Vous devez porter cela à Ironforge, hein ? Pour une somme modique, je peux vous mettre sur le dos d'un de mes gryphons et il vous y amènera. Cela vous convient-il ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1681,
+     "name": "Brock Stoneseeker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1572,
+     "name": "Thorgrum Borrelson"
+    }
+   ],
+   "zone_id": 38,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 210,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6388": {
+   "id": 6388,
+   "name": "Gryth Thurden",
+   "objectives": "Apportez les Pioches d'honneur à Gryth Thurden à Ironforge.",
+   "description": "Voici les pioches d'honneur pour les étudiants de Brock. Si vous avez déjà visité Thelsamar, vous devriez prendre un gryphon pour y retourner !\n\nPrenez les pioches et apportez-les à notre Maître des gryphons, Gryth Thurden ; parlez-lui du voyage vers Thelsamar.",
+   "progress": "J'ai l'impression que vous voulez aller quelque part. Avez-vous besoin d'un de mes gryphons ?",
+   "completion": "Vous devez apporter cela à Thelsamar, hein ? Ce ne sera pas un problème. Si vous y êtes déjà allé et que vous avez rencontré Thorgrum Borrelson, alors vous pouvez utiliser un de mes gryphons pour y retourner.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4256,
+     "name": "Golnir Bouldertoe"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1573,
+     "name": "Gryth Thurden"
+    }
+   ],
+   "zone_id": 38,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 210,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6391": {
+   "id": 6391,
+   "name": "Voyage vers Ironforge",
+   "objectives": "Acheter un billet de gryphon pour Ironforge, auprès du Maître des gryphons, Thorgrum Borrelson, puis apporter la Liste de Brock à Golnir Bouldertoe, à Ironforge.",
+   "description": "Pour quelques menues pièces de monnaie, l'un de mes gryphons vous conduira à Ironforge. Là, vous donnerez la liste de Brock à Golnir Bouldertoe. Vous le trouverez à la Guilde des mineurs de la montagne profonde. C'est dans le quartier de la Grande Forge d'Ironforge, mon gryphon vous déposera en plein dedans !\n\nRevenez me voir quand vous serez sur le point de partir.",
+   "progress": "Que puis-je faire pour vous, Monseigneur ?",
+   "completion": "Ah, la dernière liste des meilleurs élèves de Brock. J'ai tout un tas de pioches d'honneur à offrir. Va juste falloir que je grave le nom des élèves. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1572,
+     "name": "Thorgrum Borrelson"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4256,
+     "name": "Golnir Bouldertoe"
+    }
+   ],
+   "zone_id": 38,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 420,
+   "money": 175,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6392": {
+   "id": 6392,
+   "name": "Retourner vers Brock",
+   "objectives": "Acheter un billet de gryphon pour Thelsamar, auprès du Maître des gyphons Gryth Thurden, puis apporter les Pioches d'honneur à Brock Stoneseeker, à Thelsamar.",
+   "description": "Vous pouvez vous payer un vol de gryphon jusqu'à Thelsamar pour pas grand-chose... à condition d'y être déjà <allé/allée>. Les gryphons ne volent que vers des lieux que vous avez déjà visités, alors demandez bien à chaque Maître des gryphons si vous pourrez voler vers lui plus tard.\n\nVous avez déjà rencontré Thorgrum, le Maître des gryphons de Thelsamar, alors vous pouvez retourner le voir. Et une fois dans Thelsamar, vous pouvez livrer les pioches à Brock Stoneseeker.\n\nVenez me voir quand vous serez sur le point de partir.",
+   "progress": "Ha, <nom>. Revenez-vous d'Ironforge ?",
+   "completion": "Vous avez rapporté les piolets. Bien ! Je vais les apporter à mes étudiants. Je suis sûr qu'ils sont impatients de les utiliser sur le minerai de Loch Modan.\n\nMerci de votre aide, <nom>. Je suis votre débiteur, j'espère que cet argent permettra de couvrir vos frais.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1573,
+     "name": "Gryth Thurden"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1681,
+     "name": "Brock Stoneseeker"
+    }
+   ],
+   "zone_id": 38,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1050,
+   "money": 350,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "allé/allée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "86585": {
+   "id": 86585,
+   "name": null,
+   "objectives": "Plantez l’étendard de Forgefer afin d’attirer le casse-tête trogg, tuez-le, puis faites votre rapport au capitaine Rudagite.",
+   "description": "La dépouille de la montagnarde porte un étendard de Forgefer. Elle effectuait peut-être une mission de reconnaissance, à moins qu’elle n’ait péri lors d’une charge désespérée. Quoi qu’il en soit, l’étendard a été jeté à terre et piétiné. La montagnarde a reçu un coup à la tête si violent que son heaume a été projeté au loin. Elle a été tuée sur le coup, probablement par un Trogg armé d’un gourdin clouté.\n\nLe Trogg qui l’a abattue est certainement encore dans les environs, et il doit se souvenir de l’étendard. Il se montrera peut-être en voyant l’étendard de Forgefer flotter au vent.",
+   "progress": null,
+   "completion": "Vous avez trouvé le corps d’Ylva ? Ah, la pauvre femme. Elle disait qu’elle allait montrer aux Troggs qu’ils ne tiendraient jamais Forgefer à leur merci. Elle est partie à la recherche d’un groupe de montagnards qui n’étaient pas revenus d’une patrouille en territoire trogg. C’était une forte tête, incapable d’agir avec prudence. Nous savons enfin ce qu’il est advenu d’elle.\n\nLaissez-moi l’étendard, je veillerai à ce qu’il soit nettoyé et exposé comme il se doit. Vous devriez garder son arme, elle vous sera utile contre les Troggs.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 269153,
+     "name": "Mountaineer Ylva"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1092,
+     "name": "Capitaine Rugelfuss"
+    }
+   ],
+   "zone_id": 38,
+   "level": 17,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  },
+  "86613": {
+   "id": 86613,
+   "name": null,
+   "objectives": "Rendez 6 outils d’excavation à Magmar Tombebranche.",
+   "description": "Les outils du chantier de fouilles, abandonnés lorsque les Nains ont fui les Troggs, semblent presque intacts. Rapportez-les aux excavateurs, ils leur seront assurément d’une grande aide.",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "item",
+     "id": 278049,
+     "name": "Excavation Tools"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1344,
+     "name": "Prospecteur Ironband"
+    }
+   ],
+   "zone_id": 38,
+   "level": 18,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  },
+  "86614": {
+   "id": 86614,
+   "name": null,
+   "objectives": "Rapportez la barrette en argent au monogramme à sa propriétaire.",
+   "description": null,
+   "progress": null,
+   "completion": "Ma barrette ! Je la croyais perdue à tout jamais !\n\nElle retrouvera son éclat avec juste un peu de travail. Merci de me l’avoir rapportée ! Je vous revaudrai ça.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 665289,
+     "name": "Discarded Fishing Toolbox"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1684,
+     "name": "Khara Deepwater"
+    }
+   ],
+   "zone_id": 38,
+   "level": 20,
+   "reqlevel": 13,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "86667": {
+   "id": 86667,
+   "name": null,
+   "objectives": "Apportez un bocal de neige à Norric Lochthane.\n\nObjet fourni :",
+   "description": "Mon ancien mentor, Norric, a dépêché un élémentaire mineur, porteur d’une étrange requête. Il a besoin d’un bocal de neige pour certaines de ses pratiques chamaniques ! Je ne sais pas ce qu’il compte en faire, mais il y a bien longtemps que j’ai appris à ne pas remettre en question son approche de la magie.\n\nJ’ai fort à faire pour m’installer et en apprendre davantage sur les élémentaires de la région, je ne peux vraiment pas m’absenter pour lui venir en aide. Pourriez-vous me rendre service ? Il y a de la neige toute l’année au passage de la porte Sud. Allez sur place, remplissez ce bocal en céramique de neige, et apportez-la à Norric avant qu’elle ne fonde.",
+   "progress": null,
+   "completion": "Ce bocal est pour moi ?\n\nDe la neige ! Grenhild a répondu à ma requête ! Elle m’a fait parvenir la neige dont j’ai besoin !\n\nQuel dommage qu’elle n’ait pas pu se déplacer, j’espérai vraiment la voir !\n\nBon, peu importe, vos efforts méritent bien une petite récompense. Tenez, c’est pour vous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 49808,
+     "name": "Grenhild Darktalon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 258043,
+     "name": "Norric Lochthane"
+    }
+   ],
+   "zone_id": 38,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  },
+  "86758": {
+   "id": 86758,
+   "name": null,
+   "objectives": "Terrassez le crocilisque Daguecroc et rapportez le couteau de Marek.",
+   "description": "Je vous ai déjà raconté comment j’ai bien failli perdre la main face à un crocilisque ? J’ai réussi à lui planter mon couteau dans la mâchoire, et j’ai détalé en vitesse. Je croyais avoir mon couteau quelque part par ici, mais impossible de remettre la main dessus.\n\nBref, cette sale bête est sans doute toujours dans le coin, à chasser sur les berges du lac. Elle mériterait qu’on s’en débarrasse, ne serait-ce que pour la sécurité des autres chasseurs.\n\nJe me suis mis à l’appeler Daguecroc. Si vous le croisez, passez-lui le bonjour de ma part ! Et par « bonjour », j’entends « donnez-lui un bon coup de couteau ».",
+   "progress": null,
+   "completion": "Hah ! Vous avez réussi ! Je n’aurais jamais cru que ce vieux croco recevrait ce qu’il méritait, mais ça règle la question !\n\nOh, ah… vous savez, j’ai dû me procurer un autre couteau, alors celui-ci vous portera peut-être chance. Vous pouvez le garder !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1154,
+     "name": "Marek Ironheart"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1154,
+     "name": "Marek Ironheart"
+    }
+   ],
+   "zone_id": 38,
+   "level": 16,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  },
+  "86776": {
+   "id": 86776,
+   "name": null,
+   "objectives": "Apportez 10 barres de bronze à Morhan Langue-de-cuivre.",
+   "description": "Thelsamar est un endroit formidable où vivre, mais nous n’avons pas toutes les commodités de Forgefer. Je suis sans arrêt à court de bronze ! Il m’en faut davantage si je veux continuer à fabriquer des outils, des bouilloires et des marmites !\n\nJe vois bien que vous avez un peu d’expérience à la forge. Vous croyez pouvoir me fondre quelques barres de bronze ? Je vous paierai généreusement !",
+   "progress": null,
+   "completion": "Ah, quel soulagement ! Grâce à vous, la forge pourra rester allumée. Avec un peu de chance, on finira par avoir un marchand qui livrera du charbon en ville régulièrement !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 167,
+     "name": "Morhan Coppertongue"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 167,
+     "name": "Morhan Coppertongue"
+    }
+   ],
+   "zone_id": 38,
+   "level": 30,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

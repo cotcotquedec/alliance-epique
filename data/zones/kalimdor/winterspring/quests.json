@@ -1,0 +1,3165 @@
+{
+ "schema": 1,
+ "zone": "kalimdor/winterspring",
+ "zone_id": 618,
+ "zone_name": "Berceau-de-l’Hiver",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 57,
+  "complete": 49,
+  "incomplete": 8,
+  "unavailable": 0,
+  "missing_description": 8,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 2
+ },
+ "quests": {
+  "969": {
+   "id": 969,
+   "name": "Que la chance soit avec vous",
+   "objectives": "Collecter 10 Eclats cognegivre pour le sorcier-docteur Mau'ari à Long-guet.",
+   "description": "Rien qu’à vous regarder, je vois que vous voulez un charme de chance. Mau'ari sait tout !\n\nLà-bas, dans le sud du Berceau, vous trouverez un canyon où les géants collectent des éclats de glace. Vous pouvez toujours prélever vous-mêmes des éclats sur le canyon. Ils ont une puissante qualité de réflexion.\n\nRapportez 10 Eclats cognegivre, et mon charme de chance sera à vous.",
+   "progress": "Rapportez ces éclats et je vous en dirai plus !",
+   "completion": "Ah, oui. . . Je vais faire ce médaillon pour vous, maintenant. Il vous suffit de patienter un peu !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 6600,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "975": {
+   "id": 975,
+   "name": "Cache de Mau'ari",
+   "objectives": "Attendre un instant, puis reparler au sorcier-docteur Mau'ari pour recevoir le Charme de chance.",
+   "description": "Avant de vous donner ce charme, je vous expliquerai comment l’utiliser.\n\nSi vous le portez sur vous, vous trouverez certains objets spéciaux sur les créatures que vous combattrez. Sans le charme, pas d’objets spéciaux, vous voyez ?\n\nCes objets s’appellent des E'ko. Si vous trouvez n'importe lequel de ces objets, apportez-le à la vieille Mau'ari, qui saura vous aider.\n\nAttendez ici pendant que je prépare votre charme.",
+   "progress": null,
+   "completion": "Voilà, <nom>. Souvenez-vous que vous devez le porter sur vous. Pourquoi ne pas retourner dans les terres sauvages pour voir ce que vous pouvez trouver là-bas ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "977": {
+   "id": 977,
+   "name": "Yéti ? Y es-tu ?",
+   "objectives": "Collecter 2 Cornes de yéti en parfait état pour Umi Rumplesnicker, à Long-guet",
+   "description": "Maintenant que j’ai ce dont j’ai besoin pour construire les parties mécaniques mobiles, il ne me manque qu’une seule chose. Deux choses, en fait. Deux cornes !\n\nLes patriarches et matriarches Chardon de glace sont ceux qui ont les plus grandes cornes. Ces yétis se trouvent dans les grottes, au sud-est. Il y en a un grand nombre là bas, vous n’aurez pas de problèmes à les trouver.\n\nRappelez-vous que je ne veux que les plus belles cornes, sans la moindre éraflure !",
+   "progress": "Je suis sur le point de finir de travailler la fourrure, <nom>. S'il vous plaît, dépêchez-vous de me ramener les cornes !",
+   "completion": "J'ai hâte de les montrer à mes amis ! Patientez le temps que je les attache. . .\n\nParfait !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10305,
+     "name": "Umi Rumplesnicker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10305,
+     "name": "Umi Rumplesnicker"
+    }
+   ],
+   "zone_id": 618,
+   "level": 58,
+   "reqlevel": 52,
+   "side": "both",
+   "xp": 4650,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3783": {
+   "id": 3783,
+   "name": "Yéti ? Y es-tu ?",
+   "objectives": "Collecter 10 Fourrures épaisses de yéti pour Umi Rumplesnicker, à Long-guet.",
+   "description": "Mes amis ne cessent d'avoir de grandes idées. Et je n'aurais jamais cru être capable de les concurrencer… jusqu'à ce jour ! Je viens juste de dessiner les plans de quelque chose de vraiment merveilleux ! Si vous me promettez de ne pas le répéter, je vais vous dire mon secret...\n\nJe vais construire un yéti mécanique ! Non seulement mes amis ne vont pas le croire quand ils le verront, mais une fois qu'ils se seront remis de leur surprise, je sais qu'ils seront vraiment impressionnés !\n\nPour commencer, j'aurais besoin de plusieurs fourrures épaisses de yétis, prélevées sur des yétis Chardon de glace. Voudriez-vous m'aider ? Vous en trouverez au sud-est.",
+   "progress": "J'ai beaucoup à faire ici. Apportez-moi ces fourrures rapidement, s'il vous plaît !",
+   "completion": "Ces fourrures sont parfaites, <nom>. Ça commence très bien !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10305,
+     "name": "Umi Rumplesnicker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10305,
+     "name": "Umi Rumplesnicker"
+    }
+   ],
+   "zone_id": 618,
+   "level": 56,
+   "reqlevel": 52,
+   "side": "both",
+   "xp": 4350,
+   "money": 8500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4801": {
+   "id": 4801,
+   "name": "L'E'ko des sabres-de-givre",
+   "objectives": null,
+   "description": "Au Berceau-de-l'Hiver, vous combattrez de grands félins appelés \"sabres-de-givre\". Ces bêtes sont incroyablement rapides et vicieuses. Si vous voulez gagner la vitesse des sabres-de-givre, apportez-moi l'Eko que vous trouverez sur eux.\n\nSouvenez-vous, il vous faut la cache de Mau'ari dans votre inventaire si vous voulez chasser l'E'ko.",
+   "progress": "Au Berceau-de-l'Hiver, vous combattrez de grands félins appelés \"sabres-de-givre\". Ces bêtes sont incroyablement rapides et vicieuses. Si vous voulez gagner la vitesse des sabres-de-givre, apportez-moi l'Eko que vous trouverez sur eux.\n\nSouvenez-vous, il vous faut la cache de Mau'ari dans votre inventaire si vous voulez chasser l'E'ko.",
+   "completion": "Mau'ari peut utiliser ce juju pour <nom>. . . Utiliser la Cache de Mau'ari pour la lancer sur vous ou l'un de vos alliés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "4802": {
+   "id": 4802,
+   "name": "L'E'ko des Tombe-hiver",
+   "objectives": null,
+   "description": "Au Berceau-de-l'Hiver, vous combattrez des créatures perdues connues sous le nom de furbolgs Tombe-hiver. Sous l'égide de leur maître, ils ont gagné une force incroyable. Si vous voulez acquérir la puissance des Tombe-hiver, apportez-moi l'E'ko que vous leur prendrez.\n\nSouvenez-vous, il vous faut la cache de Mau'ari dans votre inventaire si vous voulez chasser l'E'ko.",
+   "progress": "Au Berceau-de-l'Hiver, vous combattrez des créatures perdues connues sous le nom de furbolgs Tombe-hiver. Sous l'égide de leur maître, ils ont gagné une force incroyable. Si vous voulez acquérir la puissance des Tombe-hiver, apportez-moi l'E'ko que vous leur prendrez.\n\nSouvenez-vous, il vous faut la cache de Mau'ari dans votre inventaire si vous voulez chasser l'E'ko.",
+   "completion": "Mau'ari peut utiliser ce juju pour <nom>. . . Utiliser la Cache de Mau'ari pour la lancer sur vous ou l'un de vos alliés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "4803": {
+   "id": 4803,
+   "name": "L'E'ko des Crocs acérés",
+   "objectives": null,
+   "description": "Au Berceau-de-l'Hiver, vous trouverez de grands ours à la peau très épaisse. Ces ours aux crocs acérés sont bien protégés et peuvent supporter beaucoup. Si vous souhaitez gagner la résistance au feu, apportez-moi l'E'ko que vous trouverez auprès des Crocs acérés.\n\nSouvenez-vous, il vous faut la cache de Mau'ari dans votre inventaire si vous voulez chasser l'E'ko.",
+   "progress": "Au Berceau-de-l'Hiver, vous trouverez de grands ours à la peau très épaisse. Ces ours aux crocs acérés sont bien protégés et peuvent supporter beaucoup. Si vous souhaitez gagner la résistance au feu, apportez-moi l'E'ko que vous trouverez auprès des Crocs acérés.\n\nSouvenez-vous, il vous faut la cache de Mau'ari dans votre inventaire si vous voulez chasser l'E'ko.",
+   "completion": "Mau'ari peut utiliser ce juju pour <nom>. . . Utiliser la Cache de Mau'ari pour la lancer sur vous ou l'un de vos alliés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "4804": {
+   "id": 4804,
+   "name": "L'E'ko de Noroît",
+   "objectives": null,
+   "description": "Au Berceau-de-l'Hiver, vous combattrez de grandes créatures ailées nommées des Noroît. Ces bêtes peuvent se servir de la magie de glace. Si vous voulez devenir résistant à la glace, apportez-moi l'E'ko que vous leur prendrez.\n\nSouvenez-vous, il vous faut la cache de Mau'ari dans votre inventaire si vous voulez chasser l'E'ko.",
+   "progress": "Au Berceau-de-l'Hiver, vous combattrez de grandes créatures ailées nommées des Noroît. Ces bêtes peuvent se servir de la magie de glace. Si vous voulez devenir résistant à la glace, apportez-moi l'E'ko que vous leur prendrez.\n\nSouvenez-vous, il vous faut la cache de Mau'ari dans votre inventaire si vous voulez chasser l'E'ko.",
+   "completion": "Mau'ari peut utiliser ce juju pour <nom>. . . Utiliser la Cache de Mau'ari pour la lancer sur vous ou l'un de vos alliés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "4805": {
+   "id": 4805,
+   "name": "L'E'ko des Chardon de Glace",
+   "objectives": null,
+   "description": "Au Berceau-de-l'Hiver, vous combattrez de grandes créatures nommées yétis Chardon de glace. Ces bêtes sont lentes mais capables d'éviter de nombreux coups grace à l'épaisseur de leur fourrure. Si vous voulez gagner le pouvoir d'esquiver les attaques, apportez-moi l'E'ko que vous leur prendrez.\n\nSouvenez-vous, il vous faut la cache de Mau'ari dans votre inventaire si vous voulez chasser l'E'ko.",
+   "progress": "Au Berceau-de-l'Hiver, vous combattrez de grandes créatures nommées yétis Chardon de glace. Ces bêtes sont lentes mais capables d'éviter de nombreux coups grace à l'épaisseur de leur fourrure. Si vous voulez gagner le pouvoir d'esquiver les attaques, apportez-moi l'E'ko que vous leur prendrez.\n\nSouvenez-vous, il vous faut la cache de Mau'ari dans votre inventaire si vous voulez chasser l'E'ko.",
+   "completion": "Mau'ari peut utiliser ce juju pour <nom>. . . Utiliser la Cache de Mau'ari pour la lancer sur vous ou l'un de vos alliés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "4806": {
+   "id": 4806,
+   "name": "L'E'ko de Cognegivre",
+   "objectives": null,
+   "description": "Au Berceau-de-l'Hiver, vous affronterez des grands géants des glaces, les Cognegivre. Ils sont la force et la puissance incarnées. Si vous voulez vous imprégner de la force des Cognegivre, rapportez-moi les E'kos que vous trouverez sur eux.\n\nSouvenez-vous, le charme de Mau'ari doit être dans votre inventaire pour chasser les E'kos.",
+   "progress": "Au Berceau-de-l'Hiver, vous affronterez des grands géants des glaces, les Cognegivre. Ils sont la force et la puissance incarnées. Si vous voulez vous imprégner de la force des Cognegivre, rapportez-moi les E'kos que vous trouverez sur eux.\n\nSouvenez-vous, le charme de Mau'ari doit être dans votre inventaire pour chasser les E'kos.",
+   "completion": "Mau'ari peut utiliser ce juju pour <nom>. . . Utiliser la Cache de Mau'ari pour la lancer sur vous ou l'un de vos alliés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "4807": {
+   "id": 4807,
+   "name": "L'E'ko des Indomptables",
+   "objectives": null,
+   "description": "Au Berceau-de-l'Hiver, vous combattrez des créatures qui semblent posséder des pouvoirs magiques innés. Ces Indomptables sont dotés de grands pouvoirs magiques. Si vous voulez voir votre intelligence augmenter, apportez-moi l'E'ko que vous trouverez sur l'un de ces chouettards.\n\nSouvenez-vous, il vous faut la cache de Mau'ari dans votre inventaire si vous voulez chasser l'E'ko.",
+   "progress": "Au Berceau-de-l'Hiver, vous combattrez des créatures qui semblent posséder des pouvoirs magiques innés. Ces Indomptables sont dotés de grands pouvoirs magiques. Si vous voulez voir votre intelligence augmenter, apportez-moi l'E'ko que vous trouverez sur l'un de ces chouettards.\n\nSouvenez-vous, il vous faut la cache de Mau'ari dans votre inventaire si vous voulez chasser l'E'ko.",
+   "completion": "Mau'ari peut utiliser ce juju pour <nom>. . . Utiliser la Cache de Mau'ari pour la lancer sur vous ou l'un de vos alliés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "4809": {
+   "id": 4809,
+   "name": "Cornes de Noroît",
+   "objectives": "Apporter 8 Cornes intactes de Noroît à Felnok Steelspring.",
+   "description": "J’ai presque tout ce dont Tinkee a besoin, mais il me manque un composant important, des cornes de Noroît. Les cornes des chimères Noroît de Berceau-de-l'Hiver sont une formidable source de froid. Encore faut-il qu'elles soient d’origine et absolument intactes ! Il me faut une cargaison complète de ces cornes pour satisfaire les besoins de Tinkee.\n\nApportez-moi des Cornes intactes de Noroît, et je préparerai le colis pour Tinkee.",
+   "progress": "Avez-vous les cornes de Noroît, <nom> ?",
+   "completion": "Ce sont de beaux spécimens. Ils sont bien glacés ! Laissez-moi mettre des gants et les ranger avec les autres choses dont Tinkee a besoin. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10468,
+     "name": "Felnok Steelspring"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10468,
+     "name": "Felnok Steelspring"
+    }
+   ],
+   "zone_id": 618,
+   "level": 54,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 5450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4810": {
+   "id": 4810,
+   "name": "Retourner voir Tinkee",
+   "objectives": "Apporter le Paquet de Felnok à Tinkee Steamboil dans les Steppes ardentes.",
+   "description": "Bien tout est prêt, empaqueté et paré au transport. Bonne chance dans votre voyage, et n'oubliez pas de rappeler mon dévouement et ma loyauté à Tinkee !",
+   "progress": "<nom> ! Avez-vous parlé à Felnok ? Vous avez les composants dont j'ai besoin ?",
+   "completion": "Vous avez tout rapporté ! Merveilleux ! Je vais me mettre au travail tout de suite ! Merci beaucoup, <nom> !\n\nVous m'avez rendu un grand service, je pourrais avoir besoin de vous plus tard pour remplir des tâches plus importantes. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10468,
+     "name": "Felnok Steelspring"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10267,
+     "name": "Tinkee Steamboil"
+    }
+   ],
+   "zone_id": 618,
+   "level": 54,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 2700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4842": {
+   "id": 4842,
+   "name": "Sources étranges",
+   "objectives": "Suivre les instructions de Donova Snowden, puis faire un rapport.",
+   "description": "Pour vous dire la vérité, bien qu'il n'y ait pas de volcan ici au Berceau-de-l'Hiver, je pense que ces sources chaudes représentent bien plus de menaces…\n\nEnfin, je pense que vous voulez voir ça par vous-même. Vous devez traverser le Berceau-de-l'Hiver et vous diriger vers le sud. Lorsque l'air deviendra lourd et moite, que le ciel s'assombrira, vous aurez trouvé ce que je crois être l'origine des sources chaudes.\n\nRegardez bien. Je suis sûr que vous aurez beaucoup de questions à votre retour.",
+   "progress": "L'eau des fontaines semble posséder d'anciennes vertus. . . Je ne sais pas exactement de quoi il s'agit. . .",
+   "completion": "Oui. Les démons de la gorge du Sombre murmure ; je pense que c'est leur présence qui affecte le pays de la sorte. Je vais continuer à observer les sources d'eau chaude et voir si je peux en apprendre plus.\n\nSi vous comptiez vous enfoncer dans la gorge du Sombre murmure, j'attendrais d'être un peu plus fort à votre place.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "zone_id": 618,
+   "level": 56,
+   "reqlevel": 51,
+   "side": "both",
+   "xp": 5800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4861": {
+   "id": 4861,
+   "name": "Les Indomptables enragés",
+   "objectives": "Localiser le camp démoli et les fournitures de Jaron Stoneshaper, au sud du Berceau-de-l'Hiver.",
+   "description": "Eh, ici, <mon garçon/jeune fille> ! J'ai été chassé de mon camp au sud du Berceau-de-l'Hiver par quelques Indomptables sanguinaires ! J'imagine que j'ai dû m'approcher d'un peu trop près de quelque chose qu'ils gardaient.\n\nJ'ai bien failli ne pas m'en sortir ; j'ai peur que l'un de mes amis n'ait pas eu cette chance. Accepteriez-vous d'affronter les Indomptables et de revenir au camp ? J'ai vraiment besoin de mes provisions et je voudrais aussi récupérer l'amulette que j'ai déterrée hier sur le site.",
+   "progress": null,
+   "completion": "Une caisse très endommagée se dresse au milieu des débris du camp. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10301,
+     "name": "Jaron Stoneshaper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 175587,
+     "name": "Damaged Crate"
+    }
+   ],
+   "zone_id": 618,
+   "level": 59,
+   "reqlevel": 53,
+   "side": "alliance",
+   "xp": 3200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mon garçon/jeune fille"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4863": {
+   "id": 4863,
+   "name": "Les Indomptables enragés",
+   "objectives": "Trouver le chariot saccagé de Jaron Stoneshaper.",
+   "description": "Regardant autour de vous, vous vous demandez ce que Jaron pouvait bien vouloir ici. Vous remarquez cependant que la caisse que vous avez trouvée a été ouverte violemment, comme si c'était cela que les Indomptables cherchaient...\n\nEn regardant à l’est, vous discernez un chariot abandonné. Peut-être les effets de Jaron s’y trouvent-ils. Cela vaut certainement la peine d’aller jeter un coup oeil.",
+   "progress": null,
+   "completion": "En approchant du chariot, vous ne remarquez rien pour Jaron. Mais en regardant au sol, vous apercevez plusieurs caisses intactes, bien qu'elles soient à moitié recouvertes de neige.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175587,
+     "name": "Damaged Crate"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 175586,
+     "name": "Jaron's Wagon"
+    }
+   ],
+   "zone_id": 618,
+   "level": 59,
+   "reqlevel": 53,
+   "side": "alliance",
+   "xp": 3200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4864": {
+   "id": 4864,
+   "name": "Les Indomptables enragés",
+   "objectives": "Ramasser les Fournitures de Jaron dans la neige, puis trouver l'Indomptable qui a volé l'amulette dont Jaron a parlé.\n\nRapporter les fournitures de Jaron et l'Amulette de la plume bleue à Jaron Stoneshaper au pavillon, dans le Berceau-de-l'Hiver.",
+   "description": "Après avoir inspecté le contenu de la boîte, vous estimez que Jaron pourrait avoir usage des outils et des objets qu’elle renferme. Il n’y a cependant aucun signe de l’amulette.\n\nIl s’avère que les Indomptables hantent les terres au nord et à l’est ; vous décidez par conséquent d’affronter les créatures et de leur arracher l’amulette.",
+   "progress": "Oui. . . Racontez-moi les nouvelles.",
+   "completion": "Ma foi, je m'attendais à entendre ça, gamin. Je pensais que ces bêtes avaient détruit toutes mes affaires. . .\n\nMais vous avez retrouvé mes outils et surtout l'amulette ! Je me demande pourquoi Ies indomptables ont protégé à tout prix cet objet. . . Dans tous les cas, j'y penserai à deux fois avant de retourner là-bas !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175586,
+     "name": "Jaron's Wagon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10301,
+     "name": "Jaron Stoneshaper"
+    }
+   ],
+   "zone_id": 618,
+   "level": 59,
+   "reqlevel": 53,
+   "side": "alliance",
+   "xp": 6400,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4882": {
+   "id": 4882,
+   "name": "Secrets gardés",
+   "objectives": "Apporter le Collier de plumes bleues à Trull Failbane au Poste de la Vénéneuse.",
+   "description": "Vous voudriez en savoir plus sur le collier qui est tombé du cou de l'Indomptable que vous avez tué. Il brille fortement mais son éclat varie.\n\nTrull Failbane devrait être capable de vous en dire plus, puisque c'est un spécialiste des Indomptables. N'hésitez pas à le consulter.",
+   "progress": "Au rapport pour une nouvelle mission ?",
+   "completion": "Une découverte importante ?",
+   "starters": [
+    {
+     "type": "item",
+     "id": 12558,
+     "name": "Blue-feathered Necklace"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10306,
+     "name": "Trull Failbane"
+    }
+   ],
+   "zone_id": 618,
+   "level": 59,
+   "reqlevel": 52,
+   "side": "horde",
+   "xp": 3200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4883": {
+   "id": 4883,
+   "name": "Secrets gardés",
+   "objectives": "Apporter le Collier de plumes bleues à Nara Wildmane.",
+   "description": "J'ai beau posséder de solides connaissances sur les Chouettards que vous avez vaincus au Berceau-de-l'Hiver, je ne sais pas grand-chose de la magie qu'ils utilisent. Mais je pense savoir qui pourra examiner ce collier et vous dire de quoi il s'agit.\n\nNara Wildmane à Thunder Bluff est experte en la matière. Allez la voir. Bonne chance, <nom>.",
+   "progress": "Comment puis-je vous aider, <nom> ?",
+   "completion": "L'énergie de ce collier, <nom>. Je crois qu'il n'a qu'une source.\n\nLes Indomptables, aujourd'hui mal guidés et confus, n'ont pas toujours été ainsi. Ils avaient autrefois un but, et étaient guidés pour servir. La déesse des elfes de la nuit, Elune, a créé ces créatures pour garder ses lieux les plus sacrés.\n\nBien qu'apparemment de peu d'importance, je vous incite à creuser ce fait plus avant.\n\nVous apprendrez, en temps voulu. Merci de me l'avoir rapporté, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10306,
+     "name": "Trull Failbane"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5770,
+     "name": "Nara Wildmane"
+    }
+   ],
+   "zone_id": 618,
+   "level": 59,
+   "reqlevel": 52,
+   "side": "horde",
+   "xp": 6400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4901": {
+   "id": 4901,
+   "name": "Les gardiens de l'autel",
+   "objectives": "Protéger Ranshalla pendant qu’elle s’efforce de réactiver l’Autel d’Elune. Faire un rapport de vos découvertes à Erelas Ambersky, au village de Rut'theran.",
+   "description": "Au sommet de l'arête se trouve ce que je crois être un autel de la déesse Elune. De ce que je peux dire, il faut allumer les cinq torches dans chaque caverne pour accéder à l'autel.\n\nJ'ai retranscrit quelques incantations taillées dans la pierre, dans les ruines antiques de Kel'Theril ; je crois qu'elles sont la clé pour ouvrir l'autel. J'aurai besoin de votre aide pour allumer les torches pendant que je réciterai le charme.\n\nSi notre entreprise est couronnée de succès, vous pourrez annoncer nos découvertes à Erelas !",
+   "progress": null,
+   "completion": "Avez-vous eu votre entretien avec Ranshalla ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10300,
+     "name": "Ranshalla"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7916,
+     "name": "Erelas Ambersky"
+    }
+   ],
+   "zone_id": 618,
+   "level": 59,
+   "reqlevel": 52,
+   "side": "alliance",
+   "xp": 4800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4902": {
+   "id": 4902,
+   "name": "Les Indomptables d'Elune",
+   "objectives": "Parler à l’archidruide Fandral Staghelm, à Darnassus.",
+   "description": "C'est fascinant !\n\nJ'ai toujours voulu savoir la vérité... Bon, vous devez faire entendre cette vérité ! Allez tout de suite chez l'archidruide Fandral Staghelm, vous le trouverez à Darnassus, au Cercle cénarien. Expliquez-lui ce qui est arrivé, comme vous me l'avez expliqué. Je suis sûr qu'il sera très intéressé !\n\nCette information est importante, <nom> !",
+   "progress": null,
+   "completion": "N'hésitez pas, donnez-moi la raison de votre présence ici.\n\nOh oui ? Hmm… Bien.\n\nMerci d’avoir couru me prévenir. Il faut toujours aller directement au plus haut. . . Mais. . . Oui. Les druides du Cercle cénarien ont souvent entendu parler des Indomptables. Ce sont les familiers d'Elune, et ils ont été choisis pour garder les lieux les plus sacrés.\n\nDonc ce que vous dites n'est pas neuf, mais je vous félicite pour vos efforts. Tenez, prenez ceci, un petit quelque chose pour vous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7916,
+     "name": "Erelas Ambersky"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3516,
+     "name": "Archidruide Fandral Staghelm"
+    }
+   ],
+   "zone_id": 618,
+   "level": 57,
+   "reqlevel": 52,
+   "side": "alliance",
+   "xp": 6000,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4970": {
+   "id": 4970,
+   "name": "Provisions de sabres-de-givre",
+   "objectives": "Récolter 5 Viandes de Croc acéré et 5 Viandes de Noroît pour Rivern Frostwind du Berceau-de-l'Hiver.",
+   "description": "Si vous souhaitez montrer votre valeur, vous devriez d'abord effectuer une tâche très simple, mais très importante cependant.\n\nRécupérez de la viande des chimères et d'ours Crocs acérés dans le secteur. Apportez-la-moi afin que je nourrisse les sabres-de-givre qui reçoivent un entraînement.",
+   "progress": "Vos objectifs sont discipline et détermination. Je peux vous demander d'effectuer une simple tâche à de nombreuses reprises ; il vous faut l'exécuter chaque fois au mieux de vos possibilités.",
+   "completion": "Merci de votre aide, <nom>. Mon respect pour vous croît avec le temps.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10618,
+     "name": "Rivern Frostwind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10618,
+     "name": "Rivern Frostwind"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5054": {
+   "id": 5054,
+   "name": "Ursius des Crocs acérés",
+   "objectives": "Storm Shadowhoof, à Long-guet au Berceau-de-l'Hiver, veut que vous tuiez Ursius.",
+   "description": "Dans les montagnes neigeuses du Berceau-de-l'Hiver, au nord-ouest, un chasseur traque sa proie… Je parle d'Ursius, des ours Crocs acérés, une bête agile et rusée.\n\nJe vous envoie le combattre. Il erre sur les collines au nord-ouest de Long-guet. Trouvez-le et tuez-le avant qu'il ne s'aperçoive que vous êtes sur ses traces.\n\nTout ce qui s'est dressé contre Ursius est rapidement devenu la proie, et lui le chasseur. Restez sur vos gardes.",
+   "progress": "Va maintenant, <classe>. Cherchez Ursius.",
+   "completion": "Ce n'était pas chose facile, pourtant vous avez excellé. Mais ne pensez pas trop vite que vous m'avez impressionné, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10303,
+     "name": "Storm Shadowhoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10303,
+     "name": "Storm Shadowhoof"
+    }
+   ],
+   "zone_id": 618,
+   "level": 56,
+   "reqlevel": 53,
+   "side": "horde",
+   "xp": 5800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5055": {
+   "id": 5055,
+   "name": "Brumeran des Noroît",
+   "objectives": "Storm Shadowhoof, à Long-guet au Berceau-de-l'Hiver, veut que vous tuiez Brumeran.",
+   "description": "Rapide et rusée, Brumeran parcourt silencieusement les terres enneigées du sud du Berceau-de-l'Hiver. Ne laissez pas sa beauté vous persuader qu'elle est inoffensive. Tous ceux qui ont croisé son chemin l'ont payé cher, parfois de leur vie.\n\nTrouvez Brumeran parmi les chimères Noroît. Tuez-la puis revenez me voir.",
+   "progress": "Brumeran vous appelle, <nom>.",
+   "completion": "Oui. Vous êtes de retour. Je pense maintenant que vous avez une vraie nature de chasseur. Vous avez affronté les créatures les plus féroces et êtes de retour, surpassant mes espoirs.\n\nVous êtes maintenant prêt pour ma dernière requête.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10303,
+     "name": "Storm Shadowhoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10303,
+     "name": "Storm Shadowhoof"
+    }
+   ],
+   "zone_id": 618,
+   "level": 58,
+   "reqlevel": 53,
+   "side": "horde",
+   "xp": 6200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5056": {
+   "id": 5056,
+   "name": "Shy-Rotam",
+   "objectives": "Storm Shadowhoof, à Long-guet au Berceau-de-l'Hiver, veut que vous triomphiez de Shy-Rotam.",
+   "description": "Au nord du Berceau-de-l'Hiver, de grands félins se rassemblent à un endroit appelé le roc des Sabres-de-Givre. Leur chef est connu sous le nom de Shy-Rotam. Vaincre la matriarche des sabres-de-givre vous apporterait le respect des autres <race>.\n\nRetournez dans les rudes terres sauvages et prenez de la viande sacrée sur les sabres-de-givre. Trouvez la pierre de Shy-Rotam et placez la viande dessus. En faisant cela, vous invoquez Shy-Rotam.\n\nPréparez-vous à affronter sa colère, et tuez-la.",
+   "progress": "Shy-Rotam est audacieuse et impitoyable ; elle défendra son espèce avec un enthousiasme fervent.",
+   "completion": "Vous avez prouvé tant votre force que votre détermination. De nombreuses autres épreuves vous attendent, mais je vous ai déjà montré tout ce que je pouvais.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10303,
+     "name": "Storm Shadowhoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10303,
+     "name": "Storm Shadowhoof"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 53,
+   "side": "horde",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "race"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5057": {
+   "id": 5057,
+   "name": "Essais passés",
+   "objectives": "Apporter le Marqueur de Storm Shadowhoof à Melor Stonehoof à Thunder Bluff.",
+   "description": "Avant que vous ne me parliez, <nom>, j'avais eu vent de vos prouesses…que vous aviez un désir inextinguible de faire vos preuves, que vous étiez admirable, et je sais maintenant que ces choses sont vraies, <classe>.\n\nCeux qui excellent comme vous valent d'être reconnus. Apportez ce bon à l'un de mes amis à Thunder Bluff nommé Melor Stonehoof. Je suis sûr qu'il se souviendra de vous, et de ce que vous avez accompli il y a si longtemps. Parlez-lui de vos récentes victoires et n'oubliez jamais ce que vous avez accompli aujourd'hui.",
+   "progress": null,
+   "completion": "Nous apprenons de nos expériences, <nom>. Vous n'avez pu que grandir en force et en sagesse grâce aux vôtres. Vous avez bien mûri depuis notre dernière entrevue.\n\nPrenez ceci en souvenir des tâches difficiles que vous avez accomplies en tant que <classe> <race>, et sachez que vous aurez toujours droit à mon respect et à mon admiration.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10303,
+     "name": "Storm Shadowhoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10303,
+     "name": "Storm Shadowhoof"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 53,
+   "side": "horde",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5063": {
+   "id": 5063,
+   "name": "La coiffe du savant écarlate",
+   "objectives": "Pour créer la Coiffe du savant écarlate, il faut rapporter les éléments suivants à Malyfous Darkhammer : 1 Peau de la Bête en parfait état ; 5 Coutures d'Abomination effilochées ; 8 Cristaux des arcanes ; 5 Fils écarlates enchantés.\n\nIl faudra aussi payer 50 pièces d’or pour le travail de fabrication.",
+   "description": "Vous ne verrez jamais plus belle coiffe. Nos artisans experts créeront, à partir de la peau parfaite de la bête, le chapeau le plus phénoménal qu'un prestidigitateur pourrait jamais rêver de faire !\n\nIl suffit de cinquante pièces d'or et des objets sur la liste et votre tête aura les honneurs de la Coiffe du savant écarlate :\n\n*La peau de la Bête en parfait état.\n\n*Des Coutures d'Abomination effilochées.\n\n*Des Cristaux des arcanes.\n\nDu Fil écarlate enchanté.\n\nVOILÀ !",
+   "progress": "Si vous n'avez pas tout ce dont j'ai besoin, vous me faites perdre mon temps.",
+   "completion": "C'est époustouflant ! Cela a dû prendre des semaines pour rassembler ces éléments... et comment avez-vous trouvé une peau vierge ? !?\n\nProfite de la casquette, <nom> !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175927,
+     "name": "Malyfous's Catalogue"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10637,
+     "name": "Malyfous Darkhammer"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5067": {
+   "id": 5067,
+   "name": "Jambières d'Arcana",
+   "objectives": "Pour fabriquer les Jambières d'Arcana, il faut rapporter les éléments suivants à Malyfous Darkhammer : 1 Peau de la Bête en parfait état ; 5 Coutures d'Abomination effilochées ; 5 Barres d'arcanite ; 5 Fluides d'embaumement de Murmegivre.\n\nIl faudra également payer 50 pièces d’or pour le travail de fabrication.",
+   "description": "Bien que la réalisation d'un tel objet n'ait jamais été accomplie, il semble que cela soit possible, sous certaines conditions.\n\nLe chercheur d'arcanum qui désire attribuer d'immenses pouvoirs à des jambières doit trouver les objets suivants :\n\n*La peau de la Bête en parfait état.\n\n*Couture d'Abomination effilochée.\n\n*Barres d'arcanite.\n\n*Fluide d'embaumement de Murmegivre.\n\nEt voilà !",
+   "progress": "Si vous n'avez pas tout ce dont j'ai besoin, vous me faites perdre mon temps.",
+   "completion": "J'ai vu peu de tâches aussi improbables accomplies par des mortels. Réjouissez-vous de la gloire de mon travail ! Récoltez ses fruits !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175927,
+     "name": "Malyfous's Catalogue"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10637,
+     "name": "Malyfous Darkhammer"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5068": {
+   "id": 5068,
+   "name": "La cuirasse carnassière",
+   "objectives": "Pour fabriquer la Cuirasse carnassière, il faut rapporter les éléments suivants à Malyfous Darkhammer : 1 Peau de la Bête en parfait état ; 10 Coutures d'Abomination effilochées ; 5 Barres d'arcanite ; 5 Peaux des ombres.\n\nIl faudra également payer 50 pièces d’or pour le travail de fabrication.",
+   "description": "Il paraît qu'un seul exemplaire de la cuirasse carnassière a été créé et qu'elle fut confectionnée pour le légendaire assassin Garona. Il est peu probable qu'on en voit jamais une autre en ce monde.\n\nMais peu importe ! Nos maîtres fabricants peuvent reproduire l'objet s'ils disposent des composants requis :\n\n*La peau de la Bête en parfait état.\n\n*Couture d'Abomination effilochée.\n\n*Barres d'arcanite.\n\n*Peau des ombres.\n\n*Admirez !",
+   "progress": "Si vous n'avez pas tout ce dont j'ai besoin, vous me faites perdre mon temps.",
+   "completion": "Je pensais que je serais morte et enterrée avant de voir ce jour.\n\nUn accomplissement de cette ampleur ne peut être éclipsé que par la récompense.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 175927,
+     "name": "Malyfous's Catalogue"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10637,
+     "name": "Malyfous Darkhammer"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5082": {
+   "id": 5082,
+   "name": "La menace des Tombe-hiver",
+   "objectives": "Donova Snowden du Berceau-de-l'Hiver veut que vous tuiez 8 Guides, 8 Protecteurs et 8 Totémiques de la tribu Tombe-hiver.",
+   "description": "Je suis venue au Berceau-de-l'Hiver pour étudier les sources chaudes de Givrefeu. J'ai remarqué que l'eau semble avoir des propriétés étranges. Je n'ai pas encore pu découvrir la source, et pour vous dire la vérité, j'ai eu du fil à retordre à cause des furbolgs Tombe-hiver.\n\nIls semblent attirés par les sources, tout comme moi. Ils protègent les abords de l'eau et ne me laissent pas approcher des deux plus grosses sources au nord d'ici.\n\nJ'aimerais continuer mes observations. Vous voulez bien m'aider ?",
+   "progress": "J'apprécie votre aide !",
+   "completion": "Grand merci, <nom> ! Je peux me remettre enfin au travail.\n\nAvez-vous trouvé quelque chose d'intéressant au camp des Tombe-hiver ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "zone_id": 618,
+   "level": 56,
+   "reqlevel": 52,
+   "side": "both",
+   "xp": 5800,
+   "money": 8500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5083": {
+   "id": 5083,
+   "name": "L'eau de feu de Tombe-hiver",
+   "objectives": "Apporter le Flacon d'eau de feu vide à Donova Snowden du Berceau-de-l'Hiver.",
+   "description": "La fiole que vous avez ramassée près du furbolg Tombe-hiver est vide. Il reste cependant quelques gouttes d'un étrange liquide vert, presque lumineux.\n\nEst-ce quelque chose d'important ? Donova Snowden serait certainement capable de vous en dire plus puisqu'elle campe à côté des sources chaudes du Berceau-de-l'Hiver depuis quelque temps maintenant.",
+   "progress": "Qu'avez-vous trouvé ?",
+   "completion": "Cela vient des Tombe-hiver ?",
+   "starters": [
+    {
+     "type": "item",
+     "id": 12771,
+     "name": "Empty Firewater Flask"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "zone_id": 618,
+   "level": 56,
+   "reqlevel": 52,
+   "side": "both",
+   "xp": 2900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5084": {
+   "id": 5084,
+   "name": "Corrompu",
+   "objectives": "Chercher un indice dans le camp des furbolgs Mort-bois, dans le nord de Gangrebois.",
+   "description": "Ce liquide verdâtre… cela me rappelle cette boue que j'ai vue lorsque je traversais Gangrebois. Et j'ai vu quelques messagers Tombe-hiver traverser le territoire des Grumegueules… Tout cela a peut-être un rapport avec la bouteille que vous avez trouvée, <nom>.\n\nIl y a un groupe important de furbolgs juste après le repaire des Grumegueules, à Gangrebois. Appelés les Mort-bois, la corruption les a rendus fous. Pourquoi ne pas chercher dans le coin des preuves qui montreraient les relations entre les Tombe-hiver et les Mort-bois ?",
+   "progress": null,
+   "completion": "Dans le chaudron bouillonne une substance putrescente à l'odeur insoutenable. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 176091,
+     "name": "Deadwood Cauldron"
+    }
+   ],
+   "zone_id": 618,
+   "level": 56,
+   "reqlevel": 52,
+   "side": "both",
+   "xp": 4350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5085": {
+   "id": 5085,
+   "name": "Gelée mystère",
+   "objectives": "Aller faire un rapport de vos trouvailles à Donova Snowden.",
+   "description": "La substance verdâtre dans le chaudron semble être similaire à ce que vous avez trouvé dans la fiole. Cette étrange matière gluante pourrait être aussi malsaine que le furbolg qui l'a créée…\n\nSi les furbolg Tombe-hiver l'utilisent, cela signifie-t-il qu'ils vont bientôt être aussi corrompus que la tribu Mort-bois ?\n\nIl serait mieux de faire votre rapport à Donova et de ramener un échantillon du liquide trouvé dans le chaudron.",
+   "progress": "J'espère que vous avez trouvé quelque chose, <nom>. Les Tombe-hiver deviennent de plus en plus aggressifs.",
+   "completion": "Vous êtes plein de ressources, <nom>. Pensez-vous que les furbolgs Tombe-hiver sont allés au camp des Mort-bois ?",
+   "starters": [
+    {
+     "type": "object",
+     "id": 176091,
+     "name": "Deadwood Cauldron"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "zone_id": 618,
+   "level": 56,
+   "reqlevel": 52,
+   "side": "both",
+   "xp": 4350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5086": {
+   "id": 5086,
+   "name": "Horreurs toxiques",
+   "objectives": "Récolter 3 Gouttelettes d'Horreur toxique pour Donova Snowden au Berceau-de-l'Hiver.",
+   "description": "J'ai étudié l'échantillon que vous avez ramené, et je n'en suis pas sûr mais je pense qu'il y a des traces d'éléments toxiques. Cependant, la seule façon d'en être certain est d'avoir des éléments de comparaison.\n\nJ'ai l'impression que les furbolgs Mort-bois sont en train de rassembler ces éléments à partir d'autres créatures corrompues à Gangrebois. En particulier, je pense aux élémentaires vivant dans le bois d'Arbrefer, appelés Horreurs toxiques.\n\nPrélevez quelques échantillons pour moi mais attention à vous !",
+   "progress": "Je crois que nous commençons à découvrir ce qu'il se passe ici, <nom>.",
+   "completion": "Il faut que je compare ceci à la substance que vous avez trouvée dans le chaudron, nous en saurons plus alors.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "zone_id": 618,
+   "level": 56,
+   "reqlevel": 52,
+   "side": "both",
+   "xp": 4350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5087": {
+   "id": 5087,
+   "name": "Les messagers des Tombe-hiver",
+   "objectives": "Trouver les Messagers Tombe-hiver et les empêcher de livrer leur cargaison au village Tombe-hiver.",
+   "description": "Très intéressant, <nom>…\n\nLorsque cette substance toxique est mélangée à l'eau des sources chaudes, elle perd sa toxicité, mais reste dangereuse temporairement pour ceux qui l'ingèrent. Voilà donc pourquoi les Tombe-hiver protègent les sources chaudes aussi ardemment : ils en ont besoin pour purifier leur eau de feu.\n\nNous devons arrêter ça. Coupez le contact entre les Tombe-hiver et les Noir-bois. Un groupe de messagers fait le chemin entre leur village et Gangrebois. Trouvez-les et éliminez-les en vous appropriant ce qu'ils transportaient.",
+   "progress": "Nous verrons ce qui arrive quand les Tombe-hiver sont privés d'eau de feu !",
+   "completion": "<Donova examine le contenu de la caisse>\n\nJe me demande si le fait de consommer cette substance ne rend pas les furbolgs plus agressif. Ils paraissent vraiment plus gros…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "zone_id": 618,
+   "level": 57,
+   "reqlevel": 52,
+   "side": "both",
+   "xp": 6000,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5121": {
+   "id": 5121,
+   "name": "Le grand chef Tombe-hiver",
+   "objectives": "Donova Snowden du Berceau-de-l'Hiver veut que vous triomphiez du Grand chef Tombe-hiver.",
+   "description": "Bien que nous ne sachions pas vraiment pourquoi les furbolgs ont ingéré cette étrange substance, je pense qu'il vaudrait mieux y mettre un terme avant que ça ne dégénère.\n\nLes furbolgs Tombe-hiver ne sont en général pas agressifs et ce changement de comportement me laisse à penser qu'ils suivent les ordres de leur chef. Nous ne pouvons pas revenir sur le mal qui a été fait mais je pense que si leur chef est anéanti, la situation ne peut empirer.\n\nAllez vers l'est au village des Tombe-hiver.",
+   "progress": "Vous en saurez peut-être plus en lisant Winterfall Village, <nom>.",
+   "completion": "Merci beaucoup, <nom>. J'espère revenir à mes chères études sans souci d'être prise en embuscade. Acceptez ceci comme récompense, je vous prie.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "zone_id": 618,
+   "level": 59,
+   "reqlevel": 52,
+   "side": "both",
+   "xp": 6400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5123": {
+   "id": 5123,
+   "name": "Le dernier morceau",
+   "objectives": "Apporter le Journal mal écrit à Donova Snowden au Berceau-de-l'Hiver.",
+   "description": "Le journal que vous avez trouvé sur le grand chef paraît fourni, mais après avoir feuilleté quelques pages, vous vous rendez compte que vous ne pouvez pas lire le texte. Les signes sont si rudimentaires et informes que vous n'êtes même pas sûr que quelqu'un pourra les lire.\n\nDonova pourra peut-être vous en dire plus...",
+   "progress": "Et alors, qu'est-ce que c'est, <nom> ?",
+   "completion": "Je me demande ce que tout cela veut dire… je n'y comprends rien…",
+   "starters": [
+    {
+     "type": "item",
+     "id": 12842,
+     "name": "Crudely-written Log"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "zone_id": 618,
+   "level": 59,
+   "reqlevel": 52,
+   "side": "both",
+   "xp": 3200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5124": {
+   "id": 5124,
+   "name": "Gantelets en plaque de feu",
+   "objectives": "Apporter à Malyfous Darkhammer 6 Barres de thorium enchanté, 2 Essences de feu, et 4 Rubis stellaires. Lui remettre également vos Gantelets en plaques inachevés.",
+   "description": "Par la barbe de Thaurissan !\n\nOù les avez-vous trouvés ?\n\nEt plus important encore, voudriez-vous vous en séparer ? Naturellement, je paierais pour un geste si noble.\n\nJe vais vous dire, <nom>… si vous me donnez ces Gantelets inachevés, je vous enseignerai comment en faire par vous-même. Tout ce dont vous avez besoin est de me trouver les parties nécessaires afin que je puisse trouver par élimination la recette exacte.\n\nSommes-nous d'accord ??\n\nVoici la liste des choses dont j'ai besoin. Je préparerai moi-même le thorium non enchanté puisque vous fournissez les Gantelets.",
+   "progress": "Le temps, c'est de l'argent, <nom> et je n'en ai pas beaucoup.",
+   "completion": "Comme promis, <nom>, voici votre recette ! Je vais également ajouter un petit quelque chose pour vous remercier de votre travail acharné et de votre dévouement. Qu'est-ce que je vais faire avec ça de toute façon ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10637,
+     "name": "Malyfous Darkhammer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10637,
+     "name": "Malyfous Darkhammer"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 8300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5126": {
+   "id": 5126,
+   "name": "L'histoire de Lorax",
+   "objectives": "Parler à Lorax. Écouter ce qu’il a à dire.",
+   "description": "Le satyre fait les cent pas et parle tout seul. Voulez-vous le questionner ?",
+   "progress": null,
+   "completion": "<Lorax rit. >",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10918,
+     "name": "Lorax"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10918,
+     "name": "Lorax"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5128": {
+   "id": 5128,
+   "name": "Paroles du Grand Chef",
+   "objectives": "Rapporter le Journal mal écrit à Kelek Skykeeper dans le sud de Gangrebois.",
+   "description": "Les Tombe-hiver ne représentent plus le moindre danger pour moi, mais si vous désirez toujours découvrir ce qui a poussé les furbolgs à créer et a utiliser cette étrange eau de feu, je pense que vous devriez rechercher Kelek Skykeeper.\n\nIl fait partie d'un groupe connu sous le nom du Cercle d'émeraude. Il s'agit de druides dévoués à leur travail dans Gangrebois et guérissant la terre de la corruption.\n\nKelek a beaucoup d'expérience avec les furbolgs de Gangrebois, et il se peut qu'il puisse vous en apprendre davantage à propos du journal.\n\nJe vous remercie encore, <nom>.",
+   "progress": "Le Cercle d'émeraude est bénéfique pour tous, <nom>. Que puis-je faire pour vous ?",
+   "completion": "Oui, si vous me laissez examiner ceci un moment, je pourrais être en mesure de vous le traduire.\n\n<Kelek feuillette les pages. >\n\nQuand je l'aurai étudié en entier, je vous en informerai.\n\nMerci de partager ceci avec moi, <nom>. On ne sait pas grand-chose des furbolgs Tombe-hiver.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10920,
+     "name": "Kelek Skykeeper"
+    }
+   ],
+   "zone_id": 618,
+   "level": 59,
+   "reqlevel": 52,
+   "side": "both",
+   "xp": 6400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5161": {
+   "id": 5161,
+   "name": "La colère du vol bleu",
+   "objectives": "Si vous souhaitez continuer, parlez à Haleh.",
+   "description": "Nous avons eu connaissance des plans de l'engeance maudite de l'Aile de mort, et nous ne pouvons pas les laisser faire.\n\nÀ cause de la protection que le mont Blackrock offre à Nefarian, il est devenu très difficile pour nous d'intervenir.\n\nCependant, nous pouvons vous donner des pouvoirs, si vous le désirez.\n\nLe chemin qui s'ouvre devant vous est périlleux. Acceptez-vous notre aide ? Réfléchissez bien et revenez me voir quand vous aurez pris une décision.",
+   "progress": null,
+   "completion": "Qu'il en soit ainsi…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10929,
+     "name": "Haleh"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10929,
+     "name": "Haleh"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 57,
+   "side": "both",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5163": {
+   "id": 5163,
+   "name": "Yéti ? Y es-tu ?",
+   "objectives": "Prendre le yéti mécanique d'Umi et effrayer ses amis avec :\n\nLegacki, à Long-guet (Berceau-de-l'Hiver)\nSprinkle, à Gadgetzan (Tanaris)\nQuixxil, au refuge des Marshal (Cratère d'Un'Goro)\n\nQuand vous aurez terminé, rapporter le yéti mécanique à Umi.",
+   "description": "Tout est prêt, <nom> !\n\nJ'envoie un courrier à mes amis, leur disant que j'ai une surprise pour eux. C'est là que vous intervenez !\n\nJe vais vous confier mon yéti mécanique. Vous allez rendre visite à chacun de mes amis, activer le yéti et l’envoyer vers eux.\n\nLorsque vous serez <passé/passée> voir Legacki à Long-guet, Sprinkle à Gadgetzan et Quixxil au refuge des Marshal, revenez et racontez-moi tout en détail !\n\nEt rapportez-moi mon yéti…",
+   "progress": "J'ai hâte de voir comment mes amis vont réagir !\n\nIls ne s'attendent pas à ça !",
+   "completion": "Ha ! Il y réfléchiront à deux fois avant de rire à nouveau de mes idées !\n\nMerci de votre aide, <nom>. Je ne me serais pas autant amusée sans vous !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10305,
+     "name": "Umi Rumplesnicker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10305,
+     "name": "Umi Rumplesnicker"
+    }
+   ],
+   "zone_id": 618,
+   "level": 58,
+   "reqlevel": 52,
+   "side": "both",
+   "xp": 7750,
+   "money": 9000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "passé/passée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5201": {
+   "id": 5201,
+   "name": "L'incursion des Tombe-hiver",
+   "objectives": "Rivern Frostwind veut que vous tuiez 5 Chamans Tombe-hiver et 5 Ursas Tombe-hiver.",
+   "description": "Ma présence reste inaperçue de la plupart, <nom>. Cependant, un problème semble perdurer au Berceau-de-l'Hiver : les furbolgs Tombe-hiver.\n\nBien que je n'ai jamais attaqué de front les furbolgs, ils semblent avoir perdu la raison, et craignent tout ce qui croise leur chemin. Je les ai vus massacrer un grand nombre de créatures qui avaient la malchance d'être là, tout simplement.\n\nJe suis fatigué de leur agressivité. Aidez-moi à les combattre. Tuez les furbolgs et maintenez-les à distance du Roc des Sabres-de-givre.",
+   "progress": "Les furbolgs semblent souffrir d'une telle paranoïa...",
+   "completion": "Je suis soulagé de savoir qu'au moins un temps, nous n'avons pas d'incursion à redouter des Tombe-hiver.\n\nVous commencez à montrer de la persévérance, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10618,
+     "name": "Rivern Frostwind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10618,
+     "name": "Rivern Frostwind"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5244": {
+   "id": 5244,
+   "name": "Les ruines de Kel'Theril",
+   "objectives": "Parler à Jaron Stoneshaper au village de Pluie-d'Etoiles",
+   "description": "L'histoire qui suit Kel'Theril est celle d'une race maudite, liée à l'endroit où s'est déroulé un malheureux rituel…\n\nLe Bien-né que vous trouverez là a jadis volé un artefact sacré, croyant qu'il pouvait absorber sa puissance, pour la transmettre aux siens. Lors du rituel, la relique fut détruite à la suite d'une explosion qui éparpilla les morceaux sous la glace du lac...\n\nParlez avec Jaron Stoneshaper pour en savoir plus. Il a récemment parcouru la zone et connaît le coin.",
+   "progress": null,
+   "completion": "Évidemment que je peux vous en dire plus sur Kel'Theril. Bien que je ne sois pas un historien, je puis vous raconter ce que j'y ai vu…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11079,
+     "name": "Wynd Nightchaser"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10301,
+     "name": "Jaron Stoneshaper"
+    }
+   ],
+   "zone_id": 618,
+   "level": 56,
+   "reqlevel": 53,
+   "side": "alliance",
+   "xp": 580,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5245": {
+   "id": 5245,
+   "name": "Les Esprits troublés de Kel'Theril",
+   "objectives": "Utiliser la Pique de Jaron pour trouver les quatre Fragments de relique des Bien-nés. Les apporter à Aurora Skycaller dans les Maleterres de l’est.",
+   "description": "Les esprits des Bien-nés sont de misérables créatures, c'est certain. Ils sont toujours à la recherche des morceaux de l'objet qui les a maudits et liés à Kel'Theril pour toujours : la Relique volée.\n\nSi cela vous intéresse, prenez ma pioche et allez au sud du lac. Voyez si vous pouvez réunir les morceaux pris sous la glace.\n\nJe ne peux pas vous renseigner sur ce que vous avez trouvé, mais je connais quelqu'un qui en saura plus... Aurora Skycaller, elle vit à la tour du Col du nord, dans les Maleterres de l'Est.",
+   "progress": "Pourquoi êtes-vous venu ici ?",
+   "completion": "Nous ne désirons pas évoquer le passé des hauts-elfes, <nom>. S'il vous plaît, il me peine de repenser à tout ce qui est arrivé… Et qu'il n'y ait rien à faire pour redresser les choses.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10301,
+     "name": "Jaron Stoneshaper"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10304,
+     "name": "Aurora Skycaller"
+    }
+   ],
+   "zone_id": 618,
+   "level": 56,
+   "reqlevel": 53,
+   "side": "alliance",
+   "xp": 5800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5252": {
+   "id": 5252,
+   "name": "Une Bien-née pleine de remords",
+   "objectives": "Parler à Wynd Nightchaser au village de Pluie-d'Etoiles et lui demander quel est le bon endroit pour le Cristal de Zin-Malor.",
+   "description": "Le…Le cristal…\n\nIci, les Bien-nés sont aveuglés par leur propre souffrance…\n\nJe suis trrriste mais je me rends compte de l'erreur commise il y a si longtemps. Bien qu'on ne puiiisse pas changer le passé, je suis maintenant en paix, sachant que vous avez découvert le cristal de Zin-Malor...\n\nVouuus devez le rendre...\n\nIl doiiiit être rrrendu.",
+   "progress": "Voilà longtemps que vous êtes parti, <nom>. Comment cela s'est-il passé ?",
+   "completion": "Est-ce… ce à quoi je pense ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10684,
+     "name": "Bien-née pénitente"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11079,
+     "name": "Wynd Nightchaser"
+    }
+   ],
+   "zone_id": 618,
+   "level": 58,
+   "reqlevel": 53,
+   "side": "alliance",
+   "xp": 4650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5253": {
+   "id": 5253,
+   "name": "Le Cristal de Zin-Malor",
+   "objectives": "Apporter le Cristal de Zin-Malor à l’archidruide Fandral Staghelm à Darnassus.",
+   "description": "Impressionnant, <nom>.\n\nLe cristal de Zin-Malor ne pourra jamais être replacé dans le temple qui, vous le savez, est maintenant en ruine. Mais j’estime que vos efforts pour réparer les méfaits du passé ne doivent pas rester sans récompense.\n\nTrouvez l'archidruide Fandral Staghelm à Darnassus et apportez-lui le cristal, <nom>. Il doit être remis entre les mains de ceux qui n'abuseront pas de son pouvoir. Apparemment, seule une poignée d’utilisateurs de magie, parmi les plus puissants, sont capables de contrôler une telle force.",
+   "progress": "Oui, <nom> ?",
+   "completion": "J'ai entendu parler du cristal de Zin-Malor. Celui qui le détient devient le maître d'une puissance des arcanes incroyable, mais seulement s'il le mérite. Je suis impressionné que vous l'ayez retrouvé et encore plus que, connaissant vos limites, vous ne l'ayez pas utilisé.\n\nMerci de me l'avoir apporté, <nom>. Nous le garderons en sûreté, et puissent les âmes damnées qui le gardaient autrefois trouver enfin le repos.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11079,
+     "name": "Wynd Nightchaser"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3516,
+     "name": "Archidruide Fandral Staghelm"
+    }
+   ],
+   "zone_id": 618,
+   "level": 58,
+   "reqlevel": 53,
+   "side": "alliance",
+   "xp": 6200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5981": {
+   "id": 5981,
+   "name": "Géants déchaînés",
+   "objectives": "Rivern Frostwind voudrait que vous tuiez 4 Géants Cognegivre et 4 Protecteurs Cognegivre.",
+   "description": "Il y a environ quatre mille ans, Tyrande Whisperwind a sauvé la reine des sabres-de-givre, aux prises avec des géants déchaînés. Depuis, les sabres-de-givre sont les alliés des elfes de la nuit.\n\nCes géants, qui étaient autrefois un danger pour les sabres-de-givre, existent toujours. Ce sont les géants Cognegivre et ils sont installés dans la grande vallée au sud, pas très loin d'ici.\n\nProuvez votre fidélité aux sabres-de-givre : tuez-en au nom de leur reine, Shy-Rotam !",
+   "progress": "Vous devez continuer à faire vos preuves, <nom>.",
+   "completion": "Excellent, <nom>. Votre détermination a été dûment prise en compte.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10618,
+     "name": "Rivern Frostwind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10618,
+     "name": "Rivern Frostwind"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6028": {
+   "id": 6028,
+   "name": "Le rapport de Long-guet",
+   "objectives": "Apportez le Rapport de Long-guet à l'officier de l'Aube d'argent Pureheart au Camp du Noroît, dans les Maleterres de l'ouest.",
+   "description": "Je suis à la recherche d’une personne sérieuse qui voudrait m’aider pour une petite affaire qui n’est pas sans importance. Je suis ici en tant que représentant de l’Aube d'argent, auprès des dirigeants de Long-guet. J’ai besoin d’obtenir un rapport et de le transmettre à l’officier de l'Aube d'argent, Pureheart, au camp du Noroît. L’endroit se trouve le long de la lisière sud des Maleterres de l’ouest.\n\nL’occasion serait trop belle de vous présenter à ma supérieure, et peut-être d’en obtenir du travail !",
+   "progress": "Salutations, <classe>. Au nom de l'Aube d'argent, je vous offre la protection et un abri tant que vous serez au Camp du Noroît. J'aurai peut-être du travail pour vous. . .",
+   "completion": "Gregor est plein de ressources pour un humain. Il traite avec le Cartel Gentepression depuis quelque temps maintenant et est devenu une sorte d'expert dans l'\"art\" de la négociation gobeline. On sait que la loyauté des gobelins va à la plus grosse bourse, mais qu’ils connaissent et respectent aussi la vertu de la diplomatie. Au pire, ça leur attire des clients. . .\n\nL'Aube d'argent vous est très reconnaissante pour vos efforts. S'il vous plaît, prenez ceci et acceptez mes remerciements.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10431,
+     "name": "Gregor Greystone"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10840,
+     "name": "Officier de l'Aube d'argent Pureheart"
+    }
+   ],
+   "zone_id": 618,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 2550,
+   "money": 4000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6029": {
+   "id": 6029,
+   "name": "Le rapport de Long-guet",
+   "objectives": "Livrer le Rapport de Long-guet à l’officier Garush de l'Aube d'argent, à la Barricade, dans les Maleterres de l’ouest.",
+   "description": "Je cherche une personne sérieuse pour m’aider dans une petite affaire, qui n’en est pas moins importante. Je représente les intérêts de l’Aube d'argent devant l’autorité locale de Long-guet. J’ai besoin de fournir un rapport à l’officier de l'Aube d'argent, Garush, à la Barricade ; cela se trouve à quelque distance d’ici, le long de la lisière ouest des Maleterres de l'ouest, à l’est des Clairières de Tirisfal.\n\nCela serait l’occasion de vous présenter à mon supérieur, et peut-être d’obtenir du travail, sous son commandement !",
+   "progress": "Salutations, <classe>. Au nom de l'Aube d'argent, je vous offre la protection et un abri tant que vous serez à la Barricade. Je vous donnerai peut-être une chance de combattre pour une noble cause !",
+   "completion": "Gregor est plein de ressources pour un humain. Il traite avec le Cartel Gentepression depuis quelque temps maintenant et est devenu une sorte d'expert dans l'\"art\" de la négociation gobeline. On sait que la loyauté des gobelins va à la plus grosse bourse, mais qu’ils connaissent et respectent aussi la vertu de la diplomatie. Au pire, ça leur attire des clients. . .\n\nL'Aube d'argent vous est très reconnaissante pour vos efforts. S'il vous plaît, prenez ceci et acceptez mes remerciements.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10431,
+     "name": "Gregor Greystone"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10839,
+     "name": "Officier de l'Aube d'argent Garush"
+    }
+   ],
+   "zone_id": 618,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "horde",
+   "xp": 2550,
+   "money": 4000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6030": {
+   "id": 6030,
+   "name": "Le duc Nicholas Zverenhoff",
+   "objectives": "Apportez le livre \" Etudes sur la langue des Esprits \" au duc Nicholas Zverenhoff, à la chapelle de l'Espoir de Lumière, dans les Maleterres de l'est.",
+   "description": "Umbranse, une médium qui vit en recluse dans la région, a offert à l’Aube d'argent un chef-d’œuvre de littérature... un de ceux qui comprennent une quantité indécente de blabla en prose.\n\nL'un des chefs les plus respectés de l'Aube, le duc Nicholas Zverenhoff, est aussi un brillant linguiste. Pourriez-vous lui apporter cela de ma part, contre une récompense ? La chapelle de l'Espoir de Lumière, c’est là qu’il réside en ce moment. L’endroit se trouve loin à l’est, à l'intérieur des Maleterres de l’est.",
+   "progress": "Que la Lumière vous guide en ces temps troublés, <classe>. Qu'est-ce qui vous amène dans ce lieu d'espoir au beau milieu des ténèbres et du désespoir ?",
+   "completion": "Ceci. . . ce que vous m'avez apporté est un livre très spécial. Je précise que \"spécial\" dans ce cas signifie \"unique et instructif\", enfin cela reste à vérifier.\n\n\"Ooooooo?\" Qui de normalement constitué pourrait avoir ce genre d'idée ?\n\nBon, maintenant j'ai entendu parler de cette Umbranse que Gregor avait mentionnée, ce n'est donc pas sans mérite. Je ferai de mon mieux pour le déchiffrer. Et pour vous. . . acceptez ceci en récompense. Pendant que vous êtes là, vous pourriez peut-être nous aider…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10431,
+     "name": "Gregor Greystone"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11039,
+     "name": "Duc Nicholas Zverenhoff"
+    }
+   ],
+   "zone_id": 618,
+   "level": 52,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 2550,
+   "money": 4000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6603": {
+   "id": 6603,
+   "name": "Troubles au Berceau-de-l'Hiver",
+   "objectives": "Trouver Donova Snowden, à côté des sources chaudes du Berceau-de-l'Hiver.",
+   "description": "Il y a du grabuge au Berceau-de-l'Hiver !\n\nSûr, je passe du temps dans les étendues sauvages et je connais des choses... Je suis toujours très fière de le dire. Je considère que les heures que je passe là-bas dans les collines sont comme de l'or. Elles aident à avoir des réflexes rapides, une tête fraîche et un œil aiguisé...\n\nIl faut du jugement, de l'intelligence et de la maturité pour apprécier la solitude de ces chemins.\n\nBon, de quoi j'étais en train de parler ?\n\nAh oui, du grabuge ! Allez voir Donova Snowden aux sources chaudes, elle vous en dira plus.",
+   "progress": null,
+   "completion": "Hé, salut ! Alors Meggi vous a parlé du problème que j'ai découvert ici ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11754,
+     "name": "Meggi Peppinrocker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "zone_id": 618,
+   "level": 56,
+   "reqlevel": 52,
+   "side": "both",
+   "xp": 580,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6604": {
+   "id": 6604,
+   "name": "Les Indomptables enragés",
+   "objectives": "Parler à Jaron Stoneshaper, au village de Pluie-d'Etoiles.",
+   "description": "Avez-vous remarqué le camp abandonné au sud d'ici ? Il semble que les Indomptables soient devenus fous et qu’ils aient tout détruit sur leur passage !\n\nIl paraît qu'un des survivants de l'attaque est resté au village de Pluie-d'Etoiles, à l'ouest. Je suis curieux de savoir ce qui s'est passé... Pas vous ?",
+   "progress": null,
+   "completion": "Salut, qu'est-ce que je peux faire pour vous ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11755,
+     "name": "Harlo Wigglesworth"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10301,
+     "name": "Jaron Stoneshaper"
+    }
+   ],
+   "zone_id": 618,
+   "level": 59,
+   "reqlevel": 53,
+   "side": "alliance",
+   "xp": 640,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6605": {
+   "id": 6605,
+   "name": "Une étrange personne",
+   "objectives": "Parler à Winna Hazzard, à Gangrebois.",
+   "description": "Je reviens tout juste de Gangrebois, <nom>. Sur le chemin, je me suis arrêté au Poste de la Vénéneuse et j'ai rencontré une personne très étrange... Elle semblait absorbée par quelque chose. Je pourrais vous dire de quoi il s'agit, mais je pense qu'elle préférerait vous l'expliquer elle-même.\n\nSi cela vous intéresse, allez au Poste de la Vénéneuse, à l'ouest de Gangrebois, et demandez Winna Hazzard.\n\nQui sait, elle pourrait avoir besoin de votre aide...",
+   "progress": null,
+   "completion": "Ah, <classe>. Je vois qu'il y a de l'espoir maintenant. Êtes-vous ici pour me porter assistance ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11755,
+     "name": "Harlo Wigglesworth"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9996,
+     "name": "Winna Hazzard"
+    }
+   ],
+   "zone_id": 618,
+   "level": 54,
+   "reqlevel": 49,
+   "side": "horde",
+   "xp": 540,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6606": {
+   "id": 6606,
+   "name": "Un peu de chance",
+   "objectives": "Parler à la Mau'ari, à Long-guet.",
+   "description": "Nous pouvons toujours bénéficier d'un petit peu de chance, hein ? Un petit avantage, c'est tout ce qu'il faut pour que les choses tournent en votre faveur...\n\nIl y a quelque temps, j'ai eu l'occasion de faire la connaissance d'une érudite plutôt excentrique qui suit la voie des sorciers-docteurs. Elle m'a fait un charme de chance... pour un prix certain. Mais croyez-moi, il le vaut bien !\n\nÇa vous intéresserait peut-être d'avoir le vôtre ? Allez voir Mau'ari à Long-guet. Je garde le mien !",
+   "progress": null,
+   "completion": "Ah, Harlo vous envoie ? Eh bien, qui êtes-vous ? Je suppose que vous voulez mon aide ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11755,
+     "name": "Harlo Wigglesworth"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10307,
+     "name": "Sorcier-docteur Mau'ari"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8471": {
+   "id": 8471,
+   "name": "Le totem rituel des Tombe-hiver",
+   "objectives": "Emportez le totem rituel Tombe-hiver au Repaire des Grumegueules et voyez si l’un des furbolgs lui trouve une utilisation. Les Grumegueules ne vous parleront pas si vous n’avez pas à leur égard une réputation Neutre au minimum.",
+   "description": "Vous avez trouvé l’un des totems rituels des furbolgs Tombe-hiver. Le totem lui-même n’a pas une construction bien définie, mais il semble émaner de lui un sentiment de terreur et de désespoir presque tangible. Si un grand nombre de furbolgs Tombe-hiver en porte, cela explique beaucoup de choses sur leur condition actuelle.\n\nL’un des furbolgs du Repaire des Grumegueules pourrait se servir d’un tel objet… Enfin, si vous avez suffisamment gagné leur confiance pour qu’ils acceptent de vous parler.",
+   "progress": "<classe>, vous venez vers nous d’une manière pacifique, mais je sens que vous êtes ici pour un sujet grave et important… Autant pour votre peuple, <race>, que pour les furbolgs. Que venez-vous nous dire ?",
+   "completion": "Cette chose… Elle a la forme d’un totem rituel Tombe-hiver, mais elle a été corrompue par des forces que je ne parviens même pas à comprendre. La souillure qui a tourné les Tombe-hiver contre nous est sûrement présente dans cet objet.\n\nLa sagesse divine vous a conduit tous deux ici, <nom>. Nous allons étudier cet objet très attentivement ; peut-être qu’un jour, les Tombe-hiver perdront leur rage à notre égard.\n\nMerci, mon ami. Acceptez ces offrandes en remerciement de votre bienveillance.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 20742,
+     "name": "Winterfall Ritual Totem"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11558,
+     "name": "Kernda"
+    }
+   ],
+   "zone_id": 618,
+   "level": 56,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 5800,
+   "money": 17000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8798": {
+   "id": 8798,
+   "name": "Un yéti rien que pour vous",
+   "objectives": null,
+   "description": "Je sais ! Vous êtes ingénieur, vous aussi ! Comme vous m’avez aidée à donner une leçon à mes amis, je vais vous apprendre à construire votre propre yéti mécanique ! Comme ça, vous n’aurez jamais fini de vous amuser, et vous pourrez faire peur à qui vous voulez ! Enfin, si vous arrivez à récupérer les éléments pour le fabriquer, bien sûr.\n\nQu’en dites-vous, <nom> ? Voulez-vous apprendre le secret de la fabrication des yétis mécaniques ?\n\nVérifiez si vous l'avez déjà terminé en tapant :",
+   "progress": null,
+   "completion": "Dites ! Tu sais quoi ? Tu es aussi un ingénieur ! Alors, puisque tu m'as aidé à donner une leçon à mes amis, je vais t'apprendre à fabriquer ton propre yéti mécanique ! Maintenant, le plaisir peut durer éternellement, et tu peux effrayer qui tu veux ! À condition que tu puisses te procurer les composants nécessaires à sa fabrication.\n\nQu'en dites-vous, <nom> ? Voulez-vous apprendre le secret de la fabrication d'un yéti mécanique ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10305,
+     "name": "Umi Rumplesnicker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10305,
+     "name": "Umi Rumplesnicker"
+    }
+   ],
+   "zone_id": 618,
+   "level": 60,
+   "reqlevel": 55,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

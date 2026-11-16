@@ -1,0 +1,2916 @@
+{
+ "schema": 1,
+ "zone": "kalimdor/ungoro-crater",
+ "zone_id": 490,
+ "zone_name": "Cratère d'Un'Goro",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 52,
+  "complete": 43,
+  "incomplete": 9,
+  "unavailable": 0,
+  "missing_description": 9,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 6
+ },
+ "quests": {
+  "974": {
+   "id": 974,
+   "name": "À la recherche de la source",
+   "objectives": "Découvrir la zone la plus chaude de la crête de la Fournaise, pour Krakle, au cratère d'Un'Goro.\n\nQuand vous trouvez une zone de chaleur, cliquez avec le bouton droit de la souris sur le thermomètre afin de prendre la température. Continuez vos recherches jusqu’à avoir trouvé la zone la plus chaude.",
+   "description": "Les sources chaudes ne cesseront de m’étonner ; d’où vient cette chaleur ?\n\nVu à quel point les sources sont proches de la crête de la Fournaise, je me demande si l’influence du volcan n’est pas responsable. J’ai créé un thermomètre pour lire et enregistrer la température de différentes parties du volcan et trouver la plus chaude. La chaleur est exprimée en degrés Kraklenheit !\n\nVoici, prenez-le et faites des mesures de température sur la crête, dès que vous voyez un point chaud !",
+   "progress": "J'y serais bien allé moi-même, mais. . . J'ai peur des élémentaires de feu qui s'y trouvent !",
+   "completion": "Oui, finalement, je vois bien la corrélation entre la température du volcan et celle des sources chaudes. Je dois vérifier mes équations pour être le plus précis possible, mais vu la distance et la vitesse à laquelle la chaleur est transférée. . . Hm. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10302,
+     "name": "Krakle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10302,
+     "name": "Krakle"
+    }
+   ],
+   "zone_id": 490,
+   "level": 55,
+   "reqlevel": 51,
+   "side": "both",
+   "xp": 5650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "980": {
+   "id": 980,
+   "name": "Les nouvelles sources",
+   "objectives": "Se rendre au Berceau-de-l'Hiver et parler à Donova Snowden.",
+   "description": "Il y a d’autres sources chaudes dans un endroit appelé le Berceau-de-l'Hiver, loin au nord. Ce qui est étrange, c’est qu’il n’y a pas de volcan à proximité ; intéressant n’est-ce pas ?\n\nSi vous voulez en apprendre plus, vous devriez aller au Berceau-de-l'Hiver et parler à une de mes amies. Son nom est Donova Snowden, et elle réside aux environs de ces sources.\n\nMerci de m’aider avec mon thermomètre et à plus tard !",
+   "progress": null,
+   "completion": "Bonjour, <nom>. Oui, ce que Krakle vous a dit est vrai. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10302,
+     "name": "Krakle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "zone_id": 490,
+   "level": 55,
+   "reqlevel": 51,
+   "side": "both",
+   "xp": 2800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3844": {
+   "id": 3844,
+   "name": "C'est un Secret pour tout le monde",
+   "objectives": "Rechercher dans l'étang un indice sur l'identité du propriétaire du radeau brisé.",
+   "description": "Un radeau brisé repose le long du rivage. Vu qu'il ne s'agit que d'un petit étang, on peut se demander comment ce radeau a échoué ici. Les traces sur les arbres aux alentours indiquent cependant que le niveau de l'eau pourrait varier.\n\nExplorer ce secteur pourrait révéler des indices supplémentaires...",
+   "progress": null,
+   "completion": "Un paquet imprégné d'eau repose au fond de l'étang.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 161505,
+     "name": "A Wrecked Raft"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 161504,
+     "name": "A Small Pack"
+    }
+   ],
+   "zone_id": 490,
+   "level": 52,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 1250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3845": {
+   "id": 3845,
+   "name": "C'est un secret pour tout le monde",
+   "objectives": "Examiner les objets du paquet et les apporter à leur propriétaire.",
+   "description": "Après vous être <emparé/emparée> du paquet, vous l'apportez jusqu'au rivage. Peut-être que si vous examinez les objets qui l'emplissent, vous pourrez en découvrir davantage sur l'identité de son propriétaire.\n\nQuelques voyageurs égarés se trouvent au refuge des Marshal. Il se peut que vous en appreniez plus en ces lieux.",
+   "progress": "Salut. Je vous ai déjà rencontré par le passé… non ?",
+   "completion": "Ah… Oui, ces choses me semblent familières… vaguement…",
+   "starters": [
+    {
+     "type": "object",
+     "id": 161504,
+     "name": "A Small Pack"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8737,
+     "name": "Linken"
+    }
+   ],
+   "zone_id": 490,
+   "level": 52,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 5100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "emparé/emparée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3881": {
+   "id": 3881,
+   "name": "Le sauvetage de l'expédition",
+   "objectives": "Apporter une Caisse de nourriture et de l'Equipement de recherche à Williden Marshal dans le Cratère d'Un'Goro.",
+   "description": "Je ne sais pas comment vous êtes <parvenu/parvenue> jusqu'ici, mais votre arrivée me réjouit ! Je me nomme Williden Marshal et je mène une expédition neutre. Notre dernière tentative s'est soldée par d'innombrables désastres. Nous avons sous-estimé le danger représenté par le Cratère d'Un'Goro.\n\nAlors que nous fuyions nos campements, dans le sud-ouest et le nord-est du cratère, nous avons laissé derrière nous des fournitures d’une importance vitale. Vous avez l’air valeureux, pouvez-vous nous aider à les récupérer ?",
+   "progress": "Si nous voulons avoir la moindre chance de nous en sortir vivants, nous avons besoin de notre grande caisse de nourriture. De même, pouvoir récupérer une partie de notre équipement de recherche serait un réconfort dans une vallée de larmes.",
+   "completion": "Vous nous rapportez nos rations ET notre équipement de recherche ! Vous avez non seulement sauvé nos recherches, mais aussi nos vies. Le reste de l'équipe et moi-même ne pourrons jamais vous en remercier assez ; nous pourrons nous installer ici pour quelques temps, grâce à vous.\n\nBien que nous n'ayons pas grand-chose, je ne vous laisserai pas ici sèchement après l'aide inestimable que vous nous avez apportée. Merci, <nom>, comptez sur un nouvel ami dans les Expéditions Marshal !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9270,
+     "name": "Williden Marshal"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9270,
+     "name": "Williden Marshal"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 48,
+   "side": "both",
+   "xp": 3950,
+   "money": 4000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "parvenu/parvenue"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3882": {
+   "id": 3882,
+   "name": "Faites rouler les os",
+   "objectives": "Apporter 8 Os de dinosaure à Spark Nilminer, au cratère d'Un'Goro.",
+   "description": "On pourrait penser qu'être chef terrassier pour les Expéditions Marshal signifie que j'aime creuser. Il y a des choses bien plus désagréable à faire en ce monde… mais aucune ne me vient à l'esprit.\n\nNous étions supposés creuser dans les Coteaux de la terreur - quel nom FANTASTIQUE, soit dit en passant - à la recherche de stégodons et de dimeurtrodons morts ! Eh bien, figurez-vous qu'il en reste aussi beaucoup de vivants ! Wil et Hol essaient toujours de se sortir de ce piège, alors nous devons ramener ces os de dinosaures. Entre vous et moi, qu'il s'agisse d'os provenant de créatures vivantes fera l'affaire.",
+   "progress": "Pensez ce que vous voulez ; entre les os qui proviennent d'anciens stégodons et dimeurtrodons et ceux de la créature qui vient d'essayer de nous dévorer, ils ne feront pas la différence. La seule chose qui m'importe, c'est que nous sortions d'ici vivants. . .",
+   "completion": "Parfait, ils devraient faire l'affaire. Et maintenant, si vous voulez bien…\n\nMERCI D'AVOIR EFFECTUÉ DES FOUILLES POUR RASSEMBLER TOUS CES OS POUR NOUS SANS AVOIR PERTURBÉ LA FAUNE LOCALE DE QUELQUE MANIÈRE QUE CE SOIT.\n\nCe qui s'est réellement passé, je ne veux pas le savoir. Gardons ça entre nous, d'accord ? Tenez, j'espère que cela suffira pour que vous taisiez toute l'histoire. Tant qu'on s'en sort vivants. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9272,
+     "name": "Spark Nilminer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9272,
+     "name": "Spark Nilminer"
+    }
+   ],
+   "zone_id": 490,
+   "level": 51,
+   "reqlevel": 49,
+   "side": "both",
+   "xp": 4900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3883": {
+   "id": 3883,
+   "name": "Ecologie étrangère",
+   "objectives": "Utiliser la Fiole de raclement pour récolter un Echantillon de paroi de la ruche dans une des nurseries de la ruche Gorishi, à l’intérieur du cratère d'Un'Goro. Chercher les chambres qui contiennent des larves suspendues.\n\nApporter l’Echantillon de paroi de la ruche à Hol'anyee Marshal dans le cratère d'Un'Goro.",
+   "description": "On ne va pas arrêter les recherches à cause d'un échec ! Avant d'arriver ici, nous faisions des études sur les insectes Gorishi dans la partie sud du cratère. Leur présence est une nouveauté dans l'écologie d'Un'Goro et nous voulons savoir pourquoi.\n\nDans leur ruche, il doit exister une écloserie pour les larves. Vous pouvez identifier ces lieux parce que des larves sont suspendues. Utilisez cette fiole pour prélever un échantillon de la paroi de la ruche près de l'une des écloseries. Rapportez-la-moi pour que je l'étudie !",
+   "progress": "Avez-vous un échantillon de ruche Gorishi afin que je puisse l'examiner, <nom> ?",
+   "completion": "Oui, cela sera parfait. Vous nous avez été d'un grand secours… j'aimerais mieux vous récompenser, mais se tenir au milieu d'une terre sauvage ne me permet pas d'exaucer ce souhait. Soyez tranquille, cependant. Les recherches que nous menons ici n'auraient pas été possibles sans votre aide.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9271,
+     "name": "Hol'anyee Marshal"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9271,
+     "name": "Hol'anyee Marshal"
+    }
+   ],
+   "zone_id": 490,
+   "level": 52,
+   "reqlevel": 48,
+   "side": "both",
+   "xp": 2550,
+   "money": 4000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3884": {
+   "id": 3884,
+   "name": "Le journal de Williden",
+   "objectives": "Rapporter le Journal à Williden Marshal quelque part dans le Cratère d'Un'Goro.",
+   "description": "Vous avez découvert un journal en piteux état. On peut encore en déchiffrer certaines parties, cependant. Notamment le nom de son propriétaire, inscrit à l'intérieur : Williden Marshal. Si le journal dit vrai, alors Williden devrait se trouver quelque part dans la partie nord du cratère. D'après ce que raconte le journal, lui et ses hommes sont partis pour des terres plus élevées et à l'abri des bêtes sauvages lorsque leurs camps de base se sont vus submergés.",
+   "progress": "Salut ! Moi et mes compagnons sommes heureux de rencontrer une créature vivante qui ne soit pas une bête sauvage géante ! Qu'est-ce qui vous amène dans le Cratère d'Un'Goro ?",
+   "completion": "Eh bien regardez ça ! Mon journal ! J'ai cru qu'il était perdu, à peu près comme tout ce que nous avons pu apporter au Cratère d'Un'Goro. Je vous remercie du fond du cœur de me l'avoir rapporté !",
+   "starters": [
+    {
+     "type": "item",
+     "id": 11116,
+     "name": "A Mangled Journal"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9270,
+     "name": "Williden Marshal"
+    }
+   ],
+   "zone_id": 490,
+   "level": 50,
+   "reqlevel": 48,
+   "side": "both",
+   "xp": 3550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3908": {
+   "id": 3908,
+   "name": "C'est un Secret pour tout le monde",
+   "objectives": "Apporter l’Epée de Linken à Donova Snowden dans le Berceau-de-l'Hiver.",
+   "description": "Vous comprenez, j'ignore comment j'ai échoué ici. Et personne ne peut me le dire. C'est un mystère pour tout le monde ! Il semble que je ne puisse me souvenir de rien…\n\nCes objets que vous m'avez apportés… ils me rappellent quelque chose, quand même.\n\nMon épée... j'étais supposé la renforcer de quelque manière, mais je ne sais pas vraiment pourquoi. Cela me navre de ne pas pouvoir m'en souvenir et d'être incapable de vous en dire plus, je suis désolé !\n\nMais ce que je peux vous dire, c'est à qui l'apporter : Donova Snowden, au Berceau-de-l'Hiver. Vous la trouverez près des sources chaudes. Elle peut y tremper l'épée.",
+   "progress": "Je ne peux y croire… Ainsi Linken est enfin parvenu à m'envoyer cette épée.",
+   "completion": "Mais bien sûr que je peux tremper cette épée. Mais pourquoi a-t-il eu besoin de tellement de temps pour me la faire parvenir ? Ce n'est pas le genre d'homme à oublier les choses…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8737,
+     "name": "Linken"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "zone_id": 490,
+   "level": 52,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 5100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3909": {
+   "id": 3909,
+   "name": "L'élixir de Videre",
+   "objectives": "Rechercher Gregan Brewspewer au nord de Feralas. Apprendre de lui comment vous pouvez acquérir l'élixir de Videre, puis retourner voir Donova Snowden, au Berceau-de-l'Hiver.",
+   "description": "Non, ce n'est pas vrai ! Linken ? Il a OUBLIÉ ?\n\nAh, je vois… il a perdu la mémoire…\n\nBien, voici son épée. Elle n'est pas terminée, cependant. Je connais celui qui pourrait l'achever, mais… parvenir à lui parler pourrait s'avérer difficile.\n\nÉcoutez, je sais qui peut vous aider. Ce serait trop long à expliquer en détails, mais vous devez obtenir de l'élixir de Videre. La seule personne qui peut vous aider à le trouver se nomme Gregan Brewspewer. Il est difficile de le localiser, mais aux dernières nouvelles, il campait dans les terres sauvages de Feralas.",
+   "progress": "Vous êtes déjà de retour ?",
+   "completion": "Je vais avoir besoin d'une fiole pour m'assurer qu'il s'agit bien de l'élixir… Oui… C'est bien cela.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "zone_id": 490,
+   "level": 52,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 5100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3912": {
+   "id": 3912,
+   "name": "Rendez-vous à la tombe",
+   "objectives": "Se rendre au cimetière au-dehors de Gadgetzan et boire l'élixir de Videre. Suivre le reste des instructions de Donova pour trouver Gaeriyan.",
+   "description": "Cet élixir va vous permettre de vous entretenir avec quelqu'un que vous ne pourriez même pas voir en temps normal…\n\nApportez l'élixir de Videre et l'épée de Linken jusqu'au cimetière au-dehors de Gadgetzan, à Tanaris. Une fois <arrivé/arrivée>, buvez la potion. Les conséquences pourraient vous surprendre, mais en aucun cas n'ayez crainte.\n\nUne fois que vous aurez votre \"nouvelle\" forme, dirigez-vous vers le nord jusqu'à ce que vous atteigniez les montagnes. Vous trouverez la personne à qui vous devez parler dans l'une des lézardes rocheuses. Il se nomme Gaeriyan.\n\nSouvenez-vous ! Il ne vous parlera que si vous avez adopté cette forme...",
+   "progress": null,
+   "completion": "Cela fait longtemps que quelqu'un n'est pas venu me parler…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9298,
+     "name": "Donova Snowden"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9299,
+     "name": "Gaeriyan"
+    }
+   ],
+   "zone_id": 490,
+   "level": 52,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 5100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "arrivé/arrivée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3913": {
+   "id": 3913,
+   "name": "Une situation grave",
+   "objectives": "Ressusciter, puis rechercher la pierre tombale que Gaeriyan vous a demandé de trouver.",
+   "description": "Si vous retournez au cimetière dont vous venez, <nom>, vous y trouverez une pierre tombale particulière. Celle-ci se démarquera des autres. Elle renferme des secrets.\n\nPoussez la pierre, et vous les apprendrez…",
+   "progress": "Il doit s'agir de la pierre tombale dont parlait Gaeriyan…",
+   "completion": "Vous poussez fermement la pierre, et elle glisse pour révéler un creux.\n\nVous y placez l'Epée de Linken et vous réalisez qu'elle s'y adapte parfaitement.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9299,
+     "name": "Gaeriyan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 148504,
+     "name": "A Conspicuous Gravestone"
+    }
+   ],
+   "zone_id": 490,
+   "level": 52,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 2550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3914": {
+   "id": 3914,
+   "name": "L'épée de Linken",
+   "objectives": "Remettre l'Epée excellente de Linken à Linken dans le cratère d'Un'Goro.",
+   "description": "Après un grand flash, vous pouvez à nouveau vous saisir de l'épée. Elle s'est transformée !",
+   "progress": "Oh ! Je me souviens de vous ! Vous êtes… Non, ne m'aidez pas !",
+   "completion": "Mon épée… elle est achevée !\n\nSi seulement je pouvais me rappeler pourquoi j'en avais besoin…\n\nTenez, permettez-moi au moins de vous payer pour vos efforts.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 148504,
+     "name": "A Conspicuous Gravestone"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8737,
+     "name": "Linken"
+    }
+   ],
+   "zone_id": 490,
+   "level": 52,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 5100,
+   "money": 7500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3941": {
+   "id": 3941,
+   "name": "Un gnome dans le besoin",
+   "objectives": "Trouver J.D. Collie dans la caverne du refuge des Marshal.",
+   "description": "Réfléchir… réfléchir… je sais que je suis venu ici pour quelque chose d'important…\n\nJ'ai une idée, <nom>. Dans la caverne proche se trouve une gnome du nom de J.D. Elle a été très aimable envers moi lorsque je suis arrivé ici. Peut-être que désorienté comme je l'étais, je lui ai dit quelque chose dont elle pourrait se souvenir ?\n\nPourquoi n'iriez vous pas la voir et lui demander ? Oh, mais attention ! Elle joue toujours avec ces cristaux brillants que j'ai vus dans le cratère. Je ne sais pas vraiment ce qu'elle prépare là-bas !",
+   "progress": null,
+   "completion": "Restez où vous êtes et ne bougez plus… j'expérimente une nouvelle combinaison de cristaux…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8737,
+     "name": "Linken"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9117,
+     "name": "J.D. Collie"
+    }
+   ],
+   "zone_id": 490,
+   "level": 52,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 1250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3942": {
+   "id": 3942,
+   "name": "Les souvenirs de Linken",
+   "objectives": "Trouver Eridan Bluewind dans le sud de Gangrebois.",
+   "description": "Oh… Linken ? Oui, c'est un drôle de type. La première fois qu'il est venu ici, il marmonnait des propos incohérents. Il a dû recevoir un sacré coup sur la tête, si vous voulez mon avis.\n\nMais je ne peux pas m'empêcher de me souvenir de quelque chose qu'il disait, tout de même. Comme quoi il construisait un genre de totem. Il disait qu'il devait parler à quelqu'un du nom d'Eridan Bluewind... dans un endroit appelé Gangrebois... je crois ?\n\nJe ne pense pas qu'il puisse lui-même vous en dire plus. Si vous voulez en apprendre davantage, peut-être devriez-vous chercher en personne Eridan ?",
+   "progress": null,
+   "completion": "Salutations, <classe>. En quoi puis-je vous aider ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9117,
+     "name": "J.D. Collie"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9116,
+     "name": "Eridan Bluewind"
+    }
+   ],
+   "zone_id": 490,
+   "level": 54,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 5450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3961": {
+   "id": 3961,
+   "name": "L'aventure de Linken",
+   "objectives": "Apporter le Totem d'argent d'Aquementas à Linken au refuge des Marshal.",
+   "description": "Et dire que pendant tout ce temps la raison pour laquelle Linken est venu ici était de nous débarrasser de Blazerunner… Il semble être une personne ordinaire, mais j'ai remarqué qu'il ne s'intéressait pas le moins du monde à mes expériences et à mes gadgets, qui passionnent d'ordinaire les gnomes. Il doit être un grand guerrier.\n\nApportez-lui le totem. Voyez si cela l'aide à se remémorer la raison pour laquelle il est venu ici.",
+   "progress": "Salut, <nom>.",
+   "completion": "Est-ce que J. D. a pu vous être d'une quelconque utilité ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9117,
+     "name": "J.D. Collie"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8737,
+     "name": "Linken"
+    }
+   ],
+   "zone_id": 490,
+   "level": 54,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 2700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3962": {
+   "id": 3962,
+   "name": "C'est dangereux d'y aller seul",
+   "objectives": "Partir pour la crête de la Fournaise, au sud du refuge des Marshal.\n\nTrouver Blazerunner et utiliser le Totem pour dissiper son aura protectrice. Une fois Blazerunner vaincu, se procurer la Flamme dorée.",
+   "description": "<nom>, je m'en souviens enfin… Je suis venu ici pour combattre Blazerunner. J'ai fait un long voyage, et il s'agissait de la dernière étape.\n\nMais ce n'est plus moi le héros… c'est vous. Avec tout ce que vous avez déjà accompli, c'est à vous d'en finir, pas à moi.\n\nConfrontez-vous à Blazerunner, et battez-le. Il garde un artefact appelé la Flamme dorée. Il procure une puissance plus vaste que tout ce que j'ai pu connaître, et il est plus que dangereux entre les mains de quelqu'un au cœur maléfique.\n\nNe partez pas <seul/seule>, ce serait trop dangereux.",
+   "progress": "Blazerunner est presque invincible à l'abri de l'aura qu'il a créée avec la Flamme dorée. Vous seul avez le pouvoir de la dissiper à l'aide de votre Totem d'argent d'Aquementas.",
+   "completion": "Merci, <nom>.\n\nLa Flamme dorée va à présent retourner dans ma patrie, où elle sera protégée et à l'abri de desseins maléfiques futurs.\n\nSans vous, je n'aurais toujours aucune idée de mon identité. Puisque vous avez tant fait pour moi, j'aimerais vous payer de retour. . .\n\nPrenez celle que vous voulez !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8737,
+     "name": "Linken"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8737,
+     "name": "Linken"
+    }
+   ],
+   "zone_id": 490,
+   "level": 56,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 7300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "seul/seule"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4005": {
+   "id": 4005,
+   "name": "Aquementas",
+   "objectives": "Apporter le Livre d'Aquor, les Griffes argentées et le Coeur d'Arbrefer à Tanaris.\n\nUtiliser le Livre d'Aquor pour invoquer Aquementas.\n\nAprès avoir terminé le totem, l’apporter à J.D. Collie au refuge des Marshal.",
+   "description": "Apportez le sac de fournitures à Tanaris. Rendez-vous à la crique des Gréements, et cherchez un cercle de pierres.\n\nLa péninsule la plus à l'est, là est le secret…\n\nLisez le Livre d'Aquor une fois que vous serez dans ce cercle. Invoquez la seule créature qui soit capable de transformer vos objets en un Totem pour combattre Blazerunner.\n\nAquementas n'aimera pas être ainsi éveillé, mais souvenez-vous que vous devez rester dans le cercle pour qu'il transforme les objets.",
+   "progress": "Alors vous êtes de retour, hein ? Hmm… Laissez-moi regarder cela de plus près, <nom>.",
+   "completion": "Blazerunner, vous dites…\n\nOui, je sais qu'un puissant élémentaire réside au centre carbonisé du cratère. Nous gardons simplement nos distances. Personne n'a jamais été capable de pénétrer la puissante aura qui l'entoure. Beaucoup ont été repoussés des chemins rocailleux et ont atterri en contrebas en tentant de le battre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9116,
+     "name": "Eridan Bluewind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9117,
+     "name": "J.D. Collie"
+    }
+   ],
+   "zone_id": 490,
+   "level": 54,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 5450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4084": {
+   "id": 4084,
+   "name": "Coeur d'argent",
+   "objectives": "Trouver 11 Griffes d'argent et 1 Cœur d'Arbrefer pour Eridan Bluewind à Gangrebois.",
+   "description": "Je ne connais pas la personne dont vous parlez, <nom>.\n\nMais ne vous inquiétez pas ; si votre ami était en voyage pour venir me trouver, je sais ce qu'il recherchait.\n\nAu cœur du cratère d'Un'Goro demeure un mal sous sa forme la plus pure. Ce mal prend la forme d'un élémentaire du nom de Blazerunner... Il est protégé par une aura que personne ne peut dissiper.\n\nPersonne... à part ceux qui ont suffisamment de pouvoir pour y parvenir. Je peux vous apprendre ce pouvoir, <nom>.\n\nD'abord, faites ce que je vous demande. Trouvez 11 Griffes d'argent et 1 Cœur d'Arbrefer sur les créatures de Gangrebois, puis revenez.",
+   "progress": "Je pourrais vous en apprendre davantage sur le pouvoir dont vous aurez besoin pour défaire Blazerunner, mais vous devez tout d'abord trouver ce que je vous ai demandé.",
+   "completion": "Très bien, <nom>. Je vois que vous êtes sérieux lorsque vous dites vouloir aider votre ami.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9116,
+     "name": "Eridan Bluewind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9116,
+     "name": "Eridan Bluewind"
+    }
+   ],
+   "zone_id": 490,
+   "level": 54,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 5650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4141": {
+   "id": 4141,
+   "name": "Muigin et Larion",
+   "objectives": "Récolter 15 Pétales-de-sang et retourner voir Muigin.",
+   "description": "Vous voyez Larion là-bas ? C'est SA faute si nous en sommes là !\n\nJe lui avais bien dit que nous nous trompions de chemin, mais il n’a rien voulu entendre. Et me croiriez-vous si je vous disais que c'est lui qui ne veut plus m'adresser la parole ? Mais passons, et amusons-nous un peu avec lui le temps qu'il change d'avis.\n\nAvez-vous remarqué les étranges créatures en forme de plantes dans les environs ? Ce sont des nuisances, mais je pense qu'après un entraînement approprié, je pourrais les faire obéir à des ordres.\n\nMais avant toute chose, j'aurais besoin d'étudier des spécimens. Pensez-vous pouvoir en prélever quelques-uns ?",
+   "progress": "Larion va recevoir de la visite dans pas longtemps, ça c'est sûr !",
+   "completion": "J'espère qu'elles ne vous ont pas trop posé de problèmes, <nom>. Pour ma part, j’essaie de les éviter – elles sont sauvages !\n\nJ'ai tenté de sauter par-dessus l'une d'elles… et elle a attaqué ! Ce n’est pas un comportement normal pour des plantes !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9119,
+     "name": "Muigin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9119,
+     "name": "Muigin"
+    }
+   ],
+   "zone_id": 490,
+   "level": 52,
+   "reqlevel": 47,
+   "side": "alliance",
+   "xp": 5100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4142": {
+   "id": 4142,
+   "name": "Visite à Gregan",
+   "objectives": "Apporter une Pétale-de-sang à Gregan Brewspewer en Feralas.",
+   "description": "Je ne sais vraiment pas quoi en faire, <nom>. Il semblerait que ces plantes aient un soupçon d'intelligence.\n\nJe manque de connaissances dans ce domaine, mais je connais un expert !\n\nAllez au nord de Feralas et cherchez l'un de mes amis, Gregan Brewspewer. C'est un maître en la matière.\n\nJe suis sûr qu’il peut nous aider. Vous le trouverez dans les régions sauvages... Il n'est pas du genre à habiter une grande ville.",
+   "progress": "Je vis ici, dans la forêt… C'est tellement paisible.\n\nDu moins je croyais que ça le serait. J’ai reçu plus de visiteurs depuis que je vis ici que du temps où j’habitais Ironforge !",
+   "completion": "Une Pétale-de-sang, hein ? Hmm… Bien, expliquez-moi simplement vos projets et je vous dirai si je peux ou non vous aider.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9119,
+     "name": "Muigin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7775,
+     "name": "Gregan Brewspewer"
+    }
+   ],
+   "zone_id": 490,
+   "level": 52,
+   "reqlevel": 47,
+   "side": "alliance",
+   "xp": 3800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4143": {
+   "id": 4143,
+   "name": "Brouillard maléfique",
+   "objectives": "Récupérer 5 Echantillons de brume atal'ai puis retourner voir Muigin dans le cratère d'Un'Goro.",
+   "description": "Pour tout vous dire, <nom>, je n'ai jamais vu de plantes pareilles au cours de mes voyages. Peut-être devrais-je aller visiter ce cratère…\n\nQuoiqu'il en soit, je pense savoir exactement ce que cherche Muigin : de la brume atal'ai. C'est tout à fait immonde, et difficile à récolter, mais c'est juste ce dont il a besoin pour contrôler les petits monstres.\n\nIl vous faudra aller au temple d'Atal'Hakkar dans le marais des Chagrins. Vous pourrez trouver de la brume atal'ai auprès de rôdeurs des abysses, de vers des boues ou de limons qui résident en ces lieux. Bonne chance, <nom> !",
+   "progress": "Larion ne veut toujours pas me parler ! Il sait comment cultiver la rancune…",
+   "completion": "J’ai quelque hésitation à toucher cette chose, <nom> ! Mais si Gregan affirme que ça va marcher, je veux bien essayer !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7775,
+     "name": "Gregan Brewspewer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9119,
+     "name": "Muigin"
+    }
+   ],
+   "zone_id": 490,
+   "level": 52,
+   "reqlevel": 47,
+   "side": "alliance",
+   "xp": 5100,
+   "money": 7500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4144": {
+   "id": 4144,
+   "name": "Les pousses de Pétales-de-sang",
+   "objectives": null,
+   "description": "Voici ce que nous allons faire, <nom>. Procurez-vous des pousses de Pétales-de-sang. De jeunes plantes, pas encore parvenues au stade adulte, vous comprenez ? Puis apportez-les ici. Alors je verrai ce dont la brume atal'ai est capable.\n\nVous pourriez penser que c'est le désir de vengeance qui me guide, mais… vous auriez raison…\n\nEn vérité, je connais le chemin pour nous sortir d'ici, mais tant que Larion n'admet pas que j'ai raison, je ne bouge pas !\n\nC'est assez : partez et trouvez des pousses de Pétales-de-sang afin que nous nous amusions un peu !",
+   "progress": "Voici ce que nous allons faire, <nom>. Procurez-vous des pousses de Pétales-de-sang. De jeunes plantes, pas encore parvenues au stade adulte, vous comprenez ? Puis apportez-les ici. Alors je verrai ce dont la brume atal'ai est capable.\n\nVous pourriez penser que c'est le désir de vengeance qui me guide, mais… vous auriez raison…\n\nEn vérité, je connais le chemin pour nous sortir d'ici, mais tant que Larion n'admet pas que j'ai raison, je ne bouge pas !\n\nC'est assez : partez et trouvez des pousses de Pétales-de-sang afin que nous nous amusions un peu !",
+   "completion": "Et voilà, <nom> ! Cela va occuper Larion !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9119,
+     "name": "Muigin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9119,
+     "name": "Muigin"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 47,
+   "side": "alliance",
+   "xp": 3950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "4145": {
+   "id": 4145,
+   "name": "Larion et Muigin",
+   "objectives": "Chasser 5 Flagellants Pétale-de-sang, 5 Batteurs Pétale-de-sang, 5 Ecorcheurs Pétale-de-sang et 5 Trappeurs Pétale-de-sang pour Larion au refuge des Marshal.",
+   "description": "Vous voyez Muigin ? C’est de SA faute si nous sommes perdus !\n\nJe connaissais le chemin, cet idiot a insisté pour nous montrer son raccourci et nous voilà ici !\n\nPour ne rien arranger, il a envoyé ses parasites qui m’importunent. Je suis dans un tel état de fureur qu’il risque de se passer du temps avant que je ne lui adresse de nouveau la parole, mais il faut trouver une solution à ces parasites qui sont insupportables.\n\nEssayons d’en réduire le nombre : allez donc chasser quelques Pétales-de-sang, puis revenez me voir.",
+   "progress": "Muigin doit d'abord s'excuser avant que je ne lui adresse à nouveau la parole !",
+   "completion": "Merci pour votre aide, <nom>, mais j'ai bien peur d’avoir de mauvaises nouvelles…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9118,
+     "name": "Larion"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9118,
+     "name": "Larion"
+    }
+   ],
+   "zone_id": 490,
+   "level": 52,
+   "reqlevel": 47,
+   "side": "horde",
+   "xp": 5100,
+   "money": 7500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4146": {
+   "id": 4146,
+   "name": "Carburant de baguette",
+   "objectives": "Remettre la Baguette déchargée et 5 Echantillons de brume atal'ai à Larion au refuge des Marshal.",
+   "description": "C'est votre jour de chance, <nom> ! J'étais justement en train de travailler à quelques-unes de mes inventions pendant que Marvon est absent, et l'une d'entre elles est une baguette à bestioles. Avec quelques ajustements, elle devrait faire l'affaire pour vous débarrasser de ces parasites Pétales-de-sang.\n\nJe veux bien vous prêter l'un de mes prototypes de baguette, mais il faut encore que vous vous procuriez son combustible. Vous trouverez la brume atal'ai nécessaire pour que la baguette fonctionne dans le temple d'Atal'Hakkar. Vous devrez la récolter auprès de rôdeurs des abysses, de vers des boues ou de limons.",
+   "progress": "C'est épuisant, <nom>. Ces choses ne me laisseront jamais en paix !",
+   "completion": "Ainsi Marvon n'était pas dans les parages ? Bien, montrez-moi quand même ce que vous avez.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8496,
+     "name": "Liv Rizzlefix"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9118,
+     "name": "Larion"
+    }
+   ],
+   "zone_id": 490,
+   "level": 52,
+   "reqlevel": 47,
+   "side": "horde",
+   "xp": 5100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4147": {
+   "id": 4147,
+   "name": "Atelier de Marvon",
+   "objectives": "Se rendre à l'Atelier de Marvon Rivetseeker à Ratchet.",
+   "description": "J’ai espionné les faits et gestes de Muigin, et j'ai découvert qu'il cultivait ces horreurs !\n\nJe crois que la seule chose à faire est… Non, pas d'aller lui parler… où avez-vous donc la tête ? Non, la seule solution est la riposte !\n\nNous allons demander l’aide d’un de mes amis, Marvon, qui a un atelier à Ratchet. Je suis sûr qu'il pourra concevoir une sorte de gadget pour nous tirer de ce mauvais pas.",
+   "progress": null,
+   "completion": "Marvon est parti depuis longtemps déjà, <nom>. Il s'est rendu en Tanaris pour étudier d’anciennes ruines trolls.\n\nMais de quoi avez-vous besoin ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9118,
+     "name": "Larion"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8496,
+     "name": "Liv Rizzlefix"
+    }
+   ],
+   "zone_id": 490,
+   "level": 52,
+   "reqlevel": 47,
+   "side": "horde",
+   "xp": 2550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4148": {
+   "id": 4148,
+   "name": "La baguette Pétale-de-sang",
+   "objectives": null,
+   "description": null,
+   "progress": "Pour faire fonctionner la baguette, nous avons besoin d'un spécimen de ses futures victimes. Rendez-vous dans le cratère et rapportez une pousse de Pétale-de-sang. Je pourrai alors régler l’appareil pour qu'il prenne soin des petits camarades de Muigin…\n\nS'il n'était pas si obstiné, nous serions déjà sur le chemin du retour… En attendant, je ne peux que lui montrer que ses gamineries ne me perturbent aucunement…",
+   "completion": "Il semble que cela va fonctionner, <nom>. À présent, rappelez-vous de ceci : si vous voyez la moindre de ces pestes aux alentours, n'hésitez pas à utiliser cette baguette !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9118,
+     "name": "Larion"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9118,
+     "name": "Larion"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 47,
+   "side": "horde",
+   "xp": 3950,
+   "money": 16000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "4243": {
+   "id": 4243,
+   "name": "À la poursuite d'A-mi 01",
+   "objectives": "Trouver A-mi 01 dans le Cratère d'Un'Goro.",
+   "description": "Il est malheureusement arrivé quelque chose à l'une de mes plus grandes inventions. Vous avez déjà vu des écureuils mécaniques, pas vrai ? Eh bien, afin de m'approcher des singes du cratère d’Un'Goro et de me mêler à eux, j'ai créé un singe mécanique. Elle se nomme A-mi 01.\n\nElle a des gemmes de divination à la place des yeux, ainsi je peux voir tout ce qu'elle voit. Elle est parvenue jusqu'au Rocher fongique, le repaire des singes, un peu à l'est d'ici, et c'est là que j'ai perdu le contact. La dernière chose que j'ai vue est l'un des mâles alpha se ruer vers elle pour lui dire bonjour !\n\nPouvez-vous m'aider à la retrouver ?",
+   "progress": null,
+   "completion": "Tandis que vous observez A-mi 01, vous remarquez deux énormes bosses qui enlaidissent ce que Karna considère évidemment comme une pièce majeure d'ingénierie. La première déforme l'épaule de A-mi 01, et l'autre défigure sa tête.\n\nUn examen plus poussé vous informe qu'aucune énergie ne parcourt ses composants.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9618,
+     "name": "Karna Remtravel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9623,
+     "name": "A-mi 01"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 48,
+   "side": "both",
+   "xp": 2650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4244": {
+   "id": 4244,
+   "name": "À la poursuite d'A-mi 01",
+   "objectives": "Trouver une Caisse en mithril et retourner près de A-mi 01 dans le Cratère d'Un'Goro.",
+   "description": "Une recherche plus poussée dévoile un panneau coulissant. On peut lire, clairement écrit au-dessus d'un groupe de fils : \"Remplacer la Caisse de mithril et mettre le contact sur Off puis sur On.\"\n\nTandis que vous faites coulisser le panneau pour le refermer, vous vous demandez s'il sera aussi simple de réparer A-mi 01 et de la ramener à Karna Remtravel près du refuge des Marshal.\n\nSeule une tentative vous le dira.",
+   "progress": "Le panneau sous lequel placer la Caisse en mithril est toujours fermé. A-mi 01 est toujours inerte.",
+   "completion": "Vous faites à nouveau coulisser le panneau de A-mi 01 et vous ôtez délicatement l'ancienne caisse en mithril qui semble déchargée. La nouvelle trouve facilement sa place. La seule chose à faire à présent, si tant est que le problème vienne bien de la caisse en mithril, est de placer l'interrupteur sur la position Off, puis de le basculer sur la position On.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9623,
+     "name": "A-mi 01"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9623,
+     "name": "A-mi 01"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 48,
+   "side": "both",
+   "xp": 3950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4245": {
+   "id": 4245,
+   "name": "À la poursuite d'A-mi 01",
+   "objectives": "Escorter A-mi 01 sur le chemin du retour jusqu'à Karna Remtravel dans le Cratère d'Un'Goro.",
+   "description": "Tout en vérifiant que vous pourrez bien ramener A-mi à Karna Remtravel, vous placez l'interrupteur en position Off. Tandis que vous scrutez les alentours pour vous assurer qu'aucun gorille ne survient, vous vous préparez à voir le résultat du passage de l'interrupteur sur la position On.\n\nC'est votre dernière chance… Êtes-vous <sûr/sûre> que c'est bien ce que vous voulez faire ?",
+   "progress": "Avez-vous pu aider A-Me ? Le boîtier en mithril que vous avez mentionné comme étant détruit était une bonne idée de ce qui n'allait pas. Je suis sûr que si vous le remplacez, elle se réactivera et pourra rentrer à la maison.",
+   "completion": "Oh ! Vous avez réussi ! Merveilleux ! Merci, <nom>.\n\nOh non ! Regardez-moi ces bosses. On va la réparer et la remettre en parfait état de marche en deux temps trois mouvements.\n\nMerci encore, <nom>. J'apprécie réellement ce que vous avez fait.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9623,
+     "name": "A-mi 01"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9618,
+     "name": "Karna Remtravel"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 48,
+   "side": "both",
+   "xp": 6550,
+   "money": 16000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "sûr/sûre"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4284": {
+   "id": 4284,
+   "name": "Cristaux de puissance",
+   "objectives": "Récupérer 7 Cristaux de puissance de chaque couleur (rouge, bleu, jaune et vert). Les apporter à J.D. Collie au refuge des Marshal.",
+   "description": "Je crois que vous les avez remarqués, <nom>. Ils sont partout !\n\nDe quoi suis-je en train de parler ? Eh bien des cristaux bien sûr !\n\nLes cristaux… On en trouve partout dans le cratère. Les gens, pour la plupart, n'y prêtent pas attention, mais j'ai le sentiment qu'ils détiennent une certaine puissance. Depuis un moment, je fais des expériences sur eux, mais je n'arrive à rien. Pour l'instant, en tout cas.\n\nDites-moi, je commence à en manquer, vous pourriez m'en rapporter quelques-uns ?",
+   "progress": "Je sens que je vais trouver quelque chose, <nom> !",
+   "completion": "À présent je vais pouvoir continuer mes expériences ! Merci, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9117,
+     "name": "J.D. Collie"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9117,
+     "name": "J.D. Collie"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 5250,
+   "money": 8000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4285": {
+   "id": 4285,
+   "name": "Le Pylône nord",
+   "objectives": "Découvrir l'emplacement du Pylône de cristal nord dans le Cratère d'Un'Goro.",
+   "description": "A quoi peuvent-ils bien servir ? Je ne peux pas m'empêcher d'y penser !\n\nÇa me rend dingue de savoir que les rumeurs que j'ai entendues à propos des pylônes de cristal pourraient être vraies. Taxez-moi de crédulité, mais je crois d'ordinaire tout ce que les gens me racontent.\n\nMais passons, j'ai entendu dire qu'un des pylônes de cristal est tout proche. Quelque part au nord… S'il vous plaît, trouvez-le, <nom>. Je sais simplement qu'ils existent.",
+   "progress": "Avez-vous visité le pylône, <nom> ?",
+   "completion": "Je sais que ces histoires disent vrai, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9117,
+     "name": "J.D. Collie"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9117,
+     "name": "J.D. Collie"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 3950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4287": {
+   "id": 4287,
+   "name": "Le Pylône est",
+   "objectives": "Trouver l'emplacement du Pylône de cristal est dans le Cratère d'Un'Goro.",
+   "description": "Durant mon séjour ici j'ai entendu d'étranges rumeurs sur l'existence de pylônes mystérieux dans les terres sauvages du cratère, <nom>. Je suppose qu'ils sont très grands, et que les cristaux garnissent l’intérieur.\n\nBien que je n'en aie jamais vu, je ne peux m'empêcher de croire que ces rumeurs disent vrai, et que les pylônes ont quelque chose à voir avec les cristaux que nous avons trouvés.\n\nNe voudriez-vous pas m'aider à satisfaire ma curiosité ? On dit qu'il existe un pylône dans la partie est du cratère. Pensez-vous pouvoir le trouver ?",
+   "progress": "Avez-vous visité le pylône, <nom> ?",
+   "completion": "Un'Goro est un endroit tellement étrange, <nom>. Lorsque vous entrez dans le cratère, c'est comme si vous pénétriez dans un monde totalement différent.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9117,
+     "name": "J.D. Collie"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9117,
+     "name": "J.D. Collie"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 3950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4288": {
+   "id": 4288,
+   "name": "Le Pylône ouest",
+   "objectives": "Découvrir l'emplacement du Pylône de cristal ouest.",
+   "description": "Pour l'heure, mes expériences n'ont débouché sur aucun résultat positif, <nom>. Je ne peux qu'espérer que vous découvrirez l'un des pylônes dont j'ai entendu parler.\n\nPeut-être que si nous combinons différentes couleurs… mais je m'avance trop. Avant toute chose, trouvez-les !\n\n<nom>, cherchez dans la partie ouest du cratère, on dit qu’un pylône s'y trouve.",
+   "progress": "Avez-vous visité le pylône, <nom> ?",
+   "completion": "Il existe beaucoup de voies dérobées sur les bords du cratère. Essayez les chemins tortueux si vous ne savez plus où chercher, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9117,
+     "name": "J.D. Collie"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9117,
+     "name": "J.D. Collie"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 3950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4289": {
+   "id": 4289,
+   "name": "Les gorilles d'Un'Goro",
+   "objectives": "Apporter 2 Peaux de gorille d'Un'Goro, 2 Peaux de marteleur d'Un'Goro et 2 Peaux de foudroyeur d'Un'Goro à Torwa Pathfinder à l'entrée du cratère d'Un'Goro.",
+   "description": "Ce cratère abrite de nombreuses créatures étranges. Elles semblent être des versions plus nobles de celles de ma terre natale et d'au-delà. Je ne peux m'expliquer ce fait, mais la Terre-mère affleure à cet endroit. Je lui rends hommage chaque fois que je poursuis l'une de ses belles créatures à travers son bassin.\n\nSi vous souhaitez ressentir l’allégresse que suscite une telle prouesse, alors dirigez-vous vers le nord. Vous y trouverez de grands singes, parfaits pour tester n'importe quel mortel. Apportez-moi leurs peaux… Montrez-moi votre force !",
+   "progress": "Eh bien ! Les créatures indigènes vous ont-elles déjà vaincu, <nom> ?\n\nN’abandonnez pas si facilement. Chasser et abattre les singes d'Un'Goro n'est pas tâche aisée, même pour un grand chasseur.",
+   "completion": "Vous vous êtes montré suffisamment fort pour affronter les grands singes d'Un'Goro. C'est bien. Ce défi était peu de chose comparé à celui que représente une confrontation avec Lar'korwi, mais je ne dévalorise en rien une telle victoire.\n\nCes peaux feront de merveilleux vêtements pour ma tribu. Vous m'êtes venu en aide et vous vous êtes montré digne.\n\nAvant que vous ne partiez accomplir un nouvel exploit, louons la Terre-mère et remercions les esprits de ces singes que vous avez tués. Ils doivent savoir que leur mort n'a pas été vaine.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9619,
+     "name": "Torwa Pathfinder"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9619,
+     "name": "Torwa Pathfinder"
+    }
+   ],
+   "zone_id": 490,
+   "level": 55,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 5650,
+   "money": 8500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4290": {
+   "id": 4290,
+   "name": "La nourriture de Lar'korwi",
+   "objectives": "Trouver la dernière victime de Lar'korwi et voler un Morceau de carcasse d'un battrodon, puis retourner voir Torwa Pathfinder au Cratère d'Un'Goro.",
+   "description": "Il y a longtemps, l'un de mes frères préleva un peu de viande sur l'une des victimes de Lar'korwi. Lar'korwi le vit et le suivit pendant plusieurs jours, détruisant tout ce qu'il touchait. Mon frère, pris de terreur, décida de s'enfuir au loin.\n\nLar'korwi le tua près de cet endroit.\n\nSi vous voulez provoquer Lar'korwi, trouvez une de ses récentes victimes et volez de la viande.\n\nRevenez me voir après.",
+   "progress": "Ne prenez pas à la légère ce que je vais vous dire, <nom>. Si vous souhaitez combattre cette créature, alors vous devez être extrêmement prudent… et malin. Beaucoup de force et de perspicacité seront nécessaires pour attirer Lar'korwi et le battre.",
+   "completion": "Ce sera parfait, <nom>. On dirait que Lar'korwi se nourrit correctement ces jours-ci. Je me demande quand même où il a pu dénicher un battrodon par ici.\n\nMais passons, je vais garder cette carcasse jusqu'à ce que vous soyez prêt à affronter cette créature. Ne vous inquiétez pas pour moi. Vous l'avez mis suffisamment en colère pour qu'il ne s'en prenne pas à moi avant d'avoir goûté à votre chair.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9619,
+     "name": "Torwa Pathfinder"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9619,
+     "name": "Torwa Pathfinder"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 48,
+   "side": "both",
+   "xp": 5250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4291": {
+   "id": 4291,
+   "name": "Un parfum pour Lar'korwi",
+   "objectives": "Apporter 2 Glandes de phéromone de ravasaure à Torwa Pathfinder près de l'entrée du Cratère d'Un'Goro.",
+   "description": "Cela me surprend qu'il ne soit pas encore venu s'occuper de vous, <nom>. Mais tout va bien, car j'ai une dernière idée pour attirer le monstre.\n\nEn tant que mâle dominant, il a le droit de s'accoupler avec n'importe quelle femelle. Et il en choisit beaucoup. Vous trouverez de nombreux œufs de ravasaure à l'ouest d'ici. Approchez-vous-en et vous provoquerez l’attaque de ses compagnes. Les femelles possèdent dans la tête une glande qui secrète une affreuse odeur. Elle sert à avertir les mâles quand la reproduction est possible. Apportez-moi l'une de ces glandes.",
+   "progress": "Soyez prudent, <nom>. S'approcher des nids provoquera sûrement la colère des mères… Même si vous avez déjà pris une glande. Lorsqu'elles protègent leur progéniture, les mères peuvent être aussi acharnées et dangereuses que Lar'korwi lui-même. Mais si vous réussissez, alors nous posséderons le moyen absolu de faire sortir Lar'korwi de sa cachette.",
+   "completion": "Ah, ce sont de beaux spécimens, <nom>. Les deux morceaux que vous avez trouvés seront parfaits pour attirer Lar'korwi dans l'ouverture. Je suis impatient d'assister à votre combat avec le monstre. Il est énorme, puissant et ses griffes sont acérées comme les meilleures lames. Vous allez plonger dans son regard et vous connaîtrez la mort.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9619,
+     "name": "Torwa Pathfinder"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9619,
+     "name": "Torwa Pathfinder"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 48,
+   "side": "both",
+   "xp": 5250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4292": {
+   "id": 4292,
+   "name": "Un appât pour Lar'korwi",
+   "objectives": "En utilisant le contenu de la Sacoche de Torwa, appeler Lar'korwi et le vaincre. Puis apporter la Tête de Lar'korwi à Torwa Pathfinder près de l'entrée du Cratère d'Un'Goro.",
+   "description": "C’est la partie la plus délicate, car le plan comprend une difficulté. Dans les montagnes, au nord d'ici, vous trouverez un petit sentier. C'est là que j'ai vu Lar'korwi pour la dernière fois. Vous saurez que vous êtes au bon endroit lorsque vous trouverez des ossements de grandes créatures qui autrefois parcouraient ces lieux. Posez là le morceau de viande que vous avez récupéré sur une carcasse récente. Puis frottez la viande avec la glande. Si la combinaison de ces deux appâts ne parvient pas à attirer Lar'korwi, alors rien d'autre ne le pourra.",
+   "progress": "Ne laissez pas la peur vous submerger, <nom>. La peur est la pire des traîtresses… Vous devez rester fort !\n\nPrenez la viande, portez-la dans la petite vallée et frottez la glande dessus. Alors seulement la mort viendra vous chercher.",
+   "completion": "Que la Terre-mère soit louée ! Vous avez réussi ! Brillant, <nom>. Vous avez prouvé que vous faisiez partie des meilleurs chasseurs. Votre esprit est fort. Votre courage n'a pas d'égal. Et votre force s'est accrue. Je m'incline devant vos talents.\n\nSeuls les plus grands de mes ancêtres auraient pu accomplir un fait aussi incroyable. Félicitations.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9619,
+     "name": "Torwa Pathfinder"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9619,
+     "name": "Torwa Pathfinder"
+    }
+   ],
+   "zone_id": 490,
+   "level": 56,
+   "reqlevel": 48,
+   "side": "both",
+   "xp": 7300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4301": {
+   "id": 4301,
+   "name": "Le puissant U'cha",
+   "objectives": "Apporter la Peau d'U'cha à Torwa Pathfinder à l'entrée du Cratère d'Un'Goro.",
+   "description": "Pendant que vous exploriez Un'Goro, j'ai vu certaines choses <qu’un maître/qu’une maîtresse> de la chasse apprécierait grandement. J'ai vu un singe immense parmi les autres gorilles, au nord. Vous êtes déjà <allé/allée> à cette caverne, mais cette fois, je me demande si vous survivrez à cette rencontre. La question se pose si vous acceptez la tâche que je veux vous confier.\n\nJe l'appelle U'cha, et c'est l'un des plus grands fils de la terre-mère. Tuez U'cha et apportez-moi sa peau. Réussissez, et je défendrai moi-même votre droit à vous appeler <un grand chasseur/une grande chasseresse>.",
+   "progress": "U'cha… La bête était magnifique. Immense et rouge, les dents de la taille de dagues. Les bras aussi larges que trois troncs, et aussi rapide que le plus rapide des lions des montagnes que j'ai vus. Vous avez de la chance de pouvoir ainsi tester votre courage. Plusieurs générations pourraient passer sur mon peuple avant qu'il ne rencontre une telle créature.",
+   "completion": "Bien joué, <nom>. Je suis enchanté. Vous avez accompli un grand exploit en ce jour et en ce lieu.\n\nU'cha était l'un des plus grands singes que j'aie jamais rencontrés. Que vous ayez surpassé sa force en dit long sur la vôtre… et sur votre courage.\n\nCe n'est que justice si je vous remets ceci en signe de respect. Vous l'avez mérité.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9619,
+     "name": "Torwa Pathfinder"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9619,
+     "name": "Torwa Pathfinder"
+    }
+   ],
+   "zone_id": 490,
+   "level": 55,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 5650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "allé/allée",
+    "qu’un maître/qu’une maîtresse",
+    "un grand chasseur/une grande chasseresse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4321": {
+   "id": 4321,
+   "name": "Ceci explique cela",
+   "objectives": "Parler à J.D. Collie dans un moment.",
+   "description": "L’information que vous m’avez transmise à propos des pylônes est très intéressante...\n\nLaissez-moi réfléchir à certaines choses, <nom>. Revenez me voir dans un moment, je devrais pouvoir vous donner les réponses que vous cherchez.",
+   "progress": null,
+   "completion": "Très bien, <nom>. C'est fascinant. . . J'espère que mes diagrammes sont exacts ! J'ai tout compilé dans ce manuel, que vous pouvez prendre.\n\nJe pense pouvoir répondre à toutes vos questions concernant les cristaux, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9117,
+     "name": "J.D. Collie"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9117,
+     "name": "J.D. Collie"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": 530,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4381": {
+   "id": 4381,
+   "name": "Cristal de restauration",
+   "objectives": null,
+   "description": "Le Pilon vous permet de combiner les cristaux de puissance verts avec les jaunes.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à vous soigner, vous et vos alliés.",
+   "progress": "Le Pilon vous permet de combiner les cristaux de puissance verts avec les jaunes.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à vous soigner, vous et vos alliés.",
+   "completion": "Tandis que vous arrangez les cristaux sur la table, vous alignez précautionneusement les couleurs. Lorsque vous placez le dernier, une explosion de lumière intense mêle les cristaux entre eux.\n\nLe résultat vous appartient.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 164955,
+     "name": "Northern Crystal Pylon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 164955,
+     "name": "Northern Crystal Pylon"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "4382": {
+   "id": 4382,
+   "name": "Cristal de concentration",
+   "objectives": null,
+   "description": "Le Pilon vous permet de combiner les cristaux de puissance verts avec les bleus.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à augmenter l'Esprit.",
+   "progress": "Le Pilon vous permet de combiner les cristaux de puissance verts avec les bleus.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à augmenter l'Esprit.",
+   "completion": "Tandis que vous disposez les cristaux sur la table, vous alignez précautionneusement les couleurs. Lorsque vous placez le dernier, une explosion de lumière intense assemble les cristaux entre eux.\n\nLe résultat est à vous.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 164957,
+     "name": "Eastern Crystal Pylon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 164957,
+     "name": "Eastern Crystal Pylon"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "4383": {
+   "id": 4383,
+   "name": "Cristal de protection",
+   "objectives": null,
+   "description": "Le Pilon vous permet de combiner les cristaux de puissance verts avec les rouges.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à augmenter la protection contre les dégâts physiques.",
+   "progress": "Le Pilon vous permet de combiner les cristaux de puissance verts avec les rouges.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à augmenter la protection contre les dégâts physiques.",
+   "completion": "Tandis que vous arrangez les cristaux sur la table, vous alignez précautionneusement les couleurs. Lorsque vous placez le dernier, une explosion de lumière intense mêle les cristaux entre eux.\n\nLe résultat vous appartient.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 164956,
+     "name": "Western Crystal Pylon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 164956,
+     "name": "Western Crystal Pylon"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "4384": {
+   "id": 4384,
+   "name": "Cristal de réduction",
+   "objectives": null,
+   "description": "Le Pilon vous permet de combiner les cristaux de puissance rouges avec les bleus.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à réduire la Défense de l'adversaire.",
+   "progress": "Le Pilon vous permet de combiner les cristaux de puissance rouges avec les bleus.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à réduire la Défense de l'adversaire.",
+   "completion": "Tandis que vous disposez les cristaux sur la table, vous alignez précautionneusement les couleurs. Lorsque vous placez le dernier, une explosion de lumière intense assemble les cristaux entre eux.\n\nLe résultat est à vous.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 164956,
+     "name": "Western Crystal Pylon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 164956,
+     "name": "Western Crystal Pylon"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "4385": {
+   "id": 4385,
+   "name": "Cristal d'explosion",
+   "objectives": null,
+   "description": "Le Pilon vous permet de combiner les cristaux de puissance rouges avec les jaunes.\n\nSi on se réfère au manuel de J.D., cette combinaison peut être utilisée pour créer une grande explosion qui inflige des dégâts à vos ennemis.",
+   "progress": "Le Pilon vous permet de combiner les cristaux de puissance rouges avec les jaunes.\n\nSi on se réfère au manuel de J.D., cette combinaison peut être utilisée pour créer une grande explosion qui inflige des dégâts à vos ennemis.",
+   "completion": "Tandis que vous disposez les cristaux sur la table, vous alignez précautionneusement les couleurs. Lorsque vous placez le dernier, une explosion de lumière intense assemble les cristaux entre eux.\n\nLe résultat est à vous.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 164955,
+     "name": "Northern Crystal Pylon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 164955,
+     "name": "Northern Crystal Pylon"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "4386": {
+   "id": 4386,
+   "name": "Cristal de rétribution",
+   "objectives": null,
+   "description": "Le Pilon vous permet de combiner les cristaux de puissance bleus avec les jaunes.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à créer un bouclier qui inflige des dégâts aux ennemis.",
+   "progress": "Le Pilon vous permet de combiner les cristaux de puissance bleus avec les jaunes.\n\nSi on se réfère au manuel de J.D., cette combinaison sert à créer un bouclier qui inflige des dégâts aux ennemis.",
+   "completion": "Tandis que vous disposez les cristaux sur la table, vous alignez précautionneusement les couleurs. Lorsque vous placez le dernier, une explosion de lumière intense assemble les cristaux entre eux.\n\nLe résultat est à vous.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 164957,
+     "name": "Eastern Crystal Pylon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 164957,
+     "name": "Eastern Crystal Pylon"
+    }
+   ],
+   "zone_id": 490,
+   "level": 53,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "4491": {
+   "id": 4491,
+   "name": "Un peu d'aide de mes amis",
+   "objectives": "Conduire Ringo à Spraggle Frock, au refuge des Marshal.\n\nSi Ringo s’évanouit, utiliser la Gourde de Spraggle pour le réanimer.",
+   "description": "Wouf… c'est tellement chaud…\n\nJ'explorais le secteur lorsque soudain, la chaleur est devenue insupportable. Je dois souffrir d'insolation.\n\nJe vous en prie, aidez-moi à retourner à mon ami Spraggle au refuge des Marshal. Je pense que je vais encore suffisamment bien pour être capable de vous suivre jusque là-bas.\n\nJe ne me sens pas vraiment là, cependant, alors si je devais m'évanouir à nouveau, renversez-moi de l'eau de la gourde de Spraggle dessus. Ça devrait marcher, j'espère...",
+   "progress": "Je me suis tellement inquiété pour Ringo...",
+   "completion": "Ringo n'est pas en grande forme, <nom>, mais au moins, il est en un seul morceau !\n\nMerci de l'avoir retrouvé.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9999,
+     "name": "Ringo"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9997,
+     "name": "Spraggle Frock"
+    }
+   ],
+   "zone_id": 490,
+   "level": 55,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 5650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4492": {
+   "id": 4492,
+   "name": "Perdu !",
+   "objectives": "Trouver Ringo sur la crête de la Fournaise.",
+   "description": "Vous devez m’aider, <nom> ! Mon ami, Ringo, est parti pour explorer le volcan, plus au sud, et il n’est toujours pas rentré. Je commence vraiment à m’inquiéter.\n\nPourriez-vous essayer de le retrouver ? Prenez ma gourde avec vous, si vous retrouvez Ringo, il en aura sans doute besoin !",
+   "progress": "Qu. . Quoi ?",
+   "completion": "Oh. . . Quelle joie que quelqu'un m'ait trouvé. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9997,
+     "name": "Spraggle Frock"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9999,
+     "name": "Ringo"
+    }
+   ],
+   "zone_id": 490,
+   "level": 55,
+   "reqlevel": 50,
+   "side": "both",
+   "xp": 2800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4501": {
+   "id": 4501,
+   "name": "Attention aux pterreurdactyles",
+   "objectives": "Tuer 10 Pterreurdactyles et 15 Pterreurdactyles frénétiques, puis parler à Spraggle Frock, au refuge des Marshal.",
+   "description": "On recherche : un guerrier compétent et talentueux pour se porter contre la menace des pterreurdactyles qui hantent le cratère d'Un'Goro. Leur nombre va croissant et ils sont en train de devenir un danger pour les voyageurs qui passent dans les environs.\n\nRéduisez leur population en tuant 10 Pterreurdactyles et 15 Pterreurdactyles frénétiques.\n\nParlez avec Spraggle Frock après avoir terminé votre mission pour recevoir une récompense.",
+   "progress": "A dire vrai, je n'étais pas inquiété par ces créatures étranges. . . Jusqu'à ce que je croise une inscription sur une pierre.\n\nATTENTION AUX PTERREURDACTYLES\n\nQui a bien pu l'écrire ? En tous cas, c'est bien trop effrayant pour ne pas y prendre garde !",
+   "completion": "Je suis complètement terrifié par les pterreurdactyles ! Merci d'avoir réduit leur population, <nom>. Je me sentirai peut-être suffisamment en confiance pour m'aventurer à l'extérieur du refuge des Marshal.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 174682,
+     "name": "Beware of Pterrordax"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9997,
+     "name": "Spraggle Frock"
+    }
+   ],
+   "zone_id": 490,
+   "level": 55,
+   "reqlevel": 49,
+   "side": "both",
+   "xp": 5650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4502": {
+   "id": 4502,
+   "name": "Activité volcanique",
+   "objectives": "Collecter 9 Echantillons de cendre Un'Goro sur les Elémentaires de brûlure qui se trouvent autour du volcan, dans le Cratère d'Un'Goro, puis les apporter à Liv Rizzlefix, à Ratchet.",
+   "description": "Etant un apprenti de Marvon Rivetseeker, j’ai beaucoup appris. Mais il est parti depuis tellement longtemps que je vais devoir travailler à quelques expérimentations de mon propre chef.\n\nJ'ai lu des informations concernant le cratère d'Un'Goro et l’étrange activité volcanique qui règne en son milieu. Nous en apprendrions plus si vous pouviez aller sur place et collecter de la cendre sur les élémentaires.\n\nCela vous dérangerait-il de m’en rapporter quelques-unes, si jamais vous passez par là-bas ?",
+   "progress": "On raconte que le volcan dans Un'Goro est en activité ? Je suis certain que je pourrais en apprendre plus en étudiant des échantillons de cendres du volcan, <nom>.",
+   "completion": "Ces échantillons seront parfaits pour mes recherches ! Merci, <nom> ! Je vous promets de vous tenir au courant en premier de mes découvertes.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8496,
+     "name": "Liv Rizzlefix"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8496,
+     "name": "Liv Rizzlefix"
+    }
+   ],
+   "zone_id": 490,
+   "level": 55,
+   "reqlevel": 49,
+   "side": "both",
+   "xp": 5650,
+   "money": 8500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4503": {
+   "id": 4503,
+   "name": "La machine volante de Shizzle",
+   "objectives": "Apporter 8 Ecailles étoilées de dimeurtrodon et 8 Ecailles étoilées de pterreurdactyles à Shizzle, au refuge des Marshal.",
+   "description": "Je fabrique une machine volante !\n\nJe suis coincé ici et je n’ai aucun sens de l’orientation. Je pourrais prendre un gryphon ou un cavalier céleste pour rentrer à Gadgetzan, mais j’ai une peur bleue de ces bestioles.\n\nAlors, vous m’aiderez ? Il ne me reste qu’à construire les ailes et je me disais que des Ecailles étoilées de pterreurdactyles et de dimeurtrodon feraient parfaitement l’affaire. Pour ma part, je suis incapable de les affronter, mais vous semblez pouvoir le faire. Voulez-vous essayer ?",
+   "progress": "Tout véhicule mérite un nom. . . Je pense que je vais l'appeler. . . Humiliation !",
+   "completion": "Oui, ces écailles sont parfaites. Je devrais pouvoir faire décoller cette machine avec ces écailles, j'en suis sûr !\n\nMerci !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9998,
+     "name": "Shizzle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9998,
+     "name": "Shizzle"
+    }
+   ],
+   "zone_id": 490,
+   "level": 51,
+   "reqlevel": 49,
+   "side": "both",
+   "xp": 4900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5150": {
+   "id": 5150,
+   "name": "Dadanga a faim !",
+   "objectives": null,
+   "description": "Dadanga vous regarde alors que vous l'approchez. Elle semble espérer quelque chose…\n\nElle a probablement faim !\n\nIl y a certainement quelque chose qui pousse dans le cratère et qui ferait un parfait en-cas pour un herbivore de grande taille. Dadanga est une grande fille : quoi que vous lui apportiez, il faudra que ce soit en grosse quantité !",
+   "progress": "Dadanga vous regarde alors que vous l'approchez. Elle semble espérer quelque chose…\n\nElle a probablement faim !\n\nIl y a certainement quelque chose qui pousse dans le cratère et qui ferait un parfait en-cas pour un herbivore de grande taille. Dadanga est une grande fille : quoi que vous lui apportiez, il faudra que ce soit en grosse quantité !",
+   "completion": "Les pousses posées devant elle, Dadanga semble satisfaite.\n\nElle pousse un petit paquet enveloppé de brun vers vous, en échange du petit cadeau !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9274,
+     "name": "Dadanga"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9274,
+     "name": "Dadanga"
+    }
+   ],
+   "zone_id": 490,
+   "level": 55,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

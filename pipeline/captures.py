@@ -8,6 +8,11 @@ prints it as JSON; nothing is ever written next to the game.
   differs). Player names are never printed.
 
     python -m pipeline.captures gossip "/Volumes/Games/.../SavedVariables/ForeverSpeech.lua" [--json]
+
+- `quests <SavedVariables>`: the captured quest texts into the zone registries (pipeline/capture_quests.py): fills
+  the texts the base lacks, lists the ones Forever rewrote.
+
+    python -m pipeline.captures quests "/Volumes/Games/.../SavedVariables/ForeverSpeech.lua" [--dry-run] [--json]
 """
 
 from __future__ import annotations
@@ -133,7 +138,49 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("savedvariables", type=Path)
     p.add_argument("--json", action="store_true")
     p.add_argument("--rows", action="store_true", help="every capture (texts, never the player's name)")
+    q = sub.add_parser("quests", help="captured quest texts into the zone registries")
+    q.add_argument("savedvariables", type=Path)
+    q.add_argument("--zones", type=Path, default=None, help="registries folder (default data/zones)")
+    q.add_argument("--dry-run", action="store_true", help="report only, write nothing")
+    q.add_argument("--json", action="store_true")
+    c = sub.add_parser("cache", help="quest texts of the client cache (questcache.wdb) into the zone registries")
+    c.add_argument("wdb", type=Path)
+    c.add_argument("--zones", type=Path, default=None, help="registries folder (default data/zones)")
+    c.add_argument("--dry-run", action="store_true", help="report only, write nothing")
+    c.add_argument("--json", action="store_true")
+    w = sub.add_parser("wowdata", help="French quest texts of salty-max/wow-data (forever.db) into the registries")
+    w.add_argument("db", type=Path)
+    w.add_argument("--zones", type=Path, default=None, help="registries folder (default data/zones)")
+    w.add_argument("--dry-run", action="store_true", help="report only, write nothing")
+    w.add_argument("--json", action="store_true")
     args = ap.parse_args(argv)
+    if args.command == "wowdata":
+        from pipeline import client_cache, wowdata
+        tag, texts = wowdata.read(args.db)
+        report = client_cache.import_cache(texts, tag, args.zones, dry_run=args.dry_run, channel="wowdata",
+                                           exclude_side="horde")
+        if args.json:
+            print(json.dumps(report, ensure_ascii=False, indent=1))
+        else:
+            print("\n".join(client_cache.summary(report)) + ("\n(dry run: nothing written)" if args.dry_run else ""))
+        return 0
+    if args.command == "cache":
+        from pipeline import client_cache
+        _, build, texts = client_cache.read(args.wdb)
+        report = client_cache.import_cache(texts, build, args.zones, dry_run=args.dry_run)
+        if args.json:
+            print(json.dumps(report, ensure_ascii=False, indent=1))
+        else:
+            print("\n".join(client_cache.summary(report)) + ("\n(dry run: nothing written)" if args.dry_run else ""))
+        return 0
+    if args.command == "quests":
+        from pipeline import capture_quests
+        report = capture_quests.import_captures(load(args.savedvariables), args.zones, dry_run=args.dry_run)
+        if args.json:
+            print(json.dumps(report, ensure_ascii=False, indent=1))
+        else:
+            print("\n".join(capture_quests.summary(report)) + ("\n(dry run: nothing written)" if args.dry_run else ""))
+        return 0
     voices = (storage.read_json(storage.DATA_DIR / "voices.json") or {}).get("npcs") or {}
     report = gossip(load(args.savedvariables), base_pages(voices=voices))
     if args.json:

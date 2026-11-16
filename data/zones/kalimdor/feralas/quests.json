@@ -1,0 +1,4358 @@
+{
+ "schema": 1,
+ "zone": "kalimdor/feralas",
+ "zone_id": 357,
+ "zone_name": "Feralas",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 78,
+  "complete": 76,
+  "incomplete": 2,
+  "unavailable": 0,
+  "missing_description": 2,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 7
+ },
+ "quests": {
+  "2766": {
+   "id": 2766,
+   "name": "Trouvez OOX-22/FE !",
+   "objectives": "Placer la balise de détresse dans le robot d'Oglethorpe qui se trouve dans une caverne près du val des Griffes farouches.",
+   "description": "Vous découvrez une sorte d'engin métallique en forme d'œuf. Il revient à la vie lorsque vous tripotez l'un de ses boutons, apparaissant comme un machin robotique gnome ! Une voix grésille.\n\n\"Mon nom est Oglethorpe Obnoticus, et mon robot guidé s'est perdu ! Je vous récompenserai si vous le retrouvez. S'il vous plaît allez placer cette balise dans le robot.\"\n\n\"J'ai calculé la position de mon robot égaré : il est dans une caverne près du val des Griffes farouches !\"",
+   "progress": "Vous découvrez l'épave d'une sorte de. . . robot poulet ? La voix émerge de l'oeuf une nouvelle fois :\n\n\"Oui, excellent travail ! C'est bien mon robot guidé, mes détecteurs m'indiquent qu'il doit être relancé avant de pouvoir revenir à Baie-du-Butin pour y être réparé. Allez-y et placez la balise dans la machine. La balise s'occupera du reste !\"",
+   "completion": "Vous placez l'oeuf. . . la balise de détresse. . . dans le poulet. . . le robot guidé.\n\nVous entendez des bourdonnements venant de l'intérieur du robot quand il essaie de se relever. Après l'activation du robot, la voix d'Oglethorpe retentit de nouveau, mais maintenant elle vient de l'intérieur du robot :\n\n\"OOX-22/FE fonctionne finalement, mais il a besoin de grosses réparations ! Il est trop lourd pour vous. . . mais je pense que j'ai une idée. Voudriez-vous bien le surveiller encore un peu ?\"",
+   "starters": [
+    {
+     "type": "item",
+     "id": 8705,
+     "name": "OOX-22/FE Distress Beacon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7807,
+     "name": "Robot guidé OOX-22/FE"
+    }
+   ],
+   "zone_id": 357,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2767": {
+   "id": 2767,
+   "name": "Sauvez OOX-22/FE !",
+   "objectives": "Escorter OOX-22/FE au dock le long de la Côte oubliée, puis faire votre rapport à Oglethorpe Obnoticus à Baie-du-Butin.",
+   "description": "Le robot émet à nouveau la voix du gnome :\n\n\"Je dois déplacer OOX-22/FE dans un endroit dégagé et sûr pour qu'il puisse entamer sa longue procédure de décollage. Il est équipé d'un camouflage, mais il me faut du temps pour le rendre opérationnel. J'ai besoin que vous escortiez le robot jusqu'à... disons la Côte oubliée ! Ce serait un endroit parfait et assez vaste pour que tout puisse se mettre en route !\"\n\nEscortez-le jusque là-bas, et venez me parler à Baie-du-Butin ! Oglethorpe Obnoticus - terminé !\"",
+   "progress": "Oui, je suis Oglethorpe Obnoticus, maître inventeur à votre service ! Y a-t-il quelque chose que je puisse faire pour vous aider ?",
+   "completion": "Alors c’est VOUS le sauveur de OOX-22/FE ! Je ne sais même pas comment vous remercier pour votre aide ! Ma série de robots guidés a encore besoin d'être améliorée, mais votre intervention m'a permis de gagner de nombreuses heures de travail, ainsi qu'une somme significative en matières premières !\n\nS'il vous plaît, faites votre choix parmi ces objets. Merci encore pour votre assistance généreuse, <nom>, mes robots et moi sommes vos débiteurs !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7807,
+     "name": "Robot guidé OOX-22/FE"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7406,
+     "name": "Oglethorpe Obnoticus"
+    }
+   ],
+   "zone_id": 357,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 4850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2821": {
+   "id": 2821,
+   "name": "La marque de la qualité",
+   "objectives": "Rapporter 10 Peaux de yéti épaisses à Pratt McGrubben au bastion de Feathermoon.",
+   "description": "Ma philosophie, concernant le travail du cuir, c’est que mon travail doit être le meilleur possible : pas de compromis. Quelqu’un disant que la qualité ne compte pas essaye de vous escroquer !\n\nDans ma recherche de matières premières de qualité, rien ne vaut la peau de yéti épaisse. Elle provient des yétis de Feralas, et il y en a beaucoup au val des Griffes farouches. J'en ai besoin et j’échangerai l'un de mes objets en cuir contre un ballot de dix peaux. Si cela vous semble équitable, le marché est conclu.",
+   "progress": "Un ballot de dix peaux de yéti épaisses vous permettra de choisir l'un des objets que j'ai confectionnés. Parce que je suis soucieux de la qualité, je vous fournirai un objet de valeur !\n\nSi vous ne trouvez pas de yétis, je peux vous dire où il y en a. Essayez donc à l'intérieur des terres proches de la Côte oubliée, au val des Griffes farouches.",
+   "completion": "Avez-vous pris le temps d’examiner ces peaux ? Traitées de la bonne façon, elles seront plus résistantes que le fer. Peu de gens connaissent ces peaux. Je sais qu'en utilisant les bons produits, je vais pouvoir confectionner des objets d'une grande qualité. . . Merci à vous, bien sûr !\n\nEt maintenant, choisissez parmi mes meilleures réalisations, pour services rendus !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7852,
+     "name": "Pratt McGrubben"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7852,
+     "name": "Pratt McGrubben"
+    }
+   ],
+   "zone_id": 357,
+   "level": 46,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 4050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2822": {
+   "id": 2822,
+   "name": "La marque de la qualité",
+   "objectives": "Apporter 10 Peaux de yéti épaisses à Jangdor Swiftstrider au Camp Mojache.",
+   "description": "Je suis fier de mon travail et je sais que cela se voit : la qualité ne doit jamais être dévalorisée. Quiconque dit que la qualité n’est pas primordiale ferait également croire que les abysses sont lumineux.\n\nDans ma recherche de matières premières de qualité, rien ne vaut la peau de yéti épaisse. Elle provient des yétis de Feralas, et il y en a beaucoup au val des Griffes farouches, à l'ouest d'ici. Je vous laisserai choisir un objet parmi mes créations contre un ballot de dix peaux. Si cela vous convient, nous faisons affaire !",
+   "progress": "Avez-vous mes dix peaux de yéti épaisses ? Mes créations sont de belle qualité et je vous en procurerai un exemplaire si vous pouviez me fournir ces peaux.\n\nSi vous ne parvenez pas à trouver de yétis, je peux vous dire où il y en a. Essayez donc à l'ouest d'ici, à l'intérieur des terres proches de la Côte oubliée, au val des Griffes farouches.",
+   "completion": "Ah, excellent ! Avec un traitement spécial, ces peaux seront plus résistantes que du fer, je vous le dis ! Il faudra plusieurs essais avant de trouver la bonne formule, mais je suis certain que je vais pouvoir accroître la qualité de mes produits.\n\nQuant à vous, <nom>, votre assistance s'est avérée précieuse. Je vous en prie, choisissez parmi mes créations.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7854,
+     "name": "Jangdor Swiftstrider"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7854,
+     "name": "Jangdor Swiftstrider"
+    }
+   ],
+   "zone_id": 357,
+   "level": 46,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 4050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2844": {
+   "id": 2844,
+   "name": "Le garde géant",
+   "objectives": "Retrouver la jeune elfe de la nuit perdue.",
+   "description": "Je suis vraiment bon à rien, <nom>. J'étais supposé surveiller mon amie Shay, et je l’ai perdue. Je ne suis pas sûr de ce qui s'est passé, mais la dernière fois que je l'ai vue, nous étions en train de marcher dans les ruines au nord d'ici.\n\nTout allait bien, mais lorsque je me suis retourné vers elle... elle avait disparu.\n\nMaintenant je ne sais plus quoi faire. Vous avez une idée, <nom> ? Je suis affreusement inquiet.\n\nEt si vous alliez la chercher ? Vos jambes vous permettent d'aller plus vite que moi.",
+   "progress": null,
+   "completion": "Oh ! Je suis si heureuse que vous m'ayez retrouvée ! Je dois admettre que je me suis un peu perdue… Mais n'est-ce pas un endroit admirable ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7765,
+     "name": "Croque-roc"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7774,
+     "name": "Shay Leafrunner"
+    }
+   ],
+   "zone_id": 357,
+   "level": 49,
+   "reqlevel": 44,
+   "side": "alliance",
+   "xp": 3400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2845": {
+   "id": 2845,
+   "name": "Shay l'égarée",
+   "objectives": "Prendre la Cloche de Shay dans le coffre.\n\nEscorter Shay Leafrunner au Camp de Croque-roc.",
+   "description": "Pouvez-vous m'aider à retrouver mon chemin jusqu'à mon ami, Croque-roc ? Il était supposé me surveiller… Mais j'ai tendance à folâtrer de-ci de-là. Il y a tant de choses à voir et je me laisse facilement distraire.\n\nIl y a toutefois une chose qui me ramène toujours.\n\nDans ce coffre, vous trouverez une cloche qui m'est précieuse. J'adore sa sonorité. Si je m'égare, vous n'avez qu'à la faire sonner, je reviendrai immédiatement.",
+   "progress": "J'commençais à me faire du mouron pour toi ! Merci bien de l'avoir ramenée à la maison, <nom>.",
+   "completion": "Quoi ? Vous dites que cette cloche ramène Shay lorsqu’elle disparaît ? C'a l'air bien pratique !\n\nComme vous m'avez rendu service, v'là pour vous, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7774,
+     "name": "Shay Leafrunner"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7765,
+     "name": "Croque-roc"
+    }
+   ],
+   "zone_id": 357,
+   "level": 49,
+   "reqlevel": 44,
+   "side": "alliance",
+   "xp": 4550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2862": {
+   "id": 2862,
+   "name": "La guerre avec les Griffebois",
+   "objectives": "Rapporter 10 Crinières de gnolls Griffebois à Hadoken Swiftstrider au Camp Mojache.",
+   "description": "Les gnolls… Ils sont plus qu'une nuisance. Ils sont une menace constante pour ce campement ! Qu'ils soient natifs de Feralas ou non n'a aucune importance, si nous ne prenons pas bientôt des mesures appropriées contre eux, nous serons balayés de la région.\n\nLes attaques contre le camp sont de pire en pire. Nous avons besoin de votre aide pour réduire leur nombre. Ramenez-moi dix crinières et je vous récompenserai de vos efforts.\n\nAllez !",
+   "progress": "Nous les avons repoussés et ils continuent d'attaquer ! Il doit y avoir quelque chose ou quelqu'un qui les rend fous… Vous êtes là, <nom> ? Avez-vous les crinières ?",
+   "completion": "C'est un bon début, <nom>. Vos talents de soldat sont admirables.\n\nJ'ai déjà donné cette mission à d'autres. Beaucoup l'ont remplie et cela permettait de repousser les gnolls. Mais récemment, leurs attaques contre nos positions au nord se sont faites plus nombreuses, plus sauvages. . . comme désespérées.\n\nJ'ai un plan, <nom>, qui permettrait de résoudre ce problème une bonne fois pour toutes.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7875,
+     "name": "Hadoken Swiftstrider"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7875,
+     "name": "Hadoken Swiftstrider"
+    }
+   ],
+   "zone_id": 357,
+   "level": 42,
+   "reqlevel": 39,
+   "side": "horde",
+   "xp": 2550,
+   "money": 4500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2863": {
+   "id": 2863,
+   "name": "Frappe sur les Alphas",
+   "objectives": "Tuer 5 Alphas Griffebois et retourner voir Hadoken Swiftstrider en moins d'une heure.",
+   "description": "Le plan concerne divers chefs gnolls - les Alphas pour reprendre leur propre appellation - et leur élimination successive en un minimum de temps. Si nous pouvions exécuter ce genre d'éradication rapide et précise contre eux, cela amènerait le chaos dans leurs rangs. Et peut-être que le message passerait même à l'intérieur de leurs têtes épaisses et infestées de puces que nous pouvons et allons les détruire !\n\nJe veux que vous soyez <le messager/la messagère> de ma volonté. Eliminez cinq de leurs Alphas en une heure pour cette mission, <nom>, ou nous resterons dans l'impasse.",
+   "progress": "Le temps presse, <nom> ! Si vous n'êtes pas ici pour nous dire que vous avez éliminé les Alphas, alors vous perdez votre temps !",
+   "completion": "Vous avez rempli la mission. Je salue votre réussite et vous prie d'accepter cette modeste récompense comme prix de vos efforts, <nom>.\n\nAvec leurs effectifs réduits et leurs chefs tués, les gnolls vont réfléchir à deux fois avant d'attaquer. Mais cela ne résout pas le problème. . .\n\nIl doit y avoir une raison qui les a conduits à se comporter ainsi. Avant qu'ils ne puissent se réorganiser, je veux que vous trouviez ce qui les pousse à agir ainsi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7875,
+     "name": "Hadoken Swiftstrider"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7875,
+     "name": "Hadoken Swiftstrider"
+    }
+   ],
+   "zone_id": 357,
+   "level": 43,
+   "reqlevel": 39,
+   "side": "horde",
+   "xp": 2700,
+   "money": 4500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "le messager/la messagère",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2866": {
+   "id": 2866,
+   "name": "Les ruines de Solarsal",
+   "objectives": "Explorer les ruines de Solarsal et enquêter sur la présence des nagas dans le secteur.",
+   "description": "Au sud se trouvent les ruines de Solarsal, un site bien antérieur à l'ère moderne. Nous avons exploré ces ruines et rien trouvé, aussi les avons-nous délaissées.\n\nTrès récemment, les nagas Hainecrête se sont installés en nombre dans les ruines. Au début, nous pensions à une attaque. Bien que cela soit toujours possible, nous croyons qu'il s'agit d'autre chose.\n\nAllez là-bas, explorez les ruines et rendez compte de tout ce qui vous paraîtra inhabituel. Bonne chance, <nom>.",
+   "progress": null,
+   "completion": "L'examen du belvédère révèle des choses intéressantes et inhabituelles par rapport aux autres ruines.\n\nD'abord, la construction est beaucoup plus récente que le reste du site. Ensuite, ses côtés sont gravés d’une petite série de glyphes. La séquence des glyphes est répétitive, leur signification et leur origine inconnues. Troisièmement, la pierre du belvédère est chaude au toucher.\n\nCela le distingue clairement des autres ruines !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3936,
+     "name": "Shandris Feathermoon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 142179,
+     "name": "Solarsal Gazebo"
+    }
+   ],
+   "zone_id": 357,
+   "level": 43,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 2700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2867": {
+   "id": 2867,
+   "name": "Retourner au bastion de Feathermoon",
+   "objectives": "Retourner voir Shandris Feathermoon au bastion de Feathermoon et lui rendre compte de vos découvertes.",
+   "description": "Après la découverte du belvédère étrange au cœur des ruines de Solarsal, il est temps de retourner au bastion de Feathermoon et faire votre rapport au général Shandris Feathermoon.",
+   "progress": null,
+   "completion": "Soyez de nouveau le bienvenu, <nom>. Votre rapport concernant ce belvédère est très… dérangeant. Il semblerait, même si les nagas qui s'y trouvent ne préparaient pas une attaque, que leur présence soit de mauvais augure pour notre progression dans Feralas. En tout cas, voici une compensation pour votre enquête.\n\nJ'ai bien peur que le bastion de Feathermoon ait grand besoin d'une aide supplémentaire à propos des nagas Hainecrête. J'aimerais que vous vous en chargiez, si vous le voulez bien. Il y a beaucoup à faire.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 142179,
+     "name": "Solarsal Gazebo"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3936,
+     "name": "Shandris Feathermoon"
+    }
+   ],
+   "zone_id": 357,
+   "level": 43,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 1800,
+   "money": 4500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2869": {
+   "id": 2869,
+   "name": "Contre les Hainecrête",
+   "objectives": "Rapporter 10 Ecailles de naga Hainecrête à Latronicus Moonspear au bastion de Feathermoon.",
+   "description": "La meilleure approche est de penser, indépendamment du projet réel des nagas, qu'ils tentent de prendre possession de l'île. Nous devons réagir énergiquement avant qu'il ne soit trop tard.\n\nRapportez-moi dix écailles de Hainecrête en bon état ; pas besoin de vous expliquer comment vous les procurer. Vous diminuerez leur puissance et affaiblirez leur présence sur l'île de Sardor, ce qui joue en notre faveur.",
+   "progress": "<nom>, si vous êtes ici pour confirmer la mission que je vous ai confiée, très bien : j'ai besoin de dix écailles de Hainecrête. Si vous êtes ici pour discuter, je n'ai pas le temps.\n\nApprenez ceci : les elfes de la nuit ne sont pas des foudres de guerre. Notre race est vouée à la préservation, à la paix et à l'harmonie. Mais cela ne veut pas dire que nous ne défendons pas activement nos intérêts. C'est mon devoir vis-à-vis du général Feathermoon et du Bastion.",
+   "completion": "Oui, oui, ces écailles sont plus que satisfaisantes ! Je pense même les envoyer à Pratt afin qu'il les examine. Peut-être qu'il peut en faire quelque chose d'utile.\n\nJ'ai une autre mission à vous confier. Mais d'abord voici votre récompense pour les écailles. Votre engagement auprès du général et du bastion de Feathermoon en général est une bénédiction en ces temps troublés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7877,
+     "name": "Latronicus Moonspear"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7877,
+     "name": "Latronicus Moonspear"
+    }
+   ],
+   "zone_id": 357,
+   "level": 43,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 2700,
+   "money": 4500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2870": {
+   "id": 2870,
+   "name": "Contre le Seigneur Shalzaru",
+   "objectives": "Eliminer le seigneur Shalzaru et rapporter la mystérieuse relique qu'il a découverte à Latronicus Moonspear au bastion de Feathermoon.",
+   "description": "<nom>, de nouveaux rapports nous donnent une bonne idée de la chaîne de commandement des nagas. Parmi le tout-venant se trouve des individus de sang royal, et ce sont eux qui prennent toutes les décisions.\n\nNous avons identifié l'un de ces nobles, le seigneur Shalzaru. Nos agents disent qu'il a découvert une relique étrange au cours de fouilles récentes qu’il a menées dans une caverne au sud des ruines principales, sur l'île de l'Effroi.\n\nArrêtez les autres en neutralisant Shalzaru et rapportez-moi sa relique afin que nous puissions l'étudier.",
+   "progress": "L'élimination du Seigneur Shalzaru retardera certainement leurs plans de plusieurs semaines, voire plusieurs mois. De plus, la relique qu'il a découverte nous intéresse fortement.\n\nAvez-vous accompli votre mission, <nom> ?",
+   "completion": "Bien joué, <nom> ! La disparition du seigneur Shalzaru va perturber les nagas pendant quelque temps, si ce n'est définitivement. Grâce à vous, la menace qu'ils représentent est désormais sous contrôle.\n\nVoilà une autre récompense venant du trésor de la Forteresse. Vous et les vôtres serez toujours les bienvenus à la Forteresse.\n\nUne dernière chose avant que vous ne partiez, <nom>. . . si vous pouviez. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7877,
+     "name": "Latronicus Moonspear"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7877,
+     "name": "Latronicus Moonspear"
+    }
+   ],
+   "zone_id": 357,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 2900,
+   "money": 5000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2871": {
+   "id": 2871,
+   "name": "Livraison de la relique",
+   "objectives": "Porter la Relique mystérieuse à Vestia Moonspear au bastion de Feathermoon.",
+   "description": "Si vous étiez assez aimable de porter la relique à ma femme Vestia, je vous en serai très reconnaissant. Elle n'est pas seulement une excellente prêtresse, elle fait également partie des meilleurs érudits que vous puissiez trouver. Je n'arrive pas à comprendre l’usage de cet objet. Si quelqu'un peut le savoir, c'est ma femme... et nous avons besoin de savoir de quoi il s'agit !\n\nElle est juste derrière le virage, sûrement en train d'étudier. Merci, <nom>.",
+   "progress": "Oui, puis-je vous aider ?\n\nUne minute, <classe>, c'est vous qui avez aidé le général Feathermoon et Latro à nous débarrasser de la menace naga ? Je suis Vestia, la femme de Latro, euh… excusez-moi, de Latronicus. C'est un plaisir de vous rencontrer. Auriez-vous quelque chose pour moi par hasard ?",
+   "completion": "Intéressant… Vous dites que cela vient des ruines de Solarsal ? Eh bien, Latro a raison de dire que je dois y jeter un œil ! Au premier abord, cela ne semble pas appartenir aux ruines. Mais il ne s'agit pas de l'œuvre des nagas… C'est beaucoup trop étrange pour cela.\n\nJe vais avoir besoin de temps pour l'étudier. Une fois que j'aurai terminé, j'aurai peut-être besoin de vos talents, si vous êtes dans les environs.\n\nTenez, prenez l'un de ces objets. J'espère que vous en trouverez l'utilité.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7877,
+     "name": "Latronicus Moonspear"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7878,
+     "name": "Vestia Moonspear"
+    }
+   ],
+   "zone_id": 357,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2879": {
+   "id": 2879,
+   "name": "Le Bâton d'Equinex",
+   "objectives": "Dynamiser le Bâton de Troyas et trouver le Monolithe d'Equinex.",
+   "description": "Il semble que ce bâton soit le Bâton d'Equinex. C'est une clé qui permet d'ouvrir le Monolithe d'Equinex qui est érigé dans les ruines de Vent-du-Corbeau, sur le continent, à l'ouest du Bosquet du rêve.\n\nLocalisez les quatre flammes qui brûlent toujours dans les ruines: Samha, Imbel, Byltan et Lahassa. Là, retrouvez leur essence et pendant que vous êtes près du Monolithe, utilisez cette essence pour dynamiser le Bâton d'Equinex. Vous pourrez alors ouvrir le Monolithe et prendre l'artefact sacré qui s'y trouve.",
+   "progress": "Le Monolithe d'Equinex se dresse silencieusement au milieu des ruines. Que peut-il abriter ?",
+   "completion": "Tenir le bâton dynamisé est pratiquement impossible. Sa puissance résonne à travers votre corps.\n\nVous atteignez la surface froide du Monolithe…\n\nUne petite porte s'ouvre, vous permettant d'entrer et de prendre l'artefact qui se trouve à l'intérieur.\n\nDes rayons lumineux baignent le Monolithe d'Equinex.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7764,
+     "name": "Troyas Moonbreeze"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 144063,
+     "name": "Equinex Monolith"
+    }
+   ],
+   "zone_id": 357,
+   "level": 50,
+   "reqlevel": 42,
+   "side": "alliance",
+   "xp": 4700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2902": {
+   "id": 2902,
+   "name": "Enquête chez les Griffebois",
+   "objectives": "Trouver les Plans de bataille des gnolls dans les camps gnolls du sud du Camp Mojache.",
+   "description": "Les gnolls ne sont pas des lumières, mais ils ont certainement des documents concernant leurs récents agissements. Si nous trouvions des plans, alors nous aurions une meilleure idée de ce qui les motive.\n\nJe veux que vous retourniez chez les Griffebois et que vous rapportiez tout ce qui ressemble à un plan de bataille. Ils doivent avoir quelque chose, leurs attaques sont trop coordonnées. Trouvez les plans de bataille et rapportez-les-moi.",
+   "progress": null,
+   "completion": "Un examen de la carte révèle qu'il s'agit des plans de bataille que cherche Hadoken Swiftstrider. De nombreuses flèches représentant probablement des mouvements de troupes sont dessinées, la plupart pointent vers le sud alors que le Camp Mojache est au nord.\n\nSur une autre page, un croquis représente ce qui vous paraît être un gros insecte, annoté de chiffres. Il vous semble qu'il s'agit des pertes des gnolls face aux mystérieux insectes. . . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7875,
+     "name": "Hadoken Swiftstrider"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 142195,
+     "name": "Woodpaw Battle Map"
+    }
+   ],
+   "zone_id": 357,
+   "level": 43,
+   "reqlevel": 39,
+   "side": "horde",
+   "xp": 1800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2903": {
+   "id": 2903,
+   "name": "Les plans de bataille",
+   "objectives": "Rapporter les Plans de bataille des Griffebois à Hadoken Swiftstrider au Camp Mojache.",
+   "description": "Une fois trouvés les plans des gnolls, il reste à les porter à Hadoken Swiftstrider au Camp Mojache. Peut-être comprendra-t-il les projets des gnolls…",
+   "progress": "Bon retour parmi nous, <nom>, avez-vous trouvé des preuves tangibles des plans des gnolls ?",
+   "completion": "C'est exactement ce dont nous avions besoin ! Bien que je n'aie pas les connaissances pour comprendre la signification de ces dessins, j'ai vu suffisamment de plans de bataille dans ma vie pour comprendre de quoi il s’agit. Il semble que les gnolls mènent actuellement une guerre sur deux fronts. Le premier, c'est nous. . . Mais leur front principal est contre un ennemi au sud.\n\nIl y a encore des choses à éclaircir. Nous devons en savoir plus sur leur ennemi.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 142195,
+     "name": "Woodpaw Battle Map"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7875,
+     "name": "Hadoken Swiftstrider"
+    }
+   ],
+   "zone_id": 357,
+   "level": 43,
+   "reqlevel": 39,
+   "side": "horde",
+   "xp": 3600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2939": {
+   "id": 2939,
+   "name": "En savoir plus",
+   "objectives": "Parler à Daryn Lightwind, au village de Rut'theran.",
+   "description": "Bien que les Ruines de Feralas puissent être très dangereuses, elles ont beaucoup à raconter sur ce qui s'est passé ici.\n\nIl y a quelques jours, tandis que je fouillais les décombres, j'ai découvert ce qui semble être une douve classique. Je ne peux cependant pas me défaire de l'idée que cela cache quelque chose... Angelas et moi avons fait des recherches dans nos livres, mais nous n’avons rien découvert la concernant.\n\nJe connais une collègue à Darnassus qui pourrait peut-être nous dire de quoi il s'agit, <nom>. Pourquoi n'iriez-vous pas lui parler et voir si elle peut nous aider ?",
+   "progress": null,
+   "completion": "Ainsi, c'est Troyas Moonbreeze qui vous envoie ?\n\n<Marmonnements>… n'arrête pas de me harceler, comme quoi il aurait découvert quelque chose d'important…\n\nÉcoutez, <nom>, je vais être franche. Troyas croit toujours avoir découvert quelque chose d'important dans ces ruines. Mais tout ce qui avait une véritable valeur a été ravagé depuis longtemps par les ogres et les harpies qui y vivent à présent.\n\nVous pouvez faire toutes les recherches que vous voulez ici, mais je doute que vous trouverez un livre pouvant vous en apprendre davantage.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7764,
+     "name": "Troyas Moonbreeze"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7907,
+     "name": "Daryn Lightwind"
+    }
+   ],
+   "zone_id": 357,
+   "level": 47,
+   "reqlevel": 42,
+   "side": "alliance",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2940": {
+   "id": 2940,
+   "name": "Feralas : une histoire",
+   "objectives": "Demander à Daryn Lightwind si vous pouvez emprunter son livre.",
+   "description": "Ce livre à l'air de ne pas avoir été ouvert depuis des années. Sa couverture est passée et ses pages jaunies ; mais en l'examinant de plus près, vous remarquez que c'est exactement ce que Troyas devait rechercher.\n\nVous le prenez, puis réalisez que vous devriez d'abord demander la permission avant de l'emprunter.",
+   "progress": null,
+   "completion": "Ainsi vous aimeriez emprunter \"Histoire de Feralas\" ?\n\nVoyons. . .\n\nJe vous prêterai ce livre, <nom>, mais seulement si vous faites un petit travail pour moi.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 142958,
+     "name": "Feralas: A History"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7907,
+     "name": "Daryn Lightwind"
+    }
+   ],
+   "zone_id": 357,
+   "level": 47,
+   "reqlevel": 42,
+   "side": "alliance",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2941": {
+   "id": 2941,
+   "name": "Le prêt",
+   "objectives": "Apporter la lettre à Curgle Cranklehop, à Tanaris.",
+   "description": "J'ai étudié beaucoup de thèmes et de sujets, et ma dernière étude porte sur la créature appelée Gueule d'acier qui vit sur les plages, dans les Hinterlands. Il y a en particulier un spécimen que j'aimerais voir, nommé Gammerita. Mes recherches me retiennent ici, hélas. Je pense qu'une image de la bête suffirait à son étude.\n\nPortez cette lettre à Curgle Cranklehop, à Tanaris. Elle a inventé une machine qui prend des images. Elle appelle cela : \"photographie\", je crois...",
+   "progress": "Une lettre. . . pour moi ?",
+   "completion": "Vous êtes un des internes de Daryn ? C'est une historienne très capable, <nom>. Vous devriez éprouver de la gratitude d'étudier sous sa direction.\n\nMaintenant, jetez un coup d'oeil sur le Preneur d'images FX. Vous allez adorer !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7907,
+     "name": "Daryn Lightwind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7763,
+     "name": "Curgle Cranklehop"
+    }
+   ],
+   "zone_id": 357,
+   "level": 48,
+   "reqlevel": 42,
+   "side": "alliance",
+   "xp": 1100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2942": {
+   "id": 2942,
+   "name": "La Pierre du matin",
+   "objectives": "Rapporter la Pierre étincelante et le Bâton d'Equinex à Troyas Moonbreeze, dans le bastion de Feathermoon.",
+   "description": "Lorsque vous retirez l'artefact du Monolithe, vous sentez que l'énergie du Bâton d'Equinex commence à décliner.",
+   "progress": "Je suis bien aise de vous voir rentré, <nom>. J'ai hâte d'apprendre ce que vous avez trouvé.",
+   "completion": "J'ai étudié des livres pendant votre absence, <nom>. La pierre que vous avez trouvée s'appelle la Pierre du matin. Je ne sais pas encore exactement à quoi elle sert ; sachez cependant qu'un objet caché dans le Monolithe d'Equinex ne peut avoir qu'une énorme importance.\n\nJe vais poursuivre mes études, en espérant pouvoir compter sur vous dans l'avenir, <nom>. Merci de votre aide.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 144063,
+     "name": "Equinex Monolith"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7764,
+     "name": "Troyas Moonbreeze"
+    }
+   ],
+   "zone_id": 357,
+   "level": 50,
+   "reqlevel": 42,
+   "side": "alliance",
+   "xp": 4700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2943": {
+   "id": 2943,
+   "name": "Troyas",
+   "objectives": "Apporter le livre à Troyas Moonbreeze, dans le bastion de Feathermoon.",
+   "description": "Voilà, <nom>. Je vous en prie, prenez soin de mon livre.\n\nPartez, à présent. Je suis sûre que Troyas attend votre retour avec impatience.",
+   "progress": "Salut, <nom>. Avez-vous été à Darnassus ?",
+   "completion": "Vous avez rapporté un livre. Excellent !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7907,
+     "name": "Daryn Lightwind"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7764,
+     "name": "Troyas Moonbreeze"
+    }
+   ],
+   "zone_id": 357,
+   "level": 48,
+   "reqlevel": 42,
+   "side": "alliance",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2944": {
+   "id": 2944,
+   "name": "Le Preneur d'images FX",
+   "objectives": "Utiliser le Preneur d'images FX pour prendre un cliché de Gammerita, puis retourner voir Daryn Lightwind à Rut'theran.",
+   "description": "Regardez ma dernière invention, <nom>. Tout ce que vous avez à faire est de viser puis d'appuyer sur ce bouton.\n\nQuelle était la créature des Hinterlands que vous avez mentionnée ? Gammerita ? Eh bien, bonne chance. Je suis sûre que Daryn sera contente du cliché que vous lui en ferez.\n\nVoici le Preneur d'images FX, faites-en bon usage et amusez-vous bien !",
+   "progress": "Vous êtes enfin de retour, <nom>. Et vous m'avez apporté ce que Curgle a construit pour moi. Parfait.",
+   "completion": "Bien ! L'invention de Curgle répond à nos attentes.\n\nNe vous emballez pas, mais sachez tout de même que je pense du bien de votre travail, <nom>.\n\nVoyons, où ai-je laissé ce livre. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7763,
+     "name": "Curgle Cranklehop"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7907,
+     "name": "Daryn Lightwind"
+    }
+   ],
+   "zone_id": 357,
+   "level": 48,
+   "reqlevel": 42,
+   "side": "alliance",
+   "xp": 4400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2969": {
+   "id": 2969,
+   "name": "Liberté pour toutes les créatures",
+   "objectives": "A l’aide de la Clé de la cage en bambou, libérer les Fées fléchetteuses de l’enclos dans le Camp du Totem sinistre. Au moins 6 Fées fléchetteuses et Kindal Moonweaver doivent survivre.\n\nVous avez 6 minutes avant que Kindal décide qu’il est temps de battre en retraite et que vous échouiez dans votre quête.",
+   "description": "L'odieux clan du Totem sinistre capture des créatures féeriques, <nom>. Jer'kai et moi ne savons pas quels desseins ils poursuivent en faisant cela, mais ce n'est certainement rien de bon.\n\nNous ne sommes pas assez puissants pour combattre le Totem sinistre dans son camp et libérer les créatures, mais peut-être qu'avec votre aide...\n\nSi vous êtes d'accord et avez quelques amis robustes qui voudraient se joindre à vous, allez libérer les créatures de leurs cages grâce à cette clé et assurez-vous qu'elles restent en vie. Je serai à vos côtés tout le temps ; Jer'kai, pour sa part, restera ici, au cas où...",
+   "progress": "Nous ne pouvons pas laisser le clan Grimtotem détruire ces magnifiques créatures. Elles doivent être libérées de leur captivité !",
+   "completion": "Elune soit louée, <nom> ! Vous êtes une bénédiction pour nous et les Fées fléchetteuses que vous avez sauvées. Jer'kai et moi, nous n'avons jamais été capables d'aider les dragons. Nous n'oublierons jamais votre intervention dans les affaires du Totem sinistre.\n\nParlez à Jer'kai. . . Je dois préparer notre vengeance. Ce n'est pas parce que les dragons féeriques sont libres qu'ils le resteront. Jer'kai et moi-même devons passer à l'offensive.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7956,
+     "name": "Kindal Moonweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7956,
+     "name": "Kindal Moonweaver"
+    }
+   ],
+   "zone_id": 357,
+   "level": 47,
+   "reqlevel": 38,
+   "side": "alliance",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2970": {
+   "id": 2970,
+   "name": "Justice de châtiment",
+   "objectives": "Tuer 12 Naturalistes du Totem sinistre, 10 Ecumeurs du Totem sinistre et 6 Chamans du Totem sinistre avant de retourner voir Jer'kai Moonweaver, en Feralas.",
+   "description": "Comme vous l'a déjà dit Kindal, nous allons désormais combattre le clan du Totem sinistre. Ensemble, nous devrions pouvoir affronter quelques taurens, mais nous apprécierions votre aide, si vous êtes d'accord.\n\nVous avez vu l'un des camps, en aval ; il y en a encore d'autres à l'est. Faites selon vos compétences et techniques mais infligez autant de dégâts possibles aux taurens. Quand ils auront goûté à la piqûre des flèches de Kindal et à vos propres armes, nous nous retrouverons tous ici, pour faire le point.",
+   "progress": "Kindal a besoin de temps pour se préparer, mais nos victimes se comptent maintenant par douzaines. Le clan du Totem sinistre est conscient de notre présence et nous recherche sans relâche. . .\n\nIls feraient n'importe quoi pour brandir nos têtes au bout d'une pique. Faites attention, après ce que vous avez fait, ils ne vous feront pas de cadeaux non plus.",
+   "completion": "Kindal avait raison à votre sujet, <nom>. Vous avez un don pour ça. Vous êtes l'aventurier le plus aguerri de nous tous et nous vous en remercions.\n\nLe clan du Totem sinistre est plus hostile que la plupart des clans taurens. . . Je me demande même si leurs semblables ne désapprouvent pas leurs actions. Comme vous l'avez certainement remarqué, beaucoup de races à Azeroth comptent des individus vicieux et peu fréquentables.\n\nMais nous discuterons un autre jour.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7957,
+     "name": "Jer'kai Moonweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7957,
+     "name": "Jer'kai Moonweaver"
+    }
+   ],
+   "zone_id": 357,
+   "level": 47,
+   "reqlevel": 38,
+   "side": "alliance",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2972": {
+   "id": 2972,
+   "name": "Justice de châtiment",
+   "objectives": "Apporter la Chevalière de Jer'kai's à la Grande prêtresse Tyrande Whisperwind, à Darnassus.",
+   "description": "Ici, dans les terres sauvages, Kindal et moi n’avons pas grand-chose à vous offrir, mais nous voulons récompenser votre aide. Prenez ma chevalière. Si un jour vous êtes dans les environs de Teldrassil, allez au Temple de la Lune au cœur de Darnassus. Là, vous trouverez ma Haute prêtresse Tyrande Whisperwind. L'anneau lui dira que nous allons bien et que votre histoire est vraie.\n\nNous vous remercions tous les deux, <nom>.",
+   "progress": "Bonjour mon enfant, il est agréable de voir de nouveaux aventuriers, ici dans le Temple. Si vous aviez le temps, peut-être pourriez vous conter quelques-unes de vos épopées aux aventuriers plus jeunes ; je suis sûre qu'ils sauront profiter de votre sagesse.\n\nMais je manque à tous mes devoirs : vous arrivez au Temple pour obtenir de l'aide et c'est moi qui vous sollicite. Veuillez m'excuser. Dites-moi plutôt ce que les serviteurs de la Lumière peuvent faire pour vous.",
+   "completion": "C'est une histoire incroyable, <nom>. Nous sommes heureux de voir que vous n'avez pas hésité à aider les draconiens et l'une de nos propres prêtresses. Jer'kai a eu raison de vous envoyer ici. J'ai envoyé des éclaireurs dans la région de Feralas, je m'assurerai qu'ils lui rapportent sa chevalière.\n\nMerci encore. Vous êtes ici chez vous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7957,
+     "name": "Jer'kai Moonweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7999,
+     "name": "Tyrande Whisperwind"
+    }
+   ],
+   "zone_id": 357,
+   "level": 47,
+   "reqlevel": 38,
+   "side": "alliance",
+   "xp": 5250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2973": {
+   "id": 2973,
+   "name": "Une nouvelle cape",
+   "objectives": "Rapporter 10 Ailes iridescentes de Fées fléchetteuses à Krueg Skullsplitter à Camp Mojache.",
+   "description": "Ah, vous voici, <classe>. Lors d'une mission pour nos maîtres d'Orgrimmar, j'ai voyagé loin en direction de Feralas.\n\nMon amie Korrin adore les vêtements, j'ai donc l'intention de lui confectionner une nouvelle cape ornée des ailes légères des créatures féériques. M'aiderez-vous ? Les Fées fléchetteuses aux ailes sublimes se trouvent à l'ouest de Camp Mojache.",
+   "progress": "Quand elles sont provoquées, les Fées fléchetteuses peuvent être de dangereuses bestioles ; faites très attention et ne vous fiez pas à leur apparence, <classe>. Soyez encore plus vigilant quant aux elfes de la nuit qui peuplent l'endroit. Ces infects individus rôdent souvent dans les forêts.\n\nRevenez me voir quand vous aurez collecté suffisamment d'ailes et je vous récompenserai largement !",
+   "completion": "Merveilleux, <classe> ! Ils feront l'affaire. Il y en a assez pour faire une cape pour Korrin, peut-être plus ! Merci.\n\nJ'espère que le voyage n'a pas été trop dangereux. La région de Feralas n'est pas réputée pour être paisible. Mais vous avez réussi.\n\nMerci encore, <classe>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4544,
+     "name": "Krueg Skullsplitter"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4544,
+     "name": "Krueg Skullsplitter"
+    }
+   ],
+   "zone_id": 357,
+   "level": 45,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 3900,
+   "money": 6500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2974": {
+   "id": 2974,
+   "name": "Une découverte sinistre",
+   "objectives": "Apporter 20 Cornes de Totem sinistre à Krueg Skullsplitter à Camp Mojache.",
+   "description": "Quoi ! Vous avez rencontré des taurens dans le secteur ? Vous plaisantez ! A quoi ressemblaient-ils !?\n\nLe clan Totem sinistre ! Vous en avez vus ? Belgrom, l'un de nos maîtres, s'intéresse à eux… Il offre même une prime à leur égard.\n\nVous devez repartir, <classe>. Retournez-y et apportez-moi leurs cornes. Des montagnes si vous pouvez. Ils ne doivent pas être traités à la légère ou sous-estimés. Retournez-y et massacrez-les. Que les rivières de Feralas rougissent de leur sombre sang.",
+   "progress": "Prêtez-moi toute votre attention, <classe>, le clan du Totem sinistre est maléfique. Si vous les avez localisés, il ne dépend que de vous d'y retourner et de frapper le premier coup contre leur clan… avant qu'ils ne viennent sur nos propres terres pour raser nos villages ou piller nos terres.",
+   "completion": "Ce sont de bien belles cornes, <classe>. Félicitations ! Je les prends et vous assure d'informer Belgrom dès que nous serons de retour à Orgrimmar. Vous m'avez aidé deux fois et avez gagné mon plus grand respect. Peut-être, dans l'avenir, pourrais-je vous aider à mon tour ! Bonne chance à vous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4544,
+     "name": "Krueg Skullsplitter"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4544,
+     "name": "Krueg Skullsplitter"
+    }
+   ],
+   "zone_id": 357,
+   "level": 45,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 3900,
+   "money": 6500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2975": {
+   "id": 2975,
+   "name": "Les ogres de Feralas",
+   "objectives": "Tuer 10 Ogres gordunni, 10 Ogre-magi gordunni et 5 Brutes gordunni pour Rok Orhan, à Camp Mojache.",
+   "description": "La tribu des ogres Gordunni ne peut pas passer inaperçue, dans cette région ; regardez autour de vous : le pays est comme blessé par leur simple présence, <nom>. Nous devons les repousser avant qu'ils ne se répandent plus avant dans Feralas.\n\nSuivez la rivière au nord, vous tomberez sur leur avant-poste. Portez la mort et la désolation parmi eux, <nom>. Nous devons leur montrer à quel point nous les trouvons indésirables.",
+   "progress": "Faites vite, <nom>. Ou la tâche que j'ai demandée est-elle trop difficile ?",
+   "completion": "Excellent, <nom>. Avec le temps, le pays guérira. Nous devons tenir bon.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7777,
+     "name": "Rok Orhan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7777,
+     "name": "Rok Orhan"
+    }
+   ],
+   "zone_id": 357,
+   "level": 43,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 2700,
+   "money": 4500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2976": {
+   "id": 2976,
+   "name": "Une découverte sinistre",
+   "objectives": "Apporter la Caisse de Cornes de Totem sinistre à Belgrom Rockmaul, Orgrimmar.",
+   "description": "Comment ?\n\nAh, j'ai parlé d'une récompense, n'est-ce pas ? Bon... ça m'apprendra à ouvrir la bouche !\n\nVous avez fait le travail et je suppose que je vous dois ce que je vous avais promis. Prenez les cornes, je les ai mises dans une caisse pour vous et portez-les à Belgrom Rockmaul, dans la Vallée de l'honneur. Il souhaite entendre votre rapport et vous récompenser.\n\nQue les vents vous portent, <classe>, et merci encore pour tout.",
+   "progress": "Que voulez-vous, <classe> ? J'ai beaucoup à faire aujourd'hui.",
+   "completion": "Le Totem sinistre ? Voilà qui est intéressant. Vous dites que vous les avez rencontrés en chassant dans Feralas ? Vraiment ?\n\nMes compagnons voudront entendre ce que vous avez à dire, <classe>. Racontez-m'en plus pendant que je vous prépare une récompense.\n\nEt avant que vous ne partiez, je me dois de vous remercier pour toutes ces informations.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4544,
+     "name": "Krueg Skullsplitter"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4485,
+     "name": "Belgrom Rockmaul"
+    }
+   ],
+   "zone_id": 357,
+   "level": 45,
+   "reqlevel": 37,
+   "side": "horde",
+   "xp": 4850,
+   "money": 6500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2978": {
+   "id": 2978,
+   "name": "Le parchemin Gordunni",
+   "objectives": "Apporter le Parchemin Gordunni à Rok Orhan, à Camp Mojache.",
+   "description": "En ramassant les parchemins salis, vous remarquez qu'ils représentent quelque cérémonie ou rassemblement. Rok Orhan aimerait sûrement jeter un oeil sur ce parchemin et savoir quel est son rapport avec les Gordunni.",
+   "progress": "Qu'est-ce que c'est que ça ?",
+   "completion": "Ce parchemin. . . vous l'avez trouvé dans l'avant-poste des Gordunni ?",
+   "starters": [
+    {
+     "type": "item",
+     "id": 9370,
+     "name": "Gordunni Scroll"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7777,
+     "name": "Rok Orhan"
+    }
+   ],
+   "zone_id": 357,
+   "level": 43,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 1800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2979": {
+   "id": 2979,
+   "name": "Sombre cérémonie",
+   "objectives": "Rapporter un Orbe Gordunni à Rok Orhan, à Camp Mojache.",
+   "description": "On dirait bien des plans pour quelque sombre cérémonie, <nom>. D'après ce que je vois, cette assemblée est tenue par les seigneurs-mages Gordunni.\n\nTrouvez l'un de ces seigneurs-mages et prenez-lui un orbe.\n\nL'orbe d'un mage contient beaucoup de pouvoirs et nous aidera à en savoir plus sur cette cérémonie secrète des Gordunni.",
+   "progress": "Nous devons en apprendre plus à propos de la présence des Gordunni ici, <nom>.",
+   "completion": "Cet orbe nous fournira des informations supplémentaires à propos des Gordunni. . . informations que nous utiliserons pour les détruire, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7777,
+     "name": "Rok Orhan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7777,
+     "name": "Rok Orhan"
+    }
+   ],
+   "zone_id": 357,
+   "level": 46,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 4050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2980": {
+   "id": 2980,
+   "name": "Les ogres de Feralas",
+   "objectives": "Tuer 10 Chamans Gordunni, 10 Démonistes Gordunni et 5 Marteleurs Gordunni pour Rok Orhan, à Camp Mojache.",
+   "description": "Vous avez prouvé que vous saviez vous battre et je sais que vous avez le courage de continuer la mission.\n\nAllez dans les Plateaux sauvages, au sud-ouest. Vous y verrez des structures détruites et abandonnées sur les terres qui, jadis, appartenaient aux elfes de la nuit. Dirigez-vous sur ces ruines et quand vous traverserez des terres profanées aux arbres flétris, vous trouverez les Gordunni. Repoussez-les.\n\nCes ogres sont beaucoup plus forts et dangereux que ceux que vous avez précédemment combattus, <nom>. Soyez <prudent/prudente>.",
+   "progress": "Avez-vous trouvé les ruines, <nom> ?",
+   "completion": "Vous avez prouvé que l'on pouvait vous faire confiance, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7777,
+     "name": "Rok Orhan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7777,
+     "name": "Rok Orhan"
+    }
+   ],
+   "zone_id": 357,
+   "level": 44,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 3750,
+   "money": 12500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "prudent/prudente"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2982": {
+   "id": 2982,
+   "name": "Les Plateaux sauvages",
+   "objectives": "Tuer 8 Démonistes Gordunni, 8 Chamans Gordunni et 8 Brutes Gordunni pour Angelas Moonbreeze.",
+   "description": "Bien que ce soit risqué, Troyas et moi avons visité les ruines dans les forêts de Feralas.\n\nCes derniers temps, Troyas à pris l'habitude de se rendre seul sur les Plateaux sauvages, et je m'inquiète pour lui. Les ogres Gordunni contrôlent la zone et ils ne traitent pas avec douceur ceux qui s'aventurent dans leur domaine.\n\nAccepteriez-vous d'aller dans les ruines, au sud-est, et de tuer quelques ogres afin de rendre la zone un peu plus sûre pour Troyas. Je vous en remercie par avance.",
+   "progress": "Méfiez-vous des Gordunni, <nom>. Leur magie semble faire des ravages sur la terre même où ils se trouvent.",
+   "completion": "Je vous remercie beaucoup pour ce que vous avez fait pour moi.\n\nMais, s'il vous plaît, n'en dites rien à Troyas. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7900,
+     "name": "Angelas Moonbreeze"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7900,
+     "name": "Angelas Moonbreeze"
+    }
+   ],
+   "zone_id": 357,
+   "level": 44,
+   "reqlevel": 39,
+   "side": "alliance",
+   "xp": 3750,
+   "money": 6500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2987": {
+   "id": 2987,
+   "name": "Cobalt Gordunni",
+   "objectives": "Collecter 12 échantillons de Cobalt Gordunni pour Orwin Gizzmick, à Camp Mojache.",
+   "description": "Je viens juste d'arriver dans Feralas et j'ai appris que les ogres Gordunni qui y résident gardent d'intéressants minéraux. Impossible de savoir ce qu'ils projettent, mais ils protègent leurs stocks farouchement et les enterrent pour empêcher qu'un fou comme moi ne mette la main dessus.\n\nSi vous êtes d'accord, voici ma pelle : allez dans l'avant-poste des Gordunni, plus au nord, et extrayez-moi un peu de cobalt Gordunni. Cherchez la lueur bleue, puis commencez à creuser !",
+   "progress": "Venez ici et commencez à creuser !\n\nJ'ai des personnes à voir et des choses à faire ; le temps c'est de l'argent !",
+   "completion": "Parfait ! Je vais prendre ça avec moi en voyageant, <nom>. Je sais que certains paieraient cher pour avoir un peu de ce cobalt.\n\nVoici pour vous, en guise de remerciement.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8021,
+     "name": "Orwin Gizzmick"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8021,
+     "name": "Orwin Gizzmick"
+    }
+   ],
+   "zone_id": 357,
+   "level": 43,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 3600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3002": {
+   "id": 3002,
+   "name": "L'Orbe Gordunni",
+   "objectives": "Apporter l'Orbe Gordunni à Uthel'nay, au pavillon de Buissombre, à Orgrimmar.",
+   "description": "Je connais bien mon ennemi, <nom>, mais je ne suis qu'un guerrier. Je ne peux pas vous dire à quoi peut servir cet orbe.\n\nMais je connais un mage à Orgrimmar qui saura nous en dire plus à ce sujet. Montrez-lui l'objet.",
+   "progress": "Que m'apportez-vous là, <nom> ?",
+   "completion": "Fascinant, <nom>. . .\n\nCet orbe est aussi puissant que dangereux.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7777,
+     "name": "Rok Orhan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7311,
+     "name": "Uthel'nay"
+    }
+   ],
+   "zone_id": 357,
+   "level": 47,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 2100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3062": {
+   "id": 3062,
+   "name": "Coeur noir",
+   "objectives": "Rapporter le Coeur noir d'Edana Serrehaine à Talo Thornhoof, à Camp Mojache.",
+   "description": "Edana Serrehaine est la reine des harpies Ruissenord, qui vivent dans les ruines, à l'ouest. Cette créature est le mal à l'état brut ; il paraît que son coeur est de cristal froid, vide de toute émotion sauf de haine pure. Je vous demande de me rapporter le coeur d'Edana, après l'avoir tuée.\n\nUn cor est en possession des harpies ; et s'il est utilisé au lieu-dit des Pierres de Serrehaine, dans la partie nord des ruines, la reine est invoquée.\n\nImaginez sa surprise quand elle se rendra compte que ce n'est pas sa chère famille, mais sa mort qui l'a appelée.",
+   "progress": "La haine qu'Edana répand sur le pays doit être endiguée.",
+   "completion": "Maintenant je sais qu'Edana est vraiment morte. Je vais garder ce coeur en souvenir de ce que vous avez fait pour moi, <nom>. Merci.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7776,
+     "name": "Talo Thornhoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7776,
+     "name": "Talo Thornhoof"
+    }
+   ],
+   "zone_id": 357,
+   "level": 50,
+   "reqlevel": 45,
+   "side": "horde",
+   "xp": 5900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3063": {
+   "id": 3063,
+   "name": "Se venger des Ruissenord",
+   "objectives": "Tuer 4 Harpies Ruissenord, 4 Volplumes Ruissenord, 4 Imploratrices célestes Ruissenord et 4 Pourfendeuses Ruissenord pour Talo Thornhoof.",
+   "description": "Jadis, j'étais un chasseur de renom et ne craignais aucune espèce de créature. Jusqu'à ce que...\n\nUn jour que j'aiguisais mon épée dans la forêt, après une rude bataille, des harpies m'ont encerclé et attaqué. Je ne sais comment je réussis à en sortir vivant.\n\nEncore maintenant, je peux entendre leurs affreux cris de crécelle...\n\nDepuis cette embuscade, je ne suis plus le même tauren ; j'ai peur et mon âme est emplie de haine.\n\nLes harpies Ruissenord vivent à l'ouest. <nom>, soyez le bras armé de ma colère, vengez-moi !",
+   "progress": "Les ailes des harpies de Northspring sont noires comme la nuit ; ne les quittez pas des yeux, car elles risquent de disparaître dans les ténèbres.",
+   "completion": "Merci, <nom>. Vous avez apaisé un vieux tauren.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7776,
+     "name": "Talo Thornhoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7776,
+     "name": "Talo Thornhoof"
+    }
+   ],
+   "zone_id": 357,
+   "level": 50,
+   "reqlevel": 45,
+   "side": "horde",
+   "xp": 3550,
+   "money": 5500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3121": {
+   "id": 3121,
+   "name": "Une Requête étrange",
+   "objectives": "Porter la tête réduite à Neeru Fireblade à Orgrimmar.",
+   "description": "Neeru Fireblade à Orgrimmar a ce qu'il me faut pour travailler ici ! Il a préparé un mélange dont j'ai besoin pour... Enfin vous verrez.\n\nMettez-vous en chemin pour Orgrimmar. Tenez, prenez ceci. C'est une tête réduite que j'ai promise à Neeru en échange des herbes. C'est la tête d'un pauvre nain qui a croisé ma route dans la forêt. Je suis certain que Neeru appréciera.\n\nVous trouverez Neeru dans la Faille de l'ombre.",
+   "progress": "Oui ?",
+   "completion": "J'attendais qu'Uzer'i m'apporte ceci. . .\n\nJe vais vous donner le mélange d'herbes que j'ai préparé pour son. . . Enfin, pour ses expériences. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8115,
+     "name": "Sorcier-docteur Uzer'i"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3216,
+     "name": "Neeru Fireblade"
+    }
+   ],
+   "zone_id": 357,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 1950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3122": {
+   "id": 3122,
+   "name": "Retourner voir le sorcier-docteur Uzer'i",
+   "objectives": "Livrer une Poche d'herbes de Neeru au Sorcier docteur Uzer'i, en Feralas.",
+   "description": "Voici les herbes, <nom>. Portez-les au sorcier-docteur Uzer'i.\n\nDites-lui que je suis très content de la tête réduite.",
+   "progress": "Avez-vous parlé à Neeru ?",
+   "completion": "C'est exactement ce dont j'avais besoin pour préparer le vaisseau miniature, <nom>. On verra bientôt si mes dernières incantations sont aussi puissantes que prévu.\n\nUn instant, s'il vous plaît. Je dois célébrer le rituel et utiliser les herbes.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3216,
+     "name": "Neeru Fireblade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8115,
+     "name": "Sorcier-docteur Uzer'i"
+    }
+   ],
+   "zone_id": 357,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 970,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3123": {
+   "id": 3123,
+   "name": "Test du récipient",
+   "objectives": "Partez pour les Hinterlands et localisez les Indomptables. Tuez-en 10, puis utilisez le Récipient de muisek pour faire rétrécir et capturer les Indomptables vaincus.\n\nRamenez 10 Indomptables miniaturisés et le Récipient d'Indomptables miniaturisés au sorcier-docteur Uzer'i, en Feralas.",
+   "description": "Il va s'agir d'un test, qui mettra à l'épreuve le rituel que j'ai accompli comme vos capacités. Prenez ce récipient, <nom>. Avec cela, vous pourrez réduire la taille des créatures et les y capturer.\n\nPartez pour les Hinterlands et cherchez des bêtes connues sous le nom d'Indomptables. C’étaient autrefois les animaux de compagnie de la déesse des elfes de la nuit, Elune. Vos cibles sont les Chouettards, des Indomptables vicieux, primitifs et sauvages, <nom>. Tuez-en 10, puis utilisez le Récipient de muisek pour les faire rétrécir et les capturer avant que leurs esprits ne s'échappent.",
+   "progress": "Avez-vous pu capturer un Indomptable ?\n\nSi vous avez réussi, nous pourrons réduire et capturer les créatures de Feralas.",
+   "completion": "Après une mort violente, il se peut que le muisek d'une créature s'échappe et cherche à se venger. Rétrécir les créatures, comme vous l'avez fait, <nom>, empêche le muisek de s'échapper. Maintenant, nous pouvons en faire ce que nous voulons.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8115,
+     "name": "Sorcier-docteur Uzer'i"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8115,
+     "name": "Sorcier-docteur Uzer'i"
+    }
+   ],
+   "zone_id": 357,
+   "level": 47,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 4200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3124": {
+   "id": 3124,
+   "name": "Hippogryphe miniaturisé",
+   "objectives": "Tuer 10 Hippogryphes Aigreplume de n'importe quel type, puis utiliser le Vaisseau de muisek pour les faire rétrécir et les capturer.",
+   "description": "Puisque vous avez montré que vous êtes à la fois digne de confiance et <doué/douée> pour utiliser le Vaisseau de muisek, je souhaite à présent que vous capturiez une autre créature.\n\nLes hippogryphes ont été les compagnons loyaux des elfes de la nuit durant plusieurs années. Leur esprit est résolu et ferme.\n\nVotre tâche consiste à tuer 10 hippogryphes Aigreplume et de rapidement les faire rétrécir et les capturer avec le vaisseau, afin que leur muisek soit préservé. Vous trouverez les hippogryphes dans les Plateaux sauvages au sud d'ici.",
+   "progress": "Avez-vous pu capturer des hippogryphes ?",
+   "completion": "Une fois l'animal tué, si nous laissons sa version miniature s'échapper, il risque de prendre l'apparence d'un créature plus grande encore. Nous ne serions plus jamais à l'abri de sa vengeance.\n\nC'était une mission dangereuse, <nom>. Une fois de plus, vous l'avez bien accomplie.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8115,
+     "name": "Sorcier-docteur Uzer'i"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8115,
+     "name": "Sorcier-docteur Uzer'i"
+    }
+   ],
+   "zone_id": 357,
+   "level": 47,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 4200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "doué/douée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3125": {
+   "id": 3125,
+   "name": "Dragon féérique miniaturisé",
+   "objectives": "Tuer 8 Fées fléchetteuses ou Petits dragons féeriques. Utiliser le Vaisseau de muisek pour faire rétrécir et capturer les dragons féeriques vaincus.",
+   "description": "À présent, <nom>, je souhaite que vous capturiez une créature fragile en apparence, mais dont l'esprit puissant nous intéresse. Je veux parler des dragons féeriques. Ils ont été les alliés des elfes de la nuit. Nous devons en capturer afin que la Horde puisse également bénéficier de cette force spirituelle.\n\nVoici le Vaisseau, <nom>. Tuez 8 Fées fléchetteuses ou Petits dragons féeriques, et capturez leur muisek. On peut en trouver à l'ouest d'ici.",
+   "progress": "Avez-vous pu capturer le muisek des dragons féeriques ?",
+   "completion": "Merci, <nom>. Le pouvoir spirituel du dragon féerique nous sera désormais disponible.\n\nJ'espère que cela ne vous gêne pas d'accomplir une autre mission pour moi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8115,
+     "name": "Sorcier-docteur Uzer'i"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8115,
+     "name": "Sorcier-docteur Uzer'i"
+    }
+   ],
+   "zone_id": 357,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3126": {
+   "id": 3126,
+   "name": "Tréant miniaturisé",
+   "objectives": "Tuer 3 Marcheurs des bois errants. Utiliser le Vaisseau de muisek pour faire rétrécir et pour capturer les tréants vaincus.",
+   "description": "Les marcheurs des bois errants que l'on peut voir vagabonder sous les arbres sont nos prochains objectifs, <nom>. Pour combattre la Horde, les elfes de la nuit ont enrôlé des tréants comme alliés. Ils ont beau être lents, leur rôle de protecteurs n'est pas négligeable.\n\nNous pourrons bientôt utiliser cette puissance à notre profit.\n\nTrouvez trois Marcheurs des bois errants. Tuez-les, puis utilisez le Vaisseau de muisek pour les réduire et les capturer.",
+   "progress": "Avez-vous réussi à capturer les Marcheurs des bois errants ?",
+   "completion": "Merci, <nom>. Notre collection de miniatures est presque complète.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8115,
+     "name": "Sorcier-docteur Uzer'i"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8115,
+     "name": "Sorcier-docteur Uzer'i"
+    }
+   ],
+   "zone_id": 357,
+   "level": 50,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 4700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3127": {
+   "id": 3127,
+   "name": "Géant des montagnes miniaturisé",
+   "objectives": "Tuer 7 Marcheurs des terres ou Géants des falaises. Utiliser le Récipient de muisek pour faire rétrécir et pour capturer les Géants des montagnes.",
+   "description": "La dernière chose que je vous demande est de partir vers le nord-ouest pour trouver l'ennemi final.\n\nLes géants des montagnes ont quitté leurs montagnes pour aider les elfes de la nuit quand la Légion ardente est apparue. Vous les reconnaîtrez à leur stature massive ainsi qu’aux vibrations du sol à mesure que vous avancerez dans leur contrée rocailleuse.\n\nJ'ai à cœur de maîtriser une puissance d'une telle taille. Tuez 7 géants des montagnes puis utilisez le Récipient pour capturer leur puissant muisek.",
+   "progress": "Avez-vous pu capturer des géants des montagnes ?",
+   "completion": "Imaginez les possibilités offertes par ce que nous possédons désormais, <nom>. Grâce à ce que vous avez collecté, je suis désormais capable de placer la version miniature de ces créatures dans tout ce que je désire.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8115,
+     "name": "Sorcier-docteur Uzer'i"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8115,
+     "name": "Sorcier-docteur Uzer'i"
+    }
+   ],
+   "zone_id": 357,
+   "level": 50,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 4700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3128": {
+   "id": 3128,
+   "name": "Matériaux Naturels",
+   "objectives": "Apporter 2 Bûches fendues, 6 Minerais incrustés, 20 Morceaux de tendons résistants et 40 Fragments métalliques au sorcier-docteur Uzer'i au Camp Mojache.",
+   "description": "Je vais avoir besoin d'autres choses pour finir ce que j'ai commencé... Vous devrez me rendre ce service avec d'autres choses que je vous donnerai à faire.\n\nJ'aurai besoin de bûches fendues de tréant de Feralas. Du minerai incrusté, que l'on peut trouver sur les géants des montagnes ou les dragons féeriques, à l'ouest. Aussi, trouvez-moi des tendons résistants des chouettards des Hinterlands ou des hippogryphes de Feralas. Enfin, il me faudrait une grande quantité de fragments métalliques de chacune des créatures mentionnées.",
+   "progress": "Avez-vous réussi à collecter les éléments dont j'ai besoin ?",
+   "completion": "Excellent ! Ces matériaux, couplés aux miniatures, devraient donner les résultats attendus.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8115,
+     "name": "Sorcier-docteur Uzer'i"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8115,
+     "name": "Sorcier-docteur Uzer'i"
+    }
+   ],
+   "zone_id": 357,
+   "level": 50,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 4700,
+   "money": 5500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3129": {
+   "id": 3129,
+   "name": "Armes de l'Esprit",
+   "objectives": "Le sorcier-docteur Uzer'i veut que vous patientez tandis qu'il prépare les armes.",
+   "description": "Imprégner les armes de l'esprit des miniatures est un processus difficile. Maintenant que nous avons les matériaux nécessaires et les miniatures des créatures que vous avez capturées, je peux commencer. Attendez ; je reviens dans un moment.",
+   "progress": null,
+   "completion": "Comme promis, vous avez le choix, <nom>. Les miniatures de ces créatures ont été scellées à jamais dans le pouvoir de ces armes.\n\nVous pourrez désormais manier leur énergie comme si c'était la vôtre. Usez-en à bon escient.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8115,
+     "name": "Sorcier-docteur Uzer'i"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8115,
+     "name": "Sorcier-docteur Uzer'i"
+    }
+   ],
+   "zone_id": 357,
+   "level": 50,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 4700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3130": {
+   "id": 3130,
+   "name": "Contre les Hainecrête",
+   "objectives": "Se présenter devant Latronicus Moonspear au bastion de Feathermoon.",
+   "description": "À présent, je vais vous diriger vers mon second, Latronicus. Il a gardé un oeil attentif sur les forces des nagas jusqu'alors. J'estimerai la situation générale ici selon les nagas. Non pas que je veuille envoyer une force compacte les combattre, laissant ainsi la forteresse ouverte à une attaque directe de la Horde, ou pire...\n\nMais passons, Latronicus attend. Vous avez fait du bon travail jusque là, <nom>. Continuez comme ça.\n\nVous pouvez disposer.",
+   "progress": null,
+   "completion": "Excellent, <nom>. J'apprécie une attitude \"volontaire\" chez ceux avec qui je travaille.\n\nLe général Feathermoon m'a choisi pour m'occuper des nagas de façon directe. Mon plan se déroulera en deux parties : un, nous les affaiblissons tant en nombre qu'en commandement. Deux, nous verrons de quoi elles auront l'air au milieu d'un tas de ruine. Avec votre aide, nous contrerons la présence naga sans pour autant sacrifier la sécurité générale du bastion.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3936,
+     "name": "Shandris Feathermoon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7877,
+     "name": "Latronicus Moonspear"
+    }
+   ],
+   "zone_id": 357,
+   "level": 43,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 360,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3445": {
+   "id": 3445,
+   "name": "Le Temple englouti",
+   "objectives": "Trouver Marvon Rivetseeker à Tanaris.",
+   "description": "J'ai entendu parler d'un endroit se trouvant profondément sous la surface de la terre, banni en ce lieu par de plus grandes puissances que je n'aie jamais rencontrées.\n\nSi vous souhaitez en apprendre davantage sur cet endroit, le Temple englouti, partez à la recherche d'un gobelin nommé Marvon Rivetseeker. Il a étudié de nombreuses régions du monde, et aux dernières nouvelles, a quitté sa demeure à Ratchet pour étudier les ruines des trolls à Tanaris.\n\nJe vous souhaite bonne chance dans vos recherches, cela fait longtemps que personne ne l'a vu.",
+   "progress": null,
+   "completion": "Oui, le Temple englouti, je peux dire que je l'ai vu de mes propres yeux. Peut-être souhaiteriez-vous en entendre davantage à son propos ?\n\nVous m'avez l'air d'être du genre aventurier… Je connais des choses qui pourraient vous intéresser. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7900,
+     "name": "Angelas Moonbreeze"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7771,
+     "name": "Marvon Rivetseeker"
+    }
+   ],
+   "zone_id": 357,
+   "level": 51,
+   "reqlevel": 46,
+   "side": "alliance",
+   "xp": 3650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3567": {
+   "id": 3567,
+   "name": "Au sommet",
+   "objectives": null,
+   "description": "Souhaitez-vous admirer la vue depuis le sommet de l'un des Colosses jumeaux ? Je peux vous y envoyer, <race>.\n\nRéfléchissez quand même à la façon de redescendre. C'est un voyage que l'on ne peut faire que dans un seul sens.\n\nVérifiez si vous l'avez déjà terminé en tapant :",
+   "progress": null,
+   "completion": "Souhaitez-vous admirer la vue depuis le sommet de l'un des Colosses jumeaux ? Je peux vous y envoyer, <race>.\n\nRéfléchissez quand même à la façon de redescendre. C'est un voyage que l'on ne peut faire que dans un seul sens.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7773,
+     "name": "Marli Wishrunner"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7773,
+     "name": "Marli Wishrunner"
+    }
+   ],
+   "zone_id": 357,
+   "level": 25,
+   "reqlevel": 25,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "race"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "3841": {
+   "id": 3841,
+   "name": "Un orphelin à la recherche d'un foyer",
+   "objectives": "Parler à Quentin aux Mille pointes.",
+   "description": "Oh, salut <nom> ! Cela me fait plaisir de vous revoir. Comment s'est passé votre voyage à Darnassus ?\n\nJe crois que vous serez <heureux/heureuse> d'apprendre que nous avons fait pas mal de progrès pendant que vous étiez <parti/partie>. Nous avons même sauvé un nid plein d'œufs. Malheureusement, la mère est morte avant que nous puissions l'atteindre.\n\nDites-moi, en voudriez-vous un pour en faire un animal de compagnie ? Ils semblent bientôt prêts à éclore et ont besoin <d'un père attentif/d'une mère attentive>. Qu'en dites-vous ?\n\nSi cela vous intéresse, apportez l'un de ces œufs à Quentin. Il se trouve à la piste de course des Salines. Il pourra vous en apprendre davantage.",
+   "progress": "Salutations, <classe>.\n\nSurtout ne pensez pas que je me trouve ici pour les courses… bien qu'elles soient très divertissantes.\n\nEn fait, je suis ici aux Mille pointes pour découvrir comment cette terre peut être sauvée. C'est en quelque sorte ma croisade : revitaliser et réapprovisionner le secteur avec une terre riche et fertile. Je vais peut-être découvrir une source d'eau par ici. . .\n\nAvez-vous remarqué combien la transition entre Feralas et les Mille pointes est étrange. Une magie bizarre était à l'œuvre lorsque cela s'est produit.",
+   "completion": "Ah, un œuf de Fée fléchetteuse ! Et un œuf sur le point d'éclore, si je ne m'abuse. Il est remarquable que vous soyez parvenu à en trouver un, d'autant plus qu'il est en bonne condition. Ils sont rares en Feralas ces temps-ci. J'ai cru comprendre que des braconniers tentaient d'en capturer et d'en détruire pour diverses raisons. Dommage, vraiment. . . Ce sont de si belles créatures lorsqu'elles atteignent la maturité.\n\nComment avez-vous fait une telle découverte ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7956,
+     "name": "Kindal Moonweaver"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9238,
+     "name": "Quentin"
+    }
+   ],
+   "zone_id": 357,
+   "level": 47,
+   "reqlevel": 38,
+   "side": "alliance",
+   "xp": 1050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "d'un père attentif/d'une mère attentive",
+    "heureux/heureuse",
+    "nom",
+    "parti/partie"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3842": {
+   "id": 3842,
+   "name": "Une courte incubation",
+   "objectives": "Apporter 2 Elixirs de Robustesse à Quentin, aux Mille pointes.",
+   "description": "Les Moonweaver, hein ? Fascinant. J'aimerais que les Fées fléchetteuses comprennent ce que cela veut dire d'avoir ces deux-là veillant sur elles.\n\nLes Moonweaver sont tout à fait compétents.\n\nAinsi, ce sont eux qui vous ont offert l'œuf. Dans ce cas, vous allez en être responsable aussi longtemps que vous le souhaitez. Il semble qu'il sera bientôt prêt à éclore, mais nous devons nous assurer qu'il va bien et qu'il n'a subi aucun dommage.\n\nJ'ai simplement besoin de deux Elixirs de Robustesse pour lancer un petit sort afin de renforcer sa santé. J’ai ici le reste des ingrédients.",
+   "progress": "Plus je reste ici et plus la tentation est forte de participer à ces courses, <nom>. Vraiment ahurissant…\n\nAvez-vous trouvé les élixirs ? Une fois que je pourrai dire si l'œuf va bien ou non, je vous le rendrai pour qu'il s'attache à vous jusqu'à ce qu'il soit prêt à éclore.\n\nFaites-le-moi savoir.",
+   "completion": "Merveilleux. Ils feront parfaitement l'affaire. Donnez-moi quelques instants pour que je puisse mélanger les ingrédients et nous verrons comment cet œuf va se porter.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9238,
+     "name": "Quentin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9238,
+     "name": "Quentin"
+    }
+   ],
+   "zone_id": 357,
+   "level": 47,
+   "reqlevel": 38,
+   "side": "alliance",
+   "xp": 2100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3843": {
+   "id": 3843,
+   "name": "Un tout nouveau membre dans la famille",
+   "objectives": "Emmenez votre Oeuf fragile de Fée fléchetteuse dans les Hinterlands et parlez à Agnar Beastamer. Dépêchez-vous, vous n’avez qu’une heure pour le trouver avant que le petit ne meure dans l’oeuf.",
+   "description": "Un spécimen magnifique, <nom>. Si cette créature arrive à terme, ce sera un animal plein de santé !\n\nSi vous avez l'intention de garder cette créature, permettez-moi de vous suggérer une dernière chose. Rendez-vous au Nid-de-l'Aigle dans les Hinterlands. Allez parler au nain Agnar Beastamer, c'est un dresseur d'animaux renommé et il vous conseillera pour mener à bien les dernières étapes de la gestation.\n\nMais dépêchez-vous, <nom>, cet oeuf est fragile et nécessite des soins appropriés.",
+   "progress": "Salut, <nom>. En quoi puis-je vous être utile ?",
+   "completion": "Fichtre, fichtre, fichtre… Je n'ai pas vu de tels oeufs depuis une éternité. Du dragon féerique, si je ne m'abuse… on dirait qu'il s'agit de la variété Fée fléchetteuse. Excellent, vraiment excellent.\n\nEh bien si l'on veut que cette petite demoiselle éclose et vive une vie de Fée fléchetteuse épanouie, nous devrions lui apporter de la nourriture.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9238,
+     "name": "Quentin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9660,
+     "name": "Agnar Beastamer"
+    }
+   ],
+   "zone_id": 357,
+   "level": 47,
+   "reqlevel": 38,
+   "side": "alliance",
+   "xp": 4200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4041": {
+   "id": 4041,
+   "name": "L'élixir de Videre",
+   "objectives": null,
+   "description": "Apportez-moi de l'Evoroot, et je vous ferai de l'élixir de Videre sans problème.\n\nJe connais toutes sortes de choses à propos des herbes et de l'alchimie… Tenez, par exemple, laissez-moi vous raconter la fois où j'ai transformé le fromage que j'étais sur le point de manger au déjeuner en or... Hé... Où allez-vous ?",
+   "progress": "Apportez-moi de l'Evoroot, et je vous ferai de l'élixir de Videre sans problème.\n\nJe connais toutes sortes de choses à propos des herbes et de l'alchimie… Tenez, par exemple, laissez-moi vous raconter la fois où j'ai transformé le fromage que j'étais sur le point de manger au déjeuner en or... Hé... Où allez-vous ?",
+   "completion": "Alors, vous en avez mis une au vieux Miblon, hein ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7775,
+     "name": "Gregan Brewspewer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7775,
+     "name": "Gregan Brewspewer"
+    }
+   ],
+   "zone_id": 357,
+   "level": 52,
+   "reqlevel": 47,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "4120": {
+   "id": 4120,
+   "name": "La force de la corruption",
+   "objectives": "Talo Thornhoof, à Camp Mojache, dans Feralas, voudrait que vous tuiez 12 Grizzlis de la griffe colérique et 12 Ravageurs Gangrepatte, à Gangrebois.",
+   "description": "Etant un chasseur, je m’efforce de bien connaître les forces de mes adversaires. Il est possible de changer le cours d’un combat, juste en connaissant bien son ennemi, <nom>.\n\nDans un lieu nommé Gangrebois, au nord d’Ashenvale, les animaux ont été corrompus par une substance appelée Corruption. Les ours et les loups en sont devenus fous, mais je soupçonne qu’ils ont aussi gagné en force.\n\nAllez, <nom>, voyagez jusqu'à Gangrebois et affrontez ces animaux, voyez par vous-même s’ils sont devenus aussi forts que je le pense.",
+   "progress": "Tout ce qui est touché par le gel émet une étrange lueur verte... Je sens qu'il est maléfique, mais en même temps très puissant.",
+   "completion": "A vous entendre, les créatures font preuve d'une férocité peu commune. . .\n\nRestez sur vos gardes, <nom>. Il est de notre intérêt d'en apprendre plus sur cette corruption. Veillez à toujours connaître votre ennemi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7776,
+     "name": "Talo Thornhoof"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7776,
+     "name": "Talo Thornhoof"
+    }
+   ],
+   "zone_id": 357,
+   "level": 52,
+   "reqlevel": 47,
+   "side": "horde",
+   "xp": 5100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4124": {
+   "id": 4124,
+   "name": "Le messager disparu",
+   "objectives": "Parler à Ginro Hearthkindle dans le bastion de Feathermoon.",
+   "description": "L'un de mes associés, Ginro Hearthkindle, cherche à ce qu'on l'assiste dans ses recherches pour retrouver un messager et les paquets qu'il transportait. Cela fait à peu près une semaine que le messager a disparu. Nos propres recherches n'ont abouti à rien et nous sommes à présent dans l'impasse. J'ai malheureusement dû déclarer le messager disparu.\n\nSi vous avez et du temps et des ressources à nous consacrer, veuillez aller parler à Ginro. Il devrait être ici dans la Forteresse. Probablement dans ses quartiers.",
+   "progress": null,
+   "completion": "Latro vous envoie, je présume. Bien que je pense qu'il s'agisse d'une cause perdue à présent, j'accepterai toute l'aide que vous voudrez bien apporter. Je dois admettre que je serai heureux de ne plus me préoccuper de cette affaire. Chaque jour je pars pour les terres sauvages de Feralas à la recherche d'indices quant à l'endroit où se trouve Raschal, et chaque soir je reviens les mains presque vides, si ce n'est avec des dents éparses de gnolls et beaucoup de déception.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7877,
+     "name": "Latronicus Moonspear"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7880,
+     "name": "Ginro Hearthkindle"
+    }
+   ],
+   "zone_id": 357,
+   "level": 43,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 360,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4125": {
+   "id": 4125,
+   "name": "Le messager disparu",
+   "objectives": "Localiser le bateau du messager quelque part le long de la côte de Feralas.",
+   "description": "Cela fait une semaine environ que Raschal, le messager, est parti pour Thalanaar. Il connaît bien Feralas. Il est des nôtres depuis que le général Feathermoon dirige les forces expéditionnaires ici. Je sais qu'il avait prévu de prendre un canot pour descendre la côte et pour tenter de traverser la partie sud de Feralas en évitant les camps de la Horde.\n\nJe n'ai pas pu retrouver son canot, mais peut-être que vous pourriez y parvenir. Peut-être est-il caché. Peut-être a-t-il coulé. Mais en tous les cas, il se peut qu'il contienne des indices quant à l'endroit où se trouve Raschal. Si vous découvrez quoi que ce soit, veuillez m'en faire part.",
+   "progress": null,
+   "completion": "Vous avez découvert ce qui s'avère être un canot coulé. A travers les eaux légèrement boueuses, vous apercevez des trous béants à bâbord. Le canot y est presque réduit à sa charpente de bois. Quoi que ce soit qui ait détruit ce canot, on a tenté de le couper en deux. On peut voir les armoiries du bastion de Feathermoon peintes à tribord.\n\nUne lueur métallique dans la vase près du bateau attire votre regard.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7880,
+     "name": "Ginro Hearthkindle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 164909,
+     "name": "Wrecked Row Boat"
+    }
+   ],
+   "zone_id": 357,
+   "level": 43,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 2700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4127": {
+   "id": 4127,
+   "name": "Débris de bateau",
+   "objectives": "Retourner au bastion de Feathermoon et montrer à Ginro Hearthkindle le Couteau perdu que vous avez découvert.",
+   "description": "Tandis que vous fouillez la vase, vos doigts butent sur le manche d'un couteau. Il semble qu'on en ait pris soin, et il est logique de croire que celui qui était sur le canot l'a perdu. Peut-être que le gros morceau de canot qui manque a quelque chose à voir avec cette perte.\n\nVous récupérez le couteau, vous souvenant que Ginro Hearthkindle vous a demandé de lui ramener au bastion de Feathermoon tous les indices que vous trouveriez. Vous avez l'étrange sentiment cependant que vous n'êtes pas <seul/seule> dans l'eau...",
+   "progress": "Ah, soyez de nouveau le bienvenu, <nom>. J'espère que vous avez pu découvrir quelque indice quant à la destinée de Raschal, aussi tragique pourrait-elle être.",
+   "completion": "Intéressant… Je pense qu'il s'agit du couteau de Raschal. Vous dites l'avoir découvert au fond de l'eau, près de son bateau ? Hmm, la seule découverte de ce couteau pourrait ne pas suffire à comprendre la raison de la disparition de Raschal. Il nous reste une possibilité peu conventionnelle cependant pour essayer d'en comprendre davantage.\n\nSavez-vous ce qu'est la psychométrie ?",
+   "starters": [
+    {
+     "type": "object",
+     "id": 164909,
+     "name": "Wrecked Row Boat"
+    },
+    {
+     "type": "object",
+     "id": 186419,
+     "name": "Wrecked Row Boat"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7880,
+     "name": "Ginro Hearthkindle"
+    }
+   ],
+   "zone_id": 357,
+   "level": 44,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 375,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "seul/seule"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4129": {
+   "id": 4129,
+   "name": "Le couteau révélé",
+   "objectives": "Apporter le Couteau perdu à Quintis Jonespyre au bastion de Feathermoon.",
+   "description": "Le druide du Bastion, Quintis Jonespyre, possède des pouvoirs… particuliers. L'un de ces pouvoirs est la psychométrie. C'est à dire qu'il peut révéler l'histoire d'un objet en le touchant. Ne me demandez pas comment il s'y prend. Je le mets sur le compte de magies que je ne connais pas et que je ne veux pas connaître. Il y a deux choses que je sais, par contre. Premièrement, je l'ai vu à l'œuvre et ça marche. Deuxièmement, ce clochard me doit de l'argent.\n\nApportez ce couteau à Quintis là-haut dans sa charmante petite maison, et dites-lui que sa dette de 'L'arnaque' à Kalimdor sera remboursée s'il parvient à tirer quelque chose de ce couteau.",
+   "progress": "C'est Giro qui vous envoie, hein ? Mes divinations psychométriques vident l'esprit… mais mes pertes à \"L'arnaque\" de Kalimdor également. Ils me surnomment \"Le Roi de la Guigne\" ici dans la Forteresse. Malheureux au jeu… heureux dans l'art de maîtriser les secrets de la nature, je suppose. . .\n\nMais passons. Bien entendu que je vais le faire. Nous découvrirons peut-être quelque chose qui nous permettra de comprendre ce qu'il est advenu de Raschal. Si vous voulez bien me donner le couteau, nous allons commencer.",
+   "completion": "Merci, <nom>.\n\nBien que la psychométrie soit loin d'être un art exact, je m'en suis servi par le passé pour discerner un peu mieux les situations que d'autres avaient renoncé à comprendre. Je crois qu'utiliser la psychométrie sur le couteau que vous avez découvert pourrait nous fournir un aperçu de ce qui est arrivé à Raschal.\n\nCela ne va prendre qu'un moment, mais ce n'est pas ce que j'appellerais une tâche facile. Supportez ce qui va se dérouler, tout comme moi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7880,
+     "name": "Ginro Hearthkindle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7879,
+     "name": "Quintis Jonespyre"
+    }
+   ],
+   "zone_id": 357,
+   "level": 44,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 375,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4130": {
+   "id": 4130,
+   "name": "La lecture psychométrique",
+   "objectives": "Parler à Ginro Hearthkindle dans le bastion de Feathermoon.",
+   "description": "Je me sens encore un peu flageolant, excusez-moi. Mais j'ai reçu quelques visions utilisables.\n\nRaschal sort de son canot deux grands sacs à dos en cuir et pénètre dans les terres ; mais il retourne bientôt au canot cependant. Je vois des cuirs chevelus de gnolls... il a rencontré des gnolls. Je crois que ce sont ceux que l'on appelle Griffebois. Quelque chose l'inquiète, le terrifie presque ! C'est à un point tel qu'il ne remarque pas les élémentaires d'eau qui se forment derrière lui... Les images... s'arrêtent ici.\n\nJ'ai besoin de repos, <nom>. Désolé. Dites à Gin ce que j'ai vu. Il doit savoir.",
+   "progress": null,
+   "completion": "Merci de m'informer des visions de Quint, <nom>. J'essaierai de m'en souvenir et de ne pas être trop dur avec lui la prochaine fois que nous jouerons aux cartes.\n\nRaschal se débrouille bien au combat, et ce ne sont pas des gnolls qui l'inquiéteraient, non, le terrifieraient. Mais vous et les vôtres pourriez agir selon ces renseignements et découvrir ce dont nous avons tellement besoin.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7879,
+     "name": "Quintis Jonespyre"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7880,
+     "name": "Ginro Hearthkindle"
+    }
+   ],
+   "zone_id": 357,
+   "level": 44,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 375,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4131": {
+   "id": 4131,
+   "name": "Les gnolls Griffebois",
+   "objectives": "Fouiller les Camps des gnolls Griffebois dans la partie sud de Feralas pour trouver des indices sur les possessions du messager ou sur le messager lui-même.",
+   "description": "Il se peut que nos \"amis\" les Griffebois aient fini par avoir Raschal après tout, mais quelque chose me dit que ce n'est pas ce qui s'est passé. Ils constituent cependant la première piste à remonter.\n\nJ'aimerais en savoir plus afin de prendre la meilleure décision concernant notre prochaine action, mais tout ce dont je dispose pour l'heure est \"Fouillez les camps de Griffebois - allez-y\". Ce que je sais, c'est que les Griffebois gardent tout ce qu'ils trouvent et se battent entre eux pour les posséder. Ils ont peut-être trouvé les sacs à dos dont parlait Quint. Je n'ai pour l'instant pas pris le risque d'une attaque de front durant les recherches passées, mais avec la vision de Quint à ce propos, je dirais : 'Forcez leurs rangs'.",
+   "progress": null,
+   "completion": "Deux grands sacs à dos en cuir sont tenus en place par un arbre proche. Chacun porte sur le devant une petite insigne du bastion de Feathermoon.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7880,
+     "name": "Ginro Hearthkindle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 164953,
+     "name": "Large Leather Backpacks"
+    }
+   ],
+   "zone_id": 357,
+   "level": 44,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 2800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4135": {
+   "id": 4135,
+   "name": "Le Gouffre grouillant",
+   "objectives": "À présent que la dernière destination connue de Raschal est découverte, continuez à le rechercher, lui ou ses restes, dans le Gouffre grouillant. D'après le message, il se trouve au sud des camps des gnolls Griffebois.",
+   "description": "À l'intérieur des sacs à dos se trouvent deux objets : le premier est un paquet qui était destiné à Thalanaar, et le second est un message écrit à la hâte et dont le destinataire reste inconnu.\n\nLe message raconte la découverte de créatures insidieuses et ressemblant à des insectes au sud des camps des gnolls Griffebois, dans un endroit appelé le Gouffre grouillant. L'auteur a jugé bon d'y aller en personne, comme s'il s'agissait d'un réel danger pour tout Feralas. Le message est signé \"Raschal de Feathermoon\".\n\nIl semblerait que vous ayez découvert la dernière destination de Raschal.",
+   "progress": null,
+   "completion": "Vous avez découvert une grande alvéole de nature étrangère. La texture de cette alvéole est muqueuse, bien que de dures saillies en surgissent çà et là. L'alvéole est d'une taille telle qu'elle pourrait aisément contenir un humain… et d'après les formes qui se dessinent à travers sa surface, vous présumez que c'est précisément ce qu'elle renferme. . .",
+   "starters": [
+    {
+     "type": "object",
+     "id": 164953,
+     "name": "Large Leather Backpacks"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 164954,
+     "name": "Zukk'ash Pod"
+    }
+   ],
+   "zone_id": 357,
+   "level": 46,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 3050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4265": {
+   "id": 4265,
+   "name": "L'évasion de la ruche",
+   "objectives": "Libérer Raschal de la ruche de Zukk'ash.\n\nRevenir voir Ginro Hearthkindle au bastion de Feathermoon et lui dire que Raschal est sain et sauf.",
+   "description": "L'alvéole, alors que vous la touchez, s'entrouvre et révèle un elfe de la nuit - en vie, ce qui est étonnant. Il semble en bonne santé, bien qu'il soit inconscient. Tandis que vous essayez de le dégager de l'alvéole, il revient à lui.\n\n\"Qu'Elune soit louée, vous m'avez sauvé, mon <ami/amie> ! Je… je suis Raschal, et je me suis réveillé dans cette alvéole après avoir été capturé par ces insectes. Ce sont les gens du bastion qui vous envoient ?\"\n\nOn dirait que vous avez retrouvé le messager disparu !",
+   "progress": "Vous avez quelque chose à signaler, <nom> ?",
+   "completion": "Soyez le bienvenu chez vous, <nom>. Raschal est arrivé il y a quelques instants et m'a tout raconté.\n\nJe… non, toute la Forteresse vous exprime sa gratitude et ses remerciements pour votre action exceptionnelle. Sans vous, Raschal serait mort, et vous lui avez porté assistance sans contrepartie. Vous avez l'étoffe d'un authentique héros. Sachez que vous avez trouvé un ami en Ginro Hearthkindle.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 164954,
+     "name": "Zukk'ash Pod"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7880,
+     "name": "Ginro Hearthkindle"
+    }
+   ],
+   "zone_id": 357,
+   "level": 46,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 4050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "ami/amie"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4266": {
+   "id": 4266,
+   "name": "Accueil d'un héros",
+   "objectives": "Parler à Shandris Feathermoon dans le bastion de Feathermoon.",
+   "description": "<nom>, le général Shandris Feathermoon voudrait vous parler en personne. Elle veut vous remercier pour les services rendus au bastion, mais je crois savoir qu'elle souhaite également vous entretenir des créatures insectoïdes que vous et Raschal avez combattues dans le sud de Feralas. Ce que nous avons entendu de ces insectes Zukk'ash est… effrayant, c'est le moins que l'on puisse dire.\n\nLe général Feathermoon vous attend dans la base principale.",
+   "progress": null,
+   "completion": "<nom>, je vous remercie chaleureusement pour l'aide que vous nous avez apportée. Votre bravoure face à des forces insurmontables vous vaudrait une récompense d'une valeur mille fois supérieure, mais j'espère néanmoins que vous accepterez ceci, offert au nom de toute la Forteresse.\n\nÀ présent, si je puis me permettre, j'aimerais solliciter votre aide une fois encore. À la lumière de la découverte de la ruche de Zukk'ash ici en Feralas, je crois que vous êtes la bonne personne pour cette mission.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7880,
+     "name": "Ginro Hearthkindle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3936,
+     "name": "Shandris Feathermoon"
+    }
+   ],
+   "zone_id": 357,
+   "level": 46,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 6050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4267": {
+   "id": 4267,
+   "name": "L'ascension des silithides",
+   "objectives": "Apporter le Rapport de Raschal à Gracina Spiritmight à Darnassus.",
+   "description": "Je vous confie une copie du rapport de Raschal concernant l'infestation du sud de Feralas. Bien que le rapport original soit envoyé à Darnassus, je veux que vous remettiez cette copie à une associée du Protectorat. Elle se nomme Gracina Spiritmight. C'est une prêtresse qui réside au temple de la Lune à Darnassus. Elle possède une vaste connaissance de ce genre de créatures, et lui confier ce rapport profitera à tous.\n\nVous pouvez partir. Bonne chance, <nom>. Puisse Elune veiller sur nous tous.",
+   "progress": "Soyez le bienvenu en ce temple béni, mon ami. J'avais prédit que vous viendriez du bastion de Feathermoon. Avez-vous le rapport que Shandris Feathermoon vous a demandé d'apporter ?",
+   "completion": "Nous autres elfes de la nuit connaissons la terreur décrite dans ce rapport. La sagesse a guidé Shandris dans sa décision de m'envoyer ce rapport et vous-même.\n\nCes créatures vont rapidement consumer Feralas. Elles sont le plus grand danger auquel nous ferons jamais face. Ces insectes sont connus sous le nom de silithides. Ce ne sont que les instruments d’une des plus grandes menaces que l'Alliance et la Horde réunies combattront jamais.\n\nJe prie pour que nous ayons assez de résolution pour les battre avant qu'ils ne nous détruisent.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3936,
+     "name": "Shandris Feathermoon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7740,
+     "name": "Gracina Spiritmight"
+    }
+   ],
+   "zone_id": 357,
+   "level": 46,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 405,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4281": {
+   "id": 4281,
+   "name": "La livraison à Thalanaar",
+   "objectives": "Apporter le Vieux colis à Falfindel Waywarder, à Thalanaar.",
+   "description": "Le colis que vous avez trouvé au camp des gnolls Griffebois devait être livré au petit poste de Thalanaar, dans la région sud-est de Feralas. Malgré la disparition du messager, le colis doit être livré.\n\nEn l’examinant de près, on peut lire sur le côté, écrit à la main : \"Falfindel Waywarder\". Peut-être s'agit-il du destinataire ?",
+   "progress": "Bienvenue à Thalanaar, <classe>. En quoi puis-je vous aider ?",
+   "completion": "Elune soit louée, la livraison du bastion de Feathermoon est enfin arrivée !\n\nVotre présence ici signifie qu'il est peut-être arrivé malheur à Raschal, notre messager habituel. J'espère que tout finira bien. Je sais que, récemment, quelque chose situé au sud des Griffebois les a profondément perturbés. Peut-être les bêtes sauvages ont-elles eu raison de lui ? À votre place, je serais prudent, mon ami.\n\nMais passons, je vous remercie encore. Voici votre paiement pour avoir livré ce colis.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 11463,
+     "name": "Undelivered Parcel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4048,
+     "name": "Falfindel Waywarder"
+    }
+   ],
+   "zone_id": 357,
+   "level": 44,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 2800,
+   "money": 6500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4297": {
+   "id": 4297,
+   "name": "Nourriture pour bébé",
+   "objectives": "Apporter 5 Flancs de Traqueur Crins-d'argent à Angar Beastamer dans les Hinterlands.",
+   "description": "Les Fées fléchetteuses sont omnivores. Cela veut dire qu'elles mangent de tout. Si l'œuf que vous avez là se décide à éclore, nous ferions mieux d'être prêts. Croyez-le ou non, ces demoiselles apprécient la viande, sous forme de flancs crus et bien saignants. Je n'ai jamais su pourquoi, mais cela a à voir avec les projets d'Elune concernant les elfes… Peut-être auraient-ils dû être les protecteurs de quelque chose, je n'en sais trop rien.\n\nDésormais je vais m'occuper de l'œuf. Pourquoi n'iriez-vous pas chercher de bons flancs de Traqueur Crins-d'argent le temps qu'il éclose.",
+   "progress": "Avez-vous trouvé la viande, <nom> ? Votre petit œuf est sur le point d'éclore, vous savez ? S'il ne mange pas de la bonne viande à son premier repas, il peut ne pas passer la semaine, et je n'aimerais pas du tout que cela arrive.\n\nJe ne peux pas vous mentir plus longtemps, <nom>. La jalousie m'étreint du fait que vous ayez trouvé cet œuf. Ne me faites pas regretter de vous aider ainsi.",
+   "completion": "Ils feront parfaitement l'affaire, et si je ne m'abuse, votre petit œuf va éclore très bientôt. Alors, quel effet ça fait ? Vous allez bientôt être papa, vous savez ? Ha ! Ha ! Vous n'auriez pas cru avoir tant de responsabilités, pas vrai ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9660,
+     "name": "Agnar Beastamer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9660,
+     "name": "Agnar Beastamer"
+    }
+   ],
+   "zone_id": 357,
+   "level": 47,
+   "reqlevel": 38,
+   "side": "alliance",
+   "xp": 4200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4298": {
+   "id": 4298,
+   "name": "L'amour d'un parent",
+   "objectives": "Parler à Agnar Beastamer dans les Hinterlands.",
+   "description": "Ouah, c'était bien plus prêt que je ne le pensais...",
+   "progress": null,
+   "completion": "Prenez l'œuf. Mieux vaut que vous le teniez comme ça : il s'attachera à vous et vous considérera comme son papa.\n\nFélicitations, <nom>. Vous êtes père à présent… ou presque.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9660,
+     "name": "Agnar Beastamer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9660,
+     "name": "Agnar Beastamer"
+    }
+   ],
+   "zone_id": 357,
+   "level": 48,
+   "reqlevel": 37,
+   "side": "alliance",
+   "xp": 440,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7003": {
+   "id": 7003,
+   "name": "Géants rétrécis",
+   "objectives": "Utilisez l'Ultra-réducteur de Zorbin sur des géants de n'importe quel type en Feralas afin les rendre plus faciles à gérer. Apportez 15 Résidus de miniaturisation que vous trouverez sur les versions rétrécies des géants à Zorbin Fandazzle aux docks de la Côte oubliée en Feralas.",
+   "description": "Il va falloir que je fasse quelque chose pour ces géants si je reste ici ! Ils ne sont vraiment pas bons pour les affaires !\n\nJ'ai travaillé sur une variante de rayon rétrécissant gnome, mais j'ai utilisé les avancées technologiques supérieures des GOBELINS pour sa construction ! Afin de m'éviter de possibles désagréments tels que la mort, j'aimerais que vous alliez l'essayer sur n'importe lequel des géants en Feralas. Vous devriez trouver des résidus de miniaturisation sur eux après les avoir rétrécis. Rapportez-m'en !",
+   "progress": "Les résidus de miniaturisation, je vous l'assure, sont très utiles aux ingénieurs ! Ils me permettent de m'assurer que la baguette ne va pas donner des résultats décevants, comme exploser au nez de l'utilisateur.\n\nOh, mais je voulais parler des baguettes autres que celle que je vous ai donnée. Absolument !",
+   "completion": "Ébouristouflant ! Je suis très heureux de vous voir revenir non seulement avec les résidus, mais aussi avec tous vos membres ! Euh. . . mais non, il n'y a jamais eu aucun danger à se servir de l'Ultra-réducteur, évidemment !\n\nJe vous suis très reconnaissant, <nom>. Vous êtes l'ami de tous les gobelins. Acceptez ceci en gage de ma gratitude !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14637,
+     "name": "Zorbin Fandazzle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14637,
+     "name": "Zorbin Fandazzle"
+    }
+   ],
+   "zone_id": 357,
+   "level": 48,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 4400,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7721": {
+   "id": 7721,
+   "name": "Du carburant pour la zappette",
+   "objectives": "Récupérez 10 Noyaux élémentaires d'eau sur les Elémentaires marins et les Embruns le long de la Côte oubliée de Feralas, et rapportez-les à Zorbin Fandazzle, près du quai là-bas.",
+   "description": "Si je dois rester ici à gérer cette boutique en pleine Côte oubliée, j’aurais besoin que l’on s’occupe de ces fichus élémentaires. La puissance déchaînée des éléments, quelle plaie !\n\nHeureusement pour moi, et aussi pour vous, mon cher et nouvel agent provocateur, les élémentaires représentent une source d’énergie idéale pour mon Ultra-réducteur perfectionné ! Donnez-leur ce qu’ils méritent ! Sans oublier de me garder leurs noyaux élémentaires, bien sûr !",
+   "progress": "Au lieu de vous ennuyer avec des détails techniques concernant l'utilité des noyaux élémentaires, je vais vous inciter à achever cette importante mission en vous offrant de l'argent et des objets de valeur en récompense. En vérité, avez-vous terminé ?",
+   "completion": "Fabulerveilleux ! Ces noyaux vont m'occuper quelque temps. En plus, il y a maintenant moins d'élémentaires le long de la côte, et je n'aurai peut-être plus à pleurer toutes les larmes de mon corps de m'être établi dans le pire endroit imaginable !\n\nMerci, <nom>, de vous être donné cette peine pour moi. Bien que je n'en aie pas trop les moyens, permettez-moi de vous montrer ma gratitude par un moyen que vous devriez apprécier. . . Voici du butin !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14637,
+     "name": "Zorbin Fandazzle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14637,
+     "name": "Zorbin Fandazzle"
+    }
+   ],
+   "zone_id": 357,
+   "level": 48,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 4400,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7725": {
+   "id": 7725,
+   "name": "Le retour des géants rétrécis",
+   "objectives": "Utilisez l'Ultra-réducteur de Zorbin sur des géants de n'importe quel type en Feralas afin les rendre plus faciles à gérer. Apportez 10 Résidus de miniaturisation que vous trouverez sur les versions rétrécies des géants à Zorbin Fandazzle aux docks de la Côte oubliée en Feralas.",
+   "description": "Je sais que vous avez déjà ramassé des résidus pour moi... mais si vous aviez envie de recommencer cette activité fort amusante, j'aurais toujours besoin de résidus.\n\nJe ne serai plus en mesure de vous offrir la même compensation, mais je serais plus qu'heureux de parler de vous à tous mes amis gobelins dotés d'oreilles.\n\nEt croyez-moi <Monsieur/Madame> quand je vous dis que ces gobelins ont de grandes oreilles.",
+   "progress": "Ah, les fruits de la recherche sous la forme de ce si délicieux résidu ! Euh, je veux dire, je n'en mange pas ou quoi que ce soit quand je l'étudie.\n\nOu pas beaucoup.",
+   "completion": "Absolument fantastique, <nom> ! Vous avez encore réussi, et je vous en remercie.\n\nMerci !\n\nPeut-être que cette pièce vaut moins que ce à quoi vous êtes habitué, mais soyez assuré que les échos de vos grands exploits pour la gobelinité résonnent aux plus hauts niveaux du Cartel Gentepression. Si vous cherchez quelque chose d'autre à faire, surtout venez me parler !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14637,
+     "name": "Zorbin Fandazzle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14637,
+     "name": "Zorbin Fandazzle"
+    }
+   ],
+   "zone_id": 357,
+   "level": 55,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 560,
+   "money": 2100,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Monsieur/Madame"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7726": {
+   "id": 7726,
+   "name": "Encore du carburant pour la zappette",
+   "objectives": "Récupérez 6 Noyaux élémentaires d'eau sur les Elémentaires marins et les Embruns le long de la Côte oubliée de Feralas, et rapportez-les à Zorbin Fandazzle, près du quai.",
+   "description": "Encore du travail, vous dites ? Cette héroïque mission que je vous avais confiée de ramasser des machins gluants dans des êtres élémentaires n'a donc pas apaisé votre soif d'aventure ? Peut-être qu'il serait vain de tenter d'assouvir votre désir insatiable de quêtes par davantage des mêmes tâches...\n\nD'accord, assez de mélodrame, j'ai en fait vraiment besoin de plus de noyaux d'élémentaires d'eau. J'essaye désespérément de gérer ma boutique ici, la récompense ne sera donc plus aussi belle... mais je vous promets que je raconterai à tout le monde combien vous m'avez aidé. Vous pouvez me faire confiance là-dessus. Je connais des membres du Cartel !",
+   "progress": "Avez-vous réussi à trouver les noyaux élémentaires dont j'ai besoin ?",
+   "completion": "Formidable, <nom>, formidable ! Peut-être que vous recevez d'habitude plus que cette pièce que je vous donne pour un tel travail, mais soyez assuré que mes camarades du Cartel Gentepression entendront parler de vos efforts !\n\nSi vous cherchez du travail, venez donc me voir. J'aurai toujours besoin de plus de noyaux élémentaires et de ce genre de choses.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14637,
+     "name": "Zorbin Fandazzle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14637,
+     "name": "Zorbin Fandazzle"
+    }
+   ],
+   "zone_id": 357,
+   "level": 55,
+   "reqlevel": 45,
+   "side": "both",
+   "xp": 560,
+   "money": 2100,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7730": {
+   "id": 7730,
+   "name": "Infestation de Zukk'ash",
+   "objectives": "Rapportez 20 Carapaces de Zukk'ash à Hadoken Swiftstrider au Camp Mojache en Feralas.",
+   "description": "D'après les informations que nous avons pu réunir, l'ennemi se trouvant au sud des gnolls est une race insectoïde. Franchement, cela nous est égal s'il s'agit de créatures sensibles ou non. Si elles excitent à ce point les gnolls contre nous, elles représentent une menace tout aussi grave qu'eux, voire pire encore.\n\nPartez loin jusqu'à la demeure de ces insectes Zukk'ash : on l'appelle le Gouffre grouillant. Réduisez leur nombre et faites-moi un rapport sur la situation. Rapportez leurs carapaces pour prouver votre travail.",
+   "progress": "Comment se passe votre chasse, <nom>? Êtes-vous ici pour me faire part de votre succès ?",
+   "completion": "Bien joué, <classe>. Bien qu'on ne puisse lutter contre l'étendue de la présence des Zukk'ash que par une invasion à grande échelle, vous nous offrez du temps pour mettre en place une véritable stratégie.\n\nJe vais faire analyser ces carapaces : nous devons tout apprendre à leur sujet avant de nous occuper de ce problème qui s'avère bien plus délicat que prévu.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7875,
+     "name": "Hadoken Swiftstrider"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7875,
+     "name": "Hadoken Swiftstrider"
+    }
+   ],
+   "zone_id": 357,
+   "level": 45,
+   "reqlevel": 39,
+   "side": "horde",
+   "xp": 3900,
+   "money": 6500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7731": {
+   "id": 7731,
+   "name": "Fouet-cuisant",
+   "objectives": "Battez Fouet-cuisant dans le Gouffre grouillant et rapportez ses glandes à Hadoken Swiftstrider au Camp Mojache en Feralas.",
+   "description": "Alors qu'il surveillait le Gouffre grouillant, un de nos éclaireurs nous a signalé avoir vu un insecte géant, bien plus grand que les autres insectes, qui errait dans cet endroit tortueux. Il est non seulement plus grand, mais il semble aussi sécréter une sorte d'aura que les autres insectes n'ont pas. Nous lui avons donné un nom : Fouet-cuisant.\n\nIl nous serait très précieux de pouvoir étudier les entrailles de cette bête afin de déterminer le meilleur moyen de lutter contre cette nouvelle menace. Coupez ses glandes de sécrétion et rapportez-les-moi immédiatement !",
+   "progress": "Avez-vous réussi à abattre Fouet-cuisant ?",
+   "completion": "Impressionnant, <classe>. . . très impressionnant ! Si Fouet-cuisant est effectivement une de leurs créatures les plus puissantes, l'étude de cette bête nous sera fort utile. C'est maintenant mon rôle de faire en sorte que nous nous défendions assez longtemps pour pouvoir se servir de ces connaissances.\n\nVeuillez accepter ces pièces en guise de remerciement de la part de tout le camp, <nom>. Bien joué.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7875,
+     "name": "Hadoken Swiftstrider"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7875,
+     "name": "Hadoken Swiftstrider"
+    }
+   ],
+   "zone_id": 357,
+   "level": 47,
+   "reqlevel": 39,
+   "side": "horde",
+   "xp": 4200,
+   "money": 13500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7732": {
+   "id": 7732,
+   "name": "Le rapport sur les Zukk'ash",
+   "objectives": "Apportez le rapport sur les Zukk'ash du Camp Mojache à Zilzibin Drumlore. Il réside à la Herse d'Orgrimmar",
+   "description": "Vous avez doublement bien fait de vous occuper de la menace que les insectes Zukk'ash représentent pour le Camp Mojache. Cette menace est loin d'avoir disparu, et j'aimerais vous demander une dernière tâche pour la Horde.\n\nVoici un document contenant toutes les informations que nous avons obtenues au sujet de ces insectes Zukk'ash. Je veux que vous l'apportiez à Zilzibin Drumlore à la Herse d'Orgrimmar. C'est un expert concernant ce genre de créatures. J'espère qu'il pourra faire quelque chose à l'aide des connaissances que nous avons réunies.",
+   "progress": "Salutations, ami… On dirait que vous êtes pressé. Y a-t-il quelque chose que je puisse faire pour vous aider ?",
+   "completion": "Ah, je m'y attendais. Ces créatures que vous avez affrontées. . . elles sont une menace ancienne que la Horde persiste à ignorer. Hadoken a été fort sage de m'avoir fait parvenir ceci - et de vous avoir envoyé.\n\nLes Zukk'ash ne sont rien de plus que des créatures appelées silithides. On pourrait croire qu'elles ne représentent qu'un petit désagrément, mais je vous l'assure : il s'agit d'une menace bien pire que tout ce que l'Alliance pourrait réunir.\n\nSi vous vous portez volontaire, vous pourriez m'être bien utile pour révéler cette menace au grand jour.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7875,
+     "name": "Hadoken Swiftstrider"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7010,
+     "name": "Zilzibin Drumlore"
+    }
+   ],
+   "zone_id": 357,
+   "level": 48,
+   "reqlevel": 39,
+   "side": "horde",
+   "xp": 4400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7733": {
+   "id": 7733,
+   "name": "Qualité améliorée",
+   "objectives": "Fournir 10 Peaux de yéti Griffe Féroce à Pratt McGrubben au bastion de Feathermoon, en Feralas.",
+   "description": "J’ai une piste qui pourrait nous conduire à une source de peaux encore MEILLEURES. Incroyable, non ? Au nord de Féralas, loin dans le repaire des Griffes féroces, vit un autre groupe de yétis. Ils sont beaucoup plus coriaces que ceux que vous avez déjà combattus. Si vous aimez les défis, celui-là devrait vous combler !\n\nJe vous récompenserai généreusement pour dix de leurs peaux. Apportez-les ici, et nous ferons affaire.",
+   "progress": "Si la qualité des peaux de ces yétis Griffe Féroce approche celle de leurs congénères de la Griffe farouche, elles pourraient bien être aussi résistantes que du thorium !\n\nVous vous rendez compte ?",
+   "completion": "Excellent, excellent ! Tout se passe parfaitement bien. Une fois qu’elles seront préparées, je peux vous dire qu’elles seront beaucoup plus dures.\n\nMerci encore pour votre aide, <nom>. Ah, tenez, prenez l’une de mes dernières créations.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7852,
+     "name": "Pratt McGrubben"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7852,
+     "name": "Pratt McGrubben"
+    }
+   ],
+   "zone_id": 357,
+   "level": 48,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 4400,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7734": {
+   "id": 7734,
+   "name": "Qualité améliorée",
+   "objectives": "Fournir 10 Peaux de yéti Griffe Féroce à Jangdor Swiftstrider au Camp Mojache, en Feralas.",
+   "description": "J’ai une piste qui pourrait nous conduire à une source de peaux encore MEILLEURES. Incroyable, non ? Au nord de Féralas, loin dans le repaire des Griffes féroces, vit un autre groupe de yétis. Ils sont beaucoup plus coriaces que ceux que vous avez déjà combattus. Si vous aimez les défis, celui-là devrait être à la hauteur de vos attentes !\n\nJe vous récompenserai généreusement pour dix de leurs peaux. Amenez-les ici, et nous ferons affaire.",
+   "progress": "Si la qualité des peaux de ces yétis Griffe Féroce approche celle de leurs congénères de la Griffe farouche, elles pourraient bien être aussi résistantes que du thorium !\n\nVous vous rendez compte ?",
+   "completion": "Excellent, excellent ! Tout se passe parfaitement bien. Une fois qu’elles seront préparées, je peux vous dire qu’elles seront beaucoup plus dures.\n\nMerci encore pour votre aide, <nom>. Ah, tenez, prenez l’une de mes dernières créations.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7854,
+     "name": "Jangdor Swiftstrider"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7854,
+     "name": "Jangdor Swiftstrider"
+    }
+   ],
+   "zone_id": 357,
+   "level": 48,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 4400,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7735": {
+   "id": 7735,
+   "name": "Une peau de yéti en parfait état",
+   "objectives": "Apporter la Peau de yéti en parfait état à Pratt McGrubben au bastion de Feathermoon, en Feralas.",
+   "description": "Vous avez trouvé une peau de yéti en parfait état, exceptionnellement épaisse et résistante, plus que celles que vous avez prélevées sur les yétis Griffes féroces.\n\nVous savez que Pratt McGrubben du bastion de Feathermoon fait commerce de peaux de yétis. Ce spécimen devrait beaucoup l’intéresser.",
+   "progress": "Qu'est-ce que c'est, <nom> - tu as quelque chose de spécial pour moi ?",
+   "completion": "Incroyable ! Vous avez peut-être trouvé le grand-père de toutes les peaux de yéti !\n\nCroyez bien que je vous paierai pour cela. Normalement, je ne paie pas autant pour une seule peau, mais je suis sûr que je peux en faire quelque chose de spécial. Merci d'avoir pensé à moi, <nom> !",
+   "starters": [
+    {
+     "type": "item",
+     "id": 18969,
+     "name": "Pristine Yeti Hide"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7852,
+     "name": "Pratt McGrubben"
+    }
+   ],
+   "zone_id": 357,
+   "level": 48,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 2200,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7738": {
+   "id": 7738,
+   "name": "Une peau de yéti parfaite",
+   "objectives": "Apporter la Peau de yéti parfaite à Jangdor Swiftstrider au Camp Mojache, en Feralas.",
+   "description": "Vous avez trouvé ce qui pourrait bien être une peau de yéti parfaite. Vous remarquez sans peine qu’elle est exceptionnellement épaisse et résistante, plus que celles que vous avez prélevées sur les yétis Griffes féroces.\n\nVous savez que Jangdor Swiftstrider du Camp Mojache fait commerce de peaux de yétis. Ce spécimen devrait beaucoup l’intéresser.",
+   "progress": "Qu'est-ce que c'est, <nom> - tu as quelque chose de spécial pour moi ?",
+   "completion": "C'est une découverte incroyable ! Je crois que c'est le plus beau spécimen de peau de yéti que j'ai jamais vu !\n\nEn effet, il est certainement digne d'une prime appropriée. Normalement, je ne paie pas autant pour une simple peau, mais je suis certain de pouvoir en faire quelque chose de spécial. Merci d'avoir pensé à moi, <nom> !",
+   "starters": [
+    {
+     "type": "item",
+     "id": 18972,
+     "name": "Perfect Yeti Hide"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7854,
+     "name": "Jangdor Swiftstrider"
+    }
+   ],
+   "zone_id": 357,
+   "level": 48,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 2200,
+   "money": 700,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

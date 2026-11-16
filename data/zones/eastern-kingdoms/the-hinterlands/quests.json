@@ -1,0 +1,2513 @@
+{
+ "schema": 1,
+ "zone": "eastern-kingdoms/the-hinterlands",
+ "zone_id": 47,
+ "zone_name": "Les Hinterlands",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 45,
+  "complete": 43,
+  "incomplete": 2,
+  "unavailable": 0,
+  "missing_description": 2,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 3
+ },
+ "quests": {
+  "77": {
+   "id": 77,
+   "name": "Une situation délicate",
+   "objectives": "Récupérer 10 bouteilles de Houle au miel des Hinterlands dans des caisses se trouvant aux environs de la base abandonnée de la Horde, au rocher de l'Affût.",
+   "description": "Je possède l'emballage d'origine nécessaire pour conditionner la Houle que Dran Droffers recherche. Je vais vous aider à l'emballer pour le père de Malton, à l'humeur si caustique... contre deux bouteilles de la susnommée Houle. Les bouteilles se trouvent dans une caisse, dans une base abandonnée de la Horde, près du rocher de l'Affût.\n\nLa tâche sera ardue : d'immondes gelées et même des limons infestent les ruines. On dit que ces créatures seraient commandées par une sorte de limon en chef. Quoiqu'il en soit, procurez-vous la Houle et revenez me voir ici pour la conditionner.",
+   "progress": "J'imagine que votre retour à notre camp signifie que vous venez livrer les bouteilles de Houle. . . Non ?",
+   "completion": "Très bon travail, <nom>. Je suis heureux de voir que vous avez eu la présence d'esprit de ne pas abîmer la délicatesse de la Houle. Il n'y a rien de pire que le bouquet d'une Houle qui a été trop secouée.\n\nIl va me falloir un bon moment pour que la magie œuvre sur cette précieuse cargaison. Mais non, mon gars, je plaisantais. . . Il n'y a aucune magie dans tout cela ; j'ai simplement des emballages vides de Houle au miel des Hinterlands. Notre tour de passe-passe va transformer ces bouteilles en un trésor de vieil alcool.\n\nAllez ! Préparons ce fameux tord-boyaux !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7801,
+     "name": "Gilveradin Sunchaser"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7801,
+     "name": "Gilveradin Sunchaser"
+    }
+   ],
+   "zone_id": 47,
+   "level": 48,
+   "reqlevel": 42,
+   "side": "horde",
+   "xp": 4400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "485": {
+   "id": 485,
+   "name": "Trouver OOX-09/HL !",
+   "objectives": "Apporter la balise de détresse jusqu'au robot guidé d'Oglethorpe en haut de la rivière dans les Hinterlands, près du rocher de l'Affût.",
+   "description": "Vous avez découvert un étrange objet en forme d'oeuf fait de métal. En jouant avec les petit boutons présents sur le dessus, l'oeuf s'anime, à mesure qu'il s'ouvre, il se transforme en une espèce de bidule robot gnomique ! Une voix sort du robot en grésillant.\n\n\"Je suis Oglethorpe Obnoticus, et mon robot guidé a disparu ! Je vous récompenserais si vous le ramenez ! Amenez cette balise au robot.\"\n\n\"J'ai programmé les coordonnées du robot pour vous. Il s'est écrasé en haut de la rivière près du rocher de l'Affût !\"",
+   "progress": "Vous découvrez l'épave d'une sorte de. . . robot poulet ? La voix émerge de l'oeuf une nouvelle fois :\n\n\"Oui, excellent travail ! C'est bien mon robot guidé, mes détecteurs m'indiquent qu'il doit être relancé avant de pouvoir revenir à Baie-du-Butin pour y être réparé. Allez-y et placez la balise dans la machine. La balise s'occupera du reste !\"",
+   "completion": "Vous placez l'oeuf. . . la balise de détresse. . . dans le poulet. . . le robot guidé.\n\nVous entendez des bourdonnements venant de l'intérieur du robot quand il essaye de se relever. Après l'activation du robot, la voix d'Oglethorpe retenti de nouveau, mais maintenant elle vient de l'intérieur du robot :\n\n\"OOX-09/HL fonctionne, mais il a besoin de grosses réparations ! Il est trop lourd pour vous. . . Mais je pense que j'ai une idée. Voudriez-vous bien le surveiller encore un peu ?\"",
+   "starters": [
+    {
+     "type": "item",
+     "id": 8704,
+     "name": "OOX-09/HL Distress Beacon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7806,
+     "name": "Robot guidé OOX-09/HL"
+    }
+   ],
+   "zone_id": 47,
+   "level": 48,
+   "reqlevel": 43,
+   "side": "both",
+   "xp": 4400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "836": {
+   "id": 836,
+   "name": "À la rescousse de OOX-09/HL !",
+   "objectives": "Escorter OOX-09/HL jusqu'au littoral au-delà des Haut-Surplombs, puis rendre compte à Oglethorpe Obnoticus à Baie-du-Butin.",
+   "description": "Le robot émet à nouveau la voix du gnome :\n\n\"Je dois déplacer OOX-09/HL dans un endroit dégagé et sûr pour qu'il puisse entamer sa longue procédure de décollage. Il est équipé d'un camouflage, mais il me faut du temps pour le rendre opérationnel de mon côté. Il faut que vous l'escortiez jusqu'au... disons jusqu'au littoral qui s'étend au-delà des Haut-Surplombs l ! Ce serait un endroit parfait, et assez long, pour que tout puisse se mettre en route !\"\n\nEscortez-le jusque là-bas, et venez me parler à Baie-du-Butin ! Oglethorpe Obnoticus, terminé.\"",
+   "progress": null,
+   "completion": "Oh, c'est VOUS qui avez sauvé OOX-09/HL ! Aucune formule ne pourrait exprimer l'étendue de ma reconnaissance ! Mes robots guidés ont encore besoin d'être améliorés, mais votre sauvetage m'a épargné un nombre incalculable d'heures de reconstruction, ainsi que de nombreuses pièces d'or !\n\nJe vous en prie, prenez l'un des objets que je possède. J'espère que vous en ferez bon usage. Merci encore pour votre aide généreuse, <nom>, mes robots et moi-même vous sommes redevables !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7806,
+     "name": "Robot guidé OOX-09/HL"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7406,
+     "name": "Oglethorpe Obnoticus"
+    }
+   ],
+   "zone_id": 47,
+   "level": 48,
+   "reqlevel": 43,
+   "side": "both",
+   "xp": 5450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1444": {
+   "id": 1444,
+   "name": "De retour vers Fel’Zerul",
+   "objectives": "Retourner voir Fel’Zerul à Stonard.",
+   "description": "Jammal'an le Prophète m'a condamné à être exilé du temple d'Atal'Hakkar. Je considérais autrefois que le grand prêtre était un chef digne.\n\nSa foi inflexible dans sa prophétie apportera la destruction aux Atal'ai. Si ce n'est pas déjà fait.\n\nLorsque j'ai exprimé des réserves, j'ai été traité d’infidèle et évincé du temple.\n\nLes artefacts que vous avez apportés sont inoffensifs. Mais si Jammal'an a découvert le bon fétiche d'enchantement pour le rituel d'invocation, alors le monde court un grand péril...",
+   "progress": null,
+   "completion": "Cela fait longtemps que nous avons parlé, <classe>. J'espère que votre voyage s'est révélé un succès.\n\nQuelle connaissance avez-vous acquise de l'Exilé atal'ai dans les Hinterlands ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5598,
+     "name": "Exilé atal'ai"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1443,
+     "name": "Fel'zerul"
+    }
+   ],
+   "zone_id": 47,
+   "level": 44,
+   "reqlevel": 38,
+   "side": "horde",
+   "xp": 3750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1450": {
+   "id": 1450,
+   "name": "Le Maître des gryphons Talonaxe",
+   "objectives": "Parler au Maître des gryphons Talonaxe dans la Volière de Nid-de-l'Aigle",
+   "description": "Ainsi, vous êtes un des fameux coursiers au service des vieux schnocks de la Ligue des Explorateurs, hein ?\n\nBien, écoutez-moi, <classe>. Je ne sais pas avec qui votre vieux pote faisait des ronds dans le ciel d’Azeroth. Est-ce que j'ai la tête du Maître des gryphons Talonaxe ? Hein ?\n\nSi vous êtes tellement <intéressé/intéressée> par les aléas du trafic aérien pourquoi n'allez-vous pas lui parler directement ? Si je vous prends à glandouiller dans le coin un peu plus longtemps, je vais vraiment vous faire transpirer.\n\nÀ présent, bougez de là !",
+   "progress": null,
+   "completion": "Ah oui ! Bien sûr que je me souviens avoir envoyé l'un de mes chevaucheurs de gryphons donner un coup de main à Brohann Caskbelly.\n\nJ'ai toujours eu une petite faiblesse pour la Ligue des Explorateurs. En fait, mon père faisait partie de la première équipe de fouilles qui a découvert Uldaman.\n\nJ'ai envoyé avec Brohann mon meilleur chevaucheur de gryphons. C'était un type du nom de Rhapsody Shindigger.\n\nEt c'était vraiment un as ! En fait jusqu'à. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5635,
+     "name": "Falstad Wildhammer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5636,
+     "name": "Maître des gryphons Talonaxe"
+    }
+   ],
+   "zone_id": 47,
+   "level": 43,
+   "reqlevel": 38,
+   "side": "alliance",
+   "xp": 890,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "intéressé/intéressée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1451": {
+   "id": 1451,
+   "name": "Rhapsody Shindigger",
+   "objectives": "Chercher Rhapsody Shindigger dans les Hinterlands.",
+   "description": "Rhapsody commençait vraiment à apprécier le goulot. Mais ne vous méprenez pas : tous les nains ici à la volière savent apprécier une bonne bière quand le bon moment arrive.\n\nMais le vieux Shindigger s'est habitué à la boisson comme le jour s'est habitué à la nuit. Quel dommage ! Personne ne savait voler comme lui.\n\nLes premiers signes du problème sont apparus quand il est revenu en titubant de cette mission avec votre pote, Brohann. Tout s'est écroulé peu de temps après. Nous avons dû le laisser partir.\n\nLa dernière fois que j'ai entendu parler de lui, il avait monté un camp de brassage à l'est d'ici...",
+   "progress": null,
+   "completion": "Hic ! Je vous regarde en face, mais vous arrêtez pas de danser de haut en bas. Ça me donne le vertige. Ho ho !\n\nHic !\n\nOuah ! Z'avez senti ça ? Le sol b-bouge, mon ami. J'ai besoin d'un verre.\n\nHic !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5636,
+     "name": "Maître des gryphons Talonaxe"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5634,
+     "name": "Rhapsody Shindigger"
+    }
+   ],
+   "zone_id": 47,
+   "level": 43,
+   "reqlevel": 38,
+   "side": "alliance",
+   "xp": 1800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1452": {
+   "id": 1452,
+   "name": "Le Kocktail Kalimdor de Rhapsody",
+   "objectives": "Rhapsody Shindigger dans les Hinterlands veut que vous lui rameniez 3 Gésiers de roc, 3 Foies de Groddoc et 3 Foies de Ferpoil.",
+   "description": "Hic !\n\nAlors c'est ce vieux fou de Brohann qui vous envoie ? Bon sang ! On a eu une de ces aventures… Hic !\n\nSi vous voulez que je vous raconte ce qui s'est passé au marais, je vais avoir besoin de quelque chose de costaud à boire. C'était pas beau à voir, vous comprenez ? Hic !\n\nJe vais vous dire... Apportez-moi de quoi concocter un Kocktail Kalimdor et je vous en parlerai.\n\nJe vais avoir besoin de gésiers de Roc de Tanaris... et voyons... de foies de Groddoc et de Ferpoil de Feralas...\n\nUn bon Kocktail Kalimdor bien costaud... ça m'f'ra causer !",
+   "progress": "Vous connaissez la bière au malt Rhapsody ? L'une de mes meilleures bières, si je peux me permettre moi-même de le dire personnellement. Hic !\n\nMais si je dois revivre les horreurs de ce vol fatidique au-dessus du… hic… marais, alors je vais avoir besoin de quelque chose d'un tout petit peu plus fort. Hic !\n\nJe présume que vous n'avez pas trouvé ces gésiers et ces foies dont j'ai besoin pour ajouter ce petit plus à mon Kocktail Kalimdor ?\n\nHic !",
+   "completion": "Je vois que vous n'avez pas eu de problèmes pour me dénicher ce dont j'avais besoin ! Vous parlez d'une besogne que vous avez dû faire dans la lointaine Kalimdor.\n\nÇa va me prendre du temps pour extraire la substantifique moelle de ces gésiers et de ces foies.\n\nAlors je pourrai me servir une bonne vieille boisson qui arrache et vous dire enfin c'que vous voulez savoir.\n\nHic !\n\nÇa m'fait trembler rien qu'de repenser à c'vieux marais.\n\nLaissez-moi préparer le bébé en vitesse.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5634,
+     "name": "Rhapsody Shindigger"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5634,
+     "name": "Rhapsody Shindigger"
+    }
+   ],
+   "zone_id": 47,
+   "level": 43,
+   "reqlevel": 38,
+   "side": "alliance",
+   "xp": 3600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1469": {
+   "id": 1469,
+   "name": "L'histoire de Rhapsody",
+   "objectives": "Apporter le Fragment de tablette atal'ai à Brohann Caskbelly à Stormwind.",
+   "description": "Avant le vol, je me suis bu un plein tonneau de bière. Hic !\n\nEt ça a été un de ces vols ! Volé de-ci de-là avec Brohann qui me suivait. Mais pas vu de temple en tout cas. Hic !\n\nJe veux dire, j'ai pas vu de temple, jusqu'à ce que je sois trop parti et que je tombe de ma monture. J'ai plongé directement dans la flotte et j’ai été aspiré. Me suis trouvé entouré par un tas de trolls à la mine patibulaire. Vous pensez bien que j'ai nagé très vite pour partir ! J'ai quand même ramassé un souvenir troll. Tenez, apportez ça à Brohann et dites-lui que son temple est là-bas, en bas, de fait. Hic !",
+   "progress": "Enfin vous voilà de retour, <nom>. Cela fait longtemps que nous nous sommes parlé. Je pensais que vous aviez oublié ma quête ?\n\nÊtes-vous parvenu à localiser ce chevaucheur de gryphons ? Avait-il quelque chose à dire ?",
+   "completion": "Rhapsody Shindigger ! C'est ça… Comment j’ai pu oublier un tel nom ?\n\nAlors il était au courant depuis tout ce temps pour le temple englouti ? Eh bien, cela aurait pu vous épargner de la marche à pied.\n\nMais cet artefact atal'ai ! Quelle trouvaille !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5634,
+     "name": "Rhapsody Shindigger"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5384,
+     "name": "Brohann Caskbelly"
+    }
+   ],
+   "zone_id": 47,
+   "level": 43,
+   "reqlevel": 38,
+   "side": "alliance",
+   "xp": 2700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2742": {
+   "id": 2742,
+   "name": "Rin'ji est pris au piège !",
+   "objectives": "Escorter Rin'ji hors du Gîte de Quel'Danil, puis découvrir son secret caché sur les Hauts-Surplombs, à l’est.",
+   "description": "Hé <race> !\n\nS'il plaît à vous, aidez Rin'ji à s'évader. Moi sais que <race> pas aimer race de Rin'ji, mais Rin'ji demande pitié ! Rin'ji doit sortir ici !\n\nCadeau agréable pour <race> si <il/elle> aider Rin'ji à sortir...\n\nRin'ji cache quelque chose de secret sur les Hauts-Surplombs.",
+   "progress": "Rin'ji a peur !",
+   "completion": "Cette tablette troll doit être \"le secret\" dont parlait Rin'ji.\n\nElle est couverte d'inscriptions étranges que vous ne pouvez pas déchiffrer.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7780,
+     "name": "Rin'ji"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 142127,
+     "name": "Rin'ji's Secret"
+    }
+   ],
+   "zone_id": 47,
+   "level": 47,
+   "reqlevel": 42,
+   "side": "horde",
+   "xp": 4200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "il/elle",
+    "race"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2782": {
+   "id": 2782,
+   "name": "Secret de Rin'ji",
+   "objectives": "Oran Snakewrithe, une érudite réputée pour sa connaissance des us et coutumes des trolls Witherbark, pourrait peut-être déchiffrer la tablette. Elle habite le Quartier de la magie à Undercity.",
+   "description": "La tablette est couverte de lettres gravées par des trolls Witherbark. Le secret de Rin'ji est réellement un mystère…\n\nIl est possible que vous ayez quelque chose de réellement précieux entre les mains. Mais l'inverse est également possible. Un troll Witherbark en détresse ferait probablement n'importe quoi pour s'en sortir...",
+   "progress": "Bien, maintenant, qu'est-ce que ceci ?",
+   "completion": "Cette tablette… Plutôt inhabituelle… Où l'avez-vous trouvée, <nom> ?",
+   "starters": [
+    {
+     "type": "object",
+     "id": 142127,
+     "name": "Rin'ji's Secret"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7825,
+     "name": "Oran Snakewrithe"
+    }
+   ],
+   "zone_id": 47,
+   "level": 47,
+   "reqlevel": 42,
+   "side": "horde",
+   "xp": 2100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2877": {
+   "id": 2877,
+   "name": "Nettoyer le rocher de l'Affût",
+   "objectives": "Tuer 10 Limaces vertes et 10 Limons de jade puis faire votre rapport à Fraggar Thundermantle au Nid-de-l'Aigle",
+   "description": "Nous, les Wildhammer, nous souvenons du passé, mieux que nos frères d'Ironforge. Si vous désirez vous faire des amis, alors travaillez pour nous !\n\nLa Horde a abandonné ses positions dans les Hinterlands, autour du rocher de l'Affût qui est maintenant envahi par des Limaces et des Limons. Nous avons des plans pour ce secteur, mais nous avons besoin de quelqu'un pour faire du nettoyage.\n\nC'est là que vous intervenez ! Allez là-bas et liquidez dix Limaces vertes et dix Limons de jade puis revenez me faire votre rapport ici. Exécution !",
+   "progress": "Ne faites aucun effort pour négocier la mission en cours, <race> ! Si les dieux avaient voulu que ces suceurs soient tués, ils l'auraient déjà fait par miracle, n'est-ce pas ?!",
+   "completion": "Regardez ça, vous aidez les Wildhammer, <classe> ! Vous aimez l'action et nous respectons l'action par-dessus tout.\n\nVotre petit nettoyage est bien plus important que vous ne le pensez. Avec moins de Limaces et de Limons, nous allons tout de suite pouvoir augmenter notre sphère d'influence. Voici un petit quelque chose, en plus du fait d'avoir de nouveaux amis ici, au Nid-de-l'Aigle !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7884,
+     "name": "Fraggar Thundermantle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7884,
+     "name": "Fraggar Thundermantle"
+    }
+   ],
+   "zone_id": 47,
+   "level": 48,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 4400,
+   "money": 5000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2880": {
+   "id": 2880,
+   "name": "Chasse au collier troll",
+   "objectives": "Rapporter 5 Colliers tribaux trolls à Fraggar Thundermantle au Nid-de-l'Aigle",
+   "description": "Comprenez bien ceci, <nom>. Nous ne faisons PAS partie de l'Alliance ! Les Wildhammer sont indépendants, ils prouvent leur valeur par l'action et leurs actes et non en bavardant, contrairement à ceux qui parlent afin de camoufler leur passivité !\n\nSi vous cherchez des amis par ici, commencez par prouver votre valeur ! Ces idiots de trolls qui remplissent les Hinterlands portent parfois des colliers tribaux. Rapportez-en cinq et nous considérerons que vous avez fait un pas dans la bonne direction.",
+   "progress": "Je veux cinq de ces colliers tribaux que les trolls portent sur eux. Au cas où vous ne l'auriez pas compris, tuer un troll vous permettra sûrement d'en obtenir un !\n\nMontrez votre valeur aux Wildhammer !",
+   "completion": "Voilà ce dont je parlais ! Ces colliers prouvent que vous voulez travailler pour nous. Nous, les Wildhammers, respectons nos alliés.\n\nContinuez ainsi et vous entrerez dans nos bonnes grâces.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7884,
+     "name": "Fraggar Thundermantle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7884,
+     "name": "Fraggar Thundermantle"
+    }
+   ],
+   "zone_id": 47,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 3900,
+   "money": 6500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2881": {
+   "id": 2881,
+   "name": "Chasse aux colliers trolls",
+   "objectives": null,
+   "description": "Vous l'avez déjà fait, mais nous continuerons d'accepter tous les Colliers tribaux que vous trouverez. En me les donnant, vous continuerez d'accroître votre prestige parmi les Wildhammer ; si vous désirez vous battre pour nous, nous pourrons nous battre pour vous !\n\nJ'ai besoin de cinq colliers tribaux trolls, <nom>.",
+   "progress": "Vous l'avez déjà fait, mais nous continuerons d'accepter tous les Colliers tribaux que vous trouverez. En me les donnant, vous continuerez d'accroître votre prestige parmi les Wildhammer ; si vous désirez vous battre pour nous, nous pourrons nous battre pour vous !\n\nJ'ai besoin de cinq colliers tribaux trolls, <nom>.",
+   "completion": "Une autre série de colliers veut dire qu'il y a moins de trolls pour nous inquiéter dans les Hinterlands ! Vous avez bien travaillé, <nom>. Continuez dans cette voie !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7884,
+     "name": "Fraggar Thundermantle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7884,
+     "name": "Fraggar Thundermantle"
+    }
+   ],
+   "zone_id": 47,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 390,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "2932": {
+   "id": 2932,
+   "name": "Sinistre message",
+   "objectives": "Collecter les Crânes de Witherbark, et les mettre en place sur la Pique de Nimboyae. Placer la Pique de Nimboya préparée dans l’un des Villages Witherbark, dans les Hinterlands, puis retourner voir Nimboya, à Strangleronce.",
+   "description": "Les trolls Witherbark étaient jadis des alliés de la Horde, mais ils ont trahi Thrall... ce qui ne peut être toléré !\n\nVoici, prenez ma pique et allez dans les Hinterlands, loin au nord. Vous trouverez l'endroit en question au nord-est du Moulin-de-Tarren, un village tenu par nos alliés, les Réprouvés.\n\nQuand vous entrerez sur les terres des Hinterlands, chassez les trolls Witherbark. Collectez leurs crânes, puis plantez ma pique dans le sol de l'un de leurs petits villages, Hiri'watha ou Zun'watha.\n\nMontrez-leur que tout se paie en ce bas monde !",
+   "progress": "Vous n'avez pas accompli ma tâche, <nom>.",
+   "completion": "On parle beaucoup de votre fait, ici. Une action sinistre mais nécessaire. Espérons que les Witherbark auront compris votre message. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2497,
+     "name": "Nimboya"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2497,
+     "name": "Nimboya"
+    }
+   ],
+   "zone_id": 47,
+   "level": 42,
+   "reqlevel": 35,
+   "side": "horde",
+   "xp": 3450,
+   "money": 5500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2933": {
+   "id": 2933,
+   "name": "Bouteilles de venin",
+   "objectives": "Apporter une Bouteille de venin à un apothicaire, au Moulin-de-Tarren.",
+   "description": "Ces bouteilles contiennent un terrible venin.\n\nVu le nombre de bouteilles dans ce village, les Witherbark doivent projeter quelque chose d'important avec elles ; peut-être qu'un apothicaire, près du Moulin-de-Tarren, serait interéssé par l'étude d'un échantillon.",
+   "progress": "Salut, noble <classe>. Voilà longtemps que je n'ai pas réussi quelque expérience probante. . . J'espère que vous apportez de bonnes nouvelles.",
+   "completion": "Ah, qu'est-ce que c'est que ça ? On dirait le venin. . . d'une espèce d'araignée. Où avez-vous eu cela ?",
+   "starters": [
+    {
+     "type": "object",
+     "id": 142702,
+     "name": "Venom Bottle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "zone_id": 47,
+   "level": 43,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 3600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2934": {
+   "id": 2934,
+   "name": "Glande à venin intacte",
+   "objectives": "Rapporter une Glande à venin intacte à l'Apothicaire Lydon, au Moulin-de-Tarren.",
+   "description": "Il me faut un échantillon frais du venin que vous m'avez apporté. Les araignées dont il provient hantent les Hinterlands. Chassez-les jusqu'à ce que vous trouviez une glande à venin intacte, puis rapportez-la-moi. Vous trouverez beaucoup d'araignées près de la ville des trolls de Shadra'Alor.\n\nNe tardez pas, <nom>, la glande à venin doit être fraîche lorsque vous l'apporterez.",
+   "progress": "Avez-vous la glande à venin, <nom> ? J'ai hâte d'effectuer les expérimentations avec ce venin frais. J'ai une foule d'adorables petits cobayes qui attendent mes injections !",
+   "completion": "Oh merci, ce venin est parfaitement frais et sans doute extrêmement toxique. Merci !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "zone_id": 47,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2935": {
+   "id": 2935,
+   "name": "Consulter Maître Gadrin",
+   "objectives": "Parler à Maître Gadrin au Village de Sen'jin.",
+   "description": "Le venin des gardes du clan n'était pas le même que celui que vous m'avez rapporté. Ils proviennent sans doute d'araignées différentes.\n\nJe veux un échantillon de venin frais. Pour savoir où en trouver, vous devez consulter un troll qui connaît bien les Witherbark : maître Gadrin, au village de Sen'jin. Allez en Durotar et parlez à Gadrin. Avec un peu de chance, il saura de quelle araignée les Witherbark tirent leur venin.",
+   "progress": null,
+   "completion": "Ah, alors comme ça vous voulez du venin frais des araignées de Witherbarks, hein ? Asseyez-vous. . . Vous n'allez pas aimer ce que je vais vous dire.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3188,
+     "name": "Maître Gadrin"
+    }
+   ],
+   "zone_id": 47,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 2900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2937": {
+   "id": 2937,
+   "name": "L'invocation de Shadra",
+   "objectives": "Terrasser Shadra, à l'autel de Shadra'Alor, puis rapporter son venin à l'Apothicaire Lydon, au Moulin-de-Tarren.",
+   "description": "Prenez ce parchemin et lisez-le devant l'autel de Shadra'Alor, loin à l'intérieur des terres des Witherbark, dans les Hinterlands. Shadra, le dieu-araignée sera invoqué et paraîtra.",
+   "progress": "Avez-vous le venin ?",
+   "completion": "Bravo, vous l'avez !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3188,
+     "name": "Maître Gadrin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "zone_id": 47,
+   "level": 55,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 8450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2938": {
+   "id": 2938,
+   "name": "Du venin pour Undercity",
+   "objectives": "Apporter le Colis de Faranell au maître apothicaire Faranell, à Undercity.",
+   "description": "Le venin que vous avez récupéré sur le dieu araignée des Witherbark est une grande découverte ! J'ai pu tuer près de deux douzaines de lapins avec une seule goutte. Il est juste que certains de ces lapins étaient très jeunes et suffisamment petits pour tenir dans la paume de la main. Leur résistance aux toxines devait être très basse. Néanmoins, il s'agit là d'un puissant poison !\n\nJ'aimerais en envoyer un échantillon à mon supérieur, l'apothicaire Faranell à l'Apothicarium d'Undercity. Il ne fait aucun doute qu'il aimerait conduire ses propres expériences.",
+   "progress": "On m'a prévenu de votre arrivée, <nom>. Vous avez un colis pour moi, n'est-ce pas ?",
+   "completion": "Très bien. Lydon m'a averti que le venin contenu dans ce colis était le plus toxique qu'il eût jamais testé et qu'il espérait en tirer d'intéressantes applications.\n\nAvec de la chance, il trouvera de quoi employer ce poison.\n\nMerci, <nom>. Votre contribution à la Société royale des apothicaires ne sera pas oubliée.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2055,
+     "name": "Maître apothicaire Faranell"
+    }
+   ],
+   "zone_id": 47,
+   "level": 55,
+   "reqlevel": 40,
+   "side": "horde",
+   "xp": 8450,
+   "money": 25000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2988": {
+   "id": 2988,
+   "name": "Les cages Witherbark",
+   "objectives": "Inspecter les cages dans les deux villages Witherbark, puis retourner auprès du Maître des gryphons Talonaxe.",
+   "description": "Le fils de notre plus puissant gryphon est parti ! L'héritier d'Aile-vive, Bec-tranchant, a été perdu tandis qu'il chassait avec ses parents il y a quelques jours, et nous pensons que ce sont les trolls qui l'ont enlevé.\n\nVous devez nous aider. Passez en revue les cages dans les deux villages de trolls Witherbark pour savoir si Bec-tranchant s'y trouve.",
+   "progress": "Avez-vous fouillé les cages, <nom> ? Nous devons trouver Sharpbeak !",
+   "completion": "Bec-tranchant n'était pas au village ? Hm… mauvaise nouvelle. Ce gryphon est destiné à conduire la nouvelle génération de gryphons. S'il est perdu, la force et l'esprit de notre groupe en pâtira grandement.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5636,
+     "name": "Maître des gryphons Talonaxe"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5636,
+     "name": "Maître des gryphons Talonaxe"
+    }
+   ],
+   "zone_id": 47,
+   "level": 45,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2989": {
+   "id": 2989,
+   "name": "L'autel de Zul",
+   "objectives": "Regarder sur le dessus de l'autel de Zul, puis retourner auprès du Maître des gryphons Talonaxe.",
+   "description": "Bec-tranchant ne se trouvait pas avec les trolls Witherbark. Peut-être les trolls du clan Vilebranch l'ont-ils enlevé ? Partez pour l'autel de Zul sur le bord ouest du territoire Vilebranch et cherchez le jeune gryphon.",
+   "progress": "Vite, <nom> ! Si les trolls Vilebranch retiennent Bec-tranchant, qui sait ce qu'ils lui feront subir !",
+   "completion": "Bec-tranchant n'était pas là ? C'est une mauvaise nouvelle, mais c'est aussi une bonne nouvelle…\n\nC'est bien qu'il ne se soit pas trouvé à l'autel de Zul, car les trolls Vilebranch y font des sacrifices.\n\nMerci pour toute votre aide, mais je crains que la tâche suivante ne soit encore plus difficile.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5636,
+     "name": "Maître des gryphons Talonaxe"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5636,
+     "name": "Maître des gryphons Talonaxe"
+    }
+   ],
+   "zone_id": 47,
+   "level": 48,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 4400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2990": {
+   "id": 2990,
+   "name": "Thadius Grimshade",
+   "objectives": "Apporter la Plume de Bec-tranchant à Thadius Grimshade, dans les Terres foudroyées.",
+   "description": "Apportez cette plume à Thadius Grimshade, le devin. Il a quitté le Nid-de-l'Aigle il y a des années pour engranger un savoir plus sombre, mais dans son cœur il reste un Wildhammer !\n\nPeut-être que ses talents peuvent nous aider à retrouver Bec-tranchant.\n\nCette plume provient du nid où dormait le jeune gryphon. Donnez-la à Thadius qui, avec un peu de chance, pourra utiliser ses talents divinatoires pour localiser Bec-tranchant.\n\nBonne chance, <nom>. Vous trouverez Thadius dans les Terres foudroyées, dans la tour des mages du Rempart-du-Néant.",
+   "progress": "<nom>, m'apportez-vous quelque offrande ?",
+   "completion": "Ah, oui. Cette plume appartient à un honorable gryphon. Un être destiné à de grandes choses. . . s'il arrive à survivre jusqu'à l'âge adulte.\n\nVous souhaitez le retrouver, n'est-ce pas ? Alors écoutez-moi attentivement, brave <classe>. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5636,
+     "name": "Maître des gryphons Talonaxe"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8022,
+     "name": "Thadius Grimshade"
+    }
+   ],
+   "zone_id": 47,
+   "level": 47,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 2100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2992": {
+   "id": 2992,
+   "name": "La Divination",
+   "objectives": "Attendre que Grimshade ait fini de pratiquer son rituel de divination.",
+   "description": "Laissez-moi un peu de place pour me permettre de pratiquer le rituel de divination. Je vais connecter la plume à son propriétaire, ce qui me donnera accès à Bec-tranchant lui-même.\n\nSi tout se déroule comme prévu, évidemment... Sinon, hé bien, vous feriez mieux de ne pas regarder.",
+   "progress": null,
+   "completion": "J'ai réussi. Je sais où se trouve Bec-tranchant et comment vous pouvez le rejoindre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8022,
+     "name": "Thadius Grimshade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8022,
+     "name": "Thadius Grimshade"
+    }
+   ],
+   "zone_id": 47,
+   "level": 47,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 1050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2993": {
+   "id": 2993,
+   "name": "Retour dans les Hinterlands",
+   "objectives": "Parler au Maître des gryphons Talonaxe.",
+   "description": "Bec-tranchant est enfermé dans une cage, placée haute sur une falaise au sommet de Jintha'Alor dans les Hinterlands. La clé de cette cage est en possession de la grande prêtresse des trolls du clan Vilebranch, la vile prêtresse maléfique Maléficia.\n\nVoilà, j'ai fait ma part. Je vous souhaite bonne chance dans votre quête, <nom>.",
+   "progress": null,
+   "completion": "Vous avez parlé à Grimshade ? Qu'a-t-il dit ?\n\n…Quoi ? Les trolls Vilebranch ont Bec-tranchant ? C'est intolérable ! Il faut que nous nous organisions pour le sauver !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8022,
+     "name": "Thadius Grimshade"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5636,
+     "name": "Maître des gryphons Talonaxe"
+    }
+   ],
+   "zone_id": 47,
+   "level": 47,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 2100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2994": {
+   "id": 2994,
+   "name": "Sauver Bec-tranchant",
+   "objectives": "Combattre jusqu’au sommet de Jintha'Alor, tuer la vile prêtresse Maléficia pour obtenir la clé de la cage de Bec-tranchant, et sauver Bec-tranchant.",
+   "description": "Bec-tranchant doit être secouru !\n\nFrayez-vous un chemin, à coups d'épée s'il le faut, jusqu'au sommet de Jinth'Alor, au coeur du territoire des Vilebranch et arrachez la clé de la cage à la vile prêtresse maléfique Maléficia. Enfin, retrouvez et libérez Bec-tranchant !",
+   "progress": "Sauvez Bec-tranchant!",
+   "completion": "Aile-vive et Griffe-perçante sont revenus avec leur enfant, il y quelques moments et le gâtent comme de jeunes parents. Les voir réunis est un spectacle qui arrive encore à faire briller mes yeux fatigués. . .\n\nNous ne pourrons jamais vous récompenser à la hauteur de ce que vous avez fait pour nous, <nom>. Les gryphons du Nid-de-l'Aigle et leurs cavaliers chanteront longtemps vos exploits.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5636,
+     "name": "Maître des gryphons Talonaxe"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5636,
+     "name": "Maître des gryphons Talonaxe"
+    }
+   ],
+   "zone_id": 47,
+   "level": 51,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 7900,
+   "money": 22500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4787": {
+   "id": 4787,
+   "name": "L'oeuf antique",
+   "objectives": "Apporter l'Oeuf antique à Yeh'kinya à Tanaris.",
+   "description": "La prophétie de Mosh'aru parle d'un oeuf antique, vestige du temps où les trolls régnaient sur de vastes empires, et qui a le pouvoir de renfermer l'essence d'Hakkar. C'est peut-être le seul moyen de protéger notre monde de ce mal.\n\nApportez-moi cet oeuf antique, <nom>. On dit qu'il est enfoui à Jintha'Alor dans les Hinterlands, dans une grotte derrière l'amphithéâtre au sommet de la cité.",
+   "progress": "Avez-vous l'oeuf antique ? Je sens de grandes forces qui s'agitent et je crains que le temps manque.",
+   "completion": "Ah, vous avez l'oeuf ! Je m'incline devant vous, <nom>. On se souviendra pendant longtemps de votre force et de votre courage.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8579,
+     "name": "Yeh'kinya"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8579,
+     "name": "Yeh'kinya"
+    }
+   ],
+   "zone_id": 47,
+   "level": 50,
+   "reqlevel": 40,
+   "side": "both",
+   "xp": 5900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7815": {
+   "id": 7815,
+   "name": "Les Gueules d'acier, l'ami !",
+   "objectives": "Katoom le pêcheur, du village des Revantusk des Hinterlands, veut que vous tuiez 15 tortues Gueules d’acier des mers. Retournez le voir lorsque vous aurez terminé.",
+   "description": "Faut pas se laisser prendre à leurs grands yeux, v’savez ? Ces gueules d’acier des mers, c’est la plaie des plaies ! Je peux pas pêcher cinq minutes sans qu’un de ces gros aspirateurs à poissons me vole mes appâts.\n\nRendez-nous service, à moi et tous les gens du village des Revantusk, tuez-les.\n\nTuez-les, tous autant qu’ils sont !",
+   "progress": "Comment se passe la chasse ?",
+   "completion": "Oh, mon pote ! Je n’vous remercierai jamais assez ! J’espère que c’te canne à pêche que v’la sera une récompense suffisante.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14740,
+     "name": "Katoom le pêcheur"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14740,
+     "name": "Katoom le pêcheur"
+    }
+   ],
+   "zone_id": 47,
+   "level": 50,
+   "reqlevel": 44,
+   "side": "horde",
+   "xp": 4700,
+   "money": 7500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7816": {
+   "id": 7816,
+   "name": "Gammerita, l'ami !",
+   "objectives": "Katoom le pêcheur, du village des Revantusk dans les Hinterlands, veut que vous tuiez Gammerita et que vous récupériez le Meilleur appât de Katoom sur son cadavre.\n\nKatoom a mentionné que Gammerita rôdait sur la côte, avec d’autres tortues.",
+   "description": "Yo ! Y a une tortue qu’est pas comme les autres. Elle, c’est la Gammerita, la patronne des gueules d’aciers des mers – un sale reptile voleur.\n\nLà, elle s’est sauvée avec mon meilleur appât. L’a tranché la ligne, comme ça, net ! Et depuis, les poissons, y mordent plus pareil.\n\nTrouvez Gammerita et récupérez mon appât. Oui, dans son estomac.",
+   "progress": "Alors, vous l’avez ?",
+   "completion": "Mon POTE ! C’est fantastique ! Avec mon meilleur appât et moins de gueules d’acier, le poisson va mordre comme jamais.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14740,
+     "name": "Katoom le pêcheur"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14740,
+     "name": "Katoom le pêcheur"
+    }
+   ],
+   "zone_id": 47,
+   "level": 48,
+   "reqlevel": 44,
+   "side": "horde",
+   "xp": 4400,
+   "money": 14000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7828": {
+   "id": 7828,
+   "name": "Traquer les traqueurs",
+   "objectives": "Le veneur Markhor du village des Revantusk, dans les Hinterlands, veut que vous tuiez 15 Traqueurs Crins-d'argent et 15 Hurleurs Crins-d'argent. Retournez le voir lorsque vous aurez terminé.\n\nD’après Makhor, les loups se cachent dans les régions sauvages des Hinterlands.",
+   "description": "Les Hinterlands sont un endroit dur, <race>. On y a perdu beaucoup de braves trolls. Les loups Crins-d'argent sont l’une des pires menaces qu’affrontent nos chasseurs. Ces animaux se cachent dans les buissons et les fourrés, attendant l’occasion de bondir.\n\nCette férocité ne doit pas rester impunie !\n\nVous devez penser comme les Crins-d'argent. Traquez les Traqueurs ! Tuez-les tous !",
+   "progress": "Montrez-leur la puissance de Revantusk !",
+   "completion": "Beau travail, <race>. Les Revantusk vous remercient de votre contribution.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14741,
+     "name": "Veneur Markhor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14741,
+     "name": "Veneur Markhor"
+    }
+   ],
+   "zone_id": 47,
+   "level": 48,
+   "reqlevel": 44,
+   "side": "horde",
+   "xp": 4400,
+   "money": 14000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "race"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7829": {
+   "id": 7829,
+   "name": "Chasser les sauvages",
+   "objectives": "Le veneur Markhor du village des Revantusk des Hinterlands veut que vous tuiez 20 Chouettards sauvages. Retournez le voir lorsque vous aurez terminé.\n\nMarkhor a mentionné que les Chouettards sauvages vivaient dans les régions sauvages des Hinterlands.",
+   "description": "De toutes les bêtes féroces qui peuplent les Hinterlands, les chouettards sont parmi les plus vicieuses. Les becs et les griffes de ces monstres nous ont coûté de nombreux bons guerriers.\n\nTuez tous les chouettards que vous rencontrerez, <race>. Ne revenez me voir que lorsque vous serez écoeuré par tout le sang versé. Votre contribution sera alors pesée, mesurée et jugée.",
+   "progress": "Videz votre tête de toute pensée impure, <race>. Ne faites plus qu'un avec la nature !",
+   "completion": "Vous avez prouvé que vous êtes un digne allié des Revantusk, <nom>. Beau travail.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14741,
+     "name": "Veneur Markhor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14741,
+     "name": "Veneur Markhor"
+    }
+   ],
+   "zone_id": 47,
+   "level": 48,
+   "reqlevel": 44,
+   "side": "horde",
+   "xp": 4400,
+   "money": 14000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "race"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7830": {
+   "id": 7830,
+   "name": "Venger les victimes",
+   "objectives": "Le veneur Markhor, du village des Revantusk des Hinterlands, veut que vous tuiez un Seigneur du ciel Bec-rasoir et que vous récupériez une Plume de Seigneur du ciel. Revenez le voir lorsque vous aurez terminé votre tâche.\n\nD’après Makhor, les Seigneurs du ciel Bec-rasoir sont des créatures rares qui vivent dans les régions sauvages des Hinterlands.",
+   "description": "Ces infects Wildhammer dressent des gryphons pour tuer des trolls. C’est horrible, je sais, mais ne vous faites pas de souci, justice sera faite.\n\nPour le moment, je veux que vous vous concentriez sur l’éradication des vieux gryphons de la région. On les appelle des Seigneurs du ciel.\n\nTuez-en un et ramenez-moi une plume.",
+   "progress": "Les Seigneurs du ciel Bec-rasoir sont une variété rare de gryphons, mais c’est une variété qui se reproduit et dont la progéniture nous tue.",
+   "completion": "<Markhor examine la plume. >\n\nJe me demande combien de nos chasseurs cette bête a dévoré avant que vous ne lui fassiez connaître notre justice.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14741,
+     "name": "Veneur Markhor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14741,
+     "name": "Veneur Markhor"
+    }
+   ],
+   "zone_id": 47,
+   "level": 48,
+   "reqlevel": 44,
+   "side": "horde",
+   "xp": 4400,
+   "money": 14000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7839": {
+   "id": 7839,
+   "name": "Les voyous Vilebranch",
+   "objectives": "Le forgeron Slagtree du village des Revantusk, dans les Hinterlands, vous demande de retrouver les Outils perdus de Slagtree. Retournez le voir lorsque vous les aurez.\n\nIl a laissé entendre qu’ils pourraient se trouver dans l’un des temples des Vilebranch, au nord-est des Hinterlands. Vous devriez aussi jeter un coup d’œil au rocher de l’Affût.",
+   "description": "Ces vermines de Vilebranch ont envahi notre village et volé mes outils ! J’ai des outils de rechange, mais ceux qu’ils m’ont volé m’avaient été offerts par un bon gnome, qui m’a sauvé la vie dans ma jeunesse.\n\nJe veux les récupérer, <nom>. J’y tiens énormément.\n\nMarkhor m’a dit qu’ils avaient été vus près des temples d’Agol’watha et de Shaol’watha.\n\nCes temples sont au nord-est des Hinterlands.\n\nRetrouvez mes outils !",
+   "progress": "Prenez garde aux trolls Vilebranch, <nom>. Ce sont des brutes cruelles.",
+   "completion": "Mes outils ! Vous les avez trouvés ! Oh, jour glorieux ! Merci, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14737,
+     "name": "Forgeron Slagtree"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14737,
+     "name": "Forgeron Slagtree"
+    }
+   ],
+   "zone_id": 47,
+   "level": 48,
+   "reqlevel": 44,
+   "side": "horde",
+   "xp": 4400,
+   "money": 14000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7840": {
+   "id": 7840,
+   "name": "Lard a perdu son déjeuner !",
+   "objectives": "Lard, du village des Revantusk, dans les Hinterlands, veut que vous retrouviez le Repas de Lard. Retournez le voir lorsque ce sera fait.\n\nD’après Lard, il l’aurait laissé dans l’île, au nord. Prenez garde aux trolls Vilebranch !",
+   "description": "Lard était dans son endroit secret spécial pour pique-nique quand vilains Vilebranch affreux sont venus et ont tapé sur la tête de Lard avec le gros bâton. Lard a couru jusqu’à village Revantusk, mais Lard a oublié son déjeuner. Lard a faim. Vous pouvoir aller dans endroit secret spécial et prendre déjeuner de Lard ? Lard a peur. C’est au nord ! L’endroit secret special être île au nord.",
+   "progress": "<Lard frotte mélancoliquement son énorme bedaine. >\n\nLard a très faim.",
+   "completion": "<Lard vous arrache un énorme morceau de viande des mains et se l’enfourne dans la bouche. >\n\nÇa fait du bieeeen ! Merci, tout-petit.\n\nVous avez aidé Lard, alors Lard va vous faire panier de pique-nique spécial.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14731,
+     "name": "Lard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14731,
+     "name": "Lard"
+    }
+   ],
+   "zone_id": 47,
+   "level": 49,
+   "reqlevel": 44,
+   "side": "horde",
+   "xp": 4550,
+   "money": 14000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7841": {
+   "id": 7841,
+   "name": "Un message pour les Wildhammer",
+   "objectives": "Otho Moji'ko du village des Revantusk dans les Hinterlands veut que vous massacriez 15 Estafettes du Haut-val, 15 Eclaireurs du Haut-val, 15 Tireurs d'élite du Haut-val et 15 Forestiers du Haut-val. Revenez le voir lorsque vous aurez terminé.\n\nVous pouvez trouver les elfes du Haut-val au Gîte de Quel’Danil, au nord-ouest des Hinterlands.",
+   "description": "Les Wildhammer sont en train de passer des marchés avec nos ennemis, de forger de nouvelles alliances. Cette fois, ils travaillent avec les hauts elfes !\n\n<Otho crache.>\n\nIl faut qu’on leur envoie un message, à ces nains. Un message écrit avec le sang de nos ennemis. Tuez tous les hauts elfes du Haut-val que vous pourrez trouver, et exposez leurs cadavres en guise d'avertissement.\n\nOn ne joue pas avec les trolls !",
+   "progress": "Tu es trop propre, mon gars. Tu dois mélanger les choses, te salir avec l'ennemi.",
+   "completion": "On dirait bien que les Revantusk aussi se trouvent de nouveaux alliés, pas vrai ? Beau boulot.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14738,
+     "name": "Otho Moji'ko"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14738,
+     "name": "Otho Moji'ko"
+    }
+   ],
+   "zone_id": 47,
+   "level": 48,
+   "reqlevel": 44,
+   "side": "horde",
+   "xp": 4400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Otho crache."
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7842": {
+   "id": 7842,
+   "name": "Encore un message pour les Wildhammer",
+   "objectives": "Otho Moji'ko, du village des Revantusk dans les Hinterlands, vous demande de lui ramener 10 Longues plumes élégantes prélevées sur les gryphons qui vivent dans les Hinterlands. Retournez le voir lorsque vous les aurez.\n\nOn trouve des gryphons dans tous les Hinterlands.",
+   "description": "On dit que les Wildhammer et leurs gryphons sont aussi proches les uns des autres que trolls et trollesses. Ouais, c’est dégoûtant, mais on peut en profiter. On va leur envoyer un autre message.\n\nTuez tous les gryphons que vous trouverez dans les Hinterlands et récupérez leurs plumes. On s’en servira pour préparer le dernier message.",
+   "progress": "Le dernier message va leur faire salement peur. Ou alors, il va les mettre très, très en colère.",
+   "completion": "Oh, ça va être bien ! Plus qu’une étape, et les Wildhammer verront qu’on ne plaisante pas avec les trolls !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14738,
+     "name": "Otho Moji'ko"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14738,
+     "name": "Otho Moji'ko"
+    }
+   ],
+   "zone_id": 47,
+   "level": 48,
+   "reqlevel": 44,
+   "side": "horde",
+   "xp": 5450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7843": {
+   "id": 7843,
+   "name": "Le message final pour les Wildhammer",
+   "objectives": "Otho Moji'ko, du village des Revantusk dans les Hinterlands, vous demande de vous rendre au Nid-de-l’Aigle, à l’ouest des Hinterlands. Vous devez placer le Message final pour les Wildhammer près du puits, au cœur de la ville. Retournez le voir lorsque vous aurez accompli votre tâche.\n\nFaites attention aux nains Wildhammer, qui risquent de mal le prendre, et aux autres membres de l’Alliance.",
+   "description": "<Otho vous tend une longue lance tachée de sang, ornée de plusieurs plumes de gryphon.>\n\nVous prenez ça, mon pote. Vous l’amenez au Nid-de-l’Aigle, pile au centre de la ville, près du puits. Et là, vous le plantez ! En plein dans le sol ! Faut montrer à ces nains que les trolls ne plaisantent pas ! Revenez quand vous l’aurez fait. Vivant, si possible.",
+   "progress": "Qu'est-ce qui se passe ?",
+   "completion": "J’aurais bien aimé être là pour voir leurs têtes, v’savez. Ils font leurs bagages, ou pas encore ?\n\nC’est du bon travail, <nom>. Très bon. Otho va vous donner un sacré mojo en récompense.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14738,
+     "name": "Otho Moji'ko"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14738,
+     "name": "Otho Moji'ko"
+    }
+   ],
+   "zone_id": 47,
+   "level": 50,
+   "reqlevel": 44,
+   "side": "horde",
+   "xp": 5900,
+   "money": 22000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7844": {
+   "id": 7844,
+   "name": "Les cousins cannibales",
+   "objectives": "Yayo’jin la Mystique, du village des Revantusk des Hinterlands, veut que tuiez 30 Scalpeurs Vilebranch et 15 Devins Vilebranch. Retournez la voir lorsque vous aurez terminé.\n\nD’après Yayo’jin, ces trolls se trouvent près des temples de Shaol'watha et d’Agol'watha, au nord-nord-est des Hinterlands.",
+   "description": "Trois tribus de trolls habitent les Hinterlands, <nom>. En vérité, cela résume tout ce qui nous rassemble : nous sommes des trolls et nous vivons dans les Hinterlands.\n\nLes bien nommés Vilebranch sont des dégénérés qui n’hésitent pas à manger d’autres trolls et d’autres humanoïdes.\n\nSi Zul’jin était là, il les détruirait tous d’un revers de main, mais hélas, Zul’jin n’est pas revenu, et nous sommes livrés à nous-mêmes.\n\nIl vous revient d’anéantir ces nuisibles !",
+   "progress": "Les devins et les scalpeurs de Vilebranch habitent la région nord-nord-est des Hinterlands.",
+   "completion": "Beau travail, <classe>. Zul’jin en personne n’aurait pas fait mieux !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14739,
+     "name": "Yayo'jin la Mystique"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14739,
+     "name": "Yayo'jin la Mystique"
+    }
+   ],
+   "zone_id": 47,
+   "level": 48,
+   "reqlevel": 44,
+   "side": "horde",
+   "xp": 4400,
+   "money": 14000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7845": {
+   "id": 7845,
+   "name": "L’Ancien Torntusk a été enlevé !",
+   "objectives": "L’Aînée Torntusk du village des Raventusk des Hinterlands vous demande de libérer son compagnon, l’Ancien Torntusk, de Jintha’alor.\n\nVous savez qu’il est prisonnier au sommet de Jintha’alor, la capitale des Vilebranch, qui se trouve au sud des Hinterlands.",
+   "description": "Mon compagnon a été capturé par les sauvages Vilebranch au cours d’un raid nocturne sur notre village. Nos espions m’ont informé qu’il était encore en vie. Ils le gardent prisonnier au sommet de Jintha’alor. Il semble que la vile prêtresse Maléficia soit en train de le préparer pour le sacrifier à un dieu sanglant et sans visage.\n\nVous devez le sauver, <nom> ! Notre village ne supporterait pas de le perdre.",
+   "progress": null,
+   "completion": "Vous devez agir rapidement, <nom>. Les gardes sont sûrement au courant de votre présence, à présent.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14736,
+     "name": "L'Aînée Torntusk"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14757,
+     "name": "L'Ancien Torntusk"
+    }
+   ],
+   "zone_id": 47,
+   "level": 51,
+   "reqlevel": 46,
+   "side": "horde",
+   "xp": 4900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7846": {
+   "id": 7846,
+   "name": "Récupérez la clé !",
+   "objectives": "L’Ancien Torntusk, à Jintha’alor, veut que vous tuiez Hitah’ya la Gardienne afin de récupérer la Clé des menottes qui le retiennent. Lorsque vous aurez cette clé, retournez voir l’Ancien Torntusk.",
+   "description": "La clé de mes menottes est aux mains d’Hitah’ya la Gardienne. Elle est dans la caverne d’à côté. Prenez garde, <classe>, car elle est bien protégée.\n\nTuez-la et ramenez-moi la clé qui ouvre ces chaînes. Lorsque je serai libre, je pourrai rentrer chez moi.",
+   "progress": "Hâtez-vous !",
+   "completion": "Enfin libre ! Merci, <nom>. Les Revantusk se souviendront de vos actions.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14757,
+     "name": "L'Ancien Torntusk"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14757,
+     "name": "L'Ancien Torntusk"
+    }
+   ],
+   "zone_id": 47,
+   "level": 51,
+   "reqlevel": 46,
+   "side": "horde",
+   "xp": 6100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7847": {
+   "id": 7847,
+   "name": "Retourner voir l’Aînée Torntusk",
+   "objectives": "L’Ancien Torntusk, à Jintha’alor, veut que vous retourniez voir l’Aînée Torntusk du village des Revantusk et que vous lui appreniez qu’il est sauvé.",
+   "description": "Retournez voir ma compagne, l’Aînée Torntusk du village des Revantusk. Dites-lui que je serai bientôt de retour ! Elle ne manquera pas de vous récompenser.",
+   "progress": null,
+   "completion": "Tu as rendu un grand service aux Revantusk, <nom> ! Nous avons une grande dette de gratitude envers toi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14757,
+     "name": "L'Ancien Torntusk"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14736,
+     "name": "L'Aînée Torntusk"
+    }
+   ],
+   "zone_id": 47,
+   "level": 51,
+   "reqlevel": 46,
+   "side": "horde",
+   "xp": 4900,
+   "money": 22500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7849": {
+   "id": 7849,
+   "name": "L’angoisse de la séparation",
+   "objectives": "Le veneur Markhor du village des Revantusk, dans les Hinterlands, veut que vous récupériez les restes de son frère jumeau. Trouvez le Crâne du veneur Malkhor et les Os du veneur Malkhor, et ramenez-les au veneur Markhor.\n\nMarkhor vous a dit que les restes de son frère avaient été abandonnés aux limons et aux loups des Vilebranch. Il a également mentionné l’existence d’une décharge remplie de limons à Jintha’alor, ainsi que celle d’un enclos à loups. Tous deux se trouvent près du sommet du temple.",
+   "description": "Comme bien des gens dans notre village, j’ai perdu un être cher. Malkhor, mon frère jumeau, a été pris dans le même raid des Vilebranch que le compagnon de Torntusk.\n\nHélas, il n’était pas destiné à vivre. Ils l’ont tué vite, et ils ont abandonné son cadavre aux limons et aux loups des Vilebranch.\n\nIl est trop tard pour sauver son corps, mais il est encore temps de sauver son âme. Récupérez ses restes, <nom>.",
+   "progress": "Lorsque j’aurai ses restes, je les apporterai à Yayo’jin et je veillerai à ce qu’ils soient préparés pour l’enterrement.",
+   "completion": "Mon frère bien-aimé, tu me manques…\n\nMerci de votre aide, <nom>. Pour moi, vous êtes un véritable héros.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14741,
+     "name": "Veneur Markhor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14741,
+     "name": "Veneur Markhor"
+    }
+   ],
+   "zone_id": 47,
+   "level": 50,
+   "reqlevel": 46,
+   "side": "horde",
+   "xp": 5900,
+   "money": 14500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7850": {
+   "id": 7850,
+   "name": "Les calices ténébreux",
+   "objectives": "L’Aînée Torntusk du village des Revantusk, dans les Hinterlands, veut que vous récupériez 10 Calices de sang corrompu à Jintha’alor. Retournez voir l’Aînée Torntusk lorsque vous aurez terminé.",
+   "description": "À cause de la magie impure de la vile prêtresse Maléficia, les Vilebranch font preuve d’une férocité surnaturelle.\n\nDans tout Jintha’alor, vous trouverez des calices ténébreux, pleins de sang corrompu. Ils irradient la magie abjecte de leur dieu sans visage, donnant de la force aux Vilebranch tout en les rendant fous.\n\nVolez ces calices et ramenez-les-moi, afin que je les purifie. Si j’en ai suffisamment, je pourrai desserrer l’étreinte de leur dieu sanglant.",
+   "progress": "Prenez garde lorsque vous combattrez les Vilebranch, <nom>. Leurs esprits sont embrumés – ils se battront jusqu’à la mort.",
+   "completion": "L’énergie ténébreuse qui poussait les Vilebranch a été dispersée… pour l’instant. Nous devrons toujours rester vigilants dans notre bataille contre le mal, car même si la Vile prêtresse était tuée, une autre prendrait bientôt sa place.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14736,
+     "name": "L'Aînée Torntusk"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14736,
+     "name": "L'Aînée Torntusk"
+    }
+   ],
+   "zone_id": 47,
+   "level": 50,
+   "reqlevel": 46,
+   "side": "horde",
+   "xp": 5900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7861": {
+   "id": 7861,
+   "name": "On recherche : la vile prêtresse Maléficia et ses sbires",
+   "objectives": "Vous avez reçu l’ordre de tuer la vile prêtresse Maléficia et 20 Gardes Ama’zasi Vilebranch. Lorsque vous aurez terminé, allez voir l’Aînée Torntusk au village des Revantusk, dans les Hinterlands.\n\nLa vile prêtresse Maléficia et la garde Aman’zasi ont leurs quartiers au sommet de Jintha’alor, dans les Hinterlands.",
+   "description": "Par ordre de l’Aînée Torntusk, la vile prêtresse Maléficia et ses sbires doivent être mis à mort !\n\nUne forte récompense est offerte à tous ceux qui parviendront à tuer la vile prêtresse Maléficia et la totalité de sa garde d’élite Aman'zasi.",
+   "progress": "Avez-vous des nouvelles de Jintha'alor ?",
+   "completion": "En vérité, c’est un dur coup porté aux Vilebranch. Vous serez richement récompensé, <nom>.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 179913,
+     "name": "Call to Arms!"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14736,
+     "name": "L'Aînée Torntusk"
+    }
+   ],
+   "zone_id": 47,
+   "level": 51,
+   "reqlevel": 46,
+   "side": "horde",
+   "xp": 6100,
+   "money": 22500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7862": {
+   "id": 7862,
+   "name": "Offre d’emploi : capitaine de la garde du village des Revantusk",
+   "objectives": "Vous avez été <chargé/chargée> de liquider 20 Berserkers Vilebranch, 20 Chasseurs des ombres Vilebranch, 20 Sanguinaires Vilebranch et 20 Mangeurs d’âmes Vilebranch.\n\nLorsque vous aurez terminé, allez parler à l’Aînée Torntusk, du village de Revantusk dans les Hinterlands.",
+   "description": "Suite à la mort du capitaine Malkhor, le poste de capitaine de la garde de Revantusk est à pourvoir. Si vous désirez devenir capitaine de la garde de Revantusk, accomplissez les tâches suivantes avant de présenter votre candidature à l’Aînée Tornstusk :\n\nExterminer des Berserkers Vilebranch.\n\nExterminer des Chasseurs des ombres Vilebranch.\n\nExterminer des Sanguinaires Vilebranch.\n\nExterminer des Mangeurs d’âmes Vilebranch.",
+   "progress": "Vous êtes ici pour l'offre d'emploi ?",
+   "completion": "En vérité, vous êtes digne de ce poste, <nom>. Acceptez cette babiole en signe de notre appréciation pour votre travail. J’examinerai toutes les candidatures l’année prochaine.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 179913,
+     "name": "Call to Arms!"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14736,
+     "name": "L'Aînée Torntusk"
+    }
+   ],
+   "zone_id": 47,
+   "level": 51,
+   "reqlevel": 46,
+   "side": "horde",
+   "xp": 6100,
+   "money": 22500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "chargé/chargée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8273": {
+   "id": 8273,
+   "name": "La gratitude d'Oran",
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": "N'est-ce pas intéressant ? Vous dites avoir trouvé cette tablette sur une petite île déserte des falaises d'Overlook, dans l'arrière-pays, <classe> ? Très intéressant en effet. <Oran range soigneusement la tablette et se frotte les mains.\n\nJe vous remercie pour vos efforts dans cette affaire. Notre Dame Sombre sera très satisfaite de cette découverte. Permettez-moi de vous récompenser proportionnellement.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 7825,
+     "name": "Oran Snakewrithe"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7825,
+     "name": "Oran Snakewrithe"
+    }
+   ],
+   "zone_id": 47,
+   "level": 47,
+   "reqlevel": 42,
+   "side": "horde",
+   "xp": 4200,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

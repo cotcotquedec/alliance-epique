@@ -1,0 +1,4638 @@
+{
+ "schema": 1,
+ "zone": "eastern-kingdoms/ironforge",
+ "zone_id": 1537,
+ "zone_name": "Ironforge",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 83,
+  "complete": 67,
+  "incomplete": 16,
+  "unavailable": 0,
+  "missing_description": 16,
+  "missing_giver": 1,
+  "new_in_forever": 0,
+  "gendered": 10
+ },
+ "quests": {
+  "637": {
+   "id": 637,
+   "name": "Lettre de Sully Balloo",
+   "objectives": "Donner la Lettre de Sully Balloo à Sara Balloo.",
+   "description": "L'enveloppe imbibée d'eau et déchirée se dissout et laisse dans vos mains quelques pages d'une lettre, écrite avec soin.\n\nLa lettre est adressée à Mme Sara Balloo d'Ironforge et commence par les mots : \"Ma chère Sara…\"",
+   "progress": "Vous semblez avoir beaucoup voyagé et avoir affronté de nombreux bouleversements sur votre chemin, <classe>. Les temps que nous vivons poussent l'esprit à bout. Quelles nouvelles m'apportez-vous à présent ?",
+   "completion": "Vous dites avoir vu mon Sully piégé sous les eaux glacées ? Ça ne peut pas être vrai !\n\nLaissez-moi lire sa lettre. . .",
+   "starters": [
+    {
+     "type": "item",
+     "id": 4433,
+     "name": "Waterlogged Envelope"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2695,
+     "name": "Sara Balloo"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 30,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 2450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "683": {
+   "id": 683,
+   "name": "Requête de Sara Balloo",
+   "objectives": "Remettre la lettre de Sara Balloo au roi Magni Bronzebeard à Ironforge.",
+   "description": "<nom>, j'ai une petite faveur à vous demander.\n\nPrenez cette lettre et portez-la à notre grand monarque d'Ironforge, le roi Magni Bronzebeard. Ce n'est pas grand-chose pour quelqu'un comme vous qui a tant fait pour l'Alliance.\n\nMe présenter devant le roi dans l'état d'esprit qui est le mien ne servirait pas notre cause. Vous le comprendrez sûrement.",
+   "progress": "C'est donc vous <nom> la chasse-|nresse ! Le récit de vos exploits est parvenu jusqu'à nous, et ce que vous avez fait pour l'Alliance est connu de tous, vous savez ?\n\nQu'est-ce qui vous amène devant moi ?",
+   "completion": "Cela va me prendre un peu de temps pour lire cette lettre...",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2695,
+     "name": "Sara Balloo"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2784,
+     "name": "Roi Magni Bronzebeard"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 30,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 1200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "686": {
+   "id": 686,
+   "name": "Hommage royal",
+   "objectives": "Le roi Magni Bronzebeard veut que vous parliez avec le maître-maçon Marblesten.",
+   "description": "Je ne demande pas à ce que les nains comme Madame Balloo comprennent que nous faisons cette guerre pour leur bien. La perte de son mari ainsi que toutes les autres dans le combat au nom de l'Alliance pèsent lourd sur mes épaules.\n\nMême si je ne peux pas le ramener du Néant distordu, je peux lui rendre hommage.\n\nJe vais faire construire un mémorial en l'honneur de Sully Balloo, par le maître-maçon Marblesten.\n\nEnvoyez-lui un message, <classe>. C'est vous qui serez en charge de faire respecter cet ordre.",
+   "progress": null,
+   "completion": "Donc le roi Magni Bronzebeard lui-même vous a envoyé ?\n\nEh bien ! Cela doit être important !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2784,
+     "name": "Roi Magni Bronzebeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2790,
+     "name": "Maître-maçon Marblesten"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 30,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 1200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "689": {
+   "id": 689,
+   "name": "Hommage royal",
+   "objectives": "Le Maître Maçon Marblesten d'Ironforge veut 5 Morceaux de Granit d'Alterac.",
+   "description": "Donc mon bon roi veut construire un monument en l'honneur du soldat Sully Balloo ? Et vous me dites que le pauvre homme est mort lors de la tragédie du viaduc de Thandol ?\n\nN'y a-t-il jamais eu la paix en Azeroth ?\n\nQuoi qu'il en soit, les ordres du roi sont prioritaires. Pour construire un monument grandiose et durable, j'ai besoin d'une pierre spéciale, d'une grande finesse. Allez sur la Colline de Darrow, dans Hillsbrad et rapportez-moi du Granit d'Alterac.",
+   "progress": "<nom>, <nom>, <nom> ! Dites-moi que vous m'avez rapporté du Granit d'Alterac afin de commencer mon chef-d'œuvre en l'honneur de Sully Balloo.",
+   "completion": "Parfait ! Encore mieux que je ne l'avais imaginé !\n\nEt pourtant, de l'imagination, j'en ai. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2790,
+     "name": "Maître-maçon Marblesten"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2790,
+     "name": "Maître-maçon Marblesten"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 31,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 2500,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "700": {
+   "id": 700,
+   "name": "Hommage royal",
+   "objectives": "Rendre compte au Roi Magni Bronzebeard.",
+   "description": "Ah, Lordaeron fournit une si belle pierre. Il est si dommage que cette terre connaisse une telle confusion.\n\nMais la construction du Mémorial s'est très bien déroulée ! Je pense que cette nouvelle ravira le Roi.\n\nÀ présent, si vous le voulez bien, veuillez informer Sa Majesté que le Mémorial est prêt, comme il l'a ordonné.",
+   "progress": null,
+   "completion": "Le granit ne semble être qu'un minuscule souvenir comparé à la grande vie d'un nain. Mais aucun nain ne restera sur cette planète pour l'éternité.\n\nEspérons simplement que le Mémorial constituera un rappel pour ceux qui parcourront la grande Azeroth de l'avenir, afin qu'ils n'oublient pas que c'est pour eux que de courageux guerriers tels que Sully Balloo ont si vaillamment donné leurs vies.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2790,
+     "name": "Maître-maçon Marblesten"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2784,
+     "name": "Roi Magni Bronzebeard"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 31,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 2500,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "707": {
+   "id": 707,
+   "name": "Ironband a besoin de vous !",
+   "objectives": "Parler au Prospecteur Ironband, sur le Site de fouilles de Loch Modan.",
+   "description": "<nom>. J'ai reçu une demande du Prospecteur Ironband : il a besoin de quelqu'un pour un travail sur un de nos sites.\n\nJe n'ai pas plus de détails, mais si vous allez voir Ironband, il vous en donnera.",
+   "progress": null,
+   "completion": "Vous venez de la part de Stormpike ? Bien.\n\nJ'ai une tâche importante pour vous. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1356,
+     "name": "Prospecteur Stormpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1344,
+     "name": "Prospecteur Ironband"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 37,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 710,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1019": {
+   "id": 1019,
+   "name": "La nouvelle frontière",
+   "objectives": "Parler à l’archidruide Fandral Staghelm, dans l'Enclave cénarienne, à Darnassus. Evoquer l’appel du Cercle cénarien concernant l’exploration des frontières de Kalimdor.",
+   "description": "Votre attention !\n\nLe Cercle cénarien cherche à recruter ceux qui se sentent capables pour une mission d'exploration sur les nouveaux territoires de Kalimdor ! Des terres désolées, interdites, regorgeant de dangers, se trouvent à l'ouest de Tanaris et de Gadgetzan, et le Cercle a besoin d'honorables représentants pour agir en son nom.\n\nTous ceux et celles qui seraient intéressés devraient solliciter une audience auprès du Cercle cénarien. Parlez avec l'archidruide, Fandral Staghelm, dans Darnassus, pour plus d'informations !",
+   "progress": null,
+   "completion": "Qu'est-ce qui vous fait penser que je veux être enquiquiné par des gens de votre acabit, <classe> ? Allons, j'arrête mes importantes activités quotidiennes pour vous aider à localiser un truc-machin quelque part. Bien entendu, le bien de Darnassus - non, de tout Teldrassil - passe après la récupération d'un nouveau bidule pour votre collection.\n\nCes idiots de Reflet-de-Lune me font déjà perdre mon temps avec leurs demandes d'aide, et maintenant, il faut que je supporte ça ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10877,
+     "name": "Messager Hammerfall"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3516,
+     "name": "Archidruide Fandral Staghelm"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 55,
+   "reqlevel": 54,
+   "side": "alliance",
+   "xp": 560,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1453": {
+   "id": 1453,
+   "name": "Les affaires de Récupérateurs SA en Désolace",
+   "objectives": "Parler à Kreldig Ungor en Désolace.",
+   "description": "Il y a beaucoup de travail à faire en Désolace, <nom>. C'est un endroit atroce, souillé par les centaures et autres monstruosités. Mais si vous voulez un bon petit travail honnête à la semaine, alors allez-y, parlez à Kreldig Ungor, et dites-lui que je vous envoie.\n\nVous le trouverez planqué à la Combe de Nijel, un petit camp plutôt douillet niché dans les montagnes dans la partie nord de Désolace. Allez simplement à l'est si vous venez des Serres-Rocheuses. C'est facile à rater, alors faites attention.",
+   "progress": null,
+   "completion": "C'est un plaisir de voir que Récupérateurs SA ne manque pas de travail, ou d'aventuriers voulant aider.\n\nJe me nomme Kreldig, <nom>. Vous avez fait le bon choix en donnant un coup de main à notre entreprise. Tout le monde a besoin d’aide ces jours-ci : untel a perdu un héritage familial, tel autre un objet magique ou un être cher. On ne peut jamais prédire. Mais avec la Récupérateurs SA, chacun devrait pouvoir retrouver ce qu'il a perdu. . . à condition d'y mettre le prix.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5637,
+     "name": "Roetten Stonehammer"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5638,
+     "name": "Kreldig Ungor"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 1300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2039": {
+   "id": 2039,
+   "name": "Trouvez Bingles",
+   "objectives": "Trouver Bingles Blastenheimer, au Loch Modan.",
+   "description": "Nous avons perdu contact avec Bingles ! On l'a envoyé en mission de reconnaissance sur Gnomeregan et ça fait une semaine qu'il n'a pas envoyé de rapport. Je sais juste qu'il est parti et s'est envolé.\n\nLa dernière fois qu'on a vu son gyrocoptère, c'était au-dessus du Loch. Peut-être que vous pourriez enquêter, <nom>.",
+   "progress": null,
+   "completion": "Ainsi Gnoarn n'a pas confiance dans mes capacités d'Eclaireur ? Je me demande pourquoi. . .\n\nMais aucune importance, j'ai besoin de votre aide ! Non ! Le Mouvement a besoin de votre aide !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6569,
+     "name": "Gnoarn"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6577,
+     "name": "Bingles Blastenheimer"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 15,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 270,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "Nous avons perdu contact avec Bingles ! On l'a envoyé en mission de reconnaissance sur Gnomeregan et ça fait une semaine qu'il n'a pas envoyé de rapport. Je sais juste qu'il est parti et s'est envolé.\n\nLa dernière fois qu'on a vu son gyrocoptère, c'était au-dessus du Loch. Peut-être que vous pourriez enquêter, <nom>.",
+      "objectives": "Trouver Bingles Blastenheimer, au Loch Modan.",
+      "name": "Trouvez Bingles"
+     },
+     "npc": 6569,
+     "npc_name": "Gnoarn",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Forgefer",
+     "map_id": 1455,
+     "client": "1.60.1.70888",
+     "first_seen": 1794406567,
+     "last_seen": 1794406567
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2041": {
+   "id": 2041,
+   "name": "Allez voir Shoni",
+   "objectives": "Aller voir Shoni la Silencieuse à Stormwind.",
+   "description": "Peut-être... Peut-être que vous pouvez nous aider dans la bataille de Gnomeregan.\n\nVous trouverez à Stormwind le commandant de notre équipe d'assaut souterraine, Shoni la Silencieuse. Shoni a besoin d'aide pour ses excavateurs gyrodrilmatiques.\n\nVous la trouverez probablement parmi les nains de Stormwind.\n\nBonne chance, <nom>.",
+   "progress": null,
+   "completion": "Apportez-vous un message du commandement central ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6569,
+     "name": "Gnoarn"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6579,
+     "name": "Shoni la Silencieuse"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 15,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": 270,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2439": {
+   "id": 2439,
+   "name": "Les Disques de platine",
+   "objectives": "Apporter le Bon de récompense à Dinita Stonemantle à la Chambre forte d'Ironforge.",
+   "description": "Cet objet est incroyable. Si ce qu'il dit est vrai, les anciens Titans, ou les Créateurs comme ces disques les nomment, sont le lien avec notre création enchantée ! Nous devons investir autant de temps que possible dans cette recherche.\n\nPour vous, héroïque <classe>, apportez ce bon à Dinita Stonemantle à la Banque. Il vous donnera une récompense à la hauteur de cette magnifique trouvaille !\n\nRevenez directement me voir quand vous serez <prêt/prête>, il y a encore beaucoup à faire pour la Ligue !",
+   "progress": "Bienvenue à la Chambre forte d'Ironforge, <nom>. Que puis-je faire pour vous ?",
+   "completion": "Ah oui ! Un bon de la Ligue des Explorateurs. . . et d’un joli montant, qui plus est.\n\nJ'ai l'autorisation de vous offrir une rémunération débitée sur les comptes de la Ligue. Vous devez recevoir ceci et vous pouvez choisir pour récompense soit 5 Potions de guérison supérieures soit 5 Potions de mana supérieures.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5387,
+     "name": "Grand Explorateur Magellas"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 7292,
+     "name": "Dinita Stonemantle"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 47,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "prêt/prête"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2946": {
+   "id": 2946,
+   "name": "Questions sans réponses",
+   "objectives": "Porter les Disques de platine miniatures aux Portes d'Uldum, à Tanaris et chercher les indices de la connexion qui existe entre eux.",
+   "description": "Nous voulons que vous portiez les disques que vous avez trouvés, aux portes scellées d'Uldum. Nous... ne sommes pas sûrs de ce qui va se passer quand vous ferez cela.\n\nCela pourrait être risqué, aussi bien que parfaitement inefficace. Vous devrez utiliser les disques, d'une manière ou d'une autre... Peut-être les portes s'ouvriront-elles toutes seules à l'approche des disques... allez savoir. Essayez ce qui vous semblera bon et attendez-vous à tout.\n\nRevenez ensuite à Ironforge. Du travail nous attend !",
+   "progress": "Le socle, d'apparence familière, se dresse sur le sable brûlant. Sa présence ici ne peut être fortuite. . .",
+   "completion": "Comme vous touchez le socle, les disques miniatures se mettent à bourdonner et à rougeoyer dans votre sac à dos. Un picotement que vous connaissez parcourt vos mains tandis que l'image d'un deuxième Gardien des pierres se matérialise devant les Portes d'Uldum.\n\n\"Salutations ! Je garde l'entrée, il manque aux disques que vous avez utilisés les Plaques d'Uldum. Veuillez incorporer ces plaques dans la structure des disques et répéter la séquence d'accès. Merci. \"",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2916,
+     "name": "Historien Karnik"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 142343,
+     "name": "Uldum Pedestal"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 50,
+   "reqlevel": 45,
+   "side": "alliance",
+   "xp": 4700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2948": {
+   "id": 2948,
+   "name": "Amélioration gnomique",
+   "objectives": "Apporter l’Anneau d'or brillant, une Barre d'argent, une Agate mousse et 30 pièces d’argent à Talvash del Kissel, à Ironforge.",
+   "description": "Écoutez, <nom>, cet anneau vous appartient mais je peux l'améliorer. Sa forme est très simple et j'ai beaucoup progressé depuis. Pour la modique somme de trente pièces d'argent, je lui donnerai de nouveaux atours... bon, un peu plus de trente pièces, car je suis un peu gêné financièrement, en ce moment.\n\nTous mes stocks de matériaux sont épuisés ; si vous m'apportez une barre d'argent et une agate mousse, je pourrai ajouter un treillis de perles et d'argent qui donnera à cet anneau un sacré coup de fouet !\n\nFaites-moi confiance !",
+   "progress": "Avez-vous les matériaux dont j'ai besoin ? Je ne vous les demanderais pas si je ne manquais pas si cruellement de ressources.",
+   "completion": "Ah, exactement ce dont j'avais besoin ! Un jour, quand je sortirai de cette injuste affliction, je fabriquerai pour vous, pour TOUT LE MONDE, les plus belles babioles d'Azeroth ! En tous cas, merci pour les ingrédients. Je demande normalement dix fois ce prix pour un anneau de cette qualité. . .\n\nD'ailleurs, à propos d'anneau, voici le vôtre !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6826,
+     "name": "Talvash del Kissel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 6826,
+     "name": "Talvash del Kissel"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 35,
+   "reqlevel": 28,
+   "side": "alliance",
+   "xp": 2750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2963": {
+   "id": 2963,
+   "name": "Prodiges d'Uldum",
+   "objectives": "Parler à l'Historien Karnik dans le Hall des explorateurs, à Ironforge.",
+   "description": "Ah, <nom> ! La nouvelle de votre découverte dans Uldaman a mis en joie la Ligue des explorateurs. La Ligue a beaucoup travaillé pour découvrir le secret des petits disques de platine que vous avez trouvés. Je puis vous dire que nous sommes au seuil de quelque chose d'important !\n\nL'Historien Karnik a quelques hypothèses très intéressantes sur l'origine de la vallée des Guetteurs dans le désert de Tanaris. Il voudrait vous parler dès que possible.",
+   "progress": null,
+   "completion": "Je suis content de voir que vous gardez du goût pour l'exploration, <nom> ! Vos talents peuvent nous servir à lever bien des mystères et des secrets !\n\nLes Disques de Norgannon étaient dépositaires d'importantes informations ; vous n'avez pu accéder qu'aux informations superficielles stockées là. Les Créateurs auraient laissé d'autres stocks d'informations partout dans Azeroth. Ce qui nous amène à Uldum. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5387,
+     "name": "Grand Explorateur Magellas"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2916,
+     "name": "Historien Karnik"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 50,
+   "reqlevel": 45,
+   "side": "alliance",
+   "xp": 470,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2964": {
+   "id": 2964,
+   "name": "Travail imminent",
+   "objectives": "Parler au Grand Explorateur Magellas, à Ironforge.",
+   "description": "Bien, <nom>... Il semblerait que nous soyons dans l'impasse. Nous avons besoin des Plaques d'Uldum, mais nous ne savons pas où elles se trouvent. Nous devons réfléchir avant d'avoir un plan pertinent. J'ai bien quelques petites idées et j'espère que nous vous enverrons bientôt pour les récupérer.\n\nLe Grand Explorateur doit être informé de tout cela, <nom> ; il est à parier qu'il veut aussi vous remercier pour l'aide que vous avez apportée à la Ligue.",
+   "progress": null,
+   "completion": "Nous sommes tous d'accord : la meilleure chose à faire pour l'instant est de ne rien faire, jusqu'à ce que l'on puisse circonscrire le champ de recherche des Plaques. J'espère que vous serez là le jour où il faudra partir les récupérer dans Uldum, <nom>.\n\nVoici, en attendant, ces honoraires pour couvrir les dépenses que vous avez faites en nous prêtant assistance, ainsi qu'un petit quelque chose en plus. Restez en contact avec nous. . . Uldum attend !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2916,
+     "name": "Historien Karnik"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 5387,
+     "name": "Grand Explorateur Magellas"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 50,
+   "reqlevel": 45,
+   "side": "alliance",
+   "xp": 4700,
+   "money": 22000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "2977": {
+   "id": 2977,
+   "name": "Retour à Ironforge",
+   "objectives": "Parler à l'Historien Karnik, à Ironforge.",
+   "description": "Comme vous accédez de nouveau au socle, les disques de platine apparaissent une fois de plus dans votre sac à dos.\n\nAvec ce que vous avez appris du Gardien des pierres et les disques de nouveau en votre possession, vous pouvez maintenant retourner à Ironforge et informer la Ligue des explorateurs de votre découverte.",
+   "progress": "Bienvenue, <nom>. Avez-vous su utiliser les disques ou revenez-vous bredouille ?",
+   "completion": "Il vous manque certains disques ? Les Disques de Norgannon ne seraient donc qu'une partie du jeu de disques, comme des clés sur un trousseau ?\n\nSi nous pouvions mettre la main sur les Plaques d'Uldum, nous pourrions accéder au complexe d'Uldum lui-même ! Imaginez, l'exploration de l'endroit où les Créateurs travaillèrent tout en finesse, sans pelles ni foreuses !\n\nN'allez pas croire que je n'aime pas les pelles. . . ou les foreuses. . .",
+   "starters": [
+    {
+     "type": "object",
+     "id": 142343,
+     "name": "Uldum Pedestal"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2916,
+     "name": "Historien Karnik"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 50,
+   "reqlevel": 45,
+   "side": "alliance",
+   "xp": 470,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3201": {
+   "id": 3201,
+   "name": "Enfin !",
+   "objectives": "Apporter le document de preuve à la Montagnarde Pebblebitty.",
+   "description": "Je n'arrive pas à croire que Pebblebitty ait pu douter de l'authenticité de la corne. Entre vous et moi, je pense qu'elle est seulement jalouse. Je sais qu'elle tenait vraiment à tuer elle-même cette bête, à cause de \"l'incident\" et tout.\n\nDonc vous avez besoin d'un document comme preuve ? Après la contribution que vous venez de faire au musée, ce ne sera pas un problème.\n\n<Le conservateur en chef Thorius commence à remplir un grand document>\n\nEt voilà ! Vous pouvez présenter ceci à Pebblebitty.",
+   "progress": "Je n'y crois pas.",
+   "completion": "Je ne vois pas comment quelqu'un d'aussi faible a pu surmonter Margol, mais ce qui est dit est dit. Voici la clef.\n\nS'il vous arrive malheur là-bas, vous serez le seul à blâmer.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8256,
+     "name": "Conservateur en chef Thorius"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3836,
+     "name": "Montagnarde Pebblebitty"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 48,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 4400,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3371": {
+   "id": 3371,
+   "name": "La justice des nains",
+   "objectives": "Retourner à la Gorge des Vents brûlants et trouver l'Equipe d'archéologues de Dorius.",
+   "description": "Il y a, à présent, un creux vide de sens, là où se trouvait autrefois mon coeur, <nom>. Je ne me remettrai pas de la perte de Dorius. Je dois faire en sorte que sa dernière volonté soit accomplie. Justice doit être rendue contre ceux qui ont commis ce meurtre de sang-froid.\n\nRetournez à la Gorge des Vents brûlants et respectez sa dernière volonté : libérez ses hommes.",
+   "progress": null,
+   "completion": "Oubliez-moi, aidez les autres.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8256,
+     "name": "Conservateur en chef Thorius"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8417,
+     "name": "Archéologue mourant"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 55,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 5650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3448": {
+   "id": 3448,
+   "name": "La transmission du fardeau",
+   "objectives": "Parler au mage Tymor à Ironforge.",
+   "description": "On m'a récemment donné la responsabilité d'étudier Azshara, un endroit autrefois magnifique que les elfes considéraient comme leur demeure. C'était à l'époque où ils pratiquaient la magie. Cet endroit est à présent plus dangereux que beau, mais cela ne nous empêche pas de retourner chaque pierre qui s'y trouve pour découvrir des réponses sur notre passé.\n\nUn de mes compagnons du nom de Tymor m'a proposé son aide pour étudier ce lieu, car il s'intéresse particulièrement à de tels sujets.\n\nIl possède une petite demeure en ville, à droite du Hall des mystères.",
+   "progress": null,
+   "completion": "Ah, ainsi c'est Karnik qui vous envoie. Je m'attendais à entendre parler de lui sous peu. J'ai découvert de telles merveilles sur Azshara. Je sais que la durée de vie des elfes de la nuit est considérable, mais tout un chacun oublie parfois les événements les plus. . . malheureux de sa vie. Ceci n'est pas un reproche, remarquez, juste une simple observation.\n\nIl y a longtemps de cela, existaient des cités créées par les elfes, emplies de connaissance sur la magie et d'autres arts oubliés. Alors que j'étudiais de telles choses, j'ai commencé mon enquête. Et ce que j'ai découvert est sensationnel.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2916,
+     "name": "Historien Karnik"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8507,
+     "name": "Tymor"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "alliance",
+   "xp": 510,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3449": {
+   "id": 3449,
+   "name": "Les runes des arcanes",
+   "objectives": "À l'aide de la Trousse de dessin, effectuer des reproductions de la Rune de Beth'Amara, de la Rune de Jin'yael, de la Rune de Markri, de la Rune de Sael'hai, puis se diriger vers la petite île près de la Péninsule méridionale d'Azshara et signaler au Pilote Xiggs Fuselighter de venir les prendre.",
+   "description": "Certains elfes vénéraient autrefois la magie tout autant qu'Elune. Des mages, parmi les plus puissants, conçurent des runes et des tablettes citant les règles des arcanes et des aperçus de leurs découvertes. Ils les laissèrent dans des lieux publics pour que chacun puisse les méditer.\n\nJ'aimerais beaucoup obtenir des reproductions de ces runes des ruines d'Eldarath. J'ai ici pour vous une trousse qui vous permettra d'effectuer ces reproductions, mais il vous appartiendra de trouver ces runes. Faites attention quand même, la Ligue des Explorateurs n'est pas la seule à s'intéresser à Eldarath.",
+   "progress": "Bien bien bien, je suis heureux de voir que vous êtes parvenu jusque-là, <nom>. Avez-vous les reproductions pour Tymor ?\n\nBien que cet endroit soit dangereux, il n'y a pas vraiment eu d'action le long de la côte. C'est peut-être à cause des nagas qui nagent sous l'eau, mais ce n'est pas vraiment mon problème de toute façon. Je patrouille dans les airs.",
+   "completion": "Un plaisir de vous voir sain et sauf, <nom>. J'espère que les choses n'ont pas été trop compliquées pour vous.\n\nJe vais les apporter tout de suite à Tymor. Ça lui fera grand plaisir d'en prendre connaissance.\n\nAllez-y, jetez le lance-fusée, ne vous gênez pas. . . Vous n'en aurez probablement plus l'utilité à présent, et j'en ai déjà un nouveau.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8507,
+     "name": "Tymor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8392,
+     "name": "Pilote Xiggs Fuselighter"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "alliance",
+   "xp": 2550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3450": {
+   "id": 3450,
+   "name": "Une collecte facile",
+   "objectives": "Parler à Xiggs Fuselighter à Ironforge.",
+   "description": "Je veux que les reproductions soient apportées à ma tour, mais il n'est pas nécessaire que vous fassiez tout le chemin jusque là-bas. Je vais simplement les faire transporter par les airs depuis Azshara.\n\nXiggs Fuselighter me doit un service ou deux et je serai bientôt dans le coin. On l'a embauché pour surveiller la côte. Allez lui parler avant de partir. Il pourra vous donner un lance-fusée pour que vous puissiez lui envoyer un signal. Lorsque vous serez en possession des reproductions, dirigez-vous vers l'endroit qu'il vous indiquera et donnez-les lui pour qu'il puisse les emmener en toute sécurité jusqu'à ma tour. Il devrait être au hangar du Quartier militaire.",
+   "progress": null,
+   "completion": "Que puis-je faire pour vous, <nom> ? Je suis plutôt occupé en ce moment. Je prépare mon appareil pour un long voyage. Je passais juste pour voir les conducteurs de chars, j'ai besoin de quelques crinières de Wendigos pour embellir mon cockpit et ils en ont toujours en trop d'ordinaire.\n\nJe peux vous accorder une minute si vous faites vite. . . l'un des gars vient de décoller pour le Dépôt de Steelgrill pour voir s'il n'y a pas de crinières en trop que je pourrais prendre.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8507,
+     "name": "Tymor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8517,
+     "name": "Xiggs Fuselighter"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "alliance",
+   "xp": 510,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3451": {
+   "id": 3451,
+   "name": "Signal de la récupération",
+   "objectives": "Parler à Xiggs Fuselighter à Ironforge et en obtenir un Lance-fusée standard.",
+   "description": "Ah, ainsi Tymor vous envoie, hein ? Oui, je lui dois un service ou deux. Qu'est-ce que c'est ? Eh bien, quel diable est-ce là... Oui, je peux lui donner un coup de main avec ça. Vous aurez besoin d'un lance-fusée et d'un lieu de rendez-vous… c'est simple.\n\nNous avons construit un site d'atterrissage sur une petite île au large de la péninsule au sud d'Azshara. Prenez ce lance-fusée, et utilisez-le là-bas. Je verrai votre signal et viendrai récupérer la marchandise... quoi que ce soit.",
+   "progress": null,
+   "completion": "Voici mon lance-fusée standard, et soyez patient après avoir tiré. Ceux-là ne contiennent qu'une paire de charges, et il me faudra une minute ou deux pour vous atteindre, selon que je serai loin en mer ou pas. Surveillez simplement la mer une fois que vous aurez tiré la fusée.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8517,
+     "name": "Xiggs Fuselighter"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8517,
+     "name": "Xiggs Fuselighter"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "alliance",
+   "xp": 510,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3461": {
+   "id": 3461,
+   "name": "Le retour vers Tymor",
+   "objectives": "Rapporter la Trousse de dessin du mage Tymor au mage Tymor, à Ironforge.",
+   "description": "Tymor ne m'a rien donné avec lequel je puisse vous payer, aussi je suggère que vous abordiez le sujet directement avec lui lorsque vous retournerez à Ironforge. Il est certain qu'il occupe toujours la même place dans la Garde mystique. Frappez simplement à sa porte et assurez-vous qu'il vous rétribue correctement. Cela n'aura rien d'un pique-nique... c'est sûr...\n\nMerci encore pour l'aide que vous lui avez apportée cependant, et bonne chance.\n\nÀ propos, je n'ai plus besoin de la trousse de dessin. Pourquoi ne la rapporteriez-vous pas à Tymor lorsque vous irez le voir ?",
+   "progress": "Vous êtes de retour ! Merveilleux. Avez-vous également apporté ma Trousse de dessin ?",
+   "completion": "Fantastique ! Cela m'enchante de l'apprendre.\n\nJe suis si enthousiaste à l'idée de me rendre à ma tour et d'examiner ces reproductions. Je vous envie tellement… aller à un endroit tel qu'Azshara. C'est le rêve de tout étudiant des arcanes, je suppose.\n\nMais passons. Nous n'avons jamais parlé d'une récompense quelconque dans la mesure où vous travailliez pour la Ligue des Explorateurs. Mais vous méritez quelque chose.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8392,
+     "name": "Pilote Xiggs Fuselighter"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8507,
+     "name": "Tymor"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "alliance",
+   "xp": 7600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3483": {
+   "id": 3483,
+   "name": "Signal de la récupération",
+   "objectives": null,
+   "description": "Oh, un autre lance-fusées, hein ? Je peux le faire.\n\nN'oubliez pas, la pointe sud d'Azshara. C'est une toute petite île transformée en piste d'atterrissage. Vous ne pouvez pas la manquer si vous êtes au bon endroit.",
+   "progress": null,
+   "completion": "Oh, un autre lance-fusées, hein ? Je peux le faire.\n\nN'oubliez pas, la pointe sud d'Azshara. C'est une toute petite île transformée en piste d'atterrissage. Vous ne pouvez pas la manquer si vous êtes au bon endroit.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8517,
+     "name": "Xiggs Fuselighter"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8517,
+     "name": "Xiggs Fuselighter"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 52,
+   "reqlevel": 45,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "3701": {
+   "id": 3701,
+   "name": "Les ruines fumantes de Thaurissan",
+   "objectives": "Aller dans les ruines de Thaurissan, dans les Steppes ardentes. Récupérer des informations sur les Reliques de Thaurissan, puis retourner auprès de l’Historienne royale Archesonus.",
+   "description": "Rendez-vous dans les ruines fumantes de Thaurissan, dans les Steppes ardentes, et réunissez autant de renseignements que possible.\n\nOn raconte que de mystérieuses reliques jonchent les ruines. Peut-être devriez-vous commencer vos recherches par elles, <nom>. Attention aux gardiens de Thaurissan. Ces assassins veillent à ce que les secrets qui y sont enfouis ne s'échappent pas.",
+   "progress": "Apportez-vous de nouvelles informations ?",
+   "completion": "Oh ! Ces renseignements expliquent beaucoup de choses à propos de Thaurissan.\n\nIl y a beaucoup plus à apprendre !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8879,
+     "name": "Historienne royale Archesonus"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8879,
+     "name": "Historienne royale Archesonus"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 54,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 5450,
+   "money": 16500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3702": {
+   "id": 3702,
+   "name": "Les ruines fumantes de Thaurissan",
+   "objectives": "Écouter l'historienne royale Archesonus raconter l'histoire de Thaurissan.",
+   "description": "Est-ce que vous aimeriez entendre une petite histoire sur les nains Sombrefer ?",
+   "progress": "Permettez-moi de finir l'histoire de Thaurissan.",
+   "completion": "Commençons-nous ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 8879,
+     "name": "Historienne royale Archesonus"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 8879,
+     "name": "Historienne royale Archesonus"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 54,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 540,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "3790": {
+   "id": 3790,
+   "name": "Assister l'archidruide Staghelm",
+   "objectives": "Parler à l'archidruide Fandral Staghelm à Darnassus.",
+   "description": "Pardonnez-moi, <classe>, mais j'aimerais prendre quelques instants de votre temps si la chose est possible.\n\nLe Cercle cénarien à Darnassus recherche des <aventuriers aguerris tels/aventurières aguerries telles> que vous pour lui prêter main-forte dans des recherches capitales. Bien que je ne connaisse pas les détails, je peux vous dire que l'archidruide Fandral Staghelm en personne mène ces recherches.\n\nSi cela vous intéresse, allez directement lui parler à l'enclave cénarienne à Darnassus.",
+   "progress": null,
+   "completion": "Bien, <classe>... Puisque vous avez été informé que je dirigeais en personne ces recherches, vous êtes évidemment venu aussi vite que possible.\n\nMaintenant que vous êtes là, écoutez attentivement. J'ai horreur de me répéter.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5111,
+     "name": "Firebrew l'aubergiste"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3516,
+     "name": "Archidruide Fandral Staghelm"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 50,
+   "reqlevel": 47,
+   "side": "alliance",
+   "xp": 470,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4512": {
+   "id": 4512,
+   "name": "Un grand périple pour une petite gelée",
+   "objectives": "Apporter 6 Pots de Limons maudits remplis et 6 Pots de Limons corrompus remplis à Laris Geardawdle, à Ironforge.",
+   "description": "J’ai beaucoup étudié les limons. Cela peut sembler bizarre, mais ils sont partout !\n\nJ’ai aidé une femme, à Menethil, à retrouver son sac, qui avait été dévoré par des limons. J’ai vu des membres de la Société royale des apothicaires d’Undercity qui en collectaient des échantillons, et je veux savoir pourquoi ! D’où est-ce que cela vient ?\n\nIl paraît qu’il y en a plus encore à Gangrebois. J’ai justement besoin de ces échantillons pour pouvoir continuer mes recherches. Je vais vous donner des pots que vous utiliserez pour collecter des échantillons sur les créatures mortes.",
+   "progress": "Certaines des expériences que j'ai menées sont fascinantes. Avec un peu plus de temps, je comprendrais la nature de ces créatures et quelle est leur influence sur le développement de la vie sur Azeroth. . . S'il y a un rapport quelconque.\n\nUne de mes théories, peu appréciée, implique que les Gelées et les Limons soient liés à la création de ce monde. . . Un peu comme s'ils étaient secrétés par lui.\n\nMais je ne pourrais le confirmer ou l'infirmer qu'en étudiant d'autres échantillons.",
+   "completion": "Des résultats impressionnants, <nom> ! Vous vous êtes suffisamment approché pour récupérer un échantillon de ces choses corrompues sans y laisser des plumes ! Merci. Oh, ces échantillons conviendront parfaitement. Je suis impatient de commencer les tests dessus.\n\nSi j'ai raison, je pourrais bien être l'un des plus grands scientifiques de la Ligue des explorateurs !\n\nCela prouvera aux nains que ce n'était pas une erreur de nous accueillir dans Ironforge après les incidents de Gnomeregan.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9616,
+     "name": "Laris Geardawdle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9616,
+     "name": "Laris Geardawdle"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 52,
+   "reqlevel": 48,
+   "side": "alliance",
+   "xp": 6350,
+   "money": 7500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "4513": {
+   "id": 4513,
+   "name": "Un grand périple pour une petite Gelée",
+   "objectives": "Apporter 10 Pots remplis d'échantillon pur à Laris Geardawdle, à Ironforge.\n\nSi vous éprouvez des difficultés à les trouver, allez voir Laris pour obtenir plus d’indices.",
+   "description": "Je vais avoir besoin de plus d’échantillons, <nom>. Mais ces échantillons doivent être purs. Je sais, je sais, \"Qu’est-ce que ça veut dire ‘purs’, Laris ?\". Je sais que ceux-ci sont corrompus... comme à Gangrebois. C’est ce qui rend ma réalisation tellement importante. Les Limons semblent s’adapter... se fondre dans l’endroit où ils vivent. J’ai besoin d’échantillons qui n’aient pas été souillés. Mais où ? Où ?\n\nBah ! <nom>, prenez ces pots, juste au cas où vous en trouveriez.",
+   "progress": "Tant de choses à prendre en compte. Mais qu'est-ce que ça signifie ? Et comment cela affecte-t-il la vie des peuples d'Azeroth ?",
+   "completion": "Vous en avez trouvé ? <nom>, vous êtes un véritable don des dieux. Je ne pourrai jamais vous remercier suffisamment pour votre dévouement.\n\nS'il vous plaît, acceptez ceci pour vous remercier. Du travail m'attend, mais si vous revenez plus tard j'aurai sûrement besoin de vos services à nouveau.\n\nMerci. Merci beaucoup.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 9616,
+     "name": "Laris Geardawdle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 9616,
+     "name": "Laris Geardawdle"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 54,
+   "reqlevel": 48,
+   "side": "alliance",
+   "xp": 6800,
+   "money": 4000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "5090": {
+   "id": 5090,
+   "name": "Un appel aux armes : les Maleterres",
+   "objectives": "Trouver le commandant Ashlam Valorfist. Son camp de base est le Camp du Noroît, au nord des montagnes d'Alterac.",
+   "description": "Oyez ! Oyez ! Héros, écoutez bien ce message !\n\nLe royaume de Stormwind appelle à prendre les armes ! Tous les individus en état de se battre sont sommés de prendre les armes contre les armées du Fléau dans les terres du nord des Royaumes de l'est ! La menace viendrait des ruines des Maleterres !\n\nHéros du royaume, allez trouver le commandant Ashlam Valorfist qui s'est établi au Camp du Noroît, au nord des Montagnes d'Alterac !",
+   "progress": null,
+   "completion": "Bienvenue dans les Maleterres, héros. C'est l'une des frontières les plus dangereuses d'Azeroth, particulièrement avec la menace rampante du Fléau, au nord et nord-est. Quel bonheur de voir que l'appel du devoir et le service du bien ne sont pas tombés dans les oreilles d'un sourd en ce qui vous concerne !\n\nSi vous voulez mettre la main à la pâte, alors il y a aux confins des Maleterres de quoi faire pour de nombreux héros volontaires et capables.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 10877,
+     "name": "Messager Hammerfall"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 10838,
+     "name": "Commandant Ashlam Valorfist"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 50,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 470,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6721": {
+   "id": 6721,
+   "name": "La voie du chasseur",
+   "objectives": "Parler à Dazalar, à Dolanaar.",
+   "description": "Salut, jeune adepte de la chasse. Vous me semblez assez habile pour apprivoiser une bête et en faire votre compagnon.\n\nVous devez aller voir Dazalar, à Dolanaar. Il vous mettra sur la voie, et vous montrera comment avoir votre propre familier.",
+   "progress": null,
+   "completion": "Oui, il est temps, <classe>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5116,
+     "name": "Olmin Burningbeard"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3601,
+     "name": "Dazalar"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 85,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "7342": {
+   "id": 7342,
+   "name": "Les flèches, c'est pour les mauviettes",
+   "objectives": null,
+   "description": "Vous y croyez, vous ? Les gars qui ont fait le dernier chargement de munitions de Kharanos ont cochonné le boulot ! Tout ce que nous avons comme munitions, ce sont ces saletés de flèches bonnes à rien ! Qu’est-ce que je suis censé faire avec 500 000 flèches à pointes de thorium, vous pouvez me le dire ?\n\nJe vais vous dire. Si vous pouvez m’amener des obus en thorium, je vous file ces flèches à pointe de thorium, et tout de suite ! Entendu ?",
+   "progress": "Vous y croyez, vous ? Les gars qui ont fait le dernier chargement de munitions de Kharanos ont cochonné le boulot ! Tout ce que nous avons comme munitions, ce sont ces saletés de flèches bonnes à rien ! Qu’est-ce que je suis censé faire avec 500 000 flèches à pointes de thorium, vous pouvez me le dire ?\n\nJe vais vous dire. Si vous pouvez m’amener des obus en thorium, je vous file ces flèches à pointe de thorium, et tout de suite ! Entendu ?",
+   "completion": "Marché conclu, et cochon qui s’en dédit ! Les flèches sont à vous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14183,
+     "name": "Artilleur Sheldonore"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14183,
+     "name": "Artilleur Sheldonore"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 52,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7802": {
+   "id": 7802,
+   "name": "Un don de laine",
+   "objectives": null,
+   "description": "Nous acceptons les dons de laine. En fait, un don de soixante morceaux de laine vous vaudrait la reconnaissance de tout Ironforge pour votre générosité. Nos réserves en sont au point où il nous manque seulement ces soixante morceaux de laine, le reste nous sera fourni par d’autres.\n\nSi vous avez soixante morceaux de laine et que vous êtes prêt à les donner, je peux les prendre dès maintenant.",
+   "progress": "Nous acceptons actuellement les dons de tissus de laine. Un don de soixante pièces d'étoffe de laine vous vaudra la reconnaissance totale d'Ironforge pour vos actions généreuses. Nos stocks de laine sont tels que nous n'aurons besoin que de soixante pièces de votre part au total ; nous devrions être en mesure d'en acquérir suffisamment auprès d'autres personnes dans le royaume pour soutenir notre campagne.\n\nSi vous avez les soixante pièces de laine sur vous et que vous êtes prêt à en faire don, je peux vous les prendre dès maintenant.",
+   "completion": "Merveilleux ! Nous vous remercions pour votre généreux don, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14723,
+     "name": "Mistina Steelshield"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14723,
+     "name": "Mistina Steelshield"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7803": {
+   "id": 7803,
+   "name": "Un don de soie",
+   "objectives": null,
+   "description": "Nos réserves de soie sont très basses – comme celles de toutes nos étoffes, en fait. Heureusement, vous n’êtes pas le seul à nous en fournir. En mettant bout à bout toutes les contributions, nous devrions atteindre nos objectifs, à condition que vous nous remettiez soixante morceaux de soie.\n\nJe dois ajouter qu’un don de cette ampleur augmenterait certainement votre statut dans notre communauté ! Si vous avez soixante morceaux de soie et si vous êtes prêt à les donner, je peux les prendre immédiatement.",
+   "progress": "Comme pour la plupart des autres tissus, nos stocks de soie sont au plus bas. Nos stocks sont tels que nous n'aurions besoin que de soixante pièces de soie de votre part au total ; nous devrions pouvoir atteindre notre objectif avec le soutien d'autres personnes.\n\nUn don bienveillant comme celui de la soie, si je puis me permettre, augmenterait certainement votre position dans la communauté locale ! Si vous avez les soixante pièces de soie sur vous et que vous êtes prêts à en faire don, je peux vous les prendre dès maintenant.",
+   "completion": "Merveilleux ! Nous vous remercions pour votre généreux don, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14723,
+     "name": "Mistina Steelshield"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14723,
+     "name": "Mistina Steelshield"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 26,
+   "side": "alliance",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7804": {
+   "id": 7804,
+   "name": "Un don de tisse-mage",
+   "objectives": null,
+   "description": "Nous arrivons à court de tisse-mage, et votre aide serait la bienvenue pour reconstituer nos réserves ! En comptant sur toute la communauté pour le reste, il vous suffirait de donner 60 morceaux de tisse-mage pour que nos objectifs soient atteints. Bien sûr, je vous promets qu’une telle générosité ne passerait pas inaperçue à Ironforge !\n\nSi vous avez les soixante morceaux de tisse-mage sur vous, et si vous êtes prêt à les donner, je suis en mesure de les récupérer dès maintenant.",
+   "progress": "Les stocks de mageweave s'épuisent et nous avons besoin de votre aide pour les reconstituer ! En comptant sur l'ensemble de la communauté, il nous suffirait d'un don de 60 pièces de tissu de mageweave de votre part pour nous permettre d'atteindre notre objectif. Une telle générosité ne passerait pas inaperçue à Ironforge, je vous l'assure !\n\nSi vous avez les 60 pièces de mageweave sur vous et que vous êtes prêts à nous les donner, je peux vous les prendre dès maintenant.",
+   "completion": "Merveilleux ! Nous vous remercions pour votre généreux don, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14723,
+     "name": "Mistina Steelshield"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14723,
+     "name": "Mistina Steelshield"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7805": {
+   "id": 7805,
+   "name": "Un don d'étoffe runique",
+   "objectives": null,
+   "description": "<nom>, vous avez déjà beaucoup contribué à notre recherche d’étoffe. Nous travaillons d’arrache-pied à reconstituer nos réserves, cependant nous manquons encore cruellement d'un type de tissu : l'étoffe runique. Nous en avons désespérément besoin. Pourriez-vous nous aider, comme vous nous avez aidés dans le passé ?\n\nSi vous acceptez, apportez-moi toute l'étoffe runique dont vous pouvez vous séparer. Nous accepterons un don initial de soixante unités, et ensuite, nous aviserons.",
+   "progress": "<nom>, vous avez énormément contribué à notre collecte de chiffons.Alors que nous travaillons d'arrache-pied pour reconstituer nos réserves, une forme de chiffon reste extrêmement basse: l'étoffe de run. Nous en avons absolument besoin, et nous espérons que vous pourrez nous aider comme vous l'avez fait par le passé!\n\nIsi vous le souhaitez, apportez-moi le chiffon de rechange que vous pouvez encore épargner.Nous accepterons initialement un seul don de soixante, puis nous partirons de là.",
+   "completion": "Fantastique – je vous assure que tout ce tissu sera bientôt utilisé. Merci encore pour votre aide ! Sans vous, nous n’y serions sûrement pas arrivés.\n\nComme vous avez déjà contribué, je traiterai en priorité tous les dons d'étoffe runique que vous pourriez faire à l’avenir. N’hésitez pas à revenir me voir, et je veillerai personnellement à ce que vos bonnes actions soient reconnues !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14723,
+     "name": "Mistina Steelshield"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14723,
+     "name": "Mistina Steelshield"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7806": {
+   "id": 7806,
+   "name": "Encore de l'étoffe runique",
+   "objectives": null,
+   "description": "Je vous salue une nouvelle fois, <nom> ! Nous avons sans cesse besoin d'étoffe runique, et si vous voulez vous séparer de quelques morceaux supplémentaires, nous en aurons l’usage. Si vous nous donnez 20 nouvelles étoffes runiques, je veillerai à ce que vos efforts en faveur d’Ironforge soient reconnus à leur juste valeur.\n\nLorsque vous serez prêt à me les remettre, je les accepterai volontiers.",
+   "progress": "Je vous salue une nouvelle fois, <nom> ! Nous avons sans cesse besoin d'étoffe runique, et si vous voulez vous séparer de quelques morceaux supplémentaires, nous en aurons l’usage. Si vous nous donnez 20 nouvelles étoffes runiques, je veillerai à ce que vos efforts en faveur d’Ironforge soient reconnus à leur juste valeur.\n\nLorsque vous serez prêt à me les remettre, je les accepterai volontiers.",
+   "completion": "<nom>, l’avenir serait compromis sans des héros comme vous qui œuvrent pour Ironforge. Merci de tous vos efforts !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14723,
+     "name": "Mistina Steelshield"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14723,
+     "name": "Mistina Steelshield"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7807": {
+   "id": 7807,
+   "name": "Un don de laine",
+   "objectives": null,
+   "description": "Nous acceptons les dons de laine. En fait, un don de soixante morceaux de laine vous vaudrait la reconnaissance de tous les exilés de Gnomeregan pour votre générosité. Nos réserves en sont au point où il nous manque seulement ces soixante morceaux de laine, le reste nous sera fourni par d’autres.\n\nSi vous avez soixante morceaux de laine et que vous êtes prêt à les donner, je peux les prendre dès maintenant.",
+   "progress": "Nous acceptons actuellement les dons d'étoffes de laine. Un don de soixante pièces de laine vous vaudra une reconnaissance totale de la part des Gnomes de Gnomeregan pour vos actions généreuses. Nos réserves de laine sont telles que nous n'aurons besoin que de soixante pièces de votre part au total ; nous devrions être en mesure d'en acquérir suffisamment auprès d'autres personnes du royaume pour soutenir notre campagne.\n\nSi vous avez les soixante pièces de laine sur vous et que vous êtes prêts à en faire don, je peux vous les prendre dès maintenant.",
+   "completion": "Merveilleux ! Nous vous remercions pour votre généreux don, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14724,
+     "name": "Bubulo Acerbus"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14724,
+     "name": "Bubulo Acerbus"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7808": {
+   "id": 7808,
+   "name": "Un don de soie",
+   "objectives": null,
+   "description": "Nos réserves de soie sont très basses – comme celles de toutes nos étoffes, en fait. Heureusement, vous n’êtes pas le seul à nous en fournir. En mettant bout à bout toutes les contributions, nous devrions atteindre nos objectifs, à condition que vous nous remettiez soixante morceaux de soie.\n\nJe dois ajouter qu’un don de cette ampleur augmenterait certainement votre statut dans notre communauté ! Si vous avez soixante morceaux de soie et si vous êtes prêt à les donner, je peux les prendre immédiatement.",
+   "progress": "Comme pour la plupart des autres tissus, nos stocks de soie sont au plus bas. Nos stocks sont tels que nous n'aurions besoin que de soixante pièces de soie de votre part au total ; nous devrions pouvoir atteindre notre objectif avec le soutien d'autres personnes.\n\nUn don bienveillant comme celui de la soie, si je puis me permettre, augmenterait certainement votre position dans la communauté locale ! Si vous avez les soixante pièces de soie sur vous et que vous êtes prêts à en faire don, je peux vous les prendre dès maintenant.",
+   "completion": "Merveilleux ! Nous vous remercions pour votre généreux don, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14724,
+     "name": "Bubulo Acerbus"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14724,
+     "name": "Bubulo Acerbus"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 26,
+   "side": "alliance",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7809": {
+   "id": 7809,
+   "name": "Un don de tisse-mage",
+   "objectives": null,
+   "description": "Nous arrivons à court de tisse-mage, et votre aide serait la bienvenue pour reconstituer nos réserves ! En comptant sur toute la communauté pour le reste, il vous suffirait de donner 60 morceaux de tisse-mage pour que nos objectifs soient atteints. Bien sûr, je vous promets qu’une telle générosité ne passerait pas inaperçue parmi les exilés de Gnomeregan !\n\nSi vous avez les soixante morceaux de tisse-mage sur vous, et si vous êtes prêt à les donner, je suis en mesure de les récupérer dès maintenant.",
+   "progress": "Les stocks de mageweave s'épuisent et nous avons besoin de votre aide pour les reconstituer ! En comptant sur l'ensemble de la communauté, il nous suffirait d'un don de 60 pièces de tissu de mageweave de votre part pour nous permettre d'atteindre notre objectif. Une telle générosité ne passerait pas inaperçue aux yeux des Gnomes de Gnomeregan, je vous l'assure !\n\nSi vous avez sur vous les soixante pièces de mageweave et que vous êtes prêts à en faire don, je peux vous les prendre dès maintenant.",
+   "completion": "Merveilleux ! Nous vous remercions pour votre généreux don, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14724,
+     "name": "Bubulo Acerbus"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14724,
+     "name": "Bubulo Acerbus"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7811": {
+   "id": 7811,
+   "name": "Un don d'étoffe runique",
+   "objectives": null,
+   "description": "<nom>, vous avez déjà beaucoup contribué à notre recherche d’étoffe. Nous travaillons d’arrache-pied à reconstituer nos réserves, cependant nous manquons encore cruellement d'un type de tissu : l'étoffe runique. Nous en avons désespérément besoin. Pourriez-vous nous aider, comme vous nous avez aidés dans le passé ?\n\nSi vous acceptez, apportez-moi toute l'étoffe runique dont vous pouvez vous séparer. Nous accepterons un don initial de soixante unités, et ensuite, nous aviserons.",
+   "progress": "<nom>, vous avez énormément contribué à notre collecte de chiffons.Alors que nous travaillons d'arrache-pied pour reconstituer nos réserves, une forme de chiffon reste extrêmement basse: l'étoffe de run. Nous en avons absolument besoin, et nous espérons que vous pourrez nous aider comme vous l'avez fait par le passé!\n\nIsi vous le souhaitez, apportez-moi le chiffon de rechange que vous pouvez encore épargner.Nous accepterons initialement un seul don de soixante, puis nous partirons de là.",
+   "completion": "Fantastique – je vous assure que tout ce tissu sera bientôt utilisé. Merci encore pour votre aide ! Sans vous, nous n’y serions sûrement pas arrivés.\n\nComme vous avez déjà contribué, je traiterai en priorité tous les dons d'étoffe runique que vous pourriez faire à l’avenir. N’hésitez pas à revenir me voir, et je veillerai personnellement à ce que vos bonnes actions soient reconnues !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14724,
+     "name": "Bubulo Acerbus"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14724,
+     "name": "Bubulo Acerbus"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7812": {
+   "id": 7812,
+   "name": "Encore de l'étoffe runique",
+   "objectives": null,
+   "description": "Je vous salue une nouvelle fois, <nom> ! Nous avons sans cesse besoin d'étoffe runique, et si vous voulez vous séparer de quelques morceaux supplémentaires, nous en aurons l’usage. Si vous nous donnez 20 nouvelles étoffes runiques, je veillerai à ce que vos efforts en faveur des exilés de Gnomeregan soient reconnus à leur juste valeur.\n\nLorsque vous serez prêt à me les remettre, je les accepterai volontiers.",
+   "progress": "Je vous salue une nouvelle fois, <nom> ! Nous avons sans cesse besoin d'étoffe runique, et si vous voulez vous séparer de quelques morceaux supplémentaires, nous en aurons l’usage. Si vous nous donnez 20 nouvelles étoffes runiques, je veillerai à ce que vos efforts en faveur des exilés de Gnomeregan soient reconnus à leur juste valeur.\n\nLorsque vous serez prêt à me les remettre, je les accepterai volontiers.",
+   "completion": "<nom>, l’avenir serait compromis sans des héros comme vous qui œuvrent pour nous les gnomes. Merci de tous vos efforts !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14724,
+     "name": "Bubulo Acerbus"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14724,
+     "name": "Bubulo Acerbus"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 50,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb",
+     "description": "wowdata"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos",
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "7905": {
+   "id": 7905,
+   "name": "La foire de Sombrelune",
+   "objectives": "Donnez le Coupon pour des bons gratuits à Gelvas Grimgate, qui se trouve dans la foire de Sombrelune.",
+   "description": "La foire de Sombrelune arrive ! Ne manquez pas d’admirer ses merveilles lorsqu’elle sera en ville !\n\nMieux, si vous le prenez maintenant, vous pourrez échanger ce coupon contre des bons gratuits ! Il vous suffira de le donner à Gelvas Grimgate, à l’intérieur de la foire !\n\nLa foire est juste à côté de Goldshire, c’est une occasion exceptionnelle, à saisir dès aujourd’hui !",
+   "progress": "Oui messire, puis-je vous aider ? Auriez-vous un coupon à échanger ?",
+   "completion": "Bienvenue à la foire de Sombrelune ! Ce coupon vous donne droit à CINQ, oui, CINQ bons gratuits !\n\nAccumulez des bons gratuits puis revenez me voir, je les échangerai contre des lots de valeur. Plus vous aurez de bons, plus vous pourrez récuperer de lots. Hourra !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 14842,
+     "name": "Melnan Darkstone"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 14828,
+     "name": "Gelvas Grimegate"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 6,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8275": {
+   "id": 8275,
+   "name": "La reconquête de Silithus",
+   "objectives": "Parler à l'imploratrice céleste Proudhorn au Fort cénarien, en Silithus.",
+   "description": "Votre attention, héros de l'Alliance ! La menace représentée par les silithides a été ignorée pendant trop longtemps. Faute d'une réelle opposition, ils ont utilisé ce délai pour se préparer à une expansion à grande échelle.\n\nLes forces du Cercle cénarien se rassemblent à Silithus pour aller combattre ces misérables créatures et tous les aventuriers valides sont invités par le présent appel à nous rejoindre !\n\nN'attendez pas qu'il soit trop tard ! Aidez-nous à défendre Azeroth ! Adressez-vous à l'imploratrice céleste Proudhorn au Fort cénarien pour recevoir des instructions détaillées !",
+   "progress": null,
+   "completion": "Excellent, une nouvelle recrue qui répond à l'appel aux armes face aux silithides. Bienvenue au Fort cénarien, <classe>. Je suis heureuse de constater que les mots de nos émissaires atteignent des héros de votre calibre. Ici, vous ne manquerez pas d'occasions de nous assister dans notre lutte. J'attends que vous prouviez rapidement que vous êtes un atout précieux pour notre cause.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15187,
+     "name": "Emissaire cénarienne Jademoon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15191,
+     "name": "Imploratrice céleste Proudhorn"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 55,
+   "reqlevel": 54,
+   "side": "alliance",
+   "xp": 2800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8385": {
+   "id": 8385,
+   "name": "Des efforts concertés",
+   "objectives": "Ah, <nom>. J'espère que vous continuez à faire profiter les différents champs de bataille de votre expérience. Au front, un grand nombre de soldats sont inspirés par des vétérans endurcis comme vous.",
+   "description": "Ah, <nom>. J'espère que vous continuez à faire profiter les différents champs de bataille de votre expérience. Au front, un grand nombre de soldats sont inspirés par des vétérans endurcis comme vous.",
+   "progress": "Ah, <nom>. J'espère que vous continuez à faire profiter les différents champs de bataille de votre expérience. Au front, un grand nombre de soldats sont inspirés par des vétérans endurcis comme vous.",
+   "completion": "Vous êtes à la hauteur de votre réputation, <nom>. Sans des gens comme vous, l'Alliance n'aurait pas une chance contre les forces sauvages de la Horde.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8905": {
+   "id": 8905,
+   "name": "Une proposition sérieuse",
+   "objectives": "Procurez-vous 15 Echantillons de sang du Berceau-de-l'hiver et 20 pièces d’or, et apportez-les avec une paire de Brassards du Coeur-sauvage à Deliana à Ironforge.",
+   "description": "Voilà une heureuse rencontre, <classe>, car j’ai quelque chose qui pourrait vous intéresser.\n\nJ’ai en ma possession un ensemble d’armure qui ressemble beaucoup à ce que portent les membres de votre profession, mais d’une qualité bien supérieure à la moyenne. Je veux bien me séparer des bracelets en échange d’une pièce d’armure plus ordinaire… et d’une petite faveur.\n\nEn ce moment, je m’intéresse aux propriétés du sang des sabres-de-givre et des ours du Berceau-de-l’hiver. Rapportez-moi une quantité assez importante de ce sang, une paire de bracelets ordinaires et un peu d’or. Vous verrez, le jeu en vaut la chandelle !",
+   "progress": "M'avez-vous apporté ce que je vous ai demandé, <nom> ?",
+   "completion": "C'est excellent ! Faisons donc l'échange. Il est difficile de se séparer de cette excellente armure, mais je crains de ne pas en avoir besoin de sitôt.\n\nSi vous voulez travailler pour moi, je pourrais vous donner le reste des pièces.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8906": {
+   "id": 8906,
+   "name": "Une proposition sérieuse",
+   "objectives": "Procurez-vous 15 Echantillons de sang du Berceau-de-l'hiver et 20 pièces d’or, et apportez-les avec une paire de Manchettes de bestiaire à Deliana à Ironforge.",
+   "description": "Voilà une heureuse rencontre, <classe>, car j’ai quelque chose qui pourrait vous intéresser.\n\nJ’ai en ma possession un ensemble d’armure qui ressemble beaucoup à ce que portent les membres de votre profession, mais d’une qualité bien supérieure à la moyenne. Je veux bien me séparer des bracelets en échange d’une pièce d’armure plus ordinaire… et d’une petite faveur.\n\nEn ce moment, je m’intéresse aux propriétés du sang des sabres-de-givre et des ours du Berceau-de-l’hiver. Rapportez-moi une quantité assez importante de ce sang, une paire de bracelets ordinaires et un peu d’or. Vous verrez, le jeu en vaut la chandelle !",
+   "progress": "M'avez-vous apporté ce que je vous ai demandé, <nom> ?",
+   "completion": "C'est excellent ! Faisons donc l'échange. Il est difficile de se séparer de cette excellente armure, mais je crains de ne pas en avoir besoin de sitôt.\n\nSi vous voulez travailler pour moi, je pourrais vous donner le reste des pièces.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8907": {
+   "id": 8907,
+   "name": "Une proposition sérieuse",
+   "objectives": "Procurez-vous 15 Echantillons de sang du Berceau-de-l'hiver et 20 pièces d’or, et apportez-les avec une paire de Bracelets de magistère à Deliana à Ironforge.",
+   "description": "Voilà une heureuse rencontre, <classe>, car j'ai quelque chose qui pourrait vous intéresser.\n\nJ'ai en ma possession un ensemble d'armure qui ressemble beaucoup à ce que portent les membres de votre profession, mais d'une qualité bien supérieure à la moyenne. Je veux bien me séparer des bracelets en échange d'une pièce d'armure plus ordinaire… et d'une petite faveur.\n\nEn ce moment, je m'intéresse aux propriétés du sang des sabres-de-givre et des ours du Berceau-de-l'hiver. Rapportez-moi une quantité assez importante de ce sang, une paire de bracelets ordinaires et un peu d'or. Vous verrez, le jeu en vaut la chandelle !",
+   "progress": "M'avez-vous apporté ce que je vous ai demandé, <nom> ?",
+   "completion": "C'est excellent ! Faisons donc l'échange. Il est difficile de se séparer de cette excellente armure, mais je crains de ne pas en avoir besoin de sitôt.\n\nSi vous voulez travailler pour moi, je pourrais vous donner le reste des pièces.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8908": {
+   "id": 8908,
+   "name": "Une proposition sérieuse",
+   "objectives": "Procurez-vous 15 Echantillons de sang du Berceau-de-l'hiver et 20 pièces d’or, et apportez-les avec une paire de Brassards de Sancteforge à Deliana à Ironforge.",
+   "description": "Voilà une heureuse rencontre, <classe>, car j’ai quelque chose qui pourrait vous intéresser.\n\nJ’ai en ma possession un ensemble d’armure qui ressemble beaucoup à ce que portent les membres de votre profession, mais d’une qualité bien supérieure à la moyenne. Je veux bien me séparer des bracelets en échange d’une pièce d’armure plus ordinaire… et d’une petite faveur.\n\nEn ce moment, je m’intéresse aux propriétés du sang des sabres-de-givre et des ours du Berceau-de-l’hiver. Rapportez-moi une quantité assez importante de ce sang, une paire de bracelets ordinaires et un peu d’or. Vous verrez, le jeu en vaut la chandelle !",
+   "progress": "M'avez-vous apporté ce que je vous ai demandé, <nom> ?",
+   "completion": "C'est excellent ! Faisons donc l'échange. Il est difficile de se séparer de cette excellente armure, mais je crains de ne pas en avoir besoin de sitôt.\n\nSi vous voulez travailler pour moi, je pourrais vous donner le reste des pièces.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8909": {
+   "id": 8909,
+   "name": "Une proposition sérieuse",
+   "objectives": "Procurez-vous 15 Echantillons de sang du Berceau-de-l'hiver et 20 pièces d’or, et apportez-les avec une paire de Brassards de dévot à Deliana à Ironforge.",
+   "description": "Voilà une heureuse rencontre, <classe>, car j’ai quelque chose qui pourrait vous intéresser.\n\nJ’ai en ma possession un ensemble d’armure qui ressemble beaucoup à ce que portent les membres de votre profession, mais d’une qualité bien supérieure à la moyenne. Je veux bien me séparer des bracelets en échange d’une pièce d’armure plus ordinaire… et d’une petite faveur.\n\nEn ce moment, je m’intéresse aux propriétés du sang des sabres-de-givre et des ours du Berceau-de-l’hiver. Rapportez-moi une quantité assez importante de ce sang, une paire de bracelets ordinaires et un peu d’or. Vous verrez, le jeu en vaut la chandelle !",
+   "progress": "M'avez-vous apporté ce que je vous ai demandé, <nom> ?",
+   "completion": "C'est excellent ! Faisons donc l'échange. Il est difficile de se séparer de cette excellente armure, mais je crains de ne pas en avoir besoin de sitôt.\n\nSi vous voulez travailler pour moi, je pourrais vous donner le reste des pièces.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8910": {
+   "id": 8910,
+   "name": "Une proposition sérieuse",
+   "objectives": "Procurez-vous 15 Echantillons de sang du Berceau-de-l'hiver et 20 pièces d’or, et apportez-les avec une paire de Bracelets Sombreruse à Deliana à Ironforge.",
+   "description": "Voilà une heureuse rencontre, <classe>, car j’ai quelque chose qui pourrait vous intéresser.\n\nJ’ai en ma possession un ensemble d’armure qui ressemble beaucoup à ce que portent les membres de votre profession, mais d’une qualité bien supérieure à la moyenne. Je veux bien me séparer des bracelets en échange d’une pièce d’armure plus ordinaire… et d’une petite faveur.\n\nEn ce moment, je m’intéresse aux propriétés du sang des sabres-de-givre et des ours du Berceau-de-l’hiver. Rapportez-moi une quantité assez importante de ce sang, une paire de bracelets ordinaires et un peu d’or. Vous verrez, le jeu en vaut la chandelle !",
+   "progress": "M'avez-vous apporté ce que je vous ai demandé, <nom> ?",
+   "completion": "C'est excellent ! Faisons donc l'échange. Il est difficile de se séparer de cette excellente armure, mais je crains de ne pas en avoir besoin de sitôt.\n\nSi vous voulez travailler pour moi, je pourrais vous donner le reste des pièces.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8911": {
+   "id": 8911,
+   "name": "Une proposition sérieuse",
+   "objectives": "Procurez-vous 15 Echantillons de sang du Berceau-de-l'hiver et 20 pièces d’or, et apportez-les avec une paire de Brassards de Brume-funeste à Deliana à Ironforge.",
+   "description": "Voilà une heureuse rencontre, <classe>, car j’ai quelque chose qui pourrait vous intéresser.\n\nJ’ai en ma possession un ensemble d’armure qui ressemble beaucoup à ce que portent les membres de votre profession, mais d’une qualité bien supérieure à la moyenne. Je veux bien me séparer des bracelets en échange d’une pièce d’armure plus ordinaire… et d’une petite faveur.\n\nEn ce moment, je m’intéresse aux propriétés du sang des sabres-de-givre et des ours du Berceau-de-l’hiver. Rapportez-moi une quantité assez importante de ce sang, une paire de bracelets ordinaires et un peu d’or. Vous verrez, le jeu en vaut la chandelle !",
+   "progress": "M'avez-vous apporté ce que je vous ai demandé, <nom> ?",
+   "completion": "C'est excellent ! Faisons donc l'échange. Il est difficile de se séparer de cette excellente armure, mais je crains de ne pas en avoir besoin de sitôt.\n\nSi vous voulez travailler pour moi, je pourrais vous donner le reste des pièces.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8912": {
+   "id": 8912,
+   "name": "Une proposition sérieuse",
+   "objectives": "Procurez-vous 15 Echantillons de sang du Berceau-de-l'hiver et 20 pièces d’or, et apportez-les avec une paire de Brassards de vaillance à Deliana à Ironforge.",
+   "description": "Voilà une heureuse rencontre, <classe>, car j’ai quelque chose qui pourrait vous intéresser.\n\nJ’ai en ma possession un ensemble d’armure qui ressemble beaucoup à ce que portent les membres de votre profession, mais d’une qualité bien supérieure à la moyenne. Je veux bien me séparer des bracelets en échange d’une pièce d’armure plus ordinaire… et d’une petite faveur.\n\nEn ce moment, je m’intéresse aux propriétés du sang des sabres-de-givre et des ours du Berceau-de-l’hiver. Rapportez-moi une quantité assez importante de ce sang, une paire de bracelets ordinaires et un peu d’or. Vous verrez, le jeu en vaut la chandelle !",
+   "progress": "M'avez-vous apporté ce que je vous ai demandé, <nom> ?",
+   "completion": "C'est excellent ! Faisons donc l'échange. Il est difficile de se séparer de cette excellente armure, mais je crains de ne pas en avoir besoin de sitôt.\n\nSi vous voulez travailler pour moi, je pourrais vous donner le reste des pièces.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8926": {
+   "id": 8926,
+   "name": "Une juste compensation",
+   "objectives": "Apportez une Ceinture du Coeur-sauvage et une paire de Gants du Cœur-sauvage à Deliana à Ironforge.",
+   "description": "Vous avez tenu parole et ramené l'invention de Mux. Je pense qu'une récompense s'impose, ne serait-ce que pour que vous restiez <motivé et désireux/motivée et désireuse> de sauver ma peau. Ramenez-moi la ceinture et la paire de gants que vous souhaitez améliorer. Je vous promets que les pièces que je vous donnerai en échange seront très supérieures.",
+   "progress": "Vous êtes prêt à effectuer la transaction ?",
+   "completion": "Vous avez respecté votre part du marché, je respecterai la mienne.\n\nN'oubliez pas que je garde les meilleurs morceaux jusqu'à ce que votre travail soit terminé.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "motivé et désireux/motivée et désireuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8931": {
+   "id": 8931,
+   "name": "Une juste compensation",
+   "objectives": "Apportez une Ceinture de bestiaire et une paire de Gants de bestiaire à Deliana à Forgefer.",
+   "description": "Vous avez tenu parole et ramené l'invention de Mux. Je pense qu'une récompense s'impose, ne serait-ce que pour que vous restiez <motivé et désireux/motivée et désireuse> de sauver ma peau. Ramenez-moi la ceinture et la paire de gants que vous souhaitez améliorer.",
+   "progress": "Vous êtes prêt à effectuer la transaction ?",
+   "completion": "Vous avez respecté votre part du marché, je respecterai la mienne.\n\nN'oubliez pas que je garde les meilleurs morceaux jusqu'à ce que votre travail soit terminé.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "motivé et désireux/motivée et désireuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8932": {
+   "id": 8932,
+   "name": "Une juste compensation",
+   "objectives": "Apportez une Ceinture de magistère et une paire de Gants de magistère à Deliana à Forgefer.",
+   "description": "Vous avez tenu parole et ramené l'invention de Mux. Je pense qu'une récompense s'impose, ne serait-ce que pour que vous restiez <motivé et désireux/motivée et désireuse> de sauver ma peau. Ramenez-moi la ceinture et la paire de gants que vous souhaitez améliorer.",
+   "progress": "Êtes-vous prêt à honorer notre marché ?",
+   "completion": "Vous avez respecté votre part du marché, je respecterai la mienne.\n\nSouvenez-vous quand même que je garde les meilleures pièces tant que vous n’avez pas terminé votre tâche.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "motivé et désireux/motivée et désireuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8933": {
+   "id": 8933,
+   "name": "Une juste compensation",
+   "objectives": "Apportez une Ceinture de Sancteforge et une paire de Gantelets de Sancteforge à Deliana à Forgefer.",
+   "description": "Vous avez tenu parole et ramené l'invention de Mux. Je pense qu'une récompense s'impose, ne serait-ce que pour que vous restiez <motivé et désireux/motivée et désireuse> de sauver ma peau. Ramenez-moi la ceinture et la paire de gantelets que vous souhaitez améliorer. Je vous promets que les pièces que je vous donnerai en échange seront très supérieures.",
+   "progress": "Êtes-vous prête à honorer notre marché ?",
+   "completion": "Vous avez respecté votre part du marché, je respecterai la mienne.\n\nSouvenez-vous quand même que je garde les meilleures pièces tant que vous n’avez pas terminé votre tâche.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "motivé et désireux/motivée et désireuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8934": {
+   "id": 8934,
+   "name": "Une juste compensation",
+   "objectives": "Apportez une Ceinture de dévot et une paire de Gants de dévot à Deliana à Forgefer.",
+   "description": "Vous avez tenu parole et ramené l'invention de Mux. Je pense qu'une récompense s'impose, ne serait-ce que pour que vous restiez <motivé et désireux/motivée et désireuse> de sauver ma peau. Ramenez-moi la ceinture et la paire de gants que vous souhaitez améliorer. Je vous promets que les pièces que je vous donnerai en échange seront très supérieures.",
+   "progress": "Vous êtes prêt à effectuer la transaction ?",
+   "completion": "Vous avez respecté votre part du marché, je respecterai la mienne.\n\nN'oubliez pas que je garde les meilleurs morceaux jusqu'à ce que votre travail soit terminé.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "motivé et désireux/motivée et désireuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8935": {
+   "id": 8935,
+   "name": "Une juste compensation",
+   "objectives": "Apportez une Ceinture Sombreruse et une paire de Gants Sombreruse à Deliana à Forgefer.",
+   "description": "Vous avez tenu parole et ramené l’invention de Mux. Je pense qu’une récompense s’impose, ne serait-ce que pour que vous restiez <motivé et désireux/motivée et désireuse> de sauver ma peau. Rapportez-moi la ceinture et la paire de gants que vous souhaitez améliorer. Je vous promets que les pièces que je vous donnerai en échange seront très supérieures.",
+   "progress": "Êtes-vous prêt à honorer notre marché ?",
+   "completion": "Vous avez respecté votre part du marché, je respecterai la mienne.\n\nSouvenez-vous quand même que je garde les meilleures pièces tant que vous n’avez pas terminé votre tâche.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "motivé et désireux/motivée et désireuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8936": {
+   "id": 8936,
+   "name": "Une juste compensation",
+   "objectives": "Apportez une Ceinture de Brume-funeste et des Gants de Brume-funeste à Deliana à Forgefer.",
+   "description": "Vous avez tenu parole et ramené l'invention de Mux. Je pense qu'une récompense s'impose, ne serait-ce que pour que vous restiez <motivé et désireux/motivée et désireuse> de sauver ma peau. Ramenez-moi la ceinture et la paire de gants que vous souhaitez améliorer. Je vous promets que les pièces que je vous donnerai en échange seront très supérieures.",
+   "progress": "Vous êtes prêt à effectuer la transaction ?",
+   "completion": "Vous avez respecté votre part du marché, je respecterai la mienne.\n\nN'oubliez pas que je garde les meilleurs morceaux jusqu'à ce que votre travail soit terminé.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "motivé et désireux/motivée et désireuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8937": {
+   "id": 8937,
+   "name": "Une juste compensation",
+   "objectives": "Apportez une Ceinture de vaillance et une paire de Gantelets de vaillance à Deliana à Ironforge.",
+   "description": "Vous avez tenu parole et ramené l'invention de Mux. Je pense qu'une récompense s'impose, ne serait-ce que pour que vous restiez <motivé et désireux/motivée et désireuse> de sauver ma peau. Rapportez-moi la ceinture et la paire de gantelets que vous souhaitez améliorer. Je vous promets que les pièces que je vous donnerai en échange seront très supérieures.",
+   "progress": "Vous êtes prêt à effectuer la transaction ?",
+   "completion": "Vous avez respecté votre part du marché, je respecterai la mienne.\n\nN'oubliez pas que je garde les meilleurs morceaux jusqu'à ce que votre travail soit terminé.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "motivé et désireux/motivée et désireuse"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8951": {
+   "id": 8951,
+   "name": "Les adieux d'Anthion",
+   "objectives": "Retournez voir Deliana à Ironforge avec des bottes du Cœur-sauvage, un Kilt du Cœur-sauvage et des Spallières du Cœur-sauvage.",
+   "description": "L'âme de Valthalak était conservée dans cette amulette.\n\nAveuglés par la cupidité, nous l'avons brisée en trois, sans savoir que nous allions être maudits pour cela.\n\nLe seul moyen d'arrêter le sort lancé par Valthalak est de réunir le médaillon. Retournez voir Deliana et dites-lui que Bodley est sa seule chance de retrouver les morceaux manquants. Voyez avec elle pour les récompenses.\n\nQuant à moi, pour une fois, je vais reposer en paix. Je vous souhaite bonne chance, vous en aurez bien besoin !",
+   "progress": "Vous êtes de retour, <nom>. Vous devez me raconter ce que vous avez découvert. Mais laissez-nous d'abord organiser votre récompense.",
+   "completion": "Je n'arrive pas à croire que nos vies sont pratiquement perdues à cause d'un stupide médaillon ! Et tu es sûr qu'Anthion a parlé de Bodley ?\n\nEh bien, vous avez fait votre travail, alors mettons votre récompense de côté.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16016,
+     "name": "Anthion Harmon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8952": {
+   "id": 8952,
+   "name": "Les adieux d'Anthion",
+   "objectives": "Retournez voir Deliana à Ironforge avec des Bottes de bestiaire, un Pantalon de bestiaire et un Mantelet de bestiaire.",
+   "description": "L'âme de Valthalak était conservée dans cette amulette.\n\nAveuglés par la cupidité, nous l'avons brisée en trois, sans savoir que nous allions être maudits pour cela.\n\nLe seul moyen d'arrêter le sort lancé par Valthalak est de réunir le médaillon. Retournez voir Deliana et dites-lui que Bodley est sa seule chance de retrouver les morceaux manquants. Voyez avec elle pour les récompenses.\n\nQuant à moi, pour une fois, je vais reposer en paix. Je vous souhaite bonne chance, vous en aurez bien besoin !",
+   "progress": "Vous êtes de retour, <nom>. Vous devez me raconter ce que vous avez découvert. Mais laissez-nous d'abord organiser votre récompense.",
+   "completion": "Je n'arrive pas à croire que nos vies sont pratiquement perdues à cause d'un stupide médaillon ! Et tu es sûr qu'Anthion a parlé de Bodley ?\n\nEh bien, vous avez fait votre travail, alors mettons votre récompense de côté.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16016,
+     "name": "Anthion Harmon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8953": {
+   "id": 8953,
+   "name": "Les adieux d'Anthion",
+   "objectives": "Retournez voir Deliana à Ironforge avec des Bottes de magistère, des Jambières de magistère et un Mantelet de magistère.",
+   "description": "L'âme de Valthalak était conservée dans cette amulette.\n\nAveuglés par la cupidité, nous l'avons brisée en trois, sans savoir que nous allions être maudits pour cela.\n\nLe seul moyen d'arrêter le sort lancé par Valthalak est de réunir le médaillon. Retournez voir Deliana et dites-lui que Bodley est sa seule chance de retrouver les morceaux manquants. Voyez avec elle pour les récompenses.\n\nQuant à moi, pour une fois, je vais reposer en paix. Je vous souhaite bonne chance, vous en aurez bien besoin !",
+   "progress": "Vous êtes de retour, <nom>. Vous devez me raconter ce que vous avez découvert. Mais laissez-nous d'abord organiser votre récompense.",
+   "completion": "Je n'arrive pas à croire que nos vies sont pratiquement perdues à cause d'un stupide médaillon ! Et tu es sûr qu'Anthion a parlé de Bodley ?\n\nEh bien, vous avez fait votre travail, alors mettons votre récompense de côté.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16016,
+     "name": "Anthion Harmon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8954": {
+   "id": 8954,
+   "name": "Les adieux d'Anthion",
+   "objectives": "Retournez voir Deliana à Ironforge avec des Bottes de Sancteforge, des Jambières de Sancteforge et des Spallières de Sancteforge.",
+   "description": "L'âme de Valthalak était conservée dans cette amulette.\n\nAveuglés par la cupidité, nous l'avons brisée en trois, sans savoir que nous allions être maudits pour cela.\n\nLe seul moyen d'arrêter le sort lancé par Valthalak est de réunir le médaillon. Retournez voir Deliana et dites-lui que Bodley est sa seule chance de retrouver les morceaux manquants. Voyez avec elle pour les récompenses.\n\nQuant à moi, pour une fois, je vais reposer en paix. Je vous souhaite bonne chance, vous en aurez bien besoin !",
+   "progress": "Vous êtes de retour, <nom>. Vous devez me raconter ce que vous avez découvert. Mais laissez-nous d'abord organiser votre récompense.",
+   "completion": "Je n'arrive pas à croire que nos vies sont pratiquement perdues à cause d'un stupide médaillon ! Et tu es sûr qu'Anthion a parlé de Bodley ?\n\nEh bien, vous avez fait votre travail, alors mettons votre récompense de côté.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16016,
+     "name": "Anthion Harmon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8955": {
+   "id": 8955,
+   "name": "Les adieux d'Anthion",
+   "objectives": "Retournez voir Deliana à Ironforge avec des Sandales de dévot, un Pantalon de dévot et un Mantelet de dévot.",
+   "description": "L'âme de Valthalak était conservée dans cette amulette.\n\nAveuglés par la cupidité, nous l'avons brisée en trois, sans savoir que nous allions être maudits pour cela.\n\nLe seul moyen d'arrêter le sort lancé par Valthalak est de réunir le médaillon. Retournez voir Deliana et dites-lui que Bodley est sa seule chance de retrouver les morceaux manquants. Voyez avec elle pour les récompenses.\n\nQuant à moi, pour une fois, je vais reposer en paix. Je vous souhaite bonne chance, vous en aurez bien besoin !",
+   "progress": "Vous êtes de retour, <nom>. Vous devez me raconter ce que vous avez découvert. Mais laissez-nous d'abord organiser votre récompense.",
+   "completion": "Je n'arrive pas à croire que nos vies sont pratiquement perdues à cause d'un stupide médaillon ! Et tu es sûr qu'Anthion a parlé de Bodley ?\n\nEh bien, vous avez fait votre travail, alors mettons votre récompense de côté.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16016,
+     "name": "Anthion Harmon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8956": {
+   "id": 8956,
+   "name": "Les adieux d'Anthion",
+   "objectives": "Retournez voir Deliana à Ironforge avec des Bottes Sombreruse, un Pantalon Sombreruse et des Spallières Sombreruse.",
+   "description": "L’âme de Valthalak était conservée dans cette amulette.\n\nAveuglés par la cupidité, nous l’avons brisée en trois, sans savoir que nous allions être maudits pour cela.\n\nLe seul moyen d’arrêter le sort lancé par Valthalak est de réunir le médaillon. Retournez voir Deliana et dites-lui que Bodley est sa seule chance de retrouver les morceaux manquants. Voyez avec elle pour les récompenses.\n\nQuant à moi, pour une fois, je vais reposer en paix. Je vous souhaite bonne chance, vous en aurez bien besoin !",
+   "progress": "Vous revoilà, <nom>. Vous allez tout me raconter. Mais commençons par parler de votre récompense.",
+   "completion": "Je n’arrive pas à croire que nous soyons condamnés à mort à cause d’un médaillon ridicule ! Êtes-vous sûr qu’Anthion a parlé de Bodley ?\n\nBref… vous avez fait votre travail, parlons donc de votre récompense.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16016,
+     "name": "Anthion Harmon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8958": {
+   "id": 8958,
+   "name": "Les adieux d'Anthion",
+   "objectives": "Retournez voir Deliana à Ironforge avec des Sandales de Brume-funeste, des Jambières de Brume-funeste et un Mantelet de Brume-funeste.",
+   "description": "L’âme de Valthalak était conservée dans cette amulette.\n\nAveuglés par la cupidité, nous l’avons brisée en trois, sans savoir que nous allions être maudits pour cela.\n\nLe seul moyen d’arrêter le sort lancé par Valthalak est de réunir le médaillon. Retournez voir Deliana et dites-lui que Bodley est sa seule chance de retrouver les morceaux manquants. Voyez avec elle pour les récompenses.\n\nQuant à moi, pour une fois, je vais reposer en paix. Je vous souhaite bonne chance, vous en aurez bien besoin !",
+   "progress": "Vous êtes de retour, <nom>. Vous devez me raconter ce que vous avez découvert. Mais laissez-nous d'abord organiser votre récompense.",
+   "completion": "Je n'arrive pas à croire que nos vies sont pratiquement perdues à cause d'un stupide médaillon ! Et tu es sûr qu'Anthion a parlé de Bodley ?\n\nEh bien, vous avez fait votre travail, alors mettons votre récompense de côté.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16016,
+     "name": "Anthion Harmon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8959": {
+   "id": 8959,
+   "name": "Les adieux d'Anthion",
+   "objectives": "Retournez voir Deliana à Ironforge avec des Bottes de vaillance, des Jambières de vaillance et des Spallières de vaillance.",
+   "description": "L’âme de Valthalak était conservée dans cette amulette.\n\nAveuglés par la cupidité, nous l’avons brisée en trois, sans savoir que nous allions être maudits pour cela.\n\nLe seul moyen d’arrêter le sort lancé par Valthalak est de réunir le médaillon. Retournez voir Deliana et dites-lui que Bodley est sa seule chance de retrouver les morceaux manquants. Voyez avec elle pour les récompenses.\n\nQuant à moi, pour une fois, je vais reposer en paix. Je vous souhaite bonne chance, vous en aurez bien besoin !",
+   "progress": "Vous êtes de retour, <nom>. Vous devez me raconter ce que vous avez découvert. Mais laissez-nous d'abord organiser votre récompense.",
+   "completion": "Je n'arrive pas à croire que nos vies sont pratiquement perdues à cause d'un stupide médaillon ! Et tu es sûr qu'Anthion a parlé de Bodley ?\n\nEh bien, vous avez fait votre travail, alors mettons votre récompense de côté.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16016,
+     "name": "Anthion Harmon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8977": {
+   "id": 8977,
+   "name": "Retourner voir Deliana",
+   "objectives": "Apportez le Révélateur de fantômes extradimensionnel à Deliana à Ironforge.",
+   "description": "Travailler avec vous était très agréable, <nom>. Voici le produit fini.\n\nJ’espère qu’il vous rendra service dans vos activités présentes. Oh… Et si cela ne vous dérange pas trop, parlez de moi autour de vous. J’aimerais bien avoir davantage de clients.",
+   "progress": "Vous êtes de retour ?",
+   "completion": "Excellent ! C'est du bon travail, <nom>. Je n'ai pas complètement confiance dans les talents du gobelin, mais je n'ai pas le choix…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16014,
+     "name": "Mux Manascrambler"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 6600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8997": {
+   "id": 8997,
+   "name": "Retour au commencement",
+   "objectives": "Parlez à Deliana au Haut Siège d'Ironforge.",
+   "description": "Je suppose qu'il est temps de se dire au revoir, <mon ami/mon amie>. Si vous avez envie de revenir me voir pour bavarder, je serai toujours là. Je vous reverrai sans doute la prochaine fois que vous ne saurez pas trop quoi faire en attendant que vos amis vous rejoignent pour un raid sur le pic Rochenoire.\n\nBon, allez-vous en avant que je ne me mette à pleurer. Retournez voir Deliana à Forgefer, et racontez-lui ce qui s'est passé.",
+   "progress": null,
+   "completion": "Je suis heureuse de voir que vous revenez sans une égratignure, <nom>. Vous avez l’air en bonne forme, même si vous semblez quelque peu fatigué.\n\nVenez, racontez-moi ce qui s’est passé.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16033,
+     "name": "Bodley"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 660,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mon ami/mon amie"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8999": {
+   "id": 8999,
+   "name": "Garder le meilleur pour la fin",
+   "objectives": "Donnez votre Coiffe du Coeur-sauvage et votre Gilet du Coeur-sauvage à Deliana.",
+   "description": "C'est une histoire stupéfiante, <nom> ! Je vous remercie sincèrement. Tous ceux qui ont participé à cette affaire vous expriment leur gratitude. Je dormirai peut-être mieux la nuit, maintenant.\n\nQuant à votre récompense… Je crois que j'ai quelques trucs qui devraient beaucoup vous plaire.",
+   "progress": "Conformément à notre accord, êtes-vous prêt à remettre vos pièces Wildheart en échange de votre nouveau Cowl et de votre nouvelle veste Feralheart ?",
+   "completion": "Tu vas me manquer, <nom>. J'ai une telle dette de gratitude envers toi que je pense que je ne pourrai jamais la rembourser.\n\nJ'espère que vous apprécierez votre nouvelle armure de tête et de poitrine, et qu'elle vous protégera longtemps.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9000": {
+   "id": 9000,
+   "name": "Garder le meilleur pour la fin",
+   "objectives": "Donnez votre Coiffe de bestiaire et votre Tunique de bestiaire à Deliana.",
+   "description": "C'est une histoire stupéfiante, <nom> ! Je vous remercie sincèrement. Tous ceux qui ont participé à cette affaire vous expriment leur gratitude. Je dormirai peut-être mieux la nuit, maintenant.\n\nQuant à votre récompense… Je crois que j'ai quelques trucs qui devraient beaucoup vous plaire.",
+   "progress": "Conformément à notre accord, êtes-vous prêt à nous remettre vos pièces de Beaststalker en échange de votre nouvelle casquette et de votre nouvelle tunique de Beastmaster ?",
+   "completion": "Tu vas me manquer, <nom>. J'ai une telle dette de gratitude envers toi que je pense que je ne pourrai jamais la rembourser.\n\nJ'espère que vous apprécierez votre nouvelle armure de tête et de poitrine, et qu'elle vous protégera longtemps.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9001": {
+   "id": 9001,
+   "name": "Garder le meilleur pour la fin",
+   "objectives": "Donnez votre Collerette de magistère et votre Robe de magistère à Deliana.",
+   "description": "C'est une histoire stupéfiante, <nom> ! Je vous remercie sincèrement. Tous ceux qui ont participé à cette affaire vous expriment leur gratitude. Je dormirai peut-être mieux la nuit, maintenant.\n\nQuant à votre récompense… Je crois que j'ai quelques trucs qui devraient beaucoup vous plaire.",
+   "progress": "Conformément à notre accord, êtes-vous prêt à remettre vos pièces de magister en échange de votre nouvelle couronne et de vos nouvelles robes de sorcier ?",
+   "completion": "Tu vas me manquer, <nom>. J'ai une telle dette de gratitude envers toi que je pense que je ne pourrai jamais la rembourser.\n\nJ'espère que vous apprécierez votre nouvelle armure de tête et de poitrine, et qu'elle vous protégera longtemps.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9002": {
+   "id": 9002,
+   "name": "Garder le meilleur pour la fin",
+   "objectives": "Donnez votre Casque de Sancteforge et votre Cuirasse de Sancteforge à Deliana.",
+   "description": "C'est une histoire stupéfiante, <nom> ! Je vous remercie sincèrement. Tous ceux qui ont participé à cette affaire vous expriment leur gratitude. Je dormirai peut-être mieux la nuit, maintenant.\n\nQuant à votre récompense… Je crois que j'ai quelques trucs qui devraient beaucoup vous plaire.",
+   "progress": "Conformément à notre accord, êtes-vous prêt à remettre vos pièces Lightforge en échange de votre nouveau casque et de votre nouveau plastron Soulforge ?",
+   "completion": "Tu vas me manquer, <nom>. J'ai une telle dette de gratitude envers toi que je pense que je ne pourrai jamais la rembourser.\n\nJ'espère que vous apprécierez votre nouvelle armure de tête et de poitrine, et qu'elle vous protégera longtemps.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9003": {
+   "id": 9003,
+   "name": "Garder le meilleur pour la fin",
+   "objectives": "Donnez votre Collerette de dévot et votre Robe de dévot à Deliana.",
+   "description": "C'est une histoire stupéfiante, <nom> ! Je vous remercie sincèrement. Tous ceux qui ont participé à cette affaire vous expriment leur gratitude. Je dormirai peut-être mieux la nuit, maintenant.\n\nQuant à votre récompense… Je crois que j'ai quelques trucs qui devraient beaucoup vous plaire.",
+   "progress": "Conformément à notre accord, êtes-vous prêt à remettre vos pièces de piété en échange de votre nouvelle couronne et de votre nouvelle robe de vertu ?",
+   "completion": "Tu vas me manquer, <nom>. J'ai une telle dette de gratitude envers toi que je pense que je ne pourrai jamais la rembourser.\n\nJ'espère que vous apprécierez votre nouvelle armure de tête et de poitrine, et qu'elle vous protégera longtemps.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9004": {
+   "id": 9004,
+   "name": "Garder le meilleur pour la fin",
+   "objectives": "Donnez votre Cagoule Sombreruse et votre Tunique Sombreruse à Deliana.",
+   "description": "C'est une histoire stupéfiante, <nom> ! Je vous remercie sincèrement. Tous ceux qui ont participé à cette affaire vous expriment leur gratitude. Je dormirai peut-être mieux la nuit, maintenant.\n\nQuant à votre récompense… Je crois que j'ai quelques trucs qui devraient beaucoup vous plaire.",
+   "progress": "Êtes-vous prête à me donner comme convenu vos pièces d’armure Sombreruse en échange d’une Coiffe et d’une Tunique Sombremante ?",
+   "completion": "Vous allez me manquer, <nom>. J’ai une dette de gratitude envers vous. J’ai peur de ne jamais pouvoir vous la rembourser.\n\nJ’espère que vous apprécierez vos nouvelles protections de tête et de torse, et qu’elles vous protègeront pendant très longtemps.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9005": {
+   "id": 9005,
+   "name": "Garder le meilleur pour la fin",
+   "objectives": "Donnez votre Masque de Brume-funeste et votre Robe de Brume-funeste à Deliana.",
+   "description": "C'est une histoire stupéfiante, <nom> ! Je vous remercie sincèrement. Tous ceux qui ont participé à cette affaire vous expriment leur gratitude. Je dormirai peut-être mieux la nuit, maintenant.\n\nQuant à votre récompense… Je crois que j'ai quelques trucs qui devraient beaucoup vous plaire.",
+   "progress": "Conformément à notre accord, êtes-vous prêt à remettre vos pièces de Dreadmist en échange de votre nouveau masque et de votre nouvelle robe de Deathmist ?",
+   "completion": "Tu vas me manquer, <nom>. J'ai une telle dette de gratitude envers toi que je pense que je ne pourrai jamais la rembourser.\n\nJ'espère que vous apprécierez votre nouvelle armure de tête et de poitrine, et qu'elle vous protégera longtemps.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "9006": {
+   "id": 9006,
+   "name": "Garder le meilleur pour la fin",
+   "objectives": "Donnez votre Casque de vaillance et votre Cuirasse de vaillance à Deliana.",
+   "description": "C'est une histoire stupéfiante, <nom> ! Je vous remercie sincèrement. Tous ceux qui ont participé à cette affaire vous expriment leur gratitude. Je dormirai peut-être mieux la nuit, maintenant.\n\nQuant à votre récompense… Je crois que j'ai quelques trucs qui devraient beaucoup vous plaire.",
+   "progress": "Conformément à notre accord, êtes-vous prêt à nous remettre vos pièces de vaillance en échange de votre nouveau heaume et de votre nouveau plastron d'héroïsme ?",
+   "completion": "Tu vas me manquer, <nom>. J'ai une telle dette de gratitude envers toi que je pense que je ne pourrai jamais la rembourser.\n\nJ'espère que vous apprécierez votre nouvelle armure de tête et de poitrine, et qu'elle vous protégera longtemps.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 16013,
+     "name": "Deliana"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 58,
+   "side": "alliance",
+   "xp": 1650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "95817": {
+   "id": 95817,
+   "name": null,
+   "objectives": null,
+   "description": "Vous recevrez :",
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [],
+   "zone_id": 1537,
+   "level": 60,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "97263": {
+   "id": 97263,
+   "name": null,
+   "objectives": "Apportez le paquet égaré à Eldrun.",
+   "description": "paquets égarés ont été déposés près de la boîte aux lettres. Vous remarquez que l’un d’entre eux vient de Nid-de-l’Aigle et est adressé à Eldrun Brise-tempête, à Forgefer. Il est marqué « urgent ».>",
+   "progress": null,
+   "completion": "Quoi ! Ça fait des jours que je vais à la boîte aux lettres à côté de la banque en espérant y trouver ce paquet ! Cette ville doit vraiment repenser son aménagement. Il faudrait s’inspirer de Nid-de-l’Aigle, on s’y repère bien plus facilement !\n\nAlors, qu’ai-je donc reçu… ? Des outils de sculpture de totem… une hache de rechange… et une sorte de dispositif gobelin. Je n’ai jamais commandé ça ! Ah, je vais devoir tout renvoyer.\n\nBon, euh… Enfin… merci de m’avoir apporté ce paquet. Tenez, il faut bien récompenser vos efforts.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 660964,
+     "name": "Misplaced Packages"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 258098,
+     "name": "Eldrun Stormbreaker"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 2,
+   "reqlevel": 1,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  },
+  "98300": {
+   "id": 98300,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 270637,
+     "name": "Howin Kindfeather"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2784,
+     "name": "Roi Magni Bronzebeard"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 34,
+   "reqlevel": 24,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "98313": {
+   "id": 98313,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1077,
+     "name": "Prospecteur Whelgar"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2916,
+     "name": "Historien Karnik"
+    }
+   ],
+   "zone_id": 1537,
+   "level": 32,
+   "reqlevel": 24,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

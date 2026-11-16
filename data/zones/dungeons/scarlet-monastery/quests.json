@@ -1,0 +1,476 @@
+{
+ "schema": 1,
+ "zone": "dungeons/scarlet-monastery",
+ "zone_id": 796,
+ "zone_name": "Monastère écarlate",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 8,
+  "complete": 7,
+  "incomplete": 1,
+  "unavailable": 0,
+  "missing_description": 1,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "1048": {
+   "id": 1048,
+   "name": "Au monastère écarlate",
+   "objectives": "Tuer le grand inquisiteur Whitemane, le commandant Mograine de la Croisade, le champion Herod et le maître-chien Loksey, et retourner faire son rapport à Varimathras à Undercity.",
+   "description": "Pendant que la Dame noire s'occupe du problème urgent posé par l'avance du roi-liche au nord, je me préoccupe de ce qui se passe par ici.\n\nAucun doute, les parasites humains qui se nomment la Croisade écarlate sont l’épine à l'intérieur même de nos terres. Les Clairières de Tirisfal grouillent littéralement de ces petites fourmis rouges.\n\nAllez au Monastère, <classe>, et faites disparaître le Grand Inquisiteur Whitemane et ses lieutenants les plus importants.",
+   "progress": "Je n'ai peut-être pas été assez explicite dans mes ordres, <classe>. Je veux que le Haut Inquisiteur Whitemane soit tué une fois pour toutes. Et tant que vous y êtes, éliminez aussi ses hauts gradés.\n\nTuez ce fanatique, le commandant écarlate Mograine. Détruisez Hérode, le Champion écarlate. Et massacrez aussi le maître des chiens Loksey et ses sales clébards.\n\nMaintenant, partez !",
+   "completion": "Vous avez bien servi la Dame noire, <classe>. Pas facile, ce que je vous avais demandé.\n\nJ'ai noté votre fidélité aux Réprouvés. Et je me souviendrai de votre ténacité au combat.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2425,
+     "name": "Varimathras"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2425,
+     "name": "Varimathras"
+    }
+   ],
+   "zone_id": 796,
+   "level": 42,
+   "reqlevel": 33,
+   "side": "horde",
+   "xp": 5150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1049": {
+   "id": 1049,
+   "name": "Compendium des Déchus",
+   "objectives": "Trouver le « Compendium des Déchus » au Monastère dans les Clairières de Tirisfal et retourner voir le Sage Truthseeker à Thunder Bluff.",
+   "description": "Le Cercle terrestre avait des intentions pures envers nos frères tourmentés. Mais qui connaît les motivations de ceux qui chuchotent aux oreilles du Conseil des Anciens ?\n\nLes Réprouvés auxquels nous nous sommes alliés ont un lourd passé de duperie. Notre pacte a été trop hâtif. Peut-être Cairne aurait-il été sage de tenir compte des avertissements d'Orgrimmar.\n\nLe cœur du Monastère écarlate abrite le « Compendium des Déchus », gardé par des humains fanatiques et fous furieux. Ils tirent leur méthode de leur folie, mais leurs recherches pourraient s'avérer utiles.",
+   "progress": "Cairne est un chef noble et courageux et je lui confierais ma vie. Mais il en est d'autres dont je me méfie, compte tenu du climat politique actuel.\n\nUne fois que j'aurai la possibilité d'accéder à toute la connaissance disponible, je pourrai conseiller le Chef.\n\nAvez-vous eu la chance de visiter les Clairières de Tirisfal ? Le Monastère écarlate ? Le « Compendium des Déchus » n'est qu'une partie de cette énigme compliquée. . .",
+   "completion": "Le « Compendium des Déchus » ! Je commençais à me demander si ce livre existait vraiment !\n\nVous avez bien servi les taurens de Thunder Bluff, <nom>. Votre dévouement ne sera pas oublié.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3978,
+     "name": "Sage Truthseeker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3978,
+     "name": "Sage Truthseeker"
+    }
+   ],
+   "zone_id": 796,
+   "level": 38,
+   "reqlevel": 28,
+   "side": "horde",
+   "xp": 3550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1050": {
+   "id": 1050,
+   "name": "Mythologie des Titans",
+   "objectives": "Reprendre « la Mythologie des Titans » au Monastère et le rapporter au Bibliothécaire Mae Paledust à Ironforge.",
+   "description": "L'avenir est inévitable ! Nous nous lançons vers lui comme les gouttes de pluie tombent dans la Grande mer.\n\nMais peut-être qu'en étudiant le passé, nous pourrons savoir à quoi nous attendre pour mieux nous préparer.\n\nAvant que Lordaeron ne connaisse ces événements sinistres, il y avait un bastion de connaissance caché dans les Clairières de Tirisfal. La rumeur disait qu'un livre appelé « la Mythologie des Titans » avait été placé dans la bibliothèque du vieux Monastère.\n\nRetrouvez-le et peut-être qu'ensemble nous pourrons découvrir les secrets du passé !",
+   "progress": "Le monastère était un séminaire pour les paladins en cours d'entraînement. C'était autrefois une forteresse de la Lumière, mais il est tombé dans les mains des fanatiques fous de la Croisade écarlate.\n\nLa Croisade s'imagine que son but est noble : nettoyer la terre du Fléau mort-vivant. Mais la folie lui a fait perdre tout sens commun, et maintenant elle voit des ennemis partout.\n\nApportez-moi « la Mythologie des Titans » pour que je puisse l'étudier et le mettre à l'abri à Ironforge.\n\nLes halls corrompus du monastère ne sont pas un endroit pour un trésor d'une telle valeur historique.",
+   "completion": "Vous avez retrouvé le texte sacré !\n\nC'était sans conteste une tâche difficile et votre voyage a été long. Mais les nains d'Ironforge vont tirer un grand bénéfice de votre succès.\n\nMerci, <nom>, au nom de la Ligue des Explorateurs.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3979,
+     "name": "Bibliothécaire Mae Paledust"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3979,
+     "name": "Bibliothécaire Mae Paledust"
+    }
+   ],
+   "zone_id": 796,
+   "level": 38,
+   "reqlevel": 28,
+   "side": "alliance",
+   "xp": 3550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "L'avenir est inévitable ! Nous nous lançons vers lui comme les gouttes de pluie tombent dans la Grande mer.\n\nMais peut-être qu'en étudiant le passé, nous pourrons savoir à quoi nous attendre pour mieux nous préparer.\n\nAvant que Lordaeron ne connaisse ces événements sinistres, il y avait un bastion de connaissance caché dans les Clairières de Tirisfal. La rumeur disait qu'un livre appelé « la Mythologie des Titans » avait été placé dans la bibliothèque du vieux Monastère.\n\nRetrouvez-le et peut-être qu'ensemble nous pourrons découvrir les secrets du passé !",
+      "objectives": "Reprendre « la Mythologie des Titans » au Monastère et le rapporter au Bibliothécaire Mae Paledust à Forgefer.",
+      "name": "Mythologie des Titans"
+     },
+     "npc": 3979,
+     "npc_name": "Bibliothécaire Mae Paledust",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Forgefer",
+     "map_id": 1455,
+     "client": "1.60.1.70938",
+     "first_seen": 1794736194,
+     "last_seen": 1794736194
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1051": {
+   "id": 1051,
+   "name": "La vengeance de Vorrel",
+   "objectives": "Rapporter l'anneau de mariage de Vorrel Sengutz à Monica Sengutz à Moulin-de-Tarren.",
+   "description": "Bien que ma volonté soit intacte, je ne peux plus servir la Dame noire. Je sens que mes jours sur Azeroth vont prendre fin. Ma force de vie vole en éclats.\n\nC'est l'œuvre de l'Interrogateur Vishas ! Il m'a torturé pendant des semaines ! Il a pris mon anneau de mariage et l'a donné à sa femme. Le bâtard !\n\nVengeance... Je veux ma vengeance !\n\nCe pompeux imbécile s'est vanté de sa précieuse femme, Nancy, qui vit le long du lac de Lordamere. Traquez cette femme, assassinez-la et rendez mon anneau de mariage à ma femme Monika, à Moulin-de-Tarren.\n\nExaucez mes dernières volontés...",
+   "progress": "Que voulez-vous, vous que je ne connais pas ?",
+   "completion": "Vorrel a mené une existence si troublée. Et quel bon camarade de travail c'était. . .\n\nMaudits soient ces sales humains !\n\nVorrel est mort, il ne reviendra jamais à la vie. J'ai au moins la consolation de savoir que vous l'avez vengé. Pour cela, je vous remercie.\n\nMaintenant, laissez-moi seule pour pleurer. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3981,
+     "name": "Vorrel Sengutz"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3982,
+     "name": "Monika Sengutz"
+    }
+   ],
+   "zone_id": 796,
+   "level": 33,
+   "reqlevel": 25,
+   "side": "horde",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1053": {
+   "id": 1053,
+   "name": "Au nom de la Lumière",
+   "objectives": "Tuer le grand inquisiteur Whitemane, le commandant Mograine de la Croisade, le champion Herod de la Croisade et le maître-chien Loksey, et retourner faire un rapport à Raleigh le Dévot à Southshore.",
+   "description": "J'ai servi autrefois la Croisade écarlate avec honneur, fidélité et fierté. J'ai cru que sa cause était noble : débarrasser Azeroth des morts-vivants.\n\nMais lorsque je suis allé au Monastère, dans les Clairières de Tirisfal, je me suis rendu compte combien les frères perdaient le sens des réalités. Aujourd'hui, ils sont persuadés que tous ceux qui ne portent pas leur tabard sont des êtres tourmentés. Des hommes et des femmes innocents ont été torturés sous prétexte qu'ils étaient tourmentés.\n\nLa Croisade écarlate doit être écrasée au nom de la Lumière. C'est vous, <nom>, qui devez renverser ce régime fourvoyé.",
+   "progress": "La corruption au sein du monastère ne cessera pas tant que les fonctionnaires les plus haut placés n'auront pas été démis de leurs fonctions.\n\nAu nom de la Lumière, tuez le Haut Inquisiteur Whitemane, le Commandant Écarlate Mograine, Hérode, le Champion Écarlate et le Maître des Chiens Loksey. Une fois qu'ils seront tombés, la véritable cause pourra peut-être être ravivée. En attendant, quiconque croise le chemin de la croisade est en danger.\n\nPartez de Southshore et faites en sorte qu'il en soit ainsi !",
+   "completion": "Même si les disciples de la Lumière ne se délectent jamais de la perte d'une vie, nous devons parfois accepter de tels sacrifices pour le bien du royaume et la planète.\n\nPar vos actions au Monastère, vous avez épargné beaucoup de vies innocentes, <nom>. Je salue votre ténacité.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3980,
+     "name": "Raleigh le Dévot"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 3980,
+     "name": "Raleigh le Dévot"
+    }
+   ],
+   "zone_id": 796,
+   "level": 40,
+   "reqlevel": 34,
+   "side": "alliance",
+   "xp": 4700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1113": {
+   "id": 1113,
+   "name": "Des cœurs zélés",
+   "objectives": "Le maître apothicaire Faranell, à Undercity, veut 20 Cœurs zélés.",
+   "description": "Vous pourriez vous demander pourquoi j'ai besoin d'un type rare de guano. Eh bien, pour cette expérience, je veux voir quels effets deux substances chimiques diamétralement opposées peuvent avoir l'une sur l'autre, et spécialement lorsqu'elles sont combinées à un agent extrêmement toxique pour assurer les résultats les plus... effrayants.\n\nDans les pics au nord-est des Clairières de Tirisfal, vous trouverez le Monastère écarlate. Là, les disciples fanatiques de la Croisade se réunissent. Tuez-les et apportez-moi leur coeurs zélés.\n\nNotre mélange sera particulièrement diabolique !",
+   "progress": "Êtes-vous revenu du Monastère écarlate ? J'ai besoin de beaucoup de cœurs pour cette merveilleuse expérience !\n\nVarimathras et la Dame noire seront ravis d'être débarrassés de cette vermine écarlate.",
+   "completion": "Mais quelle effusion de sang, <nom> ! Vos efforts ont été plus que récompensés !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2055,
+     "name": "Maître apothicaire Faranell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2055,
+     "name": "Maître apothicaire Faranell"
+    }
+   ],
+   "zone_id": 796,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "1160": {
+   "id": 1160,
+   "name": "L'épreuve de la Connaissance",
+   "objectives": "Trouver « Les commencements de la menace des morts-vivants » et le rapporter à Parqual Fintallas à Undercity.",
+   "description": "Je vous dirai ce que vous devrez chercher, et je vous poserai même ma question, mais certainement pas parce que vous cherchez à vous prouver quelque chose à vous-même. La Connaissance est bien plus importante que la force. Même si d'autres vous surpassent en habileté, votre connaissance du monde vous sera précieuse.\n\nRendez-vous au Monastère au nord des Clairières de Tirisfal. Dans la bibliothèque, vous trouverez un livre intitulé « Les commencements de la menace des morts-vivants ». Il était utilisé par les paladins, désormais corrompus, pour leur entraînement contre ceux de ma race.\n\nApportez-le-moi.",
+   "progress": "J'espère que vous avez fait souffrir les membres de la Croisade écarlate avant de leur voler le livre.\n\nMon opinion sur ce groupe n'est pas injustifiée. Peut-être qu’à une certaine époque les membres de la Croisade ont cherché la Lumière, mais aujourd’hui ils cherchent à anéantir toutes les créatures qui ne partagent pas leur point de vue. Ils sont convaincus que tous les morts-vivants, Réprouvés ou autres, doivent être détruits et que ceux qui passent sur leurs territoires sont fous ou contaminés par les pouvoirs démoniaques. Idiots. Idiots et cruels. Tous autant qu'ils sont.",
+   "completion": "C'est le livre que je vous ai envoyé chercher.\n\n<Parqual contemple longuement le livre en passant sa main sur la couverture. >\n\nEt maintenant vous voulez que je vous pose une question pour que vous puissiez prouver que votre esprit est aussi puissant que votre corps et votre âme. Si vous avez suffisamment étudié le livre, je vous poserai la question et vous en aurez fini avec ces épreuves.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 4488,
+     "name": "Parqual Fintallas"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 4488,
+     "name": "Parqual Fintallas"
+    }
+   ],
+   "zone_id": 796,
+   "level": 36,
+   "reqlevel": 25,
+   "side": "horde",
+   "xp": 2100,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "96800": {
+   "id": 96800,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 264265,
+     "name": "Magus Olvek"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 264265,
+     "name": "Magus Olvek"
+    }
+   ],
+   "zone_id": 796,
+   "level": 38,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

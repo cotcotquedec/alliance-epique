@@ -1,0 +1,132 @@
+{
+ "schema": 1,
+ "zone": "miscellaneous/epic",
+ "zone_id": -1,
+ "zone_name": "Épique",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 2,
+  "complete": 2,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "8446": {
+   "id": 8446,
+   "name": "Voilé par le cauchemar",
+   "objectives": "Trouver quelqu’un capable de comprendre la signification de l’Objet noyé dans les cauchemars.\n\nPeut-être qu’un druide de grande puissance pourra vous aider.",
+   "description": "La corruption suinte de cet objet.\n\nIl doit exister un lien entre lui et les dragons qui ont surgi du Rêve. Vous devez trouver quelqu’un qui pourra comprendre la signification de cet objet. Peut-être que les druides de Reflet-de-Lune ou du Fort cénarien pourront vous aider plus avant.",
+   "progress": "Oui, <race> ?",
+   "completion": "Je dois ôter la souillure de cet objet. Cela pourra peut-être m’éclairer sur mes récents échecs pour approfondir ce qui se passe dans le Rêve. Donnez-le-moi.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 20644,
+     "name": "Nightmare Engulfed Object"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11832,
+     "name": "Gardien Remulos"
+    }
+   ],
+   "zone_id": -1,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": 9950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8447": {
+   "id": 8447,
+   "name": "L'éveil des légendes",
+   "objectives": "Attendre que le gardien Remulos de Reflet-de-Lune ait purifié l’Objet noyé dans les cauchemars.",
+   "description": "Les eaux du lac Elune'ara devraient dissoudre les cauchemars qui noient cet objet. Laissez-moi un moment pour effectuer la purification, <nom>.",
+   "progress": null,
+   "completion": "Prenez cet anneau, <nom>. Il a bien servi Malfurion. Il aura maintenant pour vous une autre utilité…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11832,
+     "name": "Gardien Remulos"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11832,
+     "name": "Gardien Remulos"
+    }
+   ],
+   "zone_id": -1,
+   "level": 60,
+   "reqlevel": 60,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

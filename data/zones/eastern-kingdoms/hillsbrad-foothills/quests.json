@@ -1,0 +1,3146 @@
+{
+ "schema": 1,
+ "zone": "eastern-kingdoms/hillsbrad-foothills",
+ "zone_id": 267,
+ "zone_name": "Contreforts de Hautebrande",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 56,
+  "complete": 54,
+  "incomplete": 2,
+  "unavailable": 0,
+  "missing_description": 2,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 5
+ },
+ "quests": {
+  "494": {
+   "id": 494,
+   "name": "Prêts à frapper",
+   "objectives": "Se rendre à Moulin-de-Tarren et délivrer le message du Traqueur noir Lesh à la Grande Exécutrice Darthalia.",
+   "description": "Taisez-vous et écoutez, <classe>.\n\nJ'ai été envoyée ici pour surveiller la ville d'Hillsbrad. C'est une mission de reconnaissance. Il est impératif que vous envoyiez immédiatement des nouvelles à la Grande Exécutrice Darthalia à Moulin-de-Tarren. Dites-lui que moi, le Traqueur noir Lesh, je lui transmets le message suivant :\n\n\"Le cri du corbeau retentit à l'ouest.\"\n\nSuivez la route vers l'est et faites bien attention aux panneaux. Allons, vite, partez pour Moulin-de-Tarren, et en toute hâte !",
+   "progress": null,
+   "completion": "Le cri du corbeau retentit à l'ouest ?\n\nExcellente nouvelle ! Hillsbrad est sur le point d'être attaqué. Nous pouvons mettre en marche notre plan de destruction maintenant. Varimathras sera content.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2214,
+     "name": "Traqueur noir Lesh"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2215,
+     "name": "Grande exécutrice Darthalia"
+    }
+   ],
+   "zone_id": 267,
+   "level": 20,
+   "reqlevel": 19,
+   "side": "horde",
+   "xp": 780,
+   "money": 600,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "496": {
+   "id": 496,
+   "name": "L'élixir de souffrance",
+   "objectives": "Apporter 10 Langues d'ours gris et de l'Ichor de Rampant à l'Apothicaire Lydon à Moulin-de-Tarren.",
+   "description": "Ah ! Un autre jour misérable à Moulin-de-Tarren ! Tout cet air pur me rend fou, <nom>.\n\nPlus vite nous répandrons l'épidémie parmi les humains, mieux ce sera. Je fais d'importantes recherches pour découvrir des agents mortels à utiliser dans mes décoctions, mais je n'ai pas eu le temps de les collecter tous.\n\nSi vous voulez vous rendre utile, trouvez-moi 10 Langues d'ours gris et du très rare Ichor de Rampant. Vous trouverez ces ingrédients juste à l'extérieur de Moulin-de-Tarren.",
+   "progress": "Je vois que vous êtes rentré. J'espère que vous avez pu rassembler les ingrédients dont j'avais besoin. Un autre jour sans mortalité me précipiterait dans la plus noire des mélancolies.",
+   "completion": "Ces spécimens sont parfaits. Bien, <nom>, vous avez réussi à m'apporter un soupçon de joie dans ce monde misérable. Vos efforts ont été appréciés.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "zone_id": 267,
+   "level": 22,
+   "reqlevel": 19,
+   "side": "horde",
+   "xp": 175,
+   "money": 150,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "498": {
+   "id": 498,
+   "name": "Sauvetage",
+   "objectives": "Selon les ordres de Krusk à Moulin-de-Tarren, libérer Drull et Tog'thar du Donjon de Durnholde.",
+   "description": "Moi et d'autres guerriers avons été envoyés par le Chef de guerre pour récupérer un objet à Durnholde et enquêter sur ce prétendu Syndicat.\n\nNous sommes allés à Durnholde pour jeter un coup d'œil, mais nous avons été surpris par un grand nombre d'humains. Nous nous sommes bravement battus, mais ils étaient plus nombreux. Ils se sont emparés de nous, mais je suis parvenu à m'échapper.\n\nDurnholde est au sud-est, de l'autre côté de la rivière. Drull et Tog'thar sont retenus là-bas, vous devez aller leur porter secours.",
+   "progress": "Vous devez vous hâter, <classe>. Je frémis à l'idée de ce que les humains pourraient faire à Drull et Tog'thar.",
+   "completion": "Alors comme ça les humains pensaient pouvoir faire de nos guerriers des esclaves ? Nous allons leur montrer de quoi nous sommes capables !\n\nIl semblerait qu'ils aient emmené Gol'dir, notre chef, ailleurs. Nous devons le retrouver et le libérer. Mais nous n'avons pour l'instant aucune idée de l'endroit où il peut être.\n\nQuand nous aurons une piste, vous serez le premier averti, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2229,
+     "name": "Krusk"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2229,
+     "name": "Krusk"
+    }
+   ],
+   "zone_id": 267,
+   "level": 22,
+   "reqlevel": 17,
+   "side": "horde",
+   "xp": 2200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "499": {
+   "id": 499,
+   "name": "L'élixir de souffrance",
+   "objectives": "Donner l'Elixir de souffrance à Umpi.",
+   "description": "Cela va prendre un petit moment d'associer ces ingrédients pour mettre au point ce qui s'appellera l'élixir de souffrance.\n\nNous y voilà ! Ah ! Rien de tel pour égayer une triste journée dans ces mornes contrées que d'insuffler un peu de souffrance dans le monde.\n\nVoyons voir si notre petite potion produit l'effet désiré.\n\nDonnez à mon assistant Umpi un avant-goût de ce que la Dame noire a prévu pour les humains et ceux du Fléau.",
+   "progress": "Coâ !",
+   "completion": "Coâââk…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2230,
+     "name": "Umpi"
+    }
+   ],
+   "zone_id": 267,
+   "level": 22,
+   "reqlevel": 19,
+   "side": "horde",
+   "xp": 1750,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "501": {
+   "id": 501,
+   "name": "L'élixir de douleur",
+   "objectives": "Apporter 10 Fioles de sang de lion des montagnes à l'Apothicaire Lydon à Moulin-de-Tarren.",
+   "description": "Oh ! <nom>… Les fleurs s’épanouissent à Hillsbrad et l'air est si pur et vif... Comme cela est triste et regrettable. Je regarde par ma fenêtre crasseuse et je me languis de voir notre Peste nouvelle se répandre et porter la mort à ce monde qui le mérite tant.\n\nBien sûr, je resterais bien à ruminer mes pensées morbides toute la journée, mais mon devoir envers la Dame noire ne peut attendre. Vous m'aiderez, n'est-ce pas ? Mes recherches m'ont permis de conclure que la plus mortelle des préparations s'obtient à partir du sang d'un lion des montagnes. Apportez m'en et vous verrez ce que je suis capable de faire.",
+   "progress": "Je me souviens de vous, <nom>. Vous alliez m'aider à concocter mon dernier élixir. Je vais avoir besoin de ce sang avant de pouvoir porter le malheur et la désolation aux habitants d'Hillsbrad.",
+   "completion": "Superbe collecte, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "zone_id": 267,
+   "level": 24,
+   "reqlevel": 21,
+   "side": "horde",
+   "xp": 1950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "502": {
+   "id": 502,
+   "name": "L'élixir de douleur",
+   "objectives": "Donner l’Elixir de douleur à Stanley.",
+   "description": "Ah ! Rien de tel que l'odeur du sang frais dans les collines !\n\nMaintenant, nous allons mélanger tout cela et commencer à nous amuser pour de bon ! Ce que j'ai créé à partir de ce sang, je l'appellerai l'élixir de douleur. Si mes calculs sont exacts, cette mixture pourrait bien être le début de la grande œuvre que je veux offrir à dame Sylvanas. Mais avant tout, nous avons besoin de faire un test.\n\nPrenez cet élixir et allez à la ferme la plus au nord dans les champs d'Hillsbrad, au sud-ouest. Et voyons comment Stanley, le petit chien du fermier Ray, apprécie cette \"douceur\".",
+   "progress": "Woof ?",
+   "completion": "Vous mettez de l'élixir dans le creux de votre main, et l'amenez à la bouche de Stanley.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2274,
+     "name": "Stanley"
+    }
+   ],
+   "zone_id": 267,
+   "level": 24,
+   "reqlevel": 21,
+   "side": "horde",
+   "xp": 1450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "503": {
+   "id": 503,
+   "name": "Gol'dir",
+   "objectives": "Libérer Gol'dir et retourner voir Krusk à Moulin-de-Tarren.",
+   "description": "D'après les documents que vous avez rapportés, Gol'dir est retenu dans une grande base du Syndicat, plus au nord, très certainement dans les monts Alterac. Il est captif depuis trop longtemps et doit être absolument libéré.",
+   "progress": "Donnez-moi la clé, <classe>, je vais ouvrir moi-même.",
+   "completion": "Merci, <nom>. Je dirigeais l'expédition de Durotar sous les ordres du Chef de guerre. Mais comme vous pouvez le voir, les choses ont mal tourné. Ils m'ont tenu captif dans cette ville, me forçant à travailler, à porter des fardeaux, à creuser des trous. . .\n\nMais ce que j'ai enduré n'est pas important. Vous devez transmettre des informations capitales à celui qui dirige maintenant notre groupe, quel qu'il soit.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2229,
+     "name": "Krusk"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2316,
+     "name": "Gol'dir"
+    }
+   ],
+   "zone_id": 267,
+   "level": 36,
+   "reqlevel": 29,
+   "side": "horde",
+   "xp": 2800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "506": {
+   "id": 506,
+   "name": "L'héritage de Blackmoore",
+   "objectives": "Transmettre l'information recueillie par Gol'dir à Krusk à Moulin-de-Tarren.",
+   "description": "Il y a quelques jours, j'ai reçu la visite du leader de ce Syndicat. Son nom est Aliden Perenolde et il se prend pour le seigneur de ce pays. Il m'a confié qu'il voulait utiliser les orcs qui s'insurgent contre lui comme esclaves, exactement comme le voulait son père et mentor, le méprisable Blackmoore.\n\nPlus important : il est venu en compagnie de sa maîtresse, une petite femme nommée Elysa, qui portait autour du cou le pendentif que le Chef de guerre désire tant.\n\nPartez maintenant, je me débrouillerai pour régler mes affaires.",
+   "progress": null,
+   "completion": "Le sang-froid de ces humains dominateurs est invraisemblable ! Nous allons leur montrer que les orcs ne se plieront jamais à leur volonté !\n\nCeci sera notre mission, en plus de celle de récupérer la breloque que le Chef de guerre désire tant. Nous pourrions ainsi faire d'une pierre deux coups.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2316,
+     "name": "Gol'dir"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2229,
+     "name": "Krusk"
+    }
+   ],
+   "zone_id": 267,
+   "level": 36,
+   "reqlevel": 29,
+   "side": "horde",
+   "xp": 2100,
+   "money": 3000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "507": {
+   "id": 507,
+   "name": "Seigneur Aliden Perenolde",
+   "objectives": "Tuer le seigneur Aliden Perenolde et interroger sa maîtresse, Elysa, au sujet du pendentif de Taretha.",
+   "description": "Il est évident que Perenolde doit être tué pour que son influence néfaste disparaisse de la surface de ce monde. Son manoir se trouve au nord, sur les rives du lac Lordamere. Faites votre devoir, <nom>, et récupérez le pendentif pour le Chef de guerre.",
+   "progress": "Qu-que voulez-vous ?",
+   "completion": "Non, non, je vous en supplie, ne me tuez pas ! Je n'ai jamais voulu faire de mal à votre peuple. J'étais sous sa domination ! S'il vous plaît, épargnez-moi !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2229,
+     "name": "Krusk"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2317,
+     "name": "Elysa"
+    }
+   ],
+   "zone_id": 267,
+   "level": 42,
+   "reqlevel": 29,
+   "side": "horde",
+   "xp": 4300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "508": {
+   "id": 508,
+   "name": "Le cadeau de Taretha",
+   "objectives": "Rapporter le Pendentif de Taretha à Krusk à Moulin-de-Tarren.",
+   "description": "Le Pendentif ? Bien sûr que vous pouvez l'avoir, prenez-le ! Je ne veux garder de lui aucun souvenir… Laissez-moi tranquille, je ne vous demande rien d'autre.",
+   "progress": "Vous êtes rentré, <nom>. Avez-vous réussi ?",
+   "completion": "Il est singulier que le Chef de guerre ait dépensé autant d'énergie pour une si petite chose. Je ne prétends pas le comprendre, mais je le suivrai et obéirai, quels que soient ses ordres. Vous avez bien travaillé, <nom>, et il n'y a pas à douter que le Chef de guerre sera content d'apprendre votre succès.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2317,
+     "name": "Elysa"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2229,
+     "name": "Krusk"
+    }
+   ],
+   "zone_id": 267,
+   "level": 40,
+   "reqlevel": 29,
+   "side": "horde",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "509": {
+   "id": 509,
+   "name": "L'élixir d'agonie",
+   "objectives": "Apporter 6 Fleurs de fangemufle à l'Apothicaire Lydon à Moulin-de-Tarren.",
+   "description": "À chaque jour son élixir. Si cela ne tenait qu'à moi, je laisserais bien ces humains pathétiques et le Fléau se combattre. Ceux-là semblent nés pour s'entre-tuer.\n\nMais la Dame noire veut accélérer le processus, alors pourquoi ne pas passer ces longues et morbides journées à répandre un peu de peste et de mort à travers le pays ?\n\nVoici le plan, <nom> : vous irez à la ferme des Nethander, au sud de Moulin-de-Tarren et à l'est de la rivière et de Southshore. Collectez 6 Fleurs de fangemufle dans les champs et rapportez-les-moi que je puisse achever mon prochain élixir.",
+   "progress": "Bonne pêche à la ferme des Nethander ?",
+   "completion": "Ah ! L'horrible puanteur des fleurs de fangemufle. Au moins ces immondes gnolls sont bons à quelque chose.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "zone_id": 267,
+   "level": 28,
+   "reqlevel": 24,
+   "side": "horde",
+   "xp": 2300,
+   "money": 2500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "513": {
+   "id": 513,
+   "name": "L'élixir d'agonie",
+   "objectives": "Apporter la Poudre de fangemufle au Maître Apothicaire Faranell à Undercity.",
+   "description": "Alors que je me résignais à l'idée qu'un autre jour allait s'achever exempt de toute joie, vous m'apportez ces merveilleuses fleurs de fangemufle.\n\nJe vais d'abord les réduire en une fine poudre. Nous aurons alors besoin que le Maître Apothicaire Faranell à Undercity lui applique son colloïde de virulence. Après, on devrait plutôt s'amuser, je crois...\n\nTenez, prenez cette Poudre de fangemufle et courez immédiatement voir maître Faranell, <nom>.",
+   "progress": "Ne voyez-vous pas que je suis occupé, <classe> ? La Dame noire insiste pour qu'une Peste nouvelle soit prête avant que le Fléau de Northrend ne nous submerge. Et avec les humains qui arrivent par le sud, le temps est mon bien le plus précieux. J'espère que c'est important.",
+   "completion": "L'apothicaire Lydon vous envoie ? Ah, pourquoi ne pas l'avoir dit plus tôt !\n\nMalgré son humeur un peu sombre, l'apothicaire Lydon est l'un de nos membres les plus consciencieux et les plus éminents.\n\nAinsi, notre bon ami envoie de la Poudre de fangemufle ! Je sais ce que notre compagnon d'Hillsbrad prépare en ce moment. Et j'aime la façon dont il pense. La Dame noire serait impressionnée des progrès qu'il accomplit pour concocter une Peste nouvelle.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2055,
+     "name": "Maître apothicaire Faranell"
+    }
+   ],
+   "zone_id": 267,
+   "level": 28,
+   "reqlevel": 24,
+   "side": "horde",
+   "xp": 1150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "515": {
+   "id": 515,
+   "name": "L'élixir d'agonie",
+   "objectives": "Apporter le Brouet de fangemufle, une Potion de sang de troll forte, 5 Ecailles de Daguéchine et 5 Yeux d'Ailerons déchirés à l'Apothicaire Lydon à Moulin-de-Tarren.",
+   "description": "Un composé à base de fangemufle ? Absolument merveilleux ! Pourquoi n'y ai-je pas pensé ? Laissez-moi appliquer de mon colloïde de virulence à cette diabolique mixture.\n\nAfin d'activer les agents contaminateurs de ce brouet de fangemufle, Lydon aura besoin d'une potion de sang de troll forte, d'écailles de Daguéchine et d'yeux d'Ailerons déchirés de la côte méridionale. Il saura quoi faire une fois que vous aurez réuni tous les ingrédients. Ah ! j'ai tellement hâte d'apprendre ce que l'expérience va donner.",
+   "progress": "Je suis tellement heureux de vous revoir, <nom>. Je commençais à me morfondre misérablement ici. Rien à faire d'amusant si ce n'est empoisonner Umpi et la rendre malade, puis la réanimer. . . encore et encore.\n\nComment s'est passé le voyage à Undercity ? Avez-vous eu la chance de massacrer quelques humains le long de la route ?",
+   "completion": "Ce projet me rend tout fou d'excitation. Vous avez été d'un tel secours, <nom>. Ensemble nous répandrons la mort et la maladie à travers cette terre !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2055,
+     "name": "Maître apothicaire Faranell"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "zone_id": 267,
+   "level": 30,
+   "reqlevel": 24,
+   "side": "horde",
+   "xp": 3050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "517": {
+   "id": 517,
+   "name": "L'élixir d'agonie",
+   "objectives": "Apporter un baril de Bière Shindigger à l'Apothicaire Lydon à Moulin-de-Tarren.",
+   "description": "Ce nouvel élixir est enfin prêt à être testé. Mais pourquoi gâcher une si bonne et si contagieuse peste sur une pauvre grenouille ou un chien famélique ? Amusons-nous un peu, au nom de Dame Sylvanas.\n\nDescendez à Dun Garok. Vous connaissez les casernes où ces sales petits nains s’agitent partout ? Volez un baril de leur Bière Shindigger pour moi. Une fois que j'aurai ce baril, nous pourrons commencer la fête, vous et moi, <nom>.",
+   "progress": "Parfois je m'ennuie tellement ici à Moulin-de-Tarren que j'aimerais ouvrir la jarre de formaldéhyde et laisser son délicat arôme envahir l’air. Cela rend Umpi un peu nerveuse, toutefois…\n\nAlors, avez-vous réussi à dérober un baril aux nains ? Je jure que si je dois regarder cet élixir fatal un jour de plus sans pouvoir l'utiliser sur quelqu'un, je vais me mettre à hurler.",
+   "completion": "Enfin ! Nous sommes prêts à passer à l'action.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "zone_id": 267,
+   "level": 30,
+   "reqlevel": 24,
+   "side": "horde",
+   "xp": 1200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "518": {
+   "id": 518,
+   "name": "La Couronne de Volonté",
+   "objectives": "Tuer 14 Mutilateurs Cassecrête pour Melisara à Moulin-de-Tarren.",
+   "description": "Mug'Thol et ses ogres Cassecrête ont envahi les ruines d'Alterac. Il va être difficile de lui infliger une sérieuse punition sans d’abord entamer ses troupes.\n\nAprès les avoir réduites à la portion congrue, nous l’attaquerons.\n\nCompris ? Bien. Allez-y à présent.",
+   "progress": "Je constate que votre tâche est inachevée, <nom>. Dois-je informer Sharlindra de votre inaptitude ?",
+   "completion": "La neige est rouge du sang des ogres, mais nous ne pouvons pas relâcher nos efforts tant que les forces et la volonté des ogres Cassecrête ne sont pas écrasées et enterrées loin sous la terre et sous la neige.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2278,
+     "name": "Melisara"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2278,
+     "name": "Melisara"
+    }
+   ],
+   "zone_id": 267,
+   "level": 39,
+   "reqlevel": 34,
+   "side": "horde",
+   "xp": 2250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "519": {
+   "id": 519,
+   "name": "La Couronne de Volonté",
+   "objectives": "Tuer Targ, Fouilleboue et Glommus, puis apporter leurs têtes à Melisara à Moulin-de-Tarren.",
+   "description": "Targ, Fouilleboue et Glommus sont les lieutenants de Mug'Thol. Ils lui sont loyaux, bien que personne ne sache vraiment ce qui peut amener un ogre à la loyauté.\n\nApportez-moi leurs têtes, <nom>, et alors tout ce qu'il restera à faire sera de s'occuper de celle de Mug'Thol, de sa couronne, et du reste.",
+   "progress": "Je veux leurs têtes, <nom>, pas des excuses !",
+   "completion": "…Et moi qui pensais que les ogres sentaient mauvais…\n\nQuand vous m'apporterez la tête de Mug'Thol, ces quatre-là iront sur une pique, en haut d'Alterac. Un monument parfait à la gloire de ceux qui vont à l'encontre des souhaits de la Dame noire.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2278,
+     "name": "Melisara"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2278,
+     "name": "Melisara"
+    }
+   ],
+   "zone_id": 267,
+   "level": 41,
+   "reqlevel": 34,
+   "side": "horde",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "520": {
+   "id": 520,
+   "name": "La Couronne de Volonté",
+   "objectives": "Tuer Mug'Thol et présenter sa tête et la Couronne de Volonté à Melisara, à Moulin-de-Tarren.",
+   "description": "À présent que les lieutenants de Mug'Thol sont morts, tout ce qu'il reste à faire est de tuer Mug'Thol et de récupérer la Couronne de Volonté. Je ne crois pas qu'il veuille la donner gentiment. Et encore moins à vous, si l'on considère la façon dont ses amis sont... partis.\n\nTrouvez Mug'Thol, et présentez-moi sa tête et la Couronne. Le glas sonnera alors pour la résistance des Cassecrête.",
+   "progress": "J'ai trois têtes, il m'en faut quatre. Ce sera celle de Mug'Thol, ou bien la vôtre, <nom>. Ça, je le promets.",
+   "completion": "Vous avez accompli avec succès votre devoir, <nom>. La tête de Mug'Thol ornera la plus haute pique d'Alterac, et les Gardes noirs balaieront les restes de la résistance des Cassecrête.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2278,
+     "name": "Melisara"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2278,
+     "name": "Melisara"
+    }
+   ],
+   "zone_id": 267,
+   "level": 43,
+   "reqlevel": 34,
+   "side": "horde",
+   "xp": 4450,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "521": {
+   "id": 521,
+   "name": "La Couronne de Volonté",
+   "objectives": "Remettre la Couronne de Volonté à Sharlindra, à Undercity.",
+   "description": "Tout ce qu'il reste à faire est de donner la Couronne de Volonté à Sharlindra, à Undercity. Elle veillera à ce que la Couronne soit remise à Dame Sylvanas. Je vous déconseille de penser à la coiffer à vos propres fins, <nom>. Le sort de Mug'Thol est assez éloquent.",
+   "progress": "Oui ? Avez-vous un rapport à me faire ?",
+   "completion": "Ainsi voilà la relique dont s'est servi l'ogre pour faire plier la volonté de la Dame noire…\n\nC'est étrange qu'un objet aussi simple d'apparence puisse détenir un pouvoir aussi grand. Et pour tomber entre des mains aussi maladroites… Parfait, <nom>, je vais remettre la Couronne à dame Sylvanas, et veiller à ce qu'elle ait vent de votre exploit.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2278,
+     "name": "Melisara"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2227,
+     "name": "Sharlindra"
+    }
+   ],
+   "zone_id": 267,
+   "level": 43,
+   "reqlevel": 34,
+   "side": "horde",
+   "xp": 3600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "524": {
+   "id": 524,
+   "name": "L'élixir d'agonie",
+   "objectives": "Placer le Baril infecté sur le tapis pour les fermiers détenus comme otages.",
+   "description": "A côté, les Gardes noirs détiennent quelques fermiers pris en otage. La Grande Exécutrice Darthalia suspectait qu'un des stratèges de Stormwind se cache parmi eux. Apparemment, le pauvre militaire a été retrouvé mort dans les Maleterres la nuit dernière. Darthalia, toujours aux petits soins pour moi, a décidé de me laisser faire ce que je voulais avec les fermiers.\n\nJe pense qu'il est temps de leur préparer une petite fête. Comme au bon vieux temps !\n\nPlacez ce baril infecté sur le tapis, dans leur pièce. Tournée générale bière pestilentielle !",
+   "progress": "Une odeur de moisi émane du tapis.",
+   "completion": "Vous placez le baril infecté sur la couverture poussiéreuse.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2216,
+     "name": "Apothicaire Lydon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 1728,
+     "name": "Dusty Rug"
+    }
+   ],
+   "zone_id": 267,
+   "level": 30,
+   "reqlevel": 24,
+   "side": "horde",
+   "xp": 3650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "527": {
+   "id": 527,
+   "name": "La bataille d'Hillsbrad",
+   "objectives": "Tuer 6 Garçons de ferme, 6 Fermiers, le Fermier Ray et le Fermier Getz, puis retourner voir Darthalia à Moulin-de-Tarren.",
+   "description": "Mettez-vous au garde-à-vous lorsque vous vous adressez à moi, <classe> ! Je suis sous le commandement direct de Varimathras. Nous devons neutraliser la prolifération des humains jusqu'à ce que nos apothicaires développent la Peste nouvelle.\n\nNos services de renseignements pensent que la ville d'Hillsbrad serait vulnérable à une attaque. Votre première mission consiste à perturber leur approvisionnement et le stockage de nourriture.\n\nPartez à l'ouest. Faites une incursion dans les fermes les plus au nord des Champs d'Hillsbrad. Assurez-vous que leurs propriétaires, les fermiers Ray et Getz, soient exécutés.",
+   "progress": "En tant que Haute Exécutrice de Moulin-de-Tarren, placée sous le commandement direct de Varimathras et de la Dame noire, vous devez m’obéir.\n\nPeut-être prenez-vous cette guerre contre l'Alliance à la légère ? Si tel est le cas, je vous décapiterai ici même, sur l'heure. Sinon, partez à l'ouest, vers la ville d'Hillsbrad et lancez l'assaut contre les humains, comme je vous l'ai ordonné.\n\nRompez.",
+   "completion": "Repos, <classe>. Je vois que vous revenez de la bataille. Mes sources indiquent que vous vous êtes bien comporté sur le front d'Hillsbrad.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2215,
+     "name": "Grande exécutrice Darthalia"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2215,
+     "name": "Grande exécutrice Darthalia"
+    }
+   ],
+   "zone_id": 267,
+   "level": 24,
+   "reqlevel": 19,
+   "side": "horde",
+   "xp": 1950,
+   "money": 1700,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "528": {
+   "id": 528,
+   "name": "La bataille d'Hillsbrad",
+   "objectives": "Tuer 15 Paysans d'Hillsbrad et faire votre rapport à Darthalia à Moulin-de-Tarren.",
+   "description": "La nouvelle de l'attaque sur les fermes situées au nord a semé la panique chez les gens de la ville. Merveilleux !\n\nNos Traqueurs noirs rapportent que les paysans fuient vers les champs au sud d'Hillsbrad. Ces imbéciles pensent qu'ils peuvent s’y cacher et ainsi échapper à leur sort.\n\nMontrez-leur qu'ils ont tort, <nom>. Retournez aux Champs d'Hillsbrad et traquez les paysans qui s'y tapissent. Apportez-leur le chaos au nom de la Dame noire.\n\nRompez !",
+   "progress": "Vous avez vos ordres, <classe>. Arrêtez de lambiner ici à Tarren Mill alors qu'il y a du travail à faire ailleurs.",
+   "completion": "L'étreinte de la mort se resserre sur la ville d'Hillsbrad. La bataille se déroule bien.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2215,
+     "name": "Grande exécutrice Darthalia"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2215,
+     "name": "Grande exécutrice Darthalia"
+    }
+   ],
+   "zone_id": 267,
+   "level": 25,
+   "reqlevel": 19,
+   "side": "horde",
+   "xp": 2000,
+   "money": 1800,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "529": {
+   "id": 529,
+   "name": "La bataille d'Hillsbrad",
+   "objectives": "Tuer le Forgeron Verringtan et 4 Apprentis Forgerons d'Hillsbrad.\n\nRécupérer un Chargement de fer, puis retourner voir Darthalia à Moulin-de-Tarren.",
+   "description": "Les humains d'Hillsbrad ont fait montre d'une résistance inattendue. Le problème semble être que les gens de la ville sont équipés par le forgeron local. Nous devons couper cet approvisionnement.\n\nVotre mission consiste à exécuter le forgeron Verringtan. Tuez également ses apprentis. Pendant que vous y serez, ramenez un chargement de fer prélevé dans leur stock. Cela se révélera pratique lorsque nous aurons achevé la conquête d'Hillsbrad et que nous entreprendrons de raser Southshore.",
+   "progress": "Avez-vous exécuté vos ordres, <classe> ? Nous avez-vous débarrassés de Verringtan et de ses apprentis ? Et où est ce fer ?",
+   "completion": "Mission accomplie, <classe>. Et avec panache, pourrais-je ajouter.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2215,
+     "name": "Grande exécutrice Darthalia"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2215,
+     "name": "Grande exécutrice Darthalia"
+    }
+   ],
+   "zone_id": 267,
+   "level": 26,
+   "reqlevel": 19,
+   "side": "horde",
+   "xp": 2100,
+   "money": 2000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "532": {
+   "id": 532,
+   "name": "La bataille d'Hillsbrad",
+   "objectives": "Tuer le Magistrat Burnside et 5 Conseillers d'Hillsbrad. Détruire la Proclamation d'Hillsbrad. Voler le Registre municipal d'Hillsbrad. Rendre compte à Darthalia à Moulin-de-Tarren.",
+   "description": "La ville d'Hillsbrad est en pleine confusion et nous pensons qu'elle va bientôt tomber. Nous devons cependant persister dans notre barbarie jusqu'à ce que ces chiens d'humains soient balayés des collines pour l'éternité.\n\nMalgré leurs pertes écrasantes, les humains se rassemblent autour de leurs chefs et continuent à se battre. Nous devons éliminer leur chef, le maire Burnside, de même que le conseil municipal. Détruisez également leur très précieux document politique, la Proclamation d'Hillsbrad. Et pendant que vous y êtes, volez le Registre municipal.",
+   "progress": "Quelles nouvelles apportez-vous ?",
+   "completion": "Les nouvelles de vos exploits à Hillsbrad se sont vite propagées. Vous avez bien œuvré, <classe>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2215,
+     "name": "Grande exécutrice Darthalia"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2215,
+     "name": "Grande exécutrice Darthalia"
+    }
+   ],
+   "zone_id": 267,
+   "level": 26,
+   "reqlevel": 19,
+   "side": "horde",
+   "xp": 2100,
+   "money": 2000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "533": {
+   "id": 533,
+   "name": "Infiltration",
+   "objectives": "Rapporter des informations sur la localisation de Gol'dir pour Krusk, à Moulin-de-Tarren.",
+   "description": "Nous avons enfin des nouvelles et des rumeurs, des indices sur l'endroit où pourrait être Gol'dir. Les humains l'ont emmené à divers endroits, mais nos recherches aboutissent au grand camp du Syndicat au nord d'ici.\n\nAllez-y, <nom>, et ramenez toutes les informations sur lesquelles vous pouvez mettre la main.",
+   "progress": "Avez-vous découvert quelque chose ? J'ai peur que les espoirs de Gol'dir s'amenuisent de jour en jour.",
+   "completion": "Enfin, nous savons où est détenu Gol'dir. Le camp en question n'est pas très loin d'ici, et espérons qu’ils ne seront pas aussi préparés que lorsqu'ils nous ont capturés la première fois.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2229,
+     "name": "Krusk"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2229,
+     "name": "Krusk"
+    }
+   ],
+   "zone_id": 267,
+   "level": 34,
+   "reqlevel": 29,
+   "side": "horde",
+   "xp": 2700,
+   "money": 3500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "536": {
+   "id": 536,
+   "name": "Le long de la côte",
+   "objectives": "Tuer 10 Chasse-marées et 10 Oracles Aileron déchiré pour le lieutenant Farren Orinelle à Southshore.",
+   "description": "Transféré de la garde de la cité de Stormwind à Southshore, une ville visiblement abandonnée… L'odeur du port jour et nuit.\n\nSans parler du vieux Redpath… Veut que je m'occupe des murlocs. Ha !\n\nJ'ai du mal à m'imaginer allant jusqu'à l'une des enclaves de ces grotesques poissons mutants qui grouillent le long du Rivage occidental. Si vous pouviez y aller et vous occuper d'eux, j'apprécierais.",
+   "progress": "Une autre bière, s'il vous plaît, la dernière semble avoir disparu !\n\nLumière, combien de temps vais-je encore rester coincé ici ?\n\nOh, c'est toi, <nom>. As-tu déjà tué ces murlocs ?",
+   "completion": "J'espère que cela suffira à convaincre Redpath que j'ai – ha ! – exécuté ses ordres et débarrassé Southshore de la terrible menace des redoutables murlocs du lac Lordamere ! Car il n'y a pas de mal plus grand que les ravages de ces poissons mutants !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2228,
+     "name": "Lieutenant Farren Orinelle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2228,
+     "name": "Lieutenant Farren Orinelle"
+    }
+   ],
+   "zone_id": 267,
+   "level": 30,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 1850,
+   "money": 2100,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "539": {
+   "id": 539,
+   "name": "La bataille d'Hillsbrad",
+   "objectives": "Tuer le Contremaître Bonds et 10 Mineurs d'Hillsbrad, puis rendre compte à Darthalia, à Moulin-de-Tarren.",
+   "description": "Le Registre municipal d'Hillsbrad indique que la Mine d'Azureload est sous le contrôle de l'Alliance. De plus, c’est une source importante de minerai de fer destinée aux armureries de l'Alliance.\n\nMême si nous avons porté un coup décisif à la ville d'Hillsbrad, l'Alliance soutient et protège toujours la Mine d'Azureload.\n\nElle se trouve au sud d'Hillsbrad. Allez-y et tuez le contremaître, un humain du nom de Bonds. Tuez également ses Mineurs. Cela devrait envoyer un message fort à l'Alliance.",
+   "progress": "Vous avez reçu l'ordre direct d'attaquer la mine d'Azureload. Vos raisons de flâner à Tarren Mill ont intérêt à être bonnes ou je vous décapiterai pour trahison.",
+   "completion": "La Dame noire sera ravie d'apprendre qu'elle possède une nouvelle mine avec laquelle elle pourra armer ses soldats.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2215,
+     "name": "Grande exécutrice Darthalia"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2215,
+     "name": "Grande exécutrice Darthalia"
+    }
+   ],
+   "zone_id": 267,
+   "level": 28,
+   "reqlevel": 19,
+   "side": "horde",
+   "xp": 2300,
+   "money": 2500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "540": {
+   "id": 540,
+   "name": "L'entretien des connaissances",
+   "objectives": "Apporter 5 Tomes retrouvés, ainsi que le Livre de cuir usé « Le Bras de Gri'lek » au Maître des traditions Dibbs, à Southshore.",
+   "description": "Ces ogres répugnants résident à présent dans les ruines d'Alterac, et je frémis à l'idée de ce qu'ils peuvent faire des précieux livres qui s'y trouvent.\n\nPénétrez dans les ruines d'Alterac et récupérez des tomes sur les ogres. Prenez tout ce que vous trouverez, mais cherchez également le livre suivant : « Le Bras de Gri'lek ». C’est un recueil d’anciennes légendes trolls que je dois lire. Les ruines d'Alterac sont le dernier endroit où se trouve une copie intacte de cet ouvrage.",
+   "progress": "J'aimerais moi aussi explorer les mines, mais j'ai bien peur que ma carcasse refuse d’escalader les montagnes. Et vous, <nom>, comment votre soif de savoir s'étanche-t-elle ?",
+   "completion": "Oh ! vous les avez. Splendide ! Je dois commencer immédiatement l'étude du Bras de Gri'lek !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2277,
+     "name": "Maître des traditions Dibbs"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2277,
+     "name": "Maître des traditions Dibbs"
+    }
+   ],
+   "zone_id": 267,
+   "level": 38,
+   "reqlevel": 20,
+   "side": "alliance",
+   "xp": 3550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "541": {
+   "id": 541,
+   "name": "La bataille d'Hillsbrad",
+   "objectives": "Aller à Dun Garok et tuer 10 Montagnards, 8 Fusiliers, 4 Prêtres et le Capitaine Ironhill, puis rendre compte à Darthalia, à Moulin-de-Tarren.",
+   "description": "Des nains aidant des humains ? Que ces affreuses petites bêtes soient maudites.\n\nNous allons tester la force de cette prétendue Alliance. Nous verrons à quel point ces cogneurs de chevilles sont déterminés à aider les humains une fois que nous serons passés. Nous savons précisément où se trouve leur forteresse dans ce territoire.\n\nIls ont établi une caserne dans la partie sud-est d'Hillsbrad, le long du Mur de Thoradin. La mission est d'attaquer cette caserne, baptisée Dun Garok, <classe>. Le capitaine Ironhill, leur chef, doit mourir.",
+   "progress": "Dun Garok s'avère être un obstacle trop important pour vous, <classe> ? Et moi qui pensais que tu t'étais vaillamment établi à Hillsbrad.\n\nSi vous n'êtes pas à la hauteur de la mission qui vous a été confiée, je trouverai un autre qui pourra produire de meilleurs résultats. Quant à vous, je suis sûr que la Dame Sombre a toujours besoin de plus de fossoyeurs dans la Clairière de Tirisfal.",
+   "completion": "Vos actions sur le champ de bataille sont dignes des plus grands éloges.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2215,
+     "name": "Grande exécutrice Darthalia"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2215,
+     "name": "Grande exécutrice Darthalia"
+    }
+   ],
+   "zone_id": 267,
+   "level": 30,
+   "reqlevel": 19,
+   "side": "horde",
+   "xp": 2450,
+   "money": 2500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "544": {
+   "id": 544,
+   "name": "L'invasion de la prison",
+   "objectives": "Trouver les traîtres et récupérer les artefacts, puis retourner voir le magus Voidglare à Moulin-de-Tarren.",
+   "description": "Je suis venu à Moulin-de-Tarren pour effectuer des recherches, mais je dois à présent résoudre une crise. Voyez-vous, quatre Réprouvés se sont enfuis d'Undercity il y a quelques mois. Ils ont trahi leurs semblables, mais pire encore : ils ont volé la Dame noire.\n\nCes voleurs ont forcé un coffre et se sont emparés de quatre artefacts, des objets dont nos apothicaires ont besoin pour leurs études. Dame Sylvanas veut récupérer ces artefacts.\n\nLes voleurs ont fui à Dalaran, et là-bas les sorciers les ont placés en quarantaine dans le Camp d'internement de Lordamere.",
+   "progress": "Avez-vous trouvé les voleurs ? Et plus important, avez-vous ramené ce qu'ils ont volé ?",
+   "completion": "Vous avez rendu un grand service aux Réprouvés, <nom>. Ces artefacts nous manquaient beaucoup.\n\nEt il est bon de savoir que Kegan et les autres traîtres ont rencontré la justice.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2410,
+     "name": "Magus Wordeen Voidglare"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2410,
+     "name": "Magus Wordeen Voidglare"
+    }
+   ],
+   "zone_id": 267,
+   "level": 34,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 3350,
+   "money": 7000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "545": {
+   "id": 545,
+   "name": "Les patrouilles de Dalaran",
+   "objectives": "Tuer 6 Invocateurs de Dalaran et 12 Esclaves élémentaires, puis retourner voir le magus Voidglare à Moulin-de-Tarren.",
+   "description": "Les Sorciers de Dalaran ont construit un vaste dôme magique autour du cœur de leur cité. Certains croient qu'il s'agissait de se protéger des violences de cette époque, d'autres pensent qu'ils recherchaient simplement la solitude, pour étudier et comploter.\n\nJe ne m'intéresse pas à la raison. En revanche, ce qui m'intéresse, c’est que la périphérie de la ville en ruine, autour du dôme, puisse abriter des trésors magiques.\n\nMais les Sorciers et leurs Esclaves élémentaires patrouillent ce secteur.\n\nChassez-les donc, et revenez lorsque leur nombre sera conséquemment réduit.",
+   "progress": "Avez-vous déjà réduit les patrouilles de Dalaran autour de leurs ruines ?",
+   "completion": "Très bien. Ces ruines sont à présent suffisamment sécurisées pour que nous puissions commencer les recherches, si l'on est assez prudent. Merci, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2410,
+     "name": "Magus Wordeen Voidglare"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2410,
+     "name": "Magus Wordeen Voidglare"
+    }
+   ],
+   "zone_id": 267,
+   "level": 35,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 2050,
+   "money": 2500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "546": {
+   "id": 546,
+   "name": "Souvenirs de morts",
+   "objectives": "Le Garde noir Samsa du Moulin-de-Tarren veut 30 Crânes d'humains d'Hillsbrad.",
+   "description": "J'ai entendu dire que vous étiez <recruté/recrutée> par Darthalia pour mener l'offensive contre les humains d'Hillsbrad. Je vous envie tellement…\n\nTandis que vous vous amuserez – à tuer des humains, à piller, à terroriser les innocents – je resterai coincé ici, à Moulin-de-Tarren, à monter la garde et à me morfondre.\n\nPeut-être prendrez-vous en pitié un vieux Garde noir comme moi ? Vous remarquez que je fais la collection de crânes. Et vous allez combattre des humains pendant quelque temps, je crois. Au gré de votre longue bataille, vous récolterez bien quelques crânes, apportez-moi-en 30 et je vous rendrai la pareille d'une belle façon.",
+   "progress": "Ainsi le chanceux <nom> est de retour ? Combien d'humains avez-vous massacré aujourd'hui ? Des centaines j'espère !\n\nAvez-vous quelques crânes pour moi ?",
+   "completion": "Précieux crânes. Ils sont tellement beaux ! Je vous suis redevable, <nom>, comme promis.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2418,
+     "name": "Garde noir Samsa"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2418,
+     "name": "Garde noir Samsa"
+    }
+   ],
+   "zone_id": 267,
+   "level": 25,
+   "reqlevel": 20,
+   "side": "horde",
+   "xp": 2550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "recruté/recrutée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "547": {
+   "id": 547,
+   "name": "Epée d'Humbert",
+   "objectives": "Retrouver l'Epée du Garde noir Humbert et la lui retourner à Moulin-de-Tarren.",
+   "description": "La Grande Exécutrice Darthalia m'a envoyé surveiller Dun Garok de loin. J'ai établi mon camp juste au-delà de leur champ de vision. Mais ce matin, pour faire bouillir de l'eau, je suis allé chercher du bois.\n\nQuand je suis revenu au camp, j'ai découvert que mon équipement avait disparu.\n\nApparamment, des éclaireurs nains de Dun Garok sont passés par là et repartis avec mon matériel. J'ai besoin de mon épée ! Si vous pouviez la retrouver et me la rendre, je serais tellement reconnaissant. Il y a tellement de nains par ici. Ça va être très difficile de retrouver le sale petit voleur qui l'a dérobée.",
+   "progress": "Avez-vous pu retrouver mon épée, <nom> ? La Grande Exécutrice Darthalia me pendra haut et court si elle découvre ma sottise.",
+   "completion": "Vous l'avez trouvée !\n\nAh ! je me sens enfin entier avec ma si précieuse épée à nouveau en main. Merci infiniment à vous !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2419,
+     "name": "Garde noir Humbert"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2419,
+     "name": "Garde noir Humbert"
+    }
+   ],
+   "zone_id": 267,
+   "level": 30,
+   "reqlevel": 26,
+   "side": "horde",
+   "xp": 3050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "549": {
+   "id": 549,
+   "name": "ON RECHERCHE : Personnel du Syndicat",
+   "objectives": "Tuer 10 Voleurs et 10 Gardiens du Syndicat, puis aller voir la Grande Exécutrice Darthalia à Moulin-de-Tarren pour votre récompense.",
+   "description": "Au nom de l'autorité de Dame Sylvanas, tous les membres de l'organisation connue sous le nom du Syndicat sont recherchés. Ceux conduits à la garde ou faits prisonniers seront sommairement exécutés. Nous savons qu’actuellement ils se rassemblent dans les ruines du Donjon de Durnholde, au sud-est de Moulin-de-Tarren.\n\nUne récompense est offerte à quiconque apporte la preuve de ses actions à la Grande Exécutrice Darthalia.",
+   "progress": "N'avez-vous rien de mieux à faire que de vous tenir devant moi, <classe> ? En tant que Grand Exécuteur, j'ai des choses plus urgentes à faire que de regarder votre visage pourri.",
+   "completion": "Excellent, <classe>. A ce rythme, on se débarrassera de cette peste de Syndicat en un rien de temps.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 1763,
+     "name": "WANTED"
+    },
+    {
+     "type": "object",
+     "id": 556670,
+     "name": "WANTED"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2215,
+     "name": "Grande exécutrice Darthalia"
+    }
+   ],
+   "zone_id": 267,
+   "level": 22,
+   "reqlevel": 17,
+   "side": "horde",
+   "xp": 1750,
+   "money": 1400,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "550": {
+   "id": 550,
+   "name": "La bataille d'Hillsbrad",
+   "objectives": "Apporter la Recommandation scellée à Varimathras à Undercity.",
+   "description": "Comme vous avez combattu avec valeur à la bataille d'Hillsbrad, j'ai écrit cette recommandation exaltant vos prouesses au combat, pour que le haut commandement les apprécie.\n\nApportez cette Recommandation scellée à Varimathras à Undercity. Allez avec fierté, <classe>.",
+   "progress": "Qu'est-ce qui peut bien conduire des druides depuis le lointain champ de bataille jusqu'à Undercity ?",
+   "completion": "Ainsi, vous êtes le célèbre <classe> qui a porté un coup si décisif aux forces de l'Alliance dans les contreforts d'Hillsbrad ? Les récits de vos exploits ont rapidement atteint Undercity.\n\nVous avez de l'avenir dans les rangs de la Dame noire si vous continuez à montrer une telle capacité à diriger et une telle expertise au combat.\n\nNotre principal souci reste l'armée du Fléau du roi-liche qui descend du Nord, mais le \"problème\" des humains continue à entraver nos plans de bataille. Vous avez cependant démontré qu’ils peuvent et vont tomber.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2215,
+     "name": "Grande exécutrice Darthalia"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2425,
+     "name": "Varimathras"
+    }
+   ],
+   "zone_id": 267,
+   "level": 32,
+   "reqlevel": 19,
+   "side": "horde",
+   "xp": 2550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "552": {
+   "id": 552,
+   "name": "La vengeance d'Helcular",
+   "objectives": "Reprendre le Bâtonnet d'Helcular aux yétis et la ramener au novice Thaivand à Moulin-de-Tarren.",
+   "description": "Maître Helcular avait presque achevé sa transformation en liche lorsqu'une bande d'humains furieux a découvert son repaire dans les collines et l'a tué. Pour rendre les choses encore pires, ils ont enterré son corps au cimetière de Southshore.\n\nUn tel manque de respect envers un si grand sorcier n'est pas acceptable. Etant son apprenti, je veillerai à ce que la pluie de la vengeance tombe drue sur la ville de Southshore.\n\nAvant tout, nous avons besoin du Bâtonnet d'Helcular. Les yétis ont atteint son repaire. L'une de ces bêtes l'a sans doute emporté.",
+   "progress": "Avez-vous déjà retrouvé le Bâtonnet d'Helcular ? Il y a tellement de yétis dans cette région, il va être difficile de la trouver. Mais nous devons l'obtenir pour pouvoir agir.",
+   "completion": "Vous l'avez ! Parfait, <nom> !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2429,
+     "name": "Novice Thaivand"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2429,
+     "name": "Novice Thaivand"
+    }
+   ],
+   "zone_id": 267,
+   "level": 33,
+   "reqlevel": 29,
+   "side": "horde",
+   "xp": 2650,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "553": {
+   "id": 553,
+   "name": "La vengeance d'Helcular",
+   "objectives": "Charger le Bâtonnet d'Helcular des pouvoirs de la Flamme d'Azel, de la Flamme de Veraz et de la Flamme d'Uzel.\n\nEnfoncez le Bâtonnet chargé dans la tombe d'Helcular à Southshore.",
+   "description": "Tenez, prenez le Bâtonnet d'Helcular. Vous en aurez besoin.\n\nHelcular a fabriqué 3 bûchers cérémoniels comme composants de son sort le plus puissant. La Flamme d'Azel et la Flamme de Veraz brûlent dans l'une des cavernes des contreforts. La Flamme d'Uzel éclaire une cave située plus haut et plus au nord dans les montagnes.\n\nUne fois le Bâtonnet d'Helcular chargé avec ces trois flammes, il faut l’enfoncer dans la tombe d'Helcular située à Southshore. La vengeance sera nôtre.",
+   "progress": "La tombe d'Helcular déborde d'une énergie mystique.",
+   "completion": "Le sol émet un grondement puissant.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2429,
+     "name": "Novice Thaivand"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 1767,
+     "name": "Helcular's Grave"
+    }
+   ],
+   "zone_id": 267,
+   "level": 33,
+   "reqlevel": 29,
+   "side": "horde",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "555": {
+   "id": 555,
+   "name": "Bisque de tortue apaisante",
+   "objectives": "Apporter 10 morceaux de Viande de tortue et des Epices apaisantes au Chef Jessen à Southshore.",
+   "description": "S'il y a une chose que vous apprendrez à propos de Southshore, c'est que nous avons l'une des meilleures cuisines au nord de Stormwind !\n\nPrenez ma recette secrète de bisque de tortue, par exemple. J'en ai connu qui ont fait le voyage depuis Darkshire juste pour en déguster une coupe. Mais il y a bien longtemps que je n’en ai pas fait. J'allais au-delà de Dalaran, jusqu'au lac de Lordamere, mais c'est trop dangereux à présent. Si vous m'apportiez de la Viande de tortue, venant du nord, et des Epices apaisantes, je vous mitonnerai un bon petit plat.",
+   "progress": "Vous avez les ingrédients ? Je vais vous dire : ce territoire n'est plus aussi paisible qu’autrefois. Ah ! si seulement ces troubles n'étaient jamais apparus…",
+   "completion": "Tout le monde va être tellement content. La Bisque apaisante de tortue du Chef Jessen est servie à nouveau.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2430,
+     "name": "Chef Jessen"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2430,
+     "name": "Chef Jessen"
+    }
+   ],
+   "zone_id": 267,
+   "level": 31,
+   "reqlevel": 28,
+   "side": "alliance",
+   "xp": 2500,
+   "money": 3000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "556": {
+   "id": 556,
+   "name": "Les Runes gravées",
+   "objectives": "Apporter 10 Runes gravées au Conservateur Bel'varil à Moulin-de-Tarren.",
+   "description": "Un sérieux atout des sorciers de Dalaran est leur familiarité avec les élémentaires, ces créatures puissantes venant d'autres dimensions. Les sorciers utilisent des Runes gravées pour contrôler ces élémentaires. Le magus Voidglare aimerait étudier certaines de ces runes.\n\nPénétrez sur le territoire des sorciers de Dalaran, à l'ouest d'Hillsbrad, et trouvez-en.\n\nIl se peut que vous les trouviez sur n'importe quel citoyen de Dalaran, mais je suggère que vous vous les procuriez au camp d'internement. C'est un endroit moins dangereux que Dalaran.",
+   "progress": "Avez-vous les runes gravées, <nom> ? Le magus a hâte de connaître leurs secrets.",
+   "completion": "Ce sera parfait. Bien qu'il semble que leur magie ait disparu, il est préférable que les premières expérimentations du magus portent sur de tels échantillons. Merci, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2437,
+     "name": "Gardien Bel'varil"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2437,
+     "name": "Gardien Bel'varil"
+    }
+   ],
+   "zone_id": 267,
+   "level": 32,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 2550,
+   "money": 3000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "557": {
+   "id": 557,
+   "name": "Les Bracelets de liaison",
+   "objectives": "Apporter 4 Brassards de liaison de terre au Conservateur Bel'varil à Moulin-de-Tarren.",
+   "description": "Le magus sera très occupé à étudier ces runes gravées que vous avez apportées, mais je sais que tôt ou tard il voudra des échantillons de leurs contreparties : des brassards de liaison. Ce sont des brassards qui, passés aux poignets des élémentaires, les lient au service des mages.\n\nChassez des élémentaires dans les ruines de Dalaran et récupérez leurs brassards de liaison de terre. Le magus en sera très satisfait.",
+   "progress": "Hello, <nom>. Les élémentaires sont des proies difficiles, mais je sais que vous en êtes capable. Avez-vous ces Brassards de liaison ?",
+   "completion": "Vous en avez trouvé. Je pense que les élémentaires à qui vous avez pris les brassards étaient disposés à entendre raison ?\n\nHum… La mort n'a pas seulement arrêté mon cœur, elle m'a dépouillé de tout sens de l’humour, il semblerait. . .\n\nBien, merci, <nom>. Vous êtes au service du magus, et donc de la Dame noire également.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2437,
+     "name": "Gardien Bel'varil"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2437,
+     "name": "Gardien Bel'varil"
+    }
+   ],
+   "zone_id": 267,
+   "level": 34,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 2700,
+   "money": 3500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "559": {
+   "id": 559,
+   "name": "La preuve de Farren",
+   "objectives": "Collecter 10 Têtes de murlocs sur les murlocs du Rivage occidental pour le lieutenant Farren Orinelle à Southshore.",
+   "description": "Le croirez-vous, <nom> ? Redpath n'était pas satisfait, en dépit de tous les murlocs que nous avons tués. Ah ! ne soyez pas modeste, vous y avez participé. À présent il veut que je lui apporte la preuve de leur mort, en allant chercher les têtes refroidies de ces misérables murlocs, pour les soumettre à sa validation.",
+   "progress": "Avez-vous toutes vos têtes, <nom> ?",
+   "completion": "Oh ! pour l'amour de la Lumière… Elles dégoulinent.\n\nJe ne peux pas toucher ces choses moi-même. Le poisson c’est très bon, mais quand il lui pousse des pattes et qu'il commence à marcher… J'ai pas mangé de poisson depuis une semaine, et laissez-moi vous dire qu’à Southshore, ils mangent pas beaucoup ces derniers temps.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2228,
+     "name": "Lieutenant Farren Orinelle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2228,
+     "name": "Lieutenant Farren Orinelle"
+    }
+   ],
+   "zone_id": 267,
+   "level": 32,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 2550,
+   "money": 3000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "560": {
+   "id": 560,
+   "name": "La preuve de Farren",
+   "objectives": "Livrer le Sac de têtes de murlocs au maréchal Redpath à Southshore.",
+   "description": "Vous savez, <nom>, je préférerais ne pas toucher à ces têtes… Puisque vous avez déjà les mains qui sentent le poisson, cela vous dérangerait-il de les livrer à Redpath pour moi ?",
+   "progress": "Salutations, citoyen. Êtes-vous venu soutenir la sécurité de Southshore ?",
+   "completion": "Un garçon de courses de Farren, n'est-ce pas ? Si vous avez aidé Farren à se procurer ces têtes, alors merci. Southshore a besoin de personnes qui travaillent dur pour maintenir sa sécurité.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2228,
+     "name": "Lieutenant Farren Orinelle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2263,
+     "name": "Maréchal Redpath"
+    }
+   ],
+   "zone_id": 267,
+   "level": 32,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 255,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "561": {
+   "id": 561,
+   "name": "La preuve de Farren",
+   "objectives": "Parler au Lieutenant Farren Orinelle à Southshore.",
+   "description": "Veuillez informer le lieutenant Orinelle que j'aimerais qu'il concentre ses efforts sur les nagas qui infestent le Rivage oriental. Quand il aura obtenu des résultats, dites-lui qu'il vienne en personne m'en rendre compte.",
+   "progress": null,
+   "completion": "Les nagas, hein ? Redpath doit avoir reçu la même information que moi… Ah ! Il ne recueillera pas la promotion de mon labeur. Je m’explique. . .",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2263,
+     "name": "Maréchal Redpath"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2228,
+     "name": "Lieutenant Farren Orinelle"
+    }
+   ],
+   "zone_id": 267,
+   "level": 32,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 255,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "562": {
+   "id": 562,
+   "name": "Stormwind me voilà",
+   "objectives": "Tuer 10 Chasseurs du Rivage et 10 Sirènes Daguéchine pour le lieutenant Farren à Southshore.",
+   "description": "Mon ancien mentor à la garde de la cité de Stormwind a envoyé un message me disant que le Haut Commandement de l'Alliance commence à s'inquiéter du problème posé par les nagas. D'après ce qu'il a entendu, il y a des chances de promotion, ou d'une bonne affectation, pour quiconque se montrera valeureux dans la résolution de ce problème.\n\nIl y a juste quelque chose qui ne va pas... Je ne peux pas m'occuper des nagas, <nom>. Oh bien sûr, je pourrais disperser une querelle d'ivrognes, ou alpaguer un clochard vindicatif, mais les nagas c’est trop pour moi. Vous devez m'aider, <nom>.",
+   "progress": "J'ai une lettre prête à partir pour le major Samuelson à Stormwind. Je n'ai besoin que de résultats.",
+   "completion": "Avec la déconfiture des nagas de Southshore, je suis à deux doigts d'obtenir une nouvelle affectation. Je vais voir Stormwind à nouveau et quitter ce port oublié de la Lumière.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2228,
+     "name": "Lieutenant Farren Orinelle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2228,
+     "name": "Lieutenant Farren Orinelle"
+    }
+   ],
+   "zone_id": 267,
+   "level": 32,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 1950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "563": {
+   "id": 563,
+   "name": "Nouvelle affectation",
+   "objectives": "Remettre le Rapport de Farren au major Samuelson au Donjon de Stormwind.",
+   "description": "Que mon rapport soit lu ne devrait pas poser de problème. Le nouveau capitaine de la Garde, le major Samuelson, était mon mentor lorsque j'étais posté à Stormwind. Cela devrait lui donner suffisamment d'arguments pour que j'y sois à nouveau transféré. Je vais avoir besoin de vous pour porter mon rapport. Cependant, je n'aimerais pas que ce cher Redpath comprenne.",
+   "progress": "Salutations, citoyen. La Garde de la cité de Stormwind pourrait-elle vous être d'une quelconque assistance ?",
+   "completion": "Qu'est-ce que c'est ? Ha ! Ainsi mon élève préféré s'est dressé personnellement contre les nagas à Southshore. Merci de m'apporter ceci, j'en tiendrai certainement compte lors des affectations, le mois prochain.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2228,
+     "name": "Lieutenant Farren Orinelle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2439,
+     "name": "Major Samuelson"
+    }
+   ],
+   "zone_id": 267,
+   "level": 32,
+   "reqlevel": 25,
+   "side": "alliance",
+   "xp": 3200,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "564": {
+   "id": 564,
+   "name": "Un problème très coûteux",
+   "objectives": "Darren Malvew de Southshore veut que vous tuiez 8 Lions des montagnes et 10 Lions des montagnes massifs.",
+   "description": "Y'a rien qui m'hérisse plus que d'perdre ces beaux ch'vaux, là. Et croyez-moi, on en a perdu pas mal, entre ces sales morts-vivants, c'fichu gang du Syndicat, et toutes les aut' crapules bonnes à rien qui traînent dans l'secteur.\n\nMais j'jure sur la tombe d'mon vieux grand-père qu'y a pas d'danger plus grand pour les ch'vaux que ces lions d'montagne en haut à Alterac.\n\nIls s'ramènent toujours des collines et m'rendent la vie difficile !\n\nVous croyez être <un héros/une héroïne> ? Allez-y et faites quek'chose pour y r'médier.",
+   "progress": "Les lions de montagne tuent nos chevaux à gauche et à droite et vous êtes là à vouloir parler du temps qu'il fait et de ce qui ne va pas.\n\nJe devrais me trouver un vrai héros. Plus de tueries et moins de bavardages.",
+   "completion": "Voilà t’y pas des bonnes nouvelles. J'aurais dû y aller et m'trouver un bon vieux héros dès l'premier jour pour s'occuper d'ces bêtes. Vot' grand-père s'rait fier de vous, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2382,
+     "name": "Darren Malvew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2382,
+     "name": "Darren Malvew"
+    }
+   ],
+   "zone_id": 267,
+   "level": 34,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "un héros/une héroïne"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "565": {
+   "id": 565,
+   "name": "La cape en fourrure de yéti de Bartolo",
+   "objectives": "Apporter à Bartolo Ginsetti de Southshore une Pelote de laine, une Cape d'homme des collines, du Fil fin et 10 Touffes de fourrure de yéti.",
+   "description": "Moi, le Grand Bartolo, je confectionnerai pour vous ma fameuse cape en fourrure de yéti, célèbre dans le monde entier, et qui fait la renommée de l'Alliance !\n\nJe vous mets au défi de parcourir le monde pour trouver meilleure cape. Oh ! attendez, qu'est-ce que vous dites, <petit/petite> <nom> ? \"Bartolo, il n'existe pas de meilleure cape !\" Oui, oui, je sais, j'ai entendu ça des milliers de fois déjà.\n\nBartolo demande une pelote de laine, une cape d'homme des collines confectionnée par un habile tanneur, du fil fin et bien sûr de la fourrure de yéti. Apportez-moi tout cela et vous serez <un client satisfait/une cliente satisfaite>.",
+   "progress": "Ainsi vous revenez voir le grand Bartolo. Peut-être avez-vous trouvé tous les éléments nécessaires à la confection de votre superbe cape en fourrure de yéti ? Ou peut-être aimez-vous simplement côtoyer la magnificence que je personnifie, moi, Bartolo !",
+   "completion": "À présent, il est temps pour le grand Bartolo d’endosser son habit de magicien ! Je n'ai pas besoin de bâton de sorcier, ni de bâtonnet de mage. Car moi, le Grand Bartolo, fais de la magie avec une simple aiguille et du fil.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2438,
+     "name": "Bartolo Ginsetti"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2438,
+     "name": "Bartolo Ginsetti"
+    }
+   ],
+   "zone_id": 267,
+   "level": 34,
+   "reqlevel": 29,
+   "side": "alliance",
+   "xp": 2700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom",
+    "petit/petite"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "566": {
+   "id": 566,
+   "name": "ON RECHERCHE : baron Vardus",
+   "objectives": "Tuer le baron Vardus et apporter sa tête à la Grande Exécutrice Darthalia, au Moulin-de-Tarren.",
+   "description": "Par décret de la grande exécutrice Darthalia, l'humain connu sous le nom de baron Vardus est recherché pour crime contre les Réprouvés. Nous savons que Vardus est un membre haut placé de l'organisation dite le Syndicat.\n\nIl a été vu pour la dernière fois dans les Hauteurs des montagnes d'Alterac, au nord de Moulin-de-Tarren.\n\nIl doit être ramené mort. Apportez une preuve de son trépas à la grande exécutrice Darthalia pour obtenir votre récompense.",
+   "progress": "Ah ! <nom>. Peut-être êtes-vous venu chercher la prime associée à la mort du baron Vardus ?",
+   "completion": "Un travail productif que le vôtre, <nom>. Le baron Vardus mort, le nombre des leaders du Syndicat s'amenuise. La résistance qu'ils opposent et l'irritation qu'ils suscitent ne vont plus faire long feu.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 1763,
+     "name": "WANTED"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2215,
+     "name": "Grande exécutrice Darthalia"
+    }
+   ],
+   "zone_id": 267,
+   "level": 40,
+   "reqlevel": 35,
+   "side": "horde",
+   "xp": 3150,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "567": {
+   "id": 567,
+   "name": "Dangereux !",
+   "objectives": "La Grande Exécutrice Darthalia de Moulin-de-Tarren offre une prime pour la mort du Commis Horrace Whitesteed, du Citoyen Wilkes, du Mineur Hackett et de Kalaba la fermière.",
+   "description": "Dangereux !\n\nLes humains d'Hillsbrad dont les noms suivent ont été déclarés dangereux et leurs têtes sont mises à prix par la Grande Exécutrice Darthalia :\n\nCommis Horrace Whitesteed. Recherché pour le meurtre du Garde noir Toma.\n\nCitoyen Wilkes. Recherché pour le meurtre de l'Apothicaire Eli.\n\nMineur Hackett. Recherché pour le meurtre du Traqueur noir Fry.\n\nKalaba la fermière. Recherchée pour détournement de marchandises à Undercity.\n\nChacun de ces ennemis se cache et sera difficile à débusquer. Une récompense sera remise à la preuve de leur mort.",
+   "progress": "Oui?",
+   "completion": "Vous êtes vraiment le chasseur de primes incarné, <classe>. Bon travail.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 2008,
+     "name": "Dangerous!"
+    },
+    {
+     "type": "object",
+     "id": 556669,
+     "name": "Dangerous!"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2215,
+     "name": "Grande exécutrice Darthalia"
+    }
+   ],
+   "zone_id": 267,
+   "level": 28,
+   "reqlevel": 19,
+   "side": "horde",
+   "xp": 2300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "657": {
+   "id": 657,
+   "name": "Les indices d'une Peste nouvelle ?",
+   "objectives": "Parler à Kinelory.",
+   "description": "<Quae commence à consulter le dossier.>\n\nC'est effectivement intéressant. Il semblerait que l'Apothicaire Jorell ait travaillé sur des expériences mortelles ici à Go'shek. Je ne suis pas certaine de ce que cela a à voir avec Hillsbrad, mais Phin n'apprécierait pas que nous laissions se poursuivre ces expériences.\n\nNous avons eu une altercation avec des orcs pendant que vous étiez <parti/partie>, et je ne suis pas en suffisamment bonne forme pour aider Kinelory. Si vous vous sentez d'attaque, elle va avoir besoin de protection pour aller à la ferme et voler toutes les recherches que Jorell n'aurait pas encore envoyées à Moulin-de-Tarren.",
+   "progress": null,
+   "completion": "Si cela peut apaiser Phin, alors je tuerai chacun des Réprouvés personnellement. Il a tellement fait pour nous depuis la peste. Nous ne pensions pas retrouver ici une famille ou des amis vivants.\n\nLorsque vous serez prêt, venez me le dire. Nous démarrerons immédiatement.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2712,
+     "name": "Quae"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2713,
+     "name": "Kinelory"
+    }
+   ],
+   "zone_id": 267,
+   "level": 36,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "Quae commence à consulter le dossier.",
+    "parti/partie"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "658": {
+   "id": 658,
+   "name": "Les indices d'une Peste nouvelle ?",
+   "objectives": "Trouver la Messagère des Réprouvés et ramener ses documents scellés à Quae près de la Ferme des Go'shek.",
+   "description": "Ainsi, Phin vous a <envoyé/envoyée> prendre de nos nouvelles ? Ça ne m'étonne pas, il s'inquiète toujours trop.\n\nNous avons surveillé la ferme pendant plusieurs jours, et Kin prétend qu'elle a vu une messagère sortir de cette petite maison et se diriger vers le sud il y a peu.\n\nElle parle beaucoup, mais je fais toujours confiance à ses sens lorsque nous sommes dans des endroits dangereux.\n\nVous ne seriez pas <un Pisteur compétent/une Pisteuse compétente>, par hasard ? Nous pensons que la messagère se rendait à Moulin-de-Tarren. Si nous pouvions mettre la main sur les documents qu’elle emportait, cela pourrait nous renseigner sur ce qui se passe à Hillsbrad.",
+   "progress": "Nous apprécions votre aide dans la recherche de cette messagère, <nom>. Pendant que vous étiez parti, Kin a vu un apothicaire sortir de cette même maison, au sud d'ici. Je suis certaine qu'ils trament quelque chose et j’ai besoin de preuves avant d'y aller et de commettre une imprudence.\n\nProgressez-vous dans vos recherches ?",
+   "completion": "Excellent !\n\nVoyons de quoi il s'agit…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2712,
+     "name": "Quae"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2712,
+     "name": "Quae"
+    }
+   ],
+   "zone_id": 267,
+   "level": 36,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2800,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "envoyé/envoyée"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "659": {
+   "id": 659,
+   "name": "Les indices d'une Peste nouvelle ?",
+   "objectives": "Trouver Quae et Kinelory près de la Ferme des Go'shek dans les hautes-terres d'Arathi.",
+   "description": "Salut et bienvenue, <nom>. Je mène un groupe d'aventuriers enquêtant sur des faits étranges se produisant dans le coin.\n\nMon cousin à Hillsbrad a récemment abattu son chien Stanley parce que l'animal avait magiquement grossi jusqu'à une taille immense et attaquait sauvagement quiconque l'approchait.\n\nJe pense que les morts-vivants sont impliqués, et nous cherchons des indices le prouvant.\n\nDeux de mes compagnes, Quae et Kinelory, sont parties en direction de la ferme des Go'shek sur les hautes-terres d'Arathi, et ne sont toujours pas revenues. Vous pourriez les trouver pour moi ? Je commence à m'inquiéter.",
+   "progress": null,
+   "completion": "Essayez de rester aussi silencieux que possible, voyageur.\n\nLes orcs n'apprécient pas beaucoup d'êtres espionnés, et il y a beaucoup à observer dans cette ferme.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2711,
+     "name": "Phin Odelic"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2712,
+     "name": "Quae"
+    }
+   ],
+   "zone_id": 267,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 1300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "660": {
+   "id": 660,
+   "name": "Les indices d'une Peste nouvelle ?",
+   "objectives": "Protéger Kinelory jusqu'à ce qu'elle rejoigne Quae.",
+   "description": "Très bien, <nom>. Je suis prête si vous l'êtes.\n\nOn y va ?",
+   "progress": "Le temps des discours est terminé. Protégez Kinelory si le peuple d'Hillsbrad vous importe un tant soit peu.",
+   "completion": "Vous nous avez rendu un grand service, <nom>. Merci.\n\nKin ne vous a pas posé trop de problèmes jusqu'à présent ? Elle est très sympa, mais il vaut mieux ne pas être son ennemi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2713,
+     "name": "Kinelory"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2712,
+     "name": "Quae"
+    }
+   ],
+   "zone_id": 267,
+   "level": 37,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 2850,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "661": {
+   "id": 661,
+   "name": "Les indices d'une Peste nouvelle ?",
+   "objectives": "Retrouver Phin Odelic à Southshore.",
+   "description": "J'ai déjà vu Kinelory dans un état pire après toute une nuit passée dans une taverne. Vous avez bien fait de la protéger.\n\nCe qu'elle rapporte de la ferme permettra à Phin de se faire une idée de ce qui se trame à Arathi. Nous allons rester un peu pour être sûr qu'il n'y aura pas de représailles suite à votre attaque. Voudriez-vous retourner à Southshore et parler à Phin ?",
+   "progress": null,
+   "completion": "Alors ces deux trouble-fête avaient raison finalement ! Ha ha ! Je suis content de l'entendre. Merci à vous, je suis heureux de savoir où elles sont et qu'elles se portent bien. Je suis vraiment soulagé de les savoir en vie ; ce sont deux amies chères à mon cœur.\n\nEnfin. . . Je vais vous remercier comme il faut pour votre aide. Tenez. Prenez ceci.\n\nAvec un peu de chance, nous allons comprendre ce que les Réprouvés fabriquent, et y mettre un terme.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2712,
+     "name": "Quae"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2711,
+     "name": "Phin Odelic"
+    }
+   ],
+   "zone_id": 267,
+   "level": 37,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "676": {
+   "id": 676,
+   "name": "Menace sur le Trépas-d'Orgrim",
+   "objectives": "Tuer 8 Ogres Rochepoings et 10 Massacreurs Rochepoings, puis retrouver Drum Fel à l'avant-poste du Trépas-d'Ogrim sur les hautes-terres d'Arathi.",
+   "description": "Mauviettes... Tous autant qu'ils sont. Vous, <classe>, qu'est-ce que vous regardez comme ça ? Vous pensez être quelqu'un de spécial, hein ? Pourquoi ne le prouvez-vous pas ?\n\nL'avant-poste de Trépas-d'Orgrim dans les hautes-terres d’Arathi est attaqué. À moins qu'on leur envoie des renforts rapidement, leur défaite est imminente.\n\nMais avant de vous précipiter là-bas, j'aimerais vous faire passer un test. Au nord-est de Stromgarde, dans Arathi, il y a une colline habitée par la tribu Rochepoing. Si vous pouvez vous occuper de ces ogres et de leurs massacreurs, allez ensuite faire votre rapport à Drum Fel, à l'avant-poste du Trépas-d'Orgrim.",
+   "progress": "Je n'ai déjà pas le temps d'affûter ma hache, alors quitter le poste pour traquer ces bêtes qui s'en prennent aux miens. . .\n\nVous ne semblez même pas avoir l'expérience d'un grunt, encore moins celle d'un vrai <classe>. Alors que voulez-vous, <nom> ?",
+   "completion": "Alors comme ça vous pensez pouvoir aider Trépas-d'Ogrim ? Ainsi soit-il !\n\nTallow pense que vous pouvez vous occuper de cette tribu tout seul, ou tout au moins que vous pourriez nous être d'une quelconque utilité. Enfin, quoi qu'il en soit vous êtes là et j'ai besoin de guerriers en ce moment.\n\nSi vous pensez rester au Trépas-d'Ogrim, prenez un peu de repos et revenez me voir quand vous serez prêt. Les combats ne manquent pas en ce moment.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2770,
+     "name": "Tallow"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2771,
+     "name": "Drum Fel"
+    }
+   ],
+   "zone_id": 267,
+   "level": 32,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": 2550,
+   "money": 3000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98059": {
+   "id": 98059,
+   "name": "Les réserves de Hautebrande",
+   "objectives": "Remettez la requête confidentielle de la compagnie qui vous a été confiée à la comptabilité, à l’intérieur de l’hôtel de ville de Hautebrande.",
+   "description": "Le conseil de Hautebrande n’a toujours pas répondu aux lettres de notre nouveau magistrat. Les derniers renseignements que j’ai réussi à tirer d’un marchand de passage ne justifient en rien leur silence.\n\nNous ne demandons pourtant qu’un simple peloton… et l’on me rapporte que plusieurs balistes de siège sont conservées en parfait état dans une enceinte fortifiée.\n\nEntrez dans leur hôtel de ville comme <un simple citoyen venu/une simple citoyenne venue> rapporter un formulaire de recensement, puis remettez discrètement ceci à la comptabilité.\n\nRevenez me voir une fois la tâche accomplie.",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 251493,
+     "name": "Captain McManus"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 251493,
+     "name": "Captain McManus"
+    }
+   ],
+   "zone_id": 267,
+   "level": 27,
+   "reqlevel": 23,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "origins": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "client_cache": 70938
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "98071": {
+   "id": 98071,
+   "name": "Échanges brassicoles",
+   "objectives": "Apportez les bouteilles de cépage de Ruissautomne à Dun Garok, au sud-est des contreforts de Hautebrande, puis revenez avec un sac de houblon artisanal.",
+   "description": "J’ai passé un p’tit marché avec les artisans brasseurs de Dun Garok. On dirait qu’il n’y a pas qu’nous qui regrettons les vignobles de la famille Ruissautomne ! Les meilleurs millésimes ont été savourés depuis longtemps, mais nos caves comptent encore quelques caisses de ce vin.\n\nApportez cette caisse de cépage de Ruissautomne à Dun Garok, au sud-est, et laissez-la près de la cheminée où tout le monde se rassemble, au pied du fort.\n\nEn échange, rapportez donc un sac de houblon artisanal.\n\nCe donjon est l’seul endroit à des kilomètres qui me rappelle un peu chez moi !",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2705,
+     "name": "Brasseur Bilger"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2705,
+     "name": "Brasseur Bilger"
+    }
+   ],
+   "zone_id": 267,
+   "level": 27,
+   "reqlevel": 23,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "origins": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "client_cache": 70938
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

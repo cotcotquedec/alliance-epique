@@ -1,0 +1,4063 @@
+{
+ "schema": 1,
+ "zone": "eastern-kingdoms/westfall",
+ "zone_id": 40,
+ "zone_name": "Marche de l'Ouest Westfall",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 54,
+  "complete": 35,
+  "incomplete": 19,
+  "unavailable": 0,
+  "missing_description": 19,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 1
+ },
+ "quests": {
+  "9": {
+   "id": 9,
+   "name": "Les champs de mort",
+   "objectives": "Le Fermier Saldean veut que vous tuiez 20 Gardiens des moissons.",
+   "description": "Regardez ce qu'il s'est passé ici ! Ces terres étaient autrefois habitées par de braves fermiers. Mais ces maudits voleurs les ont tous chassés. Pas moi, pour sûr ! Mais il semble que quelques Gardiens des moissons ont pris possession des champs.\n\nSi vous êtes d'accord, j'aimerais que vous y alliez et que vous en détruisiez une vingtaine. Revenez quand vous aurez fini pour recevoir votre dû. Une fois que vous aurez débarrassé ceux de mon champ, occupez-vous des champs alentours.",
+   "progress": "Ah ! je vois que vous êtes revenu ! J'espère que vous avez bien fait votre travail et débarrassé les champs des Gardiens des moissons. En avez-vous tué 20 ?",
+   "completion": "Beau travail. Vous avez bien mérité votre paye. Qui sait, peut-être qu'un jour la marche de l'Ouest prospérera à nouveau.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 233,
+     "name": "Saldean le fermier"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 233,
+     "name": "Saldean le fermier"
+    }
+   ],
+   "zone_id": 40,
+   "level": 15,
+   "reqlevel": 8,
+   "side": "alliance",
+   "xp": 1050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Beau travail. Vous avez bien mérité votre paye. Qui sait, peut-être qu'un jour la marche de l'Ouest prospérera à nouveau."
+     },
+     "npc": 233,
+     "npc_name": "Saldean le fermier",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793902882,
+     "last_seen": 1793902901
+    },
+    "detail": {
+     "texts": {
+      "description": "Regardez ce qu'il s'est passé ici ! Ces terres étaient autrefois habitées par de braves fermiers. Mais ces maudits voleurs les ont tous chassés. Pas moi, pour sûr ! Mais il semble que quelques Gardiens des moissons ont pris possession des champs.\n\nSi vous êtes d'accord, j'aimerais que vous y alliez et que vous en détruisiez une vingtaine. Revenez quand vous aurez fini pour recevoir votre dû. Une fois que vous aurez débarrassé ceux de mon champ, occupez-vous des champs alentours.",
+      "objectives": "Le Fermier Saldean veut que vous tuiez 20 Gardiens des moissons.",
+      "name": "Les champs de mort"
+     },
+     "npc": 233,
+     "npc_name": "Saldean le fermier",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793900251,
+     "last_seen": 1794045476
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "12": {
+   "id": 12,
+   "name": "La milice du peuple",
+   "objectives": "Tuer 15 Trappeurs défias et 15 Contrebandiers défias pour Gryan Stoutmantle, puis retourner le voir sur la Colline des sentinelles.",
+   "description": "La Milice du peuple n'a qu'un seul objectif : défendre la marche de l'Ouest et ramener le calme dans les environs. Malheureusement, le prix de la paix est souvent le sang.\n\nUn de mes éclaireurs rapporte qu'une bande de Trappeurs défias sème le trouble dans le coin. Ils auraient été aperçus près de la Mine de Jangolode, au nord-ouest, ainsi que dans la Ferme des Molsen et la Ferme de potirons des Furlbrow. Si vous voulez rejoindre nos rangs, tuez 15 Trappeurs défias et 15 Contrebandiers défias, puis revenez me voir.",
+   "progress": "Peut-être que je ne me suis pas bien fait comprendre. Pour prouver que vous méritez de faire partie de la Milice du peuple et de la Lumière, vous devez impérativement tuer 15 Trappeurs défias et 15 Contrebandiers défias et ne revenir que lorsque vous aurez accompli cela.",
+   "completion": "Bien joué, <nom>. Mon éclaireur a été témoin de votre courage et de votre vaillance. Vous avez largement fait vos preuves.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 234,
+     "name": "Gryan Stoutmantle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 234,
+     "name": "Gryan Stoutmantle"
+    }
+   ],
+   "zone_id": 40,
+   "level": 12,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": 910,
+   "money": 500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Bien joué, <nom>. Mon éclaireur a été témoin de votre courage et de votre vaillance. Vous avez largement fait vos preuves."
+     },
+     "npc": 234,
+     "npc_name": "Gryan Stoutmantle",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Tour des sentinelles",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794074951,
+     "last_seen": 1794074951
+    },
+    "detail": {
+     "texts": {
+      "description": "La Milice du peuple n'a qu'un seul objectif : défendre la marche de l'Ouest et ramener le calme dans les environs. Malheureusement, le prix de la paix est souvent le sang.\n\nUn de mes éclaireurs rapporte qu'une bande de Trappeurs défias sème le trouble dans le coin. Ils auraient été aperçus près de la mine Veine-de-Jango, au nord-ouest, ainsi que dans la Ferme des Molsen et la Ferme de potirons des Froncebouille. Si vous voulez rejoindre nos rangs, tuez 15 Trappeurs défias et 15 Contrebandiers défias, puis revenez me voir.",
+      "objectives": "Tuer 15 Trappeurs défias et 15 Contrebandiers défias pour Gryan Stoutmantle, puis retourner le voir sur la Colline des sentinelles.",
+      "name": "La milice du peuple"
+     },
+     "npc": 234,
+     "npc_name": "Gryan Stoutmantle",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Tour des sentinelles",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793900739,
+     "last_seen": 1794045626
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "13": {
+   "id": 13,
+   "name": "La milice du peuple",
+   "objectives": "Tuer 15 Pilleurs défias et 15 Pillards défias pour Gryan Stoutmantle, puis retourner le voir sur la Colline des sentinelles.",
+   "description": "Une bande de pilleurs défias a été vue en train de saccager la carrière de la Côte de l'or ainsi que Ruisselune et la ferme des Alexston. La Milice du peuple n'acceptera pas ce genre de comportement. Déployez-vous immédiatement, <nom>, et faites en sorte que l'on sache que la Lumière est présente dans la marche de l'Ouest.\n\nLa carrière est près de la côte, à l'ouest de la tour. Comme étape de votre instruction, je veux que vous tuiez 15 Pilleurs défias et 15 Pillards défias.",
+   "progress": "Nous n'avons pas le temps de discuter, <nom>. Les pilleurs défias empêchent les gens de la marche de l'Ouest de prospérer et de vivre en paix. Débarrassez-nous au moins de 15 Pilleurs défias et de 15 Pillards défias. Le message devrait être assez clair, nous ne voulons pas de cette corruption chez nous.",
+   "completion": "Vous avez prouvé votre valeur à la Milice du peuple par vos actes de bravoure.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 234,
+     "name": "Gryan Stoutmantle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 234,
+     "name": "Gryan Stoutmantle"
+    }
+   ],
+   "zone_id": 40,
+   "level": 14,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": 980,
+   "money": 600,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vous avez prouvé votre valeur à la Milice du peuple par vos actes de bravoure."
+     },
+     "npc": 234,
+     "npc_name": "Gryan Stoutmantle",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Tour des sentinelles",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793944275,
+     "last_seen": 1793944275
+    },
+    "detail": {
+     "texts": {
+      "description": "Une bande de pilleurs défias a été vue en train de saccager la carrière de la Côte de l'or ainsi que Ruisselune et la ferme des Alexston. La Milice du peuple n'acceptera pas ce genre de comportement. Déployez-vous immédiatement, <nom>, et faites en sorte que l'on sache que la Lumière est présente dans la marche de l'Ouest.\n\nLa carrière est près de la côte, à l'ouest de la tour. Comme étape de votre instruction, je veux que vous tuiez 15 Pilleurs défias et 15 Pillards défias.",
+      "objectives": "Tuer 15 Pilleurs défias et 15 Pillards défias pour Gryan Stoutmantle, puis retourner le voir sur la Colline des sentinelles.",
+      "name": "La milice du peuple"
+     },
+     "npc": 234,
+     "npc_name": "Gryan Stoutmantle",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Tour des sentinelles",
+     "map_id": 1436,
+     "client": "1.60.1.70862",
+     "first_seen": 1794074953,
+     "last_seen": 1794074953
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "14": {
+   "id": 14,
+   "name": "La milice du peuple",
+   "objectives": "Tuer 15 Malandrins défias, 5 Eclaireurs défias et 5 Truands défias pour Gryan Stoutmantle, puis retourner le voir sur la Colline des sentinelles.",
+   "description": "Quelques défias nous ont échappé. Mon éclaireur le plus fiable fait état de pillages défias dans les campagnes, au sud de la marche de l'Ouest. Nous pensons qu'ils se cachent dans les collines de la Dague, fomentant leur prochain coup. Détruisez ces misérables au nom de la Milice du peuple.",
+   "progress": "<nom>, le temps n'est pas aux bavardages inutiles. Si vous voulez prouver votre valeur à la Milice du peuple vous devez tuer les Défias dont je vous ai parlé tout à l'heure. Revenez me voir quand vous aurez accompli votre devoir.",
+   "completion": "Quand j'ai quitté les terres impures de Lordaeron, je suis venu faire ce macabre travail, ici, chez moi. Mais il y a encore de l'espoir pour la marche de l'Ouest. Comme vous l'avez prouvé au combat, il est incontestable que vous êtes de notre côté, et que vous servez notre cause avec vaillance. Et c'est avec un grand honneur que je vous accueille au sein de la Milice du peuple. Que la Lumière vous protège.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 234,
+     "name": "Gryan Stoutmantle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 234,
+     "name": "Gryan Stoutmantle"
+    }
+   ],
+   "zone_id": 40,
+   "level": 17,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": 1600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Quand j'ai quitté les terres impures de Lordaeron, je suis venu faire ce macabre travail, ici, chez moi. Mais il y a encore de l'espoir pour la marche de l'Ouest. Comme vous l'avez prouvé au combat, il est incontestable que vous êtes de notre côté, et que vous servez notre cause avec vaillance. Et c'est avec un grand honneur que je vous accueille au sein de la Milice du peuple. Que la Lumière vous protège."
+     },
+     "npc": 234,
+     "npc_name": "Gryan Stoutmantle",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Tour des sentinelles",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793946499,
+     "last_seen": 1793946499
+    },
+    "detail": {
+     "texts": {
+      "description": "Quelques Défias nous ont échappé. Mon éclaireur le plus fiable fait état de pillages défias dans les campagnes, au sud de la marche de l'Ouest. Nous pensons qu'ils se cachent dans les collines de la Dague, fomentant leur prochain coup. Détruisez ces misérables au nom de la Milice du peuple.",
+      "objectives": "Tuer 15 Malandrins défias, 5 Eclaireurs défias et 5 Truands défias pour Gryan Stoutmantle, puis retourner le voir sur la Colline des sentinelles.",
+      "name": "La milice du peuple"
+     },
+     "npc": 234,
+     "npc_name": "Gryan Stoutmantle",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Tour des sentinelles",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793944277,
+     "last_seen": 1793944277
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "22": {
+   "id": 22,
+   "name": "La tourte au foie de Broche-tripes",
+   "objectives": "Salma Saldean a besoin de 8 Foies de Broche-tripes pour faire une Tourte au foie de Broche-tripes.",
+   "description": "Les oignons sont pelés et l'ail émincé. Le romarin est pilé. La pâte est cuite et le fenouil haché. La sauce finit de mijoter. Il ne me manque que 8 foies de Broche-tripes pour réussir ma fameuse tourte à la viande !",
+   "progress": "Tout ce dont j'ai besoin pour faire ma fameuse tourte à la viande, c'est de 8 foies de Broche-tripes !",
+   "completion": "Ils sont juste comme il faut, <nom> ! Merci beaucoup. Saldean le fermier et moi-même allons faire un festin ce soir. Et tenez, un petit quelque chose pour vous, pour votre peine. Vous ne pensiez tout de même pas que j'allais laisser un <classe> comme vous mourir de faim ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 235,
+     "name": "Salma Saldean"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 235,
+     "name": "Salma Saldean"
+    }
+   ],
+   "zone_id": 40,
+   "level": 12,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": 910,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ils sont juste comme il faut, <nom> ! Merci beaucoup. Saldean le fermier et moi-même allons faire un festin ce soir. Et tenez, un petit quelque chose pour vous, pour votre peine. Vous ne pensiez tout de même pas que j'allais laisser un guerrier comme vous mourir de faim ?"
+     },
+     "npc": 235,
+     "npc_name": "Salma Saldean",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793941508,
+     "last_seen": 1793941508
+    },
+    "detail": {
+     "texts": {
+      "description": "Les oignons sont pelés et l'ail émincé. Le romarin est pilé. La pâte est cuite et le fenouil haché. La sauce finit de mijoter. Il ne me manque que 8 foies de Broche-tripes pour réussir ma fameuse tourte à la viande !",
+      "objectives": "Salma Saldean a besoin de 8 Foies de Broche-tripes pour faire une Tourte au foie de Broche-tripes.",
+      "name": "La tourte au foie de Broche-tripes"
+     },
+     "npc": 235,
+     "npc_name": "Salma Saldean",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793900259,
+     "last_seen": 1794045471
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "36": {
+   "id": 36,
+   "name": "Le ragoût de la marche de l'Ouest",
+   "objectives": "Verna Furlbrow veut que vous apportiez la Recette du ragoût de la marche de l'Ouest à Salma Saldean.",
+   "description": "Je n'avais jamais pensé un jour quitter ma ferme. Mais les champs grouillent de voleurs, et cela devient vraiment trop dangereux pour nous. Dès que la charrette du Fermier Furlbrow sera réparée, nous partirons.\n\nVous pourriez peut-être me faire une faveur? Laissez-moi écrire la recette du ragoût de la marche de l'Ouest. S'il vous plaît, apportez-la à Salma Saldean à la ferme de l'autre côté, là-bas. La ferme des Saldean est un peu plus loin sur la route, juste après l'embranchement.",
+   "progress": "Verna Furlbrow va beaucoup me manquer. Je suppose que vous ne l'avez pas vue en venant ?",
+   "completion": "Verna a toujours été une bonne amie. Elle nous manquera, mais de vous à moi, c'est une citadine dans l'âme et Stormwind lui conviendra parfaitement. Bon, assez bavardé ! Maintenant nous pouvons faire du ragoût de la marche de l'Ouest !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 238,
+     "name": "Verna Furlbrow"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 235,
+     "name": "Salma Saldean"
+    }
+   ],
+   "zone_id": 40,
+   "level": 10,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": 420,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Verna a toujours été une bonne amie. Elle nous manquera, mais de vous à moi, c'est une citadine dans l'âme et Hurlevent lui conviendra parfaitement. Bon, assez bavardé ! Maintenant nous pouvons faire du ragoût de la marche de l'Ouest !"
+     },
+     "npc": 235,
+     "npc_name": "Salma Saldean",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793900257,
+     "last_seen": 1794045469
+    },
+    "detail": {
+     "texts": {
+      "description": "Je n'avais jamais pensé un jour quitter ma ferme. Mais les champs grouillent de voleurs, et cela devient vraiment trop dangereux pour nous. Dès que la charrette du Fermier Froncebouille sera réparée, nous partirons.\n\nVous pourriez peut-être me faire une faveur? Laissez-moi écrire la recette du ragoût de la marche de l'Ouest. S'il vous plaît, apportez-la à Salma Saldean à la ferme de l'autre côté, là-bas. La ferme des Saldean est un peu plus loin sur la route, juste après l'embranchement.",
+      "objectives": "Verna Froncebouille veut que vous apportiez la Recette du ragoût de la marche de l'Ouest à Salma Saldean.",
+      "name": "Le ragoût de la marche de l'Ouest"
+     },
+     "npc": 238,
+     "npc_name": "Verna Froncebouille",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793898476,
+     "last_seen": 1794044968
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "38": {
+   "id": 38,
+   "name": "Le ragoût de la marche de l'Ouest",
+   "objectives": "Salma Saldean veut 3 morceaux de Viande filandreuse de vautour, 3 Groins de Broche-tripes, 3 Yeux de murloc et 3 Okras.",
+   "description": "Aidez-moi à faire du ragoût de la marche de l'Ouest. Ramenez les ingrédients suivants :\n\n3 morceaux de Viande filandreuse de vautour ;\n3 Groins de Broche-tripes ;\n3 Yeux de murloc ;\n3 Okras.",
+   "progress": "Rapporter les ingrédients suivants :\n\n3 morceaux de Viande filandreuse de vautour ;\n3 Groins de Broche-tripes ;\n3 Yeux de murloc ;\n3 Okras.",
+   "completion": "Cet okra va bien épaissir le bouillon ! Maintenant nous rajoutons la Viande filandreuse de vautour, quelques Yeux de murloc et ces délicieux Groins de Broche-tripes. Et voilà ! Pour votre aide, <nom>, j'aimerais que vous goûtiez la première portion du ragoût de la marche de l'Ouest !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 235,
+     "name": "Salma Saldean"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 235,
+     "name": "Salma Saldean"
+    }
+   ],
+   "zone_id": 40,
+   "level": 13,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": 910,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Cet okra va bien épaissir le bouillon ! Maintenant nous rajoutons la Viande filandreuse de vautour, quelques Yeux de murloc et ces délicieux Groins de Broche-tripes. Et voilà ! Pour votre aide, <nom>, j'aimerais que vous goûtiez la première portion du ragoût de la marche de l'Ouest !"
+     },
+     "npc": 235,
+     "npc_name": "Salma Saldean",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 3,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794056915,
+     "last_seen": 1794056915
+    },
+    "detail": {
+     "texts": {
+      "description": "Aidez-moi à faire du ragoût de la marche de l'Ouest. Ramenez les ingrédients suivants :\n\n3 morceaux de Viande filandreuse de vautour ;\n3 Groins de Broche-tripes ;\n3 Yeux de murloc ;\n3 Okras.",
+      "objectives": "Salma Saldean veut 3 morceaux de Viande filandreuse de vautour, 3 Groins de Broche-tripes, 3 Yeux de murloc et 3 Okras.",
+      "name": "Le ragoût de la marche de l'Ouest"
+     },
+     "npc": 235,
+     "npc_name": "Salma Saldean",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793900259,
+     "last_seen": 1794045470
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "48": {
+   "id": 48,
+   "name": "Doux whisky",
+   "objectives": "Rapporter de l'Eau de source sacrée à Grimbooze Thunderbrew.",
+   "description": "Dans la campagne du Sud, là où la vigne pousse, en rampant et se tordant\nSe cache un puits où l'eau coule profondément\nAussi pure que la Sœur sacrée de la Lumière, elle est\nApportez-moi un peu de cette eau sacrée.",
+   "progress": "Hic ! Oh ! Oh ! Je vous le répète?\n\nDans la campagne du Sud, là où la vigne pousse, en rampant et se tordant\nSe cache un puits où l'eau coule profondément\nAussi pure que la Sœur sacrée de la Lumière, elle est\nApportez-moi un peu de cette eau de source sacrée.",
+   "completion": "Hic ! Oh ! Oh !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 239,
+     "name": "Grimbooze Thunderbrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 239,
+     "name": "Grimbooze Thunderbrew"
+    }
+   ],
+   "zone_id": 40,
+   "level": 44,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 3750,
+   "money": 6500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "49": {
+   "id": 49,
+   "name": "Doux whisky",
+   "objectives": "Grimbooze Thunderbrew veut un Sac d'orge, un Sac de seigle et un Sac de maïs.",
+   "description": "Le whisky, de ma vie est le plus ancien amour\nComme les étoiles qui durent pour toujours\nRapportez-moi, pour que mon amour revienne majestueux tel un aigle\nUn sac de chacune de ces céréales : orge, maïs et seigle.",
+   "progress": "Encore ? Bien sûr !\n\nLe whisky, de ma vie est le plus ancien amour\nComme les étoiles qui durent pour toujours\nRapportez-moi, pour que mon amour revienne majestueux tel un aigle\nUn sac de chacune de ces céréales : orge, maïs et seigle.",
+   "completion": "Hic ! Oh ! Oh !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 239,
+     "name": "Grimbooze Thunderbrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 239,
+     "name": "Grimbooze Thunderbrew"
+    }
+   ],
+   "zone_id": 40,
+   "level": 44,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 4650,
+   "money": 12500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "50": {
+   "id": 50,
+   "name": "Doux whisky",
+   "objectives": "Grimbooze Thunderbrew veut du Vrai-argent.",
+   "description": "Je mélangerai et mélangerai, jusqu'à de la pulpe obtenir\nPour que ce soit notre petit cache sans faiblir\nEn métal solide, il faut que cela soit fait\nPour me permettre de finir cette chanson, du vrai-argent il faut me rapporter.",
+   "progress": "Encore une fois pour vous ? Mais bien sûr !\n\nJe mélangerai et mélangerai, jusqu'à de la pulpe obtenir\nPour que ce soit notre secret sans faiblir\nEn métal solide, il faut que cela soit fait\nPour me permettre de finir cette chanson, du vrai-argent il faut me rapporter.",
+   "completion": "Hic ! Oh ! Oh !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 239,
+     "name": "Grimbooze Thunderbrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 239,
+     "name": "Grimbooze Thunderbrew"
+    }
+   ],
+   "zone_id": 40,
+   "level": 44,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 4650,
+   "money": 12500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "51": {
+   "id": 51,
+   "name": "Doux whisky",
+   "objectives": "Apporter une Branche de sycomore à Grimbooze Thunderbrew.",
+   "description": "Pas encore filtré, mais déjà distillé\nComme une terre inconnue attendant d'être trouvée\nPuis pour faire un tas de charbon il faut être actif\nLivrez-moi une branche de sycomore, ceci est votre objectif.",
+   "progress": "Un rappel ? Mais bien sûr, tout ce que vous voulez !\n\nPas encore filtré, mais déjà distillé\nComme une terre inconnue attendant d'être trouvée\nPuis pour faire un tas de charbon il faut être actif\nLivrez-moi une branche de sycomore, ceci est votre objectif.",
+   "completion": "Hic ! Oh ! Oh !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 239,
+     "name": "Grimbooze Thunderbrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 239,
+     "name": "Grimbooze Thunderbrew"
+    }
+   ],
+   "zone_id": 40,
+   "level": 44,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 4650,
+   "money": 12500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "53": {
+   "id": 53,
+   "name": "Doux whisky",
+   "objectives": "Apporter un Fagot de chêne à Grimbooze Thunderbrew.",
+   "description": "Douce eau aussi translucide que des larmes d'enfant\nUne merveilleuse et profonde couleur ambre prend avec le temps\nMais avant de nous saouler\nUn fût de chêne doit être fabriqué.",
+   "progress": "Bien sûr, je la chante encore pour vous !\n\nDouce eau aussi translucide que des larmes d'enfant\nUne merveilleuse et profonde couleur ambre prend avec le temps\nMais avant de nous saouler\nUn fût de chêne doit être fabriqué.",
+   "completion": "Vieilli en fût, et par le charbon filtré\nIl passe sur vos lèvres, pour ensuite votre esprit transpercer.\nMaintenant buvons, pour vous un toast portons\nEt tant que vous êtes là, un toast pour Grimbooze Thunderbrew aussi portons !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 239,
+     "name": "Grimbooze Thunderbrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 239,
+     "name": "Grimbooze Thunderbrew"
+    }
+   ],
+   "zone_id": 40,
+   "level": 44,
+   "reqlevel": 40,
+   "side": "alliance",
+   "xp": 5600,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "64": {
+   "id": 64,
+   "name": "Le cadeau oublié",
+   "objectives": "Le fermier Furlbrow désire que vous retrouviez sa Montre qui se trouve dans la penderie de sa ferme près du champ de citrouilles à l'ouest.",
+   "description": "C'était horrible ! Verna m'a réveillé quand elle a entendu du grabuge dans les champs. Ils étaient envahis par des vandales. Nous nous sommes enfuis à toutes jambes, du coup j'ai oublié ma montre sur place. Le père de Verna me l'avait offerte pour notre mariage et je suis malade de savoir qu'elle est entre les mains de ces voleurs. J'ai laissé ma montre dans la penderie à la ferme. Cherchez le champ de citrouilles à l'ouest – vous ne pouvez pas le manquer. Si vous me la ramenez, je saurais être reconnaissant !",
+   "progress": "Je suppose que vous n'avez pas retrouvé ma montre ?",
+   "completion": "Ma montre ! Merci beaucoup, cher Monsieur !\n\nNous sommes de pauvres paysans et nous avons perdu nos terres, mais acceptez quand même ceci en témoignage de notre reconnaissance.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 237,
+     "name": "Furlbrow le fermier"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 237,
+     "name": "Furlbrow le fermier"
+    }
+   ],
+   "zone_id": 40,
+   "level": 12,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": 910,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ma montre ! Merci beaucoup, ma Dame !\n\nNous sommes de pauvres paysans et nous avons perdu nos terres, mais acceptez quand même ceci en témoignage de notre reconnaissance."
+     },
+     "npc": 237,
+     "npc_name": "Froncebouille le fermier",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 3,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794046986,
+     "last_seen": 1794046986
+    },
+    "detail": {
+     "texts": {
+      "description": "C'était horrible ! Verna m'a réveillé quand elle a entendu du grabuge dans les champs. Ils étaient envahis par des vandales. Nous nous sommes enfuis à toutes jambes, du coup j'ai oublié ma montre sur place. Le père de Verna me l'avait offerte pour notre mariage et je suis malade de savoir qu'elle est entre les mains de ces voleurs. J'ai laissé ma montre dans la penderie à la ferme. Cherchez le champ de citrouilles à l'ouest – vous ne pouvez pas le manquer. Si vous me la ramenez, je saurais être reconnaissant !",
+      "objectives": "Le fermier Froncebouille désire que vous retrouviez sa Montre qui se trouve dans la penderie de sa ferme près du champ de citrouilles à l'ouest.",
+      "name": "Le cadeau oublié"
+     },
+     "npc": 237,
+     "npc_name": "Froncebouille le fermier",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793898470,
+     "last_seen": 1794044964
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "65": {
+   "id": 65,
+   "name": "La Confrérie défias",
+   "objectives": "Gryan Stoutmantle veut que vous parliez à Wiley à Lakeshire.",
+   "description": "La bande de misérables, responsable de la fuite des honnêtes gens de la marche de l'Ouest, se fait appeler la Confrérie défias. J'ai besoin de vous pour infiltrer ces voyous. Nous devons connaître l'identité de leur chef et où ils sont basés. À Lakeshire, il y a un voleur nommé Wiley à l'auberge qui me doit une faveur.\n\nAllez jusqu'à Lakeshire dans les Carmines, à l'est d'Elwynn, et trouvez ce que vous pouvez.",
+   "progress": null,
+   "completion": "Alors, c'est Stoutmantle qui vous envoie ? Eh bien ! je lui dois une faveur.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 234,
+     "name": "Gryan Stoutmantle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 266,
+     "name": "Wiley le noir"
+    }
+   ],
+   "zone_id": 40,
+   "level": 18,
+   "reqlevel": 14,
+   "side": "alliance",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Alors, c'est Stoutmantle qui vous envoie ? Eh bien ! je lui dois une faveur."
+     },
+     "npc": 266,
+     "npc_name": "Wiley le noir",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Auberge de Comté-du-Lac",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794087171,
+     "last_seen": 1794087171
+    },
+    "detail": {
+     "texts": {
+      "description": "La bande de misérables, responsable de la fuite des honnêtes gens de la marche de l'Ouest, se fait appeler la Confrérie défias. J'ai besoin de vous pour infiltrer ces voyous. Nous devons connaître l'identité de leur chef et où ils sont basés. À Comté-du-Lac, il y a un voleur nommé Wiley à l'auberge qui me doit une faveur.\n\nAllez jusqu'à Comté-du-Lac dans les Carmines, à l'est d'Elwynn, et trouvez ce que vous pouvez.",
+      "objectives": "Gryan Stoutmantle veut que vous parliez à Wiley à Comté-du-Lac.",
+      "name": "La Confrérie défias"
+     },
+     "npc": 234,
+     "npc_name": "Gryan Stoutmantle",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Tour des sentinelles",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793912160,
+     "last_seen": 1793912160
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "102": {
+   "id": 102,
+   "name": "Patrouilles dans la marche de l'Ouest",
+   "objectives": "Rapportez 8 Pattes de gnolls au capitaine Danuvin à la Colline des sentinelles.",
+   "description": "Stormwind nous a abandonnés. Un vent de corruption souffle sur la marche de l'Ouest. C'est ma terre natale et je n'abandonnerai pas les gens qui ont choisi de rester ici. Nous, les anciens fermiers, nous résisterons.\n\nVotre mission, si vous l'acceptez, sera de patrouiller dans les prairies de la marche. Débusquez et tuez les infâmes gnolls qui apparemment sont de connivence avec les voleurs des Mortemines. Apportez-moi 8 Pattes de gnolls et je vous récompenserai pour votre courage.",
+   "progress": "Avez-vous 8 pattes de ces traîtres de gnolls ?",
+   "completion": "Bien joué, <nom>. Avec une personne de votre valeur de notre côté, la marche de l'Ouest ne peut que retrouver sa tranquillité d’antan. S'il vous plaît, acceptez ceci en gage de reconnaissance.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 821,
+     "name": "Capitaine Danuvin"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 821,
+     "name": "Capitaine Danuvin"
+    }
+   ],
+   "zone_id": 40,
+   "level": 14,
+   "reqlevel": 8,
+   "side": "alliance",
+   "xp": 980,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Bien joué, <nom>. Avec une personne de votre valeur de notre côté, la marche de l'Ouest ne peut que retrouver sa tranquillité d’antan. S'il vous plaît, acceptez ceci en gage de reconnaissance."
+     },
+     "npc": 821,
+     "npc_name": "Capitaine Danuvin",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Tour des sentinelles",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793904759,
+     "last_seen": 1793904759
+    },
+    "detail": {
+     "texts": {
+      "description": "Hurlevent nous a abandonnés. Un vent de corruption souffle sur la marche de l'Ouest. C'est ma terre natale et je n'abandonnerai pas les gens qui ont choisi de rester ici. Nous, les anciens fermiers, nous résisterons.\n\nVotre mission, si vous l'acceptez, sera de patrouiller dans les prairies de la marche. Débusquez et tuez les infâmes gnolls qui apparemment sont de connivence avec les voleurs des Mortemines. Apportez-moi 8 Pattes de gnolls et je vous récompenserai pour votre courage.",
+      "objectives": "Rapportez 8 Pattes de gnolls au capitaine Danuvin à la Colline des sentinelles.",
+      "name": "Patrouilles dans la marche de l'Ouest"
+     },
+     "npc": 821,
+     "npc_name": "Capitaine Danuvin",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Tour des sentinelles",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793900742,
+     "last_seen": 1794045629
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "103": {
+   "id": 103,
+   "name": "Le gardien de la flamme",
+   "objectives": "Apporter 5 Flasques d'huile au capitaine Grayson, au phare de l'Ouest",
+   "description": "Je me souviens de cette terrible nuit, au cours de laquelle la famille du gardien de phare a été tuée. J'ai contemplé, impuissant, l’attaque du Vieux Troubloeil. Mais bon, ce qui est fait est fait. Ma préoccupation maintenant est la sécurité des marins et des navires qui croisent sur la Grande mer, car la zone est très dangereuse près des récifs le long de la côte. Vu qu'il n'y a plus personne pour s'occuper du phare, la tâche m'incombe à présent de surveiller sa flamme.\n\nAidez-moi à garder la flamme allumée, apportez-moi 5 Flasques d'huile provenant des monstres des moissons.",
+   "progress": "La flamme ne brûlera pas longtemps sans huile, <nom>.",
+   "completion": "Loué sois-tu, brave <classe>. Les rochers de la côte de Westfall seront éclairés grâce à votre travail acharné. De nombreuses vies seront épargnées tant que la torche restera allumée.\n\nJe suis mort inutilement sur ce même rivage. Ma mission dans l'au-delà est de veiller à ce que personne d'autre ne suive mon destin.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 392,
+     "name": "Capitaine Grayson"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 392,
+     "name": "Capitaine Grayson"
+    }
+   ],
+   "zone_id": 40,
+   "level": 16,
+   "reqlevel": 10,
+   "side": "both",
+   "xp": 1150,
+   "money": 600,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "104": {
+   "id": 104,
+   "name": "Menace sur la côte",
+   "objectives": "Rapporter une Ecaille du Vieux Troubloeil au capitaine Grayson au phare de l'Ouest.",
+   "description": "Quand ma vie a pris fin sur ces rochers, je ne savais pas que je pouvais espérer quelque chose après la mort. Cette nuit-là, le phare était éteint parce que le Vieux Troubloeil avait fait fuir la famille qui s'en occupait. Mais les gens sont revenus et ont rallumé la flamme. Alors le Vieux Troubloeil a contraint ces faibles d'esprit de murlocs à attaquer le phare. Cette fois-ci, la famille n'a pas eu le temps de fuir, et elle a été massacrée par ces ignobles créatures, sans que personne ne puisse intervenir.\n\nTuez le Vieux Troubloeil si vous le rencontrez le long de la plage, et rapportez-moi une de ses écailles, je vous récompenserai.",
+   "progress": "La menace que représente le Vieux Troubloeil a-t-elle été éradiquée ? On l'a repéré en train de vagabonder près du littoral de la marche de l'Ouest.\n\nRevenez quand cette immonde bête sera morte.",
+   "completion": "Donc cet ignoble barbare, Troubloeil, est enfin mort. Beau travail, <nom>. Vous avez pris une vie, mais en faisant cela de nombreuses autres seront épargnées. La Grande Mer, avec tous les dangers qu'elle représente, sera un petit peu plus sûre grâce à vous.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 392,
+     "name": "Capitaine Grayson"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 392,
+     "name": "Capitaine Grayson"
+    }
+   ],
+   "zone_id": 40,
+   "level": 20,
+   "reqlevel": 15,
+   "side": "both",
+   "xp": 1550,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "117": {
+   "id": 117,
+   "name": "La Tonnebière",
+   "objectives": "Apporter 5 Pieds de Houblon à Grimbooze Thunderbrew pour qu'il prépare son breuvage spécial.",
+   "description": "Allez-donc, <mon ami/mon amie>, sans tarder hâtez-vous !\nPour que notre breuvage, fidèle à mes dosages,\nTienne plus de la bière que d’un mauvais ragoût,\nIl me manque du houblon pour en faire le brassage.",
+   "progress": "Allez-donc, mon ami, sans tarder hâtez-vous !\nPour que notre breuvage, fidèle à mes dosages,\nTienne plus de la bière que d’un mauvais ragoût,\nIl me manque du houblon pour en faire le brassage.",
+   "completion": "Malt et levure, orge et houblon\nGoûtez-moi ça, rien ne le vaut\nNe mendiez pas juste un gallon\nCar vous aurez un plein tonneau !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 239,
+     "name": "Grimbooze Thunderbrew"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 239,
+     "name": "Grimbooze Thunderbrew"
+    }
+   ],
+   "zone_id": 40,
+   "level": 15,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "mon ami/mon amie"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Malt et levure, orge et houblon\nGoûtez-moi ça, rien ne le vaut\nNe mendiez pas juste un gallon\nCar vous aurez un plein tonneau !"
+     },
+     "npc": 239,
+     "npc_name": "Grimbooze Thunderbrew",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793945624,
+     "last_seen": 1793945624
+    },
+    "detail": {
+     "texts": {
+      "description": "Allez-donc, mon ami, sans tarder hâtez-vous !\nPour que notre breuvage, fidèle à mes dosages,\nTienne plus de la bière que d’un mauvais ragoût,\nIl me manque du houblon pour en faire le brassage.",
+      "objectives": "Apporter 5 Pieds de Houblon à Grimbooze Thunderbrew pour qu'il prépare son breuvage spécial.",
+      "name": "La Tonnebière"
+     },
+     "npc": 239,
+     "npc_name": "Grimbooze Thunderbrew",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793945621,
+     "last_seen": 1793945627
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "132": {
+   "id": 132,
+   "name": "La Confrérie défias",
+   "objectives": "Apporter la Note de Wiley à Gryan Stoutmantle, dans la marche de l'Ouest",
+   "description": "Ce que je vais vous dire peut me coûter la vie. Le gang défias est en train de préparer un gros coup. Il paraît qu'ils se sont acoquinés avec des gnolls, des kobolds et même des gobelins.\n\nApportez ce message à Stoutmantle. Il donne tous les détails de ce que je sais à ce sujet.",
+   "progress": "Content de vous revoir, <nom>. Alors, qu'est-ce que Wiley avait à dire pour sa défense ?",
+   "completion": "J'aurais dû laisser pourrir cette canaille quand j'en avais l'occasion. Mais bon ! Il nous communique des informations cruciales. Bon travail.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 266,
+     "name": "Wiley le noir"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 234,
+     "name": "Gryan Stoutmantle"
+    }
+   ],
+   "zone_id": 40,
+   "level": 18,
+   "reqlevel": 14,
+   "side": "alliance",
+   "xp": 680,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "J'aurais dû laisser pourrir cette canaille quand j'en avais l'occasion. Mais bon ! Il nous communique des informations cruciales. Bon travail."
+     },
+     "npc": 234,
+     "npc_name": "Gryan Stoutmantle",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Tour des sentinelles",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794134850,
+     "last_seen": 1794134850
+    },
+    "detail": {
+     "texts": {
+      "description": "Ce que je vais vous dire peut me coûter la vie. Le gang défias est en train de préparer un gros coup. Il paraît qu'ils se sont acoquinés avec des gnolls, des kobolds et même des gobelins.\n\nApportez ce message à Stoutmantle. Il donne tous les détails de ce que je sais à ce sujet.",
+      "objectives": "Apporter la Note de Wiley à Gryan Stoutmantle, dans la marche de l'Ouest",
+      "name": "La Confrérie défias"
+     },
+     "npc": 266,
+     "npc_name": "Wiley le noir",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Auberge de Comté-du-Lac",
+     "map_id": 1433,
+     "client": "1.60.1.70862",
+     "first_seen": 1794087171,
+     "last_seen": 1794087171
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "135": {
+   "id": 135,
+   "name": "La Confrérie défias",
+   "objectives": "Apporter la Note de Wiley à Mathias Shaw à Stormwind.",
+   "description": "Je me demande de quoi parlait Wiley quand il a mentionné les Maçons. C'était peut-être un lapsus ? Les Défias pourraient-ils être reliés aux Maçons ? Le seul qui pourrait le savoir à coup sûr, c'est Mathias Shaw, le chef du SI:7. Montrez-lui la note de Wiley et voyez s'il a quelque chose à tirer de ce mystère qui s'épaissit. Si vous avez du mal à trouver Shaw, cherchez du côté de la caserne de la vieille ville.",
+   "progress": "Qu'est-ce que vous me voulez ? Je suis un homme très occupé !",
+   "completion": "Cette affaire est plus compliquée que ne peut l'imaginer Stoutmantle.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 234,
+     "name": "Gryan Stoutmantle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 332,
+     "name": "Maître Mathias Shaw"
+    }
+   ],
+   "zone_id": 40,
+   "level": 18,
+   "reqlevel": 14,
+   "side": "alliance",
+   "xp": 680,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Cette affaire est plus compliquée que ne peut l'imaginer Stoutmantle."
+     },
+     "npc": 332,
+     "npc_name": "Maître Mathias Shaw",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794135888,
+     "last_seen": 1794135888
+    },
+    "detail": {
+     "texts": {
+      "description": "Je me demande de quoi parlait Wiley quand il a mentionné les Maçons. C'était peut-être un lapsus ? Les Défias pourraient-ils être reliés aux Maçons ? Le seul qui pourrait le savoir à coup sûr, c'est Mathias Shaw, le chef du SI:7. Montrez-lui la note de Wiley et voyez s'il a quelque chose à tirer de ce mystère qui s'épaissit. Si vous avez du mal à trouver Shaw, cherchez du côté de la caserne de la vieille ville.",
+      "objectives": "Apporter la Note de Wiley à Mathias Shaw à Hurlevent.",
+      "name": "La Confrérie défias"
+     },
+     "npc": 234,
+     "npc_name": "Gryan Stoutmantle",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Tour des sentinelles",
+     "map_id": 1436,
+     "client": "1.60.1.70862",
+     "first_seen": 1794134851,
+     "last_seen": 1794134851
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "136": {
+   "id": 136,
+   "name": "Le trésor caché du capitaine Sanders",
+   "objectives": "Trouver le Coffre du capitaine Sanders. Le fouiller pour trouver l'indice suivant.",
+   "description": "Si vous lisez ceci, c'est que le vieux capitaine Sanders repose sous six pieds de flotte. Mon trésor est à vous. Il vous suffit de suivre le jeu de piste.\n\nD'abord, trouvez mon coffre. Il doit être à moitié enterré dans le sable, depuis le temps, sur la côte de la marche de l'Ouest, à côté de l'épave. Il y a des tas d'épaves sur la côte, mais une seule ancre rouillée. Qui trouve cette ancre trouve mon coffre ! Et avec le coffre, l'indice suivant !",
+   "progress": null,
+   "completion": "Le coffre s'ouvre en grinçant. On dirait qu'il ne contient que de l'eau et du sable… Mais non ! Un petit crabe en sort, qui tient dans ses pinces l'indice suivant !",
+   "starters": [
+    {
+     "type": "item",
+     "id": 1357,
+     "name": "Captain Sander's Treasure Map"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 35,
+     "name": "Captain's Footlocker"
+    }
+   ],
+   "zone_id": 40,
+   "level": 16,
+   "reqlevel": 10,
+   "side": "both",
+   "xp": 580,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "138": {
+   "id": 138,
+   "name": "Le trésor caché du capitaine Sanders",
+   "objectives": "Trouver le Tonneau à côté des cheminées en ruine. Le fouiller pour trouver l'indice suivant.",
+   "description": "L'indice que vous trouvez est le suivant : « Bon travail, matelot ! Maintenant il va falloir cingler vers l'est. À l'est, vers le haut des falaises, à l'est vers la route. Cherchez les ruines des vieilles cheminées, au bord de la route. Là, vous trouverez un vieux tonneau qui contient l'indice suivant. »",
+   "progress": null,
+   "completion": "Bon travail, chasseur de trésor !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 35,
+     "name": "Captain's Footlocker"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 36,
+     "name": "Broken Barrel"
+    }
+   ],
+   "zone_id": 40,
+   "level": 16,
+   "reqlevel": 10,
+   "side": "both",
+   "xp": 580,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "139": {
+   "id": 139,
+   "name": "Le trésor caché du capitaine Sanders",
+   "objectives": "Chercher la Cruche vide à côté du moulin à vent pour trouver le prochain indice.",
+   "description": "En fouillant le tonneau, vous découvrez un autre parchemin. Il y est écrit : « À partir de ce tonneau, tournez-vous vers le nord. Marchez droit comme une bande de cadets qui va au réfectoire, jusqu'à ce que vous voyiez la cruche vide, à côté du moulin à vent solitaire, sur les falaises. Si vous farfouillez autour de cette cruche, vous pourrez bien trouver ce que vous cherchez. »",
+   "progress": null,
+   "completion": "Vous êtes sur la voie royale, chercheur de trésor !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 36,
+     "name": "Broken Barrel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 34,
+     "name": "Old Jug"
+    }
+   ],
+   "zone_id": 40,
+   "level": 16,
+   "reqlevel": 10,
+   "side": "both",
+   "xp": 580,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "140": {
+   "id": 140,
+   "name": "Le trésor caché du capitaine Sanders",
+   "objectives": "Localiser le Coffre au trésor du capitaine Sanders et prendre votre récompense.",
+   "description": "Bien vu ! Il y a un autre indice au fond de la cruche. L'encre a coulé par endroits et le papier sent le whisky, mais vous arrivez à reconstituer une partie du texte. « Maintenant que vous avez trouvé la vieille cruche de whisky, vous êtes presque au trésor ! Tournez-vous vers l'ouest et descendez vers le rivage. Ne vous arrêtez pas au bord de l'eau, continuez ! Nagez vers l'ouest jusqu'à l'île où se trouve mon coffre au trésor ! »",
+   "progress": null,
+   "completion": "Les charnières du vieux coffre sont rouillées, mais elles fonctionnent encore. Vous forcez la serrure et vous vous emparez de votre butin.\n\nFélicitations !",
+   "starters": [
+    {
+     "type": "object",
+     "id": 34,
+     "name": "Old Jug"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 33,
+     "name": "Locked Chest"
+    }
+   ],
+   "zone_id": 40,
+   "level": 16,
+   "reqlevel": 10,
+   "side": "both",
+   "xp": 1150,
+   "money": 800,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "141": {
+   "id": 141,
+   "name": "La Confrérie défias",
+   "objectives": "Apporter le Rapport de Shaw à Gryan Stoutmantle, dans la marche de l'Ouest.",
+   "description": "La Guilde des Maçons est dirigée par un homme du nom d'Edwin VanCleef. C'est lui qui a rebâti Stormwind après sa destruction par les orcs au cours de la Première Guerre. Apparemment, VanCleef et ses équipes n'ont pas apprécié la façon dont ils ont été traités par le roi à la fin de la reconstruction. Ça pourrait expliquer une ou deux petites choses.\n\nJ'ai rédigé un rapport détaillé pour ton maître, dans la marche de l'Ouest. Apporte-le-lui tout de suite !",
+   "progress": "Est-ce que Maître Shaw avait des explications au sujet de ce phénomène ?",
+   "completion": "Edwin VanCleef… Je connais bien ce nom. De penser qu'un homme aussi talentueux et travailleur ait pu devenir un tel scélérat, cela me met en colère. Il faudra me donner des preuves pour que je croie une telle chose !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 332,
+     "name": "Maître Mathias Shaw"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 234,
+     "name": "Gryan Stoutmantle"
+    }
+   ],
+   "zone_id": 40,
+   "level": 18,
+   "reqlevel": 14,
+   "side": "alliance",
+   "xp": 340,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Edwin VanCleef… Je connais bien ce nom. De penser qu’un homme aussi talentueux et travailleur ait pu devenir un tel scélérat, cela me met en colère. Il faudra me donner des preuves pour que je croie une telle chose !"
+     },
+     "npc": 234,
+     "npc_name": "Gryan Stoutmantle",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Tour des sentinelles",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794137003,
+     "last_seen": 1794137003
+    },
+    "detail": {
+     "texts": {
+      "description": "La Guilde des Maçons est dirigée par un homme du nom d'Edwin VanCleef. C'est lui qui a rebâti Hurlevent après sa destruction par les orcs au cours de la Première Guerre. Apparemment, VanCleef et ses équipes n'ont pas apprécié la façon dont ils ont été traités par le roi à la fin de la reconstruction. Ça pourrait expliquer une ou deux petites choses.\n\nJ'ai rédigé un rapport détaillé pour ton maître, dans la marche de l'Ouest. Apporte-le-lui tout de suite !",
+      "objectives": "Apporter le Rapport de Shaw à Gryan Stoutmantle, dans la marche de l'Ouest.",
+      "name": "La Confrérie défias"
+     },
+     "npc": 332,
+     "npc_name": "Maître Mathias Shaw",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": 1453,
+     "client": "1.60.1.70862",
+     "first_seen": 1794135889,
+     "last_seen": 1794135889
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "142": {
+   "id": 142,
+   "name": "La Confrérie défias",
+   "objectives": "Traquer le Messager défias dans la marche de l'Ouest et apporter les documents qu'il transporte à Stoutmantle.",
+   "description": "Nous devons débusquer les Défias de leur cache, <nom>. Mes éclaireurs ont rendu compte qu'un Messager Défias a été vu sur les routes entre Ruisselune, la carrière de la côte de l'Or et la mine de Jangolode. Je veux que vous le capturiez. S'il résiste tuez-le et apportez-moi tout ce que vous trouverez sur lui.",
+   "progress": "<nom>, avez-vous recueilli des informations ? Avez-vous localisé le Messager ?",
+   "completion": "C'est une preuve évidente que VanCleef est à la tête de tout cela. Il ne nous reste plus maintenant qu'à découvrir la cache des Défias.\n\nNous avons eu un coup de chance en votre absence : nous avons capturé un voleur qui essayait d’« emprunter » le chariot de Saldean. Il a promis de nous conduire à leur cache si nous lui laissions la vie sauve. Il va falloir protéger ce traître jusqu'à ce qu'il tienne sa promesse. Revenez me voir dès que vous aurez localisé l'endroit.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 234,
+     "name": "Gryan Stoutmantle"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 234,
+     "name": "Gryan Stoutmantle"
+    }
+   ],
+   "zone_id": 40,
+   "level": 18,
+   "reqlevel": 14,
+   "side": "alliance",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "C'est une preuve évidente que VanCleef est à la tête de tout cela. Il ne nous reste plus maintenant qu'à découvrir la cache des Défias.\n\nNous avons eu un coup de chance en votre absence : nous avons capturé un voleur qui essayait d’« emprunter » le chariot de Saldean. Il a promis de nous conduire à leur cache si nous lui laissions la vie sauve. Il va falloir protéger ce traître jusqu'à ce qu'il tienne sa promesse. Revenez me voir dès que vous aurez localisé l'endroit."
+     },
+     "npc": 234,
+     "npc_name": "Gryan Stoutmantle",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Tour des sentinelles",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794137468,
+     "last_seen": 1794137468
+    },
+    "detail": {
+     "texts": {
+      "description": "Nous devons débusquer les Défias de leur cache, <nom>. Mes éclaireurs ont rendu compte qu'un Messager Défias a été vu sur les routes entre Ruisselune, la carrière de la côte de l'Or et la mine Veine-de-Jango. Je veux que vous le capturiez. S'il résiste tuez-le et apportez-moi tout ce que vous trouverez sur lui.",
+      "objectives": "Traquer le Messager défias dans la marche de l'Ouest et apporter les documents qu'il transporte à Stoutmantle.",
+      "name": "La Confrérie défias"
+     },
+     "npc": 234,
+     "npc_name": "Gryan Stoutmantle",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Tour des sentinelles",
+     "map_id": 1436,
+     "client": "1.60.1.70862",
+     "first_seen": 1794137005,
+     "last_seen": 1794137005
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "151": {
+   "id": 151,
+   "name": "Pauvre Vieille Blanchy !",
+   "objectives": "Verna Furlbrow de la marche de l'Ouest veut que vous lui apportiez 8 Poignées d'avoine.",
+   "description": "Cette pauvre Blanchy ! Après tout ce que nous lui avons fait subir, elle est très fatiguée. Je l'ai nourrie avant que nous quittions la ferme, mais nous ne nous attendions pas à ce que le chariot nous trahisse. Si vous pouviez lui apporter quelques poignées d'avoine des champs, vous auriez ma reconnaissance.\n\nJe parie que vous pourriez en trouver un peu près des fermes de la marche de l'Ouest, si vous parvenez à éviter ces horribles machines qui ont pris possession des lieux. Vous verrez de nombreuses fermes, au sud-ouest.",
+   "progress": "La vieille Blanchy ne tient plus debout. Avez-vous réussi à lui trouver de l'avoine ?",
+   "completion": "Oh merci, merci, <nom> ! La vieille Blanchy va être si heureuse !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 238,
+     "name": "Verna Furlbrow"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 238,
+     "name": "Verna Furlbrow"
+    }
+   ],
+   "zone_id": 40,
+   "level": 14,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": 1250,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Oh merci, merci, <nom> ! La vieille Blanchy va être si heureuse !"
+     },
+     "npc": 238,
+     "npc_name": "Verna Froncebouille",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793903182,
+     "last_seen": 1793903231
+    },
+    "detail": {
+     "texts": {
+      "description": "Cette pauvre Blanchy ! Après tout ce que nous lui avons fait subir, elle est très fatiguée. Je l'ai nourrie avant que nous quittions la ferme, mais nous ne nous attendions pas à ce que le chariot nous trahisse. Si vous pouviez lui apporter quelques poignées d'avoine des champs, vous auriez ma reconnaissance.\n\nJe parie que vous pourriez en trouver un peu près des fermes de la marche de l'Ouest, si vous parvenez à éviter ces horribles machines qui ont pris possession des lieux. Vous verrez de nombreuses fermes, au sud-ouest.",
+      "objectives": "Verna Froncebouille de la marche de l'Ouest veut que vous lui apportiez 8 Poignées d'avoine.",
+      "name": "Pauvre Vieille Blanchy !"
+     },
+     "npc": 238,
+     "npc_name": "Verna Froncebouille",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793898477,
+     "last_seen": 1794044967
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "152": {
+   "id": 152,
+   "name": "La côte n'est pas sûre",
+   "objectives": "Tuer 7 Chasse-marées, 7 Guerriers, 7 Oracles et 7 Cours-la-côte, puis retourner voir le capitaine Grayson au Phare de l'Ouest.",
+   "description": "Vous avez probablement remarqué toutes les épaves le long de la côte. La Grande Mer est une maîtresse cruelle, en vérité. La côte de la marche de l'Ouest doit être nettoyée, afin de permettre aux marins de trouver leur chemin jusqu'à nos plages en toute sécurité. Les murlocs sont déjà assez dangereux !\n\nTuez 7 Chasse-marées, 7 Guerriers, 7 Oracles et 7 Cours-la-côte et vous recevrez une récompense.",
+   "progress": "Tuez 7 chasseurs de marées, 7 guerriers, 7 oracles et 7 coastrunners et je veillerai à ce que vous soyez récompensés.",
+   "completion": "Bien joué, <nom>. Vous êtes plutôt doué pour le combat. Merci d'avoir assaini la côte de l'Ouest.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 392,
+     "name": "Capitaine Grayson"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 392,
+     "name": "Capitaine Grayson"
+    }
+   ],
+   "zone_id": 40,
+   "level": 19,
+   "reqlevel": 10,
+   "side": "both",
+   "xp": 1450,
+   "money": 1100,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "153": {
+   "id": 153,
+   "name": "Les masques en cuir rouge",
+   "objectives": "Apporter 15 Masques en cuir rouge à l'éclaireur Galiaan à la Colline des sentinelles.",
+   "description": "Les Défias bougent en permanence. Ça fait un moment que je suis leurs mouvements. J'ai remarqué que nombre des membres du gang portaient un masque en cuir rouge.\n\nApportez-moi 15 de ces masques et vous recevrez une récompense.",
+   "progress": "Apportez-moi 15 masques en cuir rouge et vous serez bien payé.",
+   "completion": "Joli travail, <nom>. Prenez l'un de ces objets en récompense de votre dur labeur.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 878,
+     "name": "Eclaireur Galiaan"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 878,
+     "name": "Eclaireur Galiaan"
+    }
+   ],
+   "zone_id": 40,
+   "level": 15,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1050,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Joli travail, <nom>. Prenez l'un de ces objets en récompense de votre dur labeur."
+     },
+     "npc": 878,
+     "npc_name": "Eclaireur Galiaan",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793912892,
+     "last_seen": 1793912892
+    },
+    "detail": {
+     "texts": {
+      "description": "Les Défias bougent en permanence. Ça fait un moment que je suis leurs mouvements. J'ai remarqué que nombre des membres du gang portaient un masque en cuir rouge.\n\nApportez-moi 15 de ces masques et vous recevrez une récompense.",
+      "objectives": "Apporter 15 Masques en cuir rouge à l'éclaireur Galiaan à la Colline des sentinelles.",
+      "name": "Les masques en cuir rouge"
+     },
+     "npc": 878,
+     "npc_name": "Eclaireur Galiaan",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793900791,
+     "last_seen": 1794045677
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "155": {
+   "id": 155,
+   "name": "La Confrérie défias",
+   "objectives": "Escortez le Traître défias jusqu'à la cache secrète de la Confrérie défias. Lorsque vous saurez où se cachent VanCleef et ses hommes, rapportez l'information à Gryan Stoutmantle.",
+   "description": "Ainsi Stoutmantle envoie quelqu'un d'aussi famélique pour me protéger ? Il faudra bien que ça aille. Tout de même, il vaudrait mieux s'entourer de quelques alliés...\n\nVous connaissez le plan, n'est-ce pas, <nom> ? Vous surveillez mes arrières et je vous mène à la cache des Défias. Vous feriez mieux de ne pas trop vous éloigner. Les Défias veulent ma tête à présent. S'ils me voient avec vous, ils essaieront de me tuer.\n\nPrévenez-moi quand vous aurez rassemblé quelques amis et que vous serez prêts à partir.",
+   "progress": "Quelle affaire avez-vous avec moi ? Je suis un homme très occupé...",
+   "completion": "Excellent, <nom> ! VanCleef est à nous maintenant que nous savons où il se cache !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 467,
+     "name": "Le traître défias"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 234,
+     "name": "Gryan Stoutmantle"
+    }
+   ],
+   "zone_id": 40,
+   "level": 18,
+   "reqlevel": 14,
+   "side": "alliance",
+   "xp": 1700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "184": {
+   "id": 184,
+   "name": "Titre de propriété de Furlbrow",
+   "objectives": "Rapporter son titre de propriété au Fermier Furlbrow.",
+   "description": "Voici un titre de propriété concernant une ferme de la marche de l'Ouest, signé par un certain Théodore Furlbrow et par sa femme, Verna. Au dos, il y a quelques mots hâtivement écrits :\n\n\"Nous avons fait pression sur Furlbrow et avons récupéré son titre pensant que ça pourrait nous être utile au cas où nous voudrions nous installer.\n\nIls ne nous embêteront pas. La dernière fois que je les ai vus, ils étaient sur la route de la marche, avec un chariot cassé.\"\n\nLes Furlbrow aimeraient sans doute récupérer leur titre...",
+   "progress": "Vous avez le titre de propriété de ma ferme ? C'est une merveilleuse nouvelle ! Des forbans nous l'ont volé il y a quelques jours. . . Je le croyais perdu pour de bon !\n\nJe vous en prie, rendez-le-moi. Nous sommes en route pour la marche de l'Ouest et nous allons sans doute y rester un moment, mais si nous revenons par ici. . . Nous aurons besoin de ces papiers !",
+   "completion": "Merci, merci beaucoup, <nom> ! Comme je le disais, les environs ne sont plus très fréquentables pour les honnêtes gens, mais si les choses s'améliorent, ce titre de propriété nous aidera à rentrer en possession de notre bien.\n\nJe n'ai pas grand-chose à vous offrir mais, voilà. . . Prenez ceci.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 1972,
+     "name": "Westfall Deed"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 237,
+     "name": "Furlbrow le fermier"
+    }
+   ],
+   "zone_id": 40,
+   "level": 9,
+   "reqlevel": 8,
+   "side": "alliance",
+   "xp": 590,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Merci, merci beaucoup, <nom> ! Comme je le disais, les environs ne sont plus très fréquentables pour les honnêtes gens, mais si les choses s'améliorent, ce titre de propriété nous aidera à rentrer en possession de notre bien.\n\nJe n'ai pas grand-chose à vous offrir mais, voilà... Prenez ceci."
+     },
+     "npc": 237,
+     "npc_name": "Froncebouille le fermier",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793898469,
+     "last_seen": 1793898469
+    },
+    "detail": {
+     "texts": {
+      "description": "Voici un titre de propriété concernant une ferme de la marche de l'Ouest, signé par un certain Théodore Froncebouille et par sa femme, Verna. Au dos, il y a quelques mots hâtivement écrits :\n\n\"Nous avons fait pression sur Froncebouille et avons récupéré son titre pensant que ça pourrait nous être utile au cas où nous voudrions nous installer.\n\nIls ne nous embêteront pas. La dernière fois que je les ai vus, ils étaient sur la route de la marche, avec un chariot cassé.\"\n\nLes Froncebouille aimeraient sans doute récupérer leur titre...",
+      "objectives": "Rapporter son titre de propriété au Fermier Froncebouille.",
+      "name": "Titre de propriété de Froncebouille"
+     },
+     "npc": null,
+     "npc_name": null,
+     "npc_type": null,
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Forêt d'Elwynn",
+     "map_id": 1429,
+     "client": "1.60.1.70790",
+     "first_seen": 1793859609,
+     "last_seen": 1793859616
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6181": {
+   "id": 6181,
+   "name": "Un message rapide",
+   "objectives": "Apporter la Note de Lewis à Thor, le Maître des gryphons.",
+   "description": "Bien que Stormwind ne nous aide pas beaucoup directement, j'ai quand même un contact dans la ville qui nous permet de nous procurer des armures. Son nom est Osric Strang. Son magasin, “ Immunité limitée ”, est dans la vieille ville de Stormwind.\n\nNotre réserve d'armures diminue et je dois entrer en contact avec Osric pour en obtenir. Pouvez-vous lui porter cette note ?\n\nLa façon la plus rapide d'aller à Stormwind est de demander à Thor, notre Maître des gryphons. Il est juste en bas de la colline, apportez-lui ma note et prenez ensuite un gryphon pour Stormwind.",
+   "progress": "Vous avez l'air d'être une personne pressée. Bien, vous êtes au bon endroit !",
+   "completion": "Vous devez apporter cette note à Stormwind ? Ce n'est pas un problème, vous pouvez prendre un de mes gryphons !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 491,
+     "name": "Intendant Lewis"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 523,
+     "name": "Thor"
+    }
+   ],
+   "zone_id": 40,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 210,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Vous devez apporter cette note à Hurlevent ? Ce n'est pas un problème, vous pouvez prendre un de mes gryphons !"
+     },
+     "npc": 523,
+     "npc_name": "Thor",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793900936,
+     "last_seen": 1793900936
+    },
+    "detail": {
+     "texts": {
+      "description": "Bien que Hurlevent ne nous aide pas beaucoup directement, j'ai quand même un contact dans la ville qui nous permet de nous procurer des armures. Son nom est Osric Strang. Son magasin, “ Immunité limitée ”, est dans la vieille ville de Hurlevent.\n\nNotre réserve d'armures diminue et je dois entrer en contact avec Osric pour en obtenir. Pouvez-vous lui porter cette note ?\n\nLa façon la plus rapide d'aller à Hurlevent est de demander à Thor, notre Maître des gryphons. Il est juste en bas de la colline, apportez-lui ma note et prenez ensuite un gryphon pour Hurlevent.",
+      "objectives": "Apporter la Note de Lewis à Thor, le Maître des gryphons.",
+      "name": "Un message rapide"
+     },
+     "npc": 491,
+     "npc_name": "Intendant Lewis",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Tour des sentinelles",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793900749,
+     "last_seen": 1793900762
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6261": {
+   "id": 6261,
+   "name": "Dungar Longdrink",
+   "objectives": "Apportez la Caisse d'Osric à Dungar Longdrink, le Maître des gryphons.",
+   "description": "<nom>, j’ai mis dans cette caisse tout ce dont Lewis avait fait la demande. Pouvez-vous la lui apporter ?\n\nSi vous avez déjà parlé à Thor, dans la marche de l'Ouest, alors vous pouvez prendre un gryphon pour y retourner. Dungar Longdrink est notre Maître des gryphons, dans le Quartier commerçant.\n\nAllez voir Dungar, puis apportez cette caisse à Lewis, aussi vite que possible. Nous ne pouvons pas nous permettre de laisser nos frères qui combattent dans la marche sans ravitaillement !",
+   "progress": "Serait-ce de la sueur que je vois sur votre front, garçon ? Vous avez trop couru. Prenez un gryphon la prochaine fois !",
+   "completion": "Une caisse pour la marche de l'Ouest, hein ? Vous avez déjà pu vous rendre là-bas ? Si c'est le cas, pas de problème. J'ai des tas de gryphons entraînés à suivre cette route.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1323,
+     "name": "Osric Strang"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 352,
+     "name": "Dungar Longdrink"
+    }
+   ],
+   "zone_id": 40,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 210,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Une caisse pour la marche de l'Ouest, hein ? Vous avez déjà pu vous rendre là-bas ? Si c'est le cas, pas de problème. J'ai des tas de gryphons entraînés à suivre cette route."
+     },
+     "npc": 352,
+     "npc_name": "Dungar Longdrink",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793901286,
+     "last_seen": 1793901286
+    },
+    "detail": {
+     "texts": {
+      "description": "<nom>, j’ai mis dans cette caisse tout ce dont Lewis avait fait la demande. Pouvez-vous la lui apporter ?\n\nSi vous avez déjà parlé à Thor, dans la marche de l'Ouest, alors vous pouvez prendre un gryphon pour y retourner. Dungar Longdrink est notre Maître des gryphons, dans le Quartier commerçant.\n\nAllez voir Dungar, puis apportez cette caisse à Lewis, aussi vite que possible. Nous ne pouvons pas nous permettre de laisser nos frères qui combattent dans la marche sans ravitaillement !",
+      "objectives": "Apportez la Caisse d'Osric à Dungar Longdrink, le Maître des gryphons.",
+      "name": "Dungar Longdrink"
+     },
+     "npc": 1323,
+     "npc_name": "Osric Strang",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": 1453,
+     "client": "1.60.1.70790",
+     "first_seen": 1793901174,
+     "last_seen": 1793901174
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6281": {
+   "id": 6281,
+   "name": "Continuer vers Stormwind",
+   "objectives": "Achetez un voyage en gryphon à Thor, Maître des gryphons, puis apportez la Note de Lewis à Osric Strang au magasin “Immunité limitée”, dans la vieille ville de Stormwind.",
+   "description": "Contre un modeste paiement, vous pouvez prendre un gryphon pour Stormwind, et livrer la note de Lewis à Osric. Il n’y a pas de moyen plus rapide pour se rendre sur place.\n\nSi cela vous convient, revenez me voir quand vous souhaiterez faire le voyage. Cela vous en coûtera quelque peu, mais, croyez-moi, cela le vaut bien !",
+   "progress": "Vous avez voyagé n'est-ce pas ? Avez-vous vu des endroits intéressants ?",
+   "completion": "Une note de l'Intendant Lewis ? Je ne suis pas surpris, il a besoin d'équipement. La Colline des sentinelles se trouve très loin, dans une terre que Stormwind a presque oubliée.\n\nBien, merci à vous, <nom>. Voici quelque argent pour vos frais.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 523,
+     "name": "Thor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1323,
+     "name": "Osric Strang"
+    }
+   ],
+   "zone_id": 40,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 420,
+   "money": 175,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Une note de l'Intendant Lewis ? Je ne suis pas surpris, il a besoin d'équipement. La Colline des sentinelles se trouve très loin, dans une terre que Hurlevent a presque oubliée.\n\nBien, merci à vous, <nom>. Voici quelque argent pour vos frais."
+     },
+     "npc": 1323,
+     "npc_name": "Osric Strang",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793901173,
+     "last_seen": 1793901173
+    },
+    "detail": {
+     "texts": {
+      "description": "Contre un modeste paiement, vous pouvez prendre un gryphon pour Hurlevent, et livrer la note de Lewis à Osric. Il n’y a pas de moyen plus rapide pour se rendre sur place.\n\nSi cela vous convient, revenez me voir quand vous souhaiterez faire le voyage. Cela vous en coûtera quelque peu, mais, croyez-moi, cela le vaut bien !",
+      "objectives": "Achetez un voyage en gryphon à Thor, Maître des gryphons, puis apportez la Note de Lewis à Osric Strang au magasin “Immunité limitée”, dans la vieille ville de Hurlevent.",
+      "name": "Continuer vers Hurlevent"
+     },
+     "npc": 523,
+     "npc_name": "Thor",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793900937,
+     "last_seen": 1793900937
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6285": {
+   "id": 6285,
+   "name": "Aller voir Lewis",
+   "objectives": "Achetez un voyage en gryphon pour la Colline des sentinelles à Dungar Longdrink, Maître des gryphons, puis apportez la Caisse d'Olric à Lewis à la Colline des sentinelles.",
+   "description": "Le Maître des gryphons de la marche de l'Ouest s’appelle Thor. Si vous lui avez déjà parlé auparavant, vous pouvez prendre l’un de mes gryphons pour y retourner.\n\nC’est une bonne chose à retenir : les gryphons sont entraînés à voler vers leur capitale, mais ils ne vous porteront vers un Maître des gryphons éloigné que si vous l'avez déjà visité auparavant.\n\nVous avez déjà parlé à Thor, vous n’avez donc qu’à revenir me voir dès que vous souhaiterez prendre un gryphon pour la marche de l'Ouest. Une fois que vous serez à destination, livrez la Caisse d'Osric à l’Intendant Lewis.",
+   "progress": "Vous revenez de Stormwind ? Est-ce qu'Osric a envoyé les armures ?",
+   "completion": "Bien, vous avez apporté les armures ! Nous allons les partager entre ceux qui en ont besoin.\n\nMerci, <nom>. Vous nous avez été d'une grande aide. Et maintenant que vous n'êtes plus un étranger pour les gryphons, j'espère que vous reviendrez et apporterez encore souvent votre aide à la Colline des sentinelles !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 352,
+     "name": "Dungar Longdrink"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 491,
+     "name": "Intendant Lewis"
+    }
+   ],
+   "zone_id": 40,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": 1050,
+   "money": 350,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Bien, vous avez apporté les armures ! Nous allons les partager entre ceux qui en ont besoin.\n\nMerci, <nom>. Vous nous avez été d'une grande aide. Et maintenant que vous n'êtes plus un étranger pour les gryphons, j'espère que vous reviendrez et apporterez encore souvent votre aide à la Colline des sentinelles !"
+     },
+     "npc": 491,
+     "npc_name": "Intendant Lewis",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Tour des sentinelles",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793901445,
+     "last_seen": 1793901445
+    },
+    "detail": {
+     "texts": {
+      "description": "Le Maître des gryphons de la marche de l'Ouest s’appelle Thor. Si vous lui avez déjà parlé auparavant, vous pouvez prendre l’un de mes gryphons pour y retourner.\n\nC’est une bonne chose à retenir : les gryphons sont entraînés à voler vers leur capitale, mais ils ne vous porteront vers un Maître des gryphons éloigné que si vous l'avez déjà visité auparavant.\n\nVous avez déjà parlé à Thor, vous n’avez donc qu’à revenir me voir dès que vous souhaiterez prendre un gryphon pour la marche de l'Ouest. Une fois que vous serez à destination, livrez la Caisse d'Osric à l’Intendant Lewis.",
+      "objectives": "Achetez un voyage en gryphon pour la Colline des sentinelles à Dungar Longdrink, Maître des gryphons, puis apportez la Caisse d'Olric à Lewis à la Colline des sentinelles.",
+      "name": "Aller voir Lewis"
+     },
+     "npc": 352,
+     "npc_name": "Dungar Longdrink",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": 1453,
+     "client": "1.60.1.70790",
+     "first_seen": 1793901287,
+     "last_seen": 1793901287
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "79008": {
+   "id": 79008,
+   "name": "… et cette note que vous avez trouvée",
+   "objectives": "Vous n’avez pour vous guider que ce qui reste de la note calcinée.",
+   "description": "<La lueur sourde des braises s’amenuise et vous tombez sur les restes d’un feu récent.\r\n\r\nParmi les provisions éparses, vous trouvez une note roussie.>\r\n\r\n« Tout ce qui brûle n’est pas perdu. Trouvez la terre jumelle, trouvez le lieu. »",
+   "progress": null,
+   "completion": "Vous découvrez une nouvelle dépouille calcinée et apercevez un message cloué sur une planche en bois.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 415107,
+     "name": "Burned-Out Remains"
+    }
+   ],
+   "enders": [
+    {
+     "type": "object",
+     "id": 415106,
+     "name": "Burned-Out Remains"
+    },
+    {
+     "type": "object",
+     "id": 417072,
+     "name": "Nailed Plank"
+    }
+   ],
+   "zone_id": 40,
+   "level": 22,
+   "reqlevel": 14,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "<La lueur sourde des braises s’amenuise et vous tombez sur les restes d’un feu récent.\r\n\r\nParmi les provisions éparses, vous trouvez une note roussie.>\r\n\r\n« Tout ce qui brûle n’est pas perdu. Trouvez la terre jumelle, trouvez le lieu. »",
+      "objectives": "Vous n’avez pour vous guider que ce qui reste de la note calcinée.",
+      "name": "… et cette note que vous avez trouvée"
+     },
+     "npc": 415107,
+     "npc_name": "Restes brûlés",
+     "npc_type": "GameObject",
+     "npc_sex": null,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793943573,
+     "last_seen": 1793943573
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "92109": {
+   "id": 92109,
+   "name": null,
+   "objectives": "Collectez 5 fioles vides, 5 brins de feuillargent et 5 pacifiques pour la jeune alchimiste en herbe devant la grange de Ruisselune dans la marche de l’Ouest.",
+   "description": "Euh… bonjour, <m’sieur/m’dame>. Normalement, je dois pas parler aux <inconnus/inconnues>, mais… Hé, c’est quoi ces bouteilles toutes brillantes qui dépassent de votre sac ? Vous êtes alchimiste ? C’est super cool !\n\nQuand je serai grande, je veux être alchimiste aussi. Mon papa me laisse pas jouer avec ses herbes, il dit que c’est trop dangereux.\n\nMais moi, je veux apprendre maintenant. Vous pourriez pas me donner du matériel ? Allez, s’il vous plaît !",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 249713,
+     "name": "Odd Child"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 249713,
+     "name": "Odd Child"
+    }
+   ],
+   "zone_id": 40,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "inconnus/inconnues",
+    "m’sieur/m’dame"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  },
+  "92110": {
+   "id": 92110,
+   "name": null,
+   "objectives": "Collectez 3 yeux de Murloc pour la jeune alchimiste en herbe devant la grange de Ruisselune dans la marche de l’Ouest.",
+   "description": "Ouah, c’est ma toute première potion ! Vous saviez que si on mélange ces deux herbes, la potion devient toute rouge, vous ?\n\nC’est rigolo, mais juste mélanger des fleurs comme ça, ça ressemble pas vraiment à l’alchimie que fait mon papa. Lui, il a aussi des autres ingrédients.\n\nJe sais pas trop quoi utiliser, alors on n’a qu’à inventer des trucs ! Voyons voir… des yeux de Murloc, peut-être ? Ça a l’air un peu dégoûtant, mais je suis sûre que ça fera quelque chose.",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 249713,
+     "name": "Odd Child"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 249713,
+     "name": "Odd Child"
+    }
+   ],
+   "zone_id": 40,
+   "level": 10,
+   "reqlevel": 10,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  },
+  "92742": {
+   "id": 92742,
+   "name": "Tester les puits",
+   "objectives": "Utilisez le kit d’échantillonnage d’eau de puits pour collecter des échantillons dans les puits de la ferme des Jansen et de la ferme des Molsen.",
+   "description": "Nous devons déterminer la source et la nature du poison qui corrompt ces terres. Commençons par les eaux sous les fermes de la zone.\r\n\r\nRendez-vous à la ferme des Jansen, au nord, puis à celle des Molsen, au nord-ouest d’ici, et prélevez des échantillons dans leurs puits.",
+   "progress": null,
+   "completion": "Merci. Voyons voir…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 253092,
+     "name": "Alba Fairmoon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 253092,
+     "name": "Alba Fairmoon"
+    }
+   ],
+   "zone_id": 40,
+   "level": 12,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Merci. Voyons voir…"
+     },
+     "npc": 253092,
+     "npc_name": "Alba Lunepâle",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793941912,
+     "last_seen": 1794056714
+    },
+    "detail": {
+     "texts": {
+      "description": "Nous devons déterminer la source et la nature du poison qui corrompt ces terres. Commençons par les eaux sous les fermes de la zone.\r\n\r\nRendez-vous à la ferme des Jansen, au nord, puis à celle des Molsen, au nord-ouest d’ici, et prélevez des échantillons dans leurs puits.",
+      "objectives": "Utilisez le kit d’échantillonnage d’eau de puits pour collecter des échantillons dans les puits de la ferme des Jansen et de la ferme des Molsen.",
+      "name": "Tester les puits"
+     },
+     "npc": 253092,
+     "npc_name": "Alba Lunepâle",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793900819,
+     "last_seen": 1794045773
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "92744": {
+   "id": 92744,
+   "name": "Des branchies de Murloc",
+   "objectives": "Alba Lunepâle vous demande de récupérer 7 branchies de Murloc de Longrivage sur les côtes de la marche de l’Ouest.",
+   "description": "La corruption affectant les récoltes de la marche de l’Ouest s’est peut-être aussi infiltrée dans l’océan. Si les poissons de la région sont également affectés, cela pourrait condamner Hurlevent à la famine.\r\nCollectez des branchies sur les Murlocs de la côte et rapportez-les-moi. Les Murlocs sont très résistants, mais leur physionomie est extrêmement sensible aux contaminations. Si l’eau de mer contient des toxines, elles seront présentes dans les branchies que vous trouverez.",
+   "progress": null,
+   "completion": "Je vois… Ces branchies semblent en bonne santé, pour l’instant. Mais nous ne devons pas faire preuve de complaisance.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 253092,
+     "name": "Alba Fairmoon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 253092,
+     "name": "Alba Fairmoon"
+    }
+   ],
+   "zone_id": 40,
+   "level": 12,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Je vois… Ces branchies semblent en bonne santé, pour l’instant. Mais nous ne devons pas faire preuve de complaisance."
+     },
+     "npc": 253092,
+     "npc_name": "Alba Lunepâle",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793912121,
+     "last_seen": 1794055641
+    },
+    "detail": {
+     "texts": {
+      "description": "La corruption affectant les récoltes de la marche de l’Ouest s’est peut-être aussi infiltrée dans l’océan. Si les poissons de la région sont également affectés, cela pourrait condamner Hurlevent à la famine.\r\nCollectez des branchies sur les Murlocs de la côte et rapportez-les-moi. Les Murlocs sont très résistants, mais leur physionomie est extrêmement sensible aux contaminations. Si l’eau de mer contient des toxines, elles seront présentes dans les branchies que vous trouverez.",
+      "objectives": "Alba Lunepâle vous demande de récupérer 7 branchies de Murloc de Longrivage sur les côtes de la marche de l’Ouest.",
+      "name": "Des branchies de Murloc"
+     },
+     "npc": 253092,
+     "npc_name": "Alba Lunepâle",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793900820,
+     "last_seen": 1794045773
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "92745": {
+   "id": 92745,
+   "name": "Quelles sales mines !",
+   "objectives": "Tuez 4 terrassiers kobold à la mine Veine-de-Jango et 6 mineurs Rivepatte à la carrière de la côte de l’Or.",
+   "description": "Les échantillons de puits que vous avez récupérés contiennent des métaux toxiques ! Si nous n’endiguons pas cette corruption rapidement, il faudra des décennies avant que des récoltes puissent à nouveau pousser sur ce sol.\r\nLes Défias se sont emparés des mines de la marche de l’Ouest et se servent de créatures pour les vider de leurs ressources. Perturbez leurs opérations en tuant les mineurs de la mine Veine-de-Jango au nord et de la carrière de la côte de l’Or à l’ouest.",
+   "progress": null,
+   "completion": "Beau travail, <nom>. Mais j’ai bien peur que la source de ce poison ne se trouve ailleurs…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 253092,
+     "name": "Alba Fairmoon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 253092,
+     "name": "Alba Fairmoon"
+    }
+   ],
+   "zone_id": 40,
+   "level": 14,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Beau travail, <nom>. Mais j’ai bien peur que la source de ce poison ne se trouve ailleurs…"
+     },
+     "npc": 253092,
+     "npc_name": "Alba Lunepâle",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793944203,
+     "last_seen": 1793944203
+    },
+    "detail": {
+     "texts": {
+      "description": "Les échantillons de puits que vous avez récupérés contiennent des métaux toxiques ! Si nous n’endiguons pas cette corruption rapidement, il faudra des décennies avant que des récoltes puissent à nouveau pousser sur ce sol.\r\nLes Défias se sont emparés des mines de la marche de l’Ouest et se servent de créatures pour les vider de leurs ressources. Perturbez leurs opérations en tuant les mineurs de la mine Veine-de-Jango au nord et de la carrière de la côte de l’Or à l’ouest.",
+      "objectives": "Tuez 4 terrassiers kobold à la mine Veine-de-Jango et 6 mineurs Rivepatte à la carrière de la côte de l’Or.",
+      "name": "Quelles sales mines !"
+     },
+     "npc": 253092,
+     "npc_name": "Alba Lunepâle",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793941915,
+     "last_seen": 1794056716
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "92747": {
+   "id": 92747,
+   "name": "Espionnage de Ruisselune",
+   "objectives": "Récupérez 8 fournitures d’ingénierie suspectes à Ruisselune.",
+   "description": "Étrange… Le poison ne semble pas provenir des mines que vous avez explorées.\r\n\r\nOn m’a rapporté que les Mortemines, situées sous la ville de Ruisselune, sont les mines les plus vastes et les plus profondes de la marche de l’Ouest, mais elles sont abandonnées depuis la Première Guerre. Se pourrait-il qu’elles soient de nouveau en activité ?\r\n\r\nRendez-vous à Ruisselune, <nom>, et cherchez des preuves d’activités minières ou industrielles. C’est notre dernière piste !",
+   "progress": null,
+   "completion": "Qu’est-ce que tout ceci ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 253092,
+     "name": "Alba Fairmoon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 253092,
+     "name": "Alba Fairmoon"
+    }
+   ],
+   "zone_id": 40,
+   "level": 15,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Qu’est-ce que tout ceci ?"
+     },
+     "npc": 253092,
+     "npc_name": "Alba Lunepâle",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793946466,
+     "last_seen": 1793946466
+    },
+    "detail": {
+     "texts": {
+      "description": "Étrange… Le poison ne semble pas provenir des mines que vous avez explorées.\r\n\r\nOn m’a rapporté que les Mortemines, situées sous la ville de Ruisselune, sont les mines les plus vastes et les plus profondes de la marche de l’Ouest, mais elles sont abandonnées depuis la Première Guerre. Se pourrait-il qu’elles soient de nouveau en activité ?\r\n\r\nRendez-vous à Ruisselune, <nom>, et cherchez des preuves d’activités minières ou industrielles. C’est notre dernière piste !",
+      "objectives": "Récupérez 8 fournitures d’ingénierie suspectes à Ruisselune.",
+      "name": "Espionnage de Ruisselune"
+     },
+     "npc": 253092,
+     "npc_name": "Alba Lunepâle",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793944206,
+     "last_seen": 1793944206
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "92748": {
+   "id": 92748,
+   "name": "Consultation explosive",
+   "objectives": "Rendez-vous au quartier des Nains à Hurlevent et cherchez un ingénieur pour vous aider.",
+   "description": "Les fournitures que vous avez trouvées indiquent l’existence d’une vaste installation industrielle, quelque part dans les Mortemines. C’est sans aucun doute la source des toxines qui ravagent les terres agricoles de la marche de l’Ouest. Nous devons y mettre un terme, et vite.\r\n\r\nCe qui se trouve là-dedans sera difficile à détruire. Rendez-vous dans le quartier des Nains de Hurlevent et trouvez un spécialiste en ingénierie qui puisse nous fournir des explosifs.",
+   "progress": null,
+   "completion": "Il y a quelque chose à faire exploser ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 253092,
+     "name": "Alba Fairmoon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11026,
+     "name": "Sprite Jumpsprocket"
+    }
+   ],
+   "zone_id": 40,
+   "level": 16,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Il y a quelque chose à faire exploser ?"
+     },
+     "npc": 11026,
+     "npc_name": "Fée Dérailleur",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793948931,
+     "last_seen": 1793948931
+    },
+    "detail": {
+     "texts": {
+      "description": "Les fournitures que vous avez trouvées indiquent l’existence d’une vaste installation industrielle, quelque part dans les Mortemines. C’est sans aucun doute la source des toxines qui ravagent les terres agricoles de la marche de l’Ouest. Nous devons y mettre un terme, et vite.\r\n\r\nCe qui se trouve là-dedans sera difficile à détruire. Rendez-vous dans le quartier des Nains de Hurlevent et trouvez un spécialiste en ingénierie qui puisse nous fournir des explosifs.",
+      "objectives": "Rendez-vous au quartier des Nains à Hurlevent et cherchez un ingénieur pour vous aider.",
+      "name": "Consultation explosive"
+     },
+     "npc": 253092,
+     "npc_name": "Alba Lunepâle",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793946468,
+     "last_seen": 1793946468
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "92749": {
+   "id": 92749,
+   "name": "Un plan explosif",
+   "objectives": "Obtenez 10 bâtons de dynamite basique en les fabriquant, en les échangeant ou à l’hôtel des ventes, puis retournez voir Fée Dérailleur dans le quartier des Nains, à Hurlevent.",
+   "description": "Du sabotage industriel ? Vous avez toute mon attention !\r\nCommençons par un peu de dynamite…",
+   "progress": null,
+   "completion": "Ça commence bien ! Maintenant, attachons-les ensemble… et corsons un peu les choses…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11026,
+     "name": "Sprite Jumpsprocket"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11026,
+     "name": "Sprite Jumpsprocket"
+    }
+   ],
+   "zone_id": 40,
+   "level": 16,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Ça commence bien ! Maintenant, attachons-les ensemble… et corsons un peu les choses…"
+     },
+     "npc": 11026,
+     "npc_name": "Fée Dérailleur",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": null,
+     "client": "1.60.1.70888",
+     "first_seen": 1794404800,
+     "last_seen": 1794404800
+    },
+    "detail": {
+     "texts": {
+      "description": "Du sabotage industriel ? Vous avez toute mon attention !\r\nCommençons par un peu de dynamite…",
+      "objectives": "Obtenez 10 bâtons de dynamite basique en les fabriquant, en les échangeant ou à l’hôtel des ventes, puis retournez voir Fée Dérailleur dans le quartier des Nains, à Hurlevent.",
+      "name": "Un plan explosif"
+     },
+     "npc": 11026,
+     "npc_name": "Fée Dérailleur",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": 1453,
+     "client": "1.60.1.70790",
+     "first_seen": 1793948936,
+     "last_seen": 1793948936
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "92750": {
+   "id": 92750,
+   "name": "Détonation à distance",
+   "objectives": "Parlez à une personne du renseignement de Hurlevent pour obtenir un détonateur à distance.",
+   "description": "J’imagine que vous voulez une explosion « contrôlée » ? Ce n’est pas très amusant, mais un bon choix si vous voulez garder tous vos membres.\r\nMalheureusement, je n’ai pas de détonateur à distance. Pourquoi n’iriez-vous pas voir chez ces sournois du renseignement de Hurlevent ? Ils devraient pouvoir nous dégotter quelque chose.",
+   "progress": null,
+   "completion": "Hmm… Vous cherchez quelque chose en particulier ?",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11026,
+     "name": "Sprite Jumpsprocket"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1325,
+     "name": "Jasper Fel"
+    }
+   ],
+   "zone_id": 40,
+   "level": 16,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Hmm… Vous cherchez quelque chose en particulier ?"
+     },
+     "npc": 1325,
+     "npc_name": "Jasper Fel",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794080146,
+     "last_seen": 1794080146
+    },
+    "detail": {
+     "texts": {
+      "description": "J’imagine que vous voulez une explosion « contrôlée » ? Ce n’est pas très amusant, mais un bon choix si vous voulez garder tous vos membres.\r\nMalheureusement, je n’ai pas de détonateur à distance. Pourquoi n’iriez-vous pas voir chez ces sournois du renseignement de Hurlevent ? Ils devraient pouvoir nous dégotter quelque chose.",
+      "objectives": "Parlez à une personne du renseignement de Hurlevent pour obtenir un détonateur à distance.",
+      "name": "Détonation à distance"
+     },
+     "npc": 11026,
+     "npc_name": "Fée Dérailleur",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": 1453,
+     "client": "1.60.1.70790",
+     "first_seen": 1793948934,
+     "last_seen": 1793948934
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "92751": {
+   "id": 92751,
+   "name": "Détonation à distance",
+   "objectives": "Apportez le kit de détonateur à distance à Fée Dérailleur, au quartier des Nains de Hurlevent.",
+   "description": "Vous voulez détruire quelque chose ? Est-ce que cela aurait un rapport avec vos activités à Ruisselune ? Ne soyez pas surpris. Le SI:7 se tient au courant de tout ce qui se passe sur les terres de Hurlevent.\r\n\r\nSi vous prévoyez de déclencher une explosion dans les grottes sous la marche de l’Ouest, mieux vaudrait vous trouver à l’extérieur avant cela. Prenez ce détonateur à distance, c’est un prototype récent conçu par nos propres ingénieurs.\r\n\r\nOh… et vous feriez bien de ne pas mentionner mon implication à votre amie elfe.",
+   "progress": null,
+   "completion": "Parfait, c’est exactement ce qu’il nous faut !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1325,
+     "name": "Jasper Fel"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 11026,
+     "name": "Sprite Jumpsprocket"
+    }
+   ],
+   "zone_id": 40,
+   "level": 16,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Parfait, c’est exactement ce qu’il nous faut !"
+     },
+     "npc": 11026,
+     "npc_name": "Fée Dérailleur",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": null,
+     "client": "1.60.1.70862",
+     "first_seen": 1794080259,
+     "last_seen": 1794080259
+    },
+    "detail": {
+     "texts": {
+      "description": "Vous voulez détruire quelque chose ? Est-ce que cela aurait un rapport avec vos activités à Ruisselune ? Ne soyez pas surpris. Le SI:7 se tient au courant de tout ce qui se passe sur les terres de Hurlevent.\r\n\r\nSi vous prévoyez de déclencher une explosion dans les grottes sous la marche de l’Ouest, mieux vaudrait vous trouver à l’extérieur avant cela. Prenez ce détonateur à distance, c’est un prototype récent conçu par nos propres ingénieurs.\r\n\r\nOh… et vous feriez bien de ne pas mentionner mon implication à votre amie elfe.",
+      "objectives": "Apportez le kit de détonateur à distance à Fée Dérailleur, au quartier des Nains de Hurlevent.",
+      "name": "Détonation à distance"
+     },
+     "npc": 1325,
+     "npc_name": "Jasper Fel",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": 1453,
+     "client": "1.60.1.70862",
+     "first_seen": 1794080148,
+     "last_seen": 1794080148
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "92752": {
+   "id": 92752,
+   "name": "Consultation explosive",
+   "objectives": "Retournez voir Alba Lunepâle à la marche de l’Ouest.",
+   "description": "C’est bon, la bombe est prête ! Maintenant, prudence avec ce détonateur.",
+   "progress": null,
+   "completion": "Je suis contente de vous revoir, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 11026,
+     "name": "Sprite Jumpsprocket"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 253092,
+     "name": "Alba Fairmoon"
+    }
+   ],
+   "zone_id": 40,
+   "level": 16,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Je suis contente de vous revoir, <nom>."
+     },
+     "npc": 253092,
+     "npc_name": "Alba Lunepâle",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": null,
+     "client": "1.60.1.70888",
+     "first_seen": 1794405165,
+     "last_seen": 1794405165
+    },
+    "detail": {
+     "texts": {
+      "description": "C’est bon, la bombe est prête ! Maintenant, prudence avec ce détonateur.",
+      "objectives": "Retournez voir Alba Lunepâle à la marche de l’Ouest.",
+      "name": "Consultation explosive"
+     },
+     "npc": 11026,
+     "npc_name": "Fée Dérailleur",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Hurlevent",
+     "map_id": 1453,
+     "client": "1.60.1.70888",
+     "first_seen": 1794404803,
+     "last_seen": 1794404803
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "92753": {
+   "id": 92753,
+   "name": "Destruction dans les Mortemines",
+   "objectives": "Trouvez la forge cachée dans les Mortemines et placez les explosifs de destruction ultime à proximité. Rejoignez ensuite Alba Lunepâle à la sortie des Mortemines.",
+   "description": "La source du poison est probablement une grande forge métallurgique. Trouvez un moyen de pénétrer dans les Mortemines, localisez la forge, puis placez les explosifs.\r\nJe vous attendrai dans les collines derrière Ruisselune. À votre retour, nous pourrons faire exploser les charges. Avec un peu de chance, la destruction de la forge permettra à ces terres de commencer à guérir.",
+   "progress": null,
+   "completion": "Alors vous avez trouvé la forge et placé les explosifs… Il ne reste plus qu’une seule chose à faire.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 253092,
+     "name": "Alba Fairmoon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 253279,
+     "name": "Alba Fairmoon"
+    }
+   ],
+   "zone_id": 40,
+   "level": 18,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "detail": {
+     "texts": {
+      "description": "La source du poison est probablement une grande forge métallurgique. Trouvez un moyen de pénétrer dans les Mortemines, localisez la forge, puis placez les explosifs.\r\nJe vous attendrai dans les collines derrière Ruisselune. À votre retour, nous pourrons faire exploser les charges. Avec un peu de chance, la destruction de la forge permettra à ces terres de commencer à guérir.",
+      "objectives": "Trouvez la forge cachée dans les Mortemines et placez les explosifs de destruction ultime à proximité. Rejoignez ensuite Alba Lunepâle à la sortie des Mortemines.",
+      "name": "Destruction dans les Mortemines"
+     },
+     "npc": 253092,
+     "npc_name": "Alba Lunepâle",
+     "npc_type": "Creature",
+     "npc_sex": 3,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": 1436,
+     "client": "1.60.1.70888",
+     "first_seen": 1794405167,
+     "last_seen": 1794405167
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "92819": {
+   "id": 92819,
+   "name": null,
+   "objectives": "Utilisez le détonateur.",
+   "description": "Nous y sommes presque. Utilisez le détonateur et mettez un terme à tout cela.",
+   "progress": null,
+   "completion": "J’en reste bouche bée, <nom>. Dire que Hurlevent ferait passer ses ambitions militaires avant les moyens de subsistance de son peuple…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 253279,
+     "name": "Alba Fairmoon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 253279,
+     "name": "Alba Fairmoon"
+    }
+   ],
+   "zone_id": 40,
+   "level": 18,
+   "reqlevel": 9,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  },
+  "92909": {
+   "id": 92909,
+   "name": "La moisson des moissonneurs",
+   "objectives": "Ozwin Pignondefer, à la ferme des Saldean, veut que vous lui rapportiez 14 isoressorts de golem et 5 gyrostabiliseurs de moissonneur.",
+   "description": "Oh non… Je suis vraiment dans le pétrin, maintenant !\r\n\r\nJ’ai entendu dire que les moissonneurs sèment la terreur dans les champs de la marche de l’Ouest, donc j’ai fait tout le chemin depuis Forgefer pour voir si je pouvais les recalibrer. Mais ils sont bien plus agressifs que mes calculs ne le laissaient penser et ils m’ont pourchassé jusque dans cette écurie !\r\n\r\nSi seulement j’avais des isoressorts et des gyrostabiliseurs de moissonneurs, je pourrais concevoir un appareil pour couvrir ma fuite. Pouvez-vous rassembler ces pièces pour moi ?",
+   "progress": null,
+   "completion": "Un grand merci à vous ! Je vais m’atteler à l’élaboration d’un plan d’évasion. En attendant, prenez ceci !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 253395,
+     "name": "Ozwin Ironsprocket"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 253395,
+     "name": "Ozwin Ironsprocket"
+    }
+   ],
+   "zone_id": 40,
+   "level": 15,
+   "reqlevel": 8,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": {
+    "complete": {
+     "texts": {
+      "completion": "Un grand merci à vous ! Je vais m’atteler à l’élaboration d’un plan d’évasion. En attendant, prenez ceci !"
+     },
+     "npc": 253395,
+     "npc_name": "Ozwin Pignondefer",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": null,
+     "client": "1.60.1.70790",
+     "first_seen": 1793941807,
+     "last_seen": 1793941807
+    },
+    "detail": {
+     "texts": {
+      "description": "Oh non… Je suis vraiment dans le pétrin, maintenant !\r\n\r\nJ’ai entendu dire que les moissonneurs sèment la terreur dans les champs de la marche de l’Ouest, donc j’ai fait tout le chemin depuis Forgefer pour voir si je pouvais les recalibrer. Mais ils sont bien plus agressifs que mes calculs ne le laissaient penser et ils m’ont pourchassé jusque dans cette écurie !\r\n\r\nSi seulement j’avais des isoressorts et des gyrostabiliseurs de moissonneurs, je pourrais concevoir un appareil pour couvrir ma fuite. Pouvez-vous rassembler ces pièces pour moi ?",
+      "objectives": "Ozwin Pignondefer, à la ferme des Saldean, veut que vous lui rapportiez 14 isoressorts de golem et 5 gyrostabiliseurs de moissonneur.",
+      "name": "La moisson des moissonneurs"
+     },
+     "npc": 253395,
+     "npc_name": "Ozwin Pignondefer",
+     "npc_type": "Creature",
+     "npc_sex": 2,
+     "player_sex": 2,
+     "zone": "Marche de l'Ouest (Westfall)",
+     "map_id": 1436,
+     "client": "1.60.1.70790",
+     "first_seen": 1793901881,
+     "last_seen": 1794046127
+    }
+   },
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    },
+    "origins": {
+     "completion": "capture",
+     "description": "capture",
+     "objectives": "capture",
+     "name": "capture"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "92910": {
+   "id": 92910,
+   "name": null,
+   "objectives": "Apportez l’assemblage autocognitif de précision à Ozwin Pignondefer, à la ferme des Saldean.",
+   "description": "Les pièces que vous avez réussi à récupérer sur les moissonneurs semblent quasiment intactes. Elles intéresseront peut-être une personne passionnée par les golems des moissons.",
+   "progress": null,
+   "completion": "Qu’est-ce que c’est ?",
+   "starters": [
+    {
+     "type": "item",
+     "id": 255155,
+     "name": "Precessive Autocognition Assembly"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 253395,
+     "name": "Ozwin Ironsprocket"
+    }
+   ],
+   "zone_id": 40,
+   "level": 15,
+   "reqlevel": 8,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  },
+  "92911": {
+   "id": 92911,
+   "name": null,
+   "objectives": "Ozwin Pignondefer, à la ferme des Saldean, veut que vous lui rapportiez 8 isoressorts de golem, 4 modulateurs en cuivre et une lunette basique.",
+   "description": "Je vois… Cela me donne une meilleure idée du fonctionnement de ces créatures. Je pense avoir trouvé un moyen de neutraliser leurs systèmes, du moins pendant un court instant.\n\nJe vais continuer à bricoler le mécanisme que vous m’avez apporté. En attendant, pourriez-vous récupérer quelques pièces pour l’appareil ?",
+   "progress": null,
+   "completion": "Voilà, <nom> ! Ça devrait fonctionner à merveille. Allez l’essayer !\n\nMoi… ? Non, je vais rester ici. Après tout, cet endroit commence à me donner l’impression d’être chez moi.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 253395,
+     "name": "Ozwin Ironsprocket"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 253395,
+     "name": "Ozwin Ironsprocket"
+    }
+   ],
+   "zone_id": 40,
+   "level": 15,
+   "reqlevel": 8,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  },
+  "93928": {
+   "id": 93928,
+   "name": null,
+   "objectives": "Donnez un biscuit à la souris.",
+   "description": "J’ai besoin d’un biscuit, tu vois ?\n\nSquouiii !",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 6271,
+     "name": "Souris"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 715,
+     "name": "Hemet Nesingwary"
+    }
+   ],
+   "zone_id": 40,
+   "level": 15,
+   "reqlevel": 15,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  },
+  "98021": {
+   "id": 98021,
+   "name": null,
+   "objectives": "Allez voir Gryan Roidemantel à la colline des Sentinelles, dans la marche de l’Ouest.",
+   "description": "Si vous voulez commencer à répandre le bien dans ce monde, je vous recommande d’aller trouver un homme du nom de Gryan Roidemantel dans la marche de l’Ouest, au sud d’ici, au village de la colline des Sentinelles. Ses semblables ont grand besoin d’aide.\n\nAprès être <arrivé/arrivée> ici depuis un autre plan d’existence, les problèmes de nos contrées vous sembleront peut-être bien dérisoires. Je vous assure pourtant que l’aide que vous apporterez à ceux qui en souffrent compte énormément à leurs yeux, et que les épreuves que vous surmonterez vous rendront plus <fort/forte>.\n\nBonne chance, <aventurier/aventurière> !",
+   "progress": null,
+   "completion": "Ça fait des mois que je supplie Hurlevent de nous envoyer de l’aide, et ils m’envoient un Elfe tout maigrichon ? M’enfin… j’imagine que ce n’est pas le moment de faire la fine bouche.\n\nBienvenue dans la marche de l’Ouest, <classe>. Voyons voir si nous pouvons trouver de quoi vous rendre utile.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1748,
+     "name": "Généralissime Bolvar Fordragon"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 234,
+     "name": "Gryan Stoutmantle"
+    }
+   ],
+   "zone_id": 40,
+   "level": 13,
+   "reqlevel": 7,
+   "side": "both",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "arrivé/arrivée",
+    "aventurier/aventurière",
+    "fort/forte"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata",
+     "objectives": "wowdata",
+     "completion": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

@@ -1,0 +1,3766 @@
+{
+ "schema": 2,
+ "scripts": {
+  "858": {
+   "quest_id": 858,
+   "kind": "detail",
+   "name": "Contact",
+   "npc_id": 3439,
+   "npc_name": "Déchiqueteur de Wizzlecrank",
+   "source": "foreverdb:vmangos",
+   "text": "Ce n'est sûrement pas Sputtervalve qui vous a <envoyé/envoyée> ? Je suis coincé ici. Je suis entré sans réaliser que j'avais besoin d'une clé pour déverrouiller la colonne de mouvement du déchiqueteur. L'un des autres opérateurs m'a demandé si tout allait bien, et j'ai paniqué ! Au lieu de lui dire que je n'avais pas la clé, je lui ai dit qu'il y avait un genre de problème mécanique.\n\nNous devons sortir d'ici au plus vite ! Montez à la salle de contrôle au sommet du derrick, le superviseur devrait avoir une clé pour ce déchiqueteur.\n\nSortez-moi de là !\n\nObjectif : Récupérer la Clé de contact et l'apporter à Wizzlecrank.",
+   "gendered": true,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Ce n'est sûrement pas Sputtervalve qui vous a <envoyé/envoyée> ?",
+     "emotion": "inquiétude",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Chuchoté puis nerveux, plein d'appréhension, il guette une mauvaise surprise.",
+     "direction_en": "Nervous, wary whisper-like question, dreading the wrong answer.",
+     "el_tags": [
+      "nervous"
+     ]
+    },
+    {
+     "text": " Je suis coincé ici.",
+     "emotion": "peur",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Aveu piteux, voix qui monte, presque gémissante.",
+     "direction_en": "Pitiful admission, voice rising, nearly whining.",
+     "el_tags": [
+      "sad"
+     ]
+    },
+    {
+     "text": " Je suis entré sans réaliser que j'avais besoin d'une clé pour déverrouiller la colonne de mouvement du déchiqueteur.",
+     "emotion": "agacement",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Il s'emmêle dans ses explications techniques, gêné, autocritique, débit qui s'accélère.",
+     "direction_en": "Stumbling through technical excuses, embarrassed and self-critical, speeding up.",
+     "el_tags": [
+      "frustrated"
+     ]
+    },
+    {
+     "text": " L'un des autres opérateurs m'a demandé si tout allait bien, et j'ai paniqué !",
+     "emotion": "peur",
+     "intensity": 5,
+     "pace": "précipité",
+     "direction_fr": "Le souvenir de la panique le reprend, voix aiguë, presque un cri sur « paniqué ».",
+     "direction_en": "Reliving the panic, high-pitched, nearly shrieking on 'panicked'.",
+     "el_tags": [
+      "nervous"
+     ]
+    },
+    {
+     "text": " Au lieu de lui dire que je n'avais pas la clé, je lui ai dit qu'il y avait un genre de problème mécanique.",
+     "emotion": "inquiétude",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Honteux et maladroit, il se justifie piteusement, avec une pointe d'autodérision.",
+     "direction_en": "Sheepish, lamely justifying himself with a touch of self-mockery.",
+     "el_tags": [
+      "sighs"
+     ]
+    },
+    {
+     "text": "\n\nNous devons sortir d'ici au plus vite !",
+     "emotion": "urgence",
+     "intensity": 5,
+     "pace": "précipité",
+     "direction_fr": "Cri pressant, haletant, l'urgence éclate.",
+     "direction_en": "Urgent, breathless outburst, panic erupting.",
+     "el_tags": [
+      "shouting"
+     ]
+    },
+    {
+     "text": " Montez à la salle de contrôle au sommet du derrick, le superviseur devrait avoir une clé pour ce déchiqueteur.",
+     "emotion": "détermination",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Il se ressaisit un instant, donne les instructions clairement mais vite, plein d'espoir.",
+     "direction_en": "Collecting himself, giving quick, clear instructions with hopeful energy.",
+     "el_tags": [
+      "determined"
+     ]
+    },
+    {
+     "text": "\n\nSortez-moi de là !",
+     "emotion": "peur",
+     "intensity": 5,
+     "pace": "précipité",
+     "direction_fr": "Supplication désespérée, presque hurlée.",
+     "direction_en": "Desperate, nearly screamed plea.",
+     "el_tags": [
+      "shouting"
+     ]
+    },
+    {
+     "text": "\n\nObjectif : Récupérer la Clé de contact et l'apporter à Wizzlecrank.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Ton clair et posé, informatif.",
+     "direction_en": "Clear, neutral, informative delivery.",
+     "el_tags": []
+    }
+   ],
+   "overall": {
+    "emotion": "inquiétude",
+    "intensity": 4,
+    "direction_en": "Panicked, jittery goblin trapped in a shredder, pleading and rushing, ending in an urgent cry for help."
+   },
+   "render": {
+    "m": "[nervous] Ce n'est sûrement pas Sputtervalve qui vous a envoyé ? [sad] Je suis coincé ici. [frustrated] Je suis entré sans réaliser que j'avais besoin d'une clé pour déverrouiller la colonne de mouvement du déchiqueteur. [nervous] L'un des autres opérateurs m'a demandé si tout allait bien, et j'ai paniqué ! [sighs] Au lieu de lui dire que je n'avais pas la clé, je lui ai dit qu'il y avait un genre de problème mécanique. [shouting] Nous devons sortir d'ici au plus vite ! [determined] Montez à la salle de contrôle au sommet du derrick, le superviseur devrait avoir une clé pour ce déchiqueteur. [shouting] Sortez-moi de là ! Objectif : Récupérer la Clé de contact et l'apporter à Wizzlecrank.",
+    "f": "[nervous] Ce n'est sûrement pas Sputtervalve qui vous a envoyée ? [sad] Je suis coincé ici. [frustrated] Je suis entré sans réaliser que j'avais besoin d'une clé pour déverrouiller la colonne de mouvement du déchiqueteur. [nervous] L'un des autres opérateurs m'a demandé si tout allait bien, et j'ai paniqué ! [sighs] Au lieu de lui dire que je n'avais pas la clé, je lui ai dit qu'il y avait un genre de problème mécanique. [shouting] Nous devons sortir d'ici au plus vite ! [determined] Montez à la salle de contrôle au sommet du derrick, le superviseur devrait avoir une clé pour ce déchiqueteur. [shouting] Sortez-moi de là ! Objectif : Récupérer la Clé de contact et l'apporter à Wizzlecrank."
+   },
+   "plain": {
+    "m": "Ce n'est sûrement pas Sputtervalve qui vous a envoyé ? Je suis coincé ici. Je suis entré sans réaliser que j'avais besoin d'une clé pour déverrouiller la colonne de mouvement du déchiqueteur. L'un des autres opérateurs m'a demandé si tout allait bien, et j'ai paniqué ! Au lieu de lui dire que je n'avais pas la clé, je lui ai dit qu'il y avait un genre de problème mécanique. Nous devons sortir d'ici au plus vite ! Montez à la salle de contrôle au sommet du derrick, le superviseur devrait avoir une clé pour ce déchiqueteur. Sortez-moi de là ! Objectif : Récupérer la Clé de contact et l'apporter à Wizzlecrank.",
+    "f": "Ce n'est sûrement pas Sputtervalve qui vous a envoyée ? Je suis coincé ici. Je suis entré sans réaliser que j'avais besoin d'une clé pour déverrouiller la colonne de mouvement du déchiqueteur. L'un des autres opérateurs m'a demandé si tout allait bien, et j'ai paniqué ! Au lieu de lui dire que je n'avais pas la clé, je lui ai dit qu'il y avait un genre de problème mécanique. Nous devons sortir d'ici au plus vite ! Montez à la salle de contrôle au sommet du derrick, le superviseur devrait avoir une clé pour ce déchiqueteur. Sortez-moi de là ! Objectif : Récupérer la Clé de contact et l'apporter à Wizzlecrank."
+   },
+   "target_cps": {
+    "m": 19.67,
+    "f": 19.67
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "53f49eb7aa03445c",
+    "cost_usd": 0.0232
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "863": {
+   "quest_id": 863,
+   "kind": "detail",
+   "name": "La fuite",
+   "npc_id": 3439,
+   "npc_name": "Déchiqueteur de Wizzlecrank",
+   "source": "foreverdb:vmangos",
+   "text": "Je suppose que j'apprendrai en le faisant… Ça ne devrait pas être trop difficile. Juste quelques boutons par-ci par-là, et un levier ou deux… Alors, êtes-vous <prêt/prête> à y aller ?\n\nObjectif : Protéger Wizzlecrank et le Déchiqueteur gobelin volé jusqu'à Sputtervalve à Ratchet.",
+   "gendered": true,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Je suppose que j'apprendrai en le faisant… ",
+     "emotion": "inquiétude",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Hésitant, voix qui tremble, comme se rassurant lui-même sans y croire.",
+     "direction_en": "Hesitant, shaky voice, trying to reassure himself without conviction.",
+     "el_tags": [
+      "nervous"
+     ]
+    },
+    {
+     "text": "Ça ne devrait pas être trop difficile. ",
+     "emotion": "agacement",
+     "intensity": 2,
+     "pace": "vif",
+     "direction_fr": "Faussement assuré, un rire nerveux dans la voix, trop vite pour être convaincant.",
+     "direction_en": "Falsely confident, nervous laugh in the voice, too quick to be convincing.",
+     "el_tags": [
+      "chuckles"
+     ]
+    },
+    {
+     "text": "Juste quelques boutons par-ci par-là, et un levier ou deux… ",
+     "emotion": "inquiétude",
+     "intensity": 4,
+     "pace": "précipité",
+     "direction_fr": "S'emballe, minimise en bafouillant, jargon improvisé, ton aigu et paniqué.",
+     "direction_en": "Rambling, downplaying in a flustered rush, high-pitched and panicky.",
+     "el_tags": [
+      "nervous"
+     ]
+    },
+    {
+     "text": "Alors, êtes-vous <prêt/prête> à y aller ?",
+     "emotion": "enthousiasme",
+     "intensity": 5,
+     "pace": "vif",
+     "direction_fr": "Brusque revirement, enjoué et opportuniste, lancé avec un grand sourire crispé.",
+     "direction_en": "Sudden swing to eager, cocky cheer, delivered with a strained grin.",
+     "el_tags": [
+      "excited"
+     ]
+    },
+    {
+     "text": "\n\nObjectif : Protéger Wizzlecrank et le Déchiqueteur gobelin volé jusqu'à Sputtervalve à Ratchet.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Clair et neutre, énoncé de l'objectif.",
+     "direction_en": "Clear and neutral, stating the objective.",
+     "el_tags": []
+    }
+   ],
+   "overall": {
+    "emotion": "inquiétude",
+    "intensity": 4,
+    "direction_en": "Panicky goblin engineer improvising, covering fear with forced confidence, ending on jittery eagerness."
+   },
+   "render": {
+    "m": "[nervous] Je suppose que j'apprendrai en le faisant… [chuckles] Ça ne devrait pas être trop difficile. [nervous] Juste quelques boutons par-ci par-là, et un levier ou deux… [excited] Alors, êtes-vous prêt à y aller ? Objectif : Protéger Wizzlecrank et le Déchiqueteur gobelin volé jusqu'à Sputtervalve à Ratchet.",
+    "f": "[nervous] Je suppose que j'apprendrai en le faisant… [chuckles] Ça ne devrait pas être trop difficile. [nervous] Juste quelques boutons par-ci par-là, et un levier ou deux… [excited] Alors, êtes-vous prête à y aller ? Objectif : Protéger Wizzlecrank et le Déchiqueteur gobelin volé jusqu'à Sputtervalve à Ratchet."
+   },
+   "plain": {
+    "m": "Je suppose que j'apprendrai en le faisant… Ça ne devrait pas être trop difficile. Juste quelques boutons par-ci par-là, et un levier ou deux… Alors, êtes-vous prêt à y aller ? Objectif : Protéger Wizzlecrank et le Déchiqueteur gobelin volé jusqu'à Sputtervalve à Ratchet.",
+    "f": "Je suppose que j'apprendrai en le faisant… Ça ne devrait pas être trop difficile. Juste quelques boutons par-ci par-là, et un levier ou deux… Alors, êtes-vous prête à y aller ? Objectif : Protéger Wizzlecrank et le Déchiqueteur gobelin volé jusqu'à Sputtervalve à Ratchet."
+   },
+   "target_cps": {
+    "m": 19.06,
+    "f": 19.06
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "d51c187a187a6427",
+    "cost_usd": 0.017
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "865": {
+   "quest_id": 865,
+   "kind": "detail",
+   "name": "Les cornes de raptors",
+   "npc_id": 3446,
+   "npc_name": "Mebok Mizzyrix",
+   "source": "foreverdb:vmangos",
+   "text": "Les raptors des Tarides sont plus malins que les autres. Et je pense que cette intelligence se trouve dans leurs cornes ! Si tel est vraiment le cas, alors je pourrais réduire leurs cornes en poudre et les utiliser pour en faire une \"potion d'intelligence\". Je pourrais en tirer une fortune !!!\n\nEt vous pouvez m'aider. Trouvez-moi des Cornes de raptors intactes sur des Faucheurs solécailles. Ils parcourent les Tarides septentrionales, et le nord des Tarides près de la frontière avec la forêt d'Ashenvale.\n\nObjectif : Collecter 5 Cornes de raptors intactes prises sur des Faucheurs solécaille, et les apporter à Mebok Mizzyrix à Ratchet.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Les raptors des Tarides sont plus malins que les autres. ",
+     "emotion": "mystère",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Confidentiel, sur le ton de celui qui tient une théorie géniale ; débit vif, un brin complice.",
+     "direction_en": "Confidential, like someone sharing a brilliant theory, brisk and conspiratorial.",
+     "el_tags": [
+      "curious"
+     ]
+    },
+    {
+     "text": "Et je pense que cette intelligence se trouve dans leurs cornes ! ",
+     "emotion": "enthousiasme",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "L'idée jaillit, la voix monte, exaltée.",
+     "direction_en": "The idea bursts out, voice rising with excitement.",
+     "el_tags": [
+      "excited"
+     ]
+    },
+    {
+     "text": "Si tel est vraiment le cas, alors je pourrais réduire leurs cornes en poudre et les utiliser pour en faire une \"potion d'intelligence\". ",
+     "emotion": "ruse",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Le plan se déroule, voix qui s'emballe, ton magouilleur, presque marmonné.",
+     "direction_en": "The scheme unfolds, speeding up, scheming and half-mumbled.",
+     "el_tags": [
+      "mischievously"
+     ]
+    },
+    {
+     "text": "Je pourrais en tirer une fortune !!!",
+     "emotion": "joie",
+     "intensity": 5,
+     "pace": "précipité",
+     "direction_fr": "Explosion de joie cupide, quasi un cri, rire jubilatoire.",
+     "direction_en": "Explosion of greedy glee, nearly shouting, gleeful.",
+     "el_tags": [
+      "laughs",
+      "excited"
+     ]
+    },
+    {
+     "text": "\n\nEt vous pouvez m'aider. ",
+     "emotion": "tendresse",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Changement de ton : flatterie chaleureuse, on s'adresse au joueur avec un sourire.",
+     "direction_en": "Shift to warm, flattering tone addressing the player with a smile.",
+     "el_tags": [
+      "warmly"
+     ]
+    },
+    {
+     "text": "Trouvez-moi des Cornes de raptors intactes sur des Faucheurs solécailles. ",
+     "emotion": "détermination",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Instructions nettes, pressantes, insistance sur « intactes ».",
+     "direction_en": "Clear, pressing instructions, stressing 'intact'.",
+     "el_tags": [
+      "determined"
+     ]
+    },
+    {
+     "text": "Ils parcourent les Tarides septentrionales, et le nord des Tarides près de la frontière avec la forêt d'Ashenvale.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Informatif, plus posé, rythme de marchand qui donne l'adresse.",
+     "direction_en": "Informative and calmer, a merchant giving directions.",
+     "el_tags": []
+    },
+    {
+     "text": "\n\nObjectif : Collecter 5 Cornes de raptors intactes prises sur des Faucheurs solécaille, et les apporter à Mebok Mizzyrix à Ratchet.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Clair et net.",
+     "direction_en": "Clear and plain.",
+     "el_tags": []
+    }
+   ],
+   "overall": {
+    "emotion": "enthousiasme",
+    "intensity": 4,
+    "direction_en": "A greedy, excitable goblin merchant bursting with schemes, switching to warm flattery to recruit the player."
+   },
+   "render": {
+    "m": "[curious] Les raptors des Tarides sont plus malins que les autres. [excited] Et je pense que cette intelligence se trouve dans leurs cornes ! [mischievously] Si tel est vraiment le cas, alors je pourrais réduire leurs cornes en poudre et les utiliser pour en faire une \"potion d'intelligence\". [laughs] [excited] Je pourrais en tirer une fortune !!! [warmly] Et vous pouvez m'aider. [determined] Trouvez-moi des Cornes de raptors intactes sur des Faucheurs solécailles. Ils parcourent les Tarides septentrionales, et le nord des Tarides près de la frontière avec la forêt d'Ashenvale. Objectif : Collecter 5 Cornes de raptors intactes prises sur des Faucheurs solécaille, et les apporter à Mebok Mizzyrix à Ratchet."
+   },
+   "plain": {
+    "m": "Les raptors des Tarides sont plus malins que les autres. Et je pense que cette intelligence se trouve dans leurs cornes ! Si tel est vraiment le cas, alors je pourrais réduire leurs cornes en poudre et les utiliser pour en faire une \"potion d'intelligence\". Je pourrais en tirer une fortune !!! Et vous pouvez m'aider. Trouvez-moi des Cornes de raptors intactes sur des Faucheurs solécailles. Ils parcourent les Tarides septentrionales, et le nord des Tarides près de la frontière avec la forêt d'Ashenvale. Objectif : Collecter 5 Cornes de raptors intactes prises sur des Faucheurs solécaille, et les apporter à Mebok Mizzyrix à Ratchet."
+   },
+   "target_cps": {
+    "m": 18.95
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "ee4178fe5614e671",
+    "cost_usd": 0.0217
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "887": {
+   "quest_id": 887,
+   "kind": "detail",
+   "name": "Les flibustiers des Mers du sud",
+   "npc_id": 3391,
+   "npc_name": "Gazlowe",
+   "source": "foreverdb:vmangos",
+   "text": "J'aurais vraiment souhaité que le vice-amiral Grezzlik fasse un meilleur travail pour que nos navires marchands puissent sillonner les mers en toute sécurité. Avec tout l'or que les princes marchands ont versé, voir autant de pirates attaquer mes navires et voler mes marchandises me rend malade !\n\nJ'ai entendu dire que les Flibustiers des Mers du Sud ont établi un camp juste au sud d'ici. Ils ont été une source d'irritation constante et si Grezzlik ne s'en occupe pas, alors, vous, peut-être, pourriez m'en débarrasser.\n\nObjectif : Tuer 12 Brigands et 6 Canonniers des Mers du Sud pour Gazlowe de Ratchet.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "J'aurais vraiment souhaité que le vice-amiral Grezzlik fasse un meilleur travail pour que nos navires marchands puissent sillonner les mers en toute sécurité. ",
+     "emotion": "agacement",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Plainte grognon de commerçant, ton exaspéré mais théâtral, avec un soupir de départ.",
+     "direction_en": "Grumbling merchant complaint, theatrically exasperated, starting with a sigh.",
+     "el_tags": [
+      "sighs",
+      "annoyed"
+     ]
+    },
+    {
+     "text": "Avec tout l'or que les princes marchands ont versé, voir autant de pirates attaquer mes navires et voler mes marchandises me rend malade !",
+     "emotion": "colère",
+     "intensity": 5,
+     "pace": "précipité",
+     "direction_fr": "L'indignation monte en crescendo, voix rauque et nasillarde, explosion sur « me rend malade ! ».",
+     "direction_en": "Indignation builds to a crescendo, raspy and nasal, bursting out on 'makes me sick!'",
+     "el_tags": [
+      "frustrated",
+      "shouting"
+     ]
+    },
+    {
+     "text": "\n\nJ'ai entendu dire que les Flibustiers des Mers du Sud ont établi un camp juste au sud d'ici. ",
+     "emotion": "mystère",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Il baisse la voix, ton de confidence, comme un tuyau d'affaires.",
+     "direction_en": "Lowers his voice, confidential tone, like sharing a business tip.",
+     "el_tags": [
+      "whispers"
+     ]
+    },
+    {
+     "text": "Ils ont été une source d'irritation constante et si Grezzlik ne s'en occupe pas, alors, vous, peut-être, pourriez m'en débarrasser.",
+     "emotion": "ruse",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Irritation d'abord, puis charme de vendeur retors en se tournant vers le joueur, flatterie intéressée.",
+     "direction_en": "Irritation first, then sly salesman charm turning to the player, self-serving flattery.",
+     "el_tags": [
+      "mischievously"
+     ]
+    },
+    {
+     "text": "\n\nObjectif : Tuer 12 Brigands et 6 Canonniers des Mers du Sud pour Gazlowe de Ratchet.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Énoncé clair et net.",
+     "direction_en": "Clear, plain delivery.",
+     "el_tags": []
+    }
+   ],
+   "overall": {
+    "emotion": "agacement",
+    "intensity": 4,
+    "direction_en": "Fast-talking goblin tycoon, outraged at his pirate losses, then slyly recruiting the player with a wheeler-dealer's charm."
+   },
+   "render": {
+    "m": "[sighs] [annoyed] J'aurais vraiment souhaité que le vice-amiral Grezzlik fasse un meilleur travail pour que nos navires marchands puissent sillonner les mers en toute sécurité. [frustrated] [shouting] Avec tout l'or que les princes marchands ont versé, voir autant de pirates attaquer mes navires et voler mes marchandises me rend malade ! [whispers] J'ai entendu dire que les Flibustiers des Mers du Sud ont établi un camp juste au sud d'ici. [mischievously] Ils ont été une source d'irritation constante et si Grezzlik ne s'en occupe pas, alors, vous, peut-être, pourriez m'en débarrasser. Objectif : Tuer 12 Brigands et 6 Canonniers des Mers du Sud pour Gazlowe de Ratchet."
+   },
+   "plain": {
+    "m": "J'aurais vraiment souhaité que le vice-amiral Grezzlik fasse un meilleur travail pour que nos navires marchands puissent sillonner les mers en toute sécurité. Avec tout l'or que les princes marchands ont versé, voir autant de pirates attaquer mes navires et voler mes marchandises me rend malade ! J'ai entendu dire que les Flibustiers des Mers du Sud ont établi un camp juste au sud d'ici. Ils ont été une source d'irritation constante et si Grezzlik ne s'en occupe pas, alors, vous, peut-être, pourriez m'en débarrasser. Objectif : Tuer 12 Brigands et 6 Canonniers des Mers du Sud pour Gazlowe de Ratchet."
+   },
+   "target_cps": {
+    "m": 19.41
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "a09c1be5a1e5c387",
+    "cost_usd": 0.0191
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "888": {
+   "quest_id": 888,
+   "kind": "detail",
+   "name": "Course à la lentille",
+   "npc_id": 3391,
+   "npc_name": "Gazlowe",
+   "source": "foreverdb:vmangos",
+   "text": "J'aimerais récupérer toutes mes marchandises. Hélas, je suis sûr que ce n'est pas possible. Mais il y a des choses que je dois absolument récupérer !\n\nComme vous pouvez le constater, mon observatoire est prêt à fonctionner, mais il manque la plus petite des deux lentilles. La première est arrivée de Durotar par caravane, mais la deuxième a été envoyée par bateau, et elle ne m'est jamais parvenue ! Je n'ai pas non plus reçu mes bottes de chez Drizzlik à Baie-du-Butin !\n\nPartez pour le camp des pirates, et voyez si vous les trouvez.\n\nObjectif : Retrouver la Cargaison de bottes et la Lentille de télescope pour Gazlowe de Ratchet.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "J'aimerais récupérer toutes mes marchandises. ",
+     "emotion": "agacement",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Ton de marchand qui soupire, rêveur puis déjà résigné.",
+     "direction_en": "Wistful, grumbling merchant tone, already resigned.",
+     "el_tags": [
+      "sighs"
+     ]
+    },
+    {
+     "text": "Hélas, je suis sûr que ce n'est pas possible. ",
+     "emotion": "tristesse",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Plainte théâtrale exagérée, comme s'il pleurait sa fortune.",
+     "direction_en": "Theatrical exaggerated lament over his lost fortune.",
+     "el_tags": [
+      "sad"
+     ]
+    },
+    {
+     "text": "Mais il y a des choses que je dois absolument récupérer !\n\n",
+     "emotion": "détermination",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Il se ressaisit d'un coup, ferme et insistant, le doigt levé.",
+     "direction_en": "Snaps back suddenly, firm and insistent.",
+     "el_tags": [
+      "determined"
+     ]
+    },
+    {
+     "text": "Comme vous pouvez le constater, mon observatoire est prêt à fonctionner, mais il manque la plus petite des deux lentilles. ",
+     "emotion": "fierté",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Fier de son installation, puis contrarié sur la fin, ton de vendeur qui explique.",
+     "direction_en": "Proud showman pointing at his observatory, then peeved at the missing lens.",
+     "el_tags": []
+    },
+    {
+     "text": "La première est arrivée de Durotar par caravane, mais la deuxième a été envoyée par bateau, et elle ne m'est jamais parvenue ! ",
+     "emotion": "colère",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "L'indignation monte, débit rapide, sur « jamais parvenue » explosion d'outrage.",
+     "direction_en": "Rising outrage, fast delivery, bursting on 'never arrived'.",
+     "el_tags": [
+      "frustrated"
+     ]
+    },
+    {
+     "text": "Je n'ai pas non plus reçu mes bottes de chez Drizzlik à Baie-du-Butin !\n\n",
+     "emotion": "colère",
+     "intensity": 5,
+     "pace": "précipité",
+     "direction_fr": "Pic d'exaspération, il se plaint à tue-tête, presque comique.",
+     "direction_en": "Peak of exasperation, ranting loudly, almost comical.",
+     "el_tags": [
+      "shouting",
+      "annoyed"
+     ]
+    },
+    {
+     "text": "Partez pour le camp des pirates, et voyez si vous les trouvez.\n\n",
+     "emotion": "ruse",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Ton bourru et pressant, un brin charmeur, il envoie le joueur au travail.",
+     "direction_en": "Gruff, pressing, slightly charming, sending the player off.",
+     "el_tags": [
+      "determined"
+     ]
+    },
+    {
+     "text": "Objectif : Retrouver la Cargaison de bottes et la Lentille de télescope pour Gazlowe de Ratchet.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Clair et net, énoncé de mission.",
+     "direction_en": "Clear, plain statement of the objective.",
+     "el_tags": []
+    }
+   ],
+   "overall": {
+    "emotion": "agacement",
+    "intensity": 4,
+    "direction_en": "A fast-talking goblin tycoon grumbling over lost cargo, then pressing the player to go get it back."
+   },
+   "render": {
+    "m": "[sighs] J'aimerais récupérer toutes mes marchandises. [sad] Hélas, je suis sûr que ce n'est pas possible. [determined] Mais il y a des choses que je dois absolument récupérer ! Comme vous pouvez le constater, mon observatoire est prêt à fonctionner, mais il manque la plus petite des deux lentilles. [frustrated] La première est arrivée de Durotar par caravane, mais la deuxième a été envoyée par bateau, et elle ne m'est jamais parvenue ! [shouting] [annoyed] Je n'ai pas non plus reçu mes bottes de chez Drizzlik à Baie-du-Butin ! [determined] Partez pour le camp des pirates, et voyez si vous les trouvez. Objectif : Retrouver la Cargaison de bottes et la Lentille de télescope pour Gazlowe de Ratchet."
+   },
+   "plain": {
+    "m": "J'aimerais récupérer toutes mes marchandises. Hélas, je suis sûr que ce n'est pas possible. Mais il y a des choses que je dois absolument récupérer ! Comme vous pouvez le constater, mon observatoire est prêt à fonctionner, mais il manque la plus petite des deux lentilles. La première est arrivée de Durotar par caravane, mais la deuxième a été envoyée par bateau, et elle ne m'est jamais parvenue ! Je n'ai pas non plus reçu mes bottes de chez Drizzlik à Baie-du-Butin ! Partez pour le camp des pirates, et voyez si vous les trouvez. Objectif : Retrouver la Cargaison de bottes et la Lentille de télescope pour Gazlowe de Ratchet."
+   },
+   "target_cps": {
+    "m": 19.33
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "22fd9ab2a77f6023",
+    "cost_usd": 0.0255
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "890": {
+   "quest_id": 890,
+   "kind": "detail",
+   "name": "La livraison perdue",
+   "npc_id": 3391,
+   "npc_name": "Gazlowe",
+   "source": "foreverdb:vmangos",
+   "text": "J'ai attendu durant une éternité l'arrivée de mon dernier chargement de marchandises de Baie-du-Butin ! Je suis à peu près sûr qu'il a dû être volé par les Flibustiers, mais pour que je le sois complètement, pourriez-vous descendre du côté des docks et demander à Dizzwig si mes marchandises ont déjà été livrées à mon entrepôt sans que je le sache ?\n\nTenez, descendez mon Grand livre à Dizzwig et demandez-lui de vérifier à nouveau mes inventaires par rapport à ses registres.\n\nObjectif : Apporter le Grand Livre de Gazlowe au Maître des quais Dizzywig.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "J'ai attendu durant une éternité l'arrivée de mon dernier chargement de marchandises de Baie-du-Butin ! ",
+     "emotion": "agacement",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Indignation grognon de marchand lésé, plainte exagérée, insistance sur « éternité ».",
+     "direction_en": "Grumbling, exaggerated outrage of a merchant who has been kept waiting forever.",
+     "el_tags": [
+      "annoyed"
+     ]
+    },
+    {
+     "text": "Je suis à peu près sûr qu'il a dû être volé par les Flibustiers, ",
+     "emotion": "colère",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Accusation rageuse, mâchée entre les dents, certitude théâtrale.",
+     "direction_en": "Angry, theatrical accusation, spat out through gritted teeth.",
+     "el_tags": [
+      "frustrated"
+     ]
+    },
+    {
+     "text": "mais pour que je le sois complètement, pourriez-vous descendre du côté des docks et demander à Dizzwig si mes marchandises ont déjà été livrées à mon entrepôt sans que je le sache ?",
+     "emotion": "ruse",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Retour au charme de vendeur, ton mielleux et ironique, léger doute en fin de phrase.",
+     "direction_en": "Back to sly salesman charm, ironic and honeyed, with a hint of doubt at the end.",
+     "el_tags": [
+      "sarcastic"
+     ]
+    },
+    {
+     "text": "\n\nTenez, descendez mon Grand livre à Dizzwig ",
+     "emotion": "détermination",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Ton bourru et pressé, on lui fourre le livre dans les mains.",
+     "direction_en": "Gruff and hurried, shoving the ledger into the player's hands.",
+     "el_tags": []
+    },
+    {
+     "text": "et demandez-lui de vérifier à nouveau mes inventaires par rapport à ses registres.",
+     "emotion": "agacement",
+     "intensity": 5,
+     "pace": "vif",
+     "direction_fr": "Montée d'irritation, insistance sur « à nouveau », comme si Dizzwig était incompétent.",
+     "direction_en": "Rising irritation, stressing 'again', as if Dizzwig were incompetent.",
+     "el_tags": [
+      "annoyed"
+     ]
+    },
+    {
+     "text": "\n\nObjectif : Apporter le Grand Livre de Gazlowe au Maître des quais Dizzywig.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Énoncé clair et neutre de l'objectif.",
+     "direction_en": "Clear, neutral statement of the objective.",
+     "el_tags": []
+    }
+   ],
+   "overall": {
+    "emotion": "agacement",
+    "intensity": 4,
+    "direction_en": "Fast-talking goblin tycoon, indignant about his lost cargo, suspicious and pushy, with sly salesman charm."
+   },
+   "render": {
+    "m": "[annoyed] J'ai attendu durant une éternité l'arrivée de mon dernier chargement de marchandises de Baie-du-Butin ! [frustrated] Je suis à peu près sûr qu'il a dû être volé par les Flibustiers, [sarcastic] mais pour que je le sois complètement, pourriez-vous descendre du côté des docks et demander à Dizzwig si mes marchandises ont déjà été livrées à mon entrepôt sans que je le sache ? Tenez, descendez mon Grand livre à Dizzwig [annoyed] et demandez-lui de vérifier à nouveau mes inventaires par rapport à ses registres. Objectif : Apporter le Grand Livre de Gazlowe au Maître des quais Dizzywig."
+   },
+   "plain": {
+    "m": "J'ai attendu durant une éternité l'arrivée de mon dernier chargement de marchandises de Baie-du-Butin ! Je suis à peu près sûr qu'il a dû être volé par les Flibustiers, mais pour que je le sois complètement, pourriez-vous descendre du côté des docks et demander à Dizzwig si mes marchandises ont déjà été livrées à mon entrepôt sans que je le sache ? Tenez, descendez mon Grand livre à Dizzwig et demandez-lui de vérifier à nouveau mes inventaires par rapport à ses registres. Objectif : Apporter le Grand Livre de Gazlowe au Maître des quais Dizzywig."
+   },
+   "target_cps": {
+    "m": 19.18
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "5576d4b9175327da",
+    "cost_usd": 0.0196
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "892": {
+   "quest_id": 892,
+   "kind": "detail",
+   "name": "La livraison perdue",
+   "npc_id": 3453,
+   "npc_name": "Maître des quais Dizzywig",
+   "source": "foreverdb:vmangos",
+   "text": "Tout a l'air correct selon mes registres. Retournez-y et dites à Gazlowe que sa chance a tourné. Je ne serais pas surpris que les pirates aient pris ses marchandises.\n\nJe ne peux rien faire d'autre pour lui. Oh !… Vous pourriez lui dire quand même que j'ai quelque chose venant d'Undermine à son nom, s'il peut faire un saut pour le chercher.\n\nObjectif : Rapporter le Grand Livre de Gazlowe à Gazlowe à Ratchet.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Tout a l'air correct selon mes registres.",
+     "emotion": "agacement",
+     "intensity": 2,
+     "pace": "vif",
+     "direction_fr": "Marmonné, l'œil sur ses registres, blasé et pressé.",
+     "direction_en": "Muttered, eyes on his ledgers, bored and hurried.",
+     "el_tags": [
+      "annoyed"
+     ]
+    },
+    {
+     "text": " Retournez-y et dites à Gazlowe que sa chance a tourné.",
+     "emotion": "ruse",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Sec, expéditif, avec un petit sourire sarcastique.",
+     "direction_en": "Curt and brisk, with a sarcastic little smirk.",
+     "el_tags": [
+      "sarcastic"
+     ]
+    },
+    {
+     "text": " Je ne serais pas surpris que les pirates aient pris ses marchandises.",
+     "emotion": "amusement",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Fausse nonchalance, presque gourmand de la mésaventure d'autrui.",
+     "direction_en": "Feigned nonchalance, almost relishing someone else's misfortune.",
+     "el_tags": [
+      "chuckles"
+     ]
+    },
+    {
+     "text": "\n\nJe ne peux rien faire d'autre pour lui.",
+     "emotion": "agacement",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Rudesse impatiente, il veut congédier le joueur.",
+     "direction_en": "Impatient bluntness, dismissing the player.",
+     "el_tags": [
+      "annoyed"
+     ]
+    },
+    {
+     "text": " Oh !…",
+     "emotion": "surprise",
+     "intensity": 4,
+     "pace": "normal",
+     "direction_fr": "Il se souvient soudain, un éclair d'intérêt cupide.",
+     "direction_en": "Suddenly remembers, a flash of greedy interest.",
+     "el_tags": []
+    },
+    {
+     "text": " Vous pourriez lui dire quand même que j'ai quelque chose venant d'Undermine à son nom, s'il peut faire un saut pour le chercher.",
+     "emotion": "ruse",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Enjoué et rusé, il flaire la bonne affaire, débit rapide de commerçant.",
+     "direction_en": "Gleeful and sly, smelling a good deal, fast merchant patter.",
+     "el_tags": [
+      "mischievously"
+     ]
+    },
+    {
+     "text": "\n\nObjectif : Rapporter le Grand Livre de Gazlowe à Gazlowe à Ratchet.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Clair et net, ton neutre.",
+     "direction_en": "Clear and neutral.",
+     "el_tags": []
+    }
+   ],
+   "overall": {
+    "emotion": "ruse",
+    "intensity": 3,
+    "direction_en": "Grumpy, sarcastic goblin dock master who brushes the player off, then perks up with greedy sly interest."
+   },
+   "render": {
+    "m": "[annoyed] Tout a l'air correct selon mes registres. [sarcastic] Retournez-y et dites à Gazlowe que sa chance a tourné. [chuckles] Je ne serais pas surpris que les pirates aient pris ses marchandises. [annoyed] Je ne peux rien faire d'autre pour lui. Oh !… [mischievously] Vous pourriez lui dire quand même que j'ai quelque chose venant d'Undermine à son nom, s'il peut faire un saut pour le chercher. Objectif : Rapporter le Grand Livre de Gazlowe à Gazlowe à Ratchet."
+   },
+   "plain": {
+    "m": "Tout a l'air correct selon mes registres. Retournez-y et dites à Gazlowe que sa chance a tourné. Je ne serais pas surpris que les pirates aient pris ses marchandises. Je ne peux rien faire d'autre pour lui. Oh !… Vous pourriez lui dire quand même que j'ai quelque chose venant d'Undermine à son nom, s'il peut faire un saut pour le chercher. Objectif : Rapporter le Grand Livre de Gazlowe à Gazlowe à Ratchet."
+   },
+   "target_cps": {
+    "m": 18.98
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "6f449d3104443e83",
+    "cost_usd": 0.0188
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "894": {
+   "quest_id": 894,
+   "kind": "detail",
+   "name": "Samophlange",
+   "npc_id": 3442,
+   "npc_name": "Sputtervalve",
+   "source": "foreverdb:vmangos",
+   "text": "La KapitalRisk a construit un petit centre de recherches loin au nord, au sud-ouest de la Videfange. Je ne sais pas vraiment ce qu'ils y font, mais j'ai quand même réussi à découvrir qu'ils font des expériences avec quelque chose qu'ils appellent \"Samophlange\".\n\nÀ présent, que diable est le Samophlange ? Eh bien, quoi que ce soit, je veux l'examiner, et j'ai besoin que quelqu'un le prenne.\n\nJ'ai réussi à obtenir une copie de leur Manuel de la console de contrôle, vous devriez ainsi comprendre comment en désengager le Samophlange.\n\nObjectif : Accéder à la Console de contrôle au Centre de recherches de la KapitalRisk.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "La KapitalRisk a construit un petit centre de recherches loin au nord, au sud-ouest de la Videfange.",
+     "emotion": "mystère",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Ton de confidence, voix légèrement baissée, complice, comme on lâche un secret d'affaires.",
+     "direction_en": "Confidential, lowered voice, conspiratorial, like sharing a business secret.",
+     "el_tags": [
+      "whispers"
+     ]
+    },
+    {
+     "text": " Je ne sais pas vraiment ce qu'ils y font, mais j'ai quand même réussi à découvrir qu'ils font des expériences avec quelque chose qu'ils appellent \"Samophlange\".",
+     "emotion": "ruse",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Fier de sa magouille, un brin sarcastique ; appuie sur « quand même », puis détache « Samophlange » avec un sous-entendu.",
+     "direction_en": "Smug about his scheming, slightly sarcastic; stress 'quand même', then savor 'Samophlange' with insinuation.",
+     "el_tags": [
+      "mischievously"
+     ]
+    },
+    {
+     "text": "\n\nÀ présent, que diable est le Samophlange ?",
+     "emotion": "surprise",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Question théâtrale, lancée avec curiosité exagérée, montée dans l'aigu.",
+     "direction_en": "Theatrical question with exaggerated curiosity, pitch rising.",
+     "el_tags": [
+      "curious"
+     ]
+    },
+    {
+     "text": " Eh bien, quoi que ce soit, je veux l'examiner, et j'ai besoin que quelqu'un le prenne.",
+     "emotion": "enthousiasme",
+     "intensity": 5,
+     "pace": "précipité",
+     "direction_fr": "Excitation cupide soudaine, débit qui s'emballe sur « je veux l'examiner », puis retombée enjôleuse en s'adressant au joueur.",
+     "direction_en": "Sudden greedy excitement, speech speeding up on 'I want to examine it', then a wheedling drop toward the player.",
+     "el_tags": [
+      "excited"
+     ]
+    },
+    {
+     "text": "\n\nJ'ai réussi à obtenir une copie de leur Manuel de la console de contrôle, vous devriez ainsi comprendre comment en désengager le Samophlange.",
+     "emotion": "ruse",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Satisfait, clin d'œil dans la voix, rassurant et enjôleur, comme on tend un outil à son complice.",
+     "direction_en": "Pleased with himself, wink in the voice, reassuring and wheedling as he hands over the tool.",
+     "el_tags": [
+      "chuckles"
+     ]
+    },
+    {
+     "text": "\n\nObjectif : Accéder à la Console de contrôle au Centre de recherches de la KapitalRisk.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Voix claire et posée, ton informatif et net.",
+     "direction_en": "Clear, even, informative delivery.",
+     "el_tags": []
+    }
+   ],
+   "overall": {
+    "emotion": "ruse",
+    "intensity": 4,
+    "direction_en": "Fast-talking scheming goblin dealmaker: conspiratorial asides, greedy curiosity spiking at the Samophlange, wheedling confidence toward the player."
+   },
+   "render": {
+    "m": "[whispers] La KapitalRisk a construit un petit centre de recherches loin au nord, au sud-ouest de la Videfange. [mischievously] Je ne sais pas vraiment ce qu'ils y font, mais j'ai quand même réussi à découvrir qu'ils font des expériences avec quelque chose qu'ils appellent \"Samophlange\". [curious] À présent, que diable est le Samophlange ? [excited] Eh bien, quoi que ce soit, je veux l'examiner, et j'ai besoin que quelqu'un le prenne. [chuckles] J'ai réussi à obtenir une copie de leur Manuel de la console de contrôle, vous devriez ainsi comprendre comment en désengager le Samophlange. Objectif : Accéder à la Console de contrôle au Centre de recherches de la KapitalRisk."
+   },
+   "plain": {
+    "m": "La KapitalRisk a construit un petit centre de recherches loin au nord, au sud-ouest de la Videfange. Je ne sais pas vraiment ce qu'ils y font, mais j'ai quand même réussi à découvrir qu'ils font des expériences avec quelque chose qu'ils appellent \"Samophlange\". À présent, que diable est le Samophlange ? Eh bien, quoi que ce soit, je veux l'examiner, et j'ai besoin que quelqu'un le prenne. J'ai réussi à obtenir une copie de leur Manuel de la console de contrôle, vous devriez ainsi comprendre comment en désengager le Samophlange. Objectif : Accéder à la Console de contrôle au Centre de recherches de la KapitalRisk."
+   },
+   "target_cps": {
+    "m": 19.5
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "404ba34af5750b0b",
+    "cost_usd": 0.021
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "895": {
+   "quest_id": 895,
+   "kind": "detail",
+   "name": "ON RECHERCHE : baron de Longrivage",
+   "npc_id": 1000000,
+   "npc_name": "Elise",
+   "narrator": true,
+   "source": "foreverdb:vmangos",
+   "text": "ON RECHERCHE !\n\nBaron de Longrivage, capitaine de \"l'Insouciant\".\n\nLe capitaine Longrivage de Gilnéas commande des navires pour le compte des Flibustiers des Mers du sud, il est recherché pour actes de piraterie. Ses restes doivent être identifiables !\n\nGazlowe\n\nObjectif : Apporter la tête du baron de Longrivage à Gazlowe à Ratchet.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T09:41:37"
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "896": {
+   "quest_id": 896,
+   "kind": "detail",
+   "name": "La bonne fortune d'un mineur pauvre",
+   "npc_id": 3453,
+   "npc_name": "Maître des quais Dizzywig",
+   "source": "foreverdb:vmangos",
+   "text": "Etant Maître des quais d'un port plein d'activité comme Ratchet, je prends toujours le pouls de l'information. Je sais tout des échanges de biens et d'argent entre ici et Baie-du-Butin.\n\nLa dernière nouvelle que j'ai entendue concerne la mine des Pierriers de la KapitalRisk, au nord-est de la Videfange. L'un des mineurs y a découvert une émeraude aussi grosse que votre poing. Je connais quelques acheteurs qui voudraient mettre la main sur un tel joyau, et je suis prêt à faire 50-50.\n\nObjectif : Prendre l'Emeraude œil-de-chat à l'un des Surveillants ou l'un des Massacreurs de la KapitalRisk pour le Maître des quais Dizzywig à Ratchet.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Etant Maître des quais d'un port plein d'activité comme Ratchet, je prends toujours le pouls de l'information. ",
+     "emotion": "fierté",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Plastronnant, sûr de lui, avec un petit sourire de bureaucrate important.",
+     "direction_en": "Strutting and self-important, a smug bureaucrat proud of his position.",
+     "el_tags": []
+    },
+    {
+     "text": "Je sais tout des échanges de biens et d'argent entre ici et Baie-du-Butin.\n\n",
+     "emotion": "ruse",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Plus bas, complice, sur le ton de celui qui détient des secrets lucratifs.",
+     "direction_en": "Lower and conspiratorial, hinting at lucrative secrets.",
+     "el_tags": [
+      "mischievously"
+     ]
+    },
+    {
+     "text": "La dernière nouvelle que j'ai entendue concerne la mine des Pierriers de la KapitalRisk, au nord-est de la Videfange. ",
+     "emotion": "mystère",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Ton de confidence, rythme haché, comme on lâche un tuyau précieux.",
+     "direction_en": "Confiding tone, clipped rhythm, dropping a valuable tip.",
+     "el_tags": [
+      "whispers"
+     ]
+    },
+    {
+     "text": "L'un des mineurs y a découvert une émeraude aussi grosse que votre poing. ",
+     "emotion": "enthousiasme",
+     "intensity": 5,
+     "pace": "précipité",
+     "direction_fr": "Explosion de joie cupide, les yeux qui brillent, voix qui monte.",
+     "direction_en": "Burst of gleeful greed, eyes gleaming, voice rising.",
+     "el_tags": [
+      "excited"
+     ]
+    },
+    {
+     "text": "Je connais quelques acheteurs qui voudraient mettre la main sur un tel joyau, et je suis prêt à faire 50-50.\n\n",
+     "emotion": "ruse",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Enjôleur et gourmand, rire en coin sur « 50-50 », tic de marchand.",
+     "direction_en": "Wheedling and greedy, a sly chuckle on '50-50', merchant's patter.",
+     "el_tags": [
+      "chuckles"
+     ]
+    },
+    {
+     "text": "Objectif : Prendre l'Emeraude œil-de-chat à l'un des Surveillants ou l'un des Massacreurs de la KapitalRisk pour le Maître des quais Dizzywig à Ratchet.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Clair et net, énoncé de l'objectif.",
+     "direction_en": "Clear and plain statement of the objective.",
+     "el_tags": []
+    }
+   ],
+   "overall": {
+    "emotion": "ruse",
+    "intensity": 4,
+    "direction_en": "Greedy, sarcastic goblin dockmaster who warms from bureaucratic pride to gleeful greed over a valuable emerald and a 50-50 deal."
+   },
+   "render": {
+    "m": "Etant Maître des quais d'un port plein d'activité comme Ratchet, je prends toujours le pouls de l'information. [mischievously] Je sais tout des échanges de biens et d'argent entre ici et Baie-du-Butin. [whispers] La dernière nouvelle que j'ai entendue concerne la mine des Pierriers de la KapitalRisk, au nord-est de la Videfange. [excited] L'un des mineurs y a découvert une émeraude aussi grosse que votre poing. [chuckles] Je connais quelques acheteurs qui voudraient mettre la main sur un tel joyau, et je suis prêt à faire 50-50. Objectif : Prendre l'Emeraude œil-de-chat à l'un des Surveillants ou l'un des Massacreurs de la KapitalRisk pour le Maître des quais Dizzywig à Ratchet."
+   },
+   "plain": {
+    "m": "Etant Maître des quais d'un port plein d'activité comme Ratchet, je prends toujours le pouls de l'information. Je sais tout des échanges de biens et d'argent entre ici et Baie-du-Butin. La dernière nouvelle que j'ai entendue concerne la mine des Pierriers de la KapitalRisk, au nord-est de la Videfange. L'un des mineurs y a découvert une émeraude aussi grosse que votre poing. Je connais quelques acheteurs qui voudraient mettre la main sur un tel joyau, et je suis prêt à faire 50-50. Objectif : Prendre l'Emeraude œil-de-chat à l'un des Surveillants ou l'un des Massacreurs de la KapitalRisk pour le Maître des quais Dizzywig à Ratchet."
+   },
+   "target_cps": {
+    "m": 19.04
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "8eac9301853404e8",
+    "cost_usd": 0.0241
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "900": {
+   "quest_id": 900,
+   "kind": "detail",
+   "name": "Samophlange",
+   "npc_id": 1000000,
+   "npc_name": "Elise",
+   "narrator": true,
+   "source": "foreverdb:vmangos",
+   "text": "Les trois valves de contrôle sont à présent ouvertes. Les indications sur le panneau de contrôle vous amènent à penser qu'elles doivent être fermées pour que l'appareil puisse être arrêté.\n\nObjectif : Fermer la Valve de contrôle du carburant, la Valve de réglage et la Valve de contrôle principale, puis utiliser à nouveau la console de contrôle.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T09:41:37"
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "901": {
+   "quest_id": 901,
+   "kind": "detail",
+   "name": "Samophlange",
+   "npc_id": 1000000,
+   "npc_name": "Elise",
+   "narrator": true,
+   "source": "foreverdb:vmangos",
+   "text": "Maintenant que l'appareil est désactivé, le panneau de contrôle peut s'ouvrir et on peut sortir le Samophlange de la console. À présent que tout est en place, il reste à trouver la clé qui déverrouillera la console.\n\nObjectif : Obtenir la Clé de la console de l'artisan Sniggles, puis l'utiliser sur la console de contrôle.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T09:41:37"
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "902": {
+   "quest_id": 902,
+   "kind": "detail",
+   "name": "Samophlange",
+   "npc_id": 1000000,
+   "npc_name": "Elise",
+   "narrator": true,
+   "source": "foreverdb:vmangos",
+   "text": "Ouvrir la console de contrôle révèle des entrelacs de fils, de tubes et d'autres objets mécaniques étranges, dont la plupart ne semblent avoir aucune utilité. En les écartant et en fouillant au fond le la console, vous découvrez le Samophlange. Vous le retirez d'un coup sec de son réceptacle.\n\nObjectif : Rapporter le Samophlange à Sputtervalve à Ratchet.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T09:41:37"
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "1069": {
+   "quest_id": 1069,
+   "kind": "detail",
+   "name": "Omelette à la mousse profonde",
+   "npc_id": 3446,
+   "npc_name": "Mebok Mizzyrix",
+   "source": "foreverdb:vmangos",
+   "text": "L’omelette aux oeufs d'araignée est la nouvelle mode culinaire à Baie-du-Butin ! Le problème c'est qu'il n'y a pas le moindre oeuf dans toute la ville.\n\nUne possibilité se profile !\n\nÀ la combe des Cisailles et dans le canyon de Sishir, dans les Serres-Rocheuses, au nord-ouest, vit l'araignée des mousses profondes. Apportez-moi ses oeufs et je vous payerai un sacré paquet !\n\nÀ la combe des Cisailles, vous trouverez les oeufs groupés sous les arbres qui restent.\n\nEn ce qui concerne le canyon de Sishir... eh bien, si vous avez un estomac fragile, vous feriez bien de vous en tenir à la combe des Cisailles pour collecter les oeufs...\n\nObjectif : Apporter 15 Œufs des mousses profondes à Mebok Mizzyrix à Ratchet.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "L’omelette aux oeufs d'araignée est la nouvelle mode culinaire à Baie-du-Butin ! ",
+     "emotion": "enthousiasme",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Lancé, exalté, comme une annonce de bonne affaire.",
+     "direction_en": "Excited, announcing a hot business tip.",
+     "el_tags": [
+      "excited"
+     ]
+    },
+    {
+     "text": "Le problème c'est qu'il n'y a pas le moindre oeuf dans toute la ville.",
+     "emotion": "agacement",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Plainte théâtrale, ton qui retombe, exaspéré.",
+     "direction_en": "Theatrical complaint, voice dropping in exasperation.",
+     "el_tags": [
+      "sighs"
+     ]
+    },
+    {
+     "text": "\n\nUne possibilité se profile !",
+     "emotion": "ruse",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Ton complice et gourmand, l'idée lui vient d'un coup.",
+     "direction_en": "Conspiratorial and greedy, an idea suddenly sparks.",
+     "el_tags": [
+      "mischievously"
+     ]
+    },
+    {
+     "text": "\n\nÀ la combe des Cisailles et dans le canyon de Sishir, dans les Serres-Rocheuses, au nord-ouest, vit l'araignée des mousses profondes. ",
+     "emotion": "enthousiasme",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Explication rapide et précise, plein d'entrain.",
+     "direction_en": "Quick, precise explanation, full of energy.",
+     "el_tags": []
+    },
+    {
+     "text": "Apportez-moi ses oeufs et je vous payerai un sacré paquet !",
+     "emotion": "joie",
+     "intensity": 5,
+     "pace": "précipité",
+     "direction_fr": "Débordant de cupidité joyeuse, flatteur, appuie sur « sacré paquet ».",
+     "direction_en": "Bursting with greedy glee, flattering, stressing the big payment.",
+     "el_tags": [
+      "cheerfully"
+     ]
+    },
+    {
+     "text": "\n\nÀ la combe des Cisailles, vous trouverez les oeufs groupés sous les arbres qui restent.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Pratique, informatif, un peu plus posé.",
+     "direction_en": "Practical, informative, calmer.",
+     "el_tags": []
+    },
+    {
+     "text": "\n\nEn ce qui concerne le canyon de Sishir... eh bien, si vous avez un estomac fragile, vous feriez bien de vous en tenir à la combe des Cisailles pour collecter les oeufs...",
+     "emotion": "inquiétude",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Hésitant, baisse la voix, grimace dégoûtée, phrase qui traîne.",
+     "direction_en": "Hesitant, lowered voice, queasy grimace, trailing off.",
+     "el_tags": [
+      "nervous",
+      "whispers"
+     ]
+    },
+    {
+     "text": "\n\nObjectif : Apporter 15 Œufs des mousses profondes à Mebok Mizzyrix à Ratchet.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Clair et net.",
+     "direction_en": "Clear and plain.",
+     "el_tags": []
+    }
+   ],
+   "overall": {
+    "emotion": "enthousiasme",
+    "intensity": 4,
+    "direction_en": "Greedy, excitable goblin merchant pitching a profitable egg-hunt, with a queasy aside about the canyon."
+   },
+   "render": {
+    "m": "[excited] L’omelette aux oeufs d'araignée est la nouvelle mode culinaire à Baie-du-Butin ! [sighs] Le problème c'est qu'il n'y a pas le moindre oeuf dans toute la ville. [mischievously] Une possibilité se profile ! À la combe des Cisailles et dans le canyon de Sishir, dans les Serres-Rocheuses, au nord-ouest, vit l'araignée des mousses profondes. [cheerfully] Apportez-moi ses oeufs et je vous payerai un sacré paquet ! À la combe des Cisailles, vous trouverez les oeufs groupés sous les arbres qui restent. [nervous] [whispers] En ce qui concerne le canyon de Sishir... eh bien, si vous avez un estomac fragile, vous feriez bien de vous en tenir à la combe des Cisailles pour collecter les oeufs... Objectif : Apporter 15 Œufs des mousses profondes à Mebok Mizzyrix à Ratchet."
+   },
+   "plain": {
+    "m": "L’omelette aux oeufs d'araignée est la nouvelle mode culinaire à Baie-du-Butin ! Le problème c'est qu'il n'y a pas le moindre oeuf dans toute la ville. Une possibilité se profile ! À la combe des Cisailles et dans le canyon de Sishir, dans les Serres-Rocheuses, au nord-ouest, vit l'araignée des mousses profondes. Apportez-moi ses oeufs et je vous payerai un sacré paquet ! À la combe des Cisailles, vous trouverez les oeufs groupés sous les arbres qui restent. En ce qui concerne le canyon de Sishir... eh bien, si vous avez un estomac fragile, vous feriez bien de vous en tenir à la combe des Cisailles pour collecter les oeufs... Objectif : Apporter 15 Œufs des mousses profondes à Mebok Mizzyrix à Ratchet."
+   },
+   "target_cps": {
+    "m": 18.91
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "8d649928b47370f4",
+    "cost_usd": 0.022
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "1483": {
+   "quest_id": 1483,
+   "kind": "detail",
+   "name": "Ziz Fizziks",
+   "npc_id": 3442,
+   "npc_name": "Sputtervalve",
+   "source": "foreverdb:vmangos",
+   "text": "La KapitalRisk a détourné un grand nombre de savants gobelins, mais de temps en temps, nous avons l’occasion de les leur reprendre.\n\nIl y a quelque temps, l'équipe de la KapitalRisk des Serres-Rocheuses a embauché Gerenzo Wrenchwhistle. Un gnome ! Leur autre ingénieur, Ziz Fizziks, en a été tellement dégoûté qu'il a essayé de trouver un nouveau travail auprès du Syndicat des Artisans. Je lui ai confié quelques travaux à faire, mais il a peut-être besoin de renfort.\n\nPeut-être que vous pourriez voir ça pour moi ? On peut le trouver à la lisière ouest de la combe des Cisailles.\n\nObjectif : Parler à Ziz Fizziks dans la Combe des Cisailles.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "La KapitalRisk a détourné un grand nombre de savants gobelins, mais de temps en temps, nous avons l’occasion de les leur reprendre.",
+     "emotion": "ruse",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Ton de magouilleur satisfait, agacement envers la rivale puis sourire en coin sur « les leur reprendre ».",
+     "direction_en": "Smug dealmaker, a bit irked at the rival, then a sly grin on 'take them back'.",
+     "el_tags": [
+      "mischievously"
+     ]
+    },
+    {
+     "text": "\n\nIl y a quelque temps, l'équipe de la KapitalRisk des Serres-Rocheuses a embauché Gerenzo Wrenchwhistle.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Ton de récit, complice, qui prépare la chute.",
+     "direction_en": "Conversational storytelling, setting up the punchline.",
+     "el_tags": []
+    },
+    {
+     "text": " Un gnome !",
+     "emotion": "dégoût",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Craché avec mépris et dégoût théâtral.",
+     "direction_en": "Spat out with theatrical disgust.",
+     "el_tags": [
+      "sarcastic"
+     ]
+    },
+    {
+     "text": " Leur autre ingénieur, Ziz Fizziks, en a été tellement dégoûté qu'il a essayé de trouver un nouveau travail auprès du Syndicat des Artisans.",
+     "emotion": "amusement",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Amusé et moqueur, ricanement dans la voix, avec un petit air de victoire.",
+     "direction_en": "Amused and mocking, gloating over the rival's loss.",
+     "el_tags": [
+      "chuckles"
+     ]
+    },
+    {
+     "text": " Je lui ai confié quelques travaux à faire, mais il a peut-être besoin de renfort.",
+     "emotion": "inquiétude",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Voix plus basse, calculatrice, sous-entendus dans le ton.",
+     "direction_en": "Lower, calculating voice, full of insinuation.",
+     "el_tags": []
+    },
+    {
+     "text": "\n\nPeut-être que vous pourriez voir ça pour moi ?",
+     "emotion": "ruse",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Enjôleur, mielleux, comme un marché qu'on propose avec un clin d'œil.",
+     "direction_en": "Wheedling and honeyed, like pitching a deal with a wink.",
+     "el_tags": [
+      "whispers"
+     ]
+    },
+    {
+     "text": " On peut le trouver à la lisière ouest de la combe des Cisailles.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Clair et pratique, expéditif.",
+     "direction_en": "Clear, practical and brisk.",
+     "el_tags": []
+    },
+    {
+     "text": "\n\nObjectif : Parler à Ziz Fizziks dans la Combe des Cisailles.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Énoncé clairement, ton neutre.",
+     "direction_en": "Stated clearly in a neutral tone.",
+     "el_tags": []
+    }
+   ],
+   "overall": {
+    "emotion": "ruse",
+    "intensity": 3,
+    "direction_en": "Scheming goblin dealmaker, fast and sarcastic, with conspiratorial asides and a wheedling request at the end."
+   },
+   "render": {
+    "m": "[mischievously] La KapitalRisk a détourné un grand nombre de savants gobelins, mais de temps en temps, nous avons l’occasion de les leur reprendre. Il y a quelque temps, l'équipe de la KapitalRisk des Serres-Rocheuses a embauché Gerenzo Wrenchwhistle. [sarcastic] Un gnome ! [chuckles] Leur autre ingénieur, Ziz Fizziks, en a été tellement dégoûté qu'il a essayé de trouver un nouveau travail auprès du Syndicat des Artisans. Je lui ai confié quelques travaux à faire, mais il a peut-être besoin de renfort. [whispers] Peut-être que vous pourriez voir ça pour moi ? On peut le trouver à la lisière ouest de la combe des Cisailles. Objectif : Parler à Ziz Fizziks dans la Combe des Cisailles."
+   },
+   "plain": {
+    "m": "La KapitalRisk a détourné un grand nombre de savants gobelins, mais de temps en temps, nous avons l’occasion de les leur reprendre. Il y a quelque temps, l'équipe de la KapitalRisk des Serres-Rocheuses a embauché Gerenzo Wrenchwhistle. Un gnome ! Leur autre ingénieur, Ziz Fizziks, en a été tellement dégoûté qu'il a essayé de trouver un nouveau travail auprès du Syndicat des Artisans. Je lui ai confié quelques travaux à faire, mais il a peut-être besoin de renfort. Peut-être que vous pourriez voir ça pour moi ? On peut le trouver à la lisière ouest de la combe des Cisailles. Objectif : Parler à Ziz Fizziks dans la Combe des Cisailles."
+   },
+   "target_cps": {
+    "m": 18.77
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "a7333ef5f8a74b27",
+    "cost_usd": 0.0216
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "3370": {
+   "quest_id": 3370,
+   "kind": "detail",
+   "name": "Au coeur des cauchemars",
+   "npc_id": 8418,
+   "npc_name": "Falla Sagewind",
+   "source": "foreverdb:vmangos",
+   "text": "Cet éclat détient de grands secrets. Il s'agit de l'essence pure du Rêve d'émeraude. Ce que je vois dans cet éclat n'a rien d'un rêve cependant. On pourrait même appeler ce genre de vision un cauchemar.\n\nMon souhait n'est pas de vous alarmer, mais je crois qu'il serait mieux pour vous de remettre cet éclat aux mains d'un grand druide, et ce dès que vous le pouvez.\n\nLa personne que vous devez trouver au Cercle cénarien se nomme Mathrengyl Bearwalker. Partez pour Darnassus. Je ne peux vous en dire plus.\n\nObjectif : Apporter l'Eclat de cauchemar à Mathrengyl Bearwalker à Darnassus.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Cet éclat détient de grands secrets. ",
+     "emotion": "mystère",
+     "intensity": 3,
+     "pace": "posé",
+     "direction_fr": "Voix douce, songeuse, fascinée, comme en contemplant l'éclat.",
+     "direction_en": "Soft, musing, fascinated, gazing at the shard.",
+     "el_tags": [
+      "curious"
+     ]
+    },
+    {
+     "text": "Il s'agit de l'essence pure du Rêve d'émeraude. ",
+     "emotion": "gravité",
+     "intensity": 3,
+     "pace": "posé",
+     "direction_fr": "Révérence solennelle, voix pleine de respect.",
+     "direction_en": "Solemn reverence, full of respect.",
+     "el_tags": []
+    },
+    {
+     "text": "Ce que je vois dans cet éclat n'a rien d'un rêve cependant. ",
+     "emotion": "inquiétude",
+     "intensity": 4,
+     "pace": "posé",
+     "direction_fr": "Le ton se assombrit, pause avant « cependant », voix qui se voile.",
+     "direction_en": "Tone darkens, pause before 'cependant', voice veiled.",
+     "el_tags": [
+      "serious"
+     ]
+    },
+    {
+     "text": "On pourrait même appeler ce genre de vision un cauchemar.",
+     "emotion": "peur",
+     "intensity": 4,
+     "pace": "posé",
+     "direction_fr": "Murmure tremblant, presque pour elle-même, avec un frisson.",
+     "direction_en": "Trembling whisper, almost to herself, a shiver.",
+     "el_tags": [
+      "whispers",
+      "nervous"
+     ]
+    },
+    {
+     "text": "\n\nMon souhait n'est pas de vous alarmer, ",
+     "emotion": "tendresse",
+     "intensity": 3,
+     "pace": "posé",
+     "direction_fr": "Se reprend, voix rassurante et bienveillante.",
+     "direction_en": "Recovers, reassuring and kindly.",
+     "el_tags": [
+      "warmly"
+     ]
+    },
+    {
+     "text": "mais je crois qu'il serait mieux pour vous de remettre cet éclat aux mains d'un grand druide, ",
+     "emotion": "gravité",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Prudente mais ferme, les mots soigneusement choisis.",
+     "direction_en": "Careful but firm, words chosen with care.",
+     "el_tags": [
+      "serious"
+     ]
+    },
+    {
+     "text": "et ce dès que vous le pouvez.",
+     "emotion": "urgence",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "L'urgence perce, insistance appuyée.",
+     "direction_en": "Urgency breaks through, pressing insistence.",
+     "el_tags": [
+      "determined"
+     ]
+    },
+    {
+     "text": "\n\nLa personne que vous devez trouver au Cercle cénarien se nomme Mathrengyl Bearwalker. ",
+     "emotion": "détermination",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Claire et nette, articulant bien le nom.",
+     "direction_en": "Clear and precise, articulating the name.",
+     "el_tags": []
+    },
+    {
+     "text": "Partez pour Darnassus. ",
+     "emotion": "urgence",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Ordre pressant mais doux.",
+     "direction_en": "Pressing but gentle command.",
+     "el_tags": [
+      "determined"
+     ]
+    },
+    {
+     "text": "Je ne peux vous en dire plus.",
+     "emotion": "inquiétude",
+     "intensity": 4,
+     "pace": "posé",
+     "direction_fr": "Souffle lourd, réticente, voix basse et pleine de non-dits.",
+     "direction_en": "Heavy breath, reluctant, low voice full of unspoken things.",
+     "el_tags": [
+      "sighs",
+      "whispers"
+     ]
+    },
+    {
+     "text": "\n\nObjectif : Apporter l'Eclat de cauchemar à Mathrengyl Bearwalker à Darnassus.",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Lecture claire et neutre de l'objectif.",
+     "direction_en": "Clear, neutral reading of the objective.",
+     "el_tags": []
+    }
+   ],
+   "overall": {
+    "emotion": "inquiétude",
+    "intensity": 3,
+    "direction_en": "Hushed, grave druid whose dread surfaces in whispers, ending in firm, reluctant resolve."
+   },
+   "render": {
+    "m": "[curious] Cet éclat détient de grands secrets. Il s'agit de l'essence pure du Rêve d'émeraude. [serious] Ce que je vois dans cet éclat n'a rien d'un rêve cependant. [whispers] [nervous] On pourrait même appeler ce genre de vision un cauchemar. [warmly] Mon souhait n'est pas de vous alarmer, [serious] mais je crois qu'il serait mieux pour vous de remettre cet éclat aux mains d'un grand druide, [determined] et ce dès que vous le pouvez. La personne que vous devez trouver au Cercle cénarien se nomme Mathrengyl Bearwalker. [determined] Partez pour Darnassus. [sighs] [whispers] Je ne peux vous en dire plus. Objectif : Apporter l'Eclat de cauchemar à Mathrengyl Bearwalker à Darnassus."
+   },
+   "plain": {
+    "m": "Cet éclat détient de grands secrets. Il s'agit de l'essence pure du Rêve d'émeraude. Ce que je vois dans cet éclat n'a rien d'un rêve cependant. On pourrait même appeler ce genre de vision un cauchemar. Mon souhait n'est pas de vous alarmer, mais je crois qu'il serait mieux pour vous de remettre cet éclat aux mains d'un grand druide, et ce dès que vous le pouvez. La personne que vous devez trouver au Cercle cénarien se nomme Mathrengyl Bearwalker. Partez pour Darnassus. Je ne peux vous en dire plus. Objectif : Apporter l'Eclat de cauchemar à Mathrengyl Bearwalker à Darnassus."
+   },
+   "target_cps": {
+    "m": 17.44
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "1a52b6fe4b64d085",
+    "cost_usd": 0.0234
+   },
+   "origins": {
+    "description": "foreverdb:vmangos",
+    "objectives": "foreverdb:questie"
+   }
+  },
+  "79192": {
+   "quest_id": 79192,
+   "kind": "detail",
+   "name": "Tort-tue",
+   "npc_id": 1000000,
+   "npc_name": "Elise",
+   "narrator": true,
+   "source": "client_cache",
+   "origins": {
+    "description": "client_cache",
+    "objectives": "client_cache"
+   },
+   "text": "Le message commence par ces mots : « D’après la mission, ils accomplissaient tous les deux des livraisons pour le compte de la Peste nouvelle. Pour moi, ça a plutôt l’air de simples accidents d’un apothicaire. Trouvez mon petit nid douillet dans les montagnes, entre les Tarides et Désolace, si vous voulez discuter tranquillement. »\n\nObjectif : Vous arrachez la note de la planche et lisez le reste du message.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-11-16T10:25:37"
+   }
+  },
+  "96339": {
+   "quest_id": 96339,
+   "kind": "detail",
+   "name": null,
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "source": "wowdata",
+   "origins": {
+    "description": "wowdata"
+   },
+   "text": "Vous recevrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-11-16T11:28:48"
+   }
+  },
+  "96383": {
+   "quest_id": 96383,
+   "kind": "detail",
+   "name": null,
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "source": "wowdata",
+   "origins": {
+    "description": "wowdata"
+   },
+   "text": "Vous recevrez :\n\nVérifiez si vous l'avez déjà terminé en tapant :",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-11-16T11:28:48"
+   }
+  },
+  "97005": {
+   "quest_id": 97005,
+   "kind": "detail",
+   "name": null,
+   "npc_id": 267309,
+   "npc_name": "Bainham",
+   "source": "wowdata",
+   "origins": {
+    "description": "wowdata",
+    "objectives": "wowdata"
+   },
+   "text": "On dit qu’une abomination monstrueuse a installé son repaire dans une grotte au nord-ouest d’ici, sur le plateau connu sous le nom de colline des Épines. Les Tranchecrins la nomment Chol’aruk ou « le Vorace » et ceux qui l’ont vu disent qu’elle est tellement énorme qu’elle peut avaler un Orc tout entier.\n\nPeu croient à ces histoires, mais moi oui… parce que j’en ai déjà affronté une similaire moi-même. Sur l’honneur de ceux que j’ai perdus des griffes de cette créature, cette bête doit mourir.\n\nRassemblez des alliés puissants et trouvez la tanière de Chol’aruk. Éliminez cette abomination et rapportez-moi sa tête.\n\nObjectif : Rapportez la tête de Chol’aruk à Bainham dans les Tarides.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-11-16T11:28:48"
+   }
+  },
+  "98024": {
+   "quest_id": 98024,
+   "kind": "detail",
+   "name": null,
+   "npc_id": 4949,
+   "npc_name": "Thrall",
+   "source": "wowdata",
+   "origins": {
+    "description": "wowdata",
+    "objectives": "wowdata"
+   },
+   "text": "Après être <arrivé/arrivée> ici depuis le plan élémentaire, les problèmes de nos contrées vous sembleront peut-être bien dérisoires. Ne vous y trompez pas : les dangers qui menacent la Horde sont bien réels, et vous deviendrez un redoutable guerrier/une redoutable guerrière si vous survivez à votre service.\n\nSi vous souhaitez commencer à répandre le bien dans notre monde, dirigez-vous vers le sud-ouest, jusqu’aux vastes étendues appelées les Tarides. Vous y trouverez un village nommé la Croisée. Ses fiers habitants ont toujours besoin d’aide.\n\nPartez avec honneur, <aventurier/aventurière> !\n\nObjectif : Faites votre rapport à Thork à la Croisée, dans les Tarides.",
+   "gendered": true,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-11-16T11:28:48"
+   }
+  }
+ },
+ "updated_at": "2026-11-16T11:28:48",
+ "complete": {
+  "858": {
+   "quest_id": 858,
+   "kind": "complete",
+   "name": "Contact",
+   "npc_id": 3439,
+   "npc_name": "Déchiqueteur de Wizzlecrank",
+   "source": "foreverdb:vmangos",
+   "text": "Ouais, ça a l'air d'être la bonne clé. Laissez-moi juste m'assurer que j'arrive à m'en servir…\n\nHmmm… contrôle de la rotation… ça régule la vitesse et la stabilité… joli contrôle du mouvement du bras. Mais regardez ça ! Je ne peux pas croire que la KapitalRisk ait pu inventer quelque chose si supérieur au nôtre. Il faut que je ramène ça à Ratchet !",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Ouais, ça a l'air d'être la bonne clé.",
+     "emotion": "soulagement",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Soulagé mais encore nerveux, il examine la clé avec espoir, souffle court.",
+     "direction_en": "Relieved but still jittery, inspecting the key hopefully, short of breath.",
+     "el_tags": [
+      "exhales"
+     ]
+    },
+    {
+     "text": " Laissez-moi juste m'assurer que j'arrive à m'en servir…",
+     "emotion": "inquiétude",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Hésitant, maladroit, il bricole en marmonnant, un peu anxieux.",
+     "direction_en": "Hesitant and clumsy, fumbling with the tool and muttering anxiously.",
+     "el_tags": [
+      "nervous"
+     ]
+    },
+    {
+     "text": "\n\nHmmm… contrôle de la rotation… ça régule la vitesse et la stabilité… joli contrôle du mouvement du bras.",
+     "emotion": "mystère",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Voix basse, concentrée, il pense à voix haute, curiosité technique qui monte peu à peu.",
+     "direction_en": "Low, focused, thinking aloud, technical curiosity slowly building.",
+     "el_tags": [
+      "curious"
+     ]
+    },
+    {
+     "text": " Mais regardez ça !",
+     "emotion": "enthousiasme",
+     "intensity": 4,
+     "pace": "précipité",
+     "direction_fr": "Explosion soudaine d'excitation, il interpelle le joueur, aigu et emballé.",
+     "direction_en": "Sudden burst of excitement, calling the player over, high-pitched and giddy.",
+     "el_tags": [
+      "excited"
+     ]
+    },
+    {
+     "text": " Je ne peux pas croire que la KapitalRisk ait pu inventer quelque chose si supérieur au nôtre.",
+     "emotion": "surprise",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Incrédule, vexé et admiratif à la fois, sur un ton théâtral et nasillard.",
+     "direction_en": "Incredulous, both miffed and admiring, theatrical and nasal.",
+     "el_tags": []
+    },
+    {
+     "text": " Il faut que je ramène ça à Ratchet !",
+     "emotion": "enthousiasme",
+     "intensity": 5,
+     "pace": "précipité",
+     "direction_fr": "Plein d'avidité et d'impatience, il s'emballe, presque en criant, cupide et ravi.",
+     "direction_en": "Greedy and impatient, bursting with glee, almost shouting.",
+     "el_tags": [
+      "excited"
+     ]
+    }
+   ],
+   "overall": {
+    "emotion": "enthousiasme",
+    "intensity": 4,
+    "direction_en": "Starts relieved and nervous, then swings into giddy technical admiration and greedy excitement."
+   },
+   "render": {
+    "m": "[exhales] Ouais, ça a l'air d'être la bonne clé. [nervous] Laissez-moi juste m'assurer que j'arrive à m'en servir… [curious] Hmmm… contrôle de la rotation… ça régule la vitesse et la stabilité… joli contrôle du mouvement du bras. [excited] Mais regardez ça ! Je ne peux pas croire que la KapitalRisk ait pu inventer quelque chose si supérieur au nôtre. [excited] Il faut que je ramène ça à Ratchet !"
+   },
+   "plain": {
+    "m": "Ouais, ça a l'air d'être la bonne clé. Laissez-moi juste m'assurer que j'arrive à m'en servir… Hmmm… contrôle de la rotation… ça régule la vitesse et la stabilité… joli contrôle du mouvement du bras. Mais regardez ça ! Je ne peux pas croire que la KapitalRisk ait pu inventer quelque chose si supérieur au nôtre. Il faut que je ramène ça à Ratchet !"
+   },
+   "target_cps": {
+    "m": 19.04
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "72b94273e450f618",
+    "cost_usd": 0.019
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "863": {
+   "quest_id": 863,
+   "kind": "complete",
+   "name": "La fuite",
+   "npc_id": 3442,
+   "npc_name": "Sputtervalve",
+   "source": "foreverdb:vmangos",
+   "text": "Avec un peu de chance nous pourrons tirer quelque chose d’intéressant de ce prototype brisé de déchiqueteur… Mon temps s'épuise ! Je vais envoyer au pas de charge une équipe de sauvetage où se trouve Wizzlecrank.\n\nOh ! Laissez-moi vous donner quelque chose pour le dérangement, également.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Avec un peu de chance nous pourrons tirer quelque chose d’intéressant de ce prototype brisé de déchiqueteur…",
+     "emotion": "ruse",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Voix baissée, complice, l'œil brillant de cupidité : il rumine déjà ce qu'il va démonter pour lui.",
+     "direction_en": "Lowered, conspiratorial voice, eyes glinting with greed as he schemes about the broken shredder.",
+     "el_tags": [
+      "mischievously"
+     ]
+    },
+    {
+     "text": " Mon temps s'épuise !",
+     "emotion": "urgence",
+     "intensity": 4,
+     "pace": "précipité",
+     "direction_fr": "Sursaut soudain, il réalise l'heure, ton pressé et irrité.",
+     "direction_en": "Sudden jolt of urgency, hurried and irritated as he realizes time is running out.",
+     "el_tags": [
+      "nervous"
+     ]
+    },
+    {
+     "text": " Je vais envoyer au pas de charge une équipe de sauvetage où se trouve Wizzlecrank.",
+     "emotion": "détermination",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Ton de chef qui donne des ordres, énergique et rapide, plein d'autorité de businessman.",
+     "direction_en": "Brisk bossy tone of a boss giving orders, energetic and fast.",
+     "el_tags": [
+      "determined"
+     ]
+    },
+    {
+     "text": "\n\nOh ! Laissez-moi vous donner quelque chose pour le dérangement, également.",
+     "emotion": "amusement",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Se radoucit, onctueux et enjôleur, comme s'il lâchait un cadeau à contrecœur, avec un sourire en coin.",
+     "direction_en": "Softens, smooth and wheedling, offering a reward with a sly grin and a hint of reluctance.",
+     "el_tags": [
+      "chuckles"
+     ]
+    }
+   ],
+   "overall": {
+    "emotion": "ruse",
+    "intensity": 3,
+    "direction_en": "Fast-talking scheming goblin dealmaker: greedy and conspiratorial, a burst of urgency, then smooth generosity as he hands over the reward."
+   },
+   "render": {
+    "m": "[mischievously] Avec un peu de chance nous pourrons tirer quelque chose d’intéressant de ce prototype brisé de déchiqueteur… [nervous] Mon temps s'épuise ! [determined] Je vais envoyer au pas de charge une équipe de sauvetage où se trouve Wizzlecrank. [chuckles] Oh ! Laissez-moi vous donner quelque chose pour le dérangement, également."
+   },
+   "plain": {
+    "m": "Avec un peu de chance nous pourrons tirer quelque chose d’intéressant de ce prototype brisé de déchiqueteur… Mon temps s'épuise ! Je vais envoyer au pas de charge une équipe de sauvetage où se trouve Wizzlecrank. Oh ! Laissez-moi vous donner quelque chose pour le dérangement, également."
+   },
+   "target_cps": {
+    "m": 19.21
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "03c842d9bad3b676",
+    "cost_usd": 0.0168
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "865": {
+   "quest_id": 865,
+   "kind": "complete",
+   "name": "Les cornes de raptors",
+   "npc_id": 3446,
+   "npc_name": "Mebok Mizzyrix",
+   "source": "foreverdb:vmangos",
+   "text": "Parfait, vous les avez ! Maintenant je n'ai plus qu'à les écraser, puis à les mélanger à une sorte de vin, à les faire macérer, puis aussi à...",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Parfait, vous les avez ! ",
+     "emotion": "enthousiasme",
+     "intensity": 5,
+     "pace": "vif",
+     "direction_fr": "Explosion de joie cupide à la vue des ingrédients, voix aiguë et nasillarde, ravi.",
+     "direction_en": "Burst of greedy glee at seeing the ingredients, high nasal voice, delighted.",
+     "el_tags": [
+      "excited",
+      "happy"
+     ]
+    },
+    {
+     "text": "Maintenant je n'ai plus qu'à les écraser, puis à les mélanger à une sorte de vin, ",
+     "emotion": "ruse",
+     "intensity": 4,
+     "pace": "précipité",
+     "direction_fr": "Il s'emballe, énumère les étapes de plus en plus vite, magouilleur et fiévreux.",
+     "direction_en": "He gets carried away, listing the steps faster and faster, scheming and feverish.",
+     "el_tags": [
+      "excited"
+     ]
+    },
+    {
+     "text": "à les faire macérer, puis aussi à...",
+     "emotion": "mystère",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "La voix retombe en marmonnement obsessionnel, la phrase se perd dans ses pensées.",
+     "direction_en": "Voice drops into obsessive mumbling, the sentence trailing off as he loses himself in thought.",
+     "el_tags": [
+      "whispers"
+     ]
+    }
+   ],
+   "overall": {
+    "emotion": "enthousiasme",
+    "intensity": 4,
+    "direction_en": "Greedy, manic goblin joy that spirals into obsessive mumbling as he plans his potion."
+   },
+   "render": {
+    "m": "[excited] [happy] Parfait, vous les avez ! [excited] Maintenant je n'ai plus qu'à les écraser, puis à les mélanger à une sorte de vin, [whispers] à les faire macérer, puis aussi à..."
+   },
+   "plain": {
+    "m": "Parfait, vous les avez ! Maintenant je n'ai plus qu'à les écraser, puis à les mélanger à une sorte de vin, à les faire macérer, puis aussi à..."
+   },
+   "target_cps": {
+    "m": 20.36
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "6787a0c65ec08571",
+    "cost_usd": 0.0143
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "887": {
+   "quest_id": 887,
+   "kind": "complete",
+   "name": "Les flibustiers des Mers du sud",
+   "npc_id": 3391,
+   "npc_name": "Gazlowe",
+   "source": "foreverdb:vmangos",
+   "text": "Bon travail, gamin. Encore un boulot comme celui-là et j'aurai un souci de moins. Espérons que cela suffise à les persuader d'établir leur base ailleurs.\n\nEntre-temps, il reste le petit problème qui est de récupérer les marchandises volées.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Bon travail, gamin.",
+     "emotion": "joie",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Accueil franc et satisfait, grand sourire de marchand content, voix claironnante.",
+     "direction_en": "Frank, satisfied welcome, big merchant's grin, booming voice.",
+     "el_tags": [
+      "happy"
+     ]
+    },
+    {
+     "text": " Encore un boulot comme celui-là et j'aurai un souci de moins.",
+     "emotion": "amusement",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Ton de vendeur, calcul gourmand, presque un aparté complice avec un petit rire dans la voix.",
+     "direction_en": "Salesman tone, greedy calculation, a conspiratorial aside with a chuckle in the voice.",
+     "el_tags": [
+      "chuckles"
+     ]
+    },
+    {
+     "text": " Espérons que cela suffise à les persuader d'établir leur base ailleurs.",
+     "emotion": "inquiétude",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Plus sceptique et grognon, un soupçon d'irritation, la voix descend, doute sincère.",
+     "direction_en": "More skeptical and grumbling, a hint of irritation, voice dropping with real doubt.",
+     "el_tags": [
+      "sighs"
+     ]
+    },
+    {
+     "text": "\n\nEntre-temps, il reste le petit problème qui est de récupérer les marchandises volées.",
+     "emotion": "agacement",
+     "intensity": 5,
+     "pace": "vif",
+     "direction_fr": "Indignation théâtrale et plaintive sur « marchandises volées », ironie sur « petit problème », débit qui s'emballe.",
+     "direction_en": "Theatrical, whiny outrage on the stolen goods, ironic on 'little problem', speech speeding up.",
+     "el_tags": [
+      "annoyed",
+      "frustrated"
+     ]
+    }
+   ],
+   "overall": {
+    "emotion": "enthousiasme",
+    "intensity": 3,
+    "direction_en": "Fast-talking wheeler-dealer: pleased and generous at first, then grumbling and theatrical about his stolen cargo."
+   },
+   "render": {
+    "m": "[happy] Bon travail, gamin. [chuckles] Encore un boulot comme celui-là et j'aurai un souci de moins. [sighs] Espérons que cela suffise à les persuader d'établir leur base ailleurs. [annoyed] [frustrated] Entre-temps, il reste le petit problème qui est de récupérer les marchandises volées."
+   },
+   "plain": {
+    "m": "Bon travail, gamin. Encore un boulot comme celui-là et j'aurai un souci de moins. Espérons que cela suffise à les persuader d'établir leur base ailleurs. Entre-temps, il reste le petit problème qui est de récupérer les marchandises volées."
+   },
+   "target_cps": {
+    "m": 19.05
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "c4fc7a4bf615902f",
+    "cost_usd": 0.0162
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "888": {
+   "quest_id": 888,
+   "kind": "complete",
+   "name": "Course à la lentille",
+   "npc_id": 3391,
+   "npc_name": "Gazlowe",
+   "source": "foreverdb:vmangos",
+   "text": "C'est un tel soulagement de les recevoir, aussi merci pour votre aide. Vous savez, je pourrais utiliser quelqu'un comme vous pour donner un coup de main à mon opération, ici. Si jamais vous cherchez du travail, n'oubliez pas la façon dont Gazlowe paye bien les services rendus.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "C'est un tel soulagement de les recevoir, ",
+     "emotion": "soulagement",
+     "intensity": 4,
+     "pace": "normal",
+     "direction_fr": "Grand soupir de soulagement, voix qui se détend, presque théâtral.",
+     "direction_en": "Big theatrical sigh of relief, voice loosening up.",
+     "el_tags": [
+      "sighs"
+     ]
+    },
+    {
+     "text": "aussi merci pour votre aide. ",
+     "emotion": "joie",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Merci sincère mais bourru, jovial, avec un sourire dans la voix.",
+     "direction_en": "Gruff but sincere thanks, smiling in the voice.",
+     "el_tags": [
+      "warmly"
+     ]
+    },
+    {
+     "text": "Vous savez, je pourrais utiliser quelqu'un comme vous pour donner un coup de main à mon opération, ici. ",
+     "emotion": "ruse",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Ton de vendeur, complice, on baisse un peu la voix comme pour glisser une bonne affaire.",
+     "direction_en": "Salesman tone, conspiratorial, lowering the voice as if pitching a deal.",
+     "el_tags": [
+      "mischievously"
+     ]
+    },
+    {
+     "text": "Si jamais vous cherchez du travail, n'oubliez pas la façon dont Gazlowe paye bien les services rendus.",
+     "emotion": "fierté",
+     "intensity": 5,
+     "pace": "vif",
+     "direction_fr": "Montée enthousiaste, fier de lui, appuie sur « Gazlowe » et « paye bien », rire gourmand dans la voix.",
+     "direction_en": "Rising, proud and gleeful, punching 'Gazlowe' and 'pays well' with a grin.",
+     "el_tags": [
+      "cheerfully",
+      "chuckles"
+     ]
+    }
+   ],
+   "overall": {
+    "emotion": "joie",
+    "intensity": 4,
+    "direction_en": "Relieved, jovial wheeler-dealer who warms up into a sly, salesman-like job offer, ending on a proud, grinning promise of pay."
+   },
+   "render": {
+    "m": "[sighs] C'est un tel soulagement de les recevoir, [warmly] aussi merci pour votre aide. [mischievously] Vous savez, je pourrais utiliser quelqu'un comme vous pour donner un coup de main à mon opération, ici. [cheerfully] [chuckles] Si jamais vous cherchez du travail, n'oubliez pas la façon dont Gazlowe paye bien les services rendus."
+   },
+   "plain": {
+    "m": "C'est un tel soulagement de les recevoir, aussi merci pour votre aide. Vous savez, je pourrais utiliser quelqu'un comme vous pour donner un coup de main à mon opération, ici. Si jamais vous cherchez du travail, n'oubliez pas la façon dont Gazlowe paye bien les services rendus."
+   },
+   "target_cps": {
+    "m": 19.28
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "54ad3b269f722d2b",
+    "cost_usd": 0.0163
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "890": {
+   "quest_id": 890,
+   "kind": "complete",
+   "name": "La livraison perdue",
+   "npc_id": 3453,
+   "npc_name": "Maître des quais Dizzywig",
+   "source": "foreverdb:vmangos",
+   "text": "Ah ! Ainsi c'est Gazlowe qui vous envoie. Juste une minute, laissez-moi vérifier mes propres registres pour m'assurer que les biens de Gazlowe n'ont pas été envoyés au mauvais endroit.\n\nJe parie qu'il attend les bottes de chez Drizzlik...",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Ah ! Ainsi c'est Gazlowe qui vous envoie.",
+     "emotion": "surprise",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Lancé avec une surprise intéressée, le nom de Gazlowe est dit avec un mélange de respect et de flair pour l'affaire.",
+     "direction_en": "Sharp, interested surprise, the name Gazlowe dropped with a mix of wariness and business instinct.",
+     "el_tags": [
+      "curious"
+     ]
+    },
+    {
+     "text": " Juste une minute, laissez-moi vérifier mes propres registres pour m'assurer que les biens de Gazlowe n'ont pas été envoyés au mauvais endroit.",
+     "emotion": "agacement",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Bureaucrate pressé et sarcastique, il feuillette ses registres en marmonnant, débit haché, un brin pompeux et grincheux.",
+     "direction_en": "Hurried, sarcastic bureaucrat muttering while flipping through ledgers, clipped and a bit pompous.",
+     "el_tags": [
+      "sarcastic"
+     ]
+    },
+    {
+     "text": "\n\nJe parie qu'il attend les bottes de chez Drizzlik...",
+     "emotion": "ruse",
+     "intensity": 4,
+     "pace": "normal",
+     "direction_fr": "Aparté marmonné, puis éclair de malice : il a trouvé, ton complice et amusé, la voix traînant sur la fin.",
+     "direction_en": "Muttered aside turning sly as he finds the entry, knowing and amused, trailing off at the end.",
+     "el_tags": [
+      "mischievously"
+     ]
+    }
+   ],
+   "overall": {
+    "emotion": "ruse",
+    "intensity": 3,
+    "direction_en": "A hurried, sarcastic goblin bureaucrat who perks up with sly interest at Gazlowe's name and mutters through his ledgers."
+   },
+   "render": {
+    "m": "[curious] Ah ! Ainsi c'est Gazlowe qui vous envoie. [sarcastic] Juste une minute, laissez-moi vérifier mes propres registres pour m'assurer que les biens de Gazlowe n'ont pas été envoyés au mauvais endroit. [mischievously] Je parie qu'il attend les bottes de chez Drizzlik..."
+   },
+   "plain": {
+    "m": "Ah ! Ainsi c'est Gazlowe qui vous envoie. Juste une minute, laissez-moi vérifier mes propres registres pour m'assurer que les biens de Gazlowe n'ont pas été envoyés au mauvais endroit. Je parie qu'il attend les bottes de chez Drizzlik..."
+   },
+   "target_cps": {
+    "m": 19.17
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "b33cb69ce510189c",
+    "cost_usd": 0.0156
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "892": {
+   "quest_id": 892,
+   "kind": "complete",
+   "name": "La livraison perdue",
+   "npc_id": 3391,
+   "npc_name": "Gazlowe",
+   "source": "foreverdb:vmangos",
+   "text": "C'est non, hein ? Je suppose que c’est un coup des Flibustiers, alors… Dizzywig est réglo, je suis sûr qu'il ne me ferait pas d'entourloupes.\n\nAprès tout, son nom est sur la fiche de paie.\n\nIl semble que j'ai de la marchandise à récupérer. Qu'en dites-vous ?",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "C'est non, hein ? ",
+     "emotion": "agacement",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Lancé d'un ton las et faussement résigné, comme s'il connaissait déjà la réponse.",
+     "direction_en": "Tossed off wearily, feigning resignation as if he already knows the answer.",
+     "el_tags": [
+      "sighs"
+     ]
+    },
+    {
+     "text": "Je suppose que c’est un coup des Flibustiers, alors… ",
+     "emotion": "colère",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "L'irritation monte, ton accusateur et grognon, avec une pointe de sarcasme sur « Flibustiers ».",
+     "direction_en": "Irritation rising, accusing and grumbly, with a sarcastic edge on 'Flibustiers'.",
+     "el_tags": [
+      "annoyed"
+     ]
+    },
+    {
+     "text": "Dizzywig est réglo, je suis sûr qu'il ne me ferait pas d'entourloupes.\n\n",
+     "emotion": "ruse",
+     "intensity": 4,
+     "pace": "normal",
+     "direction_fr": "Ironie appuyée, faussement confiant et mielleux, le ton de celui qui n'en pense pas un mot.",
+     "direction_en": "Heavily ironic, fake-trusting and syrupy, clearly not believing a word of it.",
+     "el_tags": [
+      "sarcastic"
+     ]
+    },
+    {
+     "text": "Après tout, son nom est sur la fiche de paie.\n\n",
+     "emotion": "amusement",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Aparté sec et moqueur, presque murmuré, avec un petit rire jaune.",
+     "direction_en": "Dry mocking aside, almost muttered, with a wry little chuckle.",
+     "el_tags": [
+      "chuckles"
+     ]
+    },
+    {
+     "text": "Il semble que j'ai de la marchandise à récupérer. Qu'en dites-vous ?",
+     "emotion": "détermination",
+     "intensity": 5,
+     "pace": "vif",
+     "direction_fr": "Le sourire de vendeur revient, plein d'entrain et de menace joyeuse : il s'enflamme et invite à passer à l'action.",
+     "direction_en": "Salesman grin returns, full of gleeful menace, fired up and inviting action.",
+     "el_tags": [
+      "mischievously",
+      "excited"
+     ]
+    }
+   ],
+   "overall": {
+    "emotion": "ruse",
+    "intensity": 4,
+    "direction_en": "Fast-talking goblin tycoon moving from weary irritation to sarcastic mock-trust, then a gleeful, scheming call to action."
+   },
+   "render": {
+    "m": "[sighs] C'est non, hein ? [annoyed] Je suppose que c’est un coup des Flibustiers, alors… [sarcastic] Dizzywig est réglo, je suis sûr qu'il ne me ferait pas d'entourloupes. [chuckles] Après tout, son nom est sur la fiche de paie. [mischievously] [excited] Il semble que j'ai de la marchandise à récupérer. Qu'en dites-vous ?"
+   },
+   "plain": {
+    "m": "C'est non, hein ? Je suppose que c’est un coup des Flibustiers, alors… Dizzywig est réglo, je suis sûr qu'il ne me ferait pas d'entourloupes. Après tout, son nom est sur la fiche de paie. Il semble que j'ai de la marchandise à récupérer. Qu'en dites-vous ?"
+   },
+   "target_cps": {
+    "m": 18.82
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "113909f8dfad3893",
+    "cost_usd": 0.0206
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "894": {
+   "quest_id": 894,
+   "kind": "complete",
+   "name": "Samophlange",
+   "npc_id": 1000000,
+   "npc_name": "Elise",
+   "narrator": true,
+   "source": "foreverdb:vmangos",
+   "text": "Une grande variété de boutons, de leviers et de lumières clignotantes sont placés d'une manière quelque peu fantaisiste sur le devant de la console de contrôle. Une petite jauge indique que l'appareil est en marche en ce moment, à ses niveaux optimaux, et que les valves de contrôle 1 à 3 sont ouvertes. Il y a une petite serrure située dans le coin inférieur droit du panneau de contrôle.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T09:41:37"
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "895": {
+   "quest_id": 895,
+   "kind": "complete",
+   "name": "ON RECHERCHE : baron de Longrivage",
+   "npc_id": 3391,
+   "npc_name": "Gazlowe",
+   "source": "foreverdb:vmangos",
+   "text": "Ah ! Ce genre d'affaires. Vous savez, j'ai vu une fois \"l'Insouciant\" en haute mer… Un bateau redoutable, ou est-ce un vaisseau… Ces marins sont si pointilleux !\n\nMais passons, le voir glisser sur l'eau était une vision inoubliable. Je suis heureux que son tristement célèbre capitaine ne dérange plus mes navires.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Ah ! Ce genre d'affaires. ",
+     "emotion": "enthousiasme",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Accueil de marchand ravi, lancé, un petit claquement de langue satisfait.",
+     "direction_en": "Delighted merchant greeting, brisk and satisfied.",
+     "el_tags": [
+      "happy"
+     ]
+    },
+    {
+     "text": "Vous savez, j'ai vu une fois \"l'Insouciant\" en haute mer… ",
+     "emotion": "amusement",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Il se lance dans une anecdote, ton de conteur bavard, un peu rêveur.",
+     "direction_en": "Launching into a chatty anecdote, storyteller tone, a bit dreamy.",
+     "el_tags": []
+    },
+    {
+     "text": "Un bateau redoutable, ou est-ce un vaisseau… ",
+     "emotion": "ruse",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Aparté hésitant, faussement pointilleux, voix qui traîne.",
+     "direction_en": "Hesitant aside, mock-fussy, voice trailing.",
+     "el_tags": [
+      "curious"
+     ]
+    },
+    {
+     "text": "Ces marins sont si pointilleux !",
+     "emotion": "agacement",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Plainte exagérée et théâtrale, grognon, nasillarde.",
+     "direction_en": "Exaggerated theatrical grumble, nasal and irritated.",
+     "el_tags": [
+      "annoyed",
+      "sarcastic"
+     ]
+    },
+    {
+     "text": "\n\nMais passons, ",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "vif",
+     "direction_fr": "Il balaie la digression d'un geste, expiration rapide.",
+     "direction_en": "Waves off the digression, quick exhale.",
+     "el_tags": [
+      "exhales"
+     ]
+    },
+    {
+     "text": "le voir glisser sur l'eau était une vision inoubliable. ",
+     "emotion": "tendresse",
+     "intensity": 3,
+     "pace": "posé",
+     "direction_fr": "Ton admiratif, presque nostalgique, plus lent et chaleureux.",
+     "direction_en": "Admiring, almost nostalgic, slower and warm.",
+     "el_tags": [
+      "warmly"
+     ]
+    },
+    {
+     "text": "Je suis heureux que son tristement célèbre capitaine ne dérange plus mes navires.",
+     "emotion": "joie",
+     "intensity": 5,
+     "pace": "normal",
+     "direction_fr": "Satisfaction gourmande et ricanante de businessman débarrassé de son rival ; montée jusqu'au rire.",
+     "direction_en": "Gleeful, gloating relief of a businessman rid of a rival, ending in a chuckle.",
+     "el_tags": [
+      "chuckles",
+      "cheerfully"
+     ]
+    }
+   ],
+   "overall": {
+    "emotion": "joie",
+    "intensity": 4,
+    "direction_en": "Fast-talking jovial goblin tycoon, digressive and grumbly, ending in gleeful satisfaction at his rival's demise."
+   },
+   "render": {
+    "m": "[happy] Ah ! Ce genre d'affaires. Vous savez, j'ai vu une fois \"l'Insouciant\" en haute mer… [curious] Un bateau redoutable, ou est-ce un vaisseau… [annoyed] [sarcastic] Ces marins sont si pointilleux ! [exhales] Mais passons, [warmly] le voir glisser sur l'eau était une vision inoubliable. [chuckles] [cheerfully] Je suis heureux que son tristement célèbre capitaine ne dérange plus mes navires."
+   },
+   "plain": {
+    "m": "Ah ! Ce genre d'affaires. Vous savez, j'ai vu une fois \"l'Insouciant\" en haute mer… Un bateau redoutable, ou est-ce un vaisseau… Ces marins sont si pointilleux ! Mais passons, le voir glisser sur l'eau était une vision inoubliable. Je suis heureux que son tristement célèbre capitaine ne dérange plus mes navires."
+   },
+   "target_cps": {
+    "m": 18.29
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "ce970ed7400a5a2b",
+    "cost_usd": 0.0196
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "896": {
+   "quest_id": 896,
+   "kind": "complete",
+   "name": "La bonne fortune d'un mineur pauvre",
+   "npc_id": 3453,
+   "npc_name": "Maître des quais Dizzywig",
+   "source": "foreverdb:vmangos",
+   "text": "Regardez donc la taille de cette chose! Nous allons devenir riches ! Voyons, d'après le prix des gemmes en partance pour Undermine, je devrais pouvoir calculer votre part. Cinquante pour cent, ne vous inquiétez pas !\n\nÀ présent allons-y… Je pense que cela devrait faire le compte. Un plaisir de faire des affaires avec vous.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Regardez donc la taille de cette chose! ",
+     "emotion": "enthousiasme",
+     "intensity": 5,
+     "pace": "vif",
+     "direction_fr": "Éclat de joie cupide, émerveillé, théâtral, en découvrant la prise.",
+     "direction_en": "Burst of gleeful greedy wonder, theatrical, admiring the catch.",
+     "el_tags": [
+      "excited"
+     ]
+    },
+    {
+     "text": "Nous allons devenir riches ! ",
+     "emotion": "joie",
+     "intensity": 5,
+     "pace": "précipité",
+     "direction_fr": "Exclamation jubilante, rire gourmand, frottement de mains.",
+     "direction_en": "Jubilant exclamation, greedy glee, rubbing hands together.",
+     "el_tags": [
+      "laughs"
+     ]
+    },
+    {
+     "text": "Voyons, d'après le prix des gemmes en partance pour Undermine, je devrais pouvoir calculer votre part. ",
+     "emotion": "ruse",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Marmonné, concentré, en consultant ses registres, calculateur.",
+     "direction_en": "Muttering, calculating while checking his ledgers, sly.",
+     "el_tags": []
+    },
+    {
+     "text": "Cinquante pour cent, ne vous inquiétez pas !",
+     "emotion": "amusement",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Ton sarcastique et faussement rassurant, sourire en coin, mordant.",
+     "direction_en": "Sarcastic, fakely reassuring, smirking and biting.",
+     "el_tags": [
+      "mischievously"
+     ]
+    },
+    {
+     "text": "\n\nÀ présent allons-y… ",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Plus bas, pressé, il s'active et compte les pièces.",
+     "direction_en": "Lower, hurried, bustling as he counts coins.",
+     "el_tags": []
+    },
+    {
+     "text": "Je pense que cela devrait faire le compte. ",
+     "emotion": "ruse",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Satisfait, un peu suspect, en vérifiant le compte.",
+     "direction_en": "Satisfied, slightly suspicious, checking the count.",
+     "el_tags": [
+      "chuckles"
+     ]
+    },
+    {
+     "text": "Un plaisir de faire des affaires avec vous.",
+     "emotion": "joie",
+     "intensity": 4,
+     "pace": "normal",
+     "direction_fr": "Chaleureux mais commerçant, ton onctueux et sincère à sa façon.",
+     "direction_en": "Warm yet mercantile, smooth and sincere in his own way.",
+     "el_tags": [
+      "cheerfully"
+     ]
+    }
+   ],
+   "overall": {
+    "emotion": "joie",
+    "intensity": 4,
+    "direction_en": "Gleeful greedy goblin dockmaster, fast and sarcastic, thrilled by profit and cheerfully sealing the deal."
+   },
+   "render": {
+    "m": "[excited] Regardez donc la taille de cette chose! [laughs] Nous allons devenir riches ! Voyons, d'après le prix des gemmes en partance pour Undermine, je devrais pouvoir calculer votre part. [mischievously] Cinquante pour cent, ne vous inquiétez pas ! À présent allons-y… [chuckles] Je pense que cela devrait faire le compte. [cheerfully] Un plaisir de faire des affaires avec vous."
+   },
+   "plain": {
+    "m": "Regardez donc la taille de cette chose! Nous allons devenir riches ! Voyons, d'après le prix des gemmes en partance pour Undermine, je devrais pouvoir calculer votre part. Cinquante pour cent, ne vous inquiétez pas ! À présent allons-y… Je pense que cela devrait faire le compte. Un plaisir de faire des affaires avec vous."
+   },
+   "target_cps": {
+    "m": 19.14
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "2261c17cd63f4a0f",
+    "cost_usd": 0.0189
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "900": {
+   "quest_id": 900,
+   "kind": "complete",
+   "name": "Samophlange",
+   "npc_id": 1000000,
+   "npc_name": "Elise",
+   "narrator": true,
+   "source": "foreverdb:vmangos",
+   "text": "L’intensité des lumières correspondant aux trois valves de contrôle décline tandis qu'elles sont fermées. Les lumières vertes passent au jaune, et l'on peut à présent utiliser la commande contrôlant l'appareil. Les valves étant désormais fermées, il peut être éteint.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T09:41:37"
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "901": {
+   "quest_id": 901,
+   "kind": "complete",
+   "name": "Samophlange",
+   "npc_id": 1000000,
+   "npc_name": "Elise",
+   "narrator": true,
+   "source": "foreverdb:vmangos",
+   "text": "Alors que vous tournez la clé dans la serrure, la console de contrôle se déverrouille. Une lumière rouge s'éteint en haut de la console, et toute énergie vide le terminal.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T09:41:37"
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "902": {
+   "quest_id": 902,
+   "kind": "complete",
+   "name": "Samophlange",
+   "npc_id": 3442,
+   "npc_name": "Sputtervalve",
+   "source": "foreverdb:vmangos",
+   "text": "C'est… euh… intéressant… Je ferai en sorte qu'il soit envoyé au quartier général du Syndicat des Artisans à Undermine. Je suis sûr qu'après une dissection prudente et beaucoup de recherches, ils parviendront à y comprendre quelque chose.\n\nMais je vais peut-être d'abord y jeter un œil moi-même...",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "C'est… euh… intéressant… ",
+     "emotion": "mystère",
+     "intensity": 3,
+     "pace": "posé",
+     "direction_fr": "Hésitant, les yeux rivés sur l'objet, fasciné malgré lui. Pauses ironiques et chargées de sous-entendus.",
+     "direction_en": "Hesitant, eyes glued to the object, secretly fascinated; ironic loaded pauses.",
+     "el_tags": [
+      "curious"
+     ]
+    },
+    {
+     "text": "Je ferai en sorte qu'il soit envoyé au quartier général du Syndicat des Artisans à Undermine. ",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "normal",
+     "direction_fr": "Ton faussement officiel, de businessman qui récite la procédure, un brin sarcastique.",
+     "direction_en": "Mock-official tone, a dealmaker reciting procedure, slightly sarcastic.",
+     "el_tags": [
+      "sarcastic"
+     ]
+    },
+    {
+     "text": "Je suis sûr qu'après une dissection prudente et beaucoup de recherches, ils parviendront à y comprendre quelque chose.",
+     "emotion": "amusement",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Cynique, légèrement moqueur envers les ingénieurs du Syndicat, débit rapide et enjôleur.",
+     "direction_en": "Cynical, mildly mocking of the Syndicate engineers, fast and wheedling.",
+     "el_tags": [
+      "chuckles"
+     ]
+    },
+    {
+     "text": "\n\nMais je vais peut-être d'abord y jeter un œil moi-même...",
+     "emotion": "ruse",
+     "intensity": 5,
+     "pace": "vif",
+     "direction_fr": "Il baisse la voix, aparté complice avec le joueur, cupidité gourmande qui perce, sourire dans la voix.",
+     "direction_en": "Lowers his voice in a conspiratorial aside, greedy glee seeping through, smiling voice.",
+     "el_tags": [
+      "whispers",
+      "mischievously"
+     ]
+    }
+   ],
+   "overall": {
+    "emotion": "ruse",
+    "intensity": 4,
+    "direction_en": "A scheming goblin feigns official diligence, then slyly admits he intends to tinker with the prize himself."
+   },
+   "render": {
+    "m": "[curious] C'est… euh… intéressant… [sarcastic] Je ferai en sorte qu'il soit envoyé au quartier général du Syndicat des Artisans à Undermine. [chuckles] Je suis sûr qu'après une dissection prudente et beaucoup de recherches, ils parviendront à y comprendre quelque chose. [whispers] [mischievously] Mais je vais peut-être d'abord y jeter un œil moi-même..."
+   },
+   "plain": {
+    "m": "C'est… euh… intéressant… Je ferai en sorte qu'il soit envoyé au quartier général du Syndicat des Artisans à Undermine. Je suis sûr qu'après une dissection prudente et beaucoup de recherches, ils parviendront à y comprendre quelque chose. Mais je vais peut-être d'abord y jeter un œil moi-même..."
+   },
+   "target_cps": {
+    "m": 18.78
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "ae01769e730c9d48",
+    "cost_usd": 0.0168
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "1069": {
+   "quest_id": 1069,
+   "kind": "complete",
+   "name": "Omelette à la mousse profonde",
+   "npc_id": 3446,
+   "npc_name": "Mebok Mizzyrix",
+   "source": "foreverdb:vmangos",
+   "text": "Vous les avez ! Merci !\n\nJe vais les envoyer à Dizzywig et ils partiront pour Baie-du-Butin. Je peux déjà sentir les profits !\n\nVoici votre part. Je n'aurais pas pu faire cette affaire sans vous.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Vous les avez ! Merci !\n\n",
+     "emotion": "joie",
+     "intensity": 5,
+     "pace": "précipité",
+     "direction_fr": "Explosion de joie, voix nasillarde qui monte dans les aigus, presque un cri de triomphe.",
+     "direction_en": "Burst of delighted triumph, nasal voice jumping up in pitch.",
+     "el_tags": [
+      "excited",
+      "laughs"
+     ]
+    },
+    {
+     "text": "Je vais les envoyer à Dizzywig et ils partiront pour Baie-du-Butin. ",
+     "emotion": "ruse",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Il s'emballe, planifie à toute vitesse, ton de marchand magouilleur qui se frotte les mains.",
+     "direction_en": "Rapid scheming, rubbing his hands as he lays out the plan.",
+     "el_tags": [
+      "mischievously"
+     ]
+    },
+    {
+     "text": "Je peux déjà sentir les profits !\n\n",
+     "emotion": "enthousiasme",
+     "intensity": 5,
+     "pace": "précipité",
+     "direction_fr": "Cupidité jubilatoire, savoure le mot « profits », presque haletant de plaisir.",
+     "direction_en": "Gleeful greed, savoring the word 'profits', almost breathless.",
+     "el_tags": [
+      "excited"
+     ]
+    },
+    {
+     "text": "Voici votre part. ",
+     "emotion": "tendresse",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Change de ton : plus posé, chaleureux, geste généreux en tendant la récompense.",
+     "direction_en": "Shift to a warmer, calmer tone as he generously hands over the reward.",
+     "el_tags": [
+      "warmly"
+     ]
+    },
+    {
+     "text": "Je n'aurais pas pu faire cette affaire sans vous.",
+     "emotion": "fierté",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Sincère et bon camarade, flatterie qui sonne vraie, avec un petit sourire dans la voix.",
+     "direction_en": "Sincere camaraderie, flattery that rings true, a smile in the voice.",
+     "el_tags": [
+      "happy"
+     ]
+    }
+   ],
+   "overall": {
+    "emotion": "enthousiasme",
+    "intensity": 4,
+    "direction_en": "Greedy goblin merchant bursting with glee at the delivery, then warm and genuinely grateful as he hands over the reward."
+   },
+   "render": {
+    "m": "[excited] [laughs] Vous les avez ! Merci ! [mischievously] Je vais les envoyer à Dizzywig et ils partiront pour Baie-du-Butin. [excited] Je peux déjà sentir les profits ! [warmly] Voici votre part. [happy] Je n'aurais pas pu faire cette affaire sans vous."
+   },
+   "plain": {
+    "m": "Vous les avez ! Merci ! Je vais les envoyer à Dizzywig et ils partiront pour Baie-du-Butin. Je peux déjà sentir les profits ! Voici votre part. Je n'aurais pas pu faire cette affaire sans vous."
+   },
+   "target_cps": {
+    "m": 19.42
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "3cbce2bd7d1dd7d4",
+    "cost_usd": 0.0196
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "1483": {
+   "quest_id": 1483,
+   "kind": "complete",
+   "name": "Ziz Fizziks",
+   "npc_id": 4201,
+   "npc_name": "Ziz Fizziks",
+   "source": "foreverdb:vmangos",
+   "text": "Et moi qui pensais que les gradés de la KapitalRisk étaient des esclavagistes ! Mais là j'ai rencontré Sputtervalve, le plus cruel de tous !\n\nHa ! Mais c'est mieux que de se retrouver sans travail, je suppose… ou même pire, que de travailler avec ce Gerenzo. Si vous êtes là pour donner un coup de main, j'ai quelque chose pour vous.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Et moi qui pensais que les gradés de la KapitalRisk étaient des esclavagistes ! ",
+     "emotion": "agacement",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Plainte indignée, nasillarde, théâtrale, sur le ton du geignard qui se souvient.",
+     "direction_en": "Indignant, nasal whining, theatrical, like a complainer recalling past grievances.",
+     "el_tags": [
+      "annoyed"
+     ]
+    },
+    {
+     "text": "Mais là j'ai rencontré Sputtervalve, le plus cruel de tous !",
+     "emotion": "colère",
+     "intensity": 5,
+     "pace": "précipité",
+     "direction_fr": "Explosion de dépit, voix aiguë qui monte, exagération comique.",
+     "direction_en": "Burst of exasperation, voice rising high, comically exaggerated.",
+     "el_tags": [
+      "frustrated"
+     ]
+    },
+    {
+     "text": "\n\nHa ! Mais c'est mieux que de se retrouver sans travail, je suppose… ",
+     "emotion": "ruse",
+     "intensity": 3,
+     "pace": "normal",
+     "direction_fr": "Rire bref, puis résignation sarcastique, haussement d'épaules, points de suspension traînants.",
+     "direction_en": "Short laugh, then sarcastic resignation, shrugging, trailing off.",
+     "el_tags": [
+      "sarcastic"
+     ]
+    },
+    {
+     "text": "ou même pire, que de travailler avec ce Gerenzo. ",
+     "emotion": "dégoût",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Mépris dégoûté sur « Gerenzo », grimace dans la voix.",
+     "direction_en": "Disgusted scorn on 'Gerenzo', grimacing tone.",
+     "el_tags": []
+    },
+    {
+     "text": "Si vous êtes là pour donner un coup de main, j'ai quelque chose pour vous.",
+     "emotion": "joie",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Changement net : complice, chaleureux et intéressé, voix qui baisse un peu comme pour une magouille, avec cupidité joyeuse.",
+     "direction_en": "Sharp shift: conspiratorial, warm and self-interested, lowering voice like a schemer, gleeful greed.",
+     "el_tags": [
+      "mischievously"
+     ]
+    }
+   ],
+   "overall": {
+    "emotion": "ruse",
+    "intensity": 4,
+    "direction_en": "Whiny, sarcastic goblin schemer who grumbles about his bosses, then turns conspiratorially warm and gleeful when offering the reward."
+   },
+   "render": {
+    "m": "[annoyed] Et moi qui pensais que les gradés de la KapitalRisk étaient des esclavagistes ! [frustrated] Mais là j'ai rencontré Sputtervalve, le plus cruel de tous ! [sarcastic] Ha ! Mais c'est mieux que de se retrouver sans travail, je suppose… ou même pire, que de travailler avec ce Gerenzo. [mischievously] Si vous êtes là pour donner un coup de main, j'ai quelque chose pour vous."
+   },
+   "plain": {
+    "m": "Et moi qui pensais que les gradés de la KapitalRisk étaient des esclavagistes ! Mais là j'ai rencontré Sputtervalve, le plus cruel de tous ! Ha ! Mais c'est mieux que de se retrouver sans travail, je suppose… ou même pire, que de travailler avec ce Gerenzo. Si vous êtes là pour donner un coup de main, j'ai quelque chose pour vous."
+   },
+   "target_cps": {
+    "m": 19.47
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "6b458a5f5bab4b31",
+    "cost_usd": 0.0186
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "3370": {
+   "quest_id": 3370,
+   "kind": "complete",
+   "name": "Au coeur des cauchemars",
+   "npc_id": 4217,
+   "npc_name": "Mathrengyl Bearwalker",
+   "source": "foreverdb:vmangos",
+   "text": "Ainsi, c'est Falla qui vous envoie ? Bien, voyons à présent cet éclat à propos duquel elle a été tellement hésitante à vous parler…\n\nMathrengyl observe l'intérieur de l'éclat.\n\nOh… je n'ai pas… Bien.\n\nJe vous remercie de me l'avoir apporté. Il ne serait pas sage de parler de choses telles que celle-ci cependant, je vous en informe. Il s'agit de sujets sur lesquels seuls les druides cénariens devraient se pencher.\n\nDisons simplement que ce qui se passe dans le Rêve d'émeraude n'est pas exactement ce à quoi nous pensions...\n\nIl se peut que nos chemins se croisent à nouveau dans le futur.",
+   "gendered": false,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Ainsi, c'est Falla qui vous envoie ? ",
+     "emotion": "neutre",
+     "intensity": 2,
+     "pace": "posé",
+     "direction_fr": "Accueil bienveillant, légèrement interrogatif, sourire dans la voix.",
+     "direction_en": "Warm, mildly questioning welcome with a smile in the voice.",
+     "el_tags": [
+      "warmly"
+     ]
+    },
+    {
+     "text": "Bien, voyons à présent cet éclat à propos duquel elle a été tellement hésitante à vous parler…\n\n",
+     "emotion": "mystère",
+     "intensity": 3,
+     "pace": "posé",
+     "direction_fr": "Curiosité contenue, voix qui s'abaisse sur « hésitante », trace d'intrigue, points de suspension suspendus.",
+     "direction_en": "Restrained curiosity, voice lowering on 'hesitant', trailing off intriguingly.",
+     "el_tags": [
+      "curious"
+     ]
+    },
+    {
+     "text": "Mathrengyl observe l'intérieur de l'éclat.\n\n",
+     "emotion": "mystère",
+     "intensity": 2,
+     "pace": "posé",
+     "direction_fr": "Murmure absorbé, presque pour lui-même, silence concentré.",
+     "direction_en": "Absorbed near-whisper, almost to himself, focused silence.",
+     "el_tags": [
+      "whispers"
+     ]
+    },
+    {
+     "text": "Oh… je n'ai pas… Bien.\n\n",
+     "emotion": "inquiétude",
+     "intensity": 4,
+     "pace": "posé",
+     "direction_fr": "Saisissement : voix brisée, hésitante, souffle coupé, puis il se reprend avec effort sur « Bien ».",
+     "direction_en": "Shaken, broken and halting, breath caught, then forcing composure on 'Bien'.",
+     "el_tags": [
+      "exhales",
+      "nervous"
+     ]
+    },
+    {
+     "text": "Je vous remercie de me l'avoir apporté. ",
+     "emotion": "tendresse",
+     "intensity": 3,
+     "pace": "posé",
+     "direction_fr": "Retour à la chaleur paternelle, sincère et reconnaissant, voix grave et douce.",
+     "direction_en": "Back to fatherly warmth, sincere and grateful, deep gentle voice.",
+     "el_tags": [
+      "warmly"
+     ]
+    },
+    {
+     "text": "Il ne serait pas sage de parler de choses telles que celle-ci cependant, je vous en informe. Il s'agit de sujets sur lesquels seuls les druides cénariens devraient se pencher.\n\n",
+     "emotion": "gravité",
+     "intensity": 4,
+     "pace": "posé",
+     "direction_fr": "Ton grave et solennel, avertissement discret, voix basse et ferme, insister sur « seuls ».",
+     "direction_en": "Grave, solemn, discreet warning in a low firm voice, stressing 'only'.",
+     "el_tags": [
+      "serious"
+     ]
+    },
+    {
+     "text": "Disons simplement que ce qui se passe dans le Rêve d'émeraude n'est pas exactement ce à quoi nous pensions...\n\n",
+     "emotion": "inquiétude",
+     "intensity": 5,
+     "pace": "posé",
+     "direction_fr": "Confidence sombre et chuchotée, pic d'inquiétude, longue pause avant « n'est pas exactement », fin en suspens.",
+     "direction_en": "Hushed dark confession, peak unease, long pause before 'not exactly', trailing off.",
+     "el_tags": [
+      "whispers",
+      "sad"
+     ]
+    },
+    {
+     "text": "Il se peut que nos chemins se croisent à nouveau dans le futur.",
+     "emotion": "tendresse",
+     "intensity": 3,
+     "pace": "posé",
+     "direction_fr": "Adieu bienveillant, voix qui s'apaise, léger sourire de mentor mêlé de gravité.",
+     "direction_en": "Kind farewell, voice settling, a mentor's slight smile tinged with gravity.",
+     "el_tags": [
+      "warmly"
+     ]
+    }
+   ],
+   "overall": {
+    "emotion": "gravité",
+    "intensity": 4,
+    "direction_en": "Solemn, fatherly druid mentor: warm welcome, shaken by what the shard reveals, then grave and hushed about the Emerald Dream, closing with a gentle farewell."
+   },
+   "render": {
+    "m": "[warmly] Ainsi, c'est Falla qui vous envoie ? [curious] Bien, voyons à présent cet éclat à propos duquel elle a été tellement hésitante à vous parler… [whispers] Mathrengyl observe l'intérieur de l'éclat. [exhales] [nervous] Oh… je n'ai pas… Bien. [warmly] Je vous remercie de me l'avoir apporté. [serious] Il ne serait pas sage de parler de choses telles que celle-ci cependant, je vous en informe. Il s'agit de sujets sur lesquels seuls les druides cénariens devraient se pencher. [whispers] [sad] Disons simplement que ce qui se passe dans le Rêve d'émeraude n'est pas exactement ce à quoi nous pensions... [warmly] Il se peut que nos chemins se croisent à nouveau dans le futur."
+   },
+   "plain": {
+    "m": "Ainsi, c'est Falla qui vous envoie ? Bien, voyons à présent cet éclat à propos duquel elle a été tellement hésitante à vous parler… Mathrengyl observe l'intérieur de l'éclat. Oh… je n'ai pas… Bien. Je vous remercie de me l'avoir apporté. Il ne serait pas sage de parler de choses telles que celle-ci cependant, je vous en informe. Il s'agit de sujets sur lesquels seuls les druides cénariens devraient se pencher. Disons simplement que ce qui se passe dans le Rêve d'émeraude n'est pas exactement ce à quoi nous pensions... Il se peut que nos chemins se croisent à nouveau dans le futur."
+   },
+   "target_cps": {
+    "m": 16.5
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "00b3e76e1f59a205",
+    "cost_usd": 0.3127
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "9267": {
+   "quest_id": 9267,
+   "kind": "complete",
+   "name": "Soigner de vielles blessures",
+   "npc_id": 16418,
+   "npc_name": "Mupsi Shacklefridd",
+   "source": "foreverdb:vmangos",
+   "text": "Je suis heureux que tu te rendes compte de ton erreur. Continuez à nous approvisionner ; nous n'allons pas vous oublier si facilement, <monsieur/manquer> !",
+   "gendered": true,
+   "stage_directions": [],
+   "segments": [
+    {
+     "text": "Je suis heureux que tu te rendes compte de ton erreur.",
+     "emotion": "amusement",
+     "intensity": 4,
+     "pace": "vif",
+     "direction_fr": "Suffisance espiègle, petit sourire dans la voix, pique taquine sur « erreur » avec une légère montée aiguë.",
+     "direction_en": "Smug and playful, a teasing little jab on 'erreur', smile in the voice.",
+     "el_tags": [
+      "chuckles",
+      "mischievously"
+     ]
+    },
+    {
+     "text": " Continuez à nous approvisionner ; nous n'allons pas vous oublier si facilement, ",
+     "emotion": "joie",
+     "intensity": 3,
+     "pace": "vif",
+     "direction_fr": "Plus chaleureux et reconnaissant, insistance sur « nous », rythme sautillant qui accélère avec enthousiasme.",
+     "direction_en": "Warmer and grateful, stressing 'nous', bouncy pace speeding up with enthusiasm.",
+     "el_tags": [
+      "warmly"
+     ]
+    },
+    {
+     "text": "<monsieur/manquer> !",
+     "emotion": "enthousiasme",
+     "intensity": 5,
+     "pace": "vif",
+     "direction_fr": "Point d'orgue joyeux et lancé, voix haut perchée, clin d'œil complice au joueur.",
+     "direction_en": "Joyful, high-pitched flourish, a cheeky wink to the player.",
+     "el_tags": [
+      "cheerfully"
+     ]
+    }
+   ],
+   "overall": {
+    "emotion": "amusement",
+    "intensity": 4,
+    "direction_en": "Smug, playful gnome pleased to be proven right, then warmly insistent with a teasing, bouncy send-off."
+   },
+   "render": {
+    "m": "[chuckles] [mischievously] Je suis heureux que tu te rendes compte de ton erreur. [warmly] Continuez à nous approvisionner ; nous n'allons pas vous oublier si facilement, [cheerfully] monsieur !",
+    "f": "[chuckles] [mischievously] Je suis heureux que tu te rendes compte de ton erreur. [warmly] Continuez à nous approvisionner ; nous n'allons pas vous oublier si facilement, [cheerfully] manquer !"
+   },
+   "plain": {
+    "m": "Je suis heureux que tu te rendes compte de ton erreur. Continuez à nous approvisionner ; nous n'allons pas vous oublier si facilement, monsieur !",
+    "f": "Je suis heureux que tu te rendes compte de ton erreur. Continuez à nous approvisionner ; nous n'allons pas vous oublier si facilement, manquer !"
+   },
+   "target_cps": {
+    "m": 19.5,
+    "f": 19.5
+   },
+   "generator": {
+    "prompt_version": 3,
+    "model": "claude-sonnet-5-5",
+    "input_hash": "0bb7e52c9b5c0bf5",
+    "cost_usd": 0.0148
+   },
+   "origins": {
+    "completion": "foreverdb:vmangos"
+   }
+  },
+  "79192": {
+   "quest_id": 79192,
+   "kind": "complete",
+   "name": "Tort-tue",
+   "npc_id": 1000000,
+   "npc_name": "Elise",
+   "narrator": true,
+   "source": "wowdata",
+   "origins": {
+    "completion": "wowdata"
+   },
+   "text": "Des aventuriers et des mercenaires ont dû dresser leur camp ici. Le coin d’une note agitée par le vent attire votre regard et vous saisissez le message.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-11-16T11:28:48"
+   }
+  },
+  "98024": {
+   "quest_id": 98024,
+   "kind": "complete",
+   "name": null,
+   "npc_id": 3429,
+   "npc_name": "Thork",
+   "source": "wowdata",
+   "origins": {
+    "completion": "wowdata"
+   },
+   "text": "Qu’est-ce que c’est que ça ? Une Elfe ? Et vous dites que le chef de guerre vous a envoyée ?\n\nThork laisse échapper un grognement rauque en vous toisant de la tête aux pieds.\n\nVous m’avez l’air un peu maigrelette, mais peu importe. Ici, soit vous vous montrez à la hauteur et survivez, soit vous périssez. C’est ainsi que vont les choses dans ces terres.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-11-16T11:28:48"
+   }
+  }
+ },
+ "dialogues": {
+  "3442_2461": {
+   "kind": "dialogue",
+   "npc_id": 3442,
+   "npc_name": "Sputtervalve",
+   "page": "2461",
+   "first": true,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Beaucoup à faire, beaucoup à faire ! Le Syndicat nous impose des délais du genre qu’on ne dépasse pas !",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T10:28:35"
+   }
+  },
+  "3442_2464": {
+   "kind": "dialogue",
+   "npc_id": 3442,
+   "npc_name": "Sputtervalve",
+   "page": "2464",
+   "first": true,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Le directeur Riddlevox m'a chargé du programme du destructeur du Syndicat. Cela fait à peine quelques mois que j'y travaille et je suis déjà dans le pétrin ! Vous pourriez m'aider!",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T10:28:35"
+   }
+  },
+  "3442_2465": {
+   "kind": "dialogue",
+   "npc_id": 3442,
+   "npc_name": "Sputtervalve",
+   "page": "2465",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Voyez, le nouveau Déchiqueteur de la KapitalRisk est meilleur que le mien ; il a des poignées de commande interchangeables ! Mon chef m’avait donné un délai très strict mais mes hommes et moi n'arrivions à rien.\n\nRien ne fonctionnait, alors nous avons décidé d’”emprunter” un de leurs prototypes. J’ai alors envoyé Wizzlecrank vers la Videfange afin d’en dérober un mais il ne nous l’a pas encore ramené !",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T10:28:35"
+   }
+  },
+  "3442_4486": {
+   "kind": "dialogue",
+   "npc_id": 3442,
+   "npc_name": "Sputtervalve",
+   "page": "4486",
+   "first": false,
+   "quests": [
+    6981
+   ],
+   "source": "foreverdb",
+   "text": "Intéressant, intéressant... Je connais une druidesse qui vit au-dessus des Cavernes des lamentations. Elle pourra vous en dire plus sur ce fragment que vous avez trouvé.\n\nJe dois me remettre au travail à présent !",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T10:28:35"
+   }
+  },
+  "5784_7970": {
+   "kind": "dialogue",
+   "npc_id": 5784,
+   "npc_name": "Waldor",
+   "page": "7970",
+   "first": true,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Les cavernes en dessous de nous offrent de nombreuses et merveilleuses cachettes, mais vous devez faire attention si vous vous aventurez dans leurs profondeurs. Souvenez-vous que votre propre peau a beaucoup plus de valeur.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "5784_7971": {
+   "kind": "dialogue",
+   "npc_id": 5784,
+   "npc_name": "Waldor",
+   "page": "7971",
+   "first": true,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Vous connaissez le cuir mieux que moi. Vous devriez rendre visite au tauren Krulmoo Fullmoon, au Camp Taurajo, dans les Tarides. Il a bien des connaissances à offrir à un apprenti de votre classe.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_2828": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "2828",
+   "first": true,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Entrez, entrez. Seulement, ne vous asseyez pas trop près du poêle. Il n’a pas encore explosé aujourd’hui, mais par mesure de précaution, je pense que vous devriez vous asseoir autre part.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9871": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9871",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Le Gouffre de Ragefeu est un ensemble de cavernes volcaniques qui se trouvent sous Orgrimmar, la nouvelle capitale des orcs. Des rumeurs selon lesquelles un culte fidèle au démoniaque Conseil des ombres s'est établi dans les profondeurs rougeoyantes du Gouffre ont récemment circulé. Ce culte, connu sous le nom de Lame ardente, menace la souveraineté même de Durotar. Beaucoup pensent que le chef de guerre orc, Thrall, connaît son existence et a délibérément choisi de ne pas le détruire dans l'espoir que ses membres pourraient le conduire vers le Conseil des ombres.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9877": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9877",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Souhaitez-vous explorer l'un de ces donjons ?",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9881": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9881",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Un elfe de la nuit dénommé Naralex a récemment découvert qu'un réseau de cavernes souterraines se dissimulait au cœur des Tarides. Croyant qu'il pouvait utiliser les sources de ces cavernes pour rendre leur fertilité aux Tarides, le druide commença à aspirer l'énergie du légendaire Rêve d'émeraude. Mais sa vision s'est transformée en cauchemar, et peu à peu les cavernes des Lamentations sont devenues le repaire de prédateurs cruels et dangereux. On dit que Naralex réside encore dans ce labyrinthe, emprisonné derrière les barrières du Rêve d'émeraude.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9884": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9884",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Frustré par le manque de résultats des sorciers de Dalaran dans le combat contre les morts-vivants durant la Troisième guerre, l'archimage Arugal décida d'invoquer des worgens venus d'une autre dimension pour renforcer son camp. Les hommes-loups massacrèrent les troupes du Fléau, puis se retournèrent rapidement contre les sorciers. Ils assiégèrent le donjon du noble baron d'Argelaine, qui tomba rapidement et devint la proie des ombres. Rendu fou par la culpabilité, Arugal adopta les worgen qu'il considéra comme ses enfants, et se terra dans le fort qui fut dès lors appelé le donjon d'Ombrecroc.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9892": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9892",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Autrefois le plus grand centre de production d'or des terres humaines, les Mortemines sont maintenant habitées par la Confrérie Défias. Celle-ci a fait de ces sombres tunnels son sanctuaire privé. La rumeur affirme que ces voleurs ont engagé d'astucieux gobelins, qui les aident à construire une chose terrible dans les profondeurs des mines. Mais nul ne sait ce dont il s'agit. On murmure que l'entrée des Mortemines se trouverait dans le tranquille et modeste village de Ruisselune.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9896": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9896",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Le Gouffre de Ragefeu se trouve sous la Faille de l'Ombre au centre d'Orgrimmar.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9899": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9899",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "L'entrée des cavernes des Lamentations se trouve à l'oasis Luxuriante au sud-ouest de la Croisée dans les Tarides.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9901": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9901",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Le donjon d'Ombrecroc se trouve dans le sud des Pins argentés juste au nord de Bois-du-Bûcher.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9910": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9910",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Les Profondeurs de Brassenoire se trouvent à l'extrémité nord de la grève de Zoram le long de la côte d'Ashenvale.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9911": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9911",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Situées sur la grève de Zoram, en Ashenvale, les Profondeurs de Brassenoire étaient autrefois un magnifique temple voué à la déesse de la lune des elfes de la nuit, Elune. Malheureusement, la Grande Fracture détruisit en partie le sanctuaire, l'engloutissant sous les eaux de la Mer voilée. Il y resta, intact, jusqu'à ce qu'attirés par son pouvoir ancien, les nagas et les satyres le fouillent pour s'emparer de ses secrets. Les légende affirment qu'une bête ancienne, Aku'mai, s'est installée dans les ruines du temple.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9913": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9913",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Gnomeregan se trouve dans l'ouest de Dun Morogh.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9914": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9914",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Situé à Dun Morogh, Gnomeregan est la capitale des gnomes depuis des générations, même si elle a été récemment infestée par des troggs mutants. Lors de l'attaque des troggs, dans une tentative désespérée de représailles, le Grand Bricoleur Mekkatorque ordonna la vidange d'urgence des réservoirs de déchets radioactifs de la ville. Même irradiés, les troggs maintinrent leur siège et les gnomes furent obligés de trouver refuge dans la cité naine d'Ironforge; C'est là que le Grand Bricoleur recrute des âmes hardies pour aider son peuple à reconquérir sa chère cité.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9916": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9916",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Le kraal de Tranchebauge se trouve à l'extrémité sud des Tarides du côté ouest de la route.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9917": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9917",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Durant la Guerre des Anciens, le demi-dieu Agamaggan vint affronter la Légion ardente. Ce sanglier colossal fut vaincu, et avec le temps, aux endroits où son sang avait coulé, d'énormes lianes épineuses poussèrent. Les hurans finirent par occuper ces terres, les considérant comme sacrées. Au cœur de ces immenses colonies d'épineux se trouve Tranchebauge. Le kraal de Tranchebauge fut conquis par la mégère, Charlga Trancheflanc, que certains soupçonnent de négocier avec des agents du Fléau dans un but insidieux.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9919": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9919",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Le monastère Écarlate se trouve dans les collines au nord-est des clairières de Tirisfal.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9920": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9920",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Le monastère était autrefois un lieu d'instruction et de prière. Lors de l'arrivée du Fléau mort-vivant durant la Troisième guerre, le paisible monastère fut converti en forteresse par les fanatiques de la Croisade écarlate. Les croisés détestent toutes les races non-humaines, quelle que soit leur alliance ou leur affiliation. Ils pensent que tous les étrangers sont des porteurs potentiels de la maladie des morts-vivants… et qu'ils doivent être détruits.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9922": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9922",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Les Souilles de Tranchebauge se trouvent à l'extrémité sud des Tarides, du côté est de la route.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9923": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9923",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Construites dans les mêmes lianes que le Kraal de Tranchebauge, les Souilles de Tranchebauge sont la capitale traditionnelle du peuple huran. Ce gigantesque labyrinthe d'épineux abrite une véritable armée de hurans loyaux ainsi que leurs grands prêtres : l'ordre de la Tête de Mort. Cependant, une ombre s'est récemment étendue sur leurs repaires sommaires. Des agents du Fléau – dirigés par la liche Amnennar le Porte-froid – ont pris le contrôle du peuple des hurans, et ont transformé le labyrinthe d'épineux en un bastion des morts-vivants.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9925": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9925",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Uldaman se trouve à l'extrémité nord des Terres ingrates.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9927": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9927",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Uldaman est l'ancien domaine des titans, enterré sous des tonnes de terre depuis la création du monde. Les fouilles menées par les nains dans cette cité ont récemment libéré les premières créations manquées des titans : les troggs. Selon les légendes, les titans estimèrent que l'expérience des troggs était un échec. Mais ils firent une nouvelle tentative, qui leur permit de créer la race des nains. Ces secrets sont inscrits sur les mythiques Disques de Norgannon – d'immenses artéfacts qui reposent dans les profondeurs de l'ancienne cité, protégés par des créatures géantes façonnées dans de la pierre vivante.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9929": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9929",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Les ruines de Zul'Farrak se situent dans le nord-ouest du désert de Tanaris.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9930": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9930",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Cette ville écrasée par le soleil est la demeure des trolls Sandfury, célèbres pour leur cruauté impitoyable et leur sombre mysticisme. Les légendes des trolls parlent d'une épée puissante appelée Sul'thraze la Flagellante, capable de provoquer la peur et d'affaiblir même les ennemis les plus puissants. En de temps lointains, l'arme fut brisée en deux. Des rumeurs affirment que les deux moitiés de cette épée fabuleuse se trouveraient quelque part derrière les murs de Zul'Farrak.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9932": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9932",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Maraudon se trouve au milieu de la côte ouest de Désolace, dans la Vallée des Lances.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9933": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9933",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Maraudon est l'un des sites les plus sacrés de Désolace. Ce grand temple/caverne est le lieu de sépulture de Zaetar, l'un des deux fils immortels du demi-dieu Cénarius. La légende affirme que Zaetar et la princesse des élémentaires de la terre Theradras engendrèrent la race bâtarde des centaures. On dit qu'après leur naissance, les centaures barbares se retournèrent contre leur père et le tuèrent. Certains pensent que Theradras, rendue folle par le chagrin, emprisonna l'esprit de Zaetar dans la caverne labyrinthique, pour utiliser son énergie dans un noir dessein…",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9935": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9935",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Le Temple englouti se trouve au centre d'un grand lac dans l'est du marais des Chagrins.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9936": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9936",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Il y a plus d'un millier d'années, un groupe de prêtres trolls appelés les Atal'ai tenta de faire revenir un ancien dieu sanguinaire nommé Hakkar, l'Écorcheur des âmes. Durant la guerre civile qui s'ensuivit, les prêtres furent vaincus et exilés dans le marais des Chagrins. C'est là qu'ils érigèrent un temple voué à Hakkar, pour préparer son arrivée sur le monde matériel. L'Aspect dragon Ysera eut bientôt connaissance de leurs plans et engloutit le temple dans les marais. Jusqu'à aujourd'hui, les ruines du temple sont gardées par de puissants dragons verts.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9938": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9938",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Le mont Blackrock se trouve entre la gorge des Vents brûlants au nord et les Steppes ardentes au sud.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9939": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9939",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Ancienne capitale des nains Sombrefer, ce labyrinthe volcanique est aujourd'hui le siège du pouvoir de Ragnaros, le seigneur du Feu. Ragnaros a découvert le secret permettant de créer la vie à partir de la pierre, et a l'intention de construire une armée de golems invincibles pour conquérir le mont Blackrock. Obsédé par sa volonté de vaincre Nefarian et ses séides draconiques, Ragnaros ne reculera devant rien pour obtenir la victoire finale.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9941": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9941",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "La puissante forteresse creusée dans les entrailles brûlantes du mont Blackrock était en possession des sinistres nains Sombrefer depuis des siècles, quand Nefarian, le fils rusé du dragon Aile de mort, s'empara de la zone supérieure du pic. Il fit alors la guerre aux nains dans les profondeurs volcaniques de la montagne. Comprenant que les nains étaient dirigés par le puissant élémentaire du feu Ragnaros, Nefarian fit le vœu d'écraser ses ennemis et de s'emparer de la totalité du mont Blackrock.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9943": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9943",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Les ruines de Hache-Tripes se trouvent au centre de Féralas.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9944": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9944",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Construite il y a douze mille ans par un ordre secret de sorciers elfes de la nuit, l'antique cité d'Eldre'Thalas protégeait les plus précieux secrets arcaniques de la reine Azshara. Elle fut ravagée par la Grande Fracture, mais la plus grande partie de ses merveilleux bâtiments survécut. Les trois quartiers distincts des ruines ont été envahis par toutes sortes de créatures, dont des Biens-nés spectraux, des satyres répugnants et des ogres brutaux, ce qui valut un nouveau nom à la cité : Hache-Tripes !",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9946": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9946",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "L'école de nécromancie connue sous le nom de Scholomance se trouve sur l'île ravagée de Caer Darrow dans les Maleterres de l'Ouest.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9947": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9947",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "La Scholomance se trouve dans les cryptes du donjon de Caer Darrow. Appartenant autrefois à la noble famille Barov, le donjon est tombé en ruines après la Deuxième guerre. Quand le sorcier Kel'Thuzad recrutait des fidèles pour son culte des damnés, il promettait souvent l'immortalité à ceux qui servaient son roi-liche. Les Barov tombèrent sous son influence et lui offrirent leur donjon, mais les sectateurs tuèrent la famille et transformèrent les cryptes en une école de nécromancie. Bien que Kel'Thuzad n'habite plus ici, les sectateurs et les instructeurs du culte y vivent encore…",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9949": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9949",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "La ville ravagée de Stratholme se trouve dans les Maleterres de l'est au nord de Pestebois.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9950": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9950",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Autrefois joyau de la région nord du Lordaeron, la cité de Stratholme est l'endroit où le prince Arthas se retourna contre son mentor, Uther Lightbringer, et massacra des centaines de ses propres sujets qu'il croyait contaminés par la peste des morts-vivants. La soumission d'Arthas au roi-liche suivit peu de temps après. La cité brisée est maintenant habitée par les morts-vivants du Fléau, dirigés par la puissante liche Kel'Thuzad et un contingent des Croisés écarlates commandé par le Grand croisé Dathrohan. Les deux camps s'affrontent dans un combat violent et permanent.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9952": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9952",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Les Mortemines se trouvent au-dessous de Ruisselune dans le sud de la marche de l'Ouest.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9954": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9954",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "La prison de Stormwind se trouve près du quartier des mages, à Stormwind.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_9955": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "9955",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "La prison de Stormwind est un complexe pénitentiaire de haute sécurité, construit sous le quartier des canaux de la ville. Dirigée par le gardien Thelwater, elle abrite de petits escrocs, des prisonniers politiques, des meurtriers et une vingtaine des criminels les plus dangereux du pays. Récemment, une révolte de détenus a semé le chaos dans la prison, d'où les gardiens ont été chassés et où les condamnés circulent en toute liberté.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_11822": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "11822",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Moi non, mais beaucoup de gens cherchent l’amour. Vous devriez mettre un peu de parfum ou d’eau de Cologne, acheter mes gages d’amour, et les faire circuler !",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_11826": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "11826",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Les gages d’amour sont de petits messages d’affection que vous pouvez donner aux habitants des villes et des capitales qui ont le cœur à l’amour. En échange, elles vous offriront un cadeau d’adoration.\n\nSi vous êtes déjà <adoré/adorée> par quelqu’un d’autre, elles vous remettront au moins un cadeau d’amitié.",
+   "gendered": true,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_11827": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "11827",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Si vous mettez de l’eau de Cologne ou du parfum, vous verrez qui a le cœur à l’amour. Tous acceptent les gages d’amour… et vous offrent un don en échange.\n\nAttention, pour donner un gage d’amour à quelqu’un, vous devez avoir la bonne odeur. Les hommes aiment l’odeur du parfum, et les femmes celles de l’eau de Cologne.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_11829": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "11829",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Quand vous donnez des gages d'amour aux habitants des villes, vous recevez différents cadeaux en retour. Vous pouvez en garder ou en utiliser certains, mais vous pouvez aussi en faire des assortiments que vous donnerez à votre héros préféré !\n\nAllez voir Kalin Colportecoeur pour donner vos cadeaux.\n\nVous pourrez trouver Kalin près de Bolvar, Magni et Tyrande.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "6791_11870": {
+   "kind": "dialogue",
+   "npc_id": 6791,
+   "npc_name": "Wiley l'aubergiste",
+   "page": "11870",
+   "first": false,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Quand vous donnez des gages d'amour aux habitants des villes, vous recevez différents cadeaux en retour. Vous pouvez en garder ou en utiliser certains, mais vous pouvez aussi en faire des assortiments que vous donnerez à votre héros préféré !\n\nAllez voir Kalin Colportecoeur pour donner vos cadeaux.\n\nVous pourrez trouver Kalin près de Cairne, Sylvanas et Thrall.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "7166_3148": {
+   "kind": "dialogue",
+   "npc_id": 7166,
+   "npc_name": "Appareil bidulotronique de Wrenix",
+   "page": "3148",
+   "first": true,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "La machine prend vie lorsque vous la touchez.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "9558_4959": {
+   "kind": "dialogue",
+   "npc_id": 9558,
+   "npc_name": "Grimble",
+   "page": "4959",
+   "first": true,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Vous semblez avoir besoin de traverser la Grande mer. Vous êtes au bon endroit. Voici le mouillage du Caprice de la vierge, le meilleur transport de passagers qu'on puisse voir sur ces eaux. Quand elle arrivera, montez à bord. En un rien de temps, vous serez sur les plages sablonneuses de Strangleronce.",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "16227_10753": {
+   "kind": "dialogue",
+   "npc_id": 16227,
+   "npc_name": "Bragok",
+   "page": "10753",
+   "first": true,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Où voulez-vous aller ?",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T11:40:25"
+   }
+  },
+  "16418_12344": {
+   "kind": "dialogue",
+   "npc_id": 16418,
+   "npc_name": "Mupsi Shacklefridd",
+   "page": "12344",
+   "first": true,
+   "quests": [],
+   "source": "foreverdb",
+   "text": "Vous feriez bien d'éviter de jouer les fauteurs de troubles!",
+   "gendered": false,
+   "stage_directions": [],
+   "generator": {
+    "version": "narration-1",
+    "at": "2026-10-10T10:28:35"
+   }
+  }
+ }
+}

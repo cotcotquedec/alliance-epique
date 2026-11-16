@@ -1,0 +1,1179 @@
+{
+ "schema": 1,
+ "zone": "eastern-kingdoms/alterac-mountains",
+ "zone_id": 36,
+ "zone_name": "Montagnes d'Alterac",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 22,
+  "complete": 14,
+  "incomplete": 8,
+  "unavailable": 0,
+  "missing_description": 8,
+  "missing_giver": 1,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "500": {
+   "id": 500,
+   "name": "La prime Cassecrête",
+   "objectives": "Collecter 9 Articulations sales d'ogres Cassecrête dans les montagnes d'Alterac. Les apporter au maréchal Redpath à Southshore.",
+   "description": "Les ogres Cassecrête ont installé un repaire dans les montagnes d'Alterac, près des ruines d'Alterac. Mes éclaireurs m'ont appris qu'ils occupaient également ces ruines.\n\nNous ne pouvons pas les laisser s'installer tranquillement là-bas. S'ils commencent à se sentir en sécurité là où ils sont, ils ne tarderont pas à faire mouvement dans les collines. Ils seront alors à nos portes !\n\nPartez au nord dans les montagnes d'Alterac et chassez des ogres. Rapportez-moi leurs Articulations sales, je vous en donnerai une belle prime.",
+   "progress": "<nom>, toujours en chasse ? Avez-vous ces Articulations que je vous avais demandées ?",
+   "completion": "Parfait, <nom>. Vous avez dû hacher quantité d'ogres pour avoir toutes ces Articulations.\n\nCela devrait les tenir en respect, au moins pour quelque temps.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2263,
+     "name": "Maréchal Redpath"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2263,
+     "name": "Maréchal Redpath"
+    }
+   ],
+   "zone_id": 36,
+   "level": 36,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3500,
+   "money": 7500,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "504": {
+   "id": 504,
+   "name": "Les Combattants Cassecrête",
+   "objectives": "Tuer 15 Combattants Cassecrête, puis retourner voir le maréchal Redpath à Southshore.",
+   "description": "Maintenant que vous avez eu un avant-goût des ogres Cassecrête, je veux que vous leur rentriez dedans franchement...\n\nAllez dans les ruines d'Alterac et débusquez des Combattants Cassecrête. Je veux que vous en fauchiez le plus possible : c'est la seule façon de faire comprendre à ces brutes qu'il faut garder leurs distances avec le territoire de l'Alliance.",
+   "progress": "Vous avez d'autres bellicistes à abattre, <nom>. Vous devriez être dans les montagnes pour accomplir votre tâche, pas ici avec votre arme rangée.",
+   "completion": "Très bien ! Voilà votre récompense.\n\nAu fait, lorsque vous chassiez ces Combattants, avez-vous vu à quoi ressemblait la ville d’Alterac ? Je parierais qu'elle est dans un triste état. Les ogres ne sont pas connus pour leur délicatesse.\n\nHeureusement, vos efforts les tiendront à présent éloignés de Southshore.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2263,
+     "name": "Maréchal Redpath"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2263,
+     "name": "Maréchal Redpath"
+    }
+   ],
+   "zone_id": 36,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 4700,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "505": {
+   "id": 505,
+   "name": "Syndicat d'assassins",
+   "objectives": "Tuer 12 Détrousseurs du Syndicat et 8 Larrons du Syndicat puis retourner voir le magistrat Henry Maleb à Southshore.",
+   "description": "Je suis le nouveau Magistrat de Southshore, assigné ici suite à l'assassinat du précédent Magistrat. Les tueurs n’ont jamais été retrouvés, mais nos investigations nous ont permis de conclure qu'ils avaient été engagés par le Syndicat, un groupe de voleurs commandé par les nobles du royaume déchu d'Alterac.\n\nLe Syndicat a un camp au nord de Moulin-de-Tarren, occupé par la Horde. D'après nos derniers indices les pistes convergent toutes vers ce camp. Exécutez les membres du Syndicat que vous trouverez là-bas.",
+   "progress": "Vous avez tué ces voyous du Syndicat, j'espère ?",
+   "completion": "Merci, <nom>. Bien qu'il doive en rester quelques-uns, nous espérons que les assassins de mon prédécesseur comptaient parmi les voleurs et les détrousseurs que vous avez exécutés. De toute façon, le Syndicat est une insulte sur ces terres et une tache qui souille la race humaine.\n\nLeur mort ne peut que profiter à Southshore.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2276,
+     "name": "Magistrat Henry Maleb"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2276,
+     "name": "Magistrat Henry Maleb"
+    }
+   ],
+   "zone_id": 36,
+   "level": 33,
+   "reqlevel": 26,
+   "side": "alliance",
+   "xp": 1950,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "510": {
+   "id": 510,
+   "name": "Documents d'annonce d'attaque",
+   "objectives": "Apporter les Documents d'annonce d'attaque au Magistrat Maleb à Southshore.",
+   "description": "Parmi ces documents se trouve une liste des marchandises commandées. Elle contient des requêtes ordinaires (nourriture, armes, vêtements), mais aussi des demandes moins conventionnelles (masques, huile, poison).\n\nMais ce qu'il y a de plus remarquable est le caractère urgent de la commande. Ces marchandises étaient nécessaires à l'exécution de ce qui est décrit dans le document comme une \"mission importante contre Southshore\", et l'on en avait besoin rapidement.",
+   "progress": "<nom>, vous paraissez anxieux. Avez-vous quelque chose à m'annoncer ?",
+   "completion": "<Maleb parcourt les documents. >\n\nTout cela est inquiétant, <nom>. D'après les informations contenues dans ces documents, et d'après les actions menées dans le passé par le Syndicat, nous devons considérer comme acquis qu'une bande de coupe-gorge a déclaré la guerre à Southshore.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 1738,
+     "name": "Syndicate Documents"
+    },
+    {
+     "type": "object",
+     "id": 1739,
+     "name": "Syndicate Documents"
+    },
+    {
+     "type": "object",
+     "id": 1740,
+     "name": "Syndicate Documents"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2276,
+     "name": "Magistrat Henry Maleb"
+    }
+   ],
+   "zone_id": 36,
+   "level": 34,
+   "reqlevel": 26,
+   "side": "alliance",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "511": {
+   "id": 511,
+   "name": "Lettre codée",
+   "objectives": "Apporter la Lettre codée au Maître des traditions Dibbs, à Southshore.",
+   "description": "L'une des lettres, sur la table, est codée et ne peut être déchiffrée.",
+   "progress": "Oui, Monsieur ? Que puis-je faire pour vous ?",
+   "completion": "Qu'est-ce donc ? Attendez un instant… laissez-moi y regarder de plus près.\n\n…\n\nHum ! Je n'ai jamais rencontré ce type de code auparavant, mais je n'ai pas la prétention de tout connaître dans ce domaine.",
+   "starters": [
+    {
+     "type": "object",
+     "id": 1738,
+     "name": "Syndicate Documents"
+    },
+    {
+     "type": "object",
+     "id": 1739,
+     "name": "Syndicate Documents"
+    },
+    {
+     "type": "object",
+     "id": 1740,
+     "name": "Syndicate Documents"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2277,
+     "name": "Maître des traditions Dibbs"
+    }
+   ],
+   "zone_id": 36,
+   "level": 34,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "512": {
+   "id": 512,
+   "name": "Nobles morts",
+   "objectives": "Apporter 7 Chevalières d'Alterac au Magistrat Maleb à Southshore.",
+   "description": "J'ai peur que les dirigeants du Syndicat ne veuillent à tout prix la ruine de Southshore. Nous devons porter un coup décisif à ses chefs avant que leurs plans n'aboutissent.\n\nPartez pour les Ruines de Strahnbrad, dans les monts Alterac au nord. Nous pensons que le Syndicat a établi son quartier général dans cette région.\n\nNous savons que ce gang de brigands reçoit ses ordres d'anciens nobles d'Alterac. Il se peut qu'ils se camouflent parmi les agents ordinaires du Syndicat, mais vous saurez que vous avez tué un noble à la chevalière qu'il porte.\n\nApportez-moi ces chevalières.",
+   "progress": "Alors, avez-vous attaqué le Syndicat ? Avez-vous ces bagues ?",
+   "completion": "Priver le Syndicat de ses nobles lui ôtera toute capacité à décider efficacement, et le réduira à rien de plus qu'un ramassis de vulgaires voyous.\n\nVous avez servi l'Alliance avec brio, <nom>.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2276,
+     "name": "Magistrat Henry Maleb"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2276,
+     "name": "Magistrat Henry Maleb"
+    }
+   ],
+   "zone_id": 36,
+   "level": 36,
+   "reqlevel": 26,
+   "side": "alliance",
+   "xp": 2800,
+   "money": 4000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "514": {
+   "id": 514,
+   "name": "Le maître des lettres",
+   "objectives": "Apporter la Lettre ingénieusement codée au Prospecteur Stormpike à Ironforge.",
+   "description": "J'ai un collègue à Ironforge qui pourrait peut-être décoder cette lettre. Rendez-vous à la bibliothèque du Hall des Explorateurs à Ironforge et parlez au Prospecteur Stormpike. Dites-lui que je vous envoie et montrez-lui la lettre. S'il y a une personne au nord du pic Blackrock à pouvoir lire cela, c'est bien lui.",
+   "progress": "Ainsi, c'est Dibbs de Southshore qui vous envoie ! Comment se porte donc ce vieux rat de bibliothèque ?",
+   "completion": "Ah ! le codage. L'une de mes spécialités. Laissez-moi voir…",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2277,
+     "name": "Maître des traditions Dibbs"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1356,
+     "name": "Prospecteur Stormpike"
+    }
+   ],
+   "zone_id": 36,
+   "level": 34,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "522": {
+   "id": 522,
+   "name": "Contrat de l'assassin",
+   "objectives": "Apporter le Contrat de l'assassin au Magistrat Maleb à Southshore.",
+   "description": "Ceci est un contrat pour l'assassinat du Magistrat Henry Maleb. L'ordre a été scellé à la cire rouge, à l'aide d'une chevalière caractéristique.",
+   "progress": "Vous semblez à bout de souffle. Avez-vous une information à me donner ?",
+   "completion": "<Maleb inspecte le contrat. >\n\nCela explique la dernière attaque sur Southshore. Le Syndicat doit vouloir m'abattre, tout comme il voulait abattre le dernier magistrat.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 3668,
+     "name": "Assassin's Contract"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2276,
+     "name": "Magistrat Henry Maleb"
+    }
+   ],
+   "zone_id": 36,
+   "level": 38,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 710,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "523": {
+   "id": 523,
+   "name": "La mort du baron Vardus",
+   "objectives": "Apporter la tête du baron Vardus au Magistrat Maleb à Southshore.",
+   "description": "Le contrat que vous avez trouvé est signé par le baron Vardus, un noble de l'ancien royaume d'Alterac, réputé pour son cœur de pierre et ses pratiques barbares. Je ne suis pas surpris que quelqu'un comme le baron soit derrière tout ça.\n\nTrouvez cet homme. Trouvez-le, et amenez-le devant la justice. Il doit être avec l'élite du Syndicat. Peut-être aux Ruines de Strahnbrad, ou dans la vallée qui est au nord.",
+   "progress": "Le baron Vardus ne doit pas croire que Southshore lui permet d'envoyer impunément ses tueurs. Je veux sa tête !",
+   "completion": "Merci, <nom>. Ma tête repose un peu plus facilement, maintenant que ce scélérat a perdu la sienne.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2276,
+     "name": "Magistrat Henry Maleb"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2276,
+     "name": "Magistrat Henry Maleb"
+    }
+   ],
+   "zone_id": 36,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3900,
+   "money": 10000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "525": {
+   "id": 525,
+   "name": "D'autres mystères",
+   "objectives": "Apporter la Lettre décodée au Magistrat Maleb, à Southshore.",
+   "description": "J'ai déchiffré la lettre, mais je ne sais pas quoi en faire. Vous l'avez trouvée chez des voleurs dans les collines d'Alterac ? C'est étrange…\n\nVous devriez la montrer au Magistrat de Southshore. Bien que cette lettre soit sibylline, Southshore est la ville la plus proche d'Alterac. Si un danger menace, alors il doit savoir.",
+   "progress": "<nom>. Avez-vous de nouveau voyagé à travers les collines et les montagnes ? Quelles nouvelles m'apportez-vous ?",
+   "completion": "<Maleb lit la lettre. >\n\nC’est la traduction d'une lettre trouvée dans un camp du Syndicat ? Elle n'a pas été écrite par un voleur, ni par un noble d'Alterac.\n\nIl apparaît que le Syndicat s'est allié à un autre pouvoir, et je frémis à l'idée de ce qu'il pourrait être.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 1356,
+     "name": "Prospecteur Stormpike"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2276,
+     "name": "Magistrat Henry Maleb"
+    }
+   ],
+   "zone_id": 36,
+   "level": 34,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 1350,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "535": {
+   "id": 535,
+   "name": "Valik",
+   "objectives": "Apporter une Chope de bière de Southshore à Valik, au Camp du Syndicat.",
+   "description": "Eurrgh… Blessé et mourant, me voilà en face de l'ennemi.\n\nVous me tuerez de toute façon, mais si vous m'apportez de la bière de Southshore... Vous autres ne buvez pas, n'est-ce pas ? Je vous dirai ce que vous voulez savoir.",
+   "progress": "M'avez-vous apporté quelque chose à boire ou êtes-vous venu achever le travail ?",
+   "completion": "Compte tenu de ma mort imminente, je crois pouvoir dire sans me tromper que c'est la meilleure chose à laquelle j'ai goûtée… Tenez, prenez ça, ça ne me servira pas à grand-chose quand je serai mort.\n\nEh bien ! allez-y.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2333,
+     "name": "Valik le malfrat"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2333,
+     "name": "Valik le malfrat"
+    }
+   ],
+   "zone_id": 36,
+   "level": 34,
+   "reqlevel": 29,
+   "side": "horde",
+   "xp": 270,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "537": {
+   "id": 537,
+   "name": "Le conseil noir",
+   "objectives": "Tuer 4 Mages de l'ombre d'Argus.\n\nApporter la Tête de Nagaz au Magistrat Maleb à Southshore.",
+   "description": "La lettre que vous m'avez apportée a été écrite par un être qui se nomme lui-même Nagaz, un membre de la Veille d'Argus. Je ne sais pas ce qu'est cette Veille d'Argus, mais si elle est alliée au Syndicat, alors elle constitue une menace.\n\nJe veux que vous trouviez Nagaz et les Mages de l'ombre d'Argus mentionnés dans cette lettre. Je veux que vous les trouviez et que vous les tuiez.\n\nCherchez dans les Hauteurs, là où le Syndicat est le plus fort.\n\nAvec un peu de chance, vous y trouverez ces représentants de la Veille d'Argus.",
+   "progress": "Avez-vous découvert les représentants de la Veille d'Argus ?",
+   "completion": "Bon travail, <nom>. Nous ne voudrions pas d’un groupe comme la Veille d'Argus à la tête du Syndicat.\n\nEt bien que vous ayez tué leur chef, Nagaz n'était que le serviteur d'un autre. Il se peut que la Veille d'Argus soit profondément implantée sur le continent d'Azeroth.\n\nOu bien même sur le monde entier.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2276,
+     "name": "Magistrat Henry Maleb"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2276,
+     "name": "Magistrat Henry Maleb"
+    }
+   ],
+   "zone_id": 36,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 3150,
+   "money": 5000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "551": {
+   "id": 551,
+   "name": "Le Parchemin ensorcelé",
+   "objectives": "Apporter le Parchemin ensorcelé à l'Erudit Dibbs à Southshore.",
+   "description": "Ce parchemin est sous l’effet d’un sort qui le rend indéchiffrable. Mais un mot peut être lu, en haut du papier :\n\nNagaz",
+   "progress": "Oh ! vous avez quelque chose à me montrer ? Quelques fragments de connaissance trouvés dans la montagne, j'espère…",
+   "completion": "Encore du texte codé ? J'aimerais avoir les talents nécessaires pour déchiffrer tous les étranges petits morceaux d'écriture. Mais j'ai bien peur de ne pas avoir cette connaissance.",
+   "starters": [
+    {
+     "type": "item",
+     "id": 3706,
+     "name": "Ensorcelled Parchment"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2277,
+     "name": "Maître des traditions Dibbs"
+    }
+   ],
+   "zone_id": 36,
+   "level": 40,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": 780,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "554": {
+   "id": 554,
+   "name": "Stormpike décode",
+   "objectives": "Apporter le Parchemin ensorcelé au Prospecteur Stormpike à Ironforge.",
+   "description": "Le Prospecteur Stormpike est un maître du décodage. Si vous lui amenez le parchemin que vous avez trouvé, alors, avec un peu de chance, il peut en saisir la signification. Stormpike étudie en ce moment aux quartiers généraux des Prospecteurs à Ironforge.\n\nEt quand vous le verrez dites-lui que vous m'avez parlé. Je lui ai envoyé beaucoup de choses dernièrement.",
+   "progress": "Encore des interruptions ?\n\nHa, il y a sur ce parchemin un sort élaboré avec finesse et extrêmement complexe. Je peux le comprendre, évidemment, mais cela va me prendre du temps. Et le temps m'est très précieux. . .\n\nPeut-être puis-je tout simplement vous l'acheter ?",
+   "completion": "Une sage décision. Je ne pense pas qu'il y ait d'autres érudits qui puissent traduire ce parchemin. Et s'il contient quelque chose d'intéressant, ne vous inquiétez pas, je vous tiendrai au courant.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2277,
+     "name": "Maître des traditions Dibbs"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 1356,
+     "name": "Prospecteur Stormpike"
+    }
+   ],
+   "zone_id": 36,
+   "level": 40,
+   "reqlevel": 28,
+   "side": "alliance",
+   "xp": 1550,
+   "money": 5000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "92432": {
+   "id": 92432,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 247264,
+     "name": "Emissary Jacques"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 269127,
+     "name": "Image of Archmage Modera"
+    }
+   ],
+   "zone_id": 36,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "92434": {
+   "id": 92434,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2410,
+     "name": "Magus Wordeen Voidglare"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 269127,
+     "name": "Image of Archmage Modera"
+    }
+   ],
+   "zone_id": 36,
+   "level": 34,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "92459": {
+   "id": 92459,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 269127,
+     "name": "Image of Archmage Modera"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 252085,
+     "name": "Archmage Celindra"
+    }
+   ],
+   "zone_id": 36,
+   "level": 33,
+   "reqlevel": 24,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "93680": {
+   "id": 93680,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2410,
+     "name": "Magus Wordeen Voidglare"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2410,
+     "name": "Magus Wordeen Voidglare"
+    }
+   ],
+   "zone_id": 36,
+   "level": 33,
+   "reqlevel": 30,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "95534": {
+   "id": 95534,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 2402,
+     "name": "Shara Blazen"
+    }
+   ],
+   "zone_id": 36,
+   "level": 36,
+   "reqlevel": 25,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description",
+    "giver"
+   ],
+   "status": "incomplete"
+  },
+  "97287": {
+   "id": 97287,
+   "name": null,
+   "objectives": null,
+   "description": null,
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 2410,
+     "name": "Magus Wordeen Voidglare"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 252085,
+     "name": "Archmage Celindra"
+    }
+   ],
+   "zone_id": 36,
+   "level": 33,
+   "reqlevel": 24,
+   "side": "horde",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {},
+    "origins": {}
+   },
+   "missing": [
+    "name",
+    "objectives",
+    "description"
+   ],
+   "status": "incomplete"
+  },
+  "99191": {
+   "id": 99191,
+   "name": null,
+   "objectives": null,
+   "description": "Lors de l'achèvement de cette quête vous gagnerez :\n\n150 points de réputation avec Ordre suprême\n\nVérifiez si vous l'avez déjà terminé en tapant :",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 276170,
+     "name": "Belanaa Windveil"
+    }
+   ],
+   "enders": [],
+   "zone_id": 36,
+   "level": 60,
+   "reqlevel": 12,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name",
+    "objectives"
+   ],
+   "status": "incomplete"
+  },
+  "99192": {
+   "id": 99192,
+   "name": null,
+   "objectives": null,
+   "description": "Lors de l'achèvement de cette quête vous gagnerez :\n\n150 points de réputation avec Ordre suprême\n\nVérifiez si vous l'avez déjà terminé en tapant :",
+   "progress": null,
+   "completion": null,
+   "starters": [
+    {
+     "type": "npc",
+     "id": 276170,
+     "name": "Belanaa Windveil"
+    }
+   ],
+   "enders": [],
+   "zone_id": 36,
+   "level": 60,
+   "reqlevel": 26,
+   "side": "alliance",
+   "xp": null,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "description": "wowdata"
+    },
+    "origins": {
+     "description": "wowdata"
+    },
+    "wowdata": "db-1ef9f3cb9a92"
+   },
+   "missing": [
+    "name",
+    "objectives"
+   ],
+   "status": "incomplete"
+  }
+ }
+}

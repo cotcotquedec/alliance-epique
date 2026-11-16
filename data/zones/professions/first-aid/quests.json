@@ -1,0 +1,242 @@
+{
+ "schema": 1,
+ "zone": "professions/first-aid",
+ "zone_id": -324,
+ "zone_name": "Premiers soins",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 4,
+  "complete": 4,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "6622": {
+   "id": 6622,
+   "name": "Triage",
+   "objectives": "Sauver des patients en utilisant des Bandages de Triage, afin de panser leurs blessures. Vous devez sauver 15 patients avant que 6 d’entre eux ne meurent de leurs blessures.\n\nRappelez-vous l’ordre du triage ! Les Soldats agonisants meurent les premiers, suivis des Soldats grièvement blessés. Les Soldats blessés sont ceux qui meurent les derniers, et ils doivent être soignés APRES ceux qui agonisent et ceux qui sont grièvement blessés ; selon le tri que vous avez fait.",
+   "description": "Bonjour, docteur. Cet après-midi, nous allons tester votre capacité à trier les patients en fonction de l'urgence de leur état. Si vous réussissez votre examen, vous rejoindrez les rangs prestigieux de la Horde Trauma.\n\nBien, maintenant, attention ! Le blessé le plus critique doit être soigné d'abord. Ensuite, ceux qui sont gravement blessés. Les blessés légers passent en dernier. Vous devez sauver 15 patients pour réussir cet examen. Vous échouez si 6 d’entre eux meurent pendant le tri.\n\nIl vous sera fourni des bandages de triage.\n\nBonne chance, docteur.",
+   "progress": "Un travail miraculeux, docteur. Tout simplement miraculeux.",
+   "completion": "Docteur <nom>, bienvenue parmi les médecins de la Horde.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 12920,
+     "name": "Docteur Gregory Victor"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12920,
+     "name": "Docteur Gregory Victor"
+    }
+   ],
+   "zone_id": -324,
+   "level": 45,
+   "reqlevel": 35,
+   "side": "horde",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6623": {
+   "id": 6623,
+   "name": "Service de traumatologie de la Horde",
+   "objectives": "Aller au Trépas-d'Orgrim, dans les hautes-terres d'Arathi, et évoquer avec le docteur Gregory Victor la possibilité de rejoindre les rangs des médecins de la Horde.",
+   "description": "Docteur <nom>, je suppose. C'est un plaisir de vous revoir.\n\nJ'ai de merveilleuses nouvelles pour vous : le docteur Gregory Victor, médecin-chef de la Horde, veut que vous alliez le retrouver au Trépas-d'Orgrim. Ceci pourrait bien être une occasion unique ! Je donnerais n'importe quoi pour avoir la chance d'étudier avec le grand docteur Gregory Victor ! Ne gâchez pas cette occasion, elle ne se représentera peut-être plus jamais !",
+   "progress": null,
+   "completion": "Merveilleux. préparez-vous, nous devons commencer immédiatement !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 3373,
+     "name": "Arnok"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12920,
+     "name": "Docteur Gregory Victor"
+    }
+   ],
+   "zone_id": -324,
+   "level": 45,
+   "reqlevel": 35,
+   "side": "horde",
+   "xp": 970,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6624": {
+   "id": 6624,
+   "name": "Triage",
+   "objectives": "Sauver des patients en utilisant des Bandages de Triage, afin de panser leurs blessures. Vous devez sauver 15 patients avant que 6 d’entre eux ne meurent de leurs blessures.\n\nRappelez-vous l’ordre du triage ! Les Soldats agonisants meurent les premiers, suivis des Soldats grièvement blessés. Les Soldats blessés sont ceux qui meurent les derniers, et ils doivent être soignés APRES ceux qui agonisent et ceux qui sont grièvement blessés ; selon le tri que vous avez fait.",
+   "description": "Bonjour, docteur. Vous subirez un test quant à votre compétence de diagnostic et de triage des patients, cet après-midi. Si vous réussissez cette épreuve, vous rejoindrez les rangs des médecins de l'Alliance.\n\nMaintenant, faites bien attention : ceux qui agonisent doivent être soignés en premier. Ensuite, viennent ceux qui ont été grièvement blessés. Les blessés seront, quant à eux, les derniers à recevoir des soins. Vous devez sauver 15 patients pour réussir l'examen. Si plus de 5 patients meurent pendant le triage, vous aurez échoué votre examen.\n\nBonne chance, docteur.",
+   "progress": "Un travail miraculeux, docteur. Tout simplement miraculeux.",
+   "completion": "Docteur <nom>, bienvenue dans les rangs des médecins de l'Alliance.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 12939,
+     "name": "Docteur Gustaf VanHowzen"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12939,
+     "name": "Docteur Gustaf VanHowzen"
+    }
+   ],
+   "zone_id": -324,
+   "level": 45,
+   "reqlevel": 35,
+   "side": "alliance",
+   "xp": 3900,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "6625": {
+   "id": 6625,
+   "name": "Service de traumatologie de l'Alliance",
+   "objectives": "Aller à Theramore, dans le marécage d'Âprefange, et parler au docteur Gustaf VanHowzen de la possibilité de rejoindre les rangs des médecins de l’Alliance.",
+   "description": "Docteur <nom>, je suppose. C'est un plaisir de vous revoir.\n\nJ'ai de merveilleuses nouvelles pour vous : Gustaf VanHowzen, médecin-chef de l'Alliance, veut que vous alliez le retrouver à Theramore. Ceci pourrait bien être une occasion unique ! Je donnerais n'importe quoi pour avoir la chance d'étudier sous l'enseignement du grand docteur Gustaf VanHowzen ! Ne gâchez pas cette occasion, elle ne se représentera peut-être plus jamais !",
+   "progress": null,
+   "completion": "Merveilleux. préparez-vous, nous devons commencer immédiatement !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 5150,
+     "name": "Nissa Firestone"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 12939,
+     "name": "Docteur Gustaf VanHowzen"
+    }
+   ],
+   "zone_id": -324,
+   "level": 45,
+   "reqlevel": 35,
+   "side": "alliance",
+   "xp": 970,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}

@@ -1,0 +1,194 @@
+{
+ "schema": 1,
+ "zone": "eastern-kingdoms/alterac-valley",
+ "zone_id": 2839,
+ "zone_name": "Vallée d'Alterac",
+ "updated_at": "2026-10-31T15:40:07",
+ "source": {
+  "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)"
+ },
+ "summary": {
+  "quests": 3,
+  "complete": 3,
+  "incomplete": 0,
+  "unavailable": 0,
+  "missing_description": 0,
+  "missing_giver": 0,
+  "new_in_forever": 0,
+  "gendered": 0
+ },
+ "quests": {
+  "8375": {
+   "id": 8375,
+   "name": "Souvenez-vous de la vallée d'Alterac !",
+   "objectives": "Apportez 3 Marques d'honneur de la vallée d'Alterac à un général de brigade de l'Alliance, devant les champs de bataille.",
+   "description": "Ne vous trompez pas, <nom>. La Horde a parfaitement raison quand elle dit que la vallée d’Alterac est un territoire loup-de-givre. Vous voyez, l’expédition Foudrepique est venue dans la région pour une visite pacifique, pour chercher du minerai et des reliques. Les Loups-de-givre ont réagi par l’acte d’agression le plus brutal et le plus barbare que l’Alliance ait jamais connu.\n\nN’oublions jamais les nains courageux qui ont péri dans cette attaque lâche et traîtresse. Allez, <classe>, faites votre part dans la bataille d’Alterac. Pour l’Alliance !",
+   "progress": "Quelles nouvelles m'apportez-vous, <nom> ?",
+   "completion": "Vous avez fait votre part, <nom>. L’Alliance ne peut pas laisser passer les actes de barbarie de la Horde sans réagir !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "zone_id": 2839,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 9950,
+   "money": 18000,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "classe",
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:questie",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8383": {
+   "id": 8383,
+   "name": "Souvenez-vous de la vallée d'Alterac !",
+   "objectives": "La bataille fait rage dans la vallée d'Alterac, <nom> ! Vous avez fait votre part, ces temps-ci, <nom> ?",
+   "description": "La bataille fait rage dans la vallée d'Alterac, <nom> ! Vous avez fait votre part, ces temps-ci, <nom> ?",
+   "progress": "La bataille de la vallée d'Alterac fait rage, <nom> ! Avez-vous fait votre part dernièrement, <nom> ?",
+   "completion": "Vous continuez à faire honneur à l’Alliance, <nom>. La Horde sera écrasée dans peu de temps si nous maintenons nos efforts.",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15351,
+     "name": "Général de brigade de l'Alliance"
+    }
+   ],
+   "zone_id": 2839,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "alliance",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  },
+  "8387": {
+   "id": 8387,
+   "name": "Les envahisseurs de la vallée d'Alterac",
+   "objectives": "La bataille pour Alterac fait rage ! Vous devez retourner à la vallée d'Alterac et repousser une fois encore les envahisseurs du territoire des Frostwolf, <nom> !",
+   "description": "La bataille pour Alterac fait rage ! Vous devez retourner à la vallée d'Alterac et repousser une fois encore les envahisseurs du territoire des Frostwolf, <nom> !",
+   "progress": "La bataille pour Alterac fait rage ! Vous devez retourner à la vallée d'Alterac et repousser une fois encore les envahisseurs du territoire des Frostwolf, <nom> !",
+   "completion": "Bon travail, <nom> ! Vous pouvez être fier de vous. Les envahisseurs de l'Alliance doivent être expulsés d'Alterac !",
+   "starters": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "enders": [
+    {
+     "type": "npc",
+     "id": 15350,
+     "name": "Porteguerre de la Horde"
+    }
+   ],
+   "zone_id": 2839,
+   "level": 60,
+   "reqlevel": 51,
+   "side": "horde",
+   "xp": 3300,
+   "money": null,
+   "forever": {
+    "status": null,
+    "patch": null
+   },
+   "placeholders": [
+    "nom"
+   ],
+   "not_french": [],
+   "wowhead": null,
+   "capture": null,
+   "source": {
+    "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
+    "texts": {
+     "name": "foreverdb",
+     "objectives": "foreverdb",
+     "description": "foreverdb",
+     "progress": "foreverdb",
+     "completion": "foreverdb"
+    },
+    "origins": {
+     "name": "foreverdb:questie",
+     "objectives": "foreverdb:vmangos",
+     "description": "foreverdb:vmangos",
+     "progress": "foreverdb:vmangos",
+     "completion": "foreverdb:vmangos"
+    }
+   },
+   "missing": [],
+   "status": "complete"
+  }
+ }
+}
