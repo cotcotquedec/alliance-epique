@@ -14,7 +14,9 @@ du PC reste [machines.md](machines.md), à lire d'abord.
   de plus (45 textes de début, 49 objectifs ; Les Paluns, Dalaran, site de fouilles des Paluns, Bois de la Pénombre…).
 - Textes de wow-data importés (`python -m pipeline.captures wowdata`, nouveau ; release `db-1ef9f3cb9a92`) : 677
   quêtes de plus (622 textes de début, 99 fins, 119 objectifs ; Fête lunaire, Gangrebois, Foire de Sombrelune,
-  Zul'Gurub, Tanaris, quêtes de classe…). Environ 720 lectures neuves et une cinquantaine de voix modèles.
+  Zul'Gurub, Tanaris, quêtes de classe…).
+- Au total, à produire ici : 72 voix modèles, 603 lectures de début, 153 de fin (puis les dialogues). Les 123
+  textes d'Elise (110 débuts, 13 fins) se font sur le Mac (ElevenLabs).
 - Fiches des PNJ : un bug de la boucle texte en avait créé 717 de trop (PNJ qui ne parlent pas) ; retirées, bug
   corrigé. Sans ce correctif, la boucle des voix aurait fait des centaines de voix inutiles.
 - Boucle texte relancée (`--reset-ratchet` : le cliquet datait du 2026-10-10) : fiches des PNJ qui n'en avaient pas,
