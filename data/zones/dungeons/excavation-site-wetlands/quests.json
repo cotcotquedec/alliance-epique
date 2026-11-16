@@ -280,9 +280,9 @@
   },
   "95682": {
    "id": 95682,
-   "name": null,
-   "objectives": null,
-   "description": null,
+   "name": "Gueule-de-bois",
+   "objectives": "Éliminez les forces des Gueules-de-dragon présentes sur le site de fouilles, puis retournez auprès de l’agent des nécrotraqueurs à l’extérieur et remettez-lui tout ce que vous aurez récupéré.",
+   "description": "Le clan Gueule-de-dragon… <Elle laisse échapper un petit rire sec et moqueur.>\n\nLes survivants de ce clan de dompteurs de dragons s’imaginent avoir mis la main sur quelque chose qui pourrait leur permettre de retrouver leur puissance d’antan. Mais aux yeux de qui, au juste… de leur faux chef de guerre ?\n\nDébarrassez les sites de fouilles de cette bande de va-nu-pieds afin que nos nécrotraqueurs puissent s’y faufiler sans se faire repérer.\n\nSi les Gueules-de-dragon ont quoi que ce soit d’intéressant sur eux, rapportez-le-moi. Cette affaire doit rester entre nous et le haut commandement.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -315,21 +315,26 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "origins": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "client_cache": 70938
    },
-   "missing": [
-    "name",
-    "objectives",
-    "description"
-   ],
-   "status": "incomplete"
+   "missing": [],
+   "status": "complete"
   },
   "95697": {
    "id": 95697,
-   "name": null,
-   "objectives": null,
-   "description": null,
+   "name": "Goûts changeants",
+   "objectives": "Pénétrez dans les excavations des Paluns et rapportez de la viande de raptor des fourrés.",
+   "description": "Zamja me dit qu’il nous faut davantage de cuisine familiale.\nSi nous mettons du raptor au menu, elle pense que ça attirera une clientèle qui ne fréquente pas d’ordinaire la Fosse à feu de Borstan.\n\nSon idée n’est pas mauvaise. Mais je veux quelque chose qui s’élève au-dessus des odeurs de nos villages natals. Nous sommes à Orgrimmar ! Borstan se doit de servir une version grandiose de leurs plats favoris.\n\nUn chasseur est récemment revenu des Paluns avec une griffe géante prélevée sur les raptors des fourrés, dans les excavations.\n\nVous êtes <partant/partante> pour une mission ?",
    "progress": null,
    "completion": null,
    "starters": [
@@ -356,27 +361,34 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "partant/partante"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "origins": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "client_cache": 70938
    },
-   "missing": [
-    "name",
-    "objectives",
-    "description"
-   ],
-   "status": "incomplete"
+   "missing": [],
+   "status": "complete"
   },
   "95737": {
    "id": 95737,
-   "name": null,
-   "objectives": null,
-   "description": null,
+   "name": "À la recherche de Caitlin",
+   "objectives": "Parlez à Caitlin Grassman au port de Menethil.",
+   "description": "De temps en temps, je correspond avec d’autres praticiens et praticiennes de mon métier : des herboristes ou des excentriques qui étudient les plantes rares et les étrangetés locales. Nous échangeons des découvertes et, parfois, des avertissements de ce qui nous attend plus loin.\n\nUne alchimiste des Paluns a écrit quelque chose sur une équipe d’excavation dont son mari faisait partie, chargée de dénicher des signes de l’existence d’une herbe primordiale depuis longtemps perdue… Mais elle n’a jamais parlé de son abondance ou de son accessibilité.\n\nSi vous le pouvez, allez voir Caitlin Grassman au port de Menethil.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -409,15 +421,20 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "origins": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "client_cache": 70938
    },
-   "missing": [
-    "name",
-    "objectives",
-    "description"
-   ],
-   "status": "incomplete"
+   "missing": [],
+   "status": "complete"
   },
   "95772": {
    "id": 95772,
@@ -665,9 +682,9 @@
   },
   "95810": {
    "id": 95810,
-   "name": null,
-   "objectives": null,
-   "description": null,
+   "name": "La relique égarée",
+   "objectives": "Apportez la relique des Titans au prospecteur Whelgar sur le site de fouilles des Paluns.",
+   "description": "Vous ramassez un fragment brisé de l’automate mécaroche. Sa texture ne ressemble à rien de ce que vous avez pu toucher jusqu’ici : un matériau composite dont la composition vous est totalement inconnue. Une chose est sûre, ce fragment tient davantage de la machine que du simple débris.\n\nLe prospecteur Whelgar, sur son site de fouilles, aura peut-être quelques lumières à vous apporter au sujet de cette relique.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -700,15 +717,20 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "origins": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "client_cache": 70938
    },
-   "missing": [
-    "name",
-    "objectives",
-    "description"
-   ],
-   "status": "incomplete"
+   "missing": [],
+   "status": "complete"
   },
   "98815": {
    "id": 98815,
@@ -798,9 +820,9 @@
   },
   "98823": {
    "id": 98823,
-   "name": null,
-   "objectives": null,
-   "description": null,
+   "name": "Écho terrestre",
+   "objectives": "Apportez la relique des Titans à Muln Rageterre, sur le plateau de Guette-ciel au nord-ouest de Mulgore.",
+   "description": "Voilà un objet réellement fascinant.\n\nIl semble s’agir de bien plus qu’une simple sculpture.\n\nNos anciens souhaiteront peut-être jeter un œil à cet artéfact, mais personne ne connaît mieux nos ruines enfuies et nos terres oubliées que le Cercle terrestre. Allez voir Muln Rageterre. Une approche directe serait appropriée pour un objet d’une telle importance.\n\nVous le trouverez ainsi que d’autres membres du conseil des anciens du Cercle terrestre sur le plateau de Guette-ciel, en Mulgore.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -833,21 +855,26 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "origins": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "client_cache": 70938
    },
-   "missing": [
-    "name",
-    "objectives",
-    "description"
-   ],
-   "status": "incomplete"
+   "missing": [],
+   "status": "complete"
   },
   "98824": {
    "id": 98824,
-   "name": null,
-   "objectives": null,
-   "description": null,
+   "name": "Prisme préhistorique",
+   "objectives": "Apportez la relique des Titans au Grand Explorateur Magellas, dans le hall des Explorateurs de Forgefer.",
+   "description": "Avec ces faces recouvertes d’inscriptions évoquant les Titans, cet objet mérite bien sa place dans le hall des Explorateurs de Forgefer.\n\nJ’aime à croire que vous serez <mentionné/mentionnée> dans l’histoire qui figurera dans le catalogue. « Découvert par <nom> ! Authentifié par le prospecteur Whelgar. » Ah, voilà que je m’emporte.\n\nLe Grand Explorateur Magellas va vous recevoir. Au vu de la nature de votre découverte, il sera sans doute d’humeur très généreuse si vous proposez d’en faire don au musée.\n\nJolie trouvaille !",
    "progress": null,
    "completion": null,
    "starters": [
@@ -874,21 +901,29 @@
     "status": null,
     "patch": null
    },
-   "placeholders": [],
+   "placeholders": [
+    "mentionné/mentionnée",
+    "nom"
+   ],
    "not_french": [],
    "wowhead": null,
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "origins": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "client_cache": 70938
    },
-   "missing": [
-    "name",
-    "objectives",
-    "description"
-   ],
-   "status": "incomplete"
+   "missing": [],
+   "status": "complete"
   }
  }
 }

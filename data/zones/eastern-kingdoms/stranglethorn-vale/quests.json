@@ -6302,9 +6302,9 @@
   },
   "97047": {
    "id": 97047,
-   "name": null,
-   "objectives": null,
-   "description": null,
+   "name": "Un cuistot en cage",
+   "objectives": "Dans la base de Kurzen, trouvez la clé de la cage de Wendel ainsi qu’un déguisement pour lui permettre de s’évader.",
+   "description": "Hé, vous, là ! Vous devez m’aider ! J’étais en train d’explorer la jungle quand cette bande de fous furieux m’a tendu une embuscade ! Je ne sais pas ce qu’ils veulent me faire, mais je les ai entendus parler de tigres et de réducteurs de têtes, et ni l’un ni l’autre ne me fait envie !\n\nJe ne sais pas comment, mais vous devez trouver quelque chose pour me sortir d’ici, je vous en prie ! La clé de la cage, un déguisement pour m’évader, n’importe quoi qui puisse marcher !",
    "progress": null,
    "completion": null,
    "starters": [],
@@ -6325,13 +6325,19 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "origins": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "client_cache": 70938
    },
    "missing": [
-    "name",
-    "objectives",
-    "description",
     "giver"
    ],
    "status": "incomplete"
@@ -6523,9 +6529,9 @@
   },
   "98463": {
    "id": 98463,
-   "name": null,
-   "objectives": null,
-   "description": null,
+   "name": "Le sujet de toutes les conversations",
+   "objectives": "Rendez visite à Nixxrax Razlebock à la taverne du Loup de mer, à Baie-du-Butin, dans la vallée de Strangleronce.",
+   "description": "Écoutez, je suis ravi de vous accueillir dans mon établissement, et c’est bien pour ça que je vous le dis.\n\nLa vraie fête ? Elle se passe à la taverne du Loup de mer, à Baie-du-Butin. Oui, dans la vallée de Strangleronce… cette Baie-du-Butin-là.\n\nNe me regardez pas comme ça. Je sais bien que l’endroit est tenu par des Gobelins. Les taverniers parlent, et les clients encore plus. Tout ce que je dis, c’est que si vous voulez voir une soirée vraiment déchaînée, c’est là-bas qu’il faut aller.\n\nNixxrax Razlebock veillera à ce que votre chope ne reste jamais vide, ne vous en faites pas.",
    "progress": null,
    "completion": null,
    "starters": [
@@ -6558,15 +6564,20 @@
    "capture": null,
    "source": {
     "foreverdb": "db 8153cf7; questie 5c094f6 2026-10-25; vmangos db-sqlite-4641790 (2026-09-28)",
-    "texts": {},
-    "origins": {}
+    "texts": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "origins": {
+     "name": "client_cache",
+     "description": "client_cache",
+     "objectives": "client_cache"
+    },
+    "client_cache": 70938
    },
-   "missing": [
-    "name",
-    "objectives",
-    "description"
-   ],
-   "status": "incomplete"
+   "missing": [],
+   "status": "complete"
   }
  }
 }
