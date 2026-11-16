@@ -38,6 +38,10 @@ du PC reste [machines.md](machines.md), à lire d'abord.
    pousser. L'audio produit (`addon/ForeverSpeech/audio/`, voix modèles neuves) attend le moyen de transfert à
    choisir ; ensuite, sur le Mac : `.venv/bin/python -m pipeline.build_index`.
 
+Depuis le 2026-11-16, l'audio du jeu est en mono 24 kHz, qualité 1 (`pipeline/voices/audio.py`) : faire l'étape 1
+avant toute génération, pour que les fichiers neufs sortent dans ce format. Un fichier fait avant (stéréo) se
+réencode depuis son master : `node tools/reencode_audio.ts`.
+
 **À ne pas faire** : refaire un audio existant ; toucher aux textes listés « differs » (réécritures de Forever, voir
 ci-dessous) ; modifier un fichier scellé pendant qu'une boucle tourne.
 
