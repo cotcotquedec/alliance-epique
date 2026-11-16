@@ -12,10 +12,12 @@
 | Boucles voix et lectures (Qwen3-TTS) | oui, MLX (lent) | **oui, CUDA : la raison d'être de ce PC** |
 | Site d'écoute (`.venv/bin/python -m tools.voices.bench`) | oui | oui (ouvrir http://127.0.0.1:8765 dans le navigateur Windows) |
 
-**Une seule machine produit à la fois.** Les données ne sont pas dans git (`data/`, `addon/ForeverSpeech/audio/`,
-`addon/ForeverSpeech/data/index.lua`) : le dossier entier est copié d'une machine à l'autre par un disque externe.
+**Une seule machine produit à la fois.** Depuis le 2026-11-16, **les registres JSON passent par git** avec le code
+(`data/zones.json`, `data/voices.json`, `data/zones/**/*.json`) : la machine qui a produit commite, l'autre tire.
+L'audio et les voix (`addon/ForeverSpeech/audio/`, `data/voices/samples/`, `data/audio/`) ne sont jamais commités ;
+le moyen de les transmettre sans disque reste à choisir (avant : le dossier entier copié par un disque externe).
+`addon/ForeverSpeech/data/index.lua` se refait après chaque échange (`.venv/bin/python -m pipeline.build_index`).
 Deux machines qui produisent en même temps donneraient deux `data/voices.json` différents, impossibles à fusionner.
-Le code, lui, passe par git.
 
 **Le dépôt a changé le 2026-11-06** : c'est [alliance-epique](https://github.com/cotcotquedec/alliance-epique)
 (public) ; l'ancien dépôt privé ForeverSpeech est archivé, en lecture seule. Sur le PC, une seule fois, dans le dossier

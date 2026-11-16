@@ -28,4 +28,4 @@ vérification du jeu à chaque build du client (`core/check.lua`, 2026-11-03).
 | Techniques des maîtres de classe (idée I2, `docs/ideas.md`) | Quand la Forever Database couvrira les techniques de Forever, ou après S13 |
 | Vérifications en jeu ouvertes (`docs/ingame/queue.md`) | Agent du Mac ; la vérification du jeu répond d'abord à la part « ce nom existe-t-il ? » |
 | Sceau de la boucle base cassé depuis le 2026-10-07 | À revoir à la prochaine mise à jour de la base |
-| Textes des quêtes sans description française (1 445 dans les registres) | Captures en jeu (Wowhead est fermé aux robots, QuestieDB n'a pas les descriptions) |
+| Textes des quêtes sans description française (1 086 quêtes « Sans FR » au 2026-11-16) | Captures en jeu, versées par `python -m pipeline.captures quests` (104 textes le 2026-11-16 ; Wowhead est fermé aux robots, QuestieDB n'a pas les descriptions) |

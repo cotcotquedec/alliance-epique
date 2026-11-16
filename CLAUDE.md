@@ -156,7 +156,7 @@ pipeline/      Python 3.11+ : foreverdb/ (import de la base), wowhead/ (lecture 
                scripts.py (scripts, sans
                Claude), narration.py, build_index.py ; le « compagnon »
                (D3) = ces commandes lancées à la main
-data/          (pas dans git, sauf accents.json) zones.json (catalogue), zones/<groupe>/<catégorie>/{quests,npcs,scripts,audio,readings}.json
+data/          (dans git depuis le 2026-11-16 : les JSON seulement, accents.json, zones.json, voices.json, zones/** ; jamais l'audio ni les voix) zones.json (catalogue), zones/<groupe>/<catégorie>/{quests,npcs,scripts,audio,readings}.json
                (registres, voir docs/data-registries.md ; D12), voices.json (fiche de personnalité, voice_text et
                voix Qwen3 par PNJ, voir docs/voices-and-text.md), accents.json (accent par race, D11), voices/samples/
                (voix modèles, banc), audio/ (masters FLAC), cache/ (Wowhead brut, boucles ; gitignore)
